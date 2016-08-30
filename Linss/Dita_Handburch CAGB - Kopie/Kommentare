@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qnp_msb_zw">
+ <title>Kommentare</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Arbeitskommentare der Bearbeiter/-innen können überall mit Hilfe des in Oxygen XML
+   Author integrierten Kommentarfuntkion notiert werden. Die kommentierte Stelle wird
+   dabei rot unterlegt, der Kommentar selbst rechts am Rand dargestellt.</p>
+  <p>Im XML selbst hinterlegt Oxygen XML Author den Kommentar als „Processing Instruction“:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<?oxy_comment_start author=“musterm“ timestamp=“20120817T101833+0200“
+comment=“überprüfen“?>kommentierte Stelle<?oxy_comment_end?>]]></codeblock><p>Durch die Verwendung von „XML Processing Instructions“ haben Bearbeitungskommentare
+keine Auswirkungen auf die Web- und Druckausgabe. Sie werden dort auch
+nicht dargestellt. Für die Kommentierung stehen in der oberen Werkzeugleiste drei
+30
+Schaltflächen zur Verfügung:</p>
+  <p>1. Kommentare hinzufügen</p>
+  <p>2. Kommentare bearbeiten</p>
+  <p>3. Kommentare verwalten</p>
+  <p>Anmerkung: Bis einschließlich Version 3 der digitalen Arbeitsumgebung wurden die Bearbeiterkommentare
+   als <![CDATA[<comment/>]]> notiert.</p>
+ </conbody>
+</concept>

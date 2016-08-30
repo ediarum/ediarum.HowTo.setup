@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_qnp_msb_zw" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="title:1;4:9">Kommentare</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="shortdesc:1;5:13"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:1;7:6">Arbeitskommentare der Bearbeiter/-innen können überall mit Hilfe des in Oxygen XML
+   Author integrierten Kommentarfuntkion notiert werden. Die kommentierte Stelle wird
+   dabei rot unterlegt, der Kommentar selbst rechts am Rand dargestellt.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:2;10:6">Im XML selbst hinterlegt Oxygen XML Author den Kommentar als „Processing Instruction“:</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="codeblock:1;11:41">&lt;?oxy_comment_start author=“musterm“ timestamp=“20120817T101833+0200“
+comment=“überprüfen“?&gt;kommentierte Stelle&lt;?oxy_comment_end?&gt;</codeblock><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:3;12:79">Durch die Verwendung von „XML Processing Instructions“ haben Bearbeitungskommentare
+keine Auswirkungen auf die Web- und Druckausgabe. Sie werden dort auch
+nicht dargestellt. Für die Kommentierung stehen in der oberen Werkzeugleiste drei
+30
+Schaltflächen zur Verfügung:</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:4;17:6">1. Kommentare hinzufügen</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:5;18:6">2. Kommentare bearbeiten</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:6;19:6">3. Kommentare verwalten</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Kommentare" xtrc="p:7;20:6">Anmerkung: Bis einschließlich Version 3 der digitalen Arbeitsumgebung wurden die Bearbeiterkommentare
+   als &lt;comment/&gt; notiert.</p>
+ </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:31;35:30" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Handschriftenbeschreibung.map"><link class="- topic/link " format="dita" href="chapter3" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="topic" xtrc="chapter:3;21:30" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handschriftenbeschreibungen</linktext></link></linkpool></related-links></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_utc_sfc_zw">
+ <title>Korrekturen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen
+   wurde, so wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang
+   <![CDATA[<subst/>]]> (substition) verbunden</p>
+  <codeblock outputclass="language-xml"><![CDATA[ganzes besseres <subst resp=”autor”><del rend=“durchgestrichen“>Sein</
+del><add place=“über“>Seyn</add></subst> sich samlen kann]]></codeblock>
+  <p><![CDATA[Der Urheber der Ergänzug muss analog zur Streichung in <subst/> notiert werden]]></p>
+ </conbody>
+</concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tcf_5pb_zw">
+ <title>Werktitel</title>
+ <shortdesc/>
+ <conbody>
+  <p>Titel von Werken werden mit<![CDATA[<title/>]]>  markiert. Das Attribut @ref verweist auf den
+   entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
+  <codeblock outputclass="language-xml"><![CDATA[<title type=”work-annotated” ref=“w347“>Probl.</bibl>]]></codeblock>
+  <p>Im Attribut @type werden – gemäß den Teuchos-Richtlinien – besondere Fälle von Werktiteln
+   notiert:</p>
+  <table>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Fall</entry>
+      <entry>Attributwert</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Das Werk wird erwähnt, aber nicht kommentiert</entry>
+      <entry>work-annotated</entry>
+     </row>
+     <row>
+      <entry>Der Titel wird (oft auf Latein oder Griechisch) umschrieben. In diesem Fall wird
+       zusätzlich das Attribut xml:lang mit entsprechendem Sprachkürzel nach ISO 639 gesetzt</entry>
+      <entry>desc</entry>
+     </row>
+     <row>
+      <entry>Kategorisierende Titel (z.B. Scholien, Lemmata etc.)</entry>
+      <entry>cat</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Kommentierte Werke werden laut Teuchos allerdings anstelle von<![CDATA[<title/> mit <ref/>]]> 
+   29
+   ausgezeichnet. Die ID aus dem Werkregister, auf die verwiesen wird, wird in @target
+   notiert. Als Wert des Attributs @type wird hier „work-commented-on“ gesetzt, ggf.
+   (ebenfalls in @type) ergänzt durch „::noncontent“, wenn das Werk in der beschriebenen
+   Handschrift nicht enthalten ist:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref type=“work-commented-on::“ target=“#w1“>Isagogen</ref>]]></codeblock>
+  <p>bzw.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref type=“work-commented-on::noncontent“ target=“#w1“>Isagogen</ref>]]></codeblock>
+  <p>In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche
+   mit Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
+ </conbody>
+</concept>

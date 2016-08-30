@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_oyd_p3c_zw">
+ <title>Korrektur durch die Herausgeber</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><![CDATA[Werden Schreibfehler des Autors im edierten Text korrigiert, so wird das Originalwort
+mit <sic/> und die Korrektur mit <corr/> ausgezeichnet; beides wird meinem <choice/>
+umschlossen.]]></p>
+  <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert=“low“>das</corr></choice>
+ich wahr rede]]></codeblock>
+  <p><![CDATA[Im Element <corr/> wird durch das Attribut @cert – wie bei <supplied/> – die Wahrscheinlichkeit
+notiert, mit der die Korrektur zutrifft.]]></p>
+ </conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ifv_xc2_xw">
+ <title>Reklamanten</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Reklamenten werden ähnlich verschachtelt notiert. Das Attribut @n des umschließenden
+   Elements p trägt hier den Wert „catchwords“:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<p n=“catchwords„>
+ <catchwords> ... </catchwords>
+</p>]]></codeblock>
+ </conbody>
+</concept>

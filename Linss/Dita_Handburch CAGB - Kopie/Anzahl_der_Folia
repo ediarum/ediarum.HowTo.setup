@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vpt_lzd_xw">
+ <title>Anzahl der Folia</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Anzahl der Folia wird ebenfalls in objectDesc/supportDesc/extent mit einem Element
+   <![CDATA[<measure/>]]> notiert. Hier trägt das Attribut @type allerdings den Wert „numleaves“:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<measure type=“numleaves“>ff. IV, 109, I‘</measure>]]></codeblock></conbody>
+</concept>

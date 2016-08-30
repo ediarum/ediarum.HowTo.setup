@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_yxc_k5z_vw">
+  <title>Lokale Datei anlegen</title>
+  <body>
+    <p>
+      Ohne Zugriff auf die online verfügbare Datenbank kann es (z.B. unterwegs oder im
+      Archiv) notwendig sein. eine Datei erst einmal lokal – also auf dem eigenen Rechner –
+      anzulegen. Das kann über das Blattsymbol links oben oder über das Menü Datei > Neu
+      geschehen.
+      Später kann die nur lokal vorhandene Datei in die Datenbank hochgeladen werden
+      (siehe nächster Abschnitt).</p>
+  </body>
+</topic>

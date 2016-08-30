@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dxm_vjz_xw">
+ <title>Bearbeiter/-in(nen)</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Der bzw. die Bearbeiter/-in(nen) der Handschrift werden in adminInfo/recordHist in
+   jeweils einem Absatz notiert:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<adminInfo>
+     <recordHist>
+       <p>Dreizehnter, Autopsie Oktober 1967</p>
+       <p>Nickel, Autopsie Oktober 1969</p>
+       <p>Reinsch, Autopsie September 1977</p></recordHist>
+   </adminInfo>]]>
+     </codeblock>
+ </conbody>
+</concept>

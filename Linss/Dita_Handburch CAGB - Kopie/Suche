@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_hcz_v1b_ww">
+ <title>Suche</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Über den Punkt „Finden/Ersetzen in Dateien“ im Kontextmenüs des Dateibaums kann
+   nach bestimmten Wörtern oder Wortteilen gesucht werden.</p>
+  <p>Das Verzeichnis, in dem gesucht werden soll, wird dadurch bestimmt, welcher Ordner
+   (bzw.) auch Datei bei Aufruf des Kontextmenüs ausgewählt wird. Soll beispielsweise
+   nur in den Briefen gesuchten werden, so muss das Kontextmenü mit einem rechten
+   Mausklick auf dem Ordner „briefe“ aufgerufen werden.</p>
+ </conbody>
+</concept>

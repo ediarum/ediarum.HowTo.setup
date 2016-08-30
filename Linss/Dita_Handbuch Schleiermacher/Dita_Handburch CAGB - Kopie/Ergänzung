@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_enc_mfc_zw">
+ <title>Ergänzungen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]> 
+   (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt:</p>
+  <codeblock outputclass="language-xml"><![CDATA[aber nimmermehr im Stande <add place=“mit Einfügungszeichen über der
+Zeile“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codeblock>
+  <p>Die Angabe des Ortes sollte nach Möglichkeit mit weitgehend standardisierten Formeln
+   wieder gegeben werden. Der Urheber der Ergänzug muss analog zur Streichung notiert
+   werden.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zcr_src_xw">
+ <title>Wasserzeichen</title>
+ <shortdesc/>
+ <conbody>
+  <p>Wasserzeichen werden ebenfalls in einem<![CDATA[<p>]]>in support notiert, allerdings als
+   Liste.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<p n=“watermarkDesc“>
+ <list>
+  <item>...</item>
+  <item>...</item>
+ </list>
+</p>]]></codeblock>
+ </conbody>
+</concept>

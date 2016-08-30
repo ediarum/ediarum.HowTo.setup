@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_xbs_x4c_zw" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="title:1;4:9">Allgemein</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="shortdesc:1;5:13">Wie lösche ich ein einfaches Element in der Autorenansicht?</shortdesc>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:1;7:6">Einfaches Element: Setzen Sie den Cursor in das Element, d.h. z.B. in die farbige
+   Markierung
+  eines Ortsnamens. Drücken Sie nun die Tastenkombination Alt + Umschalt + X. Das
+  umgebende Element wird dadurch gelöscht.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:2;11:6"/>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:3;12:6">Wie kann ich ein Strukturelement aus der Handschriftenbeschreibung löschen?</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:4;13:6">Klicken Sie in das Element und wählen Sie dann das ganze Element mit Hilfe</p>
+  
+  <image href="Abb.Allgemein.png" width="12cm" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="image:1;15:48" dita-ot:image-width="644" dita-ot:image-height="270" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:5;16:7"/>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:6;17:6">Oxygen XML meldet „Der eingefügte Inhalt ist an dieser Stelle nicht erlaubt“. Was
+   soll ich tun?</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Allgemein" xtrc="p:7;19:6">Unter Umständen kann es vorkommen, dass Oxygen XML beim Arbeiten mit Elementen
+   das Problem meldet: „Der eingefügte Inhalt ist an dieser Stelle nicht erlaubt“. Das passiert
+   dann, wenn eine Einfügung von Elementen nicht dem Schema entsprechen würde.
+   Oxygen XML bietet dann mehrere Optionen an, wie das Element stattdessen schemakonform
+   eingefügt werden könnte. Grundsätzlich sind alle Optionen außer „at current
+   position, even if invalid“ empfehlenswert. Wenn Sie Fragen haben oder diese Meldung
+   öfters auftaucht, wenden Sie sich an uns.</p>
+ </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:1;5:29" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Tipps.map"><link class="- topic/link " format="dita" href="Tipps" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="concept" xtrc="chapter:6;30:27" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Tipps &amp; Tricks</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></concept>

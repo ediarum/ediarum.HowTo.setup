@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_kcr_14b_zw">
+ <title>Personennamen</title>
+ <shortdesc/>
+ <conbody>
+  <p>Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
+   <![CDATA[<persName>]]> ausgezeichnet. Das Attribut @ref verweist hier auf den entsprechenden
+   Registereintrag.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<persName ref=”cagbid:p123” role=”annotator”>Juan Pacheco</persName>]]></codeblock>
+  <p>Das Attribut @role gibt den Kontext wieder, in dem der Personenname erwähnt wird. Es muss nach
+   Teuchos auf jeden Fall gesetzt werden. Folgende Werte sind vom Handschriftenzentrum Teuchos für
+   das Attribut @role vorgesehen:</p>
+  <p>a) Autor</p>
+  <table>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Rolle im Kontext</entry>
+      <entry>Attributwert</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry><p>Autor</p><p> Der Autor wird ohne direkten Funktionsbezug genannt. „… schließt sich
+        sodann ein längeres wörtliches Zitat vom Anfang der Paraphrase
+        des<![CDATA[ <persName role=“author“>Ps.-Heliodor</persName>]]> zum ersten Buch … an (CAG
+        XIX 2, S. 1, 5–22).“</p></entry>
+      <entry>author</entry>
+     </row>
+     <row>
+      <entry><p>Autor: in der vorliegenden Handschrift enthalten</p>
+       <p>(Teuchos: Autor mit Werk in Handschrift enthalten)</p> Das Werk des Autors ist in der
+       Handschrift ganz oder teilweise enthalten. Das gilt auch bei dem Verweis „teilweise identisch
+       mit“, es sein denn, der Autor wurde im Textverlauf schon einmal als „author-contained“
+       getagged. Dann genügt das Attribut „author“.</entry>
+      <entry>author-contained</entry>
+     </row>
+     <row>
+      <entry><p>Autor ähnlicher Texte</p> (Teuchos: Autor mit Ähnlichkeit zu anderen Texten in der
+       Handschrift) Es wird auf eine Ähnlichkeit verwiesen. Signalwörter können „nach“ oder
+       „ähnlich“ sein.</entry>
+      <entry>author-similiar</entry>
+     </row>
+     <row>
+      <entry><p>Autor: kommentiert etc.</p> (Teuchos: Autor nicht in Handschrift enthalten, aber mit
+       Bezug) Der Autor eines Textes, der in der Handschrift nicht enthalten ist, der aber
+       beispielsweise kommentiert wird.</entry>
+      <entry>author-referred</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>b) Weitere Personen</p>
+  <table>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Rolle</entry>
+      <entry>Attributwert</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Kommentator</entry>
+      <entry>annotator</entry>
+     </row>
+     <row>
+      <entry>Schreiber</entry>
+      <entry>scribe</entry>
+     </row>
+     <row>
+      <entry>Korrektor</entry>
+      <entry>corrector</entry>
+     </row>
+     <row>
+      <entry>Besitzer</entry>
+      <entry>owner</entry>
+     </row>
+     <row>
+      <entry>Auftraggeber</entry>
+      <entry>patron</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

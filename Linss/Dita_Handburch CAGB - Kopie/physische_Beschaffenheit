@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_yp5_frc_xw">
+ <title>Physische Beschaffenheit</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die physische Beschaffenheit der Handschrift wird komplett in msDesc/physDesc notiert.
+   Alle nachfolgend aufgeführten Notierungen werden von diesem Element umschlossen.
+   Die Strukurangaben sind daher immer relativ zu physDesc zu sehen.</p>
+ </conbody>
+</concept>

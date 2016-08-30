@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ung_rlc_zw">
+ <title>Vita</title>
+ <shortdesc/>
+ <conbody>
+  <p>Angaben zum Lebenslauf werden im Abschnitt „Vita“ (div[@type=‘life‘]) mit einfachen Absätzen
+   hinterlegt. Falls vorhanden, können Angaben zu einer Festschrift, in einem Unterabschnitt zu Vita
+   notiert werden.</p>
+ </conbody>
+</concept>

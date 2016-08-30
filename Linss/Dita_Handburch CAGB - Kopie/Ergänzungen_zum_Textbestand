@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_l5c_xf2_xw">
+ <title>Ergänzungen zum Textbestand</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Ergänzungen zum Textbestand werden in additions mit ggf. mehreren Absätzen notiert:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<additions>
+ <p n=“additional“>Am Rand gelegentlich Lemmata, Zählungen und Diagramme.</p>
+</additions>]]></codeblock>
+  <p>Die Absätze tragen zusätzlich das Attribut @n=“additional“.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_u42_wvc_xw">
+ <title>Nachweis</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Strukturelemente, um den Nachweis der Handschrift zu notieren, sind standardmäßig
+   schon in der Dateivorlage „Handschriftenbeschreibung“ enthalten. Über das Menü
+   „Nachweis“ können lediglich alternative Nachweise hinzugefügt werden.</p>
+ </conbody>
+</concept>

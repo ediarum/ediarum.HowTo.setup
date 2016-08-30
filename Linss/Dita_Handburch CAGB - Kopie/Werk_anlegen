@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bcf_nnc_zw">
+ <title>Neue Werk anlegen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Neue Werke können einfach ergänzt werden, in dem der Cursor in dem schon vorhandenen
+   Werk platziert wird, hinter dem das neue Werk eingetragen werden soll und
+   die entsprechende Schaltfläche gedrückt wird. Ist der Cursor außerhalb eines Werkes
+   platziert wird das neue Werk am Ende der Datei eingefügt. Beim Erstellen eines neuen
+   Werkes wird automatisch nach Titel und Typ gefragt. Als Typwerte stehen zur Auswahl:</p>
+  <p>• [nicht spezifiziert]</p>
+  <p> • Paraphrase </p>
+  <p>• Selbständiger Text </p>
+  <p>• Scholie </p>
+  <p>• Paratext </p>
+  <p>• Exzerpte </p>
+  <p>• Redaktion</p>
+ </conbody>
+</concept>

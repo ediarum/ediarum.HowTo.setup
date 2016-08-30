@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_u25_3rb_zw">
+ <title>Orte und Institutionen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit<![CDATA[<placeName/>]]> 
+   ausgezeichnet werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<placeName>Genua</placeName>]]></codeblock>
+  <p>Ebenso können Instituionsnamen ausgezeichnet werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<orgName>Bibliothek in Alexandrien</orgName>]]></codeblock>
+  <p>Beide Auszeichnungen werden nicht mit einem Register verknüpft. Sie können allerdings
+   ggf. in der Webausgabe mit genau gleich lautenden, ebenfalls ausgezeichneten
+   anderen Orts- bzw. Institutionsangaben verknüpft werden.</p><p>Für beide Elemente steht jeweils eine entsprechende Schaltfläche in Oxygen XML Author
+    zur Verfügung.</p>
+ </conbody>
+</concept>

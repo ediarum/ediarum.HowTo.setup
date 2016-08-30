@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_j2c_dbb_ww">
+    <title>Einfache Suche</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Über den Punkt „Finden/Ersetzen in Dateien“ im Kontextmenüs des Dateibaums kann
+                nach bestimmten Wörtern oder Wortteilen gesucht werden.</p>
+            <p>Das Verzeichnis, in dem gesucht werden soll, wird dadurch bestimmt, welcher Ordner
+                (bzw.) auch Datei bei Aufruf des Kontextmenüs ausgewählt wird. Soll beispielsweise
+                nur in den Briefen gesuchten werden, so muss das Kontextmenü mit einem rechten
+                Mausklick auf dem Ordner „briefe“ aufgerufen werden.</p>
+                
+        </context>
+        <steps>
+            <step>
+                <cmd>Rechter Mausklick auf das Verzeichnis, das durchsucht werden soll.</cmd>
+            </step>
+            <step>
+                <cmd>Im erscheinenden Kontextmenü „Finden/Ersetzen in Dateien“ auswählen.</cmd>
+            </step>
+            <step>
+                <cmd>Im erscheinenden Dialogfenster den Suchbegriff (oder mehrere Begriffe) im ersten
+                    Eingabefeld eintragen.</cmd>
+            </step>
+            <step>
+                <cmd>Darauf achten, dass „Unterverzeichnisse einbeziehen“ angekreuzt ist.</cmd>
+            </step>
+            <step>
+                <cmd>Auf [Alle suchen] klicken</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

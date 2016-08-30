@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_xmq_wh2_xw">
+ <title>Einband</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Art und Beschaffenheit des Einbands wird in bindingDesc/binding mit ggf. mehreren
+   Absätzen notiert:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<bindingDesc>
+ <binding>
+  <p> ... </p>
+  <p> ... </p>
+ </binding>
+</bindingDesc>]]></codeblock>
+ </conbody>
+</concept>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_gjh_kcc_zw">
+ <title>Seiten- bzw. Foliowechsel</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element <![CDATA[<pb>]]>
+   (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht um die
+   Foliazählung das Manuskript handelt, sondern eines Drucks oder einer Abschrift handelt;
+   @n enthält die Seiten- bzw. Foliozahl.</p>
+  <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“ />völliger Unkunde lässest]]></codeblock>
+  <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt.
+   Ist die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt.</p>
+ </conbody>
+</concept>

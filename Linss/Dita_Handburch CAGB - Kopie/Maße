@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zbb_byd_xw">
+ <title>Maße</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Maße der folia einer Handschrift werden in objectDesc/supportDesc/extent notiert.
+   Wenn nur zwei eindeutige Angaben für Höhe und Breite der Handschrift vorliegen,
+   werden die Maße folgendermaßen im Element <![CDATA[<measure type=“leafsize“/> notiert1:]]></p>
+  <codeblock outputclass="language-xml"><![CDATA[<measure type=”leafsize”>
+ <dimensions unit=”mm”>
+  <height>290</height>
+  <width>200</width>
+ </dimensions>
+</measure>]]></codeblock>
+  <p>Ansonsten werden die Angaben als normaler Text mit ggf. weiteren Inlineauszeichnungen
+   in<![CDATA[ <measure/>]]> notiert:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<measure type=“leafsize„>mm 290 x 200 (außer ff. <locus
+from=“270r“>270</locus>-<locus from=“296r“>296</locus>: mm 235 x 155)</
+measure>]]></codeblock>
+ </conbody>
+</concept>

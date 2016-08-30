@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_kmw_bbc_zw">
+ <title>Liste</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Listen im Manuskript werden mit <![CDATA[<list/> (bzw. mit <item>]]>  die einezlnen Punkte) ausgezeichnet.
+   Je nach Art der Liste – nummiert oder unnummeriert – wird der Wert des
+   Attributs @type auf „ordered“ oder „unordered“ gesetzt. Das Attribut wird bei Benutzung
+   der Schaltflächen automatisch zugewiesen.</p>
+ </conbody>
+</concept>

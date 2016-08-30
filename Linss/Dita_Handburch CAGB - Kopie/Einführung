@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_fgh_l12_vw">
+  <title>Einführung</title>
+  <body>
+    <p>Die digitale Arbeitsumgebung für das Akademievorhaben „Commentaria in Aristotelem
+      Graeca et Byzantina“ (CAGB) besteht hauptsächlich aus zwei Komponenten: einer
+      Datenbank mit XML-Dokumenten sowie der Software „Oxygen XML Author“, mit der
+      die Inhalte der Datenbank (Handschriftenbeschreibungen, Transkriptionen und Register)
+      bearbeitet werden können.</p>
+  </body>
+</topic>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp\oxygen_dita_temp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/oxygen_dita_temp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="task_jzd_brc_zw" xtrc="task:1;3:28" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Installation</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:17" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install"/><prolog class="- topic/prolog "><author class="- topic/author " xtrc="author:1;12:17" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap">Berlin-Brandenburgische Akademie der Wissenschaften TELOTA -Arbeitsgruppe
+            Jägerstraße 22–23 10117 Berlin</author></prolog>
+    <taskbody class="- topic/body task/taskbody " xtrc="taskbody:1;6:15" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+        <context class="- topic/section task/context " xtrc="context:1;7:18" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+            <p class="- topic/p " xtrc="p:1;8:16" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Um einem Mitarbeiter bzw. einer Mitarbeiterin die digitale Arbeitsumgebung
+                bereitzustellen</p>
+            <p class="- topic/p " xtrc="p:2;10:16" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">sind folgende Schritte notwendig:</p>         
+        </context>
+        <steps class="- topic/ol task/steps " xtrc="steps:1;12:16" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+            <step class="- topic/li task/step " xtrc="step:1;13:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:1;14:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Anlegen eines Benutzeraccounts für die Datenbank im Webstartclient von eXist</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:2;16:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:2;17:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Installation von Oxygen XML Author 14.2 auf dem Rechner</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:3;19:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:3;20:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Start des Programms Oxygen XML Author</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:4;22:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:4;23:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">BBAW-Lizenzschlüssel eingeben</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:5;25:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:5;26:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">In „Optionen &gt; Einstellungen“: „Add-ons“: URL der Update Site (siehe unten) eintragen
+                    und Checkbox „Enable automatic Updates checking“ aktivieren; „Oxygen XML
+                    UpdateSite“ löschen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:6;30:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:6;31:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Add-on für CAGB über „Hilfe &gt; Manage Add-ons“ installieren („Aktualisieren“, „Installieren“
+                    und Sicherheitshinweis bestätigen)</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:7;34:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:7;35:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Globale Optionen aus dem Frameworkordner importieren (am besten den Pfad per
+                    Eingabe von „%APPDATA %“ im Dateinfeld (unten im Datei-Auswählen-Dialog) herausfinden)</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:8;38:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:8;39:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Unter „Optionen &gt; Einstellungen &gt; Perspektivisches Layout“ auf Layoutdatei in
+                    Frameworkordner (jetzt vorausgewählt) verlinken</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:9;42:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:9;43:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Benutzername und Passwort in die Datenquellenkonfiguration eintragen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:10;45:19" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:10;46:22" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Install">Programm neu starten</cmd>
+            </step>
+        </steps>
+    </taskbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:1;5:27" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Installation.map"><link class="- topic/link " format="dita" href="Installation" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="concept" xtrc="chapter:8;36:34" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Installation</linktext><?ditaot genshortdesc?><desc class="- topic/desc "/></link></linkpool></related-links></task>

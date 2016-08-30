@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uj2_x1c_zw">
+ <title>Zeilenumbruch</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit
+   dem leeren Element <![CDATA[<lb/> ]]>(linebreak) notiert werden. Im Autormodus wird dann automatisch
+   ein Zeilenumbruch (vor dem Element) angezeigt. In der weiteren Verarbeitungen
+   können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden.</p>
+  <p>Der Zeilenumbruch kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L]
+   gesetzt werden.</p>
+ </conbody>
+</concept>

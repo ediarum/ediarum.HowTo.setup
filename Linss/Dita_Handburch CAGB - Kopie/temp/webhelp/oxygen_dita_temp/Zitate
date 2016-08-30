@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp\oxygen_dita_temp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/oxygen_dita_temp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " id="concept_o5c_skb_zw" xtrc="concept:1;3:34" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+ <title class="- topic/title " xtrc="title:1;4:9" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Zitate</title>
+ <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate"/><prolog class="- topic/prolog "><author class="- topic/author " xtrc="author:1;12:17" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap">Berlin-Brandenburgische Akademie der Wissenschaften TELOTA -Arbeitsgruppe
+            Jägerstraße 22–23 10117 Berlin</author></prolog>
+ <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;6:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+  <p class="- topic/p " xtrc="p:1;7:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Zitate aus der Handschrift werden mit dem Element &lt;q&gt; gekennzeichnet. In Attribut
+   @xml:lang muss die entsprechende Sprache als Sprachkürzel nach ISO 639 hinterlegt werden (d.h.
+   „grc“ oder „lat“).</p>
+  <p class="- topic/p " xtrc="p:2;10:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate"><codeblock class="+ topic/pre pr-d/codeblock " outputclass="language-xml" xml:space="preserve" xtrc="codeblock:1;10:44" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">&lt;q xml:lang=“grc“ type=“subscription“&gt;κωνσταντῖνος ὁ λάσκαρις
+ἐκγπάψας ἐν μεδιολάνῳ ἐχπῆτο.&lt;/q&gt;</codeblock></p>
+  <p class="- topic/p " xtrc="p:3;12:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Im Attribut type wird dabei der Zitattyp notiert. Nach Teuchos stehen folgende Werrte zur
+   Auswahl:</p>
+  <table class="- topic/table " xtrc="table:1;14:10" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+   <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:1;15:21" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+    <colspec class="- topic/colspec " colname="col1" colnum="1"/><colspec class="- topic/colspec " colname="col2" colnum="2"/><thead class="- topic/thead " xtrc="thead:1;16:12" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+     <row class="- topic/row " xtrc="row:1;17:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;18:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Bezeichnung</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;19:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Wert im Attribut @type</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrc="tbody:1;22:12" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+     <row class="- topic/row " xtrc="row:2;23:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;24:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Textbeginn</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;25:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">inc</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:3;27:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;28:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Textbeginn, Anfang fehlt</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;29:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">inc-mut</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:4;31:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;32:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Textende, auch bei der Angabe „der Text ist vorhanden bis ...“</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;33:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">des</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:5;35:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;36:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Textende, Schluss fehlt</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;37:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">des-mut</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:6;39:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;40:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Fehlender Text</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;41:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">missing</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p class="- topic/p " xtrc="p:4;46:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Die oben stehenden Attribute sind mit den nachfolgenden kombinierbar. Sie werden mittels „::“
+   verbunden.</p>
+  <table class="- topic/table " xtrc="table:2;48:10" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+   <tgroup class="- topic/tgroup " cols="2" xtrc="tgroup:2;49:21" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+    <colspec class="- topic/colspec " colname="col1" colnum="1"/><colspec class="- topic/colspec " colname="col2" colnum="2"/><thead class="- topic/thead " xtrc="thead:2;50:12" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+     <row class="- topic/row " xtrc="row:7;51:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:13;52:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Bezeichnung</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:14;53:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Wert im Attribut @type</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrc="tbody:2;56:12" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+     <row class="- topic/row " xtrc="row:8;57:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:15;58:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Überschrift</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:16;59:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">rubric</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:9;61:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:17;62:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Subskription</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:18;63:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">subscription</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:10;65:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:19;66:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Schreibernotiz</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:20;67:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">note-scribal</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:11;69:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:21;70:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Besitznotiz / ex libris</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:22;71:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">note-owner</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:12;73:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:23;74:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">annotation</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:24;75:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Anmerkung / Kommentar</entry>
+     </row>
+     <row class="- topic/row " xtrc="row:13;77:11" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">
+      <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:25;78:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Dichtung</entry>
+      <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:26;79:14" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">verse</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p class="- topic/p " xtrc="p:5;84:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">In Oxygen XML Author steht zum Auszeichnen von Zitaten eine Funktion bereit, die entsprechende
+   Auswahllisten für die Attribute und ihre Werte bietet.</p>
+  <p class="- topic/p " xtrc="p:6;86:6" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Zitate">Im Author und auf der Website werden Zitate prinzipiell in einer anderen Schriftart (DejaVu
+   Serif) dargestellt, damit griechische Zitate korrekt wiedergegeben werden.</p>
+ </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:23;27:26" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Handschriftenbeschreibung.map"><link class="- topic/link " format="dita" href="chapter3" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="topic" xtrc="chapter:3;21:30" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handschriftenbeschreibungen</linktext></link></linkpool></related-links></concept>

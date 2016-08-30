@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_jbh_sjz_xw">
+ <title>Weitere Informationen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Weitere Informationen, d.h. Bearbeiter und Bibliographie wird in additional notiert.
+   Alle nachfolgend aufgeführten Notierungen werden von diesem Element umschlossen.
+   Die Pfadangaben sind daher auch immer relativ zu additional zu sehen.</p>
+ </conbody>
+</concept>

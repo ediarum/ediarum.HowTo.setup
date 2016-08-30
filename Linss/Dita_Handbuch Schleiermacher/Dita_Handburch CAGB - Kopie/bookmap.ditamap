@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<?xml-stylesheet type="text/css" href="../prince-10r7-win32/style/common.css"?>
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
+            Handbuch</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <shortdesc>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
+            Handbuch</shortdesc>
+        <author>Berlin-Brandenburgische Akademie der Wissenschaften TELOTA -Arbeitsgruppe
+            Jägerstraße 22–23 10117 Berlin</author>
+    </bookmeta>
+    <chapter href="Einführung">
+        <mapref href="Einf%C3%BChrung.map"/>
+    </chapter>
+    <chapter href="Allgemeine_Bedienung">
+        <mapref href="Allgemeine_Bedienung.map"/>
+        <mapref href="Werkzeugleiste.cagb"></mapref>
+    </chapter>
+    <chapter href="chapter3">
+        <mapref href="Handschriftenbeschreibung.map"/>
+    </chapter>
+    <chapter href="Kap.Textauszeichnungen_in_Transkriptionen">
+        <mapref href="Textauszeichnung.Transkription"/>
+    </chapter>
+    <chapter href="Register">
+        <mapref href="Register.map"/>
+    </chapter>
+    <chapter href="Tipps">
+        <mapref href="Tipps.map"/>
+    </chapter>
+    <chapter href="Website">
+    <mapref href="Website.map"/>
+    </chapter>
+    <chapter href="Installation">
+        <mapref href="Installation.map"/>
+    </chapter>
+</bookmap>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Textauszeichnung in Transkription</title>
+ <topicref href="Textauszeichnungen"></topicref>
+ <topicref href="Struktur_Manuskript"></topicref>
+ <topicref href="Absatz"></topicref>
+ <topicref href="Zeilenumbruch"></topicref>
+ <topicref href="Liste"></topicref>
+ <topicref href="Gedicht"></topicref>
+ <topicref href="Anmerkung_des_Autors"></topicref>
+ <topicref href="Seiten-Foliowechsel"></topicref>
+ <topicref href="Arbeiten_im_Manuskript"></topicref>
+ <topicref href="Unterstreichungen"></topicref>
+ <topicref href="Farbige_Hervorhebungen"></topicref>
+ <topicref href="Streichung"></topicref>
+ <topicref href="Ergänzung"></topicref>
+ <topicref href="Korrekturen"></topicref>
+ <topicref href="Textauszeichnungen_des_Herausgebers"></topicref>
+ <topicref href="Unsichere_Lesarten"></topicref>
+ <topicref href="Nicht_lesbare_Wörter"></topicref>
+ <topicref href="Ergänzung.textauszeichnungen"></topicref>
+ <topicref href="Streichung_Herausgeber"></topicref>
+ <topicref href="Korrektur_Herausgeber"></topicref>
+ <topicref href="Weitere_Auszeichnungen"></topicref>
+ <topicref href="Relationen"></topicref>
+ <topicref href="BearbeitungsStatus"></topicref>
+</map>

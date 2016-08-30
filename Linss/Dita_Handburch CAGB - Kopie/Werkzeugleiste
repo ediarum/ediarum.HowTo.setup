@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_lwy_3wz_vw">
+ <title>Die Werkzeugleiste</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Oxygen XML Author verfügt in der Autorenansicht (zu den verschiedenen Ansichten
+   siehe nächsten Abschnitt) über mehrere Werkzeugleisten, die Zugriff auf die benötigte
+   nAktionen bietete. Die obere linke Werkzeugleiste umfasst die allgemeinen Aktionen,
+   wie z.B. Datei öffnen oder Druckausgabe. Die obere rechte Leiste umfasst Aktionen zur
+   Erstellung von Bearbeitungskommentaren und dem Einfügen von Transkriptions- und
+   Notizfeld in eine Handschriftenbeschreibung. Die mittlere Werkzeugleiste bietet die
+   Funktionen zur Erstellung der Handschriftenbeschreibung. Die untere bietet Funktionen
+   zur Auszeichnung von Textphänomenen in der Transkription.</p>
+ </conbody>
+</concept>

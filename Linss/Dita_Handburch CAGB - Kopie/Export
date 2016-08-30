@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_cby_htb_zw">
+ <title>Export</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Bearbeitungskommentare, Markierungen und das große Kommentarfeld werden</p>
+  <p>beim Export nach Teuchos nicht mit übermittelt.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Register</title>
+ <topicref href="Personen"/>
+ <topicref href="Personendatei_anlegen"/>
+ <topicref href="Name_Lebensdaten"/>
+ <topicref href="Vita"/>
+ <topicref href="Info_Person"/>
+ <topicref href="Werke"/>
+ <topicref href="Werk_anlegen"/>
+ <topicref href="Elemente_Werkeintrag"/>
+</map>

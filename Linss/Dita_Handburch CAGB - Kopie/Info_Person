@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_v4x_hmc_zw">
+ <title>Weitere Informationen zur Person</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>In weiteren Abschnitten können andere Informationen, wie Titel oder Publikationen
+   der Person notiert werden. Der Aufbau ist dabei immer gleich, lediglich der Wert von
+   @subtype sowie der Inhalt von <![CDATA[<head/>]]> wird anders gesetzt. Beispiel:</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<div type=“section“ subtype=“publications“>
+   <head type=“publications“>Werke</head>
+   <p>Gesammelte Abhandlungen. ...</p>
+   <p>Heraclitea. ...</p>
+   <div type=“subsection“ subtype=“letters“>
+      <head type=“letters“>Briefe</head>
+      <p>...</p>
+   </div>
+</div>]]></codeblock>
+  <p>Als mögliche Abschnitte stehen zur Verfügung:</p>
+  <table>
+   <tgroup cols="3">
+    <thead>
+     <row>
+      <entry>Bezeichnung</entry>
+      <entry>Attributwert von @type</entry>
+      <entry>Bemerkungen</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Titel/Beruf</entry>
+      <entry>titles</entry>
+      <entry/>
+     </row>
+     <row>
+      <entry>Werke</entry>
+      <entry>publications</entry>
+      <entry>Möglicher Unterabschnitt
+       ist „Briefe“ (letters);
+       außerdem können noch
+       nach Bedarf individuelle
+       Untergruppen eingefügt
+       werden</entry>
+     </row>
+     <row>
+      <entry>Quellen</entry>
+      <entry>sources</entry>
+      <entry>Möglicher Unterabschnitt
+       ist „Würdigungen“ (otherbio);
+       außerdem können
+       noch nach Bedarf individuelle
+       Untergruppen eingefügt
+       werden</entry>
+     </row>
+     <row>
+      <entry>Sekundärliteratur</entry>
+      <entry>literature</entry>
+      <entry></entry>
+     </row>
+     <row>
+      <entry>Probleme</entry>
+      <entry>problems</entry>
+      <entry></entry>
+     </row>
+     <row>
+      <entry>Bildnisse</entry>
+      <entry>depictions</entry>
+      <entry></entry>
+     </row>
+     <row>
+      <entry>Nachlass</entry>
+      <entry>legacy</entry>
+      <entry></entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

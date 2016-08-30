@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tgd_sb1_ww">
+ <title>Ansichten</title>
+ <shortdesc/>
+ <conbody>
+  <p>Oxygen XML Author verfügt über drei verschiedene Ansichtsmodi, um ein XML-Dokument zu
+   betrachten. Die Ansicht kann über die Leiste am unteren Rand des Hauptfensters gewechselt
+   werden.</p>
+  <p><image href="Abb.Ansichten.png" width="15cm"/>
+  </p>
+ </conbody>
+</concept>

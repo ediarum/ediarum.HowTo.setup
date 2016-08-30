@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_kcr_14b_zw" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="title:1;4:9">Personennamen</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="shortdesc:1;5:14"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:1;7:6">Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
+   &lt;persName&gt; ausgezeichnet. Das Attribut @ref verweist hier auf den entsprechenden
+   Registereintrag.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="codeblock:1;10:41">&lt;persName ref=”cagbid:p123” role=”annotator”&gt;Juan Pacheco&lt;/persName&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:2;11:6">Das Attribut @role gibt den Kontext wieder, in dem der Personenname erwähnt wird. Es muss nach
+   Teuchos auf jeden Fall gesetzt werden. Folgende Werte sind vom Handschriftenzentrum Teuchos für
+   das Attribut @role vorgesehen:</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:3;14:6">a) Autor</p>
+  <table class="- topic/table " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="table:1;15:10">
+   <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="tgroup:1;16:21">
+    <colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><thead class="- topic/thead " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="thead:1;17:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:1;18:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:1;19:14" colname="col1" dita-ot:x="1" dita-ot:y="1">Rolle im Kontext</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:2;20:14" colname="col2" dita-ot:x="2" dita-ot:y="1">Attributwert</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="tbody:1;23:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:2;24:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:3;25:14" colname="col1" dita-ot:x="1" dita-ot:y="2"><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:4;25:17">Autor</p><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:5;25:29"> Der Autor wird ohne direkten Funktionsbezug genannt. „… schließt sich
+        sodann ein längeres wörtliches Zitat vom Anfang der Paraphrase
+        des &lt;persName role=“author“&gt;Ps.-Heliodor&lt;/persName&gt; zum ersten Buch … an (CAG
+        XIX 2, S. 1, 5–22).“</p></entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:4;29:14" colname="col2" dita-ot:x="2" dita-ot:y="2">author</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:3;31:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:5;32:14" colname="col1" dita-ot:x="1" dita-ot:y="3"><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:6;32:17">Autor: in der vorliegenden Handschrift enthalten</p>
+       <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:7;33:11">(Teuchos: Autor mit Werk in Handschrift enthalten)</p> Das Werk des Autors ist in der
+       Handschrift ganz oder teilweise enthalten. Das gilt auch bei dem Verweis „teilweise identisch
+       mit“, es sein denn, der Autor wurde im Textverlauf schon einmal als „author-contained“
+       getagged. Dann genügt das Attribut „author“.</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:6;37:14" colname="col2" dita-ot:x="2" dita-ot:y="3">author-contained</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:4;39:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:7;40:14" colname="col1" dita-ot:x="1" dita-ot:y="4"><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:8;40:17">Autor ähnlicher Texte</p> (Teuchos: Autor mit Ähnlichkeit zu anderen Texten in der
+       Handschrift) Es wird auf eine Ähnlichkeit verwiesen. Signalwörter können „nach“ oder
+       „ähnlich“ sein.</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:8;43:14" colname="col2" dita-ot:x="2" dita-ot:y="4">author-similiar</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:5;45:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:9;46:14" colname="col1" dita-ot:x="1" dita-ot:y="5"><p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:9;46:17">Autor: kommentiert etc.</p> (Teuchos: Autor nicht in Handschrift enthalten, aber mit
+       Bezug) Der Autor eines Textes, der in der Handschrift nicht enthalten ist, der aber
+       beispielsweise kommentiert wird.</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:10;49:14" colname="col2" dita-ot:x="2" dita-ot:y="5">author-referred</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="p:10;54:6">b) Weitere Personen</p>
+  <table class="- topic/table " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="table:2;55:10">
+   <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="tgroup:2;56:21">
+    <colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><thead class="- topic/thead " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="thead:2;57:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:6;58:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:11;59:14" colname="col1" dita-ot:x="1" dita-ot:y="1">Rolle</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:12;60:14" colname="col2" dita-ot:x="2" dita-ot:y="1">Attributwert</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="tbody:2;63:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:7;64:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:13;65:14" colname="col1" dita-ot:x="1" dita-ot:y="2">Kommentator</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:14;66:14" colname="col2" dita-ot:x="2" dita-ot:y="2">annotator</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:8;68:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:15;69:14" colname="col1" dita-ot:x="1" dita-ot:y="3">Schreiber</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:16;70:14" colname="col2" dita-ot:x="2" dita-ot:y="3">scribe</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:9;72:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:17;73:14" colname="col1" dita-ot:x="1" dita-ot:y="4">Korrektor</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:18;74:14" colname="col2" dita-ot:x="2" dita-ot:y="4">corrector</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:10;76:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:19;77:14" colname="col1" dita-ot:x="1" dita-ot:y="5">Besitzer</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:20;78:14" colname="col2" dita-ot:x="2" dita-ot:y="5">owner</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="row:11;80:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:21;81:14" colname="col1" dita-ot:x="1" dita-ot:y="6">Auftraggeber</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Personennamen" xtrc="entry:22;82:14" colname="col2" dita-ot:x="2" dita-ot:y="6">patron</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:27;31:33" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Handschriftenbeschreibung.map"><link class="- topic/link " format="dita" href="chapter3" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="topic" xtrc="chapter:3;21:30" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handschriftenbeschreibungen</linktext></link></linkpool></related-links></concept>

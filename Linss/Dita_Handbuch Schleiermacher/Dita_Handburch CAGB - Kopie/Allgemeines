@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ch1_rpc_xw">
+ <title>Nachweis</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die Strukturelemente, um den Nachweis der Handschrift zu notieren, sind standardmäßig schon in
+   der Dateivorlage „Handschriftenbeschreibung“ enthalten. Über das Menü „Nachweis“ können lediglich
+   alternative Nachweise hinzugefügt werden.</p>
+  <p>In der Autorenansicht können diese Daten direkt in den entsprechenden Feldern bearbeitet
+   werden. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<msIdentifier>
+ <country>Spanien</country>
+  <settlement>Madrid</settlement>
+   <repository>Biblioteca Nacional</repository>
+   <idno>Matr. 4630</idno>
+   <altIdentifier n=“unchecked“>
+    <idno>N109</idno>
+   </altIdentifier>
+</msIdentifier>]]></codeblock>
+ </conbody>
+</concept>

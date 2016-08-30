@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_o1f_gbc_zw">
+ <title>Gedicht</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Gedichte müssen eigens ausgezeichnet werden. Während die Versgruppe bzw. Strophe
+   mit<![CDATA[<lg type=“versgruppe“ /> gekennzeichnet wird, wird die einzelne Verszeile mit <l>]]> 
+    umschlossen. Alle Strophen werden nochmals von einem lg umschlossen.</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<lg type=”gedicht>
+  <lg type=”versgruppe”>
+    <l>Nim den Kuß der wahren Freundes Liebe</l>
+    <l>Deute Dir die zarten ernsten Triebe</l>
+    <l>...</l>
+  <lg>
+</lg>]]></codeblock>
+  <p>Im Menüpunkt „CAGB“ in der Menüleiste steht unter „Sonderfunktionen“ eine Funktion
+   bereit mit der man ein Gedicht bzw. (innerhalb eines Gedichts) weitere Versgruppen
+   einfügen kann.</p>
+ </conbody>
+</concept>

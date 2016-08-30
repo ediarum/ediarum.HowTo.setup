@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\phlinss\Documents\Dita_Handburch CAGB\temp\webhelp?><?workdir-uri file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/temp/webhelp/?><?path2project?><?path2project-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_tcf_5pb_zw" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="title:1;4:9">Werktitel</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="shortdesc:1;5:14"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="p:1;7:6">Titel von Werken werden mit&lt;title/&gt;  markiert. Das Attribut @ref verweist auf den
+   entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="codeblock:1;9:41">&lt;title type=”work-annotated” ref=“w347“&gt;Probl.&lt;/bibl&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="p:2;10:6">Im Attribut @type werden – gemäß den Teuchos-Richtlinien – besondere Fälle von Werktiteln
+   notiert:</p>
+  <table class="- topic/table " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="table:1;12:10">
+   <tgroup cols="2" class="- topic/tgroup " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="tgroup:1;13:21">
+    <colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><thead class="- topic/thead " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="thead:1;14:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="row:1;15:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:1;16:14" colname="col1" dita-ot:x="1" dita-ot:y="1">Fall</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:2;17:14" colname="col2" dita-ot:x="2" dita-ot:y="1">Attributwert</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="tbody:1;20:12">
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="row:2;21:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:3;22:14" colname="col1" dita-ot:x="1" dita-ot:y="2">Das Werk wird erwähnt, aber nicht kommentiert</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:4;23:14" colname="col2" dita-ot:x="2" dita-ot:y="2">work-annotated</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="row:3;25:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:5;26:14" colname="col1" dita-ot:x="1" dita-ot:y="3">Der Titel wird (oft auf Latein oder Griechisch) umschrieben. In diesem Fall wird
+       zusätzlich das Attribut xml:lang mit entsprechendem Sprachkürzel nach ISO 639 gesetzt</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:6;28:14" colname="col2" dita-ot:x="2" dita-ot:y="3">desc</entry>
+     </row>
+     <row class="- topic/row " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="row:4;30:11">
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:7;31:14" colname="col1" dita-ot:x="1" dita-ot:y="4">Kategorisierende Titel (z.B. Scholien, Lemmata etc.)</entry>
+      <entry class="- topic/entry " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="entry:8;32:14" colname="col2" dita-ot:x="2" dita-ot:y="4">cat</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="p:3;37:6">Kommentierte Werke werden laut Teuchos allerdings anstelle von&lt;title/&gt; mit &lt;ref/&gt; 
+   29
+   ausgezeichnet. Die ID aus dem Werkregister, auf die verwiesen wird, wird in @target
+   notiert. Als Wert des Attributs @type wird hier „work-commented-on“ gesetzt, ggf.
+   (ebenfalls in @type) ergänzt durch „::noncontent“, wenn das Werk in der beschriebenen
+   Handschrift nicht enthalten ist:</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="codeblock:2;43:41">&lt;ref type=“work-commented-on::“ target=“#w1“&gt;Isagogen&lt;/ref&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="p:4;44:6">bzw.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="codeblock:3;45:41">&lt;ref type=“work-commented-on::noncontent“ target=“#w1“&gt;Isagogen&lt;/ref&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Werktitel" xtrc="p:5;46:6">In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche
+   mit Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
+ </conbody>
+<related-links class="- topic/related-links "><linkpool class="- topic/linkpool " xtrc="topicref:28;32:29" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/Handschriftenbeschreibung.map"><link class="- topic/link " format="dita" href="chapter3" mapclass="- map/topicref bookmap/chapter " role="parent" scope="local" type="topic" xtrc="chapter:3;21:30" xtrf="file:/C:/Users/phlinss/Documents/Dita_Handburch%20CAGB/bookmap.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handschriftenbeschreibungen</linktext></link></linkpool></related-links></concept>

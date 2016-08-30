@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_pfx_j1c_zw">
+    <title>Absatz</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Absätze werden mit<![CDATA[<p> (paragraph) gekennzeichnet. Ein neuer Absatz kann auf zwei
+                Arten eingefügt werden:]]> </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image href="Abb.Absatz.png"></image> anklicken.</cmd>
+            </step>
+            <step>
+                <cmd>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes
+                    den Cursor platzieren, Return drücken und „Teilen p“ auwählen – in dem man
+                    einfach nochmals Return drückt.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

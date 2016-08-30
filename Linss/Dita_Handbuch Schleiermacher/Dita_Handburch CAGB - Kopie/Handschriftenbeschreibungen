@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qfc_1pc_xw">
+ <title>Handschriftenbeschreibungen</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die Handschriftenbeschreibungen werden nach dem von Teuchos entwickelten Konzept in XML-TEI
+   notiert. Die gesamte Handschriftenbeschreibung wird dabei in einem msDesc-Element abgelegt, das
+   sich in TEI/text/body befindet. Die Handschriftenbeschreibung ist im Teuchoskonzept in fünf große
+   Abschnitte aufgeteilt:</p>
+  <p>Nachweis (msIdentifier)</p>
+  <p>Inhalt (msContents)</p>
+  <p>Physische Beschreibung (physDesc)</p>
+  <p>Geschichte (history)</p>
+  <p>Ergänzende Informationen (additional)</p>
+  <p>Diese Abschnitte finden sich auch als Menüs in der mittleren Werkzeugleiste wieder:</p>
+  <image href="Abb.%20Handschriftenbeschreibungen.png" width="15cm"/>
+  <p>Darüber können alle Haupt- sowie Unterabschnitte in eine Handschriftenbeschreibung eingefügt
+   werden.</p>
+ </conbody>
+</concept>

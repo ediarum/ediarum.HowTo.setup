@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_jyl_fjc_zw">
+ <title>Relationen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Zu jeder einzelnen Transkription können eine oder mehrere Relationen zu Werken im</p>
+  <p>Register erstellt werden. Im Attribut @type wird dann die Art der Relation notiert, im</p>
+  <p>Attribut @target die ID des Werkes:</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<relationGrp>
+  <relation type=“Paraphrase“ target=“#w2“/>
+  <relation type=“Scholie“ target=“#w2“/>
+</relationGrp>]]></codeblock>
+   <p>Die erste Relation im obigen Codebeispiel bedeutet z.B. „Paraphrase zu [Titel]“. So wird
+     die Beziehung auch in der Autorenansicht dargestellt.</p>
+   <p>Als Typen stehen zur Verfügung:</p>
+  <p> • Paraphrase </p>
+    <p>• Selbständiger Text</p>
+    <p> • Scholie</p>
+    <p> • Paratext </p>
+    <p>• Exzerpte </p>
+    <p>• Redaktion</p>
+  <p> Zum Einfügen einer oder mehrerer Relationen steht in Oxygen XML Author eine entsprechende
+   Schaltfläche zur Verfügung.</p>
+ </conbody>
+</concept>

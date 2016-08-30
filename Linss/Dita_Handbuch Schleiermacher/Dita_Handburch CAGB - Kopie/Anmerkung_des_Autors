@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_amv_wbc_zw">
+ <title>Anmerkung des Autors</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Anmerkungen werden an der entsprechenden Textstelle (an der im Manuskript das
+   Verweiszeichen bzw. -ziffer steht). Das Verweiszeichen entfällt bei der Transkription.
+   Der Inhalt der Fußnote wird mit <![CDATA[<note>]]> gekennzeichnet:</p>
+  <codeblock outputclass="language-xml"><![CDATA[An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
+eigene Briefe mit.<note resp=“Autor“>Ich konnte sie nicht mehr mit der
+Post schicken.</note> Niemeyer hat sich in der ganzen Sache sehr gut
+benommen, welches mich in jeder Rücksicht freut.]]></codeblock>
+  <p>Im Attribut wird standardmäßig resp=“Autor“ notiert, um externen Forschern direkt zu
+   33
+   vermitteln, dass es sich nicht um eine Anmerkung der Herausgeber, sondern des Autors
+   handelt. Das Attribut wird beim Verwenden der Werkzeugleiste automatisch gesetzt.</p>
+ </conbody>
+</concept>

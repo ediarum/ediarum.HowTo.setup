@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uxd_kmb_zw">
+ <title>Anmerkung</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>In der Handschriftenbeschreibung können in jedem Teil Anmerkungen notiert werden.
+   Dafür wird das Element<![CDATA[<note/>]]> direkt hinter die Bezugsstelle gesetzt:</p>
+  <codeblock outputclass="language-xml"><![CDATA[Bosporo navigatione<note resp=”cagb”>... Anmerkung </note>]]></codeblock>
+  <p>Im Attribut @resp wird (bei jeder neuen Anmerkung) notiert, ob die Anmerkung vom
+   Bearbeiter der ursprünglichen Handschriftenbeschreibung stammt oder von einem/r
+   Bearbeiter-/in des Vorhabens CAGB.</p>
+  <p>In Oxygen XML Author steht dafür eine entsprechende Schaltfläche zur Verfügung.</p>
+ </conbody>
+</concept>

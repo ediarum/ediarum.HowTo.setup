@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_jj1_vc2_vw">
+ <title>Überblick</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die XML-Dateien mit den Handschriftenbeschreibungen, Transkriptionen und Registereinträgen
+   werden in der Software „Oxygen XML Author“ bearbeitet. Sie ist auf allen
+   Rechern der Arbeitsstelle installiert.</p>
+  <p>Das Programmfenster (siehe Abb.) ist dreigeteilt: oben befinden sich die fünf Leisten
+   (1–5) mit verschiedenen Werkzeugen. Links ist der Dateibaum (6) der Datenbank zu finden.
+   Im rechten Fenster (8) können die einzelnen Dateien bearbeitet werden. Sind mehrere
+   Dateien offen, kann zwischen ihnen mit Hilfe der Tableiste (7) gewechselt werden.
+   Unterhalb dieses Fensters kann die Ansicht des Dokumentes umgestellt werden (9).</p>
+  <image href="Abb.Überblick.png"></image>
+ </conbody>
+</concept>

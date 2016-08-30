@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_mtm_w12_vw">
+ <title>Zentrale Datenhaltung</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die Handschriftenbeschreibungen des Vorhabens werden nun in einer zentralen Datenbank
+   vorgehalten, auf die berechtigte Nutzer per Internet zugreifen können. Im Normalfall
+   sollte die Arbeit immer direkt in der Datenbank erfolgen. Im Bedarfsfall können
+   aber auch Dateien zuerst lokal angelegt bzw. bearbeitet werden und anschließend in
+   die Datenbank hochgeladen werden.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_n12_4jz_xw">
+ <title>Provenienz</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Provenienz einer Handschrift wird in provenance mit mehreren Absätzen notiert,
+   die jeweils das Attribut @n=“provenance“ tragen:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<provenance>
+   <p n=“provanance“> ... </p>
+   <p n=“provanance“> ... </p>
+</provenance>]]></codeblock>
+ </conbody>
+</concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vhc_dnx_zw">
+ <title>Achtung!</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <example>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel ohne gleichzeitige Verknüpfung mit einem
+  Registereintrag die Auswertungs- und Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die
+  vollwertige Registerfunktion verwendet werden.</example>
+ </conbody>
+</concept>

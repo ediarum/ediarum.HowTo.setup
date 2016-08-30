@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Schleiermacher-Edition – Digitale Arbeitsumgebung Handbuch</mainbooktitle>
+    </booktitle>
+    <chapter href="Einführung.s">
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Zentrale_Datenhaltung"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Einsatz_von_XML"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/TEI"/>
+    </chapter>
+    <chapter href="Dita_Handburch%20CAGB%20-%20Kopie/Allgemeine_Bedienung">
+        <topicref href="Überblick.s"></topicref>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Arbeiten_mit_dem_Dateibaum"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Neue_Datei"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Neues_Verzeichnis"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Lokale_Datei"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Lokale_Datei_hochladen"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Dateien_umbennen"/>
+        <topicref href="Werkzeugleiste.s"></topicref>
+        <topicref href="Menü_Schleiermacher.s"></topicref>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Ohne_Werkzeugleiste_arbeiten"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Ansichten"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Ansichtsmodus_Autor"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Ansichtsmodus_Text"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Schriftarten"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Einfache_Suche"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Achtung"/>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Suchergebnisse"/>
+    </chapter>
+    <chapter href="Allgemeine_Textauszeichnung.s">
+    <topicref href="Struktur_Manuskript"></topicref>
+    <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Absatz"></topicref>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Zeilenumbruch"></topicref>
+        <topicref href="Dita_Handburch%20CAGB%20-%20Kopie/Liste"></topicref>
+    
+    </chapter>
+    <chapter href="Briefe.s"></chapter>
+    <chapter href="Vorlesungen.s"></chapter>
+    <chapter href="Tageskalender.s"></chapter>
+    <chapter href="Register.s"></chapter>
+    <chapter href="Tipps_Tricks.s"></chapter>
+    <chapter href="Website.s"></chapter>
+    <chapter href="Installation.s"></chapter>
+
+</bookmap>
