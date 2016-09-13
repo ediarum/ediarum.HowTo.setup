@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_egm_x15_fx">
+ <title>Sachanmerkung</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Soll eine Textpassage mit einer Sachanmerkung versehen werden, so wird der transkribierte
+   Text, auf den sich die Anmerkung beziehen soll, mit <![CDATA[<orig/>]]> (original) markiert,
+   die eigentliche Anmerkung mit <![CDATA[<note/>]]>. Beides wird von einem <![CDATA[<seg/>]]>-Element (segment)
+   umschlossen.</p>
+  <codeblock outputclass="language-xml"><![CDATA[wenn die theure <seg type=“sachapparat“><orig>Jette</orig><note
+xml:id=“lljg_jdv_lf“>Henriette Herz, die Erzieherin bei Charlotte von
+Kathen wurde</note></seg> erst dort ist]]></codeblock>
+  <p>Das Element <![CDATA[<note/>]]> enthält dabei ein automatisch generiertes Attribut xml:id, das
+   zur Identifizierung dient. In der Autoransicht werden Sachanmerkung und Bezugstext
+   beige hinterlegt.</p>
+ </conbody>
+</concept>

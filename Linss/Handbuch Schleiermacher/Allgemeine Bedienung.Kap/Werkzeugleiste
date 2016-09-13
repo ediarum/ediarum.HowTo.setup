@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_iqs_fly_2x">
+ <title>Die Werkzeugleisten</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Oxygen XML Author verfügt in der Autorenansicht (zu den verschiedenen Ansichten
+   siehe nächsten Abschnitt) über zwei Werkzeugleisten, die Zugriff auf häufig benötigte
+   Aktionen bietete. Die obere Werkzeugleiste umfasst die allgemeinen Aktionen, wie z.B.
+   Datei öffnen oder Druckausgabe. Die untere Werkzeugleiste bietet die Funktionen zur
+   Erstellung des Text- und Sachapparates.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uyx_xd5_fx">
+ <title>Fremdsprachiger Textabschnitt</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Kurze fremdsprachige (d.h. mehrere Wörter, Satzteile oder Sätze deren Sprache vom
+   Haupttext abweicht) sollten stets als solche gekennzeichnet werden. Dafür steht das
+   Element <![CDATA[<foreign>]]> zur Verfügung:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang=“grc“>ἀλλ᾿ ἤν καἰ ἔστιν, καἰ ἔσται πὒρ</foreign]]></codeblock>
+  <p>Das Attribut xml:lang gibt dabei über die verwendete Sprache Auskunft. Folgende Sprachenkürzel1
+   können verwendet werden: „fr“ (Französisch), „en“, „grc“ (Altgriechisch),
+   „Latn“ (Latein) und „he“ (Hebräisch). In der Werkzeugleiste steht eine entsprechende
+   Schaltfläche zum Auszeichnen zur Vefügung.</p>
+ </conbody>
+</concept>

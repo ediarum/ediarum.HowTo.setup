@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Schleiermacher-Edition – Digitale Arbeitsumgebung Handbuch</mainbooktitle>
+    </booktitle>
+    <chapter href="Einf%C3%BChrung.Kap/Einführung">
+        <topicref href="ediarum/Einf%C3%BChrung.Kap/Zentrale_Datenhaltung"/>
+        <topicref href="ediarum/Einführung.Kap/Einsatz_von_XML"/>
+        <topicref href="ediarum/Einführung.Kap/TEI"/>
+    </chapter>
+    <chapter href="ediarum/Allgemeine%20Bedienung.Kap/%C3%9Cberschrift">
+        <topicref href="Allgemeine%20Bedienung.Kap/%C3%9Cberblick"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neue_Datei"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Dateien_umbennen"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemeine_Funktionen"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_Sachapperat"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Menü_Schleiermacher"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ohne_Werkzeugleiste_arbeiten"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichten"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Autor"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Text"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Schriftarten"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Einfache_Suche"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Achtung"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Suchergebnisse"/>
+    </chapter>
+    <chapter href="Allgemeine%20Textauszeichnung/Überschrift">
+        <topicref href="Allgemeine%20Textauszeichnung/Struktur_Manuskript"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Absatz"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Zeilenumbruch"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Liste"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Anmerkung_des_Autors"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Seiten-Foliowechsel"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Arbeiten_Manuskript"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unterstreichungen"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Erg%C3%A4nzung"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrekturen"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Korrekturen_on_the_fly"/>
+        <topicref
+            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unsichere_Lesarten"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Nicht_lesbare_Wörter"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Ergänzung.textauszeichnungen"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung_Herausgeber"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrektur_Herausgeber"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Sachanmerkung"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Freie_Textanmerkung"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Querverweise"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Datum"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Fremdsprachiger_Textabschnitt"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Index"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Namen_Orte_Personen_Werken"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Bearbeitungskommentare_markierungen"/>
+    </chapter>
+    <chapter href="Briefe.Kap/Überschrift">
+        <topicref href="Briefe.Kap/Metadaten"></topicref>
+    </chapter>
+    <chapter href="Vorlesungen.s"/>
+    <chapter href="Tageskalender.s"/>
+    <chapter href="Register.s"/>
+    <chapter href="Tipps_Tricks.s"/>
+    <chapter href="Website.s"/>
+    <chapter href="Installation.s"/>
+
+</bookmap>

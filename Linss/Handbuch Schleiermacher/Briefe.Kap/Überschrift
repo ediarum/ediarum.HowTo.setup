@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_mn4_nbx_gx">
+ <title>Briefe</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Der transkribierte Briefwechsel wird in der Datenbank im Verzeichnis „briefe“ abgelegt.
+   Zur besseren Übersicht bildet jedes Jahr ein eigenes Unterverzeichnis. Ein XML-Dokument
+   eintspricht dabei einem Briefmanuskript (mit ggf. mehreren folia). Der Dateiname
+   besteht aus dem Erstellungsdatum des Briefes; er wird lediglich für die Identifizierung
+   der Datei und deren Einsortierung im Verzeichnisbaum verwendet. Für die Webausgabe
+   werden die genauen Angaben aus dem <![CDATA[<teiHeader/>]]> verwendet.</p>
+  <p>Für die Verweise werden automatisch generierte Identifikationsnummern im
+   Wurzelelement TEI (das Attribut xml:id) der jeweiligen Datei benutzt. Diese ID s stimmen
+   nicht mit den vor Drucklegung vergebenen Briefnummern überein.</p>
+  <p>Im Dialogfenster „Neue Datei“ kann unter „Framework Vorlagen > Schleiermacher
+   KGA “ die Vorlagedatei „brief“ ausgewählt werden. Dort ist die Grundstruktur des XMLDokumentes
+   bereits vorhanden.</p>
+ </conbody>
+</concept>

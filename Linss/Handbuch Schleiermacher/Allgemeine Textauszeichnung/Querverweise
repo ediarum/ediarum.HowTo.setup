@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_ask_mb5_fx">
+    <title>Querverweise erstellen</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Möchte der Bearbeiter einen Querverweis auf eine Textstelle im selben oder einem
+                andere Manuskript innerhalb der Edition erstellen, so muss zuerst das Ziel (d.h. die
+                Stelle, auf die verwiesen werden soll) markiert werden. Die entsprechende
+                Textpassage wird mit zwei <![CDATA[<anchor/>]]>-Elementen markiert, die dieselbe eindeutige
+                Identifikationsnummer haben – zusätzlich versehen mit dem Präfix „start_“ bzw.
+                „stop_“:</p>
+            <codeblock outputclass="language-xml"><![CDATA[Wie sehn‘ ich mich darnach, Dich hier, <anchor type=“Markierung“
+xml:id=“start_qsd_m5z_kf“/>wenn auch nur auf wenige Tage<anchor
+type=“Markierung“ xml:id=“stop_qsd_m5z_kf“/> wieder zu sehen.]]></codeblock>
+            <p>In der Autoransicht werden die markierten Verweisziele mit dem Symbol<image
+                    href="Abb.Querverweis.s"/>(Anfang) bzw.<image href="Abb.Querverweis1.png"
+                />(Ende) angezeigt.</p>
+            <p>An der Verweisstell wird <![CDATA[<ref/>]]> eingefügt, dessen Atrribut @target auf
+                die zu verweisende Stelle zeigt. Der Verweis hat dabei die Form [ID der
+                Datei]/#start_[id].</p>
+            <codeblock outputclass="language-xml"><![CDATA[Vgl. <ref target=“bf7023/start_qsd_m5z_kf“>Brief</ref>]]></codeblock>
+        </context>
+        <steps>
+            <step>
+                <cmd>Datei öffnen und Textstelle heraussuchen, auf die verwiesen werden soll</cmd>
+            </step>
+            <step>
+                <cmd>Textstelle mit Cursor markieren</cmd>
+            </step>
+            <step>
+                <cmd>Symbol<image href="Abb.Querverweis2.png"/>in der Werkzeugleiste anklicken</cmd>
+            </step>
+            <step>
+                <cmd>Datei speichern, aber geöffnet lassen</cmd>
+            </step>
+            <step>
+                <cmd>Zur Datei und Textstelle wechseln, von der aus verwiesen werden soll</cmd>
+            </step>
+            <step>
+                <cmd>Symbol<image href="Abb.Querverweis3.png"></image>in der Werkzeugleiste anklicken</cmd>
+            </step>
+            <step>
+                <cmd>Im erscheinenden Dialogfenster die Zieldatei auswählen</cmd>
+            </step>
+            <step>
+                <cmd>... und dann die entsprechende Textstelle</cmd>
+            </step>
+            <step>
+                <cmd>[OK] klicken</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nrd_g25_fx">
+ <title>Index</title>
+ <shortdesc/>
+ <conbody>
+  <p>Im Manuskripttext können Bereiche markiert und mit einem der drei Register (Personen, Orte,
+   Werke) verknüpft werden. Voraussetzung dafür ist, dass im Register ein entsprechender Eintrag
+   bereits besteht oder angelegt wurde. Die auf diese Weise markierten Passagen können so nachher
+   automatisch zu einem Index zusammengestellt werden, der für die Druckausgabe weiter aufbereitet
+   werden kann.</p>
+  <p>Die indizierten Stellen werden im Autormodus mit dem Symbol <image href="Abb.Index1.png"
+    height="0.35cm"/> am Anfang bzw. dem Symbol <image href="Abb.Index2.png" height="0.35cm"/> am
+   Ende gekennzeichnet. Mit einem Mausklick auf das Startsymbol <image href="Abb.Index3.png"
+    height="0.35cm"/> kann man die Stelle im Index, auf die verwiesen wird, öffnen.</p>
+  <p><b>Bitte beachten:</b> Der Index, der beim Klick auf das Symbol geöffnet wird, wird nur mit
+   Leserechten geöffnet (zur besseren Kennzeichnung des Lesezugriffs dient ein roter Rand).
+   Änderungen sind hier nicht möglich, die Funktion dient nur zur Kontrolle. Möchten Sie Änderungen
+   im Register vornehmen, öffnen Sie es aus dem Dateibaum heraus.</p>
+  <p>Der indizierte Bereich wird nicht wie sonst in XML von einem Element umgeben, sondern von zwei:
+   <![CDATA[<index/> und <anchor/>]]>. Dabei verweist <![CDATA[<index/>]]> mit dem Attribut spanTo
+   auf die xml:id des <![CDATA[<anchor/>]]>-Elements. Das hat den Vorteil, dass überlappende
+   Bereiche indiziert werden können – eine Möglichkeit, die in XML aufgrund der Baumstruktur
+   eigentlich nicht zur Verfügung steht.</p>
+  <p>Zusätzlich wird im Attribut indexName die Registerart (Personen, Orte oder Werke) und im
+   Attribut corresp die Identifikationsnummer des Registereintrags notiert. Zur besseren Überprüfung
+   und späteren Kontrolle wird außerdem im index-Element der Name des Indexeintrags (d.h. Vor- und
+   Nachname, Ortsname oder Werktitel) in <![CDATA[<term/>]]> abgelegt. Bedeutung für die Verknüpfung
+   und die weitere technische Verarbeitung hat aber nur der Wert im Attribut corresp.</p>
+  <codeblock outputclass="language-xml"><![CDATA[Mit meiner Verpflanzung nach Halle dreht es sich in einem wunderlichen
+Cirkel umher. <index spanTo=“i_xyz“ indexName=“personen“
+corresp=“p0293“><term>Niemeyer, August Herrmann</term></index>Niemeyer
+denkt etwas von Dir zu erfahren, Du von mir, und ich dagegen von Niemeyer
+als Massows vertrautestem Agenten.<anchor type=“verweisziel“
+xml:id=“i_xyz“ /> Man scheint etwas angefangen zu haben, und nun nicht
+recht zu wissenw as man daraus machen soll.]]></codeblock>
+  <p>Textabschnitte, die Bibelstellen behandeln werden analog wie die drei anderen Indizes im Text
+   markiert. Allerdings entfällt hier die Notwendigkeit ein eigenes Register anzulegen, da
+   Bibelstellen standardisiert notiert werden können. Somit entfällt auch das Attribut corresp. Die
+   Bibelstelle wird im Element <![CDATA[<term>]]> notiert.</p>
+  <p><b>Bitte beachten:</b> Die Schaltflächen <image href="Abb.Index4.png" height="0.35cm"/> dienen
+   zur Erstellung des Registers der Druckausgabe. Für das Web können zusätzlich die Namen bzw. Titel
+   von Personen, Orten und Werken ausgezeichnet werden. Ausschließlich für diesen Zweck stehen die
+   Funktionen im Menü „Namen kennzeichnen“ <image href="Abb.Index5.png" height="0.35cm"/> bereit
+   (siehe unten).</p>
+ </conbody>
+</concept>

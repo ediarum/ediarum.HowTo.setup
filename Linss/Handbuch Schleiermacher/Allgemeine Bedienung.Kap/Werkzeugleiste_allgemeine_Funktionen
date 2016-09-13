@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nqn_nly_2x">
+ <title>Werkzeugleiste mit den allgemeinen Funktionen</title>
+ <shortdesc></shortdesc>
+ <conbody><image href="Abb.Werkzeugleiste_allgemeine_Funktionen.s"></image>
+  <p>Bemerkungen zur den einzelnen Funktionen:</p>
+  <p>Neue lokale Datei: damit kann an nur lokal, d.h. auf dem Rechner, eine neue Datei angelegen.
+   Bitte benutzen Sie nach Möglichkeit immer das Kontextmenü im Dateibaum, um
+   neue Dateien direkt in der Datenbank anzulegen.</p>
+  <p>Lokale Datei öffnen: nur auf dem Rechner vorhandene Dateien können hierüber geöffnet
+   werden.</p>
+  <p>Speichern: nicht nur am Ende der Arbeiten, sondern auch zur Sicherheit immer mal wieder
+   zwischendrin speichern.</p>
+  <p>Schritt zurück / vorwärts: Letzten Bearbeitungsschritt rückgängig machen bzw. wiederherstellen.</p>
+  <p>Ausschneiden, Kopieren, Einfügen: wie in Microsoft Word zu handhaben.</p>
+  <p>Validieren: Hier können Sie prüfen lassen, ob das Dokument korrekt und vollständig ist.
+   Fehler werden in einem neuen Fenster im unteren Bereich angezeigt</p>
+  <p>Ansicht der Tags: Damit kann die Anzeige der
+   „Tags“, d.h. der Elemente in der Autorenansicht
+   gesteuert werden. Standarmäßig ist „Partielle
+   Tags“ eingestellt, so dass kleine Dreiecke im Text
+   eingeblendet werden.1 Eine Änderung an dieser
+   Stelle ändert lediglich die Ansicht, nicht das Dokument!</p>
+  <p>CSS: Hier können Sie das zugrunde liegende „Cascading
+   Stylesheet“ (CSS), das für die Anzeige verantwortlich
+   ist, wechseln. Neben der Standardansicht
+   stehen fünf weitere zur Verfügung, die
+   neben dem Text nur jeweils eine Gruppe von Elementen anzeigen, z.B. nur die Sachanmerkungen
+   oder nur indizierte Stellen. Eine Änderung hat nur Auswirkungen auf die
+   Anzeige, nicht auf das Dokument an sich!</p>
+  <p>Druckausgabe (PDF): Hier können Sie sich das Dokument als PDF ausgeben lassen. Der
+   Satz erfolgt automatisch und richtet sich nach der bisherigen Druckausgabe. Inbesondere
+   kann so überprüft werden, ob Auszeichnungen korrekt gesetzt wurden.</p>
+  <p>Website: Über diese Option rufen Sie das geöffnete Dokument (bzw. die Briefeübersicht,
+   falls kein Dokument geöffnet ist) in der Website auf.</p>
+  <p>Bearbeitungskommentare: Mit diesen Schaltflächen können Sie Bearbeitungskommentare
+   im Dokument einfügen, bearbeiten und verwalten.</p>
+ </conbody>
+</concept>

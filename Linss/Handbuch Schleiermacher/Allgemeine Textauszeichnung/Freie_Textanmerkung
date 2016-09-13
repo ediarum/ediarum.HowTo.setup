@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ktx_fb5_fx">
+ <title>Freie Textanmerkung</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Textanmerkungen werden zum allergrößten Teil durch die anderen Elemente (Hinzufügungen,
+   Streichungen etc.) abgedeckt. Besteht jedoch Bedarf, eine Textanmerkung
+   22
+   einzufügen, die sich nicht mit Hilfe der anderen Elemente erstellen lässt, so kann eine
+   freie Textanmerkung analog zur Sachanmerkung erstellt werden. Im Element <![CDATA[<seg/>]]>
+   wird lediglich der Wert des Attributs @type mit „textapparat“ ersetzt.</p>
+  <p>Im Menü „Schleiermacher“ steht unter dem Punkt „Textarbeit des Autors“ eine entsprechende
+   Aktion zum Einfügen zur Verfügung.</p>
+ </conbody>
+</concept>

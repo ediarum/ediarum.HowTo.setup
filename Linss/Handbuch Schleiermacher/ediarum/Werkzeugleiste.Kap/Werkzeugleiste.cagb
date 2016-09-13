@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Werkzeugleiste</title>
+ <topicref href="Werkzeugleiste_allgemeinen_Funktionen"/>
+ <topicref href="Werkzeugleiste_Handschriftenbeschreibung"/>
+ <topicref href="Werkzeugleiste_Transkriptionen"/>
+ <topicref href="Menü_CAGB"/>
+ <topicref href="Ohne_Werkzeugleiste_arbeiten"/>
+ <topicref href="Ansichten"/>
+ <topicref href="Ansichtsmodus_Autor"/>
+ <topicref href="Ansichtsmodus_Text"/>
+ <topicref href="Schriftarten"/>
+ <topicref href="Einfache_Suche"/>
+ <topicref href="Achtung"/>
+ <topicref href="Suchergebnisse"/>
+</map>

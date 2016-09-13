@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ekl_hmy_2x">
+ <title>Werkzeugleiste für die Erstellung des Text- und Sachapparates</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Diese Toolbar beinhaltet fast alle Funktionen, um den transkribierten Text mit
+   entsprechenden
+  Text- und Sachanmerkungen zu versehen. Hier nur eine erste Übersicht, die
+  Funktionen werden im Kapitel 3ff. eingehend erklärt.</p>
+  <image href="Abb.Werkzeugleiste_Apperat.s" width="15cm"></image>
+ </conbody>
+</concept>
