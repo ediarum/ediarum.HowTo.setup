@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ygf_dtp_3x">
+ <title>Überlieferungen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Alle Angaben zur Überlieferung werden in <![CDATA[<sourceDesc/> ]]>(sourcedescription) notiert.
+   Der Nachweis des Manuskript wird dabei im Element <![CDATA[<msDesc/>]]> (manuscript description)
+   angegeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<msDesc>
+   <msIdentifier>
+      <institution>Berlin-Brandenburgische Akademie der
+      Wissenschaften</institution>
+      <repository>Archiv</repository>
+      <collection>Schleiermacher-Nachlass</collection>
+         <idno>Tageskalender 1820</idno>
+   </msIdentifier>
+</msDesc>]]></codeblock>
+  <p>Innerhalb <![CDATA[<msIdentifier/>]]> werden die einzelnen Angaben gemacht. Zu beachten ist,
+   dass alle Angaben (bis auf die Signatur) ausgeschrieben werden.</p>
+  <p>In <![CDATA[<idno/>]]> wird die vollständige Signatur notiert – inkl. Institutionskürzel.</p>
+  <p> In der Autorenansicht sind bem Erstellen einer neuen Datei die Angaben zur BBA W schon
+   vorhanden und im Regelfall muss nur noch die Signatur hinzugefügt werden.</p>
+ </conbody>
+</concept>

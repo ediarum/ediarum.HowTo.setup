@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Index" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Allgemeine%20Textauszeichnung/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_nrd_g25_fx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Index</title>
+</head>
+<body id="concept_nrd_g25_fx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Index</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Im Manuskripttext können Bereiche markiert und mit einem der drei Register (Personen, Orte,
+   Werke) verknüpft werden. Voraussetzung dafür ist, dass im Register ein entsprechender Eintrag
+   bereits besteht oder angelegt wurde. Die auf diese Weise markierten Passagen können so nachher
+   automatisch zu einem Index zusammengestellt werden, der für die Druckausgabe weiter aufbereitet
+   werden kann.</p>
+
+  <p class="p">Die indizierten Stellen werden im Autormodus mit dem Symbol <img class="image" src="Abb.Index1.png" height="13" /> am Anfang bzw. dem Symbol <img class="image" src="Abb.Index2.png" height="13" /> am
+   Ende gekennzeichnet. Mit einem Mausklick auf das Startsymbol <img class="image" src="Abb.Index3.png" height="13" /> kann man die Stelle im Index, auf die verwiesen wird, öffnen.</p>
+
+  <p class="p"><strong class="ph b">Bitte beachten:</strong> Der Index, der beim Klick auf das Symbol geöffnet wird, wird nur mit
+   Leserechten geöffnet (zur besseren Kennzeichnung des Lesezugriffs dient ein roter Rand).
+   Änderungen sind hier nicht möglich, die Funktion dient nur zur Kontrolle. Möchten Sie Änderungen
+   im Register vornehmen, öffnen Sie es aus dem Dateibaum heraus.</p>
+
+  <p class="p">Der indizierte Bereich wird nicht wie sonst in XML von einem Element umgeben, sondern von zwei:
+   &lt;index/&gt; und &lt;anchor/&gt;. Dabei verweist &lt;index/&gt; mit dem Attribut spanTo
+   auf die xml:id des &lt;anchor/&gt;-Elements. Das hat den Vorteil, dass überlappende
+   Bereiche indiziert werden können – eine Möglichkeit, die in XML aufgrund der Baumstruktur
+   eigentlich nicht zur Verfügung steht.</p>
+
+  <p class="p">Zusätzlich wird im Attribut indexName die Registerart (Personen, Orte oder Werke) und im
+   Attribut corresp die Identifikationsnummer des Registereintrags notiert. Zur besseren Überprüfung
+   und späteren Kontrolle wird außerdem im index-Element der Name des Indexeintrags (d.h. Vor- und
+   Nachname, Ortsname oder Werktitel) in &lt;term/&gt; abgelegt. Bedeutung für die Verknüpfung
+   und die weitere technische Verarbeitung hat aber nur der Wert im Attribut corresp.</p>
+
+  <pre class="pre codeblock language-xml">Mit meiner Verpflanzung nach Halle dreht es sich in einem wunderlichen
+Cirkel umher. <strong class="hl-tag" style="color:#000096">&lt;index</strong> <span class="hl-attribute" style="color: #ff7935">spanTo</span>=<span class="hl-value" style="color: #993300">“i_xyz“</span> <span class="hl-attribute" style="color: #ff7935">indexName</span>=<span class="hl-value" style="color: #993300">“personen“</span>
+<span class="hl-attribute" style="color: #ff7935">corresp</span>=<span class="hl-value" style="color: #993300">“p0293“</span><strong class="hl-tag" style="color:#000096">&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;term&gt;</strong>Niemeyer, August Herrmann<strong class="hl-tag" style="color:#000096">&lt;/term&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/index&gt;</strong>Niemeyer
+denkt etwas von Dir zu erfahren, Du von mir, und ich dagegen von Niemeyer
+als Massows vertrautestem Agenten.<strong class="hl-tag" style="color:#000096">&lt;anchor</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“verweisziel“</span>
+<span class="hl-attribute" style="color: #ff7935">xml:id</span>=<span class="hl-value" style="color: #993300">“i_xyz“</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong> Man scheint etwas angefangen zu haben, und nun nicht
+recht zu wissenw as man daraus machen soll.</pre>
+
+  <p class="p">Textabschnitte, die Bibelstellen behandeln werden analog wie die drei anderen Indizes im Text
+   markiert. Allerdings entfällt hier die Notwendigkeit ein eigenes Register anzulegen, da
+   Bibelstellen standardisiert notiert werden können. Somit entfällt auch das Attribut corresp. Die
+   Bibelstelle wird im Element &lt;term&gt; notiert.</p>
+
+  <p class="p"><strong class="ph b">Bitte beachten:</strong> Die Schaltflächen <img class="image" src="Abb.Index4.png" height="13" /> dienen
+   zur Erstellung des Registers der Druckausgabe. Für das Web können zusätzlich die Namen bzw. Titel
+   von Personen, Orten und Werken ausgezeichnet werden. Ausschließlich für diesen Zweck stehen die
+   Funktionen im Menü „Namen kennzeichnen“ <img class="image" src="Abb.Index5.png" height="13" /> bereit
+   (siehe unten).</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Allgemeine%20Textauszeichnung/%C3%9Cberschrift.html">Allgemeine Textauszeichnung</a></div>
+</div>
+</div></body>
+</html>

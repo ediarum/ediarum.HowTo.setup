@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Namen von Orten, Personen und Werken" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Allgemeine%20Textauszeichnung/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_asp_zyw_gx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Namen von Orten, Personen und Werken</title>
+</head>
+<body id="concept_asp_zyw_gx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Namen von Orten, Personen und Werken</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Die neue Arbeitsumgebung bietet die Möglichkeit explizit im Manuskript genannte Ortsnamen,
+   Personennamen, Werktitel oder Bibelstellen auszuzeichnen und gleichzeitig mit einer Verknüpfung
+   zum Register auszustatten. Bei Nutzung der entsprechenden Funktionen der Werkzeugleiste wird
+   automatisch auf das Register zugegriffen, um den Namen bzw. Titel mit dem Registereintrag zu
+   verbinden.</p>
+
+  <p class="p">Im Gegensatz zur im vorigen Abschnitt behandelten Indexfunktion kann man mit dem Auszeichnen
+   von Namen und Titeln das Dokument für das Web aufbereiten. Dort besteht technisch nämlich nicht
+   nur die Möglichkeit vom Index auf bestimmte Textstellen zu springen, sondern auch aus dem Text
+   heraus den (erweiterten) Index aufzurufen, sich weitere Informationen z.B. zur Person anzuschauen
+   und von dort aus wiederum weiter zu suchen nach anderen Textstellen, die die Person
+   behandeln.</p>
+
+  <p class="p">Per Mausklick auf das nachfolgende Pfeilsymbol <img class="image" src="Abb.Namen_Orte_Personen_Werke.png" height="13" /> kann der Indexeintrag geöffnet werden, auf den verwiesen wird. <strong class="ph b">Achtung:</strong>
+   das Register wird nur mit Leserechten geöffnet (bitte Hinweise im Abschnitt „Index“ auf Seite 23
+   beachten!).</p>
+
+  <p class="p"><strong class="ph b">Orte</strong></p>
+
+  <p class="p">Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit &lt;placeName/&gt;
+   ausgezeichnet werden. Ein Attribut @key verweist dabei auf den entsprechenden Eintrag im
+   Register.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;placeName</strong> <span class="hl-attribute" style="color: #ff7935">key</span>=<span class="hl-value" style="color: #993300">“o374“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Berlin<strong class="hl-tag" style="color:#000096">&lt;/placeName&gt;</strong></pre>
+
+  <p class="p"><strong class="ph b">Personen</strong></p>
+<p class="p">Personennamen – sei es Vorname, Nachname oder Spitzname – können im Text mit
+   &lt;persName&gt; ausgezeichnet werden. Das Attribut @key verweist hier ebenfalls auf den
+    entsprechenden Registereintrag.</p>
+
+  <p class="p"><strong class="ph b">Werke</strong></p>
+
+  <p class="p">Titel von Publikationen verschiedenster Art (Bücher, Aufsätze, Zeitungen ...) können
+   mit &lt;bibl/&gt; markiert werden. Das Attribut @sameAs verweist auf den entsprechenden
+   Registereintrag.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;bibl</strong> <span class="hl-attribute" style="color: #ff7935">sameAs</span>=<span class="hl-value" style="color: #993300">“w569“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Über die Religion<strong class="hl-tag" style="color:#000096">&lt;/bibl&gt;</strong></pre>
+
+  <p class="p"><strong class="ph b">Bibelstellen</strong></p>
+
+  <p class="p">Explizit genannte Bibelstellen können als solche mit &lt;bibl&gt; ausgezeichnet werden. Mit
+   Hilfe des Attributs @type=“bibelstelle“ wird dabei die Bibelstelle vom Werk unterschieden
+   . Das Attribut @corresp nimmt die Bibelstelle in standardisierter Schreibweise auf.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;bibl</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">”bibelstelle”</span> <span class="hl-attribute" style="color: #ff7935">corresp</span>=<span class="hl-value" style="color: #993300">”Mt</span> <span class="hl-attribute" style="color: #ff7935">13,</span> <span class="hl-attribute" style="color: #ff7935">2”&gt;Matthäus</span> <span class="hl-attribute" style="color: #ff7935">13,2&lt;/bibl&gt;</span></pre>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Allgemeine%20Textauszeichnung/%C3%9Cberschrift.html">Allgemeine Textauszeichnung</a></div>
+</div>
+</div></body>
+</html>

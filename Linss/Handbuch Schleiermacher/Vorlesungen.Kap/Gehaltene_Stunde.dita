@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_yvn_wsp_3x">
+ <title>Gehaltene Stunde</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Markierungen der tatäschlich gehaltenen Stunden Schleiermachers können mit <![CDATA[<anchor>]]>
+   an der genauen Textstelle transkribiert werden:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<anchor type=“Stunde“ n=“9“ />]]></codeblock>
+  <p>Dieses Ankerelement ist – wie <![CDATA[<pagebreak />]]> – leer, d.h. es umfasst keine Textabschnitte,
+   sondern markiert genau einen Punkt im Manuskript. In der Druckausgabe wird es
+   wie bisher mit „9. Stunde“ in der Marginalspalte ausgegeben.</p>
+ </conbody>
+</concept>

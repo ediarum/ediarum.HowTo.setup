@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_x4l_4rp_3x">
+ <title>Dokumenttitel</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Der Dokumenttitel wird mit <![CDATA[<title/> im <titleStmt>]]> notiert. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<titleStmt>
+   <title>Kollektaneen 1821/22</title>
+</titleStmt>]]></codeblock>
+  <p>In der Autoransicht kann der Dokumenttitel einfach im Feld „title“ eingetragen werden.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pkh_pzt_hx">
+ <title>Text</title>
+ <shortdesc/>
+ <conbody>
+  <p>Der transkribierte Text des Manuskripts wird im zweiten Teil des TEI-Baums, dem
+   <text/>-Element, abgelegt. Da es keine Titelseite gibt, steht <![CDATA[<body/>]]> innerhalb von
+   <![CDATA[<text/>]]> alleine.</p>
+  <image href="Abb.Text.png" height="6cm"/>
+  <p><b>Schreibakt</b></p>
+ </conbody>
+</concept>

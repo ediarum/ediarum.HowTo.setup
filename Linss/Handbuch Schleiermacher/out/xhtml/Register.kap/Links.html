@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Links" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Register.kap/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_t5j_wl5_hx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Links</title>
+</head>
+<body id="concept_t5j_wl5_hx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Links</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">In allen Registern können in der jeweiligen Beschreibung, Zugehörigkeit bzw. Aussage einzelne
+   oder mehrere Wörter mit anderen Einträgen aus demselben oder einem anderen Register verlinkt
+   werden. Zum Beispiel:</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;aussage&gt;</strong>seit 1790 Professor der Philosophie
+in <strong class="hl-tag" style="color:#000096">&lt;link</strong> <span class="hl-attribute" style="color: #ff7935">id</span>=<span class="hl-value" style="color: #993300">“#o540“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Erlangen<strong class="hl-tag" style="color:#000096">&lt;/link&gt;</strong><strong class="hl-tag" style="color:#000096">&lt;/aussage&gt;</strong></pre>
+
+  <p class="p">Das zu verlinkende Wort wird dabei mit dem Element &lt;link&gt; umgeben, dessen Attribut
+   „id“ auf die entsprechende Identfikationsnummer des Registereintrags verweist.</p>
+
+  <p class="p">Entsprechende Aktionen stehen in den Werkzeugleisten aller drei Register unter dem Punkt
+   „Weitere Angaben hinzufügen“ zur Verfügung: „Ort verlinken“, „Person verlinken“ oder „Werk
+   verlinken“.</p>
+
+  <p class="p">Alle Links führen per Mausklick auf das Pfeilsymbol zum Eintrag, auf den verwiesen wird. </p>
+
+  <p class="p"><strong class="ph b">Bitte beachten:</strong> Der Index, der beim Klick auf das Symbol geöffnet wird, wird nur mit
+   Leserechten geöffnet (zur besseren Kennzeichnung des Lesezugriffs dient ein roter Rand).
+   Änderungen sind hier nicht möglich, diese Funktion dient nur zur Kontrolle. Möchten Sie
+   Änderungen im Register vornehmen, öffnen Sie es bitte wie gewohnt aus dem Dateibaum heraus.</p>
+
+  <p class="p"><strong class="ph b">Hinweis zu Verweisen aus dem Altdatenbestand</strong></p>
+
+  <p class="p">Bereits im Worddokument, das als Vorlage für die drei aktuellen Register diente, waren einige
+   Wörte mit einem Pfeil versehen, um zu kennzeichnen, dass zu dem entsprechenden Begriff ein
+   Registereintrag vorhanden ist („siehe“). Solcherart markierte Begriffe wurden bei der Übertragung
+   in das XML-Dokument schon mit dem entsprechenden &lt;link&gt;-Element gekennzeichnet, ohne
+   allerdings eine Verknüpfung herzustellen. D.h. den &lt;link&gt;-Elementen fehlt das
+   identifizierende Attribut „id“. Die Verlinkung muss nun manuell erfolgen; die bereits oben
+   genannten Schalftlfächen lassen sich dazu ohne weiteres auch auf diese Wörter anwenden.</p>
+
+  <p class="p">Zur besseren Unterscheidung werden tatsächlich verknüpfte Links blau und unterstrichen
+   dargstellt, während nur als Link markierte – aber nicht verknüpfte – Wörter nur blau dargestellt
+   werden. </p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Register.kap/%C3%9Cberschrift.html">Register</a></div>
+</div>
+</div></body>
+</html>

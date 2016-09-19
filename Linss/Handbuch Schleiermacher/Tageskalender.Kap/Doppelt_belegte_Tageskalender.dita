@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_yxy_rtp_3x">
+ <title>Doppelt belegte Tageskalender</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>In doppelt belegten Tageskalendern, d.h. die für ein zweites Jahr weiterbenutzt wurden,
+   wird innerhalb des Elements <![CDATA[<div type“linke_seite“> nochmal ein <div>]]> Element
+   verwendet, um die beiden Jahre zu unterscheiden. Dadurch wird es in der Webedition
+   möglich, sich sowohl nur ein Jahr, als auch beide Jahre nebeneinander anzeigen zu lassen.</p>
+ </conbody>
+</concept>

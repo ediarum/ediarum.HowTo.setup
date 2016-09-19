@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_stw_zrp_3x">
+ <title>Erstelungsdatum</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Im Kopf des XML-Dokuments werden im Element <![CDATA[<profileDesc>]]> auch die Angaben zu
+   Erstellungsdatum, und dem zeitlichen sowie thematischen Zusammenhang angegeben.
+   In <![CDATA[<date/>]]> wird der Erstellungszeitraum eingegeben wie bei der normalen Datumskennzeichnung
+   auch (siehe „Datum“ auf Seite 22). Das Attribut „cert“ kennzeichnet die
+   Wahrscheinlichkeit, mit der die Datierung zutrifft. Bei unklarer Datierung kann dann als
+   Attributwert „low“ vergeben werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+   <creation>
+      <date cert=“low“ notBefore=“1808-01-01“ notAfter=“1808-02-29“ />
+      <linkGrp type=“ZeitlicherZusammenhang“>
+         <link type=“vorhergehendesManuskript“ target=““ />
+         <link type=“anschließendesManuskript“ target=““/>
+      </linkGrp>
+      <linkGrp type=“ThematischerZusammenhang“>
+         <link type=“Manuskript“ target=““/>
+         <link type=“Kollektaneen“ target=““/>
+         <link type=“Notizen“ target=““/>
+         <link type=“Nachschrift“ target=““/>
+      </linkGrp>
+   </creation>
+</profileDesc>]]></codeblock>
+ </conbody>
+</concept>

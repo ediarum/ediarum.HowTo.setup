@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Bearbeitungskommentare und markierungen" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Allgemeine%20Textauszeichnung/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_fy2_l1x_gx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Bearbeitungskommentare und markierungen</title>
+</head>
+<body id="concept_fy2_l1x_gx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Bearbeitungskommentare und markierungen</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p"><strong class="ph b">Kommentare</strong></p>
+
+  <p class="p">Arbeitskommentare der Bearbeiter/-innen können ab der Version 4.0 der digitalen Arbeitsumgebung
+   überall mit Hilfe des in Oxygen XML Author integrierten Kommentarfuntkion
+   notiert werden. Die kommentierte Stelle wird dabei rot unterlegt, der Kommentar
+   selbst rechts am Rand dargestellt.</p>
+
+  <p class="p">Im XML selbst hinterlegt Oxygen XML Author den Kommentar als „Processing Instruction“:</p>
+
+  <pre class="pre codeblock language-xml"><span class="hl-directive" style="color:#8b26c9">&lt;?oxy_comment_start author=“dumont“ timestamp=“20120817T101833+0200“
+comment=“überprüfen“?&gt;</span>kommentierte Stelle<span class="hl-directive" style="color:#8b26c9">&lt;?oxy_comment_end?&gt;</span></pre>
+
+  <p class="p">Durch die Verwendung von „XML Processing Instructions“ haben Bearbeitungskommentare
+   keine Auswirkungen auf die Web- und Druckausgabe. Sie werden dort auch
+   nicht dargestellt. Für die Kommentierung stehen in der oberen Werkzeugleiste drei
+   Schaltflächen zur Verfügung:</p>
+
+  <p class="p">1. Kommentar hinzufügen</p>
+
+  <p class="p">2. Kommentar bearbeiten</p>
+
+  <p class="p">3. Kommentare verwalten</p>
+
+  <p class="p">Anmerkung: Bis einschließlich Version 3 der digitalen Arbeitsumgebung wurden die Bearbeiterkommentare
+   als &lt;comment/&gt; notiert.</p>
+
+  <p class="p"><strong class="ph b">Markierungen</strong></p>
+
+  <p class="p">Textstellen, die der Bearbeiter aus verschiedenen Gründen temporär kennzeichnen will,
+   können mit &lt;markierung&gt; ausgezeichnet werden, wobei das Attribut farbe die jeweilige
+    Markierungsfarbe (derzeit nur gelb und rot) enthält. Über den Punkt „Markierung
+    löschen“ kann die Markierung entfernt werden, ohne das der in ihr enthaltene Inhalt
+    gelöscht wird.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;markierung</strong> <span class="hl-attribute" style="color: #ff7935">farbe</span>=<span class="hl-value" style="color: #993300">“gelb“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Das ist ein gelb markierter Text<strong class="hl-tag" style="color:#000096">&lt;/markierung&gt;</strong></pre>
+
+  <p class="p">Bitte beachten Sie, dass für unsichere Lesarten von Wörtern im Manuskript bereits das
+   Element &lt;unclear&gt; bereitsteht, das ebenfalls in der Autoransicht gelb hervorgehoben
+    wird (siehe „Unsichere Lesarten“).</p>
+
+  <p class="p">Das Element &lt;markierung&gt; ist aufgrund seiner ausschließlich temporären Verwendung
+   nicht Bestandteil des Schemas. XML-Dateien, die noch Bearbeitungsmarkierungen enthalten
+   validieren daher nicht.</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Allgemeine%20Textauszeichnung/%C3%9Cberschrift.html">Allgemeine Textauszeichnung</a></div>
+</div>
+</div></body>
+</html>

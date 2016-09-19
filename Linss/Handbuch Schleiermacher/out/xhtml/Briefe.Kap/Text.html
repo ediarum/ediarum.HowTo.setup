@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Text" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Briefe.Kap/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_pkh_pzt_hx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Text</title>
+</head>
+<body id="concept_pkh_pzt_hx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Text</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Der transkribierte Text des Manuskripts wird im zweiten Teil des TEI-Baums, dem
+   -Element, abgelegt. Da es keine Titelseite gibt, steht &lt;body/&gt; innerhalb von
+   &lt;text/&gt; alleine.</p>
+
+  <img class="image" src="Abb.Text.png" height="227" />
+  <p class="p"><strong class="ph b">Schreibakt</strong></p>
+
+  <p class="p">Das nächste Element &lt;div type=“Schreibakt“/&gt; steht meistens alleine – das ist dann
+   der Fall, wenn der Brief im großen und ganzen „in einem Zug“ vom Verfasser geschrieben wurde. Ein
+   evtl. vorhandener kleiner Nachtrag kann nach dem &lt;div/&gt; mit &lt;postscript&gt; eingefügt
+   werden.</p>
+
+  <p class="p">Es kann aber auch vorkommen, dass der Brief – aus welchen Gründen auch immer – liegen gelassen
+   und einige Tage später vom Autor fortgesetzt wurde. Oftmals notiert der Autor hier auch erneut
+   eine Datumszeile. In diesem Fall wird ein weiterer Schreibakt mit
+   &lt;div type=“Schreibakt“ n=“2“/&gt; gesetzt. Das Attribut @n steht in diesem Fall für die
+   Nummer des Schreibaktes.</p>
+
+  <p class="p">In der Autoransicht steht im Menü Brief der Punkt „Neuer Schreibakt“ für das einfache Einfügen
+   zur Verfügung. Innerhalb eines Schreibaktes, d.h. eines div-Elements, können ein Briefanfang, ein
+   Briefschluss sowie unbegrenzt viele Absätze vorkommen. Die einzelnen Schreibakte sind in Oxygen
+   XML Author zur besseren Sichtbarkeit mit einer grauen Linie voneinander abgesetzt.</p>
+
+  <p class="p"><strong class="ph b">Briefanfang</strong></p>
+
+  <p class="p">Das Element &lt;opener&gt; umfasst den gesamten Briefanfang, d.h. die Datumszeile und die
+   Anrede. Erstere wird mit &lt;dateline&gt; gekennzeichnet und enthält in der Regel einen Ort
+   und eine Datumsangabe die mit &lt;placeName&gt; bzw. &lt;date&gt; eigens ausgezeichnet
+   werden.</p>
+
+  <p class="p">Die Anrede, wie z.B. „Liebe Henriette“, wird mit &lt;salute&gt; gekennzeichnet –
+   allerdings nur, wenn sie vor dem ersten Absatz steht. Eine Anrede im Text wird nicht eigens
+   ausgezeichnet.</p>
+
+  <p class="p">Bei Bedarf kann im Briefanfang mit &lt;address&gt;&lt;addrLine/&gt;&lt;/adress&gt; auch eine
+   Empfängeradresse notiert werden.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;opener&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;address&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;addrLine&gt;</strong>An Lotte Kathen<strong class="hl-tag" style="color:#000096">&lt;/addrLine&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/address&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;dateline&gt;</strong>Kbg d. 15t. Septbr. 1808<strong class="hl-tag" style="color:#000096">&lt;/dateline&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;salute&gt;</strong> Liebste beste Freundin<strong class="hl-tag" style="color:#000096">&lt;/salute&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/opener&gt;</strong></pre>
+
+  <p class="p">In der Autoransicht stehen bei einer neu angelegten Datei bereits leere Elemente dafür zur
+   Verfügung und müssen nur noch ausgefüllt werden.</p>
+
+  <p class="p"><strong class="ph b">Absätze</strong></p>
+
+  <p class="p">Für jeden Absatz im Manuskript kann nun ein Absatz innerhalb des jeweiligen Schreibaktes
+   angelegt werden. Im Absatz können alle Textauszeichnungen verwendet werden.</p>
+
+  <p class="p"><strong class="ph b">Briefschluss</strong></p>
+
+  <p class="p">Analog zum Briefanfang wird auch der Briefschluss eigens mit &lt;closer&gt; ausgezeichnet.
+   Der Gruß wird wieder mit &lt;salute&gt; notiert, die Unterschrift dagegen mit &lt;signed&gt;. Der
+    Gruß wird nicht eigens ausgezeichnet, wenn er im vorhergehenden (letzten) Absatz
+    steht. Auch im Briefschluss kann eine Datumszeile und eine Adresse (siehe Briefanfang)
+    notiert werden.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;closer</strong> <span class="hl-attribute" style="color: #ff7935">rend</span>=<span class="hl-value" style="color: #993300">“eigener</span> <span class="hl-attribute" style="color: #ff7935">Absatz“&gt;</span>
+   <span class="hl-attribute" style="color: #ff7935">&lt;salute&gt;Lebe</span> <span class="hl-attribute" style="color: #ff7935">wohl,</span> <span class="hl-attribute" style="color: #ff7935">lieber</span> <span class="hl-attribute" style="color: #ff7935">Freund.&lt;/salute&gt;</span>
+   <span class="hl-attribute" style="color: #ff7935">&lt;salute&gt;Viel</span> <span class="hl-attribute" style="color: #ff7935">herzliche</span> <span class="hl-attribute" style="color: #ff7935">Grüße</span> <span class="hl-attribute" style="color: #ff7935">von</span> <span class="hl-attribute" style="color: #ff7935">uns</span> <span class="hl-attribute" style="color: #ff7935">Allen</span> <span class="hl-attribute" style="color: #ff7935">an</span> <span class="hl-attribute" style="color: #ff7935">Euch&lt;/salute&gt;</span>
+   <span class="hl-attribute" style="color: #ff7935">&lt;signed&gt;Dein</span> <span class="hl-attribute" style="color: #ff7935">Georg&lt;/signed&gt;</span>
+<span class="hl-attribute" style="color: #ff7935">&lt;/closer&gt;</span></pre>
+
+  <p class="p"><strong class="ph b">Postskriptum</strong></p>
+
+  <p class="p">Ein kürzerer Nachsatz sollte mit &lt;postscript&gt; dem Schreibakt nachgestellt werden. Innerhab
+   von &lt;postscript&gt; muss – wie bei &lt;div&gt; – ein Absatz &lt;p&gt; gesetzt werden.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;postscript&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>Du hast nun Deine eigne Wirthschaft – ach <strong class="hl-tag" style="color:#000096">&lt;del</strong>
+   <span class="hl-attribute" style="color: #ff7935">rend</span>=<span class="hl-value" style="color: #993300">“durchgestrichen“</span> <span class="hl-attribute" style="color: #ff7935">prev</span>=<span class="hl-value" style="color: #993300">“ach“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>ich<strong class="hl-tag" style="color:#000096">&lt;/del&gt;</strong> könnte ich mit den
+   Kinderchens so zu Dir u<strong class="hl-tag" style="color:#000096">&lt;ex&gt;</strong>nd<strong class="hl-tag" style="color:#000096">&lt;/ex&gt;</strong> Nanny kommen auf einen Nachmittag
+   nur – grüße diese doch von mir –
+<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/postscript&gt;</strong></pre>
+
+  <p class="p">In der Autoransicht ist im Menü Briefe ein entsprechender Punkt vorhanden, der auch
+   gleichzeitig schon ein &lt;p&gt; mit einfügt.</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Briefe.Kap/%C3%9Cberschrift.html">Briefe</a></div>
+</div>
+</div></body>
+</html>

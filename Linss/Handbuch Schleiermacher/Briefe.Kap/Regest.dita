@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zjh_jqp_3x">
+ <title>Regest</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Zu jedem Brief kann ein kurzer Regest notiert werden, der den wesentlichsten Briefinhalt
+   kurz skizziert. Für nur erschlossene Brief ist der Regest essenziell, aber auch für
+   Briefe, deren Text komplett transkribiert wurde, kann ein Regest nützlich sein. Insbesondere
+   im Hinblick auf die Webausgabe ist es wünschenswert, für jeden Brief einen
+   kurzen Regst bereit zu stellen.</p>
+  <p>Der Regest wird mit Hilfe von <![CDATA[<msContents> und <summary>]]> hinter die Überlieferung
+   des Originals in <![CDATA[<msDesc>]]> eingefügt:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<msDesc rend=“handschrift“>
+   <msIdentifier> ... </msIdentifier>
+   <msContents>
+      <summary> Bittet um Nachricht über den Gesundheitszustand
+      Ehrenfried von Willichs
+      </summary>
+      <p><note>Vgl. Brief XYZ</note></p>
+   </msContents>
+</msDesc>]]></codeblock>
+  <p>Mit <![CDATA[<note>]]> kann eine Anmerkung des Herausgebers, eingefügt werden, die sich auf
+   den ganzen Brief bezieht und im Druck auch so dargestellt wird (d.h. der Briefnummer
+   zugeordnet wird).</p>
+  <p>In der Autoransicht steht im Menü Briefe zwei entsprechende Punkte zur Verfügung:
+   „Regest“ und „Anmerkung zum Brief“.</p>
+ </conbody>
+</concept>

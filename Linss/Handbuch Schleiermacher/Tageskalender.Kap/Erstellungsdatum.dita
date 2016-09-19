@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tv5_ftp_3x">
+ <title>Erstellungsdatum</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Der Erstellungszeitraum des Tageskalender wird – wie bei Briefen und Vorlesungsmanuskripten
+   – im <![CDATA[<teiHeader>]]> als Attributwerte in <![CDATA[<date> ]]>notiert. In der Regel wird der
+   Erstellungszeitraum mit dem Kalenderjahr zusammenfallen.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+   <creation>
+      <date from=“1827-01-01“ to=“1828-12-31“ />
+   </creation>
+</profileDesc>]]></codeblock>
+  <p>Im Menü „Tageskalender“ stehen die entsprechenden Befehle zum einfachen Einfügen
+   zur Verfügung.</p>
+ </conbody>
+</concept>

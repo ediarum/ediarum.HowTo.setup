@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Text" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Vorlesungen.Kap/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_vlw_xd5_hx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Text</title>
+</head>
+<body id="concept_vlw_xd5_hx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Text</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Der Text des Vorlesungsmanuskripts wird mit den allgemeinen Strukturelementen (siehe 17)
+   ausgezeichnet. Ergänzend dazu können bei den Vorlesungsmanuskripten und -drucken noch folgende
+   Elemente verwendet werden.</p>
+
+  <p class="p"><strong class="ph b">Überschriften</strong></p>
+
+  <p class="p">Im Vorlesungsmanuskript enthaltene – d.h. vom Autor gesetzte – Überschriften können 36 mit
+   &lt;head&gt; ausgezeichnet werden. Mit Hilfe des Attributs @type wird die Hierarchieebene
+   abgebildet: hier stehen die Werte h1, h2, h3 und h4 zur Auswahl, wobei h1 die oberste Überschrift
+   kennzeichnet.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;head</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“1“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Erste Periode<strong class="hl-tag" style="color:#000096">&lt;/head&gt;</strong></pre>
+
+  <p class="p">Überschriten können mit Hilfe des Menüs „Vorlesungen &gt; Überschrift“ markiert werden.</p>
+
+  <p class="p"><strong class="ph b">Vorlesungsstunden</strong></p>
+
+  <p class="p">Optional können mehrere Absätze, die zu einer vorgesehenen (nicht gehaltenen!) Stunde gehören
+   auch mit &lt;div&gt; (division) umgeben werden.</p>
+
+  <pre class="pre codeblock language-xml">
+<strong class="hl-tag" style="color:#000096">&lt;div</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“Stunde“</span> <span class="hl-attribute" style="color: #ff7935">n</span>=<span class="hl-value" style="color: #993300">“1“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong> ... <strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong> ... <strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/div&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;div</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“Stunde“</span> <span class="hl-attribute" style="color: #ff7935">n</span>=<span class="hl-value" style="color: #993300">“2“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong> ... <strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong> ... <strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/div&gt;</strong></pre>
+
+  <p class="p">Die für eine Vorlesungsstunde vorgesehenen Absätze können im Text einfach markiert
+   und dann über das Menü „Vorlesungen &gt; Abschnitte“ mit einem &lt;div&gt; umgeben werden.</p>
+
+  <p class="p"><strong class="ph b">Gehaltene Stunden</strong></p>
+
+  <p class="p">Die Markierungen der tatäschlich gehaltenen Stunden Schleiermachers können mit &lt;anchor&gt;
+   an der genauen Textstelle transkribiert werden:</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;anchor</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“Stunde“</span> <span class="hl-attribute" style="color: #ff7935">n</span>=<span class="hl-value" style="color: #993300">“9“</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong></pre>
+
+  <p class="p">Dieses Ankerelement ist – wie &lt;pagebreak /&gt; – leer, d.h. es umfasst keine Textabschnitte,
+   sondern markiert genau einen Punkt im Manuskript. In der Druckausgabe wird es
+   wie bisher mit „9. Stunde“ in der Marginalspalte ausgegeben.</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Vorlesungen.Kap/%C3%9Cberschrift.html">Vorlesungen</a></div>
+</div>
+</div></body>
+</html>

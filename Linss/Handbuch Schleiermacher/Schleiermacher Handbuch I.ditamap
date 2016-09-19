@@ -4,92 +4,117 @@
     <booktitle>
         <mainbooktitle>Schleiermacher-Edition – Digitale Arbeitsumgebung Handbuch</mainbooktitle>
     </booktitle>
-    <chapter href="Einf%C3%BChrung.Kap/Einführung">
-        <topicref href="ediarum/Einf%C3%BChrung.Kap/Zentrale_Datenhaltung"/>
-        <topicref href="ediarum/Einführung.Kap/Einsatz_von_XML"/>
-        <topicref href="ediarum/Einführung.Kap/TEI"/>
+    <chapter href="Einf%C3%BChrung.Kap/Einführung.dita">
+        <topicref href="ediarum/Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
+        <topicref href="ediarum/Einführung.Kap/Einsatz_von_XML.dita"/>
+        <topicref href="ediarum/Einführung.Kap/TEI.dita"/>
     </chapter>
-    <chapter href="Allgemeine%20Bedienung.Kap/%C3%9Cberschrift">
-        <topicref href="Allgemeine%20Bedienung.Kap/%C3%9Cberblick"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neue_Datei"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Dateien_umbennen"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemeine_Funktionen"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_Sachapperat"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Menü_Schleiermacher"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ohne_Werkzeugleiste_arbeiten"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichten"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Autor"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Text"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Schriftarten"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Einfache_Suche"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Achtung"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Suchergebnisse"/>
+    <chapter href="Allgemeine%20Bedienung.Kap/%C3%9Cberschrift.dita">
+        <topicref href="Allgemeine%20Bedienung.Kap/%C3%9Cberblick.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neue_Datei.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen.dita"/>
+        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Dateien_umbennen.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemeine_Funktionen.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_Sachapperat.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Menü_Schleiermacher.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichten.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Autor.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Text.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Schriftarten.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Einfache_Suche.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Achtung.dita"/>
+        <topicref href="ediarum/Werkzeugleiste.Kap/Suchergebnisse.dita"/>
     </chapter>
-    <chapter href="Allgemeine%20Textauszeichnung/Überschrift">
-        <topicref href="Allgemeine%20Textauszeichnung/Struktur_Manuskript"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Absatz"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Zeilenumbruch"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Liste"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Anmerkung_des_Autors"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Seiten-Foliowechsel"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Arbeiten_Manuskript"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unterstreichungen"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Erg%C3%A4nzung"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrekturen"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Korrekturen_on_the_fly"/>
+    <chapter href="Allgemeine%20Textauszeichnung/Überschrift.dita">
+        <topicref href="Allgemeine%20Textauszeichnung/Struktur_Manuskript.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Absatz.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Zeilenumbruch.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Liste.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Anmerkung_des_Autors.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Seiten-Foliowechsel.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Arbeiten_Manuskript.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unterstreichungen.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Erg%C3%A4nzung.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrekturen.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Korrekturen_on_the_fly.dita"/>
         <topicref
-            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unsichere_Lesarten"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Nicht_lesbare_Wörter"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Ergänzung.textauszeichnungen"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung_Herausgeber"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrektur_Herausgeber"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Sachanmerkung"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Freie_Textanmerkung"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Querverweise"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Datum"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Fremdsprachiger_Textabschnitt"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Index"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Namen_Orte_Personen_Werken"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Bearbeitungskommentare_markierungen"/>
+            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unsichere_Lesarten.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Nicht_lesbare_Wörter.dita"/>
+        <topicref
+            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Ergänzung.textauszeichnungen.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung_Herausgeber.dita"/>
+        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrektur_Herausgeber.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Sachanmerkung.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Freie_Textanmerkung.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Querverweise.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Datum.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Fremdsprachiger_Textabschnitt.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Index.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Namen_Orte_Personen_Werken.dita"/>
+        <topicref href="Allgemeine%20Textauszeichnung/Bearbeitungskommentare_markierungen.dita"/>
     </chapter>
-    <chapter href="Briefe.Kap/Überschrift">
-        <topicref href="Briefe.Kap/Metadaten"></topicref>
-        <topicref href="Briefe.Kap/Text"></topicref>
+    <chapter href="Briefe.Kap/Überschrift.dita">
+        <topicref href="Briefe.Kap/Metadaten.dita"/>
+        <topicref href="Briefe.Kap/Dokumenttitel.dita"/>
+        <topicref href="Briefe.Kap/Überlieferung.dita"/>
+        <topicref href="Briefe.Kap/Regest.dita"/>
+        <topicref href="Briefe.Kap/Korrespondenzangaben.dita"/>
+        <topicref href="Briefe.Kap/Text.dita"/>
+        <topicref href="Briefe.Kap/Schreibakt.dita"/>
+        <topicref href="Briefe.Kap/Briefanfang.dita"/>
+        <topicref href="Briefe.Kap/Absatz.dita"/>
+        <topicref href="Briefe.Kap/Briefschluss.dita"/>
+        <topicref href="Briefe.Kap/Postskriptum.dita"/>
     </chapter>
-    <chapter href="Vorlesungen.Kap/Überschrift">
-        <topicref href="Vorlesungen.Kap/Metadaten"></topicref>
-        <topicref href="Vorlesungen.Kap/Text"></topicref>
+    <chapter href="Vorlesungen.Kap/Überschrift.dita">
+        <topicref href="Vorlesungen.Kap/Metadaten.dita"/>
+        <topicref href="Vorlesungen.Kap/Dokumenttitel.dita"/>
+        <topicref href="Vorlesungen.Kap/Überlieferung.dita"/>
+        <topicref href="Vorlesungen.Kap/Regest.dita"/>
+        <topicref href="Vorlesungen.Kap/Erstellungsdatu.dita"/>
+        <topicref href="Vorlesungen.Kap/Zeitlich_thematischer_Zusammenhang"/>
+        <topicref href="Vorlesungen.Kap/Text.dita"/>
+        <topicref href="Vorlesungen.Kap/Überschriften.dita"></topicref>
+        <topicref href="Vorlesungen.Kap/Vorlesungsstundek.dita"></topicref>
+        <topicref href="Vorlesungen.Kap/Gehaltene_Stunde.dita"></topicref>
+
     </chapter>
-    <chapter href="Tageskalender.Kap/Überschrift">
-        <topicref href="Tageskalender.Kap/Metadaten"></topicref>
-        <topicref href="Tageskalender.Kap/Text"></topicref>
+    <chapter href="Tageskalender.Kap/Überschrift.dita">
+        <topicref href="Tageskalender.Kap/Metadaten.dita"/>
+        <topicref href="Tageskalender.Kap/Überlieferungen.dita"></topicref>
+        <topicref href="Tageskalender.Kap/Erstellungsdatum.dita"></topicref>
+        <topicref href="Tageskalender.Kap/Text.dita"/>
+        <topicref href="Tageskalender.Kap/Deckbaltt.dita"></topicref>
+        <topicref href="Tageskalender.Kap/Kalender.dita"></topicref>
+        <topicref href="Tageskalender.Kap/Datumsangabe.dita"></topicref>
+        <topicref href="Tageskalender.Kap/Doppelt_belegte_Tageskalender.dita"></topicref>
     </chapter>
-    <chapter href="Register.kap/Überschrift">
-    <topicref href="Register.kap/Personen"></topicref>
-    <topicref href="Register.kap/Orte"></topicref>
-        <topicref href="Register.kap/Werke"></topicref>
-        <topicref href="Register.kap/Links"></topicref>
+    <chapter href="Register.kap/Überschrift.dita">
+        <topicref href="Register.kap/Personen.dita"/>
+        <topicref href="Register.kap/Orte.dita"/>
+        <topicref href="Register.kap/Werke.dita"/>
+        <topicref href="Register.kap/Links.dita"/>
     </chapter>
-    <chapter href="Tipps_Tricks.Kap/Überschrift">
-        <topicref href="Tipps_Tricks.Kap/Allgemein"></topicref>
-        <topicref href="Tipps_Tricks.Kap/Register"></topicref>
+    <chapter href="Tipps_Tricks.Kap/Überschrift.dita">
+        <topicref href="Tipps_Tricks.Kap/Allgemein.dita"/>
+        <topicref href="Tipps_Tricks.Kap/Register.dita"/>
     </chapter>
-    <chapter href="Website.kap/Überschrift">
-        <topicref href="Website.kap/Briefe_Vorlesungen_Tageskalender"></topicref>
-        <topicref href="Website.kap/Register"></topicref>
-        <topicref href="Website.kap/Diachroner_Überblick"></topicref>
+    <chapter href="Website.kap/Überschrift.dita">
+        <topicref href="Website.kap/Briefe_Vorlesungen_Tageskalender.dita"/>
+        <topicref href="Website.kap/Register.dita"/>
+        <topicref href="Website.kap/Diachroner_Überblick.dita"/>
     </chapter>
-    <chapter href="Installation.Kap/Überschrift">
-        <topicref href="Installation.Kap/Installation"></topicref>
-        <topicref href="Installation.Kap/Update_Arbeitsumgebung"></topicref>
+    <chapter href="Installation.Kap/Überschrift.dita">
+        <topicref href="Installation.Kap/Installation.dita"/>
+        <topicref href="Installation.Kap/Update_Arbeitsumgebung.dita"/>
     </chapter>
 
 </bookmap>

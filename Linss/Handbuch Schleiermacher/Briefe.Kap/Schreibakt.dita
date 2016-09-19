@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_lq1_tqp_3x">
+ <title>Schreibakt</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Das nächste Element <![CDATA[<div type=“Schreibakt“/>]]> steht meistens alleine – das ist dann
+   der Fall, wenn der Brief im großen und ganzen „in einem Zug“ vom Verfasser geschrieben wurde. Ein
+   evtl. vorhandener kleiner Nachtrag kann nach dem <![CDATA[<div/> mit <postscript>]]> eingefügt
+   werden.</p>
+  <p>Es kann aber auch vorkommen, dass der Brief – aus welchen Gründen auch immer – liegen gelassen
+   und einige Tage später vom Autor fortgesetzt wurde. Oftmals notiert der Autor hier auch erneut
+   eine Datumszeile. In diesem Fall wird ein weiterer Schreibakt mit
+   <![CDATA[<div type=“Schreibakt“ n=“2“/>]]> gesetzt. Das Attribut @n steht in diesem Fall für die
+   Nummer des Schreibaktes.</p>
+  <p>In der Autoransicht steht im Menü Brief der Punkt „Neuer Schreibakt“ für das einfache Einfügen
+   zur Verfügung. Innerhalb eines Schreibaktes, d.h. eines div-Elements, können ein Briefanfang, ein
+   Briefschluss sowie unbegrenzt viele Absätze vorkommen. Die einzelnen Schreibakte sind in Oxygen
+   XML Author zur besseren Sichtbarkeit mit einer grauen Linie voneinander abgesetzt.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sgp_xg5_hx">
+ <title>Text</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die Textstruktur in den Tageskalendern ist im Vergleich zu den Brief- und
+   Vorlesungstranskribtionen recht umfangreich, da der Text bereits im Original stark strukturiert
+   ist. Die Struktur dient zum einen dazu, die Zuordnung zum genauen Datum, als auch die optische
+   Gestaltung zu erhalten. So kann das Material im chronologischen Kontext gesichtet werden oder mit
+   einem Faksimile der jeweiligen Seite zusammen.</p>
+ </conbody>
+</concept>

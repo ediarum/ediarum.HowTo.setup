@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ctp_pf5_hx">
+ <title>Metadaten</title>
+ <shortdesc/>
+ <conbody>
+  <p>Die im <![CDATA[<teiHeader>]]> abgelegten Metadaten zum Tagebuch bestehen im wesentlichen aus
+   den gleichen Angaben, die bei den Briefen gemacht werden.</p>
+  <p><b>Dokumenttitel</b></p>
+  <p>Der Dokumenttitel lautet stets „Tageskalender [Jahr]“ und wird mit
+   <![CDATA[<title/> im <titleStmt>]]> notiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<titleStmt>
+   <title>Tageskalender 1820</title>
+</titleStmt>]]></codeblock>
+  <p>In der Autoransicht kann nach Erstellung einer neuen Datei der Dokumenttitel einfach im Feld
+   „Titel“ eingetragen werden.</p>
+ </conbody>
+</concept>

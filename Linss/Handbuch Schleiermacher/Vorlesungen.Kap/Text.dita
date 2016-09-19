@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vlw_xd5_hx">
+ <title>Text</title>
+ <shortdesc/>
+ <conbody>
+  <p>Der Text des Vorlesungsmanuskripts wird mit den allgemeinen Strukturelementen (siehe 17)
+   ausgezeichnet. Ergänzend dazu können bei den Vorlesungsmanuskripten und -drucken noch folgende
+   Elemente verwendet werden.</p>
+ </conbody>
+</concept>

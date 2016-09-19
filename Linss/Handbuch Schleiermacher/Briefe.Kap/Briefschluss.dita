@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bnl_crp_3x">
+ <title>Briefschluss</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Analog zum Briefanfang wird auch der Briefschluss eigens mit <![CDATA[<closer>]]> ausgezeichnet.
+   Der Gruß wird wieder mit <![CDATA[<salute>]]> notiert, die Unterschrift dagegen mit <![CDATA[<signed>]]>. Der
+   Gruß wird nicht eigens ausgezeichnet, wenn er im vorhergehenden (letzten) Absatz
+   steht. Auch im Briefschluss kann eine Datumszeile und eine Adresse (siehe Briefanfang)
+   notiert werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<closer rend=“eigener Absatz“>
+   <salute>Lebe wohl, lieber Freund.</salute>
+   <salute>Viel herzliche Grüße von uns Allen an Euch</salute>
+   <signed>Dein Georg</signed>
+</closer>]]></codeblock>
+ </conbody>
+</concept>

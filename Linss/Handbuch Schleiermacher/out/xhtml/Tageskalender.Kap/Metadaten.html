@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Metadaten" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Tageskalender.Kap/Überschrift.html" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_ctp_pf5_hx" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Metadaten</title>
+</head>
+<body id="concept_ctp_pf5_hx">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Metadaten</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Die im &lt;teiHeader&gt; abgelegten Metadaten zum Tagebuch bestehen im wesentlichen aus
+   den gleichen Angaben, die bei den Briefen gemacht werden.</p>
+
+  <p class="p"><strong class="ph b">Dokumenttitel</strong></p>
+
+  <p class="p">Der Dokumenttitel lautet stets „Tageskalender [Jahr]“ und wird mit
+   &lt;title/&gt; im &lt;titleStmt&gt; notiert.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;titleStmt&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;title&gt;</strong>Tageskalender 1820<strong class="hl-tag" style="color:#000096">&lt;/title&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/titleStmt&gt;</strong></pre>
+
+  <p class="p">In der Autoransicht kann nach Erstellung einer neuen Datei der Dokumenttitel einfach im Feld
+   „Titel“ eingetragen werden.</p>
+
+  <p class="p"><strong class="ph b">Überlieferung</strong></p>
+
+  <p class="p">Alle Angaben zur Überlieferung werden in &lt;sourceDesc/&gt; (sourcedescription) notiert.
+   Der Nachweis des Manuskript wird dabei im Element &lt;msDesc/&gt; (manuscript description)
+   angegeben.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;msDesc&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;msIdentifier&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;institution&gt;</strong>Berlin-Brandenburgische Akademie der
+      Wissenschaften<strong class="hl-tag" style="color:#000096">&lt;/institution&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;repository&gt;</strong>Archiv<strong class="hl-tag" style="color:#000096">&lt;/repository&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;collection&gt;</strong>Schleiermacher-Nachlass<strong class="hl-tag" style="color:#000096">&lt;/collection&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;idno&gt;</strong>Tageskalender 1820<strong class="hl-tag" style="color:#000096">&lt;/idno&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/msIdentifier&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/msDesc&gt;</strong></pre>
+
+  <p class="p">Innerhalb &lt;msIdentifier/&gt; werden die einzelnen Angaben gemacht. Zu beachten ist,
+   dass alle Angaben (bis auf die Signatur) ausgeschrieben werden.</p>
+
+  <p class="p">In &lt;idno/&gt; wird die vollständige Signatur notiert – inkl. Institutionskürzel.</p>
+
+  <p class="p"> In der Autorenansicht sind bem Erstellen einer neuen Datei die Angaben zur BBA W schon
+   vorhanden und im Regelfall muss nur noch die Signatur hinzugefügt werden.</p>
+
+  <p class="p"><strong class="ph b">Erstellungsdatum</strong></p>
+
+  <p class="p">Der Erstellungszeitraum des Tageskalender wird – wie bei Briefen und Vorlesungsmanuskripten
+   – im &lt;teiHeader&gt; als Attributwerte in &lt;date&gt; notiert. In der Regel wird der
+    Erstellungszeitraum mit dem Kalenderjahr zusammenfallen.</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;profileDesc&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;creation&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;date</strong> <span class="hl-attribute" style="color: #ff7935">from</span>=<span class="hl-value" style="color: #993300">“1827-01-01“</span> <span class="hl-attribute" style="color: #ff7935">to</span>=<span class="hl-value" style="color: #993300">“1828-12-31“</span><strong class="hl-tag" style="color:#000096"> /&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/creation&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/profileDesc&gt;</strong></pre>
+
+  <p class="p">Im Menü „Tageskalender“ stehen die entsprechenden Befehle zum einfachen Einfügen
+   zur Verfügung.</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Tageskalender.Kap/%C3%9Cberschrift.html">Tageskalender</a></div>
+</div>
+</div></body>
+</html>
