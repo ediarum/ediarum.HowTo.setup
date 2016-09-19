@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Installation.Kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Installation.Kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="task_i1k_ws5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic task/task " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="task:1;3:28">
+    <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="title:1;4:12">Installation</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="shortdesc:1;5:17"/>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="taskbody:1;6:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="context:1;7:18">
+            <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="p:1;8:16">Um einem Mitarbeiter bzw. einer Mitarbeiterin die digitale Arbeitsumgebung bereitzustellen
+                sind folgende Schritte notwendig:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="steps:1;11:16">
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:1;12:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:1;13:22">Anlegen eines Benutzeraccounts für die Datenbank im Webstartclient von eXist</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:2;15:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:2;16:22">Kopieren der Schrift „DejaVu Serif“ in den Ordner C:\Windows\Fonts</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:3;18:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:3;19:22">Installation von Oxygen XML Author 14 auf dem Rechner</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:4;21:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:4;22:22">Start des Programms Oxygen XML Author</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:5;24:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:5;25:22">BBA W-Lizenzschlüssel eingeben</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:6;27:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:6;28:22">In „Optionen &gt; Einstellungen“: „Add-ons“: URL der Update Site (siehe unten) eintragen
+                    und Checkbox „Enable automatic Updates checking“ aktivieren; „Oxygen XML
+                    UpdateSite“ löschen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:7;32:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:7;33:22">Add-on über „Hilfe &gt; Manage Add-ons“ installieren („Aktualisieren“, „Installieren“
+                    und Sicherheitshinweis bestätigen)</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:8;36:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:8;37:22">Globale Optionen aus dem Frameworkordner importieren (am besten den Pfad per
+                    Eingabe von „%APPDATA%“ im Dateinfeld (unten im Datei-Auswählen-Dialog) herausfinden)</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:9;40:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:9;41:22">Unter „Optionen &gt; Einstellungen &gt; Perspektivisches Layout“ auf Layoutdatei in
+                    Frameworkordner (jetzt vorausgewählt) verlinken</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:10;44:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:10;45:22">Benutzername und Passwort in die Datenquellenkonfiguration eintragen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="step:11;47:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Installation.Kap/Installation" xtrc="cmd:11;48:22">Programm neu starten</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

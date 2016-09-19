@@ -3,7 +3,7 @@
 <concept id="concept_nqn_nly_2x">
  <title>Werkzeugleiste mit den allgemeinen Funktionen</title>
  <shortdesc></shortdesc>
- <conbody><image href="Abb.Werkzeugleiste_allgemeine_Funktionen.s"></image>
+ <conbody><image href="Abb.Werkzeugleiste_allgemeine_Funktionen.s" width="15cm"></image>
   <p>Bemerkungen zur den einzelnen Funktionen:</p>
   <p>Neue lokale Datei: damit kann an nur lokal, d.h. auf dem Rechner, eine neue Datei angelegen.
    Bitte benutzen Sie nach Möglichkeit immer das Kontextmenü im Dateibaum, um

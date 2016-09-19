@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ipr_3s5_hx">
+ <title>Diachroner Überblick</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><b>Zeitsuche</b></p>
+  <p>Alle Datumsangaben sind mit der Zeitsuche verknüpft, die allerdings auch eigens unter
+   „Diachroner Überblick“ aufgerufen werden kann. Die Zeitsuche gibt alle Briefen und
+   Tageskalendereinträge aus, die sieben Tage vor bzw. nach dem (verlinkten oder eingegebenen)
+   Datum liegen.</p>
+  <p><b>Leben und Korrespondenzaktivität Schleiermachers</b></p>
+  <p>Mit Hilfe des SIMILE-Timeplot-Moduls kann die Biographie Schleiermachers (graue Striche)
+   parallel zu seiner Korrespondenzaktivtität visualisiert werden. Falls gewünscht,
+   kann nach Absprache von der Arbeitsstelle eine genauere Biographie bereitgestellt werden,
+   als diejenige, die zu Demonstrationszwecken hinterlegt wurde.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Register.kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Register.kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_nzt_pj5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="title:1;4:9">Personen</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="shortdesc:1;5:13"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:1;7:6">Personen werden jeweils im Element &lt;person&gt; notiert.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="codeblock:1;8:41">
+&lt;person id=“p0003“&gt;
+   &lt;name&gt;Abicht&lt;/name&gt;
+   &lt;vorname&gt;Johann Heinrich&lt;/vorname&gt;
+   &lt;lebensdaten&gt;(1762-1816)&lt;/lebensdaten&gt;
+   &lt;aussage&gt;seit 1790 Professor der Philosophie in Erlangen&lt;/aussage&gt;
+   &lt;aussage&gt;seit 1804 in Vilnius (Wilna)&lt;/aussage&gt;
+   &lt;aussage&gt;Anhänger Kants&lt;/aussage&gt;
+   &lt;aussage&gt;später Fichteaner&lt;/aussage&gt;
+&lt;/person&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:2;18:6">Vorname und Nachname wird getrennt abgelegt. Ein eigenes Element kennzeichnet die
+   Lebensdaten. Jede weitere Information zur Person wird jeweils einzeln in einem Element
+   &lt;aussage&gt; notiert. Durch diese Portionierung der Informationen ist das Personenregister
+    bereits für eine spätere Verwendung im BBA W-Projekt „Personendatenrepositorium“1
+    optimiert. Jeder Personeneintrag verfügt über eine eindeutige Identifikationsnumer auf
+    die aus einem Manuskript heraus mit Hilfe von &lt;persName&gt; verwiesen werden kann.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:3;24:6">Zusätzlich kann im Attribut @gnd auch die Identifikationsnummer der Gemeinsamen
+   Normdatei2 zur Person abgelegt werden. Dadurch ist eine Verknüpfung des Registers
+   mit anderen Ressourcen möglich.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:4;27:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="b:1;27:9">Familien</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:5;28:6">Im Personenregister können mehrere Personen zu einer Familie zugeordnet werden.
+   Die entsprechenden Personenelemente werden dazu einfach mit dem Element &lt;gruppe&gt;
+    umgeben:</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="codeblock:2;31:41">
+&lt;gruppe&gt;
+   &lt;gruppenname&gt;Alberti&lt;/gruppenname&gt;
+   &lt;person id=“p15“&gt; ... &lt;/person&gt;
+   &lt;person id=“p16“&gt; ... &lt;/person&gt;
+   &lt;person id=“p17“&gt; ... &lt;/person&gt;
+&lt;/gruppe&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:6;38:6">Optional kann im Element &lt;gruppenname&gt; der Familienname notiert werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="p:7;39:6">In der Werkzeugleiste stehen im Menüpunkt „Familie“ alle notwendigen Aktionen zur Verfügung:<ul id="ul_x5r_jk5_hx" class="- topic/ul " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="ul:1;40:24">
+    <li class="- topic/li " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="li:1;41:9">„Neue Familie einfügen“</li>
+    <li class="- topic/li " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="li:2;42:9">
+     „Familie auflösen“: das umgebendes &lt;gruppe&gt;-Element wird gelöscht, Personendatensätze
+     bleiben aber erhalten)
+    </li>
+    <li class="- topic/li " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="li:3;46:9">
+     „Personen zur Familie verbinden“: die markierten aufeinander folgenden Personen
+     werden mit dem Element &lt;gruppe&gt; umgeben.
+    </li>
+    <li class="- topic/li " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Personen" xtrc="li:4;50:9">Familienname hinzufügen: fügt &lt;gruppenname&gt; dem Familienelement hinzu</li>
+   </ul></p>
+ </conbody>
+</concept>

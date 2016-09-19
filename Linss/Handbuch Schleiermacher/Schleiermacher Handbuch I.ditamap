@@ -9,7 +9,7 @@
         <topicref href="ediarum/Einführung.Kap/Einsatz_von_XML"/>
         <topicref href="ediarum/Einführung.Kap/TEI"/>
     </chapter>
-    <chapter href="ediarum/Allgemeine%20Bedienung.Kap/%C3%9Cberschrift">
+    <chapter href="Allgemeine%20Bedienung.Kap/%C3%9Cberschrift">
         <topicref href="Allgemeine%20Bedienung.Kap/%C3%9Cberblick"/>
         <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum"/>
         <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neue_Datei"/>
@@ -62,12 +62,34 @@
     </chapter>
     <chapter href="Briefe.Kap/Überschrift">
         <topicref href="Briefe.Kap/Metadaten"></topicref>
+        <topicref href="Briefe.Kap/Text"></topicref>
     </chapter>
-    <chapter href="Vorlesungen.s"/>
-    <chapter href="Tageskalender.s"/>
-    <chapter href="Register.s"/>
-    <chapter href="Tipps_Tricks.s"/>
-    <chapter href="Website.s"/>
-    <chapter href="Installation.s"/>
+    <chapter href="Vorlesungen.Kap/Überschrift">
+        <topicref href="Vorlesungen.Kap/Metadaten"></topicref>
+        <topicref href="Vorlesungen.Kap/Text"></topicref>
+    </chapter>
+    <chapter href="Tageskalender.Kap/Überschrift">
+        <topicref href="Tageskalender.Kap/Metadaten"></topicref>
+        <topicref href="Tageskalender.Kap/Text"></topicref>
+    </chapter>
+    <chapter href="Register.kap/Überschrift">
+    <topicref href="Register.kap/Personen"></topicref>
+    <topicref href="Register.kap/Orte"></topicref>
+        <topicref href="Register.kap/Werke"></topicref>
+        <topicref href="Register.kap/Links"></topicref>
+    </chapter>
+    <chapter href="Tipps_Tricks.Kap/Überschrift">
+        <topicref href="Tipps_Tricks.Kap/Allgemein"></topicref>
+        <topicref href="Tipps_Tricks.Kap/Register"></topicref>
+    </chapter>
+    <chapter href="Website.kap/Überschrift">
+        <topicref href="Website.kap/Briefe_Vorlesungen_Tageskalender"></topicref>
+        <topicref href="Website.kap/Register"></topicref>
+        <topicref href="Website.kap/Diachroner_Überblick"></topicref>
+    </chapter>
+    <chapter href="Installation.Kap/Überschrift">
+        <topicref href="Installation.Kap/Installation"></topicref>
+        <topicref href="Installation.Kap/Update_Arbeitsumgebung"></topicref>
+    </chapter>
 
 </bookmap>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nzt_pj5_hx">
+ <title>Personen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Personen werden jeweils im Element <![CDATA[<person>]]> notiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<person id=“p0003“>
+   <name>Abicht</name>
+   <vorname>Johann Heinrich</vorname>
+   <lebensdaten>(1762-1816)</lebensdaten>
+   <aussage>seit 1790 Professor der Philosophie in Erlangen</aussage>
+   <aussage>seit 1804 in Vilnius (Wilna)</aussage>
+   <aussage>Anhänger Kants</aussage>
+   <aussage>später Fichteaner</aussage>
+</person>]]></codeblock>
+  <p>Vorname und Nachname wird getrennt abgelegt. Ein eigenes Element kennzeichnet die
+   Lebensdaten. Jede weitere Information zur Person wird jeweils einzeln in einem Element
+   <![CDATA[<aussage>]]> notiert. Durch diese Portionierung der Informationen ist das Personenregister
+    bereits für eine spätere Verwendung im BBA W-Projekt „Personendatenrepositorium“1
+    optimiert. Jeder Personeneintrag verfügt über eine eindeutige Identifikationsnumer auf
+    die aus einem Manuskript heraus mit Hilfe von <![CDATA[<persName>]]> verwiesen werden kann.</p>
+  <p>Zusätzlich kann im Attribut @gnd auch die Identifikationsnummer der Gemeinsamen
+   Normdatei2 zur Person abgelegt werden. Dadurch ist eine Verknüpfung des Registers
+   mit anderen Ressourcen möglich.</p>
+  <p><b>Familien</b></p>
+  <p>Im Personenregister können mehrere Personen zu einer Familie zugeordnet werden.
+   Die entsprechenden Personenelemente werden dazu einfach mit dem Element <![CDATA[<gruppe>]]>
+    umgeben:</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<gruppe>
+   <gruppenname>Alberti</gruppenname>
+   <person id=“p15“> ... </person>
+   <person id=“p16“> ... </person>
+   <person id=“p17“> ... </person>
+</gruppe>]]></codeblock>
+  <p>Optional kann im Element <![CDATA[<gruppenname>]]> der Familienname notiert werden.</p>
+  <p>In der Werkzeugleiste stehen im Menüpunkt „Familie“ alle notwendigen Aktionen zur Verfügung:<ul
+    id="ul_x5r_jk5_hx">
+    <li>„Neue Familie einfügen“</li>
+    <li>
+     „Familie auflösen“: das umgebendes &lt;gruppe>-Element wird gelöscht, Personendatensätze
+     bleiben aber erhalten)
+    </li>
+    <li>
+     „Personen zur Familie verbinden“: die markierten aufeinander folgenden Personen
+     werden mit dem Element &lt;gruppe> umgeben.
+    </li>
+    <li>Familienname hinzufügen: fügt &lt;gruppenname> dem Familienelement hinzu</li>
+   </ul></p>
+ </conbody>
+</concept>

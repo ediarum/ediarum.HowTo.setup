@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ebb_gl5_hx">
+ <title>Werke</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Bücher, Zeitschriften, Zeitungen etc. werden jeweils in einem Element <![CDATA[<werk>]]> notiert.
+   Der Eintrag wird nochmals nach Titel, Erscheingungsjahr und Autor(en) unterteilt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[
+<werk id=“w1926“>
+   <titel>Platon’s Leben und Schriften</titel>
+   <erschjahr>1816</erschjahr>
+   <autor id=“p0014>Ast, Georg Anton Friedrich </autor>
+   <beschreibung>Erschienen in der Weidmannischen Buchandlung
+   in Leipzig</beschreibung>
+</werk>]]></codeblock>
+  <p>Einziges Pflichtelement ist der Titel. Alle anderen Element sind optional und können
+   auch (bis auf das Erscheinungsjahr) mehrfach gesetzt werden.</p>
+  <p>Jeder Werkeintrag enthält eine eindeutige Identifikationsnummer (hier: w1926), auf
+   die aus den Manuskripten heraus verwiesen werden kann – etwa mit <![CDATA[<ref> oder <bibl>]]>.
+    Umgekehrt kann vom Autor auf einen Eintrag im Personenregister verwiesen werden,
+    falls vorhanden (mit Hilfe der Schaltflächen „Neuen Autor aus Register einfügen“ bzw.
+    „Bestehenden Autor mit Register verknüpfen“). Anhand dieser Verknüpfung ist es auch
+    möglich, für die Druckausgabe Personen- und Werkeinträge wieder zusammenzuführen.</p>
+  <p>Soll in der Druckausgabe ein Werk nicht unter seinem Autor aufgeführt werden, sondern
+   alleinstehend unter seinem Titel, dann kann dies durch das Attribut @separate=true
+   markiert werden. Eine entsprechende Aktion „Alleinstehendes Werk“ steht in der Toolbar
+   unter „Weitere Angaben hinzufügen“ zur Verfügung. In der Autorenansicht werden
+   so markierte Werke mit dem Symbol <image href="Abb.Werke.png"></image> gekennzeichnet.</p>
+ </conbody>
+</concept>

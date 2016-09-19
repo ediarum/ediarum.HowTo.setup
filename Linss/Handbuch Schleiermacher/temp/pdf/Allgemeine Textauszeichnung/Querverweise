@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Allgemeine Textauszeichnung?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Allgemeine%20Textauszeichnung/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="task_ask_mb5_fx" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic task/task " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="task:1;3:28">
+    <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="title:1;4:12">Querverweise erstellen</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="shortdesc:1;5:17"/>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="taskbody:1;6:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="context:1;7:18">
+            <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="p:1;8:16">Möchte der Bearbeiter einen Querverweis auf eine Textstelle im selben oder einem
+                andere Manuskript innerhalb der Edition erstellen, so muss zuerst das Ziel (d.h. die
+                Stelle, auf die verwiesen werden soll) markiert werden. Die entsprechende
+                Textpassage wird mit zwei &lt;anchor/&gt;-Elementen markiert, die dieselbe eindeutige
+                Identifikationsnummer haben – zusätzlich versehen mit dem Präfix „start_“ bzw.
+                „stop_“:</p>
+            <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="codeblock:1;14:51">Wie sehn‘ ich mich darnach, Dich hier, &lt;anchor type=“Markierung“
+xml:id=“start_qsd_m5z_kf“/&gt;wenn auch nur auf wenige Tage&lt;anchor
+type=“Markierung“ xml:id=“stop_qsd_m5z_kf“/&gt; wieder zu sehen.</codeblock>
+            <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="p:2;17:16">In der Autoransicht werden die markierten Verweisziele mit dem Symbol<image href="Abb.Querverweis.s" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="image:1;18:47"/>(Anfang) bzw.<image href="Abb.Querverweis1.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="image:2;19:19"/>(Ende) angezeigt.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="p:3;20:16">An der Verweisstell wird &lt;ref/&gt; eingefügt, dessen Atrribut @target auf
+                die zu verweisende Stelle zeigt. Der Verweis hat dabei die Form [ID der
+                Datei]/#start_[id].</p>
+            <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="codeblock:2;23:51">Vgl. &lt;ref target=“bf7023/start_qsd_m5z_kf“&gt;Brief&lt;/ref&gt;</codeblock>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="steps:1;25:16">
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:1;26:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:1;27:22">Datei öffnen und Textstelle heraussuchen, auf die verwiesen werden soll</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:2;29:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:2;30:22">Textstelle mit Cursor markieren</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:3;32:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:3;33:22">Symbol<image href="Abb.Querverweis2.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="image:3;33:64"/>in der Werkzeugleiste anklicken</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:4;35:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:4;36:22">Datei speichern, aber geöffnet lassen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:5;38:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:5;39:22">Zur Datei und Textstelle wechseln, von der aus verwiesen werden soll</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:6;41:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:6;42:22">Symbol<image href="Abb.Querverweis3.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="image:4;42:63"/>in der Werkzeugleiste anklicken</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:7;44:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:7;45:22">Im erscheinenden Dialogfenster die Zieldatei auswählen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:8;47:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:8;48:22">... und dann die entsprechende Textstelle</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="step:9;50:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Allgemeine%20Textauszeichnung/Querverweise" xtrc="cmd:9;51:22">[OK] klicken</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

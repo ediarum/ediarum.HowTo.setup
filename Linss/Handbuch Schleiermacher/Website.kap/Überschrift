@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_wdp_3r5_hx">
+ <title>Website</title>
+ <shortdesc/>
+ <conbody>
+  <p>Neben der digitalen Arbeitsumgebung innerhalb von Oxygen XML Author wurde auch eine Website
+   erstellt, die ein einfaches Lesen, Suchen und Durchstöbern der Briefe, Vorlesungen, Tageskalender
+   und Register ermöglicht.</p>
+  <p>Die Website ist zugriffsgeschützt: alle Inhalte (Briefe, Register etc.) können nur nach
+   erfolgreichem Login aufgerufen werden. Beim Aufruf der Website mit der Schaltfläche aus dem
+   Programm Oxygen XML Author heraus, wird der Nutzer automatisch eingeloggt.</p>
+  <p><b>Bitte beachten:</b> Fast alle Funktionen hängen von der entsprechenden Auszeichung in den
+   XML-Dokumenten ab. Sind z.B. Adressat und Empfänger nicht entsprechend hinterlegt, kann ein Brief
+   auch nicht in der Briefübersicht mit Hilfe der Person gefunden werden.</p>
+ </conbody>
+</concept>

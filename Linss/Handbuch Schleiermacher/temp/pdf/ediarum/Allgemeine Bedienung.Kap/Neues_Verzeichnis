@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\ediarum\Allgemeine Bedienung.Kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/ediarum/Allgemeine%20Bedienung.Kap/?><?path2project ..\..\?><?path2project-uri ../../?><task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="task_f5t_qg2_vw" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:generalTask.xsd" class="- topic/topic task/task " DITAArchVersion="1.3" domains="(topic abbrev-d) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d xml-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic svg-d) (topic sw-d) (topic task) (topic ui-d) (topic ut-d) a(props deliveryTarget)" xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="task:1;3:81">
+    <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="title:1;4:12">Neues Verzeichnis anlegen</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="shortdesc:1;5:17"/>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="taskbody:1;6:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="context:1;7:18">
+            <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="p:1;8:16">Beim Anlegen eines neuen Verzeichnisses sind folgende Schritte notwendig:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="steps:1;10:16">
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="step:1;11:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="cmd:1;12:22">Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="step:2;14:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="cmd:2;15:22"> „Neues Verzeichnis“ auswählen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="step:3;17:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="cmd:3;18:22"> Verzeichnisname im erscheinenen Dialogfenster eingeben</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="step:4;20:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis" xtrc="cmd:4;21:22"> [OK] klicken</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

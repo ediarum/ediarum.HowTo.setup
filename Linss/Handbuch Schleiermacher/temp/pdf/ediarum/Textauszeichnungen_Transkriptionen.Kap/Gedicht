@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\ediarum\Textauszeichnungen_Transkriptionen.Kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/ediarum/Textauszeichnungen_Transkriptionen.Kap/?><?path2project ..\..\?><?path2project-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_o1f_gbc_zw" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="title:1;4:9">Gedicht</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="shortdesc:1;5:13"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="p:1;7:6">Gedichte müssen eigens ausgezeichnet werden. Während die Versgruppe bzw. Strophe
+   mit&lt;lg type=“versgruppe“ /&gt; gekennzeichnet wird, wird die einzelne Verszeile mit &lt;l&gt; 
+    umschlossen. Alle Strophen werden nochmals von einem lg umschlossen.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="codeblock:1;10:41">
+&lt;lg type=”gedicht&gt;
+  &lt;lg type=”versgruppe”&gt;
+    &lt;l&gt;Nim den Kuß der wahren Freundes Liebe&lt;/l&gt;
+    &lt;l&gt;Deute Dir die zarten ernsten Triebe&lt;/l&gt;
+    &lt;l&gt;...&lt;/l&gt;
+  &lt;lg&gt;
+&lt;/lg&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht" xtrc="p:2;18:6">Im Menüpunkt „CAGB“ in der Menüleiste steht unter „Sonderfunktionen“ eine Funktion
+   bereit mit der man ein Gedicht bzw. (innerhalb eines Gedichts) weitere Versgruppen
+   einfügen kann.</p>
+ </conbody>
+</concept>

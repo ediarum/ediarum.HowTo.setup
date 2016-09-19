@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sg3_sr5_hx">
+ <title>Briefe, Vorlesungen und Tageskalender</title>
+ <shortdesc/>
+ <conbody>
+  <p>Im Menüpunkt „Briefe“ kann die gesamte Korrespondenz aus der Datenbank aufgerufen werden. Auf
+   der Übersichtsseite ermöglichen zwei Filter einen schnellen Zugriff: so kann ein bestimmtes Jahr1
+   oder eine bestimmte Person oder beides zusammen kombiniert ausgewählt werden. Durch einen
+   nochmaligen Klick auf einen gesetzten Filter (Jahr bzw. Person ist dunkelgrau hervorgehoben),
+   wird dieser wieder deaktiviert. Die Überschrift zeigt immer die aktuelle Auswahl an; z.B.
+   „Übersicht der Korrespondenz mit Boeckh im Jahr 1808“. Per Klick auf einen Briefteaser, gelangt
+   man zur Einzelansicht des Briefes.</p>
+  <p>In der Einzelansicht kann man über zwei zusätzliche Navigationsleisten entweder die komplette
+   Korrespondenz Schleiermachers weiterverfolgen oder die Korrespondenz mit einem bestimmten
+   Briefpartner.</p>
+  <p>In dieser Einzelansicht werden die Sachanmerkungen auf der rechten Seite sichtbar, wenn man
+   über die betroffen Stelle – unterstrichen hervorgehoben – fährt. Die Folianummern werden – soweit
+   hinterlegt – am linken Rand angezeigt. Zu ihnen kann auch direkt gesprungen werden, wenn man die
+   URL in der Adresszeile entsprechend ergänzt (z.B. ../einzelbrief.xql?id=prov1320#7v). Alle
+   ausgezeichneten Personen-, Orts- und Werknamen sind mit ihrem entsprechendem Registereintrag
+   verlinkt.</p>
+ </conbody>
+</concept>

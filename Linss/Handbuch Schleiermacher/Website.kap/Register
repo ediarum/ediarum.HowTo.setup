@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_xzb_1s5_hx">
+ <title>Register</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Alle Register sind über die Rubrik „Register“ verfügbar. Von dort aus können einzelne
+   Registereinträge aufgeschlagen oder nach ihnen gesucht werden.</p>
+  <p>Im Register werden die jeweils kompletten Einträge angezeigt. Im Personenregister
+   werden zusätzlich dazu folgende Informationen aus der Datenbank ausgelesen:</p>
+  <ul id="ul_rc4_cs5_hx">
+   <li>Briefe von und an diese Person</li>
+   <li>Briefe, in denen diese Person erwähnt ist</li>
+   <li>Werke aus dem Werkregister, die diese Person (mit-)geschrieben hat</li>
+  </ul>
+  <p>In Werkregistereinträgen sind Autoren ggf. mit ihrem Personeneintrag verlinkt.</p>
+  <p>Das Bibelregister listet unabhängig von der Datei „bibel.xml“ alle entsprechend ausgezeichneten
+   Bibelstellen auf und verlinkt zu den jeweiligen Dokumenten.</p>
+  <p>Auf der Übersichtsseite kann unten eine aktuelle Statistik zur Datenbank abgerufen
+   werden (die Abfrage dauert 10-20 Sekunden).</p>
+ </conbody>
+</concept>

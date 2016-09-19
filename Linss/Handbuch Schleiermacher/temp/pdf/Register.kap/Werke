@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Register.kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Register.kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_ebb_gl5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="title:1;4:9">Werke</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="shortdesc:1;5:13"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="p:1;7:6">Bücher, Zeitschriften, Zeitungen etc. werden jeweils in einem Element &lt;werk&gt; notiert.
+   Der Eintrag wird nochmals nach Titel, Erscheingungsjahr und Autor(en) unterteilt.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="codeblock:1;9:41">
+&lt;werk id=“w1926“&gt;
+   &lt;titel&gt;Platon’s Leben und Schriften&lt;/titel&gt;
+   &lt;erschjahr&gt;1816&lt;/erschjahr&gt;
+   &lt;autor id=“p0014&gt;Ast, Georg Anton Friedrich &lt;/autor&gt;
+   &lt;beschreibung&gt;Erschienen in der Weidmannischen Buchandlung
+   in Leipzig&lt;/beschreibung&gt;
+&lt;/werk&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="p:2;17:6">Einziges Pflichtelement ist der Titel. Alle anderen Element sind optional und können
+   auch (bis auf das Erscheinungsjahr) mehrfach gesetzt werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="p:3;19:6">Jeder Werkeintrag enthält eine eindeutige Identifikationsnummer (hier: w1926), auf
+   die aus den Manuskripten heraus verwiesen werden kann – etwa mit &lt;ref&gt; oder &lt;bibl&gt;.
+    Umgekehrt kann vom Autor auf einen Eintrag im Personenregister verwiesen werden,
+    falls vorhanden (mit Hilfe der Schaltflächen „Neuen Autor aus Register einfügen“ bzw.
+    „Bestehenden Autor mit Register verknüpfen“). Anhand dieser Verknüpfung ist es auch
+    möglich, für die Druckausgabe Personen- und Werkeinträge wieder zusammenzuführen.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="p:4;25:6">Soll in der Druckausgabe ein Werk nicht unter seinem Autor aufgeführt werden, sondern
+   alleinstehend unter seinem Titel, dann kann dies durch das Attribut @separate=true
+   markiert werden. Eine entsprechende Aktion „Alleinstehendes Werk“ steht in der Toolbar
+   unter „Weitere Angaben hinzufügen“ zur Verfügung. In der Autorenansicht werden
+   so markierte Werke mit dem Symbol <image href="Abb.Werke.png" placement="inline" class="- topic/image " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Werke" xtrc="image:1;29:66"/> gekennzeichnet.</p>
+ </conbody>
+</concept>

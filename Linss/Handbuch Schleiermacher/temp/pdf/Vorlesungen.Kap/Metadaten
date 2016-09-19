@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Vorlesungen.Kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Vorlesungen.Kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_opc_5b5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="title:1;4:9">Metadaten</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="shortdesc:1;5:14"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:1;7:6">Im &lt;teiHeader&gt; werden die Metadaten zum Vorlesungsmanuskript bzw. Nachschrift usw.
+   notiert. Größtenteils ist der &lt;teiHeader&gt; der Vorlesungen ähnlich dem der Briefe
+   aufgebau</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:2;10:6">Für die Verweise werden automatisch generierte Identifikationsnummern im Wurzelelement TEI (das
+   Attribut xml:id) benutzt.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:3;12:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="b:1;12:9">Dokumenttitel</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:4;13:6">Der Dokumenttitel wird mit &lt;title/&gt; im &lt;titleStmt&gt; notiert. </p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="codeblock:1;14:41">&lt;titleStmt&gt;
+   &lt;title&gt;Kollektaneen 1821/22&lt;/title&gt;
+&lt;/titleStmt&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:5;17:6">In der Autoransicht kann der Dokumenttitel einfach im Feld „title“ eingetragen werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:6;18:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="b:2;18:9">Überlieferung</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:7;19:6">Alle Angaben zur Überlieferung werden in &lt;sourceDesc/&gt; (sourcedescription) notiert.
+   Der Nachweis des Manuskripts wird dabei im Element &lt;msDesc/&gt; (manuscript description)
+   angegeben.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="codeblock:2;22:41">&lt;msDesc rend=“Manuskript“&gt;
+   &lt;msIdentifier&gt;
+   &lt;institution&gt;Berlin-Brandenburgische Akademie der
+   Wissenschaften&lt;/institution&gt;
+      &lt;repository&gt;Archiv&lt;/repository&gt;
+   &lt;collection&gt;Schleiermacher-Nachlass&lt;/collection&gt;
+      &lt;idno&gt;SN 641, fol. 1-123&lt;/idno&gt;
+   &lt;/msIdentifier&gt;
+&lt;/msDesc&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:8;31:6">Mit Hilfe des Attributs @rend wird die Textart notiert: „Manuskript“, „Notizen“, „Kollektaneen“
+   oder „Nachschrift“ können hier eingetragen werden. 34 Innerhalb &lt;msIdentifier/&gt;
+   werden die einzelnen Angaben gemacht. Zu beachten ist, dass alle Angaben (bis auf die Signatur)
+   ausgeschrieben werden. Abkürzungen können daraus nachträglich generiert werden. Das Element
+   &lt;collection/&gt; bildet im übrigen eine besondere Sammlung innerhalb des Archivs ab.
+   Falls die Archivalie nicht in einer eigenen Sammlung abgelegt ist, kann diese Angabe
+   entfallen.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:9;38:6">In &lt;idno/&gt; wird die vollständige Signatur notiert – allerdings ohne das
+   Institutionskürzel (wie z.B. „BBA W“ oder „StA Marburg“).</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:10;40:6">In der Autorenansicht sind bem Erstellen einer neuen Datei die Angaben zur BBA W schon
+   vorhanden und im Regelfall muss nur noch die Signatur hinzugefügt werden. Liegt das Original in
+   einem anderen Archiv, können die vorhandenen Angaben einfach geändert werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:11;43:6">Falls die Textgrundlage ein Druck ist, wird anstelle des Elements
+   &lt;msDesc&gt; ein &lt;bibl&gt; miut dem Attribut @type=“Druck“ verwendet.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="codeblock:3;45:41">&lt;bibl type=“Druck“&gt;
+&lt;/bibl&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:12;47:6">Weitere Textzeugen (Drucke) werden unterhalb von &lt;msDesc/&gt; in &lt;listWit&gt; in jeweils
+   einem &lt;witness&gt; notiert. Ein gedruckter Textzeuge wird dabei im Element
+   &lt;bibl/&gt; abgelegt.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="codeblock:4;50:41">&lt;listWit&gt;
+   &lt;witness&gt;
+      &lt;bibl type=“druck“ n=“1“&gt;Schleiermacher: Briefe
+      an seine Braut, S. 95–98&lt;/bibl&gt;
+   &lt;/witness&gt;
+&lt;/listWit&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:13;56:6">In der Autorenansicht kann ein gedruckter Textzeuge einfach über das Menü „Vorlesungen
+   &gt; Überlieferung Druck“ hinzugefügt werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:14;58:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="b:3;58:9">Regest</b></p><p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:15;58:26">Zu jeder Vorlesung kann ein kurzer Regest notiert werden, der den Vorlesungsinhalt
+   kurz skizziert. Der Regest wird mit Hilfe von &lt;msContents&gt; und &lt;summary&gt; hinter die
+   Überlieferung des Originals in &lt;msDesc&gt; eingefügt. Mit &lt;note&gt; kann
+     eine Anmerkung des Herausgebers, bspw. ein Querverweis, eingefügt werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:16;62:6">In der Autoransicht steht im Menü Vorlesungen eine entsprechender Punkt zur Verfügung.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:17;63:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="b:4;63:9">Erstellungsdatum</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:18;64:6">Im Kopf des XML-Dokuments werden im Element &lt;profileDesc&gt; auch die Angaben zu
+   Erstellungsdatum, und dem zeitlichen sowie thematischen Zusammenhang angegeben.
+   In &lt;date/&gt; wird der Erstellungszeitraum eingegeben wie bei der normalen Datumskennzeichnung
+   auch (siehe „Datum“ auf Seite 22). Das Attribut „cert“ kennzeichnet die
+   Wahrscheinlichkeit, mit der die Datierung zutrifft. Bei unklarer Datierung kann dann als
+   Attributwert „low“ vergeben werden.</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="codeblock:5;70:41">&lt;profileDesc&gt;
+   &lt;creation&gt;
+      &lt;date cert=“low“ notBefore=“1808-01-01“ notAfter=“1808-02-29“ /&gt;
+      &lt;linkGrp type=“ZeitlicherZusammenhang“&gt;
+         &lt;link type=“vorhergehendesManuskript“ target=““ /&gt;
+         &lt;link type=“anschließendesManuskript“ target=““/&gt;
+      &lt;/linkGrp&gt;
+      &lt;linkGrp type=“ThematischerZusammenhang“&gt;
+         &lt;link type=“Manuskript“ target=““/&gt;
+         &lt;link type=“Kollektaneen“ target=““/&gt;
+         &lt;link type=“Notizen“ target=““/&gt;
+         &lt;link type=“Nachschrift“ target=““/&gt;
+      &lt;/linkGrp&gt;
+   &lt;/creation&gt;
+&lt;/profileDesc&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:19;85:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="b:5;85:9">Zeitlicher und thematischer Zusammenhang</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:20;86:6">Mit Hilfe von zwei Linkgruppen &lt;linkGrp&gt; kann der zeitliche und thematische Zusammenhang
+   des Manuskripts notiert werden. So kann ein evtl. vorhandenenes vorhergehendes
+   bzw. anschließendes Manuskript verlinkt werden, wenn es zur selben Vorlesung
+   gehört. Auch auf eine Nachschrift der Vorlesung durch einen Schüler kann hier verwiesen
+   werden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:21;91:6">Der Thematische Zusammenhang umfasst zur Vorlesung gehörige Kollektaneen, Notizen
+   und Nachschriften.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Vorlesungen.Kap/Metadaten" xtrc="p:22;93:6">Das Verweisziel ist dabei stets der Pfad samt Dateiname in der Datenbank.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\ediarum\Allgemeine Bedienung.Kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/ediarum/Allgemeine%20Bedienung.Kap/?><?path2project ..\..\?><?path2project-uri ../../?><?doctype-public -//OASIS//DTD DITA General Task//EN?><?doctype-system generalTask.dtd?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="task_vt5_3vz_vw" ditaarch:DITAArchVersion="1.3" domains="(topic task)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic task/task " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="task:1;3:28">
+    <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="title:1;4:12">Lokale Datei(en) in die Datenbank hochladen</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="shortdesc:1;5:17"/>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="taskbody:1;6:15">
+        <context class="- topic/section task/context " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="context:1;7:18">
+            </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="steps:1;9:16">
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="step:1;10:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="cmd:1;11:22">Rechter Mausklick auf das Verzeichnis, in dem die Datei(en) hochgeladen
+                    werden soll(en)</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="step:2;14:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="cmd:2;15:22">Im Kontextmenü „Dateien einfügen“ auswählen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="step:3;17:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="cmd:3;18:22">Im erscheinenden Dateibrowser eine oder mehrere Dateien (mit Shift)
+                    auswählen</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="step:4;21:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen" xtrc="cmd:4;22:22">[Öffnen] klicken</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

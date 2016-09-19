@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_opc_5b5_hx">
+ <title>Metadaten</title>
+ <shortdesc/>
+ <conbody>
+  <p>Im <![CDATA[<teiHeader>]]> werden die Metadaten zum Vorlesungsmanuskript bzw. Nachschrift usw.
+   notiert. Größtenteils ist der <![CDATA[<teiHeader>]]> der Vorlesungen ähnlich dem der Briefe
+   aufgebau</p>
+  <p>Für die Verweise werden automatisch generierte Identifikationsnummern im Wurzelelement TEI (das
+   Attribut xml:id) benutzt.</p>
+  <p><b>Dokumenttitel</b></p>
+  <p>Der Dokumenttitel wird mit <![CDATA[<title/> im <titleStmt>]]> notiert. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<titleStmt>
+   <title>Kollektaneen 1821/22</title>
+</titleStmt>]]></codeblock>
+  <p>In der Autoransicht kann der Dokumenttitel einfach im Feld „title“ eingetragen werden.</p>
+  <p><b>Überlieferung</b></p>
+  <p>Alle Angaben zur Überlieferung werden in <![CDATA[<sourceDesc/>]]> (sourcedescription) notiert.
+   Der Nachweis des Manuskripts wird dabei im Element <![CDATA[<msDesc/>]]> (manuscript description)
+   angegeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<msDesc rend=“Manuskript“>
+   <msIdentifier>
+   <institution>Berlin-Brandenburgische Akademie der
+   Wissenschaften</institution>
+      <repository>Archiv</repository>
+   <collection>Schleiermacher-Nachlass</collection>
+      <idno>SN 641, fol. 1-123</idno>
+   </msIdentifier>
+</msDesc>]]></codeblock>
+  <p>Mit Hilfe des Attributs @rend wird die Textart notiert: „Manuskript“, „Notizen“, „Kollektaneen“
+   oder „Nachschrift“ können hier eingetragen werden. 34 Innerhalb <![CDATA[<msIdentifier/>]]>
+   werden die einzelnen Angaben gemacht. Zu beachten ist, dass alle Angaben (bis auf die Signatur)
+   ausgeschrieben werden. Abkürzungen können daraus nachträglich generiert werden. Das Element
+   <![CDATA[<collection/>]]> bildet im übrigen eine besondere Sammlung innerhalb des Archivs ab.
+   Falls die Archivalie nicht in einer eigenen Sammlung abgelegt ist, kann diese Angabe
+   entfallen.</p>
+  <p>In <![CDATA[<idno/>]]> wird die vollständige Signatur notiert – allerdings ohne das
+   Institutionskürzel (wie z.B. „BBA W“ oder „StA Marburg“).</p>
+  <p>In der Autorenansicht sind bem Erstellen einer neuen Datei die Angaben zur BBA W schon
+   vorhanden und im Regelfall muss nur noch die Signatur hinzugefügt werden. Liegt das Original in
+   einem anderen Archiv, können die vorhandenen Angaben einfach geändert werden.</p>
+  <p>Falls die Textgrundlage ein Druck ist, wird anstelle des Elements
+   <![CDATA[<msDesc> ein <bibl>]]> miut dem Attribut @type=“Druck“ verwendet.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<bibl type=“Druck“>
+</bibl>]]></codeblock>
+  <p>Weitere Textzeugen (Drucke) werden unterhalb von <![CDATA[<msDesc/> in <listWit>]]> in jeweils
+   einem <![CDATA[<witness>]]> notiert. Ein gedruckter Textzeuge wird dabei im Element
+   <![CDATA[<bibl/>]]> abgelegt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<listWit>
+   <witness>
+      <bibl type=“druck“ n=“1“>Schleiermacher: Briefe
+      an seine Braut, S. 95–98</bibl>
+   </witness>
+</listWit>]]></codeblock>
+  <p>In der Autorenansicht kann ein gedruckter Textzeuge einfach über das Menü „Vorlesungen
+   > Überlieferung Druck“ hinzugefügt werden.</p>
+  <p><b>Regest</b></p><p>Zu jeder Vorlesung kann ein kurzer Regest notiert werden, der den Vorlesungsinhalt
+   kurz skizziert. Der Regest wird mit Hilfe von <![CDATA[<msContents> und <summary>]]> hinter die
+   Überlieferung des Originals in <![CDATA[<msDesc> ]]>eingefügt. Mit <![CDATA[<note>]]> kann
+     eine Anmerkung des Herausgebers, bspw. ein Querverweis, eingefügt werden.</p>
+  <p>In der Autoransicht steht im Menü Vorlesungen eine entsprechender Punkt zur Verfügung.</p>
+  <p><b>Erstellungsdatum</b></p>
+  <p>Im Kopf des XML-Dokuments werden im Element <![CDATA[<profileDesc>]]> auch die Angaben zu
+   Erstellungsdatum, und dem zeitlichen sowie thematischen Zusammenhang angegeben.
+   In <![CDATA[<date/>]]> wird der Erstellungszeitraum eingegeben wie bei der normalen Datumskennzeichnung
+   auch (siehe „Datum“ auf Seite 22). Das Attribut „cert“ kennzeichnet die
+   Wahrscheinlichkeit, mit der die Datierung zutrifft. Bei unklarer Datierung kann dann als
+   Attributwert „low“ vergeben werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+   <creation>
+      <date cert=“low“ notBefore=“1808-01-01“ notAfter=“1808-02-29“ />
+      <linkGrp type=“ZeitlicherZusammenhang“>
+         <link type=“vorhergehendesManuskript“ target=““ />
+         <link type=“anschließendesManuskript“ target=““/>
+      </linkGrp>
+      <linkGrp type=“ThematischerZusammenhang“>
+         <link type=“Manuskript“ target=““/>
+         <link type=“Kollektaneen“ target=““/>
+         <link type=“Notizen“ target=““/>
+         <link type=“Nachschrift“ target=““/>
+      </linkGrp>
+   </creation>
+</profileDesc>]]></codeblock>
+  <p><b>Zeitlicher und thematischer Zusammenhang</b></p>
+  <p>Mit Hilfe von zwei Linkgruppen <![CDATA[<linkGrp>]]> kann der zeitliche und thematische Zusammenhang
+   des Manuskripts notiert werden. So kann ein evtl. vorhandenenes vorhergehendes
+   bzw. anschließendes Manuskript verlinkt werden, wenn es zur selben Vorlesung
+   gehört. Auch auf eine Nachschrift der Vorlesung durch einen Schüler kann hier verwiesen
+   werden.</p>
+  <p>Der Thematische Zusammenhang umfasst zur Vorlesung gehörige Kollektaneen, Notizen
+   und Nachschriften.</p>
+  <p>Das Verweisziel ist dabei stets der Pfad samt Dateiname in der Datenbank.</p>
+ </conbody>
+</concept>

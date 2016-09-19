@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Register.kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Register.kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_ojm_cl5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="title:1;4:9">Orte</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="shortdesc:1;5:13"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:1;7:6">Städte, Dörfer, Gebäude und sonstige Örtlichkeiten werden jeweils innerhalb eines
+   &lt;ort&gt; notiert.
+  </p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="codeblock:1;10:41">
+&lt;ort id=“o003“&gt;
+   &lt;ortsname&gt;Berlin&lt;/ortsname&gt;
+   &lt;zugehörigkeit&gt;Preußen&lt;/zugehörigkeit&gt;
+&lt;/ort&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:2;15:6">Über &lt;zugehörigkeit&gt; kann ein übergeordneter Ort angegeben werden – das kann z.B.
+   ein Land, eine Verwaltungseinheit oder auch eine Stadt sein.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:3;17:6">Auch ein Ortseintrag verfügt über eine eindeutige Identifikationsummer, auf die aus
+   einem Manuskript heraus mit Hilfe von &lt;placeName&gt; verwiesen werden kann.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:4;19:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="b:1;19:9">Ortsgruppe</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:5;20:6">Im Ortsregister können ebenfalls Orte gruppiert werden. Dies ist beispielsweise notwendig,
+   um Gebäude, Straßen und Plätze einer Stadt unter dem Ortsnamen zusammenzufassen
+   (z.B. „Berlin“).</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Orte" xtrc="p:6;23:6">Ein neue Ortsgruppe kann über die entsprechende Schaltfläche in der Werkzeugleiste
+   hinzugefügt werden.</p>
+ </conbody>
+</concept>

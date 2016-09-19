@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\phlinss\workspace\ediarum_documentation\Linss\Handbuch Schleiermacher\temp\pdf\Register.kap?><?workdir-uri file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/temp/pdf/Register.kap/?><?path2project ..\?><?path2project-uri ../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="concept_t5j_wl5_hx" ditaarch:DITAArchVersion="1.3" domains="(topic concept)                            (topic abbrev-d)                            a(props deliveryTarget)                            (topic equation-d)                            (topic hazard-d)                            (topic hi-d)                            (topic indexing-d)                            (topic markup-d)                            (topic mathml-d)                            (topic pr-d)                            (topic relmgmt-d)                            (topic sw-d)                            (topic svg-d)                            (topic ui-d)                            (topic ut-d)                            (topic markup-d xml-d)   " class="- topic/topic concept/concept " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="concept:1;3:34">
+ <title class="- topic/title " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="title:1;4:9">Links</title>
+ <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="shortdesc:1;5:14"/>
+ <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:1;7:6">In allen Registern können in der jeweiligen Beschreibung, Zugehörigkeit bzw. Aussage einzelne
+   oder mehrere Wörter mit anderen Einträgen aus demselben oder einem anderen Register verlinkt
+   werden. Zum Beispiel:</p>
+  <codeblock outputclass="language-xml" xml:space="preserve" class="+ topic/pre pr-d/codeblock " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="codeblock:1;10:41">&lt;aussage&gt;seit 1790 Professor der Philosophie
+in &lt;link id=“#o540“&gt;Erlangen&lt;/link&gt;&lt;/aussage&gt;</codeblock>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:2;12:6">Das zu verlinkende Wort wird dabei mit dem Element &lt;link&gt; umgeben, dessen Attribut
+   „id“ auf die entsprechende Identfikationsnummer des Registereintrags verweist.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:3;14:6">Entsprechende Aktionen stehen in den Werkzeugleisten aller drei Register unter dem Punkt
+   „Weitere Angaben hinzufügen“ zur Verfügung: „Ort verlinken“, „Person verlinken“ oder „Werk
+   verlinken“.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:4;17:6">Alle Links führen per Mausklick auf das Pfeilsymbol zum Eintrag, auf den verwiesen wird. </p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:5;18:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="b:1;18:9">Bitte beachten:</b> Der Index, der beim Klick auf das Symbol geöffnet wird, wird nur mit
+   Leserechten geöffnet (zur besseren Kennzeichnung des Lesezugriffs dient ein roter Rand).
+   Änderungen sind hier nicht möglich, diese Funktion dient nur zur Kontrolle. Möchten Sie
+   Änderungen im Register vornehmen, öffnen Sie es bitte wie gewohnt aus dem Dateibaum heraus.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:6;22:6"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="b:2;22:9">Hinweis zu Verweisen aus dem Altdatenbestand</b></p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:7;23:6">Bereits im Worddokument, das als Vorlage für die drei aktuellen Register diente, waren einige
+   Wörte mit einem Pfeil versehen, um zu kennzeichnen, dass zu dem entsprechenden Begriff ein
+   Registereintrag vorhanden ist („siehe“). Solcherart markierte Begriffe wurden bei der Übertragung
+   in das XML-Dokument schon mit dem entsprechenden &lt;link&gt;-Element gekennzeichnet, ohne
+   allerdings eine Verknüpfung herzustellen. D.h. den &lt;link&gt;-Elementen fehlt das
+   identifizierende Attribut „id“. Die Verlinkung muss nun manuell erfolgen; die bereits oben
+   genannten Schalftlfächen lassen sich dazu ohne weiteres auch auf diese Wörter anwenden.</p>
+  <p class="- topic/p " xtrf="file:/C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20Schleiermacher/Register.kap/Links" xtrc="p:8;30:6">Zur besseren Unterscheidung werden tatsächlich verknüpfte Links blau und unterstrichen
+   dargstellt, während nur als Link markierte – aber nicht verknüpfte – Wörter nur blau dargestellt
+   werden. </p>
+ </conbody>
+</concept>
