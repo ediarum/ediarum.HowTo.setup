@@ -7,11 +7,20 @@
   <p>Die XML-Dateien mit den Handschriftenbeschreibungen, Transkriptionen und Registereinträgen
    werden in der Software „Oxygen XML Author“ bearbeitet. Sie ist auf allen
    Rechern der Arbeitsstelle installiert.</p>
-  <p>Das Programmfenster (siehe Abb.) ist dreigeteilt: oben befinden sich die fünf Leisten
-   (1–5) mit verschiedenen Werkzeugen. Links ist der Dateibaum (6) der Datenbank zu finden.
-   Im rechten Fenster (8) können die einzelnen Dateien bearbeitet werden. Sind mehrere
-   Dateien offen, kann zwischen ihnen mit Hilfe der Tableiste (7) gewechselt werden.
-   Unterhalb dieses Fensters kann die Ansicht des Dokumentes umgestellt werden (9).</p>
-  <image href="Abb.Überblick.png"></image>
+  <p>Das Programmfenster (siehe Abb.) ist dreigeteilt: oben befinden sich die fünf Leisten (1–5) mit
+   verschiedenen Werkzeugen. Links ist der Dateibaum (7) der Datenbank zu finden. Im rechten Fenster
+   (8) können die einzelnen Dateien bearbeitet werden. Sind mehrere Dateien offen, kann zwischen
+   ihnen mit Hilfe der Tableiste (7) gewechselt werden. Unterhalb dieses Fensters kann die Ansicht
+   des Dokumentes umgestellt werden (9).</p>
+  <image href="Abb.Überblick.png" width="15cm"></image>
+  <p>1. <i>Allgemeine Funktionen</i></p>
+  <p>2. <i>Werkzeugleiste für Strukturelemente der Handschriftenbeschreibung</i></p>
+  <p>3.<i>Werkzeugleiste für Auszeichnung in den Transkriptionen</i></p>
+  <p>4. <i>Allgemeine Auszeichnungen</i></p>
+  <p>5. <i>Werkzeugleiste für Auszeichnung und Registerfunktion in der Handschriftbeschreibung</i></p>
+  <p>6.  <i>Tableiste mit geöffneten Dateien</i></p>
+  <p>7. <i>Dateibaum</i></p>
+  <p>8. <i>Textfenster</i></p>
+  <p>9. <i>Ansichtenwahl für das Textfenster</i></p>
  </conbody>
 </concept>

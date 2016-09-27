@@ -10,21 +10,22 @@
    allerdings ein entsprechendes Attibut trägt sowie ein eigenes Unterleement <filiation/>
    enthält.]]></p><p>Über das Menü „Inhalt“ in der mittleren Werkzeugleiste können neue Strukturelemente
     hinzugefügt werden.</p>
-  <p><codeblock outputclass="language-xml"> <![CDATA[<msContents>
- <msItem>
-  <p>... </p>
- </msItem>
- <msItem>
-  <p>...</p>
- </msItem>
-  <msItem n=“empty“>
-  <p>...</p>
- </msItem>
- <msItem n=“filiation“>
-  <filiation>
-  <p>...</p>
- </filiation>
- </msItem>
+  <p><codeblock outputclass="language-xml"> <![CDATA[
+<msContents>
+   <msItem>
+      <p>... </p>
+   </msItem>
+   <msItem>
+      <p>...</p>
+   </msItem>
+   <msItem n=“empty“>
+      <p>...</p>
+   </msItem>
+   <msItem n=“filiation“>
+      <filiation>
+         <p>...</p>
+      </filiation>
+   </msItem>
 </msContents>]]></codeblock></p>
  </conbody>
 </concept>

@@ -8,13 +8,14 @@
    notiert. Die gesamte Handschriftenbeschreibung wird dabei in einem msDesc-Element abgelegt, das
    sich in TEI/text/body befindet. Die Handschriftenbeschreibung ist im Teuchoskonzept in fünf große
    Abschnitte aufgeteilt:</p>
-  <p>Nachweis (msIdentifier)</p>
-  <p>Inhalt (msContents)</p>
-  <p>Physische Beschreibung (physDesc)</p>
-  <p>Geschichte (history)</p>
-  <p>Ergänzende Informationen (additional)</p>
-  <p>Diese Abschnitte finden sich auch als Menüs in der mittleren Werkzeugleiste wieder:</p>
-  <image href="Abb.%20Handschriftenbeschreibungen.png" width="15cm"/>
+  <p>1. Nachweis (msIdentifier)</p>
+  <p>2. Inhalt (msContents)</p>
+  <p>3. Physische Beschreibung (physDesc)</p>
+  <p>4. Geschichte (history)</p>
+  <p>5. Ergänzende Informationen (additional)</p>
+  <p/>
+  <p>Diese Abschnitte finden sich auch als Menüs in der oberen Werkzeugleiste wieder:</p>
+  <image href="Abb.%20Handschriftenbeschreibungen.png" />
   <p>Darüber können alle Haupt- sowie Unterabschnitte in eine Handschriftenbeschreibung eingefügt
    werden.</p>
  </conbody>

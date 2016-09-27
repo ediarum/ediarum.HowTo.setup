@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
+            Handbuch</mainbooktitle>
+    </booktitle>
+    <chapter href="Einf%C3%BChrung.Kap/Überschrift.dita">
+        <topicref href="Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
+        <topicref href="Einf%C3%BChrung.Kap/Einsatz_von_XML.dita"/>
+        <topicref href="Einf%C3%BChrung.Kap/TEI.dita"/>
+    </chapter>
+    <chapter href="Allgemeine%20Bedienung.Kap/Überschrift.dita">
+        <topicref href="Allgemeine%20Bedienung.Kap/Überblick.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Neue_Datei.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Neues_Verzeichnis.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Lokale_Datei.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Dateien_umbennen.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Schriftarten.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Einfache_Suche.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Achtung.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Suchergebnisse.dita"/>
+    </chapter>
+    <chapter href="V/Handschriften.Kap/Überschrift.dita">
+        <topicref href="Handschriftenbeschreibung.Kap/Handschriftenbeschreibungen.dita"/>
+        <topicref href="Handschriftenbeschreibung.Kap/Nachweis.dita"/>
+        <topicref href="Handschriftenbeschreibung.Kap/Inhalt.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/physische_Beschaffenheit.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Geschichte.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Weitere_Informationen.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Registerfunktionen.dita"></topicref>
+
+
+        <topicref href="Handschriftenbeschreibung.Kap/Bearbeitungskommentare_und_Markierungen.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Kommentare.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Markierungen.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Großes_Kommentarfeld.dita"></topicref>
+        <topicref href="Handschriftenbeschreibung.Kap/Export.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Struktur_Manuskript.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Absatz.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Zeilenumbruch.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Liste.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Gedicht.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Anmerkung_des_Autors.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Seiten-Foliowechsel.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Arbeiten_im_Manuskript.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Unterstreichungen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Farbige_Hervorhebungen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Streichung.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Ergänzung.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Korrekturen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Unsichere_Lesarten.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Nicht_lesbare_Wörter.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Ergänzung.textauszeichnungen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Streichung_Herausgeber.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Korrektur_Herausgeber.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Weitere_Auszeichnungen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Relationen.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/BearbeitungsStatus.dita"></topicref>
+    </chapter>
+    <chapter href="Register.Kap/%C3%9Cberschrift.dita"></chapter>
+    <chapter href="V/Text.Kap/Überschrift.dita"></chapter>
+</bookmap>

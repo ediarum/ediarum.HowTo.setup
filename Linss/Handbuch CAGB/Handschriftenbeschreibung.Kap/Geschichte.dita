@@ -7,5 +7,22 @@
   <p>Die Geschichte einer Handschrift wird in history notiert. Alle nachfolgend aufgeführten
    Notierungen werden von diesem Element umschlossen. Die Pfadangaben sind daher
    auch immer relativ zu history zu sehen.</p>
+   <p><b>Datierung und Entstehung</b></p>
+   <p>Angaben zu Datierung und Entstehung werden in origin notiert, wobei erstere in einem
+     Absatz mit @n=“origDate“, letztere in ggf. mehreren Absätzen mit @n=“primary“
+     abgelegt werden:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<origin>
+ <p n=“origDate“> ... </p>
+ <p n=“primary“> ... </p>
+ <p n=“primary“> ... </p>
+ ...
+</origin>]]></codeblock>
+   <p><b>Provenienz</b></p>
+   <p>Die Provenienz einer Handschrift wird in provenance mit mehreren Absätzen notiert,
+     die jeweils das Attribut @n=“provenance“ tragen:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<provenance>
+   <p n=“provanance“> ... </p>
+   <p n=“provanance“> ... </p>
+</provenance>]]></codeblock>
  </conbody>
 </concept>
