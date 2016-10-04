@@ -22,7 +22,39 @@
    werden.</p>
   <p>Um im Dateibaum weitere Aktionen (z.B. neue Datei anlegen) durchzuführen, muss per rechter
    Mausklick auf eine Datei bzw. ein Verzeichnis das Kontextmenü aufgerufen werden.</p>
-  <p/>
   <image href="Abb.Dateibaum.b.png" height="4cm"/>
+  <p><b>Neue Datei anlegen</b></p>
+  <p>Wenn eine neue Datei angelegt werden soll, sind folgende Schritte notwendig.</p>
+  <p>1. <i>Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll.</i></p>
+  <p>2. <i>Neue Datei auswählen</i></p>
+  <p>3. <i>Im erscheinenden Dialogfenster unter Framework Vorlage > CAGB die entsprechende
+   Vorlage (Handschriftenbeschreibung, Personeneintrag) auswählen</i></p>
+  <p>4. <i>Dateiname unten im Feld eingeben</i></p>
+  <p>5. <i>Erstellen klicken</i></p>
+  <p><b>Neues Verzeichnis anlegen</b></p>
+  <p>Beim Anlegen eines neuen Verzeichnisses sind folgende Schritte notwendig:</p>
+  <p>1. <i>Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll</i></p>
+  <p>2. <i>„Neues Verzeichnis“ auswählen</i></p>
+  <p>3. <i>Verzeichnisname im erscheinenen Dialogfenster eingeben</i></p>
+  <p>4. <i>[OK] klicken</i></p>
+  <p><b>Lokale Datei anlegen</b></p>
+  <p>Ohne Zugriff auf die online verfügbare Datenbank kann es (z.B. unterwegs oder im
+  Archiv) notwendig sein. eine Datei erst einmal lokal – also auf dem eigenen Rechner –
+  anzulegen. Das kann über das Blattsymbol links oben oder über das Menü Datei > Neu
+  geschehen.
+  Später kann die nur lokal vorhandene Datei in die Datenbank hochgeladen werden
+  (siehe nächster Abschnitt).</p>
+  <p><b>Lokale Datei(en) in die Datenbank hochladen</b></p>
+  <p>1. <i>Rechter Mausklick auf das Verzeichnis, in dem die Datei(en) hochgeladen
+   werden soll(en)</i></p>
+  <p>2. <i>Im Kontextmenü „Dateien einfügen“ auswählen</i></p>
+  <p>3. Im erscheinenden Dateibrowser eine oder mehrere Dateien (mit Shift)
+   auswählen</p>
+  <p>4. <i>[Öffnen] klicken</i></p>
+  <p><b>Dateien oder Verzeichnisse umbennen</b></p>
+  <p>1. <i>Rechter Mausklick auf die Datei oder das Verzeichnis, das umbenannt werden soll</i></p>
+  <p>2. <i>Im Kontextmenü „Umbennen“ auswählen</i></p>
+  <p>3. <i>Datei- bzw. Verzeichnisname ändern</i></p>
+  <p>4. <i>[OK] klicken</i></p>
  </conbody>
 </concept>

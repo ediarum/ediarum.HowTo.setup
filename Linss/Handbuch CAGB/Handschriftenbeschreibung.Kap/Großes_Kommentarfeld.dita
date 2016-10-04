@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_rmd_ftb_zw">
- <title>Großes Kommentarfeld</title>
+ <title>2.6. Notizfelder</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p>Zusätzlich zur Kommtarfunktion (siehe oben) steht ein Notizfeld am Ende des XMLDokuments
+  <p><b>Großes Kommentarfeld</b></p>
+   <p>Zusätzlich zur Kommtarfunktion (siehe oben) steht ein Notizfeld am Ende des XMLDokuments
    zur Verfügung, in dem längere Kommentare hinterlegt werden können.
    Dieses Feld kann über das Menü Notizfelder (einmal) eingefügt werden. Dieses Feld ist
    rot hervorgehoben.</p>
+   <p><b>Transkription</b></p>
+   <p>Außerdem steht ein Transkriptionsfels am Ende des XMLDokuments
+     zur Verfügung, in dem eine Transkription hinterlegt werden kann.
+     Dieses Feld kann über das Menü Notizfelder (mehrere Male) eingefügt werden. Dieses Feld ist
+     blau hervorgehoben.</p>
  </conbody>
 </concept>

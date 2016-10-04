@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="task_pfx_j1c_zw">
-    <title>Absatz</title>
+    <title>2.1 Struktur im Manuskript</title>
     <shortdesc/>
     <taskbody>
         <context>
-            <p>Absätze werden mit<![CDATA[<p> (paragraph) gekennzeichnet. Ein neuer Absatz kann auf zwei
-                Arten eingefügt werden:]]> </p>
+            <p>Absätze werden mit<![CDATA[<p>]]> (paragraph) gekennzeichnet. Ein neuer Absatz kann auf zwei
+                Arten eingefügt werden: </p>
         </context>
         <steps>
             <step>

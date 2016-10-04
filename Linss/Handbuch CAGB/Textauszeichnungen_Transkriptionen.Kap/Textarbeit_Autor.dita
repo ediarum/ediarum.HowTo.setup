@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uj2_x1c_zw">
+ <title>2.Werkzeugleiste für Textarbeit des Autors</title>
+ <shortdesc/>
+ <conbody>
+  <image href="Abb.Textarbeit_Autor.png"></image>
+  <p>Diese Werkzeugleiste dient zu zur Trnskription der Struktur (2.1) und dem Text (2.2) des Manuskripts.</p>
+ </conbody>
+</concept>

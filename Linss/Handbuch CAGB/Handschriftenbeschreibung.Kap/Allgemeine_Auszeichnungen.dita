@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_mw4_dwv_kx">
- <title>Auszeichnungen in allen Teilen der Handschriftenbeschreibung</title>
+ <title>4.1 Auszeichnungen in allen Teilen der Handschriftenbeschreibung</title>
  <shortdesc/>
  <conbody>
-  <p>In allen oder vielen Teilen der Handschriftenbeschreibung sind folgende Auszeichnungen möglich,
-   mit denen Teile des jeweiligen Textes ausgezeichnet werden können, wie z.B. Folioangaben oder
-   Daten.</p>
-  <image href="Abb.Allgemeine%20Auszeichnungen.png"/>
-  <p/>
-  <p>1. <b>Folioangaben</b>
-   <image href="icons/locus.gif"/></p>
+  <image href="Abb.Allgemein.png"/>
+  <p><image href="icons/locus.gif"/>
+   <b>Folioangaben</b>
+  </p>
   <p>Folionnummern werden mit <![CDATA[<locus>]]> gekennzeichnet:</p>
   <codeblock outputclass="language-xml"><![CDATA[f. <locus from=“14r“>14</locus>]]></codeblock>
   <p>Dabei ist die Angabe „recto“ zwar im Text oft implizit (wird also immer vorausgesetzt, wenn
@@ -23,14 +20,16 @@
    ausgezeichnete Folioangabe markieren und Schaltfläche drücken – fertig.</p>
   <p>Bei einer Stellenangaben aus einer anderen Handschrift muss die Folioangabe zusätzlich mit
    <![CDATA[<ref type=“otherms“/>]]> umgeben werden (siehe nächsten Abschnitt).</p>
-  <p>2. <b>Handschriftensignatur</b>
-   <image href="icons/cagb_ref-otherms.gif"/></p>
+  <p><image href="icons/cagb_ref-otherms.gif"/>
+   <b>Handschriftensignatur</b>
+  </p>
   <p>In der Beschreibung vorkommende Handschriftensignaturen werden mit <![CDATA[<ref
    type=“otherms“ />]]> ausgezeichnet. Im Attribut @n muss zusätzlich die vollständige Signatur
    angegeben werden:</p>
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“otherms“ n=“Mosq. 6“>Mosquenses 6</ref>]]></codeblock>
-  <p>3. <b>Zitate</b>
-   <image href="icons/q.gif"/></p>
+  <p><image href="icons/q.gif"/>
+   <b>Zitate</b>
+  </p>
   <p>Zitate aus der Handschrift werden mit dem Element <![CDATA[<q>]]> gekennzeichnet. In Attribut
    @xml:lang muss die entsprechende Sprache als Sprachkürzel nach ISO 639 hinterlegt werden (d.h.
    „grc“ oder „lat“).</p>
@@ -112,7 +111,9 @@
    Auswahllisten für die Attribute und ihre Werte bietet.</p>
   <p>Im Author und auf der Website werden Zitate prinzipiell in einer anderen Schriftart (DejaVu
    Serif) dargestellt, damit griechische Zitate korrekt wiedergegeben werden.</p>
-  <p>4. <b>Datumsangaben</b> <image href="icons/date.gif"></image></p>
+  <p><image href="icons/date.gif"/>
+   <b>Datumsangaben</b>
+  </p>
   <p><![CDATA[Datumsangaben werden mit Hilfe von <date/> bzw. im Abschnitt <origin/> mit <origDate>
    ausgezeichnet. Wichtig ist, dass die Datumsangaben nochmals in einem bestimmten
    Format in den Attributen @when bzw. @notBefore-iso/@notAfter-iso notiert werden.
@@ -126,8 +127,8 @@
   <p><![CDATA[<date notBefore-iso=“1804-05-01“ notAfter=“1804-05-16“>Erste Hälfte Mai
 1804</date>]]></p>
   <p>Teuchos hat zur Notierung von Zeiträumen (z.B. „Anfang 14. Jahrhundert“) Richtlinien
-   aufgestellt, wie diese maschinenlesbar in den Attributen notiert werden sollten. Die
-   nachfolgende Tabelle gibt darüber Aufschluss:</p>
+   aufgestellt, wie diese maschinenlesbar in den Attributen notiert werden sollten. Die nachfolgende
+   Tabelle gibt darüber Aufschluss:</p>
   <table>
    <tgroup cols="2">
     <thead>
@@ -242,21 +243,44 @@
     </tbody>
    </tgroup>
   </table>
-  <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
-   Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer
-   Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. Angaben zur Entstehungszeit
-   der Handschriftenteile können mit den entsprechenden Pendants „Genaues Entstehungsdatum“
-   und „Ungefährer Entstehungszeitraum“ versehen werden.</p>
-  <p>5. <b>Verweise</b> <image href="icons/ref_straighturl.png"></image></p>
-  <p>6. <b>Zeichen hochstellen</b> <image href="icons/sup.gif"></image></p>
-  <p>14. <b>Anmerkungen</b> <image href="icons/seg-note.gif"></image></p>
-  <p>In der Handschriftenbeschreibung können in jedem Teil Anmerkungen notiert werden.
-   Dafür wird das Element<![CDATA[<note/>]]> direkt hinter die Bezugsstelle gesetzt:</p>
-   <codeblock outputclass="language-xml"><![CDATA[Bosporo navigatione<note resp=”cagb”>... Anmerkung </note>]]></codeblock>
-   <p>Im Attribut @resp wird (bei jeder neuen Anmerkung) notiert, ob die Anmerkung vom
-    Bearbeiter der ursprünglichen Handschriftenbeschreibung stammt oder von einem/r
-    Bearbeiter-/in des Vorhabens CAGB.</p>
-   <p>In Oxygen XML Author steht dafür eine entsprechende Schaltfläche zur Verfügung.</p>
-  
+  <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche
+   zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer Zeitraum“ bietet, um alle
+   Datumsangaben auszuzeichnen. Angaben zur Entstehungszeit der Handschriftenteile können mit den
+   entsprechenden Pendants „Genaues Entstehungsdatum“ und „Ungefährer Entstehungszeitraum“ versehen
+   werden.</p>
+  <p><image href="icons/ref_straighturl.png"/>
+   <b>Verweise</b>
+  </p>
+  <p><image href="icons/sup.gif"/>
+   <b>Zeichen hochstellen</b>
+  </p>
+  <p><image href="icons/seg-note.gif"/>
+   <b>Anmerkungen</b>
+  </p>
+  <p><image href="icons/char0305.png"/>
+   <b>Überstrich/Zahlenstrich einfügen</b></p>
+  <p><image href="icons/char0027.png"/>
+   <b>Apostroph einfügen</b></p>
+  <p><image href="icons/char00D7.png"/>
+   <b>Multiplikationszeichen einfügen</b></p>
+  <p>In der Handschriftenbeschreibung können in jedem Teil Anmerkungen notiert werden. Dafür wird
+   das Element<![CDATA[<note/>]]> direkt hinter die Bezugsstelle gesetzt:</p>
+  <codeblock outputclass="language-xml"><![CDATA[Bosporo navigatione<note resp=”cagb”>... Anmerkung </note>]]></codeblock>
+  <p>Im Attribut @resp wird (bei jeder neuen Anmerkung) notiert, ob die Anmerkung vom Bearbeiter der
+   ursprünglichen Handschriftenbeschreibung stammt oder von einem/r Bearbeiter-/in des Vorhabens
+   CAGB.</p>
+  <p>In Oxygen XML Author steht dafür eine entsprechende Schaltfläche zur Verfügung.</p>
+  <p><image href="icons/char0374_16.png"/>
+   <b>Griechisches Zahlenzeichen einfügen</b></p>
+  <p><image href="icons/char0375_16.png"/>
+   <b>Griechisches unteres Zahlenzeichen einfügen</b></p>
+  <p><image href="icons/char0387_16.png"/>
+   <b>Griechisches Ano Teila einfügen</b></p>
+  <p><image href="icons/char1FBD_16.png"/>
+   <b>Griechisches Koronis einfügen</b></p>
+  <p><image href="icons/seg-note16.gif"/>
+   <b>Anmerkung eines wissenschaftlichen Mitarbeiters einfügen (zur Veröffentlichung)</b></p>
+  <p><image href="icons/deduced16.png"></image> <b>Text als erschlossen markieren</b></p>
+
  </conbody>
 </concept>

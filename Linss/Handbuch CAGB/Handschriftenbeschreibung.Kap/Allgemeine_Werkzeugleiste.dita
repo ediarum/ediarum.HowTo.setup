@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pvm_fvq_lx">
+ <title>1. Werkzeugleiste für allgemeine Funktionen</title>
+ <shortdesc/>
+ <conbody>
+  <image href="Abb.Allgemeine_Werkzeugleiste.png"/>
+  <p>Bemerkungen zur den einzelnen Funktionen:</p>
+  <p><b>Speichern und Erneut laden</b></p>
+  <p>Es empfiehlt sich nicht nur am Ende der Arbeit zu speichern, sondern zur Sicherheit immer mal
+   wieder während der Arbeit zu speichern. MIt der Funktion <i>Erneut laden</i> wird die Datei in
+   der Form neu geladen, in der sie zuletzt gespeichert wurde- </p>
+
+  <p><b>Suche</b></p>
+  <p>Diese Schaltfläche öffnet das Suchfenster „Finden/Ersetzen in Dateien“. So kann im
+    <i>geöffneten</i> Dokument nach bestimmten Wörtern oder Wortteilen gesucht werden. Die Suche
+   funktioniert wie die Suche über das Kontextmenü des Datenbaumes (siehe Kapitel <i>Allgemeine
+    Bedienung</i>), ist jedoch auf die göffnete Datei beschränkt. </p>
+  <p><image href="Abb.Allgemeine_Werkzeugleiste1.png"></image><b>Bearbeitungsmarkierungen</b></p>
+  <p>Damit können Sie Wörter oder Textabschnitte markieren, die Sie für
+   die Bearbeitung temporär hervorheben möchten.</p>
+  <p><b>Berarbeitungskommentare</b></p>
+  <p>Arbeitskommentare der Bearbeiter/-innen können überall mit Hilfe des in Oxygen XML Author
+   integrierten Kommentarfuntkion notiert werden. Die kommentierte Stelle wird dabei färblich
+   unterlegt, der Kommentar selbst rechts am Rand dargestellt.</p>
+  <p>Im XML selbst hinterlegt Oxygen XML Author den Kommentar als „Processing Instruction“:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<?oxy_comment_start author=“musterm“ timestamp=“20120817T101833+0200“
+comment=“überprüfen“?>kommentierte Stelle<?oxy_comment_end?>]]></codeblock>
+  <p>Durch die Verwendung von „XML Processing Instructions“ haben Bearbeitungskommentare keine
+   Auswirkungen auf die Web- und Druckausgabe. Sie werden dort auch nicht dargestellt. Für die
+   Kommentierung stehen in der oberen Werkzeugleiste drei Schaltflächen zur Verfügung:</p>
+  <p><image href="Abb.Allgemeine_Werkzeugleiste2.png"/> Kommentare hinzufügen</p>
+  <p><image href="Abb.Allgemeine_Werkzeugleiste3.png"/> Kommentare bearbeiten</p>
+  <p><image href="Abb.Allgemeine_Werkzeugleiste4.png"/> Kommentare verwalten</p>
+  <p>Anmerkung: Bis einschließlich Version 3 der digitalen Arbeitsumgebung wurden die
+   Bearbeiterkommentare als <![CDATA[<comment/>]]> notiert.</p>
+ </conbody>
+</concept>

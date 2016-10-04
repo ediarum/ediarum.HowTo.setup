@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_vr3_smb_zw">
- <title>Registerfunktionen</title>
+ <title>4.2 Registerfunktionen</title>
  <shortdesc/>
  <conbody>
   <p>Die Arbeitsumgebung bietet die Möglichkeit explizit genannte Personennamen und Werktitel
@@ -21,12 +21,12 @@
    wenn dies erforderlich ist. In diesen Fällen steht im jeweiligen Attribut @ref, @target oder @key
    anstelle einer ID, der Wert „none“. Für beide Fälle steht eine Aktion in der Werkzeugleiste unter
    dem entsprechenden Symbol zur Verfügung.</p>
-  <p><b>Achtung: </b>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel ohne
+  <p><b>Achtung: </b><i>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel ohne
    gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
    Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
-   Registerfunktion verwendet werden</p>
-  <p>1. <b>Personennamen</b>
-   <image href="icons/persName.gif"/></p>
+   Registerfunktion verwendet werden</i></p>
+  <p><image href="icons/persName.gif"/> <b>Personennamen</b>
+   </p>
   <p>Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
    <![CDATA[<persName>]]> ausgezeichnet. Das Attribut @ref verweist hier auf den entsprechenden
    Registereintrag.</p>
@@ -107,12 +107,12 @@
     </tbody>
    </tgroup>
   </table>
-  <p>2. <b>Orte und Institutionen</b>
-   <image href="icons/placeName.gif"/></p>
+  <p><image href="icons/placeName.gif"/> <b>Orte</b>
+   </p>
   <p>Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit<![CDATA[<placeName/>]]>
    ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<placeName>Genua</placeName>]]></codeblock>
-  <p> 3. <b>Institutionen</b><image href="icons/orgName.gif"/></p>
+  <p><image href="icons/orgName.gif"/> <b>Institutionen</b></p>
   <p>Ebenso können Instituionsnamen ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<orgName>Bibliothek in Alexandrien</orgName>]]></codeblock>
   <p>Beide Auszeichnungen werden nicht mit einem Register verknüpft. Sie können allerdings ggf. in
@@ -120,7 +120,7 @@
    Institutionsangaben verknüpft werden.</p>
   <p>Für beide Elemente steht jeweils eine entsprechende Schaltfläche in Oxygen XML Author zur
    Verfügung.</p>
-  <p>4. <b>Werktitel</b> <image href="icons/name_bibl.gif"></image></p>
+  <p><image href="icons/name_bibl.gif"></image> <b>Werktitel</b></p>
   <p>Titel von Werken werden mit<![CDATA[<title/>]]> markiert. Das Attribut @ref verweist auf den
    entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
   <codeblock outputclass="language-xml"><![CDATA[<title type=”work-annotated” ref=“w347“>Probl.</bibl>]]></codeblock>
@@ -161,5 +161,6 @@
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“work-commented-on::noncontent“ target=“#w1“>Isagogen</ref>]]></codeblock>
   <p>In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche mit
    Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
+  <p><image href="icons/term16.png"></image> <b>Sachbgriff und Sachindex</b></p>
  </conbody>
 </concept>
