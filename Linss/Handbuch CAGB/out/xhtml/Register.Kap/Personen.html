@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Personen" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Register.Kap/Überschrift.html" />
+<meta name="DC.Creator" content="Berlin-Brandenburgische Akademie der Wissenschaften TELOTA-Arbeitsgruppe Jägerstraße 22–2310117 Berlin telota@bbaw.de www.bbaw.de" />
+<meta name="DC.Publisher" content="Nur für den internen Gebrauch. Stand: 07.10.2016" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_ejc_tkc_zw" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Personen</title>
+</head>
+<body id="concept_ejc_tkc_zw">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Personen</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">In der Arbeitsumgebung steht ein zentrales Personenregister zur Verfügung. Das Register besteht
+   aus einzelnen XML-Dateien, die jeweils die Daten zu einer Person enthalten. Die TEI-XML-Struktur
+   dieser Personendateien basiert auf den „Biogrammen“ des Handschriftenzentrums Teuchos.</p>
+
+  <p class="p">Eine Personendatei verfügt über mehrere Abschnitte (&lt;div/&gt;) in denen
+   unterschiedliche Informationen zur Person hinterlegt werden kann. Für alle Abschnitte steht eine
+   Aktion in der Werkzeugleiste zur Verfügung, mit der dieses Strukturelement eingefügt werden kann.
+   Ergänzungen können dann einfach durch das Setzen eines neuen Absatzes (Returntaste) erfolgen.</p>
+
+  <p class="p"><strong class="ph b">Neue Personendatei anlegen</strong></p>
+
+  <p class="p">Über das Kontextmenü (rechte Maustaste im Dateibaum) kann im entsprechenden Ordner (Personen &gt;
+   [Buchstabe]) eine neue Personendatei angelegt werden. Dazu ist lediglich im erscheinenden
+   Kontextmenü unter „Frameworkvorlagen &gt; CAGB“ die Option „Personeneintrag“ auszuwählen. In der
+   Vorlage bereits angelegt sind die Abschnitte „Vita“, „Werke“ und „Quellen“.</p>
+
+  <p class="p">Der Name und die Lebensdaten werden in head notiert. Der gesamte Name wird dabei mit
+   &lt;persName/&gt; umgeben, der Familienname zusätzlich mit
+   &lt;surname/&gt; ausgezeichnet. Unter mehreren Vornamen kann einer als Rufname mit
+   <em class="ph i"></em>hervorgehoben:&gt;</p>
+
+  <pre class="pre codeblock language-xml">
+<strong class="hl-tag" style="color:#000096">&lt;head</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“entry“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;persName</strong> <span class="hl-attribute" style="color: #ff7935">key</span>=<span class="hl-value" style="color: #993300">“gnd:118850210</span> <span class="hl-attribute" style="color: #ff7935">lccn:n86112270“</span> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“entry“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+     <strong class="hl-tag" style="color:#000096">&lt;surname&gt;</strong>Bekker<strong class="hl-tag" style="color:#000096">&lt;/surname&gt;</strong>, August <strong class="hl-tag" style="color:#000096">&lt;i&gt;</strong>Immanuel <strong class="hl-tag" style="color:#000096">&lt;/i&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/persName&gt;</strong> (<strong class="hl-tag" style="color:#000096">&lt;date</strong> <span class="hl-attribute" style="color: #ff7935">from-iso</span>=<span class="hl-value" style="color: #993300">“1785“</span> <span class="hl-attribute" style="color: #ff7935">to-iso</span>=<span class="hl-value" style="color: #993300">“1871“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>1785–1871<strong class="hl-tag" style="color:#000096">&lt;/date&gt;</strong>)
+<strong class="hl-tag" style="color:#000096">&lt;/head&gt;</strong>   </pre>
+
+  <p class="p"><strong class="ph b">Name und Lebensdaten</strong></p>
+
+  <p class="p">Die Lebensdaten werden mit &lt;date/&gt; ausgezeichnet, wobei die Daten nochmals in
+   formatierter Form in den Attributen @from-iso und @to-iso hinterlegt werden müssen. 38 Für jede
+   Person wird automatisch bei der Neuerstellung oder beim Import durch TELOTA eine CAGB-interne
+   Identifikationsnummer generiert. Später können in &lt;persName/&gt; außerdem noch weitere
+   Identifikationsnummern, wie z.B. die GND (Gemeinsame Normdatei der Deutschen Nationalbibliothek)
+   hinterlegt werden.</p>
+
+  <p class="p"><strong class="ph b">Vita</strong></p>
+
+  <p class="p">Angaben zum Lebenslauf werden im Abschnitt „Vita“ (div[@type=‘life‘]) mit einfachen Absätzen
+   hinterlegt. Falls vorhanden, können Angaben zu einer Festschrift, in einem Unterabschnitt zu Vita
+   notiert werden.</p>
+
+  <p class="p"><strong class="ph b">Weitere Informationen zur Person</strong></p>
+
+  <p class="p">In weiteren Abschnitten können andere Informationen, wie Titel oder Publikationen der Person
+   notiert werden. Der Aufbau ist dabei immer gleich, lediglich der Wert von @subtype sowie der
+   Inhalt von &lt;head/&gt; wird anders gesetzt. Beispiel:</p>
+
+  <pre class="pre codeblock language-xml">
+<strong class="hl-tag" style="color:#000096">&lt;div</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“section“</span> <span class="hl-attribute" style="color: #ff7935">subtype</span>=<span class="hl-value" style="color: #993300">“publications“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;head</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“publications“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Werke<strong class="hl-tag" style="color:#000096">&lt;/head&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>Gesammelte Abhandlungen. ...<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>Heraclitea. ...<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;div</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“subsection“</span> <span class="hl-attribute" style="color: #ff7935">subtype</span>=<span class="hl-value" style="color: #993300">“letters“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;head</strong> <span class="hl-attribute" style="color: #ff7935">type</span>=<span class="hl-value" style="color: #993300">“letters“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Briefe<strong class="hl-tag" style="color:#000096">&lt;/head&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>...<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/div&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/div&gt;</strong></pre>
+
+  <p class="p">Als mögliche Abschnitte stehen zur Verfügung:</p>
+
+  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+     <tr class="row">
+      <th class="entry nocellnorowborder" id="d4205e121">Bezeichnung</th>
+
+      <th class="entry nocellnorowborder" id="d4205e124">Attributwert von @type</th>
+
+      <th class="entry cell-norowborder" id="d4205e127">Bemerkungen</th>
+
+     </tr>
+
+    </thead>
+<tbody class="tbody">
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Titel/Beruf</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">titles</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 "> </td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Werke</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">publications</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 ">Möglicher Unterabschnitt ist „Briefe“ (letters); außerdem können noch nach Bedarf
+       individuelle Untergruppen eingefügt werden</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Quellen</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">sources</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 ">Möglicher Unterabschnitt ist „Würdigungen“ (otherbio); außerdem können noch nach Bedarf
+       individuelle Untergruppen eingefügt werden</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Sekundärliteratur</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">literature</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 "> </td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Probleme</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">problems</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 "> </td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d4205e121 ">Bildnisse</td>
+
+      <td class="entry nocellnorowborder" headers="d4205e124 ">depictions</td>
+
+      <td class="entry cell-norowborder" headers="d4205e127 "> </td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry row-nocellborder" headers="d4205e121 ">Nachlass</td>
+
+      <td class="entry row-nocellborder" headers="d4205e124 ">legacy</td>
+
+      <td class="entry cellrowborder" headers="d4205e127 "> </td>
+
+     </tr>
+
+    </tbody>
+</table>
+</div>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Register.Kap/%C3%9Cberschrift.html">Register</a></div>
+</div>
+</div></body>
+</html>

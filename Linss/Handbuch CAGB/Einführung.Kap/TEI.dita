@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_isb_sb2_vw">
  <title>TEI</title>
- <shortdesc>Was bedeutet „TEI“?</shortdesc>
+ <shortdesc/>
  <conbody>
   <p>Eine XML-Datei kann auf ein Schema zurückgreifen, dass die „Grammatik“ vorgibt, d.h.
    welche Elemente gibt es und wie bw. wo dürfen sie verwendet werden. Anhand dieses

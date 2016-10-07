@@ -5,6 +5,37 @@
         <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
             Handbuch</mainbooktitle>
     </booktitle>
+    <bookmeta>
+        <authorinformation>
+            <organizationinfo>
+                <namedetails>
+                    <organizationnamedetails>
+                        <organizationname>Berlin-Brandenburgische Akademie der
+                            Wissenschaften</organizationname>
+                        <otherinfo>TELOTA-Arbeitsgruppe</otherinfo>
+                    </organizationnamedetails>
+                </namedetails>
+                <addressdetails><text>Jägerstraße 22–23</text><locality>10117
+                    Berlin</locality></addressdetails>
+                <emailaddresses>
+                    <emailaddress>telota@bbaw.de</emailaddress>
+                </emailaddresses>
+                <urls>
+                    <url>www.bbaw.de</url>
+                </urls>
+            </organizationinfo>
+        </authorinformation>
+        <publisherinformation>
+            <published>
+                <data>Nur für den internen Gebrauch. Stand: 07.10.2016</data>
+            </published>
+        </publisherinformation>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
     <chapter href="Einf%C3%BChrung.Kap/Überschrift.dita">
         <topicref href="Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
         <topicref href="Einf%C3%BChrung.Kap/Einsatz_von_XML.dita"/>
@@ -14,7 +45,7 @@
         <topicref href="Allgemeine%20Bedienung.Kap/Überblick.dita"/>
         <topicref href="Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
         <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"></topicref>
         <topicref href="Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
         <topicref href="Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
         <topicref href="Allgemeine%20Bedienung.Kap/Suche.dita"/>
@@ -36,19 +67,26 @@
         <topicref href="Handschriftenbeschreibung.Kap/Export.dita"/>
     </chapter>
     <chapter href="Textauszeichnungen_Transkriptionen.Kap/%C3%9Cberschrift.dita">
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Überblick_Oberfläche.dita"></topicref>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"></topicref>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"></topicref>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"></topicref>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Überblick_Oberfläche.dita"/>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"/>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"/>
+        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"/>
         <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita"/>
-
-
         <topicref
             href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
-
         <topicref href="Textauszeichnungen_Transkriptionen.Kap/Weitere_Auszeichnungen.dita"/>
         <topicref href="Textauszeichnungen_Transkriptionen.Kap/Relationen.dita"/>
         <topicref href="Textauszeichnungen_Transkriptionen.Kap/BearbeitungsStatus.dita"/>
     </chapter>
-    <chapter href="Register.Kap/%C3%9Cberschrift.dita"/>
+    <chapter href="Register.Kap/%C3%9Cberschrift.dita">
+        <topicref href="Register.Kap/Überblick.dita"></topicref>
+        <topicref href="Register.Kap/Personen.dita"/>
+
+    </chapter>
+    <chapter href="Tipps_Tricks.Kap/Überschrift.dita"></chapter>
+    <chapter href="Website.Kap/Überschrift.dita"></chapter>
+    <chapter href="Installation.Kap/Überschrift.dita"></chapter>
+    <backmatter>
+        <amendments/>
+    </backmatter>
 </bookmap>
