@@ -9,7 +9,14 @@
    entsprechenden Funktionen der Werkzeugleiste wird automatisch auf das Register zugegriffen, um
    den Namen bzw. Werktitel mit dem Registereintrag zu verbinden. Die Werkzeugleiste mit den
    Registerfunktionen befindet sich in der untersten Leiste.</p>
-  <image href="Abb.Registerfunktionen.png"/>
+  <p>
+   <image href="icons/persName.gif"/> 
+   <image href="icons/placeName.gif"/> 
+   <image href="icons/orgName.gif"/> 
+   <image href="icons/name_bibl.gif"/> 
+   <image href="icons/term16.png"/></p>
+
+
   <p>Mit dem Auszeichnen von Personennamen und Werktiteln wird das Dokument auch für das Web
    aufbereitet. Dort besteht technisch nämlich nicht nur die Möglichkeit vom Index auf bestimmte
    Textstellen zu springen, sondern auch aus dem Text heraus den (erweiterten) Index aufzurufen,
@@ -21,12 +28,13 @@
    wenn dies erforderlich ist. In diesen Fällen steht im jeweiligen Attribut @ref, @target oder @key
    anstelle einer ID, der Wert „none“. Für beide Fälle steht eine Aktion in der Werkzeugleiste unter
    dem entsprechenden Symbol zur Verfügung.</p>
-  <p><b>Achtung: </b><i>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel ohne
-   gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
-   Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
-   Registerfunktion verwendet werden</i></p>
-  <p><image href="icons/persName.gif"/> <b>Personennamen</b>
-   </p>
+  <p><b>Achtung: </b><i>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel
+    ohne gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
+    Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
+    Registerfunktion verwendet werden</i></p>
+  <p><image href="icons/persName16.gif"/>
+   <b>Personennamen</b>
+  </p>
   <p>Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
    <![CDATA[<persName>]]> ausgezeichnet. Das Attribut @ref verweist hier auf den entsprechenden
    Registereintrag.</p>
@@ -107,12 +115,14 @@
     </tbody>
    </tgroup>
   </table>
-  <p><image href="icons/placeName.gif"/> <b>Orte</b>
-   </p>
+  <p><image href="icons/placeName16.gif"/>
+   <b>Orte</b>
+  </p>
   <p>Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit<![CDATA[<placeName/>]]>
    ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<placeName>Genua</placeName>]]></codeblock>
-  <p><image href="icons/orgName.gif"/> <b>Institutionen</b></p>
+  <p><image href="icons/orgName16.gif"/>
+   <b>Institutionen</b></p>
   <p>Ebenso können Instituionsnamen ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<orgName>Bibliothek in Alexandrien</orgName>]]></codeblock>
   <p>Beide Auszeichnungen werden nicht mit einem Register verknüpft. Sie können allerdings ggf. in
@@ -120,7 +130,8 @@
    Institutionsangaben verknüpft werden.</p>
   <p>Für beide Elemente steht jeweils eine entsprechende Schaltfläche in Oxygen XML Author zur
    Verfügung.</p>
-  <p><image href="icons/name_bibl.gif"></image> <b>Werktitel</b></p>
+  <p><image href="icons/name_bibl16.gif"/>
+   <b>Werktitel</b></p>
   <p>Titel von Werken werden mit<![CDATA[<title/>]]> markiert. Das Attribut @ref verweist auf den
    entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
   <codeblock outputclass="language-xml"><![CDATA[<title type=”work-annotated” ref=“w347“>Probl.</bibl>]]></codeblock>
@@ -161,6 +172,7 @@
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“work-commented-on::noncontent“ target=“#w1“>Isagogen</ref>]]></codeblock>
   <p>In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche mit
    Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
-  <p><image href="icons/term16.png"></image> <b>Sachbgriff und Sachindex</b></p>
+  <p><image href="icons/term16.png"/>
+   <b>Sachbgriff und Sachindex</b></p>
  </conbody>
 </concept>

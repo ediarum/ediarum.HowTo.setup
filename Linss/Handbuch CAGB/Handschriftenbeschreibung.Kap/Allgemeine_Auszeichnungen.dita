@@ -4,10 +4,25 @@
  <title>4.1 Auszeichnungen in allen Teilen der Handschriftenbeschreibung</title>
  <shortdesc/>
  <conbody>
-  <image href="Abb.Allgemein.png"/>
-  <p><image href="icons/locus.gif"/>
-   <b>Folioangaben</b>
-  </p>
+
+  <p><image href="icons/locus.gif"/> 
+   <image href="icons/cagb_ref-otherms.gif"/> 
+   <image href="icons/q.gif"/> 
+   <image href="icons/date.gif"/> 
+   <image href="icons/ref_straighturl.png"/> 
+   <image href="icons/sup.gif"/> 
+   <image href="icons/char0305.png" id="image_bsd_blq_nx"/> 
+   <image href="icons/char0027.png"/> 
+   <image href="icons/char00D7.png"/> 
+   <image href="icons/char0374_16.png"/> 
+   <image href="icons/char0375_16.png"/> 
+   <image href="icons/char0387_16.png"/> 
+   <image href="icons/char1FBD_16.png"/> 
+   <image href="icons/seg-note16.gif"/> 
+   <image href="icons/deduced16.png"/></p>
+ <p/>
+  <p><image href="icons/locus16.gif"/>
+   <b>Folioangaben</b></p>
   <p>Folionnummern werden mit <![CDATA[<locus>]]> gekennzeichnet:</p>
   <codeblock outputclass="language-xml"><![CDATA[f. <locus from=“14r“>14</locus>]]></codeblock>
   <p>Dabei ist die Angabe „recto“ zwar im Text oft implizit (wird also immer vorausgesetzt, wenn
@@ -27,7 +42,7 @@
    type=“otherms“ />]]> ausgezeichnet. Im Attribut @n muss zusätzlich die vollständige Signatur
    angegeben werden:</p>
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“otherms“ n=“Mosq. 6“>Mosquenses 6</ref>]]></codeblock>
-  <p><image href="icons/q.gif"/>
+  <p><image href="icons/q16.gif"/>
    <b>Zitate</b>
   </p>
   <p>Zitate aus der Handschrift werden mit dem Element <![CDATA[<q>]]> gekennzeichnet. In Attribut
@@ -111,7 +126,7 @@
    Auswahllisten für die Attribute und ihre Werte bietet.</p>
   <p>Im Author und auf der Website werden Zitate prinzipiell in einer anderen Schriftart (DejaVu
    Serif) dargestellt, damit griechische Zitate korrekt wiedergegeben werden.</p>
-  <p><image href="icons/date.gif"/>
+  <p><image href="icons/date16.gif"/>
    <b>Datumsangaben</b>
   </p>
   <p><![CDATA[Datumsangaben werden mit Hilfe von <date/> bzw. im Abschnitt <origin/> mit <origDate>
@@ -221,7 +236,6 @@
     </tbody>
    </tgroup>
   </table>
-  <p/>
   <p>Kombinierte Angaben ergeben die Summe der Zeiträume, z.B.:</p>
   <table>
    <tgroup cols="2">
@@ -248,20 +262,17 @@
    Datumsangaben auszuzeichnen. Angaben zur Entstehungszeit der Handschriftenteile können mit den
    entsprechenden Pendants „Genaues Entstehungsdatum“ und „Ungefährer Entstehungszeitraum“ versehen
    werden.</p>
-  <p><image href="icons/ref_straighturl.png"/>
+  <p><image href="icons/ref_straighturl16.png"/>
    <b>Verweise</b>
   </p>
-  <p><image href="icons/sup.gif"/>
+  <p><image href="icons/sup16.gif"/>
    <b>Zeichen hochstellen</b>
   </p>
-  <p><image href="icons/seg-note.gif"/>
-   <b>Anmerkungen</b>
-  </p>
-  <p><image href="icons/char0305.png"/>
+  <p><image href="icons/char0305_16.png"/>
    <b>Überstrich/Zahlenstrich einfügen</b></p>
-  <p><image href="icons/char0027.png"/>
+  <p><image href="icons/char0027_16.png"/>
    <b>Apostroph einfügen</b></p>
-  <p><image href="icons/char00D7.png"/>
+  <p><image href="icons/char00D7_16.png"/>
    <b>Multiplikationszeichen einfügen</b></p>
   <p>In der Handschriftenbeschreibung können in jedem Teil Anmerkungen notiert werden. Dafür wird
    das Element<![CDATA[<note/>]]> direkt hinter die Bezugsstelle gesetzt:</p>
@@ -280,7 +291,8 @@
    <b>Griechisches Koronis einfügen</b></p>
   <p><image href="icons/seg-note16.gif"/>
    <b>Anmerkung eines wissenschaftlichen Mitarbeiters einfügen (zur Veröffentlichung)</b></p>
-  <p><image href="icons/deduced16.png"></image> <b>Text als erschlossen markieren</b></p>
+  <p><image href="icons/deduced16.png"/>
+   <b>Text als erschlossen markieren</b></p>
 
  </conbody>
 </concept>

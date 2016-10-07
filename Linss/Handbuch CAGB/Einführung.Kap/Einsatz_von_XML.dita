@@ -22,13 +22,22 @@ ist.</p>]]></codeblock>
    wird. Ein Beispiel:</p>
   <codeblock outputclass="language-xml"><![CDATA[<p align=“left“>Dir werde ich ... unvermeidlich ist.</p>]]></codeblock>
   <p>Zusammenfassend ergibt sich folgendes Bild eines XML-Elements:</p>
-  <image href="Abb.TEI.a.png" width="15cm"/>
+  <image href="Abb.XML.png" width="15cm"></image>
   <p>Mehrere Elemente können – wie oben schon gezeigt – ineinander verschachtelt werden. Dadurch
-   entsteht eine hierarchische Baumstruktur, die für XML-Dokumente charakteristisch ist (siehe auch
-   Abbildung nächste Seite).</p>
+   entsteht eine hierarchische Baumstruktur, die für XML-Dokumente charakteristisch ist.</p>
   <p>Enthalten Elemente keinen Text oder weitere Kind-Elemente handelt es sich um leere Elemente.
-   Sie werden in einer Kurzschreibweise notiert:</p>
-  <image href="Abb.TEI.b.png" placement="break"/>
+   Sie werden in einer Kurzschreibweise notiert: </p>
+  <table id="table_r1k_qgq_nx">
+   <tgroup cols="3">
+    <tbody>
+     <row>
+      <entry><![CDATA[<pb n=“17v“></pb>]]></entry>
+      <entry>--></entry>
+      <entry><![CDATA[<pb n=“17v“ />]]></entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
   <p>Die Bezeichnung leer bezieht sich allerdings nicht auf Attribute. Gerade leere Elemente haben
    meistens Attribute, die weitere Informationen zum Element in sich tragen (im Codebeispiel wird
    die Folioangabe dort notiert).</p>

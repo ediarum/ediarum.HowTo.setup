@@ -4,6 +4,12 @@
  <title>2.2 Manuskripttext</title>
  <shortdesc></shortdesc>
  <conbody>
+  <p><image href="icons/sup.gif"></image> 
+   <image href="icons/del.gif"></image> 
+   <image href="icons/subst2.gif"></image> 
+   <image href="icons/add.gif"></image> 
+   <image href="icons/resp.gif"></image></p>
+  <p/>
   <p><image href="icons/underlined16.png"></image> <b>Unterstreichungen</b></p>
   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rend=“underline“/>]]>
    (highlighted) ausgezeichnet.</p>

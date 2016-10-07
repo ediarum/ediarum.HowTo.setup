@@ -31,7 +31,15 @@
    den Namen bzw. Werktitel mit dem Registereintrag zu verbinden. Die Werkzeugleiste mit den
    Registerfunktionen befindet sich in der untersten Leiste.</p>
 
-  <img class="image" src="Abb.Registerfunktionen.png" />
+  <p class="p">
+   <img class="image" src="icons/persName.gif" /> 
+   <img class="image" src="icons/placeName.gif" /> 
+   <img class="image" src="icons/orgName.gif" /> 
+   <img class="image" src="icons/name_bibl.gif" /> 
+   <img class="image" src="icons/term16.png" /></p>
+
+
+
   <p class="p">Mit dem Auszeichnen von Personennamen und Werktiteln wird das Dokument auch für das Web
    aufbereitet. Dort besteht technisch nämlich nicht nur die Möglichkeit vom Index auf bestimmte
    Textstellen zu springen, sondern auch aus dem Text heraus den (erweiterten) Index aufzurufen,
@@ -46,13 +54,14 @@
    anstelle einer ID, der Wert „none“. Für beide Fälle steht eine Aktion in der Werkzeugleiste unter
    dem entsprechenden Symbol zur Verfügung.</p>
 
-  <p class="p"><strong class="ph b">Achtung: </strong><em class="ph i">Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel ohne
-   gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
-   Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
-   Registerfunktion verwendet werden</em></p>
+  <p class="p"><strong class="ph b">Achtung: </strong><em class="ph i">Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel
+    ohne gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
+    Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
+    Registerfunktion verwendet werden</em></p>
 
-  <p class="p"><img class="image" src="icons/persName.gif" /> <strong class="ph b">Personennamen</strong>
-   </p>
+  <p class="p"><img class="image" src="icons/persName16.gif" />
+   <strong class="ph b">Personennamen</strong>
+  </p>
 
   <p class="p">Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
    &lt;persName&gt; ausgezeichnet. Das Attribut @ref verweist hier auf den entsprechenden
@@ -69,28 +78,28 @@
   
 <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
      <tr class="row">
-      <th class="entry nocellnorowborder" id="d2905e111">Rolle im Kontext</th>
+      <th class="entry nocellnorowborder" id="d3048e121">Rolle im Kontext</th>
 
-      <th class="entry cell-norowborder" id="d2905e114">Attributwert</th>
+      <th class="entry cell-norowborder" id="d3048e124">Attributwert</th>
 
      </tr>
 
     </thead>
 <tbody class="tbody">
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e111 "><p class="p">Autor</p>
+      <td class="entry nocellnorowborder" headers="d3048e121 "><p class="p">Autor</p>
 <p class="p"> Der Autor wird ohne direkten Funktionsbezug genannt. „… schließt sich
         sodann ein längeres wörtliches Zitat vom Anfang der Paraphrase
         des &lt;persName role=“author“&gt;Ps.-Heliodor&lt;/persName&gt; zum ersten Buch … an (CAG
         XIX 2, S. 1, 5–22).“</p>
 </td>
 
-      <td class="entry cell-norowborder" headers="d2905e114 ">author</td>
+      <td class="entry cell-norowborder" headers="d3048e124 ">author</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e111 "><p class="p">Autor: in der vorliegenden Handschrift enthalten</p>
+      <td class="entry nocellnorowborder" headers="d3048e121 "><p class="p">Autor: in der vorliegenden Handschrift enthalten</p>
 
        <p class="p">(Teuchos: Autor mit Werk in Handschrift enthalten)</p>
  Das Werk des Autors ist in der
@@ -98,27 +107,27 @@
        mit“, es sein denn, der Autor wurde im Textverlauf schon einmal als „author-contained“
        getagged. Dann genügt das Attribut „author“.</td>
 
-      <td class="entry cell-norowborder" headers="d2905e114 ">author-contained</td>
+      <td class="entry cell-norowborder" headers="d3048e124 ">author-contained</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e111 "><p class="p">Autor ähnlicher Texte</p>
+      <td class="entry nocellnorowborder" headers="d3048e121 "><p class="p">Autor ähnlicher Texte</p>
  (Teuchos: Autor mit Ähnlichkeit zu anderen Texten in der
        Handschrift) Es wird auf eine Ähnlichkeit verwiesen. Signalwörter können „nach“ oder
        „ähnlich“ sein.</td>
 
-      <td class="entry cell-norowborder" headers="d2905e114 ">author-similiar</td>
+      <td class="entry cell-norowborder" headers="d3048e124 ">author-similiar</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry row-nocellborder" headers="d2905e111 "><p class="p">Autor: kommentiert etc.</p>
+      <td class="entry row-nocellborder" headers="d3048e121 "><p class="p">Autor: kommentiert etc.</p>
  (Teuchos: Autor nicht in Handschrift enthalten, aber mit
        Bezug) Der Autor eines Textes, der in der Handschrift nicht enthalten ist, der aber
        beispielsweise kommentiert wird.</td>
 
-      <td class="entry cellrowborder" headers="d2905e114 ">author-referred</td>
+      <td class="entry cellrowborder" headers="d3048e124 ">author-referred</td>
 
      </tr>
 
@@ -131,46 +140,46 @@
   
 <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
      <tr class="row">
-      <th class="entry nocellnorowborder" id="d2905e185">Rolle</th>
+      <th class="entry nocellnorowborder" id="d3048e195">Rolle</th>
 
-      <th class="entry cell-norowborder" id="d2905e188">Attributwert</th>
+      <th class="entry cell-norowborder" id="d3048e198">Attributwert</th>
 
      </tr>
 
     </thead>
 <tbody class="tbody">
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e185 ">Kommentator</td>
+      <td class="entry nocellnorowborder" headers="d3048e195 ">Kommentator</td>
 
-      <td class="entry cell-norowborder" headers="d2905e188 ">annotator</td>
-
-     </tr>
-
-     <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e185 ">Schreiber</td>
-
-      <td class="entry cell-norowborder" headers="d2905e188 ">scribe</td>
+      <td class="entry cell-norowborder" headers="d3048e198 ">annotator</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e185 ">Korrektor</td>
+      <td class="entry nocellnorowborder" headers="d3048e195 ">Schreiber</td>
 
-      <td class="entry cell-norowborder" headers="d2905e188 ">corrector</td>
-
-     </tr>
-
-     <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e185 ">Besitzer</td>
-
-      <td class="entry cell-norowborder" headers="d2905e188 ">owner</td>
+      <td class="entry cell-norowborder" headers="d3048e198 ">scribe</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry row-nocellborder" headers="d2905e185 ">Auftraggeber</td>
+      <td class="entry nocellnorowborder" headers="d3048e195 ">Korrektor</td>
 
-      <td class="entry cellrowborder" headers="d2905e188 ">patron</td>
+      <td class="entry cell-norowborder" headers="d3048e198 ">corrector</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d3048e195 ">Besitzer</td>
+
+      <td class="entry cell-norowborder" headers="d3048e198 ">owner</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry row-nocellborder" headers="d3048e195 ">Auftraggeber</td>
+
+      <td class="entry cellrowborder" headers="d3048e198 ">patron</td>
 
      </tr>
 
@@ -178,15 +187,17 @@
 </table>
 </div>
 
-  <p class="p"><img class="image" src="icons/placeName.gif" /> <strong class="ph b">Orte</strong>
-   </p>
+  <p class="p"><img class="image" src="icons/placeName16.gif" />
+   <strong class="ph b">Orte</strong>
+  </p>
 
   <p class="p">Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit&lt;placeName/&gt;
    ausgezeichnet werden.</p>
 
   <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;placeName&gt;</strong>Genua<strong class="hl-tag" style="color:#000096">&lt;/placeName&gt;</strong></pre>
 
-  <p class="p"><img class="image" src="icons/orgName.gif" /> <strong class="ph b">Institutionen</strong></p>
+  <p class="p"><img class="image" src="icons/orgName16.gif" />
+   <strong class="ph b">Institutionen</strong></p>
 
   <p class="p">Ebenso können Instituionsnamen ausgezeichnet werden.</p>
 
@@ -199,7 +210,8 @@
   <p class="p">Für beide Elemente steht jeweils eine entsprechende Schaltfläche in Oxygen XML Author zur
    Verfügung.</p>
 
-  <p class="p"><img class="image" src="icons/name_bibl.gif" /> <strong class="ph b">Werktitel</strong></p>
+  <p class="p"><img class="image" src="icons/name_bibl16.gif" />
+   <strong class="ph b">Werktitel</strong></p>
 
   <p class="p">Titel von Werken werden mit&lt;title/&gt; markiert. Das Attribut @ref verweist auf den
    entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
@@ -212,33 +224,33 @@
   
 <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
      <tr class="row">
-      <th class="entry nocellnorowborder" id="d2905e301">Fall</th>
+      <th class="entry nocellnorowborder" id="d3048e311">Fall</th>
 
-      <th class="entry cell-norowborder" id="d2905e304">Attributwert</th>
+      <th class="entry cell-norowborder" id="d3048e314">Attributwert</th>
 
      </tr>
 
     </thead>
 <tbody class="tbody">
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e301 ">Das Werk wird erwähnt, aber nicht kommentiert</td>
+      <td class="entry nocellnorowborder" headers="d3048e311 ">Das Werk wird erwähnt, aber nicht kommentiert</td>
 
-      <td class="entry cell-norowborder" headers="d2905e304 ">work-annotated</td>
+      <td class="entry cell-norowborder" headers="d3048e314 ">work-annotated</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d2905e301 ">Der Titel wird (oft auf Latein oder Griechisch) umschrieben. In diesem Fall wird
+      <td class="entry nocellnorowborder" headers="d3048e311 ">Der Titel wird (oft auf Latein oder Griechisch) umschrieben. In diesem Fall wird
        zusätzlich das Attribut xml:lang mit entsprechendem Sprachkürzel nach ISO 639 gesetzt</td>
 
-      <td class="entry cell-norowborder" headers="d2905e304 ">desc</td>
+      <td class="entry cell-norowborder" headers="d3048e314 ">desc</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry row-nocellborder" headers="d2905e301 ">Kategorisierende Titel (z.B. Scholien, Lemmata etc.)</td>
+      <td class="entry row-nocellborder" headers="d3048e311 ">Kategorisierende Titel (z.B. Scholien, Lemmata etc.)</td>
 
-      <td class="entry cellrowborder" headers="d2905e304 ">cat</td>
+      <td class="entry cellrowborder" headers="d3048e314 ">cat</td>
 
      </tr>
 
@@ -261,7 +273,8 @@
   <p class="p">In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche mit
    Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
 
-  <p class="p"><img class="image" src="icons/term16.png" /> <strong class="ph b">Sachbgriff und Sachindex</strong></p>
+  <p class="p"><img class="image" src="icons/term16.png" />
+   <strong class="ph b">Sachbgriff und Sachindex</strong></p>
 
  </div>
 

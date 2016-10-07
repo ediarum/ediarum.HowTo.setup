@@ -4,23 +4,22 @@
  <title>3. Textauszeichnungen des Herausgebers</title>
  <shortdesc/>
  <conbody>
-  <p><image href="Abb.Textarbeit_Herausgeber.png"/></p>
-  <image href="icons/unclear16.gif"/>
-  <image href="icons/gap16.gif"/>
-  <image href="icons/del_gap16.gif"/>
+  <image href="icons/unclear.gif"/>
+  <image href="icons/gap.gif"/>
+  <image href="icons/del_gap.gif"/>
   <image href="icons/damage.gif"/>
-  <image href="icons/ex16.png"/>
-  <image href="icons/surplus16.gif"/>
-  <image href="icons/supplied16.gif"/>
-  <image href="icons/corr-sic16.gif"/>
-  <image href="icons/app16.png"/>
-  <image href="icons/verweis16.gif"/>
-  <image href="icons/q16.gif"/>
-  <image href="icons/seg-note16.gif"/>
+  <image href="icons/ex20.png"/>
+  <image href="icons/surplus.gif"/>
+  <image href="icons/supplied.gif"/>
+  <image href="icons/corr-sic.gif"/>
+  <image href="icons/app.png"/>
+  <image href="icons/verweis.gif"/>
+  <image href="icons/q.gif"/>
+  <image href="icons/seg-note.gif"/>
   <image href="icons/abbr.gif"/>
-  <image href="icons/verweis16.gif"/>
-  <image></image>
-  <image href="icons/names16.gif"/>
+  <image href="icons/verweis.gif"/>
+  <image/>
+  <image href="icons/names.gif"/>
   <p><image href="icons/unclear16.gif"/>
    <b>Unsichere Lesarten</b></p>
   <p>Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit

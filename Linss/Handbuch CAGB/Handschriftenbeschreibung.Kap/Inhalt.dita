@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dhb_wqc_xw">
- <title>2.2 Inhalt</title>
- <shortdesc></shortdesc>
- <conbody>
-  <p>Die Inhalte der Handschrift werden jeweil in<![CDATA[ <msItem/> notiert, in denen wiederum
-   auch Absätze gesetzt werden können. Leere Folia werden mit dem Attribut @n=emtpy
-   versehen. Textgeschichtliche Beziehungen werden ebenfalls in <msItem/> notiert, das
-   allerdings ein entsprechendes Attibut trägt sowie ein eigenes Unterleement <filiation/>
-   enthält.]]></p><p>Über das Menü „Inhalt“ in der mittleren Werkzeugleiste können neue Strukturelemente
-    hinzugefügt werden.</p>
-  <p><codeblock outputclass="language-xml"> <![CDATA[
+   <title>2.2 Inhalt</title>
+   <shortdesc/>
+   <conbody>
+      <p>Die Inhalte der Handschrift werden jeweil in<![CDATA[ <msItem/>]]> notiert, in denen
+         wiederum auch Absätze gesetzt werden können. Leere Folia werden mit dem Attribut @n=emtpy
+         versehen. Textgeschichtliche Beziehungen werden ebenfalls in <![CDATA[<msItem/>]]> notiert,
+         das allerdings ein entsprechendes Attibut trägt sowie ein eigenes Unterleement
+         <![CDATA[<filiation/>]]> enthält.</p>
+      <p>Über das Menü „Inhalt“ in der mittleren Werkzeugleiste können neue Strukturelemente
+         hinzugefügt werden.</p>
+      <p><codeblock outputclass="language-xml"> <![CDATA[
 <msContents>
    <msItem>
       <p>... </p>
@@ -27,5 +28,5 @@
       </filiation>
    </msItem>
 </msContents>]]></codeblock></p>
- </conbody>
+   </conbody>
 </concept>

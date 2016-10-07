@@ -63,7 +63,7 @@ measure>]]></codeblock>
    <codeblock outputclass="language-xml"><![CDATA[<p n=“catchwords„>
  <catchwords> ... </catchwords>
 </p>]]></codeblock>
-   <p>Anzahl der Linien</p>
+   <p><b>Anzahl der Linien</b></p>
    <p>Die Anzahl der Linien wird in objectDesc/layoutDesc/layout notiert, wobei das letzte
      Element nochmals mit einem Attribut @n=“numlines“ konkretisiert wird. In <![CDATA[<layout/>]]>
      werden jeweils Absätze benutzt:</p>

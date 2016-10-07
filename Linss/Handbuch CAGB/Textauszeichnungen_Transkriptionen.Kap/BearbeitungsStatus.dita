@@ -4,9 +4,9 @@
  <title>Bearbeitungsstatus</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p><![CDATA[Es ist auch möglich den Bearbeitungsstatus jeder einzelnen Transkription zu kennzeichnen:
+  <p>Es ist auch möglich den Bearbeitungsstatus jeder einzelnen Transkription zu kennzeichnen:
 entweder Entwurf („draft“) oder fertig bearbeitet („final“). Dafür wird dem entsprechenden
-<div/> das Attribut @status hinzugefügt:]]></p>
+<![CDATA[<div/>]]> das Attribut @status hinzugefügt:</p>
   <codeblock outputclass="language-xml"><![CDATA[
 <div type=“fragment“ status=“draft“>
    <p> ... </p>
