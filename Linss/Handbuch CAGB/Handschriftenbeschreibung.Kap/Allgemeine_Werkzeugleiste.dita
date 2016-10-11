@@ -34,5 +34,8 @@ comment=“überprüfen“?>kommentierte Stelle<?oxy_comment_end?>]]></codeblock
   <p><image href="Abb.Allgemeine_Werkzeugleiste4.png"/> Kommentare verwalten</p>
   <p>Anmerkung: Bis einschließlich Version 3 der digitalen Arbeitsumgebung wurden die
    Bearbeiterkommentare als <![CDATA[<comment/>]]> notiert.</p>
+   <p><b>Export</b></p>
+   <p>Die Bearbeitungskommentare, Markierungen und das große Kommentarfeld werden
+   beim Export nach Teuchos nicht mit übermittelt.</p>
  </conbody>
 </concept>

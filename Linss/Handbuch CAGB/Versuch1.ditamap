@@ -36,56 +36,71 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Einf%C3%BChrung.Kap/Überschrift.dita">
-        <topicref href="Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
-        <topicref href="Einf%C3%BChrung.Kap/Einsatz_von_XML.dita"/>
-        <topicref href="Einf%C3%BChrung.Kap/TEI.dita"/>
-    </chapter>
-    <chapter href="Allgemeine%20Bedienung.Kap/Überschrift.dita">
-        <topicref href="Allgemeine%20Bedienung.Kap/Überblick.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"></topicref>
-        <topicref href="Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Suche.dita"/>
-    </chapter>
-    <chapter href="Handschriftenbeschreibung.Kap/Überschrift.dita">
-        <topicref href="Handschriftenbeschreibung.Kap/Überblick_Öberfläche.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Werkzeugleiste.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Strukturelemente_Werkzeugleiste.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Nachweis.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Inhalt.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/physische_Beschaffenheit.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Geschichte.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Weitere_Informationen.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Notizfeld.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Transkription_Werkzeugleiste.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen_Werkzeugleiste.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Registerfunktionen.dita"/>
-        <topicref href="Handschriftenbeschreibung.Kap/Export.dita"/>
-    </chapter>
-    <chapter href="Textauszeichnungen_Transkriptionen.Kap/%C3%9Cberschrift.dita">
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Überblick_Oberfläche.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita"/>
-        <topicref
-            href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Weitere_Auszeichnungen.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/Relationen.dita"/>
-        <topicref href="Textauszeichnungen_Transkriptionen.Kap/BearbeitungsStatus.dita"/>
-    </chapter>
-    <chapter href="Register.Kap/%C3%9Cberschrift.dita">
-        <topicref href="Register.Kap/Überblick.dita"></topicref>
-        <topicref href="Register.Kap/Personen.dita"/>
-
-    </chapter>
-    <chapter href="Tipps_Tricks.Kap/Überschrift.dita"></chapter>
-    <chapter href="Website.Kap/Überschrift.dita"></chapter>
-    <chapter href="Installation.Kap/Überschrift.dita"></chapter>
+    <part href="Parts/ÜberschriftI.dita">
+        <chapter href="Einf%C3%BChrung.Kap/Überschrift.dita">
+            <topicref href="Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
+            <topicref href="Einf%C3%BChrung.Kap/Einsatz_von_XML.dita"/>
+            <topicref href="Einf%C3%BChrung.Kap/TEI.dita"/>
+        </chapter>
+        <chapter href="Allgemeine%20Bedienung.Kap/Überschrift.dita">
+            <topicref href="Allgemeine%20Bedienung.Kap/Überblick.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
+            <topicref href="Allgemeine%20Bedienung.Kap/Suche.dita"/>
+        </chapter>
+    </part>
+    <part href="Parts/ÜberschriftII.dita">
+        <chapter href="Handschriftenbeschreibung.Kap/Überschrift.dita">
+            <topicref href="Handschriftenbeschreibung.Kap/Überblick_Öberfläche.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Werkzeugleiste.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Strukturelemente_Werkzeugleiste.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Nachweis.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Inhalt.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/physische_Beschaffenheit.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Geschichte.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Weitere_Informationen.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Notizfeld.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Transkription_Werkzeugleiste.dita"/>
+            <topicref
+                href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen_Werkzeugleiste.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen.dita"/>
+            <topicref href="Handschriftenbeschreibung.Kap/Registerfunktionen.dita"/>
+        </chapter>
+        <chapter href="Textauszeichnungen_Transkriptionen.Kap/%C3%9Cberschrift.dita">
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Überblick_Oberfläche.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita"/>
+            <topicref
+                href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Weitere_Auszeichnungen.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Relationen.dita"/>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/BearbeitungsStatus.dita"/>
+        </chapter>
+        <chapter href="Register.Kap/%C3%9Cberschrift.dita">
+            <topicref href="Register.Kap/Überblick.dita"/>
+            <topicref href="Register.Kap/Personen.dita"/>
+        </chapter>
+    </part>
+    <part href="Parts/ÜberschriftIII.dita">
+        <chapter href="Tipps_Tricks.Kap/Überschrift.dita">
+            <topicref href="Tipps_Tricks.Kap/Allgemein.dita"/>
+            <topicref href="Tipps_Tricks.Kap/Transkriptionen.tipps.dita"/>
+        </chapter>
+        <chapter href="Website.Kap/Überschrift.dita">
+            <topicref href="Website.Kap/website.suche.dita"/>
+            <topicref href="Website.Kap/Navigation.dita"/>
+            <topicref href="Website.Kap/website.suche.dita"/>
+        </chapter>
+        <chapter href="Installation.Kap/Überschrift.dita">
+            <topicref href="Installation.Kap/Install.dita"/>
+            <topicref href="Installation.Kap/Update_Arbeitsumgebung.dita"/>
+        </chapter>
+    </part>
     <backmatter>
         <amendments/>
     </backmatter>

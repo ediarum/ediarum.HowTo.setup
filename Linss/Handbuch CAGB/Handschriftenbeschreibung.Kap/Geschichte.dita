@@ -16,7 +16,7 @@
  <p n=“primary“> ... </p>
  <p n=“primary“> ... </p>
  ...
-</origin>]]></codeblock>
+</origin>]]></codeblock><p/>
    <p><b>Provenienz</b></p>
    <p>Die Provenienz einer Handschrift wird in provenance mit mehreren Absätzen notiert,
      die jeweils das Attribut @n=“provenance“ tragen:</p>

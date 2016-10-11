@@ -22,17 +22,23 @@ ist.</p>]]></codeblock>
    wird. Ein Beispiel:</p>
   <codeblock outputclass="language-xml"><![CDATA[<p align=“left“>Dir werde ich ... unvermeidlich ist.</p>]]></codeblock>
   <p>Zusammenfassend ergibt sich folgendes Bild eines XML-Elements:</p>
-  <image href="Abb.XML.png" width="15cm"></image>
+  <image href="Abb.XML.png" width="15cm"/>
   <p>Mehrere Elemente können – wie oben schon gezeigt – ineinander verschachtelt werden. Dadurch
    entsteht eine hierarchische Baumstruktur, die für XML-Dokumente charakteristisch ist.</p>
   <p>Enthalten Elemente keinen Text oder weitere Kind-Elemente handelt es sich um leere Elemente.
    Sie werden in einer Kurzschreibweise notiert: </p>
   <table id="table_r1k_qgq_nx">
-   <tgroup cols="3">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Lange Schreibweise</entry>
+      <entry>Kurzschreibweise</entry>
+     </row>
+    </thead>
     <tbody>
      <row>
       <entry><![CDATA[<pb n=“17v“></pb>]]></entry>
-      <entry>--></entry>
+
       <entry><![CDATA[<pb n=“17v“ />]]></entry>
      </row>
     </tbody>

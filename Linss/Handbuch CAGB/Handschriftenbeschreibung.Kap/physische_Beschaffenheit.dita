@@ -12,6 +12,7 @@
    <codeblock outputclass="language-xml"><![CDATA[<p n=“supportMaterial“>
  <material>Papier</material>
 </p>]]></codeblock>
+   <p/>
    <p><b>Wasserzeichen</b></p>
    <p>Wasserzeichen werden ebenfalls in einem<![CDATA[<p>]]>in support notiert, allerdings als
      Liste.</p>
@@ -21,6 +22,7 @@
   <item>...</item>
  </list>
 </p>]]></codeblock>
+   <p/>
    <p><b>Maße</b></p>
    <p>Die Maße der folia einer Handschrift werden in objectDesc/supportDesc/extent notiert.
      Wenn nur zwei eindeutige Angaben für Höhe und Breite der Handschrift vorliegen,
@@ -31,38 +33,41 @@
   <width>200</width>
  </dimensions>
 </measure>]]></codeblock>
+   <p/>
    <p>Ansonsten werden die Angaben als normaler Text mit ggf. weiteren Inlineauszeichnungen
      in<![CDATA[ <measure/>]]> notiert:</p>
    <codeblock outputclass="language-xml"><![CDATA[<measure type=“leafsize„>mm 290 x 200 (außer ff. <locus
 from=“270r“>270</locus>-<locus from=“296r“>296</locus>: mm 235 x 155)</
 measure>]]></codeblock>
+   <p/>
    <p><b>Anzahl der Folia</b></p>
    <p>Die Anzahl der Folia wird ebenfalls in objectDesc/supportDesc/extent mit einem Element
      <![CDATA[<measure/>]]> notiert. Hier trägt das Attribut @type allerdings den Wert „numleaves“:</p>
    <codeblock outputclass="language-xml"><![CDATA[<measure type=“numleaves“>ff. IV, 109, I‘</measure>]]></codeblock>
    <p><b>Lagen</b></p>
+   <p/>
    <p>Die Lagen werden in objectDesc/supportDesc/collation in einem Element p notiert,
      dessen Attribut @n den Wert „quire-structure“ trägt:</p>
-   <codeblock outputclass="language-xml"><![CDATA[<p n=“quire-structure“> ... </p>]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[<p n=“quire-structure“> ... </p>]]></codeblock><p/>
    <p><b>Griechische Kustoden</b></p>
    <p>Die griechischen Kustoden werden mit <![CDATA[<signatures/> in einem Element <p/>]]> ebenfalls in
      collation notiert. Das Attribut @n trägt hier den Wert „sign-greek“:
      <codeblock outputclass="language-xml"><![CDATA[<p n=“sign-greek“>
  <signatures> ... </signatures>
-</p>]]></codeblock></p>
+</p>]]></codeblock></p><p/>
    <p><b>Lagensignierung</b></p>
    <p>Lagensignierungen werden ebenfalls in collation und einem Absatzelement notiert. Das
      Attribut @n enthält hier den Wert „sign-other“. Zusätzlich ist der Inhalt mit<![CDATA[<signatures/>]]> 
      umgeben:</p>
    <codeblock outputclass="language-xml"><![CDATA[<p n=“sign-other„>
  <signatures> ... </signatures>
-</p>]]></codeblock>
+</p>]]></codeblock><p/>
    <p><b>Reklamanten</b></p>
    <p>Reklamenten werden ähnlich verschachtelt notiert. Das Attribut @n des umschließenden
      Elements p trägt hier den Wert „catchwords“:</p>
    <codeblock outputclass="language-xml"><![CDATA[<p n=“catchwords„>
  <catchwords> ... </catchwords>
-</p>]]></codeblock>
+</p>]]></codeblock><p/>
    <p><b>Anzahl der Linien</b></p>
    <p>Die Anzahl der Linien wird in objectDesc/layoutDesc/layout notiert, wobei das letzte
      Element nochmals mit einem Attribut @n=“numlines“ konkretisiert wird. In <![CDATA[<layout/>]]>
@@ -75,20 +80,20 @@ measure>]]></codeblock>
   <locus from=“109r“>109</locus>)
   </p>
  </layout>
-</layoutDesc>]]></codeblock>
+</layoutDesc>]]></codeblock><p/>
    <p><b>Kopisten</b></p>
    <p>Die Kopisten werden direkt unterhalb von physDesc in handDesc mit ggf. mehreren
      Absätzen notiert:</p>
    <codeblock outputclass="language-xml"><![CDATA[<handDesc>
  <p>...</p>
  <p>...</p>
-</handDesc>]]></codeblock>
+</handDesc>]]></codeblock><p/>
    <p><b>Ergänzungen zum Textbestand</b></p>
    <p>Ergänzungen zum Textbestand werden in additions mit ggf. mehreren Absätzen notiert:</p>
    <codeblock outputclass="language-xml"><![CDATA[<additions>
  <p n=“additional“>Am Rand gelegentlich Lemmata, Zählungen und Diagramme.</p>
 </additions>]]></codeblock>
-   <p>Die Absätze tragen zusätzlich das Attribut @n=“additional“.</p>
+   <p>Die Absätze tragen zusätzlich das Attribut @n=“additional“.</p><p/>
    <p><b>Einband</b></p>
    <p>Art und Beschaffenheit des Einbands wird in bindingDesc/binding mit ggf. mehreren
      Absätzen notiert:</p>

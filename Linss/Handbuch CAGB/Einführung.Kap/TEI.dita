@@ -17,11 +17,13 @@
   <table>
    <tgroup cols="2">
 
-    <tbody>
+    <thead>
      <row>
       <entry>In bisheriger Druckausgabe</entry>
       <entry>TEI-basiertes XML</entry>
      </row>
+    </thead>
+    <tbody>
      <row>
       <entry>Pr<i>offessor</i></entry>
       <entry><![CDATA[Pr<i>offessor</i>]]></entry>
@@ -52,6 +54,44 @@
    Header/> und dem <text/>]]>. Während die eigentliche Handschriftenbeschreibung sich im letzteren
    befindet, werden im teiHeader Metangaben zum XML-Dokument notiert. Grobe Struktur eines
    TEI-kodierten XML-Dokuments:</p>
-  <image href="Abb.TEI.b.png"/>
+  <table>
+   <tgroup cols="2">    <colspec colwidth="4cm"></colspec>
+    <colspec colwidth="13cm"></colspec>
+    <thead>
+     <row>
+      <entry>Struktur</entry>
+      <entry>Struktur in XML-Dokument</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Metaangaben zum XML-Dokument</entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<TEI xmlns="http://tei-c.org/ns/1.0" xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Dokumenttitel]</title>
+         </titleStmt>
+         <publicationStmt>
+            ... [Angaben zum Herausgeber]
+         </publicationStmt>
+      </fileDesc>
+      <revisionDesc>
+         ... [Angaben zur Berarbeitung des XML-Dokuments]
+      </revisionDesc>
+   </teiHeader>]]></codeblock></entry>
+     </row>
+     <row>
+      <entry>Handschriftenbeschreibung</entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[   <text>
+      <body>
+          ... [Eigentliche Handschriftenbeschreibung]
+      </body>
+   <text>
+</TEI>]]></codeblock></entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
  </conbody>
 </concept>
