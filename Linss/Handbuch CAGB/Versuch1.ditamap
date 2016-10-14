@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="versuch"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<?xml-stylesheet type="text/xsl" href="versuch.xsl"?>
 <bookmap>
     <booktitle>
         <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung

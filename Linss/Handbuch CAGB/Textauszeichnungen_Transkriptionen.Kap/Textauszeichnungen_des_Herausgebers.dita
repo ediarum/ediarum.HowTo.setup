@@ -38,6 +38,7 @@
 <gap quantity=“5“ unit=“Buchstaben“/></del>dann wieder]]></codeblock>
   <p><image href="icons/damage.gif"/>
    <b>Beschädigte Stelle</b></p>
+  <p>Eine beschädigte Stelle im Manuskript wird mit <![CDATA[<damage>]]> ausgezeichnet.</p>
   <p><image href="icons/ex16.png"/>
    <b>Ergänzungen</b></p>
   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit<![CDATA[<ex/> ]]> (expansion)
@@ -54,6 +55,7 @@ gekennzeichnet.]]></p>
   <codeblock outputclass="language-xml"><![CDATA[<surplus prev=”ohne Ende”>unendlich</surplus>]]></codeblock>
   <p><image href="icons/surplus16.gif"/>
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></p>
+  <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem <![CDATA[<supplied cert="high"/>]]> ergänzt werden. Dabei drückt der Attributwert für @cert die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high oder low.</p>
   <p><image href="icons/corr-sic16.gif"/>
    <b>Korrekturen durch den Herausgeber</b></p>
   <p>Werden Schreibfehler des Autors im edierten Text korrigiert, so wird das Originalwort mit

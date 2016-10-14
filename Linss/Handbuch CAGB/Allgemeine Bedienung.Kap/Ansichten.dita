@@ -6,7 +6,7 @@
  <conbody>
   <p>Oxygen XML Author verfügt über drei verschiedene Ansichtsmodi, um ein XML-Dokument zu
    betrachten. Die Ansicht kann über die Leiste am unteren Rand des Hauptfensters gewechselt
-   werden.</p>
+   werden. Die Ansicht „Raster“ wird allerdings für für das Vorhaben CAGB nicht verwendet.</p>
 <image href="Abb.Ansichten.png"/>
   <p><b>Ansichtsmodus "Autor"</b></p>
   <p>Standardmäßig öffnet sich ein Dokment im Ansichtsmodus „Autor“. Das ist eine Ansicht
@@ -15,8 +15,8 @@
    halber ausgeblendet wurden (insbesondere im sog. teiHeader). Die Werkzeugleisten
    mit den Bearbeitungsfunktionen für die Handschriftenbeschreibung und
    Transkription werden auch nur in diesem Modus eingeblendet.</p>
-  <p>Die Ansicht des Dokuments im Autorenmodus kann über die Schaltfläche „CSS “ in der
-   oberen Werkzeugleiste angepasst werden.</p>
+  <p>Die Ansicht des Dokuments im Autorenmodus kann über die Schaltfläche „Stile “ in der oberen
+   Werkzeugleiste angepasst werden.</p>
   <p></p>
   <p><b>Ansichtsmodus "Text"</b></p>
   <p> Eine XML-Datei kann auch in der „Text“-Ansicht geöffnet werden. Hier wird der gesamte Code des
@@ -27,7 +27,6 @@
    sobald ein Leerzeichen hinter dem Elementnamen eingegeben wird. Die Einrückungen und
    Zeilenumbrüche in der Codeansicht haben keine Auswirkungen auf die Darstellung in der
    Autoransicht sowie die Webausgabe.</p><image href="Abb.Ansichten.Text.png" height="8cm"/>
-  <p>Die Ansicht „Raster“ wird für für das Vorhaben CAGB nicht verwendet.</p>
   <p><b>Schriftarten</b></p>
   <p>Möglicherweise ist notwendig sein, die Schriftart umzustellen – z.B. wenn die Standardschrift
    seltene altgriechische Schriftzeichen nicht darstellen kann (was aber nicht

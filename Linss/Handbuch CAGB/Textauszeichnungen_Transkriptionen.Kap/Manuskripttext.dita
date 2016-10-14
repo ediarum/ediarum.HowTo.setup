@@ -15,11 +15,12 @@
    (highlighted) ausgezeichnet.</p>
   <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“underline“>durchdacht</hi> habe]]></codeblock>
   <p><image href="icons/hi_color16.gif"></image> <b>Farbige Hervorhebung</b></p>
-  <p>Im Manuskript andersfarbig hervorgehobene Wörter oder Wortteile werden mit <![CDATA[<hi
-   rend=“color(red)“/>]]>  (highlighted) ausgezeichnet. Im Attribut @rend wird color() notiert,
+  <p>Im Manuskript andersfarbig hervorgehobene Wörter oder Wortteile werden mit <![CDATA[<hi]]>
+   rend=“color(red)“/>  (highlighted) ausgezeichnet. Im Attribut @rend wird color() notiert,
    wobei in der Klammer die entsprechende Farbe angegeben wird.</p>
-  <codeblock outputclass="language-xml"><![CDATA[sondern ich hoffe, <hi rend=“color(red)“>durchdacht</hi> habe]]></codeblock>
+  <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“color(red)“>durchdacht</hi>]]> habe</codeblock>
   <p><image href="icons/sup16.gif"></image> <b>Hochstellen</b></p>
+  <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rend="#sup">]]> ausgezeichnet.</p>
   <p><image href="icons/del16.gif"></image> <b>Streichungen</b></p>
   <p>Vom Autor im Manuskript durchgestrichene Wörter oder Wortteile werden mit <![CDATA[<del
    rend=“durchgestrichen“/>]]>  (deletion) ausgezeichnet.</p>
@@ -47,5 +48,6 @@ Zeile“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codebloc
    wieder gegeben werden. Der Urheber der Ergänzug muss analog zur Streichung notiert
    werden.</p>
   <p><image href="icons/resp16.gif"></image> <b>Urheber</b></p>
+  <p>Der Urheber einer Korrektur oder Ergänzung im Manuskript kann mit <![CDATA[<subst resp="kopist">]]> notiert werden.</p>
  </conbody>
 </concept>

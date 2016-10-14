@@ -41,25 +41,25 @@
   
 <div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
      <tr class="row">
-      <th class="entry nocellnorowborder" id="d1105e79">In bisheriger Druckausgabe</th>
+      <th class="entry nocellnorowborder" id="d1081e79">In bisheriger Druckausgabe</th>
 
-      <th class="entry cell-norowborder" id="d1105e82">TEI-basiertes XML</th>
+      <th class="entry cell-norowborder" id="d1081e82">TEI-basiertes XML</th>
 
      </tr>
 
     </thead>
 <tbody class="tbody">
      <tr class="row">
-      <td class="entry nocellnorowborder" headers="d1105e79 ">Pr<em class="ph i">offessor</em></td>
+      <td class="entry nocellnorowborder" headers="d1081e79 ">Pr<em class="ph i">offessor</em></td>
 
-      <td class="entry cell-norowborder" headers="d1105e82 ">Pr&lt;i&gt;offessor&lt;/i&gt;</td>
+      <td class="entry cell-norowborder" headers="d1081e82 ">Pr&lt;i&gt;offessor&lt;/i&gt;</td>
 
      </tr>
 
      <tr class="row">
-      <td class="entry row-nocellborder" headers="d1105e79 ">außerdem] <em class="ph i">über der Zeile</em></td>
+      <td class="entry row-nocellborder" headers="d1081e79 ">außerdem] <em class="ph i">über der Zeile</em></td>
 
-      <td class="entry cellrowborder" headers="d1105e82 ">&lt;add place="über der Zeile"&gt;außerdem&lt;/add&gt;</td>
+      <td class="entry cellrowborder" headers="d1081e82 ">&lt;add place="über der Zeile"&gt;außerdem&lt;/add&gt;</td>
 
      </tr>
 
@@ -67,8 +67,7 @@
 </table>
 </div>
 
-  <p class="p">Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch aus7
-   gezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht
+  <p class="p">Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht
    &lt;ex&gt; für „editorial expansion“ und &lt;add&gt; für „addition“. Dadurch sind die
    Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
 
@@ -82,7 +81,7 @@
    viel mehr Elemente als normalerweise in einem Projekt benötigt werden. Im Teucho – Zentrum für
    Handschriften- und Textforschung an der Universität Hamburg wurde mit Hilfe der TEI eine
    Leitlinie erarbeitet, wie die unterschiedlichen Teile einer Handschriftenbeschreibung mit XML
-   strukturiert und ausgezeichnet werden können. [FUSSNOTE ]. Von TELOTA wurde auf dieser Basis ein
+   strukturiert und ausgezeichnet werden können. Von TELOTA wurde auf dieser Basis ein
    XML-Schema für die digitale Arbeitsumgebung entwickelt, gegen das die XML-Dokumente zukünftig
    validiert, d.h. geprüft werden könnnen.</p>
 
@@ -91,7 +90,55 @@
    befindet, werden im teiHeader Metangaben zum XML-Dokument notiert. Grobe Struktur eines
    TEI-kodierten XML-Dokuments:</p>
 
-  <img class="image" src="Abb.TEI.b.png" />
+  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:4cm" /><col style="width:13cm" /></colgroup><thead class="thead" style="text-align:left;">
+     <tr class="row">
+      <th class="entry nocellnorowborder" id="d1081e142">Struktur</th>
+
+      <th class="entry cell-norowborder" id="d1081e145">Struktur in XML-Dokument</th>
+
+     </tr>
+
+    </thead>
+<tbody class="tbody">
+     <tr class="row">
+      <td class="entry nocellnorowborder" headers="d1081e142 ">Metaangaben zum XML-Dokument</td>
+
+      <td class="entry cell-norowborder" headers="d1081e145 "><pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;TEI</strong> <span class="hl-attribute" style="color: #ff7935">xmlns</span>=<span class="hl-value" style="color: #993300">"http://tei-c.org/ns/1.0"</span> <span class="hl-attribute" style="color: #ff7935">xml:lang</span>=<span class="hl-value" style="color: #993300">"de"</span><strong class="hl-tag" style="color:#000096">&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;teiHeader&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;fileDesc&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;titleStmt&gt;</strong>
+            <strong class="hl-tag" style="color:#000096">&lt;title&gt;</strong>[Dokumenttitel]<strong class="hl-tag" style="color:#000096">&lt;/title&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;/titleStmt&gt;</strong>
+         <strong class="hl-tag" style="color:#000096">&lt;publicationStmt&gt;</strong>
+            ... [Angaben zum Herausgeber]
+         <strong class="hl-tag" style="color:#000096">&lt;/publicationStmt&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;/fileDesc&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;revisionDesc&gt;</strong>
+         ... [Angaben zur Berarbeitung des XML-Dokuments]
+      <strong class="hl-tag" style="color:#000096">&lt;/revisionDesc&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;/teiHeader&gt;</strong></pre>
+</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry row-nocellborder" headers="d1081e142 ">Handschriftenbeschreibung</td>
+
+      <td class="entry cellrowborder" headers="d1081e145 "><pre class="pre codeblock language-xml">   <strong class="hl-tag" style="color:#000096">&lt;text&gt;</strong>
+      <strong class="hl-tag" style="color:#000096">&lt;body&gt;</strong>
+          ... [Eigentliche Handschriftenbeschreibung]
+      <strong class="hl-tag" style="color:#000096">&lt;/body&gt;</strong>
+   <strong class="hl-tag" style="color:#000096">&lt;text&gt;</strong>
+<strong class="hl-tag" style="color:#000096">&lt;/TEI&gt;</strong></pre>
+</td>
+
+     </tr>
+
+    </tbody>
+</table>
+</div>
+
  </div>
 
 <div class="related-links">

@@ -35,8 +35,7 @@
     </tbody>
    </tgroup>
   </table>
-  <p>Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch aus7
-   gezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht
+  <p>Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht
    <![CDATA[<ex> für „editorial expansion“ und <add>]]> für „addition“. Dadurch sind die
    Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
   <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rend=“underline“>gänzlich</hi> nicht verstehen]]></codeblock>
@@ -47,7 +46,7 @@
    viel mehr Elemente als normalerweise in einem Projekt benötigt werden. Im Teucho – Zentrum für
    Handschriften- und Textforschung an der Universität Hamburg wurde mit Hilfe der TEI eine
    Leitlinie erarbeitet, wie die unterschiedlichen Teile einer Handschriftenbeschreibung mit XML
-   strukturiert und ausgezeichnet werden können. [FUSSNOTE ]. Von TELOTA wurde auf dieser Basis ein
+   strukturiert und ausgezeichnet werden können. Von TELOTA wurde auf dieser Basis ein
    XML-Schema für die digitale Arbeitsumgebung entwickelt, gegen das die XML-Dokumente zukünftig
    validiert, d.h. geprüft werden könnnen.</p>
   <p>Der Baum eines TEI-kodierten XML-Dokument besteht immer aus zwei Teilen: dem <![CDATA[ <tei-

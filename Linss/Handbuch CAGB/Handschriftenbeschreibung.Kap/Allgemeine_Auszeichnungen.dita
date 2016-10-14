@@ -281,14 +281,9 @@
    ursprünglichen Handschriftenbeschreibung stammt oder von einem/r Bearbeiter-/in des Vorhabens
    CAGB.</p>
   <p>In Oxygen XML Author steht dafür eine entsprechende Schaltfläche zur Verfügung.</p>
-  <p><image href="icons/char0374_16.png"/>
-   <b>Griechisches Zahlenzeichen einfügen</b></p>
-  <p><image href="icons/char0375_16.png"/>
-   <b>Griechisches unteres Zahlenzeichen einfügen</b></p>
-  <p><image href="icons/char0387_16.png"/>
-   <b>Griechisches Ano Teila einfügen</b></p>
-  <p><image href="icons/char1FBD_16.png"/>
-   <b>Griechisches Koronis einfügen</b></p>
+  <p><b>Griechiche Zeichen</b></p>
+  <p>Es können verschiedene griechische Zeichen eingefügt werden: Zahlenzeichen, unteres Zahlenzeichen, Ano Teila, Koronis. Die entsprechenden Schaltflächen bilden die Zeichen ab.</p>
+  
   <p><image href="icons/seg-note16.gif"/>
    <b>Anmerkung eines wissenschaftlichen Mitarbeiters einfügen (zur Veröffentlichung)</b></p>
   <p><image href="icons/deduced16.png"/>
