@@ -11,6 +11,7 @@
    unterschiedliche Informationen zur Person hinterlegt werden kann. Für alle Abschnitte steht eine
    Aktion in der Werkzeugleiste zur Verfügung, mit der dieses Strukturelement eingefügt werden kann.
    Ergänzungen können dann einfach durch das Setzen eines neuen Absatzes (Returntaste) erfolgen.</p>
+  <image href="Abb.Person.png" width="15cm"/>
   <p><b>Neue Personendatei anlegen</b></p>
   <p>Über das Kontextmenü (rechte Maustaste im Dateibaum) kann im entsprechenden Ordner (Personen >
    [Buchstabe]) eine neue Personendatei angelegt werden. Dazu ist lediglich im erscheinenden
@@ -19,30 +20,28 @@
   <p>Der Name und die Lebensdaten werden in head notiert. Der gesamte Name wird dabei mit
    <![CDATA[<persName/>]]> umgeben, der Familienname zusätzlich mit
    <![CDATA[<surname/> ]]>ausgezeichnet. Unter mehreren Vornamen kann einer als Rufname mit
-   <i/>hervorgehoben:></p>
-  <codeblock outputclass="language-xml"><![CDATA[
-<head type=“entry“>
+   <![CDATA[<i>]]> hervorgehoben:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<head type=“entry“>
    <persName key=“gnd:118850210 lccn:n86112270“ type=“entry“>
      <surname>Bekker</surname>, August <i>Immanuel </i>
    </persName> (<date from-iso=“1785“ to-iso=“1871“>1785–1871</date>)
 </head>   ]]></codeblock>
-  <p><b>Name und Lebensdaten</b></p>
+  <p><b>Lebensdaten und Namen</b></p>
   <p>Die Lebensdaten werden mit <![CDATA[<date/>]]> ausgezeichnet, wobei die Daten nochmals in
    formatierter Form in den Attributen @from-iso und @to-iso hinterlegt werden müssen. 38 Für jede
    Person wird automatisch bei der Neuerstellung oder beim Import durch TELOTA eine CAGB-interne
    Identifikationsnummer generiert. Später können in <![CDATA[<persName/>]]> außerdem noch weitere
    Identifikationsnummern, wie z.B. die GND (Gemeinsame Normdatei der Deutschen Nationalbibliothek)
-   hinterlegt werden.</p>
+   hinterlegt werden. </p>
   <p><b>Vita</b></p>
   <p>Angaben zum Lebenslauf werden im Abschnitt „Vita“ (div[@type=‘life‘]) mit einfachen Absätzen
    hinterlegt. Falls vorhanden, können Angaben zu einer Festschrift, in einem Unterabschnitt zu Vita
    notiert werden.</p>
-  <p><b>Weitere Informationen zur Person</b></p>
+  <p><b>Weitere Informationen zur Person (Werkzeugleiste 2)</b></p>
   <p>In weiteren Abschnitten können andere Informationen, wie Titel oder Publikationen der Person
    notiert werden. Der Aufbau ist dabei immer gleich, lediglich der Wert von @subtype sowie der
    Inhalt von <![CDATA[<head/>]]> wird anders gesetzt. Beispiel:</p>
-  <codeblock outputclass="language-xml"><![CDATA[
-<div type=“section“ subtype=“publications“>
+  <codeblock outputclass="language-xml"><![CDATA[<div type=“section“ subtype=“publications“>
    <head type=“publications“>Werke</head>
    <p>Gesammelte Abhandlungen. ...</p>
    <p>Heraclitea. ...</p>
@@ -63,31 +62,32 @@
     </thead>
     <tbody>
      <row>
+      <entry>Namensvarianten</entry>
+      <entry>otherNames</entry>
+      <entry>Hier können eventuelle Namensvariationen notiert werden.</entry>
+     </row>
+     <row>
       <entry>Titel/Beruf</entry>
       <entry>titles</entry>
-      <entry/>
+      <entry>Hier können Titel und Berufe notiert werden.</entry>
      </row>
      <row>
       <entry>Werke</entry>
       <entry>publications</entry>
-      <entry>Möglicher Unterabschnitt ist „Briefe“ (letters); außerdem können noch nach Bedarf
-       individuelle Untergruppen eingefügt werden</entry>
+      <entry>Möglicher Unterabschnitt sind „Briefe“ (letters) und "Kleinere Beiträge" (smallpub);
+       außerdem können noch nach Bedarf individuelle Untergruppen eingefügt werden</entry>
      </row>
      <row>
       <entry>Quellen</entry>
       <entry>sources</entry>
-      <entry>Möglicher Unterabschnitt ist „Würdigungen“ (otherbio); außerdem können noch nach Bedarf
-       individuelle Untergruppen eingefügt werden</entry>
+      <entry>Möglicher Unterabschnitte sind "Nekrologe" (obituaries), „Würdigungen“ (otherbio) und
+       "Ungedruckte Quellen" (unpublished); außerdem können noch nach Bedarf individuelle
+       Untergruppen eingefügt werden</entry>
      </row>
      <row>
       <entry>Sekundärliteratur</entry>
       <entry>literature</entry>
-      <entry/>
-     </row>
-     <row>
-      <entry>Probleme</entry>
-      <entry>problems</entry>
-      <entry/>
+      <entry>Hier kann Sekundärliteratur notiert werden.</entry>
      </row>
      <row>
       <entry>Bildnisse</entry>
@@ -99,8 +99,36 @@
       <entry>legacy</entry>
       <entry/>
      </row>
+     <row>
+      <entry>Einzelnes</entry>
+      <entry>singleDetails</entry>
+      <entry/>
+     </row>
     </tbody>
    </tgroup>
   </table>
+  <p><b>Sonstiges</b></p>
+  <p>Es gibt die Möglichkeit den Status einer Registerdatei als "Entwurf" oder "Final" zu markieren.
+   Diese Auszeichnung ist nicht zur Veröffentlichung bestimmt. Ebenso ist es möglich Notizfeld zu
+   erstellen, in dem Bearbeitungsbemerkungen festgeahlten werden können. Diese werden auch nicht
+   veröffentlicht.</p>
+  <p><b>Werkzeugleiste 3</b></p>
+  <image href="icons/sup.gif"/>
+  <image href="icons/occupation.gif"/>
+  <image href="icons/roleName.gif"/>
+  <image href="icons/placeName.gif"/>
+  <image href="icons/orgName.gif"/>
+  <image href="icons/date.gif"/>
+  <image href="icons/term20.png"/>
+  <image href="icons/persName.gif"/>
+  <image href="icons/name_bibl.gif"/>
+  <image href="icons/ref_straighturl.png"/>
+  <p><image href="icons/sup16.gif"/><b>Zeichen hochstellen</b></p>
+  <p><image href="icons/occupation16.gif"/><b>Tätigkeit/ Beruf auszeichnen</b></p>
+  <p><image href="icons/roleName.gif"/><b>Titel/ Bezeichnug auszeichnen</b></p>
+  <p><image href="icons/placeName.gif"/><b>Ortsname</b></p>
+  <p><image href="icons/orgName.gif"/><b>Institution</b></p>
+  <p></p>
+
  </conbody>
 </concept>

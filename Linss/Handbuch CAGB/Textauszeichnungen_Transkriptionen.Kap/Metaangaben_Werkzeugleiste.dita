@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_k4d_rpt_mx">
- <title>1. Werkzeugleiste für Metaangaben</title>
+ <title>2. Werkzeugleiste für Metaangaben</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p></p>
+  <p><b>Metadaten</b></p>
+  <p><b>Scholien</b></p>
+  <p><b>Werke und Kleintexte</b></p>
+  <p><b>Allgemein</b></p>
  </conbody>
 </concept>

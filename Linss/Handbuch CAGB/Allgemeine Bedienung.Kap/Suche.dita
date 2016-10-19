@@ -18,7 +18,7 @@
     <p>4. <i>Darauf achten, dass „Unterverzeichnisse einbeziehen“ angekreuzt ist.</i></p>
     <p>5. <i>Auf [Alle suchen] klicken</i></p>
     <p>
-      <codeblock outputclass="language-css"><b>Achtung</b>: Klicken Sie nicht auf [Alle ersetzen] bzw. brechen Sie den Vorgang ab, sobald Sie
+      <b>Achtung</b>: <codeblock outputclass="language-css">Klicken Sie nicht auf [Alle ersetzen] bzw. brechen Sie den Vorgang ab, sobald Sie
         gefragt werden "Sind Sie sich, dass Sie fortfahren möchten" - [Nein]. Ansonsten werden
         unwiderrufliche Ersetzungen vorgenommen.</codeblock></p>
     <p><b>Suchergebnisse</b></p>
