@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_m35_hbr_lx">
- <title>3. Werkzeugleiste für Transkription</title>
+ <title>Werkzeugleiste für Transkription</title>
  <shortdesc/>
  <conbody>
-  <p>Die Funktionen dieser Werkzeugleiste können im Notizfeld <i>Transkription</i> (siehe 2.6.)
-   verwendet werden. Eine detailierte Beschreibung der Funktion finden Sie im nachfolgenden Kapitel
-    <i>Textauszeichnungen in Transkriptionen.</i></p>
+  <p>Die Funktionen dieser Werkzeugleiste können im Notizfeld <i>Transkription</i> verwendet werden.
+  </p>
  </conbody>
+ <concept id="id_oyd_224_rx"
+  conref="../Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita#concept_uj2_x1c_zw">
+  <title/>
+ </concept>
+ <concept id="id_jbc_k24_rx"
+  conref="../Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita#concept_jzq_42c_zw">
+  <title/>
+ </concept>
+
+
 </concept>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2016" />
+<meta name="DC.rights.owner" content="(C) Copyright 2016" />
+<meta name="DC.Type" content="concept" />
+<meta name="DC.Title" content="Einsatz von XML" />
+<meta name="abstract" content="" />
+<meta name="description" content="" />
+<meta name="DC.Relation" scheme="URI" content="../Einführung.Kap/Überschrift.html" />
+<meta name="DC.Creator" content="Berlin-Brandenburgische Akademie der Wissenschaften TELOTA-Arbeitsgruppe Jägerstraße 22–2310117 Berlin telota@bbaw.de file:///C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20CAGB/out/xhtml/index.html" />
+<meta name="DC.Publisher" content="Nur für den internen Gebrauch. Stand: 07.10.2016" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="concept_h2m_bb2_vw" />
+<link rel="stylesheet" type="text/css" href="../commonltr.css" />
+<title>Einsatz von XML</title>
+</head>
+<body id="concept_h2m_bb2_vw">
+
+ <h1 class="title topictitle1" id="ariaid-title1">Einsatz von XML</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">Die Texte werden als XML-Dokument (.xml) gespeichert und bereitgehalten. XML bedeutet
+   „Extensible Markup Language“ und ist eine Auszeichnungssprache, mit der der Inhalt eines
+   Dokumentes beschrieben werden kann. So können beispielsweise Absätze oder unterstrichene Wörter
+   mit sog. Elementen markiert (ausgezeichnet) werden:</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;p&gt;</strong>Dir werde ich ihn am liebsten bringen wenn er mehr bedarf als die
+Mutter ihm sein kann u<strong class="hl-tag" style="color:#000096">&lt;i&gt;</strong>nd<strong class="hl-tag" style="color:#000096">&lt;/i&gt;</strong> die schmerzhafte Trennung doch unvermeidlich
+ist.<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong></pre>
+
+  <p class="p">Im genannten Beispiel wird der Text von zwei p-Elementen umgeben, die den darin enthaltenen
+   Text als Absatz („paragraph“) kennzeichnen. Am Anfang steht ein öffnendes Element
+    &lt;p&gt; am Ende ein schließendes: &lt;/p&gt; (Schrägstrich beachten). Im so markierten Absatz
+   ist außerdem das Wort „und“ enthalten, dessen zwei letzte Buchstaben kursiv gesetzt werden sollen
+   und daher mit einem (öffnenden und schließenden) i-Element („italic“) markiert wurden.</p>
+
+  <p class="p">Elemente können mit sog. Attributen versehen werden, die weitere Informationen zum
+   entsprechenden Element transportieren. So könnte das öffnende p-Element aus dem obigen Beispiel
+   mit einem Attribut versehen sein, das darüber informiert, dass der Absatz linksbündig gesetzt
+   wird. Ein Beispiel:</p>
+
+  <pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;p</strong> <span class="hl-attribute" style="color: #ff7935">align</span>=<span class="hl-value" style="color: #993300">“left“</span><strong class="hl-tag" style="color:#000096">&gt;</strong>Dir werde ich ... unvermeidlich ist.<strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong></pre>
+
+  <p class="p">Zusammenfassend ergibt sich folgendes Bild eines XML-Elements:</p>
+
+  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="concept_h2m_bb2_vw__table_iqh_c3k_qx" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /><col /></colgroup><tbody class="tbody">
+     <tr class="row">
+      <td class="entry nocellnorowborder">Element (öffnender Teil)</td>
+
+      <td class="entry nocellnorowborder">Text und/oder weitere Elemente</td>
+
+      <td class="entry cell-norowborder">Element (schließender Teil)</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry row-nocellborder"><pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;p</strong> <span class="hl-attribute" style="color: #ff7935">align</span>=<span class="hl-value" style="color: #993300">"left"</span><strong class="hl-tag" style="color:#000096">&gt;</strong></pre>
+</td>
+
+      <td class="entry row-nocellborder"><pre class="pre codeblock language-xml">Dir werde ich ... unvermeidlich ist.</pre>
+</td>
+
+      <td class="entry cellrowborder"><pre class="pre codeblock language-xml"><strong class="hl-tag" style="color:#000096">&lt;/p&gt;</strong></pre>
+</td>
+
+     </tr>
+
+    </tbody>
+</table>
+</div>
+
+  <p class="p">Im öffnenden Attribut kann ein Attribut notiert werden. Im obigen Beispiel ist das Attribut: align="left". Attribute setzen sich aus Name und Wert zusammen.</p>
+
+  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="concept_h2m_bb2_vw__table_syb_r3k_qx" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><tbody class="tbody">
+     <tr class="row">
+      <td class="entry nocellnorowborder">Name</td>
+
+      <td class="entry cell-norowborder">Wert</td>
+
+     </tr>
+
+     <tr class="row">
+      <td class="entry row-nocellborder">align=</td>
+
+      <td class="entry cellrowborder">"left"</td>
+
+     </tr>
+
+    </tbody>
+</table>
+</div>
+
+  <p class="p">Mehrere Elemente können – wie oben schon gezeigt – ineinander verschachtelt werden. Dadurch
+   entsteht eine hierarchische Baumstruktur, die für XML-Dokumente charakteristisch ist.</p>
+
+  <p class="p">Enthalten Elemente keinen Text oder weitere Kind-Elemente handelt es sich um leere Elemente.
+   Sie werden in einer Kurzschreibweise notiert: </p>
+
+  
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="concept_h2m_bb2_vw__table_r1k_qgq_nx" class="table" frame="border" border="1" rules="all"><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+     <tr class="row">
+      <th class="entry nocellnorowborder" id="d891e167">Lange Schreibweise</th>
+
+      <th class="entry cell-norowborder" id="d891e170">Kurzschreibweise</th>
+
+     </tr>
+
+    </thead>
+<tbody class="tbody">
+     <tr class="row">
+      <td class="entry row-nocellborder" headers="d891e167 ">&lt;pb n=“17v“&gt;&lt;/pb&gt;</td>
+
+
+      <td class="entry cellrowborder" headers="d891e170 ">&lt;pb n=“17v“ /&gt;</td>
+
+     </tr>
+
+    </tbody>
+</table>
+</div>
+
+  <p class="p">Die Bezeichnung leer bezieht sich allerdings nicht auf Attribute. Gerade leere Elemente haben
+   meistens Attribute, die weitere Informationen zum Element in sich tragen (im Codebeispiel wird
+   die Folioangabe dort notiert).</p>
+
+ </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="../Einf%C3%BChrung.Kap/%C3%9Cberschrift.html">Einführung</a></div>
+</div>
+</div></body>
+</html>
