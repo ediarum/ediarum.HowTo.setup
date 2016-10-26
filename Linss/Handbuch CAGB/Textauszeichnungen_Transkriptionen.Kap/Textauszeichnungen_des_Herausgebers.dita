@@ -49,7 +49,7 @@ gekennzeichnet.]]></p>
   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert=“high“>Mineralogie</supplied> ganz]]></codeblock>
   <p>Das Attribut @cert (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Ergänzung
    zutrifft. Als Werte sind hier „low“ und „high“ möglich</p>
-  <p><image href="icons/supplied16.gif"/> Streichungen durch den Heruasgeber</p>
+  <p><image href="icons/supplied16.gif"/> <b>Streichungen durch den Herausgeber</b></p>
   <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können nach der
    Transkription mit <![CDATA[<surplus>]]>„gestrichen“, d.h. als überflüssig markiert werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<surplus prev=”ohne Ende”>unendlich</surplus>]]></codeblock>

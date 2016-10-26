@@ -8,7 +8,7 @@
    der Dateivorlage „Handschriftenbeschreibung“ enthalten. Über das Menü „Nachweis“ können lediglich
    alternative Nachweise hinzugefügt werden.</p>
   <p>In der Autorenansicht können diese Daten direkt in den entsprechenden Feldern bearbeitet
-   werden. </p>
+   werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<msIdentifier>
  <country>Spanien</country>
   <settlement>Madrid</settlement>

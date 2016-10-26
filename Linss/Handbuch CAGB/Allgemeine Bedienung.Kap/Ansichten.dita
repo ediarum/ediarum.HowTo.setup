@@ -8,7 +8,7 @@
    betrachten. Die Ansicht kann über die Leiste am unteren Rand des Hauptfensters gewechselt werden.
    Die Ansicht „Raster“ wird allerdings für für das Vorhaben CAGB nicht verwendet.</p>
   
-  <image href="Abb.Ansichten.png" width="7.5cm"/>
+  <p><image href="Abb.Ansichten.png" width="7.5cm"/></p>
   <p><b>Ansichtsmodus "Autor"</b></p>
   <p>Standardmäßig öffnet sich ein Dokment im Ansichtsmodus „Autor“. Das ist eine Ansicht ähnlich
    einem Schreibprogramm wie Microsoft Word. Im Dokument sind die verschiedenen Elemente
@@ -26,7 +26,7 @@
    öffnenden Element ergänzt werden, dafür bietet das Programm Vorschläge an, sobald ein Leerzeichen
    hinter dem Elementnamen eingegeben wird. Die Einrückungen und Zeilenumbrüche in der Codeansicht
    haben keine Auswirkungen auf die Darstellung in der Autoransicht sowie die Webausgabe.</p>
-  <image href="Abb.Ansichten.Text.png" width="7.5cm"/>
+  <p><image href="Abb.Ansichten.Text.png" width="7.5cm"/></p>
   <p><b>Schriftarten</b></p>
   <p>Möglicherweise ist notwendig sein, die Schriftart umzustellen – z.B. wenn die Standardschrift
    seltene altgriechische Schriftzeichen nicht darstellen kann (was aber nicht passieren sollte).

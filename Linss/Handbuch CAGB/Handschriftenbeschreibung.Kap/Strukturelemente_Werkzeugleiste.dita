@@ -4,7 +4,7 @@
  <title>Werkzeugleiste für Strukturelemente der Handschriftenbeschreibungen</title>
  <shortdesc/>
  <conbody>
-  <image href="Abb.Handschriftenbeschreibung.png"></image>
+  <p><image href="Abb.Handschriftenbeschreibung.png"></image></p>
   <p>Die Handschriftenbeschreibungen werden nach dem von Teuchos entwickelten Konzept in XML-TEI
    notiert. Die gesamte Handschriftenbeschreibung wird dabei in einem msDesc-Element abgelegt, das
    sich in TEI/text/body befindet. Die Handschriftenbeschreibung ist im Teuchoskonzept in fünf große

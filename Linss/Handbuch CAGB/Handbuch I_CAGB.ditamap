@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<?xml-stylesheet type="text/css" href="out/xhtml/handbuch.css"?>
+<?xml-stylesheet type="text/css" href="handbuch.css"?>
 <bookmap>
     <booktitle>
         <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
@@ -67,7 +67,9 @@
             </topicref>
             <topicref href="Handschriftenbeschreibung.Kap/Transkription_Werkzeugleiste.dita">
                 <topicref href="Handschriftenbeschreibung.Kap/Textarbeit_Autor.dita">
-                    <topicref href="Handschriftenbeschreibung.Kap/Textauszeichnungen_des_Herausgebers.dita"></topicref>
+                    <topicref
+                        href="Handschriftenbeschreibung.Kap/Textauszeichnungen_des_Herausgebers.dita"
+                    />
                 </topicref>
             </topicref>
             <topicref
@@ -82,7 +84,7 @@
 
             <topicref href="Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"/>
             <topicref href="Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"/>
-            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"></topicref>
+            <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"/>
             <topicref href="Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita"/>
             <topicref
                 href="Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>

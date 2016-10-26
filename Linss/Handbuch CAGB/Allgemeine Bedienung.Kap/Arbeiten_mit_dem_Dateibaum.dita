@@ -11,7 +11,7 @@
    Register.
   Die generelle Verzeichnisstruktur sollte so beibehalten werden, da einige Funktionen des
    Programm auf bestimmte Ordner und Dateien zugreifen müssen.</p>
-  <image href="Abb.Dateibaum.png" height="7cm" />
+  <p><image href="Abb.Dateibaum.png" width="70em" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
    sich um eine zentrale Datenbank handelt, auf die alle Mitarbeiter/-innen der Arbeitstelle
    zugreifen, darf jede Datei gleichzeitig nur von einem Berarbeiter geöffnet werden. Ist eine Datei
@@ -22,7 +22,7 @@
    werden.
   Um im Dateibaum weitere Aktionen (z.B. neue Datei anlegen) durchzuführen, muss per rechter
    Mausklick auf eine Datei bzw. ein Verzeichnis das Kontextmenü aufgerufen werden.</p>
-  <image href="Abb.Dateibaum.b.png" height="4cm"/>
+  <p><image href="Abb.Dateibaum.b.png" height="4cm"/></p>
   <p><b>Neue Datei anlegen</b></p>
   <p/>
   <p>Wenn eine neue Datei angelegt werden soll, sind folgende Schritte notwendig.</p>

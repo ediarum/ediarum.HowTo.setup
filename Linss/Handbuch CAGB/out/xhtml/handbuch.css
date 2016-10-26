@@ -21,6 +21,12 @@
 /* div with class=p is used for paragraphs that contain blocks, to keep the XHTML valid */
 .p {
   margin-top: 1em;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 1em;
+  text-align: justify;
+
+  
 }
 /* Default of italics to set apart figure captions */
 .figcap {
@@ -64,51 +70,77 @@
 /* Most link groups are created with <div>. Ensure they have space before and after. */
 .ullinks {
   list-style-type: none;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 .ulchildlink {
   margin-top: 1em;
   margin-bottom: 1em;
+
 }
 .olchildlink {
   margin-top: 1em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .linklist {
-  margin-bottom: 1em;
+  margin-bottom: 1em;  margin-left: 170px;
+  margin-right: 170px;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .linklistwithchild {
   margin-left: 1.5em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .sublinklist {
   margin-left: 1.5em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .relconcepts {
   margin-top: 1em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .reltasks {
   margin-top: 1em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .relref {
   margin-top: 1em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .relinfo {
   margin-top: 1em;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 .breadcrumb {
   font-size: smaller;
   margin-bottom: 1em;
+    margin-left: 170px;
+  margin-right: 170px;
 }
 dt.prereq {
   margin-left: 20px;
 }
 /* Set heading sizes, getting smaller for deeper nesting */
 .topictitle1 {
+  
+  margin-left: 170px;
+  margin-right: 170px;
+  text-align: left;
   margin-top: 0;
   margin-bottom: .1em;
   font-size: 1.34em;
@@ -116,26 +148,31 @@ dt.prereq {
 .topictitle2 {
   margin-top: 1pc;
   margin-bottom: .45em;
-  font-size: 1.17em;
+  font-size: 1.17em; margin-left: 170px;
+  margin-right: 170px;
 }
 .topictitle3 {
   margin-top: 1pc;
   margin-bottom: .17em;
   font-size: 1.17em;
-  font-weight: bold;
+  font-weight: bold; margin-left: 170px;
+  margin-right: 170px;
 }
 .topictitle4 {
   margin-top: .83em;
   font-size: 1.17em;
-  font-weight: bold;
+  font-weight: bold; margin-left: 170px;
+  margin-right: 170px;
 }
 .topictitle5 {
   font-size: 1.17em;
-  font-weight: bold;
+  font-weight: bold; margin-left: 170px;
+  margin-right: 170px;
 }
 .topictitle6 {
   font-size: 1.17em;
-  font-style: italic;
+  font-style: italic; margin-left: 170px;
+  margin-right: 170px;
 }
 .sectiontitle {
   margin-top: 1em;
@@ -323,15 +360,17 @@ ul.simple {
 /* Align images based on @align on topic/image */
 div.imageleft {
   text-align: left;
+  
+  
 }
 div.imagecenter {
-  text-align: center;
+  text-align: center;  
 }
 div.imageright {
-  text-align: right;
+  text-align: right;  
 }
 div.imagejustify {
-  text-align: justify;
+  text-align: justify;  
 }
 /* The cell border can be turned on with
    {border-right:solid}
@@ -375,15 +414,42 @@ span.filepath,
 samp.codeph,
 pre.codeblock {
   font-family: monospace;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* unvisited link */
+a:link {
+    color: black; text-decoration: none;    
+}
+
+/* visited link */
+a:visited {
+    color: black; text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue; text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;   
+}
+
+.parentlink {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.tablenoborder {
+    margin-left: 170px;
+    margin-right: 170px;
 }
 /* OXYGEN PATCH START - EXM-18359 */
 body {
-  margin-left: 5px;
-  margin-top: 5px;
-  text-align: center;
-  width: 70em;
-  text-align: justify;
-    text-justify: inter-word
+font-family: "Calibri";
+
 }
 /* OXYGEN PATCH END - EXM-18359 */
 
