@@ -24,12 +24,16 @@ ist.</p>]]></codeblock>
   <p>Zusammenfassend ergibt sich folgendes Bild eines XML-Elements:</p>
   <table id="table_iqh_c3k_qx">
    <tgroup cols="3">
-    <tbody>
+    <thead>
      <row>
       <entry>Element (öffnender Teil)</entry>
       <entry>Text und/oder weitere Elemente</entry>
       <entry>Element (schließender Teil)</entry>
      </row>
+    </thead>
+    <tbody>
+
+
      <row>
       <entry><codeblock outputclass="language-xml"><![CDATA[<p align="left">]]></codeblock></entry>
       <entry><codeblock outputclass="language-xml"><![CDATA[Dir werde ich ... unvermeidlich ist.]]></codeblock></entry>
@@ -38,14 +42,17 @@ ist.</p>]]></codeblock>
     </tbody>
    </tgroup>
   </table>
-  <p>Im öffnenden Attribut kann ein Attribut notiert werden. Im obigen Beispiel ist das Attribut: <![CDATA[align="left"]]>. Attribute setzen sich aus Name und Wert zusammen.</p>
+  <p>Im öffnenden Attribut kann ein Attribut notiert werden. Im obigen Beispiel ist das Attribut:
+   <![CDATA[align="left"]]>. Attribute setzen sich aus Name und Wert zusammen.</p>
   <table id="table_syb_r3k_qx">
    <tgroup cols="2">
-    <tbody>
+    <thead>
      <row>
       <entry>Name</entry>
       <entry>Wert</entry>
      </row>
+    </thead>
+    <tbody>
      <row>
       <entry>align=</entry>
       <entry>"left"</entry>

@@ -11,7 +11,7 @@
          <![CDATA[<filiation/>]]> enthält.</p>
       <p>Über das Menü „Inhalt“ in der mittleren Werkzeugleiste können neue Strukturelemente
          hinzugefügt werden.</p>
-      <p><codeblock outputclass="language-xml"><![CDATA[<msContents>
+      <codeblock outputclass="language-xml"><![CDATA[<msContents>
    <msItem>
       <p>... </p>
    </msItem>
@@ -26,6 +26,6 @@
          <p>...</p>
       </filiation>
    </msItem>
-</msContents>]]></codeblock></p>
+</msContents>]]></codeblock>
    </conbody>
 </concept>

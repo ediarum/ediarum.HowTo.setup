@@ -47,9 +47,9 @@ measure>]]></codeblock>
    <p><b>Griechische Kustoden</b></p>
    <p>Die griechischen Kustoden werden mit <![CDATA[<signatures/> in einem Element <p/>]]> ebenfalls in
      collation notiert. Das Attribut @n trägt hier den Wert „sign-greek“:
-     <codeblock outputclass="language-xml"><![CDATA[<p n=“sign-greek“>
+   </p><codeblock outputclass="language-xml"><![CDATA[<p n=“sign-greek“>
  <signatures> ... </signatures>
-</p>]]></codeblock></p>
+</p>]]></codeblock>
    <p><b>Lagensignierung</b></p>
    <p>Lagensignierungen werden ebenfalls in collation und einem Absatzelement notiert. Das
      Attribut @n enthält hier den Wert „sign-other“. Zusätzlich ist der Inhalt mit<![CDATA[<signatures/>]]> 

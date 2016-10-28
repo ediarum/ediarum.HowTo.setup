@@ -28,10 +28,10 @@
    wenn dies erforderlich ist. In diesen Fällen steht im jeweiligen Attribut @ref, @target oder @key
    anstelle einer ID, der Wert „none“. Für beide Fälle steht eine Aktion in der Werkzeugleiste unter
    dem entsprechenden Symbol zur Verfügung.</p>
-  <p><codeblock outputclass="language-css"><b>Achtung: </b>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel
+  <codeblock outputclass="language-css"><b>Achtung: </b>Bitte beachten Sie, dass die Auszeichnung von Personennamen und Werktitel
     ohne gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
     Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
-    Registerfunktion verwendet werden</codeblock></p>
+    Registerfunktion verwendet werden</codeblock>
   <p><image href="icons/persName16.gif"/>
    <b>Personennamen</b>
   </p>

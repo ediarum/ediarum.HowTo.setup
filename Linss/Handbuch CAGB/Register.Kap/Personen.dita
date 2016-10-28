@@ -11,7 +11,7 @@
    unterschiedliche Informationen zur Person hinterlegt werden kann. Für alle Abschnitte steht eine
    Aktion in der Werkzeugleiste zur Verfügung, mit der dieses Strukturelement eingefügt werden kann.
    Ergänzungen können dann einfach durch das Setzen eines neuen Absatzes (Returntaste) erfolgen.</p>
-  <image href="Abb.Person.png" width="15cm"/>
+  <p><image href="Abb.Person.png" width="15cm"/></p>
   <p><b>Neue Personendatei anlegen</b></p>
   <p>Über das Kontextmenü (rechte Maustaste im Dateibaum) kann im entsprechenden Ordner (Personen >
    [Buchstabe]) eine neue Personendatei angelegt werden. Dazu ist lediglich im erscheinenden

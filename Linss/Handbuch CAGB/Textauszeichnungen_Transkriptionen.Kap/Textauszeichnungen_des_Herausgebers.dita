@@ -4,7 +4,7 @@
  <title>Textauszeichnungen des Herausgebers</title>
  <shortdesc/>
  <conbody>
-  <image href="icons/unclear.gif"/>
+  <p><image href="icons/unclear.gif"/>
   <image href="icons/gap.gif"/>
   <image href="icons/del_gap.gif"/>
   <image href="icons/damage.gif"/>
@@ -18,9 +18,9 @@
   <image href="icons/seg-note.gif"/>
   <image href="icons/abbr.gif"/>
   <image href="icons/verweis.gif"/>
-  <image/>
-  <image href="icons/names.gif"/>
-  <p><image href="icons/unclear16.gif"/>
+  <image></image>
+   <image href="icons/names.gif"/></p>
+   <p><image href="icons/unclear16.gif"/>
    <b>Unsichere Lesarten</b></p>
   <p>Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit
    <![CDATA[<unclear/>]]> ausgezeichnet.</p>

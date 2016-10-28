@@ -66,11 +66,9 @@
                 <topicref href="Handschriftenbeschreibung.Kap/Notizfeld.dita"/>
             </topicref>
             <topicref href="Handschriftenbeschreibung.Kap/Transkription_Werkzeugleiste.dita">
-                <topicref href="Handschriftenbeschreibung.Kap/Textarbeit_Autor.dita">
-                    <topicref
-                        href="Handschriftenbeschreibung.Kap/Textauszeichnungen_des_Herausgebers.dita"
-                    />
-                </topicref>
+                <topicref href="Handschriftenbeschreibung.Kap/Textarbeit_Autor.dita"/>
+                <topicref
+                    href="Handschriftenbeschreibung.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
             </topicref>
             <topicref
                 href="Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen_Werkzeugleiste.dita">
