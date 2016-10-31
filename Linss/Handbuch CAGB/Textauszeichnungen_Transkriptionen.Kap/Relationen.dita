@@ -14,10 +14,10 @@
    <p>Die erste Relation im obigen Codebeispiel bedeutet z.B. „Paraphrase zu [Titel]“. So wird
      die Beziehung auch in der Autorenansicht dargestellt.
    Als Typen stehen zur Verfügung:</p>
-  <p> • Paraphrase </p>
+  <p>• Paraphrase </p>
     <p>• Selbständiger Text</p>
-    <p> • Scholie</p>
-    <p> • Paratext </p>
+    <p>• Scholie</p>
+    <p>• Paratext </p>
     <p>• Exzerpte </p>
     <p>• Redaktion</p>
   <p> Zum Einfügen einer oder mehrerer Relationen steht in Oxygen XML Author eine entsprechende

@@ -21,12 +21,11 @@
 /* div with class=p is used for paragraphs that contain blocks, to keep the XHTML valid */
 .p{
     margin-top: 1em;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 10em;
+    margin-right: 10em;
     margin-bottom: 1em;
     text-align: justify;
-
-
+    font-size: 1em;
 }
 /* Default of italics to set apart figure captions */
 .figcap{
@@ -136,13 +135,14 @@
 dt.prereq{
     margin-left: 20px;
 }
+
 /* Set heading sizes, getting smaller for deeper nesting */
 .topictitle1{
 
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 7.4em;
+    margin-right: 7.4em;
     text-align: left;
-    margin-top: 0;
+    margin-top: 1.5em;
     margin-bottom: .1em;
     font-size: 1.34em;
 }
@@ -364,6 +364,13 @@ ul.simple{
     margin-bottom: 1em;
 }
 /* Align images based on @align on topic/image */
+img {
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+
 div.imageleft{
     text-align: left;
 
@@ -422,6 +429,8 @@ pre.codeblock{
     font-family: monospace;
     margin-left: 200px;
     margin-right: 200px;
+
+    
 }
 
 /* unvisited link */
@@ -488,6 +497,10 @@ th {
 /* OXYGEN PATCH START - EXM-18359 */
 body{
     font-family: "Calibri";
+    font-size: 1em;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    
 
 }
 /* OXYGEN PATCH END - EXM-18359 */
