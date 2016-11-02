@@ -4,23 +4,23 @@
  <title>Struktur des Manuskripts</title>
  <shortdesc/>
  <conbody>
-  <p><image href="icons/paragraph20.png"/>  
-   <image href="icons/lb.gif"/> 
-   <image href="icons/list_ul.gif"/> 
-   <image href="icons/cagb_ref-otherms.gif"/> 
-   <image href="icons/pagebreak.gif"/> </p>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/paragraph20.png"/>  
+   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/lb.gif"/> 
+   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/list_ul.gif"/> 
+   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/cagb_ref-otherms.gif"/> 
+   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/pagebreak.gif"/> </p>
   <p/>
-  <p><image href="icons/paragraph16.png"/>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/paragraph16.png"/>
    <b>Absatz</b></p>
   <p>Absätze werden mit<![CDATA[<p>]]> (paragraph) gekennzeichnet. Ein neuer Absatz kann auf zwei
    Arten eingefügt werden: </p>
 
   <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-    href="icons/paragraph16.png"/> anklicken.</p>
+    href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/paragraph16.png"/> anklicken.</p>
   <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
    platzieren, Return drücken und „Teilen p“ auwählen – in dem man einfach nochmals Return
    drückt.</p>
-  <p><image href="icons/lb16.gif"/>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/lb16.gif"/>
    <b>Zeilenumbruch</b></p>
   <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
    Element <![CDATA[<lb/> ]]>(linebreak) notiert werden. Im Autormodus wird dann automatisch ein
@@ -28,13 +28,13 @@
    Zeilenumbrüche wahlweise verwendet oder ignoriert werden.</p>
   <p>Der Zeilenumbruch kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt
    werden.</p>
-  <p><image href="icons/list_ul.gif"/>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/list_ul.gif"/>
    <b>Listen</b></p>
   <p>Listen im Manuskript werden mit <![CDATA[<list/> (bzw. mit <item>]]> die einezlnen Punkte)
    ausgezeichnet. Je nach Art der Liste – nummiert oder unnummeriert – wird der Wert des Attributs
    @type auf „ordered“ oder „unordered“ gesetzt. Das Attribut wird bei Benutzung der Schaltflächen
    automatisch zugewiesen.</p>
-  <p><image href="icons/cagb_ref-otherms.gif"/>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/cagb_ref-otherms.gif"/>
    <b>Anmerkung des Autors</b></p>
   <p>Anmerkungen werden an der entsprechenden Textstelle (an der im Manuskript das Verweiszeichen
    bzw. -ziffer steht). Das Verweiszeichen entfällt bei der Transkription. Der Inhalt der Fußnote
@@ -46,7 +46,7 @@ benommen, welches mich in jeder Rücksicht freut.</codeblock>
   <p>Im Attribut wird standardmäßig resp=“Autor“ notiert, um externen Forschern direkt zu 33
    vermitteln, dass es sich nicht um eine Anmerkung der Herausgeber, sondern des Autors handelt. Das
    Attribut wird beim Verwenden der Werkzeugleiste automatisch gesetzt.</p>
-  <p><image href="icons/pagebreak16.gif"/>
+  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/pagebreak16.gif"/>
    <b>Seiten- bzw. Foliowechsel</b></p>
   <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element <![CDATA[<pb>]]>
    (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht um die

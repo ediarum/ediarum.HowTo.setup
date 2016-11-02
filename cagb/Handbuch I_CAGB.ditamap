@@ -37,20 +37,20 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <part href="Parts/ÜberschriftI.dita">
-        <chapter href="Einf%C3%BChrung.Kap/Überschrift.dita">
-            <topicref href="Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
-            <topicref href="Einf%C3%BChrung.Kap/Einsatz_von_XML.dita"/>
-            <topicref href="Einf%C3%BChrung.Kap/TEI.dita"/>
+    <part href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Parts/ÜberschriftI.dita">
+        <chapter href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Überschrift.dita">
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Zentrale_Datenhaltung.dita"/>            
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Einsatz_von_XML.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/TEI.dita"/>
         </chapter>
-        <chapter href="Allgemeine%20Bedienung.Kap/Überschrift.dita">
-            <topicref href="Allgemeine%20Bedienung.Kap/Überblick.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
-            <topicref href="Allgemeine%20Bedienung.Kap/Suche.dita"/>
+        <chapter href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Überschrift.dita">
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Überblick.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Ansichten.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Suche.dita"/>
         </chapter>
     </part>
     <part href="Parts/ÜberschriftII.dita">

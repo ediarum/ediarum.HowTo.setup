@@ -4,63 +4,60 @@
     <booktitle>
         <mainbooktitle>Schleiermacher-Edition – Digitale Arbeitsumgebung Handbuch</mainbooktitle>
     </booktitle>
-    <chapter href="Einf%C3%BChrung.Kap/Einführung.dita">
-        <topicref href="ediarum/Einf%C3%BChrung.Kap/Zentrale_Datenhaltung.dita"/>
-        <topicref href="ediarum/Einführung.Kap/Einsatz_von_XML.dita"/>
-        <topicref href="ediarum/Einführung.Kap/TEI.dita"/>
-    </chapter>
-    <chapter href="Allgemeine%20Bedienung.Kap/%C3%9Cberschrift.dita">
-        <topicref href="Allgemeine%20Bedienung.Kap/%C3%9Cberblick.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neue_Datei.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Neues_Verzeichnis.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Lokale_Datei_hochladen.dita"/>
-        <topicref href="ediarum/Allgemeine%20Bedienung.Kap/Dateien_umbennen.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemeine_Funktionen.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Werkzeugleiste_Sachapperat.dita"/>
-        <topicref href="Allgemeine%20Bedienung.Kap/Menü_Schleiermacher.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichten.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Autor.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Ansichtsmodus_Text.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Schriftarten.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Einfache_Suche.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Achtung.dita"/>
-        <topicref href="ediarum/Werkzeugleiste.Kap/Suchergebnisse.dita"/>
-    </chapter>
-    <chapter href="Allgemeine%20Textauszeichnung/Überschrift.dita">
-        <topicref href="Allgemeine%20Textauszeichnung/Struktur_Manuskript.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Absatz.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Zeilenumbruch.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Liste.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Gedicht.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Anmerkung_des_Autors.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Seiten-Foliowechsel.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Arbeiten_Manuskript.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unterstreichungen.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Erg%C3%A4nzung.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrekturen.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Korrekturen_on_the_fly.dita"/>
-        <topicref
-            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Unsichere_Lesarten.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Nicht_lesbare_Wörter.dita"/>
-        <topicref
-            href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Ergänzung.textauszeichnungen.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Streichung_Herausgeber.dita"/>
-        <topicref href="ediarum/Textauszeichnungen_Transkriptionen.Kap/Korrektur_Herausgeber.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Sachanmerkung.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Freie_Textanmerkung.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Querverweise.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Datum.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Fremdsprachiger_Textabschnitt.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Index.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Namen_Orte_Personen_Werken.dita"/>
-        <topicref href="Allgemeine%20Textauszeichnung/Bearbeitungskommentare_markierungen.dita"/>
-    </chapter>
+    <bookmeta>
+        <authorinformation>
+            <organizationinfo>
+                <namedetails>
+                    <organizationnamedetails>
+                        <organizationname>Berlin-Brandenburgische Akademie der
+                            Wissenschaften</organizationname>
+                        <otherinfo>TELOTA-Arbeitsgruppe</otherinfo>
+                    </organizationnamedetails>
+                </namedetails>
+                <addressdetails><text>Jägerstraße 22–23</text><locality>10117
+                    Berlin</locality></addressdetails>
+                <emailaddresses>
+                    <emailaddress>telota@bbaw.de</emailaddress>
+                </emailaddresses>
+                <urls>
+                    <url>file:///C:/Users/phlinss/workspace/ediarum_documentation/Linss/Handbuch%20CAGB/out/xhtml/index.html</url>
+                </urls>
+            </organizationinfo>
+        </authorinformation>
+        <publisherinformation>
+            <published>
+                <data>Nur für den internen Gebrauch. Stand: 07.10.2016</data>
+            </published>
+        </publisherinformation>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+        
+    <part href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Parts/ÜberschriftI.dita">
+        <chapter href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Überschrift.dita">
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Zentrale_Datenhaltung.dita"/>            
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/Einsatz_von_XML.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Einführung.Kap/TEI.dita"/>
+        </chapter>
+        <chapter href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Überschrift.dita">
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Überblick.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Ansichten.dita"/>
+            <topicref href="C:\Users\phlinss\workspace\ediarum_documentation\ediarum_basis\Allgemeine Bedienung.Kap/Suche.dita"/>
+        </chapter>
+    </part>
+        
+        
+        
+        
+   
+ 
     <chapter href="Briefe.Kap/Überschrift.dita">
         <topicref href="Briefe.Kap/Metadaten.dita"/>
         <topicref href="Briefe.Kap/Dokumenttitel.dita"/>
