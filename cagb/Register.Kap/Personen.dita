@@ -113,21 +113,21 @@
    erstellen, in dem Bearbeitungsbemerkungen festgeahlten werden können. Diese werden auch nicht
    veröffentlicht.</p>
   <p><b>Werkzeugleiste 3</b></p>
-  <image href="icons/sup.gif"/>
-  <image href="icons/occupation.gif"/>
-  <image href="icons/roleName.gif"/>
-  <image href="icons/placeName.gif"/>
-  <image href="icons/orgName.gif"/>
-  <image href="icons/date.gif"/>
-  <image href="icons/term20.png"/>
-  <image href="icons/persName.gif"/>
-  <image href="icons/name_bibl.gif"/>
-  <image href="icons/ref_straighturl.png"/>
-  <p><image href="icons/sup16.gif"/><b>Zeichen hochstellen</b></p>
-  <p><image href="icons/occupation16.gif"/><b>Tätigkeit/ Beruf auszeichnen</b></p>
-  <p><image href="icons/roleName.gif"/><b>Titel/ Bezeichnug auszeichnen</b></p>
-  <p><image href="icons/placeName.gif"/><b>Ortsname</b></p>
-  <p><image href="icons/orgName.gif"/><b>Institution</b></p>
+  <image href="../../ediarum_basis/icons/sup.gif"/>
+  <image href="../../ediarum_basis/icons/occupation.gif"/>
+  <image href="../../ediarum_basis/icons/roleName.gif"/>
+  <image href="../../ediarum_basis/icons/placeName.gif"/>
+  <image href="../../ediarum_basis/icons/orgName.gif"/>
+  <image href="../../ediarum_basis/icons/date.gif"/>
+  <image href="../../ediarum_basis/icons/term20.png"/>
+  <image href="../../ediarum_basis/icons/persName.gif"/>
+  <image href="../../ediarum_basis/icons/name_bibl.gif"/>
+  <image href="../../ediarum_basis/icons/ref_straighturl.png"/>
+  <p><image href="../../ediarum_basis/icons/sup16.gif"/><b>Zeichen hochstellen</b></p>
+  <p><image href="../../ediarum_basis/icons/occupation16.gif"/><b>Tätigkeit/ Beruf auszeichnen</b></p>
+  <p><image href="../../ediarum_basis/icons/roleName.gif"/><b>Titel/ Bezeichnug auszeichnen</b></p>
+  <p><image href="../../ediarum_basis/icons/placeName.gif"/><b>Ortsname</b></p>
+  <p><image href="../../ediarum_basis/icons/orgName.gif"/><b>Institution</b></p>
   <p></p>
 
  </conbody>

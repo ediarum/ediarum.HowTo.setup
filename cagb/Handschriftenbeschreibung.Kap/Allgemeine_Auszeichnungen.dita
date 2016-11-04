@@ -5,23 +5,23 @@
  <shortdesc/>
  <conbody>
 
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/locus.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/cagb_ref-otherms.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/q.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/date.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/ref_straighturl.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/sup.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0305.png" id="image_bsd_blq_nx"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0027.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char00D7.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0374_16.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0375_16.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0387_16.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char1FBD_16.png"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/seg-note16.gif"/> 
-   <image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/deduced16.png"/></p>
+  <p><image href="../../ediarum_basis/icons/locus.gif"/> 
+   <image href="../../ediarum_basis/icons/cagb_ref-otherms.gif"/> 
+   <image href="../../ediarum_basis/icons/q.gif"/> 
+   <image href="../../ediarum_basis/icons/date.gif"/> 
+   <image href="../../ediarum_basis/icons/ref_straighturl.png"/> 
+   <image href="../../ediarum_basis/icons/sup.gif"/> 
+   <image href="../../ediarum_basis/icons/char0305.png" id="image_bsd_blq_nx"/> 
+   <image href="../../ediarum_basis/icons/char0027.png"/> 
+   <image href="../../ediarum_basis/icons/char00D7.png"/> 
+   <image href="../../ediarum_basis/icons/char0374_16.png"/> 
+   <image href="../../ediarum_basis/icons/char0375_16.png"/> 
+   <image href="../../ediarum_basis/icons/char0387_16.png"/> 
+   <image href="../../ediarum_basis/icons/char1FBD_16.png"/> 
+   <image href="../../ediarum_basis/icons/seg-note16.gif"/> 
+   <image href="../../ediarum_basis/icons/deduced16.png"/></p>
  <p/>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/locus16.gif"/>
+  <p><image href="../../ediarum_basis/icons/locus16.gif"/>
    <b>Folioangaben</b></p>
   <p>Folionnummern werden mit <![CDATA[<locus>]]> gekennzeichnet:</p>
   <codeblock outputclass="language-xml"><![CDATA[f. <locus from=“14r“>14</locus>]]></codeblock>
@@ -35,21 +35,21 @@
    ausgezeichnete Folioangabe markieren und Schaltfläche drücken – fertig.</p>
   <p>Bei einer Stellenangaben aus einer anderen Handschrift muss die Folioangabe zusätzlich mit
    <![CDATA[<ref type=“otherms“/>]]> umgeben werden (siehe nächsten Abschnitt).</p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/cagb_ref-otherms.gif"/>
+  <p><image href="../../ediarum_basis/icons/cagb_ref-otherms.gif"/>
    <b>Handschriftensignatur</b>
   </p>
   <p>In der Beschreibung vorkommende Handschriftensignaturen werden mit <![CDATA[<ref
    type=“otherms“ />]]> ausgezeichnet. Im Attribut @n muss zusätzlich die vollständige Signatur
    angegeben werden:</p>
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“otherms“ n=“Mosq. 6“>Mosquenses 6</ref>]]></codeblock>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/q16.gif"/>
+  <p><image href="../../ediarum_basis/icons/q16.gif"/>
    <b>Zitate</b>
   </p>
   <p>Zitate aus der Handschrift werden mit dem Element <![CDATA[<q>]]> gekennzeichnet. In Attribut
    @xml:lang muss die entsprechende Sprache als Sprachkürzel nach ISO 639 hinterlegt werden (d.h.
    „grc“ oder „lat“).</p>
-  <p><codeblock outputclass="language-xml"><![CDATA[<q xml:lang=“grc“ type=“subscription“>κωνσταντῖνος ὁ λάσκαρις
-ἐκγπάψας ἐν μεδιολάνῳ ἐχπῆτο.</q>]]></codeblock></p>
+  <codeblock outputclass="language-xml"><![CDATA[<q xml:lang=“grc“ type=“subscription“>κωνσταντῖνος ὁ λάσκαρις
+ἐκγπάψας ἐν μεδιολάνῳ ἐχπῆτο.</q>]]></codeblock>
   <p>Im Attribut type wird dabei der Zitattyp notiert. Nach Teuchos stehen folgende Werrte zur
    Auswahl:</p>
   <table>
@@ -126,7 +126,7 @@
    Auswahllisten für die Attribute und ihre Werte bietet.</p>
   <p>Im Author und auf der Website werden Zitate prinzipiell in einer anderen Schriftart (DejaVu
    Serif) dargestellt, damit griechische Zitate korrekt wiedergegeben werden.</p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/date16.gif"/>
+  <p><image href="../../ediarum_basis/icons/date16.gif"/>
    <b>Datumsangaben</b>
   </p>
   <p><![CDATA[Datumsangaben werden mit Hilfe von <date/> bzw. im Abschnitt <origin/> mit <origDate>
@@ -262,17 +262,17 @@
    Datumsangaben auszuzeichnen. Angaben zur Entstehungszeit der Handschriftenteile können mit den
    entsprechenden Pendants „Genaues Entstehungsdatum“ und „Ungefährer Entstehungszeitraum“ versehen
    werden.</p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/ref_straighturl16.png"/>
+  <p><image href="../../ediarum_basis/icons/ref_straighturl16.png"/>
    <b>Verweise</b>
   </p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/sup16.gif"/>
+  <p><image href="../../ediarum_basis/icons/sup16.gif"/>
    <b>Zeichen hochstellen</b>
   </p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0305_16.png"/>
+  <p><image href="../../ediarum_basis/icons/char0305_16.png"/>
    <b>Überstrich/Zahlenstrich einfügen</b></p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char0027_16.png"/>
+  <p><image href="../../ediarum_basis/icons/char0027_16.png"/>
    <b>Apostroph einfügen</b></p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/char00D7_16.png"/>
+  <p><image href="../../ediarum_basis/icons/char00D7_16.png"/>
    <b>Multiplikationszeichen einfügen</b></p>
   <p>In der Handschriftenbeschreibung können in jedem Teil Anmerkungen notiert werden. Dafür wird
    das Element<![CDATA[<note/>]]> direkt hinter die Bezugsstelle gesetzt:</p>
@@ -284,9 +284,9 @@
   <p><b>Griechiche Zeichen</b></p>
   <p>Es können verschiedene griechische Zeichen eingefügt werden: Zahlenzeichen, unteres Zahlenzeichen, Ano Teila, Koronis. Die entsprechenden Schaltflächen bilden die Zeichen ab.</p>
   
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/seg-note16.gif"/>
+  <p><image href="../../ediarum_basis/icons/seg-note16.gif"/>
    <b>Anmerkung eines wissenschaftlichen Mitarbeiters einfügen (zur Veröffentlichung)</b></p>
-  <p><image href="C:/Users/phlinss/workspace/ediarum_documentation/ediarum_basis/icons/deduced16.png"/>
+  <p><image href="../../ediarum_basis/icons/deduced16.png"/>
    <b>Text als erschlossen markieren</b></p>
 
  </conbody>

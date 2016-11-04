@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ehl_mbm_vx">
+ <title></title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <table id="table_dmq_4dx_5x">
+   <tgroup cols="2">
+    <tbody>
+     <row>
+      <entry><image href="../ediarum_basis/icons/paragraph20.png"/></entry>
+      <entry>Neuen Absatz setzen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/lb.gif"/> </entry>
+      <entry>Zeilenbruch im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/list_ul.gif"/></entry>
+      <entry>Listen aus dem Manuskript transkripieren</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/cagb_ref-otherms.gif"/></entry>
+      <entry>Anmerkung des Autors transkripieren</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/pagebreak16.gif"/></entry>
+      <entry>Seiten- oder Foliowechsel im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/underlined16.png"></image></entry>
+      <entry>Unterstreichungen im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/hi_color16.gif"></image></entry>
+      <entry>Farbige Hervorhebungen im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/sup16.gif"></image></entry>
+      <entry>Zeichen hochstellen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/del16.gif"></image></entry>
+      <entry>Streichungen im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/subst216.gif"></image></entry>
+      <entry>Korrekturen im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/add16.gif"></image></entry>
+      <entry>Ergänzungen im Manuskript auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/resp16.gif"></image></entry>
+      <entry>Urheber einer Ergänzung/Korrektur angeben</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/unclear16.gif"/></entry>
+      <entry>Unsichere Lesarten angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/gap16.gif"/></entry>
+      <entry>Nicht lesbare Wörter angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/del_gap16.gif"/></entry>
+      <entry>Durchgestrichene und nicht lesbare Wörter angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/damage.gif"/></entry>
+      <entry>Beschädigte Stelle im Manuskript auszeichen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/ex16.png"/></entry>
+      <entry>Im Manuskript abgekürzte Wörter ausschreiben/ergänzen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/supplied16.gif"/></entry>
+      <entry>Im Manuskript redundante Buchstaben/Wörter streichen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/surplus16.gif"/></entry>
+      <entry>Im Manuskript fehlendes Wort oder Satzzeichen ergänzen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/corr-sic16.gif"/></entry>
+      <entry>Schreibfehler im Manuskript korrigieren</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/relation16.gif"></image></entry>
+      <entry>Relation zu einem anderen Werk angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/div-status20.gif"/></entry>
+      <entry>Status des Transkription (Entwurf/final) angeben</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/app16.png"/></entry>
+      <entry>Varianten angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/verweis16.gif"/></entry>
+      <entry>Verweise</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/q16.gif"/></entry>
+      <entry>Übernahme</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/seg-note16.gif"/></entry>
+      <entry>Anmerkung</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/abbr.gif"/></entry>
+      <entry>Abkürzung</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/verweis16.gif"/></entry>
+      <entry>Verweis</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>Textstellen identifizieren</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/names16.gif"/></entry>
+      <entry>Namen kennzeichnen</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p><b>Allgemeine Auszeichungen</b></p>
+  <table id="table_x3n_qjx_5x">
+   <tgroup cols="2">
+    <tbody>
+     <row>
+      <entry><image href="../ediarum_basis/icons/locus16.gif"/></entry>
+      <entry>Folionummern angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/cagb_ref-otherms.gif"/></entry>
+      <entry>Handschriftensignatur auszeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/q16.gif"/></entry>
+      <entry>Zitate kennzeichnen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/date16.gif"/></entry>
+      <entry>Datum angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/ref_straighturl16.png"/></entry>
+      <entry>Verweise</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/sup16.gif"/></entry>
+      <entry>Zeichen hochstellen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/char0305_16.png"/></entry>
+      <entry>Überstrich/Zahlenstrich einfügen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/char0027_16.png"/></entry>
+      <entry>Apostroph einfügen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/char00D7_16.png"/></entry>
+      <entry>Multiplikationszeichen einfügen</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/seg-note16.gif"/></entry>
+      <entry>Anmerkung eines wissenschaftlichen Mitarbeiters einfügen (zur Veröffentlichung)</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/deduced16.png"/></entry>
+      <entry>Text als erschlossen auszeichnen</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/persName16.gif"/></entry>
+      <entry>Personnamen angeben</entry>
+     </row>
+     <row>
+      <entry><image href="../ediarum_basis/icons/placeName16.gif"/></entry>
+      <entry>Ort angeben</entry>
+     </row>
+     <row><entry><image href="../ediarum_basis/icons/orgName16.gif"/></entry>
+      <entry>Institutionen angeben</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>
