@@ -524,6 +524,11 @@ a.wh_term_target{
  * 
  */
 /* Make the link from the tile the entire width */
+.wh_tile_image {
+    text-align: center;
+    padding-bottom: .5em;
+}
+
 .wh_tile_text{
     position:relative;
     height:100%;
@@ -537,6 +542,12 @@ a.wh_term_target{
     width: 100%;
     height:25%;
 }
+
+.wh_tile_image + .wh_tile_text:after {
+    /* It will probably overflow the tile bounds. */
+    display:none;
+}
+
 .wh_tile_title span{
     display: block;
     width: 100%;

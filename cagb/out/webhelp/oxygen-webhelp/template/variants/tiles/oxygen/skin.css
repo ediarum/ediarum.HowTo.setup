@@ -330,9 +330,14 @@ Example:
  * Topic content
  * 
  */
+ @media only screen and (min-width: 768px) {
+    .wh_topic_content, .wh_content_area{
+        min-height:500px;
+    }
+}
+ 
 .wh_topic_content,.wh_content_area {
     color: #000000;
-    min-height: 500px;
 }
 .wh_main_page .wh_content_area {
     margin: 40px auto;
