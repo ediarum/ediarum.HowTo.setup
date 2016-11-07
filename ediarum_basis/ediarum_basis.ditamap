@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Ediarum-Arbeitsumgebung</mainbooktitle>
+    </booktitle>
+
+    <chapter href="Einfuehrung.Kap/Ueberschrift_CAGB.dita">
+        <topicref href="Einfuehrung.Kap/Zentrale_Datenhaltung.dita"/>
+        <topicref href="Einfuehrung.Kap/Einsatz_von_XML.dita"/>
+        <topicref href="Einfuehrung.Kap/TEI.dita"/>
+    </chapter>
+    <chapter href="Allgemeine_Bedienung.Kap/Ueberschrift.dita">
+        <topicref href="Allgemeine_Bedienung.Kap/Ueberblick.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Ansichten.dita"/>
+        <topicref href="Allgemeine_Bedienung.Kap/Suche.dita"/>
+    </chapter>
+</bookmap>
