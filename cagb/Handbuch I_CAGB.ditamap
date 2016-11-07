@@ -43,14 +43,14 @@
             <topicref href="../ediarum_basis/Einführung.Kap/Einsatz_von_XML.dita"/>
             <topicref href="../ediarum_basis/Einführung.Kap/TEI.dita"/>
         </chapter>
-        <chapter href="../ediarum_basis/Allgemeine Bedienung.Kap/Überschrift.dita">
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Überblick.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Ansichten.dita"/>
-            <topicref href="../ediarum_basis/Allgemeine Bedienung.Kap/Suche.dita"/>
+        <chapter href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Überschrift.dita">
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Überblick.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Ansichten.dita"/>
+            <topicref href="../ediarum_basis/Allgemeine%20Bedienung.Kap/Suche.dita"/>
         </chapter>
     </part>
     <part href="../ediarum_basis/Parts/ÜberschriftII.dita">
