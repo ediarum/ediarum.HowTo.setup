@@ -4,8 +4,9 @@
  <title>Werkzeugleiste für allgemeine Funktionen</title>
  <shortdesc/>
  <conbody/>
-  <concept id="id_kp4_y5n_rx"
-    conref="../Allgemeine_Bedienung.Kap/Werkzeugleiste_allgemein.dita#concept_wdt_ywz_vw">
+  <concept id="id_rsy_2y3_wx"
+    conref="../../ediarum_basis/Allgemeine_Bedienung.Kap/Werkzeugleiste_allgemein.dita#concept_wdt_ywz_vw">
     <title/>
   </concept>
+
 </concept>
