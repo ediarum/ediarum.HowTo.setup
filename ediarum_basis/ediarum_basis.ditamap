@@ -19,4 +19,11 @@
         <topicref href="Allgemeine_Bedienung.Kap/Ansichten.dita"/>
         <topicref href="Allgemeine_Bedienung.Kap/Suche.dita"/>
     </chapter>
+    <chapter>
+    <topicref href="Allgemeine_Werkzeugleiste.dita"></topicref>
+    <topicref href="Transkription.dita"></topicref>
+    <topicref href="Metaangaben_Textspezifisch.dita"></topicref>
+        
+        
+    </chapter>
 </bookmap>

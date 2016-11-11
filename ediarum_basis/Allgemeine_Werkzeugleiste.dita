@@ -2,8 +2,49 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_xvr_yfj_wx">
  <title>Allgemeine Werkzeugleiste</title>
- <shortdesc></shortdesc>
+ <shortdesc/>
  <conbody>
-  <p><image href="Abb_Allgemeine_Werkzeugleiste.png" id="image_gwc_ggj_wx"/></p>
+  <p><image href="Abbildungen%20(voruebergehend)/Abb_Allgemeine_Werkzeugleiste.png"/></p>
+  <p><image href="Abbildungen%20(voruebergehend)/1.png"/><b>Neue Datei anlegen</b></p>
+  <p>Mit dieser Funktion können Sie eine neue Dateie erstellen, um etwa ein neues Dokument zu
+   trankripieren oder ein neuen Register anzulegen.</p>
+  <p><image href="Abbildungen%20(voruebergehend)/2.png"/><b>Datei öffnen</b></p>
+  <p/>
+  <p><image href="Abbildungen%20(voruebergehend)/3.png"/><b>Lokale Datei öffnen</b></p>
+  <p>Mit dieser Schaltfläche lassen sich nur Dateien öffnen, die lokal auf dem Rechner gespeichert
+   sind.</p>
+  <p><image href="Abbildungen%20(voruebergehend)/4.png"/><b>Speichern</b></p>
+  <p>Es empfiehlt sich nicht nur am Ende der Arbeiten, sondern auch zur Sicherheit immer mal wieder
+   zwischendurch zu speichern.</p>
+  <p><image href="Abbildungen%20(voruebergehend)/5.png"/><image href="Abbildungen%20(voruebergehend)/6.png"/><b>Rückgängig machen und wiederherstellen</b></p>
+  <p>Hier können Sie den letzten Bearbeitungsschritt rückgängig machen bzw. wiederhergestellen.</p>
+  <p><image href="Abbildungen%20(voruebergehend)/7.png"/><b>Suche in Datei</b></p>
+  <p>Mithilfe dieser Schaltfläche können Sie in der die Datei, die Sie geöffnet haben, bestimmte
+   Wörter oder Wortteile suchen. Es öffnet sich ein Suchfenster, in dem Sie mit der Funktion "Alle
+   suchen" sich sämtliche Suchergebnisse anzeigen lassen können. <i>Achten Sie hierbei unbedingt
+    darauf nicht die Funktion "Alle ersetzen" auszuwählen </i></p>
+  <p><image href="Abbildungen%20(voruebergehend)/8.png"/><b>Suche im Verzeichnis</b></p>
+  <p>Diese Suchfunktion hingegen erlaubt es nicht nur in der geöffneten Datei, sondern  in einem
+   gesamten Verzeichnis nach bestimmten Wörtern oder Wortteilen zu suchen. <i>Beachten Sie auch hier
+    nicht die Funktion "Alle ersetzen" auszuwählen.</i></p>
+  <p><image href="Abbildungen%20(voruebergehend)/9.png"/><b>Ressourcen finden</b></p>
+  <p/>
+  <p><image href="Abbildungen%20(voruebergehend)/10.png"/><b>Bearbeitungskommentare</b></p>
+  <p>Mit dieser Schaltfläche können Sie Wörter oder Textabschnitte farblich markieren, wenn Sie diese
+   für die Bearbeitung temporär hervorheben möchten. </p>
+  <p><image href="Abbildungen%20(voruebergehend)/11.png"/><image
+    href="Abbildungen%20(voruebergehend)/12.png"/><image
+    href="Abbildungen%20(voruebergehend)/13.png"/><b>Bearbeitungskommentare</b></p>
+  <p>Mit diesen Schaltflächen können Sie Bearbeitungskommentare im Dokument einfügen, bearbeiten und
+   verwalten. </p>
+  <p><image href="Abbildungen%20(voruebergehend)/14.png"/><b>Stile</b></p>
+  <p>Hier können Sie das zugrunde liegende „Cascading Stylesheet“ (CSS ), das für die Anzeige
+   verantwortlich ist, wechseln. Eine Änderung hat nur Auswirkungen auf die Anzeige, nicht auf das
+   Dokument an sich!</p>
+  <p>Außerdem können Sie sich über das Menü Sachanmerkungen, indizierte Stellen, Namen-/Werktitel,
+   Verweise und Datumsangaben anzeigen lassen. Diese werden dann farblich hervorgehoben. Auch hier
+   verändert sich die Datei nicht, sondern bloß die Darstellung in Ihrem Oxygen-Autor.</p>
+  <p><image href="Abbildungen%20(voruebergehend)/15.png"/><b>Website</b></p>
+  <p>Über diese Schaltfläche rufen Sie die Website des jeweiligen Projekts auf.</p>
  </conbody>
 </concept>
