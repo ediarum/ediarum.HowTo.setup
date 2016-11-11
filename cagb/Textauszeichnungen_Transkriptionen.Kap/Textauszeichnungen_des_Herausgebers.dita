@@ -61,7 +61,7 @@ gekennzeichnet.]]></p>
    Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high oder low.</p>
   <p><image href="../../ediarum_basis/icons/corr-sic16.gif"/>
    <b>Korrekturen durch den Herausgeber</b></p>
-  <p>Werden Schroedinger des Autors im edierten Text korrigiert, so wird das Originalwort mit
+  <p>Werden Fehler des Autors im edierten Text korrigiert, so wird das Originalwort mit
    <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/>]]> ausgezeichnet; beides wird meinem
    <![CDATA[<choice/>]]> umschlossen.</p>
   <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert=“low“>das</corr></choice>

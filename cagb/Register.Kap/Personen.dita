@@ -11,7 +11,7 @@
    unterschiedliche Informationen zur Person hinterlegt werden kann. Für alle Abschnitte steht eine
    Aktion in der Werkzeugleiste zur Verfügung, mit der dieses Strukturelement eingefügt werden kann.
    Ergänzungen können dann einfach durch das Setzen eines neuen Absatzes (Returntaste) erfolgen.</p>
-  <p><image href="Abb.Person.png" /></p>
+  <p><image href="Abb.Person.png"/></p>
   <p><b>Neue Personendatei anlegen</b></p>
   <p>Über das Kontextmenü (rechte Maustaste im Dateibaum) kann im entsprechenden Ordner (Personen >
    [Buchstabe]) eine neue Personendatei angelegt werden. Dazu ist lediglich im erscheinenden
@@ -122,13 +122,90 @@
   <image href="../../ediarum_basis/icons/term20.png"/>
   <image href="../../ediarum_basis/icons/persName.gif"/>
   <image href="../../ediarum_basis/icons/name_bibl.gif"/>
+  <image href="../../ediarum_basis/icons/names.gif"/>
   <image href="../../ediarum_basis/icons/ref_straighturl.png"/>
+  <image href="../../ediarum_basis/icons/seg-note.gif"/>
+  <p> </p>
   <p><image href="../../ediarum_basis/icons/sup16.gif"/><b>Zeichen hochstellen</b></p>
-  <p><image href="../../ediarum_basis/icons/occupation16.gif"/><b>Tätigkeit/ Beruf auszeichnen</b></p>
+  <p>Es kann neuer Text hochgestellt werden, sowie bereits vorhandener, selektierter Text.
+   Hochgestellte Texte werden mit <![CDATA[<sup/>]]> umschlossen.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[a<sup>2</sup>+ b<sup>2</sup> = c<sup>2</sup>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/occupation16.gif"/><b>Tätigkeit/ Beruf
+   auszeichnen</b></p>
+  <p>Neue Tätigkeiten/ Berufe werden mit <![CDATA[<occupation/>]]> ausgezeichnet.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<occupation>Schneider</occupation>]]></codeblock></p>
   <p><image href="../../ediarum_basis/icons/roleName.gif"/><b>Titel/ Bezeichnug auszeichnen</b></p>
+  <p>Titel und Bezeichnugen werden mit <![CDATA[<roleName/>]]> umschlossen.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<roleName>Herzog</roleName>]]></codeblock></p>
   <p><image href="../../ediarum_basis/icons/placeName.gif"/><b>Ortsname</b></p>
+  <p>Ein Orstname wird mit einem <![CDATA[<placeName/>]]> ausgezeichnet.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<placeName>Berlin</placeName>]]></codeblock></p>
   <p><image href="../../ediarum_basis/icons/orgName.gif"/><b>Institution</b></p>
-  <p></p>
-
+  <p>Organisationen werden mit <![CDATA[<orgName/>]]> ausgezeichnet.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<orgName>FU Belrin</orgName>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/date.gif"/><b>Lebensdaten</b></p>
+  <p>Datumsangaben werden mit <![CDATA[date/>]]> ausgezeichnet. Es handeln sich dabei stets um
+   biografische Daten, dessen @type Attribut "biographical" entspricht. Zudem werden Geburstdatum,
+   sowie Sterbedatum abgefragt, welche im YYYY-MM-DD Format angegeben werden. Die Daten können exakt
+   (@from/@to), ungefähr (@notBefore/@notAfter), oder eien Mischung beider seien.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<date type="biographical" notBefore="1962-01-01" to="1950-08-26">...</date>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/term20.png"/><b>Schbegriffe
+   auszeichnen/verknüpfen</b></p>
+  <p>Ein Sachbegriff kann mit einem <![CDATA[<term/>]]> ausgezeichnet werden. Dabei wird auf eine
+   Reihe von vordefinierten Sachbegriffen zurückgegriffen, die in der sachbegriffe.xml beschrieben,
+   und durch eine Oberschfläche angezeigt wird. Das @key Attribut entspricht folglich einer der
+   @cagbid Attribute der sachbegriffe.xml.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<term key="cagbid_ncg_ftg_3s">Druckvorlage</term>]]></codeblock>Oberfläche: </p>
+  <p><image href="Abb.Sachbegriff_Oberfl%C3%A4che.png" scale="75" align="center"/></p>
+  <p><image href="../../ediarum_basis/icons/persName.gif"/><b>Personennamen
+    auszeichnen/verküpfen</b></p>
+  <p>Ein Personenname wird mit <![CDATA[<persName/>]]> ausgezeichnet. Dabei entspricht das @ref
+   Attribut einer <![CDATA[<idno/>]]> einer in der Datenbank beschriebenen Person. Die Personen
+   können über eine Oberfläche ausgewählt werden.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<persName ref="cagb:eec667f1-5baf-4810-b0dd-435e910853a9">Aischylos</persName>]]></codeblock>Oberfläche: </p>
+  <p><image href="Abb.Person_Oberfaeche.png" scale="75"/></p>
+  <p><image href="../../ediarum_basis/icons/name_bibl.gif"/><b>vorhandene Werke verknüpfen</b></p>
+  <p>Werke im Text können mit, in der Datenbank, vorhandenen Werke verknüpft werden. Diese werden
+   mit <![CDATA[<bibl/>]]> ausgezeichnet und können durch eine Oberfläche ausgewählt werden. Das
+   @type Attribut entspricht immer den Wert "andereWerke" und das @target Attribut einer in der
+   werke.xml definierten ID.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<ref type="andereWerke" target="#w7896536f-89fd-4fa9-9f02-937f426e4e63">Altes Testament</ref>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/names.gif"/><b>Namen kennzeichnen</b></p>
+  <p>Es können auch in Zotero gepflegte Werkstitel gekennzeichnet werden, welche sich in 5
+   verschiedene Typen aufteilen. Zur Auswahl stehen "Ed Aristoteles", "Ed Aristoteles Komm", "Ed
+   Weitere", "Sek Referenz" und "Sek Weitere". Die Werktitel werden mit <![CDATA[<bibl/>]]>
+   ausgezeichnet und können wiederum mit einer Oberfläche ausgewählt werden. Ein @sameAs Attribut
+   gibt die zugehörige Zotero ID an, und das @type Attribut den jeweiligen Typ.</p>
+  <p>Beispiel:
+   <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="#zotero-116802-HBW59EKH" type="ed_aristoteles">Analytica priora et posteriora</bibl>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/ref_straighturl.png"/><b>Links</b></p>
+  <p>Es gibt 3 verschiedene Verlinkungsmöglichkeiten, von der jede mit <![CDATA[<ref/>]]>
+   ausgezeichnet wird. Die erste Möglichkeit ist es, eine in der Datenbank vorhandene Handschrift zu
+   verlinken. Diese kann über eine Oberfläche ausgewählt werden. Die Auszeichnung besitzt ein @type
+   Attribut mit dem Wert "otherms", sowie ein @cRef Attribut mit der Handschrift ID.</p>
+  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="otherms" cRef="32974">Alex. 087</ref>]]></codeblock></p>
+  <p>Die zweite Möglichkeit verlinkt eine externe Handschrift des Pinakes Projekts, mit Hilfe einer
+   Diktyon-ID. Es wird der gleiche Aufbau, wie in der ersten Möglichkeit genutzt, mit dem
+   Unterschied, das eine Diktyon-ID anstelle der Handschriften ID verwendet wird.</p>
+  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="otherms" cRef="9069">Sine numero</ref>]]></codeblock></p>
+  <p>Die letzte Möglichkeit besteht darin einen Link anzugeben. Dieser muss keiner Handschrift, oder
+   einer ID entsprechen. Die Auszeichnung besitzt ein @type Attribut mit dem Wert "straighturl" und
+   ein @target Attribut in dem die <u>vollständige</u> URL des Links zu finden ist.</p>
+  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="straighturl" target="http://www.bbaw.de/telota/telota">Telota</ref>]]></codeblock></p>
+  <p><image href="../../ediarum_basis/icons/seg-note.gif"/><b>Anmerkung wissenschaftlicher
+    Arbeiter</b></p>
+  <p>Jegliche Anmerkungen wissenschaftlicher Bearbeiter, werden mit <![CDATA[<note/>]]>
+   ausgezeichnet, wobei der Wert des @resp Attributs, und somit der zuständige Bearbeiter, stets auf
+   "cagb" gesetzt wird.</p>
+  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<note resp="cagb">trivial</note>]]></codeblock></p>
  </conbody>
 </concept>
