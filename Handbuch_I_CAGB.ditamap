@@ -108,6 +108,7 @@
         <chapter href="cagb/Installation.Kap/Ueberschrift.dita">
             <topicref href="cagb/Installation.Kap/Install.dita"/>
             <topicref href="cagb/Installation.Kap/Update_Arbeitsumgebung.dita"/>
+            <topicref href="cagb/Installation.Kap/upgrade.dita"/>
         </chapter>
     </part>
     <backmatter>
