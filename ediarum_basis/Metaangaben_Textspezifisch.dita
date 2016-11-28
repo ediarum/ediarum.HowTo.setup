@@ -8,6 +8,29 @@
     id="image_r14_wbg_cy"/></p>
   <p><b>Allgemein</b></p>
   <p><b>Briefmetadaten</b></p>
+  <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
+   &lt;correspDesc> umschlossen. Die &lt;correspAction> wiederum beschreiben in ihren Attribut
+   @type, ob sich die Angaben auf den Sender (sent) oder den Empfänger (received) beziehen. Es wird
+   mit &lt;persName> der Personen-, mit &lt;placeName> der Ortsname (Schreib- bzw. Empfangsort)
+   notiert. Mit &lt;date> lässt sich entweder ein genaues Datum oder ein ungefährer Zeitraum angeben
+   (Schreib- bzw. Empfangsdatum).</p>
+  <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+<correspAction type="sent"><persName>Friedrich Engels</persName>
+<placeName>Manchester</placeName><date when="1866-01-04"/></correspAction>
+<correspAction type="received"><persName>Karl Marx</persName>
+<placeName>London</placeName></correspAction>
+</correspDesc>]]></codeblock>
+  <p>Im Anschluss an die &lt;correspAction> kann vor dem schließende Tag &lt;/correspDesc> eine
+   Anmerkung zum Brief oder zur Datierung gemacht werden.</p>
+  <p><codeblock><![CDATA[<placeName>London</placeName></correspAction>
+<note>Das Empfangsdatum kann nicht festgestellt werden.</note>
+</correspDesc>]]></codeblock></p>
+  <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
+   erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können.</p>
+  <codeblock><![CDATA[<correspContext>
+   <ref type="next" target="B00009"/>
+   <ref type="prev" target="B00002"/>
+</correspContext>]]></codeblock>
   <p><b>Brieftext</b></p>
   <p><b>Symbole</b>
   </p>
