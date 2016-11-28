@@ -129,13 +129,13 @@
   <p><image href="../../ediarum_basis/icons/date16.gif"/>
    <b>Datumsangaben</b>
   </p>
-  <p><![CDATA[Datumsangaben werden mit Hilfe von <date/> bzw. im Abschnitt <origin/> mit <origDate>
+  <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> bzw. im Abschnitt <![CDATA[<origin/> mit <origDate>]]>
    ausgezeichnet. Wichtig ist, dass die Datumsangaben nochmals in einem bestimmten
    Format in den Attributen @when bzw. @notBefore-iso/@notAfter-iso notiert werden.
    Dadurch kannd der in der Datumsangabe enthaltene Wert später vom Computer für
    verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten Zeiträumen).
    Es stehen zwei verschiedene Attribute zur Auswahl, die die unterschiedlich genauen
-   Datumsangaben wiedergeben können:]]></p>
+   Datumsangaben wiedergeben können:</p>
   <p>1. Zeitspanne</p>
   <p><![CDATA[<date when-iso=“1362“>1362</date>]]></p>
   <p>2. Zeitraum</p>

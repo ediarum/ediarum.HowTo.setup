@@ -6,8 +6,8 @@
  <conbody>
   <p><image href="icons/paragraph20.png"/>
    <image href="icons/lb.gif"/>
-   <image href="icons/unorderedList16.png" id="image_rmm_chj_wx"/> Icon/Tabelle fehlt<image
-    href="icons/cagb_ref-otherms.gif"/>
+   <image href="icons/unorderedList16.png" id="image_rmm_chj_wx"/> Icon/Tabelle und Zeichnung
+    fehlt<image href="icons/cagb_ref-otherms.gif"/>
    <image href="icons/pagebreak.gif"/>
    <image href="icons/underlined20.png"/><image href="icons/sup.gif"/>
    <image href="icons/del.gif"/>
@@ -22,7 +22,7 @@
    <image href="icons/corr-sic.gif"/><image href="icons/seg-note.gif" id="image_nkv_shj_wx"/><image
     href="icons/verweis16.gif" id="image_cbk_5hj_wx"/><image href="icons/date16.gif"
     id="image_czf_vhj_wx"/><image href="icons/foreign16.gif" id="image_sv1_xhj_wx"/>
-   Icon/Textestelle identifizieren fehlt <image href="icons/names16.gif" id="image_xf2_d3j_wx"/></p>
+   Icon/Textestelle indizieren fehlt <image href="icons/names16.gif" id="image_xf2_d3j_wx"/></p>
   <p><b>Textarbeit des Autors</b></p>
   <p><image href="icons/paragraph16.png"/>
    <b>Absatz</b></p>
@@ -50,7 +50,7 @@
    <item>...</item>
    <item>...</item>
 </list>]]></codeblock>
-  <p><b>Tabelle</b>n</p>
+  <p><b>Tabellen</b></p>
   <p>Tabellen im Manuskript werden mit &lt;table> ausgezeichnet. Über die Schaltfläche lassen sich
    Tabellen erstellen und bearbeiten. So lassen sich weitere Zeilen und Spalten hinzufügen bzw.
    löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die Anzahl der Zeilen
@@ -69,6 +69,7 @@
       <cell>...</cell>
       <cell>...</cell>
    </row>
+   ...
 </table>]]></codeblock>
   <p><image href="icons/cagb_ref-otherms.gif"/>
    <b>Anmerkung im Manuskript</b></p>
@@ -79,14 +80,24 @@
 eigene Briefe mit.<![CDATA[<note resp=“Autor“>]]>Ich konnte sie nicht mehr mit der
 Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut
 benommen, welches mich in jeder Rücksicht freut.</codeblock>
-  <p>Für das Attribut @resp wird entweder "Autor" (für den Autor) oder "#addressee" (für den
-   Empfänger des Briefes) notiert, um externen Forschern direkt zu  vermitteln, dass es sich nicht
-   um eine Anmerkung der Herausgeber, sondern um eine Anmerkung im Manuskript handelt. Das Attribut
-   wird beim Verwenden der Werkzeugleiste automatisch gesetzt. Der Ort der Anmerkung wird im
-   Attribut @place angegeben: linker Rand ("left"), rechter Rand ("right"), oberer Rand ("mTop"),
-   unterer Rand ("mBottom") und innerhalb der Zeile ("inline").</p>
-  <codeblock outputclass="language-xml">mit.<![CDATA[<note resp=“Autor“ place="right">]]>Ich konnte sie nicht mehr mit der
+  <p>Für das Attribut @resp wird entweder "Autor" (für den Autor), "#addressee" (für den Empfänger
+   des Briefes) oder eine Person aus dem Personen-Register notiert, um externen Forschern direkt zu
+   vermitteln, dass es sich nicht um eine Anmerkung der Herausgeber, sondern um eine Anmerkung im
+   Manuskript handelt. Über eine Liste kann die entsprechende Person aus dem Personen-Register
+   ausgewählt werden, sodass das Attribut @resp automatisch mit der entsprechenden ID besetzt wird.
+   Der Ort der Anmerkung wird im Attribut @place angegeben: linker Rand ("left"), rechter Rand
+   ("right"), oberer Rand ("mTop"), unterer Rand ("mBottom") und innerhalb der Zeile ("inline").</p>
+  <codeblock outputclass="language-xml">mit.<![CDATA[<note resp=“Autor“ place="right">]]>Ich konnte sie nicht mehr mit der 
 Post schicken.<![CDATA[</note>]]></codeblock>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Zeichnung
+    einfügen</b></p>
+  <p>Mit einem &lt;figure> können Sie Zeichungen (samt Bildunterschrift) aus dem Manuskript
+   einfügen. Der Urheber der Zeichung wird im Attribut @hand angegeben: #author, #addressee oder
+   eine Person aus dem Personen-Register. In &lt;figureDesc> kann eine Bildunterschrift notiert
+   werden. Im Attribut @facs ist der Dateiname notiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<figure facs="tz" hand="#adresee">
+   <figDesc>[Bildunteschrift]</figDesc>
+</figure>Die</del>]]></codeblock>
   <p><image href="icons/pagebreak16.gif"/>
    <b>Seiten- bzw. Foliowechsel</b></p>
   <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element <![CDATA[<pb>]]>
@@ -95,8 +106,16 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    bzw. Foliozahl.</p>
   <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“ />völliger Unkunde lässest]]></codeblock>
   <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist die
-   Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt.</p>
-  <p><image href="icons/underlined16.png"></image> <b>Unterstreichungen</b></p>
+   Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
+   Digitalisat verlinkt werden, indem der entsprechende Link in das Attribut @facs engetragen
+   wird.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<pb n="34"facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Es kann auch mit &lt;fw
+   type=folNum"> eine alternative Foliozählung angegeben werden, die in Klammern angezeigt wird.</p>
+  <?oxy_custom_end?>
+  <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
+  <p><image href="icons/underlined16.png"/>
+   <b>Unterstreichungen</b></p>
   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rendition="#u"/>]]>
    (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, ob es sich um eine einfache
    Unterstreichung ("#u"), um eine doppelte Untersreichung ("#uu") oder um eine Unterstreichung am
@@ -106,13 +125,15 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    <b>Hochstellen</b></p>
   <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rend="#sup">]]> ausgezeichnet.</p>
   <codeblock><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
-  <p><image href="icons/del16.gif"></image> <b>Streichungen</b></p>
+  <p><image href="icons/del16.gif"/>
+   <b>Streichungen</b></p>
   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <![CDATA[<del]]>
    rendition=“#s“/> (deletion) ausgezeichnet. Im Attribut @rendition wird notiet, ob der Autor den
    urspünglichen Text überschreibt ("#ow"), Textstellen durchstreicht ("#s") oder radiert
    ("#erased").</p>
   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend=”#s”>ehrfurchtsvoll</del>; wenn ich]]></codeblock>
-  <p><image href="icons/subst216.gif"></image> <b>Korrekturen</b></p>
+  <p><image href="icons/subst216.gif"/>
+   <b>Korrekturen</b></p>
   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <![CDATA[<del]]>
    rendition=“#s“/> (deletion) ausgezeichnet.</p>
   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del resp=”autor”>ehrfurchtsvoll</del>; wenn ich]]></codeblock>
@@ -126,7 +147,8 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    <del rendition="#s">Bröchüre</del>
       <add place="superlinear">Broschüre</add>
 </subst>]]></codeblock>
-  <p><image href="icons/add16.gif"></image> <b>Ergänzungen</b></p>
+  <p><image href="icons/add16.gif"/>
+   <b>Ergänzungen</b></p>
   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]>
    (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt:über der Zeile
    ("superlinear"), unter der Zeile ("sublinear"), innerhalb der Zeile ("intralinear"), über den
@@ -150,57 +172,242 @@ Zeile“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codebloc
    notiert. Das Attribut @reason gibt den Grund der Unleserlichkeit an: Zestörung/Verlust ("lost"),
    Leeraum ("empty"), unleserlich ("illegible") und fremdsprachlicher Text ("fm").</p>
   <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="chars" quantity="1" reason="fm"/>dann wieder]]></codeblock>
-  <p><image href="icons/del_gap16.gif"/> Bei durchgestrichenen Wörtern, die
-   nicht entziffert werden können umschließt das Element <![CDATA[<del/> das Element <gap/>.]]></p>
+  <p><image href="icons/del_gap16.gif"/> Bei durchgestrichenen Wörtern, die nicht entziffert werden
+   können umschließt das Element <![CDATA[<del/> das Element <gap/>.]]></p>
   <codeblock outputclass="language-xml"><![CDATA[oft <del rend=“durchgestrichen“>
 <gap quantity=“5“ unit=“Buchstaben“/></del>dann wieder]]></codeblock>
   <p><image href="icons/damage.gif"/>
    <b>Beschädigte Stelle</b></p>
-  <p>Eine beschädigte Stelle im Manuskript wird mit <![CDATA[<damage>]]> ausgezeichnet.</p>
+  <p>Eine beschädigte Stelle im Manuskript wird mit <![CDATA[<damage>]]> ausgezeichnet, wobei es
+   möglich ist Text innerhalb des &lt;damage> zu transkripieren.</p>
+  <p>
+   <codeblock outputclass="language-xml"> er ihn vernichten&lt;damage>wird&lt;/damage></codeblock>
+  </p>
   <p><image href="icons/ex16.png"/>
    <b>Ergänzungen</b></p>
-  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit<![CDATA[<ex/> ]]> (expansion)
+  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit <![CDATA[<ex/> ]]> (expansion)
    ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
-  <p><![CDATA[Werden ganze Wörter durch den Herausgeber ergänzt, so werden diese mit <supplied/>
-gekennzeichnet.]]></p>
-  <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert=“high“>Mineralogie</supplied> ganz]]></codeblock>
-  <p>Das Attribut @cert (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Ergänzung
-   zutrifft. Als Werte sind hier „low“ und „high“ möglich</p>
-  <p><image href="icons/supplied16.gif"/>
-   <b>Streichungen durch den Herausgeber</b></p>
-  <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können nach der
-   Transkription mit <![CDATA[<surplus>]]>„gestrichen“, d.h. als überflüssig markiert werden.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<surplus prev=”ohne Ende”>unendlich</surplus>]]></codeblock>
-  <p><image href="icons/surplus16.gif"/>
+  <p><image href="icons/surplus16.gif" id="image_avn_jlf_cy"/>
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></p>
   <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
    <![CDATA[<supplied cert="high"/>]]> ergänzt werden. Dabei drückt der Attributwert für @cert die
-   Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high oder low.</p>
+   Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high. low,
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>medium,
+   unknown.<?oxy_custom_end?></p>
+  <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert=“high“>Mineralogie</supplied> ganz]]></codeblock>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><image
+    href="icons/supplied16.gif"/>
+   <?oxy_custom_end?><b>Streichungen durch den Herausgeber</b></p>
+  <p>I<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m Manuskript vorhandene
+   redundante bzw. überflüssige Wörter oder Buchstaben können nach der Transkription mit
+   <![CDATA[<sic> und <corr type="deleted"]]> als überflüssig markiert werde<?oxy_custom_end?>n.</p>
+  <codeblock outputclass="language-xml">&lt;sic>Atomentheorie&lt;/sic>&lt;corr type="deleted"/></codeblock>
   <p><image href="icons/corr-sic16.gif"/>
    <b>Korrekturen durch den Herausgeber</b></p>
   <p>Werden Schroedinger des Autors im edierten Text korrigiert, so wird das Originalwort mit
    <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/>]]> ausgezeichnet; beides wird meinem
-   <![CDATA[<choice/>]]> umschlossen.</p>
-  <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert=“low“>das</corr></choice>
-ich wahr rede]]></codeblock>
-  <p>Im Element <![CDATA[<corr/>]]> wird durch das Attribut @cert – wie bei <![CDATA[<supplied/>]]>
-   – die Wahrscheinlichkeit notiert, mit der die Korrektur zutrifft.</p>
-  <p><image href="icons/app16.png"/>
-   <b>Varianten</b></p>
+   <![CDATA[<choice/>]]> umschlossen.Im Element <![CDATA[<corr/>]]> wird durch das Attribut @cert
+   die Wahrscheinlichkeit notiert, mit der die Korrektur zutrifft: high, medium, low.</p>
+  <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert=“low“>das</corr></choice>]]></codeblock>
+  <p>Außerdem können Sie die Schreibweise von Wörtern norminalisieren, indem Sie das Wort mit einem
+   &lt;orig> umschließen und in &lt;reg> die normalisierte Schreibweise angeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<orig>althen</orig><reg>alten</reg>]]></codeblock>
+  <p><image href="icons/seg-note16.gif" id="image_vn4_2nf_cy"/>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></p>
+  <p>Sie können Sachanmerkung zu Textstellen erstellen, indem Sie dieses mit einem &lt;oirg>
+   umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut @xml.id
+   wird automatisch generiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<orig>Rede des Helden</orig><note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>]]></codeblock>
   <p><image href="icons/verweis16.gif"/>
    <b>Verweise</b></p>
-  <p><image href="icons/q16.gif"/>
-   <b>Übernahme</b></p>
-  <p><image href="icons/seg-note16.gif"/>
-   <b>Anmerkung</b></p>
-  <p><image href="icons/abbr.gif"/>
-   <b>Abkürzung</b></p>
-  <p><image href="icons/verweis16.gif"/>
-   <b>Verweise</b></p>
+  <p>Sie können Textstellen mit zwei &lt;anchor> derartig markieren, dass auf diese Querverweise
+   gemacht werden können. Das Attribut @xml:id wird automatisch generiert und beinhaltet den Code,
+   mit den man aus einem anderen Dokument auf diese Stelle verweisen kann. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
+xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
+type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
+  <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit einem &lt;ref target="…">
+   gemacht, dessen Attribut @target den Code für die entsprechende Textstelle enthält.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+  <p>Außerdem kann mit einem &lt;ref key="…"> auf einen Eintrag im Sachregister verwiesen
+   werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>Link auf externe Website<?oxy_custom_end?></p>
+  <p><image href="icons/date16.gif" id="image_lxm_lnf_cy"/>
+   <b>Datumsangaben </b></p>
+  <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> bzw. im Abschnitt
+   <![CDATA[<origin/> mit <origDate>]]> ausgezeichnet. Wichtig ist, dass die Datumsangaben nochmals
+   in einem bestimmten Format in den Attributen @when bzw. @from/@to und @notBefore/@notAfter
+   notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert später vom Computer für
+   verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten Zeiträumen). Außerdem wird in
+   den Attribut @cert die Wahrescheinlichkeit angegeben, mit der die Datumsangabe zutrifft: high,
+   low. In dem Attribut @calendar wird notiert, ob sich die Angabe nach dem Julianischen Kalender
+   oder dem Greogorianischen Kalender richtet: #Julian, #Gregorian.</p>
+  <p>1. Genaues Datum</p>
+  <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
+  <p>2. Genaue Zeitspanne</p>
+  <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
+  <p>3. Ungefährer Zeitraum</p>
   <p>
-   <b>Textstellen identifizieren</b></p>
+   <codeblock outputclass="language-xml"><![CDATA[<date notBefore=“1804-05-01“ notAfter=“1804-05-16“>Erste Hälfte Mai1804</date>]]></codeblock>
+  </p>
+  <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche
+   zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer Zeitraum“ bietet, um alle
+   Datumsangaben auszuzeichnen. </p>
+  <table id="table_xpp_ynf_cy">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Datumsangabe im Text</entry>
+      <entry>Zu setzende Attributwerte</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>18. Jh.</entry>
+      <entry>notBefore=“1700“ notAfter=“1799“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Anfang</entry>
+      <entry>notBefore=“1700“ notAfter=“1719“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Mitte</entry>
+      <entry>notBefore=“1740“ notAfter=“1759“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Ende</entry>
+      <entry>notBefore=“1780“ notAfter=“1799“</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Hälfte</entry>
+      <entry>notBefore=“1700“ notAfter=“1749“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Hälfte</entry>
+      <entry>notBefore=“1750“ notAfter=“1799“</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Viertel</entry>
+      <entry>notBefore=“1700“ notAfter=“1724“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Viertel</entry>
+      <entry>notBefore=“1725“ notAfter=“1749“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 3. Viertel</entry>
+      <entry>notBefore=“1750“ notAfter=“1774“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 4. Viertel</entry>
+      <entry>notBefore=“1775“ notAfter=“1799“</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Drittel</entry>
+      <entry>notBefore=“1700“ notAfter=“1733“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Drittel</entry>
+      <entry>notBefore=“1733“ notAfter=“1766“</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 3. Drittel</entry>
+      <entry>notBefore=“1766“ notAfter=“1799“</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>um 1762</entry>
+      <entry>notBefore=“1757“ notAfter=“1767“</entry>
+     </row>
+     <row>
+      <entry>1762</entry>
+      <entry>when-iso=“1762“</entry>
+     </row>
+     <row>
+      <entry>5. Januar 1762</entry>
+      <entry>when-iso=“1762-01-05“</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Kombinierte Angaben ergeben die Summe der Zeiträume, z.B.:</p>
+  <table id="table_gyw_f4f_cy">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Datumsangabe im Text</entry>
+      <entry>Zu setzende Attributwerte</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>18. Jh. E. / 19. Jh. 1. H.</entry>
+      <entry>notBefore=“1780“ notAfter=“1849“</entry>
+     </row>
+     <row>
+      <entry>1762/3</entry>
+      <entry>notBefore=“1762“ notAfter=“1763“</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p><image href="icons/foreign16.gif" id="image_lcj_vqf_cy"/>
+   <b>Fremdsprachliche Textstellen</b></p>
+  <p>Fremdsprachliche Textstellen können mit einem &lt;foreign xml:lang="…"> umschlossen werden. Im
+   Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache angegeben (im Beispiel "fra" für
+   Französisch).</p>
+  <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
+  <p>
+   <b>Textstellen indizieren</b></p>
+  <p>Sie können Textstellen mit einem &lt;index> umgeben, um auf einen Index-Eintrag zu verweisen.
+   Das Attribut @spanTo wird automatisch eingetragen, wenn Sie aus der Liste der verfügbaren
+   Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich um einen Verweis in
+   den Personen-Index (persons), Ort-Index (places) oder
+   Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
+   <?oxy_custom_end?>handelt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" 
+corresp="pdrPo.001.004.000000520">
+<term>Bonaparte, Louis, comte de Saint-Leu
+(1778-1846)</term>
+</index>[Textstelle] Bonaparte [Textstelle]<anchor type="index"
+xml:id="ixkh_ysf_cy"/>]]></codeblock>
   <p><image href="icons/names16.gif"/>
    <b>Namen kennzeichnen</b></p>
+  <p>Namen, die im Text erscheinen, können Sie auszeichnen und mit dem entsprechenen Register
+   verknüpfen. Es wird unterschieden zwischen Personen (persName), Orten (placeName), Organisationen
+   (orgName), Werken (bibl) und
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Sachbegriffen
+   (…).<?oxy_custom_end?> Das Attribut @key wird je nach der Auswahl eines Registereintrages
+   automatisch besetzt..</p>
+  <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
+der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
+  <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein &lt;bibl>, in dem Sie auf einen
+   Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach entsprechend besetzt.
+   Im Attribut @type wird notiert, ob es sich um  Primärliteratur(primary) oder Sekundärliteratur
+   (secondary) handelt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI" type="primary">folgen</bibl>]]></codeblock>
+  <p>Wenn auf ein früheres Element im Text zurückgewiesen wird, kann dies mit einem &lt;rs>
+   entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren @type
+   bestimmt: person, place, bibl. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
+Ich höre nur Beschwerden von<rs type="person">ihm</rs>]]></codeblock>
  </conbody>
 </concept>
