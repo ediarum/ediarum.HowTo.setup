@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bkf_33h_dy">
+ <title>Briefmetadaten</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><b>Angaben zum Sender und Empfänger</b></p>
+  <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
+   &lt;correspDesc> umschlossen. Die &lt;correspAction> wiederum beschreiben in ihren Attribut
+   @type, ob sich die Angaben auf den Sender (sent) oder den Empfänger (received) beziehen. Es
+   wird mit &lt;persName> der Personen-, mit &lt;placeName> der Ortsname (Schreib- bzw.
+   Empfangsort) notiert. Mit &lt;date> lässt sich entweder ein genaues Datum oder ein ungefährer
+   Zeitraum angeben (Schreib- bzw. Empfangsdatum).</p>
+  <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+<correspAction type="sent"><persName>Friedrich Engels</persName>
+<placeName>Manchester</placeName><date when="1866-01-04"/></correspAction>
+<correspAction type="received"><persName>Karl Marx</persName>
+<placeName>London</placeName></correspAction>
+</correspDesc>]]></codeblock>
+  <p>Im Anschluss an die &lt;correspAction> kann vor dem schließende Tag &lt;/correspDesc> eine
+   Anmerkung zum Brief oder zur Datierung gemacht werden.</p>
+  <p><codeblock><![CDATA[<placeName>London</placeName></correspAction>
+<note>Das Empfangsdatum kann nicht festgestellt werden.</note>
+</correspDesc>]]></codeblock></p>
+  <p><b>Korrespondierende Briefe</b></p>
+  <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
+   erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können. Das Attribut
+   @type gibt dabei an, ob es sich um einen vorangehenden (prev) oder einen nachfolgenden (next)
+   Brief handelt. Im Attribut @target wird der interne Link des entsprechenden Briefs angegeben.</p>
+  <codeblock><![CDATA[<correspContext>
+   <ref type="next" target="B00009"/>
+   <ref type="prev" target="B00002"/>
+</correspContext>]]></codeblock>
+  <p>Sie können anstelle eines internen Links auch einen Text eingeben, in dem Sie Angaben zu vorangehenden und nachfolgenden Briefen machen können.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
+  <p>Sie können ebenfalls einen externen Link zu einem Brief herstellen und zusätzlich einen Text eingeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target="http___telotadev.bbaw.de/externe_Datenbank//Brief.xml">Antwortschreiben</ref>]]></codeblock>
+ </conbody>
+</concept>

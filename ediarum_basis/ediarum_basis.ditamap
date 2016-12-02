@@ -20,10 +20,13 @@
         <topicref href="Allgemeine_Bedienung.Kap/Suche.dita"/>
     </chapter>
     <chapter>
-    <topicref href="Allgemeine_Werkzeugleiste.dita"></topicref>
-    <topicref href="Transkription.dita"></topicref>
-    <topicref href="Metaangaben_Textspezifisch.dita"></topicref>
-        
-        
+        <topicref href="Allgemeine_Werkzeugleiste.dita"/>
+        <topicref href="Transkription.dita"/>
+        <topicref href="Metaangaben_Textspezifisch.dita">
+            <topicref href="Allgemein.dita"></topicref>
+            <topicref href="Briefmetaangeben.dita"/>
+            <topicref href="Brieftext.dita"/>
+        </topicref>
+
     </chapter>
 </bookmap>

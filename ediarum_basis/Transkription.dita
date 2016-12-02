@@ -192,9 +192,7 @@ Zeile“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codebloc
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></p>
   <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
    <![CDATA[<supplied cert="high"/>]]> ergänzt werden. Dabei drückt der Attributwert für @cert die
-   Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high. low,
-   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>medium,
-   unknown.<?oxy_custom_end?></p>
+   Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist: high. low.</p>
   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert=“high“>Mineralogie</supplied> ganz]]></codeblock>
   <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><image
     href="icons/supplied16.gif"/>
