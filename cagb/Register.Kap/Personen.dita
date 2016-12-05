@@ -163,7 +163,7 @@
    @cagbid Attribute der sachbegriffe.xml.</p>
   <p>Beispiel:
    <codeblock outputclass="language-xml"><![CDATA[<term key="cagbid_ncg_ftg_3s">Druckvorlage</term>]]></codeblock>Oberfläche: </p>
-  <p><image href="Abb.Sachbegriff_Oberfl%C3%A4che.png" scale="75" align="center"/></p>
+  <p><image href="Abb.Sachbegriff_Oberflaeche.png" scale="75" align="center"/></p>
   <p><image href="../../ediarum_basis/icons/persName.gif"/><b>Personennamen
     auszeichnen/verküpfen</b></p>
   <p>Ein Personenname wird mit <![CDATA[<persName/>]]> ausgezeichnet. Dabei entspricht das @ref
@@ -171,7 +171,7 @@
    können über eine Oberfläche ausgewählt werden.</p>
   <p>Beispiel:
    <codeblock outputclass="language-xml"><![CDATA[<persName ref="cagb:eec667f1-5baf-4810-b0dd-435e910853a9">Aischylos</persName>]]></codeblock>Oberfläche: </p>
-  <p><image href="Abb.Person_Oberfaeche.png" scale="75"/></p>
+  <p><image href="Abb.Person_Oberflaeche.png" scale="75"/></p>
   <p><image href="../../ediarum_basis/icons/name_bibl.gif"/><b>vorhandene Werke verknüpfen</b></p>
   <p>Werke im Text können mit, in der Datenbank, vorhandenen Werke verknüpft werden. Diese werden
    mit <![CDATA[<bibl/>]]> ausgezeichnet und können durch eine Oberfläche ausgewählt werden. Das
