@@ -179,33 +179,42 @@
    werke.xml definierten ID.</p>
   <p>Beispiel:
    <codeblock outputclass="language-xml"><![CDATA[<ref type="andereWerke" target="#w7896536f-89fd-4fa9-9f02-937f426e4e63">Altes Testament</ref>]]></codeblock></p>
-  <p><image href="../../ediarum_basis/icons/names.gif"/><b>Namen kennzeichnen</b></p>
-  <p>Es können auch in Zotero gepflegte Werkstitel gekennzeichnet werden, welche sich in 5
-   verschiedene Typen aufteilen. Zur Auswahl stehen "Ed Aristoteles", "Ed Aristoteles Komm", "Ed
-   Weitere", "Sek Referenz" und "Sek Weitere". Die Werktitel werden mit <![CDATA[<bibl/>]]>
-   ausgezeichnet und können wiederum mit einer Oberfläche ausgewählt werden. Ein @sameAs Attribut
-   gibt die zugehörige Zotero ID an, und das @type Attribut den jeweiligen Typ.</p>
-  <p>Beispiel:
-   <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="#zotero-116802-HBW59EKH" type="ed_aristoteles">Analytica priora et posteriora</bibl>]]></codeblock></p>
-  <p><image href="../../ediarum_basis/icons/ref_straighturl.png"/><b>Links</b></p>
-  <p>Es gibt 3 verschiedene Verlinkungsmöglichkeiten, von der jede mit <![CDATA[<ref/>]]>
-   ausgezeichnet wird. Die erste Möglichkeit ist es, eine in der Datenbank vorhandene Handschrift zu
-   verlinken. Diese kann über eine Oberfläche ausgewählt werden. Die Auszeichnung besitzt ein @type
-   Attribut mit dem Wert "otherms", sowie ein @cRef Attribut mit der Handschrift ID.</p>
-  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="otherms" cRef="32974">Alex. 087</ref>]]></codeblock></p>
-  <p>Die zweite Möglichkeit verlinkt eine externe Handschrift des Pinakes Projekts, mit Hilfe einer
-   Diktyon-ID. Es wird der gleiche Aufbau, wie in der ersten Möglichkeit genutzt, mit dem
-   Unterschied, das eine Diktyon-ID anstelle der Handschriften ID verwendet wird.</p>
-  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="otherms" cRef="9069">Sine numero</ref>]]></codeblock></p>
-  <p>Die letzte Möglichkeit besteht darin einen Link anzugeben. Dieser muss keiner Handschrift, oder
-   einer ID entsprechen. Die Auszeichnung besitzt ein @type Attribut mit dem Wert "straighturl" und
-   ein @target Attribut in dem die <u>vollständige</u> URL des Links zu finden ist.</p>
-  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<ref type="straighturl" target="http://www.bbaw.de/telota/telota">Telota</ref>]]></codeblock></p>
-  <p><image href="../../ediarum_basis/icons/seg-note.gif"/><b>Anmerkung wissenschaftlicher
-    Arbeiter</b></p>
-  <p>Jegliche Anmerkungen wissenschaftlicher Bearbeiter, werden mit <![CDATA[<note/>]]>
-   ausgezeichnet, wobei der Wert des @resp Attributs, und somit der zuständige Bearbeiter, stets auf
-   "cagb" gesetzt wird.</p>
-  <p>Beispiel: <codeblock outputclass="language-xml"><![CDATA[<note resp="cagb">trivial</note>]]></codeblock></p>
  </conbody>
+ <concept id="id_kmh_2gl_2y" conref="../actions/general_actions.dita#concept_v52_xjk_2y">
+  <title/>
+ </concept>
+ <concept id="concept_qst_ggl_2y">
+  <title><image href="../../ediarum_basis/icons/ref_straighturl.png" id="image_zf2_3gl_2y"/>
+   <b>Links</b></title>
+  <conbody>
+   <p>Es gibt 3 verschiedene Verlinkungsmöglichkeiten, von der jede mit <![CDATA[<ref/>]]>
+    ausgezeichnet wird. Die erste Möglichkeit ist es, eine in der Datenbank vorhandene Handschrift
+    zu verlinken. Diese kann über eine Oberfläche ausgewählt werden. Die Auszeichnung besitzt ein
+    @type Attribut mit dem Wert "otherms", sowie ein @cRef Attribut mit der Handschrift ID.</p>
+   <p>Beispiel:
+    <codeblock outputclass="language-xml">&lt;ref type="otherms" cRef="32974">Alex. 087&lt;/ref></codeblock></p>
+   <p>Die zweite Möglichkeit verlinkt eine externe Handschrift des Pinakes Projekts, mit Hilfe einer
+    Diktyon-ID. Es wird der gleiche Aufbau, wie in der ersten Möglichkeit genutzt, mit dem
+    Unterschied, das eine Diktyon-ID anstelle der Handschriften ID verwendet wird.</p>
+   <p>Beispiel:
+    <codeblock outputclass="language-xml">&lt;ref type="otherms" cRef="9069">Sine numero&lt;/ref></codeblock></p>
+   <p>Die letzte Möglichkeit besteht darin einen Link anzugeben. Dieser muss keiner Handschrift,
+    oder einer ID entsprechen. Die Auszeichnung besitzt ein @type Attribut mit dem Wert
+    "straighturl" und ein @target Attribut in dem die <u>vollständige</u> URL des Links zu finden
+    ist.</p>
+   <p>Beispiel:
+    <codeblock outputclass="language-xml">&lt;ref type="straighturl" target="http://www.bbaw.de/telota/telota">Telota&lt;/ref></codeblock></p>
+  </conbody>
+ </concept>
+ <concept id="concept_thp_kgl_2y">
+  <title><image href="../../ediarum_basis/icons/seg-note.gif" id="image_dcb_mgl_2y"/>
+   <b>Anmerkung wissenschaftlicher Arbeiter</b></title>
+  <conbody>
+   <p>Jegliche Anmerkungen wissenschaftlicher Bearbeiter, werden mit <![CDATA[<note/>]]>
+    ausgezeichnet, wobei der Wert des @resp Attributs, und somit der zuständige Bearbeiter, stets
+    auf "cagb" gesetzt wird.</p>
+   <p>Beispiel:
+    <codeblock outputclass="language-xml">&lt;note resp="cagb">trivial&lt;/note></codeblock></p>
+  </conbody>
+ </concept>
 </concept>
