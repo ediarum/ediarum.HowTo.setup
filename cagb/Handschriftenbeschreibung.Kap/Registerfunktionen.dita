@@ -10,13 +10,12 @@
    den Namen bzw. Werktitel mit dem Registereintrag zu verbinden. Die Werkzeugleiste mit den
    Registerfunktionen befindet sich in der untersten Leiste.</p>
   <p>
-   <image href="../../ediarum_basis/icons/persName.gif"/> 
-   <image href="../../ediarum_basis/icons/placeName.gif"/> 
-   <image href="../../ediarum_basis/icons/orgName.gif"/> 
-   <image href="../../ediarum_basis/icons/name_bibl.gif"/> 
-   <image href="../../ediarum_basis/icons/term16.png"/></p>
-
-
+   <image href="../../ediarum_basis/icons/persName.gif"/>
+   <image href="../../ediarum_basis/icons/placeName.gif"/>
+   <image href="../../ediarum_basis/icons/orgName.gif"/>
+   <image href="../../ediarum_basis/icons/name_bibl.gif"/>
+   <image href="../../ediarum_basis/icons/term16.png"/><image
+    href="../../ediarum_basis/icons/names16.gif" id="image_kpr_mmf_2y"/></p>
   <p>Mit dem Auszeichnen von Personennamen und Werktiteln wird das Dokument auch für das Web
    aufbereitet. Dort besteht technisch nämlich nicht nur die Möglichkeit vom Index auf bestimmte
    Textstellen zu springen, sondern auch aus dem Text heraus den (erweiterten) Index aufzurufen,
@@ -53,30 +52,39 @@
     </thead>
     <tbody>
      <row>
-      <entry><p>Autor</p><p> Der Autor wird ohne direkten Funktionsbezug genannt. „… schließt sich
-        sodann ein längeres wörtliches Zitat vom Anfang der Paraphrase
+      <entry>
+       <p>Autor</p>
+       <p> Der Autor wird ohne direkten Funktionsbezug genannt. „… schließt sich sodann ein längeres
+        wörtliches Zitat vom Anfang der Paraphrase
         des<![CDATA[ <persName role=“author“>Ps.-Heliodor</persName>]]> zum ersten Buch … an (CAG
-        XIX 2, S. 1, 5–22).“</p></entry>
+        XIX 2, S. 1, 5–22).“</p>
+      </entry>
       <entry>author</entry>
      </row>
      <row>
-      <entry><p>Autor: in der vorliegenden Handschrift enthalten</p>
-       <p>(Teuchos: Autor mit Werk in Handschrift enthalten)</p> <p>Das Werk des Autors ist in der
-       Handschrift ganz oder teilweise enthalten. Das gilt auch bei dem Verweis „teilweise identisch
-       mit“, es sein denn, der Autor wurde im Textverlauf schon einmal als „author-contained“
-       getagged. Dann genügt das Attribut „author“.</p></entry>
+      <entry>
+       <p>Autor: in der vorliegenden Handschrift enthalten</p>
+       <p>(Teuchos: Autor mit Werk in Handschrift enthalten)</p>
+       <p>Das Werk des Autors ist in der Handschrift ganz oder teilweise enthalten. Das gilt auch
+        bei dem Verweis „teilweise identisch mit“, es sein denn, der Autor wurde im Textverlauf
+        schon einmal als „author-contained“ getagged. Dann genügt das Attribut „author“.</p>
+      </entry>
       <entry>author-contained</entry>
      </row>
      <row>
-      <entry><p>Autor ähnlicher Texte</p> <p>(Teuchos: Autor mit Ähnlichkeit zu anderen Texten in der
-       Handschrift) Es wird auf eine Ähnlichkeit verwiesen. Signalwörter können „nach“ oder
-       „ähnlich“ sein.</p></entry>
+      <entry>
+       <p>Autor ähnlicher Texte</p>
+       <p>(Teuchos: Autor mit Ähnlichkeit zu anderen Texten in der Handschrift) Es wird auf eine
+        Ähnlichkeit verwiesen. Signalwörter können „nach“ oder „ähnlich“ sein.</p>
+      </entry>
       <entry>author-similiar</entry>
      </row>
      <row>
-      <entry><p>Autor: kommentiert etc.</p><p> (Teuchos: Autor nicht in Handschrift enthalten, aber mit
-       Bezug) Der Autor eines Textes, der in der Handschrift nicht enthalten ist, der aber
-       beispielsweise kommentiert wird.</p></entry>
+      <entry>
+       <p>Autor: kommentiert etc.</p>
+       <p> (Teuchos: Autor nicht in Handschrift enthalten, aber mit Bezug) Der Autor eines Textes,
+        der in der Handschrift nicht enthalten ist, der aber beispielsweise kommentiert wird.</p>
+      </entry>
       <entry>author-referred</entry>
      </row>
     </tbody>
@@ -175,4 +183,7 @@
   <p><image href="../../ediarum_basis/icons/term16.png"/>
    <b>Sachbgriff und Sachindex</b></p>
  </conbody>
+ <concept id="id_s54_rkk_2y" conref="../actions/general_actions.dita#concept_v52_xjk_2y">
+  <title/>
+ </concept>
 </concept>
