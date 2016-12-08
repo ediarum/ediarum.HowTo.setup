@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="scholien">
+ <title>Scholien</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p></p>
+ </conbody>
+ <concept id="concept_p2w_4vm_2y">
+  <title>Neues Lemma</title>
+  <conbody>
+   <p>Ein neues Lemma mit kanonischer Referenz zur bestehenden Datei hinzufügen. Es wird auch ein
+    Scholion zum Lemma mitangelegt, zu welchem der Text ergänzt werden kann.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_fhf_xvm_2y">
+  <title>Lemmatyp</title>
+  <conbody>
+   <p>Hier kann für die Belegstelle festgehalten werden, ob sie "rekonstruiert" ist oder "explizit"
+    im Text steht.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_hf3_vtr_2y">
+  <title>Neues Scholion zum Lemma</title>
+  <conbody>
+   <p>Ein weiteres Scholion kann hiermit zum selben Lemma hinzugefügt werden. Wenn ein Scholion zu
+    einem anderen Lemma gewünscht ist, sollte die Aktion "Neues Lemma" gewählt werden.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_yb4_d5r_2y">
+  <title>Nummer des Scholion</title>
+  <conbody>
+   <p>Jedes Scholion kann mit einer Nummer versehen werden. Diese wird in eckigen Klammern über dem
+    Scholiontext angezeigt.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_dz3_k5r_2y">
+  <title>Klassifizierung des Scholion</title>
+  <conbody>
+   <p>Für die Klassifizierung des Scholion stehen drei Möglichkeiten zur Auswahl: "exegetisch",
+    "grammatisch" und "lexikalisch". Diese Information wird neben der Nummer über dem eigentlichen
+    Scholiontext angezeigt.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_sdz_p5r_2y">
+  <title>Übersetzung</title>
+  <conbody>
+   <p>Zu jedem Scholion kann eine Übersetzung hinzugefügt werden. Diese wird unterhalb des
+    Scholiontextes etwas eingerückt eingefügt.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_qp1_v5r_2y">
+  <title>Übersetzungsanmerkungen</title>
+  <conbody>
+   <p>Falls es notwendig ist, besteht mit dieser Aktion die Möglichkeit der Übersetzung eine kurze
+    Anmerkung voranzustellen.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_pwd_z5r_2y">
+  <title>Kommentar</title>
+  <conbody>
+   <p>Mit dieser Aktion wird dem Scholion ein Feld hinzugefügt, welches für die Kommentierung des
+    Scholions bestimmt ist.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_l4k_gvr_2y">
+  <title>Autor zum Scholion</title>
+  <conbody>
+   <p>Der Autor des Scholions kann aus der Liste der Personen im Personenregister ausgewählt werden.
+    Dazu öffnet diese Aktion das entsprechende Auswahlfenster.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_p34_4vr_2y">
+  <title>Bibliographieeintrag</title>
+  <conbody>
+   <p>Diese Aktion fügt zu dem Scholion einen neuen Eintrag in dem Feld Bibliographie hinzu. In den
+    Einträgen ist eine freie Texteingabe möglich.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_vv1_1wr_2y">
+  <title>Textzeuge zum Scholion</title>
+  <conbody>
+   <p>Aus der Liste der Textzeugen in den Metaangaben der Datei wird mit dieser Aktion ein Eintrag
+    ausgewählt und als Textzeuge zum Scholion hinzugefügt. Weiterhin können das Folio und die
+    Position des Scholions im Textzeugen angegeben werden.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_lhw_jwr_2y">
+  <title>Quelle zum Scholion</title>
+  <conbody>
+   <p>Wie bei der Aktion "Textzeuge zum Scholion" wird hiermit ein Eintrag aus der Liste der
+    (publizierten) Quellen in den Metaangaben der Datei ausgewählt und zum Scholion hinzugefügt.
+    Auch hier ist die Angabe der Seite möglich.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_wfw_qwr_2y">
+  <title>Subscholion</title>
+  <conbody>
+   <p>Diese Aktion erstellt zu dem aktuellen Scholion ein Scholion, welches sich auf dieses bezieht.
+    Diese Subscholien werden am Ende des Scholions als Scholiengruppe angezeigt. Innerhalb des
+    Subscholions stehen wieder alle Aktionen für Scholien zur Verfügung.</p>
+  </conbody>
+ </concept>
+</concept>

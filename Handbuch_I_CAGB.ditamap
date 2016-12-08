@@ -3,8 +3,7 @@
 <?xml-stylesheet type="text/css" href="handbuch.css"?>
 <bookmap>
     <booktitle>
-        <mainbooktitle>Commentaria in Aristotelem Graeca et Byzantina Digitale Arbeitsumgebung
-            Handbuch</mainbooktitle>
+        <mainbooktitle>ediarum Handbuch für CAGB</mainbooktitle>
     </booktitle>
     <bookmeta>
         <authorinformation>
@@ -28,7 +27,7 @@
         </authorinformation>
         <publisherinformation>
             <published>
-                <data>Nur für den internen Gebrauch. Stand: 07.10.2016</data>
+                <data>Nur für den internen Gebrauch. Stand: 07.12.2016</data>
             </published>
         </publisherinformation>
     </bookmeta>
@@ -46,7 +45,7 @@
         <chapter href="ediarum_basis/Allgemeine_Bedienung.Kap/Ueberschrift.dita">
             <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Ueberblick.dita"/>
             <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-            <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
+            <topicref href="cagb/general/toolbars.dita#concept_wdt_ywz_vw"/>
             <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
             <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
             <topicref href="ediarum_basis/Allgemeine_Bedienung.Kap/Ansichten.dita"/>
@@ -54,45 +53,53 @@
         </chapter>
     </part>
     <part href="ediarum_basis/Parts/UeberschriftII.dita">
-        <chapter href="cagb/Handschriftenbeschreibung.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Handschriftenbeschreibung.Kap/Ueberblick_Oberflaeche.dita"/>
-            <topicref href="cagb/Handschriftenbeschreibung.Kap/Allgemeine_Werkzeugleiste.dita"/>
-            <topicref href="cagb/Handschriftenbeschreibung.Kap/Strukturelemente_Werkzeugleiste.dita">
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Nachweis.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Inhalt.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/physische_Beschaffenheit.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Geschichte.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Weitere_Informationen.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Notizfeld.dita"/>
+        <chapter href="cagb/frameworks/ms_desc.dita">
+            <topicref href="cagb/frameworks/ms_descr/oberflaeche_zur_handschriftenbeschreibung.dita"/>
+            <topicref href="cagb/general/toolbars.dita#concept_wdt_ywz_vw"/>
+            <topicref href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_strukturelemente.dita">
+                <topicref href="cagb/frameworks/ms_descr/nachweis.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/inhalt.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/physische_beschaffenheit.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/geschichte.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/ergaenzende_informationen.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/notizfelder.dita"/>
             </topicref>
-            <topicref href="cagb/Handschriftenbeschreibung.Kap/Transkription_Werkzeugleiste.dita">
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Textarbeit_Autor.dita"/>
+            <topicref href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_transkription.dita">
+                <topicref href="cagb/frameworks/ms_descr/textarbeit_des_autors.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/textarbeit_des_herausgebers.dita"/>
+            </topicref>
+            <topicref
+                href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_allgemeine_auszeichnungen.dita">
                 <topicref
-                    href="cagb/Handschriftenbeschreibung.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
+                    href="cagb/frameworks/ms_descr/auszeichnungen_in_allen_teilen_der_handschrift.dita"/>
+                <topicref href="cagb/frameworks/ms_descr/registerfunktionen.dita"/>
             </topicref>
-            <topicref
-                href="cagb/Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen_Werkzeugleiste.dita">
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Allgemeine_Auszeichnungen.dita"/>
-                <topicref href="cagb/Handschriftenbeschreibung.Kap/Registerfunktionen.dita"/>
-            </topicref>
+            <topicref href="cagb/frameworks/ms_descr/relationen.dita"/>
+            <topicref href="cagb/frameworks/ms_descr/bearbeitungsstatus.dita"/>
         </chapter>
-        <chapter href="cagb/Textauszeichnungen_Transkriptionen.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Ueberblick_Oberflaeche.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Allgemeine_Werkzeugleiste.dita"/>
-
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Metaangaben_Werkzeugleiste.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Textarbeit_Autor.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Manuskriptstruktur.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Manuskripttext.dita"/>
+        <chapter href="cagb/frameworks/texte.dita">
             <topicref
-                href="cagb/Textauszeichnungen_Transkriptionen.Kap/Textauszeichnungen_des_Herausgebers.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Weitere_Auszeichnungen.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/Relationen.dita"/>
-            <topicref href="cagb/Textauszeichnungen_Transkriptionen.Kap/BearbeitungsStatus.dita"/>
+                href="cagb/frameworks/texte/werkzeugleiste_mit_den_allgemeinen_funktionen.dita"/>
+            <topicref href="cagb/frameworks/texte/metadaten.dita"/>
+            <topicref href="cagb/frameworks/texte/scholien.dita"/>
+            <topicref href="cagb/frameworks/texte/werke_und_kleintexte.dita"/>
+            <topicref href="cagb/frameworks/texte/manuskriptstruktur.dita"/>
+            <topicref href="cagb/frameworks/texte/manuskripttext.dita"/>
+            <topicref
+                href="cagb/frameworks/texte/textauszeichnungen_des_herausgebers.dita"/>
+            <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
         </chapter>
-        <chapter href="cagb/Register.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Register.Kap/Ueberblick.dita"/>
-            <topicref href="cagb/Register.Kap/Personen.dita"/>
+        <chapter href="cagb/frameworks/persons.dita">
+            <topicref href="cagb/frameworks/persons/personendatei_anlegen.dita"/>
+            <topicref href="cagb/frameworks/persons/name_und_lebensdate.dita"/>
+            <topicref href="cagb/frameworks/persons/vita.dita"/>
+            <topicref href="cagb/frameworks/persons/weitere_informationen_zur_person.dita"/>
+            <topicref href="cagb/frameworks/persons/sonstiges.dita"/>
+            <topicref href="cagb/frameworks/persons/werkzeugleiste_fuer_auszeichnungen.dita"/>
+        </chapter>
+        <chapter href="cagb/frameworks/bibl.dita">
+            <topicref href="cagb/frameworks/bibl/neues_werk_anlegen.dita"/>
+            <topicref href="cagb/frameworks/bibl/elemente_eines_werkeintrags.dita"/>
         </chapter>
     </part>
     <part href="ediarum_basis/Parts/UeberschriftIII.dita">

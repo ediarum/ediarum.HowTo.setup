@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_b55_hnc_zw">
+ <title>Werkregister</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Das zentrale Werkregister der Arbeitsumgebung besteht – im Gegensatz zum Personenregister
+  – aus einer einzigen Datei, in denen alle Werke einzutragen sind, die verlinkt
+  werden sollen.</p>
+ </conbody>
+</concept>
