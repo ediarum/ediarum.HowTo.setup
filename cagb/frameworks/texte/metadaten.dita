@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="metadaten">
+ <title>Metadaten</title>
+ <shortdesc/>
+ <conbody>
+  <p/>
+ </conbody>
+ <concept id="concept_ylg_pms_2y">
+  <title>Editionsmitarbeiter nennen</title>
+ </concept>
+ <concept id="concept_epr_qms_2y">
+  <title>Status des Textes</title>
+  <conbody>
+   <p>Bei allen Texttypen ist eine individuelle Freistellung mit der Auswahl "Entwurf" oder "Final"
+    möglich. Der Status wird in den Metaangaben angezeigt: <image href="img/status_des_textes.png"
+     id="image_qch_fps_2y">
+     <alt>Entwurf-Ansicht</alt>
+    </image> bzw. <image href="img/status_des_textes2.png" id="image_bp3_4ps_2y">
+     <alt>Final-Ansicht</alt>
+    </image></p>
+  </conbody>
+ </concept>
+ <concept id="concept_er5_rms_2y">
+  <title>Bearbeitunsänderung hinzufügen</title>
+ </concept>
+ <concept id="concept_jhd_tms_2y">
+  <title>Relation zu eine Aristoteleswerk</title>
+ </concept>
+ <concept id="concept_xpd_5ms_2y">
+  <title>Relation zu einem Werk</title>
+ </concept>
+ <concept id="concept_sqt_5ms_2y">
+  <title>Textzeuge</title>
+ </concept>
+ <concept id="concept_nc3_vms_2y">
+  <title>Diktyon-Eintrag verlinken</title>
+ </concept>
+ <concept id="concept_tvw_vms_2y">
+  <title>Handschrift verlinken</title>
+ </concept>
+ <concept id="concept_y5q_wms_2y">
+  <title>Publizierte Quelle</title>
+ </concept>
+ <concept id="concept_q53_xms_2y">
+  <title>Werk verlinken</title>
+ </concept>
+</concept>

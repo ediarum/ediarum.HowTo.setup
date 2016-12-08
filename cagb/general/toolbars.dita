@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<dita>
+ <concept id="concept_wdt_ywz_vw">
+  <title>Werkzeugleiste mit den allgemeinen Funktionen</title>
+  <shortdesc></shortdesc>
+  <conbody><p><image href="img/werkzeugleiste_mit_den_allgemeinen_funktionen.png"></image></p>
+   <p>Bemerkungen zur den einzelnen Funktionen:</p>
+   <p>1.<i>Speichern</i>: nicht nur am Ende der Arbeiten, sondern auch zur Sicherheit immer mal
+    wieder zwischendurch speichern.</p>
+   <p>2. <i>Erneut laden</i>: die Datei wird neu geladen.</p>
+   <p>3. <i>Suche</i>: öffnet das Suchfenster. Für nähere Erläuterungen siehe "Einfache Suche" (in diesem Kapitel). </p>
+   <p>4. <i> Bearbeitungsmarkierungen</i>: Damit können Sie Wörter oder Textabschnitte markieren, die Sie für
+    die Bearbeitung temporär hervorheben möchten.</p>
+   <p>5-7. <i>Bearbeitungskommentare</i>: Mit diesen Schaltflächen können Sie Bearbeitungskommentare im
+    Dokument einfügen, bearbeiten und verwalten.</p>
+  </conbody>
+ </concept>
+</dita>
