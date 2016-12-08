@@ -142,11 +142,13 @@ ich wahr rede</codeblock>
       Eingabe der kanonischen Referenz erforderlich.</li>
     </ul><ul id="ul_j3t_ncs_2y">
      <li>Übernahme aus externer Quelle: Es kann zwischen den in den Metadaten der Datei angegebenen
+      Quellen ausgewählt werden. Im Auswahlfenster können bei gedrückter STRG-Taste auch mehrere
       Quellen ausgewählt werden.</li>
      <li>Übernahme aus externer Quelle mit Textstelle: Bei Übernahmen können genauere Textstellen
       (Verszahlen und Zeilen) festgehalten werden. Es kann zwischen den in den Metadaten der Datei
       angegebenen Quellen ausgewählt werden, und zusätzlich wird noch nach der Seitenangabe der
-      Textstelle in der Quelle gefragt.</li>
+      Textstelle in der Quelle gefragt. Im Auswahlfenster können bei gedrückter STRG-Taste auch mehrere
+      Quellen ausgewählt werden.</li>
     </ul>Die Übernahme muss typisiert werden als "Zitation (wörtliche Übernahme)" dargestellt als =,
     "Simile (syntaktisch angepasst)" dargestellt als ≈ oder "Paraphrasis (angelehnt an)" dargestellt
     als ∼.</p>
