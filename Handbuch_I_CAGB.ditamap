@@ -74,6 +74,8 @@
                     href="cagb/frameworks/ms_descr/auszeichnungen_in_allen_teilen_der_handschrift.dita"/>
                 <topicref href="cagb/frameworks/ms_descr/registerfunktionen.dita"/>
             </topicref>
+            <topicref href="cagb/frameworks/ms_descr/relationen.dita"/>
+            <topicref href="cagb/frameworks/ms_descr/bearbeitungsstatus.dita"/>
         </chapter>
         <chapter href="cagb/frameworks/texte.dita">
             <topicref
@@ -86,8 +88,6 @@
             <topicref
                 href="cagb/frameworks/texte/textauszeichnungen_des_herausgebers.dita"/>
             <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
-            <topicref href="cagb/frameworks/texte/relationen.dita"/>
-            <topicref href="cagb/frameworks/texte/bearbeitungsstatus.dita"/>
         </chapter>
         <chapter href="cagb/frameworks/persons.dita">
             <topicref href="cagb/frameworks/persons/personendatei_anlegen.dita"/>
