@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_jzq_42c_zw">
+ <title>Manuskripttext</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><image href="../../../ediarum_basis/icons/sup.gif"></image> 
+   <image href="../../../ediarum_basis/icons/del.gif"></image> 
+   <image href="../../../ediarum_basis/icons/subst2.gif"></image> 
+   <image href="../../../ediarum_basis/icons/add.gif"></image> 
+   <image href="../../../ediarum_basis/icons/resp.gif"></image></p>
+  <p/>
+  <p><image href="../../../ediarum_basis/icons/underlined16.png"></image> <b>Unterstreichungen</b></p>
+  <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rend=“underline“/>]]>
+   (highlighted) ausgezeichnet.</p>
+  <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“underline“>durchdacht</hi> habe]]></codeblock>
+  <p><image href="../../../ediarum_basis/icons/hi_color16.gif"></image> <b>Farbige Hervorhebung</b></p>
+  <p>Im Manuskript andersfarbig hervorgehobene Wörter oder Wortteile werden mit <![CDATA[<hi]]>
+   rend=“color(red)“/>  (highlighted) ausgezeichnet. Im Attribut @rend wird color() notiert,
+   wobei in der Klammer die entsprechende Farbe angegeben wird.</p>
+  <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“color(red)“>durchdacht</hi>]]> habe</codeblock>
+  <p><image href="../../../ediarum_basis/icons/sup16.gif"></image> <b>Hochstellen</b></p>
+  <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rend="#sup">]]> ausgezeichnet.</p>
+  <p><image href="../../../ediarum_basis/icons/del16.gif"></image> <b>Streichungen</b></p>
+  <p>Vom Autor im Manuskript durchgestrichene Wörter oder Wortteile werden mit <![CDATA[<del
+   rend=“durchgestrichen“/>]]>  (deletion) ausgezeichnet.</p>
+  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del resp=”autor”>ehrfurchtsvoll</del>; wenn ich]]></codeblock>
+  <p>Im Attribut @resp wird zusätzlich der Urheber der Streichung angegeben, d.h. ob es sich
+   um den Autor, den Kopisten oder eine bestimmte, zu identifizierende Person handelt.
+   Im letzteren Fall wird die Personenidentifikationsnummer („cagb:pXXXX“) aus dem
+   Personenregister eingefügt.</p>
+  <p><image href="../../../ediarum_basis/icons/subst216.gif"></image> <b>Korrekturen</b></p>
+  <p>Vom Autor im Manuskript durchgestrichene Wörter oder Wortteile werden mit <![CDATA[<del
+   rend=“durchgestrichen“/>]]>  (deletion) ausgezeichnet.</p>
+  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del resp=”autor”>ehrfurchtsvoll</del>; wenn ich]]></codeblock>
+  <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen
+   wurde, so wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang
+   <![CDATA[<subst/>]]> (substition) verbunden</p>
+  <codeblock outputclass="language-xml"><![CDATA[ganzes besseres <subst resp=”autor”><del rend=“durchgestrichen“>Sein</
+del><add place=“über“>Seyn</add></subst> sich samlen kann]]></codeblock>
+  <p><![CDATA[Der Urheber der Ergänzug muss analog zur Streichung in <subst/> notiert werden]]></p>
+<p><image href="../../../ediarum_basis/icons/add16.gif"></image> <b>Ergänzungen</b></p>
+  <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]> 
+   (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt:</p>
+  <codeblock outputclass="language-xml"><![CDATA[aber nimmermehr im Stande <add place=“mit Einfügungszeichen über der
+Zeile“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codeblock>
+  <p>Die Angabe des Ortes sollte nach Möglichkeit mit weitgehend standardisierten Formeln
+   wieder gegeben werden. Der Urheber der Ergänzug muss analog zur Streichung notiert
+   werden.</p>
+  <p><image href="../../../ediarum_basis/icons/resp16.gif"></image> <b>Urheber</b></p>
+  <p>Der Urheber einer Korrektur oder Ergänzung im Manuskript kann mit <![CDATA[<subst resp="kopist">]]> notiert werden.</p>
+ </conbody>
+</concept>

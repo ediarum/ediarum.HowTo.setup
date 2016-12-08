@@ -14,20 +14,29 @@
                 <substeps id="substeps_kn1_vcd_by">
                     <substep>
                         <cmd>Im Browser die URL eingeben: <xref href="https://www.oxygenxml.com"
-                                format="html" scope="external"/><image placement="break"
-                                href="step1.a.png" id="image_utp_b2d_by"/></cmd>
+                                format="html" scope="external"/></cmd>
+                        <info>
+                            <image placement="break" href="step1.a.png" id="image_utp_b2d_by"
+                                width="700"/>
+                        </info>
                         <info>
                             <p><b>Produkte</b> auswählen und dort <b>Oxygen XML Author</b>
                                 auswählen.</p>
                         </info>
                     </substep>
                     <substep>
-                        <cmd>Auf <b>Download</b> klicken.<image placement="break" href="step1.b.png"
-                                id="image_rk2_k2d_by"/></cmd>
+                        <cmd>Auf <b>Download</b> klicken.</cmd>
+                        <info>
+                            <image placement="break" href="step1.b.png" scale="50"
+                                id="image_z3x_zd5_2y"/>
+                        </info>
                     </substep>
                     <substep>
-                        <cmd>Auf der nächsten Seite die 32-bit-Version auswählen:<image
-                                placement="break" href="step1.c.png" id="image_hh1_p2d_by"/></cmd>
+                        <cmd>Auf der nächsten Seite die 32-bit-Version auswählen:</cmd>
+                        <info>
+                            <image placement="break" href="step1.c.png" id="image_hh1_p2d_by"
+                                scale="65"/>
+                        </info>
                     </substep>
                     <substep>
                         <cmd><i>Warten</i> bis der Download abgeschlossen ist (kann einige Minuten
@@ -155,8 +164,11 @@
                     </substep>
                     <substep>
                         <cmd>Schließlich die Projektdatei <b>cagb_addon.xpr</b> auswählen und mit
-                                <b>Öffnen</b> bestätigen:<image placement="break" href="step4.e.png"
-                                id="image_nmv_p3d_by"/></cmd>
+                                <b>Öffnen</b> bestätigen:</cmd>
+                        <info>
+                            <image placement="break" href="step4.e.png" id="image_nmv_p3d_by"
+                                scale="50"/>
+                        </info>
                     </substep>
                     <substep>
                         <cmd>Ein evtl. weiteres Dialogfenster mit <b>OK</b> bestätigen und Oxygen
