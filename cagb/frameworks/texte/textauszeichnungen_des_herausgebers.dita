@@ -145,7 +145,8 @@ ich wahr rede</codeblock>
       Quellen ausgewählt werden. Im Auswahlfenster können bei gedrückter STRG-Taste auch mehrere
       Quellen ausgewählt werden.</li>
      <li>Übernahme aus externer Quelle mit Textstelle: Bei Übernahmen können genauere Textstellen
-      (Verszahlen und Zeilen) festgehalten werden. Es kann zwischen den in den Metadaten der Datei
+      (z. B. Seitenzahl und Zeile) festgehalten werden, diese Angaben sollen in einschlägigen Fällen
+      durch kanonische Referenzen erfolgen. Es kann zwischen den in den Metadaten der Datei
       angegebenen Quellen ausgewählt werden, und zusätzlich wird noch nach der Seitenangabe der
       Textstelle in der Quelle gefragt. Im Auswahlfenster können bei gedrückter STRG-Taste auch mehrere
       Quellen ausgewählt werden.</li>
