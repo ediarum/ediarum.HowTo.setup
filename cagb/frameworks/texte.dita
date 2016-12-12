@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_qfc_zr5_fx">
+ <title>Texte (Werke, Kleintexte, Scholien)</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Es gibt Dateien, in denen Texte vollständig erarbeitet werden können. Die Abbildung zeigt die
+   Oberfläche des „Oxygen XML Author“, die beim Öffnen einer Text-Datei erscheint. Die
+   Werkzeugleiste wird in vier Sektionen unterteilt, die nun nachfolgend in diesem Kapitel erklärt
+   werden.</p>
+  <p>Oben im Programfenster (siehe Abb.) ist die Werkzeugleiste, die zur Bearbeitung der
+   Handschriftbeschreibung verwendet werden kann. </p>
+  <p><image href="../../Textauszeichnungen_Transkriptionen.Kap/Abb.Ueberblick.png"
+    id="image_in5_v15_2y"/></p>
+ </conbody>
+</concept>

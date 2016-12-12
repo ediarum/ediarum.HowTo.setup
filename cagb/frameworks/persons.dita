@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ejc_tkc_zw">
+ <title>Personenregister</title>
+ <shortdesc/>
+ <conbody>
+  <p>In der Arbeitsumgebung steht ein zentrales Personenregister zur Verfügung. Das Register besteht
+   aus einzelnen XML-Dateien, die jeweils die Daten zu einer Person enthalten. Die TEI-XML-Struktur
+   dieser Personendateien basiert auf den „Biogrammen“ des Handschriftenzentrums Teuchos.</p>
+  <p>Eine Personendatei verfügt über mehrere Abschnitte <![CDATA[(<div/>)]]> in denen
+   unterschiedliche Informationen zur Person hinterlegt werden kann. Für alle Abschnitte steht eine
+   Aktion in der Werkzeugleiste zur Verfügung, mit der dieses Strukturelement eingefügt werden kann.
+   Ergänzungen können dann einfach durch das Setzen eines neuen Absatzes (Returntaste) erfolgen.</p>
+  <p><image href="img/persons.png" width="800"/></p>
+ </conbody>
+</concept>
