@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_csk_b3f_2y">
+ <title>Textarbeit des Herausgebers</title>
+ <shortdesc/>
+ <conbody>
+  <p><image href="icons/unclear16.gif" id="image_gpc_d3f_2y"/>
+   <b>Unsichere Lesarten</b></p>
+  <p>Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit
+   <![CDATA[<u]]>nclear/> ausgezeichnet. Im Attribut @reason wird die Ursache der Unsicherheit
+    angegeben:<table id="table_y1g_1qs_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Ursache der Unsicherheit</entry>
+       <entry>Wert für @reason</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>unleserlich</entry>
+       <entry>illegible</entry>
+      </row>
+      <row>
+       <entry>Überzeichnung/Überschreibung</entry>
+       <entry>covered</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p>Das Attribut @cert (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Ergänzung
+    zutrifft.<table id="table_ssv_tps_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Wahrscheinlichkeit</entry>
+       <entry>Wert für @cert</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>niedrig</entry>
+       <entry>low</entry>
+      </row>
+      <row>
+       <entry>hoch</entry>
+       <entry>high</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
+  <p><image href="icons/gap16.gif" id="image_hpc_d3f_2y"/>
+   <b>Nicht lesbare Elemente</b></p>
+  <p>Nicht lesbare Elemente im Manuskript werden mit <![CDATA[<gap/>]]> ausgezeichnet. Im Attribut
+   @unit wird das nicht lesbare Elemtent näher bestimmt: <table id="table_owv_gqs_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Nicht lesebares Element</entry>
+       <entry>Wert für @unit</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Zeichen</entry>
+       <entry>chars</entry>
+      </row>
+      <row>
+       <entry>Zeilen</entry>
+       <entry>lines</entry>
+      </row>
+      <row>
+       <entry>Seiten</entry>
+       <entry>pages</entry>
+      </row>
+      <row>
+       <entry>Wörter</entry>
+       <entry>words</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p>Im Attribut @quantity wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc. notiert. Das
+   Attribut @reason gibt den Grund der Unleserlichkeit an:<table id="table_efs_mqs_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Grund der Unleserlichkeit</entry>
+       <entry>Wert für @reason</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Zerstörung/Verlust</entry>
+       <entry>lost</entry>
+      </row>
+      <row>
+       <entry>Leerraum</entry>
+       <entry>empty</entry>
+      </row>
+      <row>
+       <entry>unleserlich</entry>
+       <entry>illegible</entry>
+      </row>
+      <row>
+       <entry>fremdsprachlicher Text</entry>
+       <entry>fm</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="chars" quantity="1" reason="fm"/>dann wieder]]></codeblock>
+  <p><image href="icons/del_gap16.gif" id="image_ipc_d3f_2y"/>
+   <b>Durchestrichene und nicht lesbare Wörter</b></p>
+  <p>Bei durchgestrichenen Wörtern, die nicht entziffert werden können umschließt das Element
+   <![CDATA[<del/> das Element <gap/>.]]></p>
+  <codeblock outputclass="language-xml"><![CDATA[oft <del rend="durchgestrichen"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
+  <p><image href="icons/ex16.png" id="image_kpc_d3f_2y"/>
+   <b>Ergänzungen</b></p>
+  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit <![CDATA[<ex/> ]]> (expansion)
+   ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
+  <p><image href="icons/surplus16.gif" id="image_avn_jlf_cy"/>
+   <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></p>
+  <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
+   <![CDATA[<supplied cert="high"/>]]> ergänzt werden. Dabei drückt der Attributwert für @cert
+   (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist:</p>
+  <table>
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Wahrscheinlichkeit</entry>
+      <entry>Wert für @cert</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>niedrig</entry>
+      <entry>low</entry>
+     </row>
+     <row>
+      <entry>hoch</entry>
+      <entry>high</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
+  <p><image href="icons/supplied16.gif" id="image_lpc_d3f_2y"/>
+   <b>Streichungen durch den Herausgeber</b></p>
+  <p>I<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m Manuskript vorhandene
+   redundante bzw. überflüssige Wörter oder Buchstaben können nach der Transkription mit
+   <![CDATA[<sic> und <corr type="deleted"]]> als überflüssig markiert werde<?oxy_custom_end?>n.</p>
+  <codeblock outputclass="language-xml">&lt;sic>Atomentheorie&lt;/sic>&lt;corr type="deleted"/></codeblock>
+  <p><image href="icons/corr-sic16.gif" id="image_mpc_d3f_2y"/>
+   <b>Korrekturen durch den Herausgeber</b></p>
+  <p>Werden Schroedinger des Autors im edierten Text korrigiert, so wird das Originalwort mit
+   <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/> (correction)]]> ausgezeichnet; beides
+   wird mit einem <![CDATA[<choice/>]]> umschlossen. Im Element <![CDATA[<corr/>]]> wird durch das
+   Attribut @cert (certainty) die Wahrscheinlichkeit notiert, mit der die Korrektur zutrifft: <table>
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Wahrscheinlichkeit</entry>
+       <entry>Wert für @cert</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>niedrig</entry>
+       <entry>low</entry>
+      </row>
+      <row>
+       <entry>mittel</entry>
+       <entry>medium</entry>
+      </row>
+      <row>
+       <entry>hoch</entry>
+       <entry>high</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
+  <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
+   &lt;orig> umschließen und in &lt;reg> die normalisierte Schreibweise angeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<orig>althen</orig><reg>alten</reg>]]></codeblock>
+  <p><image href="icons/seg-note16.gif" id="image_vn4_2nf_cy"/>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></p>
+  <p>Sie können Sachanmerkung zu Textstellen erstellen, indem Sie dieses mit einem &lt;oirg>
+   umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut @xml.id
+   wird automatisch generiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<orig>Rede des Helden</orig><note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>]]></codeblock>
+  <p><image href="icons/verweis16.gif" id="image_npc_d3f_2y"/>
+   <b>Verweise</b></p>
+  <p>Sie können Textstellen mit zwei &lt;anchor> derartig markieren, dass auf diese Querverweise
+   gemacht werden können. Das Attribut @xml:id wird automatisch generiert und beinhaltet den Code,
+   mit den man aus einem anderen Dokument auf diese Stelle verweisen kann. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
+xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
+type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
+  <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit einem &lt;ref target="…">
+   gemacht, dessen Attribut @target den Code für die entsprechende Textstelle enthält.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+  <p>Außerdem kann mit einem &lt;ref key="…"> auf einen Eintrag im Sachregister verwiesen
+   werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>Link auf externe Website<?oxy_custom_end?></p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>Sachanmerkung<?oxy_custom_end?></p>
+  <p><image href="icons/date16.gif" id="image_lxm_lnf_cy"/>
+   <b>Datumsangaben </b></p>
+  <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> bzw. im Abschnitt
+   <![CDATA[<origin/> mit <origDate>]]> ausgezeichnet. In Oxygen XML Author steht zur Auszeichnung
+   von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die Optionen „Genaues Datum"
+   und „Ungefährer Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
+  <p>Wichtig ist, dass diese Datumsangaben nochmals in einem bestimmten Format notiert werden: @when
+   bzw. @from/@to und @notBefore/@notAfter . Dadurch kann der in der Datumsangabe enthaltene Wert
+   später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
+   Zeiträumen). </p>
+  <p>Außerdem wird in den Attribut @cert die Wahrescheinlichkeit angegeben, mit der die Datumsangabe
+   zutrifft: high, low. In dem Attribut @calendar wird notiert, ob sich die Angabe nach dem
+   Julianischen Kalender oder dem Greogorianischen Kalender richtet: <table id="table_nmm_4bd_gy">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Kalender</entry>
+       <entry>Wert für @calendar</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Julianischer</entry>
+       <entry>#Julian</entry>
+      </row>
+      <row>
+       <entry>Gregorianischer</entry>
+       <entry>#Gregorian</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p>1. Genaues Datum</p>
+  <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
+  <p>2. Genaue Zeitspanne</p>
+  <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
+  <p>3. Ungefährer Zeitraum</p>
+  <p>
+   <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai1804</date>]]></codeblock>
+  </p>
+  <table id="table_xpp_ynf_cy">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Datumsangabe im Text</entry>
+      <entry>Zu setzende Attributwerte</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>18. Jh.</entry>
+      <entry>notBefore="1700" notAfter="1799"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Anfang</entry>
+      <entry>notBefore="1700" notAfter="1719"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Mitte</entry>
+      <entry>notBefore="1740" notAfter="1759"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. Ende</entry>
+      <entry>notBefore="1780" notAfter="1799"</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Hälfte</entry>
+      <entry>notBefore="1700" notAfter="1749"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Hälfte</entry>
+      <entry>notBefore="1750" notAfter="1799"</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Viertel</entry>
+      <entry>notBefore="1700" notAfter="1724"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Viertel</entry>
+      <entry>notBefore="1725" notAfter="1749"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 3. Viertel</entry>
+      <entry>notBefore="1750" notAfter="1774"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 4. Viertel</entry>
+      <entry>notBefore="1775" notAfter="1799"</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>18. Jh. 1. Drittel</entry>
+      <entry>notBefore="1700" notAfter="1733"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 2. Drittel</entry>
+      <entry>notBefore="1733" notAfter="1766"</entry>
+     </row>
+     <row>
+      <entry>18. Jh. 3. Drittel</entry>
+      <entry>notBefore="1766" notAfter="1799"</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry>um 1762</entry>
+      <entry>notBefore="1757" notAfter="1767"</entry>
+     </row>
+     <row>
+      <entry>1762</entry>
+      <entry>when="1762"</entry>
+     </row>
+     <row>
+      <entry>5. Januar 1762</entry>
+      <entry>when="1762-01-05"</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>Kombinierte Angaben ergeben die Summe der Zeiträume, z.B.:</p>
+  <table id="table_gyw_f4f_cy">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Datumsangabe im Text</entry>
+      <entry>Zu setzende Attributwerte</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>18. Jh. E. / 19. Jh. 1. H.</entry>
+      <entry>notBefore="1780" notAfter="1849"</entry>
+     </row>
+     <row>
+      <entry>1762/3</entry>
+      <entry>notBefore="1762" notAfter="1763"</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p><image href="icons/foreign16.gif" id="image_lcj_vqf_cy"/>
+   <b>Fremdsprachliche Textstellen</b></p>
+  <p>Fremdsprachliche Textstellen können mit einem &lt;foreign xml:lang="grc"> umschlossen werden.
+   Im Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache angegeben:</p>
+  <p>
+   <table id="table_rvw_1ts_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Fremdsprache</entry>
+       <entry>Wert für @fm</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Griechisch</entry>
+       <entry>grc</entry>
+      </row>
+      <row>
+       <entry>Latein</entry>
+       <entry>Lat</entry>
+      </row>
+      <row>
+       <entry>Hebräisch</entry>
+       <entry>heb</entry>
+      </row>
+      <row>
+       <entry>Deutsch</entry>
+       <entry>deu</entry>
+      </row>
+      <row>
+       <entry>Französisch</entry>
+       <entry>fra</entry>
+      </row>
+      <row>
+       <entry>Englisch</entry>
+       <entry>eng</entry>
+      </row>
+      <row>
+       <entry>Russisch</entry>
+       <entry>rus</entry>
+      </row>
+      <row>
+       <entry>Spanisch</entry>
+       <entry>spa</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </p>
+  <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
+  <p>
+   <image href="icons/index16.gif" id="image_sgh_kbd_gy"/><b> Textstellen indizieren</b></p>
+  <p>Sie können Textstellen mit einem &lt;index> umgeben, um auf einen Index-Eintrag zu verweisen.
+   Das Attribut @spanTo wird automatisch eingetragen, wenn Sie aus der Liste der verfügbaren
+   Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich um einen Verweis in
+   den Personen-Index (persons), Ort-Index (places) oder
+   Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
+   <?oxy_custom_end?>handelt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" 
+corresp="pdrPo.001.004.000000520">
+<term>Bonaparte, Louis, comte de Saint-Leu
+(1778-1846)</term>
+</index>[Textstelle] Bonaparte [Textstelle]<anchor type="index"
+xml:id="ixkh_ysf_cy"/>]]></codeblock>
+  <p><image href="icons/names16.gif" id="image_wpc_d3f_2y"/>
+   <b>Namen kennzeichnen</b></p>
+  <p>Namen, die im Text erscheinen, können Sie auszeichnen und mit dem entsprechenen Register
+   verknüpfen. Es wird unterschieden zwischen Personen (persName), Orten (placeName), Organisationen
+   (orgName), Werken (bibl) und
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Sachbegriffen
+   (…).<?oxy_custom_end?> Das Attribut @key wird je nach der Auswahl eines Registereintrages
+   automatisch besetzt..</p>
+  <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
+der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
+  <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein &lt;bibl>, in dem Sie auf einen
+   Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach entsprechend besetzt.
+   Im Attribut @type wird notiert, ob es sich um Primärliteratur (primary) oder Sekundärliteratur
+   (secondary) handelt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI" type="primary">folgen</bibl>]]></codeblock>
+  <p>Wenn auf ein früheres Element im Text zurückgewiesen wird, kann dies mit einem &lt;rs>
+   entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren @type
+   bestimmt: <table id="table_krh_ncd_gy">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Bezug auf</entry>
+       <entry>Wert für @type</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Person</entry>
+       <entry>person</entry>
+      </row>
+      <row>
+       <entry>Ort</entry>
+       <entry>place</entry>
+      </row>
+      <row>
+       <entry>Literaturangabe</entry>
+       <entry>bibl</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <codeblock outputclass="language-xml"><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
+Ich höre nur Beschwerden von<rs type="person">ihm</rs>]]></codeblock>
+ </conbody>
+</concept>

@@ -5,21 +5,29 @@
  <shortdesc></shortdesc>
  <conbody>
   <p><b>Adresse</b></p>
-  <p>Die Adresszeile eines Briefes geben Sie in einem &lt;adrLine> an.</p>
+  <p>Die Adresszeile eines Briefes geben Sie in einem &lt;adrLine> (adress line) an.</p>
   <codeblock outputclass="language-xml"><![CDATA[<address>
    <addrLine>Berlin, Jägerstraße 12</addrLine>
 </address>]]></codeblock>
   <p><b>Briefanfang</b></p>
   <p>Der Briefanfang wird in &lt;opener> notiert und kann eine Datumsangabe und Grußformel
-   enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
-   Datumsangabe an. Im &lt;salute> wird die Grußformel transkripiert.</p>
+      enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
+      Datumsangabe an. Im &lt;salute> wird die Grußformel transkribiert.</p>
   <codeblock outputclass="language-xml"><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
 </opener>]]></codeblock>
   <p><b>Neuer Schreibakt</b></p>
-  <p>Wenn der Brieftext in mehreren Schreibakten erstellt worden ist, kann der Text in Sektionen
-   unterteilt werden. Dabei </p>
+  <p>Wenn der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt werden. Falls
+      ein Brief in einem Schreibakt geschrieben wurde, umfasst das &lt;div> den gesamten &lt;body>.
+      Sonst markiert ein neuer &lt;div> den Beginn eines neuen Schreibakten. Dabei ist es möglich
+      die Anzahl der Schreibakte im Attribut @n anzugeben.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
+   <p>[Erster Schreibakt]</p>
+</div>
+<div type="writingSession" n="2">
+   <p>[Zweiter Schreibakt]</p>
+</div>]]> </codeblock>
   <p><b>Briefschluss</b></p>
   <p>Der Briefschluss wird in einem &lt;closer rend="paragraph"> notiert. Dabei bestimmt das
    Attribut @rend, ob der Briefschluss in einem eigenen Absatz 8paragraph) oder innerhalb einer
@@ -37,5 +45,9 @@
    ...
 </closer>]]></codeblock>
   <p><b>Postskriptum</b></p>
+   <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem &lt;postcript> notiert.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<postscript>
+   <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
+</postscript>]]></codeblock>
  </conbody>
 </concept>

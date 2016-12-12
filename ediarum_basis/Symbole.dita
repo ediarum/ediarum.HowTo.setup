@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_aww_xh2_2y">
+ <title>Symbole</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><b>Buchstaben</b></p>
+  <p>Sie können folgende Buchstaben, die ein fremsprachliches diakritisches Zeichen benötigen, über
+   das Menü "Symbole" in den Brieftext einfügen: </p>
+  <p>â, æ, Æ, ç, Ç, &#x229; ,&#x00EB;, ï, ,ł, Ł,ń, ñ, ø, œ, Œ, š, Š </p>
+  <p><b>Bruchzahlen</b></p>
+  <p>Außerdem können Sie über das Menü "Symbole" Bruchzahlen als ein Zeichen anzeigen lassen.</p>
+  <p>⅘, ⅙, ⅚, ⅛, ⅜, ⅝, ⅞</p>
+  <p><b>Einheitzeichen</b></p>
+  <p>Außerdem können Sie ein "&#x00A3;"-Zeichen einfügen.</p>
+  <p><b>Interpunktion</b></p>
+  <p>Sie können über das Menü "Symbole" bestimme Interpuntionszeichen einfügen: Kürzungsstrich,
+   Halbgeviertstrich, Geviertstrich, Auslassungspunkte.</p>
+ </conbody>
+</concept>

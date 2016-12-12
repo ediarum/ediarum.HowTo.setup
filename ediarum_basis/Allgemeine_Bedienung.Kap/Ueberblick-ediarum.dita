@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_jj1_vc2_vw">
+ <title>Überblick</title>
+ <shortdesc/>
+ <conbody>
+  <p>Das Programmfenster (siehe Abb.) ist dreigeteilt: oben befinden sich die drei Leisten (1–3) mit
+      verschiedenen Werkzeugen. Links ist der Dateibaum (5) der Datenbank zu finden. Im rechten
+      Fenster (6) können die einzelnen Dateien bearbeitet werden. Sind mehrere Dateien offen, kann
+      zwischen ihnen mit Hilfe der Tableiste (4) gewechselt werden. Unterhalb dieses Fensters kann
+      die Ansicht des Dokumentes umgestellt werden (7).</p>
+   <p><image href="Abb.Ueberblick-ediarum.png" ></image></p>
+  <p>1. Allgemeine Funktionen</p>
+  <p>2. Werkzeugleiste für <i>Transkriptionen</i></p>
+  <p>3. Werkzeugleiste für Metaangaben und textspezfische Funktionen</p>
+  <p>4. Tableiste mit geöffneten Dateien</p>
+  <p>5. Dateibaum</p>
+  <p>6. Textfenster</p>
+  <p>7. Ansichtenwahl für das Textfenster</p>
+ </conbody>
+</concept>
