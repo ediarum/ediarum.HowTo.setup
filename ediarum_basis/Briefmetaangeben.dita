@@ -31,8 +31,8 @@
         </tgroup>
       </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
-   <correspAction type="sent">...</correspAction>
-   <correspAction type="received">...</correspAction>
+   <correspAction type="sent">[Angaben zum Sender]</correspAction>
+   <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
    <p>Die detailierten Angaben zu Sender werden innerhalb des
       <![CDATA[<correspAction type="sent">]]> gemacht. Sie können den Namen
@@ -50,7 +50,7 @@
    </correspAction>
 </correspDesc>]]></codeblock>
     <p><b>Datierung</b></p>
-    <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> ausgezeichnet. Wichtig ist, dass die
+    <p>Datumsangaben werden mit Hilfe von <![CDATA[<date>]]> ausgezeichnet. Wichtig ist, dass die
       Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
       @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert
       später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
@@ -62,7 +62,7 @@
     <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
     <p>3. Ungefährer Zeitraum</p>
     <p>
-      <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai1804</date>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
     </p>
     <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche
       zur Verfügung, die die Optionen „Genaues Datum“, „Genaue Zeitspanne“ und „Ungefährer Zeitraum“

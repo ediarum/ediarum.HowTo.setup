@@ -155,7 +155,7 @@
   <codeblock outputclass="language-xml">&lt;sic>Atomentheorie&lt;/sic>&lt;corr type="deleted"/></codeblock>
   <p><image href="icons/corr-sic16.gif" id="image_mpc_d3f_2y"/>
    <b>Korrekturen durch den Herausgeber</b></p>
-  <p>Werden Schroedinger des Autors im edierten Text korrigiert, so wird das Originalwort mit
+  <p>Werden Fehler des Autors im edierten Text korrigiert, so wird das Originalwort mit
    <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/> (correction)]]> ausgezeichnet; beides
    wird mit einem <![CDATA[<choice/>]]> umschlossen. Im Element <![CDATA[<corr/>]]> wird durch das
    Attribut @cert (certainty) die Wahrscheinlichkeit notiert, mit der die Korrektur zutrifft: <table>
@@ -185,13 +185,16 @@
   <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
   <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
    &lt;orig> umschließen und in &lt;reg> die normalisierte Schreibweise angeben.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<orig>althen</orig><reg>alten</reg>]]></codeblock>
+  <codeblock outputclass="language-xml">&lt;choice><![CDATA[<orig>althen</orig><reg>alten</reg>]]>&lt;/choice></codeblock>
   <p><image href="icons/seg-note16.gif" id="image_vn4_2nf_cy"/>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></p>
-  <p>Sie können Sachanmerkung zu Textstellen erstellen, indem Sie dieses mit einem &lt;oirg>
-   umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut @xml.id
-   wird automatisch generiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<orig>Rede des Helden</orig><note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>]]></codeblock>
+  <p>Sie können Sachanmerkung  (&lt;seg>) zu Textstellen erstellen, indem Sie dieses mit einem
+   &lt;oirg> umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut
+   @xml.id wird automatisch generiert.</p>
+  <codeblock outputclass="language-xml">&lt;seg type="comment"><![CDATA[
+   <orig>Rede des Helden</orig>
+   <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
+]]>&lt;/seg></codeblock>
   <p><image href="icons/verweis16.gif" id="image_npc_d3f_2y"/>
    <b>Verweise</b></p>
   <p>Sie können Textstellen mit zwei &lt;anchor> derartig markieren, dass auf diese Querverweise
@@ -203,8 +206,9 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit einem &lt;ref target="…">
    gemacht, dessen Attribut @target den Code für die entsprechende Textstelle enthält.</p>
   <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <p>Außerdem kann mit einem &lt;ref key="…"> auf einen Eintrag im Sachregister verwiesen
-   werden.</p>
+   werden.<?oxy_custom_end?></p>
   <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <p>Link auf externe Website<?oxy_custom_end?></p>
@@ -212,10 +216,9 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   <p>Sachanmerkung<?oxy_custom_end?></p>
   <p><image href="icons/date16.gif" id="image_lxm_lnf_cy"/>
    <b>Datumsangaben </b></p>
-  <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> bzw. im Abschnitt
-   <![CDATA[<origin/> mit <origDate>]]> ausgezeichnet. In Oxygen XML Author steht zur Auszeichnung
-   von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die Optionen „Genaues Datum"
-   und „Ungefährer Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
+  <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> ausgezeichnet. In Oxygen XML Author
+   steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die
+   Optionen „Genaues Datum" und „Ungefährer Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
   <p>Wichtig ist, dass diese Datumsangaben nochmals in einem bestimmten Format notiert werden: @when
    bzw. @from/@to und @notBefore/@notAfter . Dadurch kann der in der Datumsangabe enthaltene Wert
    später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
@@ -248,7 +251,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
   <p>3. Ungefährer Zeitraum</p>
   <p>
-   <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai1804</date>]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
   </p>
   <table id="table_xpp_ynf_cy">
    <tgroup cols="2">
@@ -439,10 +442,8 @@ xml:id="ixkh_ysf_cy"/>]]></codeblock>
   <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
 der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
   <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein &lt;bibl>, in dem Sie auf einen
-   Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach entsprechend besetzt.
-   Im Attribut @type wird notiert, ob es sich um Primärliteratur (primary) oder Sekundärliteratur
-   (secondary) handelt.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI" type="primary">folgen</bibl>]]></codeblock>
+   Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach entsprechend besetzt. </p>
+  <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI">folgen</bibl>]]></codeblock>
   <p>Wenn auf ein früheres Element im Text zurückgewiesen wird, kann dies mit einem &lt;rs>
    entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren @type
    bestimmt: <table id="table_krh_ncd_gy">
