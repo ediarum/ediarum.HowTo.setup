@@ -6,8 +6,8 @@
  <conbody>
   <p><image href="icons/paragraph16.png" id="image_lcq_yhf_2y"/>
    <b>Absatz</b></p>
-  <p>Absätze werden mit <![CDATA[<p>]]> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann
-   auf zwei Arten eingefügt werden: </p>
+  <p>Absätze werden mit &lt;p> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
+   Arten eingefügt werden: </p>
   <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
     href="icons/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
   <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor

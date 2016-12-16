@@ -5,10 +5,14 @@
  <shortdesc></shortdesc>
  <conbody>
   <p><b>Adresse</b></p>
-  <p>Die Adresszeile eines Briefes geben Sie in einem &lt;adrLine> (adress line) an.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<address>
-   <addrLine>Berlin, Jägerstraße 12</addrLine>
-</address>]]></codeblock>
+  <p>Die Adresszeile eines Briefes geben Sie in einem &lt;addrLine> (address line) an. Die
+      Adresszeile muss entweder am Briefangang (&lt;opener>) oder am Briefende (&lt;closer>)
+      stehen.</p>
+  <codeblock outputclass="language-xml">&lt;opener>
+<![CDATA[   <address>
+      <addrLine>Berlin, Jägerstraße 12</addrLine>
+   </address>]]>
+&lt;/opener></codeblock>
   <p><b>Briefanfang</b></p>
   <p>Der Briefanfang wird in &lt;opener> notiert und kann eine Datumsangabe und Grußformel
       enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
@@ -18,10 +22,9 @@
    <salute>Lieber Mohr</salute>
 </opener>]]></codeblock>
   <p><b>Neuer Schreibakt</b></p>
-  <p>Wenn der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt werden. Falls
-      ein Brief in einem Schreibakt geschrieben wurde, umfasst das &lt;div> den gesamten &lt;body>.
-      Sonst markiert ein neuer &lt;div> den Beginn eines neuen Schreibakten. Dabei ist es möglich
-      die Anzahl der Schreibakte im Attribut @n anzugeben.</p>
+  <p>Der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt. Ein neues &lt;div>
+      markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte
+      im Attribut @n anzugeben.</p>
    <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
@@ -29,17 +32,36 @@
    <p>[Zweiter Schreibakt]</p>
 </div>]]> </codeblock>
   <p><b>Briefschluss</b></p>
-  <p>Der Briefschluss wird in einem &lt;closer rend="paragraph"> notiert. Dabei bestimmt das
-   Attribut @rend, ob der Briefschluss in einem eigenen Absatz 8paragraph) oder innerhalb einer
-   Zeile (within the line) notiert wurde. Im &lt;salute> wird die Grußformel, im &lt;signed> die
-   Unterschrift notiert.</p>
+  <p>Der Briefschluss wird in einem &lt;closer> notiert. Im &lt;salute> wird die Grußformel, im
+      &lt;signed> die Unterschrift notiert.Dabei gibt das Attribut @rend im &lt;closer> an, wo der
+      Briefschluss notiert wurde. <table id="table_z4c_wqq_gy">
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Briefschluss</entry>
+              <entry>Wert für @rend</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>eigener Absatz</entry>
+              <entry>paragraph</entry>
+            </row>
+            <row>
+              <entry>innerhalb einer Zeile</entry>
+              <entry>within the line</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table></p>
   <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
     <salute>Beste Grüße</salute>
    <signed>F.E.</signed>
 </closer>]]></codeblock>
   <p><b>Datumszeile im Briefschluss</b></p>
-  <p>Wenn es eine Datumszeile am Briefende gibt, wird diese an erster Stelle innerhalbb des
-   <![CDATA[<closer>]]> notiert.</p>
+    <p>Die Datumszeile am Briefende wird innerhalb des &lt;closer> notiert. Sie wird dort
+      dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und Unterschirft
+      transkibiert werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
    ...

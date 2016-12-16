@@ -74,7 +74,7 @@
    ...
    <note>Das Empfangsdatum kann nicht festgestellt werden.</note>
 </correspDesc>]]></codeblock></p>
-  <p><b>Korrespondierende Briefe</b></p>
+  <p><b>Korrespondentzusammenhang des Briefe</b>s</p>
   <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
       erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können.  Im Attribut
       @target wird der interne Link des entsprechenden Briefs angegeben. Das Attribut @type gibt
@@ -106,6 +106,6 @@
   <p>Sie können anstelle eines internen Links auch einen Text eingeben, in dem Sie Angaben zu vorangehenden und nachfolgenden Briefen machen können.</p>
   <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
   <p>Sie können ebenfalls einen externen Link zu einem Brief herstellen und zusätzlich einen Text eingeben.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target="http___telotadev.bbaw.de/externe_Datenbank//Brief.xml">Antwortschreiben</ref>]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
  </conbody>
 </concept>

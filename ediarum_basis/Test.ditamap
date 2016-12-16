@@ -4,7 +4,7 @@
     <booktitle>
         <mainbooktitle>ediarum.Basis</mainbooktitle>
     </booktitle>
-
+    
     <chapter href="Einfuehrung.Kap/Ueberschrift_ediarum.dita">
         <topicref href="Einfuehrung.Kap/Zentrale_Datenhaltung.dita"/>
         <topicref href="Einfuehrung.Kap/Einsatz_von_XML.dita"/>
@@ -28,11 +28,7 @@
             <topicref href="Briefmetaangeben.dita"/>
             <topicref href="Brieftext.dita"/>
             <topicref href="Symbole.dita"></topicref>
-        </topicref>                  
-    </chapter>
-    <chapter href="Register-Ueberschrift.dita">
-        <topicref href="Allgemeine_Werkzeugleiste.dita"/>
-        <topicref href="Register.dita"></topicref>
+        </topicref>
         
     </chapter>
 </bookmap>
