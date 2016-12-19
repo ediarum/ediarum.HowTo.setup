@@ -42,6 +42,83 @@
     </tgroup>
    </table></p>
   <p><b>Allgemein</b></p>
+  <p>Die Schaltfläche „ Allgemein“ umfasst Aktionen, die im Prinzip in allen Registersorten
+   verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
+  <p>Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.) versehen.
+   Die Norm-ID wird in einem &lt;idno> (identifikator) notiert.
+   <codeblock>&lt;idno type="uri">118638076&lt;/idno></codeblock></p>
+  <p/>
+  <p>Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
+   Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
+   in einem &lt;desc> (description), im Personenregister und im Ortsregister in einem &lt;note>
+   notiert.</p>
+  <p>Einrichtungs-/Sachregister:<codeblock>&lt;desc>Verlagsbuchhandlung in Karlsruhe.&lt;/desc></codeblock></p>
+  <p>Personen-/Ortsregister:</p>
+  <codeblock>&lt;note>deutscher Journalist; Liberaler&lt;/note></codeblock>
+  <p/>
+  <p>Mit der Funktion „ Register sortieren“ wird das Register alphapetisch angeordnet.</p>
+  <p/>
+  <p>Sie können innerhalb von Kommentaren in Registeinrägen auf andere Personen, Orte und
+   Organisationen verlinken. Über ein Dialogfenster werden Ihnen die bereits erstellten Einträge
+   angezeigt. Im Attribut @key wird die ID zu dem verlinkten Eintrag notiert.<table
+    id="table_y4b_yy1_3y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Verlinkung auf</entry>
+       <entry>Link</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Person</entry>
+       <entry>&lt;persName></entry>
+      </row>
+      <row>
+       <entry>Ort</entry>
+       <entry>&lt;placeName></entry>
+      </row>
+      <row>
+       <entry>Organisation</entry>
+       <entry>&lt;orgName></entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table><codeblock>&lt;note>&lt;persName key="pdrPo.001.004.000001072">Mutter von Julie&lt;/persName>&lt;/note></codeblock></p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>Außerdem können Sie mit einem &lt;ref> (reference) auf eine externe Website verweisen.
+   <?oxy_custom_end?><codeblock>&lt;ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie&lt;/ref></codeblock></p>
+  <p>In jedem Eintrag können innerhalb des &lt;linkGrp> (link group) Referenzen auf die Druckausgabe
+   gemacht werden. Die einzelnen Refenzen werden in einem &lt;ptr> (print) angegeben. Über ein
+   Dialogfenster geben Sie dabei an, ob Sie auf eine Seitenzahl oder Briefnummer verweisen. Von
+   dieser Angabe hängt der Wert fürs Attribut @type ab:<table id="table_bps_jw1_3y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Referenz</entry>
+       <entry>Wert für @type</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Seitenzahl</entry>
+       <entry>page</entry>
+      </row>
+      <row>
+       <entry>Brief</entry>
+       <entry>letter</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p>Im Attribut @target werden detaillierte Angaben zur referierten Stelle gemacht. Über ein
+   Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format "B#SZ". Außerdem müssen Sie
+   vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie „ ja“ auswählen,
+   wird ein zusätzliches Attribut @subtype mit dem Wert "comment" generiert. </p>
+  <codeblock>&lt;linkGrp>
+   &lt;ptr type="page" target="I#32"/>
+   &lt;ptr type="letter" target="II#46" subtype="comment"/>
+&lt;/linkGrp></codeblock>
   <p><b>Personenregister</b></p>
   <p>Die Einträge im Personenregister werden in einem &lt;person> notiert. Wenn Sie einen Eintrag
    erstellen wird im Attribut @xml.id automatisch eine ID generiert, mit der Sie auf den Eintrag
@@ -104,7 +181,7 @@
   <p>Der Name des Ortes wird in einem &lt;placeName>
    angegeben.<codeblock>&lt;placeName type="reg">Liverpool&lt;/placeName></codeblock></p>
   <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
-   Gebäude angeben. Diese Angabe wird  in einem &lt;listPlace> notiert. Weil es sich um eine
+   Gebäude angeben. Diese Angabe wird in einem &lt;listPlace> notiert. Weil es sich um eine
    spezifischere Angabe handelt, wird diese wiederum in einem &lt;place> angegeben und erhält im
    Attribut @xml:id eine individuelle ID. Im Attribut @type wird ausgezeichnet ob es sich um eine
    Straße (street) oder um ein Gebäude (bulidung)
@@ -156,10 +233,10 @@
    JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag optional.</p>
   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
   <p><b>Zusammenführen</b></p>
-  <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die Einträge
-   aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag setzen und
-   die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als zweites
-   auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als alternative
-   Angaben behandelt.</p>
+  <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
+   Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag
+   setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als
+   zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als
+   alternative Angaben behandelt.</p>
  </conbody>
 </concept>
