@@ -4,16 +4,16 @@
  <title>Textarbeit des Autors</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p><image href="icons/paragraph16.png" id="image_lcq_yhf_2y"/>
+  <p><image href="../img/paragraph16.png" id="image_lcq_yhf_2y"/>
    <b>Absatz</b></p>
   <p>Absätze werden mit &lt;p> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
    Arten eingefügt werden: </p>
   <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-    href="icons/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
+    href="../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
   <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
    platzieren, Return drücken und „Teilen p“ auwählen – in dem man einfach nochmals Return
    drückt.</p>
-  <p><image href="icons/lb16.gif" id="image_ncq_yhf_2y"/>
+  <p><image href="../img/lb16.gif" id="image_ncq_yhf_2y"/>
    <b>Zeilenumbruch</b></p>
   <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
    Element <![CDATA[<lb/> ]]>(linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch kann über
@@ -46,7 +46,7 @@
   <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
   <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
    weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden. </p>
-  <p><image href="icons/unorderedList16.png" id="image_ynm_qwk_xx"/><b> Listen</b></p>
+  <p><image href="../img/unorderedList16.png" id="image_ynm_qwk_xx"/><b> Listen</b></p>
   <p>Listen im Manuskript werden mit <![CDATA[<list/>]]> ausgezeichnet. Die einzelnen Punkte/Zeilen
    werden in einem &lt;item> (Punkt) transkribiert.</p>
   <codeblock outputclass="language-xml"><![CDATA[<list>
@@ -75,7 +75,7 @@
    </row>
    ...
 </table>]]></codeblock>
-  <p><image href="icons/note16.gif" id="image_jll_5ls_2y"/><b> Anmerkung im Manuskript </b></p>
+  <p><image href="../img/note16.gif" id="image_jll_5ls_2y"/><b> Anmerkung im Manuskript </b></p>
   <p>Anmerkungen des Autors oder zeitgenössischen Bearbeiters werden an der entsprechenden
    Textstelle (an der im Manuskript das Verweiszeichen bzw. -ziffer steht) eingefügt. Das
    Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür in der obersten Leiste des
@@ -125,7 +125,7 @@ benommen, welches mich in jeder Rücksicht freut.</codeblock>
   </table>
   <codeblock outputclass="language-xml">mit.<![CDATA[<note  place="right" hand="#author">]]>Ich konnte sie nicht mehr mit der 
 Post schicken.<![CDATA[</note>]]></codeblock>
-  <p><image href="icons/figure16.png" id="image_tp3_vls_2y"
+  <p><image href="../img/figure16.png" id="image_tp3_vls_2y"
     /><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>
     Zeichnung einfügen</b></p>
   <p>Mit einem &lt;figure> können Sie Zeichungen (samt Bildunterschrift) aus dem Manuskript
@@ -135,7 +135,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <codeblock outputclass="language-xml"><![CDATA[<figure facs="tz" hand="#adresee">
    <figDesc>[Bildunterschrift]</figDesc>
 </figure>Die</del>]]></codeblock>
-  <p><image href="icons/pagebreak16.gif" id="image_pcq_yhf_2y"/>
+  <p><image href="../img/pagebreak16.gif" id="image_pcq_yhf_2y"/>
    <b>Seiten- bzw. Foliowechsel</b></p>
   <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element <![CDATA[<pb>]]>
    (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht um die Foliazählung
@@ -150,7 +150,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <p>Es kann auch mit &lt;fw type="folNum"> eine alternative Foliozählung angegeben werden, die in
    der Autor-Ansicht in Klammern angezeigt wird.</p>
   <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
-  <p><image href="icons/underlined16.png" id="image_qcq_yhf_2y"/>
+  <p><image href="../img/underlined16.png" id="image_qcq_yhf_2y"/>
    <b>Unterstreichungen</b></p>
   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rendition="#u"/>]]>
    (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um was für eine Unterstreichung
@@ -179,11 +179,11 @@ Post schicken.<![CDATA[</note>]]></codeblock>
     </tgroup>
    </table></p>
   <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
-  <p><image href="icons/superscript16.png" id="image_ofy_cms_2y"/><b> Hochstellen</b></p>
+  <p><image href="../img/superscript16.png" id="image_ofy_cms_2y"/><b> Hochstellen</b></p>
   <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rendition="#sup">]]>
    ausgezeichnet.</p>
   <codeblock><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
-  <p><image href="icons/del16.gif" id="image_rcq_yhf_2y"/>
+  <p><image href="../img/del16.gif" id="image_rcq_yhf_2y"/>
    <b>Streichungen</b></p>
   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <![CDATA[<del]]>
    rendition="#s"> (deletion) ausgezeichnet. Das Attribut @rendition enthält nähere Angaben zur Art
@@ -212,7 +212,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
     </tgroup>
    </table></p>
   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock>
-  <p><image href="icons/subst216.gif" id="image_scq_yhf_2y"/>
+  <p><image href="../img/subst216.gif" id="image_scq_yhf_2y"/>
    <b>Korrekturen</b></p>
   <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen wurde, so
    wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang <![CDATA[<subst/>]]>
@@ -258,7 +258,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    <del rendition="#s">Bröschüre</del>
    <add place="superlinear">Broschüre</add>
 </subst>]]></codeblock>
-  <p><image href="icons/add16.gif" id="image_tcq_yhf_2y"/>
+  <p><image href="../img/add16.gif" id="image_tcq_yhf_2y"/>
    <b>Ergänzungen</b></p>
   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]>
    (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt: </p>

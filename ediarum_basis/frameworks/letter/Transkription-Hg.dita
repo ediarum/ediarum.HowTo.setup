@@ -4,7 +4,7 @@
  <title>Textarbeit des Herausgebers</title>
  <shortdesc/>
  <conbody>
-  <p><image href="icons/unclear16.gif" id="image_gpc_d3f_2y"/>
+  <p><image href="../img/unclear16.gif" id="image_gpc_d3f_2y"/>
    <b>Unsichere Lesarten</b></p>
   <p>Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit
    <![CDATA[<u]]>nclear/> ausgezeichnet. Im Attribut @reason wird die Ursache der Unsicherheit
@@ -50,7 +50,7 @@
     </tgroup>
    </table></p>
   <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
-  <p><image href="icons/gap16.gif" id="image_hpc_d3f_2y"/>
+  <p><image href="../img/gap16.gif" id="image_hpc_d3f_2y"/>
    <b>Nicht lesbare Elemente</b></p>
   <p>Nicht lesbare Elemente im Manuskript werden mit <![CDATA[<gap/>]]> ausgezeichnet. Im Attribut
    @unit wird das nicht lesbare Elemtent näher bestimmt: <table id="table_owv_gqs_2y">
@@ -111,17 +111,17 @@
     </tgroup>
    </table></p>
   <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="chars" quantity="1" reason="fm"/>dann wieder]]></codeblock>
-  <p><image href="icons/del_gap16.gif" id="image_ipc_d3f_2y"/>
+  <p><image href="../img/del_gap16.gif" id="image_ipc_d3f_2y"/>
    <b>Durchestrichene und nicht lesbare Wörter</b></p>
   <p>Bei durchgestrichenen Wörtern, die nicht entziffert werden können umschließt das Element
    <![CDATA[<del/> das Element <gap/>.]]></p>
   <codeblock outputclass="language-xml"><![CDATA[oft <del rend="durchgestrichen"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
-  <p><image href="icons/ex16.png" id="image_kpc_d3f_2y"/>
+  <p><image href="../img/ex16.png" id="image_kpc_d3f_2y"/>
    <b>Ergänzungen</b></p>
   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit <![CDATA[<ex/> ]]> (expansion)
    ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
-  <p><image href="icons/surplus16.gif" id="image_avn_jlf_cy"/>
+  <p><image href="../img/surplus16.gif" id="image_avn_jlf_cy"/>
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></p>
   <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
    <![CDATA[<supplied cert="high"/>]]> ergänzt werden. Dabei drückt der Attributwert für @cert
@@ -147,13 +147,13 @@
    </tgroup>
   </table>
   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
-  <p><image href="icons/supplied16.gif" id="image_lpc_d3f_2y"/>
+  <p><image href="../img/supplied16.gif" id="image_lpc_d3f_2y"/>
    <b>Streichungen durch den Herausgeber</b></p>
   <p>I<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m Manuskript vorhandene
    redundante bzw. überflüssige Wörter oder Buchstaben können nach der Transkription mit
    <![CDATA[<sic> und <corr type="deleted"]]> als überflüssig markiert werde<?oxy_custom_end?>n.</p>
   <codeblock outputclass="language-xml">&lt;sic>Atomentheorie&lt;/sic>&lt;corr type="deleted"/></codeblock>
-  <p><image href="icons/corr-sic16.gif" id="image_mpc_d3f_2y"/>
+  <p><image href="../img/corr-sic16.gif" id="image_mpc_d3f_2y"/>
    <b>Korrekturen durch den Herausgeber</b></p>
   <p>Werden Fehler des Autors im edierten Text korrigiert, so wird das Originalwort mit
    <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/> (correction)]]> ausgezeichnet; beides
@@ -186,7 +186,7 @@
   <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
    &lt;orig> umschließen und in &lt;reg> die normalisierte Schreibweise angeben.</p>
   <codeblock outputclass="language-xml">&lt;choice><![CDATA[<orig>althen</orig><reg>alten</reg>]]>&lt;/choice></codeblock>
-  <p><image href="icons/seg-note16.gif" id="image_vn4_2nf_cy"/>
+  <p><image href="../img/seg-note16.gif" id="image_vn4_2nf_cy"/>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></p>
   <p>Sie können Sachanmerkung  (&lt;seg>) zu Textstellen erstellen, indem Sie dieses mit einem
    &lt;oirg> umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut
@@ -195,7 +195,7 @@
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
 ]]>&lt;/seg></codeblock>
-  <p><image href="icons/verweis16.gif" id="image_npc_d3f_2y"/>
+  <p><image href="../img/verweis16.gif" id="image_npc_d3f_2y"/>
    <b>Verweise</b></p>
   <p>Sie können Textstellen mit zwei &lt;anchor> derartig markieren, dass auf diese Querverweise
    gemacht werden können. Das Attribut @xml:id wird automatisch generiert und beinhaltet den Code,
@@ -214,7 +214,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   <p>Link auf externe Website<?oxy_custom_end?></p>
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <p>Sachanmerkung<?oxy_custom_end?></p>
-  <p><image href="icons/date16.gif" id="image_lxm_lnf_cy"/>
+  <p><image href="../img/date16.gif" id="image_lxm_lnf_cy"/>
    <b>Datumsangaben </b></p>
   <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> ausgezeichnet. In Oxygen XML Author
    steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die
@@ -366,7 +366,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
     </tbody>
    </tgroup>
   </table>
-  <p><image href="icons/foreign16.gif" id="image_lcj_vqf_cy"/>
+  <p><image href="../img/foreign16.gif" id="image_lcj_vqf_cy"/>
    <b>Fremdsprachliche Textstellen</b></p>
   <p>Fremdsprachliche Textstellen können mit einem &lt;foreign xml:lang="grc"> umschlossen werden.
    Im Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache angegeben:</p>
@@ -418,7 +418,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   </p>
   <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
   <p>
-   <image href="icons/index16.gif" id="image_sgh_kbd_gy"/><b> Textstellen indizieren</b></p>
+   <image href="../img/index16.gif" id="image_sgh_kbd_gy"/><b> Textstellen indizieren</b></p>
   <p>Sie können Textstellen mit einem &lt;index> umgeben, um auf einen Index-Eintrag zu verweisen.
    Das Attribut @spanTo wird automatisch eingetragen, wenn Sie aus der Liste der verfügbaren
    Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich um einen Verweis in
@@ -431,7 +431,7 @@ corresp="pdrPo.001.004.000000520">
 (1778-1846)</term>
 </index>[Textstelle] Bonaparte [Textstelle]<anchor type="index"
 xml:id="ixkh_ysf_cy"/>]]></codeblock>
-  <p><image href="icons/names16.gif" id="image_wpc_d3f_2y"/>
+  <p><image href="../img/names16.gif" id="image_wpc_d3f_2y"/>
    <b>Namen kennzeichnen</b></p>
   <p>Namen, die im Text erscheinen, können Sie auszeichnen und mit dem entsprechenen Register
    verknüpfen. Es wird unterschieden zwischen Personen (persName), Orten (placeName), Organisationen
