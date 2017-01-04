@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_mtm_w12_vw">
  <title>Zentrale Datenhaltung</title>
- <shortdesc/>
  <conbody>
     <p>Die digitale Arbeitsumgebung nutzt die XML-Datenbank "existdb" als zentrales Repositorium für
       die XML-Dokumente. Die Datenbank ist auf einem Server installiert und online zugänglich.

@@ -2,74 +2,96 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_gkx_m3h_dy">
  <title>Brieftext</title>
- <shortdesc></shortdesc>
- <conbody>
-  <p><b>Adresse</b></p>
-  <p>Die Adresszeile eines Briefes geben Sie in einem &lt;addrLine> (address line) an. Die
-      Adresszeile muss entweder am Briefangang (&lt;opener>) oder am Briefende (&lt;closer>)
-      stehen.</p>
-  <codeblock outputclass="language-xml">&lt;opener>
+  <concept id="concept_qkt_kkn_my">
+    <title>Adresse </title>
+    <conbody>
+      <p>Die Adresszeile eines Briefes geben Sie in einem &lt;addrLine> (address line) an. Die
+        Adresszeile muss entweder am Briefangang (&lt;opener>) oder am Briefende (&lt;closer>)
+        stehen.</p>
+      <codeblock outputclass="language-xml">&lt;opener>
 <![CDATA[   <address>
       <addrLine>Berlin, Jägerstraße 12</addrLine>
    </address>]]>
 &lt;/opener></codeblock>
-  <p><b>Briefanfang</b></p>
-  <p>Der Briefanfang wird in &lt;opener> notiert und kann eine Datumsangabe und Grußformel
-      enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
-      Datumsangabe an. Im &lt;salute> wird die Grußformel transkribiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<opener>
+    </conbody>
+  </concept>
+  <concept id="concept_gdy_lkn_my">
+    <title>Briefanfang</title>
+    <conbody>
+      <p>Der Briefanfang wird in &lt;opener> notiert und kann eine Datumsangabe und Grußformel
+        enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
+        Datumsangabe an. Im &lt;salute> wird die Grußformel transkribiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
 </opener>]]></codeblock>
-  <p><b>Neuer Schreibakt</b></p>
-  <p>Der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt. Ein neues &lt;div>
-      markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte
-      im Attribut @n anzugeben.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
+    </conbody>
+  </concept>
+  <concept id="concept_lfy_nkn_my">
+    <title>Neuer Schreibakt</title>
+    <conbody>
+      <p>Der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt. Ein neues
+        &lt;div> markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der
+        Schreibakte im Attribut @n anzugeben.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
 <div type="writingSession" n="2">
    <p>[Zweiter Schreibakt]</p>
 </div>]]> </codeblock>
-  <p><b>Briefschluss</b></p>
-  <p>Der Briefschluss wird in einem &lt;closer> notiert. Im &lt;salute> wird die Grußformel, im
-      &lt;signed> die Unterschrift notiert.Dabei gibt das Attribut @rend im &lt;closer> an, wo der
-      Briefschluss notiert wurde. <table id="table_z4c_wqq_gy">
-        <tgroup cols="2">
-          <thead>
-            <row>
-              <entry>Briefschluss</entry>
-              <entry>Wert für @rend</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>eigener Absatz</entry>
-              <entry>paragraph</entry>
-            </row>
-            <row>
-              <entry>innerhalb einer Zeile</entry>
-              <entry>within the line</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+    </conbody>
+  </concept>
+  <concept id="concept_brk_pkn_my">
+    <title>Briefschluss</title>
+    <conbody>
+      <p>Der Briefschluss wird in einem &lt;closer> notiert. Im &lt;salute> wird die Grußformel, im
+        &lt;signed> die Unterschrift notiert.Dabei gibt das Attribut @rend im &lt;closer> an, wo der
+        Briefschluss notiert wurde. <table id="table_z4c_wqq_gy">
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>Briefschluss</entry>
+                <entry>Wert für @rend</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>eigener Absatz</entry>
+                <entry>paragraph</entry>
+              </row>
+              <row>
+                <entry>innerhalb einer Zeile</entry>
+                <entry>within the line</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
     <salute>Beste Grüße</salute>
    <signed>F.E.</signed>
 </closer>]]></codeblock>
-  <p><b>Datumszeile im Briefschluss</b></p>
-    <p>Die Datumszeile am Briefende wird innerhalb des &lt;closer> notiert. Sie wird dort
-      dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und Unterschirft
-      transkibiert werden.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+    </conbody>
+  </concept>
+  <concept id="concept_btn_qkn_my">
+    <title>Datumszeile im Briefschluss</title>
+    <conbody>
+      <p>Die Datumszeile am Briefende wird innerhalb des &lt;closer> notiert. Sie wird dort
+        dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und
+        Unterschirft transkibiert werden.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
    ...
 </closer>]]></codeblock>
-  <p><b>Postskriptum</b></p>
-   <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem &lt;postcript> notiert.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<postscript>
+    </conbody>
+  </concept>
+  <concept id="concept_qtd_skn_my">
+    <title>Postskriptum</title>
+    <conbody>
+      <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem &lt;postcript>
+        notiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<postscript>
    <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
 </postscript>]]></codeblock>
- </conbody>
+    </conbody>
+  </concept>
 </concept>

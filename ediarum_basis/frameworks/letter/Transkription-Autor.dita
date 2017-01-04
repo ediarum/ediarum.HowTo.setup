@@ -2,68 +2,81 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_lsj_whf_2y">
  <title>Textarbeit des Autors</title>
- <shortdesc></shortdesc>
- <conbody>
-  <p><image href="../img/paragraph16.png" id="image_lcq_yhf_2y"/>
-   <b>Absatz</b></p>
-  <p>Absätze werden mit &lt;p> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
-   Arten eingefügt werden: </p>
-  <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-    href="../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
-  <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-   platzieren, Return drücken und „Teilen p“ auwählen – in dem man einfach nochmals Return
-   drückt.</p>
-  <p><image href="../img/lb16.gif" id="image_ncq_yhf_2y"/>
-   <b>Zeilenumbruch</b></p>
-  <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
-   Element <![CDATA[<lb/> ]]>(linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch kann über
-   die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
-  <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs angeben,
-   ob ein Trennstrich verwendet wurde. Im Attribut @break wird der entsprechende Wert
-   festgelegt.</p>
-  <p>
-   <table id="table_ygv_f4c_gy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Zeilenumbruch innerhalb eines Wortes</entry>
-       <entry>Wert für @break</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>mit Trennstrich</entry>
-       <entry>yes</entry>
-      </row>
-      <row>
-       <entry>ohne Trennstrich</entry>
-       <entry>no</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table>
-  </p>
-  <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
-  <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
-   weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden. </p>
-  <p><image href="../img/unorderedList16.png" id="image_ynm_qwk_xx"/><b> Listen</b></p>
-  <p>Listen im Manuskript werden mit <![CDATA[<list/>]]> ausgezeichnet. Die einzelnen Punkte/Zeilen
-   werden in einem &lt;item> (Punkt) transkribiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<list>
+ <concept id="concept_ahc_nfn_my">
+  <title><image href="../img/paragraph16.png" id="image_lcq_yhf_2y"/>
+   <b>Absatz</b></title>
+  <conbody>
+   <p>Absätze werden mit &lt;p> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
+    Arten eingefügt werden: </p>
+   <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
+     href="../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
+   <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
+    platzieren, Return drücken und „Teilen p“ auwählen – in dem man einfach nochmals Return
+    drückt.</p>
+  </conbody>
+ </concept>
+ <concept id="concept_kvc_qfn_my">
+  <title><image href="../img/lb16.gif" id="image_ncq_yhf_2y"/>
+   <b>Zeilenumbruch</b></title>
+  <conbody>
+   <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
+    Element <![CDATA[<lb/> ]]>(linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch kann
+    über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
+   <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs angeben,
+    ob ein Trennstrich verwendet wurde. Im Attribut @break wird der entsprechende Wert
+    festgelegt.</p>
+   <p>
+    <table id="table_ygv_f4c_gy">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Zeilenumbruch innerhalb eines Wortes</entry>
+        <entry>Wert für @break</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>mit Trennstrich</entry>
+        <entry>yes</entry>
+       </row>
+       <row>
+        <entry>ohne Trennstrich</entry>
+        <entry>no</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   </p>
+   <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
+   <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
+    weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden.
+   </p>
+  </conbody>
+ </concept>
+ <concept id="concept_vfz_sfn_my">
+  <title><image href="../img/unorderedList16.png" id="image_ynm_qwk_xx"/><b> Listen</b></title>
+  <conbody>
+   <p>Listen im Manuskript werden mit <![CDATA[<list/>]]> ausgezeichnet. Die einzelnen Punkte/Zeilen
+    werden in einem &lt;item> (Punkt) transkribiert.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<list>
    <item>[Listenpunkt einfügen]</item>
    <item>[Listenpunkt einfügen</item>
 </list>]]></codeblock>
-  <p><b>Tabellen</b></p>
-  <p>Tabellen im Manuskript werden mit &lt;table> (Tabelle) ausgezeichnet. Über die Schaltfläche
-   lassen sich Tabellen erstellen und bearbeiten. So lassen sich weitere Zeilen und Spalten
-   hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die
-   Anzahl der Zeilen (rows) und Spalten (columns) angeben können. Mit der Schaltfläche kann die
-   Tabelle jederzeit noch nachträglich verändert werden. </p>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
-   Häkchen auf "generate_table-header". Der ersten Zeile (row) der Tabelle wird dann die Rolle der
-   Beschriftung zugewiesen (@role="label").<?oxy_custom_end?></p>
-  <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
+  </conbody>
+ </concept>
+ <concept id="concept_vd4_vfn_my">
+  <title><b>Tabellen</b></title>
+  <conbody>
+   <p>Tabellen im Manuskript werden mit &lt;table> (Tabelle) ausgezeichnet. Über die Schaltfläche
+    lassen sich Tabellen erstellen und bearbeiten. So lassen sich weitere Zeilen und Spalten
+    hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die
+    Anzahl der Zeilen (rows) und Spalten (columns) angeben können. Mit der Schaltfläche kann die
+    Tabelle jederzeit noch nachträglich verändert werden. </p>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+   <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
+    Häkchen auf "generate_table-header". Der ersten Zeile (row) der Tabelle wird dann die Rolle der
+    Beschriftung zugewiesen (@role="label").<?oxy_custom_end?></p>
+   <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
    <head>Tabelle</head>
    <row role="label">
       <cell>[Überschrift Spalte 1]</cell>
@@ -75,154 +88,231 @@
    </row>
    ...
 </table>]]></codeblock>
-  <p><image href="../img/note16.gif" id="image_jll_5ls_2y"/><b> Anmerkung im Manuskript </b></p>
-  <p>Anmerkungen des Autors oder zeitgenössischen Bearbeiters werden an der entsprechenden
-   Textstelle (an der im Manuskript das Verweiszeichen bzw. -ziffer steht) eingefügt. Das
-   Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür in der obersten Leiste des
-   Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“ aus: übers Kontextmenü
-   besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt der Fußnote wird mit
-   <![CDATA[<note>]]> (Anmerkung) gekennzeichnet:</p>
-  <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
+  </conbody>
+ </concept>
+ <concept id="concept_pns_kgn_my">
+  <title><image href="../img/note16.gif" id="image_jll_5ls_2y"/><b> Anmerkung im Manuskript
+   </b></title>
+  <conbody>
+   <p>Anmerkungen des Autors oder zeitgenössischen Bearbeiters werden an der entsprechenden
+    Textstelle (an der im Manuskript das Verweiszeichen bzw. -ziffer steht) eingefügt. Das
+    Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür in der obersten Leiste des
+    Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“ aus: übers Kontextmenü
+    besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt der Fußnote wird mit
+    <![CDATA[<note>]]> (Anmerkung) gekennzeichnet:</p>
+   <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
 eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
 Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut
 benommen, welches mich in jeder Rücksicht freut.</codeblock>
-  <p>Für das Attribut @hand wird entweder "#author" (für den Autor), "#addressee" (für den Empfänger
-   des Briefes) oder eine Person aus dem Personen-Register notiert. Über eine Liste kann die
-   entsprechende Person aus dem Personen-Register ausgewählt werden, sodass das Attribut @hand
-   automatisch mit der entsprechenden ID besetzt wird. Der Ort der Anmerkung wird im Attribut @place
-   angegeben: </p>
-  <table>
-   <tgroup cols="2">
-    <thead>
-     <row>
-      <entry>Ort der Anmerkung</entry>
-      <entry>Wert für @place</entry>
-     </row>
-    </thead>
-    <tbody>
-     <row>
-      <entry>linker Rand</entry>
-      <entry>left</entry>
-     </row>
-     <row>
-      <entry>rechter Rand</entry>
-      <entry>right</entry>
-     </row>
-     <row>
-      <entry>oberer Rand </entry>
-      <entry>mTop</entry>
-     </row>
-     <row>
-      <entry>unterer Rand</entry>
-      <entry>mBottom</entry>
-     </row>
-     <row>
-      <entry>innerhalb der Zeile</entry>
-      <entry>inline</entry>
-     </row>
-    </tbody>
-   </tgroup>
-  </table>
-  <codeblock outputclass="language-xml">mit.<![CDATA[<note  place="right" hand="#author">]]>Ich konnte sie nicht mehr mit der 
+   <p>Für das Attribut @hand wird entweder "#author" (für den Autor), "#addressee" (für den
+    Empfänger des Briefes) oder eine Person aus dem Personen-Register notiert. Über eine Liste kann
+    die entsprechende Person aus dem Personen-Register ausgewählt werden, sodass das Attribut @hand
+    automatisch mit der entsprechenden ID besetzt wird. Der Ort der Anmerkung wird im Attribut
+    @place angegeben: </p>
+   <table id="table_pg1_ngn_my">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Ort der Anmerkung</entry>
+       <entry>Wert für @place</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>linker Rand</entry>
+       <entry>left</entry>
+      </row>
+      <row>
+       <entry>rechter Rand</entry>
+       <entry>right</entry>
+      </row>
+      <row>
+       <entry>oberer Rand </entry>
+       <entry>mTop</entry>
+      </row>
+      <row>
+       <entry>unterer Rand</entry>
+       <entry>mBottom</entry>
+      </row>
+      <row>
+       <entry>innerhalb der Zeile</entry>
+       <entry>inline</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+   <codeblock outputclass="language-xml">mit.<![CDATA[<note  place="right" hand="#author">]]>Ich konnte sie nicht mehr mit der 
 Post schicken.<![CDATA[</note>]]></codeblock>
-  <p><image href="../img/figure16.png" id="image_tp3_vls_2y"
+  </conbody>
+ </concept>
+ <concept id="concept_lrh_4gn_my">
+  <title><image href="../img/figure16.png" id="image_tp3_vls_2y"
     /><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>
-    Zeichnung einfügen</b></p>
-  <p>Mit einem &lt;figure> können Sie Zeichungen (samt Bildunterschrift) aus dem Manuskript
-   einfügen. Der Urheber der Zeichung wird im Attribut @hand angegeben: #author, #addressee oder
-   eine Person aus dem Personen-Register. In &lt;figDesc> kann eine durch den Herausgeber
-   formulierte Bildunterschrift notiert werden. Im Attribut @facs ist der Dateiname notiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<figure facs="tz" hand="#adresee">
+    Zeichnung einfügen</b></title>
+  <conbody>
+   <p>Mit einem &lt;figure> können Sie Zeichungen (samt Bildunterschrift) aus dem Manuskript
+    einfügen. Der Urheber der Zeichung wird im Attribut @hand angegeben: #author, #addressee oder
+    eine Person aus dem Personen-Register. In &lt;figDesc> kann eine durch den Herausgeber
+    formulierte Bildunterschrift notiert werden. Im Attribut @facs ist der Dateiname notiert.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<figure facs="tz" hand="#adresee">
    <figDesc>[Bildunterschrift]</figDesc>
 </figure>Die</del>]]></codeblock>
-  <p><image href="../img/pagebreak16.gif" id="image_pcq_yhf_2y"/>
-   <b>Seiten- bzw. Foliowechsel</b></p>
-  <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element <![CDATA[<pb>]]>
-   (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht um die Foliazählung
-   das Manuskript handelt, sondern eines Drucks oder einer Abschrift handelt; @n enthält die Seiten-
-   bzw. Foliozahl.</p>
-  <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“ />völliger Unkunde lässest]]></codeblock>
-  <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist die
-   Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
-   Digitalisat verlinkt werden, indem der Dateiname oder Link in das Attribut @facs engetragen
-   wird.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<pb n="34"facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
-  <p>Es kann auch mit &lt;fw type="folNum"> eine alternative Foliozählung angegeben werden, die in
-   der Autor-Ansicht in Klammern angezeigt wird.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
-  <p><image href="../img/underlined16.png" id="image_qcq_yhf_2y"/>
-   <b>Unterstreichungen</b></p>
-  <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rendition="#u"/>]]>
-   (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um was für eine Unterstreichung
-   es sich handelt:<table id="table_gss_bxc_gy">
+  </conbody>
+ </concept>
+ <concept id="concept_g4w_qgn_my">
+  <title><image href="../img/pagebreak16.gif" id="image_pcq_yhf_2y"/>
+   <b>Seiten- bzw. Foliowechsel</b></title>
+  <conbody>
+   <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element
+    <![CDATA[<pb>]]> (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht
+    um die Foliazählung das Manuskript handelt, sondern eines Drucks oder einer Abschrift handelt;
+    @n enthält die Seiten- bzw. Foliozahl.</p>
+   <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“ />völliger Unkunde lässest]]></codeblock>
+   <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
+    die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
+    Digitalisat verlinkt werden, indem der Dateiname oder Link in das Attribut @facs engetragen
+    wird.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<pb n="34"facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
+   <p>Es kann auch mit &lt;fw type="folNum"> eine alternative Foliozählung angegeben werden, die in
+    der Autor-Ansicht in Klammern angezeigt wird.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_wg5_tgn_my">
+  <title><image href="../img/underlined16.png" id="image_qcq_yhf_2y"/>
+   <b>Unterstreichungen</b></title>
+  <conbody>
+   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit<![CDATA[ <hi rendition="#u"/>]]>
+    (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um was für eine
+    Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Art der Unterstreichung</entry>
+        <entry>Wert für @rendition</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>einfach</entry>
+        <entry>#u</entry>
+       </row>
+       <row>
+        <entry>doppelt</entry>
+        <entry>#uu</entry>
+       </row>
+       <row>
+        <entry>am Rand</entry>
+        <entry>#mMM</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_qd1_wgn_my">
+  <title><image href="../img/superscript16.png" id="image_ofy_cms_2y"/><b> Hochstellen</b></title>
+  <conbody>
+   <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rendition="#sup">]]>
+    ausgezeichnet.</p>
+   <codeblock><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_qkd_ygn_my">
+  <title><image href="../img/del16.gif" id="image_rcq_yhf_2y"/>
+   <b>Streichungen</b></title>
+  <conbody>
+   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <![CDATA[<del]]>
+    rendition="#s"> (deletion) ausgezeichnet. Das Attribut @rendition enthält nähere Angaben zur Art
+    der Streichung.<table id="table_frw_4ns_2y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Art der Streichung</entry>
+        <entry>Wert für @rendition</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>ursprünglicher Text überschrieben</entry>
+        <entry>#ow</entry>
+       </row>
+       <row>
+        <entry>Textstelle durchgestrichen</entry>
+        <entry>#s</entry>
+       </row>
+       <row>
+        <entry>radiert</entry>
+        <entry>#erased</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_rbc_1hn_my">
+  <title><image href="../img/subst216.gif" id="image_scq_yhf_2y"/>
+   <b>Korrekturen</b></title>
+  <conbody>
+   <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen wurde, so
+    wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang <![CDATA[<subst/>]]>
+    (substition) verbunden. Das gestrichene Wort wird in &lt;del> (deletion) angegeben, die
+    Hinzufügung in &lt;add> (addition). Der Ort der Hinzufügung wird im Attribut @place von &lt;add>
+    angegeben: <table id="table_h5g_54s_2y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Ort der Hinzufügung</entry>
+        <entry>Wert für @place</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>über der Zeile</entry>
+        <entry>superlinear</entry>
+       </row>
+       <row>
+        <entry>unter der Zeile</entry>
+        <entry>sublinear</entry>
+       </row>
+       <row>
+        <entry>innerhalb der Zeile</entry>
+        <entry>intralinear</entry>
+       </row>
+       <row>
+        <entry>über den ursprünglichen Text</entry>
+        <entry>across</entry>
+       </row>
+       <row>
+        <entry>am linken Rand</entry>
+        <entry>left</entry>
+       </row>
+       <row>
+        <entry>am rechten Rand</entry>
+        <entry>right</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock outputclass="language-xml"><![CDATA[<subst>
+   <del rendition="#s">Bröschüre</del>
+   <add place="superlinear">Broschüre</add>
+</subst>]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_ldv_bhn_my">
+  <title><image href="../img/add16.gif" id="image_tcq_yhf_2y"/>
+   <b>Ergänzungen</b></title>
+  <conbody>
+   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]>
+    (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt: </p>
+   <table id="table_wf3_dhn_my">
     <tgroup cols="2">
      <thead>
       <row>
-       <entry>Art der Unterstreichung</entry>
-       <entry>Wert für @rendition</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>einfach</entry>
-       <entry>#u</entry>
-      </row>
-      <row>
-       <entry>doppelt</entry>
-       <entry>#uu</entry>
-      </row>
-      <row>
-       <entry>am Rand</entry>
-       <entry>#mMM</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
-  <p><image href="../img/superscript16.png" id="image_ofy_cms_2y"/><b> Hochstellen</b></p>
-  <p>Im Manuskript hochgestellte Zahlen werden mit <![CDATA[<hi rendition="#sup">]]>
-   ausgezeichnet.</p>
-  <codeblock><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
-  <p><image href="../img/del16.gif" id="image_rcq_yhf_2y"/>
-   <b>Streichungen</b></p>
-  <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <![CDATA[<del]]>
-   rendition="#s"> (deletion) ausgezeichnet. Das Attribut @rendition enthält nähere Angaben zur Art
-   der Streichung.<table id="table_frw_4ns_2y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Art der Streichung</entry>
-       <entry>Wert für @rendition</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>ursprünglicher Text überschrieben</entry>
-       <entry>#ow</entry>
-      </row>
-      <row>
-       <entry>Textstelle durchgestrichen</entry>
-       <entry>#s</entry>
-      </row>
-      <row>
-       <entry>radiert</entry>
-       <entry>#erased</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock>
-  <p><image href="../img/subst216.gif" id="image_scq_yhf_2y"/>
-   <b>Korrekturen</b></p>
-  <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen wurde, so
-   wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang <![CDATA[<subst/>]]>
-   (substition) verbunden. Das gestrichene Wort wird in &lt;del> (deletion) angegeben, die
-   Hinzufügung in &lt;add> (addition). Der Ort der Hinzufügung wird im Attribut @place von &lt;add>
-   angegeben: <table id="table_h5g_54s_2y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Ort der Hinzufügung</entry>
+       <entry>Ort der Ergänzung</entry>
        <entry>Wert für @place</entry>
       </row>
      </thead>
@@ -251,57 +341,17 @@ Post schicken.<![CDATA[</note>]]></codeblock>
        <entry>am rechten Rand</entry>
        <entry>right</entry>
       </row>
+      <row>
+       <entry>Ort der Hinzufügung</entry>
+       <entry>Wert für @place</entry>
+      </row>
      </tbody>
     </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[<subst>
-   <del rendition="#s">Bröschüre</del>
-   <add place="superlinear">Broschüre</add>
-</subst>]]></codeblock>
-  <p><image href="../img/add16.gif" id="image_tcq_yhf_2y"/>
-   <b>Ergänzungen</b></p>
-  <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <![CDATA[<add/>]]>
-   (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt: </p>
-  <table>
-   <tgroup cols="2">
-    <thead>
-     <row>
-      <entry>Ort der Ergänzung</entry>
-      <entry>Wert für @place</entry>
-     </row>
-    </thead>
-    <tbody>
-     <row>
-      <entry>über der Zeile</entry>
-      <entry>superlinear</entry>
-     </row>
-     <row>
-      <entry>unter der Zeile</entry>
-      <entry>sublinear</entry>
-     </row>
-     <row>
-      <entry>innerhalb der Zeile</entry>
-      <entry>intralinear</entry>
-     </row>
-     <row>
-      <entry>über den ursprünglichen Text</entry>
-      <entry>across</entry>
-     </row>
-     <row>
-      <entry>am linken Rand</entry>
-      <entry>left</entry>
-     </row>
-     <row>
-      <entry>am rechten Rand</entry>
-      <entry>right</entry>
-     </row>
-     <row>
-      <entry>Ort der Hinzufügung</entry>
-      <entry>Wert für @place</entry>
-     </row>
-    </tbody>
-   </tgroup>
-  </table>
-  <codeblock outputclass="language-xml"><![CDATA[aber nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codeblock>
- </conbody>
+   </table>
+   <codeblock outputclass="language-xml"><![CDATA[aber nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_wzt_dhn_my">
+  <title/>
+ </concept>
 </concept>

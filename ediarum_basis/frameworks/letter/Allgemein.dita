@@ -2,38 +2,55 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_wmx_vlh_dy">
     <title>Allgemeine Metadaten</title>
-    <shortdesc/>
-    <conbody>
-        <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>URI der
-                Archivalie</b><?oxy_custom_end?></p>
-        <p><b>Digitalisate</b></p>
-        <p>Auf Digitalisate können Sie mit einen &lt;facsimile> verweise, indem sie dort innerhalb
-            eines &lt;graphic url="http://bespielurl.com/image"> die entsprechende URL angeben.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<facsimile>
+    <concept id="concept_sp4_r3n_my">
+        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>URI der
+                Archivalie</b><?oxy_custom_end?></title>
+        <conbody/>
+    </concept>
+    <concept id="concept_sf5_s3n_my">
+        <title><b>Digitalisate</b></title>
+        <conbody>
+            <p>Auf Digitalisate können Sie mit einen &lt;facsimile> verweise, indem sie dort
+                innerhalb eines &lt;graphic url="http://bespielurl.com/image"> die entsprechende URL
+                angeben.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<facsimile>
    <graphic url="http://bespielurl.com/image"/>
 </facsimile>]]></codeblock>
-        <p><b>Handschriftenbeschreibung</b></p>
-        <p>Die Handschriftenbeschreibung wird in einem &lt;physDesc> (physical description) notiert.
-            Hier können Sie Angaben zu Papier, Format etc. des Briefs festhalten.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<physDesc>
+        </conbody>
+    </concept>
+    <concept id="concept_own_53n_my">
+        <title><b>Handschriftenbeschreibung</b></title>
+        <conbody>
+            <p>Die Handschriftenbeschreibung wird in einem &lt;physDesc> (physical description)
+                notiert. Hier können Sie Angaben zu Papier, Format etc. des Briefs festhalten.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
 </physDesc>]]></codeblock>
-        <p><b>Drucknachweis</b></p>
-        <p>Einen Drucknachweis als Textzeugen können Sie in einem &lt;witness> (Zeuge) angeben. Das
-            Attribut @type gibt mit dem Wert "print" an, dass es sich um einen Drucknachweis als
-            Textzeugen handelt.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness>
+        </conbody>
+    </concept>
+    <concept id="concept_dlg_w3n_my">
+        <title><b>Drucknachweis</b></title>
+        <conbody>
+            <p>Einen Drucknachweis als Textzeugen können Sie in einem &lt;witness> (Zeuge) angeben.
+                Das Attribut @type gibt mit dem Wert "print" an, dass es sich um einen Drucknachweis
+                als Textzeugen handelt.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>
 </witness>]]></codeblock>
-        <p><b>Abschrift und Entwurf</b></p>
-        <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die nur
-            archivalisch überliefert sind, wird dieser auch in einem <![CDATA[<witness> ]]>erfasst.
-            Es werden aber einige Detailinformationen mehr gefordert. Im &lt;msDesc> (manuscipt
-            description) wird über das Attribut @type angegeben, ob es sich um eine Abschrift (copy)
-            oder einen Entwurf ( concept) handelt. Außerdem muss die aufbewahrende Institution
-            (&lt;institution>) angegeben werden. Optional können Sie noch Sammlung (&lt;collection>)
-            und eine Signatur (&lt;idno type="shelfmark">) des Textzeugen angeben.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness>
+        </conbody>
+    </concept>
+    <concept id="concept_dct_x3n_my">
+        <title><b>Abschrift und Entwurf</b></title>
+        <conbody>
+            <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die
+                nur archivalisch überliefert sind, wird dieser auch in einem
+                <![CDATA[<witness> ]]>erfasst. Es werden aber einige Detailinformationen mehr
+                gefordert. Im &lt;msDesc> (manuscipt description) wird über das Attribut @type
+                angegeben, ob es sich um eine Abschrift (copy) oder einen Entwurf ( concept)
+                handelt. Außerdem muss die aufbewahrende Institution (&lt;institution>) angegeben
+                werden. Optional können Sie noch Sammlung (&lt;collection>) und eine Signatur
+                (&lt;idno type="shelfmark">) des Textzeugen angeben.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
    <msDesc type="copy">
       <msIdentifier>
          <institution>[aufbewahrendeInstitutuion]</institution>
@@ -44,228 +61,278 @@
       </msIdentifier>
    </msDesc>
 </witness]]></codeblock>
-        <p>Wenn Sie ein neues Dokument erstellen, um einen Brief zu transkribieren, erscheint ein
-            Dialogfenster, in dem Sie diese Angaben bereits machen können.</p>
-        <p><b>Art der Textgrundlage</b></p>
-        <p>Für den zugrunde liegenden Text kann die Art der Textgrundlage im @rend auszeichnet
-            werden. Dafür sind folgende Angaben möglich:<table id="table_ul1_mws_2y">
-                <tgroup cols="2">
-                    <thead>
-                        <row>
-                            <entry>Art der Textgrundlage</entry>
-                            <entry>Wert für @rend</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>Erschlossen</entry>
-                            <entry>notExtant</entry>
-                        </row>
-                        <row>
-                            <entry>Entwurf</entry>
-                            <entry>concept</entry>
-                        </row>
-                        <row>
-                            <entry>Manuskript</entry>
-                            <entry>manuscript</entry>
-                        </row>
-                        <row>
-                            <entry>Abschrift</entry>
-                            <entry>copy</entry>
-                        </row>
-                        <row>
-                            <entry>Druck</entry>
-                            <entry>print</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table></p>
-        <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
-        <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Textgrundlage
-                auswählen</b><?oxy_custom_end?></p>
-        <p>Die Textgrundlage, die Sie für Ihre Arbeit wählen, markieren Sie, indem Sie den
-            entsprechenden Textzeugen auswählen und dort das Attribut @select eingügen.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
-        <p><b>Autor des Manuskripts</b></p>
-        <p>Das Profil eines Manuskripts (&lt;profileDesc>) beinhaltet Angaben zum Autor, zum
-            Schreibort und zum Erstellungsdatum. Diese Angaben werden in einem &lt;creation>
-            (Erstellung) notiert. Der Autor wird in einem &lt;persName> angegeben. Wenn Sie aus
-            einem Verzeichnis einen Autoren auswählen, wird im Attribut @key die zugehörige ID
-            generiert und ein Link angelegt.</p>
-        <codeblock outputclass="language-xml">&lt;profileDesc>
+            <p>Wenn Sie ein neues Dokument erstellen, um einen Brief zu transkribieren, erscheint
+                ein Dialogfenster, in dem Sie diese Angaben bereits machen können.</p>
+        </conbody>
+    </concept>
+    <concept id="concept_dt3_z3n_my">
+        <title><b>Art der Textgrundlage</b></title>
+        <conbody>
+            <p>Für den zugrunde liegenden Text kann die Art der Textgrundlage im @rend auszeichnet
+                werden. Dafür sind folgende Angaben möglich:<table id="table_ul1_mws_2y">
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Art der Textgrundlage</entry>
+                                <entry>Wert für @rend</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Erschlossen</entry>
+                                <entry>notExtant</entry>
+                            </row>
+                            <row>
+                                <entry>Entwurf</entry>
+                                <entry>concept</entry>
+                            </row>
+                            <row>
+                                <entry>Manuskript</entry>
+                                <entry>manuscript</entry>
+                            </row>
+                            <row>
+                                <entry>Abschrift</entry>
+                                <entry>copy</entry>
+                            </row>
+                            <row>
+                                <entry>Druck</entry>
+                                <entry>print</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
+            <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+        </conbody>
+    </concept>
+    <concept id="concept_ppb_bjn_my">
+        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Textgrundlage
+                auswählen</b><?oxy_custom_end?></title>
+        <conbody>
+            <p>Die Textgrundlage, die Sie für Ihre Arbeit wählen, markieren Sie, indem Sie den
+                entsprechenden Textzeugen auswählen und dort das Attribut @select eingügen.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
+        </conbody>
+    </concept>
+    <concept id="concept_ksp_cjn_my">
+        <title><b>Autor des Manuskripts</b></title>
+        <conbody>
+            <p>Das Profil eines Manuskripts (&lt;profileDesc>) beinhaltet Angaben zum Autor, zum
+                Schreibort und zum Erstellungsdatum. Diese Angaben werden in einem &lt;creation>
+                (Erstellung) notiert. Der Autor wird in einem &lt;persName> angegeben. Wenn Sie aus
+                einem Verzeichnis einen Autoren auswählen, wird im Attribut @key die zugehörige ID
+                generiert und ein Link angelegt.</p>
+            <codeblock outputclass="language-xml">&lt;profileDesc>
     &lt;creation>
 <![CDATA[        <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>]]>
         ...
    &lt;/creation>
 &lt;/profileDesc></codeblock>
-        <p><b>Schreibort</b></p>
-        <p>Der Schreibort wird auch in &lt;creation> ausgezeichnet. Wenn Sie aus einem Verzeichnis
-            einen Ort auswählen, wird im Attribut @key die zugehörige ID generiert und ein Link
-            angelegt.</p>
-        <codeblock outputclass="language-xml">&lt;profileDesc>
+        </conbody>
+    </concept>
+    <concept id="concept_u3c_2jn_my">
+        <title><b>Schreibort</b></title>
+        <conbody>
+            <p>Der Schreibort wird auch in &lt;creation> ausgezeichnet. Wenn Sie aus einem
+                Verzeichnis einen Ort auswählen, wird im Attribut @key die zugehörige ID generiert
+                und ein Link angelegt.</p>
+            <codeblock outputclass="language-xml">&lt;profileDesc>
     &lt;creation>
        &lt;placeName key="ed_wz2_shs_qx">London&lt;/placeName>
        ...
    &lt;/creation>
 &lt;/profileDesc></codeblock>
-        <p><b>Erstellungsdatum</b></p>
-        <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> ausgezeichnet. Wichtig ist, dass
-            die Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw.
-            @from/@to und @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe
-            enthaltene Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B.
-            Suche in bestimmten Zeiträumen). Außerdem wird in den Attribut @cert die
-            Wahrescheinlichkeit angegeben, mit der die Datumsangabe zutrifft: high, low. </p>
-        <p>1. Genaues Datum</p>
-        <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
-        <p>2. Genaue Zeitspanne</p>
-        <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
-        <p>3. Ungefährer Zeitraum</p>
-        <p>
-            <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
-        </p>
-        <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
-            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum" und „Ungefährer Zeitraum"
-            bietet, um alle Datumsangaben auszuzeichnen. </p>
-        <table id="table_xpp_ynf_cy">
-            <tgroup cols="2">
-                <thead>
-                    <row>
-                        <entry>Datumsangabe im Text</entry>
-                        <entry>Zu setzende Attributwerte</entry>
-                    </row>
-                </thead>
-                <tbody>
-                    <row>
-                        <entry>18. Jh.</entry>
-                        <entry>notBefore="1700" notAfter="1799"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. Anfang</entry>
-                        <entry>notBefore="1700" notAfter="1719"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. Mitte</entry>
-                        <entry>notBefore="1740" notAfter="1759"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. Ende</entry>
-                        <entry>notBefore="1780" notAfter="1799"</entry>
-                    </row>
-                    <row>
-                        <entry/>
-                        <entry/>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 1. Hälfte</entry>
-                        <entry>notBefore="1700" notAfter="1749"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 2. Hälfte</entry>
-                        <entry>notBefore="1750" notAfter="1799"</entry>
-                    </row>
-                    <row>
-                        <entry/>
-                        <entry/>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 1. Viertel</entry>
-                        <entry>notBefore="1700" notAfter="1724"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 2. Viertel</entry>
-                        <entry>notBefore="1725" notAfter="1749"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 3. Viertel</entry>
-                        <entry>notBefore="1750" notAfter="1774"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 4. Viertel</entry>
-                        <entry>notBefore="1775" notAfter="1799"</entry>
-                    </row>
-                    <row>
-                        <entry/>
-                        <entry/>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 1. Drittel</entry>
-                        <entry>notBefore="1700" notAfter="1733"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 2. Drittel</entry>
-                        <entry>notBefore="1733" notAfter="1766"</entry>
-                    </row>
-                    <row>
-                        <entry>18. Jh. 3. Drittel</entry>
-                        <entry>notBefore="1766" notAfter="1799"</entry>
-                    </row>
-                    <row>
-                        <entry/>
-                        <entry/>
-                    </row>
-                    <row>
-                        <entry>um 1762</entry>
-                        <entry>notBefore="1757" notAfter="1767"</entry>
-                    </row>
-                    <row>
-                        <entry>1762</entry>
-                        <entry>when="1762"</entry>
-                    </row>
-                    <row>
-                        <entry>5. Januar 1762</entry>
-                        <entry>when="1762-01-05"</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
-        <p>Das Erstellungsdatm wird ebenfalls im &lt;profileDesc> unter &lt;creation>
-            angegeben.<codeblock>&lt;profileDesc>
+        </conbody>
+    </concept>
+    <concept id="concept_zgs_fjn_my">
+        <title><b>Erstellungsdatum</b></title>
+        <conbody>
+            <p>Datumsangaben werden mit Hilfe von <![CDATA[<date/>]]> ausgezeichnet. Wichtig ist,
+                dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen @when
+                bzw. @from/@to und @notBefore/@notAfter notiert werden. Dadurch kann der in der
+                Datumsangabe enthaltene Wert später vom Computer für verschiedene Zwecke
+                weiterbenutzt werden (z.B. Suche in bestimmten Zeiträumen). Außerdem wird in den
+                Attribut @cert die Wahrescheinlichkeit angegeben, mit der die Datumsangabe zutrifft:
+                high, low. </p>
+            <p>1. Genaues Datum</p>
+            <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
+            <p>2. Genaue Zeitspanne</p>
+            <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
+            <p>3. Ungefährer Zeitraum</p>
+            <p>
+                <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+            </p>
+            <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
+                Schaltfläche zur Verfügung, die die Optionen „Genaues Datum" und „Ungefährer
+                Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
+            <table id="table_xpp_ynf_cy">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Datumsangabe im Text</entry>
+                            <entry>Zu setzende Attributwerte</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>18. Jh.</entry>
+                            <entry>notBefore="1700" notAfter="1799"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. Anfang</entry>
+                            <entry>notBefore="1700" notAfter="1719"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. Mitte</entry>
+                            <entry>notBefore="1740" notAfter="1759"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. Ende</entry>
+                            <entry>notBefore="1780" notAfter="1799"</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 1. Hälfte</entry>
+                            <entry>notBefore="1700" notAfter="1749"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 2. Hälfte</entry>
+                            <entry>notBefore="1750" notAfter="1799"</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 1. Viertel</entry>
+                            <entry>notBefore="1700" notAfter="1724"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 2. Viertel</entry>
+                            <entry>notBefore="1725" notAfter="1749"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 3. Viertel</entry>
+                            <entry>notBefore="1750" notAfter="1774"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 4. Viertel</entry>
+                            <entry>notBefore="1775" notAfter="1799"</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 1. Drittel</entry>
+                            <entry>notBefore="1700" notAfter="1733"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 2. Drittel</entry>
+                            <entry>notBefore="1733" notAfter="1766"</entry>
+                        </row>
+                        <row>
+                            <entry>18. Jh. 3. Drittel</entry>
+                            <entry>notBefore="1766" notAfter="1799"</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>um 1762</entry>
+                            <entry>notBefore="1757" notAfter="1767"</entry>
+                        </row>
+                        <row>
+                            <entry>1762</entry>
+                            <entry>when="1762"</entry>
+                        </row>
+                        <row>
+                            <entry>5. Januar 1762</entry>
+                            <entry>when="1762-01-05"</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>Das Erstellungsdatm wird ebenfalls im &lt;profileDesc> unter &lt;creation>
+                angegeben.<codeblock>&lt;profileDesc>
    &lt;creation>
       ...
       &lt;date when="1874-12-23" cert="high"/> 
    &lt;/creation>&lt;
 /profileDesc></codeblock></p>
-        <p><b>Regest des Briefes oder Dokumentetxtes</b></p>
-        <p>Ein Regest wird in einem &lt;abstract> notiert.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<abstract>
+        </conbody>
+    </concept>
+    <concept id="concept_fqt_hjn_my">
+        <title><b>Regest des Briefes oder Dokumentetxtes</b></title>
+        <conbody>
+            <p>Ein Regest wird in einem &lt;abstract> notiert.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff]</p>
 </abstract>]]></codeblock>
-        <p><b>Anmerkung zum Text</b></p>
-        <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem &lt;notesStmt> (notes
-            statement) gemacht. Das Attribit @type="editorial" kennzeichnet, dass es sich um eine
-            Anmerkung des Herausgebers bzw. Bearbeiters
-            handelt.<codeblock>&lt;notesStmt>
+        </conbody>
+    </concept>
+    <concept id="concept_adp_pjn_my">
+        <title><b>Anmerkung zum Text</b></title>
+        <conbody>
+            <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem &lt;notesStmt> (notes
+                statement) gemacht. Das Attribit @type="editorial" kennzeichnet, dass es sich um
+                eine Anmerkung des Herausgebers bzw. Bearbeiters
+                handelt.<codeblock>&lt;notesStmt>
    &lt;note type="editorial">
       &lt;p>[Anmerkung hier eingeben]&lt;/p>
    &lt;/note>
 &lt;/notesStmt></codeblock></p>
-        <p><b>Überschrift</b></p>
-        <p><b>Horizontale Trennlinie</b></p>
-        <p>Um eine typgraphische Absetzung im Manuskript zu transkribieren, können Sie mit einem
-            &lt;milestone> eine horizontale Trennlinie einfügen.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
-        <p><b>Zitat in Regest, Kommentar etc.</b></p>
-        <p><b>Herausgeber und Mitarbeiter</b></p>
-        <p>Der Herausgeber wird in einem &lt;editor> notiert. Die Angaben zur Person werden in einem
-            &lt;persName> angegeben. Im Attribut @ref kann eine Referenz in Form einer
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>GND, VIAF oder
-            URI<?oxy_custom_end?> gemacht werden.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<editor>
+        </conbody>
+    </concept>
+    <concept id="concept_k43_rjn_my">
+        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Überschrift</b><?oxy_custom_end?></title>
+        <conbody>
+            <p/>
+        </conbody>
+    </concept>
+    <concept id="concept_vwj_sjn_my">
+        <title><b>Horizontale Trennlinie</b></title>
+        <conbody>
+            <p>Um eine typgraphische Absetzung im Manuskript zu transkribieren, können Sie mit einem
+                &lt;milestone> eine horizontale Trennlinie einfügen.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
+        </conbody>
+    </concept>
+    <concept id="concept_ksd_5jn_my">
+        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Zitat in
+                Regest, Kommentar etc.</b></title>
+        <conbody>
+            <?oxy_custom_end?>
+            <p/>
+        </conbody>
+    </concept>
+    <concept id="concept_al3_vjn_my">
+        <title><b>Herausgeber und Mitarbeiter</b></title>
+        <conbody>
+            <p>Der Herausgeber wird in einem &lt;editor> notiert. Die Angaben zur Person werden in
+                einem &lt;persName> angegeben. Im Attribut @ref kann eine Referenz in Form einer
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>GND, VIAF oder
+                URI<?oxy_custom_end?> gemacht werden.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>
    </persName>
 </editor>]]></codeblock>
-        <p>Außerdem können Mitarbeiter in einem &lt;respStmt> (statement of responsibility) notiert
-            werden. Hier können Sie auch eine GND, VIAF oder URI als Referenz angeben. Die Art der
-            Mitarbeit wird dabei in einem &lt;note> bezeichnet: Mitarbeit, Redaktionelle Mitarbeit,
-            Transkription, Kommentar und Register.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<respStmt>
+            <p>Außerdem können Mitarbeiter in einem &lt;respStmt> (statement of responsibility)
+                notiert werden. Hier können Sie auch eine GND, VIAF oder URI als Referenz angeben.
+                Die Art der Mitarbeit wird dabei in einem &lt;note> bezeichnet: Mitarbeit,
+                Redaktionelle Mitarbeit, Transkription, Kommentar und Register.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<respStmt>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>
    </persName> 
    <resp><note type="remarkResponsibility">Mitarbeit</note></resp>
 </respStmt>]]></codeblock>
-    </conbody>
+        </conbody>
+    </concept>
 </concept>

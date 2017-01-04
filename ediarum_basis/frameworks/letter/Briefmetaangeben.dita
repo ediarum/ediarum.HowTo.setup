@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_bkf_33h_dy">
- <title>Briefmetadaten</title>
- <shortdesc></shortdesc>
- <conbody>
-  <p><b>Angaben zum Sender und Empfänger</b></p>
-  <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
-      &lt;correspDesc> (correspondence description) umschlossen. Dabei werden alle Angaben zum
-      Sender in einem &lt;correspAction type="sent"> (correspondence action) und alle Angaben zu
-      einem Empfänger in einem &lt;correspAction type="received"> ausgezeichnet. Das Attribut @type
-      gibt dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received)
-        handelt.<table id="table_vzz_lfd_gy">
-        <tgroup cols="2">
-          <thead>
-            <row>
-              <entry>Angaben zur Person</entry>
-              <entry>Wert für @correspAction</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>Sender</entry>
-              <entry>sent</entry>
-            </row>
-            <row>
-              <entry>Empfänger</entry>
-              <entry>received</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+  <title>Briefmetadaten</title>
+  <concept id="concept_fgl_bkn_my">
+    <title><b>Angaben zum Sender und Empfänger</b></title>
+    <conbody>
+      <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
+        &lt;correspDesc> (correspondence description) umschlossen. Dabei werden alle Angaben zum
+        Sender in einem &lt;correspAction type="sent"> (correspondence action) und alle Angaben zu
+        einem Empfänger in einem &lt;correspAction type="received"> ausgezeichnet. Das Attribut
+        @type gibt dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received)
+          handelt.<table id="table_vzz_lfd_gy">
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>Angaben zur Person</entry>
+                <entry>Wert für @correspAction</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>Sender</entry>
+                <entry>sent</entry>
+              </row>
+              <row>
+                <entry>Empfänger</entry>
+                <entry>received</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+      <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">[Angaben zum Sender]</correspAction>
    <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
-   <p>Die detailierten Angaben zu Sender werden innerhalb des
-      <![CDATA[<correspAction type="sent">]]> gemacht. Sie können den Namen
-      (<![CDATA[<persName>]]>), den Schreibort (<![CDATA[<placeName>]]>) und das Schreibdatum
-      (<![CDATA[<date>]]>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h. Empfangsort
-      un -datum machen.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+      <p>Die detailierten Angaben zu Sender werden innerhalb des
+        <![CDATA[<correspAction type="sent">]]> gemacht. Sie können den Namen
+        (<![CDATA[<persName>]]>), den Schreibort (<![CDATA[<placeName>]]>) und das Schreibdatum
+        (<![CDATA[<date>]]>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
+        Empfangsort un -datum machen.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">
       <persName>Friedrich Engels</persName>
       <placeName>Manchester</placeName><date when="1866-01-04"/>
@@ -49,63 +49,80 @@
       <placeName>London</placeName>
    </correspAction>
 </correspDesc>]]></codeblock>
-    <p><b>Datierung</b></p>
-    <p>Datumsangaben werden mit Hilfe von <![CDATA[<date>]]> ausgezeichnet. Wichtig ist, dass die
-      Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
-      @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert
-      später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
-      Zeiträumen). Außerdem wird in den Attribut @cert die Wahrescheinlichkeit angegeben, mit der
-      die Datumsangabe zutrifft: high, low.</p>
-    <p>1. Genaues Datum</p>
-    <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
-    <p>2. Genaue Zeitspanne</p>
-    <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
-    <p>3. Ungefährer Zeitraum</p>
-    <p>
-      <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
-    </p>
-    <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche
-      zur Verfügung, die die Optionen „Genaues Datum“, „Genaue Zeitspanne“ und „Ungefährer Zeitraum“
-      bietet, um alle Datumsangaben auszuzeichnen. </p>
-    <p><b>Anmerkung zum Brief</b></p>
-    <p>In &lt;correspDesc> (correspondence description) können Sie auch mithilfe eines &lt;note>
-      eine Anmerkung zum Brief und dessen Datierung machen.</p>
-  <p><codeblock><![CDATA[<correspDesc>
+    </conbody>
+  </concept>
+  <concept id="concept_a4v_ckn_my">
+    <title><b>Datierung</b></title>
+    <conbody>
+      <p>Datumsangaben werden mit Hilfe von <![CDATA[<date>]]> ausgezeichnet. Wichtig ist, dass die
+        Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
+        @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert
+        später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
+        Zeiträumen). Außerdem wird in den Attribut @cert die Wahrescheinlichkeit angegeben, mit der
+        die Datumsangabe zutrifft: high, low.</p>
+      <p>1. Genaues Datum</p>
+      <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
+      <p>2. Genaue Zeitspanne</p>
+      <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
+      <p>3. Ungefährer Zeitraum</p>
+      <p>
+        <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+      </p>
+      <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
+        Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“, „Genaue Zeitspanne“ und
+        „Ungefährer Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. </p>
+    </conbody>
+  </concept>
+  <concept id="concept_lfg_2kn_my">
+    <title><b>Anmerkung zum Brief</b></title>
+    <conbody>
+      <p>In &lt;correspDesc> (correspondence description) können Sie auch mithilfe eines &lt;note>
+        eine Anmerkung zum Brief und dessen Datierung machen.</p>
+      <p>
+        <codeblock><![CDATA[<correspDesc>
    ...
    <note>Das Empfangsdatum kann nicht festgestellt werden.</note>
-</correspDesc>]]></codeblock></p>
-  <p><b>Korrespondentzusammenhang des Briefe</b>s</p>
-  <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
-      erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können.  Im Attribut
-      @target wird der interne Link des entsprechenden Briefs angegeben. Das Attribut @type gibt
-      dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief
-        handelt.<table id="table_k4w_y2d_gy">
-        <tgroup cols="2">
-          <thead>
-            <row>
-              <entry>Korrespondierender Brief</entry>
-              <entry>Wert für @type</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>vorangehender Brief</entry>
-              <entry>prev</entry>
-            </row>
-            <row>
-              <entry>nachfolgender Brief</entry>
-              <entry>next</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table></p>
-  <codeblock><![CDATA[<correspContext>
+</correspDesc>]]></codeblock>
+      </p>
+    </conbody>
+  </concept>
+  <concept id="concept_qsr_gkn_my">
+    <title><b>Korrespondentzusammenhang des Briefe</b>s</title>
+    <conbody>
+      <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
+        erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können. Im
+        Attribut @target wird der interne Link des entsprechenden Briefs angegeben. Das Attribut
+        @type gibt dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief
+          handelt.<table id="table_k4w_y2d_gy">
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>Korrespondierender Brief</entry>
+                <entry>Wert für @type</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>vorangehender Brief</entry>
+                <entry>prev</entry>
+              </row>
+              <row>
+                <entry>nachfolgender Brief</entry>
+                <entry>next</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+      <codeblock><![CDATA[<correspContext>
    <ref type="next" target="B00009"/>
    <ref type="prev" target="B00002"/>
 </correspContext>]]></codeblock>
-  <p>Sie können anstelle eines internen Links auch einen Text eingeben, in dem Sie Angaben zu vorangehenden und nachfolgenden Briefen machen können.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
-  <p>Sie können ebenfalls einen externen Link zu einem Brief herstellen und zusätzlich einen Text eingeben.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
- </conbody>
+      <p>Sie können anstelle eines internen Links auch einen Text eingeben, in dem Sie Angaben zu
+        vorangehenden und nachfolgenden Briefen machen können.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
+      <p>Sie können ebenfalls einen externen Link zu einem Brief herstellen und zusätzlich einen
+        Text eingeben.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
+    </conbody>
+  </concept>
 </concept>

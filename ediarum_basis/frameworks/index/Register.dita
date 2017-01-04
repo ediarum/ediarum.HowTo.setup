@@ -2,242 +2,274 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_abb_p5q_gy">
  <title>Werkzeugleiste Register</title>
- <shortdesc></shortdesc>
- <conbody>
-  <p><b>Neuer Eintrag</b></p>
-  <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
-   im Personenregister wird in einem &lt;person>, in einem Ortsregister in einem &lt;place> usw.
-   angelegt. Beim Anlegen eines Eintrages werden Sie über ein Dialogfenster nach grundlegenden
-   Informationen gefragt, die Sie an dieser Stelle schon angeben können (Name, Ortsname usw.).<table
-    id="table_yd5_5mf_hy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Registereintrag</entry>
-       <entry>Eintrag als XML-Text</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Person</entry>
-       <entry>&lt;person></entry>
-      </row>
-      <row>
-       <entry>Ort</entry>
-       <entry>&lt;place></entry>
-      </row>
-      <row>
-       <entry>Werk</entry>
-       <entry/>
-      </row>
-      <row>
-       <entry>Sachbegriff</entry>
-       <entry>&lt;item></entry>
-      </row>
-      <row>
-       <entry>Einrichtung</entry>
-       <entry>&lt;institution></entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <p><b>Allgemein</b></p>
-  <p>Die Schaltfläche „ Allgemein“ umfasst Aktionen, die im Prinzip in allen Registersorten
-   verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
-  <p>1. Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.) versehen.
-   Die Norm-ID wird in einem &lt;idno> (identifikator) notiert.
-   <codeblock>&lt;idno type="uri">http://d-nb.info/gnd/170885348&lt;/idno></codeblock></p>
-  <p>2. Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
-   Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
-   in einem &lt;desc> (description), im Personenregister und im Ortsregister in einem &lt;note>
-   notiert.</p>
-  <p>Einrichtungs-/Sachregister:<codeblock>&lt;desc>Verlagsbuchhandlung in Karlsruhe.&lt;/desc></codeblock></p>
-  <p>Personen-/Ortsregister:</p>
-  <codeblock>&lt;note>deutscher Journalist; Liberaler&lt;/note></codeblock>
-  <p>3. Mit der Funktion „ Register sortieren“ wird das Register alphapetisch angeordnet.</p>
-  <p>4. Sie können innerhalb von Kommentaren in Registeinrägen auf andere Personen, Orte und
-   Organisationen verlinken. Über ein Dialogfenster werden Ihnen die bereits erstellten Einträge
-   angezeigt. Im Attribut @key wird die ID zu dem verlinkten Eintrag notiert.<table
-    id="table_y4b_yy1_3y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Verlinkung auf</entry>
-       <entry>Link</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Person</entry>
-       <entry>&lt;persName></entry>
-      </row>
-      <row>
-       <entry>Ort</entry>
-       <entry>&lt;placeName></entry>
-      </row>
-      <row>
-       <entry>Organisation</entry>
-       <entry>&lt;orgName></entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table><codeblock>&lt;note>&lt;persName key="pdrPo.001.004.000001072">Mutter von Julie&lt;/persName>&lt;/note></codeblock></p>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>5. Außerdem können Sie mit einem &lt;ref> (reference) auf eine externe Website verweisen.
-   <?oxy_custom_end?><codeblock>&lt;ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie&lt;/ref></codeblock></p>
-  <p>6. In jedem Eintrag können innerhalb des &lt;linkGrp> (link group) Referenzen auf die
-   Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem &lt;ptr> (print) angegeben.
-   Über ein Dialogfenster geben Sie dabei an, ob Sie auf eine Seitenzahl oder Briefnummer verweisen.
-   Von dieser Angabe hängt der Wert fürs Attribut @type ab:<table id="table_bps_jw1_3y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Referenz</entry>
-       <entry>Wert für @type</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Seitenzahl</entry>
-       <entry>page</entry>
-      </row>
-      <row>
-       <entry>Brief</entry>
-       <entry>letter</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <p>Im Attribut @target werden detaillierte Angaben zur referierten Stelle gemacht. Über ein
-   Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format "B#SZ". Außerdem müssen Sie
-   vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie „ ja“ auswählen,
-   wird ein zusätzliches Attribut @subtype mit dem Wert "comment" generiert. </p>
-  <codeblock>&lt;linkGrp>
+ <concept id="concept_g51_2ln_my">
+  <title><b>Neuer Eintrag</b></title>
+  <conbody>
+   <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
+    im Personenregister wird in einem &lt;person>, in einem Ortsregister in einem &lt;place> usw.
+    angelegt. Beim Anlegen eines Eintrages werden Sie über ein Dialogfenster nach grundlegenden
+    Informationen gefragt, die Sie an dieser Stelle schon angeben können (Name, Ortsname
+     usw.).<table id="table_bhk_fln_my">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Registereintrag</entry>
+        <entry>Eintrag als XML-Text</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Person</entry>
+        <entry>&lt;person></entry>
+       </row>
+       <row>
+        <entry>Ort</entry>
+        <entry>&lt;place></entry>
+       </row>
+       <row>
+        <entry>Werk</entry>
+        <entry/>
+       </row>
+       <row>
+        <entry>Sachbegriff</entry>
+        <entry>&lt;item></entry>
+       </row>
+       <row>
+        <entry>Einrichtung</entry>
+        <entry>&lt;institution></entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+  </conbody>
+ </concept>
+ <concept id="concept_ghp_fln_my">
+  <title>Allgemein</title>
+  <conbody>
+   <p>Die Schaltfläche „ Allgemein“ umfasst Aktionen, die im Prinzip in allen Registersorten
+    verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
+   <p>1. Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.)
+    versehen. Die Norm-ID wird in einem &lt;idno> (identifikator) notiert.
+    <codeblock>&lt;idno type="uri">http://d-nb.info/gnd/170885348&lt;/idno></codeblock></p>
+   <p>2. Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
+    Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
+    in einem &lt;desc> (description), im Personenregister und im Ortsregister in einem &lt;note>
+    notiert.</p>
+   <p>Einrichtungs-/Sachregister:<codeblock>&lt;desc>Verlagsbuchhandlung in Karlsruhe.&lt;/desc></codeblock></p>
+   <p>Personen-/Ortsregister:</p>
+   <codeblock>&lt;note>deutscher Journalist; Liberaler&lt;/note></codeblock>
+   <p>3. Mit der Funktion „ Register sortieren“ wird das Register alphapetisch angeordnet.</p>
+   <p>4. Sie können innerhalb von Kommentaren in Registeinrägen auf andere Personen, Orte und
+    Organisationen verlinken. Über ein Dialogfenster werden Ihnen die bereits erstellten Einträge
+    angezeigt. Im Attribut @key wird die ID zu dem verlinkten Eintrag notiert.<table
+     id="table_y4b_yy1_3y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Verlinkung auf</entry>
+        <entry>Link</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Person</entry>
+        <entry>&lt;persName></entry>
+       </row>
+       <row>
+        <entry>Ort</entry>
+        <entry>&lt;placeName></entry>
+       </row>
+       <row>
+        <entry>Organisation</entry>
+        <entry>&lt;orgName></entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table><codeblock>&lt;note>&lt;persName key="pdrPo.001.004.000001072">Mutter von Julie&lt;/persName>&lt;/note></codeblock></p>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+   <p>5. Außerdem können Sie mit einem &lt;ref> (reference) auf eine externe Website verweisen.
+    <?oxy_custom_end?><codeblock>&lt;ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie&lt;/ref></codeblock></p>
+   <p>6. In jedem Eintrag können innerhalb des &lt;linkGrp> (link group) Referenzen auf die
+    Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem &lt;ptr> (print) angegeben.
+    Über ein Dialogfenster geben Sie dabei an, ob Sie auf eine Seitenzahl oder Briefnummer
+    verweisen. Von dieser Angabe hängt der Wert fürs Attribut @type ab:<table id="table_bps_jw1_3y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Referenz</entry>
+        <entry>Wert für @type</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Seitenzahl</entry>
+        <entry>page</entry>
+       </row>
+       <row>
+        <entry>Brief</entry>
+        <entry>letter</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <p>Im Attribut @target werden detaillierte Angaben zur referierten Stelle gemacht. Über ein
+    Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format "B#SZ". Außerdem müssen
+    Sie vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie „ ja“
+    auswählen, wird ein zusätzliches Attribut @subtype mit dem Wert "comment" generiert. </p>
+   <codeblock>&lt;linkGrp>
    &lt;ptr type="page" target="I#32"/>
    &lt;ptr type="letter" target="II#46" subtype="comment"/>
 &lt;/linkGrp></codeblock>
-  <p><b>Personenregister</b></p>
-  <p>1. Die Einträge im Personenregister werden in einem &lt;person> notiert. Wenn Sie einen Eintrag
-   erstellen wird im Attribut @xml.id automatisch eine ID generiert, mit der Sie auf den Eintrag
-   referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben machen:
-   Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder eine
-   mytholgische Figur handeln, wird zusätzlich das Attribut @role angelegt. Dort wird entsprechend
-   entweder der Wert "fictional" oder "mythological"
-   eingetragen.<codeblock>&lt;person xml:id="pdrPo.001.004.000005229"></codeblock></p>
-  <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
-   Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem &lt;persName
-   type="reg"> festgehalten. Varianten oder alternative Namen werden jeweils in einem eigenen
-   &lt;persName> gespeichtert, die das Attribut @type="alt" (alternative) und eine Attribut @subtype
-   haben, das angibt welche Art von Namenvariation vorliegt. </p>
-  <p>
-   <table id="table_ohy_qcf_hy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Name</entry>
-       <entry>Wert für @subtype</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Alternative(r) Name/Schreibung</entry>
-       <entry><i>@subtype entfällt</i></entry>
-      </row>
-      <row>
-       <entry>Pseudonym</entry>
-       <entry>pseudonym</entry>
-      </row>
-      <row>
-       <entry>Geburtsname</entry>
-       <entry>birthname</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table>
-  </p>
-  <p>Sie können entweder nur den Nachnamen angeben (&lt;name>) oder Vor- und Nachnamen
-   (&lt;surname>/&lt;forename>).</p>
-  <codeblock>&lt;persName type="alt" subtype="pseudonym">
+  </conbody>
+ </concept>
+ <concept id="concept_gpw_hln_my">
+  <title>Personenregister</title>
+  <conbody>
+   <p>1. Die Einträge im Personenregister werden in einem &lt;person> notiert. Wenn Sie einen
+    Eintrag erstellen wird im Attribut @xml.id automatisch eine ID generiert, mit der Sie auf den
+    Eintrag referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben
+    machen: Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder
+    eine mytholgische Figur handeln, wird zusätzlich das Attribut @role angelegt. Dort wird
+    entsprechend entweder der Wert "fictional" oder "mythological"
+    eingetragen.<codeblock>&lt;person xml:id="pdrPo.001.004.000005229"></codeblock></p>
+   <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
+    Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem &lt;persName
+    type="reg"> festgehalten. Varianten oder alternative Namen werden jeweils in einem eigenen
+    &lt;persName> gespeichtert, die das Attribut @type="alt" (alternative) und eine Attribut
+    @subtype haben, das angibt welche Art von Namenvariation vorliegt. </p>
+   <p>
+    <table id="table_ohy_qcf_hy">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Name</entry>
+        <entry>Wert für @subtype</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Alternative(r) Name/Schreibung</entry>
+        <entry><i>@subtype entfällt</i></entry>
+       </row>
+       <row>
+        <entry>Pseudonym</entry>
+        <entry>pseudonym</entry>
+       </row>
+       <row>
+        <entry>Geburtsname</entry>
+        <entry>birthname</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   </p>
+   <p>Sie können entweder nur den Nachnamen angeben (&lt;name>) oder Vor- und Nachnamen
+    (&lt;surname>/&lt;forename>).</p>
+   <codeblock>&lt;persName type="alt" subtype="pseudonym">
    &lt;name>[Pseudonym]&lt;/name>
 &lt;/persName></codeblock>
-  <p>2. Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die Wirklungszeit
-   (Floruit) angeben. Die Lebensdaten werden in einem &lt;birth> und &lt;death>
-   notiert.<codeblock>&lt;birth>1838&lt;/birth>
+   <p>2. Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die Wirklungszeit
+    (Floruit) angeben. Die Lebensdaten werden in einem &lt;birth> und &lt;death>
+    notiert.<codeblock>&lt;birth>1838&lt;/birth>
 &lt;death>1889&lt;/death></codeblock></p>
-  <p>Die Wirkungszeit wird in einem &lt;floruit> notiert. In den Attributen @notBefore (nicht vor)
-   und @notAfter (nicht nach) wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format
-   JJJJ-MM-TT angegeben, wobei Monat und Tag optionale Angaben
-   sind.<codeblock>&lt;floruit notBefore="1860" notAfter="1880"/></codeblock></p>
-  <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
-   im Registereintrag vermerken. Es wird zusätzlich das Attribut @role angelegt. Dort wird
-   entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
-  <p/>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>Gruppen?<?oxy_custom_end?></p>
-  <p><b>Ortsregister</b></p>
-  <p>Ein Eintrag im Ortsregister wird in einem &lt;place> notiert. Wenn Sie einen neuen Eintrag
-   erstellen, wird im Attribut @xml:id eine ID generiert, mit der Sie auf den Eintrag referien
-   können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
-   angeben.<codeblock>&lt;place xml:id="ed_zvg_2fj_wx"></codeblock></p>
-  <p>Der Name des Ortes wird in einem &lt;placeName>
-   angegeben.<codeblock>&lt;placeName type="reg">Liverpool&lt;/placeName></codeblock></p>
-  <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
-   Gebäude angeben. Diese Angabe wird in einem &lt;listPlace> notiert. Weil es sich um eine
-   spezifischere Angabe handelt, wird diese wiederum in einem &lt;place> angegeben und erhält im
-   Attribut @xml:id eine individuelle ID. Im Attribut @type wird ausgezeichnet ob es sich um eine
-   Straße (street) oder um ein Gebäude (bulidung)
-   handelt.<codeblock>&lt;listPlace>
+   <p>Die Wirkungszeit wird in einem &lt;floruit> notiert. In den Attributen @notBefore (nicht vor)
+    und @notAfter (nicht nach) wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format
+    JJJJ-MM-TT angegeben, wobei Monat und Tag optionale Angaben
+    sind.<codeblock>&lt;floruit notBefore="1860" notAfter="1880"/></codeblock></p>
+   <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
+    im Registereintrag vermerken. Es wird zusätzlich das Attribut @role angelegt. Dort wird
+    entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
+   <p/>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+   <p>Gruppen?</p>
+   <?oxy_custom_end?>
+  </conbody>
+ </concept>
+ <concept id="concept_wpj_jln_my">
+  <title>Ortsregister</title>
+  <conbody>
+   <p>Ein Eintrag im Ortsregister wird in einem &lt;place> notiert. Wenn Sie einen neuen Eintrag
+    erstellen, wird im Attribut @xml:id eine ID generiert, mit der Sie auf den Eintrag referien
+    können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
+    angeben.<codeblock>&lt;place xml:id="ed_zvg_2fj_wx"></codeblock></p>
+   <p>Der Name des Ortes wird in einem &lt;placeName>
+    angegeben.<codeblock>&lt;placeName type="reg">Liverpool&lt;/placeName></codeblock></p>
+   <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
+    Gebäude angeben. Diese Angabe wird in einem &lt;listPlace> notiert. Weil es sich um eine
+    spezifischere Angabe handelt, wird diese wiederum in einem &lt;place> angegeben und erhält im
+    Attribut @xml:id eine individuelle ID. Im Attribut @type wird ausgezeichnet ob es sich um eine
+    Straße (street) oder um ein Gebäude (bulidung)
+    handelt.<codeblock>&lt;listPlace>
    &lt;place xml:id="ediarum_t4p_lhf_hy" type="street">
       &lt;placeName type="reg">Aberdeen St &lt;/placeName>
    &lt;/place>
 &lt;/listPlace></codeblock></p>
-  <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
-   über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
-   Link wird in einem &lt;idno> (identifikator)
-   notiert.<codeblock>&lt;idno type="uri">http://www.geonames.org/2641805&lt;/idno></codeblock></p>
-  <p><b>Werkregister</b></p>
-  <p><b>Sachregister</b></p>
-  <p>Einräge im Sachregister werden in einem &lt;item> notiert. Wenn Sie einen neuen Eintrag
-   erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag referieren
-   könnnen.Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der In einem
-   &lt;label> notiert
-   wird.<codeblock>&lt;item xml:id="ed_vgn_5rt_fx">
+   <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
+    über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
+    Link wird in einem &lt;idno> (identifikator)
+    notiert.<codeblock>&lt;idno type="uri">http://www.geonames.org/2641805&lt;/idno></codeblock></p>
+  </conbody>
+ </concept>
+ <concept id="concept_rjp_lln_my">
+  <title><b><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Werkregister</b></title>
+  <conbody>
+   <p/>
+   <?oxy_custom_end?>
+  </conbody>
+ </concept>
+ <concept id="concept_m5w_mln_my">
+  <title>Sachregister</title>
+  <conbody>
+   <p>Einräge im Sachregister werden in einem &lt;item> notiert. Wenn Sie einen neuen Eintrag
+    erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag referieren
+    könnnen.Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der In einem
+    &lt;label> notiert
+    wird.<codeblock>&lt;item xml:id="ed_vgn_5rt_fx">
    &lt;label type="reg">Bearbeitung von Stücken&lt;/label>
 &lt;/item></codeblock></p>
-  <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.
-   <codeblock>&lt;list>
+   <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.
+    <codeblock>&lt;list>
    &lt;item xml:id="ed_ggf_npf_hy">
       &lt;label type="reg">[untergeordnete Ebene]&lt;/label>
    &lt;/item>
 &lt;/list></codeblock></p>
-  <p><b>Einrichtungsregister</b></p>
-  <p>Im Einrichtungsregister können Sie zu den einzelnen Einträgen den Standort angeben und diese
-   Standortangabe datieren. Einträge in diesem Register werden in einem &lt;org> (organization)
-   notiert. Für jeden Eintrag wird im Attribut @xml:id eine ID generiert, mithilfe der auf den
-   Eintrag verwisen werden kann. Den Namen der Einrichtung können Sie direkt über ein Dialogfenster
-   angeben. Dieser wird in einem &lt;orgName> (organization name) angegeben. </p>
-  <codeblock outputclass="language-xml">&lt;org xml:id="pdrPo.001.015.000090143">
+  </conbody>
+ </concept>
+ <concept id="concept_hs3_4ln_my">
+  <title>Einrichtungsregister</title>
+  <conbody>
+   <p>Im Einrichtungsregister können Sie zu den einzelnen Einträgen den Standort angeben und diese
+    Standortangabe datieren. Einträge in diesem Register werden in einem &lt;org> (organization)
+    notiert. Für jeden Eintrag wird im Attribut @xml:id eine ID generiert, mithilfe der auf den
+    Eintrag verwisen werden kann. Den Namen der Einrichtung können Sie direkt über ein Dialogfenster
+    angeben. Dieser wird in einem &lt;orgName> (organization name) angegeben. </p>
+   <codeblock outputclass="language-xml">&lt;org xml:id="pdrPo.001.015.000090143">
    &lt;orgName type="reg">A. Hübenthal Co.&lt;/orgName></codeblock>
-  <p>Der Standort wird in einem &lt;location> angegeben. Sie können den Standort entweder
-   detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Die Adresse wird einem
-   &lt;adress> angegeben. Die Ortschaft wird in einem &lt;settlement> auszezeichnet, wobei das
-   Attribut @key die ID der entsprechenden Stadt übernimmt. Innerhalb des &lt;note> werden dann die
-   detaillierteren Angaben aufgeführt.</p>
-  <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy">
+   <p>Der Standort wird in einem &lt;location> angegeben. Sie können den Standort entweder
+    detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Die Adresse wird
+    einem &lt;adress> angegeben. Die Ortschaft wird in einem &lt;settlement> auszezeichnet, wobei
+    das Attribut @key die ID der entsprechenden Stadt übernimmt. Innerhalb des &lt;note> werden dann
+    die detaillierteren Angaben aufgeführt.</p>
+   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy">
    &lt;address>
       &lt;settlement key="ed_p3t_jpj_wx">Genf&lt;/settlement>
       &lt;note>Rudolfstraße&lt;/note>
    &lt;/address>
 &lt;/location></codeblock>
-  <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des &lt;location> in
-   den Attributen @from und @to notiert wird. Die Datumsangabe strukturiert sich folgendermaßen:
-   JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag optional.</p>
-  <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
-  <p><b>Zusammenführen</b></p>
-  <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
-   Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag
-   setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als
-   zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als
-   alternative Angaben behandelt.</p>
- </conbody>
+   <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des &lt;location>
+    in den Attributen @from und @to notiert wird. Die Datumsangabe strukturiert sich folgendermaßen:
+    JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag optional.</p>
+   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
+  </conbody>
+ </concept>
+ <concept id="concept_h5d_qln_my">
+  <title>Zusammenführen</title>
+  <conbody>
+   <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
+    Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag
+    setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als
+    zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als
+    alternative Angaben behandelt.</p>
+  </conbody>
+ </concept>
 </concept>

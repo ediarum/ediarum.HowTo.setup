@@ -5,34 +5,34 @@
         <mainbooktitle>ediarum.Basis</mainbooktitle>
     </booktitle>
 
-    <chapter href="introduction/Ueberschrift.dita">
-        <topicref href="introduction/Zentrale_Datenhaltung.dita"/>
-        <topicref href="introduction/Einsatz_von_XML.dita"/>
-        <topicref href="introduction/TEI.dita"/>
+    <chapter href="introduction/ueberschrift.dita">
+        <topicref href="introduction/datenhaltung.dita"/>
+        <topicref href="introduction/xml.dita"/>
+        <topicref href="introduction/tei.dita"/>
     </chapter>
-    <chapter href="operation/Ueberschrift.dita">
-        <topicref href="operation/Ueberblick-ediarum.dita"/>
-        <topicref href="operation/Arbeiten_mit_dem_Dateibaum.dita"/>
-        <topicref href="operation/Ohne_Werkzeugleiste_arbeiten.dita"/>
-        <topicref href="operation/Ansichten-ediarum.dita"/>
-        <topicref href="operation/Suche.dita"/>
+    <chapter href="operation/ueberschrift.dita">
+        <topicref href="operation/ueberblick-ediarum.dita"/>
+        <topicref href="operation/dateibaum.dita"/>
+        <topicref href="operation/ohne_werkzeugleiste.dita"/>
+        <topicref href="operation/ansichten-ediarum.dita"/>
+        <topicref href="operation/suche.dita"/>
     </chapter>
-    <chapter href="frameworks/letter/Ueberschrift.dita">
-        <topicref href="general/Allgemeine_Werkzeugleiste.dita"/>
-        <topicref href="frameworks/letter/Transkription.dita">
-            <topicref href="frameworks/letter/Transkription-Autor.dita"></topicref>
-            <topicref href="frameworks/letter/Transkription-Hg.dita"></topicref>
+    <chapter href="frameworks/letter/ueberschrift.dita">
+        <topicref href="general/allgemeine_werkzeugleiste.dita"/>
+        <topicref href="frameworks/letter/transkription.dita">
+            <topicref href="frameworks/letter/transkription-autor.dita"></topicref>
+            <topicref href="frameworks/letter/transkription-hg.dita"></topicref>
         </topicref>
-        <topicref href="frameworks/letter/Metaangaben_Textspezifisch.dita">
-            <topicref href="frameworks/letter/Allgemein.dita"></topicref>
-            <topicref href="frameworks/letter/Briefmetaangeben.dita"/>
-            <topicref href="frameworks/letter/Brieftext.dita"/>
-            <topicref href="frameworks/letter/Symbole.dita"></topicref>
+        <topicref href="frameworks/letter/metaangaben_textspezifisch.dita">
+            <topicref href="frameworks/letter/allgemein.dita"></topicref>
+            <topicref href="frameworks/letter/briefmetaangeben.dita"/>
+            <topicref href="frameworks/letter/brieftext.dita"/>
+            <topicref href="frameworks/letter/symbole.dita"></topicref>
         </topicref>                  
     </chapter>
-    <chapter href="frameworks/index/Register-Ueberschrift.dita">
-        <topicref href="general/Allgemeine_Werkzeugleiste.dita"/>
-        <topicref href="frameworks/index/Register.dita"></topicref>
+    <chapter href="frameworks/index/register-ueberschrift.dita">
+        <topicref href="general/allgemeine_werkzeugleiste.dita"/>
+        <topicref href="frameworks/index/register.dita"></topicref>
         
     </chapter>
 </bookmap>

@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_h2m_bb2_vw">
  <title>Einsatz von XML</title>
- <shortdesc/>
  <conbody>
   <p>Die Texte werden als XML-Dokument (.xml) gespeichert und bereitgehalten. XML bedeutet
    „Extensible Markup Language“ und ist eine Auszeichnungssprache, mit der der Inhalt eines
