@@ -72,10 +72,11 @@
     hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die
     Anzahl der Zeilen (rows) und Spalten (columns) angeben können. Mit der Schaltfläche kann die
     Tabelle jederzeit noch nachträglich verändert werden. </p>
-   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
     Häkchen auf "generate_table-header". Der ersten Zeile (row) der Tabelle wird dann die Rolle der
-    Beschriftung zugewiesen (@role="label").<?oxy_custom_end?></p>
+    Beschriftung zugewiesen
+    (@role="label").<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
+   <?oxy_custom_end?>
    <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
    <head>Tabelle</head>
    <row role="label">
@@ -83,8 +84,8 @@
       <cell>[Überschrift Spalte 2]</cell>
    </row>
    <row>
-      <cell>[Text]</cell>
-      <cell>[Text]</cell>
+      <cell>[Spalte 1/Zeile 1]</cell>
+      <cell>[Spalte 2/ Zeile 1]</cell>
    </row>
    ...
 </table>]]></codeblock>
@@ -350,8 +351,5 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    </table>
    <codeblock outputclass="language-xml"><![CDATA[aber nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder in mir herzustellen]]></codeblock>
   </conbody>
- </concept>
- <concept id="concept_wzt_dhn_my">
-  <title/>
  </concept>
 </concept>

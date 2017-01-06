@@ -314,8 +314,7 @@
         <conbody>
             <p>Der Herausgeber wird in einem &lt;editor> notiert. Die Angaben zur Person werden in
                 einem &lt;persName> angegeben. Im Attribut @ref kann eine Referenz in Form einer
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>GND, VIAF oder
-                URI<?oxy_custom_end?> gemacht werden.</p>
+                GND, VIAF oder URI gemacht werden.</p>
             <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
       <surname>Unseld</surname>
@@ -323,9 +322,10 @@
    </persName>
 </editor>]]></codeblock>
             <p>Außerdem können Mitarbeiter in einem &lt;respStmt> (statement of responsibility)
-                notiert werden. Hier können Sie auch eine GND, VIAF oder URI als Referenz angeben.
-                Die Art der Mitarbeit wird dabei in einem &lt;note> bezeichnet: Mitarbeit,
-                Redaktionelle Mitarbeit, Transkription, Kommentar und Register.</p>
+                notiert werden. Hier können Sie auch eine GND, VIAF oder URI, die auf den
+                Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird dabei in einem &lt;note>
+                bezeichnet: Mitarbeit, Redaktionelle Mitarbeit, Transkription, Kommentar und
+                Register.</p>
             <codeblock outputclass="language-xml"><![CDATA[<respStmt>
    <persName ref="118763784">
       <surname>Unseld</surname>

@@ -28,11 +28,14 @@
    stellt, um Texte zu trankribieren. Die Funktionen können Sie nutzen, indem Sie die entsprechende
    Schaltfläche benutzen. Die Erklärungen dienen zum einen dazu, dass Sie die Funktionen genauer
    kennenlernen und die Schaltflächen benutzen können. Zum anderen geben die Erklärungen einen
-   Einblick in den <xref href="../../introduction/Einsatz_von_XML.dita">XML-Text</xref> des Dokuments.
+   Einblick in den <xref href="../../introduction/xml.dita">XML-Text</xref> des Dokuments.
    Die Schaltflächen werden in der Autoren-Ansicht verwendet. Die Markierungen, die Sie mithilfe der Schaltflächen
    vornehmen, speichert das eigentliche XML-Dokument in einem XML-Code, den Sie in der Text-Ansicht sehen können.</p>
  </conbody>
  <related-links>
+  <linklist scope="external">
+   <title>Deutsches Textarchiv</title>  
   <link href="http://www.deutsches-textarchiv.de/" format="html" scope="external"/>
+  </linklist>
  </related-links>
 </concept>

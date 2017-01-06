@@ -114,7 +114,7 @@
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="chars" quantity="1" reason="fm"/>dann wieder]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_hfv_nhn_my">
@@ -183,8 +183,8 @@
    <p>Werden Fehler des Autors im edierten Text korrigiert, so wird das Originalwort mit
     <![CDATA[<sic/>]]> und die Korrektur mit <![CDATA[<corr/> (correction)]]> ausgezeichnet; beides
     wird mit einem <![CDATA[<choice/>]]> umschlossen. Im Element <![CDATA[<corr/>]]> wird durch das
-    Attribut @cert (certainty) die Wahrscheinlichkeit notiert, mit der die Korrektur zutrifft:
-     <table id="table_wl2_xhn_my">
+    Attribut @cert (certainty) die Wahrscheinlichkeit notiert, mit der die identifizierte Korrektur
+    zutrifft: <table id="table_wl2_xhn_my">
      <tgroup cols="2">
       <thead>
        <row>
