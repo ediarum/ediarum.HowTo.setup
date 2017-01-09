@@ -4,7 +4,6 @@
     <booktitle>
         <mainbooktitle>ediarum.Basis</mainbooktitle>
     </booktitle>
-
     <chapter href="introduction/ueberschrift.dita">
         <topicref href="introduction/datenhaltung.dita"/>
         <topicref href="introduction/xml.dita"/>
@@ -18,7 +17,7 @@
         <topicref href="operation/suche.dita"/>
     </chapter>
     <chapter href="frameworks/letter/ueberschrift.dita">
-        <topicref href="general/allgemeine_werkzeugleiste.dita"/>
+        <topicref href="general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
         <topicref href="frameworks/letter/transkription.dita">
             <topicref href="frameworks/letter/transkription-autor.dita"></topicref>
             <topicref href="frameworks/letter/transkription-hg.dita"></topicref>
@@ -30,9 +29,8 @@
             <topicref href="frameworks/letter/symbole.dita"></topicref>
         </topicref>                  
     </chapter>
-    <chapter href="frameworks/index/register-ueberschrift.dita">
-        <topicref href="general/allgemeine_werkzeugleiste.dita"/>
-        <topicref href="frameworks/index/register.dita"></topicref>
-        
+    <chapter href="frameworks/index/ueberschrift.dita">
+        <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>
+        <topicref href="frameworks/index/register.dita"></topicref>       
     </chapter>
 </bookmap>

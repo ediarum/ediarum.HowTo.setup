@@ -136,7 +136,7 @@
   </conbody>
  </concept>
  <concept id="concept_mw4_rhn_my">
-  <title><image href="../img/surplus16.gif" id="image_avn_jlf_cy"/>
+  <title><image href="../img/supplied16.gif" id="image_lpc_d3f_2y"/>
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></title>
   <conbody>
    <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
@@ -166,14 +166,18 @@
   </conbody>
  </concept>
  <concept id="concept_wz4_thn_my">
-  <title><image href="../img/supplied16.gif" id="image_lpc_d3f_2y"/>
+  <title><image href="../img/surplus16.gif" id="image_avn_jlf_cy"/>
    <b>Streichungen durch den Herausgeber</b></title>
   <conbody>
-   <p>I<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>m Manuskript vorhandene
-    redundante bzw. überflüssige Wörter oder Buchstaben können nach der Transkription mit
-    <![CDATA[<sic> und <corr type="deleted"]]> als überflüssig markiert
-    werde<?oxy_custom_end?>n.</p>
-   <codeblock outputclass="language-xml">&lt;sic>Atomentheorie&lt;/sic>&lt;corr type="deleted"/></codeblock>
+   <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können durch den
+    Bearbeiter/Herausgeber in einem &lt;choice> nach der Transkription als überflüssig markiert
+    werden. Die Textstelle, die gestrichen werden soll, wird dabei von einem &lt;sic> umschlossen.
+    Daran anschließend wird in einem &lt;corr> (correction) das Element als gestrichen
+    ausgezeichnet.<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
+   <p>
+    <?oxy_custom_end?>
+    <codeblock>&lt;choice>&lt;sic>Schiller-Anstalt&lt;/sic>&lt;corr type="deleted"/>&lt;/choice></codeblock>
+   </p>
   </conbody>
  </concept>
  <concept id="concept_r4m_vhn_my">
@@ -207,10 +211,12 @@
        </row>
       </tbody>
      </tgroup>
-    </table></p>
+    </table>Die korrigiert Textstelle wird im &lt;sic> angegeben, die eigentliche Korrektur durch
+    den Herausgeber im &lt;corr>.</p>
    <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
    <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
-    &lt;orig> umschließen und in &lt;reg> die normalisierte Schreibweise angeben.</p>
+    &lt;orig> umschließen und in &lt;reg> (regularization) die normalisierte Schreibweise
+    angeben.</p>
    <codeblock outputclass="language-xml">&lt;choice><![CDATA[<orig>althen</orig><reg>alten</reg>]]>&lt;/choice></codeblock>
   </conbody>
  </concept>
@@ -218,9 +224,9 @@
   <title><image href="../img/seg-note16.gif" id="image_vn4_2nf_cy"/>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></title>
   <conbody>
-   <p>Sie können Sachanmerkung (&lt;seg>) zu Textstellen erstellen, indem Sie dieses mit einem
-    &lt;oirg> umschließen und in einem &lt;note> die entsprechende Anmerkung notieren. Das Attribut
-    @xml.id wird automatisch generiert.</p>
+   <p> MIt einem &lt;seg> (arbitrary segment) können Sie Sachanmerkung zu Textstellen erstellen,
+    indem Sie die Stelle mit einem &lt;oirg> umschließen und in einem &lt;note> die entsprechende
+    Anmerkung notieren. Das Attribut @xml.id wird automatisch generiert.</p>
    <codeblock outputclass="language-xml">&lt;seg type="comment"><![CDATA[
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
@@ -242,14 +248,14 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
     enthält.</p>
    <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-   <p>Außerdem kann mit einem &lt;ref key="…"> auf einen Eintrag im Sachregister verwiesen
-    werden.<?oxy_custom_end?></p>
+   <p><?oxy_custom_end?>Außerdem kann mit einem &lt;ref key="…"> auf einen Eintrag im Sachregister
+    verwiesen werden.</p>
    <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-   <p>Link auf externe Website<?oxy_custom_end?></p>
-   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-   <p>Sachanmerkung</p>
-   <?oxy_custom_end?>
+   <p><?oxy_custom_end?>Sie können innerhalb einer Sachanmerkung (&lt;seg>) auf eine externe Website
+    verweisen. Die Anmerkung wird in einem &lt;note> notiert und der Link auf die externe Website in
+    einem &lt;ref>  angegeben. Im Attribut @target wird die URL der Website notiert.</p>
+   <codeblock>&lt;seg type="comment">&lt;orig>der Fluss&lt;/orig>&lt;note xml:id="nxlm_bhy_ny">&lt;ref target="http://www.kallilope.de/beispiel"/>&lt;/note>&lt;/seg></codeblock>
   </conbody>
  </concept>
  <concept id="concept_xsm_b3n_my">
