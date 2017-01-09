@@ -302,11 +302,14 @@
         </conbody>
     </concept>
     <concept id="concept_ksd_5jn_my">
-        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Zitat in
-                Regest, Kommentar etc.</b></title>
+        <title><b>Zitat in Regest, Kommentar
+            etc.</b><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></title>
         <conbody>
             <?oxy_custom_end?>
-            <p/>
+            <p>Sie können in einem Regest (&lt;abstract>) ein Zitat einfügen. Das Zitat wird in
+                einem &lt;quote> angegeben. <codeblock><![CDATA[<abstract>
+   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote>bald erhalten Sie ein Porträt</p>
+</abstract>]]></codeblock></p>
         </conbody>
     </concept>
     <concept id="concept_al3_vjn_my">

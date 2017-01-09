@@ -16,7 +16,7 @@
  </concept>
  <concept id="concept_egy_m2n_my">
   <title><image href="img/5.png" id="image_e3m_n2n_my"/><image href="img/6.png"
-    id="image_f3m_n2n_my"/><b>Rückgängig machen und wiederherstellen</b></title>
+    id="image_f3m_n2n_my"/><b> Rückgängig machen und wiederherstellen</b></title>
   <conbody>
    <p>Hier können Sie den letzten Bearbeitungsschritt rückgängig machen bzw. wiederhergestellen.</p>
   </conbody>
@@ -31,7 +31,7 @@
   </conbody>
  </concept>
  <concept id="concept_us5_52n_my">
-  <title><image href="img/10.png" id="image_jzd_v2n_my"/><b>Bearbeitungskommentare</b></title>
+  <title><image href="img/10.png" id="image_jzd_v2n_my"/><b> Bearbeitungskommentare</b></title>
   <conbody>
    <p>Mit dieser Schaltfläche können Sie Wörter oder Textabschnitte farblich markieren, wenn Sie
     diese für die Bearbeitung temporär hervorheben möchten. </p>
@@ -40,14 +40,14 @@
  <concept id="concept_e2p_x2n_my">
   <title><image href="img/11.png" id="image_zlh_y2n_my"/><image href="img/12.png"
     id="image_amh_y2n_my"/><image href="img/13.png" id="image_bmh_y2n_my"
-    /><b>Bearbeitungskommentare</b></title>
+    /><b> Bearbeitungskommentare</b></title>
   <conbody>
    <p>Mit diesen Schaltflächen können Sie Bearbeitungskommentare im Dokument einfügen, bearbeiten
     und verwalten.</p>
   </conbody>
  </concept>
  <concept id="concept_e4d_cfn_my">
-  <title><image href="img/14.png" id="image_kjp_cfn_my"/><b>Stile</b></title>
+  <title><image href="img/14.png" id="image_kjp_cfn_my"/><b> Stile</b></title>
   <conbody>
    <p>Hier können Sie das zugrunde liegende „Cascading Stylesheet“ (CSS ), das für die Anzeige
     verantwortlich ist, wechseln. Eine Änderung hat nur Auswirkungen auf die Anzeige, nicht auf das
