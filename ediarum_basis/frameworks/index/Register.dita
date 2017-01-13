@@ -28,7 +28,7 @@
        </row>
        <row>
         <entry>Werk</entry>
-        <entry/>
+        <entry>&lt;bibl></entry>
        </row>
        <row>
         <entry>Sachbegriff</entry>
@@ -88,7 +88,8 @@
     </table><codeblock>&lt;note>&lt;persName key="pdrPo.001.004.000001072">Mutter von Julie&lt;/persName>&lt;/note></codeblock></p>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p>5. Außerdem können Sie mit einem &lt;ref> (reference) auf eine externe Website verweisen.
-    <?oxy_custom_end?><codeblock>&lt;ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie&lt;/ref></codeblock></p>
+    <?oxy_custom_end?>Im Attribut @target wird die entsprechende URL
+    notiert.<codeblock>&lt;ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie&lt;/ref></codeblock></p>
    <p>6. In jedem Eintrag können innerhalb des &lt;linkGrp> (link group) Referenzen auf die
     Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem &lt;ptr> (print) angegeben.
     Über ein Dialogfenster geben Sie dabei an, ob Sie auf eine Seitenzahl oder Briefnummer
@@ -179,10 +180,9 @@
    <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
     im Registereintrag vermerken. Es wird zusätzlich das Attribut @role angelegt. Dort wird
     entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
-   <p/>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-   <p>Gruppen?</p>
-   <?oxy_custom_end?>
+   <p>4. Außerdem könnnen Sie mit einem &lt;listPerson>, dessen Attribut @type den Wert "group" hat,
+    Gruppen anlegen.<?oxy_custom_end?></p>
   </conbody>
  </concept>
  <concept id="concept_wpj_jln_my">
@@ -211,10 +211,85 @@
   </conbody>
  </concept>
  <concept id="concept_rjp_lln_my">
-  <title><b><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Werkregister</b></title>
+  <title><b>Werkregister</b></title>
   <conbody>
-   <p/>
-   <?oxy_custom_end?>
+   <p>Ein Eintrag im Werkregister wird in einem &lt;bibl> notiert. Wenn Sie einen neuen Eintrag
+    erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag referieren
+    könnnen. Außerdem erscheint beim Anlegen eines neuen Eintrags ein Dialogfenster, in dem Sie
+    schon den Vor-und Nachnamen des Autoren und den Titel der Publikation eingeben können. </p>
+   <p>Die Angaben, die den Autoren betreffen, werden in einem &lt;auhor> notiert. Dabei werden
+    Angaben zum Namen in einem &lt;persName> notiert, wobei der Vorname in einem &lt;forename> und
+    der Nachname in einem &lt;surname> angegeben wird.
+    <codeblock>&lt;author>
+   &lt;persName key="ed_bkf_zlr_5x">
+      &lt;surname>Apell&lt;/surname>
+      &lt;forename>David August von&lt;/forename>
+   &lt;/persName></codeblock></p>
+   <p>Es können weitere Autoren hinzugefügt werden. Die Angaben für jeden Autoren werden jeweils in
+    einem eigenen Element &lt;author> gemacht. Sie können den Anteil, den die einzelnen Autoren
+    jeweils am Werk hatten, näher bestimmen. Dafür kann ein Attribut @role angelegt werden, dessen
+    Wert die Art der Mitarbeit angibt.<table id="table_b4y_qr1_py">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Anteil am Werk</entry>
+        <entry>Wert für @role</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Musik</entry>
+        <entry>music</entry>
+       </row>
+       <row>
+        <entry>Komposition</entry>
+        <entry>composition</entry>
+       </row>
+       <row>
+        <entry>Bearbeitung</entry>
+        <entry>arrangement</entry>
+       </row>
+       <row>
+        <entry>Libretto</entry>
+        <entry>libretto</entry>
+       </row>
+       <row>
+        <entry>Text</entry>
+        <entry>text</entry>
+       </row>
+       <row>
+        <entry>Übersetzung</entry>
+        <entry>translation</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock>&lt;author role="translation"></codeblock>
+   <p>Außerdem können Sie noch die Publikationsart näher im &lt;bibl> Element bestimmen. Im Attribut
+    @type können Sie entweder auszeichenen, dass es sich um eine Zeitschrift (journal) oder um einen
+    Sammelband (edited_volumen) handelt. Herausgeber werden in einem &lt;editor> angegeben.  Einen
+    einzelner Artikel innerhalb einer solchen Publikation wird in einem weiteren &lt;bibl>
+    angegeben, in dem ein Attribut @type angibt, dass es sich um einen Artikel handelt (article). Im
+    Element &lt;biblScope> werden Angaben zu Band und Seitenzahl
+    gemacht.<codeblock>&lt;bibl type="journal" xml:id="ed_gnk_wt1_py">
+   &lt;editor>
+      &lt;persName>
+         &lt;surname>Rambach&lt;/surname>
+         &lt;forename>Friedrich Eberhard&lt;/forename>
+      &lt;/persName>
+   &lt;/editor>
+   &lt;title>Annalen des Königlichen Nationaltheaters zu Berlin&lt;/title>
+   &lt;bibl type="article" xml:id="ed_wbv_b51_py">
+      &lt;author>
+        &lt;persName>
+           &lt;surname>Spazier&lt;/surname>
+           &lt;forename>Karl&lt;/forename>
+        &lt;/persName>
+     &lt;/author>
+     &lt;title>Kronos&lt;/title>
+        &lt;biblScope>IV#77-89&lt;/biblScope>
+    &lt;/bibl>
+&lt;/bibl></codeblock></p>
   </conbody>
  </concept>
  <concept id="concept_m5w_mln_my">
@@ -222,7 +297,7 @@
   <conbody>
    <p>Einräge im Sachregister werden in einem &lt;item> notiert. Wenn Sie einen neuen Eintrag
     erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag referieren
-    könnnen.Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der In einem
+    könnnen. Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der In einem
     &lt;label> notiert
     wird.<codeblock>&lt;item xml:id="ed_vgn_5rt_fx">
    &lt;label type="reg">Bearbeitung von Stücken&lt;/label>
