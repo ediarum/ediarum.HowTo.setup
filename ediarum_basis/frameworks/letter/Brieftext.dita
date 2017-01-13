@@ -77,7 +77,7 @@
     <conbody>
       <p>Die Datumszeile am Briefende wird innerhalb des &lt;closer> notiert. Sie wird dort
         dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und
-        Unterschirft transkibiert werden.</p>
+        Unterschrift transkibiert werden.</p>
       <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
    ...

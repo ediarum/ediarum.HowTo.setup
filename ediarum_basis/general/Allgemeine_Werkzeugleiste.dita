@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_xvr_yfj_wx">
  <title>Allgemeine Werkzeugleiste</title>
- <shortdesc/>
  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
  <conbody>
   <p><image href="img/toolbar.png"/><?oxy_custom_end?></p>
