@@ -5,22 +5,22 @@
   <concept id="concept_qkt_kkn_my">
     <title>Adresse </title>
     <conbody>
-      <p>Die Adresszeile eines Briefes geben Sie in einem &lt;addrLine> (address line) an. Die
-        Adresszeile muss entweder am Briefangang (&lt;opener>) oder am Briefende (&lt;closer>)
+      <p>Die Adresszeile eines Briefes geben Sie in einem <codeph>&lt;addrLine></codeph> (address line) an. Die
+        Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder am Briefende (<codeph>&lt;closer></codeph>)
         stehen.</p>
-      <codeblock outputclass="language-xml">&lt;opener>
-<![CDATA[   <address>
+      <codeblock outputclass="language-xml"><![CDATA[<opener>
+   <address>
       <addrLine>Berlin, Jägerstraße 12</addrLine>
-   </address>]]>
-&lt;/opener></codeblock>
+   </address>
+</opener>]]></codeblock>
     </conbody>
   </concept>
   <concept id="concept_gdy_lkn_my">
     <title>Briefanfang</title>
     <conbody>
-      <p>Der Briefanfang wird in &lt;opener> notiert und kann eine Datumsangabe und Grußformel
-        enthalten. Die Datumsangabe &lt;datline> gibt in ihrem Attribut @rend die Textaurichtung der
-        Datumsangabe an. Im &lt;salute> wird die Grußformel transkribiert.</p>
+      <p>Der Briefanfang wird in <codeph>&lt;opener></codeph> notiert und kann eine Datumsangabe und Grußformel
+        enthalten. Die Datumsangabe <codeph>&lt;datline></codeph> gibt in ihrem Attribut @rend die Textaurichtung der
+        Datumsangabe an. Im <codeph>&lt;salute></codeph> wird die Grußformel transkribiert.</p>
       <codeblock outputclass="language-xml"><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
@@ -30,8 +30,8 @@
   <concept id="concept_lfy_nkn_my">
     <title>Neuer Schreibakt</title>
     <conbody>
-      <p>Der Brieftext wird mithilfe von &lt;div> (division) in Sektionen unterteilt. Ein neues
-        &lt;div> markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der
+      <p>Der Brieftext wird mithilfe von <codeph>&lt;div></codeph> (division) in Sektionen unterteilt. Ein neues
+        <codeph>&lt;div></codeph> markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der
         Schreibakte im Attribut @n anzugeben.</p>
       <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
@@ -44,8 +44,8 @@
   <concept id="concept_brk_pkn_my">
     <title>Briefschluss</title>
     <conbody>
-      <p>Der Briefschluss wird in einem &lt;closer> notiert. Im &lt;salute> wird die Grußformel, im
-        &lt;signed> die Unterschrift notiert.Dabei gibt das Attribut @rend im &lt;closer> an, wo der
+      <p>Der Briefschluss wird in einem <codeph>&lt;closer></codeph> notiert. Im <codeph>&lt;salute></codeph> wird die Grußformel, im
+        <codeph>&lt;signed></codeph> die Unterschrift notiert.Dabei gibt das Attribut @rend im <codeph>&lt;closer></codeph> an, wo der
         Briefschluss notiert wurde. <table id="table_z4c_wqq_gy">
           <tgroup cols="2">
             <thead>
@@ -75,7 +75,7 @@
   <concept id="concept_btn_qkn_my">
     <title>Datumszeile im Briefschluss</title>
     <conbody>
-      <p>Die Datumszeile am Briefende wird innerhalb des &lt;closer> notiert. Sie wird dort
+      <p>Die Datumszeile am Briefende wird innerhalb des <codeph>&lt;closer></codeph> notiert. Sie wird dort
         dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und
         Unterschrift transkibiert werden.</p>
       <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
@@ -87,7 +87,7 @@
   <concept id="concept_qtd_skn_my">
     <title>Postskriptum</title>
     <conbody>
-      <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem &lt;postcript>
+      <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem <codeph>&lt;postcript></codeph>
         notiert.</p>
       <codeblock outputclass="language-xml"><![CDATA[<postscript>
    <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>

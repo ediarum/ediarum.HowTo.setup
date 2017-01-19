@@ -6,9 +6,9 @@
     <title><b>Angaben zum Sender und Empfänger</b></title>
     <conbody>
       <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
-        &lt;correspDesc> (correspondence description) umschlossen. Dabei werden alle Angaben zum
-        Sender in einem &lt;correspAction type="sent"> (correspondence action) und alle Angaben zu
-        einem Empfänger in einem &lt;correspAction type="received"> ausgezeichnet. Das Attribut
+        <codeph>&lt;correspDesc></codeph> (correspondence description) umschlossen. Dabei werden alle Angaben zum
+        Sender in einem <codeph>&lt;correspAction type="sent"></codeph> (correspondence action) und alle Angaben zu
+        einem Empfänger in einem <codeph>&lt;correspAction type="received"></codeph> ausgezeichnet. Das Attribut
         @type gibt dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received)
           handelt.<table id="table_vzz_lfd_gy">
           <tgroup cols="2">
@@ -35,9 +35,9 @@
    <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
       <p>Die detailierten Angaben zu Sender werden innerhalb des
-        <![CDATA[<correspAction type="sent">]]> gemacht. Sie können den Namen
-        (<![CDATA[<persName>]]>), den Schreibort (<![CDATA[<placeName>]]>) und das Schreibdatum
-        (<![CDATA[<date>]]>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
+        <codeph>&lt;correspAction type="sent"></codeph> gemacht. Sie können den Namen
+        (<![CDATA[<persName>]]>), den Schreibort (<codeph>&lt;placeName></codeph>) und das Schreibdatum
+        (<codeph>&lt;date></codeph>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
         Empfangsort un -datum machen.</p>
       <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">
@@ -54,7 +54,7 @@
   <concept id="concept_a4v_ckn_my">
     <title><b>Datierung</b></title>
     <conbody>
-      <p>Datumsangaben werden mit Hilfe von <![CDATA[<date>]]> ausgezeichnet. Wichtig ist, dass die
+      <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date></codeph> ausgezeichnet. Wichtig ist, dass die
         Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
         @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert
         später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
@@ -76,7 +76,7 @@
   <concept id="concept_lfg_2kn_my">
     <title><b>Anmerkung zum Brief</b></title>
     <conbody>
-      <p>In &lt;correspDesc> (correspondence description) können Sie auch mithilfe eines &lt;note>
+      <p>In <codeph>&lt;correspDesc></codeph> (correspondence description) können Sie auch mithilfe eines <codeph>&lt;note></codeph>
         eine Anmerkung zum Brief und dessen Datierung machen.</p>
       <p>
         <codeblock><![CDATA[<correspDesc>
@@ -87,9 +87,9 @@
     </conbody>
   </concept>
   <concept id="concept_qsr_gkn_my">
-    <title><b>Korrespondentzusammenhang des Briefe</b>s</title>
+    <title><b>Korrespondentzusammenhang des Briefes</b></title>
     <conbody>
-      <p>Außerdem können Sie noch vor dem &lt;note> einen Korrespondenzkontext &lt;correspContext>
+      <p>Außerdem können Sie noch vor dem <codeph>&lt;note></codeph> einen Korrespondenzkontext <codeph>&lt;correspContext></codeph>
         erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können. Im
         Attribut @target wird der interne Link des entsprechenden Briefs angegeben. Das Attribut
         @type gibt dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief

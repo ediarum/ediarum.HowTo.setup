@@ -11,10 +11,11 @@
 Mutter ihm sein kann u<i>nd</i> die schmerzhafte Trennung doch unvermeidlich
 ist.</p>]]></codeblock>
   <p>Im genannten Beispiel wird der Text von zwei p-Elementen umgeben, die den darin enthaltenen
-   Text als Absatz („paragraph“) kennzeichnen. Am Anfang steht ein öffnendes Element
-   <![CDATA[ <p> am Ende ein schließendes: </p> ]]>(Schrägstrich beachten). Im so markierten Absatz
-   ist außerdem das Wort „und“ enthalten, dessen zwei letzte Buchstaben kursiv gesetzt werden sollen
-   und daher mit einem (öffnenden und schließenden) i-Element („italic“) markiert wurden.</p>
+   Text als Absatz („paragraph“) kennzeichnen. Am Anfang steht ein öffnendes Element <codeph>&lt;p>
+   </codeph>am Ende ein schließendes: <codeph>&lt;/p> </codeph>(Schrägstrich beachten). Im so
+   markierten Absatz ist außerdem das Wort „und“ enthalten, dessen zwei letzte Buchstaben kursiv
+   gesetzt werden sollen und daher mit einem (öffnenden und schließenden) i-Element („italic“)
+   markiert wurden.</p>
   <p>Elemente können mit sog. Attributen versehen werden, die weitere Informationen zum
    entsprechenden Element transportieren. So könnte das öffnende p-Element aus dem obigen Beispiel
    mit einem Attribut versehen sein, das darüber informiert, dass der Absatz linksbündig gesetzt

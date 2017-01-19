@@ -34,9 +34,10 @@
     </tbody>
    </tgroup>
   </table>
-  <p>Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht
-   <![CDATA[<ex> für „editorial expansion“ und <add>]]> für „addition“. Dadurch sind die
-   Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
+  <p>Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch
+   ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht <codeph>&lt;ex></codeph>
+   für „editorial expansion“ und <codeph>&lt;add></codeph> für „addition“.
+   Dadurch sind die Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
   <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rend="underline">gänzlich</hi> nicht verstehen]]></codeblock>
   <p>Hier wird lediglich vermerkt, dass im Manuskript das Wort „gänzlich“ unterstrichen war. Ob im
    Druck oder im Web die entsprechende Stelle nun tatsächlich unterstrichen oder vielleicht eher
@@ -48,13 +49,13 @@
    strukturiert und ausgezeichnet werden können. Von TELOTA wurde auf dieser Basis ein
    XML-Schema für die digitale Arbeitsumgebung entwickelt, gegen das die XML-Dokumente zukünftig
    validiert, d.h. geprüft werden könnnen.</p>
-  <p>Der Baum eines TEI-kodierten XML-Dokument besteht immer aus zwei Teilen: dem <![CDATA[<]]>tei-
-   Header/> und dem <![CDATA[<]]>text/>. Während die eigentliche Handschriftenbeschreibung sich im letzteren
+  <p>Der Baum eines TEI-kodierten XML-Dokument besteht immer aus zwei Teilen: dem <codeph>&lt;tei-
+   Header/></codeph> und dem <codeph>&lt;text/></codeph>. Während die eigentliche Handschriftenbeschreibung sich im letzteren
    befindet, werden im teiHeader Metangaben zum XML-Dokument notiert. Grobe Struktur eines
    TEI-kodierten XML-Dokuments:</p>
   <table>
-   <tgroup cols="2">    <colspec colwidth="4cm"></colspec>
-    <colspec colwidth="13cm"></colspec>
+   <tgroup cols="2">    <colspec colwidth="4cm"/>
+    <colspec colwidth="13cm"/>
     <thead>
      <row>
       <entry>Struktur</entry>
