@@ -49,7 +49,7 @@
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
+   <codeblock><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_m5s_lhn_my">
@@ -114,7 +114,7 @@
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
+   <codeblock><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_hfv_nhn_my">
@@ -123,7 +123,7 @@
   <conbody>
    <p>Bei durchgestrichenen Wörtern, die nicht entziffert werden können umschließt das Element
     <codeph>&lt;del/></codeph> das Element <codeph>&lt;gap/></codeph>.</p>
-   <codeblock outputclass="language-xml"><![CDATA[oft <del rend="durchgestrichen"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
+   <codeblock><![CDATA[oft <del rend="durchgestrichen"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_htk_phn_my">
@@ -132,7 +132,7 @@
   <conbody>
    <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit <codeph>&lt;ex/></codeph> (expansion)
     ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
-   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
+   <codeblock><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_mw4_rhn_my">
@@ -162,7 +162,7 @@
      </tbody>
     </tgroup>
    </table>
-   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
+   <codeblock><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_wz4_thn_my">
@@ -176,7 +176,7 @@
     ausgezeichnet.<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
    <p>
     <?oxy_custom_end?>
-    <codeblock outputclass="language-xml"><![CDATA[<choice><sic>Schiller-Anstalt</sic><corr type="deleted"/></choice>]]></codeblock>
+    <codeblock><![CDATA[<choice><sic>Schiller-Anstalt</sic><corr type="deleted"/></choice>]]></codeblock>
    </p>
   </conbody>
  </concept>
@@ -213,11 +213,11 @@
      </tgroup>
     </table>Die korrigiert Textstelle wird im <codeph>&lt;sic></codeph> angegeben, die eigentliche Korrektur durch
     den Herausgeber im <codeph>&lt;corr></codeph>.</p>
-   <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
+   <codeblock><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
    <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
     <codeph>&lt;orig></codeph> umschließen und in <codeph>&lt;reg></codeph> (regularization) die normalisierte Schreibweise
     angeben.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
+   <codeblock><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_wgl_xhn_my">
@@ -227,7 +227,7 @@
    <p> MIt einem <codeph>&lt;seg></codeph> (arbitrary segment) können Sie Sachanmerkung zu Textstellen erstellen,
     indem Sie die Stelle mit einem <codeph>&lt;oirg></codeph> umschließen und in einem <codeph>&lt;note></codeph> die entsprechende
     Anmerkung notieren. Das Attribut @xml.id wird automatisch generiert.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<seg type="comment">
+   <codeblock><![CDATA[<seg type="comment">
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note></seg>
 ]]></codeblock>
@@ -240,22 +240,22 @@
    <p>Sie können Textstellen mit zwei <codeph>&lt;anchor></codeph> derartig markieren, dass auf diese Querverweise
     gemacht werden können. Das Attribut @xml:id wird automatisch generiert und beinhaltet den Code,
     mit den man aus einem anderen Dokument auf diese Stelle verweisen kann.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
+   <codeblock><![CDATA[<anchor type="verweisziel"
 xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
 type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
    <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit einem &lt;ref
     target="…"> gemacht, dessen Attribut @target den Code für die entsprechende Textstelle
     enthält.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+   <codeblock><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p><?oxy_custom_end?>Außerdem kann mit einem <codeph>&lt;ref key="…"></codeph> auf einen Eintrag im Sachregister
     verwiesen werden.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
+   <codeblock><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p><?oxy_custom_end?>Sie können innerhalb einer Sachanmerkung (<codeph>&lt;seg></codeph>) auf eine externe Website
     verweisen. Die Anmerkung wird in einem &lt;note> notiert und der Link auf die externe Website in
     einem <codeph>&lt;ref></codeph>  angegeben. Im Attribut @target wird die URL der Website notiert.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>
+   <codeblock><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_xsm_b3n_my">
@@ -293,12 +293,12 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
      </tgroup>
     </table></p>
    <p>1. Genaues Datum</p>
-   <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
+   <codeblock><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
    <p>2. Genaue Zeitspanne</p>
-   <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
+   <codeblock><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
    <p>3. Ungefährer Zeitraum</p>
    <p>
-    <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+    <codeblock><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
    </p>
    <table id="table_xpp_ynf_cy">
     <tgroup cols="2">
@@ -468,7 +468,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
      </tgroup>
     </table>
    </p>
-   <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
+   <codeblock><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_syp_g3n_my">
@@ -481,7 +481,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
     den Personen-Index (persons), Ort-Index (places) oder
     Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
     <?oxy_custom_end?>handelt.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" 
+   <codeblock><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" 
 corresp="pdrPo.001.004.000000520">
 <term>Bonaparte, Louis, comte de Saint-Leu
 (1778-1846)</term>
@@ -499,11 +499,12 @@ xml:id="ixkh_ysf_cy"/>]]></codeblock>
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Sachbegriffen
     (…).<?oxy_custom_end?> Das Attribut @key wird je nach der Auswahl eines Registereintrages
     automatisch besetzt..</p>
-   <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
+   <codeblock><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
 der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
-   <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein <codeph>&lt;;bibl></codeph>, in dem Sie auf einen
-    Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach entsprechend besetzt. </p>
-   <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI">folgen</bibl>]]></codeblock>
+   <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein <codeph>&lt;bibl></codeph>, in dem
+    Sie auf einen Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach
+    entsprechend besetzt. </p>
+   <codeblock><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI">folgen</bibl>]]></codeblock>
    <p>Wenn auf ein früheres Element im Text zurückgewiesen wird, kann dies mit einem <codeph>&lt;rs></codeph>
     entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren @type
     bestimmt: <table id="table_krh_ncd_gy">
@@ -530,7 +531,7 @@ der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codebloc
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
+   <codeblock><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
 Ich höre nur Beschwerden von<rs type="person">ihm</rs>]]></codeblock>
   </conbody>
  </concept>

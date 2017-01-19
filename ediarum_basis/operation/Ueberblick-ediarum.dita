@@ -9,9 +9,11 @@
       Fenster (6) können die einzelnen Dateien bearbeitet werden. Sind mehrere Dateien offen, kann
       zwischen ihnen mit Hilfe der Tableiste (4) gewechselt werden. Unterhalb dieses Fensters kann
       die Ansicht des Dokumentes umgestellt werden (7).</p>
+  <p>Rechts neben der dritten Leiste werden Funktionen angeboten, die spezfisch für ein Projekt
+   entwockelt wurden (in diesem Beispiel <b>–</b> MEGA). </p>
    <p><image href="img/ueberblick-ediarum.png" ></image></p>
   <p>1. Allgemeine Funktionen</p>
-  <p>2. Werkzeugleiste für <i>Transkriptionen</i></p>
+  <p>2. Werkzeugleiste für Transkriptionen</p>
   <p>3. Werkzeugleiste für Metaangaben und textspezfische Funktionen</p>
   <p>4. Tableiste mit geöffneten Dateien</p>
   <p>5. Dateibaum</p>

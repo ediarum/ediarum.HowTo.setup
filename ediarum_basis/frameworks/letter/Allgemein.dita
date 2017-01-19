@@ -13,7 +13,7 @@
             <p>Auf Digitalisate können Sie mit einen <codeph>&lt;facsimile></codeph> verweise, indem sie dort
                 innerhalb eines <codeph>&lt;graphic url="http://bespielurl.com/image"></codeph> die entsprechende URL
                 angeben.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<facsimile>
+            <codeblock><![CDATA[<facsimile>
    <graphic url="http://bespielurl.com/image"/>
 </facsimile>]]></codeblock>
         </conbody>
@@ -23,7 +23,7 @@
         <conbody>
             <p>Die Handschriftenbeschreibung wird in einem <codeph>&lt;physDesc></codeph> (physical description)
                 notiert. Hier können Sie Angaben zu Papier, Format etc. des Briefs festhalten.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<physDesc>
+            <codeblock><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
 </physDesc>]]></codeblock>
         </conbody>
@@ -34,7 +34,7 @@
             <p>Einen Drucknachweis als Textzeugen können Sie in einem <codeph>&lt;witness></codeph> (Zeuge) angeben.
                 Das Attribut @type gibt mit dem Wert "print" an, dass es sich um einen Drucknachweis
                 als Textzeugen handelt.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<witness>
+            <codeblock><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>
 </witness>]]></codeblock>
         </conbody>
@@ -50,7 +50,7 @@
                 handelt. Außerdem muss die aufbewahrende Institution (<codeph>&lt;institution></codeph>) angegeben
                 werden. Optional können Sie noch Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur
                 (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<witness>
+            <codeblock><![CDATA[<witness>
    <msDesc type="copy">
       <msIdentifier>
          <institution>[aufbewahrendeInstitutuion]</institution>
@@ -101,7 +101,7 @@
                         </tbody>
                     </tgroup>
                 </table></p>
-            <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+            <codeblock><![CDATA[<msDesc rend="manuscript">]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ppb_bjn_my">
@@ -110,7 +110,7 @@
         <conbody>
             <p>Die Textgrundlage, die Sie für Ihre Arbeit wählen, markieren Sie, indem Sie den
                 entsprechenden Textzeugen auswählen und dort das Attribut @select eingügen.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
+            <codeblock><![CDATA[<witness select="#this">]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ksp_cjn_my">
@@ -121,7 +121,7 @@
                 (Erstellung) notiert. Der Autor wird in einem <codeph>&lt;persName></codeph> angegeben. Wenn Sie aus
                 einem Verzeichnis einen Autoren auswählen, wird im Attribut @key die zugehörige ID
                 generiert und ein Link angelegt.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+            <codeblock><![CDATA[<profileDesc>
     <creation>
         <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>
         ...
@@ -135,7 +135,7 @@
             <p>Der Schreibort wird auch in <codeph>&lt;creation></codeph> ausgezeichnet. Wenn Sie aus einem
                 Verzeichnis einen Ort auswählen, wird im Attribut @key die zugehörige ID generiert
                 und ein Link angelegt.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+            <codeblock><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>
        ...
@@ -154,12 +154,12 @@
                 Attribut @cert die Wahrescheinlichkeit angegeben, mit der die Datumsangabe zutrifft:
                 high, low. </p>
             <p>1. Genaues Datum</p>
-            <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
+            <codeblock><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
             <p>2. Genaue Zeitspanne</p>
-            <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
+            <codeblock><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
             <p>3. Ungefährer Zeitraum</p>
             <p>
-                <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+                <codeblock><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
             </p>
             <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
                 Schaltfläche zur Verfügung, die die Optionen „Genaues Datum" und „Ungefährer
@@ -175,19 +175,19 @@
                     <tbody>
                         <row>
                             <entry>18. Jh.</entry>
-                            <entry>notBefore="1700" notAfter="1799"</entry>
+                            <entry><codeph>notBefore="1700" notAfter="1799"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. Anfang</entry>
-                            <entry>notBefore="1700" notAfter="1719"</entry>
+                            <entry><codeph>notBefore="1700" notAfter="1719"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. Mitte</entry>
-                            <entry>notBefore="1740" notAfter="1759"</entry>
+                            <entry><codeph>notBefore="1740" notAfter="1759"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. Ende</entry>
-                            <entry>notBefore="1780" notAfter="1799"</entry>
+                            <entry><codeph>notBefore="1780" notAfter="1799"</codeph></entry>
                         </row>
                         <row>
                             <entry/>
@@ -195,11 +195,11 @@
                         </row>
                         <row>
                             <entry>18. Jh. 1. Hälfte</entry>
-                            <entry>notBefore="1700" notAfter="1749"</entry>
+                            <entry><codeph>notBefore="1700" notAfter="1749"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 2. Hälfte</entry>
-                            <entry>notBefore="1750" notAfter="1799"</entry>
+                            <entry><codeph>notBefore="1750" notAfter="1799"</codeph></entry>
                         </row>
                         <row>
                             <entry/>
@@ -207,19 +207,19 @@
                         </row>
                         <row>
                             <entry>18. Jh. 1. Viertel</entry>
-                            <entry>notBefore="1700" notAfter="1724"</entry>
+                            <entry><codeph>notBefore="1700" notAfter="1724"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 2. Viertel</entry>
-                            <entry>notBefore="1725" notAfter="1749"</entry>
+                            <entry><codeph>notBefore="1725" notAfter="1749"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 3. Viertel</entry>
-                            <entry>notBefore="1750" notAfter="1774"</entry>
+                            <entry><codeph>notBefore="1750" notAfter="1774"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 4. Viertel</entry>
-                            <entry>notBefore="1775" notAfter="1799"</entry>
+                            <entry><codeph>notBefore="1775" notAfter="1799"</codeph></entry>
                         </row>
                         <row>
                             <entry/>
@@ -227,15 +227,15 @@
                         </row>
                         <row>
                             <entry>18. Jh. 1. Drittel</entry>
-                            <entry>notBefore="1700" notAfter="1733"</entry>
+                            <entry><codeph>notBefore="1700" notAfter="1733"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 2. Drittel</entry>
-                            <entry>notBefore="1733" notAfter="1766"</entry>
+                            <entry><codeph>notBefore="1733" notAfter="1766"</codeph></entry>
                         </row>
                         <row>
                             <entry>18. Jh. 3. Drittel</entry>
-                            <entry>notBefore="1766" notAfter="1799"</entry>
+                            <entry><codeph>notBefore="1766" notAfter="1799"</codeph></entry>
                         </row>
                         <row>
                             <entry/>
@@ -243,21 +243,21 @@
                         </row>
                         <row>
                             <entry>um 1762</entry>
-                            <entry>notBefore="1757" notAfter="1767"</entry>
+                            <entry><codeph>notBefore="1757" notAfter="1767"</codeph></entry>
                         </row>
                         <row>
                             <entry>1762</entry>
-                            <entry>when="1762"</entry>
+                            <entry><codeph>when=="1762"</codeph></entry>
                         </row>
                         <row>
                             <entry>5. Januar 1762</entry>
-                            <entry>when="1762-01-05"</entry>
+                            <entry><codeph>when=="1762-01-05"</codeph></entry>
                         </row>
                     </tbody>
                 </tgroup>
             </table>
             <p>Das Erstellungsdatm wird ebenfalls im <codeph>&lt;profileDesc></codeph> unter
-                    <codeph>&lt;creation></codeph> angegeben.<codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+                    <codeph>&lt;creation></codeph> angegeben.<codeblock><![CDATA[<profileDesc>
    <creation>
       ...
       <date when="1874-12-23" cert="high"/> 
@@ -269,7 +269,7 @@
         <title><b>Regest des Briefes oder Dokumentetxtes</b></title>
         <conbody>
             <p>Ein Regest wird in einem <codeph>&lt;abstract></codeph> notiert.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<abstract>
+            <codeblock><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff]</p>
 </abstract>]]></codeblock>
         </conbody>
@@ -280,7 +280,7 @@
             <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem <codeph>&lt;notesStmt></codeph> (notes
                 statement) gemacht. Das Attribit @type="editorial" kennzeichnet, dass es sich um
                 eine Anmerkung des Herausgebers bzw. Bearbeiters
-                handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
+                handelt.<codeblock><![CDATA[<notesStmt>
    <note type="editorial">
       <p>[Anmerkung hier eingeben]</p>
    </note>
@@ -298,7 +298,7 @@
         <conbody>
             <p>Um eine typgraphische Absetzung im Manuskript zu transkribieren, können Sie mit einem
                 <codeph>&lt;milestone></codeph> eine horizontale Trennlinie einfügen.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
+            <codeblock><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ksd_5jn_my">
@@ -318,7 +318,7 @@
             <p>Der Herausgeber wird in einem <codeph>&lt;editor></codeph> notiert. Die Angaben zur Person werden in
                 einem <codeph>&lt;persName></codeph> angegeben. Im Attribut @ref kann eine Referenz in Form einer
                 GND, VIAF oder URI gemacht werden.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<editor>
+            <codeblock><![CDATA[<editor>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>
@@ -329,7 +329,7 @@
                 Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird dabei in einem <codeph>&lt;note></codeph>
                 bezeichnet: Mitarbeit, Redaktionelle Mitarbeit, Transkription, Kommentar und
                 Register.</p>
-            <codeblock outputclass="language-xml"><![CDATA[<respStmt>
+            <codeblock><![CDATA[<respStmt>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>

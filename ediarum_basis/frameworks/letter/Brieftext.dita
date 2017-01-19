@@ -8,7 +8,7 @@
       <p>Die Adresszeile eines Briefes geben Sie in einem <codeph>&lt;addrLine></codeph> (address line) an. Die
         Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder am Briefende (<codeph>&lt;closer></codeph>)
         stehen.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<opener>
+      <codeblock><![CDATA[<opener>
    <address>
       <addrLine>Berlin, Jägerstraße 12</addrLine>
    </address>
@@ -21,7 +21,7 @@
       <p>Der Briefanfang wird in <codeph>&lt;opener></codeph> notiert und kann eine Datumsangabe und Grußformel
         enthalten. Die Datumsangabe <codeph>&lt;datline></codeph> gibt in ihrem Attribut @rend die Textaurichtung der
         Datumsangabe an. Im <codeph>&lt;salute></codeph> wird die Grußformel transkribiert.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<opener>
+      <codeblock><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
 </opener>]]></codeblock>
@@ -33,7 +33,7 @@
       <p>Der Brieftext wird mithilfe von <codeph>&lt;div></codeph> (division) in Sektionen unterteilt. Ein neues
         <codeph>&lt;div></codeph> markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der
         Schreibakte im Attribut @n anzugeben.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
+      <codeblock><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
 <div type="writingSession" n="2">
@@ -66,7 +66,7 @@
             </tbody>
           </tgroup>
         </table></p>
-      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+      <codeblock><![CDATA[<closer rend="paragraph">
     <salute>Beste Grüße</salute>
    <signed>F.E.</signed>
 </closer>]]></codeblock>
@@ -78,7 +78,7 @@
       <p>Die Datumszeile am Briefende wird innerhalb des <codeph>&lt;closer></codeph> notiert. Sie wird dort
         dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und
         Unterschrift transkibiert werden.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+      <codeblock><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
    ...
 </closer>]]></codeblock>
@@ -89,7 +89,7 @@
     <conbody>
       <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem <codeph>&lt;postcript></codeph>
         notiert.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<postscript>
+      <codeblock><![CDATA[<postscript>
    <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
 </postscript>]]></codeblock>
     </conbody>

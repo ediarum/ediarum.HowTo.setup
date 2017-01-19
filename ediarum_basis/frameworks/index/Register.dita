@@ -73,15 +73,15 @@
       <tbody>
        <row>
         <entry>Person</entry>
-        <entry>&lt;persName></entry>
+        <entry><codeph>&lt;persName></codeph></entry>
        </row>
        <row>
         <entry>Ort</entry>
-        <entry>&lt;placeName></entry>
+        <entry><codeph>&lt;placeName></codeph></entry>
        </row>
        <row>
         <entry>Organisation</entry>
-        <entry>&lt;orgName></entry>
+        <entry><codeph>&lt;orgName></codeph></entry>
        </row>
       </tbody>
      </tgroup>
@@ -150,7 +150,7 @@
       <tbody>
        <row>
         <entry>Alternative(r) Name/Schreibung</entry>
-        <entry><i>@subtype entfällt</i></entry>
+        <entry>@subtype entfällt</entry>
        </row>
        <row>
         <entry>Pseudonym</entry>
@@ -166,9 +166,9 @@
    </p>
    <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und Nachnamen
     (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
-   <codeblock>&lt;persName type="alt" subtype="pseudonym">
-   &lt;name>[Pseudonym]&lt;/name>
-&lt;/persName></codeblock>
+   <codeblock><![CDATA[<persName type="alt" subtype="pseudonym">
+   <name>[Pseudonym]</name>
+</persName>]]></codeblock>
    <p>2. Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die Wirklungszeit
     (Floruit) angeben. Die Lebensdaten werden in einem <codeph>&lt;birth></codeph> und <codeph>&lt;death></codeph>
     notiert.<codeblock><![CDATA[<birth>1838</birth>
@@ -176,7 +176,7 @@
    <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph> notiert. In den Attributen @notBefore (nicht vor)
     und @notAfter (nicht nach) wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format
     JJJJ-MM-TT angegeben, wobei Monat und Tag optionale Angaben
-    sind.<codeblock>&lt;floruit notBefore="1860" notAfter="1880"/></codeblock></p>
+    sind.<codeblock><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
    <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
     im Registereintrag vermerken. Es wird zusätzlich das Attribut @role angelegt. Dort wird
     entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
@@ -295,19 +295,18 @@
  <concept id="concept_m5w_mln_my">
   <title>Sachregister</title>
   <conbody>
-   <p>Einräge im Sachregister werden in einem <codeph>&lt;item></codeph> notiert. Wenn Sie einen neuen Eintrag
-    erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag referieren
-    könnnen. Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der In einem
-    <codeph>&lt;label></codeph> notiert
-    wird.<codeblock><![CDATA[<item xml:id="ed_vgn_5rt_fx">
+   <p>Einräge im Sachregister werden in einem <codeph>&lt;item></codeph> notiert. Wenn Sie einen
+    neuen Eintrag erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag
+    referieren könnnen. Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der
+    In einem <codeph>&lt;label></codeph> notiert wird.<codeblock><![CDATA[<item xml:id="ed_vgn_5rt_fx">
    <label type="reg">Bearbeitung von Stücken</label>
-</item></codeblock></p>
-   <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.
-    <codeblock><list>
-   <item xml:id="ed_ggf_npf_hy">
-      <label type="reg">[untergeordnete Ebene]</label>
-   </item>
-</list>]]></codeblock></p>
+</item>]]></codeblock></p>
+   <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.</p><codeblock><![CDATA[
+   <list>
+      <item xml:id="ed_ggf_npf_hy">
+         <label type="reg">[untergeordnete Ebene]</label>
+      </item>
+   </list>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_hs3_4ln_my">
@@ -318,14 +317,14 @@
     notiert. Für jeden Eintrag wird im Attribut @xml:id eine ID generiert, mithilfe der auf den
     Eintrag verwisen werden kann. Den Namen der Einrichtung können Sie direkt über ein Dialogfenster
     angeben. Dieser wird in einem <codeph>&lt;orgName></codeph> (organization name) angegeben.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<org xml:id="pdrPo.001.015.000090143">
+   <codeblock><![CDATA[<org xml:id="pdrPo.001.015.000090143">
    <orgName type="reg">A. Hübenthal Co.</orgName>]]></codeblock>
    <p>Der Standort wird in einem <codeph>&lt;location></codeph> angegeben. Sie können den Standort entweder
     detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Die Adresse wird
     einem &lt;adress> angegeben. Die Ortschaft wird in einem <codeph>&lt;settlement></codeph> auszezeichnet, wobei
     das Attribut @key die ID der entsprechenden Stadt übernimmt. Innerhalb des &lt;note> werden dann
     die detaillierteren Angaben aufgeführt.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<location xml:id="grm_mwq_gy">
+   <codeblock><![CDATA[<location xml:id="grm_mwq_gy">
    <address>
       <settlement key="ed_p3t_jpj_wx">Genf</settlement>
       <note>Rudolfstraße</note>
@@ -334,7 +333,7 @@
    <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des <codeph>&lt;location></codeph>
     in den Attributen @from und @to notiert wird. Die Datumsangabe strukturiert sich folgendermaßen:
     JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag optional.</p>
-   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
+   <codeblock>&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
   </conbody>
  </concept>
  <concept id="concept_h5d_qln_my">
