@@ -54,8 +54,8 @@ ist.</p>]]></codeblock>
     </thead>
     <tbody>
      <row>
-      <entry><codeph>align=</codeph></entry>
-      <entry><codeph>"left"</codeph></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[align=]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA["left"]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>

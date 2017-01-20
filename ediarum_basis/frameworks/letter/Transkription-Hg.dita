@@ -481,12 +481,9 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
     den Personen-Index (persons), Ort-Index (places) oder
     Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
     <?oxy_custom_end?>handelt.</p>
-   <codeblock><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" 
-corresp="pdrPo.001.004.000000520">
-<term>Bonaparte, Louis, comte de Saint-Leu
-(1778-1846)</term>
-</index>[Textstelle] Bonaparte [Textstelle]<anchor type="index"
-xml:id="ixkh_ysf_cy"/>]]></codeblock>
+   <codeblock><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" corresp="pdrPo.001.004.000000520">
+<term>Bonaparte, Louis, comte de Saint-Leu(1778-1846)</term>
+</index>[Textstelle] Bonaparte [Textstelle]<anchor type="index" xml:id="ixkh_ysf_cy"/>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_c5q_33n_my">

@@ -141,7 +141,7 @@ Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut
      </tbody>
     </tgroup>
    </table>
-   <codeblock>mit.<![CDATA[<note  place="right" hand="#author">]]>Ich konnte sie nicht mehr mit der 
+   <codeblock>mit.<![CDATA[<note place="right" hand="#author">]]>Ich konnte sie nicht mehr mit der 
 Post schicken.<![CDATA[</note>]]></codeblock>
   </conbody>
  </concept>
@@ -150,10 +150,11 @@ Post schicken.<![CDATA[</note>]]></codeblock>
     /><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>
     Zeichnung einfügen</b></title>
   <conbody>
-   <p>Mit einem <codeph>&lt;figure></codeph> können Sie Zeichungen (samt Bildunterschrift) aus dem Manuskript
-    einfügen. Der Urheber der Zeichung wird im Attribut @hand angegeben: #author, #addressee oder
-    eine Person aus dem Personen-Register. In <codeph>&lt;figDesc></codeph> kann eine durch den Herausgeber
-    formulierte Bildunterschrift notiert werden. Im Attribut @facs ist der Dateiname notiert.</p>
+   <p>Mit einem <codeph>&lt;figure></codeph> können Sie Zeichungen (samt Bildunterschrift) aus dem
+    Manuskript einfügen. Die Person, die die Zeichung gemacht hat, wird im Attribut @hand angegeben:
+    #author, #addressee oder eine Person aus dem Personen-Register. In <codeph>&lt;figDesc></codeph>
+    kann eine durch den Herausgeber formulierte Bildunterschrift notiert werden. Im Attribut @facs
+    ist der Dateiname notiert.</p>
    <codeblock><![CDATA[<figure facs="abbildung" hand="#adresee">
    <figDesc>[Bildunterschrift]</figDesc>
 </figure>Die</del>]]></codeblock>
@@ -306,7 +307,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <title><image href="../img/add16.gif" id="image_tcq_yhf_2y"/>
    <b>Ergänzungen</b></title>
   <conbody>
-   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <codeph>&lt;add/></codeph>
+   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <codeph>&lt;add></codeph>
     (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt: </p>
    <table id="table_wf3_dhn_my">
     <tgroup cols="2">
