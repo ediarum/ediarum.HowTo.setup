@@ -3,7 +3,7 @@
 <concept id="concept_tgd_sb1_ww">
  <title>Ansichten</title>
  <conbody>
-  <p>Oxygen XML Author verfügt über drei verschiedene Ansichtsmodi, um ein XML-Dokument zu
+  <p>Der Oxygen XML Author verfügt über drei verschiedene Ansichtsmodi, um ein XML-Dokument zu
    betrachten. Die Ansicht kann über die Leiste am unteren Rand des Hauptfensters gewechselt werden.
    Die Ansicht „Raster“ wird allerdings nicht in ediarum-Arbeitsumgebung verwendet.</p>
   <p><image href="img/ansichten.jpg"/></p>

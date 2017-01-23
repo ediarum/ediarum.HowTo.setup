@@ -6,9 +6,9 @@
   <title><image href="../img/unclear16.gif" id="image_gpc_d3f_2y"/>
    <b>Unsichere Lesarten</b></title>
   <conbody>
-   <p>Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit
-    <codeph>&lt;unclear/></codeph> ausgezeichnet. Im Attribut @reason wird die Ursache der Unsicherheit
-     angegeben:<table id="table_y1g_1qs_2y">
+   <p>Die Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit dem
+    Element <codeph>&lt;unclear></codeph> ausgezeichnet. Im Attribut @reason wird die Ursache der
+    Unsicherheit angegeben:<table id="table_y1g_1qs_2y">
      <tgroup cols="2">
       <thead>
        <row>
@@ -56,8 +56,9 @@
   <title><image href="../img/gap16.gif" id="image_hpc_d3f_2y"/>
    <b>Nicht lesbare Elemente</b></title>
   <conbody>
-   <p>Nicht lesbare Elemente im Manuskript werden mit <codeph>&lt;gap/></codeph> ausgezeichnet. Im Attribut
-    @unit wird das nicht lesbare Elemtent näher bestimmt: <table id="table_owv_gqs_2y">
+   <p>Nicht lesbare Elemente im Manuskript werden mit dem leeren Element <codeph>&lt;gap/></codeph>
+    ausgezeichnet. Im Attribut @unit wird das nicht lesbare Segment näher bestimmt: <table
+     id="table_owv_gqs_2y">
      <tgroup cols="2">
       <thead>
        <row>
@@ -130,8 +131,9 @@
   <title><image href="../img/ex16.png" id="image_kpc_d3f_2y"/>
    <b>Ergänzungen</b></title>
   <conbody>
-   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit <codeph>&lt;ex/></codeph> (expansion)
-    ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
+   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit dem Element
+     <codeph>&lt;ex/></codeph> (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv
+    dargestellt.</p>
    <codeblock><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
   </conbody>
  </concept>
@@ -140,7 +142,7 @@
    <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></title>
   <conbody>
    <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
-    <codeph>&lt;supplied cert="high"/></codeph> ergänzt werden. Dabei drückt der Attributwert für @cert
+     <codeph>&lt;supplied></codeph> ergänzt werden. Dabei drückt der Attributwert für @cert
     (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist:</p>
    <table id="table_hxd_thn_my">
     <tgroup cols="2">
@@ -170,9 +172,10 @@
    <b>Streichungen durch den Herausgeber</b></title>
   <conbody>
    <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können durch den
-    Bearbeiter/Herausgeber in einem <codeph>&lt;choice></codeph> nach der Transkription als überflüssig markiert
-    werden. Die Textstelle, die gestrichen werden soll, wird dabei von einem <codeph>&lt;sic></codeph> umschlossen.
-    Daran anschließend wird in einem <codeph>&lt;corr></codeph> (correction) das Element als gestrichen
+    Bearbeiter/Herausgeber im Element <codeph>&lt;choice></codeph> nach der Transkription als
+    überflüssig markiert werden. Die Textstelle, die gestrichen werden soll, wird dabei vom
+    Kind-Element <codeph>&lt;sic></codeph> umschlossen. Daran anschließend wird in einem weiteren
+    Kind-Element <codeph>&lt;corr></codeph> (correction) das Element als gestrichen
     ausgezeichnet.<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
    <p>
     <?oxy_custom_end?>
@@ -214,9 +217,9 @@
     </table>Die korrigiert Textstelle wird im <codeph>&lt;sic></codeph> angegeben, die eigentliche Korrektur durch
     den Herausgeber im <codeph>&lt;corr></codeph>.</p>
    <codeblock><![CDATA[inne wirst <choice><sic>daß</sic><corr cert="low">das</corr></choice>]]></codeblock>
-   <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort mit einem
-    <codeph>&lt;orig></codeph> umschließen und in <codeph>&lt;reg></codeph> (regularization) die normalisierte Schreibweise
-    angeben.</p>
+   <p>Außerdem können Sie die Schreibweise von Wörtern normalisieren, indem Sie das Wort im Element
+     <codeph>&lt;orig></codeph> notieren und in <codeph>&lt;reg></codeph> (regularization) die
+    normalisierte Schreibweise angeben.</p>
    <codeblock><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
   </conbody>
  </concept>
@@ -224,9 +227,10 @@
   <title><image href="../img/seg-note16.gif" id="image_vn4_2nf_cy"/>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></title>
   <conbody>
-   <p> MIt einem <codeph>&lt;seg></codeph> (arbitrary segment) können Sie Sachanmerkung zu Textstellen erstellen,
-    indem Sie die Stelle mit einem <codeph>&lt;oirg></codeph> umschließen und in einem <codeph>&lt;note></codeph> die entsprechende
-    Anmerkung notieren. Das Attribut @xml.id wird automatisch generiert.</p>
+   <p> Mit dem Element <codeph>&lt;seg></codeph> (arbitrary segment) können Sie Sachanmerkung zu
+    Textstellen erstellen, indem Sie die Stelle mit einem <codeph>&lt;oirg></codeph> umschließen und
+    in einem <codeph>&lt;note></codeph> die entsprechende Anmerkung notieren. Das Attribut @xml.id
+    wird automatisch generiert.</p>
    <codeblock><![CDATA[<seg type="comment">
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note></seg>
@@ -237,15 +241,15 @@
   <title><image href="../img/verweis16.gif" id="image_npc_d3f_2y"/>
    <b>Verweise</b></title>
   <conbody>
-   <p>Sie können Textstellen mit zwei <codeph>&lt;anchor></codeph> derartig markieren, dass auf diese Querverweise
-    gemacht werden können. Das Attribut @xml:id wird automatisch generiert und beinhaltet den Code,
-    mit den man aus einem anderen Dokument auf diese Stelle verweisen kann.</p>
+   <p>Sie können Textstellen mit zwei <codeph>&lt;anchor></codeph> Elementen derartig markieren,
+    dass auf diese Querverweise gemacht werden können. Das Attribut @xml:id wird automatisch
+    generiert und beinhaltet den Code, mit den man aus einem anderen Dokument auf diese Stelle
+    verweisen kann.</p>
    <codeblock><![CDATA[<anchor type="verweisziel"
 xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
 type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
-   <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit einem &lt;ref
-    target="…"> gemacht, dessen Attribut @target den Code für die entsprechende Textstelle
-    enthält.</p>
+   <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit dem Element <codeph>&lt;ref></codeph>
+    gemacht, dessen Attribut @target den Code für die entsprechende Textstelle enthält.</p>
    <codeblock><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p><?oxy_custom_end?>Außerdem kann mit einem <codeph>&lt;ref key="…"></codeph> auf einen Eintrag im Sachregister
@@ -253,7 +257,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
    <codeblock><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p><?oxy_custom_end?>Sie können innerhalb einer Sachanmerkung (<codeph>&lt;seg></codeph>) auf eine externe Website
-    verweisen. Die Anmerkung wird in einem &lt;note> notiert und der Link auf die externe Website in
+    verweisen. Die Anmerkung wird in einem <codeph>&lt;note></codeph> notiert und der Link auf die externe Website in
     einem <codeph>&lt;ref></codeph>  angegeben. Im Attribut @target wird die URL der Website notiert.</p>
    <codeblock><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>
   </conbody>
@@ -262,9 +266,9 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
   <title><image href="../img/date16.gif" id="image_lxm_lnf_cy"/>
    <b>Datumsangaben </b></title>
   <conbody>
-   <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date/></codeph> ausgezeichnet. In Oxygen XML Author
+   <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date></codeph> angegeben. In Oxygen XML Author
     steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die
-    Optionen „Genaues Datum" und „Ungefährer Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
+    Optionen „Genaues Datum“, „Genaues Datum“ und „Ungefährer Zeitraum“ bietet.</p>
    <p>Wichtig ist, dass diese Datumsangaben nochmals in einem bestimmten Format notiert werden:
     @when bzw. @from/@to und @notBefore/@notAfter . Dadurch kann der in der Datumsangabe enthaltene
     Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
@@ -420,8 +424,9 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
    <b>Fremdsprachliche Textstellen</b>
   </title>
   <conbody>
-   <p>Fremdsprachliche Textstellen können mit einem <codeph>&lt;foreign xml:lang="grc"></codeph> umschlossen werden.
-    Im Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache angegeben:</p>
+   <p>Fremdsprachliche Textstellen können mit dem Element <codeph>&lt;foreign></codeph>
+    ausgezeichnet werden. Im Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache
+    angegeben:</p>
    <p>
     <table id="table_rvw_1ts_2y">
      <tgroup cols="2">

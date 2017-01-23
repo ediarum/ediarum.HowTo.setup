@@ -10,9 +10,9 @@
     <concept id="concept_sf5_s3n_my">
         <title><b>Digitalisate</b></title>
         <conbody>
-            <p>Auf Digitalisate können Sie mit einen <codeph>&lt;facsimile></codeph> verweise, indem sie dort
-                innerhalb eines <codeph>&lt;graphic url="http://bespielurl.com/image"></codeph> die entsprechende URL
-                angeben.</p>
+            <p>Auf Digitalisate können Sie mithilde des Elements <codeph>&lt;facsimile></codeph>
+                verweisen, indem sie dort im Kind-Element <codeph>&lt;graphic
+                    url="http://bespielurl.com/image"></codeph> die entsprechende URL angeben.</p>
             <codeblock><![CDATA[<facsimile>
    <graphic url="http://bespielurl.com/image"/>
 </facsimile>]]></codeblock>
@@ -21,8 +21,9 @@
     <concept id="concept_own_53n_my">
         <title><b>Handschriftenbeschreibung</b></title>
         <conbody>
-            <p>Die Handschriftenbeschreibung wird in einem <codeph>&lt;physDesc></codeph> (physical description)
-                notiert. Hier können Sie Angaben zu Papier, Format etc. des Briefs festhalten.</p>
+            <p>Die Handschriftenbeschreibung wird im Element <codeph>&lt;physDesc></codeph>
+                (physical description) notiert. Hier können Sie in einem Kind-Element <codeph>&lt;p></codeph> Angaben
+                zu Papier, Format etc. des Briefs festhalten.</p>
             <codeblock><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
 </physDesc>]]></codeblock>
@@ -31,9 +32,10 @@
     <concept id="concept_dlg_w3n_my">
         <title><b>Drucknachweis</b></title>
         <conbody>
-            <p>Einen Drucknachweis als Textzeugen können Sie in einem <codeph>&lt;witness></codeph> (Zeuge) angeben.
-                Das Attribut @type gibt mit dem Wert "print" an, dass es sich um einen Drucknachweis
-                als Textzeugen handelt.</p>
+            <p>Einen Drucknachweis als Textzeugen können Sie im Element
+                    <codeph>&lt;witness></codeph> (Zeuge) angeben. Den eigentlichen Nachweis
+                notieren Sie im Kind-Element <codeph>&lt;bibl></codeph>. Das Attribut @type gibt mit
+                dem Wert "print" an, dass es sich um einen Drucknachweis als Textzeugen handelt.</p>
             <codeblock><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>
 </witness>]]></codeblock>
@@ -43,17 +45,18 @@
         <title><b>Abschrift und Entwurf</b></title>
         <conbody>
             <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die
-                nur archivalisch überliefert sind, wird dieser auch in einem
-                <codeph>&lt;witness></codeph> erfasst. Es werden aber einige Detailinformationen mehr
-                gefordert. Im <codeph>&lt;msDesc></codeph> (manuscipt description) wird über das Attribut @type
-                angegeben, ob es sich um eine Abschrift (copy) oder einen Entwurf ( concept)
-                handelt. Außerdem muss die aufbewahrende Institution (<codeph>&lt;institution></codeph>) angegeben
-                werden. Optional können Sie noch Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur
-                (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>
+                nur archivalisch überliefert sind, wird dieser Textzeuge auch in einem
+                    <codeph>&lt;witness></codeph> erfasst. Es werden aber einige Detailinformationen
+                gefordert. Im Element <codeph>&lt;msDesc></codeph> (manuscipt description) wird über
+                das Attribut @type angegeben, ob es sich um eine Abschrift (copy) oder einen Entwurf
+                (concept) handelt. Außerdem muss die aufbewahrende Institution
+                    (<codeph>&lt;institution></codeph>) angegeben werden. Optional können Sie noch
+                Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur (<codeph>&lt;idno
+                    type="shelfmark"></codeph>) des Textzeugen angeben.</p>
             <codeblock><![CDATA[<witness>
    <msDesc type="copy">
       <msIdentifier>
-         <institution>[aufbewahrendeInstitutuion]</institution>
+         <institution>[aufbewahrende Institutuion]</institution>
          <collection>[Sammlung]</collection>
          <idno>
              <idno type="shelfmark">[Signatur]</idno>
@@ -68,8 +71,9 @@
     <concept id="concept_dt3_z3n_my">
         <title><b>Art der Textgrundlage</b></title>
         <conbody>
-            <p>Für den zugrunde liegenden Text kann die Art der Textgrundlage im @rend auszeichnet
-                werden. Dafür sind folgende Angaben möglich:<table id="table_ul1_mws_2y">
+            <p>Im Element <codeph>&lt;msDesc></codeph> können Sie die Art der Textgrundlage im
+                Attribut @rend auszeichnen. Dafür sind folgende Angaben möglich:<table
+                    id="table_ul1_mws_2y">
                     <tgroup cols="2">
                         <thead>
                             <row>
@@ -105,22 +109,24 @@
         </conbody>
     </concept>
     <concept id="concept_ppb_bjn_my">
-        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Textgrundlage
-                auswählen</b><?oxy_custom_end?></title>
+        <title><b>Textgrundlage auswählen</b></title>
         <conbody>
-            <p>Die Textgrundlage, die Sie für Ihre Arbeit wählen, markieren Sie, indem Sie den
-                entsprechenden Textzeugen auswählen und dort das Attribut @select eingügen.</p>
+            <p>Die Textgrundlage, die Sie für Ihre Arbeit verwenden, markieren Sie, indem Sie das
+                entsprechende Element <codeph>&lt;wittness></codeph> auswählen und dort das Attribut
+                @select einfügen. Das Attribut hat immer denselben Wert.</p>
             <codeblock><![CDATA[<witness select="#this">]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ksp_cjn_my">
         <title><b>Autor des Manuskripts</b></title>
         <conbody>
-            <p>Das Profil eines Manuskripts (<codeph>&lt;profileDesc></codeph>) beinhaltet Angaben zum Autor, zum
-                Schreibort und zum Erstellungsdatum. Diese Angaben werden in einem <codeph>&lt;creation></codeph>
-                (Erstellung) notiert. Der Autor wird in einem <codeph>&lt;persName></codeph> angegeben. Wenn Sie aus
-                einem Verzeichnis einen Autoren auswählen, wird im Attribut @key die zugehörige ID
-                generiert und ein Link angelegt.</p>
+            <p>Die Angaben zum Autor werden in einem Kind-Element vom Element
+                    <codeph>&lt;profileDesc></codeph> notiert. Im Element
+                    <codeph>&lt;creation></codeph> (Entstehung) werden Angaben zum Autor, zum
+                Schreibort und zum Erstellungsdatum gemacht. Dort wird wiederrum ein Kind-Element
+                    <codeph>&lt;persName></codeph> angelegt, in dem der Name des Autors notiert
+                wird. Wenn Sie aus einem Verzeichnis einen Autoren auswählen, wird im Attribut @key
+                die zugehörige ID generiert und ein Link angelegt.</p>
             <codeblock><![CDATA[<profileDesc>
     <creation>
         <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>
@@ -132,9 +138,10 @@
     <concept id="concept_u3c_2jn_my">
         <title><b>Schreibort</b></title>
         <conbody>
-            <p>Der Schreibort wird auch in <codeph>&lt;creation></codeph> ausgezeichnet. Wenn Sie aus einem
-                Verzeichnis einen Ort auswählen, wird im Attribut @key die zugehörige ID generiert
-                und ein Link angelegt.</p>
+            <p>Der Schreibort wird auch im Element <codeph>&lt;creation></codeph> angegeben. Dort
+                wird das Element <codeph>&lt;placeName> angelegt, in dem der Name des Ortes notiert
+                    wird.</codeph> Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
+                Attribut @key die zugehörige ID generiert und ein Link angelegt.</p>
             <codeblock><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>
@@ -146,13 +153,14 @@
     <concept id="concept_zgs_fjn_my">
         <title><b>Erstellungsdatum</b></title>
         <conbody>
-            <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date/></codeph> ausgezeichnet. Wichtig ist,
-                dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen @when
-                bzw. @from/@to und @notBefore/@notAfter notiert werden. Dadurch kann der in der
-                Datumsangabe enthaltene Wert später vom Computer für verschiedene Zwecke
-                weiterbenutzt werden (z.B. Suche in bestimmten Zeiträumen). Außerdem wird in den
-                Attribut @cert die Wahrescheinlichkeit angegeben, mit der die Datumsangabe zutrifft:
-                high, low. </p>
+            <p>Wie auch die Angaben zum Autor und zum Schreibort wird die Datumsangabe im Element
+                    <codeph>&lt;creation></codeph> gemacht. Datumsangaben werden mit Hilfe von
+                    <codeph>&lt;date/></codeph> ausgezeichnet. Wichtig ist, dass die Datumsangaben
+                nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
+                @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene
+                Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in
+                bestimmten Zeiträumen). Außerdem wird in den Attribut @cert die Wahrescheinlichkeit
+                angegeben, mit der die Datumsangabe zutrifft: high, low. </p>
             <p>1. Genaues Datum</p>
             <codeblock><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
             <p>2. Genaue Zeitspanne</p>
@@ -268,7 +276,8 @@
     <concept id="concept_fqt_hjn_my">
         <title><b>Regest des Briefes oder Dokumentetxtes</b></title>
         <conbody>
-            <p>Ein Regest wird in einem <codeph>&lt;abstract></codeph> notiert.</p>
+            <p>Ein Regest wird in einem <codeph>&lt;abstract></codeph> notiert. Im Kind-Element
+                    <codeph>&lt;p></codeph> wird der Regest notiert.</p>
             <codeblock><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff]</p>
 </abstract>]]></codeblock>
@@ -315,9 +324,9 @@
     <concept id="concept_al3_vjn_my">
         <title><b>Herausgeber und Mitarbeiter</b></title>
         <conbody>
-            <p>Der Herausgeber wird in einem <codeph>&lt;editor></codeph> notiert. Die Angaben zur Person werden in
-                einem <codeph>&lt;persName></codeph> angegeben. Im Attribut @ref kann eine Referenz in Form einer
-                GND, VIAF oder URI gemacht werden.</p>
+            <p>Der Herausgeber wird im Element <codeph>&lt;editor></codeph> notiert. Die Angaben zur
+                Person werden im Kind-Element <codeph>&lt;persName></codeph> angegeben. Im Attribut
+                @ref kann eine Referenz in Form einer GND, VIAF oder URI gemacht werden.</p>
             <codeblock><![CDATA[<editor>
    <persName ref="118763784">
       <surname>Unseld</surname>

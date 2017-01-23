@@ -16,7 +16,7 @@ ist.</p>]]></codeblock>
    markierten Absatz ist außerdem das Wort „und“ enthalten, dessen zwei letzte Buchstaben kursiv
    gesetzt werden sollen und daher mit einem (öffnenden und schließenden) i-Element („italic“)
    markiert wurden.</p>
-  <p>Elemente können mit sog. Attributen versehen werden, die weitere Informationen zum
+  <p>Elemente können mit sogenannten Attributen versehen werden, die weitere Informationen zum
    entsprechenden Element transportieren. So könnte das öffnende p-Element aus dem obigen Beispiel
    mit einem Attribut versehen sein, das darüber informiert, dass der Absatz linksbündig gesetzt
    wird. Ein Beispiel:</p>

@@ -5,12 +5,13 @@
   <concept id="concept_fgl_bkn_my">
     <title><b>Angaben zum Sender und Empfänger</b></title>
     <conbody>
-      <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden von
-        <codeph>&lt;correspDesc></codeph> (correspondence description) umschlossen. Dabei werden alle Angaben zum
-        Sender in einem <codeph>&lt;correspAction type="sent"></codeph> (correspondence action) und alle Angaben zu
-        einem Empfänger in einem <codeph>&lt;correspAction type="received"></codeph> ausgezeichnet. Das Attribut
-        @type gibt dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received)
-          handelt.<table id="table_vzz_lfd_gy">
+      <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden in dem Element
+          <codeph>&lt;correspDesc></codeph> (correspondence description) angegeben. Dabei werden
+        alle Angaben zum Sender in einem <codeph>&lt;correspAction type="sent"></codeph>
+        (correspondence action) und alle Angaben zu einem Empfänger in einem
+          <codeph>&lt;correspAction type="received"></codeph> ausgezeichnet. Das Attribut @type gibt
+        dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received) handelt.<table
+          id="table_vzz_lfd_gy">
           <tgroup cols="2">
             <thead>
               <row>
@@ -34,11 +35,11 @@
    <correspAction type="sent">[Angaben zum Sender]</correspAction>
    <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
-      <p>Die detailierten Angaben zu Sender werden innerhalb des
-        <codeph>&lt;correspAction type="sent"></codeph> gemacht. Sie können den Namen
-        (<![CDATA[<persName>]]>), den Schreibort (<codeph>&lt;placeName></codeph>) und das Schreibdatum
-        (<codeph>&lt;date></codeph>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
-        Empfangsort un -datum machen.</p>
+      <p>Die detailierten Angaben zu Sender werden innerhalb des <codeph>&lt;correspAction
+          type="sent"></codeph> gemacht. Sie können den Namen (<![CDATA[<persName>]]>), den
+        Schreibort (<codeph>&lt;placeName></codeph>) und das Schreibdatum
+          (<codeph>&lt;date></codeph>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
+        Empfangsort und -datum machen.</p>
       <codeblock><![CDATA[<correspDesc>
    <correspAction type="sent">
       <persName>Friedrich Engels</persName>
@@ -76,8 +77,9 @@
   <concept id="concept_lfg_2kn_my">
     <title><b>Anmerkung zum Brief</b></title>
     <conbody>
-      <p>In <codeph>&lt;correspDesc></codeph> (correspondence description) können Sie auch mithilfe eines <codeph>&lt;note></codeph>
-        eine Anmerkung zum Brief und dessen Datierung machen.</p>
+      <p>In <codeph>&lt;correspDesc></codeph> (correspondence description) können Sie auch mithilfe
+        des Elements <codeph>&lt;note></codeph> eine Anmerkung zum Brief und dessen Datierung
+        machen.</p>
       <p>
         <codeblock><![CDATA[<correspDesc>
    ...
@@ -89,11 +91,11 @@
   <concept id="concept_qsr_gkn_my">
     <title><b>Korrespondentzusammenhang des Briefes</b></title>
     <conbody>
-      <p>Außerdem können Sie noch vor dem <codeph>&lt;note></codeph> einen Korrespondenzkontext <codeph>&lt;correspContext></codeph>
-        erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen können. Im
-        Attribut @target wird der interne Link des entsprechenden Briefs angegeben. Das Attribut
-        @type gibt dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief
-          handelt.<table id="table_k4w_y2d_gy">
+      <p>Außerdem können Sie noch vor dem Element <codeph>&lt;note></codeph> einen
+        Korrespondenzkontext <codeph>&lt;correspContext></codeph> erstellen, in dem Sie auf
+        vorangehende bzw. nachfolgende Briefe verweisen können. Im Attribut @target wird der interne
+        Link des entsprechenden Briefs angegeben. Das Attribut @type gibt dabei an, ob es sich um
+        einen vorangehenden oder einen nachfolgenden Brief handelt.<table id="table_k4w_y2d_gy">
           <tgroup cols="2">
             <thead>
               <row>

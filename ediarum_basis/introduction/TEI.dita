@@ -4,15 +4,14 @@
  <title>TEI</title>
  <conbody>
   <p>Eine XML-Datei kann auf ein Schema zurückgreifen, dass die „Grammatik“ vorgibt, d.h. welche
-   Elemente gibt es und wie bw. wo dürfen sie verwendet werden. Anhand dieses Schema kann die
+   Elemente gibt es und wie bzw. wo dürfen sie verwendet werden. Anhand dieses Schemas kann die
    Software überprüfen, ob das Dokument das Schema korrekt umsetzt (validiert) oder nicht.</p>
-  <p>Im Fall des Arbeitsvorhabens ediarum-Basis wird ein Schema auf Basis der TEI-P5-Richtlinie
+  <p>Im Fall des Arbeitsvorhabens ediarum.Basis wird ein Schema auf Basis der TEI-P5-Richtlinie
    verwendet, die von der „Text Encoding Initiative“ bereitgestellt wurde. Letztere arbeitet seit
    1987 an diesen Richtlinien, die Elemente bereitstellen, mit denen u.a. Manuskripte ausgezeichnet
-   bzw. beschrieben werden können.</p>
-  <p>Die TEI ist also eine speziell für geisteswissenschaftliche Forschungsprojekte entwickelte
-   Auszeichnungssprache. Anstelle von bestimmten Formatierungen und Kürzeln benutzt man
-   entsprechende Elemente. Beispiele:</p>
+   bzw. beschrieben werden können. Die TEI ist also eine speziell für geisteswissenschaftliche
+   Forschungsprojekte entwickelte Auszeichnungssprache. Anstelle von bestimmten Formatierungen und
+   Kürzeln benutzt man entsprechende Elemente. Beispiele:</p>
   <table>
    <tgroup cols="2">
 
@@ -43,14 +42,14 @@
    Druck oder im Web die entsprechende Stelle nun tatsächlich unterstrichen oder vielleicht eher
    gesperrt wird, muss hier nicht entschieden werden.</p>
   <p>Da die TEI für viele verschiedene Textsorten und Anwendungsfälle gedacht ist, umfasst sie sehr
-   viel mehr Elemente als normalerweise in einem Projekt benötigt werden. Im Teucho – Zentrum für
+   viel mehr Elemente als normalerweise in einem Projekt benötigt werden. Im Teuchos-Zentrum für
    Handschriften- und Textforschung an der Universität Hamburg wurde mit Hilfe der TEI eine
    Leitlinie erarbeitet, wie die unterschiedlichen Teile einer Handschriftenbeschreibung mit XML
-   strukturiert und ausgezeichnet werden können. Von TELOTA wurde auf dieser Basis ein
-   XML-Schema für die digitale Arbeitsumgebung entwickelt, gegen das die XML-Dokumente zukünftig
-   validiert, d.h. geprüft werden könnnen.</p>
+   strukturiert und ausgezeichnet werden können. Von TELOTA wurde auf dieser Basis ein XML-Schema
+   für die digitale Arbeitsumgebung entwickelt, gegen das die XML-Dokumente zukünftig validiert,
+   d.h. geprüft werden könnnen.</p>
   <p>Der Baum eines TEI-kodierten XML-Dokument besteht immer aus zwei Teilen: dem
-    <codeph>&lt;tei-Header/></codeph> und dem <codeph>&lt;text/></codeph>. Während die eigentliche
+    <codeph>&lt;tei-Header></codeph> und dem <codeph>&lt;text></codeph>. Während die eigentliche
    Handschriftenbeschreibung sich im letzteren befindet, werden im teiHeader Metangaben zum
    XML-Dokument notiert. Grobe Struktur eines TEI-kodierten XML-Dokuments:</p>
   <table>

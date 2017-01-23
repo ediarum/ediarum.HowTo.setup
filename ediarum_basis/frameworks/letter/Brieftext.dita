@@ -5,9 +5,9 @@
   <concept id="concept_qkt_kkn_my">
     <title>Adresse </title>
     <conbody>
-      <p>Die Adresszeile eines Briefes geben Sie in einem <codeph>&lt;addrLine></codeph> (address line) an. Die
-        Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder am Briefende (<codeph>&lt;closer></codeph>)
-        stehen.</p>
+      <p>Die Adresszeile eines Briefes geben Sie im Element <codeph>&lt;addrLine></codeph> (address
+        line) an. Die Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder
+        am Briefende (<codeph>&lt;closer></codeph>) stehen.</p>
       <codeblock><![CDATA[<opener>
    <address>
       <addrLine>Berlin, Jägerstraße 12</addrLine>
@@ -18,9 +18,11 @@
   <concept id="concept_gdy_lkn_my">
     <title>Briefanfang</title>
     <conbody>
-      <p>Der Briefanfang wird in <codeph>&lt;opener></codeph> notiert und kann eine Datumsangabe und Grußformel
-        enthalten. Die Datumsangabe <codeph>&lt;datline></codeph> gibt in ihrem Attribut @rend die Textaurichtung der
-        Datumsangabe an. Im <codeph>&lt;salute></codeph> wird die Grußformel transkribiert.</p>
+      <p>Der Briefanfang wird im Element <codeph>&lt;opener></codeph> notiert und kann eine
+        Datumsangabe und Grußformel enthalten. Die Datumsangabe im Kind-Element
+          <codeph>&lt;datline></codeph> gibt in ihrem Attribut @rend die Textaurichtung der
+        Datumsangabe an. Im Element <codeph>&lt;salute></codeph> wird die Grußformel
+        transkribiert.</p>
       <codeblock><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
@@ -30,9 +32,9 @@
   <concept id="concept_lfy_nkn_my">
     <title>Neuer Schreibakt</title>
     <conbody>
-      <p>Der Brieftext wird mithilfe von <codeph>&lt;div></codeph> (division) in Sektionen unterteilt. Ein neues
-        <codeph>&lt;div></codeph> markiert den Beginn eines neuen Schreibakten. Dabei ist es möglich die Anzahl der
-        Schreibakte im Attribut @n anzugeben.</p>
+      <p>Der Brieftext wird mithilfe von <codeph>&lt;div></codeph> (division) in Sektionen
+        unterteilt. Ein neues <codeph>&lt;div></codeph> markiert den Beginn eines neuen
+        Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte im Attribut @n anzugeben.</p>
       <codeblock><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
@@ -87,8 +89,8 @@
   <concept id="concept_qtd_skn_my">
     <title>Postskriptum</title>
     <conbody>
-      <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument in einem <codeph>&lt;postcript></codeph>
-        notiert.</p>
+      <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument im Elment
+          <codeph>&lt;postcript></codeph> notiert.</p>
       <codeblock><![CDATA[<postscript>
    <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
 </postscript>]]></codeblock>

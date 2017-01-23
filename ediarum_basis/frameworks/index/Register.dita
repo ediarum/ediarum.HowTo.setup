@@ -49,12 +49,12 @@
    <p>Die Schaltfläche „ Allgemein“ umfasst Aktionen, die im Prinzip in allen Registersorten
     verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
    <p>1. Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.)
-    versehen. Die Norm-ID wird in einem <codeph>&lt;idno></codeph> (identifikator) notiert.
+    versehen. Die Norm-ID wird im Element <codeph>&lt;idno></codeph> (identifikator) notiert.
     <codeblock><![CDATA[<idno type="uri">http://d-nb.info/gnd/170885348</idno>]]></codeblock></p>
    <p>2. Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
     Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
-    in einem <codeph>&lt;desc></codeph> (description), im Personenregister und im Ortsregister in einem <codeph>&lt;note></codeph>
-    notiert.</p>
+    I, Element <codeph>&lt;desc></codeph> (description), im Personenregister und im Ortsregister in
+    einem <codeph>&lt;note></codeph> notiert.</p>
    <p>Einrichtungs-/Sachregister:<codeblock><![CDATA[<desc>Verlagsbuchhandlung in Karlsruhe.</desc>]]></codeblock></p>
    <p>Personen-/Ortsregister:</p>
    <codeblock><![CDATA[<note>deutscher Journalist; Liberaler</note>]]></codeblock>

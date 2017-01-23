@@ -11,7 +11,7 @@
    <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
      href="../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
    <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-    platzieren, Return drücken und „Teilen p“ auwählen – in dem man einfach nochmals Return
+    platzieren, Return drücken und „Teilen p“ auwählen – indem man einfach nochmals Return
     drückt.</p>
   </conbody>
  </concept>
@@ -22,8 +22,8 @@
    <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
     Element <codeph>&lt;lb/></codeph> (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
     kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
-   <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs angeben,
-    ob ein Trennstrich verwendet wurde. Im Attribut @break wird der entsprechende Wert
+   <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs
+    markieren, ob ein Trennstrich verwendet wurde. Im Attribut @break wird der entsprechende Wert
     festgelegt.</p>
    <p>
     <table id="table_ygv_f4c_gy">
@@ -56,8 +56,9 @@
  <concept id="concept_vfz_sfn_my">
   <title><image href="../img/unorderedList16.png" id="image_ynm_qwk_xx"/><b> Listen</b></title>
   <conbody>
-   <p>Listen im Manuskript werden mit <codeph>&lt;list/></codeph> ausgezeichnet. Die einzelnen Punkte/Zeilen
-    werden in einem <codeph>&lt;item></codeph> (Punkt) transkribiert.</p>
+   <p>Listen im Manuskript werden mit dem Element <codeph>&lt;list/></codeph> ausgezeichnet. Die
+    einzelnen Punkte/Zeilen werden in einem Kind-Element <codeph>&lt;item></codeph> (Punkt)
+    transkribiert.</p>
    <codeblock><![CDATA[<list>
    <item>[Listenpunkt einfügen]</item>
    <item>[Listenpunkt einfügen]</item>
@@ -99,8 +100,8 @@
     Textstelle (an der im Manuskript das Verweiszeichen bzw. -ziffer steht) eingefügt. Das
     Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür in der obersten Leiste des
     Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“ aus: über das Kontextmenü
-    besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt der Fußnote wird mit
-    <codeph>&lt;note></codeph> (Anmerkung) gekennzeichnet:</p>
+    besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt der Fußnote wird im
+    Element <codeph>&lt;note></codeph> (Anmerkung) notiert:</p>
    <codeblock>An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
 eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
 Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
@@ -150,11 +151,11 @@ Post schicken.<![CDATA[</note>]]></codeblock>
     /><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>
     Zeichnung einfügen</b></title>
   <conbody>
-   <p>Mit einem <codeph>&lt;figure></codeph> können Sie Zeichungen (samt Bildunterschrift) aus dem
-    Manuskript einfügen. Die Person, die die Zeichung gemacht hat, wird im Attribut @hand angegeben:
-    #author, #addressee oder eine Person aus dem Personen-Register. In <codeph>&lt;figDesc></codeph>
-    kann eine durch den Herausgeber formulierte Bildunterschrift notiert werden. Im Attribut @facs
-    ist der Dateiname notiert.</p>
+   <p>Mit dem Element <codeph>&lt;figure></codeph> können Sie Zeichungen (samt Bildunterschrift) aus
+    dem Manuskript einfügen. Die Person, die die Zeichung gemacht hat, wird im Attribut @hand
+    angegeben: #author, #addressee oder eine Person aus dem Personen-Register. Im Kind-Element
+     <codeph>&lt;figDesc></codeph> kann eine durch den Herausgeber formulierte Bildunterschrift
+    notiert werden. Im Attribut @facs ist der Dateiname notiert.</p>
    <codeblock><![CDATA[<figure facs="abbildung" hand="#adresee">
    <figDesc>[Bildunterschrift]</figDesc>
 </figure>Die</del>]]></codeblock>
@@ -165,15 +166,15 @@ Post schicken.<![CDATA[</note>]]></codeblock>
    <b>Seiten- bzw. Foliowechsel</b></title>
   <conbody>
    <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren Element
-    <codeph>&lt;pb></codeph> (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es sich nicht
-    um die Foliazählung das Manuskript handelt, sondern eines Drucks oder einer Abschrift handelt;
-    @n enthält die Seiten- bzw. Foliozahl.</p>
+     <codeph>&lt;pb/></codeph> (pagebreak) gekennzeichnet. Das Attribut @ed wird gesetzt, wenn es
+    sich nicht um die Foliazählung das Manuskript handelt, sondern eines Drucks oder einer Abschrift
+    handelt; @n enthält die Seiten- bzw. Foliozahl.</p>
    <codeblock><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
    <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
     die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
     Digitalisat verlinkt werden, indem der Dateiname oder Link in das Attribut @facs engetragen
     wird.</p>
-   <codeblock><![CDATA[<pb n="34"facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
+   <codeblock><![CDATA[<pb n="34" facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
    <p>Es kann auch mit <codeph>&lt;fw type="folNum"></codeph> eine alternative Foliozählung angegeben werden, die in
     der Autor-Ansicht in Klammern angezeigt wird.</p>
    <codeblock><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
@@ -183,9 +184,9 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <title><image href="../img/underlined16.png" id="image_qcq_yhf_2y"/>
    <b>Unterstreichungen</b></title>
   <conbody>
-   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit <codeph>&lt;hi rendition="#u"/></codeph>
-    (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um was für eine
-    Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
+   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem Element <codeph>&lt;hi
+     rendition="#u"/></codeph> (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um
+    was für eine Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
      <tgroup cols="2">
       <thead>
        <row>
@@ -216,7 +217,7 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <title><image href="../img/superscript16.png" id="image_ofy_cms_2y"/><b> Hochstellen</b></title>
   <conbody>
    <p>Im Manuskript hochgestellte Zahlen werden mit <codeph>&lt;hi rendition="#sup"></codeph>
-    ausgezeichnet.</p>
+    (highlighted) ausgezeichnet. Das Attribut @rendition hat immer denselben Wert.</p>
    <codeblock><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
   </conbody>
  </concept>
@@ -224,9 +225,9 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <title><image href="../img/del16.gif" id="image_rcq_yhf_2y"/>
    <b>Streichungen</b></title>
   <conbody>
-   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit <codeph>&lt;del]</codeph>
-    rendition="#s"> (deletion) ausgezeichnet. Das Attribut @rendition enthält nähere Angaben zur Art
-    der Streichung.<table id="table_frw_4ns_2y">
+   <p>Vom Autor im Manuskript gestrichene Wörter oder Wortteile werden mit dem Element
+     <codeph>&lt;del</codeph>> (deletion) ausgezeichnet. Das Attribut @rendition enthält nähere
+    Angaben zur Art der Streichung.<table id="table_frw_4ns_2y">
      <tgroup cols="2">
       <thead>
        <row>
@@ -259,9 +260,10 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <conbody>
    <p>Wenn die Hinzufügung erkennbar ein anderes Wort ersetzt, das gleichzeitig gestrichen wurde, so
     wird die Hinzufügung und die Streichung in einem Ersetzungsvorgang <codeph>&lt;subst/></codeph>
-    (substition) verbunden. Das gestrichene Wort wird in <codeph>&lt;del></codeph> (deletion) angegeben, die
-    Hinzufügung in <codeph>&lt;add></codeph> (addition). Der Ort der Hinzufügung wird im Attribut @place von <codeph>&lt;add></codeph>
-    angegeben: <table id="table_h5g_54s_2y">
+    (substition) verbunden. Das gestrichene Wort wird im Kind-Element <codeph>&lt;del></codeph>
+    (deletion) angegeben, die Hinzufügung im Kind-Element <codeph>&lt;add></codeph> (addition). Der
+    Ort der Hinzufügung wird im Attribut @place von <codeph>&lt;add></codeph> angegeben:  <table
+     id="table_h5g_54s_2y">
      <tgroup cols="2">
       <thead>
        <row>
@@ -307,8 +309,9 @@ Post schicken.<![CDATA[</note>]]></codeblock>
   <title><image href="../img/add16.gif" id="image_tcq_yhf_2y"/>
    <b>Ergänzungen</b></title>
   <conbody>
-   <p>Ergänzungen, die der Autor im Manuskript vorgenommen hat, werden mit <codeph>&lt;add></codeph>
-    (adddition) gekennzeichnet, wobei das Attribut @place den Ort der Ergänzung angibt: </p>
+   <p>Die Ergänzungen, die der Autor selbst im Manuskript vorgenommen hat, werden mit dem Element
+     <codeph>&lt;add></codeph> (adddition) gekennzeichnet, wobei das Attribut @place den Ort der
+    Ergänzung angibt: </p>
    <table id="table_wf3_dhn_my">
     <tgroup cols="2">
      <thead>
