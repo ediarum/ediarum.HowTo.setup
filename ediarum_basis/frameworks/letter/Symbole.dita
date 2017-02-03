@@ -15,7 +15,9 @@
   <conbody>
    <p>Außerdem können Sie über das Menü "Symbole" Bruchzahlen als ein Zeichen anzeigen lassen.</p>
    <p>⅘, ⅙, ⅚, ⅛, ⅜, ⅝, ⅞</p>
-  </conbody>
+  </conbody> <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/trSonderzeichen.html?hl=symbol"
+   format="html" scope="external"/></linklist>
+  </related-links>
  </concept>
  <concept id="concept_byz_xkn_my">
   <title>Einheiten</title>
@@ -28,6 +30,10 @@
   <conbody>
    <p>Sie können über das Menü "Symbole" bestimme Interpuntionszeichen einfügen: Kürzungsstrich,
     Halbgeviertstrich, Geviertstrich, Auslassungspunkte.</p>
-  </conbody>
+  </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/trZeichensetzungAllg.html"
+   format="html" scope="external"/>
+   <link href="http://www.deutschestextarchiv.de/doku/basisformat/trGedankenstrich.html"
+    format="html" scope="external"/></linklist>  
+  </related-links>
  </concept>
 </concept>

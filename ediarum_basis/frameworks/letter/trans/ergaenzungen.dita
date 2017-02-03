@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_okt_bcv_ty">
+ <title><image href="../../img/add16.gif" id="image_tcq_yhf_2y"/> Ergänzungen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Die Ergänzungen, die der Autor selbst im Manuskript vorgenommen hat, werden mit dem Element
+   <codeph>&lt;add></codeph> (adddition) gekennzeichnet, wobei das Attribut @place den Ort der
+   Ergänzung angibt: </p>
+  <table id="table_wf3_dhn_my">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Ort der Ergänzung</entry>
+      <entry>Wert für @place</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>über der Zeile</entry>
+      <entry>superlinear</entry>
+     </row>
+     <row>
+      <entry>unter der Zeile</entry>
+      <entry>sublinear</entry>
+     </row>
+     <row>
+      <entry>innerhalb der Zeile</entry>
+      <entry>intralinear</entry>
+     </row>
+     <row>
+      <entry>über den ursprünglichen Text</entry>
+      <entry>across</entry>
+     </row>
+     <row>
+      <entry>am linken Rand</entry>
+      <entry>left</entry>
+     </row>
+     <row>
+      <entry>am rechten Rand</entry>
+      <entry>right</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder ]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html" format="html"
+  scope="external"/></linklist>
+  
+ </related-links>
+</concept>

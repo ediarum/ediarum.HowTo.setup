@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_t1g_mt5_ty">
+ <title><b>Urheber</b></title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Der Urheber einer Korrektur oder Ergänzung im Manuskript kann mit
+   <![CDATA[<subst resp="kopist">]]> notiert werden.</p>
+ </conbody>
+</concept>

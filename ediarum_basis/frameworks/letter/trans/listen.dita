@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_trq_t1v_ty">
+ <title><image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> Listen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Listen im Manuskript werden mit dem Element <codeph>&lt;list/></codeph> ausgezeichnet. Die
+   einzelnen Punkte/Zeilen werden in einem Kind-Element <codeph>&lt;item></codeph> (Punkt)
+   transkribiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<list>
+   <item>[Listenpunkt einfügen]</item>
+   <item>[Listenpunkt einfügen]</item>
+</list>]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/liAllg.html" format="html"
+  scope="external"/></linklist>
+  
+ </related-links>
+</concept>

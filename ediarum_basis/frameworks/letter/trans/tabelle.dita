@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_abf_x1v_ty">
+ <title><image href="../../img/table.jpg"/> Tabellen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Tabellen im Manuskript werden mit <codeph>&lt;table></codeph> (Tabelle) ausgezeichnet. Über die Schaltfläche
+   lassen sich Tabellen erstellen und bearbeiten. So lassen sich weitere Zeilen und Spalten
+   hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die
+   Anzahl der Zeilen (rows) und Spalten (columns) angeben können. Mit der Schaltfläche kann die
+   Tabelle jederzeit noch nachträglich verändert werden. </p>
+  <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
+   Häkchen auf "generate_table-header". Der ersten Zeile (row) der Tabelle wird dann die Rolle der
+   Beschriftung zugewiesen
+   (@role="label").<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
+  <?oxy_custom_end?>
+  <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
+   <head>Tabelle</head>
+   <row role="label">
+      <cell>[Überschrift Spalte 1]</cell>
+      <cell>[Überschrift Spalte 2]</cell>
+   </row>
+   <row>
+      <cell>[Spalte 1/Zeile 1]</cell>
+      <cell>[Spalte 2/ Zeile 1]</cell>
+   </row>
+   ...
+</table>]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/tabAllg.html" format="html"
+  scope="external"/>
+  <link href="http://www.deutschestextarchiv.de/doku/basisformat/labels.html" format="html"
+   scope="external"/></linklist>
+  
+ </related-links>
+</concept>

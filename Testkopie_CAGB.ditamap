@@ -55,7 +55,8 @@
     <part href="cagb/Projekt/UeberschriftII.dita">
         <chapter href="cagb/frameworks/ms_desc.dita">
             <topicref href="cagb/frameworks/ms_descr/oberflaeche_zur_handschriftenbeschreibung.dita"/>
-            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx" copy-to="ediarum_basis/general/ms_desc_allgemeine_werkzeugleiste.dita"/>
+            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"
+                copy-to="ediarum_basis/general/ms_desc_allgemeine_werkzeugleiste.dita"/>
             <topicref href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_strukturelemente.dita">
                 <topicref href="cagb/frameworks/ms_descr/nachweis.dita"/>
                 <topicref href="cagb/frameworks/ms_descr/inhalt.dita"/>
@@ -65,8 +66,8 @@
                 <topicref href="cagb/frameworks/ms_descr/notizfelder.dita"/>
             </topicref>
             <topicref href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_transkription.dita">
-                <topicref href="cagb/frameworks/ms_descr/textarbeit_des_autors.dita"/>
-                <topicref href="cagb/frameworks/ms_descr/textarbeit_des_herausgebers.dita"/>
+                <topicref href="cagb/Projekt/transkr_autor_cagb.dita"/>
+                <topicref href="cagb/Projekt/transkr_hg_cagb.dita"/> 
             </topicref>
             <topicref
                 href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_allgemeine_auszeichnungen.dita">
@@ -78,14 +79,13 @@
             <topicref href="cagb/frameworks/ms_descr/bearbeitungsstatus.dita"/>
         </chapter>
         <chapter href="cagb/frameworks/texte.dita">
-            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx" copy-to="ediarum_basis/general/texte_allgemeine_werkzeugleiste.dita"/>
+            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"
+                copy-to="ediarum_basis/general/texte_allgemeine_werkzeugleiste.dita"/>
             <topicref href="cagb/frameworks/texte/metadaten.dita"/>
             <topicref href="cagb/frameworks/texte/scholien.dita"/>
             <topicref href="cagb/frameworks/texte/werke_und_kleintexte.dita"/>
-            <topicref href="cagb/frameworks/texte/manuskriptstruktur.dita"/>
-            <topicref href="cagb/frameworks/texte/manuskripttext.dita"/>
-            <topicref
-                href="cagb/frameworks/texte/textauszeichnungen_des_herausgebers.dita"/>
+            <topicref href="cagb/Projekt/transkr_autor_cagb.dita" copy-to="cagb/Projekt/texte_transkr_autor_cagb.dita"/>
+            <topicref href="cagb/Projekt/transkr_hg_cagb.dita" copy-to="cagb/Projekt/texte_transkr_hg_cagb.dita"/> 
             <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
         </chapter>
         <chapter href="cagb/frameworks/persons.dita">

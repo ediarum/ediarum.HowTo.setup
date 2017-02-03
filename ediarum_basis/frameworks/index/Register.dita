@@ -50,14 +50,14 @@
     verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
    <p>1. Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.)
     versehen. Die Norm-ID wird im Element <codeph>&lt;idno></codeph> (identifikator) notiert.
-    <codeblock><![CDATA[<idno type="uri">http://d-nb.info/gnd/170885348</idno>]]></codeblock></p>
+    <codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://d-nb.info/gnd/170885348</idno>]]></codeblock></p>
    <p>2. Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
     Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
     I, Element <codeph>&lt;desc></codeph> (description), im Personenregister und im Ortsregister in
     einem <codeph>&lt;note></codeph> notiert.</p>
-   <p>Einrichtungs-/Sachregister:<codeblock><![CDATA[<desc>Verlagsbuchhandlung in Karlsruhe.</desc>]]></codeblock></p>
+   <p>Einrichtungs-/Sachregister:<codeblock outputclass="language-xml"><![CDATA[<desc>Verlagsbuchhandlung in Karlsruhe.</desc>]]></codeblock></p>
    <p>Personen-/Ortsregister:</p>
-   <codeblock><![CDATA[<note>deutscher Journalist; Liberaler</note>]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[<note>deutscher Journalist; Liberaler</note>]]></codeblock>
    <p>3. Mit der Funktion „ Register sortieren“ wird das Register alphapetisch angeordnet.</p>
    <p>4. Sie können innerhalb von Kommentaren in Registeinrägen auf andere Personen, Orte und
     Organisationen verlinken. Über ein Dialogfenster werden Ihnen die bereits erstellten Einträge
@@ -85,11 +85,11 @@
        </row>
       </tbody>
      </tgroup>
-    </table><codeblock><![CDATA[<note><persName key="pdrPo.001.004.000001072">Mutter von Julie</persName></note>]]></codeblock></p>
+    </table><codeblock outputclass="language-xml"><![CDATA[<note><persName key="pdrPo.001.004.000001072">Mutter von Julie</persName></note>]]></codeblock></p>
    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
    <p>5. Außerdem können Sie mit einem <codeph>&lt;ref></codeph> (reference) auf eine externe Website verweisen.
     <?oxy_custom_end?>Im Attribut @target wird die entsprechende URL
-    notiert.<codeblock><![CDATA[<ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie</ref>]]></codeblock></p>
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie</ref>]]></codeblock></p>
    <p>6. In jedem Eintrag können innerhalb des <codeph>&lt;linkGrp></codeph> (link group) Referenzen auf die
     Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem <codeph>&lt;ptr></codeph> (print) angegeben.
     Über ein Dialogfenster geben Sie dabei an, ob Sie auf eine Seitenzahl oder Briefnummer
@@ -117,7 +117,7 @@
     Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format "B#SZ". Außerdem müssen
     Sie vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie „ ja“
     auswählen, wird ein zusätzliches Attribut @subtype mit dem Wert "comment" generiert. </p>
-   <codeblock><![CDATA[<linkGrp>
+   <codeblock outputclass="language-xml"><![CDATA[<linkGrp>
    <ptr type="page" target="I#32"/>
    <ptr type="letter" target="II#46" subtype="comment"/>
 </linkGrp>]]></codeblock>
@@ -132,7 +132,7 @@
     machen: Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder
     eine mytholgische Figur handeln, wird zusätzlich das Attribut @role angelegt. Dort wird
     entsprechend entweder der Wert "fictional" oder "mythological"
-    eingetragen.<codeblock><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
+    eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
    <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
     Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem <codeph>&lt;persName
     type="reg"></codeph> festgehalten. Varianten oder alternative Namen werden jeweils in einem eigenen
@@ -166,17 +166,17 @@
    </p>
    <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und Nachnamen
     (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
-   <codeblock><![CDATA[<persName type="alt" subtype="pseudonym">
+   <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
    <name>[Pseudonym]</name>
 </persName>]]></codeblock>
    <p>2. Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die Wirklungszeit
     (Floruit) angeben. Die Lebensdaten werden in einem <codeph>&lt;birth></codeph> und <codeph>&lt;death></codeph>
-    notiert.<codeblock><![CDATA[<birth>1838</birth>
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
 <death>1889</death>]]></codeblock></p>
    <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph> notiert. In den Attributen @notBefore (nicht vor)
     und @notAfter (nicht nach) wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format
     JJJJ-MM-TT angegeben, wobei Monat und Tag optionale Angaben
-    sind.<codeblock><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
+    sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
    <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
     im Registereintrag vermerken. Es wird zusätzlich das Attribut @role angelegt. Dort wird
     entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
@@ -191,15 +191,15 @@
    <p>Ein Eintrag im Ortsregister wird in einem <codeph>&lt;place></codeph> notiert. Wenn Sie einen
     neuen Eintrag erstellen, wird im Attribut @xml:id eine ID generiert, mit der Sie auf den Eintrag
     referien können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
-    angeben.<codeblock><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
+    angeben.<codeblock outputclass="language-xml"><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
    <p>Der Name des Ortes wird in einem placeName>
-    angegeben.<codeblock><![CDATA[<placeName type="reg">Liverpool</placeName>]]></codeblock></p>
+    angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Liverpool</placeName>]]></codeblock></p>
    <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
     Gebäude angeben. Diese Angabe wird in einem <codeph>&lt;listPlace></codeph> notiert. Weil es sich um eine
     spezifischere Angabe handelt, wird diese wiederum in einem <codeph>&lt;place></codeph> angegeben und erhält im
     Attribut @xml:id eine individuelle ID. Im Attribut @type wird ausgezeichnet ob es sich um eine
     Straße (street) oder um ein Gebäude (bulidung)
-    handelt.<codeblock><![CDATA[listPlace>
+    handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
    <place xml:id="ediarum_t4p_lhf_hy" type="street">
       <placeName type="reg">Aberdeen St </placeName>
    </place>
@@ -207,7 +207,7 @@
    <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
     über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
     Link wird in einem <codeph>&lt;idno></codeph> (identifikator)
-    notiert.<codeblock><![CDATA[<idno type="uri">http://www.geonames.org/2641805<idno>]]></codeblock></p>
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2641805<idno>]]></codeblock></p>
   </conbody>
  </concept>
  <concept id="concept_rjp_lln_my">
@@ -220,7 +220,7 @@
    <p>Die Angaben, die den Autoren betreffen, werden in einem <codeph>&lt;auhor></codeph> notiert. Dabei werden
     Angaben zum Namen in einem &lt;persName> notiert, wobei der Vorname in einem <codeph>&lt;forename></codeph> und
     der Nachname in einem <codeph>&lt;surname></codeph> angegeben wird.
-    <codeblock><![CDATA[<author>
+    <codeblock outputclass="language-xml"><![CDATA[<author>
    <persName key="ed_bkf_zlr_5x">
       <surname>Apell</surname>
       <forename>David August von</forename>
@@ -264,14 +264,14 @@
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock><![CDATA[<author role="translation">]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[<author role="translation">]]></codeblock>
    <p>Außerdem können Sie noch die Publikationsart näher im <codeph>&lt;bibl></codeph> Element bestimmen. Im Attribut
     @type können Sie entweder auszeichenen, dass es sich um eine Zeitschrift (journal) oder um einen
     Sammelband (edited_volumen) handelt. Herausgeber werden in einem <codeph>&lt;editor></codeph> angegeben. Einen
     einzelner Artikel innerhalb einer solchen Publikation wird in einem weiteren <codeph>&lt;bibl></codeph>
     angegeben, in dem ein Attribut @type angibt, dass es sich um einen Artikel handelt (article). Im
     Element <codeph>&lt;biblScope></codeph> werden Angaben zu Band und Seitenzahl
-    gemacht.<codeblock><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
+    gemacht.<codeblock outputclass="language-xml"><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
    <editor>
       <persName>
          <surname>Rambach</surname>
@@ -298,15 +298,14 @@
    <p>Einräge im Sachregister werden in einem <codeph>&lt;item></codeph> notiert. Wenn Sie einen
     neuen Eintrag erstellen, wird im Attribut @xml:id eine ID gneriert, mit der Sie auf den Eintrag
     referieren könnnen. Außerdem können Sie direkt über ein Dialogfenster den Begriff notieren, der
-    In einem <codeph>&lt;label></codeph> notiert wird.<codeblock><![CDATA[<item xml:id="ed_vgn_5rt_fx">
+    In einem <codeph>&lt;label></codeph> notiert wird.<codeblock outputclass="language-xml"><![CDATA[<item xml:id="ed_vgn_5rt_fx">
    <label type="reg">Bearbeitung von Stücken</label>
 </item>]]></codeblock></p>
-   <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.</p><codeblock><![CDATA[
-   <list>
-      <item xml:id="ed_ggf_npf_hy">
-         <label type="reg">[untergeordnete Ebene]</label>
-      </item>
-   </list>]]></codeblock>
+   <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.</p><codeblock outputclass="language-xml"><![CDATA[<list>
+   <item xml:id="ed_ggf_npf_hy">
+      <label type="reg">[untergeordnete Ebene]</label>
+   </item>
+</list>]]></codeblock>
   </conbody>
  </concept>
  <concept id="concept_hs3_4ln_my">
@@ -317,14 +316,14 @@
     notiert. Für jeden Eintrag wird im Attribut @xml:id eine ID generiert, mithilfe der auf den
     Eintrag verwisen werden kann. Den Namen der Einrichtung können Sie direkt über ein Dialogfenster
     angeben. Dieser wird in einem <codeph>&lt;orgName></codeph> (organization name) angegeben.</p>
-   <codeblock><![CDATA[<org xml:id="pdrPo.001.015.000090143">
+   <codeblock outputclass="language-xml"><![CDATA[<org xml:id="pdrPo.001.015.000090143">
    <orgName type="reg">A. Hübenthal Co.</orgName>]]></codeblock>
    <p>Der Standort wird in einem <codeph>&lt;location></codeph> angegeben. Sie können den Standort entweder
     detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Die Adresse wird
     einem &lt;adress> angegeben. Die Ortschaft wird in einem <codeph>&lt;settlement></codeph> auszezeichnet, wobei
     das Attribut @key die ID der entsprechenden Stadt übernimmt. Innerhalb des &lt;note> werden dann
     die detaillierteren Angaben aufgeführt.</p>
-   <codeblock><![CDATA[<location xml:id="grm_mwq_gy">
+   <codeblock outputclass="language-xml"><![CDATA[<location xml:id="grm_mwq_gy">
    <address>
       <settlement key="ed_p3t_jpj_wx">Genf</settlement>
       <note>Rudolfstraße</note>
@@ -333,7 +332,7 @@
    <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des <codeph>&lt;location></codeph>
     in den Attributen @from und @to notiert wird. Die Datumsangabe strukturiert sich folgendermaßen:
     JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag optional.</p>
-   <codeblock>&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
+   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
   </conbody>
  </concept>
  <concept id="concept_h5d_qln_my">

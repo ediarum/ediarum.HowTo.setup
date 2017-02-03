@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_e1f_thv_ty">
+ <title><image href="../../img/verweis16.gif" id="image_npc_d3f_2y"/>
+  <b>Verweise</b></title>
+ <conbody>
+  <p>Sie können Textstellen mit zwei <codeph>&lt;anchor></codeph> Elementen derartig markieren,
+   dass auf diese Querverweise gemacht werden können. Das Attribut @xml:id wird automatisch
+   generiert und beinhaltet den Code, mit den man aus einem anderen Dokument auf diese Stelle
+   verweisen kann.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
+xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
+type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
+  <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit dem Element <codeph>&lt;ref></codeph>
+   gemacht, dessen Attribut @target den Code für die entsprechende Textstelle enthält.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p><?oxy_custom_end?>Außerdem kann mit einem <codeph>&lt;ref key="…"></codeph> auf einen Eintrag im Sachregister
+   verwiesen werden.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p><?oxy_custom_end?>Sie können innerhalb einer Sachanmerkung (<codeph>&lt;seg></codeph>) auf eine externe Website
+   verweisen. Die Anmerkung wird in einem <codeph>&lt;note></codeph> notiert und der Link auf die externe Website in
+   einem <codeph>&lt;ref></codeph>  angegeben. Im Attribut @target wird die URL der Website notiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>
+ </conbody>
+</concept>
+

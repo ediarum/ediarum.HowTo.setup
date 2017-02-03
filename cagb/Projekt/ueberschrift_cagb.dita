@@ -4,6 +4,12 @@
  <title>Einführung</title>
  <shortdesc></shortdesc>
  <conbody>
+  <p>Die digitale Arbeitsumgebung für das Akademievorhaben „Commentaria in Aristotelem Graeca et
+      Byzantina“ (CAGB) besteht hauptsächlich aus zwei Komponenten: einer Datenbank mit
+      XML-Dokumenten sowie der Software „Oxygen XML Author“, mit der die Inhalte der Datenbank
+      (Handschriftenbeschreibungen, Transkriptionen und Register) bearbeitet werden können. Die
+      digitale Arbeitsumgebung „Commentaria in Aristotelem Graeca et Byzantina“ baut auf der
+      Arbeitsumgebung „ediarum“ auf.</p>
     <p>Die digitale Arbeitsumgebung „ediarum“ ist eine von TELOTA aus mehreren Softwarekomponenten
       entwickelte Lösung, die es den Wissenschaftlern erlaubt, Transkriptionen von Manuskripten in
       TEI-konformem XML zu bearbeiten, mit einem Text- und Sachapparat zu versehen und anschließend
@@ -19,5 +25,5 @@
       Auswahlliste mit dem jeweiligen Eintrag im zentralen Personen- bzw. Ortsregister verknüpft
       werden. Der gesamte Text kann dadurch einfach und schnell mit TEI-konformen XML ausgezeichnet
       werden.</p>
-  </conbody>
+ </conbody>
 </concept>

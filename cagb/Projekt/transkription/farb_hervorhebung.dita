@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ypq_rs5_ty">
+ <title>Farbige Hervorhebungen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Im Manuskript andersfarbig hervorgehobene Wörter oder Wortteile werden mit <![CDATA[<hi]]>
+   rend=“color(red)“/> (highlighted) ausgezeichnet. Im Attribut @rend wird color() notiert, wobei in
+   der Klammer die entsprechende Farbe angegeben
+   wird.<codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“color(red)“>durchdacht</hi>]]> habe</codeblock></p>
+ </conbody>
+</concept>

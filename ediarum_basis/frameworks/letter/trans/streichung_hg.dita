@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bhr_pgv_ty">
+ <title><image href="../../img/surplus16.gif" id="image_avn_jlf_cy"/>
+  <b>Streichungen durch den Herausgeber</b></title>
+ <conbody>
+  <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können durch den
+   Bearbeiter/Herausgeber im Element <codeph>&lt;choice></codeph> nach der Transkription als
+   überflüssig markiert werden. Die Textstelle, die gestrichen werden soll, wird dabei vom
+   Kind-Element <codeph>&lt;sic></codeph> umschlossen. Daran anschließend wird in einem weiteren
+   Kind-Element <codeph>&lt;corr></codeph> (correction) das Element als gestrichen
+   ausgezeichnet.<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
+  <p>
+   <?oxy_custom_end?>
+   <codeblock outputclass="language-xml"><![CDATA[<choice><sic>Schiller-Anstalt</sic><corr type="deleted"/></choice>]]></codeblock>
+  </p>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eeAllg.html" format="html"
+  scope="external"/></linklist>
+  
+ </related-links>
+</concept>

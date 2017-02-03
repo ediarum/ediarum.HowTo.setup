@@ -13,7 +13,7 @@
             <p>Auf Digitalisate können Sie mithilde des Elements <codeph>&lt;facsimile></codeph>
                 verweisen, indem sie dort im Kind-Element <codeph>&lt;graphic
                     url="http://bespielurl.com/image"></codeph> die entsprechende URL angeben.</p>
-            <codeblock><![CDATA[<facsimile>
+            <codeblock outputclass="language-xml"><![CDATA[<facsimile>
    <graphic url="http://bespielurl.com/image"/>
 </facsimile>]]></codeblock>
         </conbody>
@@ -24,7 +24,7 @@
             <p>Die Handschriftenbeschreibung wird im Element <codeph>&lt;physDesc></codeph>
                 (physical description) notiert. Hier können Sie in einem Kind-Element <codeph>&lt;p></codeph> Angaben
                 zu Papier, Format etc. des Briefs festhalten.</p>
-            <codeblock><![CDATA[<physDesc>
+            <codeblock outputclass="language-xml"><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
 </physDesc>]]></codeblock>
         </conbody>
@@ -36,7 +36,7 @@
                     <codeph>&lt;witness></codeph> (Zeuge) angeben. Den eigentlichen Nachweis
                 notieren Sie im Kind-Element <codeph>&lt;bibl></codeph>. Das Attribut @type gibt mit
                 dem Wert "print" an, dass es sich um einen Drucknachweis als Textzeugen handelt.</p>
-            <codeblock><![CDATA[<witness>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>
 </witness>]]></codeblock>
         </conbody>
@@ -53,7 +53,7 @@
                     (<codeph>&lt;institution></codeph>) angegeben werden. Optional können Sie noch
                 Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur (<codeph>&lt;idno
                     type="shelfmark"></codeph>) des Textzeugen angeben.</p>
-            <codeblock><![CDATA[<witness>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
    <msDesc type="copy">
       <msIdentifier>
          <institution>[aufbewahrende Institutuion]</institution>
@@ -105,7 +105,7 @@
                         </tbody>
                     </tgroup>
                 </table></p>
-            <codeblock><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+            <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ppb_bjn_my">
@@ -114,7 +114,7 @@
             <p>Die Textgrundlage, die Sie für Ihre Arbeit verwenden, markieren Sie, indem Sie das
                 entsprechende Element <codeph>&lt;wittness></codeph> auswählen und dort das Attribut
                 @select einfügen. Das Attribut hat immer denselben Wert.</p>
-            <codeblock><![CDATA[<witness select="#this">]]></codeblock>
+            <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ksp_cjn_my">
@@ -127,7 +127,7 @@
                     <codeph>&lt;persName></codeph> angelegt, in dem der Name des Autors notiert
                 wird. Wenn Sie aus einem Verzeichnis einen Autoren auswählen, wird im Attribut @key
                 die zugehörige ID generiert und ein Link angelegt.</p>
-            <codeblock><![CDATA[<profileDesc>
+            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
         <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>
         ...
@@ -139,10 +139,10 @@
         <title><b>Schreibort</b></title>
         <conbody>
             <p>Der Schreibort wird auch im Element <codeph>&lt;creation></codeph> angegeben. Dort
-                wird das Element <codeph>&lt;placeName> angelegt, in dem der Name des Ortes notiert
-                    wird.</codeph> Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
+                wird das Element <codeph>&lt;placeName></codeph> angelegt, in dem der Name des Ortes notiert
+                    wird. Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
                 Attribut @key die zugehörige ID generiert und ein Link angelegt.</p>
-            <codeblock><![CDATA[<profileDesc>
+            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>
        ...
@@ -162,12 +162,12 @@
                 bestimmten Zeiträumen). Außerdem wird in den Attribut @cert die Wahrescheinlichkeit
                 angegeben, mit der die Datumsangabe zutrifft: high, low. </p>
             <p>1. Genaues Datum</p>
-            <codeblock><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
+            <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
             <p>2. Genaue Zeitspanne</p>
-            <codeblock><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
+            <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
             <p>3. Ungefährer Zeitraum</p>
             <p>
-                <codeblock><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+                <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
             </p>
             <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
                 Schaltfläche zur Verfügung, die die Optionen „Genaues Datum" und „Ungefährer
@@ -265,7 +265,7 @@
                 </tgroup>
             </table>
             <p>Das Erstellungsdatm wird ebenfalls im <codeph>&lt;profileDesc></codeph> unter
-                    <codeph>&lt;creation></codeph> angegeben.<codeblock><![CDATA[<profileDesc>
+                    <codeph>&lt;creation></codeph> angegeben.<codeblock outputclass="language-xml"><![CDATA[<profileDesc>
    <creation>
       ...
       <date when="1874-12-23" cert="high"/> 
@@ -278,7 +278,7 @@
         <conbody>
             <p>Ein Regest wird in einem <codeph>&lt;abstract></codeph> notiert. Im Kind-Element
                     <codeph>&lt;p></codeph> wird der Regest notiert.</p>
-            <codeblock><![CDATA[<abstract>
+            <codeblock outputclass="language-xml"><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff]</p>
 </abstract>]]></codeblock>
         </conbody>
@@ -289,7 +289,7 @@
             <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem <codeph>&lt;notesStmt></codeph> (notes
                 statement) gemacht. Das Attribit @type="editorial" kennzeichnet, dass es sich um
                 eine Anmerkung des Herausgebers bzw. Bearbeiters
-                handelt.<codeblock><![CDATA[<notesStmt>
+                handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
    <note type="editorial">
       <p>[Anmerkung hier eingeben]</p>
    </note>
@@ -305,9 +305,9 @@
     <concept id="concept_vwj_sjn_my">
         <title><b>Horizontale Trennlinie</b></title>
         <conbody>
-            <p>Um eine typgraphische Absetzung im Manuskript zu transkribieren, können Sie mit einem
-                <codeph>&lt;milestone></codeph> eine horizontale Trennlinie einfügen.</p>
-            <codeblock><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
+            <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
+                    <codeph>&lt;milestone></codeph> transkribieren.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
         </conbody>
     </concept>
     <concept id="concept_ksd_5jn_my">
@@ -316,7 +316,7 @@
         <conbody>
             <?oxy_custom_end?>
             <p>Sie können in einem Regest (<codeph>&lt;abstract></codeph>) ein Zitat einfügen. Das Zitat wird in
-                einem &lt;quote> angegeben. <codeblock><![CDATA[<abstract>
+                einem &lt;quote> angegeben. <codeblock outputclass="language-xml"><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote>bald erhalten Sie ein Porträt</p>
 </abstract>]]></codeblock></p>
         </conbody>
@@ -327,7 +327,7 @@
             <p>Der Herausgeber wird im Element <codeph>&lt;editor></codeph> notiert. Die Angaben zur
                 Person werden im Kind-Element <codeph>&lt;persName></codeph> angegeben. Im Attribut
                 @ref kann eine Referenz in Form einer GND, VIAF oder URI gemacht werden.</p>
-            <codeblock><![CDATA[<editor>
+            <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>
@@ -338,13 +338,16 @@
                 Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird dabei in einem <codeph>&lt;note></codeph>
                 bezeichnet: Mitarbeit, Redaktionelle Mitarbeit, Transkription, Kommentar und
                 Register.</p>
-            <codeblock><![CDATA[<respStmt>
+            <codeblock outputclass="language-xml"><![CDATA[<respStmt>
    <persName ref="118763784">
       <surname>Unseld</surname>
       <forename>Siegfried</forename>
    </persName> 
    <resp><note type="remarkResponsibility">Mitarbeit</note></resp>
 </respStmt>]]></codeblock>
-        </conbody>
+        </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/mdRespStmt.html?hl=respstmt"
+            format="html" scope="external"/></linklist>           
+        </related-links>
     </concept>
+    
 </concept>

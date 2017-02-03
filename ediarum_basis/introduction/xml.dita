@@ -7,7 +7,7 @@
    „Extensible Markup Language“ und ist eine Auszeichnungssprache, mit der der Inhalt eines
    Dokumentes beschrieben werden kann. So können beispielsweise Absätze oder unterstrichene Wörter
    mit sog. Elementen markiert (ausgezeichnet) werden:</p>
-  <codeblock><![CDATA[<p>Dir werde ich ihn am liebsten bringen wenn er mehr bedarf als die
+  <codeblock outputclass="language-xml"><![CDATA[<p>Dir werde ich ihn am liebsten bringen wenn er mehr bedarf als die
 Mutter ihm sein kann u<i>nd</i> die schmerzhafte Trennung doch unvermeidlich
 ist.</p>]]></codeblock>
   <p>Im genannten Beispiel wird der Text von zwei p-Elementen umgeben, die den darin enthaltenen
@@ -20,7 +20,7 @@ ist.</p>]]></codeblock>
    entsprechenden Element transportieren. So könnte das öffnende p-Element aus dem obigen Beispiel
    mit einem Attribut versehen sein, das darüber informiert, dass der Absatz linksbündig gesetzt
    wird. Ein Beispiel:</p>
-  <codeblock><![CDATA[<p align="left">Dir werde ich ... unvermeidlich ist.</p>]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[<p align="left">Dir werde ich ... unvermeidlich ist.</p>]]></codeblock>
   <p>Zusammenfassend ergibt sich folgendes Bild eines XML-Elements:</p>
   <table id="table_iqh_c3k_qx">
    <tgroup cols="3">
@@ -35,9 +35,9 @@ ist.</p>]]></codeblock>
 
 
      <row>
-      <entry><codeblock><![CDATA[<p align="left">]]></codeblock></entry>
-      <entry><codeblock><![CDATA[Dir werde ich ... unvermeidlich ist.]]></codeblock></entry>
-      <entry><codeblock><![CDATA[</p>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<p align="left">]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[Dir werde ich ... unvermeidlich ist.]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[</p>]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>
@@ -74,9 +74,9 @@ ist.</p>]]></codeblock>
     </thead>
     <tbody>
      <row>
-      <entry><codeblock><![CDATA[<pb n=“17v“></pb>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n=“17v“></pb>]]></codeblock></entry>
 
-      <entry><codeblock><![CDATA[<pb n=“17v“/>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n=“17v“/>]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>

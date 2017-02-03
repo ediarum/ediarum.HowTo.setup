@@ -8,7 +8,7 @@
       <p>Die Adresszeile eines Briefes geben Sie im Element <codeph>&lt;addrLine></codeph> (address
         line) an. Die Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder
         am Briefende (<codeph>&lt;closer></codeph>) stehen.</p>
-      <codeblock><![CDATA[<opener>
+      <codeblock outputclass="language-xml"><![CDATA[<opener>
    <address>
       <addrLine>Berlin, Jägerstraße 12</addrLine>
    </address>
@@ -23,11 +23,14 @@
           <codeph>&lt;datline></codeph> gibt in ihrem Attribut @rend die Textaurichtung der
         Datumsangabe an. Im Element <codeph>&lt;salute></codeph> wird die Grußformel
         transkribiert.</p>
-      <codeblock><![CDATA[<opener>
+      <codeblock outputclass="language-xml"><![CDATA[<opener>
    <dateline rend="align(right)">4.Januar 1886</dateline>
    <salute>Lieber Mohr</salute>
 </opener>]]></codeblock>
-    </conbody>
+    </conbody><related-links><linklist scope="external"><title>Deutschtes Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brAllg.html" format="html"
+      scope="external"/></linklist>
+      
+    </related-links>
   </concept>
   <concept id="concept_lfy_nkn_my">
     <title>Neuer Schreibakt</title>
@@ -35,7 +38,7 @@
       <p>Der Brieftext wird mithilfe von <codeph>&lt;div></codeph> (division) in Sektionen
         unterteilt. Ein neues <codeph>&lt;div></codeph> markiert den Beginn eines neuen
         Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte im Attribut @n anzugeben.</p>
-      <codeblock><![CDATA[<div type="writingSession">
+      <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
 <div type="writingSession" n="2">
@@ -68,11 +71,14 @@
             </tbody>
           </tgroup>
         </table></p>
-      <codeblock><![CDATA[<closer rend="paragraph">
+      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
     <salute>Beste Grüße</salute>
    <signed>F.E.</signed>
 </closer>]]></codeblock>
-    </conbody>
+    </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brUnterbrCloser.html"
+      format="html" scope="external"/></linklist>
+      
+    </related-links>
   </concept>
   <concept id="concept_btn_qkn_my">
     <title>Datumszeile im Briefschluss</title>
@@ -80,7 +86,7 @@
       <p>Die Datumszeile am Briefende wird innerhalb des <codeph>&lt;closer></codeph> notiert. Sie wird dort
         dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter Grußformel und
         Unterschrift transkibiert werden.</p>
-      <codeblock><![CDATA[<closer rend="paragraph">
+      <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
    ...
 </closer>]]></codeblock>
@@ -91,9 +97,13 @@
     <conbody>
       <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument im Elment
           <codeph>&lt;postcript></codeph> notiert.</p>
-      <codeblock><![CDATA[<postscript>
+      <codeblock outputclass="language-xml"><![CDATA[<postscript>
    <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
 </postscript>]]></codeblock>
-    </conbody>
+    </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brPostscriptum.html"
+      format="html" scope="external"/></linklist>    
+    </related-links>
   </concept>
+  
+  
 </concept>

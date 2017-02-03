@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ztv_ycv_ty">
+ <title>Textauszeichnungen des Autors</title>
+ <conbody/>
+ 
+ <concept id="id_p2j_tdv_ty" conref="trans/absatz.dita#concept_uhs_j1v_ty">
+  <title/>
+ </concept>
+ <concept id="id_il2_nrx_5y" conref="trans/zeilenumbruch.dita#concept_w1l_n1v_ty">
+  <title/>
+ </concept>
+ <concept id="id_bq2_sdv_ty" conref="trans/listen.dita#concept_trq_t1v_ty">
+  <title/>
+ </concept>
+ <concept id="id_g51_rdv_ty" conref="trans/tabelle.dita#concept_abf_x1v_ty">
+  <title/>
+ </concept>
+ <concept id="id_lhm_qdv_ty" conref="trans/anmerkung_ms.dita#concept_dsx_1bv_ty">
+  <title/>
+ </concept>
+ <concept id="id_rk5_4dv_ty" conref="trans/zeichnung.dita#concept_upg_fbv_ty">
+  <title/>
+ </concept>
+ <concept id="id_k2n_kdv_ty" conref="trans/seitenwechsel.dita#concept_n4t_jbv_ty">
+  <title/>
+ </concept>
+ <concept id="id_g1x_jdv_ty" conref="trans/untersreichung.dita#concept_w4p_nbv_ty">
+  <title/>
+ </concept>
+ <concept id="id_gfv_3dv_ty" conref="trans/hochstellen.dita#concept_ckb_rbv_ty">
+  <title/>
+ </concept>
+ <concept id="id_brk_3dv_ty" conref="trans/streichungen.dita#concept_aw1_5bv_ty">
+  <title/>
+ </concept>
+ <concept id="id_mjq_hdv_ty" conref="trans/korrektur.dita#concept_tfw_wbv_ty">
+  <title/>
+ </concept>
+ <concept id="id_ghb_hdv_ty" conref="trans/ergaenzungen.dita#concept_okt_bcv_ty">
+  <title/>
+ </concept>
+ 
+</concept>

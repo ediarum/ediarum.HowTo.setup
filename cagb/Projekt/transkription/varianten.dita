@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_kfk_5w5_ty">
+ <title>Varianten</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Wenn sich eine Textstelle in den verschiedenen Textzeugen unterscheidet, können hiermit die
+   einzelnen Varianten festgehalten werden. Es stehen drei Möglichkeiten zur Auswahl:</p>
+  <ul id="ul_tmr_rds_2y">
+   <li>Variante zu Basistext: Der markierte Text wird mit dieser Aktion als Basistext
+    gekennzeichnet. Dazu wird eine Variante eingefügt, zu welcher in einem Auswahlfenster die
+    Textzeugen (aus den Metadaten) ausgewählt werden können. Bei Gedrückthalten der STRG-Taste
+    können auch mehrere Textzeugen ausgewählt
+    werden.<codeblock outputclass="language-xml"><![CDATA[<app>
+   <lem>ὥσπερ</lem>
+   <rdg wit="#Be1 #ekw_f2f_jx">ὥσπερ </rdg>
+</app>]]></codeblock></li>
+  </ul>
+  <p>
+   <ul>
+    <li>Variante hinzufügen: Der markierte Text wird als Abschnitt gekennzeichnet, zu dem weitere
+     Varianten existieren. Befindet sich der Cursor innerhalb eines schon als Variante
+     gekennzeichneten Abschnitts, wird hierzu eine weitere Variante hinzugefügt. In einem
+     Auswahlfenster können die Textzeugen (aus den Metadaten) ausgewählt werden. Bei Gedrückthalten
+     der STRG-Taste können auch mehrere Textzeugen ausgewählt
+     werden.<codeblock outputclass="language-xml"><![CDATA[<app>
+   <rdg wit="#L">ὑπονοήσειε</rdg>
+   <rdg wit="#Be2">ὑπονοήσει</rdg>
+</app>]]></codeblock></li>
+   </ul>
+  </p>
+  <p>Variante kommentieren: Hiermit wird innerhalb einer Variante ein Kommentar eingefügt, in
+   welchem Freitext möglich ist, um die Variante weiter zu spezifizieren. Es gibt schon
+   voreingestellt Vorschläge wie "om.", die aber bei Bedarf geändert werden können.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_unk_bw5_ty">
+ <title>Beschädigte Stellen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Eine beschädigte Stelle im Manuskript wird mit <![CDATA[<damage>]]> ausgezeichnet.</p>
+ </conbody>
+</concept>

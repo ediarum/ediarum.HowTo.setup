@@ -14,6 +14,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>ediarum_basis/ediarum_basis.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map WebHelp Responsive - Kopie</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>Handbuch_I_CAGB.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -103,7 +118,7 @@
                                             <String>tiles</String>
                                         </field>
                                         <field name="skinName">
-                                            <String>oxygen gray</String>
+                                            <String>light</String>
                                         </field>
                                         <field name="customSkinPath">
                                             <null/>
@@ -160,6 +175,29 @@
                                             </field>
                                             <field name="value">
                                                 <String>${pd}/custom.css</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.logo.image</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>

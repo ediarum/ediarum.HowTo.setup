@@ -29,7 +29,7 @@
    Schaltfläche benutzen. Die Erklärungen dienen zum einen dazu, dass Sie die Funktionen genauer
    kennenlernen und die Schaltflächen benutzen können. Zum anderen geben die Erklärungen einen
    Einblick in den <xref href="../../introduction/xml.dita">XML-Text</xref> des Dokuments.
-   Die Schaltflächen werden in der <xref href="../../operation/ansichten-ediarum.dita">Autoren-Ansicht</xref> verwendet. Die Markierungen, die Sie mithilfe der Schaltflächen
+   Die Schaltflächen werden in der <xref href="../../operation/ansichten.dita">Autoren-Ansicht</xref> verwendet. Die Markierungen, die Sie mithilfe der Schaltflächen
    vornehmen, speichert das eigentliche XML-Dokument in einem XML-Code, den Sie in der Text-Ansicht sehen können.</p>
  </conbody>
 </concept>

@@ -10,17 +10,17 @@
         <topicref href="introduction/tei.dita"/>
     </chapter>
     <chapter href="operation/ueberschrift.dita">
-        <topicref href="operation/ueberblick-ediarum.dita"/>
+        <topicref href="operation/ueberblick.dita"/>
         <topicref href="operation/dateibaum.dita"/>
         <topicref href="operation/ohne_werkzeugleiste.dita"/>
-        <topicref href="operation/ansichten-ediarum.dita"/>
+        <topicref href="operation/ansichten.dita"/>
         <topicref href="operation/suche.dita"/>
     </chapter>
     <chapter href="frameworks/letter/ueberschrift.dita">
         <topicref href="general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
         <topicref href="frameworks/letter/transkription.dita">
-            <topicref href="frameworks/letter/transkription-autor.dita"></topicref>
-            <topicref href="frameworks/letter/transkription-hg.dita"></topicref>
+            <topicref href="frameworks/letter/transkr_autor.dita"></topicref>
+            <topicref href="frameworks/letter/transkr_hg.dita"></topicref>
         </topicref>
         <topicref href="frameworks/letter/metaangaben_textspezifisch.dita">
             <topicref href="frameworks/letter/allgemein.dita"></topicref>

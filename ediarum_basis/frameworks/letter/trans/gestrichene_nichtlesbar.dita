@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_wt4_dgv_ty">
+ <title><image href="../../img/del_gap16.gif" id="image_ipc_d3f_2y"/>
+  <b>Durchgestrichene und nicht lesbare Wörter</b></title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Bei durchgestrichenen Wörtern, die nicht entziffert werden können umschließt das Element
+   <codeph>&lt;del/></codeph> das Element <codeph>&lt;gap/></codeph>.</p>
+  <codeblock outputclass="language-xml"><![CDATA[oft <del rend="durchgestrichen"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
+ </conbody>
+</concept>
