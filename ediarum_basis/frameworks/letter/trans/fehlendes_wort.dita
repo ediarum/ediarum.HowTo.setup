@@ -6,14 +6,14 @@
  <shortdesc></shortdesc>
  <conbody>
   <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
-   <codeph>&lt;supplied></codeph> ergänzt werden. Dabei drückt der Attributwert für @cert
+   <codeph>&lt;supplied></codeph>-Element ergänzt werden. Dabei drückt der Attributwert für <codeph>@cert</codeph>
    (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist:</p>
   <table id="table_hxd_thn_my">
    <tgroup cols="2">
     <thead>
      <row>
       <entry>Wahrscheinlichkeit</entry>
-      <entry>Wert für @cert</entry>
+      <entry>Wert für <codeph>@cert</codeph></entry>
      </row>
     </thead>
     <tbody>
@@ -31,6 +31,8 @@
   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html?hl=supplied"
-  format="html" scope="external"/></linklist>  
+    format="html" scope="external">
+  <linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des DTABf</linktext>
+   </link></linklist>  
  </related-links>
 </concept>

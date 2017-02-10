@@ -5,18 +5,18 @@
   <concept id="concept_fgl_bkn_my">
     <title><b>Angaben zum Sender und Empfänger</b></title>
     <conbody>
-      <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden in dem Element
-          <codeph>&lt;correspDesc></codeph> (correspondence description) angegeben. Dabei werden
-        alle Angaben zum Sender in einem <codeph>&lt;correspAction type="sent"></codeph>
-        (correspondence action) und alle Angaben zu einem Empfänger in einem
-          <codeph>&lt;correspAction type="received"></codeph> ausgezeichnet. Das Attribut @type gibt
-        dabei an, ob es sich um einen Sender (sent) oder einen Empfänger (received) handelt.<table
-          id="table_vzz_lfd_gy">
+      <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden im
+          <codeph>&lt;correspDesc></codeph>-Element (correspondence description) angegeben. Es wird
+        für den Sender und den Empfänger jeweils ein <codeph>&lt;correspAction></codeph>-Element
+        (correspondence action) angelegt. Das Attribut <codeph>@type</codeph> gibt dabei an ob sich
+        die Informationen auf den Sender oder den Empfänger beziehen.</p>
+      <p>
+        <table id="table_vzz_lfd_gy">
           <tgroup cols="2">
             <thead>
               <row>
                 <entry>Angaben zur Person</entry>
-                <entry>Wert für @correspAction</entry>
+                <entry>Wert für <codeph>@correspAction</codeph></entry>
               </row>
             </thead>
             <tbody>
@@ -30,20 +30,27 @@
               </row>
             </tbody>
           </tgroup>
-        </table></p>
+        </table>
+      </p>
       <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">[Angaben zum Sender]</correspAction>
    <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
-      <p>Die detailierten Angaben zu Sender werden innerhalb des <codeph>&lt;correspAction
-          type="sent"></codeph> gemacht. Sie können den Namen (<![CDATA[<persName>]]>), den
-        Schreibort (<codeph>&lt;placeName></codeph>) und das Schreibdatum
-          (<codeph>&lt;date></codeph>) angeben. So lassen sich auch die Angaben zum Empfänger, d.h.
-        Empfangsort und -datum machen.</p>
+      <p>Innerhalb des <codeph>&lt;correspAction></codeph>-Elements lassen sich drei Elemente
+        anlegen:</p>
+      <p>
+        <ul id="ul_tsk_jvt_vy">
+          <li><codeph>&lt;persName></codeph>: Name</li>
+          <li><codeph>&lt;placeName></codeph>: Ort</li>
+          <li><codeph>&lt;date></codeph>: Datum</li>
+        </ul>
+      </p>
+      <p>Diese Information können sowohl für den Sender als auch den Empfänger gemacht werden.</p>
       <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">
       <persName>Friedrich Engels</persName>
-      <placeName>Manchester</placeName><date when="1866-01-04"/>
+      <placeName>Manchester</placeName>
+      <date when="1866-01-04"/>
    </correspAction>
    <correspAction type="received">
       <persName>Karl Marx</persName>
@@ -55,12 +62,12 @@
   <concept id="concept_a4v_ckn_my">
     <title><b>Datierung</b></title>
     <conbody>
-      <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date></codeph> ausgezeichnet. Wichtig ist, dass die
-        Datumsangaben nochmals in einem bestimmten Format in den Attributen @when bzw. @from/@to und
-        @notBefore/@notAfter notiert werden. Dadurch kann der in der Datumsangabe enthaltene Wert
-        später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
-        Zeiträumen). Außerdem wird in den Attribut @cert die Wahrescheinlichkeit angegeben, mit der
-        die Datumsangabe zutrifft: high, low.</p>
+      <p>Datumsangaben werden mit einem <codeph>&lt;date></codeph>-Element ausgezeichnet. Wichtig
+        ist, dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen <codeph>@when</codeph> bzw.
+        <codeph>@from/@to</codeph> und <codeph>@notBefore/@notAfter</codeph> notiert werden. Dadurch kann der in der Datumsangabe
+        enthaltene Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche
+        in bestimmten Zeiträumen). Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit
+        angegeben, mit der die Datumsangabe zutrifft: high, low.</p>
       <p>1. Genaues Datum</p>
       <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
       <p>2. Genaue Zeitspanne</p>
@@ -77,9 +84,9 @@
   <concept id="concept_lfg_2kn_my">
     <title><b>Anmerkung zum Brief</b></title>
     <conbody>
-      <p>In <codeph>&lt;correspDesc></codeph> (correspondence description) können Sie auch mithilfe
-        des Elements <codeph>&lt;note></codeph> eine Anmerkung zum Brief und dessen Datierung
-        machen.</p>
+      <p>Im <codeph>&lt;correspDesc></codeph>-Element (correspondence description) können Sie auch
+        mithilfe des <codeph>&lt;note></codeph>-Elements eine Anmerkung zum Brief und dessen
+        Datierung machen.</p>
       <p>
         <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    ...
@@ -91,16 +98,16 @@
   <concept id="concept_qsr_gkn_my">
     <title><b>Korrespondentzusammenhang des Briefes</b></title>
     <conbody>
-      <p>Außerdem können Sie noch vor dem Element <codeph>&lt;note></codeph> einen
-        Korrespondenzkontext <codeph>&lt;correspContext></codeph> erstellen, in dem Sie auf
-        vorangehende bzw. nachfolgende Briefe verweisen können. Im Attribut @target wird der interne
-        Link des entsprechenden Briefs angegeben. Das Attribut @type gibt dabei an, ob es sich um
-        einen vorangehenden oder einen nachfolgenden Brief handelt.<table id="table_k4w_y2d_gy">
+      <p>Außerdem können Sie noch einen Korrespondenzkontext <codeph>&lt;correspContext></codeph>
+        erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen. Im Attribut
+        <codeph>@target</codeph> wird der interne Link des entsprechenden Briefs angegeben. Das Attribut <codeph>@type</codeph> gibt
+        dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief handelt.<table
+          id="table_k4w_y2d_gy">
           <tgroup cols="2">
             <thead>
               <row>
                 <entry>Korrespondierender Brief</entry>
-                <entry>Wert für @type</entry>
+                <entry>Wert für <codeph>@type</codeph></entry>
               </row>
             </thead>
             <tbody>

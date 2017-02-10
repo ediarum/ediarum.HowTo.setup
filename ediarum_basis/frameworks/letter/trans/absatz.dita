@@ -3,7 +3,7 @@
 <concept id="concept_uhs_j1v_ty">
  <title><image href="../../img/paragraph16.png" id="image_lcq_yhf_2y"/> Absatz</title>
  <conbody>
-  <p>Absätze werden mit <codeph>&lt;p></codeph> (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
+  <p>Absätze werden mit <codeph>&lt;p></codeph>-Element (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
    Arten eingefügt werden: </p>
   <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
    href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
@@ -12,6 +12,6 @@
    drückt.</p>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/absatz.html" format="html"
-  scope="external"/></linklist>  
+  scope="external"><linktext>Absatz – Dokumentation des DTABf</linktext></link></linklist>  
  </related-links>
 </concept>

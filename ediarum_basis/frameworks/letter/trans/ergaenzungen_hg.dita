@@ -5,9 +5,8 @@
   <b>Ergänzungen</b></title>
  <shortdesc></shortdesc>
  <conbody>
-  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden mit dem Element
-   <codeph>&lt;ex/></codeph> (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv
-   dargestellt.</p>
+  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden im <codeph>&lt;ex></codeph>-Element
+   (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
  </conbody>
 </concept>

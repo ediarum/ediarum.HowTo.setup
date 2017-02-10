@@ -4,22 +4,22 @@
  <title><image href="../../img/date16.gif" id="image_lxm_lnf_cy"/>
   <b>Datumsangaben </b></title>
  <conbody>
-  <p>Datumsangaben werden mit Hilfe von <codeph>&lt;date></codeph> angegeben. In Oxygen XML Author
-   steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung, die die
-   Optionen „Genaues Datum“, „Genaues Datum“ und „Ungefährer Zeitraum“ bietet.</p>
+  <p>Datumsangaben werden in einem <codeph>&lt;date></codeph>-Element angegeben. In Oxygen XML
+   Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung,
+   die die Optionen „Genaues Datum“, „Genaues Datum“ und „Ungefährer Zeitraum“ bietet.</p>
   <p>Wichtig ist, dass diese Datumsangaben nochmals in einem bestimmten Format notiert werden:
-   @when bzw. @from/@to und @notBefore/@notAfter . Dadurch kann der in der Datumsangabe enthaltene
+   <codeph>@when</codeph> bzw. <codeph>@from/@to</codeph> und <codeph>@notBefore/@notAfter</codeph>. Dadurch kann der in der Datumsangabe enthaltene
    Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
    Zeiträumen).</p>
-  <p>Außerdem wird in den Attribut @cert die Wahrescheinlichkeit angegeben, mit der die
-   Datumsangabe zutrifft: high, low. In dem Attribut @calendar wird notiert, ob sich die Angabe
+  <p>Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit angegeben, mit der die
+   Datumsangabe zutrifft: high, low. In dem Attribut <codeph>@calendar</codeph> wird notiert, ob sich die Angabe
    nach dem Julianischen Kalender oder dem Greogorianischen Kalender richtet: <table
     id="table_nmm_4bd_gy">
     <tgroup cols="2">
      <thead>
       <row>
        <entry>Kalender</entry>
-       <entry>Wert für @calendar</entry>
+       <entry>Wert für <codeph>@calendar</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -53,19 +53,19 @@
     <tbody>
      <row>
       <entry>18. Jh.</entry>
-      <entry>notBefore="1700" notAfter="1799"</entry>
+      <entry><codeph>notBefore="1700" notAfter="1799"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. Anfang</entry>
-      <entry>notBefore="1700" notAfter="1719"</entry>
+      <entry><codeph>notBefore="1700" notAfter="1719"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. Mitte</entry>
-      <entry>notBefore="1740" notAfter="1759"</entry>
+      <entry><codeph>notBefore="1740" notAfter="1759"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. Ende</entry>
-      <entry>notBefore="1780" notAfter="1799"</entry>
+      <entry><codeph>notBefore="1780" notAfter="1799"</codeph></entry>
      </row>
      <row>
       <entry/>
@@ -73,11 +73,11 @@
      </row>
      <row>
       <entry>18. Jh. 1. Hälfte</entry>
-      <entry>notBefore="1700" notAfter="1749"</entry>
+      <entry><codeph>notBefore="1700" notAfter="1749"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 2. Hälfte</entry>
-      <entry>notBefore="1750" notAfter="1799"</entry>
+      <entry><codeph>notBefore="1750" notAfter="1799"</codeph></entry>
      </row>
      <row>
       <entry/>
@@ -85,19 +85,19 @@
      </row>
      <row>
       <entry>18. Jh. 1. Viertel</entry>
-      <entry>notBefore="1700" notAfter="1724"</entry>
+      <entry><codeph>notBefore="1700" notAfter="1724"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 2. Viertel</entry>
-      <entry>notBefore="1725" notAfter="1749"</entry>
+      <entry><codeph>notBefore="1725" notAfter="1749"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 3. Viertel</entry>
-      <entry>notBefore="1750" notAfter="1774"</entry>
+      <entry><codeph>notBefore="1750" notAfter="1774"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 4. Viertel</entry>
-      <entry>notBefore="1775" notAfter="1799"</entry>
+      <entry><codeph>notBefore="1775" notAfter="1799"</codeph></entry>
      </row>
      <row>
       <entry/>
@@ -105,15 +105,15 @@
      </row>
      <row>
       <entry>18. Jh. 1. Drittel</entry>
-      <entry>notBefore="1700" notAfter="1733"</entry>
+      <entry><codeph>notBefore="1700" notAfter="1733"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 2. Drittel</entry>
-      <entry>notBefore="1733" notAfter="1766"</entry>
+      <entry><codeph>notBefore="1733" notAfter="1766"</codeph></entry>
      </row>
      <row>
       <entry>18. Jh. 3. Drittel</entry>
-      <entry>notBefore="1766" notAfter="1799"</entry>
+      <entry><codeph>notBefore="1766" notAfter="1799"</codeph></entry>
      </row>
      <row>
       <entry/>
@@ -121,15 +121,15 @@
      </row>
      <row>
       <entry>um 1762</entry>
-      <entry>notBefore="1757" notAfter="1767"</entry>
+      <entry><codeph>notBefore="1757" notAfter="1767"</codeph></entry>
      </row>
      <row>
       <entry>1762</entry>
-      <entry>when="1762"</entry>
+      <entry><codeph>when="1762"</codeph></entry>
      </row>
      <row>
       <entry>5. Januar 1762</entry>
-      <entry>when="1762-01-05"</entry>
+      <entry><codeph>when="1762-01-05"</codeph></entry>
      </row>
     </tbody>
    </tgroup>
@@ -146,11 +146,11 @@
     <tbody>
      <row>
       <entry>18. Jh. E. / 19. Jh. 1. H.</entry>
-      <entry>notBefore="1780" notAfter="1849"</entry>
+      <entry><codeph>notBefore="1780" notAfter="1849"</codeph></entry>
      </row>
      <row>
       <entry>1762/3</entry>
-      <entry>notBefore="1762" notAfter="1763"</entry>
+      <entry><codeph>notBefore="1762" notAfter="1763"</codeph></entry>
      </row>
     </tbody>
    </tgroup>

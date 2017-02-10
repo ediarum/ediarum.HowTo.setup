@@ -5,13 +5,13 @@
   <b>Nicht lesbare Zeichen</b></title>
  <conbody>
   <p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
-    <codeph>&lt;gap/></codeph> ausgezeichnet. Im Attribut @unit wird das nicht lesbare Segment näher
+   <codeph>&lt;gap/></codeph> ausgezeichnet. Im Attribut <codeph>@unit</codeph> wird das nicht lesbare Segment näher
    bestimmt: <table id="table_owv_gqs_2y">
     <tgroup cols="2">
      <thead>
       <row>
-       <entry>Nicht lesebares Element</entry>
-       <entry>Wert für @unit</entry>
+       <entry>Nicht lesebares Segment</entry>
+       <entry>Wert für <codeph>@unit</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -34,13 +34,13 @@
      </tbody>
     </tgroup>
    </table></p>
-  <p>Im Attribut @quantity wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc. notiert. Das
-   Attribut @reason gibt den Grund der Unleserlichkeit an:<table id="table_efs_mqs_2y">
+  <p>Im Attribut <codeph>@quantity</codeph> wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc. notiert. Das
+   Attribut <codeph>@reason</codeph> gibt den Grund der Unleserlichkeit an:<table id="table_efs_mqs_2y">
     <tgroup cols="2">
      <thead>
       <row>
        <entry>Grund der Unleserlichkeit</entry>
-       <entry>Wert für @reason</entry>
+       <entry>Wert für <codeph>@reason</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -65,6 +65,6 @@
    </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html" format="html"
-  scope="external"/></linklist> 
+  scope="external"><linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des DTABf</linktext></link></linklist> 
  </related-links>
 </concept>

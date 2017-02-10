@@ -16,21 +16,21 @@
      <?oxy_custom_start type="oxy_content_highlight" color="255,60,255"?>….…..<?oxy_custom_end?></li>
    </ul>
   </p>
-  <p> Das Attribut @key wird je nach der Auswahl eines Registereintrages automatisch besetzt..</p>
+  <p> Das Attribut <codeph>@key</codeph> wird je nach der Auswahl eines Registereintrages automatisch besetzt..</p>
   <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
 der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
   <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein <codeph>&lt;bibl></codeph>, in dem
-   Sie auf einen Eintrag in der Zotero-Datenbank verweisen. Das Attribut @samAs wird danach
+   Sie auf einen Eintrag in der Zotero-Datenbank verweisen. Das Attribut <codeph>@samAs</codeph> wird danach
    entsprechend besetzt. </p>
   <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-604880-PKBIAVCI">folgen</bibl>]]></codeblock>
   <p>Wenn auf ein früheres Element im Text zurückgewiesen wird, kann dies mit einem <codeph>&lt;rs></codeph>
-   entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren @type
+   entschlüsselt werden. Die Textstelle wird als Anapher ausgezeichnet und nach ihren <codeph>@type</codeph>
    bestimmt: <table id="table_krh_ncd_gy">
     <tgroup cols="2">
      <thead>
       <row>
        <entry>Bezug auf</entry>
-       <entry>Wert für @type</entry>
+       <entry>Wert für <codeph>@type</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -52,8 +52,8 @@ der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codebloc
   <codeblock outputclass="language-xml"><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
 Ich höre nur Beschwerden von<rs type="person">ihm</rs>]]></codeblock>
  </conbody>
- <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eigenname.html?hl=placename"
-  format="html" scope="external"/></linklist> 
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eigenname.html?"
+  format="html" scope="external"><linktext>Eigennamen – Dokumentation des DTABf</linktext></link></linklist> 
  </related-links>
 </concept>
 

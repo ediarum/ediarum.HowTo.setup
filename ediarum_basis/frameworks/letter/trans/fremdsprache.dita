@@ -5,8 +5,8 @@
   <b>Fremdsprachliche Textstellen</b>
  </title>
  <conbody>
-  <p>Fremdsprachliche Textstellen können mit dem Element <codeph>&lt;foreign></codeph>
-   ausgezeichnet werden. Im Attribut @xml:lang wird ein Kürzel der jeweiligen Fremdsprache
+  <p>Fremdsprachliche Textstellen können mit in einem <codeph>&lt;foreign></codeph>-Element
+   ausgezeichnet werden. Im Attribut <codeph>@xml:lang</codeph> wird ein Kürzel der jeweiligen Fremdsprache
    angegeben:</p>
   <p>
    <table id="table_rvw_1ts_2y">
@@ -14,7 +14,7 @@
      <thead>
       <row>
        <entry>Fremdsprache</entry>
-       <entry>Wert für @fm</entry>
+       <entry>Wert für <codeph>@xml:lang</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -57,6 +57,6 @@
   <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title> <link href="http://www.deutschestextarchiv.de/doku/basisformat/fremdsprachlMaterial.html"
-  format="html" scope="external"/></linklist> 
+  format="html" scope="external"><linktext>Fremdsprachliches Material – Dokumentation des DTABf</linktext></link></linklist> 
  </related-links>
 </concept>

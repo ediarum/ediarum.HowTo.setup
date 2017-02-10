@@ -10,8 +10,8 @@
    verwendet, die von der „Text Encoding Initiative“ bereitgestellt wurde. Letztere arbeitet seit
    1987 an diesen Richtlinien, die Elemente bereitstellen, mit denen u.a. Manuskripte ausgezeichnet
    bzw. beschrieben werden können. Die TEI ist also eine speziell für geisteswissenschaftliche
-   Forschungsprojekte entwickelte Auszeichnungssprache. Anstelle von bestimmten Formatierungen und
-   Kürzeln benutzt man entsprechende Elemente. Beispiele:</p>
+   Forschungsprojekte entwickelte Auszeichnungssprache. Anstelle bestimmter Formatierungen und
+   Kürzel benutzt man entsprechende Elemente. Beispiele:</p>
   <table>
    <tgroup cols="2">
 
@@ -96,7 +96,7 @@
   <linklist scope="external">
    <title>Deutsches Textarchiv</title>
    <link href="http://www.deutschestextarchiv.de/doku/basisformat/grundstrukturDokument.html?hl=xml"
-    format="html" scope="external"/></linklist>
+    format="html" scope="external"><linktext>Grundstruktur jedes TEI-Dokuments – Dokumentation des DTABf</linktext></link></linklist>
   
   
  </related-links>

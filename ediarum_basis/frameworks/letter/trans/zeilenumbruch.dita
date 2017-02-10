@@ -4,10 +4,10 @@
  <title><image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> Zeilenumbruch</title>
  <conbody>
   <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
-   Element <codeph>&lt;lb/></codeph> (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
+    <codeph>&lt;lb/></codeph>-Element (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
    kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
   <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs
-   markieren, ob ein Trennstrich verwendet wurde. Im Attribut @break wird der entsprechende Wert
+   markieren, ob ein Trennstrich verwendet wurde. Im Attribut <codeph>@break</codeph> wird der entsprechende Wert
    festgelegt.</p>
   <p>
    <table id="table_ygv_f4c_gy">
@@ -15,7 +15,7 @@
      <thead>
       <row>
        <entry>Zeilenumbruch innerhalb eines Wortes</entry>
-       <entry>Wert für @break</entry>
+       <entry>Wert für <codeph>@break</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -38,6 +38,6 @@
  </conbody>
  <related-links>
   <linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/lbAllg.html" format="html"
-   scope="external"/></linklist>
+   scope="external"><linktext>Grundstruktur der Kodierung von Zeilenumbrüchen – Dokumentation des DTABf</linktext></link></linklist>
  </related-links>
 </concept>

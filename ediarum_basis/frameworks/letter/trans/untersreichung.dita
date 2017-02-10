@@ -2,16 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_w4p_nbv_ty">
  <title><image href="../../img/underlined16.png" id="image_qcq_yhf_2y"/> Unterstreichung</title>
- <shortdesc></shortdesc>
+
  <conbody>
-  <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem Element <codeph>&lt;hi
-   rendition="#u"/></codeph> (highlighted) ausgezeichnet. Im Attribut @rendition wird notiert, um
-   was für eine Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
+  <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem
+   <codeph>&lt;hi></codeph>-Element (highlighted) ausgezeichnet. Im Attribut @rendition wird
+   notiert, um was für eine Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
     <tgroup cols="2">
      <thead>
       <row>
        <entry>Art der Unterstreichung</entry>
-       <entry>Wert für @rendition</entry>
+       <entry>Wert für <codeph>@rendition</codeph></entry>
       </row>
      </thead>
      <tbody>
@@ -33,7 +33,7 @@
   <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"
-  format="html" scope="external"/></linklist>
+  format="html" scope="external"><linktext>Richtlinien zur Kodierung typographischer Besonderheiten – Dokumentation des DTABf</linktext></link></linklist>
   
  </related-links>
 </concept>

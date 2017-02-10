@@ -3,11 +3,11 @@
 <concept id="concept_mtm_w12_vw">
  <title>Zentrale Datenhaltung</title>
  <conbody>
-    <p>Die digitale Arbeitsumgebung nutzt die XML-Datenbank "existdb" als zentrales Repositorium für
+    <p>Die digitale Arbeitsumgebung nutzt die XML-Datenbank „existdb“ als zentrales Repositorium für
       die XML-Dokumente. Die Datenbank ist auf einem Server installiert und online zugänglich.
       Dadurch können alle Projektmitarbeiter/-innen auf ein und denselben Datenbestand zugreifen und
-      zusammenarbeiten. Im Normalfall sollte die Arbeit immer direkt in der Datenbank erfolgen. Im Bedarfsfall können
-      aber auch Dateien zuerst lokal angelegt bzw. bearbeitet werden und anschließend in die
-      Datenbank hochgeladen werden.</p>
+      zusammenarbeiten. Im Normalfall sollte die Arbeit immer direkt in der Datenbank erfolgen. Im
+      Bedarfsfall können aber auch Dateien zuerst lokal angelegt bzw. bearbeitet werden und
+      anschließend in die Datenbank hochgeladen werden.</p>
  </conbody>
 </concept>

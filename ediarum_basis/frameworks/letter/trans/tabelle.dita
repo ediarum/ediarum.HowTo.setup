@@ -2,18 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_abf_x1v_ty">
  <title><image href="../../img/table.jpg"/> Tabellen</title>
- <shortdesc></shortdesc>
  <conbody>
-  <p>Tabellen im Manuskript werden mit <codeph>&lt;table></codeph> (Tabelle) ausgezeichnet. Über die Schaltfläche
-   lassen sich Tabellen erstellen und bearbeiten. So lassen sich weitere Zeilen und Spalten
-   hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen, erscheint ein Fenster, in dem Sie die
-   Anzahl der Zeilen (rows) und Spalten (columns) angeben können. Mit der Schaltfläche kann die
-   Tabelle jederzeit noch nachträglich verändert werden. </p>
+  <p>Tabellen im Manuskript werden mit dem <codeph>&lt;table></codeph>-Element (Tabelle)
+   ausgezeichnet. Über die Schaltfläche lassen sich Tabellen erstellen und bearbeiten. So lassen
+   sich weitere Zeilen und Spalten hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen,
+   erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten (columns) angeben
+   können. Mit der Schaltfläche kann die Tabelle jederzeit noch nachträglich verändert werden. </p>
   <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
-   Häkchen auf "generate_table-header". Der ersten Zeile (row) der Tabelle wird dann die Rolle der
-   Beschriftung zugewiesen
-   (@role="label").<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
-  <?oxy_custom_end?>
+   Häkchen auf „ generate_table-header“. Der ersten Zeile (row) der Tabelle wird dann die Rolle der
+   Beschriftung zugewiesen:
+   <codeph>@role="label"</codeph>.</p>
   <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
    <head>Tabelle</head>
    <row role="label">
@@ -28,9 +26,9 @@
 </table>]]></codeblock>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/tabAllg.html" format="html"
-  scope="external"/>
+  scope="external"><linktext>Grundstruktur der Kodierung von Tabellen – Dokumentation des DTABf</linktext></link>
   <link href="http://www.deutschestextarchiv.de/doku/basisformat/labels.html" format="html"
-   scope="external"/></linklist>
+   scope="external"><linktext>Zeilen- und Spaltenbenennungen – Dokumentation des DTABf</linktext></link></linklist>
   
  </related-links>
 </concept>

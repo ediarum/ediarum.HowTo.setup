@@ -4,10 +4,10 @@
  <title>
   <image href="../../img/index16.gif" id="image_sgh_kbd_gy"/><b> Textstellen indizieren</b></title>
  <conbody>
-  <p>Sie können Textstellen mit einem <codeph>&lt;index></codeph> umgeben, um auf einen Index-Eintrag zu verweisen.
-   Das Attribut @spanTo wird automatisch eingetragen, wenn Sie aus der Liste der verfügbaren
-   Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich um einen Verweis in
-   den Personen-Index (persons), Ort-Index (places) oder
+  <p>Sie können Textstellen mit einem <codeph>&lt;index></codeph>-Element umgeben, um auf einen
+   Index-Eintrag zu verweisen. Das Attribut <codeph>@spanTo</codeph> wird automatisch eingetragen, wenn Sie aus der
+   Liste der verfügbaren Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich
+   um einen Verweis in den Personen-Index (persons), Ort-Index (places) oder
    Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
    <?oxy_custom_end?>handelt.</p>
   <codeblock outputclass="language-xml"><![CDATA[<index spanTo="#ixkh_ysf_cy" indexName="persons" corresp="pdrPo.001.004.000000520">
