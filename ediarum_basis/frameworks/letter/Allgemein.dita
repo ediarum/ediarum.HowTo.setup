@@ -3,9 +3,14 @@
 <concept id="concept_wmx_vlh_dy">
     <title>Allgemeine Metadaten</title>
     <concept id="concept_sp4_r3n_my">
-        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>URI der
-                Archivalie</b><?oxy_custom_end?></title>
-        <conbody/>
+        <title><b>URI der Archivalie</b></title>
+        <conbody>
+            <p>Sie können mittels einer URI auf eine Kalliope-Seite hinweise. Dafür wird ein
+                    <codeph>&lt;idno></codeph>-Element angelegt. Das Attribut <codeph>@type</codeph>
+                zeigt an, dass im <codeph>&lt;idno></codeph>-Element eine URI, d.h. ein Link,
+                notiert
+                wird.<codeblock>&lt;idno type="uri">http://www.kalliope.org/en/digt.pl?longdid=oehlenschlaeger2001052914&lt;/idno></codeblock></p>
+        </conbody>
     </concept>
     <concept id="concept_sf5_s3n_my">
         <title><b>Digitalisate</b></title>
@@ -35,8 +40,9 @@
         <conbody>
             <p>Einen Drucknachweis als Textzeugen können Sie im
                 <codeph>&lt;witness></codeph>-Element (Zeuge) angeben. Den eigentlichen Nachweis
-                notieren Sie im  <codeph>&lt;bibl></codeph>-Element. Das Attribut <codeph>@type</codeph> gibt mit dem
-                Wert "print" an, dass es sich um einen Drucknachweis als Textzeugen handelt.</p>
+                notieren Sie im <codeph>&lt;bibl></codeph>-Element. Das Attribut
+                    <codeph>@type</codeph> gibt mit dem Wert "print" an, dass der Textzeuge ein
+                Drucknachweis ist.</p>
             <codeblock outputclass="language-xml"><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>
 </witness>]]></codeblock>

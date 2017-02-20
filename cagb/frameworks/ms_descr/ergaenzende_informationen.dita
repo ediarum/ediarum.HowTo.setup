@@ -18,13 +18,13 @@
 </adminInfo>]]>
      </codeblock>
     <p><b>Bibliographie</b></p>
-    <p>Die Bibliographie zur Handschriftenbeschreibung wird in einer Liste (<![CDATA[<listBibl/>]]>) mit Unterlisten
-      (ebenfalls <![CDATA[<listBibl/>]]>) notiert, die selbst ggf. auch nochmal Unterlisten enthalten
+    <p>Die Bibliographie zur Handschriftenbeschreibung wird in einer Liste (<codeph>&lt;listBibl/></codeph>) mit Unterlisten
+      (ebenfalls <codeph>&lt;listBibl/></codeph>) notiert, die selbst ggf. auch nochmal Unterlisten enthalten
       können. Zu beachten ist, dass die vier oberen Unterlisten Kataloge (Kat.), Kodikologie
       (Kod.), Faksimile (Faks.) und Text jeweils ihren Typ im Attribut @type sowie in einem
-      zusätzlich <![CDATA[<head> ]]>notiert haben.
+      zusätzlich <codeph>&lt;head></codeph> notiert haben.
     </p>
-    <p>Die eigentlichen Publikationsangaben werden jeweils in einem <![CDATA[<bibl/>]]> notiert.</p>
+    <p>Die eigentlichen Publikationsangaben werden jeweils in einem <codeph>&lt;bibl/></codeph> notiert.</p>
     <codeblock outputclass="language-xml"><![CDATA[<listBibl>
    <listBibl type=“kat“>
       <head>Kat.</head>

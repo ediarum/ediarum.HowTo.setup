@@ -1,58 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<?xml-stylesheet type="text/css" href="handbuch.css"?>
 <bookmap>
     <booktitle>
         <mainbooktitle>Handbuch für CAGB</mainbooktitle>
     </booktitle>
-    <bookmeta>
-        <authorinformation>
-            <organizationinfo>
-                <namedetails>
-                    <organizationnamedetails>
-                        <organizationname>Berlin-Brandenburgische Akademie der
-                            Wissenschaften</organizationname>
-                        <otherinfo>TELOTA-Arbeitsgruppe</otherinfo>
-                    </organizationnamedetails>
-                </namedetails>
-                <addressdetails><text>Jägerstraße 22–23</text><locality>10117
-                    Berlin</locality></addressdetails>
-                <emailaddresses>
-                    <emailaddress>telota@bbaw.de</emailaddress>
-                </emailaddresses>
-                <urls>
-                    <url>out/xhtml/index.html</url>
-                </urls>
-            </organizationinfo>
-        </authorinformation>
-        <publisherinformation>
-            <published>
-                <data>Nur für den internen Gebrauch. Stand: 07.12.2016</data>
-            </published>
-        </publisherinformation>
-    </bookmeta>
     <frontmatter>
         <booklists>
             <toc/>
         </booklists>
     </frontmatter>
-    <part href="cagb/Projekt/UeberschriftI.dita">
-        <chapter href="cagb/Projekt/ueberschrift_cagb.dita">
+    <part href="cagb/general/ueberschrift_i.dita">
+        <chapter href="cagb/introduction/ueberschrift_cagb.dita">
             <topicref href="ediarum_basis/introduction/datenhaltung.dita"/>
             <topicref href="ediarum_basis/introduction/xml.dita"/>
             <topicref href="ediarum_basis/introduction/tei.dita"/>
         </chapter>
         <chapter href="ediarum_basis/operation/ueberschrift.dita">
-            <topicref href="cagb/Projekt/ueberblick.dita"/>
+            <topicref href="cagb/operation/ueberblick.dita"/>
             <topicref href="ediarum_basis/operation/dateibaum.dita"/>
-            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
-            <topicref href="cagb/Projekt/werkzeugleiste_spezifisch.dita"/>
+            <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita"/>
+            <topicref href="cagb/operation/werkzeugleiste_spezifisch.dita"/>
             <topicref href="ediarum_basis/operation/ohne_werkzeugleiste.dita"/>
             <topicref href="ediarum_basis/operation/ansichten.dita"/>
             <topicref href="ediarum_basis/operation/suche.dita"/>
         </chapter>
     </part>
-    <part href="cagb/Projekt/UeberschriftII.dita">
+    <part href="cagb/general/ueberschrift_ii.dita">
         <chapter href="cagb/frameworks/ms_desc.dita">
             <topicref href="cagb/frameworks/ms_descr/oberflaeche_zur_handschriftenbeschreibung.dita"/>
             <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"
@@ -66,8 +39,8 @@
                 <topicref href="cagb/frameworks/ms_descr/notizfelder.dita"/>
             </topicref>
             <topicref href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_transkription.dita">
-                <topicref href="cagb/Projekt/transkr_autor_cagb.dita"/>
-                <topicref href="cagb/Projekt/transkr_hg_cagb.dita"/> 
+                <topicref href="cagb/frameworks/texte/transkr_autor_cagb.dita"/>
+                <topicref href="cagb/frameworks/texte/transkr_hg_cagb.dita"/> 
             </topicref>
             <topicref
                 href="cagb/frameworks/ms_descr/werkzeugleiste_fuer_allgemeine_auszeichnungen.dita">
@@ -84,8 +57,8 @@
             <topicref href="cagb/frameworks/texte/metadaten.dita"/>
             <topicref href="cagb/frameworks/texte/scholien.dita"/>
             <topicref href="cagb/frameworks/texte/werke_und_kleintexte.dita"/>
-            <topicref href="cagb/Projekt/transkr_autor_cagb.dita" copy-to="cagb/Projekt/texte_transkr_autor_cagb.dita"/>
-            <topicref href="cagb/Projekt/transkr_hg_cagb.dita" copy-to="cagb/Projekt/texte_transkr_hg_cagb.dita"/> 
+            <topicref href="cagb/frameworks/texte/transkr_autor_cagb.dita" copy-to="cagb/texte_transkr_autor_cagb.dita"/>
+            <topicref href="cagb/frameworks/texte/transkr_hg_cagb.dita" copy-to="cagb/texte_transkr_hg_cagb.dita"/> 
             <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
         </chapter>
         <chapter href="cagb/frameworks/persons.dita">
@@ -101,23 +74,20 @@
             <topicref href="cagb/frameworks/bibl/elemente_eines_werkeintrags.dita"/>
         </chapter>
     </part>
-    <part href="cagb/Projekt/UeberschriftIII.dita">
-        <chapter href="cagb/Tipps_Tricks.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Tipps_Tricks.Kap/Allgemein.dita"/>
-            <topicref href="cagb/Tipps_Tricks.Kap/Transkriptionen.tipps.dita"/>
+    <part href="cagb/general/ueberschrift_iii.dita">
+        <chapter href="cagb/tipps/ueberschrift.dita">
+            <topicref href="cagb/tipps/allgemein.dita"/>
+            <topicref href="cagb/tipps/transkriptionen_tipps.dita"/>
         </chapter>
-        <chapter href="cagb/Website.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Website.Kap/website.suche.dita"/>
-            <topicref href="cagb/Website.Kap/Navigation.dita"/>
-            <topicref href="cagb/Website.Kap/website.suche.dita"/>
+        <chapter href="cagb/website/ueberschrift.dita">
+            <topicref href="cagb/website/website_suche.dita"/>
+            <topicref href="cagb/website/navigation.dita"/>
+            <topicref href="cagb/website/website_suche.dita"/>
         </chapter>
-        <chapter href="cagb/Installation.Kap/Ueberschrift.dita">
-            <topicref href="cagb/Installation.Kap/Install.dita"/>
-            <topicref href="cagb/Installation.Kap/Update_Arbeitsumgebung.dita"/>
-            <topicref href="cagb/Installation.Kap/upgrade.dita"/>
+        <chapter href="cagb/installation/ueberschrift.dita">
+            <topicref href="cagb/installation/install.dita"/>
+            <topicref href="cagb/installation/update_arbeitsumgebung.dita"/>
+            <topicref href="cagb/installation/upgrade.dita"/>
         </chapter>
     </part>
-    <backmatter>
-        <amendments/>
-    </backmatter>
 </bookmap>

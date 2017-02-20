@@ -4,67 +4,67 @@
  <title>Werkzeugleiste für Auszeichnungen</title>
  <shortdesc></shortdesc>
   <conbody>
-    <image href="../../../ediarum_basis/icons/sup.gif" id="image_iqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/occupation.gif" id="image_jqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/roleName.gif" id="image_kqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/placeName.gif" id="image_lqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/orgName.gif" id="image_mqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/date.gif" id="image_nqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/term20.png" id="image_oqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/persName.gif" id="image_pqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/name_bibl.gif" id="image_qqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/names.gif" id="image_rqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/ref_straighturl.png" id="image_sqf_hst_2y"/>
-    <image href="../../../ediarum_basis/icons/seg-note.gif" id="image_tqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/sup.gif" id="image_iqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/occupation.gif" id="image_jqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/roleName.gif" id="image_kqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/placeName.gif" id="image_lqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/orgName.gif" id="image_mqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/date.gif" id="image_nqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/term20.png" id="image_oqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/persName.gif" id="image_pqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/name_bibl.gif" id="image_qqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/names.gif" id="image_rqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/ref_straighturl.png" id="image_sqf_hst_2y"/>
+    <image href="../../../ediarum_basis/frameworks/img/seg-note.gif" id="image_tqf_hst_2y"/>
   </conbody>
   <concept id="concept_ltb_ttt_2y">
-    <title><image href="../../../ediarum_basis/icons/sup16.gif" id="image_uqf_hst_2y"/> Zeichen
+    <title><image href="../../../ediarum_basis/frameworks/img/sup16.gif" id="image_uqf_hst_2y"/> Zeichen
       hochstellen</title>
     <conbody>
       <p>Es kann neuer Text hochgestellt werden, sowie bereits vorhandener, selektierter Text.
-        Hochgestellte Texte werden mit <![CDATA[<sup/>]]> umschlossen.</p>
+        Hochgestellte Texte werden mit <codeph>&lt;sup/></codeph> umschlossen.</p>
       <p>Beispiel:
         <codeblock outputclass="language-xml"><![CDATA[a<sup>2</sup>+ b<sup>2</sup> = c<sup>2</sup>]]></codeblock></p>
     </conbody>
   </concept>
   <concept id="concept_tcq_rtt_2y">
-    <title><image href="../../../ediarum_basis/icons/occupation16.gif" id="image_vqf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/occupation16.gif" id="image_vqf_hst_2y"/>
       Tätigkeit /  Beruf auszeichnen</title>
     <conbody>
-      <p>Neue Tätigkeiten/ Berufe werden mit <![CDATA[<occupation/>]]> ausgezeichnet.</p>
+      <p>Neue Tätigkeiten/ Berufe werden mit <codeph>&lt;occupation/></codeph> ausgezeichnet.</p>
       <p>Beispiel:
         <codeblock outputclass="language-xml"><![CDATA[<occupation>Schneider</occupation>]]></codeblock></p>
     </conbody>
   </concept>
   <concept id="concept_tjg_qtt_2y">
-    <title><image href="../../../ediarum_basis/icons/roleName.gif" id="image_wqf_hst_2y"/> Titel /
+    <title><image href="../../../ediarum_basis/frameworks/img/roleName.gif" id="image_wqf_hst_2y"/> Titel /
       Bezeichnug auszeichnen</title>
     <conbody>
-      <p>Titel und Bezeichnugen werden mit <![CDATA[<roleName/>]]> umschlossen.</p>
+      <p>Titel und Bezeichnugen werden mit <codeph>&lt;roleName/></codeph> umschlossen.</p>
       <p>Beispiel:
         <codeblock outputclass="language-xml"><![CDATA[<roleName>Herzog</roleName>]]></codeblock></p>
     </conbody>
   </concept>
   <concept id="concept_rch_4tt_2y">
-    <title><image href="../../../ediarum_basis/icons/placeName.gif" id="image_xqf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/placeName.gif" id="image_xqf_hst_2y"/>
       Ortsname</title>
     <conbody>
-      <p>Ein Orstname wird mit einem <![CDATA[<placeName/>]]> ausgezeichnet.</p>
+      <p>Ein Orstname wird mit einem <codeph>&lt;placeName/></codeph> ausgezeichnet.</p>
       <p>Beispiel:
         <codeblock outputclass="language-xml"><![CDATA[<placeName>Berlin</placeName>]]></codeblock></p>
     </conbody>
   </concept>
   <concept id="concept_c3m_ltt_2y">
-    <title><image href="../../../ediarum_basis/icons/orgName.gif" id="image_yqf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/orgName.gif" id="image_yqf_hst_2y"/>
       Institution</title>
     <conbody>
-      <p>Organisationen werden mit <![CDATA[<orgName/>]]> ausgezeichnet.</p>
+      <p>Organisationen werden mit <codeph>&lt;orgName/></codeph> ausgezeichnet.</p>
       <p>Beispiel:
         <codeblock outputclass="language-xml"><![CDATA[<orgName>FU Belrin</orgName>]]></codeblock></p>
     </conbody>
   </concept>
   <concept id="concept_n3w_jtt_2y">
-    <title><image href="../../../ediarum_basis/icons/date.gif" id="image_zqf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/date.gif" id="image_zqf_hst_2y"/>
       Lebensdaten</title>
     <conbody>
       <p>Datumsangaben werden mit <![CDATA[date/>]]> ausgezeichnet. Es handeln sich dabei stets um
@@ -77,7 +77,7 @@
     </conbody>
   </concept>
   <concept id="concept_odr_gtt_2y">
-    <title><image href="../../../ediarum_basis/icons/term20.png" id="image_arf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/term20.png" id="image_arf_hst_2y"/>
       Sachbegriffe auszeichnen / verknüpfen</title>
     <conbody>
       <p>Ein Sachbegriff kann mit einem <![CDATA[<term/>]]> ausgezeichnet werden. Dabei wird auf
@@ -91,7 +91,7 @@
     </conbody>
   </concept>
   <concept id="concept_hrm_2tt_2y">
-    <title><image href="../../../ediarum_basis/icons/persName.gif" id="image_crf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/persName.gif" id="image_crf_hst_2y"/>
       Personennamen auszeichnen/verküpfen</title>
     <conbody>
       <p>Ein Personenname wird mit <![CDATA[<persName/>]]> ausgezeichnet. Dabei entspricht das @ref
@@ -104,7 +104,7 @@
     </conbody>
   </concept>
   <concept id="concept_nm3_wst_2y">
-    <title><image href="../../../ediarum_basis/icons/name_bibl.gif" id="image_erf_hst_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/name_bibl.gif" id="image_erf_hst_2y"/>
       Vorhandene Werke verknüpfen</title>
     <conbody>
       <p>Werke im Text können mit, in der Datenbank, vorhandenen Werke verknüpft werden. Diese
@@ -121,7 +121,7 @@
     <title/>
   </concept>
   <concept id="concept_qst_ggl_2y">
-    <title><image href="../../../ediarum_basis/icons/ref_straighturl.png" id="image_zf2_3gl_2y"/>
+    <title><image href="../../../ediarum_basis/frameworks/img/ref_straighturl.png" id="image_zf2_3gl_2y"/>
       Links</title>
     <conbody>
       <p>Es gibt 3 verschiedene Verlinkungsmöglichkeiten, von der jede mit <![CDATA[<ref/>]]>
@@ -145,7 +145,7 @@
     </conbody>
   </concept>
   <concept id="concept_thp_kgl_2y">
-    <title><image href="../../../ediarum_basis/icons/seg-note.gif" id="image_dcb_mgl_2y"/> Anmerkung
+    <title><image href="../../../ediarum_basis/frameworks/img/seg-note.gif" id="image_dcb_mgl_2y"/> Anmerkung
       wissenschaftlicher Arbeiter</title>
     <conbody>
       <p>Jegliche Anmerkungen wissenschaftlicher Bearbeiter, werden mit <![CDATA[<note/>]]>

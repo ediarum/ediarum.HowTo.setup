@@ -5,14 +5,13 @@
  <shortdesc></shortdesc>
  <conbody>
   <p>Es ist auch möglich den Bearbeitungsstatus jeder einzelnen Transkription zu kennzeichnen:
-entweder Entwurf („draft“) oder fertig bearbeitet („final“). Dafür wird dem entsprechenden
-<![CDATA[<div/>]]> das Attribut @status hinzugefügt:</p>
+      entweder Entwurf („draft“) oder fertig bearbeitet („final“). Dafür wird dem entsprechenden
+        <codeph>&lt;div></codeph> das Attribut @status hinzugefügt:</p>
   <codeblock outputclass="language-xml"><![CDATA[<div type=“fragment“ status=“draft“>
    <p> ... </p>
 </div>]]></codeblock>
-  <p>Dafür steht im Oxygen XML Author eine entsprechende Schaltfläche zur Verfügung.
-   Der Cursor muss sich dafür innerhalb einer Transkription befinden.
-   </p><p>Entsprechend gekennzeichnete Transkriptionen werden oben grün („final“) bzw. rot
-   („draft“) gekennzeichnet</p>
+  <p>Dafür steht im Oxygen XML Author eine entsprechende Schaltfläche zur Verfügung. Der Cursor muss
+      sich dafür innerhalb einer Transkription befinden. Entsprechend gekennzeichnete
+      Transkriptionen werden oben grün („final“) bzw. rot („draft“) gekennzeichnet</p>
  </conbody>
 </concept>

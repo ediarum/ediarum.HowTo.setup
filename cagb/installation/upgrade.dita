@@ -16,7 +16,7 @@
                         <cmd>Im Browser die URL eingeben: <xref href="https://www.oxygenxml.com"
                                 format="html" scope="external"/></cmd>
                         <info>
-                            <image placement="break" href="step1.a.png" id="image_utp_b2d_by"
+                            <image placement="break" href="img/step1.a.png" id="image_utp_b2d_by"
                                 width="700"/>
                         </info>
                         <info>
@@ -27,14 +27,14 @@
                     <substep>
                         <cmd>Auf <b>Download</b> klicken.</cmd>
                         <info>
-                            <image placement="break" href="step1.b.png" scale="50"
+                            <image placement="break" href="img/step1.b.png" scale="50"
                                 id="image_z3x_zd5_2y"/>
                         </info>
                     </substep>
                     <substep>
                         <cmd>Auf der nächsten Seite die 32-bit-Version auswählen:</cmd>
                         <info>
-                            <image placement="break" href="step1.c.png" id="image_hh1_p2d_by"
+                            <image placement="break" href="img/step1.c.png" id="image_hh1_p2d_by"
                                 scale="65"/>
                         </info>
                     </substep>
@@ -166,7 +166,7 @@
                         <cmd>Schließlich die Projektdatei <b>cagb_addon.xpr</b> auswählen und mit
                                 <b>Öffnen</b> bestätigen:</cmd>
                         <info>
-                            <image placement="break" href="step4.e.png" id="image_nmv_p3d_by"
+                            <image placement="break" href="img/step4.e.png" id="image_nmv_p3d_by"
                                 scale="50"/>
                         </info>
                     </substep>

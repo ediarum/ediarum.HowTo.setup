@@ -10,12 +10,12 @@
    den Namen bzw. Werktitel mit dem Registereintrag zu verbinden. Die Werkzeugleiste mit den
    Registerfunktionen befindet sich in der untersten Leiste.</p>
   <p>
-   <image href="../../../ediarum_basis/icons/persName.gif"/>
-   <image href="../../../ediarum_basis/icons/placeName.gif"/>
-   <image href="../../../ediarum_basis/icons/orgName.gif"/>
-   <image href="../../../ediarum_basis/icons/name_bibl.gif"/>
-   <image href="../../../ediarum_basis/icons/term16.png"/><image
-    href="../../../ediarum_basis/icons/names16.gif" id="image_kpr_mmf_2y"/></p>
+   <image href="../../../ediarum_basis/frameworks/img/persName.gif"/>
+   <image href="../../../ediarum_basis/frameworks/img/placeName.gif"/>
+   <image href="../../../ediarum_basis/frameworks/img/orgName.gif"/>
+   <image href="../../../ediarum_basis/frameworks/img/name_bibl.gif"/>
+   <image href="../../../ediarum_basis/frameworks/img/term16.png"/><image
+    href="../../../ediarum_basis/frameworks/img/names16.gif" id="image_kpr_mmf_2y"/></p>
   <p>Mit dem Auszeichnen von Personennamen und Werktiteln wird das Dokument auch für das Web
    aufbereitet. Dort besteht technisch nämlich nicht nur die Möglichkeit vom Index auf bestimmte
    Textstellen zu springen, sondern auch aus dem Text heraus den (erweiterten) Index aufzurufen,
@@ -31,7 +31,7 @@
     ohne gleichzeitige Verknüpfung mit einem Registereintrag die Auswertungs- und
     Verarbeitungsmöglichkeiten deutlich einschränkt. Nach Möglichkeiten sollte daher die vollwertige
     Registerfunktion verwendet werden</codeblock>
-  <p><image href="../../../ediarum_basis/icons/persName16.gif"/>
+  <p><image href="../../../ediarum_basis/frameworks/img/persName16.gif"/>
    <b>Personennamen</b>
   </p>
   <p>Personennamen – sei es Vorname, Nachname oder Spitzname – werden im Text mit
@@ -123,13 +123,13 @@
     </tbody>
    </tgroup>
   </table>
-  <p><image href="../../../ediarum_basis/icons/placeName16.gif"/>
+  <p><image href="../../../ediarum_basis/frameworks/img/placeName16.gif"/>
    <b>Orte</b>
   </p>
   <p>Namen von Ländern, Städten, Dörfern, Gebäude etc. können im Text mit<![CDATA[<placeName/>]]>
    ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<placeName>Genua</placeName>]]></codeblock>
-  <p><image href="../../../ediarum_basis/icons/orgName16.gif"/>
+  <p><image href="../../../ediarum_basis/frameworks/img/orgName16.gif"/>
    <b>Institutionen</b></p>
   <p>Ebenso können Instituionsnamen ausgezeichnet werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<orgName>Bibliothek in Alexandrien</orgName>]]></codeblock>
@@ -138,7 +138,7 @@
    Institutionsangaben verknüpft werden.</p>
   <p>Für beide Elemente steht jeweils eine entsprechende Schaltfläche in Oxygen XML Author zur
    Verfügung.</p>
-  <p><image href="../../../ediarum_basis/icons/name_bibl16.gif"/>
+  <p><image href="../../../ediarum_basis/frameworks/img/name_bibl16.gif"/>
    <b>Werktitel</b></p>
   <p>Titel von Werken werden mit<![CDATA[<title/>]]> markiert. Das Attribut @ref verweist auf den
    entsprechenden Registereintrag (der als ID auch eine Teuchos-ID tragen kann).</p>
@@ -180,7 +180,7 @@
   <codeblock outputclass="language-xml"><![CDATA[<ref type=“work-commented-on::noncontent“ target=“#w1“>Isagogen</ref>]]></codeblock>
   <p>In Oxygen XML Author muss für alle Möglichkeiten und Variationen lediglich die Schaltfläche mit
    Buchsymbol betätigt und den folgenden Dialogabfragen gefolgt werden.</p>
-  <p><image href="../../../ediarum_basis/icons/term16.png"/>
+  <p><image href="../../../ediarum_basis/frameworks/img/term16.png"/>
    <b>Sachbgriff und Sachindex</b></p>
  </conbody>
  <concept id="id_s54_rkk_2y" conref="../../general/actions.dita#concept_v52_xjk_2y">

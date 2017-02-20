@@ -4,18 +4,18 @@
  <title>Name und Lebensdaten</title>
  <shortdesc></shortdesc>
  <conbody>  <p>Der Name und die Lebensdaten werden in head notiert. Der gesamte Name wird dabei
-    mit <![CDATA[<persName/>]]> umgeben, der Familienname zusätzlich mit <![CDATA[<surname/> ]]>ausgezeichnet.
-Unter mehreren Vornamen kann einer als Rufname mit <i/>hervorgehoben:></p>
+   mit <codeph>&lt;persName/></codeph> umgeben, der Familienname zusätzlich mit <codeph>&lt;surname/></codeph> ausgezeichnet.
+   Unter mehreren Vornamen kann einer als Rufname mit <codeph>&lt;i></codeph> hervorgehoben:</p>
   <codeblock outputclass="language-xml"><![CDATA[
 <head type=“entry“>
    <persName key=“gnd:118850210 lccn:n86112270“ type=“entry“>
      <surname>Bekker</surname>, August <i>Immanuel </i>
    </persName> (<date from-iso=“1785“ to-iso=“1871“>1785–1871</date>)
 </head>   ]]></codeblock>
-  <p>Die Lebensdaten werden mit <![CDATA[<date/>]]> ausgezeichnet, wobei die Daten nochmals in formatierter
+   <p>Die Lebensdaten werden mit <codeph>&lt;date/></codeph> ausgezeichnet, wobei die Daten nochmals in formatierter
    Form in den Attributen @from-iso und @to-iso hinterlegt werden müssen.
    38
-   Für jede Person wird automatisch bei der Neuerstellung oder beim Import durch TELOTA eine CAGB-interne Identifikationsnummer generiert. Später können in <![CDATA[<persName/>]]>
+   Für jede Person wird automatisch bei der Neuerstellung oder beim Import durch TELOTA eine CAGB-interne Identifikationsnummer generiert. Später können in <codeph>&lt;persName/></codeph>
    außerdem noch weitere Identifikationsnummern, wie z.B. die GND (Gemeinsame
    Normdatei der Deutschen Nationalbibliothek) hinterlegt werden.</p>
  </conbody>
