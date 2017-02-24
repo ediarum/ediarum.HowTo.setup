@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zvc_z2v_1z">
+ <title><b>Projektkonfiguration</b> - Register</title>
+ <conbody>
+  <p>Für eingerichtete zotero-Verbindungen lassen sich einzelne Register konfigurieren. Um ein neues
+   Register einzurichten ("Neues Register hinzufügen") werden vier Angaben benötigt:</p>
+  <ul id="ul_msg_1fv_1z">
+   <li>API-ID: Für die API-ID sollte ein eindeutiger String aus Buchstaben und Ziffern ohne
+    Sonderzeichen gewählt werden, da das Register mithilfe der API-ID über eine URI angesteuert
+    werden kann.</li>
+   <li>Bezeichnung: Die Bezeichnung des Registers</li>
+   <li>Zotero-Verbindung: Hier kann zwischen den eingerichteten zotero-Verbindungen ausgewählt
+    werden. Ist bisher keine Verbindung eingerichtet, sollte diese vorher getan werden.</li>
+   <li>Zotero-Ordner: Ein Register kann entweder alle Einträge einer zotero-Gruppe umfassen, dann
+    bleibt dieses Feld leer. Ein Register kann aber auch nur einen einzelnen Ordner einer
+    zotero-Gruppe umfassen, dann sollte jener hier ausgewählt werden.</li>
+  </ul>
+  <p>Für die eingerichteten Register stehen die Aktionen "Bearbeiten" und "Löschen" zur Verfügung.
+   Weiterhin wird zu jedem Register angezeigt, welche Zugriffe über die API bestehen:</p>
+  <ul id="ul_nsg_1fv_1z">
+   <li>GET: Das Register wird im TEI-Format ausgeliefert.</li>
+   <li>UPDATE: Das Register wird über die zotero-Verbindung auf die neueste Version
+    aktualisiert.</li>
+   <li>UPDATE-GET: Das Register wird zunächst aktualisiert und dann in der aktualisierten Form im
+    TEI-Format ausgeliefert.</li>
+  </ul>
+ </conbody>
+</concept>

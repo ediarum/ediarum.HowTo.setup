@@ -31,6 +31,31 @@
     </chapter>
     <chapter href="frameworks/index/ueberschrift.dita">
         <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>
-        <topicref href="frameworks/index/register.dita"></topicref>       
+        <topicref href="frameworks/index/register.dita">
+            <topicref href="frameworks/index/neuer_eintrag.dita"></topicref>
+            <topicref href="frameworks/index/allgemein.dita"></topicref>
+            <topicref href="frameworks/index/person.dita"></topicref>
+            <topicref href="frameworks/index/werke.dita"></topicref>
+            <topicref href="frameworks/index/sachregister.dita"></topicref>
+            <topicref href="frameworks/index/orte.dita"></topicref>
+            <topicref href="frameworks/index/institutionen.dita"></topicref>
+            <topicref href="frameworks/index/zusammenfuehren.dita"></topicref>
+        </topicref>       
     </chapter>
+    <part href="rest/ueberschrift.dita">
+        <chapter href="rest/installation/installation.dita"></chapter>
+        <chapter href="rest/projektmanagement/projektmanagement.dita"></chapter>
+        <chapter href="rest/admin/ueberschrift.dita">
+            <topicref href="rest/admin/install_existdb.dita"></topicref>
+            <topicref href="rest/admin/install_ediarum_app.dita"></topicref>
+            <topicref href="rest/admin/konfig_dashboar.dita"></topicref>
+            <topicref href="rest/admin/konfig_datenbank.dita"></topicref>
+            <topicref href="rest/admin/berechtigung.dita"></topicref>
+            <topicref href="rest/admin/ediarum_anpassung.dita"></topicref>
+            <topicref href="rest/admin/ausgabe.dita"></topicref>
+            <topicref href="rest/admin/register.dita"></topicref>
+            <topicref href="rest/admin/projektkonfiguration_zotero.dita"></topicref>
+            <topicref href="rest/admin/Projektkonfiguration_register.dita"></topicref>
+        </chapter>
+    </part>
 </bookmap>

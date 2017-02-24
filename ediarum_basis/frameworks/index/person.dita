@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_gpw_hln_my">
+ <title>Personenregister</title>
+ <conbody>
+  <p>1. Die Einträge im Personenregister werden in einem <codeph>&lt;person></codeph>-Element
+   notiert. Wenn Sie einen Eintrag erstellen wird im Attribut <codeph>@xml.id</codeph> automatisch eine ID
+   generiert, mit der Sie auf den Eintrag referieren können. Außerdem können Sie direkt über ein
+   Dialogfenster folgende Angaben machen: Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich
+   um eine fiktive Person oder eine mytholgische Figur handeln, wird zusätzlich das Attribut <codeph>@role</codeph>
+   angelegt. Dort wird entsprechend entweder der Wert "fictional" oder "mythological"
+   eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
+  <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
+   Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
+   <codeph>&lt;persName type="reg"></codeph> festgehalten. Varianten oder alternative Namen werden
+   jeweils in einem eigenen <codeph>&lt;persName></codeph>-Element gespeichtert, in dem das
+   Attribut <codeph>@type="alt"</codeph> (alternative) und das Attribut <codeph>@subtype</codeph>
+   angibt, welche Art von Namenvariation vorliegt.</p>
+  <p>
+   <table id="table_ohy_qcf_hy">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Name</entry>
+       <entry>Wert für @subtype</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Alternative(r) Name/Schreibung</entry>
+       <entry>@subtype entfällt</entry>
+      </row>
+      <row>
+       <entry>Pseudonym</entry>
+       <entry>pseudonym</entry>
+      </row>
+      <row>
+       <entry>Geburtsname</entry>
+       <entry>birthname</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </p>
+  <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und Nachnamen
+   (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
+   <name>[Pseudonym]</name>
+</persName>]]></codeblock>
+  <p>2. Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die Wirklungszeit
+   (Floruit) angeben. Die Lebensdaten werden in einem <codeph>&lt;birth></codeph>-Element und
+   <codeph>&lt;death></codeph>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
+<death>1889</death>]]></codeblock></p>
+  <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph>-Element notiert. In den
+   Attributen <codeph>@notBefore</codeph> (nicht vor) und <codeph>@notAfter</codeph> (nicht nach) wird der Zeitraum des Wirkens
+   angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben, wobei Monat und Tag optionale
+   Angaben
+   sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
+  <p>3. Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können Sie das
+   im Registereintrag vermerken. Es wird zusätzlich das Attribut <codeph>@role</codeph> angelegt. Dort wird
+   entsprechend entweder der Wert "fictional" oder "mythological" eingetragen.</p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>4. Außerdem könnnen Sie mit einem <codeph>&lt;listPerson></codeph>, dessen Attribut <codeph>@type</codeph> den Wert "group" hat,
+   Gruppen anlegen.<?oxy_custom_end?></p>
+ </conbody>
+</concept>

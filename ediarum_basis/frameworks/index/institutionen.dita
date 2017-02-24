@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_hs3_4ln_my">
+ <title>Einrichtungsregister</title>
+ <conbody>
+  <p>Im Einrichtungsregister können Sie zu den einzelnen Einträgen den Standort angeben und diese
+   Standortangabe datieren. Einträge in diesem Register werden in einem
+   <codeph>&lt;org></codeph>-Element (organization) notiert. Für jeden Eintrag wird im Attribut
+   <codeph>@xml:id</codeph> eine ID generiert, mithilfe der auf den Eintrag verwisen werden kann.
+   Den Namen der Einrichtung können Sie direkt über ein Dialogfenster angeben. Dieser wird in einem
+   <codeph>&lt;orgName></codeph>-Element (organization name) angegeben.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<org xml:id="pdrPo.001.015.000090143">
+   <orgName type="reg">A. Hübenthal Co.</orgName>]]></codeblock>
+  <p>Der Standort wird in einem <codeph>&lt;location></codeph>-Element angegeben. Sie können den
+   Standort entweder detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Die
+   Adresse wird einem <codeph>&lt;adress></codeph>-Element angegeben. Die Ortschaft wird in einem
+   <codeph>&lt;settlement></codeph>-Element auszezeichnet, wobei das Attribut <codeph>@key</codeph> die ID der
+   entsprechenden Stadt übernimmt. Innerhalb des <codeph>&lt;note></codeph>-Elements werden dann die detaillierteren Angaben
+   aufgeführt.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<location xml:id="grm_mwq_gy">
+   <address>
+      <settlement key="ed_p3t_jpj_wx">Genf</settlement>
+      <note>Rudolfstraße</note>
+   </address>
+</location>]]></codeblock>
+  <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des
+   <codeph>&lt;location></codeph>-Elements in den Attributen <codeph>@from</codeph> und <codeph>@to</codeph> notiert wird. Die
+   Datumsangabe strukturiert sich folgendermaßen: JJJJ-MM-TT. Dabei sind Angaben zu Monat und Tag
+   optional.</p>
+  <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
+ </conbody>
+</concept>

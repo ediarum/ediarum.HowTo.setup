@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_rjp_lln_my">
+ <title><b>Werkregister</b></title>
+ <conbody>
+  <p>Ein Eintrag im Werkregister wird in einem <codeph>&lt;bibl></codeph>-Element notiert. Wenn Sie
+   einen neuen Eintrag erstellen, wird im Attribut <codeph>@xml:id</codeph> eine ID gneriert, mit der Sie auf den
+   Eintrag referieren könnnen. Außerdem erscheint beim Anlegen eines neuen Eintrags ein
+   Dialogfenster, in dem Sie schon den Vor-und Nachnamen des Autoren und den Titel der Publikation
+   eingeben können. </p>
+  <p>Die Angaben, die den Autoren betreffen, werden in einem <codeph>&lt;auhor></codeph>-Element
+   notiert. Dabei werden Angaben zum Namen in einem <codeph>&lt;persName></codeph>-Element notiert,
+   wobei der Vorname in einem <codeph>&lt;forename></codeph>-Element und der Nachname in einem
+   <codeph>&lt;surname></codeph>-Element angegeben wird. <codeblock outputclass="language-xml"><![CDATA[<author>
+   <persName key="ed_bkf_zlr_5x">
+      <surname>Apell</surname>
+      <forename>David August von</forename>
+   </persName>]]></codeblock></p>
+  <p>Es können weitere Autoren hinzugefügt werden. Die Angaben für jeden Autoren werden jeweils in
+   einem <codeph>&lt;author></codeph>-Element gemacht. Sie können den Anteil, den die einzelnen
+   Autoren jeweils am Werk hatten, näher bestimmen. Dafür kann ein Attribut <codeph>@role</codeph> angelegt werden,
+   dessen Wert die Art der Mitarbeit angibt.<table id="table_b4y_qr1_py">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Anteil am Werk</entry>
+       <entry>Wert für <codeph>@role</codeph></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Musik</entry>
+       <entry>music</entry>
+      </row>
+      <row>
+       <entry>Komposition</entry>
+       <entry>composition</entry>
+      </row>
+      <row>
+       <entry>Bearbeitung</entry>
+       <entry>arrangement</entry>
+      </row>
+      <row>
+       <entry>Libretto</entry>
+       <entry>libretto</entry>
+      </row>
+      <row>
+       <entry>Text</entry>
+       <entry>text</entry>
+      </row>
+      <row>
+       <entry>Übersetzung</entry>
+       <entry>translation</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <codeblock outputclass="language-xml"><![CDATA[<author role="translation">]]></codeblock>
+  <p>Außerdem können Sie noch die Publikationsart näher im <codeph>&lt;bibl></codeph>-Element
+   bestimmen. Im Attribut <codeph>@type</codeph> können Sie entweder auszeichenen, dass es sich um
+   eine Zeitschrift (journal) oder um einen Sammelband (edited_volumen) handelt. Herausgeber werden
+   in einem <codeph>&lt;editor></codeph> angegeben. Einen einzelner Artikel innerhalb einer solchen
+   Publikation wird in einem weiteren <codeph>&lt;bibl></codeph> angegeben, in dem ein Attribut
+   <codeph>@type</codeph> angibt, dass es sich um einen Artikel handelt (article). Im
+   <codeph>&lt;biblScope></codeph>-Element werden Angaben zu Band und Seitenzahl gemacht.<codeblock outputclass="language-xml"><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
+   <editor>
+      <persName>
+         <surname>Rambach</surname>
+         <forename>Friedrich Eberhard</forename>
+      </persName>
+   </editor>
+   <title>Annalen des Königlichen Nationaltheaters zu Berlin</title>
+   <bibl type="article" xml:id="ed_wbv_b51_py">
+      <author>
+        <persName>
+           <surname>Spazier</surname>
+           <forename>Karl</forename>
+        </persName>
+     </author>
+     <title>Kronos</title>
+        <biblScope>IV#77-89</biblScope>
+    </bibl>
+</bibl>]]></codeblock></p>
+ </conbody>
+</concept>

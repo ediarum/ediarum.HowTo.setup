@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+ <concept id="concept_ghp_fln_my">
+  <title>Allgemein</title>
+  <conbody>
+   <p>Die Schaltfläche „ Allgemein“ umfasst Aktionen, die im Prinzip in allen Registersorten
+    verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
+   <p>1. Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.)
+    versehen. Die Norm-ID wird im Element <codeph>&lt;idno></codeph>-Element (identifikator)
+    notiert.
+    <codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://d-nb.info/gnd/170885348</idno>]]></codeblock></p>
+   <p>2. Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den einzelnen
+    Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der Kommentar
+    in einem <codeph>&lt;desc></codeph>-Element (description), im Personenregister und im
+    Ortsregister in einem <codeph>&lt;note></codeph>-Element notiert.</p>
+   <p>Einrichtungs-/Sachregister:<codeblock outputclass="language-xml"><![CDATA[<desc>Verlagsbuchhandlung in Karlsruhe.</desc>]]></codeblock></p>
+   <p>Personen-/Ortsregister:</p>
+   <codeblock outputclass="language-xml"><![CDATA[<note>deutscher Journalist; Liberaler</note>]]></codeblock>
+   <p>3. Mit der Funktion „ Register sortieren“ wird das Register alphapetisch angeordnet.</p>
+   <p>4. Sie können innerhalb von Kommentaren in Registeinrägen auf andere Personen, Orte und
+    Organisationen verlinken. Über ein Dialogfenster werden Ihnen die bereits erstellten Einträge
+    angezeigt. Im Attribut <codeph>@key</codeph> wird die ID zu dem verlinkten Eintrag
+    notiert.<table id="table_y4b_yy1_3y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Verlinkung auf</entry>
+        <entry>Link</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Person</entry>
+        <entry><codeph>&lt;persName></codeph></entry>
+       </row>
+       <row>
+        <entry>Ort</entry>
+        <entry><codeph>&lt;placeName></codeph></entry>
+       </row>
+       <row>
+        <entry>Organisation</entry>
+        <entry><codeph>&lt;orgName></codeph></entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table><codeblock outputclass="language-xml"><![CDATA[<note>
+   <persName key="pdrPo.001.004.000001072">Mutter von Julie</persName>
+</note>]]></codeblock></p>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+   <p>5. Außerdem können Sie mit einem <codeph>&lt;ref></codeph> (reference) auf eine externe Website verweisen.
+    <?oxy_custom_end?>Im Attribut <codeph>@target</codeph> wird die entsprechende URL
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<ref target="https://portal.dnb.de/opac.htm?method=showSearchForm&amp;selectedCategory=dea">Orgelsinfonie</ref>]]></codeblock></p>
+   <p>6. In jedem Eintrag können innerhalb des <codeph>&lt;linkGrp></codeph>-Elements (link group)
+    Referenzen auf die Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem
+    <codeph>&lt;ptr></codeph>-Element (print) angegeben. Über ein Dialogfenster geben Sie dabei an,
+    ob Sie auf eine Seitenzahl oder Briefnummer verweisen. Von dieser Angabe hängt der Wert fürs
+    Attribut <codeph>@type</codeph> ab:<table id="table_bps_jw1_3y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Referenz</entry>
+        <entry>Wert für <codeph>@type</codeph></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Seitenzahl</entry>
+        <entry>page</entry>
+       </row>
+       <row>
+        <entry>Brief</entry>
+        <entry>letter</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <p>Im Attribut <codeph>@target</codeph> werden detaillierte Angaben zur referierten Stelle gemacht. Über ein
+    Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format "B#SZ". Außerdem müssen
+    Sie vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie „ ja“
+    auswählen, wird ein zusätzliches Attribut <codeph>@subtype</codeph> mit dem Wert "comment" generiert. </p>
+   <codeblock outputclass="language-xml"><![CDATA[<linkGrp>
+   <ptr type="page" target="I#32"/>
+   <ptr type="letter" target="II#46" subtype="comment"/>
+</linkGrp>]]></codeblock>
+  </conbody>
+ </concept>

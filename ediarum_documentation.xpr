@@ -6,15 +6,11 @@
             <serialized version="18.0" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
-                        <String>keys.context</String>
-                        <String>${pdu}/Handbuch_I_CAGB.ditamap</String>
-                    </entry>
-                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>cagb/Uebersichtstabelle/Tabelle.dita</String>
+                                    <String>ediarum_basis/ediarum_basis.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -44,7 +40,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ediarum_basis/ediarum_basis.ditamap</String>
+                                    <String>cagb/Uebersichtstabelle/Tabelle.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

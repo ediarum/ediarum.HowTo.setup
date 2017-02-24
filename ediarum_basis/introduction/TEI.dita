@@ -24,11 +24,11 @@
     <tbody>
      <row>
       <entry>Pr<i>offessor</i></entry>
-      <entry><![CDATA[Pr<i>offessor</i>]]></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[Pr<i>offessor</i>]]></codeblock></entry>
      </row>
      <row>
       <entry>außerdem] <i>über der Zeile</i></entry>
-      <entry><![CDATA[<add place="über der Zeile">außerdem</add>]]></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<add place="über der Zeile">außerdem</add>]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>
@@ -37,7 +37,7 @@
    ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht <codeph>&lt;ex></codeph>
    für „editorial expansion“ und <codeph>&lt;add></codeph> für „addition“.
    Dadurch sind die Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
-  <codeblock><![CDATA[ich konnte <hi rend="underline">gänzlich</hi> nicht verstehen]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rend="underline">gänzlich</hi> nicht verstehen]]></codeblock>
   <p>Hier wird lediglich vermerkt, dass im Manuskript das Wort „gänzlich“ unterstrichen war. Ob im
    Druck oder im Web die entsprechende Stelle nun tatsächlich unterstrichen oder vielleicht eher
    gesperrt wird, muss hier nicht entschieden werden.</p>
@@ -64,7 +64,7 @@
     <tbody>
      <row>
       <entry>Metaangaben zum XML-Dokument</entry>
-      <entry><codeblock><![CDATA[<TEI xmlns="http://tei-c.org/ns/1.0" xml:lang="de">
+      <entry><codeblock outputclass="language-xml"><![CDATA[<TEI xmlns="http://tei-c.org/ns/1.0" xml:lang="de">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -81,7 +81,7 @@
      </row>
      <row>
       <entry>Text</entry>
-      <entry><codeblock><![CDATA[   <text>
+      <entry><codeblock outputclass="language-xml"><![CDATA[   <text>
       <body>
           ... [Eigentliche Handschriftenbeschreibung]
       </body>
