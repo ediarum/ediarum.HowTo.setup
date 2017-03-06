@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_f4d_v2v_1z">
- <title><b>Projektkonfiguration</b> - Zotero</title>
+ <title>Projektkonfiguration - Zotero</title>
  <conbody>
   <p>Die Register von ediarum lassen sich mit zotero-Bibliographien verbinden. Dazu müssen zunächst
    die Verbindungen zu einer zotero-Gruppe hergestellt werden. Dafür gibt es in der

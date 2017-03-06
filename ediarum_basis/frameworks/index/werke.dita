@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_rjp_lln_my">
- <title><b>Werkregister</b></title>
+ <title>Werkregister</title>
  <conbody>
   <p>Ein Eintrag im Werkregister wird in einem <codeph>&lt;bibl></codeph>-Element notiert. Wenn Sie
    einen neuen Eintrag erstellen, wird im Attribut <codeph>@xml:id</codeph> eine ID gneriert, mit der Sie auf den
@@ -11,11 +11,15 @@
   <p>Die Angaben, die den Autoren betreffen, werden in einem <codeph>&lt;auhor></codeph>-Element
    notiert. Dabei werden Angaben zum Namen in einem <codeph>&lt;persName></codeph>-Element notiert,
    wobei der Vorname in einem <codeph>&lt;forename></codeph>-Element und der Nachname in einem
-   <codeph>&lt;surname></codeph>-Element angegeben wird. <codeblock outputclass="language-xml"><![CDATA[<author>
-   <persName key="ed_bkf_zlr_5x">
-      <surname>Apell</surname>
-      <forename>David August von</forename>
-   </persName>]]></codeblock></p>
+    <codeph>&lt;surname></codeph>-Element angegeben wird.
+   <codeblock outputclass="language-xml">&lt;bibl xml:id="ed_sfz_tqr_5x">
+   &lt;author role="translation">
+      &lt;persName key="ed_bkf_zlr_5x">
+         &lt;surname>Apell&lt;/surname>
+         &lt;forename>David August von&lt;/forename>
+      &lt;/persName>
+   &lt;/author>
+&lt;/bibl></codeblock></p>
   <p>Es können weitere Autoren hinzugefügt werden. Die Angaben für jeden Autoren werden jeweils in
    einem <codeph>&lt;author></codeph>-Element gemacht. Sie können den Anteil, den die einzelnen
    Autoren jeweils am Werk hatten, näher bestimmen. Dafür kann ein Attribut <codeph>@role</codeph> angelegt werden,

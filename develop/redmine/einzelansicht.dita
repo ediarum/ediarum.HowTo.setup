@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uv3_llv_cz">
+ <title>Ticketansicht</title>
+ <conbody>
+  <p>In der Ticketansicht finden sich detaillierte Angaben zur Aufgabe. </p><image href="img/ticket.png" id="image_fbn_rlv_cz"/>
+ </conbody>
+</concept>

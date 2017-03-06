@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_zvc_z2v_1z">
- <title><b>Projektkonfiguration</b> - Register</title>
+ <title>Projektkonfiguration - Register</title>
  <conbody>
   <p>Für eingerichtete zotero-Verbindungen lassen sich einzelne Register konfigurieren. Um ein neues
    Register einzurichten ("Neues Register hinzufügen") werden vier Angaben benötigt:</p>

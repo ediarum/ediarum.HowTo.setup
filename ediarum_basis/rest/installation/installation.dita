@@ -19,8 +19,8 @@
                                     width="700"/>
                             </info>
                             <info>
-                                <p><b>Produkte</b> auswählen und dort <b>Oxygen XML Author</b>
-                                    auswählen.</p>
+                                <p><b>Products</b> auswählen und dort <b>Oxygen XML Author</b>
+                                auswählen.</p>
                             </info>
                         </substep>
                         <substep>
@@ -38,9 +38,9 @@
                             </info>
                         </substep>
                         <substep>
-                            <cmd><i>Warten</i> bis der Download abgeschlossen ist (kann einige Minuten
-                                dauern).</cmd>
-                        </substep>
+                        <cmd>Warten bis der Download abgeschlossen ist (kann einige Minuten
+                            dauern).</cmd>
+                    </substep>
                     </substeps>
                 </step>
                 <step>
@@ -62,9 +62,9 @@
                                 bestätigen</cmd>
                         </substep>
                         <substep>
-                            <cmd><b>Häkchen</b> zur Deinstallation der vorherigen Version setzen und mit
-                                <b>Weiter</b> bestätigen.</cmd>
-                        </substep>
+                        <cmd>(evtl. <b>Häkchen</b> zur Deinstallation der vorherigen Version setzen
+                            und mit <b>Weiter</b> bestätigen.)</cmd>
+                    </substep>
                         <substep>
                             <cmd>Die folgenden zwei Dialoge auch mit <b>Weiter</b> bestätigen.</cmd>
                         </substep>
@@ -141,39 +141,41 @@
                             Projektdatei geöffnet werden.</p>
                     </info>
                     <substeps>
-                        <substep>
-                            <cmd>Im Menü <i>Projekt</i> bitte <b>Projekt öffnen...</b> auswählen:</cmd>
-                        </substep>
-                        <substep>
-                            <cmd>Im Fenster <i>Projekt</i> öffnen im Feld <i>Dateiname</i> den
-                                Wert</cmd>
-                            <info>
-                                <p>%appdata%\com.oxygenxml.author\extensions</p>
-                                <p>eintragen und mit <b>Enter</b> bestätigen.</p>
-                            </info>
-                        </substep>
-                        <substep>
-                            <cmd>Mit Doppelklick die aktuelle Versionsnummer <b>v18.0</b> von Oxygen
-                                auswählen.</cmd>
-                        </substep>
-                        <substep>
-                            <cmd>Jeweils mit Doppelklick die Ordner <b>frameworks</b>,
-                                <b>http__telotadev.bbaw.de_oxygen_cagb_update.xml</b> und
-                                <b>cagb</b> auswählen:</cmd>
-                        </substep>
-                        <substep>
-                            <cmd>Schließlich die Projektdatei <b>cagb_addon.xpr</b> auswählen und mit
-                                <b>Öffnen</b> bestätigen:</cmd>
-                            <info>
-                                <image placement="break" href="img/step4.e.png" id="image_nmv_p3d_by"
-                                    scale="50"/>
-                            </info>
-                        </substep>
-                        <substep>
-                            <cmd>Ein evtl. weiteres Dialogfenster mit <b>OK</b> bestätigen und Oxygen
-                                XML Author <b>neustarten</b>.</cmd>
-                        </substep>
-                    </substeps>
+                    <substep>
+                        <cmd>Im Menü <i>Projekt</i> bitte <b>Projekt öffnen...</b> auswählen:</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Im Fenster <i>Projekt</i> öffnen im Feld <i>Dateiname</i> den
+                            Wert</cmd>
+                        <info>
+                            <p>%appdata%\com.oxygenxml.author\extensions</p>
+                            <p>eintragen und mit <b>Enter</b> bestätigen.</p>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Mit Doppelklick die aktuelle Versionsnummer <b>v18.0</b> von Oxygen
+                            auswählen.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Jeweils mit Doppelklick die Ordner <b>frameworks</b>,
+                                    <b>http__telotadev.bbaw.de_oxygen_<i>[Projektname]</i>_update.xml</b>
+                            und das entsprechende Projekt auswählen:</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Schließlich die Projektdatei <b><i>[Projektname]</i>_addon.xpr</b>
+                            auswählen und mit <b>Öffnen</b> bestätigen:</cmd>
+                        <info>Unten in der Beispielabbildung wird die Projektdatei des
+                            CAGB-Vorhabens geöffnet. Der Name der Datei richtet sich nach dem Namen
+                            des jeweiligen Projekts. Deswegen ist in den Schritten d. und e. ein
+                            konkreter Projektname mit dem Abstraktum <i>[Projektname]</i>
+                                ersetzt.<image placement="break" href="img/step4.e.png"
+                                id="image_nmv_p3d_by" scale="50"/></info>
+                    </substep>
+                    <substep>
+                        <cmd>Ein evtl. weiteres Dialogfenster mit <b>OK</b> bestätigen und Oxygen
+                            XML Author <b>neustarten</b>.</cmd>
+                    </substep>
+                </substeps>
                 </step>
             </steps>
         </taskbody>

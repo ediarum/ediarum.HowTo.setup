@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_g51_2ln_my">
- <title><b>Neuer Eintrag</b></title>
+ <title>Neuer Eintrag</title>
  <conbody>
   <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
    im Personenregister wird in einem <codeph>&lt;person></codeph>-Element, im Ortsregister in einem

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
-<task id="task_e2w_nrc_zw">
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qyt_2wp_bz">
     <title>Update der Arbeitsumgebung</title>
     <shortdesc/>
     <taskbody>
@@ -19,8 +19,8 @@
                     erscheint eine Meldung „Updates available“ auf „Review Updates“ klicken.</cmd>
             </step>
             <step>
-                <cmd>Im Dialogfenster unter „Install/Aktualisieren“ ein Häkchen bei der gewünschten Ar46
-                    beitsumgebung setzen, deren Status auf „Can be installed“ steht.</cmd>
+                <cmd>Im Dialogfenster unter „Install/Aktualisieren“ ein Häkchen bei der gewünschten
+                    Arbeitsumgebung setzen, deren Status auf „Can be installed“ steht.</cmd>
             </step>
             <step>
                 <cmd>Im nachfolgenden Fenster „License and signature“ das Häkchen unten rechts bei „I

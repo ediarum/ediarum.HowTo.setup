@@ -42,8 +42,10 @@
             <topicref href="frameworks/index/zusammenfuehren.dita"></topicref>
         </topicref>       
     </chapter>
-    <part href="rest/ueberschrift.dita">
-        <chapter href="rest/installation/installation.dita"></chapter>
+    <part href="rest/part_sonstiges.dita">
+        <chapter href="rest/installation/installation.dita">
+            <topicref href="rest/installation/update.dita"></topicref>
+        </chapter>
         <chapter href="rest/projektmanagement/projektmanagement.dita"></chapter>
         <chapter href="rest/admin/ueberschrift.dita">
             <topicref href="rest/admin/install_existdb.dita"></topicref>

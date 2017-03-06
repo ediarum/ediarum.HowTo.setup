@@ -23,7 +23,7 @@
             <topicref href="ediarum_basis/operation/ansichten.dita"/>
             <topicref href="ediarum_basis/operation/suche.dita"/>
         </chapter>  
-        <chapter href="cagb/frameworks/ms_desc.dita">
+        <chapter href="cagb/frameworks/ms_descr/ueberschrift.dita">
             <topicref href="cagb/frameworks/ms_descr/oberflaeche_zur_handschriftenbeschreibung.dita"/>
             <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"
                 copy-to="ediarum_basis/general/ms_desc_allgemeine_werkzeugleiste.dita"/>
@@ -48,7 +48,7 @@
             <topicref href="cagb/frameworks/ms_descr/relationen.dita"/>
             <topicref href="cagb/frameworks/ms_descr/bearbeitungsstatus.dita"/>
         </chapter>
-        <chapter href="cagb/frameworks/texte.dita">
+        <chapter href="cagb/frameworks/texte/ueberschrift.dita">
             <topicref href="ediarum_basis/general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"
                 copy-to="ediarum_basis/general/texte_allgemeine_werkzeugleiste.dita"/>
             <topicref href="cagb/frameworks/texte/metadaten.dita"/>
@@ -58,8 +58,8 @@
             <topicref href="cagb/frameworks/texte/transkr_hg_cagb.dita" copy-to="cagb/texte_transkr_hg_cagb.dita"/> 
             <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
         </chapter>
-    <part href="cagb/general/ueberschrift_ii.dita">   
-    <chapter href="cagb/frameworks/persons.dita">
+    <part href="cagb/frameworks/part_register.dita">   
+    <chapter href="cagb/frameworks/persons/ueberschrift.dita">
             <topicref href="cagb/frameworks/persons/personendatei_anlegen.dita"/>
             <topicref href="cagb/frameworks/persons/name_und_lebensdate.dita"/>
             <topicref href="cagb/frameworks/persons/vita.dita"/>
@@ -67,12 +67,12 @@
             <topicref href="cagb/frameworks/persons/sonstiges.dita"/>
             <topicref href="cagb/frameworks/persons/werkzeugleiste_fuer_auszeichnungen.dita"/>
         </chapter>
-        <chapter href="cagb/frameworks/bibl.dita">
+        <chapter href="cagb/frameworks/bibl/ueberschrift.dita">
             <topicref href="cagb/frameworks/bibl/neues_werk_anlegen.dita"/>
             <topicref href="cagb/frameworks/bibl/elemente_eines_werkeintrags.dita"/>
         </chapter>
     </part> 
-    <part href="cagb/general/ueberschrift_iii.dita">
+    <part href="ediarum_basis/rest/part_sonstiges.dita">
         <chapter href="cagb/rest/tipps/ueberschrift.dita">
             <topicref href="cagb/rest/tipps/allgemein.dita"/>
             <topicref href="cagb/rest/tipps/transkriptionen_tipps.dita"/>
@@ -81,11 +81,22 @@
             <topicref href="cagb/rest/website/website_suche.dita"/>
             <topicref href="cagb/rest/website/navigation.dita"/>
             <topicref href="cagb/rest/website/website_suche.dita"/>
-        </chapter>
-        <chapter href="cagb/rest/ueberschrift.dita">
-            <topicref href="cagb/rest/installation/install.dita"/>
-            <topicref href="cagb/rest/installation/update_arbeitsumgebung.dita"/>
-            <topicref href="cagb/rest/installation/upgrade.dita"/>
-        </chapter>
+        </chapter>        
+            <topicref href="ediarum_basis/rest/installation/installation.dita"/>
+            <topicref href="ediarum_basis/rest/installation/update.dita"/>
+            <chapter href="ediarum_basis/rest/projektmanagement/projektmanagement.dita"></chapter>
+            <chapter href="ediarum_basis/rest/admin/ueberschrift.dita">
+                <topicref href="ediarum_basis/rest/admin/install_existdb.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/install_ediarum_app.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/konfig_dashboar.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/konfig_datenbank.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/berechtigung.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/ediarum_anpassung.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/ausgabe.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/register.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/projektkonfiguration_zotero.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/Projektkonfiguration_register.dita"></topicref>
+            </chapter>
+        
     </part>
 </bookmap>
