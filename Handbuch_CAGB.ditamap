@@ -95,7 +95,7 @@
                 <topicref href="ediarum_basis/rest/admin/ausgabe.dita"></topicref>
                 <topicref href="ediarum_basis/rest/admin/register.dita"></topicref>
                 <topicref href="ediarum_basis/rest/admin/projektkonfiguration_zotero.dita"></topicref>
-                <topicref href="ediarum_basis/rest/admin/Projektkonfiguration_register.dita"></topicref>
+                <topicref href="ediarum_basis/rest/admin/projektkonfiguration_register.dita"></topicref>
             </chapter>
         
     </part>

@@ -57,7 +57,7 @@
             <topicref href="rest/admin/ausgabe.dita"></topicref>
             <topicref href="rest/admin/register.dita"></topicref>
             <topicref href="rest/admin/projektkonfiguration_zotero.dita"></topicref>
-            <topicref href="rest/admin/Projektkonfiguration_register.dita"></topicref>
+            <topicref href="rest/admin/projektkonfiguration_register.dita"></topicref>
         </chapter>
     </part>
 </bookmap>
