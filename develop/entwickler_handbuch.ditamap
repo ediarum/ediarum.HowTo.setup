@@ -16,8 +16,16 @@
            <topicref href="programme/editor.dita"></topicref>
        </topicref>
        <topicref href="programme/git.dita"></topicref>
-       <topicref href="programme/atom.dita">          </topicref>
+       <topicref href="programme/atom.dita"></topicref>
        <topicref href="programme/existdb.dita"></topicref>
    </chapter>
-
+    <part href="aufgaben/ueberschrift.dita">
+        <topicref href="aufgaben/oxygen/arbeitsplatz_einrichten.dita"></topicref>
+        <topicref href="aufgaben/oxygen/validieren.dita"></topicref>
+        <topicref href="aufgaben/oxygen/anpassen.dita"></topicref>
+        <topicref href="aufgaben/website_anpassen.dita"></topicref>
+        <topicref href="aufgaben/dokumentation.dita"></topicref>
+        <topicref href="aufgaben/"></topicref>
+    </part>
+    
 </bookmap>

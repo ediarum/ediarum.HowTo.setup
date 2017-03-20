@@ -6,10 +6,8 @@
   <p>Folgende Software muss auf den Rechner installiert sein:</p>
   <ul>
    <li>
-    <xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
-     >oXygen-Editor</xref></li>
-   <li><xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
-     >oXygen-Author</xref></li>
+        <xref href="https://www.oxygenxml.com/download.html" format="html" scope="external"
+          >oXygen-Editor und  oXygen-Author</xref></li>
    <li><xref href="https://git-scm.com/downloads" format="html" scope="external">Git</xref> -
     Versionsverwaltungssystem</li>
    <li><xref href="https://atom.io/" format="html" scope="external">Atom</xref> Text-Editor</li>

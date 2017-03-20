@@ -3,7 +3,10 @@
 <concept id="concept_qsp_41v_cz">
  <title>Einleitung</title>
  <conbody>
-  <p>Der Workflow ist durch einige Komponenten bedingt. Zum einen müssen einige Programme
+  <p>Der Workflow ist durch einige technische Komponenten bedingt. Zum einen müssen einige Programme installiert sein, die die technische Grundlage der Arbeit bilden.
+    Zum anderen macht das <i>Zusammenwirken</i> dieser einzelnen Programme den eigentlichen Workflow aus. Bevor dieses etwas komplexere Zusammenwirken erklärt wird, 
+    
+    Der Workflow ist durch einige Komponenten bedingt. Zum einen müssen einige Programme
    installiert sein, die die technische Grundlage der Arbeit bilden. Zum anderen bildet aber gerade
    das Zusammenwirken dieser Programme den eigentlichen Workflow. Im ersten Kapitel werden zunächst
    sämtliche notwendigen Programme genannt. Mit der Installation der Programme und deren Einrichtung

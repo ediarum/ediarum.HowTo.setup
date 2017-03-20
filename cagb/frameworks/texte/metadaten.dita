@@ -40,7 +40,13 @@
   <title>Handschrift verlinken</title>
  </concept>
  <concept id="concept_y5q_wms_2y">
-  <title>Publizierte Quelle</title>
+  <title>Publizierte Quelle</title> 
+  <conbody>
+   <p>Das Werkregister wird über Zotero organisiert. Darum werden sämtliche publizierten Quellen immer mit Zotero verknüpft. Die bibliographischen Angaben müssen also in der Zotero-Register eingepflegt werden.
+    Wenn Sie eine publizierte Quelle hinzufügen, erscheint ein Dialogfenster, in dem sie die entsprechende Angabe aus einem Zotero-Register auswählen. Dafür müssen Sie zunächst, ebenfalls über ein Dialogfenster, das korrekte Register öffnen. 
+    
+    Sinnvollerweise und um die Verlagerung des Werkregisters nach Zotero vorwegzunehmen, sollten alle publizierten Quellen immer mit Zotero verknüpft werden</p>
+  </conbody>
  </concept>
  <concept id="concept_q53_xms_2y">
   <title>Werk verlinken</title>

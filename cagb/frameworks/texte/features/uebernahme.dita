@@ -18,6 +18,13 @@
      angegebenen Quellen ausgewählt werden, und zusätzlich wird noch nach der Seitenangabe der
      Textstelle in der Quelle gefragt. Im Auswahlfenster können bei gedrückter STRG-Taste auch
      mehrere Quellen ausgewählt werden.</li>
+        <li>Zitation forsetzen: Um innerhalb einer zitierten Passage eine Variante anzugeben, müssen
+          Sie folgendermaßen vorgehen: Sie markieren die übernommene Stelle mit einer der oben
+          erklärten Aktionen <i>bis</i> zu der Stelle, für die Sie eine Variante angeben möchten. An
+          dieser Stelle nutzen Sie die Aktion „Varianten“ wie gewohnt. Der restliche Text des Zitats
+          wird nach der Variante über die Aktion „Zitation fortsetzen“ markiert. Es öffnet sich ein
+          Dialogfenster, in dem bereits gemachte Zitate angezeigt werden. Wählen Sie das Zitat aus,
+          das Sie forsetzen möchten.</li>
    </ul>Die Übernahme muss typisiert werden als "Zitation (wörtliche Übernahme)" dargestellt als =,
    "Simile (syntaktisch angepasst)" dargestellt als ≈ oder "Paraphrasis (angelehnt an)" dargestellt
    als ∼.</p>
