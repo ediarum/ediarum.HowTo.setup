@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Handbuch_CAGB.ditamap</String>
+                                    <String>cagb/frameworks/texte/transkr_autor_cagb.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -55,7 +55,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>cagb/frameworks/texte/transkr_autor_cagb.dita</String>
+                                    <String>Handbuch_CAGB.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
