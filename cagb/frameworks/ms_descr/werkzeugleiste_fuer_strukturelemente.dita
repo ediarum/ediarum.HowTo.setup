@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_qfc_1pc_xw">
  <title>Werkzeugleiste für Strukturelemente der Handschriftenbeschreibungen</title>
- <shortdesc/>
  <conbody>
   <p><image href="img/werkzeugleiste_fuer_strukturelemente.png"></image></p>
   <p>Die Handschriftenbeschreibungen werden nach dem von Teuchos entwickelten Konzept in XML-TEI

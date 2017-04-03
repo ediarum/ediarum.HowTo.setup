@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_tgd_glc_zw">
  <title>Name und Lebensdaten</title>
- <shortdesc></shortdesc>
+ 
  <conbody>  <p>Der Name und die Lebensdaten werden in head notiert. Der gesamte Name wird dabei
    mit <codeph>&lt;persName/></codeph> umgeben, der Familienname zusätzlich mit <codeph>&lt;surname/></codeph> ausgezeichnet.
    Unter mehreren Vornamen kann einer als Rufname mit <codeph>&lt;i></codeph> hervorgehoben:</p>

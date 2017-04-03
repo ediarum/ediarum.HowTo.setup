@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_jyl_fjc_zw">
   <title>Relationen</title>
-  <shortdesc/>
   <conbody>
     <p>Zu jeder einzelnen Transkription können eine oder mehrere Relationen zu Werken im Register
       erstellt werden. Im Attribut <codeph>@type</codeph> wird dann die Art der Relation notiert, im

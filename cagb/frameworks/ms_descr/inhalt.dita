@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dhb_wqc_xw">
    <title>Inhalt</title>
-   <shortdesc/>
    <conbody>
       <p>Die Inhalte der Handschrift werden jeweil in <codeph>&lt;msItem/></codeph> notiert, in
          denen wiederum auch Absätze gesetzt werden können. Leere Folia werden mit dem Attribut

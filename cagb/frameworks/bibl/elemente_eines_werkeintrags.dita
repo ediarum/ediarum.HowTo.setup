@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_bh5_5nc_zw">
  <title>Elemente eines Werkeintrags</title>
- <shortdesc/>
  <conbody>
   <p>Jedes Werk wird jeweils in einem Element <codeph>&lt;werk></codeph> notiert. Der Eintrag wird
    nochmals nach Titel, Autor(en), Incipit, Explicit und Relationen unterteilt.</p>

@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_fwq_5jc_zw">
  <title>Bearbeitungsstatus</title>
- <shortdesc></shortdesc>
  <conbody>
   <p>Es ist auch möglich den Bearbeitungsstatus jeder einzelnen Transkription zu kennzeichnen:
       entweder Entwurf („draft“) oder fertig bearbeitet („final“). Dafür wird dem entsprechenden

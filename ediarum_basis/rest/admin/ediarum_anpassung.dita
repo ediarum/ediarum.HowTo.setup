@@ -4,16 +4,11 @@
  <title>ediarum-Anpassung</title>
  <conbody>
   <p><b>Schemata</b></p>
-  <p>Im Ordner <xref
-    href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db/apps/ediarum&amp;node=schemata"
-    format="html" scope="external">schemata</xref> liegt das Schema TEI P5 2.5.0. Weitere
+  <p>Im Ordner schemata liegt das Schema TEI P5 2.5.0. Weitere
    projektbezogene Schemata können dort hinzugefügt werden.</p>
   <p><b>Register</b></p>
-  <p>Im Ordner <xref href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?node=Register"
-    format="html" scope="external">Register</xref> werden die notwendigen Registerdateien
-   gespeichert. Bei Veränderungen der Dateien wird eine Kopie im Ordner <xref
-    href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db/apps/ediarum&amp;node=data_copy"
-    format="html" scope="external">data_copy</xref> gespeichert, damit dort von <b>bot2</b> aus dem
+  <p>Im Ordner Register werden die notwendigen Registerdateien
+   gespeichert. Bei Veränderungen der Dateien wird eine Kopie im Ordner data_copy gespeichert, damit dort von <b>bot2</b> aus dem
     <xref href="http://oxygenxml.com/xml_author.html" format="html" scope="external">Oxygen XML
     Author</xref> heraus ein Lesezugriff erfolgen kann. Die Kopien werden über einen Trigger
    gesteuert, der bei Installation der ediarum-App eingerichtet wird (s. <xref
@@ -35,9 +30,7 @@
   </p>
   <p>in das aktuelle Skript geladen werden können. In der Datei <xref
     href="http://telotadev.bbaw.de:9121/exist/apps/eXide/index.html?open=/db/apps/ediarum/setup/setup.xml"
-    format="html" scope="external">setup.xml</xref> im Ordner <xref
-    href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db/apps/ediarum&amp;node=setup"
-    format="html" scope="external">setup</xref> enthält die globalen Variablen für die Routinen.
+    format="html" scope="external">setup.xml</xref> im Ordner setup enthält die globalen Variablen für die Routinen.
    Dort müssen Passwort von bot1 und der Pfad für den data_copy-Ordner eingegeben werden, wenn sie
    geändert wurden.</p>
   <div><b>Trigger</b><p>Für eXist-db können verschiedene Trigger eingerichtet werden, die bei
@@ -59,9 +52,7 @@
     erläutert.</p><p>Beispiel: Jeder Registereintrag eines gemeinsamen Register liegt in einer
     eigenen Datei. Nach der Erstellung eines Registereintrags (d.h. einer neuen Datei im Ordner
     Register) oder einer Änderung in einer solchen Datei soll ein neues Gesamtregister erstellt
-    werden, das alle Einträge des Registers mit der ID enthält.</p><p>Im Ordner <xref
-     href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db&amp;amp;node=system/config/db/Register"
-     format="html" scope="external">/db/system/config/db/Register</xref> wird eine Datei <xref
+    werden, das alle Einträge des Registers mit der ID enthält.</p><p>Im Ordner /db/system/config/db/Register wird eine Datei <xref
      href="http://telotadev.bbaw.de:9121/exist/apps/eXide/index.html?open=/db/apps/ediarum/../../system/config/db/Register/collection.xconf"
      format="html" scope="external">collection.xconf</xref> mit folgendem Inhalt
     gespeichert:</p><pre>&lt;collection xmlns="http://exist-db.org/collection-config/1.0">
@@ -71,9 +62,7 @@
         &lt;/trigger>
     &lt;/triggers>
 &lt;/collection></pre><p>Die
-    im Ordner <xref
-     href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db/apps/ediarum&amp;amp;node=routinen"
-     format="html" scope="external">/db/apps/ediarum/routinen</xref> liegende xQuery-Datei <xref
+    im Ordner /db/apps/ediarum/routinen liegende xQuery-Datei <xref
      href="http://telotadev.bbaw.de:9121/exist/apps/eXide/index.html?open=/db/apps/ediarum/routinen/registerTrigger.xql"
      format="html" scope="external">registerTrigger.xql</xref> gehört zum Namespace trigger und
     definiert einige Trigger, die die gewünschten Aktionen

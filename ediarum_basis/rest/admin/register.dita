@@ -3,9 +3,8 @@
 <concept id="concept_v1n_r2v_1z">
  <title>Register</title>
  <conbody>
-  <p>Die eingerichteten Register (s. Projektkonfiguration, Register) stehen hier zur Auswahl. Mit
-   der Schaltfläche "Aktualisieren" kann das Register über die entsprechende zotero-Verbindung
-   aktualisiert werden.</p>
+  <p>Die eingerichteten Register stehen hier zur Auswahl. Mit der Schaltfläche "Aktualisieren" kann
+   das Register über die entsprechende zotero-Verbindung aktualisiert werden.</p>
   <p>Eine Liste aller Registereinträge wird im vorformatierten Format angezeigt. Die IDs der
    Einträge (rechts) verlinken auf die zotero Datenbank. Einträge, bei denen Felder fehlen, die
    erwartet werden – etwa Autorenangaben –, werden in gelb dargestellt</p>

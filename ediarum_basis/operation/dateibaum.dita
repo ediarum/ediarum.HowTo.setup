@@ -10,7 +10,7 @@
    Register.
   Die generelle Verzeichnisstruktur sollte so beibehalten werden, da einige Funktionen des
    Programm auf bestimmte Ordner und Dateien zugreifen müssen.</p>
-  <p><image href="img/dateibaum.png"  /></p>
+  <p><image href="img/Dateibaum.png" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
    sich um eine zentrale Datenbank handelt, auf die alle Mitarbeiter/-innen der Arbeitstelle
    zugreifen, darf jede Datei gleichzeitig nur von einem Berarbeiter geöffnet werden. Ist eine Datei
@@ -21,7 +21,7 @@
    werden.
   Um im Dateibaum weitere Aktionen (z.B. neue Datei anlegen) durchzuführen, muss per rechter
    Mausklick auf eine Datei bzw. ein Verzeichnis das Kontextmenü aufgerufen werden.</p>
-  <p><image href="img/dateibaum.b.png" /></p>
+  <p><image href="img/Dateibaum.b.png" /></p>
  </conbody>
  <concept id="concept_hl2_xln_my">
   <title>Neue Datei anlegen</title>

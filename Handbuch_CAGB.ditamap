@@ -54,8 +54,8 @@
             <topicref href="cagb/frameworks/texte/metadaten.dita"/>
             <topicref href="cagb/frameworks/texte/scholien.dita"/>
             <topicref href="cagb/frameworks/texte/werke_und_kleintexte.dita"/>
-            <topicref href="cagb/frameworks/texte/transkr_autor_cagb.dita" copy-to="cagb/texte_transkr_autor_cagb.dita"/>
-            <topicref href="cagb/frameworks/texte/transkr_hg_cagb.dita" copy-to="cagb/texte_transkr_hg_cagb.dita"/> 
+            <topicref href="cagb/frameworks/texte/transkr_autor_cagb.dita" copy-to="cagb/frameworks/texte/text_transkr_autor_cagb.dita"/>
+            <topicref href="cagb/frameworks/texte/transkr_hg_cagb.dita" copy-to="cagb/frameworks/texte/text_transkr_hg_cagb.dita"/> 
             <topicref href="cagb/frameworks/texte/weitere_auszeichnungen.dita"/>
         </chapter>
     <part href="cagb/frameworks/part_register.dita">   
