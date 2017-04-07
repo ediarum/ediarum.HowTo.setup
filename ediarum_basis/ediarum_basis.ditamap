@@ -2,28 +2,62 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>ediarum-Arbeitsumgebung</mainbooktitle>
+        <mainbooktitle>ediarum.Basis</mainbooktitle>
     </booktitle>
-
-    <chapter href="Einfuehrung.Kap/Ueberschrift_CAGB.dita">
-        <topicref href="Einfuehrung.Kap/Zentrale_Datenhaltung.dita"/>
-        <topicref href="Einfuehrung.Kap/Einsatz_von_XML.dita"/>
-        <topicref href="Einfuehrung.Kap/TEI.dita"/>
+    <chapter href="introduction/ueberschrift.dita">
+        <topicref href="introduction/datenhaltung.dita"/>
+        <topicref href="introduction/xml.dita"/>
+        <topicref href="introduction/tei.dita"/>
     </chapter>
-    <chapter href="Allgemeine_Bedienung.Kap/Ueberschrift.dita">
-        <topicref href="Allgemeine_Bedienung.Kap/Ueberblick.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Arbeiten_mit_dem_Dateibaum.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Werkzeugleiste_allgemein.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Werkzeugleiste_spezifisch.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Ohne_Werkzeugleiste_arbeiten.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Ansichten.dita"/>
-        <topicref href="Allgemeine_Bedienung.Kap/Suche.dita"/>
+    <chapter href="operation/ueberschrift.dita">
+        <topicref href="operation/ueberblick.dita"/>
+        <topicref href="operation/dateibaum.dita"/>
+        <topicref href="operation/ohne_werkzeugleiste.dita"/>
+        <topicref href="operation/ansichten.dita"/>
+        <topicref href="operation/suche.dita"/>
     </chapter>
-    <chapter>
-    <topicref href="Allgemeine_Werkzeugleiste.dita"></topicref>
-    <topicref href="Transkription.dita"></topicref>
-    <topicref href="Metaangaben_Textspezifisch.dita"></topicref>
-        
-        
+    <chapter href="frameworks/letter/ueberschrift.dita">
+        <topicref href="general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
+        <topicref href="frameworks/letter/transkription.dita">
+            <topicref href="frameworks/letter/transkr_autor.dita"></topicref>
+            <topicref href="frameworks/letter/transkr_hg.dita"></topicref>
+        </topicref>
+        <topicref href="frameworks/letter/metaangaben_textspezifisch.dita">
+            <topicref href="frameworks/letter/allgemein.dita"></topicref>
+            <topicref href="frameworks/letter/briefmetaangeben.dita"/>
+            <topicref href="frameworks/letter/brieftext.dita"/>
+            <topicref href="frameworks/letter/symbole.dita"></topicref>
+        </topicref>                  
     </chapter>
+    <chapter href="frameworks/index/ueberschrift.dita">
+        <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>
+        <topicref href="frameworks/index/register.dita">
+            <topicref href="frameworks/index/neuer_eintrag.dita"></topicref>
+            <topicref href="frameworks/index/allgemein.dita"></topicref>
+            <topicref href="frameworks/index/person.dita"></topicref>
+            <topicref href="frameworks/index/werke.dita"></topicref>
+            <topicref href="frameworks/index/sachregister.dita"></topicref>
+            <topicref href="frameworks/index/orte.dita"></topicref>
+            <topicref href="frameworks/index/institutionen.dita"></topicref>
+            <topicref href="frameworks/index/zusammenfuehren.dita"></topicref>
+        </topicref>       
+    </chapter>
+    <part href="rest/part_sonstiges.dita">
+        <chapter href="rest/installation/installation.dita">
+            <topicref href="rest/installation/update.dita"></topicref>
+        </chapter>
+        <chapter href="rest/projektmanagement/projektmanagement.dita"></chapter>
+        <chapter href="rest/admin/ueberschrift.dita">
+            <topicref href="rest/admin/install_existdb.dita"></topicref>
+            <topicref href="rest/admin/install_ediarum_app.dita"></topicref>
+            <topicref href="rest/admin/konfig_dashboar.dita"></topicref>
+            <topicref href="rest/admin/konfig_datenbank.dita"></topicref>
+            <topicref href="rest/admin/berechtigung.dita"></topicref>
+            <topicref href="rest/admin/ediarum_anpassung.dita"></topicref>
+            <topicref href="rest/admin/ausgabe.dita"></topicref>
+            <topicref href="rest/admin/register.dita"></topicref>
+            <topicref href="rest/admin/projektkonfiguration_zotero.dita"></topicref>
+            <topicref href="rest/admin/projektkonfiguration_register.dita"></topicref>
+        </chapter>
+    </part>
 </bookmap>

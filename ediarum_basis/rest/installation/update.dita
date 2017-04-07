@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_qyt_2wp_bz">
+    <title>Update der Arbeitsumgebung</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Die digitale Arbeitsumgebung (d.h. die Oxygen XML Dokumententypzuordnung) wird
+                über einen Server bereitgestellt.</p>
+            <p>URL: http://telotadev.bbaw.de/oxygen/updateSite.xml</p>
+            <p>Dadurch ist es möglich, dass die Arbeitsumgebung nach einmaliger Installation der Software
+                Oxygen XML Author über die programmeigene Updatefunktion aktualisiert werden
+                kann.</p>
+            <p>Für ein Update sind folgende Schritte notwendig:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Nach Start der Anwendung (oder im Menü Hilfe „Check for add-ons updates“ auswählen)
+                    erscheint eine Meldung „Updates available“ auf „Review Updates“ klicken.</cmd>
+            </step>
+            <step>
+                <cmd>Im Dialogfenster unter „Install/Aktualisieren“ ein Häkchen bei der gewünschten
+                    Arbeitsumgebung setzen, deren Status auf „Can be installed“ steht.</cmd>
+            </step>
+            <step>
+                <cmd>Im nachfolgenden Fenster „License and signature“ das Häkchen unten rechts bei „I
+                    accept all terms of the end user license agreement“ setzen</cmd>
+            </step>
+            <step>
+                <cmd>Auf „Aktualisieren“ klicken</cmd>
+            </step>
+            <step>
+                <cmd>Nach Erfolgsmeldung das Programm neu starten</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

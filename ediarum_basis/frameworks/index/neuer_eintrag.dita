@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_g51_2ln_my">
+ <title>Neuer Eintrag</title>
+ <conbody>
+  <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
+   im Personenregister wird in einem <codeph>&lt;person></codeph>-Element, im Ortsregister in einem
+   <codeph>&lt;place></codeph>-Element usw. angelegt. Beim Anlegen eines Eintrages werden Sie über
+   ein Dialogfenster nach grundlegenden Informationen gefragt, die Sie an dieser Stelle schon
+   angeben können (Name, Ortsname usw.).<table id="table_bhk_fln_my">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Registereintrag</entry>
+       <entry>Eintrag als XML-Text</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Person</entry>
+       <entry><codeph>&lt;person></codeph></entry>
+      </row>
+      <row>
+       <entry>Ort</entry>
+       <entry><codeph>&lt;place></codeph></entry>
+      </row>
+      <row>
+       <entry>Werk</entry>
+       <entry><codeph>&lt;bibl></codeph></entry>
+      </row>
+      <row>
+       <entry>Sachbegriff</entry>
+       <entry><codeph>&lt;item></codeph></entry>
+      </row>
+      <row>
+       <entry>Einrichtung</entry>
+       <entry><codeph>&lt;institution></codeph></entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+ </conbody>
+</concept>

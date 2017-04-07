@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_vp2_xgx_5y">
+ <title>Textauszeichnungen des Herausgebers</title>
+ <shortdesc></shortdesc>
+ <conbody/>
+ <concept id="id_qgg_qhx_5y" conref="features/unsichere_lesart.dita#concept_g2c_tfv_ty">
+  <title/>
+ </concept>
+ <concept id="id_lmj_phx_5y" conref="features/nicht_lesbar.dita#concept_gfh_yfv_ty">
+  <title/>
+ </concept>
+ <concept id="id_bz5_4hx_5y" conref="features/gestrichene_nichtlesbar.dita#concept_wt4_dgv_ty">
+  <title/>
+ </concept>
+ <concept id="id_l1q_nhx_5y" conref="features/ergaenzungen_hg.dita#concept_ojx_3gv_ty">
+  <title/>
+ </concept>
+ <concept id="id_g2l_mhx_5y" conref="features/fehlendes_wort.dita#concept_k54_mgv_ty">
+  <title/>
+ </concept>
+ <concept id="id_lsc_lhx_5y" conref="features/streichung_hg.dita#concept_bhr_pgv_ty">
+  <title/>
+ </concept>
+ <concept id="id_lcm_khx_5y" conref="features/korrektur-hg.dita#concept_blt_sgv_ty">
+  <title/>
+ </concept>
+ <concept id="id_wtb_5hx_5y" conref="features/sachanmerkung.dita#concept_lgx_rhx_5y">
+  <title/>
+ </concept>
+ <concept id="id_lm5_fhx_5y" conref="features/verweise.dita#concept_e1f_thv_ty">
+  <title/>
+ </concept>
+ <concept id="id_aht_2hx_5y" conref="features/datum.dita#concept_xrq_xhv_ty">
+  <title/>
+ </concept>
+ <concept id="id_vzd_2hx_5y" conref="features/fremdsprache.dita#concept_qcv_zhv_ty">
+  <title/>
+ </concept>
+ <concept id="id_qlv_chx_5y" conref="features/textstellen.dita#concept_w2t_b3v_ty">
+  <title/>
+ </concept>
+ <concept id="id_axd_chx_5y" conref="features/namen_kennzeichnen.dita#concept_rhd_g3v_ty">
+  <title/>
+ </concept>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_op4_h3j_wx">
+ <title>Metaangaben und textspezifische Funktionen</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p><image href="img/toolbar.png"
+    id="image_r14_wbg_cy"/></p>
+    <p>Mithilfe dieser Werkzeugleiste können Sie zum einen allgemeine Metaangaben machen
+      („Allgemein“), aber auch textspezifische Angaben zu Briefen („Briefmetadaten“ und
+      „Brieftext“). Außerdem können über das Menü "Symbole" Zeichen eingefügt, die sich nicht mit
+      der Standart-Tastatur einfügen lassen. </p>
+    <p>Die Funktionen können Sie nutzen, indem Sie die entsprechende Schaltfläche benutzen. Die
+      Erklärungen, die Sie im Folgenden finden, dienen zum einen dazu, dass Sie die Funktionen
+      genauer kennenlernen und die Schaltflächen benutzen können. Zum anderen geben die Erklärungen
+      einen Einblick in den <xref href="../../introduction/xml.dita">XML-Text</xref> des Dokuments.
+      Die Schaltflächen werden in der <xref href="../../operation/ansichten.dita"
+        >Autoren-Ansicht</xref> verwendet. Die Markierungen, die Sie mithilfe der Schaltflächen
+      vornehmen, speichert das eigentliche XML-Dokument in einem XML-Code, den Sie in der
+      Text-Ansicht sehen können. Die Metaangaben werden dabei im <xref href="../../introduction/tei.dita"><codeph>&lt;teiHeader></codeph></xref>
+      gespeichert.</p>
+ </conbody>
+</concept>

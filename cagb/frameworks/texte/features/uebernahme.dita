@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_xh1_4x5_ty">
+ <title>Übernahme</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Mit dieser Aktion werden Übernahmen und Zitate aus anderen Quellen gekennzeichnet. Es gibt drei
+    Möglichkeiten:<ul id="ul_nk1_mcs_2y">
+    <li>Übernahme eines Aristotelestextes: Wird als Quelle ein Aristotelestext gewählt, ist die
+     Eingabe der kanonischen Referenz erforderlich.</li>
+   </ul><ul id="ul_j3t_ncs_2y">
+    <li>Übernahme aus externer Quelle: Es kann zwischen den in den Metadaten der Datei angegebenen
+     Quellen ausgewählt werden. Im Auswahlfenster können bei gedrückter STRG-Taste auch mehrere
+     Quellen ausgewählt werden.</li>
+    <li>Übernahme aus externer Quelle mit Textstelle: Bei Übernahmen können genauere Textstellen (z.
+     B. Seitenzahl und Zeile) festgehalten werden, diese Angaben sollen in einschlägigen Fällen
+     durch kanonische Referenzen erfolgen. Es kann zwischen den in den Metadaten der Datei
+     angegebenen Quellen ausgewählt werden, und zusätzlich wird noch nach der Seitenangabe der
+     Textstelle in der Quelle gefragt. Im Auswahlfenster können bei gedrückter STRG-Taste auch
+     mehrere Quellen ausgewählt werden.</li>
+        <li>Zitation forsetzen: Um innerhalb einer zitierten Passage eine Variante anzugeben, müssen
+          Sie folgendermaßen vorgehen: Sie markieren die übernommene Stelle mit einer der oben
+          erklärten Aktionen <i>bis</i> zu der Stelle, für die Sie eine Variante angeben möchten. An
+          dieser Stelle nutzen Sie die Aktion „Varianten“ wie gewohnt. Der restliche Text des Zitats
+          wird nach der Variante über die Aktion „Zitation fortsetzen“ markiert. Es öffnet sich ein
+          Dialogfenster, in dem bereits gemachte Zitate angezeigt werden. Wählen Sie das Zitat aus,
+          das Sie forsetzen möchten.</li>
+   </ul>Die Übernahme muss typisiert werden als "Zitation (wörtliche Übernahme)" dargestellt als =,
+   "Simile (syntaktisch angepasst)" dargestellt als ≈ oder "Paraphrasis (angelehnt an)" dargestellt
+   als ∼.</p>
+ </conbody>
+</concept>

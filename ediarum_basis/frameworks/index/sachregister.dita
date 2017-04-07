@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_m5w_mln_my">
+ <title>Sachregister</title>
+ <conbody>
+  <p>Einräge im Sachregister werden in einem <codeph>&lt;item></codeph>-Element notiert. Wenn Sie
+   einen neuen Eintrag erstellen, wird im Attribut <codeph>@xml:id</codeph> eine ID gneriert, mit
+   der Sie auf den Eintrag referieren könnnen. Außerdem können Sie direkt über ein Dialogfenster
+   den Begriff notieren, der in einem <codeph>&lt;label></codeph>-Element notiert wird.<codeblock outputclass="language-xml"><![CDATA[<item xml:id="ed_vgn_5rt_fx">
+   <label type="reg">Bearbeitung von Stücken</label>
+</item>]]></codeblock></p>
+  <p>Sie können eine untergeordnete Ebene anlegen, um einen spezifischeren Begriff anzugeben.</p><codeblock outputclass="language-xml"><![CDATA[<list>
+   <item xml:id="ed_ggf_npf_hy">
+      <label type="reg">[untergeordnete Ebene]</label>
+   </item>
+</list>]]></codeblock>
+ </conbody>
+</concept>

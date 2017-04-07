@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_wt4_dgv_ty">
+ <title><image href="../../img/del_gap16.gif" id="image_ipc_d3f_2y"/>
+  <b>Durchgestrichene und nicht lesbare Zeichen</b></title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Falls ein Zeichen oder eine Zeichenkette durchgesrichen ist und nicht entziffert werden kann,
+   wird es in einem <codeph>&lt;del></codeph>-Element notiert. Dessen Attribut
+    <codeph>@rendition</codeph> zeichnet dabei aus, dass es sich um ein durchstrichenes Wort
+   handelt. Innerhalb des <codeph>&lt;del></codeph>-Elements wird das
+   <codeph>&lt;gap></codeph>-Element angelegt, um zu markieren, dass es sich um eine Textstelle
+   handelt, die nicht transkribiert werden kann. Das <codeph>&lt;gap></codeph>-Element wird genauso
+   gehandhabt wie es unter <xref href="nicht_lesbar.dita#concept_gfh_yfv_ty">„Nicht lesbare
+    Zeichen“</xref> beschrieben wird.</p>
+  <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
+ </conbody>
+</concept>

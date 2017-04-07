@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_x5s_n2v_1z">
+ <title>Ausgabe</title>
+ <conbody>
+  <div><b>Webseite</b><p>Im Ordner web können die notwendigen Dateien (xQuery-Skripte, CSS,
+    etc.) für eine Webpräsentationen gespeichert werden.</p><b>ConTeXt</b><p>Im Ordner druck liegen die notwendigen Dateien um den Druckvorgang
+    auf dem Server anzustoßen</p></div>
+ </conbody>
+</concept>
