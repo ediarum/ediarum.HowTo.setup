@@ -28,7 +28,7 @@
      </row>
      <row>
       <entry>außerdem] <i>über der Zeile</i></entry>
-      <entry><codeblock outputclass="language-xml"><![CDATA[<add place="über der Zeile">außerdem</add>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<add place="superlinear">außerdem</add>]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>
@@ -37,7 +37,7 @@
    ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so steht <codeph>&lt;ex></codeph>
    für „editorial expansion“ und <codeph>&lt;add></codeph> für „addition“.
    Dadurch sind die Auszeichnungen unabhängig von ihrer späteren Formatierung. Beispiel:</p>
-  <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rend="underline">gänzlich</hi> nicht verstehen]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rendition="#u">gänzlich</hi> nicht verstehen]]></codeblock>
   <p>Hier wird lediglich vermerkt, dass im Manuskript das Wort „gänzlich“ unterstrichen war. Ob im
    Druck oder im Web die entsprechende Stelle nun tatsächlich unterstrichen oder vielleicht eher
    gesperrt wird, muss hier nicht entschieden werden.</p>

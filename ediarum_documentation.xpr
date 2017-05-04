@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Handbuch_CAGB.ditamap</String>
+                                    <String>ediarum_basis/ediarum_basis.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -40,7 +40,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ediarum_basis/ediarum_basis.ditamap</String>
+                                    <String>Handbuch_CAGB.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
