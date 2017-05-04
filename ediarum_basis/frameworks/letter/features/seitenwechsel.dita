@@ -12,7 +12,7 @@
    die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
    Digitalisat verlinkt werden, indem der Dateiname oder Link in das Attribut <codeph>@facs</codeph> engetragen
    wird.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<pb n="34" facs="http://grabsch:PpmSr2yUG2gBkNgNMQs7@telotadev.bbaw.de:8028/exist/webdav/db/projects/mega/data/Briefe/1866/Beispiel"/>]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[<pb n="34" facs="http://example.com/exist/rest/db/data/Beispiel"/>]]></codeblock>
   <p>Es kann auch mit <codeph>&lt;fw type="folNum"></codeph> eine alternative Foliozählung angegeben werden, die in
    der Autor-Ansicht in Klammern angezeigt wird.</p>
   <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
