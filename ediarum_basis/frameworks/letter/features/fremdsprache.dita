@@ -2,8 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_qcv_zhv_ty">
  <title><image href="../../img/foreign16.gif" id="image_lcj_vqf_cy"/>
-  <b>Fremdsprachliche Textstellen</b>
- </title>
+  <b>Fremdsprachliche Textstellen</b> und Schriftwechsel</title>
  <conbody>
   <p>Fremdsprachliche Textstellen können mit in einem <codeph>&lt;foreign></codeph>-Element
    ausgezeichnet werden. Im Attribut <codeph>@xml:lang</codeph> wird ein Kürzel der jeweiligen Fremdsprache
@@ -55,6 +54,28 @@
    </table>
   </p>
   <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
+  <p>Über die Schaltfläche können Sie ebenso einen Schriftwechsel Fraktur/Antiqua transkribieren.
+   Der Schriftwechsel wird mit <codeph>&lt;hi></codeph>-Element ausgezeichnet. Das Attribut
+    <codeph>@rendition</codeph> enthält die Angabe zur Schrift:<table id="table_gs3_wd1_yz">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Schriftart</entry>
+       <entry>Wert für <codeph>@rendition</codeph></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Antiqua</entry>
+       <entry><codeph>#aq</codeph></entry>
+      </row>
+      <row>
+       <entry>Fraktur</entry>
+       <entry><codeph>#fr</codeph></entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table><codeblock outputclass="language-xml">&lt;hi rendition="#aq">Vergnügen&lt;/hi></codeblock></p>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title> <link href="http://www.deutschestextarchiv.de/doku/basisformat/fremdsprachlMaterial.html"
   format="html" scope="external"><linktext>Fremdsprachliches Material – Dokumentation des DTABf</linktext></link></linklist> 

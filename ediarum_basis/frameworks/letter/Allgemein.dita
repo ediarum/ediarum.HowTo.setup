@@ -262,11 +262,11 @@
                         </row>
                         <row>
                             <entry>1762</entry>
-                            <entry><codeph>when=="1762"</codeph></entry>
+                            <entry><codeph>when="1762"</codeph></entry>
                         </row>
                         <row>
                             <entry>5. Januar 1762</entry>
-                            <entry><codeph>when=="1762-01-05"</codeph></entry>
+                            <entry><codeph>when="1762-01-05"</codeph></entry>
                         </row>
                     </tbody>
                 </tgroup>

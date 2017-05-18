@@ -74,9 +74,9 @@ ist.</p>]]></codeblock>
     </thead>
     <tbody>
      <row>
-      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n=“17v“></pb>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n="17v"></pb>]]></codeblock></entry>
 
-      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n=“17v“/>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml"><![CDATA[<pb n="17v"/>]]></codeblock></entry>
      </row>
     </tbody>
    </tgroup>
