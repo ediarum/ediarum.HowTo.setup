@@ -78,6 +78,7 @@
    </table><codeblock outputclass="language-xml">&lt;hi rendition="#aq">Vergnügen&lt;/hi></codeblock></p>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title> <link href="http://www.deutschestextarchiv.de/doku/basisformat/fremdsprachlMaterial.html"
-  format="html" scope="external"><linktext>Fremdsprachliches Material – Dokumentation des DTABf</linktext></link></linklist> 
+  format="html" scope="external"><linktext>Fremdsprachliches Material – Dokumentation des DTABf</linktext></link>
+  <link href="http://www.deutschestextarchiv.de/doku/basisformat/schriftart.html" format="html" scope="external"><linktext>Schriftartwechsel – Dokumentation des DTABf</linktext></link></linklist> 
  </related-links>
 </concept>
