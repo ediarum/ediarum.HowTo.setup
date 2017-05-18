@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_gfh_yfv_ty">
  <title><image href="../../img/gap16.gif" id="image_hpc_d3f_2y"/>
-  <b>Nicht lesbare Zeichen</b></title>
+  <b>Nicht lesbare Zeichen und Auslassungen</b></title>
  <conbody>
   <p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
    <codeph>&lt;gap/></codeph> ausgezeichnet. Im Attribut <codeph>@unit</codeph> wird das nicht lesbare Segment näher
@@ -34,8 +34,10 @@
      </tbody>
     </tgroup>
    </table></p>
-  <p>Im Attribut <codeph>@quantity</codeph> wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc. notiert. Das
-   Attribut <codeph>@reason</codeph> gibt den Grund der Unleserlichkeit an:<table id="table_efs_mqs_2y">
+  <p>Im Attribut <codeph>@quantity</codeph> wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc.
+   notiert. Das Attribut <codeph>@reason</codeph> gibt den Grund der Unleserlichkeit an. Außerdem
+   ist es möglich, Textstellen als unwichtig für das Korpus einzustufen. In diesem Fall hat das
+   Attribut <codeph>@reason</codeph> den Wert "insignificant".<table id="table_efs_mqs_2y">
     <tgroup cols="2">
      <thead>
       <row>
@@ -59,6 +61,10 @@
       <row>
        <entry>fremdsprachlicher Text</entry>
        <entry>fm</entry>
+      </row>
+      <row>
+       <entry>für das Korpus unwichtig</entry>
+       <entry>insignificant</entry>
       </row>
      </tbody>
     </tgroup>
