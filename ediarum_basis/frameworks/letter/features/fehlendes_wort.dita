@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_k54_mgv_ty">
+ <title><image href="../../img/supplied16.gif" id="image_lpc_d3f_2y"/>
+  <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
+   <codeph>&lt;supplied></codeph>-Element ergänzt werden. Dabei drückt der Attributwert für <codeph>@cert</codeph>
+   (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist:</p>
+  <table id="table_hxd_thn_my">
+   <tgroup cols="2">
+    <thead>
+     <row>
+      <entry>Wahrscheinlichkeit</entry>
+      <entry>Wert für <codeph>@cert</codeph></entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>niedrig</entry>
+      <entry>low</entry>
+     </row>
+     <row>
+      <entry>hoch</entry>
+      <entry>high</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html?hl=supplied"
+    format="html" scope="external">
+  <linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des DTABf</linktext>
+   </link></linklist>  
+ </related-links>
+</concept>

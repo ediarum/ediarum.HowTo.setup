@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_xbs_x4c_zw">
+ <title>Allgemein</title>
+ <shortdesc>Wie lösche ich ein einfaches Element in der Autorenansicht?</shortdesc>
+ <conbody>
+  <p>Einfaches Element: Setzen Sie den Cursor in das Element, d.h. z.B. in die farbige
+   Markierung
+  eines Ortsnamens. Drücken Sie nun die Tastenkombination Alt + Umschalt + X. Das
+  umgebende Element wird dadurch gelöscht.</p>
+  <p></p>
+  <p>Wie kann ich ein Strukturelement aus der Handschriftenbeschreibung löschen?</p>
+  <p>Klicken Sie in das Element und wählen Sie dann das ganze Element mit Hilfe</p>
+  
+  <p><image href="img/allgemein_tipps.png" ></image></p>
+  <p/>
+  <p>Oxygen XML meldet „Der eingefügte Inhalt ist an dieser Stelle nicht erlaubt“. Was
+   soll ich tun?</p>
+  <p>Unter Umständen kann es vorkommen, dass Oxygen XML beim Arbeiten mit Elementen
+   das Problem meldet: „Der eingefügte Inhalt ist an dieser Stelle nicht erlaubt“. Das passiert
+   dann, wenn eine Einfügung von Elementen nicht dem Schema entsprechen würde.
+   Oxygen XML bietet dann mehrere Optionen an, wie das Element stattdessen schemakonform
+   eingefügt werden könnte. Grundsätzlich sind alle Optionen außer „at current
+   position, even if invalid“ empfehlenswert. Wenn Sie Fragen haben oder diese Meldung
+   öfters auftaucht, wenden Sie sich an uns.</p>
+ </conbody>
+</concept>

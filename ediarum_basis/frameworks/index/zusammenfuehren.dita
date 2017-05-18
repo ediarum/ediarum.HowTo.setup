@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_h5d_qln_my">
+ <title>Zusammenführen</title>
+ <conbody>
+  <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
+   Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag
+   setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als
+   zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als
+   alternative Angaben behandelt.</p>
+ </conbody>
+</concept>

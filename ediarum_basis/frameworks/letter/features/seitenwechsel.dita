@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_n4t_jbv_ty">
+ <title><image href="../../img/pagebreak16.gif" id="image_pcq_yhf_2y"/> Seiten- und Foliowechsel</title>
+ <conbody>
+  <p>Ein Seitenwechsel bzw. Foliowechsel in der Vorlage wird mit dem leeren
+   <codeph>&lt;pb/></codeph>-Element (pagebreak) gekennzeichnet. Das Attribut <codeph>@ed</codeph> wird gesetzt,
+   wenn es sich nicht um die Foliazählung das Manuskript handelt, sondern eines Drucks oder einer
+   Abschrift handelt; <codeph>@n</codeph> enthält die Seiten- bzw. Foliozahl.</p>
+  <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
+  <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
+   die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
+   Digitalisat verlinkt werden, indem der Dateiname oder Link in das Attribut <codeph>@facs</codeph> engetragen
+   wird.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<pb n="34" facs="http://example.com/exist/rest/db/data/Beispiel"/>]]></codeblock>
+  <p>Es kann auch mit <codeph>&lt;fw type="folNum"></codeph> eine alternative Foliozählung angegeben werden, die in
+   der Autor-Ansicht in Klammern angezeigt wird.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msFoliierung.html?hl=folio"
+  format="html" scope="external"><linktext>Seiten- und Blattnummerierung – Dokumentation des DTABf</linktext></link></linklist>
+  
+ </related-links>
+</concept>

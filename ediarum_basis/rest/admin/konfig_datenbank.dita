@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_k5t_ybv_1z">
+ <title>Konfiguration - Datenbank</title>
+ <conbody>
+  <p>Damit später die Routinen auch vom Scheduler ausgeführt werden können, muss die Datei
+    <b>ediarum.jar</b> aus dem Ordner <xref href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/data.html?root=/db/apps/ediarum&amp;node=setup" format="html" scope="external">Setup</xref> in den Pfad <b>exist-db/lib/user/</b> kopiert
+   werden. Nach einem Neustart der Datenbank sollte die Funktion zur Verfügung stehen. Bei Benutzung
+   von SADE lautet der Pfad <b>webapps/exist/WEB-INF/lib/</b>.</p>
+  <p>n der Datei <b>conf.xml</b> im eXist-Ordner bzw. bei SADE im Ordner
+    <b>webapps/exist/WEB-INF/lib/</b> können verschiedene Einstellungen verändert werden. Unter
+    <b>scheduler</b> können wiederkehrende Routinen eingerichtet werden, (s.a. <xref href="http://telotadev.bbaw.de:9121/exist/apps/doc/scheduler.xml" format="html" scope="external">Scheduler Module</xref> in der eXist-Dokumentation). Zunächst muss dort die Zeile</p>
+  <codeblock outputclass="language-xml">&lt;module uri="http://exist-db.org/xquery/scheduler" class="org.exist.xquery.modules.scheduler.SchedulerModule"</codeblock>
+  <p>entkommentiert werden. Die Einstellungen für ein vierstündliches inkrementelles Backup mit
+   täglichem Vollbackup sehen so
+   aus:<codeblock outputclass="language-xml">&lt;job type="system" name="backup"
+    class="org.exist.storage.ConsistencyCheckTask"
+    cron-trigger="0 0 0/4 * * ?">
+    &lt;parameter name="output" value="path/to/backup/directory"/>
+    &lt;parameter name="backup" value="yes"/>
+    &lt;parameter name="incremental" value="yes"/>
+    &lt;parameter name="incremental-check" value="no"/>
+    &lt;parameter name="max" value="6"/>
+&lt;/job></codeblock></p>
+  <p>Die Einrichtung eines Scheduler-Jobs zur Ausführung eines in der Datenbank liegenden
+   (geschützen) xQuerys sieht folgendermaßen
+   aus:<codeblock outputclass="language-xml">&lt;job type="user" name="validation"
+    class="org.bbaw.telota.ediarum.existdb.OpenProtectedURL"
+    cron-trigger="0 5 1 * * ?">
+    &lt;parameter name="url" value="http://www.example.com:8080/exist/rest/db/apps/ediarum/routinen/validation.xql"/>
+    &lt;parameter name="username" value="bot1"/>
+    &lt;parameter name="password" value="bot1"/>
+&lt;/job></codeblock></p>
+  <p>Um den Port der Datenbank zu verändern (s. a. <xref
+    href="http://telotadev.bbaw.de:9121/exist/apps/doc/troubleshooting.xml#port-conflicts"
+    format="html" scope="external">Port-Konflikte</xref>), muss in der Datei
+    <b>tools/jetty/etc/jetty.xml</b> im eXist-Ordner in der Zeile</p>
+  <codeblock outputclass="language-xml">38: &lt;Set name="port">&lt;SystemProperty name="jetty.port" default="8080"/>&lt;/Set></codeblock>
+  <p>die Portnummer 8080 auf die gewünschte Portnummer eingestellt werden. Der Port 8443 für sichere
+   Verbindungen kann in der gleichen Datei in den beiden Zeileni n den gewünschten Port geändert
+   werden.</p>
+  <codeblock outputclass="language-xml">42: &lt;Set name="confidentialPort">
+        &lt;SystemProperty name="jetty.port.ssl" default="8443"/>
+    &lt;/Set>
+234: &lt;Set name="Port">&lt;SystemProperty name="jetty.port.ssl" default="8443"/>&lt;/Set></codeblock>
+ </conbody>
+</concept>

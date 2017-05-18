@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bc4_sbv_1z">
+ <title>Dashboard</title>
+ <conbody>
+  <p>
+   <div>
+    <p>Über das <xref href="http://telotadev.bbaw.de:9121/exist/" format="html" scope="external"
+      >Dashboard</xref> hat man Zugriff auf verschiedene Möglichkeiten die Datenbank zu
+     konfigurieren. Von dort kommt man auch auf die <xref
+      href="http://telotadev.bbaw.de:9121/exist/apps/ediarum/" format="html" scope="external"
+      >Startseite</xref> der ediarum-App.</p>
+   </div>
+  </p>
+ </conbody>
+</concept>

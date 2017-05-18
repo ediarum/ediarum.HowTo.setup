@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Handbuch zur Einrichtung - ediarum.Basis </mainbooktitle>
+    </booktitle>
+    <chapter href="rest/installation/installation.dita">
+        <topicref href="rest/installation/update.dita"></topicref>
+    </chapter>
+    <chapter href="rest/projektmanagement/projektmanagement.dita"></chapter>
+    <chapter href="rest/admin/ueberschrift.dita">
+        <topicref href="rest/admin/install_existdb.dita"></topicref>
+        <topicref href="rest/admin/install_ediarum_app.dita"></topicref>
+        <topicref href="rest/admin/konfig_dashboar.dita"></topicref>
+        <topicref href="rest/admin/konfig_datenbank.dita"></topicref>
+        <topicref href="rest/admin/berechtigung.dita"></topicref>
+        <topicref href="rest/admin/ediarum_anpassung.dita"></topicref>
+        <topicref href="rest/admin/ausgabe.dita"></topicref>
+        <topicref href="rest/admin/register.dita"></topicref>
+        <topicref href="rest/admin/projektkonfiguration_zotero.dita"></topicref>
+        <topicref href="rest/admin/projektkonfiguration_register.dita"></topicref></chapter>
+</bookmap>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_g2c_tfv_ty">
+ <title><image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> Unsichere Lesarten</title>
+ <conbody>
+  <p>Die Wörter, die vom Herausgeber nicht eindeutig entziffert werden können, werden mit dem
+   <codeph>&lt;unclear></codeph>-Element ausgezeichnet. Im Attribut <codeph>@reason</codeph> wird die Ursache der
+   Unsicherheit angegeben:<table id="table_y1g_1qs_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Ursache der Unsicherheit</entry>
+       <entry>Wert für <codeph>@reason</codeph></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>unleserlich</entry>
+       <entry>illegible</entry>
+      </row>
+      <row>
+       <entry>Überzeichnung/Überschreibung</entry>
+       <entry>covered</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+  <p>Das Attribut <codeph>@cert</codeph> (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Ergänzung
+    zutrifft.<table id="table_ssv_tps_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Wahrscheinlichkeit</entry>
+       <entry>Wert für <codeph>@cert</codeph></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>niedrig</entry>
+       <entry>low</entry>
+      </row>
+      <row>
+       <entry>hoch</entry>
+       <entry>high</entry>
+      </row>
+     </tbody>
+    </tgroup>
+    </table></p><codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
+ </conbody>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msEditorCert.html?hl=unclear"
+  format="html" scope="external"><linktext>Unsichere Lesarten – Dokumentation des DTABf</linktext></link></linklist>
+ </related-links>
+</concept>

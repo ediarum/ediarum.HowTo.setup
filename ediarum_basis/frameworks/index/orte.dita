@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+ <concept id="concept_wpj_jln_my">
+  <title>Ortsregister</title>
+  <conbody>
+   <p>Ein Eintrag im Ortsregister wird in einem <codeph>&lt;place></codeph>-Element notiert. Wenn
+    Sie einen neuen Eintrag erstellen, wird im Attribut <codeph>@xml:id</codeph> eine ID generiert, mit der Sie auf
+    den Eintrag referien können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
+    angeben.<codeblock outputclass="language-xml"><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
+   <p>Der Name des Ortes wird in einem <codeph>&lt;placeName></codeph>-Element
+    angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Liverpool</placeName>]]></codeblock></p>
+   <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
+    Gebäude angeben. Diese Angabe wird in einem <codeph>&lt;listPlace></codeph> notiert. Weil es
+    sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
+    <codeph>&lt;place></codeph>-Element angegeben und erhält im Attribut <codeph>@xml:id</codeph> eine individuelle
+    ID. Im Attribut <codeph>@type</codeph> wird ausgezeichnet ob es sich um eine Straße (street) oder um ein Gebäude
+    (bulidung) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
+   <place xml:id="ediarum_t4p_lhf_hy" type="street">
+      <placeName type="reg">Aberdeen St </placeName>
+   </place>
+</listPlace>]]></codeblock></p>
+   <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
+    über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
+    Link wird in einem <codeph>&lt;idno></codeph>-Element (identifikator)
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2641805<idno>]]></codeblock></p>
+  </conbody>
+ </concept>

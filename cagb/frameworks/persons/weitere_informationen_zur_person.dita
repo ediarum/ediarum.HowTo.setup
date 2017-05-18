@@ -2,11 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_v4x_hmc_zw">
  <title>Weitere Informationen zur Person</title>
- <shortdesc></shortdesc>
  <conbody>
   <p>In weiteren Abschnitten können andere Informationen, wie Titel oder Publikationen
    der Person notiert werden. Der Aufbau ist dabei immer gleich, lediglich der Wert von
-   @subtype sowie der Inhalt von <![CDATA[<head/>]]> wird anders gesetzt. Beispiel:</p>
+   <codeph>@subtype</codeph> sowie der Inhalt von <codeph>&lt;head/></codeph> wird anders gesetzt. Beispiel:</p>
   <codeblock outputclass="language-xml"><![CDATA[
 <div type=“section“ subtype=“publications“>
    <head type=“publications“>Werke</head>
@@ -23,7 +22,7 @@
     <thead>
      <row>
       <entry>Bezeichnung</entry>
-      <entry>Attributwert von @type</entry>
+      <entry>Attributwert von <codeph>@type</codeph></entry>
       <entry>Bemerkungen</entry>
      </row>
     </thead>

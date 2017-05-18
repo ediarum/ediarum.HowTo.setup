@@ -2,7 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="sonstiges">
  <title>Sonstiges</title>
- <shortdesc></shortdesc>
  <conbody>
   <p>Es gibt die Möglichkeit den Status einer Registerdatei als "Entwurf" oder "Final" zu markieren.
    Diese Auszeichnung ist nicht zur Veröffentlichung bestimmt. Ebenso ist es möglich Notizfeld zu
