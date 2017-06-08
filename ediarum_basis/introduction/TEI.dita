@@ -64,20 +64,25 @@
     <tbody>
      <row>
       <entry>Metaangaben zum XML-Dokument</entry>
-      <entry><codeblock outputclass="language-xml"><![CDATA[<TEI xmlns="http://tei-c.org/ns/1.0" xml:lang="de">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>[Dokumenttitel]</title>
-         </titleStmt>
-         <publicationStmt>
-            ... [Angaben zum Herausgeber]
-         </publicationStmt>
-      </fileDesc>
-      <revisionDesc>
-         ... [Angaben zur Berarbeitung des XML-Dokuments]
-      </revisionDesc>
-   </teiHeader>]]></codeblock></entry>
+      <entry><codeblock outputclass="language-xml">&lt;teiHeader>
+        &lt;fileDesc>
+            &lt;titleStmt>
+                ...
+            &lt;/titleStmt>
+            &lt;editionStmt>
+                ...
+            &lt;/editionStmt>
+            &lt;publicationStmt>
+                … [Angaben zur Herausgeberin]
+            &lt;/publicationStmt>
+            &lt;sourceDesc>
+                ...
+            &lt;/sourceDesc>
+        &lt;/fileDesc>
+        &lt;profileDesc>
+            ...
+        &lt;/profileDesc>
+    &lt;/teiHeader></codeblock></entry>
      </row>
      <row>
       <entry>Text</entry>

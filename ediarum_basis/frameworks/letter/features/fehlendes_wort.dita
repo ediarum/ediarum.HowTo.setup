@@ -5,9 +5,10 @@
   <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></title>
  <shortdesc></shortdesc>
  <conbody>
-  <p>Fehlende Wörter oder Satzzeichen können durch den Herausgeber mit einem
-   <codeph>&lt;supplied></codeph>-Element ergänzt werden. Dabei drückt der Attributwert für <codeph>@cert</codeph>
-   (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig ist:</p>
+  <p>Fehlende Wörter oder Satzzeichen können durch die Herausgeberin mit einem
+    <codeph>&lt;supplied></codeph>-Element ergänzt werden. Dabei drückt der Attributwert für
+    <codeph>@cert</codeph> (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig
+   ist:</p>
   <table id="table_hxd_thn_my">
    <tgroup cols="2">
     <thead>

@@ -7,8 +7,8 @@
    Sie diesen Fehler mithilfe des <codeph>&lt;choice></codeph>-Elements korrigieren. Das
    Originalwort wird in einem <codeph>&lt;sic></codeph>-Element notiert, die Korrektur in einem
     <codeph>&lt;corr></codeph>-Element. Im <codeph>&lt;corr></codeph>-Element wird durch das
-   Attribut <codeph>@cert</codeph> (certainty) die Wahrscheinlichkeit notiert, mit der die identifizierte Korrektur
-   zutrifft: <table id="table_wl2_xhn_my">
+   Attribut <codeph>@cert</codeph> (certainty) die Wahrscheinlichkeit notiert, mit der die
+   identifizierte Korrektur zutrifft: <table id="table_wl2_xhn_my">
     <tgroup cols="2">
      <thead>
       <row>
@@ -31,8 +31,8 @@
       </row>
      </tbody>
     </tgroup>
-   </table>Die korrigiert Textstelle wird im <codeph>&lt;sic></codeph> angegeben, die eigentliche
-   Korrektur durch den Herausgeber im <codeph>&lt;corr></codeph>.</p>
+   </table>Die korrigiert Textstelle wird im <codeph>&lt;sic></codeph>-Element angegeben, die
+   eigentliche Korrektur durch die Herausgeberin im <codeph>&lt;corr></codeph>-Element.</p>
   <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
    <sic>daß</sic>
    <corr cert="high">das</corr>

@@ -5,12 +5,11 @@
   <b>Streichungen durch den Herausgeber</b></title>
  <conbody>
   <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können, nachdem
-   diese transkribiert wurden, durch den Bearbeiter/Herausgeber durch das
+   diese transkribiert wurden, durch den Bearbeiter bzw. die Herausgeberin durch das
     <codeph>&lt;choice></codeph>-Element als überflüssig markiert werden. Die Textstelle, die
    gestrichen werden soll, wird dabei im <codeph>&lt;sic></codeph>-Element notiert. Im
     <codeph>&lt;corr></codeph>-Element (correction) wird die Stelle durch das Attribut
-    <codeph>@type</codeph>, das immer denselben Wert hat, als gestrichen ausgewiesen.
-   </p>
+    <codeph>@type</codeph>, das immer denselben Wert hat, als gestrichen ausgewiesen. </p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
    <sic>Schiller-Anstalt</sic>
    <corr type="deleted"/>
