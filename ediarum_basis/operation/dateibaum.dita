@@ -12,7 +12,7 @@
    Programm auf bestimmte Ordner und Dateien zugreifen müssen.</p>
   <p><image href="img/Dateibaum.png" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
-   sich um eine zentrale Datenbank handelt, auf die alle Mitarbeiter/-innen der Arbeitstelle
+   sich um eine zentrale Datenbank handelt, auf die alle MitarbeiterInnen der Arbeitstelle
    zugreifen, darf jede Datei gleichzeitig nur von einem Berarbeiter geöffnet werden. Ist eine Datei
    bereits von einem Nutzer geöffnet, erscheint ein kleines Hängeschloßsymbol an der entsprechenden
    Datei. Versucht man die Datei dennoch zu öffnen, erscheint ein Warnhinweis, der zum Abbrechen des

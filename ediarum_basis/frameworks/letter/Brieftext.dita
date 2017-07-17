@@ -10,7 +10,7 @@
         am Briefende (<codeph>&lt;closer></codeph>) stehen.</p>
       <codeblock outputclass="language-xml"><![CDATA[<opener>
    <address>
-      <addrLine>Berlin, Jägerstraße 12</addrLine>
+      <addrLine>Bargfeld, Jägerstraße 12</addrLine>
    </address>
 </opener>]]></codeblock>
     </conbody>

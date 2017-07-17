@@ -4,13 +4,15 @@
  <title>Register</title>
  <conbody>
   <p>Das Register besteht in der Arbeitsumgebung ediarum.basis nicht aus einer, sondern aus mehreren
-   Dateien. Dabei wird für jeden Registertyp eine eigene Datei angelegt. In ediarum.basis stehen
-   derzeit fünf Dateitypen zu Verfügung, deren XML-Struktur auf den erfassten Gegenstand angepasst
-   ist. Allerdings stimmt die Struktur grob überein, weswegen diese Dateien in vielerlei Hinsicht
-   gleich funktionieren. Die gemeinsamen Funktionen werden unter „Neuer Eintrag“ und „Allgemein“
-   erläutert. Registerspezifische Funktion hingegen werden in den einzelnen Kapiteln vorgestellt.
-   Natürlich müssen Sie nicht alle Register- bzw. Dateitypen anlegen, um über ein funktionierendes
-   Register zu verfügen.<table id="table_bhk_fln_my">
+   Dateien. Dabei wird für jeden Registertyp eine eigene Datei angelegt, d.h. der Personenregister,
+   Ortsregister, Werkregister etc. wird jeweils in <i>einer</i> Datei angelegt. In ediarum.basis
+   stehen derzeit fünf Dateitypen zu Verfügung, deren XML-Struktur auf den erfassten Gegenstand
+   angepasst ist. Allerdings stimmt die Struktur grob überein, weswegen diese Dateien in vielerlei
+   Hinsicht die glleiche Funktionsweise haben. Die  Funktionen, die für alle Registertypen
+   übergreifend gelten, werden unter „Neuer Eintrag“ und „Allgemein“ erläutert. Registerspezifische
+   Funktion hingegen werden in den einzelnen Kapiteln vorgestellt. Natürlich müssen Sie nicht alle
+   Register- bzw. Dateitypen anlegen, um über ein funktionierendes Register zu verfügen.<table
+    id="table_bhk_fln_my">
     <tgroup cols="2">
      <thead>
       <row>

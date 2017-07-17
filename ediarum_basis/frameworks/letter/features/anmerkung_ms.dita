@@ -4,20 +4,20 @@
  <title><image href="../../img/note16.gif" id="image_jll_5ls_2y"/> Anmerkung im Manuskript</title>
  
  <conbody>
-  <p>Anmerkungen des Autors oder zeitgenössischen Bearbeiters werden an der entsprechenden
-   Textstelle (an der im Manuskript das Verweiszeichen bzw. -ziffer steht) eingefügt. Das
-   Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür in der obersten Leiste des
-   Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“ aus: über das Kontextmenü
-   besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt der Fußnote wird in
-    einem<codeph> &lt;note></codeph>-Element (Anmerkung) notiert:</p>
+  <p>Anmerkungen des Autors bzw. der Autorin oder einer zeitgenössischen Bearbeiterin bzw.
+   Bearbeiters werden an der entsprechenden Textstelle (an der im Manuskript das Verweiszeichen bzw.
+   -ziffer steht) eingefügt. Das Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür
+   in der obersten Leiste des Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“
+   aus: über das Kontextmenü besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt
+   der Fußnote wird in einem<codeph> &lt;note></codeph>-Element (Anmerkung) notiert:</p>
   <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
 eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
 Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
-  <p>Für das Attribut <codeph>@hand</codeph> wird entweder "#author" (für den Autor), "#addressee" (für den
-   Empfänger des Briefes) oder eine Person aus dem Personen-Register notiert. Über eine Liste kann
-   die entsprechende Person aus dem Personen-Register ausgewählt werden, sodass das Attribut <codeph>@hand</codeph>
-   automatisch mit der entsprechenden ID besetzt wird. Der Ort der Anmerkung wird im Attribut
-   <codeph>@place</codeph> angegeben: </p>
+  <p>Für das Attribut <codeph>@hand</codeph> wird entweder "#author" (für den Autor/Autorin),
+   "#addressee" (für Empfänger des Briefes) oder eine Person aus dem Personen-Register notiert. Über
+   eine Liste kann die entsprechende Person aus dem Personen-Register ausgewählt werden, sodass das
+   Attribut <codeph>@hand</codeph> automatisch mit der entsprechenden ID besetzt wird. Der Ort der
+   Anmerkung wird im Attribut <codeph>@place</codeph> angegeben: </p>
   <table id="table_pg1_ngn_my">
    <tgroup cols="2">
     <thead>

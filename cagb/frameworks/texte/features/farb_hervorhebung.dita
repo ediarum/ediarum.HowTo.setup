@@ -5,8 +5,8 @@
  <shortdesc></shortdesc>
  <conbody>
    <p>Im Manuskript andersfarbig hervorgehobene Wörter oder Wortteile werden mit<codeph>&lt;hi>
-     rend=“color(red)“/></codeph> (highlighted) ausgezeichnet. Im Attribut <codeph>@rend</codeph> wird color() notiert, wobei
-      in der Klammer die entsprechende Farbe angegeben
+        rend=“color(red)“/></codeph> (highlighted) ausgezeichnet. Im Attribut <codeph>@rend</codeph>
+      wird color([englisch_farbe]) notiert, wobei in der Klammer die entsprechende Farbe angegeben
       wird.<codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rend=“color(red)“>durchdacht</hi>]]> habe</codeblock></p>
  </conbody>
 </concept>

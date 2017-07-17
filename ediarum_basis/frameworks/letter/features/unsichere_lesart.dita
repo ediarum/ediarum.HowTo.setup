@@ -3,9 +3,9 @@
 <concept id="concept_g2c_tfv_ty">
  <title><image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> Unsichere Lesarten</title>
  <conbody>
-  <p>Die Wörter, die von der Herausgeberin nicht eindeutig entziffert werden können, werden mit dem
-    <codeph>&lt;unclear></codeph>-Element ausgezeichnet. Im Attribut <codeph>@reason</codeph> wird
-   die Ursache der Unsicherheit angegeben:<table id="table_y1g_1qs_2y">
+  <p>Die Wörter, die von den HerausgeberInnen nicht eindeutig entziffert werden können, werden mit
+   dem <codeph>&lt;unclear></codeph>-Element ausgezeichnet. Im Attribut <codeph>@reason</codeph>
+   wird die Ursache der Unsicherheit angegeben:<table id="table_y1g_1qs_2y">
     <tgroup cols="2">
      <thead>
       <row>
