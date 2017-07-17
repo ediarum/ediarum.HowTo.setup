@@ -14,142 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>ediarum_basis/ediarum_einrichten.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>cagb/frameworks/texte/transkr_autor_cagb.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Handbuch_CAGB.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>cagb/frameworks/texte/transkr_hg_cagb.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>develop/entwickler_handbuch.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Testkopie_CAGB.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>cagb/Uebersichtstabelle/Tabelle.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Handbuch_I_CAGB.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>cagb/Handschriftenbeschreibung.Kap/CAGB_Inline_Elements.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map WebHelp Responsive - Kopie</String>
+                                        <String>ediarum.EDIT</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -292,25 +157,29 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>webhelp.logo.image</String>
+                                                <String>webhelp.fragment.after.body</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
+                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String></String>
                                             </field>
                                             <field name="type">
                                                 <Integer>2</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -350,29 +219,25 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>webhelp.fragment.after.body</String>
+                                                <String>webhelp.logo.image</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
+                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String></String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>2</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <String-array>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -402,7 +267,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp Responsive - Kopie</String>
+                                    <String>ediarum.EDIT</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
