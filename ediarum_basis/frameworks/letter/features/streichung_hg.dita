@@ -5,7 +5,7 @@
   <b>Streichungen durch den Herausgeber</b></title>
  <conbody>
   <p>Im Manuskript vorhandene redundante bzw. überflüssige Wörter oder Buchstaben können, nachdem
-   diese transkribiert wurden, durch den Bearbeiter bzw. die Herausgeberin durch das
+   diese transkribiert wurden, durch die BearbeiterInnen bzw. die HerausgeberInnen durch das
     <codeph>&lt;choice></codeph>-Element als überflüssig markiert werden. Die Textstelle, die
    gestrichen werden soll, wird dabei im <codeph>&lt;sic></codeph>-Element notiert. Im
     <codeph>&lt;corr></codeph>-Element (correction) wird die Stelle durch das Attribut

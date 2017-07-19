@@ -157,29 +157,25 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>webhelp.fragment.after.body</String>
+                                                <String>webhelp.logo.image</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
+                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String></String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>2</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <String-array>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -219,25 +215,29 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>webhelp.logo.image</String>
+                                                <String>webhelp.fragment.after.body</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
+                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <null/>
+                                                <String></String>
                                             </field>
                                             <field name="type">
                                                 <Integer>2</Integer>
                                             </field>
                                             <field name="possibleValues">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
