@@ -157,6 +157,36 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
+                                                <String>generate.copy.outer</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>3</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>1</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>1</String>
+                                                    <String>3</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>Do not generate output for content that is located outside the DITA map directory.</String>
+                                                    <String>Shift the output directory so that it contains all output for the publication.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
                                                 <String>webhelp.fragment.after.body</String>
                                             </field>
                                             <field name="description">
