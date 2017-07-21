@@ -3,13 +3,28 @@
 <concept id="concept_uhs_j1v_ty">
  <title><image href="../../img/paragraph16.png" id="image_lcq_yhf_2y"/> Absatz</title>
  <conbody>
-  <p>Absätze werden mit <codeph>&lt;p></codeph>-Element (paragraph – Absatz) gekennzeichnet. Ein neuer Absatz kann auf zwei
-   Arten eingefügt werden: </p>
-  <p>1. Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-   href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</p>
-  <p>2. Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-   platzieren, Return drücken und „Teilen p“ auwählen – indem man einfach nochmals Return
-   drückt.</p>
+  <section>
+   <title>Allgemeines</title>
+  <p>Absätze werden mit <codeph>&lt;p></codeph>-Element (paragraph – Absatz) gekennzeichnet. Ein
+   neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden: </p>
+  <p>
+   <ol id="ol_rly_4fx_p1b">
+    <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
+      href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
+    <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
+     platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
+     drückt.</li>
+    <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird der
+     Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
+   </ol>
+  </p>
+  </section>
+  <section id="test2178494">
+   <title>Absatz einrücken</title>
+   <p>Über die Funktion "Absatz/Liste eingerückt" im Menü "ediarum > Sonderfunktionen" kann der gesamte Absatz eingerückt werden. Diese Funktion sollte nur verwendet werden, wenn die
+     Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <xmlatt>rendition</xmlatt>
+     mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
+  </section>
  </conbody>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/absatz.html" format="html"
   scope="external"><linktext>Absatz – Dokumentation des DTABf</linktext></link></linklist>  
