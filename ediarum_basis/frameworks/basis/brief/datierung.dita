@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="datierung">
+    <title>Datierung</title>
+    <body>
+        <p>Datumsangaben werden mit einem <codeph>&lt;date></codeph>-Element ausgezeichnet. Wichtig
+            ist, dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen <codeph>@when</codeph> bzw.
+            <codeph>@from/@to</codeph> und <codeph>@notBefore/@notAfter</codeph> notiert werden. Dadurch kann der in der Datumsangabe
+            enthaltene Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche
+            in bestimmten Zeiträumen). Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit
+            angegeben, mit der die Datumsangabe zutrifft: high, low.</p>
+        <p>1. Genaues Datum</p>
+        <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
+        <p>2. Genaue Zeitspanne</p>
+        <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">in</date>]]></codeblock>
+        <p>3. Ungefährer Zeitraum</p>
+        <p>
+            <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+        </p>
+        <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
+            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“, „Genaue Zeitspanne“ und
+            „Ungefährer Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. </p>
+    </body>
+</topic>

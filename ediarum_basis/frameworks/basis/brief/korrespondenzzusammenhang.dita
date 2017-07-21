@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="korrespondenzzusammenhang">
+    <title>Korrespondenzzusammenhang des Briefes</title>
+    <body>
+        <p>Außerdem können Sie noch einen Korrespondenzkontext <codeph>&lt;correspContext></codeph>
+            erstellen, in dem Sie auf vorangehende bzw. nachfolgende Briefe verweisen. Im Attribut
+            <codeph>@target</codeph> wird der interne Link des entsprechenden Briefs angegeben. Das Attribut <codeph>@type</codeph> gibt
+            dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief handelt.<table
+                id="table_k4w_y2d_gy">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Korrespondierender Brief</entry>
+                            <entry>Wert für <codeph>@type</codeph></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>vorangehender Brief</entry>
+                            <entry>prev</entry>
+                        </row>
+                        <row>
+                            <entry>nachfolgender Brief</entry>
+                            <entry>next</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <codeblock outputclass="language-xml"><![CDATA[<correspContext>
+   <ref type="next" target="B00009"/>
+   <ref type="prev" target="B00002"/>
+</correspContext>]]></codeblock>
+        <p>Sie können anstelle eines internen Links auch einen Text eingeben, in dem Sie Angaben zu
+            vorangehenden und nachfolgenden Briefen machen können.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
+        <p>Sie können ebenfalls einen externen Link zu einem Brief herstellen und zusätzlich einen
+            Text eingeben.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
+    </body>
+</topic>

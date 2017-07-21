@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="postskriptum">
+    <title>Postskriptum</title>
+    <body>
+        <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument im
+            <codeph>&lt;postcript></codeph>-Element notiert.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<postscript>
+   <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
+</postscript>]]></codeblock>
+    </body>
+    <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brPostscriptum.html"
+        format="html" scope="external"><linktext>Postskriptum  – Dokumentation des DTABf</linktext></link></linklist>    
+    </related-links>
+</topic>

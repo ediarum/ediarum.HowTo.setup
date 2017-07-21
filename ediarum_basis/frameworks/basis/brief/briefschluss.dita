@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="briefschluss">
+    <title>Briefschluss</title>
+    <body>
+        <p>Der Briefschluss wird in einem <codeph>&lt;closer></codeph>-Element notiert. Im
+            <codeph>&lt;salute></codeph>-Element wird die Grußformel, im
+            <codeph>&lt;signed></codeph>-Element die Unterschrift notiert. Dabei gibt das Attribut <codeph>@rend</codeph>
+            im <codeph>&lt;closer></codeph>-Element an, wo der Briefschluss notiert wurde. <table
+                id="table_z4c_wqq_gy">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Briefschluss</entry>
+                            <entry>Wert für <codeph>@rend</codeph></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>eigener Absatz</entry>
+                            <entry>paragraph</entry>
+                        </row>
+                        <row>
+                            <entry>innerhalb einer Zeile</entry>
+                            <entry>within the line</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+    <salute>Beste Grüße</salute>
+   <signed>F.E.</signed>
+</closer>]]></codeblock>
+    </body>
+    <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brAllg.html"
+        format="html" scope="external"><linktext>Grundstruktur der Kodierung von Briefen – Dokumentation des DTABf</linktext></link></linklist>
+        
+    </related-links>
+    <topic id="datumszeile_briefschluss">
+        <title>Datumszeile im Briefschluss</title>
+        <body><p>Die Datumszeile am Briefende wird innerhalb des <codeph>&lt;closer></codeph>-Elements
+            notiert. Sie wird dort dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter
+            Grußformel und Unterschrift transkibiert werden.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+   <dateline>4. Januar 1886</dateline>
+   ...
+</closer>]]></codeblock></body>
+    </topic>
+</topic>
