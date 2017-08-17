@@ -63,11 +63,12 @@
     <title><b>Datierung</b></title>
     <conbody>
       <p>Datumsangaben werden mit einem <codeph>&lt;date></codeph>-Element ausgezeichnet. Wichtig
-        ist, dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen <codeph>@when</codeph> bzw.
-        <codeph>@from/@to</codeph> und <codeph>@notBefore/@notAfter</codeph> notiert werden. Dadurch kann der in der Datumsangabe
+        ist, dass die Datumsangaben nochmals in einem bestimmten Format in den Attributen
+          <codeph>@when</codeph> bzw. <codeph>@from/@to</codeph> und
+          <codeph>@notBefore/@notAfter</codeph> notiert werden. Dadurch kann der in der Datumsangabe
         enthaltene Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche
-        in bestimmten Zeiträumen). Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit
-        angegeben, mit der die Datumsangabe zutrifft: high, low.</p>
+        in bestimmten Zeiträumen). Außerdem wird in den Attribut <codeph>@cert</codeph> die
+        Wahrscheinlichkeit angegeben, mit der die Datumsangabe zutrifft: high, low.</p>
       <p>1. Genaues Datum</p>
       <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
       <p>2. Genaue Zeitspanne</p>
