@@ -33,7 +33,7 @@
    <p> Humboldt Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
     wiedergegeben.</p>
   </section>
-  <section id="section_hz5_ll2_bbb">
+  <section id="section_hz5_ll2_bbb" audience="editor">
    <title>Bedienung</title>
    <p>Für die Notierung von Seiten- und Foliaangaben stehen in ediarum drei Funktionen in der
     Werkzeugleiste im Menü mit dem Symbol XX zur Verfügung:</p>
@@ -61,10 +61,10 @@
    <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
    <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element fw kodiert, dessen
     Attribut type den Wert folnum aufweist.</p>
+    <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
+    <p>Alle Auszeichnungsvarianten sind DTABf-konform.</p>
   </section>
   <section id="section_mpg_5l2_bbb">
-   <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
-   <p>Alle Auszeichnungsvarianten sind DTABf-konform.</p>
    <title>Anzeige</title>
    <p>In der digitalen Edition wird der Seitenwechsel im Text mit einem senkrechten Strich „|”
     wiedergegeben. Auf der Höhe dieser Markierung wird ausgerückt am Rand des Textblocks die

@@ -21,12 +21,12 @@
         <topicref href="frameworks/basis/text/textstrukturen.dita">
             <topicref href="frameworks/basis/text/absatz.dita"/>           
             <topicref href="frameworks/basis/text/zeilenumbruch.dita"/>
+            <topicref href="frameworks/basis/text/seitenwechsel.dita"/>
             <topicref href="frameworks/basis/text/listen.dita"/>
             <topicref href="frameworks/basis/text/gedicht.dita"/>
             <topicref href="frameworks/basis/text/tabelle.dita"/>
             <topicref href="frameworks/basis/text/anmerkung_ms.dita"/>
             <topicref href="frameworks/basis/text/zeichnung.dita"/>
-            <topicref href="frameworks/basis/text/seitenwechsel.dita"/>
         </topicref>
         <topicref href="frameworks/basis/text/_intro_autor.dita">
             <topicref href="frameworks/basis/text/untersreichung.dita"/>
