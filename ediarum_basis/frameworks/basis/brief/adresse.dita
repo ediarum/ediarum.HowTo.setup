@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="adresse">
+    <title>Adresse</title>
+    <body>
+        <p>Die Adresszeile eines Briefes geben Sie im <codeph>&lt;addrLine></codeph>-Element (address
+            line) an. Die Adresszeile muss entweder am Briefangang (<codeph>&lt;opener></codeph>) oder
+            am Briefende (<codeph>&lt;closer></codeph>) stehen.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<opener>
+   <address>
+      <addrLine>Bargfeld, Jägerstraße 12</addrLine>
+   </address>
+</opener>]]></codeblock>
+    </body>
+</topic>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="abschrift_entwurf">
+    <title>Abschrift &amp; Entwurf</title>
+    <body>
+        <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die
+            nur archivalisch überliefert sind, wird dieser Textzeuge auch in einem
+            <codeph>&lt;witness></codeph>-Element erfasst. Es werden aber einige
+            Detailinformationen gefordert. Im <codeph>&lt;msDesc></codeph>-Element (manuscipt
+            description) wird über das Attribut <codeph>@type</codeph> angegeben, ob es sich um eine Abschrift
+            (copy) oder einen Entwurf (concept) handelt. Außerdem muss die aufbewahrende
+            Institution (<codeph>&lt;institution></codeph>) angegeben werden. Optional können
+            Sie noch Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur
+            (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<witness>
+   <msDesc type="copy">
+      <msIdentifier>
+         <institution>[aufbewahrende Institutuion]</institution>
+         <collection>[Sammlung]</collection>
+         <idno>
+             <idno type="shelfmark">[Signatur]</idno>
+         </idno>
+      </msIdentifier>
+   </msDesc>
+</witness]]></codeblock>
+        <p>Wenn Sie ein neues Dokument erstellen, um einen Brief zu transkribieren, erscheint
+            ein Dialogfenster, in dem Sie diese Angaben bereits machen können.</p>
+    </body>
+</topic>

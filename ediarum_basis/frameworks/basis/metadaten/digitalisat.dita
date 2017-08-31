@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="digitalisat">
+    <title>Digitalisat</title>
+    <body>
+        <p>Auf Digitalisate können Sie mit einem <codeph>&lt;facsimile></codeph>-Element
+            verweisen, indem sie dort im <codeph>&lt;graphic></codeph>-Element für das Attribut
+            <codeph>@url</codeph> die entsprechende URL, d.h. Link, angeben.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<facsimile>
+   <graphic url="http://bespielurl.com/image"/>
+</facsimile>]]></codeblock>
+    </body>
+</topic>

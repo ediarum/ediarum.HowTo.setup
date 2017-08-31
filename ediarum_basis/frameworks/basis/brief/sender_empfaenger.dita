@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="sender_empfänger">
+    <title>Angaben zum Sender und Empfänger</title>
+    <body>
+        <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden im
+            <codeph>&lt;correspDesc></codeph>-Element (correspondence description) angegeben. Es wird
+            für den Sender und den Empfänger jeweils ein <codeph>&lt;correspAction></codeph>-Element
+            (correspondence action) angelegt. Das Attribut <codeph>@type</codeph> gibt dabei an ob sich
+            die Informationen auf den Sender oder den Empfänger beziehen.</p>
+        <p>
+            <table id="table_vzz_lfd_gy">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Angaben zur Person</entry>
+                            <entry>Wert für <codeph>@correspAction</codeph></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Sender</entry>
+                            <entry>sent</entry>
+                        </row>
+                        <row>
+                            <entry>Empfänger</entry>
+                            <entry>received</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+   <correspAction type="sent">[Angaben zum Sender]</correspAction>
+   <correspAction type="received">[Angaben zum Empfänger]</correspAction>
+</correspDesc>]]></codeblock>
+        <p>Innerhalb des <codeph>&lt;correspAction></codeph>-Elements lassen sich drei Elemente
+            anlegen:</p>
+        <p>
+            <ul id="ul_tsk_jvt_vy">
+                <li><codeph>&lt;persName></codeph>: Name</li>
+                <li><codeph>&lt;placeName></codeph>: Ort</li>
+                <li><codeph>&lt;date></codeph>: Datum</li>
+            </ul>
+        </p>
+        <p>Diese Information können sowohl für den Sender als auch den Empfänger gemacht werden.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+   <correspAction type="sent">
+      <persName>Friedrich Engels</persName>
+      <placeName>Manchester</placeName>
+      <date when="1866-01-04"/>
+   </correspAction>
+   <correspAction type="received">
+      <persName>Karl Marx</persName>
+      <placeName>London</placeName>
+   </correspAction>
+</correspDesc>]]></codeblock>
+    </body>
+</topic>

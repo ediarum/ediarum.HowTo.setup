@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_lgx_rhx_5y">
+ <title><image href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></title>
+ <body>
+  <p> Mit dem Element <codeph>&lt;seg></codeph>-Element (arbitrary segment) können Sie Sachanmerkung
+   zu Textstellen erstellen. Die Stelle, die Sie kommentieren möchten, zeichnen Sie durch das
+    <codeph>&lt;orig></codeph>-Element aus. Im <codeph>&lt;note></codeph>-Element wird die
+   entsprechende Anmerkung notiert. Das Attribut <codeph>@xml.id</codeph> wird automatisch generiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<seg type="comment">
+   <orig>Rede des Helden</orig>
+   <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
+</seg>]]></codeblock>
+ </body>
+</topic>

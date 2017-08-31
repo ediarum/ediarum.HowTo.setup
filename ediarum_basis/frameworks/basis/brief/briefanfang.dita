@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="briefanfang">
+    <title>Briefanfang</title>
+    <body>
+        <p>Der Briefanfang wird im <codeph>&lt;opener></codeph>-Element notiert und kann eine
+            Datumsangabe und Grußformel enthalten. Die Datumsangabe <codeph>&lt;datline></codeph> gibt
+            in ihrem Attribut <codeph>@rend</codeph> die Textaurichtung der Datumsangabe an. Im Element
+            <codeph>&lt;salute></codeph> wird die Grußformel transkribiert.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<opener>
+   <dateline rend="align(right)">4.Januar 1886</dateline>
+   <salute>Lieber Mohr</salute>
+</opener>]]></codeblock>
+    </body>
+    <related-links><linklist scope="external"><title>Deutschtes Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brAllg.html" format="html"
+        scope="external"><linktext>Grundstruktur der Kodierung von Briefen – Dokumentation des DTABf</linktext></link></linklist>
+        
+    </related-links>
+</topic>

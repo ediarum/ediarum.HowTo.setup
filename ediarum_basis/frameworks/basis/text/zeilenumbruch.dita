@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_w1l_n1v_ty">
+ <title><image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> Zeilenumbruch</title>
+ <body>
+  <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
+    <codeph>&lt;lb/></codeph>-Element (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
+   kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
+  <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs
+   markieren, ob ein Trennstrich verwendet wurde. Im Attribut <codeph>@break</codeph> wird der entsprechende Wert
+   festgelegt.</p>
+  <p>
+   <table id="table_ygv_f4c_gy">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Zeilenumbruch innerhalb eines Wortes</entry>
+       <entry>Wert für <codeph>@break</codeph></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>mit Trennstrich</entry>
+       <entry>yes</entry>
+      </row>
+      <row>
+       <entry>ohne Trennstrich</entry>
+       <entry>no</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  </p>
+  <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
+  <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
+   weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden.
+  </p>
+ </body>
+ <related-links>
+  <linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/lbAllg.html" format="html"
+   scope="external"><linktext>Grundstruktur der Kodierung von Zeilenumbrüchen – Dokumentation des DTABf</linktext></link></linklist>
+ </related-links>
+</topic>

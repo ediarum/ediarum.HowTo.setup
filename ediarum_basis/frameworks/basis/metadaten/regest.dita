@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="regest">
+    <title>Regest</title>
+    <body>
+        <p>Ein Regest für einen Brief oder ein anderes Manuskript wird in einem <codeph>&lt;abstract></codeph>-Element notiert. Im
+            <codeph>&lt;p></codeph>-Element wird der Regest notiert.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<abstract>
+   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff]</p>
+</abstract>]]></codeblock>
+    </body>
+</topic>

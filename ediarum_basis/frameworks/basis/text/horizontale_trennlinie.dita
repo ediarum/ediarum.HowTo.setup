@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="horizontale_trennlinie">
+    <title>Horizontale Trennlinie</title>
+    <body>
+        <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
+            <codeph>&lt;milestone></codeph>-Element transkribieren.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
+    </body>
+</topic>

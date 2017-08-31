@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="schreibort">
+    <title>Schreibort</title>
+    <body>
+        <p>Auch der Schreibort wird auch im <codeph>&lt;creation></codeph>-Element angegeben.
+            Dort wird das Element <codeph>&lt;placeName></codeph> angelegt, in dem der Name des
+            Ortes notiert wird. Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
+            Attribut <codeph>@key</codeph> die zugehörige ID generiert und ein Link angelegt.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+    <creation>
+       <placeName key="ed_wz2_shs_qx">London</placeName>
+       ...
+    </creation>
+</profileDesc>]]></codeblock>
+    </body>
+</topic>

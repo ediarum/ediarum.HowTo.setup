@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="anmerkungen_zum_brief">
+    <title>Anmerkungen zum Brief</title>
+    <body>
+        <p>Im <codeph>&lt;correspDesc></codeph>-Element (correspondence description) können Sie auch
+            mithilfe des <codeph>&lt;note></codeph>-Elements eine Anmerkung zum Brief und dessen
+            Datierung machen.</p>
+        <p>
+            <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
+   ...
+   <note>Das Empfangsdatum kann nicht festgestellt werden.</note>
+</correspDesc>]]></codeblock>
+        </p>
+    </body>
+</topic>

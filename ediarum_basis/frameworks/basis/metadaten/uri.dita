@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="uri">
+    <title><b>URI der Archivalie</b></title>
+    <body>
+        <p>Sie können mittels einer URI auf eine Kalliope-Seite hinweise. Dafür wird ein
+            <codeph>&lt;idno></codeph>-Element angelegt. Das Attribut <codeph>@type</codeph>
+            zeigt an, dass im <codeph>&lt;idno></codeph>-Element eine URI, d.h. ein Link,
+            notiert
+            wird.<codeblock>&lt;idno type="uri">http://www.kalliope.org/en/digt.pl?longdid=oehlenschlaeger2001052914&lt;/idno></codeblock></p>
+    </body>
+</topic>

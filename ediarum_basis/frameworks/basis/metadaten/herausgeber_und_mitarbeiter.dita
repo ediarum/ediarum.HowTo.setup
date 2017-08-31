@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="herausgeber_und_mitarbeiter">
+    <title>Herausgeber und Mitarbeiter</title>
+    <body>
+        <p>Der Herausgeber wird in einem <codeph>&lt;editor></codeph>-Element notiert. Die
+            Angaben zur Person werden im <codeph>&lt;persName></codeph>-Element angegeben. Im
+            Attribut <codeph>@ref</codeph> kann eine Referenz in Form einer GND, VIAF oder URI gemacht
+            werden.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<editor>
+   <persName ref="118763784">
+      <surname>[Nachname]</surname>
+      <forename>[Vorname}</forename>
+   </persName>
+</editor>]]></codeblock>
+        <p>Außerdem können Mitarbeiter in einem <codeph>&lt;respStmt></codeph>-Element
+            (statement of responsibility) notiert werden. Hier können Sie auch eine GND, VIAF
+            oder URI, die auf den Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird
+            dabei in einem <codeph>&lt;note></codeph>-Element bezeichnet: Mitarbeit,
+            Redaktionelle Mitarbeit, Transkription, Kommentar und Register.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<respStmt>
+   <persName ref="118763784">
+      <surname>[Nachname]</surname>
+      <forename>[Vorname]</forename>
+   </persName> 
+   <resp><note type="remarkResponsibility">Mitarbeit</note></resp>
+</respStmt>]]></codeblock>
+    </body>
+    <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/mdRespStmt.html?hl=respstmt"
+        format="html" scope="external"><linktext>Umgang mit externen Quellen für die DTA-Textgrundlage – Dokumentation des DTABf</linktext></link></linklist>           
+    </related-links>
+</topic>

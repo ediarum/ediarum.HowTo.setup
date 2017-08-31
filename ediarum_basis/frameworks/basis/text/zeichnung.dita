@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_upg_fbv_ty">
+ <title><image href="../../img/figure16.png" id="image_tp3_vls_2y"/> Zeichnung einfügen</title>
+ <body>
+  <p>Mit dem <codeph>&lt;figure></codeph>-Element können Sie Zeichungen (samt Bildunterschrift) aus
+   dem Manuskript einfügen. Die Person, die die Zeichung gemacht hat, wird im Attribut
+    <codeph>@hand</codeph> angegeben: #author, #addressee oder eine Person aus dem
+   Personen-Register. Fall im Manuskript eine Bildunterschrift notiert ist, wird diese in einem
+    <codeph>&lt;p></codeph>-Element festgehalten. Im <codeph>&lt;figDesc></codeph>-Element kann die
+   Herausgeberin das Bild beschreiben. Im Attribut <codeph>@facs</codeph> ist der Dateiname
+   notiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<figure facs="abbildung" hand="#adresee">
+   <p>[Bildunterschrift im Ms]</p>
+   <figDesc>[Bildbeschreibung des Bearbeiters]</figDesc>
+</figure>]]></codeblock>
+ </body>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/abbildung.html" format="html"
+  scope="external"><linktext>Abbildungen – Dokumentation des DTABf</linktext></link></linklist>
+  
+ </related-links>
+</topic>
