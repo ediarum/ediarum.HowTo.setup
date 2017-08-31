@@ -14,12 +14,42 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>ediarum.EDIT</String>
+                                        <String>ediarum.AVHR - Editionsrichtlinien</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../CMIF/odd/cmi-customization.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../CMIF/odd/out/cmi-customization.rng</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -63,6 +93,395 @@
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <webhelpTemplate>
+                                        <field name="templateName">
+                                            <String>bootstrap</String>
+                                        </field>
+                                        <field name="variantName">
+                                            <String>tiles</String>
+                                        </field>
+                                        <field name="skinName">
+                                            <String>light</String>
+                                        </field>
+                                        <field name="customSkinPath">
+                                            <null/>
+                                        </field>
+                                    </webhelpTemplate>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>generate.copy.outer</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>3</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>1</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>1</String>
+                                                    <String>3</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>Do not generate output for content that is located outside the DITA map directory.</String>
+                                                    <String>Shift the output directory so that it contains all output for the publication.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.copycss</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.css</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/custom.css</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.logo.image</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.merge.nested.topics.related.links</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.fragment.footer</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>&lt;p/></String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>
+            Generated by &lt;a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &amp;lt;oXygen/&amp;gt; XML WebHelp
+        &lt;/a>
+        </String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>
+            Generated by &lt;a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &amp;lt;oXygen/&amp;gt; XML WebHelp
+        &lt;/a>
+        </String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.fragment.after.body</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String></String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>ediarum.EDIT</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${cfd}/out/webhelp-responsive</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/webhelp-responsive</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>webhelp-responsive</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <null/>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list>
+                                                <ditavalSimpleFilter>
+                                                    <field name="attrName">
+                                                        <String>audience</String>
+                                                    </field>
+                                                    <field name="attrValue">
+                                                        <String>editor</String>
+                                                    </field>
+                                                </ditavalSimpleFilter>
+                                            </list>
                                         </field>
                                     </ditavalFilters>
                                 </field>
@@ -327,7 +746,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>ediarum.EDIT</String>
+                                    <String>ediarum.AVHR - Editionsrichtlinien</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -408,6 +827,278 @@
                                     <String-array/>
                                 </field>
                             </ditaScenario>
+                            <antScenario>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String>${frameworksDir}/tei/xml/tei/stylesheet/relaxng/build-to.xml</String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>defaultSource</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>TEI source file.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${frameworks}/tei/xml/tei/odd/p5subset.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>inputFile</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Path to the TEI XML file.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${cf}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>lang</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>The language of the output strings like "Attributes", "Class", "Datatype", "Declaration", "Note", "Optional", "Required", "Recommended", etc.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>en</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>outputFile</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Path where the output schema file will be saved.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${cfd}/schema/${cfn}.rng</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>oxygenlib</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Path to the Oxygen library folder.</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${oxygenInstallDir}/lib</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>profile</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>The profile of the output file, for example "tei", "oucs", "oucscourses", "enrich".</String>
+                                            </field>
+                                            <field name="value">
+                                                <String>default</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx256m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String>${cfd}/out/${cfn}.rng</String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array>
+                                        <String>${oxygenHome}/classes/</String>
+                                        <String>${oxygenHome}/lib/oxygen.jar</String>
+                                        <String>${oxygenHome}/lib/oxygenAuthor.jar</String>
+                                        <String>${oxygenHome}/lib/oxygenDeveloper.jar</String>
+                                        <String>${oxygenHome}/lib/oxygenEclipse.jar</String>
+                                        <String>${oxygenHome}/lib/oxygenAuthorEclipse.jar</String>
+                                        <String>${oxygenHome}/lib/oxygenDeveloperEclipse.jar</String>
+                                        <String>${oxygenHome}/lib/resolver.jar</String>
+                                        <String>${oxygenHome}/lib/xercesImpl.jar</String>
+                                        <String>${oxygenHome}/lib/saxon9ee.jar</String>
+                                        <String>${oxygenHome}/lib/saxon.jar</String>
+                                        <String>${oxygenHome}/lib/xml-apis-ext.jar</String>
+                                        <String>${oxygenHome}/lib/log4j.jar</String>
+                                    </String-array>
+                                </field>
+                            </antScenario>
                         </scenario-array>
                     </entry>
                 </serializableOrderedMap>

@@ -3,10 +3,58 @@
 <topic id="uri">
     <title><b>URI der Archivalie</b></title>
     <body>
-        <p>Sie können mittels einer URI auf eine Kalliope-Seite hinweise. Dafür wird ein
-            <codeph>&lt;idno></codeph>-Element angelegt. Das Attribut <codeph>@type</codeph>
-            zeigt an, dass im <codeph>&lt;idno></codeph>-Element eine URI, d.h. ein Link,
-            notiert
-            wird.<codeblock>&lt;idno type="uri">http://www.kalliope.org/en/digt.pl?longdid=oehlenschlaeger2001052914&lt;/idno></codeblock></p>
+        <section>
+            <title>Allgemeines</title>
+            <p>Archivalien werden traditionellerweise anhand ihrer Signatur identifiziert. Da diese
+                Signaturen aber nicht oder nur eingeschränkt maschinenlesbar sind, wird - sofern
+                vorhanden - auch eine entsprechende URI notiert. URI steht für "Uniform Resource
+                Identifier", ist als Standard definiert (<xref
+                    href="https://tools.ietf.org/html/rfc3986" format="html" scope="external">RFC
+                    3986</xref>) und maschinenlesbar, da sie nur aus bestimmten Zeichen bestehen
+                darf (insbesondere Leerzeichen sind ausgeschlossen). Einen guten Überblick über die
+                Syntax einer URI gibt der entsprechende <xref
+                    href="https://de.wikipedia.org/wiki/Uniform_Resource_Identifier#Aufbau"
+                    format="html" scope="external">Abschnitt im Wikipedia-Artikel</xref>.</p>
+            <p>URIs zu Archivalien werden mittlerweile häufig vom Archiv oder einem Verbundkatalog
+                angeboten. Im deutschsprachigen Raum bietet vor allem der Verbundkatalog "Kalliope"
+                zu jeder Verzeichniseinheit eine entsprechende URI an, z.B. : <xref
+                    href="http://kalliope-verbund.info/DE-611-HS-2877719" format="html"
+                    scope="external">http://kalliope-verbund.info/DE-611-HS-2877719</xref>.   </p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Mit Hilfe der Funktion "URI der Archivalie" im Menü "Metadaten" in der Werkzeugleiste
+                können Sie die entsprechende URI zum Briefe, Dokument etc. hinterlegen.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <table>
+                <tgroup cols="4">
+                    <thead>
+                        <row>
+                            <entry>Elementname</entry>
+                            <entry>Einfügeort</entry>
+                            <entry>Attribut</entry>
+                            <entry>Elementinhalt</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><xmlelement>idno</xmlelement></entry>
+                            <entry><codeph>//msIdentifier/idno</codeph></entry>
+                            <entry><xmlatt>type="uri"</xmlatt></entry>
+                            <entry>[URI]</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <codeblock>&lt;idno type="uri">http://kalliope-verbund.info/DE-611-HS-2877719&lt;/idno></codeblock>
+        </section>
+        <section id="section_kdl_r32_bbb">
+            <title>Anzeige</title>
+            <p>In der Digitalen Edition wird die URI der Archivalie als Link hinter der Signatur in
+                der Kopfzeile dargestellt.</p>
+        </section>
+        
     </body>
 </topic>
