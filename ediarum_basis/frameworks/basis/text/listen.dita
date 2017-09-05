@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_trq_t1v_ty">
+ <title><image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> Listen</title>
+ <shortdesc></shortdesc>
+ <body>
+  <p>Listen im Manuskript werden mit dem <codeph>&lt;list></codeph>-Element ausgezeichnet. Die
+   einzelnen Punkte bzw. Zeilen werden jeweils einem <codeph>&lt;item></codeph>-Element
+   transkribiert.</p>
+  <codeblock outputclass="language-xml"><![CDATA[<list>
+   <item>[Listenpunkt einfügen]</item>
+   <item>[Listenpunkt einfügen]</item>
+</list>]]></codeblock>
+ </body>
+ <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/liAllg.html" format="html"
+  scope="external"><linktext>Grundstruktur der Kodierung von Listen – Dokumentation des DTABf</linktext></link></linklist>
+  
+ </related-links>
+</topic>

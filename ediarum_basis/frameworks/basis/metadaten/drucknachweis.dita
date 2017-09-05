@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="drucknachweis">
+    <title>Drucknachweis</title>
+    <body>
+        <p>Einen Drucknachweis als Textzeugen können Sie im
+            <codeph>&lt;witness></codeph>-Element (Zeuge) angeben. Den eigentlichen Nachweis
+            notieren Sie im <codeph>&lt;bibl></codeph>-Element. Das Attribut
+            <codeph>@type</codeph> gibt mit dem Wert "print" an, dass der Textzeuge ein
+            Drucknachweis ist.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<witness>
+   <bibl type="print">[Drucknachweis]</bibl>
+</witness>]]></codeblock>
+    </body>
+</topic>

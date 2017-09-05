@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="art_der_textgrundlage">
+    <title>Art der Textgrundlage</title>
+    <body>
+        <p>Im <codeph>&lt;msDesc></codeph> -Element können Sie die Art der Textgrundlage im
+            Attribut <codeph>@rend</codeph> auszeichnen. Dafür sind folgende Angaben möglich:<table
+                id="table_ul1_mws_2y">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Art der Textgrundlage</entry>
+                            <entry>Wert für @rend</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Erschlossen</entry>
+                            <entry>notExtant</entry>
+                        </row>
+                        <row>
+                            <entry>Entwurf</entry>
+                            <entry>concept</entry>
+                        </row>
+                        <row>
+                            <entry>Manuskript</entry>
+                            <entry>manuscript</entry>
+                        </row>
+                        <row>
+                            <entry>Abschrift</entry>
+                            <entry>copy</entry>
+                        </row>
+                        <row>
+                            <entry>Druck</entry>
+                            <entry>print</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+    </body>
+</topic>

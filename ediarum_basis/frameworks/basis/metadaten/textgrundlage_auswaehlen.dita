@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="textgrundlage_auswaehlen">
+    <title>Textgrundlage auswählen</title>
+    <body>
+        <p>Die Textgrundlage, die Sie für Ihre Arbeit verwenden, markieren Sie, indem Sie das
+            entsprechende <codeph>&lt;wittness></codeph>-Element auswählen und dort das Attribut
+            <codeph>@select</codeph> einfügen. Das Attribut hat immer denselben Wert.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
+    </body>
+</topic>

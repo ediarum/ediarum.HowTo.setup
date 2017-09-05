@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="schreibakt">
+    <title>Schreibakt</title>
+    <body>
+        <p>Der Brieftext wird mithilfe eines <codeph>&lt;div></codeph>-Elements (division) in
+            Sektionen unterteilt. Ein neues <codeph>&lt;div></codeph>-Element markiert den Beginn eines
+            neuen Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte im Attribut <codeph>@n</codeph>
+            anzugeben.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
+   <p>[Erster Schreibakt]</p>
+</div>
+<div type="writingSession" n="2">
+   <p>[Zweiter Schreibakt]</p>
+</div>]]> </codeblock>
+    </body>
+</topic>

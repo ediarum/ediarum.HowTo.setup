@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="gedicht">
+    <title>Gedicht</title>
+    <body>
+        <p>Gedichte werden in ediarum gemäß den DTABf-Richtlinien eigens mit <xmlelement>lg</xmlelement> (Gedicht/Strophe) bzw. <xmlelement>l</xmlelement> (Verszeile) ausgezeichnet. Eine
+            Funktion <uicontrol>Gedicht / Strophe</uicontrol> zum Einfügen von Gedichtstrukten steht im Menü <uicontrol>ediarum >
+            Textrstrukturen</uicontrol> bereit. </p>
+        <p>Befindet sich der Mauscursoer bereits in einer Gedichtstruktur (Vers, Strophe etc.) fügt
+            die Funktion eine neue, weitere Strophe ein. Bei jeder neuen Strophe ist im Dialogfenster die Strophennummer
+            anzugeben.</p>
+        <p>Neue Verszeilen können am Ende einer Verszeile durch Drücken von <uicontrol>Return</uicontrol> und dem Bestätigen von <uicontrol>Neu l</uicontrol> eingefügt werden.</p>
+    </body>
+    <related-links>
+        <linklist scope="external">
+            <title>Deutsches Textarchiv</title>
+            <link href="http://www.deutschestextarchiv.de/doku/basisformat/geProsa.html" format="html"
+                scope="external"><linktext>Gedichte in Prosawerken – Dokumentation des DTABf</linktext></link>
+        </linklist>
+    </related-links>
+</topic>

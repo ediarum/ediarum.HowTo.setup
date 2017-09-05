@@ -15,19 +15,74 @@
         <topicref href="operation/ohne_werkzeugleiste.dita"/>
         <topicref href="operation/ansichten.dita"/>
         <topicref href="operation/suche.dita"/>
-    </chapter>
-    <chapter href="frameworks/letter/ueberschrift.dita">
         <topicref href="general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
-        <topicref href="frameworks/letter/transkription.dita">
-            <topicref href="frameworks/letter/transkr_autor.dita"></topicref>
-            <topicref href="frameworks/letter/transkr_hg.dita"></topicref>
+    </chapter>
+    <chapter href="frameworks/basis/text/_intro.dita">
+        <topicref href="frameworks/basis/text/textstrukturen.dita">
+            <topicref href="frameworks/basis/text/absatz.dita"/>           
+            <topicref href="frameworks/basis/text/zeilenumbruch.dita"/>
+            <topicref href="frameworks/basis/text/seitenwechsel.dita"/>
+            <topicref href="frameworks/basis/text/listen.dita"/>
+            <topicref href="frameworks/basis/text/gedicht.dita"/>
+            <topicref href="frameworks/basis/text/tabelle.dita"/>
+            <topicref href="frameworks/basis/text/anmerkung_ms.dita"/>
+            <topicref href="frameworks/basis/text/zeichnung.dita"/>
         </topicref>
-        <topicref href="frameworks/letter/metaangaben_textspezifisch.dita">
-            <topicref href="frameworks/letter/allgemein.dita"></topicref>
-            <topicref href="frameworks/letter/briefmetaangeben.dita"/>
-            <topicref href="frameworks/letter/brieftext.dita"/>
-            <topicref href="frameworks/letter/symbole.dita"></topicref>
-        </topicref>                  
+        <topicref href="frameworks/basis/text/_intro_autor.dita">
+            <topicref href="frameworks/basis/text/untersreichung.dita"/>
+            <topicref href="frameworks/basis/text/hochstellen.dita"/>
+            <topicref href="frameworks/basis/text/streichungen.dita"/>
+            <topicref href="frameworks/basis/text/korrektur.dita"/>
+            <topicref href="frameworks/basis/text/ergaenzungen.dita"/>
+        </topicref>
+        <topicref href="frameworks/basis/text/_intro_editor.dita">
+            <topicref href="frameworks/basis/text/unsichere_lesart.dita"/>
+            <topicref href="frameworks/basis/text/nicht_lesbar.dita"/> 
+            <topicref href="frameworks/basis/text/gestrichene_nichtlesbar.dita"/> 
+            <topicref href="frameworks/basis/text/ergaenzungen_hg.dita"/> 
+            <topicref href="frameworks/basis/text/fehlendes_wort.dita"/> 
+            <topicref href="frameworks/basis/text/streichung_hg.dita"/> 
+            <topicref href="frameworks/basis/text/korrektur-hg.dita"/> 
+            <topicref href="frameworks/basis/text/sachanmerkung.dita"/> 
+            <topicref href="frameworks/basis/text/verweise.dita"/> 
+            <topicref href="frameworks/basis/text/datum.dita"/> 
+            <topicref href="frameworks/basis/text/fremdsprache.dita"/> 
+            <topicref href="frameworks/basis/text/textstellen.dita"/> 
+            <topicref href="frameworks/basis/text/namen_kennzeichnen.dita"/>
+        </topicref>
+        <topicref href="frameworks/basis/symbole.dita"/>
+    </chapter>
+    <chapter href="frameworks/basis/metadaten/_intro.dita">
+        <topicref href="frameworks/basis/metadaten/uri.dita"/>
+        <topicref href="frameworks/basis/metadaten/digitalisat.dita"/>
+        <topicref href="frameworks/basis/metadaten/handschriftenbeschreibung.dita"/>
+        <topicref href="frameworks/basis/metadaten/drucknachweis.dita"/>
+        <topicref href="frameworks/basis/metadaten/abschrift_entwurf.dita"/>
+        <topicref href="frameworks/basis/metadaten/art_der_textgrundlage.dita"/>
+        <topicref href="frameworks/basis/metadaten/textgrundlage_auswaehlen.dita"/>
+        <topicref href="frameworks/basis/metadaten/autor.dita"/>
+        <topicref href="frameworks/basis/metadaten/schreibort.dita"/>
+        <topicref href="frameworks/basis/brief/datierung.dita"/>
+        <topicref href="frameworks/basis/metadaten/regest.dita"/>
+        <topicref href="frameworks/basis/metadaten/zitat_in_regest.dita"/>
+        <topicref href="frameworks/basis/metadaten/anmerkung_zum_text.dita"/>
+        <topicref href="frameworks/basis/metadaten/herausgeber_und_mitarbeiter.dita"/>
+    </chapter>
+    <chapter href="frameworks/basis/brief/_intro.dita">
+        <topicref href="frameworks/basis/brief/_intro_metadaten.dita">
+            <topicref href="frameworks/basis/brief/sender_empfaenger.dita"/>
+            <topicref href="frameworks/basis/brief/datierung.dita"/>
+            <topicref href="frameworks/basis/brief/anmerkungen_zum_brief.dita"/>
+            <topicref href="frameworks/basis/brief/beilage.dita"/>
+            <topicref href="frameworks/basis/brief/korrespondenzzusammenhang.dita"/>
+        </topicref>
+        <topicref href="frameworks/basis/brief/_intro_text.dita">
+            <topicref href="frameworks/basis/brief/adresse.dita"/>
+            <topicref href="frameworks/basis/brief/briefanfang.dita"/>
+            <topicref href="frameworks/basis/brief/schreibakt.dita"/>
+            <topicref href="frameworks/basis/brief/briefschluss.dita"/>
+            <topicref href="frameworks/basis/brief/postskriptum.dita"/>
+        </topicref>
     </chapter>
     <chapter href="frameworks/index/ueberschrift.dita">
         <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>
