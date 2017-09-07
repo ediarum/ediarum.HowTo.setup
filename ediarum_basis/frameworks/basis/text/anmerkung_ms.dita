@@ -2,9 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_dsx_1bv_ty">
  <title><image href="../../img/note16.gif" id="image_jll_5ls_2y"/> Anmerkung im Manuskript</title>
- 
  <body>
-  <p>Anmerkungen des Autors bzw. der Autorin oder einer zeitgenössischen Bearbeiterin bzw.
+ <section> <p>Anmerkungen des Autors bzw. der Autorin oder einer zeitgenössischen Bearbeiterin bzw.
    Bearbeiters werden an der entsprechenden Textstelle (an der im Manuskript das Verweiszeichen bzw.
    -ziffer steht) eingefügt. Das Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür
    in der obersten Leiste des Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“
@@ -51,6 +50,29 @@ Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut
    </tgroup>
   </table>
   <codeblock outputclass="language-xml"><![CDATA[mit.<note place="right" hand="#author">Ich konnte sie nicht mehr mit der 
-Post schicken.</note>]]></codeblock>
+Post schicken.</note>]]></codeblock></section>
+  <section><title>edition humboldt digital</title>
+   <p>Zur Unterscheidung von Anmerkungen und Ergänzungen gilt die Richtlinie: Ergänzungen erweitern
+    den fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind –
+    ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p>
+   <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
+    Manuskriptseite.
+    <?oxy_comment_start author="lkirsten" timestamp="20170907T140426+0200" comment="Umformulieren
+"?>Anmerkungen
+    werden dort gesetzt, wo sie im Text (offensichtlich oder editorisch vertretbar) hingehören. Das
+    Element wird also an der entsprechenden Stelle im Manuskript eingefügt. Wenn sich dieser Punkt
+    nicht eindeutig bestimmen lässt, kann die <codeph>&lt;note/></codeph> nach Augenmaß zwischen
+    zwei möglichst nahe liegenden Sätzen eingefügt werden. <?oxy_comment_end?></p>
+   <p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung werden erfasst.</p>
+   <p>Verzeichnet werden folgende Merkmale:</p>
+   <ul id="ul_sfj_xz3_dbb">
+    <li><b>Autorschaft</b>
+     <?oxy_comment_start author="lkirsten" timestamp="20170907T135610+0200" comment="oben steht @hand
+"?><codeph>@rend</codeph><?oxy_comment_end?>
+     #author</li>
+    <li><b>Ort des Schreibakts</b>
+     <codeph>@place</codeph>
+    </li>
+   </ul></section>
  </body>
 </topic>

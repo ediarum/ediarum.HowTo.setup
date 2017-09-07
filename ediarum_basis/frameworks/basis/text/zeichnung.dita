@@ -8,11 +8,12 @@
     <codeph>@hand</codeph> angegeben: #author, #addressee oder eine Person aus dem
    Personen-Register. Fall im Manuskript eine Bildunterschrift notiert ist, wird diese in einem
     <codeph>&lt;p></codeph>-Element festgehalten. Im <codeph>&lt;figDesc></codeph>-Element kann die
-   Herausgeberin das Bild beschreiben. Im Attribut <codeph>@facs</codeph> ist der Dateiname
-   notiert.</p>
+   Herausgeberin das Bild beschreiben. Im Attribut <codeph>@facs</codeph> ist der Dateiname notiert.
+   Bearbeiterkommentare können mithilfe des <codeph>&lt;note></codeph>-Elements hinzugefügt werden. </p>
   <codeblock outputclass="language-xml"><![CDATA[<figure facs="abbildung" hand="#adresee">
    <p>[Bildunterschrift im Ms]</p>
    <figDesc>[Bildbeschreibung des Bearbeiters]</figDesc>
+   <note type="editorial">[Kommentar Bearbeiterin]</note>
 </figure>]]></codeblock>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/abbildung.html" format="html"

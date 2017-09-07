@@ -3,12 +3,11 @@
 <topic id="handschriftenbeschreibung">
     <title>Handschriftenbeschreibung</title>
     <body>
-        <p>Die Handschriftenbeschreibung wird im <codeph>&lt;physDesc></codeph>-Element
-            (physical description) notiert. Hier können Sie in einem
-            <codeph>&lt;p></codeph>-Element Angaben zu Papier, Format etc. des Briefs
-            festhalten.</p>
+        <p>Die Handschriftenbeschreibung wird im <codeph>&lt;physDesc></codeph>-Element (physical
+            description) notiert. Hier können Sie in einem <codeph>&lt;p></codeph>-Element Angaben
+            zu Papier, Format, Blattanzahl etc. des Briefs festhalten.</p>
         <codeblock outputclass="language-xml"><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
-</physDesc>]]></codeblock>
+</physDesc>]]></codeblock>        
     </body>
 </topic>

@@ -4,7 +4,7 @@
  <title><image href="../../img/underlined16.png" id="image_qcq_yhf_2y"/> Unterstreichung</title>
 
  <body>
-  <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem
+  <section><p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem
    <codeph>&lt;hi></codeph>-Element (highlighted) ausgezeichnet. Im Attribut @rendition wird
    notiert, um was für eine Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
     <tgroup cols="2">
@@ -30,7 +30,19 @@
      </tbody>
     </tgroup>
    </table></p>
-  <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
+  <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock></section>
+  <section><title>edition humboldt digital</title>
+  </section>
+  <p>Einfache und doppelte Unterstreichungen werden getreu nach Vorlage erfasst. Wörter oder
+   Zeichenfolgen, die im Manuskript nur teilweise unterstrichen sind, werden immer in Gänze
+   ausgezeichnet,
+   <?oxy_comment_start author="lkirsten" timestamp="20170907T151341+0200" comment="editorische erläuterung belassen?
+"?>da
+   eine willentliche Unterstreichung einzelner Buchstaben in einem Wort nicht plausibel erscheint. <?oxy_comment_end?>
+   <image placement="break" href="../../../../../abb12.png" scale="70" align="center"
+    id="image_xzm_pmj_dbb">
+    <alt>Cuba-Manuskript, 127r; unvollständige Unterstreichung des Wortes "Granite"</alt>
+   </image></p>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"
   format="html" scope="external"><linktext>Richtlinien zur Kodierung typographischer Besonderheiten – Dokumentation des DTABf</linktext></link></linklist>

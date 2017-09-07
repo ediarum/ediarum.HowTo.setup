@@ -4,8 +4,10 @@
  <title><image href="../../img/superscript16.png" id="image_ofy_cms_2y"/> Hochstellen</title>
  <shortdesc></shortdesc>
  <body>
-  <p>Eine Zahl, die im Manuskript hochgestellt ist, wird durch ein <codeph>&lt;hi></codeph>-Element
+  <section><p>Eine Zahl, die im Manuskript hochgestellt ist, wird durch ein <codeph>&lt;hi></codeph>-Element
    (highlighted) ausgezeichnet. Das Attribut <codeph>@rendition</codeph> hat immer denselben Wert: "#sup".</p>
-  <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock></section>
+  <section><title>edition humboldt digital</title>
+   <p>Hochgestellte Zahlen oder Buchstaben werden getrau nach Vorlage ausgezeichnet.</p></section>
  </body>
 </topic>

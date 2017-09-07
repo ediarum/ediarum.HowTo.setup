@@ -4,7 +4,7 @@
  <title><image href="../../img/del16.gif" id="image_rcq_yhf_2y"/> Streichungen</title>
  <shortdesc></shortdesc>
  <body>
-  <p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem
+  <section><p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem
     <codeph>&lt;del></codeph>-Element (deletion) ausgezeichnet. Das Attribut
     <codeph>@rendition</codeph> enthält nähere Angaben zur Art der Streichung.<table
     id="table_frw_4ns_2y">
@@ -31,7 +31,12 @@
      </tbody>
     </tgroup>
    </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
+  <section><title>edition humboldt digital</title>
+   <p>Gestrichener Text wird grundsätzlich - soweit lesbar - vollständig erfasst, samt aller
+    Textphänomene wie Zeilenumbrüchen, Auflösung von Abkürzungen, Normalisierungen und
+    Herausgeberkorrekturen, bzw. –ergänzungen. Auch Streichungen innerhalb einer bereits
+    gestrichenen Passage werden ausgezeichnet. </p></section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html?hl=streichung"
   format="html" scope="external"><linktext>Hinzufügung und Tilgung – Dokumentation des DTABf</linktext></link></linklist> 

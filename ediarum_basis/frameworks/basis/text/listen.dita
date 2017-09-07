@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_trq_t1v_ty">
+
  <title><image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> Listen</title>
  <shortdesc></shortdesc>
- <body>
+ <body> 
+ <section>
   <p>Listen im Manuskript werden mit dem <codeph>&lt;list></codeph>-Element ausgezeichnet. Die
    einzelnen Punkte bzw. Zeilen werden jeweils einem <codeph>&lt;item></codeph>-Element
    transkribiert.</p>
@@ -11,6 +13,23 @@
    <item>[Listenpunkt einfügen]</item>
    <item>[Listenpunkt einfügen]</item>
 </list>]]></codeblock>
+ </section>
+  <section><title>edition humboldt digital</title>Einfache Auflistungen werden mit dem
+    <codeph>&lt;list/></codeph>-Element ausgezeichnet. Häufiger aber notiert Humboldt
+   „strukturierte“ Listen, die sich besser als <codeph>&lt;table/></codeph> kodieren lassen. Auf
+   Grundlage des semantischen Gehalts sowie des Schriftbildes der entsprechenden Passage wird
+   festgelegt, ob eine Textstelle als <codeph>&lt;list/></codeph> oder als
+    <codeph>&lt;table/></codeph> kodiert wird. Als Richtlinie gilt: eine Auflistung, die keine
+   weitere (oder kaum) Aufteilung ihrer Inhalte enthält, wird anhand des
+   <codeph>&lt;list/></codeph>-Elements ausgezeichnet. Beinhalten die „Listenpunkte“ jedoch Text,
+   der im Sinne von impliziten Spalten strukturiert werden kann und sich in dieser Strukturierung
+   wiederholt, wird die Stelle als <codeph>&lt;table/></codeph> kodiert.
+   <?oxy_comment_start author="lkirsten" timestamp="20170907T145105+0200" comment="weglassen?"?>Die
+   Auflistung von Ortsmessungen beispielsweise entspricht semantisch mehr einer strukturierten
+   Tabelle als der einer auf Zeilenebene unstrukturierten Auflistung. <b>Bei der Entscheidung
+    zwischen <codeph>&lt;list/></codeph> und <codeph>&lt;table/></codeph> hat also die Semantik
+    eines Textes ein höheres Gewicht als der Befund des
+   Schriftbildes.</b><?oxy_comment_end?></section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/liAllg.html" format="html"
   scope="external"><linktext>Grundstruktur der Kodierung von Listen – Dokumentation des DTABf</linktext></link></linklist>

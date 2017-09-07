@@ -3,8 +3,21 @@
 <topic id="horizontale_trennlinie">
     <title>Horizontale Trennlinie</title>
     <body>
-        <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
+       <section> <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
             <codeph>&lt;milestone></codeph>-Element transkribieren.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock>
+        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
+        <section>
+            <title>edition humboldt digital</title>
+            <p>
+                <ul id="ul_vq1_y43_dbb">
+                    <li>Horizontale Linien, die erkennbar Textbereiche voneinander trennen, werden
+                        erfasst.</li>
+                </ul>
+                <image placement="break" href="../../../../../abb8.png" scale="80" align="center"
+                    id="image_g1c_s43_dbb">
+                    <alt>RST I, 1v</alt>
+                </image>
+            </p>
+        </section>
     </body>
 </topic>
