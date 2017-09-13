@@ -5,8 +5,57 @@
   <b>Ergänzungen</b></title>
  <shortdesc></shortdesc>
  <body>
-  <p>Ausschreibungen im Manuskript abgekürzter Wörter werden im <codeph>&lt;ex></codeph>-Element
-   (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
-  <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
+  <section>
+   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden im <codeph>&lt;ex></codeph>-Element
+    (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
+   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
+  </section>
+  <section>
+   <title>edition humboldt digital</title>
+   <?oxy_comment_start author="lkirsten" timestamp="20170913T125054+0200" comment="wie wichtig sind beispiele?"?>
+   <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele u, n,
+    p, v), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer, page/pagina…, von) -
+    dies betrifft auch heute gebräuchliche Abkürzungen wie Prof.=Professor.<?oxy_comment_end?></p>
+   <p>Abkürzungen bei <b>Orts- und Personennamen</b> (Don Franc. Arango/S. Domingue/S. María del
+    Rosario) werden ebenfalls aufgelöst.</p>
+   <p>Nimmt der Autor Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in
+    ihrer jeweiligen Sprache aufgelöst - in französischen und englischen Werken als p=page, in
+    deutschen und lateinischen Werken p=pagina, in spanischen p=página. Dasselbe gilt analog für
+    Nummern (no., N<u>o</u>) in Adresszeilen, Maßangaben und Mengenwerten.</p>
+   <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
+    aufgelöst.</p>
+   <p>Die <b>Auszeichnung von Abkürzungen</b> und deren Auflösung erfolgt im
+     <codeph>&lt;choice></codeph>-Element. Im <codeph>&lt;abbr></codeph>-Element wird vorlagengetreu
+    die Abkürzung festgehalten, im <codeph>&lt;expan></codeph>-Element die Ergänzung der
+    HerausgeberIn. <codeblock outputclass="language-xml"><![CDATA[<choice>
+    <abbr>Obs.</abbr>
+    <expan>Observations</expan>
+</choice>]]></codeblock></p>
+   <p>Im Falle einer <b>Auflösung und Normalisierung</b> der Abkürzung wird nur die Ergänzung
+    ausgezeichnet und die Normalisierung erfolgt stillschweigend. (gilt nur für Auszeichnungsstufe 3
+    und 4)</p>
+   <p>
+    <codeblock outputclass="language-xml">&lt;choice>
+    &lt;abbr>Emers.&lt;/abbr>
+    &lt;expan>Émersion&lt;/expan>
+&lt;/choice></codeblock>
+   </p>
+   <p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung "u" und
+    ausgeschriebenem "und" dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
+    Buchstabe als "und" gewertet - es handelt sich nicht um eine Abkürzung. <fig
+     id="fig_nxf_hz1_fbb">
+     <title>"und" mit d-Oberlänge</title>
+     <image placement="break" href="../../../../../ausgeschrieben_u.png" align="center"
+      id="image_oxf_hz1_fbb"/>
+    </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig id="fig_jgl_wx1_fbb">
+     <title>Abkürzung "u"</title>
+     <image placement="break" href="../../../../../abgekuerzt_u.png" scale="80" align="center"
+      id="image_kgl_wx1_fbb"/>
+    </fig><codeblock outputclass="language-xml"><![CDATA[ein thätiger 
+  <choice>
+    <abbr>u</abbr>
+    <expan>und</expan>
+  </choice>]]></codeblock></p>
+  </section>  
  </body>
 </topic>

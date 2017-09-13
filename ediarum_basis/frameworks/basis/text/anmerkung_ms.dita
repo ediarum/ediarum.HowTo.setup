@@ -51,21 +51,26 @@ Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut
   </table>
   <codeblock outputclass="language-xml"><![CDATA[mit.<note place="right" hand="#author">Ich konnte sie nicht mehr mit der 
 Post schicken.</note>]]></codeblock></section>
-  <section><title>edition humboldt digital</title>
-   <p>Zur Unterscheidung von Anmerkungen und Ergänzungen gilt die Richtlinie: Ergänzungen erweitern
-    den fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind –
-    ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p>
-   <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-    Manuskriptseite.
-    <?oxy_comment_start author="lkirsten" timestamp="20170907T140426+0200" comment="Umformulieren
-"?>Anmerkungen
-    werden dort gesetzt, wo sie im Text (offensichtlich oder editorisch vertretbar) hingehören. Das
-    Element wird also an der entsprechenden Stelle im Manuskript eingefügt. Wenn sich dieser Punkt
-    nicht eindeutig bestimmen lässt, kann die <codeph>&lt;note/></codeph> nach Augenmaß zwischen
-    zwei möglichst nahe liegenden Sätzen eingefügt werden. <?oxy_comment_end?></p>
-   <p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung werden erfasst.</p>
-   <p>Verzeichnet werden folgende Merkmale:</p>
-   <ul id="ul_sfj_xz3_dbb">
+  <section><title>edition humboldt digital</title><p>Zur Unterscheidung von Anmerkungen und
+    Ergänzungen gilt die Richtlinie: Ergänzungen erweitern den fortlaufenden Haupttext und gliedern
+    sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich wie Fußnoten im Druck – in sich
+    abgeschlossene Texteinheiten.</p><p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
+     Manuskriptseite.<image placement="break" href="../../../../../abb10.tif" scale="60"
+     align="center" id="image_qws_nys_2bb">
+     <alt><?oxy_comment_start author="lkirsten" timestamp="20170912T123321+0200" comment="bildbearbeitung notwendig
+
+"?>ART
+      I, 17r<?oxy_comment_end?></alt>
+    </image></p><p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung
+    werden erfasst.<image placement="break" href="../../../../../abb11.png" scale="70"
+     align="center" id="image_b3h_zys_2bb">
+     <alt>ART I, 19r</alt>
+    </image></p><p audience="editor">Anmerkungen werden dort gesetzt, wo sie im Text (offensichtlich oder editorisch
+   vertretbar) hingehören. Das <codeph>&lt;note></codeph>-Element wird demnach an der entsprechenden
+   Stelle im Manuskript eingefügt. Wenn sich dieser Punkt nicht eindeutig bestimmen lässt, kann es
+   nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p> <p audience="editor">Zeilenumbrüche werden auch in Anmerkungen erfasst, nicht jedoch in Ergänzungen
+    (da diese in der Webansicht unmittelbar in den Fließtext eingefügt werden).</p><p audience="editor">Verzeichnet werden folgende
+    Merkmale:<ul id="ul_sfj_xz3_dbb">
     <li><b>Autorschaft</b>
      <?oxy_comment_start author="lkirsten" timestamp="20170907T135610+0200" comment="oben steht @hand
 "?><codeph>@rend</codeph><?oxy_comment_end?>
@@ -73,6 +78,6 @@ Post schicken.</note>]]></codeblock></section>
     <li><b>Ort des Schreibakts</b>
      <codeph>@place</codeph>
     </li>
-   </ul></section>
+   </ul></p></section>
  </body>
 </topic>

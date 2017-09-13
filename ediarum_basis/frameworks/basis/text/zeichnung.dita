@@ -3,18 +3,43 @@
 <topic id="topic_upg_fbv_ty">
  <title><image href="../../img/figure16.png" id="image_tp3_vls_2y"/> Zeichnung einfügen</title>
  <body>
-  <p>Mit dem <codeph>&lt;figure></codeph>-Element können Sie Zeichungen (samt Bildunterschrift) aus
+  <section><p>Mit dem <codeph>&lt;figure></codeph>-Element können Sie Zeichungen (samt Bildunterschrift) aus
    dem Manuskript einfügen. Die Person, die die Zeichung gemacht hat, wird im Attribut
     <codeph>@hand</codeph> angegeben: #author, #addressee oder eine Person aus dem
    Personen-Register. Fall im Manuskript eine Bildunterschrift notiert ist, wird diese in einem
     <codeph>&lt;p></codeph>-Element festgehalten. Im <codeph>&lt;figDesc></codeph>-Element kann die
    Herausgeberin das Bild beschreiben. Im Attribut <codeph>@facs</codeph> ist der Dateiname notiert.
-   Bearbeiterkommentare können mithilfe des <codeph>&lt;note></codeph>-Elements hinzugefügt werden. </p>
+   Bearbeiterkommentare können mithilfe des <codeph>&lt;note></codeph>-Elements hinzugefügt werden.</p>
   <codeblock outputclass="language-xml"><![CDATA[<figure facs="abbildung" hand="#adresee">
    <p>[Bildunterschrift im Ms]</p>
    <figDesc>[Bildbeschreibung des Bearbeiters]</figDesc>
    <note type="editorial">[Kommentar Bearbeiterin]</note>
-</figure>]]></codeblock>
+</figure>]]></codeblock></section>
+  <section audience="editor"><title>edition humboldt digital</title><b>Bildvorlage erstellen
+    </b><p>Die Erstellung und korrekte Ablage der Bildvorlage erfolgt in 3 Schritten:<ol
+     id="ol_zgx_z1t_2bb">
+     <li>Schnappschuss der Zeichnung/Skizze erstellen (etwa in Acrobat Reader)</li>
+     <li>Schnappschuss im Bildbearbeitungsprogramm bearbeiten (etwa in IrfanView)</li>
+     <li>Bilddatei als JPG korrekt abspeichern, d.h.<ol id="ol_ahx_z1t_2bb">
+       <li>Bei Bedarf in ediarum im Verzeichnis „Zeichnungen“ ein neues Verzeichnis anlegen (etwa
+        „Cuba“). Das Verzeichnis sollte keine Leer- und Sonderzeichen aufweisen.</li>
+       <li>Bilddatei mit eindeutigem Namen versehen. Dieser setzt sich zusammen aus der Foliierung
+        der Vorlage und einer laufenden Zahl (etwa 129r_1.jpg)</li>
+      </ol></li>
+    </ol></p>
+   <p><b>Zeichnung/Skizze einfügen und kommentieren</b></p>
+   <p>Einfügen und kommentieren der Bildvorlage erfolgt in drei Schritten:
+    <ol id="ol_pmh_3bt_2bb">
+     <li>Dateiname korrekt eintragen<image placement="break"
+       href="../../../../../screenshot_zeichnung.png" align="center" id="image_qnt_tbt_2bb"/></li>
+     <li>Urheber der Zeichnung auswählen</li>
+     <li>Bildbeschreibung in das vorgegebene Feld eintragen</li>
+     <li>Eine Sachanmerkung zum Bild lässt sich über die übliche Schaltfläche einfügen. Dafür reicht
+      es, die Bilddatei markiert oder den Cursor in der Bildbeschreibung stehen zu haben.<image
+       placement="break" href="../../../../../screenshot_zeichnung2.png" align="center"
+       id="image_c4c_3ct_2bb"/></li>
+    </ol>
+   </p></section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/abbildung.html" format="html"
   scope="external"><linktext>Abbildungen – Dokumentation des DTABf</linktext></link></linklist>

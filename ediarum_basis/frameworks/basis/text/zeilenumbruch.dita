@@ -3,7 +3,7 @@
 <topic id="topic_w1l_n1v_ty">
  <title><image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> Zeilenumbruch</title>
  <body>
-  <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
+ <section> <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
     <codeph>&lt;lb/></codeph>-Element (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
    kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
   <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs
@@ -34,7 +34,31 @@
   <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
   <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
    weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden.
-  </p>
+  </p></section>
+  <section audience="editor"><title>edition humboldt digital</title><p>Für alle handschriftlichen Texte findet eine Auszeichnung der Zeilenumbrüche statt. Im Beispiel
+    unten kommen alle drei Varianten von Zeilenumbrüchen vor. <ol id="ol_vdy_zks_2bb">
+     <li>Einfacher Zeilenumbruch</li>
+     <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
+     <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
+    </ol><b>Wichtig:</b> Punkte oder vermeintliche Anführungszeichen (auch doppelte Trennstriche) am
+    Zeilenende sind als normale Trennungszeichen zu behandeln.</p>
+     <?oxy_comment_start author="lkirsten" timestamp="20170912T103741+0200" comment="Bildbearbeitung notwendig"?><image
+     placement="break" href="../../../../../abb4.png" scale="50" align="center"
+     id="image_vzy_vks_2bb">
+     <alt>ART III, 2r</alt>
+    </image><?oxy_comment_end?>
+    <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
+<lb break="no"/>artigen Fibern zwangen, die Capuciner Missionen
+<lb/>am Guarapiche zu verlassen u. die Reise nach Caru<g ref="#typoHyphen"/>
+<lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
+<lb break="no"/>catar aufzugeben, dachten wir nur wenige Wochen
+<lb/>in Cumana zu verweilen. …]]></codeblock>
+   <p><b>Ausnahme</b>: Der Zeilenumbruch wird nicht innerhalb
+    des <codeph>&lt;add></codeph>-Elements gesetzt, also nicht in Textergänzungen durch Humboldt.
+    Muss man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich setzen, ist
+    darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss. <b>Wichtig</b>: Das
+    Trennungszeichen setzt sich in Möglichkeit 2 von selbst.</p>
+   </section>
  </body>
  <related-links>
   <linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/lbAllg.html" format="html"

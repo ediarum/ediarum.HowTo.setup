@@ -8,16 +8,15 @@
         <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
         <section>
             <title>edition humboldt digital</title>
-            <p>
-                <ul id="ul_vq1_y43_dbb">
-                    <li>Horizontale Linien, die erkennbar Textbereiche voneinander trennen, werden
-                        erfasst.</li>
-                </ul>
+            <p>Horizontale Linien, die erkennbar Textbereiche voneinander trennen, werden
+                        erfasst.</p>
                 <image placement="break" href="../../../../../abb8.png" scale="80" align="center"
                     id="image_g1c_s43_dbb">
                     <alt>RST I, 1v</alt>
                 </image>
-            </p>
+            <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>
+<milestone unit="section" rendition="#hr"/>
+<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15</p>]]></codeblock>               
         </section>
     </body>
 </topic>

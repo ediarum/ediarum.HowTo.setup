@@ -35,14 +35,19 @@
   </section>
   <p>Einfache und doppelte Unterstreichungen werden getreu nach Vorlage erfasst. Wörter oder
    Zeichenfolgen, die im Manuskript nur teilweise unterstrichen sind, werden immer in Gänze
-   ausgezeichnet,
-   <?oxy_comment_start author="lkirsten" timestamp="20170907T151341+0200" comment="editorische erläuterung belassen?
-"?>da
-   eine willentliche Unterstreichung einzelner Buchstaben in einem Wort nicht plausibel erscheint. <?oxy_comment_end?>
-   <image placement="break" href="../../../../../abb12.png" scale="70" align="center"
-    id="image_xzm_pmj_dbb">
-    <alt>Cuba-Manuskript, 127r; unvollständige Unterstreichung des Wortes "Granite"</alt>
-   </image></p>
+   ausgezeichnet, da eine willentliche Unterstreichung einzelner Buchstaben in einem Wort nicht
+   plausibel erscheint.</p>
+  <p>Im folgenden Beispiel wäre die Teilunterstreichung in der Transkription „G<u>rani</u>te“ eine
+   Überbetonung des Schriftbildes gegenüber seiner Bedeutung (Humboldt unterstreicht das Wort
+   Granite und nicht „rani“ in „Granite“).</p>  
+  <image placement="break" href="../../../../../abb12.png" scale="80" align="center"
+   id="image_xzm_pmj_dbb">
+   <alt>Cuba-Manuskript, 127r;</alt>
+  </image>
+  <codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock>
+  <p><?oxy_comment_start author="lkirsten" timestamp="20170913T101223+0200" comment="screenshot wäre vllt besser
+"?><q>il
+    y a du Granite, du Schiste primitif</q><?oxy_comment_end?></p>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"
   format="html" scope="external"><linktext>Richtlinien zur Kodierung typographischer Besonderheiten – Dokumentation des DTABf</linktext></link></linklist>
