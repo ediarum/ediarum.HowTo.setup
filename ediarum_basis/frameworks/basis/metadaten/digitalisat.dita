@@ -6,14 +6,15 @@
         <section id="section_qnn_m32_bbb">
             <title>Allgemeines</title>
             <p>Digitalisate, die in Webangeboten Dritter zur Verfügung gestellt werden, können auf
-                zwei Arten verlinkt werden. Zum einen einzelnd beim Folio- bzw. Seitenwechsel, zum
+                zwei Arten verlinkt werden. Zum einen einzeln beim Folio- bzw. Seitenwechsel, zum
                 anderen generalisiert für das Manuskript als ganzes. Vorzuziehen ist eher letztere
                 Variante. Allerdings kann es z.B. bei Regestenausgaben nötig sein, nicht anhand der
                 Folio- bzw. Seitenstruktur zu verlinken. Sollte dies der Fall sein, wird der Link
                 zum Digitalisat in den Metadaten notiert. Für Links zu Digitalisaten sollte in der
                 Regel das Webangebot der bestandshaltenden Institution verwendet werden und die dort
-                üblicherweise angebotenen "Permalinks".</p>
-        </section>
+                üblicherweise angebotenen "Permalinks". Bei "Kalliope"-Einträgen meint dies den
+                Link, der als "Digitalisat" gekennzeichnet ist.</p>
+        </section>        
         <section id="section_df1_dj2_bbb" audience="editor">
             <title>Bedienung</title>
             <p>Links zu Digitalisaten, die <b>nicht</b> anhand folio- bzw. seitenweise verlinkt

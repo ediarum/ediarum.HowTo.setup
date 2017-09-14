@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_qxp_ph5_2bb">
+  <title>Normalisierung</title>
+  <body>
+    <section><title>Schreibgewohnheiten</title>       
+    <p>Schreibgewohnheiten Humboldts werden bewahrt. Dies führt allerdings zu einigen Kompromissen
+        und Einzelfall-Lösungen. <b>Häufige Schreibgewohnheiten</b> sind:<ul id="ul_yjy_fl5_2bb">
+          <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, disponirt, unnüz)</li>
+          <li>Th statt T (Theil, Monathe)</li>
+          <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
+          <li>Schwankende Schreibung von Eigennamen (Göthe, Schinckel)</li>
+          <li>verschiedene Formen des "s", "ß" nur dann, wenn explizit von Humboldt so
+            geschrieben</li>
+        </ul>In diesen und vergleichbaren Fällen findet keine Normalisierung mithilfe des
+          <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt.
+        Eigennamen von Orten oder Personen werden in ihrer ürsprünglichen Schreibweise belassen. Die
+        Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
+        Registereintrag.</p></section>
+    <section><title><?oxy_comment_start author="lkirsten" timestamp="20170913T111113+0200" comment="bereich umformulieren
+"?>Stillschweigende
+        Normalisierung<?oxy_comment_end?></title>
+      <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
+        der Verwendung von diakritischen Zeichen anhand des <codeph>&lt;choice></codeph>-Elements
+        kenntlich zu machen. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
+        diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
+          <li>Akzente in allen Sprachen</li>
+          <li>Tremata, etwa deutsche Umlaute</li>
+        </ul></p>
+      <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
+          id="ul_eqt_2sz_2bb">
+          <li><b>Autorintention:</b> wir können davon ausgehen, dass Humboldt sich sehr wohl seiner
+            nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
+            oder rasche Notiz im Reisetagebuch als überflüssig erachtete. In Einzelfällen, wie etwa
+            einem Brief an Kunth, lässt sich nachweisen, dass Humboldt die fehlenden Tremata selbst
+            nachträglich ergänzte, um seinen (in diesem Fall: wichtigen) Briefinhalt auch
+            zweifelsfrei zu kommunizieren. </li>
+          <li><b>Autorbild:</b> führen wir eine transparente Normalisierung konsequent durch, so
+            produzieren wir einen kritischen Text, der ein geradezu verzerrtes Humboldt-Bild erzeugt
+            und in Gänze den Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass
+            Humboldt im Alltag den „Konig zogern“ lässt, mag aufschlussreich sein. Auf Dauer aber
+            und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt es den Text.</li>
+          <li><b>Nicht eindeutige materielle Grundlage:</b> zuweilen suggeriert das Schriftbild,
+            dass Humboldt sehr wohl ein Trema gesetzt haben wird, es aber bei schneller
+            Niederschrift oder abgenutzter Schreibfeder auch schlicht nicht zum (vollständigen)
+            Abdruck des Zeichens kam. Der Brief an Meyen Anfang 1830 zeigt dies deutlich. Über „fur“
+            fehlt das Trema über „schone“ kann man es zumindest erahnen. Hier also „fur das schone“
+            zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<image
+              href="../../../../../abb19.png" scale="70" id="image_g5f_qsz_2bb">
+              <alt>"fur das schone" - Brief AvH an Meyen, Anfang 1830</alt>
+            </image></li>
+          <li><b>Grenzen der diplomatischen Umschrift:</b> würden wir unterscheiden, ob Tremata im
+            Einzelfall gesetzt wurden oder nicht, müssten wir auch darüber nachdenken, fehlende
+            i-Punkte, bzw. dokumentgetreu auszuzeichnen</li>
+          <li><b>Vergleichstexte:</b> die Entscheidung, stillschweigend zu normalisieren, gilt für
+            das Gros unserer Texte, d.h. für alle Texte auf der Auszeichnungsstufe 1 und 2.
+            Beispielhaft werden wir aber einzelne Konvolute mit erhöhter Auszeichnungstiefe
+            (Granularität) publizieren:<ul id="ul_qdx_1tz_2bb">
+              <li><b>Kunth-</b>Briefwechsel (Auszeichnungstiefe 3): hier werden alle fraglichen
+                Stellen transparent normalisiert, auch wenn das den Konig zogern lässt.</li>
+              <li><b>Cuba-</b>Manuskript (Auszeichnungstiefe 4): hier wird der Unterschied zwischen
+                Befund (kritischer Text) und Deutung (Lesefassung) noch stärker ausgebaut.
+                Kennzeichen dieser Auszeichnungsstufe sind: hoher Einsatz den Text ordnender
+                Interpunktion, Normalisierung von Ortsnamen</li>
+            </ul></li>
+        </ul></p>
+    </section>
+  </body>
+</topic>

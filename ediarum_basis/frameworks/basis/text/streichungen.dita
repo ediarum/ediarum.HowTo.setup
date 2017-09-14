@@ -4,7 +4,7 @@
  <title><image href="../../img/del16.gif" id="image_rcq_yhf_2y"/> Streichungen</title>
  <shortdesc></shortdesc>
  <body>
-  <p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem
+  <section><p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem
     <codeph>&lt;del></codeph>-Element (deletion) ausgezeichnet. Das Attribut
     <codeph>@rendition</codeph> enthält nähere Angaben zur Art der Streichung.<table
     id="table_frw_4ns_2y">
@@ -31,7 +31,27 @@
      </tbody>
     </tgroup>
    </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock>
+  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
+  <section><title>edition humboldt digital</title>
+   <p>Gestrichener Text wird grundsätzlich - soweit lesbar - vollständig erfasst, samt aller
+    Textphänomene wie Zeilenumbrüche, Auflösung von Abkürzungen, Normalisierungen und
+    Herausgeberkorrekturen, bzw. –ergänzungen. <image placement="break"
+     href="../../../../../abb13.png" scale="60" align="center" id="image_zyq_spt_2bb">
+     <alt>Cuba, 142v "23. La salubrité de la Havane..."</alt>
+    </image></p>
+   <p>Auch Streichungen innerhalb einer bereits gestrichenen Passage werden ausgezeichnet.<image
+     placement="break" href="../../../../../abb14.png" scale="60" align="center"
+     id="image_evk_nst_2bb">
+     <alt>Cuba, 142v "il leur est..."</alt>
+    </image></p>
+    <codeblock outputclass="language-xml" audience="editor"><![CDATA[il <subst>
+     <del rendition="#s">est</del>
+     <add place="intralinear">leur est</add>
+  </subst> 
+très]]></codeblock>
+    <p audience="editor">In der Webansicht wird die auf diese Weise eine gestrichene Passage innerhalb einer bereits
+   gestrichenen Passage als doppelt durchgestrichen dargestellt.</p>
+  </section> 
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html?hl=streichung"
   format="html" scope="external"><linktext>Hinzufügung und Tilgung – Dokumentation des DTABf</linktext></link></linklist> 

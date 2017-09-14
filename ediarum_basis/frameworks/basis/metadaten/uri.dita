@@ -17,9 +17,10 @@
                     format="html" scope="external">Abschnitt im Wikipedia-Artikel</xref>.</p>
             <p>URIs zu Archivalien werden mittlerweile häufig vom Archiv oder einem Verbundkatalog
                 angeboten. Im deutschsprachigen Raum bietet vor allem der Verbundkatalog "Kalliope"
-                zu jeder Verzeichniseinheit eine entsprechende URI an, z.B. : <xref
+                zu jeder Verzeichniseinheit eine entsprechende URI (bezeichnet als EAD-ID, "Encoded
+                Archival Description-Identifier") an, z.B. : <xref
                     href="http://kalliope-verbund.info/DE-611-HS-2877719" format="html"
-                    scope="external">http://kalliope-verbund.info/DE-611-HS-2877719</xref>.   </p>
+                    scope="external">http://kalliope-verbund.info/DE-611-HS-2877719</xref>.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
