@@ -4,13 +4,44 @@
  <title><image href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/>
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b><?oxy_custom_end?>Sachanmerkung</b></title>
  <body>
-  <p> Mit dem Element <codeph>&lt;seg></codeph>-Element (arbitrary segment) können Sie Sachanmerkung
-   zu Textstellen erstellen. Die Stelle, die Sie kommentieren möchten, zeichnen Sie durch das
-    <codeph>&lt;orig></codeph>-Element aus. Im <codeph>&lt;note></codeph>-Element wird die
-   entsprechende Anmerkung notiert. Das Attribut <codeph>@xml.id</codeph> wird automatisch generiert.</p>
+  <section><p>Mit dem Element <codeph>&lt;seg></codeph>-Element (arbitrary segment) können Sie Sachanmerkung zu
+    Textstellen erstellen. Die Stelle, die Sie kommentieren möchten, zeichnen Sie durch das
+     <codeph>&lt;orig></codeph>-Element aus. Im <codeph>&lt;note></codeph>-Element wird die
+    entsprechende Anmerkung notiert. Das Attribut <codeph>@xml.id</codeph> wird automatisch
+    generiert.</p>
   <codeblock outputclass="language-xml"><![CDATA[<seg type="comment">
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
-</seg>]]></codeblock>
+</seg>]]></codeblock></section>
+  <section audience="editor"><title>edition humboldt digital</title>
+   <p>Sachanmerkungen sollten möglichst kurz und kompakt, auf wesentliche Erläuterungen der
+    Textstelle oder des größeren Textsegmentes, konzentriert sein. Durch Markierung des zu
+    kommentierenden Textes kann der Editor festlegen, wieviel Manuskripttext (ein Wort, ein Satz,
+    ein Absatz) kommentiert wird.</p>
+   <p>Bei der Erwähnung von <b>bibliographischen Angaben</b> in einer Sachanmerkung müssen folgende
+    Punkte berücksichtigt werden:</p>
+   <ol id="ol_w4p_ntn_hbb">
+    <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank</li>
+    <li>Vergabe eines Kurztitels</li>
+    <li>Angabe des Kurztitels in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
+     [Kurztitel, Band, Seite]</li>
+    <li>Nur der Kurztitel wird mit dem Werktitel unserer Zotero-Datenbank ausgezeichnet</li>
+   </ol>
+   <sectiondiv><p><b>Personen und Orte</b> werden in Sachanmerkungen regulär ausgezeichnet, allerdings nur bei
+     Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
+     Sachanmerkungen nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel etwa
+     werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<image
+      placement="break" href="../../img_avhr/sachanmerkung1.tif" align="center"
+      id="image_pnw_krn_hbb" scale="50">
+      <alt>AvH an Meyen, 11. März 1829</alt>
+     </image></p></sectiondiv>
+  </section>
+  <p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der Ersterwähnung
+   ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder der Vor- und Nachname
+    ausgezeichnet.<image placement="break" href="../../img_avhr/sachanmerkung2.tif" align="center"
+    id="image_vfg_btn_hbb" scale="40">
+    <alt>AvH an Meyen, Anfang 1830</alt>
+   </image></p>  
+  
  </body>
 </topic>

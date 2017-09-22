@@ -42,6 +42,11 @@
    einem <codeph>&lt;orig></codeph>-Element (original) notiert, die normalisierte Schreibweise in
    einem <codeph>&lt;reg></codeph>-Element (regularization). </p>
   <codeblock outputclass="language-xml"><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
+  <section><title>edition humboldt digital</title>
+   <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der <b>Unterscheidung zwischen
+     Schreibgewohnheit,Normalisierung und Korrekturen durch den Herausgeber</b>. <xref
+     href="normalisierung.dita#topic_qxp_ph5_2bb/table_bps_3jg_hbb">Diese Grenzfälle werden anhand
+     repräsentativer Beispiele dokumentiert.</xref></p></section>
  </body>
  <related-links>
   <linklist scope="external"><title>Deustches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eeDruckfehler.html" format="html"

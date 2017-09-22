@@ -4,7 +4,7 @@
  <title><image href="../../img/gap16.gif" id="image_hpc_d3f_2y"/>
   <b>Nicht lesbare Zeichen und Auslassungen</b></title>
  <body>
-  <p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
+  <section><p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
    <codeph>&lt;gap/></codeph> ausgezeichnet. Im Attribut <codeph>@unit</codeph> wird das nicht lesbare Segment näher
    bestimmt: <table id="table_owv_gqs_2y">
     <tgroup cols="2">
@@ -68,7 +68,27 @@
       </row>
      </tbody>
     </tgroup>
-   </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
+   </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock></section>
+  <section audience="editor"><title>edition humboldt digital</title>
+  
+  </section>
+  <p><b>Leere Seiten</b> werden einzeln erfasst, im XML-Code trägt das Attribut
+    <codeph>@reason</codeph> den Wert <codeph>"empty"</codeph>:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
+  <p><b>Zerstörte oder verlorene Seiten</b> werden ebenso einzeln erfasst, allerdings im
+    <codeph>@reason</codeph>-Attribut mit dem Wert <codeph>"lost"</codeph>:</p>
+  <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="lost"/>]]></codeblock>
+  <p>In der ediarum-Autoransicht sind die Arbeitsschritte:</p>
+  <ul id="ul_igj_pdt_gbb">
+   <li>Cursor <i>hinter</i> den Seitenwechsel (<codeph>&lt;pb/></codeph>) setzen</li>
+   <li>Klick auf die Schaltfläche „Gar nicht lesbare Wörter im Text“, dann Auswahl: <ul
+     id="ul_zvf_4dt_gbb">
+     <li>Einheit: Seite</li>
+     <li>Anzahl: 1</li>
+     <li>Grund für die Lücke: Leerraum, bzw. Zerstörung/Verlust</li>
+    </ul></li>
+  </ul>
+  
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html" format="html"
   scope="external"><linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des DTABf</linktext></link></linklist> 

@@ -12,22 +12,23 @@
           <li>Schwankende Schreibung von Eigennamen (Göthe, Schinckel)</li>
           <li>verschiedene Formen des "s", "ß" nur dann, wenn explizit von Humboldt so
             geschrieben</li>
-        </ul>In diesen und vergleichbaren Fällen findet keine Normalisierung mithilfe des
+        </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe des
           <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt.
         Eigennamen von Orten oder Personen werden in ihrer ürsprünglichen Schreibweise belassen. Die
         Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
         Registereintrag.</p></section>
-    <section><title><?oxy_comment_start author="lkirsten" timestamp="20170913T111113+0200" comment="bereich umformulieren
-"?>Stillschweigende
-        Normalisierung<?oxy_comment_end?></title>
+    <section><title>Stillschweigende Normalisierung</title>
       <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
         der Verwendung von diakritischen Zeichen anhand des <codeph>&lt;choice></codeph>-Elements
         kenntlich zu machen. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
         diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
           <li>Akzente in allen Sprachen</li>
-          <li>Tremata, etwa deutsche Umlaute</li>
+          <li>Tremata, etwa in deutschen Umlauten</li>
         </ul></p>
-      <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
+      <p><?oxy_comment_start author="lkirsten" timestamp="20170921T152811+0200" comment="folgenden Bereich umformulieren
+
+"?>Neben
+        dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<?oxy_comment_end?><ul
           id="ul_eqt_2sz_2bb">
           <li><b>Autorintention:</b> wir können davon ausgehen, dass Humboldt sich sehr wohl seiner
             nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
@@ -46,7 +47,7 @@
             Abdruck des Zeichens kam. Der Brief an Meyen Anfang 1830 zeigt dies deutlich. Über „fur“
             fehlt das Trema über „schone“ kann man es zumindest erahnen. Hier also „fur das schone“
             zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<image
-              href="../../../../../abb19.png" scale="70" id="image_g5f_qsz_2bb">
+              href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb">
               <alt>"fur das schone" - Brief AvH an Meyen, Anfang 1830</alt>
             </image></li>
           <li><b>Grenzen der diplomatischen Umschrift:</b> würden wir unterscheiden, ob Tremata im
@@ -61,9 +62,388 @@
               <li><b>Cuba-</b>Manuskript (Auszeichnungstiefe 4): hier wird der Unterschied zwischen
                 Befund (kritischer Text) und Deutung (Lesefassung) noch stärker ausgebaut.
                 Kennzeichen dieser Auszeichnungsstufe sind: hoher Einsatz den Text ordnender
-                Interpunktion, Normalisierung von Ortsnamen</li>
-            </ul></li>
+                Interpunktion, Normalisierung von Ortsnamen</li></ul></li>
         </ul></p>
+              <p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="stark umformuliert, bitte Textsinn prüfen
+"?>In
+        den seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
+          <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist.
+        <?oxy_comment_start author="lkirsten" timestamp="20170922T114855+0200" comment="nicht ganz eindeutig!
+"?>Wenn
+        eine intentionale oder anderweitig signifikante Abweichung möglich oder wahrscheinlich
+        erscheint<?oxy_comment_end?>, wird die Normalisierung mithilfe des
+          <codeph>&lt;choice></codeph>-Elements kenntlich gemacht. Wird in vergleichbaren Fällen
+        stillschweigend normalisiert, erfolgt in einer <b>Sachanmerkung</b> (siehe <xref
+          href="sachanmerkung.dita#topic_lgx_rhx_5y">Sachanmerkung</xref>) eine kurze Begründung der
+        Kenntlichmachung.<?oxy_comment_end?></p>            
     </section>
+    <section><title>Unterscheidung zwischen Schreibgewohnheit, Normalisierung und Korrektur</title>
+      <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
+        Schreibgewohnheit, (stillschweigender/expliziter) Normalisierung und dem korrigierenden
+        Eingriff durch den Herausgeber.</p>
+      <p>Diese Grenzfälle werden anhand repräsentativer Beispiele dokumentiert. Die Unterscheidung
+        basiert auf folgenden Richtlinien:</p>
+      <p>      
+          <ol id="ol_awp_1mg_hbb">
+            <li><b>AvH Schreibgewohnheit</b>: Humboldt schreibt mit hoher Konsistenz so; die
+              Schreibweise wird als Stilelement respektiert</li>
+            <li><b>Stillschweigende Normalisierung</b>: diakritische Zeichen werden stillschweigend
+              ergänzt</li>
+            <li><b>Explizite Normalisieriung</b>: offener Ermessensraum zwischen 1 und 4 </li>
+            <li><b>Korrektur durch den Herausgeber</b>: offenkundige Fehler werden explizit
+              korrigiert</li>
+          </ol>
+        </p>
+        <table id="table_bps_3jg_hbb">
+          <tgroup cols="5">
+            <thead>
+              <row>
+              <entry>Typ</entry>
+              <entry>Befund</entry>
+              <entry>Kritisch</entry>
+              <entry>Lesefassung</entry>
+              <entry>Beispiel (Seite oder Dateiname)</entry>
+            </row>
+            </thead>
+            <tbody>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>tems</entry>
+              <entry>tems</entry>
+              <entry>tems</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>anglois</entry>
+              <entry>anglois</entry>
+              <entry>anglois</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>monumens</entry>
+              <entry>monumens</entry>
+              <entry>monumens</entry>
+              <entry>Titel der 'Vues des Cordillères et monumens des peuples indigènes de
+                l'Amérique'; weitere Beispiele: habitans</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>lieuex</entry>
+              <entry>lieuex</entry>
+              <entry>lieuex</entry>
+              <entry>Cuba, 141r</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>nud</entry>
+              <entry>nud</entry>
+              <entry>nud</entry>
+              <entry>Cuba, 141v</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>pie</entry>
+              <entry>pié</entry>
+              <entry>pié</entry>
+              <entry>Cuba, 140r</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>hazard</entry>
+              <entry>hazard</entry>
+              <entry>hazard</entry>
+              <entry>Cuba, 134r</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>Sontag</entry>
+              <entry>Sontag</entry>
+              <entry>Sontag</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>près Bahia Honda</entry>
+              <entry>près Bahia Honda</entry>
+              <entry>près Bahia Honda</entry>
+              <entry>Cuba, 129r</entry>
+            </row>
+            <row>
+              <entry>1) AvH Schreibgewohnheit</entry>
+              <entry>aye</entry>
+              <entry>aye</entry>
+              <entry>aye</entry>
+              <entry>Cuba, 132r/134r</entry>
+            </row>
+            <row>
+              <entry>2) Stillschw. Normalisierung</entry>
+              <entry>Konig</entry>
+              <entry>König</entry>
+              <entry>König</entry>
+              <entry>Kunth-Briefe</entry>
+            </row>
+            <row>
+              <entry>2) Stillschw. Normalisierung</entry>
+              <entry>Francois</entry>
+              <entry>François</entry>
+              <entry>François</entry>
+            </row>
+            <row>
+              <entry>2) Stillschw. Normalisierung</entry>
+              <entry>a</entry>
+              <entry>à</entry>
+              <entry>à</entry>
+            </row>
+            <row>
+              <entry>2) Stillschw. Normalisierung</entry>
+              <entry>chaine</entry>
+              <entry>chaîne</entry>
+              <entry>chaîne</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>peutêtre</entry>
+              <entry>peutêtre</entry>
+              <entry>peut-être</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>parceque</entry>
+              <entry>parceque</entry>
+              <entry>parce que</entry>
+              <entry>Cuba, 132r</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>tandisque</entry>
+              <entry>tandisque</entry>
+              <entry>tandis que</entry>
+              <entry>Cuba, 128r</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>com̅e</entry>
+              <entry>com̅e</entry>
+              <entry>comme</entry>
+              <entry>weitere Beispiele: comerce > commerce; imense > immense (beide Cuba)</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>roux</entry>
+              <entry>roux</entry>
+              <entry>roues</entry>
+              <entry>Cuba, 130r</entry>
+            </row>                       
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>peut etre</entry>
+              <entry>peut être</entry>
+              <entry>peut-être</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>verd</entry>
+              <entry>verd</entry>
+              <entry>vert</entry>
+              <entry>RST, 32r "...devant quelquefois dur et verd comme du Grünstein..."</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>apellé</entry>
+              <entry>apellé</entry>
+              <entry>appelé</entry>
+              <entry>RST, 23r "...Kirtim (le pic apellé Wostresopka..."</entry>
+            </row>
+            <row>
+              <entry>3) Explizite Normalisierung</entry>
+              <entry>massiv</entry>
+              <entry>massiv</entry>
+              <entry>massif</entry>
+              <entry>RST, 23r "...angle de depression du massiv de l'Église..."</entry>
+            </row>
+          </tbody>
+          </tgroup>
+        </table>     
+      </section>
+    <section>
+      <title>Unterscheidung zwischen Kürzel, Abkürzung und Schreibgewohnheit</title>
+      <p>In der Unterscheidung zwischen Kürzeln, Abkürzungen und Humboldtscher Schreibgewohnheit
+        gibt es Sonderfälle, die in folgenden Tabelle dokumentiert sind. Für die Unterscheidung
+        gelten die Richtlinien:</p>
+      <p>
+        <ul id="ul_sbs_44g_hbb">
+          <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
+          <li><b>Abkürzungen</b> werden anhand des <codeph>&lt;choice></codeph>-Elements aufgelöst
+            (siehe <xref href="ergaenzungen_hg.dita#topic_ojx_3gv_ty"/>)</li>
+          <li><b>Sonderfall</b>: das Kürzel für Reichsthaler („r.“) wird als Abkürzung behandelt und
+            dementsprechend im <codeph>&lt;choice></codeph>-Element aufgelöst</li>
+        </ul>
+        <table id="table_pzj_4pg_hbb">
+          <tgroup cols="4">
+         <thead> <row>
+                <entry><b>Typ</b></entry>
+                <entry><b>kritisch</b></entry>
+                <entry><b>Lesefassung</b></entry>
+                <entry><b>Befund</b></entry>
+              </row></thead>
+            <tbody>             
+              <row>
+                <entry><b>Kürzel</b></entry>
+                <entry>Herr/Herrn</entry>
+                <entry>Herr/Herrn</entry>
+                <entry><image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb">
+                    <alt>"...H/Herr/Herrn..." - Brief AvH an Meyen, Anfang 1830</alt>
+                  </image></entry>
+              </row>
+              <row>
+                <entry><b>Abkürzung</b></entry>
+                <entry>Prof. Dr./D.</entry>
+                <entry>Professor Doktor</entry>
+                <entry><image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb">
+                    <alt>"Herrn Prof. D." - Brief AvH an Meyen, 22.08.1834</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>AvH</b></entry>
+                <entry>ich</entry>
+                <entry>ich</entry>
+                <entry><image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb">
+                    <alt>"...die ich..." - Brief AvH an Meyen, Anfang 1830</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Abkürzung</b></entry>
+                <entry>Ew</entry>
+                <entry>
+                  <p>Euer, Eure</p>
+                  <p> (Ewer, Ewre)</p>
+                </entry>
+                <entry><image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb">
+                    <alt>"Ew Wohlgeboren" - Brief AvH an Martius, 03.03.1829</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Kürzel</b></entry>
+                <entry>Wohlgeboren/er/e</entry>
+                <entry>Wohlgeboren/er/e</entry>
+                <entry><image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb">
+                    <alt>"Ew Wohlgeboren" - Brief AvH an Martius, 03.03.1829</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Kürzel</b></entry>
+                <entry>sich</entry>
+                <entry>sich</entry>
+                <entry><image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb">
+                    <alt>"sich" – AvH an Soemmerring, 08.05.1796</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Kürzel</b></entry>
+                <entry>den</entry>
+                <entry>den</entry>
+                <entry><image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb">
+                    <alt>"B. den 14 Mai 1830" - AvH an Meyen, 14.05.1830</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Abkürzung</b></entry>
+                <entry>usw./etc./&amp;c./&amp;/ca.</entry>
+                <entry>
+                  <p>usw./etc./&amp;c./&amp;/ca.</p>
+                  <p> </p>
+                </entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry><b>Abkürzung</b></entry>
+                <entry>c. à. d.</entry>
+                <entry>c’est-à-dire</entry>
+                <entry><image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb">
+                    <alt>"c.a.d." - ART I, 2r </alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Abkürzungen</b></entry>
+                <entry>Nr./no./N<u>o</u>./n./n</entry>
+                <entry>[jeweils auflösen]</entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry><b>Abkürzungen</b></entry>
+                <entry>z.B./i.e.</entry>
+                <entry>[jeweils auflösen]</entry>
+                <entry> </entry>
+              </row>
+              <row>
+                <entry><b>Sonderkürzel</b></entry>
+                <entry>r.</entry>
+                <entry>Reichsthaler</entry>
+                <entry><image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb">
+                    <alt>"r." - RST I, 4v</alt>
+                  </image>
+                </entry>
+              </row>
+              <row>
+                <entry><b>Sonderkürzel</b></entry>
+                <entry>gr.</entry>
+                <entry>Groschen</entry>
+                <entry><image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"><alt>Groschenkürzel, AvH an Willdenow, Aranjuez, 20.04.1799</alt></image></entry>
+              </row>
+              <row>
+                <entry><b>Sonderkürzel</b></entry>
+                <entry>lb</entry>
+                <entry>
+                  <p>livres (oder dt.: Pfund)</p>
+                </entry>
+                <entry><image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb">
+                    <alt>Pfundzeichen - Cuba, 130v</alt>
+                  </image>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </p>
+    </section>
+    <section><title>Stillschweigende Normalisierung von Zahlenwerten</title>
+      <p>Bei der Auszeichnung von Zahlenwerten wird in  höherem Maße von der Manuskriptvorlage
+        abgewichen als  bei jeglicher Art von Textphänomenen. </p>
+      <p>Im Fall der <b>Nebenrechnungen</b> wird so gut wie möglich in der Transkription das
+        Schriftbild in die damit ausgedrückte Rechenoperation übertragen.</p>
+      <p>In <b>Tabellen und Berechnungen</b> setzt Humboldt  Punkte und Kommata (etwa um
+        Dezimalstellen kenntlich zu machen) uneinheitlich. In diesen Fällen erfolgt eine
+          <b>stillschweigende Vereinheitlichung nach dem Prinzip der Umgebungsangleichung</b>, wobei
+        im Zweifelsfall nach heute gängiger Schreibpraxis verfahren wird - Dezimalstellen werden mit
+        Punkt getrennt, Nachkommastellen entsprechend mit einem Komma. Darüber hinaus wird die
+        Darstellung von Messwerten im Sinne ihrer zu Humboldts Zeit konventionalisierten Form
+        vereinheitlicht.</p>
+      <p>Dies hat zur Folge, dass in der Transkription der Messwerte die Auszeichnung der
+        Zeichenabstände im Vordergrund und der Aufwand in der Bearbeitung insgesamt in einem
+        akzeptablen Verhältnis zum Ergebnis steht. </p>
+      <p><?oxy_comment_start author="lkirsten" timestamp="20170922T141118+0200" comment="in den editionsrichtlinien ist diese liste auf das spez. beispiel bezogen. funktioniert sie auch allgemein, oder kann man sie allgemein umformulieren? - habe sie erstmal allgemeingültig übernommen
+
+"?><b>Maßgaben
+          bei der Transkription von Messwerten sind</b>: <ul id="ul_ohg_bf4_hbb">
+          <li>Zeichensetzung (Punkte, Kommata) normalisieren</li>
+          <li>Messwerteinheiten (Grad, Minuten) normalisieren</li>
+          <li>Zeichenabstände (Halbgeviertabstand und Leerzeichen) zwischen den Zahlen anpassen</li>
+          <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“)<?oxy_comment_end?></li>
+        </ul></p>                         
+      <p>Das folgende Beispiel der Messung der Inklination (Nadel A, Nadel B, Mittel beider Nadeln)
+        zeigt exemplarisch eine entsprechende Auszeichnung:</p><image placement="break"
+          href="../../img_avhr/abb30.png" scale="60" align="center" id="image_xqr_h24_hbb">
+          <alt>RST I, 5r</alt>
+        </image></section>
+    <image placement="break" href="../../img_avhr/abb30-web.png" align="center"
+      id="image_ng3_v24_hbb">
+      <alt>RST I, 5r - Webansicht</alt>
+    </image>
   </body>
 </topic>

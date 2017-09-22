@@ -31,13 +31,14 @@
    <p>Einfügen und kommentieren der Bildvorlage erfolgt in drei Schritten:
     <ol id="ol_pmh_3bt_2bb">
      <li>Dateiname korrekt eintragen<image placement="break"
-       href="../../../../../screenshot_zeichnung.png" align="center" id="image_qnt_tbt_2bb"/></li>
+              href="../../img_avhr/screenshot_zeichnung.png" align="center" id="image_qnt_tbt_2bb"
+            /></li>
      <li>Urheber der Zeichnung auswählen</li>
      <li>Bildbeschreibung in das vorgegebene Feld eintragen</li>
      <li>Eine Sachanmerkung zum Bild lässt sich über die übliche Schaltfläche einfügen. Dafür reicht
-      es, die Bilddatei markiert oder den Cursor in der Bildbeschreibung stehen zu haben.<image
-       placement="break" href="../../../../../screenshot_zeichnung2.png" align="center"
-       id="image_c4c_3ct_2bb"/></li>
+            es, die Bilddatei markiert oder den Cursor in der Bildbeschreibung stehen zu
+              haben.<image placement="break" href="../../img_avhr/screenshot_zeichnung2.png"
+              align="center" id="image_c4c_3ct_2bb"/></li>
     </ol>
    </p></section>
  </body>

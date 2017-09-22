@@ -34,10 +34,10 @@
    <p audience="editor">Das folgende Beispiel zeigt einen Grenzfall. Es handelt sich um eine
     Auflistung verschiedener Flussbreiten des Río Apure, Río Negro sowie des Orinoco. Humboldts
     Aufzeichnung ist jedoch so gering strukturiert, dass eine Auszeichnung als Tabelle keinen Sinn
-    ergibt oder als Tabelle zumindest „überkodiert“ wäre.</p><image placement="break"
-     href="../../../../../abb5.png" scale="70" align="center" id="image_tqd_pps_2bb" audience="editor">
-     <alt>ART III, 70r</alt>
-    </image>
+    ergibt oder als Tabelle zumindest „überkodiert“ wäre.</p><image placement="break" href="../../img_avhr/abb5.png" scale="70" align="center"
+    id="image_tqd_pps_2bb" audience="editor">
+    <alt>ART III, 70r</alt>
+   </image>
    <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
   <item>Le Rio Apure près de S. Fernando 206 t.</item>
   <item>Le Rio Negro près de S. Carlos 292 t.</item>

@@ -2,7 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_ojx_3gv_ty">
  <title><image href="../../img/ex16.png" id="image_kpc_d3f_2y"/>
-  <b>Ergänzungen</b></title>
+  <b><?oxy_comment_start author="lkirsten" timestamp="20170919T103540+0200" comment="vielleicht besser abkürzungen und ergänzungen?
+"?>Ergänzungen<?oxy_comment_end?></b></title>
  <shortdesc></shortdesc>
  <body>
   <section>
@@ -12,10 +13,9 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <?oxy_comment_start author="lkirsten" timestamp="20170913T125054+0200" comment="wie wichtig sind beispiele?"?>
    <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele u, n,
     p, v), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer, page/pagina…, von) -
-    dies betrifft auch heute gebräuchliche Abkürzungen wie Prof.=Professor.<?oxy_comment_end?></p>
+    dies betrifft auch heute gebräuchliche Abkürzungen wie Prof.=Professor.</p>
    <p>Abkürzungen bei <b>Orts- und Personennamen</b> (Don Franc. Arango/S. Domingue/S. María del
     Rosario) werden ebenfalls aufgelöst.</p>
    <p>Nimmt der Autor Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in
@@ -45,17 +45,19 @@
     Buchstabe als "und" gewertet - es handelt sich nicht um eine Abkürzung. <fig
      id="fig_nxf_hz1_fbb">
      <title>"und" mit d-Oberlänge</title>
-     <image placement="break" href="../../../../../ausgeschrieben_u.png" align="center"
+     <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
       id="image_oxf_hz1_fbb"/>
-    </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig id="fig_jgl_wx1_fbb">
+    </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig
+     id="fig_jgl_wx1_fbb">
      <title>Abkürzung "u"</title>
-     <image placement="break" href="../../../../../abgekuerzt_u.png" scale="80" align="center"
+     <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
       id="image_kgl_wx1_fbb"/>
     </fig><codeblock outputclass="language-xml"><![CDATA[ein thätiger 
   <choice>
     <abbr>u</abbr>
     <expan>und</expan>
-  </choice>]]></codeblock></p>
-  </section>  
+  </choice>]]></codeblock></p>  
+  </section>
+
  </body>
 </topic>

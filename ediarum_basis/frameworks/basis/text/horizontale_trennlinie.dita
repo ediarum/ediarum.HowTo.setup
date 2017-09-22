@@ -4,19 +4,22 @@
     <title>Horizontale Trennlinie</title>
     <body>
        <section> <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
-            <codeph>&lt;milestone></codeph>-Element transkribieren.</p>
+                    <codeph>&lt;milestone></codeph>-Element transkribieren. In der
+                ediarum-Autoransicht findet sich die Funktion als „Horizontale Trennlinie“ unter dem
+                Menüpunkt „Allgemein“.</p>
         <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
         <section>
             <title>edition humboldt digital</title>
-            <p>Horizontale Linien, die erkennbar Textbereiche voneinander trennen, werden
-                        erfasst.</p>
-                <image placement="break" href="../../../../../abb8.png" scale="80" align="center"
-                    id="image_g1c_s43_dbb">
-                    <alt>RST I, 1v</alt>
-                </image>
+            <p><b>Horizontale Linien</b>, die erkennbar Textbereiche voneinander trennen, werden
+                erfasst. </p>
+                <image placement="break" href="../../img_avhr/abb8.png" scale="90" align="center"
+                id="image_g1c_s43_dbb">
+                <alt>RST I, 1v</alt>
+            </image>
             <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>
 <milestone unit="section" rendition="#hr"/>
-<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15</p>]]></codeblock>               
-        </section>
+<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15</p>]]></codeblock>    <p>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>               
+        </section>        
     </body>
+
 </topic>

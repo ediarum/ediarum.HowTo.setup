@@ -36,11 +36,11 @@
    <p>Gestrichener Text wird grundsätzlich - soweit lesbar - vollständig erfasst, samt aller
     Textphänomene wie Zeilenumbrüche, Auflösung von Abkürzungen, Normalisierungen und
     Herausgeberkorrekturen, bzw. –ergänzungen. <image placement="break"
-     href="../../../../../abb13.png" scale="60" align="center" id="image_zyq_spt_2bb">
+     href="../../img_avhr/abb13.png" scale="60" align="center" id="image_zyq_spt_2bb">
      <alt>Cuba, 142v "23. La salubrité de la Havane..."</alt>
     </image></p>
    <p>Auch Streichungen innerhalb einer bereits gestrichenen Passage werden ausgezeichnet.<image
-     placement="break" href="../../../../../abb14.png" scale="60" align="center"
+     placement="break" href="../../img_avhr/abb14.png" scale="60" align="center"
      id="image_evk_nst_2bb">
      <alt>Cuba, 142v "il leur est..."</alt>
     </image></p>
@@ -49,8 +49,10 @@
      <add place="intralinear">leur est</add>
   </subst> 
 très]]></codeblock>
-    <p audience="editor">In der Webansicht wird die auf diese Weise eine gestrichene Passage innerhalb einer bereits
-   gestrichenen Passage als doppelt durchgestrichen dargestellt.</p>
+    <p audience="editor">In der Webansicht wird die auf diese Weise eine gestrichene Passage
+    innerhalb einer bereits gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
+   <image placement="break" href="../../img_avhr/abb14-web.tif" align="center"
+    id="image_w4d_g2g_hbb"/>
   </section> 
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html?hl=streichung"

@@ -22,8 +22,45 @@
   <section id="test2178494">
    <title>Absatz einrücken</title>
    <p>Über die Funktion "Absatz/Liste eingerückt" im Menü "ediarum > Sonderfunktionen" kann der gesamte Absatz eingerückt werden. Diese Funktion sollte nur verwendet werden, wenn die
-     Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <xmlatt>rendition</xmlatt>
+     Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <codeph>rendition</codeph>
      mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
+  </section>
+  <section>
+   <title>edition humboldt digital</title>   
+   <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript werden
+        durch ein neues <codeph>&lt;p></codeph>-Element abgebildet. In Zweifelsfällen wird nach
+        inhaltlichen Kriterien entschieden. </p>
+   <p>Im folgenden Beispiel liegen drei Absätze vor:<image placement="break"
+          href="../../img_avhr/abb3-markierung.tif" scale="80" align="center" id="image_klm_jlh_hbb">
+          <alt>RST I, 7r</alt>
+        </image>
+        <codeblock outputclass="language-xml"><![CDATA[<p> 
+  … 
+  <lb/>Madeweiss. Gehülfe Anger. Jacobi
+  <lb/>Nicolovius.
+</p>
+<p>
+  Sarkau, 18ter 
+    <choice>
+      <abbr>Apr.</abbr>
+      <expan>April</expan>
+    </choice>
+  Nachts 
+</p>
+<p>
+  Sandkrug 19ter 
+    <choice>
+     <abbr>Ab.</abbr>
+     <expan>Abends</expan>
+    </choice>–22ter 
+    <choice>
+      <abbr>Apr.</abbr>  
+      <expan>April</expan>
+    </choice>
+  Süß
+  …
+</p>]]></codeblock><image placement="break" href="../../img_avhr/abb3-web.tif" align="center"
+          id="image_kxx_ylh_hbb" scale="80"/></p>
   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/absatz.html" format="html"

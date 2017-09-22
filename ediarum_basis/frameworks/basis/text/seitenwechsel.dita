@@ -28,8 +28,15 @@
       href="../img/avhr_beispiel_seite.png" id="image_c1k_xr2_bbb" width="350"/></li>
     <li>Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene
      Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
-     behalten)</li>
-   </ul>
+     behalten)</li></ul>
+     <p><b>Leere Seiten</b> werden als <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty"
+          >Auslassung</xref> mithilfe des <codeph>&lt;gap></codeph>-Elements erfasst. Im oberen
+        Textauszug beginnt Humboldt auf der ersten Innenseite (1v) mit dem Brief. Die erste Seite
+        des Dokuments (1r) wird dementsprechend als leere Seite ausgezeichnet. <b>Zerstörte oder
+          verlorene Seiten</b> werden auf gleiche Weise im <codeph>&lt;gap></codeph>-Element
+        erfasst. Dies betrifft Seiten oder Blätter, die entnommen und uns nicht bekannt sind. Jede
+        leere, bzw. fehlende Seite, auch aufeinanderfolgende, werden einzeln in separaten
+          <codeph>&lt;gap></codeph>-Elementen erfasst, um die Foliierung korrekt festzuhalten. </p>   
    <p> Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
         wiedergegeben.</p>
   </section>
