@@ -20,12 +20,12 @@
      id="ol_zgx_z1t_2bb">
      <li>Schnappschuss der Zeichnung/Skizze erstellen (etwa in Acrobat Reader)</li>
      <li>Schnappschuss im Bildbearbeitungsprogramm bearbeiten (etwa in IrfanView)</li>
-     <li>Bilddatei als JPG korrekt abspeichern, d.h.<ol id="ol_ahx_z1t_2bb">
-       <li>Bei Bedarf in ediarum im Verzeichnis „Zeichnungen“ ein neues Verzeichnis anlegen (etwa
-        „Cuba“). Das Verzeichnis sollte keine Leer- und Sonderzeichen aufweisen.</li>
-       <li>Bilddatei mit eindeutigem Namen versehen. Dieser setzt sich zusammen aus der Foliierung
-        der Vorlage und einer laufenden Zahl (etwa 129r_1.jpg)</li>
-      </ol></li>
+     <li>Bilddatei als JPG korrekt abspeichern, d.h.:<ol id="ol_ahx_z1t_2bb">
+              <li>Bei Bedarf in ediarum im Verzeichnis „Zeichnungen“ ein neues Verzeichnis anlegen
+                (etwa „Cuba“). Das Verzeichnis sollte keine Leer- und Sonderzeichen aufweisen.</li>
+              <li>Bilddatei mit eindeutigem Namen versehen. Dieser setzt sich zusammen aus der
+                Foliierung der Vorlage und einer laufenden Zahl (etwa 129r_1.jpg)</li>
+            </ol></li>
     </ol></p>
    <p><b>Zeichnung/Skizze einfügen und kommentieren</b></p>
    <p>Einfügen und kommentieren der Bildvorlage erfolgt in drei Schritten:

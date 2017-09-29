@@ -22,10 +22,19 @@
    <p>Bei vielen Nachlassbeständen ist keine Foliierung durch das bestandshaltende Archiv
     vorgegeben, hier wird nach folgenden Regeln die Foliierung notiert:</p>
    <ul id="ul_vnh_fr2_bbb">
-    <li>Es werden Blätter nicht Seiten gezählt (1r, 1v anstelle von 1, 2)</li>
+    <li>Es werden Blätter, nicht Seiten, gezählt (1r, 1v anstelle von 1, 2)</li>
     <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument orientiert
-     (das folgende Beispiel hat also 4 Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt)<image
-      href="../img/avhr_beispiel_seite.png" id="image_c1k_xr2_bbb" width="350"/></li>
+          - das folgende Beispiel hat somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt<fig
+            id="fig_p3t_m2g_jbb">
+            <image placement="break" href="../../img_avhr/abb1.tif" id="image_q3t_m2g_jbb"
+              scale="70">
+              <alt>Humboldt an Meyen, vor 22. August 1834, Innenseite</alt>
+            </image>
+            <image placement="break" href="../../img_avhr/abb2.tif" id="image_tt4_w2g_jbb"
+              scale="70">
+              <alt>Humboldt an Meyen, vor 22. August 1834, Außenseite</alt>
+            </image>
+          </fig></li>
     <li>Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene
      Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
      behalten)</li></ul>
@@ -37,7 +46,8 @@
         erfasst. Dies betrifft Seiten oder Blätter, die entnommen und uns nicht bekannt sind. Jede
         leere, bzw. fehlende Seite, auch aufeinanderfolgende, werden einzeln in separaten
           <codeph>&lt;gap></codeph>-Elementen erfasst, um die Foliierung korrekt festzuhalten. </p>   
-   <p> Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
+   <p>
+        <b>Humboldts Paginierung</b> wird als „Weitere Seiten- und Blattzählung” zusätzlich
         wiedergegeben.</p>
   </section>
   <section id="section_hz5_ll2_bbb" audience="editor">
@@ -52,9 +62,9 @@
      wieder.</li>
    </ul>
    <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
-    die Foliozahl vermerkt worden, wird sie in Klammer dahinter angezeigt. Außerdem kann noch auf
-    Digitalisat verlinkt werden, sofern ein Link über die Funktion „Foliowechsel mit Link” notiert
-    wurde.</p>
+        die Foliozahl vermerkt worden, wird sie in Klammern dahinter angezeigt. Außerdem kann noch
+        auf das Digitalisat verlinkt werden, sofern ein Link über die Funktion „Foliowechsel mit
+        Link” notiert wurde.</p>
   </section>
   <section id="section_qf4_sl2_bbb">
    <title>Kodierung</title>

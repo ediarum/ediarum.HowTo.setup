@@ -13,9 +13,9 @@
           <li>verschiedene Formen des "s", "ß" nur dann, wenn explizit von Humboldt so
             geschrieben</li>
         </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe des
-          <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt.
-        Eigennamen von Orten oder Personen werden in ihrer ürsprünglichen Schreibweise belassen. Die
-        Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
+          <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt. </p>
+      <p><b>Eigennamen von Orten oder Personen</b> werden in ihrer ürsprünglichen Schreibweise
+        belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
         Registereintrag.</p></section>
     <section><title>Stillschweigende Normalisierung</title>
       <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
@@ -25,57 +25,57 @@
           <li>Akzente in allen Sprachen</li>
           <li>Tremata, etwa in deutschen Umlauten</li>
         </ul></p>
-      <p><?oxy_comment_start author="lkirsten" timestamp="20170921T152811+0200" comment="folgenden Bereich umformulieren
-
-"?>Neben
-        dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<?oxy_comment_end?><ul
+      <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
           id="ul_eqt_2sz_2bb">
-          <li><b>Autorintention:</b> wir können davon ausgehen, dass Humboldt sich sehr wohl seiner
+          <li><b>Autorintention:</b> Es wird davon ausgegangen, dass Humboldt sich sehr wohl seiner
             nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
-            oder rasche Notiz im Reisetagebuch als überflüssig erachtete. In Einzelfällen, wie etwa
-            einem Brief an Kunth, lässt sich nachweisen, dass Humboldt die fehlenden Tremata selbst
-            nachträglich ergänzte, um seinen (in diesem Fall: wichtigen) Briefinhalt auch
-            zweifelsfrei zu kommunizieren. </li>
-          <li><b>Autorbild:</b> führen wir eine transparente Normalisierung konsequent durch, so
-            produzieren wir einen kritischen Text, der ein geradezu verzerrtes Humboldt-Bild erzeugt
-            und in Gänze den Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass
-            Humboldt im Alltag den „Konig zogern“ lässt, mag aufschlussreich sein. Auf Dauer aber
-            und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt es den Text.</li>
-          <li><b>Nicht eindeutige materielle Grundlage:</b> zuweilen suggeriert das Schriftbild,
+            oder rasche Notizen im Reisetagebuch als überflüssig erachtete. In Einzelfällen lässt
+            sich nachweisen, dass Humboldt die fehlenden Tremata selbst nachträglich ergänzte, um
+            seinen (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
+          <li><b>Autorbild:</b> Wird eine transparente Normalisierung konsequent durchgeführt,
+            ensteht dadurch ein kritischer Text, der das Bild Humboldts als Autor und in Gänze den
+            Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich
+            Kunth gegenüber "glucklich" zeigt, ihm "sagen zu konnen", Lessing mit 800 Talern
+            unterstützt zu haben, kann ein interessanter Befund etwa für die Forschung zur
+            Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer
+            aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die
+            Dokumentation des Befundes den Text.<image placement="break"
+              href="../../img_avhr/kunth.tif" align="center" id="image_i4f_vln_jbb" scale="80">
+              <alt>Brief AvH an Kunth, 26. Oktober 1832</alt>
+            </image></li>
+          <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild,
             dass Humboldt sehr wohl ein Trema gesetzt haben wird, es aber bei schneller
-            Niederschrift oder abgenutzter Schreibfeder auch schlicht nicht zum (vollständigen)
-            Abdruck des Zeichens kam. Der Brief an Meyen Anfang 1830 zeigt dies deutlich. Über „fur“
-            fehlt das Trema über „schone“ kann man es zumindest erahnen. Hier also „fur das schone“
-            zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<image
-              href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb">
+            Niederschrift oder abgenutzter Schreibfeder wahrscheinlich nicht zum (vollständigen)
+            Abdruck des Zeichens kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830
+            fehlt das Trema über „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den
+            vorliegenden Text als „fur das schone“ zu transkribieren, verfälscht den Text mehr als
+            es ihn diplomatisch wiedergibt.<image href="../../img_avhr/abb19.png" scale="70"
+              id="image_g5f_qsz_2bb">
               <alt>"fur das schone" - Brief AvH an Meyen, Anfang 1830</alt>
             </image></li>
-          <li><b>Grenzen der diplomatischen Umschrift:</b> würden wir unterscheiden, ob Tremata im
-            Einzelfall gesetzt wurden oder nicht, müssten wir auch darüber nachdenken, fehlende
-            i-Punkte, bzw. dokumentgetreu auszuzeichnen</li>
-          <li><b>Vergleichstexte:</b> die Entscheidung, stillschweigend zu normalisieren, gilt für
-            das Gros unserer Texte, d.h. für alle Texte auf der Auszeichnungsstufe 1 und 2.
-            Beispielhaft werden wir aber einzelne Konvolute mit erhöhter Auszeichnungstiefe
-            (Granularität) publizieren:<ul id="ul_qdx_1tz_2bb">
-              <li><b>Kunth-</b>Briefwechsel (Auszeichnungstiefe 3): hier werden alle fraglichen
-                Stellen transparent normalisiert, auch wenn das den Konig zogern lässt.</li>
-              <li><b>Cuba-</b>Manuskript (Auszeichnungstiefe 4): hier wird der Unterschied zwischen
-                Befund (kritischer Text) und Deutung (Lesefassung) noch stärker ausgebaut.
-                Kennzeichen dieser Auszeichnungsstufe sind: hoher Einsatz den Text ordnender
-                Interpunktion, Normalisierung von Ortsnamen</li></ul></li>
+          <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
+            Tremata gesetzt wurden oder nicht, müssten konsequenterweise auch fehlende i-Punkte
+            dokumentgetreu ausgezeichnet werden. </li>
+          <li><b>Vergleichstexte:</b> Der Großteil der Texte wird in diesem Sinne stillschweigend
+            normalisiert. Beispielhaft werden aber einzelne Konvolute mit erhöhter
+            Auszeichnungstiefe (Granularität) publiziert:<ul id="ul_qdx_1tz_2bb">
+              <li><b>Kunth-Briefwechsel</b>: die Normalisierung von diakritischen Zeichen erfolgt
+                explizit. </li>
+              <li><b>Cuba-Manuskript</b>: der Unterschied zwischen Befund (kritischer Text) und
+                Deutung (Lesefassung) wird noch stärker ausgebaut durch hohen Einsatz von den Text
+                ordnender, vom Herausgeber ergänzter Interpunktion sowie der Normalisierung von
+                Ortsnamen.</li>
+            </ul></li>
         </ul></p>
-              <p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="stark umformuliert, bitte Textsinn prüfen
+              <!--<p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="Beispiel nötig für Publikation
 "?>In
-        den seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
-          <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist.
-        <?oxy_comment_start author="lkirsten" timestamp="20170922T114855+0200" comment="nicht ganz eindeutig!
-"?>Wenn
+        seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
+          <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist. Wenn
         eine intentionale oder anderweitig signifikante Abweichung möglich oder wahrscheinlich
-        erscheint<?oxy_comment_end?>, wird die Normalisierung mithilfe des
-          <codeph>&lt;choice></codeph>-Elements kenntlich gemacht. Wird in vergleichbaren Fällen
-        stillschweigend normalisiert, erfolgt in einer <b>Sachanmerkung</b> (siehe <xref
-          href="sachanmerkung.dita#topic_lgx_rhx_5y">Sachanmerkung</xref>) eine kurze Begründung der
-        Kenntlichmachung.<?oxy_comment_end?></p>            
+        erscheint, wird die Normalisierung mithilfe des <codeph>&lt;choice></codeph>-Elements
+        kenntlich gemacht. Wird in vergleichbaren Fällen stillschweigend normalisiert, erfolgt in
+        einer <b>Sachanmerkung</b> (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
+          >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->            
     </section>
     <section><title>Unterscheidung zwischen Schreibgewohnheit, Normalisierung und Korrektur</title>
       <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
@@ -412,9 +412,37 @@
         </table>
       </p>
     </section>
+    <p>Es gibt daher auch Fälle, in denen Kürzel und Abkürzungen gemeinsam auftreten. Hier gilt es
+      darauf zu achten, das Kürzel in der Auszeichnung anders als die Abkürzungen zu behandeln:</p>
+    <image placement="break" href="../../img_avhr/k%C3%BCrzel.png" scale="80" align="center"
+      id="image_sgg_t4n_jbb">
+      <alt>&quot;...als Herrn G. K R...&quot; - Brief AvH an Meyen, Anfang 1830</alt>
+    </image>
+    <fig id="fig_mx1_gqn_jbb">
+      <title>Kritischer Text</title>
+      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web1.tif" scale="80" align="center"
+        id="image_nx1_gqn_jbb"/>
+    </fig>
+    <fig id="fig_zkr_tpn_jbb">
+      <title>Lesetext</title>
+      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web2.tif" scale="70" align="center"
+        id="image_alr_tpn_jbb"/>
+    </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
+  <choice>
+      <abbr>G.</abbr>
+      <expan>Geheimen</expan>
+  </choice>
+  <choice>
+      <abbr>K</abbr>
+      <expan>Kabinetts</expan>
+  </choice>
+  <choice>
+      <abbr>R</abbr>
+      <expan>Rath</expan>
+  </choice>]]></codeblock>
     <section><title>Stillschweigende Normalisierung von Zahlenwerten</title>
-      <p>Bei der Auszeichnung von Zahlenwerten wird in  höherem Maße von der Manuskriptvorlage
-        abgewichen als  bei jeglicher Art von Textphänomenen. </p>
+      <p>Bei der Auszeichnung von Zahlenwerten wird in höherem Maße von der Manuskriptvorlage
+        abgewichen als bei jeglicher anderer Art von Textphänomenen. </p>
       <p>Im Fall der <b>Nebenrechnungen</b> wird so gut wie möglich in der Transkription das
         Schriftbild in die damit ausgedrückte Rechenoperation übertragen.</p>
       <p>In <b>Tabellen und Berechnungen</b> setzt Humboldt  Punkte und Kommata (etwa um
@@ -427,14 +455,11 @@
       <p>Dies hat zur Folge, dass in der Transkription der Messwerte die Auszeichnung der
         Zeichenabstände im Vordergrund und der Aufwand in der Bearbeitung insgesamt in einem
         akzeptablen Verhältnis zum Ergebnis steht. </p>
-      <p><?oxy_comment_start author="lkirsten" timestamp="20170922T141118+0200" comment="in den editionsrichtlinien ist diese liste auf das spez. beispiel bezogen. funktioniert sie auch allgemein, oder kann man sie allgemein umformulieren? - habe sie erstmal allgemeingültig übernommen
-
-"?><b>Maßgaben
-          bei der Transkription von Messwerten sind</b>: <ul id="ul_ohg_bf4_hbb">
+      <p><b>Maßgaben bei der Transkription von Messwerten sind</b>: <ul id="ul_ohg_bf4_hbb">
           <li>Zeichensetzung (Punkte, Kommata) normalisieren</li>
           <li>Messwerteinheiten (Grad, Minuten) normalisieren</li>
           <li>Zeichenabstände (Halbgeviertabstand und Leerzeichen) zwischen den Zahlen anpassen</li>
-          <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“)<?oxy_comment_end?></li>
+          <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“)</li>
         </ul></p>                         
       <p>Das folgende Beispiel der Messung der Inklination (Nadel A, Nadel B, Mittel beider Nadeln)
         zeigt exemplarisch eine entsprechende Auszeichnung:</p><image placement="break"
@@ -445,5 +470,5 @@
       id="image_ng3_v24_hbb">
       <alt>RST I, 5r - Webansicht</alt>
     </image>
-  </body>
+  </body>  
 </topic>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_kpr_rzn_jbb">
+  <title>Schadhafte Stelle</title>
+  <body>
+    <p>Schadhafte Stellen sind materialbedingte Lücken im Text, die sich nicht rekonstruieren
+      lassen. Sie werden durch das leere Element &lt;damage/> markiert.<image
+        href="../../img_avhr/schadhafte_stelle.png" id="image_vcv_yzn_jbb"><alt>"Ich erhalte [Schadhafte Stelle]", Brief AvH an Meyen, nach 1834</alt></image>
+      <codeblock outputclass="language-xml"><![CDATA[Ich erhalte <damage/><lb/>
+Sie, theurester <damage/><supplied cert="high">sol</supplied>lten  ]]></codeblock></p>
+  </body>
+</topic>

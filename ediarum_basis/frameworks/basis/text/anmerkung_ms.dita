@@ -81,16 +81,7 @@ Post schicken.</note>]]></codeblock></section>
       <codeph>@place</codeph></li>
     </ul></p>
    <p>In der Textauszeichnung wird bei <b>Nebenrechnungen</b> vom Schriftbild der Vorlage
-    abgewichen. Im Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
-   <p audience="editor">In der ediarum-Autoransicht wird zur <b>Auszeichnung einer Nebenrechnung</b> in folgenden
-    Schritten vorgegangen:<ol id="ul_mnc_lg4_hbb">
-     <li>Anmerkung einfügen mit Angaben zum Ort und Schreiber der Anmerkung</li>
-     <li>Anmerkung als Nebenrechnung über die Menüpunkte „Reisetagebücher“ > „Anmerkung ist
-      Nebenrechnung“ oder das Tastaturkürzel [Alt] + [N] bestimmen</li>
-     <li>Zahlenwerte und mathematische Operatoren (Addition, Substraktion, Multiplikation, Division)
-      werden über die entsprechenden Stellen im Menüpunkt oder Tastaturkürzel ([Alt] + [NumPad] +
-      [...]) eingegeben </li>
-    </ol></p>        
+    abgewichen. Im Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>        
   </section>
  </body>
 </topic>

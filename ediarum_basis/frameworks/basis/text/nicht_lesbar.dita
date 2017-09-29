@@ -69,9 +69,8 @@
      </tbody>
     </tgroup>
    </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock></section>
-  <section audience="editor"><title>edition humboldt digital</title>
+  <section audience="editor"><title>edition humboldt digital</title>  
   
-  </section>
   <p><b>Leere Seiten</b> werden einzeln erfasst, im XML-Code trägt das Attribut
     <codeph>@reason</codeph> den Wert <codeph>"empty"</codeph>:</p>
   <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
@@ -88,7 +87,7 @@
      <li>Grund für die Lücke: Leerraum, bzw. Zerstörung/Verlust</li>
     </ul></li>
   </ul>
-  
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html" format="html"
   scope="external"><linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des DTABf</linktext></link></linklist> 

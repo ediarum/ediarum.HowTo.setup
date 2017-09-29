@@ -32,8 +32,8 @@
     <expan>Observations</expan>
 </choice>]]></codeblock></p>
    <p>Im Falle einer <b>Auflösung und Normalisierung</b> der Abkürzung wird nur die Ergänzung
-    ausgezeichnet und die Normalisierung erfolgt stillschweigend. (gilt nur für Auszeichnungsstufe 3
-    und 4)</p>
+    ausgezeichnet und die Normalisierung erfolgt stillschweigend. (nur im Kunth-Briefwechsel und
+    Cuba-Manuskript)</p>
    <p>
     <codeblock outputclass="language-xml">&lt;choice>
     &lt;abbr>Emers.&lt;/abbr>

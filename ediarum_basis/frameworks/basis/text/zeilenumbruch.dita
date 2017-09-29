@@ -43,7 +43,7 @@
      <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
      <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
     </ol><b>Wichtig:</b> Punkte oder vermeintliche Anführungszeichen (auch doppelte Trennstriche) am
-    Zeilenende sind als normale Trennungszeichen zu behandeln.</p>
+    Zeilenende sind als Trennungszeichen zu behandeln.</p>
    <image placement="break" href="../../img_avhr/abb4-markierung.tif" scale="60" align="center"
     id="image_vzy_vks_2bb">
     <alt>ART III, 2r</alt>
@@ -54,11 +54,12 @@
 <lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
 <lb break="no"/>catar aufzugeben, dachten wir nur wenige Wochen
 <lb/>in Cumana zu verweilen. …]]></codeblock>
-   <p><b>Ausnahme</b>: Der Zeilenumbruch wird nicht innerhalb des <codeph>&lt;add></codeph>-Elements
-    gesetzt, also nicht in Textergänzungen durch Humboldt. Muss man den Zeilenumbruch mit
-    Silbentrennung und/ohne Trennungszeichen nachträglich setzen, ist darauf zu achten, dass der
-    Trennvorgang neu vorgenommen werden muss. <b>Wichtig</b>: Das Trennungszeichen setzt sich in
-    Möglichkeit 2 von selbst.</p>
+   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des <codeph>&lt;add></codeph>-Elements
+    gesetzt, also nicht in Textergänzungen durch den Autor.
+    <?oxy_comment_start author="lkirsten" timestamp="20170928T153328+0200" comment="unklar formuliert"?>Muss
+    man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich setzen, ist
+    darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss. <b>Wichtig</b>: Das
+    Trennungszeichen setzt sich in Möglichkeit 2 von selbst.<?oxy_comment_end?></p>
   </section>
  </body>
  <related-links>

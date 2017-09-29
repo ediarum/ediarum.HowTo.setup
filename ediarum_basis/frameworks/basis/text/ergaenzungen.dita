@@ -5,8 +5,8 @@
  <shortdesc></shortdesc>
  <body>
   <section><p>Die Ergänzungen, die der Autor selbst im Manuskript vorgenommen hat, werden in einem
-   <codeph>&lt;add></codeph>-Element (adddition) gekennzeichnet, wobei das Attribut <codeph>@place</codeph> den Ort
-   der Ergänzung angibt: </p>
+     <codeph>&lt;add></codeph>-Element (addition) gekennzeichnet, wobei das Attribut
+     <codeph>@place</codeph> den Ort der Ergänzung angibt: </p>
   <table id="table_wf3_dhn_my">
    <tgroup cols="2">
     <thead>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ol5_syn_jbb">
+  <title>Nebenrechnungen</title>
+  <body>
+    <section>
+      <title>edition humboldt
+        <?oxy_comment_start author="lkirsten" timestamp="20170929T170017+0200" comment="inhaltlich ausweiten
+"?>digital<?oxy_comment_end?></title>
+      <p>In der Textauszeichnung wird bei <b>Nebenrechnungen</b> vom Schriftbild der Vorlage
+        abgewichen. Im Vordergrund steht die korrekte Wiedergabe der Rechenoperation. <image
+          placement="break" href="../../img_avhr/nebenrechnung.tif" scale="50" align="center"
+          id="image_znp_zyn_jbb">
+          <alt>Cuba-Manuskript, 128r</alt>
+        </image></p>
+      <image placement="break" href="../../img_avhr/nebenrechnung-web.tif" scale="100"
+        align="center" id="image_akl_3zn_jbb">
+        <alt>Cuba-Manuskript, 128r - Webansicht</alt>
+      </image>
+      <p audience="editor">In der ediarum-Autoransicht wird zur <b>Auszeichnung einer
+          Nebenrechnung</b> in folgenden Schritten vorgegangen:<ol id="ul_mnc_lg4_hbb">
+          <li>Anmerkung einfügen mit Angaben zum Ort und Schreiber der Anmerkung</li>
+          <li>Anmerkung als Nebenrechnung über die Menüpunkte „Reisetagebücher“ > „Anmerkung ist
+            Nebenrechnung“ oder den Kurzbefehl [Alt] + [N] bestimmen</li>
+          <li>Zahlenwerte und mathematische Operatoren (Addition, Substraktion, Multiplikation,
+            Division) werden über die entsprechenden Stellen im Menüpunkt oder den Kurzbefehl ([Alt]
+            + [NumPad] + [...]) eingegeben </li>
+        </ol></p>
+    </section>
+  </body>
+</topic>

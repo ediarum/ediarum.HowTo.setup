@@ -32,10 +32,10 @@
   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock></section>
   <section>
    <title>edition humboldt digital</title>
-   <p>Die <b>Ergänzung von Satzzeichen</b> sollte nur dann erfolgen, wenn sie deutlich die
-    Lesbarkeit des Textes unterstützt, nicht aber bloß, weil es syntaktisch oder orthographisch
-    angezeigt wäre. Am Ende eines jeden syntaktisch vollständigen Satzes wird ein Punkt ergänzt.
-    Dies dient vor allem der erhöhten Lesbarkeit des Textes in der Lesefassung. </p>
+   <p>Die <b>Ergänzung von Satzzeichen</b> erfolgt nur dann, wenn sie deutlich die Lesbarkeit des
+    Textes unterstützt, nicht aber bloß, weil es syntaktisch oder orthographisch angezeigt wäre. Am
+    Ende eines jeden syntaktisch vollständigen Satzes wird ein Punkt ergänzt. Dies dient vor allem
+    der erhöhten Lesbarkeit des Textes in der Lesefassung. </p>
    <p>
     <image placement="break" href="../../img_avhr/abb28.png" id="image_w5z_hhb_fbb" align="center"
      scale="80">
@@ -61,20 +61,19 @@
        <codeblock outputclass="language-xml"><![CDATA[schenken<supplied cert="high">.</supplied>]]></codeblock></p>
      </li>
     </ul></p>
-   <?oxy_comment_start author="lkirsten" timestamp="20170921T151727+0200" comment="umformulieren"?>
-   <p>Die Argumentation für die Ergänzung eines Punktes: ein Fragezeichen suggeriert, wir würden den
-    Fragecharakter des Satzes unterstreichen wollen, tatsächlich liegt der Gehalt unserer
-    Entscheidung (Punkt) aber genau darin aufzuzeigen, dass es sich <i>nicht</i> um eine Frage
-    handelt, sondern um ein rhetorisches Stilmittel, das eine klare Aufforderung für Meyen
-    enthält.<?oxy_comment_end?></p>
-   <p><?oxy_comment_start author="lkirsten" timestamp="20170921T152655+0200" comment="umformuliert; inhaltliche Richtigkeit prüfen
-"?>Bei
-    Satzzeichen in mehrheitlich <b>französischen Texten</b> wird stillschweigend auf die Setzung
-    eines Leerzeichens vor Doppelpunkt, Semikolon, Frage- oder Ausrufezeichen verzichtet.
-    <?oxy_comment_end?>Eine Setzung suggeriert eine klar nachvollziehbare Schreibhandlung, die
-    aufgrund des Schriftbildes aber nicht plausibel wäre. Darüber hinaus würde durch die häufigen
-    Sprachwechsel bei Humboldt die „französische“ Kodierung mit deutlich erhöhtem Arbeitsaufwand
-    einhergehen.</p>
+   <p>In vorliegendem Fall wird der Satz als implizite Aufforderung gedeutet und nicht als Frage,
+    und daher ein Punkt am Ende des Satzes ergänzt.<image
+     href="../../img_avhr/fragezeichen-punkt-web.tif" scale="70" id="image_uwf_f1g_jbb">
+     <alt>Brief AvH an Meyen, Anfang 1830</alt>
+    </image></p>
+   <p>Bei Satzzeichen in mehrheitlich <b>französischen Texten</b> wird stillschweigend auf die
+    Ergänzung eines Leerzeichens vor Doppelpunkt, Semikolon, Frage- oder Ausrufezeichen verzichtet.
+    <?oxy_comment_start author="lkirsten" timestamp="20170928T145101+0200" comment="ungenau formuliert
+"?>Eine
+    Setzung suggeriert eine klar nachvollziehbare Schreibhandlung, die aufgrund des Schriftbildes
+    aber nicht plausibel wäre.<?oxy_comment_end?> Zudem würde durch die häufigen Sprachwechsel bei
+    Humboldt eine den Regeln der französischen Typografie folgende Kodierung mit deutlich erhöhtem
+    Arbeitsaufwand einhergehen.</p>
    <p>Die <b>Ergänzung von Buchstaben</b> ergibt sich aus dem jeweiligen Kontext. Sie erfolgt nicht
     bei Personen- oder Ortsnamen, da in diesem Falle auf den Normeintrag im Register verwiesen wird.
     Wenn ein Buchstabe ergänzt wird (wie im oberen Textbeispiel aus den RST I), dann ist abzuwägen
@@ -82,17 +81,18 @@
     Wortende ist die Ergänzung des einzelnen Buchstaben zu bevorzugen:</p>
    <codeblock outputclass="language-xml"><![CDATA[Tellin<supplied cert="high">a</supplied>]]></codeblock>
    <p>Die <b>Ergänzung von Wörtern</b> wird nur dann vorgenommen, wenn das Satzgefüge eine
-    Vervollständigung offensichtlich macht. Ganze Wörter sollten mit Bedacht ergänzt werden, da sie
-    einen starken Eingriff in die Textkonstitution darstellen. Im folgenden Textauschnitt schreibt
+    Vervollständigung offensichtlich macht. Ganze Wörter werden mit Bedacht ergänzt, da sie einen
+    starken Eingriff in die Textkonstitution darstellen. Im folgenden Textauschnitt schreibt
     Humboldt <i>„Ich habe so eben ein sehr freundliches Antwortschreiben von Minister Altenstein
      über Ihre Reise.“</i>
     <image placement="break" href="../../img_avhr/abb29.png" scale="80" align="center"
      id="image_bsk_lnr_gbb">
      <alt>Brief AvH an Meyen, Anfang 1830</alt>
     </image></p>
-   <codeblock outputclass="language-xml"><![CDATA[Ich habe so eben ein sehr freundliches Antwortschreiben von Minister Altenstein über Ihre Reise <supplied cert="high">erhalten</supplied>.]]></codeblock>
-   <p>Das Wort wird am Ende der Zeile ergänzt, auch wenn es im Schriftbefund nicht mehr in die Zeile
-    passen würde. Es wird demnach <b>kein Zeilenumbruch</b> eingefügt.</p>
+   <codeblock outputclass="language-xml"><![CDATA[Ich habe so eben ein sehr freundliches Antwortschreiben von Minister 
+ Altenstein über Ihre Reise <supplied cert="high">erhalten</supplied>.]]></codeblock>
+   <p>Das Wort wird am Ende der Zeile ergänzt, auch wenn es in der Textvorlage nicht mehr in die
+    Zeile passen würde. Es wird demnach <b>kein Zeilenumbruch</b> eingefügt.</p>
   </section>  
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html?hl=supplied"
