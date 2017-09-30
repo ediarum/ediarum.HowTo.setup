@@ -5,30 +5,30 @@
  <body>
   <section>
    <title>Allgemeines</title>
-  <p>Absätze werden mit <codeph>&lt;p></codeph>-Element (paragraph – Absatz) gekennzeichnet. Ein
-   neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden: </p>
-  <p>
-   <ol id="ol_rly_4fx_p1b">
-    <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-      href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
-    <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-     platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
-     drückt.</li>
-    <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird der
-     Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
-   </ol>
-  </p>
+    <p>Absätze werden getreu der Vorlage ausgezeichnet.</p>
   </section>
-  <section id="test2178494">
-   <title>Absatz einrücken</title>
-   <p>Über die Funktion "Absatz/Liste eingerückt" im Menü "ediarum > Sonderfunktionen" kann der gesamte Absatz eingerückt werden. Diese Funktion sollte nur verwendet werden, wenn die
-     Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <codeph>rendition</codeph>
-     mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
-  </section>
-  <section>
+   <section audience="editor">
+     <title>Bedienung</title>
+     <p>Ein neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden: </p> 
+     <ol id="ol_rly_4fx_p1b">
+       <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
+         href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
+       <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
+         platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
+         drückt.</li>
+       <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird der
+         Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
+     </ol>
+     <div id="test2178494">
+       <p>Über die Funktion "Absatz/Liste eingerückt" im Menü "ediarum > Sonderfunktionen" kann man den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
+         Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <xmlatt>rendition</xmlatt>
+         mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
+     </div>
+   </section>
+  <section product="avhr">
    <title>edition humboldt digital</title>   
    <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript werden
-        durch ein neues <codeph>&lt;p></codeph>-Element abgebildet. In Zweifelsfällen wird nach
+        durch ein neues <xmlelement>p</xmlelement>-Element abgebildet. In Zweifelsfällen wird nach
         inhaltlichen Kriterien entschieden. </p>
    <p>Im folgenden Beispiel liegen drei Absätze vor:<image placement="break"
           href="../../img_avhr/abb3-markierung.tif" scale="80" align="center" id="image_klm_jlh_hbb">
@@ -62,6 +62,10 @@
 </p>]]></codeblock><image placement="break" href="../../img_avhr/abb3-web.tif" align="center"
           id="image_kxx_ylh_hbb" scale="80"/></p>
   </section>
+   <section>
+     <title>Kodierung</title>
+     <p>Absätze werden mit dem Element <xmlelement>p</xmlelement> kodiert.</p>
+   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/absatz.html" format="html"
   scope="external"><linktext>Absatz – Dokumentation des DTABf</linktext></link></linklist>  

@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_xrq_xhv_ty">
- <title><image href="../../img/date16.gif" id="image_lxm_lnf_cy"/>
-  <b>Datumsangaben </b></title>
+ <title><image href="../../img/date16.gif" id="image_gxm_lnf_cy" audience="editor"/> Datumsangaben</title>
  <body>
-  <p>Datumsangaben werden in einem <codeph>&lt;date></codeph>-Element angegeben. In Oxygen XML
-   Author steht zur Auszeichnung von Datumsangaben eine entsprechende Schaltfläche zur Verfügung,
-   die die Optionen „Genaues Datum“, „Genaues Datum“ und „Ungefährer Zeitraum“ bietet.</p>
-  <p>Wichtig ist, dass diese Datumsangaben nochmals in einem bestimmten Format notiert werden:
-   <codeph>@when</codeph> bzw. <codeph>@from/@to</codeph> und <codeph>@notBefore/@notAfter</codeph>. Dadurch kann der in der Datumsangabe enthaltene
-   Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
-   Zeiträumen).</p>
-  <p>Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit angegeben, mit der die
-   Datumsangabe zutrifft: high, low. In dem Attribut <codeph>@calendar</codeph> wird notiert, ob sich die Angabe
-   nach dem Julianischen Kalender oder dem Greogorianischen Kalender richtet: <table
+  <section>
+   <title>Allgemein</title>
+   <p>Datumsangaben im Text können ausgezeichnet werden, sofern das sinnvoll für die digitale Edition oder 
+    Nachnutzung der Daten erscheint.</p>
+   <p>Datumsangaben, die in Datumszeilen von Briefen stehen, sollten nicht eigens ausgezeichnet werden. Die Erfassung ihrer 
+   Information erfolgt über eine entsprechende Kodierung in den Metadaten.</p>
+  </section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>In oXygen XML Author steht in der Werkzeugleiste ein Menü unter dem Symbol <image href="../../img/date16.gif" id="image_lxm_lnf_cy"/> zur Verfügung,
+    das drei verschiedene Funktionen enthält:</p>
+   <ul>
+    <li>Genaues Datum (Tag)</li>
+    <li>Genauer Zeitraum (Von Tag X bis Tag Y)</li>
+    <li>Ungefährer Zeitraum (Nicht vor Tag X, nicht nach Tag Y)</li>
+   </ul>
+   <p>Nach entsprechender Auswahl erscheinen ein bzw. Dialogfenster, die zur Eingabe eines Datums auffordern. Das Datum muss dabei
+    maschinenlesbar in der Form JJJJ-MM-TT notiert werden, also z.B. 1800-01-01. Dadurch kann der in der Datumsangabe enthaltene
+    Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
+    Zeiträumen).</p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Datumsangaben werden in mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare Datum wird dabei im Format JJJJ-MM-TT in den Attributen
+    <xmlatt>when</xmlatt>, <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> sowie <xmlatt>notBefore</xmlatt> und <xmlatt>notAfter</xmlatt>. </p>
+   <p>Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrescheinlichkeit angegeben, mit der die
+    Datumsangabe zutrifft: high, low.</p>
+  <p> In dem Attribut <xmlatt>calendar</xmlatt> wird notiert, ob sich die Angabe
+   nach dem Julianischen Kalender oder dem Greogorianischen Kalender richtet: </p>
+  <table
     id="table_nmm_4bd_gy">
     <tgroup cols="2">
      <thead>
@@ -33,15 +52,15 @@
       </row>
      </tbody>
     </tgroup>
-   </table></p>
-  <p>1. Genaues Datum</p>
-  <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
-  <p>2. Genaue Zeitspanne</p>
-  <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
-  <p>3. Ungefährer Zeitraum</p>
-  <p>
-   <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
-  </p>
+   </table>
+   <p>1. Genaues Datum</p>
+   <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21" calendar="#Gregorian">Studentengeschichten</date>]]></codeblock>
+   <p>2. Genaue Zeitspanne</p>
+   <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high" calendar="#Julian">in</date>]]></codeblock>
+   <p>3. Ungefährer Zeitraum</p>
+   <p>
+    <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+   </p>
   <table id="table_xpp_ynf_cy">
    <tgroup cols="2">
     <thead>
@@ -155,5 +174,6 @@
     </tbody>
    </tgroup>
   </table>
+  </section>
  </body>
 </topic>

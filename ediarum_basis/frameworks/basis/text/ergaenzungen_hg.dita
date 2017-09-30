@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_ojx_3gv_ty">
- <title><image href="../../img/ex16.png" id="image_kpc_d3f_2y"/>
-  <b><?oxy_comment_start author="lkirsten" timestamp="20170919T103540+0200" comment="vielleicht besser abkürzungen und ergänzungen?
-"?>Ergänzungen<?oxy_comment_end?></b></title>
- <shortdesc></shortdesc>
+  <title><image href="../../img/ex16.png" id="image_kdc_f3f_2y" audience="editor"/> Ergänzungen des Herausgebers</title>
  <body>
   <section>
-   <p>Ausschreibungen im Manuskript abgekürzter Wörter werden im <codeph>&lt;ex></codeph>-Element
-    (expansion) ausgezeichnet. In der Autoransicht werden sie kursiv dargestellt.</p>
-   <codeblock outputclass="language-xml"><![CDATA[Ihr langes Stillschweigen, bester S<ex>chleiermacher</ex>, läßt mich]]></codeblock>
+   <title>Allgemein</title>
+   <p>Im Manuskript abgekürte Wörter werden vom Herausgeber ergänzt. Diese Ergänzung wird als solche kenntlich gemacht,
+   es sei denn es liegen abweichende, projektspezifische Regeln zur stillschweigenden Normalisierung vor.</p>
   </section>
-  <section>
+  <section product="avhr">
    <title>edition humboldt digital</title>
    <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele u, n,
     p, v), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer, page/pagina…, von) -
@@ -58,6 +55,21 @@
     <expan>und</expan>
   </choice>]]></codeblock></p>  
   </section>
-
+ <section audience="editor">
+  <title>Bedienung</title>
+  <p>In der Werkzeugleiste steht die Funktion "Abkürzungen auflösungen" unter dem Symbol <image href="../../img/ex16.png" id="image_kdc_d3f_2y"/> zur Verfügung.</p>
+ </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.</p>
+   <codeblock outputclass="language-xml"><![CDATA[<choice>
+ <abbr>Jan.</abbr>
+ <expan>Januar</expan>
+</choice>]]></codeblock>
+  </section>
+  <section>
+   <title>Anzeige</title>
+   <p>In der kritischen Textansicht (ggf. mit Faksimile) wird der Inhalt von <xmlelement>abbr</xmlelement> angezeigt, in der Leseansicht der Inhalt aus <xmlelement>expan</xmlelement>.</p>
+  </section>
  </body>
 </topic>

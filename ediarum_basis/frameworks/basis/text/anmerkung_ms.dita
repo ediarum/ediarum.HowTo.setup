@@ -1,61 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_dsx_1bv_ty">
- <title><image href="../../img/note16.gif" id="image_jll_5ls_2y"/> Anmerkung im Manuskript</title>
+ <title><image href="../../img/note16.gif" id="image_jll_5ls_2y" audience="editor"/>Anmerkung im Manuskript</title>
  <body>
- <section> <p>Anmerkungen des Autors bzw. der Autorin oder einer zeitgenössischen Bearbeiterin bzw.
-   Bearbeiters werden an der entsprechenden Textstelle (an der im Manuskript das Verweiszeichen bzw.
-   -ziffer steht) eingefügt. Das Einweisungszeichen kann optional gesetzt werden. Klicken Sie dafür
-   in der obersten Leiste des Editors auf die Schaltfläche „ ediarum“ und wählen „Sonderfunktion“
-   aus: über das Kontextmenü besteht nun die Möglichkeit Einweisungszeichen einzufügen. Der Inhalt
-   der Fußnote wird in einem<codeph> &lt;note></codeph>-Element (Anmerkung) notiert:</p>
-  <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
-eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
-Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
-  <p>Für das Attribut <codeph>@hand</codeph> wird entweder "#author" (für den Autor/Autorin),
-   "#addressee" (für Empfänger des Briefes) oder eine Person aus dem Personen-Register notiert. Über
-   eine Liste kann die entsprechende Person aus dem Personen-Register ausgewählt werden, sodass das
-   Attribut <codeph>@hand</codeph> automatisch mit der entsprechenden ID besetzt wird. Der Ort der
-   Anmerkung wird im Attribut <codeph>@place</codeph> angegeben: </p>
-  <table id="table_pg1_ngn_my">
-   <tgroup cols="2">
-    <thead>
-     <row>
-      <entry>Ort der Anmerkung</entry>
-      <entry>Wert für <codeph>@place</codeph></entry>
-     </row>
-    </thead>
-    <tbody>
-     <row>
-      <entry>linker Rand</entry>
-      <entry>left</entry>
-     </row>
-     <row>
-      <entry>rechter Rand</entry>
-      <entry>right</entry>
-     </row>
-     <row>
-      <entry>oberer Rand </entry>
-      <entry>mTop</entry>
-     </row>
-     <row>
-      <entry>unterer Rand</entry>
-      <entry>mBottom</entry>
-     </row>
-     <row>
-      <entry>innerhalb der Zeile</entry>
-      <entry>inline</entry>
-     </row>
-    </tbody>
-   </tgroup>
-  </table>
-  <codeblock outputclass="language-xml"><![CDATA[mit.<note place="right" hand="#author">Ich konnte sie nicht mehr mit der 
-Post schicken.</note>]]></codeblock></section>
-  <section>
+ <section>
+  <title>Allgemein</title>
+  <p>Anmerkungen des Autors oder eines zeitgenössischen Bearbeiters werden nicht nach ihrer
+    Platzierung auf dem Manuskript eingefügt, sondern an der tatsächlichen oder vermuteten (und
+    editorischen vertretbaren) Textstelle. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
+    wird ein generalisiertes Einweisungszeichen gesetzt, um kenntlich zu machen, dass die Einweisung
+    in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
+   <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
+    fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich
+    wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten. </p></section>
+  <section product="avhr">
    <title>edition humboldt digital</title>
-   <p>Zur <b>Unterscheidung von Anmerkungen und Ergänzungen</b> gilt die Richtlinie: Ergänzungen
-    erweitern den fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen
-    sind – ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
      Manuskriptseite.<image placement="break" href="../../img_avhr/abb10-markierung.tif"
      align="center" id="image_zpy_1bg_hbb" scale="80">
@@ -67,21 +26,85 @@ Post schicken.</note>]]></codeblock></section>
      <alt>ART I, 19r</alt>
     </image></p>
    <p audience="editor">Anmerkungen werden dort gesetzt, wo sie im Text (offensichtlich oder
-    editorisch vertretbar) hingehören. Das <codeph>&lt;note></codeph>-Element wird demnach an der
-    entsprechenden Stelle im Manuskript eingefügt. Wenn sich dieser Punkt nicht eindeutig bestimmen
-    lässt, kann es nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p>
+    editorisch vertretbar) hingehören.  Wenn sich dieser Punkt nicht eindeutig bestimmen lässt, kann
+    es nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p>
    <p audience="editor"><b>Zeilenumbrüche</b> werden auch in Anmerkungen erfasst, nicht jedoch in
     Ergänzungen (da diese in der Webansicht unmittelbar in den Fließtext eingefügt werden).</p>
-   <p audience="editor">Verzeichnet werden folgende Merkmale:<ul id="ul_sfj_xz3_dbb">
-     <li><b>Autorschaft</b>
-      <?oxy_comment_start author="lkirsten" timestamp="20170907T135610+0200" comment="oben steht @hand
-"?><codeph>@rend</codeph><?oxy_comment_end?>
-      #author</li>
-     <li><b>Ort des Schreibakts</b>
-      <codeph>@place</codeph></li>
-    </ul></p>
    <p>In der Textauszeichnung wird bei <b>Nebenrechnungen</b> vom Schriftbild der Vorlage
     abgewichen. Im Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>        
+  </section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>Klicken Sie in der Werkzeugleiste auf das Symbol <image href="../../img/note16.gif" id="image_jll_6ls_2y"/>. In den beiden nacheinander erscheinenden Dialogmenüs spezifizieren Sie 
+    zum einen wo die Anmerkung auf dem Blatt gemacht worden ist. Zum anderen vermerken Sie, wer die Anmerkung gemacht hat. Sollten Sie 
+    "Person aus dem Register" auswählen, wird Ihnen ein Auswahlmenü mit den Einträgen aus dem Personenregister angeboten. Die Handhabung hier
+    ist analog zur Auszeichnung von Personennamen.</p>
+   <p>Optional können Sie vermerken, dass der Autor selbst diese Anmerkung in diese Textstelle per Zeichen eingewiesen hat. Ein generalisiertes 
+    Einweisungszeichen können Sie im Menü "ediarum" über die Funktion "Sonderfunktion > Einweisungszeichen" einfügen. Dazu muss der Cursor vorher allerdings
+    in die Anmerkung gesetzt worden sein. Anstelle des Menüs können Sie auch die Tastenkombination Strg + Umschalt + E verwenden.
+   </p>  
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Anmerkungen im Manuskript werden in einem <xmlelement>note</xmlelement>-Element kodiert:</p>
+   <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
+    eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
+    Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
+   <p>Der Verfasser der Anmerkung wird im Attribut <xmlatt>hand</xmlatt> notiert. Hier sind folgende
+    Werte möglich:<simpletable frame="all" relcolwidth="1.0* 4.0*" id="simpletable_uzp_ktv_jbb">
+     <sthead>
+      <stentry>Wert</stentry>
+      <stentry>Definition</stentry>
+     </sthead>
+     <strow>
+      <stentry>#author</stentry>
+      <stentry>Autor des Dokuments</stentry>
+     </strow>
+     <strow>
+      <stentry>#addressee</stentry>
+      <stentry>Empfänger, falls es sich um einen Brief handelt</stentry>
+     </strow>
+     <strow>
+      <stentry>#unknown</stentry>
+      <stentry>Unbekannter Verfasser</stentry>
+     </strow>
+     <strow>
+      <stentry>[H000000]</stentry>
+      <stentry>Editionsinterne ID aus dem Personenregister</stentry>
+     </strow>
+    </simpletable> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben: </p>
+   <simpletable id="table_pg1_ngn_my">
+     <sthead>
+       <stentry>Wert </stentry>
+       <stentry>Definition</stentry>
+     </sthead>
+      <strow>
+       <stentry>left</stentry>
+       <stentry>linker Rand</stentry>
+      </strow>
+      <strow>
+       <stentry>right</stentry>
+       <stentry>rechter Rand</stentry>
+      </strow>
+      <strow>
+       <stentry>mTop</stentry>
+       <stentry>oberer Rand </stentry>
+      </strow>
+      <strow>
+       <stentry>mBottom</stentry>
+       <stentry>unterer Rand</stentry>
+      </strow>
+      <strow>
+       <stentry>inline</stentry>
+       <stentry>innerhalb der Zeile</stentry>
+      </strow>
+   </simpletable>
+   <p>Optional kann ein Einweisungszeichen des Autors durch Setzen von
+     <xmlelement>metamark</xmlelement> kodiert werden. Dabei wird nicht die Form des
+    Einweisungszeichen erfasst (Stern, Nummer etc.).</p></section>
+  <section>
+   <title>Anzeige</title>
+   <p>Anmerkungen werden im Tagebuch aufklappbar im Haupttext dargestellt.</p>
   </section>
  </body>
 </topic>

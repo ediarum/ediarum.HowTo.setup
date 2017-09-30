@@ -9,13 +9,29 @@
         <topicref href="introduction/xml.dita"/>
         <topicref href="introduction/tei.dita"/>
     </chapter>
-    <chapter href="operation/ueberschrift.dita">
+    <chapter href="operation/ueberschrift.dita" audience="editor">
         <topicref href="operation/ueberblick.dita"/>
         <topicref href="operation/dateibaum.dita"/>
         <topicref href="operation/ohne_werkzeugleiste.dita"/>
         <topicref href="operation/ansichten.dita"/>
         <topicref href="operation/suche.dita"/>
         <topicref href="general/allgemeine_werkzeugleiste.dita#concept_xvr_yfj_wx"/>
+    </chapter>
+    <chapter href="frameworks/basis/metadaten/_intro.dita">
+        <topicref href="frameworks/basis/metadaten/uri.dita"/>
+        <topicref href="frameworks/basis/metadaten/digitalisat.dita"/>
+        <topicref href="frameworks/basis/metadaten/handschriftenbeschreibung.dita"/>
+        <topicref href="frameworks/basis/metadaten/drucknachweis.dita"/>
+        <topicref href="frameworks/basis/metadaten/abschrift_entwurf.dita"/>
+        <topicref href="frameworks/basis/metadaten/art_der_textgrundlage.dita"/>
+        <topicref href="frameworks/basis/metadaten/textgrundlage_auswaehlen.dita"/>
+        <topicref href="frameworks/basis/metadaten/autor.dita"/>
+        <topicref href="frameworks/basis/metadaten/schreibort.dita"/>
+        <topicref href="frameworks/basis/brief/datierung.dita"/>
+        <topicref href="frameworks/basis/metadaten/regest.dita"/>
+        <topicref href="frameworks/basis/metadaten/zitat_in_regest.dita"/>
+        <topicref href="frameworks/basis/metadaten/anmerkung_zum_text.dita"/>
+        <topicref href="frameworks/basis/metadaten/herausgeber_und_mitarbeiter.dita"/>
     </chapter>
     <chapter href="frameworks/basis/text/_intro.dita">
         <topicref href="frameworks/basis/text/textstrukturen.dita">
@@ -51,22 +67,6 @@
             <topicref href="frameworks/basis/text/namen_kennzeichnen.dita"/>
         </topicref>
         <topicref href="frameworks/basis/symbole.dita"/>
-    </chapter>
-    <chapter href="frameworks/basis/metadaten/_intro.dita">
-        <topicref href="frameworks/basis/metadaten/uri.dita"/>
-        <topicref href="frameworks/basis/metadaten/digitalisat.dita"/>
-        <topicref href="frameworks/basis/metadaten/handschriftenbeschreibung.dita"/>
-        <topicref href="frameworks/basis/metadaten/drucknachweis.dita"/>
-        <topicref href="frameworks/basis/metadaten/abschrift_entwurf.dita"/>
-        <topicref href="frameworks/basis/metadaten/art_der_textgrundlage.dita"/>
-        <topicref href="frameworks/basis/metadaten/textgrundlage_auswaehlen.dita"/>
-        <topicref href="frameworks/basis/metadaten/autor.dita"/>
-        <topicref href="frameworks/basis/metadaten/schreibort.dita"/>
-        <topicref href="frameworks/basis/brief/datierung.dita"/>
-        <topicref href="frameworks/basis/metadaten/regest.dita"/>
-        <topicref href="frameworks/basis/metadaten/zitat_in_regest.dita"/>
-        <topicref href="frameworks/basis/metadaten/anmerkung_zum_text.dita"/>
-        <topicref href="frameworks/basis/metadaten/herausgeber_und_mitarbeiter.dita"/>
     </chapter>
     <chapter href="frameworks/basis/brief/_intro.dita">
         <topichead navtitle="Korrespondenz-spezifische Metadaten">

@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_k54_mgv_ty">
- <title><image href="../../img/supplied16.gif" id="image_lpc_d3f_2y"/>
-  <b>Fehlendes Wort oder Satzzeichen (durch Herausgeber ergänzt)</b></title>
- <shortdesc></shortdesc>
+ <title><image href="../../img/supplied16.gif" id="image_lpc_d3f_2y" audience="editor"/> Fehlendes Wort oder Satzzeichen/title>
  <body>
-  <section><p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen mit einem
-    <codeph>&lt;supplied></codeph>-Element ergänzt werden. Dabei drückt der Attributwert für
-    <codeph>@cert</codeph> (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig
-   ist:</p>
-  <table id="table_hxd_thn_my">
-   <tgroup cols="2">
-    <thead>
-     <row>
-      <entry>Wahrscheinlichkeit</entry>
-      <entry>Wert für <codeph>@cert</codeph></entry>
-     </row>
-    </thead>
-    <tbody>
-     <row>
-      <entry>niedrig</entry>
-      <entry>low</entry>
-     </row>
-     <row>
-      <entry>hoch</entry>
-      <entry>high</entry>
-     </row>
-    </tbody>
-   </tgroup>
-  </table>
-  <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock></section>
   <section>
+   <title>Allgemein</title>
+   <p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen ergänzt werden; diese Ergänzungen werden mit
+    <xmlelement>supplied</xmlelement> ausgezeichnet. Dabei wird die Wahrscheinlichkeit angegeben, mit der diese Ergänzung
+    zutrifft.</p>
+   <p>Die Ergänzung von fehlenden Wörtern oder Satzzeichen ist zu unterscheiden von der Ergänzung
+    (auch: Auflösung) abgekürzter Wörter. </p></section> 
+  <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Die <b>Ergänzung von Satzzeichen</b> erfolgt nur dann, wenn sie deutlich die Lesbarkeit des
     Textes unterstützt, nicht aber bloß, weil es syntaktisch oder orthographisch angezeigt wäre. Am
@@ -93,7 +73,39 @@
  Altenstein über Ihre Reise <supplied cert="high">erhalten</supplied>.]]></codeblock>
    <p>Das Wort wird am Ende der Zeile ergänzt, auch wenn es in der Textvorlage nicht mehr in die
     Zeile passen würde. Es wird demnach <b>kein Zeilenumbruch</b> eingefügt.</p>
-  </section>  
+  </section> 
+  <section>
+   <title>Bedienung</title>
+   <p>In der Werkzeugleiste steht die entsprechende Funktion "Fehlendes Wort oder Satzeichen, durch den Herausgeber ergänzt
+    unter dem Symbol <image href="../../img/supplied16.gif" id="image_lpc_d3f_2y"/> zur Verfügung.</p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Ergänzungen von fehlenden Satzeichen oder ganzen Wörtern wird mit <xmlelement>supplied</xmlelement> gekennzeichnet.</p>
+   <p>Dabei drückt der Attributwert für <xmlatt>cert</xmlatt> (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig
+   ist:</p>
+   <table id="table_hxd_thn_my">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Wert</entry>
+       <entry>Definition</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>low</entry>
+       <entry>niedrig</entry>
+      </row>
+      <row>
+       <entry>high</entry>
+       <entry>hoch</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+   <codeblock outputclass="language-xml"><![CDATA[ist die ehrwürdige <supplied cert="high">Mineralogie</supplied> ganz]]></codeblock>
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html?hl=supplied"
     format="html" scope="external">
