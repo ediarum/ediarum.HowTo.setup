@@ -68,21 +68,24 @@
         <topicref href="frameworks/basis/metadaten/anmerkung_zum_text.dita"/>
         <topicref href="frameworks/basis/metadaten/herausgeber_und_mitarbeiter.dita"/>
     </chapter>
-    <chapter href="frameworks/basis/brief/_intro.dita">
-        <topicref href="frameworks/basis/brief/_intro_metadaten.dita">
+    <chapter navtitle="Briefe">
+        <topicmeta>
+            <shortdesc>Erläuterungen zur Kodierung von brief-spezifischen Metadaten und Textstrukturen</shortdesc>
+        </topicmeta>
+        <topichead navtitle="Korrespondenz-spezifische Metadaten">
             <topicref href="frameworks/basis/brief/sender_empfaenger.dita"/>
             <topicref href="frameworks/basis/brief/datierung.dita"/>
             <topicref href="frameworks/basis/brief/anmerkungen_zum_brief.dita"/>
             <topicref href="frameworks/basis/brief/beilage.dita"/>
             <topicref href="frameworks/basis/brief/korrespondenzzusammenhang.dita"/>
-        </topicref>
-        <topicref href="frameworks/basis/brief/_intro_text.dita">
+        </topichead>
+        <topichead navtitle="Brief-spezifische Textstrukturen">
             <topicref href="frameworks/basis/brief/adresse.dita"/>
             <topicref href="frameworks/basis/brief/briefanfang.dita"/>
             <topicref href="frameworks/basis/brief/schreibakt.dita"/>
             <topicref href="frameworks/basis/brief/briefschluss.dita"/>
             <topicref href="frameworks/basis/brief/postskriptum.dita"/>
-        </topicref>
+        </topichead>
     </chapter>
     <chapter href="frameworks/index/ueberschrift.dita">
         <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>

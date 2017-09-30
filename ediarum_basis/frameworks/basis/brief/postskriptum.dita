@@ -3,11 +3,22 @@
 <topic id="postskriptum">
     <title>Postskriptum</title>
     <body>
-        <p>Ein Postkriptum wird unmittelbar am Ende eines Dokument im
-            <codeph>&lt;postcript></codeph>-Element notiert.</p>
+        <section>
+            <title>Allgemein</title>
+            <p>Das <indexterm>Postskriptum</indexterm> ist ein Nachtrag zum Brief, dass häufig unterhalb der Unterschrift zu finden ist, aber auch an den Rand o.ä.
+            geschrieben sein kann. Zu unterscheiden ist es von einem weiteren <indexterm>Schreibakt</indexterm>, wenn der Brief über mehrere Tage hin fortgesetzt wird.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Das Postskriptum wird über die Schalftlfäche "Brieftext > Postskriptum" im Menü "ediarum" eingefügt.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Das Postskriptum wird nach dem <xmlelement>closer</xmlelement> als
+            <xmlelement>postcript</xmlelement> notiert. Darin enthalten ist gemäß TEI stets mindestens ein Absatz (<xmlelement>p</xmlelement>).</p>
         <codeblock outputclass="language-xml"><![CDATA[<postscript>
-   <p>PS Du wirst länger nichts von mir hören. Ich schreibe Dir, sobald ich wieder da bin.</p>
-</postscript>]]></codeblock>
+   <p>Meine sicherste Adresse ist an den Oberbergm v Humboldt in Bayreut</p>
+</postscript>]]></codeblock></section>
     </body>
     <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brPostscriptum.html"
         format="html" scope="external"><linktext>Postskriptum  – Dokumentation des DTABf</linktext></link></linklist>    

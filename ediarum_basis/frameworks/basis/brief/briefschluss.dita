@@ -3,10 +3,25 @@
 <topic id="briefschluss">
     <title>Briefschluss</title>
     <body>
-        <p>Der Briefschluss wird in einem <codeph>&lt;closer></codeph>-Element notiert. Im
-            <codeph>&lt;salute></codeph>-Element wird die Grußformel, im
-            <codeph>&lt;signed></codeph>-Element die Unterschrift notiert. Dabei gibt das Attribut <codeph>@rend</codeph>
-            im <codeph>&lt;closer></codeph>-Element an, wo der Briefschluss notiert wurde. <table
+        <section>
+            <title>Allgemein</title>
+            <p>Ebenso wie der Anfang eines Briefes ist auch sein Schluss charakteristisch für die Textsorte <indexterm>Brief</indexterm>; daher wird dieser ebenfalls 
+                eigens ausgezeichnet. Hier setzt der Briefschreiber in der Regel eine - mehr oder weniger formale - Grußformel und eine (ebenfalls unterschiedlich stark formalisierte) <indexterm>Unterschrift</indexterm>.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>In ediarum.EDIT sind Briefanfang und -schluss i.d.R. in der Vorlage "Brief" bereits enthalten und müssen daher nicht nachträglich eingefügt
+                werden. Ist dies dennoch nötig, so finden Sie die entsprechende Funktion im Menü ediarum unter dem Punkt "Brieftext > Briefschluss".</p>
+            <p>Ist im Briefschluss eine Datumszeile enthalten, kann diese über die entsprechende Funktion im Menü "ediarum > Brieftext" eingefügt werden. Sie wird dort eingefügt, wo der Cursor im Briefschluss gesetzt wurde. 
+                Sie kann also vor oder hinter Grußformel und Unterschrift transkibiert werden.</p>
+            <p>Die in der Datumszeile enthaltenen Orts- und Datumsangaben werden nicht eigens ausgezeichnet, da diese bereits über die Briefmetadaten festgehalten werden.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+        <p>Der Briefschluss wird in einem <xmlelement>closer</xmlelement>-Element notiert. Im
+            <xmlelement>salute</xmlelement>-Element wird die Grußformel, im
+            <xmlelement>signed</xmlelement>-Element die Unterschrift notiert. Dabei gibt das Attribut <xmlatt>rend</xmlatt>
+            im <xmlelement>closer</xmlelement>-Element an, wie der Briefschluss notiert wurde. <table
                 id="table_z4c_wqq_gy">
                 <tgroup cols="2">
                     <thead>
@@ -31,19 +46,16 @@
     <salute>Beste Grüße</salute>
    <signed>F.E.</signed>
 </closer>]]></codeblock>
+            <p>Eine evtl. vorhandene <indexterm>Datumszeile am Briefende</indexterm> wird innerhalb des <xmlelement>closer</xmlelement>-Elements
+               als <xmlelement>dateline</xmlelement> notiert.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
+   <dateline>4. Januar 1886</dateline>
+   ...
+</closer>]]></codeblock>
+        </section>
     </body>
     <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/brAllg.html"
         format="html" scope="external"><linktext>Grundstruktur der Kodierung von Briefen – Dokumentation des DTABf</linktext></link></linklist>
         
     </related-links>
-    <topic id="datumszeile_briefschluss">
-        <title>Datumszeile im Briefschluss</title>
-        <body><p>Die Datumszeile am Briefende wird innerhalb des <codeph>&lt;closer></codeph>-Elements
-            notiert. Sie wird dort dargestellt, wo Ihr Cursor hinzeigt. Sie kann also vor oder hinter
-            Grußformel und Unterschrift transkibiert werden.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
-   <dateline>4. Januar 1886</dateline>
-   ...
-</closer>]]></codeblock></body>
-    </topic>
 </topic>

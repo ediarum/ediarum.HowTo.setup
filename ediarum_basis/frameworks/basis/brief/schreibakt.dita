@@ -3,15 +3,31 @@
 <topic id="schreibakt">
     <title>Schreibakt</title>
     <body>
-        <p>Der Brieftext wird mithilfe eines <codeph>&lt;div></codeph>-Elements (division) in
-            Sektionen unterteilt. Ein neues <codeph>&lt;div></codeph>-Element markiert den Beginn eines
-            neuen Schreibakten. Dabei ist es möglich die Anzahl der Schreibakte im Attribut <codeph>@n</codeph>
-            anzugeben.</p>
+        <section>
+            <title>Allgemein</title>
+            <p>Oft wird ein Brief in einem Vorgang (<indexterm>Schreibakt</indexterm>) geschrieben. Allerdings kann ein Brief auch über mehrere Tage hinweg geschrieben worden sein. Sind mehrere solcher Schreibakte durch die Textstruktur (z.B. eine weitere <indexterm>Datumszeile</indexterm>) oder
+            den Inhalt erkennbar, sollten sie entsprechend ausgezeichnet werden. Der Schreibakt ist vom <indexterm>Postskriptum</indexterm> zu unterscheiden.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Soll ein weiterer Schreibakt eingefügt werden, so steht dafür die Funktion "Brieftext > Neuen Schreibakt beginnen" im Menü "ediarum" zur Verfügung.
+            Die Funktion kann erst verwendet werden, wenn der Cursor im Brieftext platziert wird. Ein neuer Schreibakt wird dann hinter diesem Schreibakt platziert.
+            </p>
+            <p>Der erste (und häufig einzigste) Schreibakt (div/@n='1') ist in der Vorlage "Brief" stets bereits enthalten.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+        <p>Ein Schreibakte wird mithilfe eines <xmlelement>div</xmlelement> abgebildet. Die Nummer des Schreibakts wird im Attribut <xmlatt>n</xmlatt>
+            angegeben.</p>
         <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>
 </div>
 <div type="writingSession" n="2">
    <p>[Zweiter Schreibakt]</p>
-</div>]]> </codeblock>
+</div>]]> </codeblock></section>
+        <section>
+            <title>Anzeige</title>
+            <p>Schreibakte werden derzeit visuell nicht gesondert dargestellt.</p>
+        </section>
     </body>
 </topic>

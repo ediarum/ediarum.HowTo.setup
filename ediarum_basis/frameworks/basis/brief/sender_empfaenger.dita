@@ -1,59 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="sender_empfänger">
-    <title>Angaben zum Sender und Empfänger</title>
+    <title>Absender, Empfänger, Ort und Datierung</title>
     <body>
-        <p>Die Metadaten eines Briefes, die den Sender bzw. Empfänger betreffen, werden im
+        <section>
+            <title>Allgemein</title>
+            <p><indexterm>Absender</indexterm>, <indexterm>Empfänger</indexterm>, Ort- und <indexterm>Datumsangaben</indexterm> eines Briefes (auch "Kopfdaten" genannt)
+                sind wichtige <indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
+                der Textsorte <indexterm>Brief</indexterm> sind. In der digitalen Edition können sie ganz oder teilweise in
+                der "<indexterm>Kopfzeile</indexterm>" ("Titel") des Briefes genannt werden. Vor allem müssen sie aber als
+                sog. Metadaten eindeutig kodiert werden, die bei Absender, Empfänger, Schreib- und
+                <indexterm>Empfangsort</indexterm> zudem auf einen entsprechenden Registereintrag verweisen. Ohne diese
+                Metadaten ist eine Sortierung und Filterung nach <indexterm>Korrespondenzpartner</indexterm> oder Datum in
+                der digitalen Briefedition nicht möglich. Die Angabe eines Schreib- oder
+                Empfangsdatum ist zu unterscheiden von der Erläuterung zur Datierung, die getrennt
+                notiert wird.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Für Absender, Empfänger, Schreib- und Empfangsort eines Briefes stehen entsprechende Funktionen in der Werkzeugleiste im Menü "Briefmetadaten" zur Verfügung:</p>
+            <ul>
+                <li>Absender</li>
+                <li>Absender (Organisation)</li>
+                <li>Schreibort</li>
+                <li>Empfänger</li>
+                <li>Empfänger (Organisation)</li>
+                <li>Empfangsort</li>
+            </ul>
+            <p>Alle Aktionen bieten nach Aufruf die im jeweiligen Register verzeichneten Personen, Institutionen oder Orte zur Auswahl an. Ein Eintrag kann dann
+                ausgewählt werden. Sollen mehrere Absender bzw. Empfänger notiert werden, ist die entsprechende Funktion mehrmals auszuführen. Die zu notierenden Personen, Institutionen oder
+            Orte müssen zuvor im entsprechenden Register eingetragen worden sein; eine Hinzufügung aus dem Auswahlmenü heraus ist nicht möglich. Die im oXygen XML Author
+            angezeigten Personen-, Institutions- und Ortsnamen sind fest in der Datei eingefügt, dienen aber nur zur groben Orientierung des Bearbeiters. In der
+            digitalen Edition werden diese Angaben aus den Registern bezogen. Wird dort also ein Name geändert, wird er automatisch korrekt überall in der 
+            digitalen Edition angezeigt.</p>
+            <p>Nach dem Einfügen des Absenders bzw. Empfängers kann man diese <b>Identifizierung als
+                    "unsicher"</b> markieren. Dazu klickt man mit dem Cursor in den Namen und ruft
+                danach mit der rechten Maustaste das Kontextmenü auf. Dort kann man dann <indexterm>"Unsichere
+                Identifzierung"</indexterm> auswählen. In der Folge wird der Name mit einem "(?)" markiert. Über
+                denselben Weg kann man diese Markierung auch wieder entfernen.</p>
+            <p>Die dazugehörigen <b>Datumsangaben</b> können über die weiteren Funktionen in der
+                Werkzeugleiste im Menü "Briefmetadaten" gesetzt werden:<ul id="ul_uc4_zh5_jbb">
+                    <li>Genaues Schreibdatum: Der Brief wurde an einem Tag erstellt, dieser ist
+                        genau bekannt</li>
+                    <li>Genauer Schreibzeitraum: Der Brief wurde über mehrere Tage hinweg
+                        geschrieben, dieser Zeitraum ist durch Datumsangaben im Manuskript
+                        bekannt</li>
+                    <li>Ungefährer Schreibzeitraum: Wann der Brief geschrieben wurde ist nicht genau
+                        bekannt. Es wird ein ungefährer, vermuteter Zeitraum angegeben.</li>
+                </ul></p>
+            <p>Die Datumsangaben zum Empfang des Briefes werden, falls vorhanden, analog kodiert. Da
+                ein Brief aber nicht über mehrere Tage hinweg zugestellt werden kann, entfällt hier
+                die Option "Genauer Empfangszeitraum".</p>
+            <p>Erläuterungen zur Datierung werden in "Anmerkungen zum Brief" notiert.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+        <p>Die Korrespondenzmetadaten eines Briefes werden im
             <codeph>&lt;correspDesc></codeph>-Element (correspondence description) angegeben. Es wird
-            für den Sender und den Empfänger jeweils ein <codeph>&lt;correspAction></codeph>-Element
-            (correspondence action) angelegt. Das Attribut <codeph>@type</codeph> gibt dabei an ob sich
-            die Informationen auf den Sender oder den Empfänger beziehen.</p>
-        <p>
-            <table id="table_vzz_lfd_gy">
-                <tgroup cols="2">
-                    <thead>
-                        <row>
-                            <entry>Angaben zur Person</entry>
-                            <entry>Wert für <codeph>@correspAction</codeph></entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>Sender</entry>
-                            <entry>sent</entry>
-                        </row>
-                        <row>
-                            <entry>Empfänger</entry>
-                            <entry>received</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
+            für den Absende- und den Empfangsvorgang jeweils ein <codeph>&lt;correspAction></codeph>-Element
+            (correspondence action) angelegt. Das Attribut <codeph>@type</codeph> gibt dabei die Art der Kommunikationshandlung an; die Werte ("sent", "received")
+            sind den TEI-Richtlinien für correspAction übernommen.</p>
         <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">[Angaben zum Sender]</correspAction>
    <correspAction type="received">[Angaben zum Empfänger]</correspAction>
 </correspDesc>]]></codeblock>
-        <p>Innerhalb des <codeph>&lt;correspAction></codeph>-Elements lassen sich drei Elemente
-            anlegen:</p>
-        <p>
-            <ul id="ul_tsk_jvt_vy">
-                <li><codeph>&lt;persName></codeph>: Name</li>
-                <li><codeph>&lt;placeName></codeph>: Ort</li>
-                <li><codeph>&lt;date></codeph>: Datum</li>
-            </ul>
-        </p>
+        <p>Innerhalb des <xmlelement>correspAction</xmlelement>-Elements können die Elemente
+                    <xmlelement>persName</xmlelement>, <xmlelement>orgName</xmlelement>,
+                    <xmlelement>placeName</xmlelement> und <xmlelement>date</xmlelement> verwendet
+                werden. Die Angaben zu Personen, Institutionen und Orten werden dabei über das
+                Attribut <xmlatt>key</xmlatt> mit der ID des entsprechenden Registereintrags verknüpft.</p>
         <p>Diese Information können sowohl für den Sender als auch den Empfänger gemacht werden.</p>
         <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
-   <correspAction type="sent">
-      <persName>Friedrich Engels</persName>
-      <placeName>Manchester</placeName>
-      <date when="1866-01-04"/>
-   </correspAction>
-   <correspAction type="received">
-      <persName>Karl Marx</persName>
-      <placeName>London</placeName>
-   </correspAction>
-</correspDesc>]]></codeblock>
+    <correspAction type="sent">
+        <persName key="H0012069">Humboldt, Alexander von</persName>
+        <placeName key="H0006791">Hamburg</placeName>
+        <date from="1791-01-28" to="1791-02-20" cert="high"/>
+    </correspAction>
+    <correspAction type="received">
+        <persName key="H0015944">Soemmerring, Samuel Thomas von</persName>
+    </correspAction>
+</correspDesc>]]></codeblock></section>
+        <section>
+            <title>Anzeige</title>
+            <p>Die Kodierungen von Absender, Empfänger, Schreib- und Empfangsort sowie den dazugehörigen Datumsangaben werden an vielen Stellen der
+            digitalen Edition ausgewertet und angezeigt. Bei der Einzelansicht eines Briefes sind die Angaben unter dem Link "Weitere Angaben zum Brief"
+            zu finden. Bei der Anzeige werden die Personen-, Institutions- und Ortsnamen nicht aus dem einzelnen Brief, sondern aus dem Register bezogen.</p>
+        </section>
+        <section>
+            <title>API</title>
+            <p>Beim Abruf der Daten über die API werden alle editionsinternen IDs in key durch URIs im Attribut ref ersetzt. Dabei werden, sofern vorhanden,
+                URIs einer <indexterm>Normdatei</indexterm> (GND, VIAF, GeoNames) verwendet - ansonsten die editionsinterne ID, allerdings als URI, d.h. in der Form http://edition-humboldt.de/H0015944.
+            Dadurch wird die projektübergreifende Nachnutzbarkeit der Daten gewährleistet.</p>
+        </section>
     </body>
 </topic>
