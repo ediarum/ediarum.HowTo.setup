@@ -5,8 +5,9 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Da Briefe häufig Teil eines Briefwechsels sind ist der Korrespondenzkontext wichtig. Unter "<indexterm>Korrespondenzkontext</indexterm>" (auch "<indexterm>Korrespondenzzusammenhang</indexterm>") werden diejenigen
-            Briefe verstanden auf die geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden <indexterm>Brief</indexterm> sind. Dabei kann es sich jeweils um einen oder mehrere
+            <p>Da Briefe häufig Teil eines Briefwechsels sind ist der Korrespondenzkontext wichtig. Unter "Korrespondenzkontext"<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
+                (auch "Korrespondenzzusammenhang") werden diejenigen
+            Briefe verstanden auf die geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden Brief sind. Dabei kann es sich jeweils um einen oder mehrere
             Briefe handeln.</p>
         </section>
         <section audience="editor">
@@ -23,7 +24,7 @@
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Der Korrespondenzkontext wird in <codeph>correspDesc/correspContext</codeph>
+            <p>Der Korrespondenzkontext wird in <xmlelement>correspDesc</xmlelement> im Kindelement <xmlelement>correspContext</xmlelement>
             kodiert, in dem auf den vorangehenden bzw. nachfolgenden Brief mit Hilfe des Elements <xmlelement>ref</xmlelement> verwiesen wird. In dessen Attribut
             <xmlatt>target</xmlatt> wird der interne Link des entsprechenden Briefs angegeben. Das Attribut <xmlatt>type</xmlatt> gibt
             dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief handelt.<table
@@ -55,7 +56,7 @@
         <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
         <p>Beispiel für einen extern digital edierten Brief:</p>
         <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
-        <p>Als URL sollte nach Möglichkeit ein "<indexterm>Permalink</indexterm>" gewählt werden.</p>
+        <p>Als URL sollte nach Möglichkeit ein "Permalink"<indexterm>Permalink</indexterm> gewählt werden.</p>
         </section>
         <section>
             <title>Anzeige</title>

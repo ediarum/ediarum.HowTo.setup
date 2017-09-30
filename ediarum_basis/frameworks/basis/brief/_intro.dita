@@ -2,9 +2,15 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="einleitung">
     <title>Brief</title>
+    <shortdesc>Kodierung von Metadaten und Textstrukturen, die für Briefe und Korrespondenzen spezifisch sind.</shortdesc>
     <body>
         <section>
-            <p></p>
+            <title>Allgemein</title>
+            <p>In der digitalen Edition werden Briefe aufgrund einiger charakteristischen Merkmale
+                und Besonderheiten bezüglich Textstruktur und Metadaten besonders behandelt. Diese
+                Besonderheiten werden in diesem Kapitel behandelt. Alle Metadaten und Phänomene, die
+                auch, aber nicht nur für zu edierende Briefe gelten, werden in den Kapiteln
+                "Metadaten" und "Text" behandelt.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

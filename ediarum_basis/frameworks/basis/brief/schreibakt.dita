@@ -5,8 +5,8 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Oft wird ein Brief in einem Vorgang (<indexterm>Schreibakt</indexterm>) geschrieben. Allerdings kann ein Brief auch über mehrere Tage hinweg geschrieben worden sein. Sind mehrere solcher Schreibakte durch die Textstruktur (z.B. eine weitere <indexterm>Datumszeile</indexterm>) oder
-            den Inhalt erkennbar, sollten sie entsprechend ausgezeichnet werden. Der Schreibakt ist vom <indexterm>Postskriptum</indexterm> zu unterscheiden.</p>
+            <p>Oft wird ein Brief in einem Vorgang <indexterm>Schreibakt</indexterm> geschrieben. Allerdings kann ein Brief auch über mehrere Tage hinweg geschrieben worden sein. Sind mehrere solcher Schreibakte durch die Textstruktur (z.B. eine weitere Datumszeile<indexterm>Datumszeile</indexterm>) oder
+            den Inhalt erkennbar, sollten sie entsprechend ausgezeichnet werden. Der Schreibakt ist vom Postskriptum<indexterm>Postskriptum</indexterm> zu unterscheiden.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
@@ -17,7 +17,7 @@
         </section>
         <section>
             <title>Kodierung</title>
-        <p>Ein Schreibakte wird mithilfe eines <xmlelement>div</xmlelement> abgebildet. Die Nummer des Schreibakts wird im Attribut <xmlatt>n</xmlatt>
+        <p>Ein Schreibakt wird mithilfe eines <xmlelement>div</xmlelement> abgebildet. Die Nummer des Schreibakts wird im Attribut <xmlatt>n</xmlatt>
             angegeben.</p>
         <codeblock outputclass="language-xml"><![CDATA[<div type="writingSession">
    <p>[Erster Schreibakt]</p>

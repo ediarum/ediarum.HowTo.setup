@@ -5,13 +5,13 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p><indexterm>Absender</indexterm>, <indexterm>Empfänger</indexterm>, Ort- und <indexterm>Datumsangaben</indexterm> eines Briefes (auch "Kopfdaten" genannt)
-                sind wichtige <indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
-                der Textsorte <indexterm>Brief</indexterm> sind. In der digitalen Edition können sie ganz oder teilweise in
-                der "<indexterm>Kopfzeile</indexterm>" ("Titel") des Briefes genannt werden. Vor allem müssen sie aber als
-                sog. Metadaten eindeutig kodiert werden, die bei Absender, Empfänger, Schreib- und
+            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Ort- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch "Kopfdaten" genannt)
+                sind wichtige Metadaten<indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
+                der Textsorte Brief sind. In der digitalen Edition können sie ganz oder teilweise in
+                der "Kopfzeile"<indexterm>Kopfzeile</indexterm> ("Titel") des Briefes genannt werden. Vor allem müssen sie aber als
+                sog. Metadaten eindeutig kodiert werden, die bei Absender, Empfänger, Schreib- und Empfangsort
                 <indexterm>Empfangsort</indexterm> zudem auf einen entsprechenden Registereintrag verweisen. Ohne diese
-                Metadaten ist eine Sortierung und Filterung nach <indexterm>Korrespondenzpartner</indexterm> oder Datum in
+                Metadaten ist eine Sortierung und Filterung nach Korrespondenzpartner<indexterm>Korrespondenzpartner</indexterm><indexterm>Briefpartner</indexterm> oder Datum in
                 der digitalen Briefedition nicht möglich. Die Angabe eines Schreib- oder
                 Empfangsdatum ist zu unterscheiden von der Erläuterung zur Datierung, die getrennt
                 notiert wird.</p>
@@ -35,8 +35,7 @@
             digitalen Edition angezeigt.</p>
             <p>Nach dem Einfügen des Absenders bzw. Empfängers kann man diese <b>Identifizierung als
                     "unsicher"</b> markieren. Dazu klickt man mit dem Cursor in den Namen und ruft
-                danach mit der rechten Maustaste das Kontextmenü auf. Dort kann man dann <indexterm>"Unsichere
-                Identifzierung"</indexterm> auswählen. In der Folge wird der Name mit einem "(?)" markiert. Über
+                danach mit der rechten Maustaste das Kontextmenü auf. Dort kann man dann "Unsichere Identifizierung"<indexterm>Identifzierung, unsichere</indexterm> auswählen. In der Folge wird der Name mit einem "(?)" markiert. Über
                 denselben Weg kann man diese Markierung auch wieder entfernen.</p>
             <p>Die dazugehörigen <b>Datumsangaben</b> können über die weiteren Funktionen in der
                 Werkzeugleiste im Menü "Briefmetadaten" gesetzt werden:<ul id="ul_uc4_zh5_jbb">

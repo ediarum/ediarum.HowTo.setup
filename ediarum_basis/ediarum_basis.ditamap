@@ -68,10 +68,7 @@
         <topicref href="frameworks/basis/metadaten/anmerkung_zum_text.dita"/>
         <topicref href="frameworks/basis/metadaten/herausgeber_und_mitarbeiter.dita"/>
     </chapter>
-    <chapter navtitle="Briefe">
-        <topicmeta>
-            <shortdesc>Erläuterungen zur Kodierung von brief-spezifischen Metadaten und Textstrukturen</shortdesc>
-        </topicmeta>
+    <chapter href="frameworks/basis/brief/_intro.dita">
         <topichead navtitle="Korrespondenz-spezifische Metadaten">
             <topicref href="frameworks/basis/brief/sender_empfaenger.dita"/>
             <topicref href="frameworks/basis/brief/datierung.dita"/>
