@@ -40,7 +40,7 @@
             Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer
             aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die
             Dokumentation des Befundes den Text.<image placement="break"
-              href="../../img_avhr/kunth.tif" align="center" id="image_i4f_vln_jbb" scale="80">
+              href="../../img_avhr/kunth.jpg" align="center" id="image_i4f_vln_jbb" scale="80">
               <alt>Brief AvH an Kunth, 26. Oktober 1832</alt>
             </image></li>
           <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild,
@@ -412,20 +412,21 @@
         </table>
       </p>
     </section>
-    <p>Es gibt daher auch Fälle, in denen Kürzel und Abkürzungen gemeinsam auftreten. Hier gilt es
-      darauf zu achten, das Kürzel in der Auszeichnung anders als die Abkürzungen zu behandeln:</p>
+    <p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im folgenden
+      Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und expliziter
+      Normalisierung von Abkürzungen verdeutlicht:</p>
     <image placement="break" href="../../img_avhr/k%C3%BCrzel.png" scale="80" align="center"
       id="image_sgg_t4n_jbb">
       <alt>&quot;...als Herrn G. K R...&quot; - Brief AvH an Meyen, Anfang 1830</alt>
     </image>
     <fig id="fig_mx1_gqn_jbb">
       <title>Kritischer Text</title>
-      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web1.tif" scale="80" align="center"
+      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web1.jpg" scale="80" align="center"
         id="image_nx1_gqn_jbb"/>
     </fig>
     <fig id="fig_zkr_tpn_jbb">
       <title>Lesetext</title>
-      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web2.tif" scale="70" align="center"
+      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web2.jpg" scale="70" align="center"
         id="image_alr_tpn_jbb"/>
     </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
   <choice>

@@ -16,7 +16,8 @@
      <?oxy_custom_start type="oxy_content_highlight" color="255,60,255"?>….…..<?oxy_custom_end?></li>
    </ul>
   </p>
-  <p> Das Attribut <codeph>@key</codeph> wird je nach der Auswahl eines Registereintrages automatisch besetzt..</p>
+  <p> Das Attribut <codeph>@key</codeph> wird je nach der Auswahl eines Registereintrages
+   automatisch besetzt.</p>
   <codeblock outputclass="language-xml"><![CDATA[Ich habe Nachricht vom <persName key="pdrPo.001.004.000002041">Vorstand</persName>
 der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codeblock>
   <p>Wenn Sie Werktitel auszeichenen möchten, benutzen Sie ein <codeph>&lt;bibl></codeph>, in dem
@@ -51,6 +52,45 @@ der<orgName key="pdrPo.001.015.000090289">Firma</orgName> bekommen.]]></codebloc
    </table></p>
   <codeblock outputclass="language-xml"><![CDATA[<p>Ich habe Nachricht vom <persNamekey="pdrPo.001.004.000002041">Vorstand</persName>der Firma bekommen. 
 Ich höre nur Beschwerden von<rs type="person">ihm</rs>]]></codeblock>
+  <section>
+   <title>edition humboldt digital</title>
+   <p><b>Personen-, Orts- und Einrichtungsnamen sowie Werktitel</b> werden konsequent in allen
+    Textsorten (Tagebüchern, Nachlassmanuskripten, Briefen) gekennzeichnet - in allen Instanzen, in
+    denen Person, Ort, Institution oder Werk genannt werden. In Sachkommentaren und in
+    Chronologie-Ereignissen wird hingegen nur die Ersterwähnung ausgezeichnet.</p>
+   <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („in der Umgebung des Königs [FW III]“)
+    werden ausgezeichnet. Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name
+    ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der
+    Umfang der Auszeichnung wird jedoch kontextabhängig nach Textrelevanz und/oder Redesituation
+    entschieden. </p>
+   <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder Deiktika („dieser“, „jener“,
+    „hier“, „dort“) werden <i>nicht</i> ausgezeichnet.</p>
+   <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im editorischen
+    Sachkommentar sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
+     id="ul_fgh_f2p_mbb">
+     <li>„AHumboldt“ als Signatur eines Humboldt-Briefes</li>
+     <li>Personennamen als Teil der Anrede („mein lieber Kunth“) </li>
+     <li>Ortsname als Teil der Datumszeile im Briefschluss oder -anfang </li>
+    </ul></p>
+   <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
+    Textbefund findet nicht statt, da geläufige sowie historisch valide Schreibweisen der Namen in
+    den verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
+     Einrichtungsnamen</b> hingegen werden explizit aufgelöst.  </p>
+   <p>Da eine <b>gleichzeitige Auszeichnung mehrerer Personen</b> nicht möglich ist („mit allen
+     <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), werden die betreffenden Personen stattdessen in
+    einer Sachanmerkung einzeln aufgelöst und dort gekennzeichnet. </p>
+  </section>
+  <section>
+   <title>Bedienung</title>
+   <p>Derzeit verwenden wir ausschließlich die Funktion „Namen kennzeichnen“.</p>
+   <p>„Kennzeichnen“ bedeutet: wir markieren den jeweiligen Eintrag und verbinden ihn über die
+    Funktion „Namen kennzeichnen“ mit einem spezifischen Eintrag im Personen-, Orts- oder
+    Einrichtungsregister. </p>
+   <p>Wichtig: Um einen Namen korrekt zu kennzeichnen muss sichergestellt sein, dass der jeweilige
+    Registereintrag eindeutig ist, es also keine Dubletten zur selben Person/Ort/etc. an anderen
+    Stellen des Registers gibt. Die Kennzeichnung eines Namens sollte also immer verbunden werden
+    mit einer kurzen redaktionellen Überprüfung des jeweiligen Registereintrags.</p>
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eigenname.html?"
   format="html" scope="external"><linktext>Eigennamen – Dokumentation des DTABf</linktext></link></linklist> 

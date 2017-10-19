@@ -31,7 +31,7 @@
         durch ein neues <xmlelement>p</xmlelement>-Element abgebildet. In Zweifelsfällen wird nach
         inhaltlichen Kriterien entschieden. </p>
    <p>Im folgenden Beispiel liegen drei Absätze vor:<image placement="break"
-          href="../../img_avhr/abb3-markierung.tif" scale="80" align="center" id="image_klm_jlh_hbb">
+          href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center" id="image_klm_jlh_hbb">
           <alt>RST I, 7r</alt>
         </image>
         <codeblock outputclass="language-xml"><![CDATA[<p> 
@@ -59,7 +59,7 @@
     </choice>
   Süß
   …
-</p>]]></codeblock><image placement="break" href="../../img_avhr/abb3-web.tif" align="center"
+</p>]]></codeblock><image placement="break" href="../../img_avhr/abb3-web.jpg" align="center"
           id="image_kxx_ylh_hbb" scale="80"/></p>
   </section>
    <section>

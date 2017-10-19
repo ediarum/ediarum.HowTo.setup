@@ -13,35 +13,70 @@
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
 </seg>]]></codeblock></section>
-  <section audience="editor"><title>edition humboldt digital</title>
-   <p>Sachanmerkungen sollten möglichst kurz und kompakt auf wesentliche Erläuterungen der
-    Textstelle oder des größeren Textsegmentes konzentriert sein. Durch Markierung des zu
-    kommentierenden Textes kann der Editor festlegen, wieviel Manuskripttext (ein Wort, ein Satz,
-    ein Absatz) kommentiert wird.</p>
-   <p>Bei der Erwähnung von <b>bibliographischen Angaben</b> in einer Sachanmerkung müssen folgende
-    Punkte berücksichtigt werden:</p>
-   <ol id="ol_w4p_ntn_hbb">
-    <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank</li>
-    <li>Vergabe eines Kurztitels</li>
-    <li>Angabe des Kurztitels in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
-     [Kurztitel, Band, Seite]</li>
-    <li>Nur der Kurztitel wird mit dem Werktitel unserer Zotero-Datenbank ausgezeichnet</li>
-   </ol>
-   <sectiondiv><p><b>Personen und Orte</b> werden in Sachanmerkungen regulär ausgezeichnet, allerdings nur bei
-     Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
-     Sachanmerkungen nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel etwa
-     werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<image
-      placement="break" href="../../img_avhr/sachanmerkung1.tif" align="center"
-      id="image_pnw_krn_hbb" scale="50">
-      <alt>AvH an Meyen, 11. März 1829</alt>
-     </image></p></sectiondiv>
-  </section>
+  <section>
+      <title>edition humboldt digital</title>
+      <p>Sachanmerkungen sind möglichst kurz und kompakt und konzentrieren sich auf wesentliche
+        Erläuterungen der Textstelle oder des größeren Textsegmentes. Sie können Verweise auf
+        Registereinträge, die Bibliographie der Edition oder externe Quellen
+        enthalten.</p>      
+      <p audience="editor">Bei der Erwähnung von <b>bibliographischen Angaben</b> in einer Sachanmerkung müssen
+        folgende Punkte berücksichtigt werden:
+      <ol id="ol_w4p_ntn_hbb">
+        <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank muss vorhanden sein
+          oder neu angelegt werden</li>
+        <li>Vergabe eines Kurztitels</li>
+        <li>Angabe des Kurztitels in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
+          [Kurztitel, Band, Seite]</li>
+        <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet</li>
+      </ol></p>      
+        <p><b>Personen und Orte</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
+          Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch
+          in Sachanmerkungen nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel
+          etwa werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben
+            referenziert.<image placement="break" href="../../img_avhr/sachanmerkung1.jpg"
+            align="center" id="image_pnw_krn_hbb" scale="50">
+            <alt>AvH an Meyen, 11. März 1829</alt>
+          </image></p>          
   <p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der Ersterwähnung
    ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder der Vor- und Nachname
-    ausgezeichnet.<image placement="break" href="../../img_avhr/sachanmerkung2.tif" align="center"
+    ausgezeichnet.<image placement="break" href="../../img_avhr/sachanmerkung2.jpg" align="center"
     id="image_vfg_btn_hbb" scale="40">
     <alt>AvH an Meyen, Anfang 1830</alt>
-   </image></p>  
-  
+   </image></p>
+  <p>Können <b>externe Quellen</b> für den Sachkommentar ermittelt werden, wird auf diese
+        verwiesen<!-- (zur Bedienung in ediarum siehe <xref href="verweise.dita#topic_e1f_thv_ty">Verweise</xref>)-->.
+        Als externe Quellen gelten solche, die nicht explizit in der Editions-Bibliographie erfasst
+        sind. Dies sind etwa Quellen oder Dokumente, auf die Humboldt direkt verweist und deren
+        Standort beispielsweise über Kalliope nachgewiesen werden kann. </p>
+  <p>Im folgenden Brief an Meyen erwähnt Humboldt einen Brief von Charles Francis Hall:<fig
+    id="fig_fng_pk4_mbb">
+    <title>Manuskript</title>
+    <image placement="break" href="../../img_avhr/abb32.png" scale="80" align="center"
+     id="image_gng_pk4_mbb">
+     <alt>Humboldt an Meyen, 1837</alt>
+    </image>
+   </fig><fig id="fig_ftw_tk4_mbb">
+    <title>Kritischer Text (Webansicht)</title>
+    <image placement="break" href="../../img_avhr/abb32-web.jpg" scale="80" align="center"
+     id="image_gtw_tk4_mbb">     
+    </image>
+   </fig></p>
+  <p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<image
+    placement="break" href="../../img_avhr/kalliope.png" scale="80" align="center"
+    id="image_crd_5l4_mbb">
+    <alt>Screenshot von <xref href="http://kalliope-verbund.info/DE-611-HS-1308253" format="html"
+            scope="external">http://kalliope-verbund.info/DE-611-HS-1308253</xref></alt>
+   </image></p>
+  <p>In einer Sachanmerkung werden die Originalquelle und wenn möglich die dazugehörige Signatur
+    angegeben:<fig id="fig_y43_sm4_mbb">
+    <title>Sachanmerkung zu Humboldt an Meyen, 1837 (Webansicht)</title>
+    <image placement="break" href="../../img_avhr/abb32-web-sachanmerkung.jpg" scale="80"
+     align="center" id="image_z43_sm4_mbb"/>
+   </fig></p></section>
+    <section>
+      <title>Bedienung</title>
+      <p> Durch Markierung des zu kommentierenden Textes kann der Editor festlegen, wieviel
+        Manuskripttext (ein Wort, ein Satz, ein Absatz) kommentiert wird.</p>
+    </section>    
  </body>
 </topic>
