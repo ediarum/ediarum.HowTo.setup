@@ -3,66 +3,568 @@
 <concept id="concept_gpw_hln_my">
  <title>Personenregister</title>
  <conbody>
-  <p><b>1.</b> Die Einträge im Personenregister werden in einem <codeph>&lt;person></codeph>-Element
-   notiert. Wenn Sie einen Eintrag erstellen wird im Attribut <codeph>@xml.id</codeph> automatisch
-   eine ID generiert, mit der Sie auf den Eintrag referieren können. Außerdem können Sie direkt über
-   ein Dialogfenster folgende Angaben machen: Nach- und Vorname, Geburts- und Todesjahr. Sollte es
-   sich um eine fiktive Person oder eine mytholgische Figur handeln, wird zusätzlich das Attribut
-    <codeph>@role</codeph> angelegt. Dort wird entsprechend entweder der Wert "fictional" oder
-   "mythological"
-   eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
-  <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
-   Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
-    <codeph>&lt;persName type="reg"></codeph> festgehalten. Varianten oder alternative Namen werden
-   jeweils in einem eigenen <codeph>&lt;persName></codeph>-Element gespeichtert, in dem das Attribut
-    <codeph>@type="alt"</codeph> (alternative) und das Attribut <codeph>@subtype</codeph> angibt,
-   welche Art von Namenvariation vorliegt.</p>
-  <p>
-   <table id="table_ohy_qcf_hy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Name</entry>
-       <entry>Wert für @subtype</entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Alternative(r) Name/Schreibung</entry>
-       <entry>@subtype entfällt</entry>
-      </row>
-      <row>
-       <entry>Pseudonym</entry>
-       <entry>pseudonym</entry>
-      </row>
-      <row>
-       <entry>Geburtsname</entry>
-       <entry>birthname</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table>
-  </p>
-  <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und
-   Nachnamen (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
+    <p><b>1.</b> Die Einträge im Personenregister werden in einem
+      <codeph>&lt;person></codeph>-Element notiert. Wenn Sie einen Eintrag erstellen wird im
+      Attribut <codeph>@xml.id</codeph> automatisch eine ID generiert, mit der Sie auf den Eintrag
+      referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben machen:
+      Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder eine
+      mytholgische Figur handeln, wird zusätzlich das Attribut <codeph>@role</codeph> angelegt. Dort
+      wird entsprechend entweder der Wert "fictional" oder "mythological"
+      eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
+    <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
+      Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
+        <codeph>&lt;persName type="reg"></codeph> festgehalten. Varianten oder alternative Namen
+      werden jeweils in einem eigenen <codeph>&lt;persName></codeph>-Element gespeichtert, in dem
+      das Attribut <codeph>@type="alt"</codeph> (alternative) und das Attribut
+        <codeph>@subtype</codeph> angibt, welche Art von Namenvariation vorliegt.</p>
+    <p>
+      <table id="table_ohy_qcf_hy">
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Name</entry>
+              <entry>Wert für @subtype</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Alternative(r) Name/Schreibung</entry>
+              <entry>@subtype entfällt</entry>
+            </row>
+            <row>
+              <entry>Pseudonym</entry>
+              <entry>pseudonym</entry>
+            </row>
+            <row>
+              <entry>Geburtsname</entry>
+              <entry>birthname</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und
+      Nachnamen (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
+    <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
    <name>[Pseudonym]</name>
 </persName>]]></codeblock>
-  <p><b>2.</b> Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die
-   Wirklungszeit (Floruit) angeben. Die Lebensdaten werden in einem
-   <codeph>&lt;birth></codeph>-Element und <codeph>&lt;death></codeph>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
+    <p><b>2.</b> Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die
+      Wirkungszeit (Floruit) angeben. Die Lebensdaten werden in einem
+      <codeph>&lt;birth></codeph>-Element und <codeph>&lt;death></codeph>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
 <death>1889</death>]]></codeblock></p>
-  <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph>-Element notiert. In den Attributen
-    <codeph>@notBefore</codeph> (nicht vor) und <codeph>@notAfter</codeph> (nicht nach) wird der
-   Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben, wobei Monat und
-   Tag optionale Angaben
-   sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
-  <p><b>3.</b> Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können
-   Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <codeph>@role</codeph>
-   angelegt. Dort wird entsprechend entweder der Wert "fictional" oder "mythological"
-   eingetragen.</p>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p><b>4.</b> Außerdem könnnen Sie mit einem <codeph>&lt;listPerson></codeph>, dessen Attribut
-    <codeph>@type</codeph> den Wert "group" hat, Gruppen anlegen.<?oxy_custom_end?></p>
- </conbody>
+    <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph>-Element notiert. In den
+      Attributen <codeph>@notBefore</codeph> (nicht vor) und <codeph>@notAfter</codeph> (nicht nach)
+      wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben,
+      wobei Monat und Tag optionale Angaben
+      sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
+    <p><b>3.</b> Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können
+      Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <codeph>@role</codeph>
+      angelegt. Dort wird entsprechend entweder der Wert "fictional" oder "mythological"
+      eingetragen.</p>
+    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <p><b>4.</b> Außerdem könnnen Sie mit einem <codeph>&lt;listPerson></codeph>, dessen Attribut
+        <codeph>@type</codeph> den Wert "group" hat, Gruppen anlegen.<?oxy_custom_end?></p>
+    <section>
+      <title>edition humboldt digital</title>
+      <p><b>Norm-ID</b></p>
+      <p>Die Edition verwendet unterschiedliche Normdatenrepositorien. Wenn vorhanden verlinkt der
+        Personeneintrag zum <b>GND</b>-Normdatensatz auf der Website der Deutschen
+        Nationalbibliothek, alternativ zum <b>VIAF</b>-Datensatz. Zum Teil liegen keine
+        Normdatensätze vor.</p>
+      <p><b>Namen</b></p>
+      <ul id="ul_pph_jxp_mbb">
+        <li>
+          <p>Angaben mehrmals verheirateter Frauen in der Form "Therese Huber, geb. Therese Marie
+            Heyne, verw. Forster" werden aufgelöst in folgender Form:<fig id="fig_idc_clb_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/personenregister1.jpg" scale="60"
+                align="left" id="image_pyz_txd_nbb"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
+     <surname>Huber</surname>
+     <forename>Therese</forename>
+ </persName>
+ <persName type="alt" subtype="birthname">
+     <name>Heyne</name>
+ </persName>
+ <persName type="alt">
+     <surname>Heyne</surname>
+     <forename>Marie Therese</forename>
+ </persName>
+ <persName type="alt">
+     <surname>Forster</surname>
+     <forename>Therese</forename>
+ </persName>]]></codeblock></p>
+        </li>
+        <li>
+          <p>In der Kategorie <b>Geburtsname</b> wird nur der Nachname erfasst. Gibt es zusätzlich
+            zum Geburtsnamen noch mehrere Vornamen, wird dieser als „Alternativname“ erfasst.
+            Oftmals ist das aber nicht notwendig.</p>
+        </li>
+        <li>
+          <p>Namensvarianten durch <b>Scheidung</b> werden im Kommentar angegeben <fig
+              id="fig_lrl_wkb_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/personenregister2.jpg" scale="60"
+                align="left" id="image_jc3_fxd_nbb"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
+    <surname>Haeften</surname>
+    <forename>Christiane Elise Sabine von</forename>
+</persName>
+<persName type="alt">
+    <surname>Haftens</surname>
+    <forename>Christiane Elise Sabine von</forename>
+</persName>
+<persName type="alt" subtype="birthname">
+    <name>Cramon</name>
+</persName>
+<birth>1741</birth>
+<death/>
+<note>Ehefrau von Reinhard von Haeften, geschiedene von Waldenfels</note>]]></codeblock></p>
+        </li>
+        <li>
+          <p>Unter <b>Alternativnamen</b> sind ausschließlich unterschiedliche Schreibungen,
+            Pseudonyme und Namenswechsel aufgeführt. Dieselben Teile eines längeren Namens werden
+            nicht erneut vermerkt.</p>
+        </li>
+        <li>
+          <p> Namen, die <b>Adelsprädikate</b> ("von", "zu", "de", "d'", usw.) enthalten, werden
+            unter dem Anfangsbuchstaben des Nachnamens geführt, nicht dem des Prädikats. Namen wie
+            "Pierre d'Ailly" oder "Jean-Baptiste le Rond d’Alembert" sind also dem Buchstaben "A"
+            zugeordnet. </p>
+        </li>
+        <li>
+          <p><b>Adlige</b> werden wenn möglich und sinnvoll unter ihrem bürgerlichen Namen geführt.
+            Das Adelsprädikat und der Adelstitel werden als alternative Namen oder im Kommentar
+              erfasst.<fig id="fig_zwv_1mb_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/personenregister3.jpg" scale="70"
+                align="left" id="image_pkk_2yd_nbb"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://viaf.org/viaf/58797744</idno>
+<persName type="reg">
+    <surname>Fernández de la Cueva y Enríquez</surname>
+    <forename>Francisco </forename>
+</persName>
+<persName type="alt">
+    <name>Duque de Albuquerque</name>
+</persName>
+<persName type="alt">
+    <name>Marqués de Cuéllar</name>
+</persName>
+<birth>1619</birth>
+<death>1676</death>
+<note>Offizier und Kolonialverwalter aus dem spanischen Hochadel. 1653–1660
+        Vizekönig von Neu-Spanien (Mexiko); hatte Verdienste um die Kultur des
+        Landes; gründete eine Art Akademie für Schriftsteller und Wissenschaftler;
+        nach seiner Rückkehr nach Europa wurde er 1664 zum obersten Befehlshaber der
+        spanischen Seestreitkräfte und später zum obersten Hofmeister des spanischen
+        Hofes</note>]]></codeblock></p>
+        </li>
+        <li>
+          <p><b>Adelstitel</b> werden kulturell unterschiedlich behandelt. Es wird unterscheiden
+            zwischen deutschen/österreichischen gegenüber etwa spanischen Adelstiteln. Nach
+            deutschem Verständnis ist der Adelstitel Teil des Namens. Vor allem im
+            kolonialspanischen Kontext aber gibt es sowohl einen Namen als auch einen Adelstitel
+            (s.o. Beispiel Fernández de la Cueva).<fig id="fig_evm_pmb_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/personenregsiter4.jpg" align="left"
+                id="image_hqx_myd_nbb" scale="80"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
+    <surname>Adlerflycht</surname>
+    <forename>Susanna Maria, Baronin von</forename>
+</persName>
+<persName type="alt" subtype="birthname">
+    <name>Riese</name>
+</persName>
+<persName type="alt">
+    <surname>Riese</surname>
+    <forename>Susanna Maria Rebekka Elisabeth von</forename>
+</persName>
+<birth>1775</birth>
+<death>1846</death>
+<note>deutsche Malerin; Ehefrau von Justinian Adlerflycht; Johann Georg von
+        Cottas Schwiegermutter</note>]]></codeblock></p>
+        </li>
+        <li>
+          <p>Bei <b>großen Königshäusern und Herrscherlinien</b> erhalten Personen den Haupteintrag
+            unter ihrem Herrschaftsbereich, also „Preußen“, „Spanien“, „Frankreich“, „Ägypten“ usw.
+          </p>
+        </li>
+        <li>
+          <p>Namen aus der <b>Zeit vor der Entstehung moderner Familiennamen</b> (etwa Ende Frühe
+            Neuzeit) werden als einfache Namen, ohne Unterscheidung zwischen Vor- und Nachnamen,
+            geführt. "Albertus Magnus" ist also "Albertus Magnus", nicht "Magnus, Albertus", und
+            steht demzufolge unter "A".<fig id="fig_fs2_cnb_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/Personenregister5.jpg" scale="60"
+                align="left" id="image_mbn_yyd_nbb"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
+    <name>Albertus Magnus</name>
+</persName>
+<persName type="alt">
+    <name>Albert von Lauingen</name>
+</persName>
+<persName type="alt">
+    <name>Albert der Große</name>
+</persName>
+<persName type="alt">
+    <name>Albertus Teutonicus</name>
+</persName>]]></codeblock></p>
+        </li>
+        <li>
+          <p>Namen aus der <b>Zeit nach Humboldt</b> wie Personen der Zeitgeschichte oder Autoren
+            der Humboldt-Forschung sind ebenfalls Teil des Registers und werden gepflegt und
+            überprüft.</p>
+        </li>
+        <li>
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+          <p><?oxy_custom_end?>Personen können als <b>fiktional</b> (Don Quijote) oder
+              <b>mythologisch</b> (Jesus Christus/Achilles/Quetzalcóatl) ausgezeichnet werden. Das
+            schließt nicht aus, dass es sich um eine historische Person handelt - wie im Falle von
+            Jesus Christus. Der Personentyp „<b>Mythologische Person</b>“ folgt einem weiten
+            Verständnis des Begriffs und schließt alle Personen oder Personennamen aus religiösen
+            Kontexten mit ein. Häufig liegen für diese Personennamen auch Normdateien vor.<fig
+              id="fig_ybz_14b_pbb">
+              <title>ediarum-Autormodus</title>
+              <image placement="break" href="../img_avhr/personenregister7.jpg" scale="70"
+                id="image_zbz_14b_pbb"/>
+            </fig><codeblock outputclass="language-xml"><![CDATA[<person xml:id="H0004159" role="mythological">
+    <idno type="uri">http://d-nb.info/gnd/118557513</idno>
+    <persName type="reg">
+        <name>Jesus Christus</name>
+    </persName>
+    <persName type="alt">
+        <name>Jesus von Nazareth</name>
+    </persName>
+    <note>Religionsstifter, Sohn Gottes (Gottvaters), sein Wirken wird im Neuen
+        Testament der Bibel geschildert</note>
+    <linkGrp>
+        <ptr target="19#297" type="page"/>
+        <ptr target="19#298" type="page"/>
+        <ptr target="19#450" type="page"/>
+    </linkGrp>
+</person>]]></codeblock></p>
+        </li>
+      </ul>
+      <p><b>Lebensdaten / Wirkungszeit</b></p>
+      <p>Lebensdaten liegen vollständig und unvollständig als präzise oder ungefähre Geburts- und
+        Sterbedaten, als ungefähre Wirkungszeiträume oder manchmal nur in Form einer einzelnen
+        Erwähnung vor. </p>
+      <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> -
+        Monat und Tag, auch wenn bekannt, werden nicht angegeben. Die unterschiedlichen Datenlagen
+        bei Lebensjahren werden in folgender Weise kodiert:<table id="table_awj_3xb_pbb">
+          <tgroup cols="3">
+            <colspec colname="c1" colnum="1" colwidth="2.55*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*"/>
+            <colspec colname="c3" colnum="3" colwidth="1.6*"/>
+            <thead>
+              <row>
+                <entry>Jahresangabe</entry>
+                <entry>Anzeige im Web</entry>
+                <entry>Kodierung</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>genaue Lebensdaten</entry>
+                <entry>1769-1859</entry>
+                <entry><codeph>&lt;birth>1769&lt;/birth> &lt;death>1859&lt;/death></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>ungefähre Jahresangabe (Geburtsjahr)</entry>
+                <entry>ca. 580-495 v. Chr.</entry>
+                <entry><codeph>&lt;birth>ca. 580&lt;/birth> &lt;death>1859&lt;/death></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>ungefähre Jahresangabe (Todesjahr)</entry>
+                <entry>1752-ca. 1828</entry>
+                <entry><codeph>&lt;birth>1752&lt;/birth> &lt;death>ca.
+                  1828&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>ungefähre Jahresangabe (Geburts- und Todesjahr)</entry>
+                <entry>ca. 170-ca. 240</entry>
+                <entry><codeph>&lt;birth>ca. 170&lt;/birth> &lt;death>ca. 240&lt;/death></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>Datenlage schwankt zwischen zwei Geburts-/Sterbejahren</entry>
+                <entry>1622-1703/1704</entry>
+                <entry><codeph>&lt;birth>1622&lt;/birth>
+                  &lt;death>1703/1704&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>Geburt/Tod nachgewiesen <i>nach</i> einem bestimmten Jahr</entry>
+                <entry>385-nach 430</entry>
+                <entry><codeph>&lt;birth>385&lt;/birth> &lt;death>nach 430&lt;/death></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>Geburt/Tod nachgewiesen <i>vor</i> einem bestimmten Jahr</entry>
+                <entry>1797-vor 1810</entry>
+                <entry><codeph>&lt;birth>1797&lt;/birth> &lt;death>vor
+                  1810&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>Lebenszeit <i>vor</i> christlicher Zeitenwende</entry>
+                <entry>100-44 v. Chr.</entry>
+                <entry><codeph>&lt;birth>100&lt;/birth> &lt;death>44 v.
+                  Chr.&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>Lebenszeit <i>nach</i> christlicher Zeitenwende</entry>
+                <entry>23-79 n. Chr.</entry>
+                <entry><codeph>&lt;birth>23&lt;/birth> &lt;death>79 n.
+                  Chr.&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>Lebenszeit <i>um</i> christliche Zeitenwende</entry>
+                <entry>63 v. Chr.-14 n. Chr.</entry>
+                <entry><codeph>&lt;birth>63 v. Chr.&lt;/birth> &lt;death>14 n.
+                    Chr.&lt;/death></codeph></entry>
+              </row>
+              <row>
+                <entry>Geburtsjahr unbekannt</entry>
+                <entry>Gestorben 1883</entry>
+                <entry><codeph>&lt;birth/> &lt;death>1883&lt;/death></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>Sterbejahr unbekannt</entry>
+                <entry>Geboren 1765</entry>
+                <entry><codeph>&lt;birth>1765&lt;/birth> &lt;death/></codeph>
+                </entry>
+              </row>
+              <row>
+                <entry>Lebensdaten unbekannt</entry>
+                <entry>Lebensdaten unbekannt</entry>
+                <entry><codeph>&lt;birth/> &lt;death/></codeph></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+      <p>Ungefähre oder unvollständige Lebensdaten, die lediglich Auskunft über die
+          <b>Wirkungszeit</b> geben, werden in einer eigenen Kategorie festgehalten. Je nach
+        Datenlage kann es sich um ein einzelnes Jahr bishin zu einer Spanne mehrerer Jahrhunderte
+        handeln (wenn die Wirkungszeit nicht genauer eingegrenzt werden kann). Wirkungszeiten werden
+        in folgenden Zeitspannen kodiert:<table id="table_k43_zmc_pbb">
+          <tgroup cols="3">
+            <colspec colnum="1" colname="col1" colwidth="1.17*"/>
+            <colspec colnum="2" colname="col2" colwidth="1*"/>
+            <colspec colnum="3" colname="col3" colwidth="1.5*"/>
+            <thead>
+              <row>
+                <entry>Angaben zur Wirkungszeit</entry>
+                <entry>Anzeige im Web</entry>
+                <entry>Kodierung</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>genaues Wirkungsjahr</entry>
+                <entry>1829</entry>
+                <entry><codeph>notBefore="1829" notAfter="1829"</codeph></entry>
+              </row>
+              <row>
+                <entry>genauer Wirkungszeitraum</entry>
+                <entry>1829-1850</entry>
+                <entry><codeph>notBefore="1829" notAfter="1850"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>ungefähres Wirkungsjahr</entry>
+                <entry>um 1829</entry>
+                <entry><codeph>notBefore="1756" notAfter="1756"</codeph></entry>
+              </row>
+              <row>
+                <entry>ungefährer Wirkungszeitraum</entry>
+                <entry>um 1829–1850</entry>
+                <entry><codeph>notBefore="1827" notAfter="1841"</codeph></entry>
+              </row>
+              <row>
+                <entry>Datenlage schwankt zwischen zwei Wirkungsjahren</entry>
+                <entry>um 1829/1830</entry>
+                <entry><codeph>notBefore="1739" notAfter="1740"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry>erwähnt in genau einem Jahr</entry>
+                <entry>erwähnt 1829</entry>
+                <entry><codeph>notBefore="1829" notAfter="1829"</codeph></entry>
+              </row>
+              <row>
+                <entry>mehrmals erwähnt</entry>
+                <entry>erwähnt 1829, 1839</entry>
+                <entry><codeph>notBefore="1829" notAfter="1839"</codeph></entry>
+              </row>
+              <row>
+                <entry>mehrmals erwähnt über einen bestimmten Zeitraum</entry>
+                <entry>erwähnt 1829-1839</entry>
+                <entry><codeph>notBefore="1829" notAfter="1839"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>5. Jh. v. Chr.</entry>
+                <entry><codeph>notBefore="-0500" notAfter="-0400"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>4./5. Jh.</entry>
+                <entry><codeph>notBefore="0300" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>5./4. Jh. v. Chr.</entry>
+                <entry><codeph>notBefore="-0500" notAfter="-0300"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>Anfang 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>Mitte 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>Ende 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>Ende 4./Anfang 5. Jh.</entry>
+                <entry><codeph>notBefore="0350" notAfter="0450"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>Ende 5./Anfang 4. Jh. v. Chr.</entry>
+                <entry><codeph>notBefore="-0550" notAfter="-0450"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>1. Hälfte 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>2. Hälfte 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry>1. Drittel 5. Jh. </entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>1. Drittel 5. Jh. </entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+              <row>
+                <entry/>
+                <entry>1. Drittel 5. Jh.</entry>
+                <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p>
+      <p>Die Verwendung von <b>Abkürzungen</b> in Lebensdaten und Wirkungszeit:</p>
+      <ul id="ul_b2h_cqc_nbb">
+        <li>Abgekürzte Jahreszahlen werden nicht verwendet: ("1829–50" wird ausgeschrieben als
+          "1829-1850") </li>
+        <li>"Jahrhundert" wird als "Jh." abgekürzt</li>
+        <li>"nach Christus" und "vor Christus" werden abgekürzt als "n. Chr." und "v. Chr."</li>
+        <li>"circa" wird abgekürzt als "ca."</li>
+      </ul>
+      <p><b>Kommentar</b></p>
+      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <p><?oxy_custom_end?>Kommentare können je nach Bedeutung der Person (im Kontext der Edition)
+        unterschiedich lang ausfallen, werden aber wenn möglich nicht in ganzen Sätzen verfasst,
+        sondern listen wesentliche biographische Daten auf. <fig id="fig_tqr_p4b_pbb">
+          <title>langer biographischer Kommentar (Autormodus)</title>
+          <image placement="break" href="../img_avhr/personenregister8.jpg" scale="70"
+            id="image_uqr_p4b_pbb"/>
+        </fig></p>
+      <fig id="fig_p1s_r4b_pbb">
+        <title>kurzer biographischer Kommentar (Autormodus)</title>
+        <image placement="break" href="../img_avhr/personenregister9.jpg" scale="65"
+          id="image_q1s_r4b_pbb"/>
+      </fig>
+      <p><b>Abkürzungen</b> werden im Kommentar grundsätzlich nicht verwendet und falls vorhanden
+        konsequent aufgelöst: <ul id="ul_xpm_dr4_4bb">
+          <li>u. > und</li>
+          <li>franz. > französische/r</li>
+          <li>C. Montúfar > Carlos Montúfar </li>
+          <li>...</li>
+        </ul></p>
+      <p><b>Umgang mit historischen Bezeichnungen</b></p>
+      <ul id="ul_jy2_s4c_nbb">
+        <li><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Englischer/schottischer
+          usw. > britischer</li>
+        <li>Bezeichnungen wie "irischer" , "deutscher", "deutsch-baltischer" usw. werden belassen im
+          Sinne einer in erster Linie kulturellen Zuschreibung</li>
+        <li>Herkunftsangabe im Freitext wenn möglich angeben bzw. belassen, Bsp.: "Sächsischer
+          Mineraloge und Staatsmann"</li>
+        <li>Historisch variierende Toponyme: Wenn möglich, Lösung suchen nach dem Schema "aus
+          Andalusien (Spanien); Erzbischof von Neu-Granada (Kolumbien)"<?oxy_custom_end?></li>
+      </ul>
+    </section>
+    <section id="section_ns1_lgd_pbb" audience="editor">
+      <title>Bedienung</title>
+      <p>Ediarum erlaubt eine Person neu als „Mythologische Person“ anzulegen, oder auch einen
+        bestehenden Eintrag um den „Personentyp (fiktional etc.)“ zu ergänzen.</p>
+      <p>Die Eingabe von Geburts- und Todesjahr erfolgt über die Schaltfläche "Lebensdaten". Wenn
+        ein Wert nicht bekannt ist, kann das entsprechende Feld frei gelassen werden. Sollten nur
+        Informationen zur Wirkungszeit vorliegen, kann diese über die Funktion „Floruit
+        (Wirkungszeit)“ angegeben werden. Grundsätzlich ist nur von beiden Angaben vorgesehen und
+        möglich.</p>
+      <p>Die Wirkungszeit einer Person kann über drei Merkmale definiert werden: "Nicht vor", "Nicht
+        nach" und "Angabe als Text". Die Angabe als Text kann jederzeit manuell bearbeitet werden.
+        Die Angaben zu "Nicht vor" und "Nicht nach" können über das Kontextmenü nachträglich
+        bearbeitet werden.</p>
+      <p>Für eine valide und maschinenlesbare Auszeichnung müssen alle drei Angaben eingetragen
+        werden. </p>
+    </section>
+  </conbody>
 </concept>

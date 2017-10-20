@@ -76,6 +76,31 @@
      </tbody>
     </tgroup>
    </table><codeblock outputclass="language-xml">&lt;hi rendition="#aq">Vergnügen&lt;/hi></codeblock></p>
+  <section>
+   <title>edition humboldt digital</title>
+   <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteilebene, bzw. in
+    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet. </p>
+   <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
+     id="ul_cfk_qq4_mbb">
+     <li>Auf Wortebene und bei Eigennamen<fig id="fig_ht1_3s4_mbb">
+       <title>Manuskript</title>
+       <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70" align="center"
+        id="image_it1_3s4_mbb">
+        <alt>Brief Humboldt an Kunth, 27. April 1813</alt>
+       </image></fig>
+       <fig id="fig_fmc_rs4_mbb">
+        <title>Kritischer Text (Webansicht)</title>
+        <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
+         align="center" id="image_gmc_rs4_mbb">
+         <alt>Brief Humboldt an Kunth, 27. April 1813 - Sprachwechsel nicht ausgezeichnet (rote
+         Schriftfarbe zeigt Verweis auf Eintrag im Personenregister)</alt>
+        </image>       
+      </fig></li>
+     <li>Auf Briefumschlägen</li>
+     <li>Bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen. Oftmals
+      finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen)</li>
+    </ul></p>
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title> <link href="http://www.deutschestextarchiv.de/doku/basisformat/fremdsprachlMaterial.html"
   format="html" scope="external"><linktext>Fremdsprachliches Material – Dokumentation des DTABf</linktext></link>
