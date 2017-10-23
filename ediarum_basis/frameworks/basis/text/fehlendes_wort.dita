@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_k54_mgv_ty">
- <title><image href="../../img/supplied16.gif" id="image_lpc_d3f_2y" audience="editor"/> Fehlendes Wort oder Satzzeichen/title>
+ <title> Fehlendes Wort oder Satzzeichen</title>
  <body>
   <section>
    <title>Allgemein</title>
    <p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen ergänzt werden; diese Ergänzungen werden mit
     <xmlelement>supplied</xmlelement> ausgezeichnet. Dabei wird die Wahrscheinlichkeit angegeben, mit der diese Ergänzung
     zutrifft.</p>
-   <p>Die Ergänzung von fehlenden Wörtern oder Satzzeichen ist zu unterscheiden von der Ergänzung
-    (auch: Auflösung) abgekürzter Wörter. </p></section> 
+   <p>Die Ergänzung von fehlenden Wörtern oder Satzzeichen ist zu unterscheiden von der <xref
+     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzung (auch: Auflösung) abgekürzter
+     Wörter</xref>. </p></section> 
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Die <b>Ergänzung von Satzzeichen</b> erfolgt nur dann, wenn sie deutlich die Lesbarkeit des
@@ -27,8 +28,8 @@
     oder Aussage zu identifizieren sind.</p>
    <image placement="break" href="../../img_avhr/fragezeichen-punkt.tif" scale="70" align="center"
     id="image_cqn_bgh_hbb">
-    <alt>"Wollen Sie nicht beiliegende französische Bücher, die ich eben von Paris bekomme,
-     durchsehen und medizinischen Freunden schenken" - Brief AvH an Meyen, Anfang 1830</alt>
+    <alt>„Wollen Sie nicht beiliegende französische Bücher, die ich eben von Paris bekomme,
+     durchsehen und medizinischen Freunden schenken” - Brief AvH an Meyen, Anfang 1830</alt>
    </image>
    <p>In Fällen wie diesen wird eine Einzelfallentscheidung getroffen zwischen zwei möglichen
      Optionen:<ul id="ul_mwb_mgh_hbb">

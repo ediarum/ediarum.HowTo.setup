@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="schriftwechsel">
+    <title>Schriftwechsel</title>
+    <body>
+        <p>Über die Schaltfläche können Sie ebenso einen Schriftwechsel Fraktur/Antiqua transkribieren.
+            Der Schriftwechsel wird mit <codeph>&lt;hi></codeph>-Element ausgezeichnet. Das Attribut
+            <codeph>@rendition</codeph> enthält die Angabe zur Schrift:<table id="table_gs3_wd1_yz">
+                <tgroup cols="2">
+                    <thead>
+                        <row>
+                            <entry>Schriftart</entry>
+                            <entry>Wert für <codeph>@rendition</codeph></entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Antiqua</entry>
+                            <entry><codeph>#aq</codeph></entry>
+                        </row>
+                        <row>
+                            <entry>Fraktur</entry>
+                            <entry><codeph>#fr</codeph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table><codeblock outputclass="language-xml">&lt;hi rendition="#aq">Vergnügen&lt;/hi></codeblock></p>
+    </body>
+    <related-links><linklist scope="external"><title>Deutsches Textarchiv</title> 
+        <link href="http://www.deutschestextarchiv.de/doku/basisformat/schriftart.html" format="html" scope="external"><linktext>Schriftartwechsel – Dokumentation des DTABf</linktext></link></linklist> 
+    </related-links>
+</topic>

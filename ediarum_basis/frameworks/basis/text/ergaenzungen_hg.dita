@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_ojx_3gv_ty">
-  <title><image href="../../img/ex16.png" id="image_kdc_f3f_2y" audience="editor"/> Ergänzungen des Herausgebers</title>
+  <title>Ergänzungen des Herausgebers</title>
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Im Manuskript abgekürte Wörter werden vom Herausgeber ergänzt. Diese Ergänzung wird als solche kenntlich gemacht,
-   es sei denn es liegen abweichende, projektspezifische Regeln zur stillschweigenden Normalisierung vor.</p>
+   <p>Im Manuskript abgekürzte Wörter werden vom Herausgeber ergänzt. Diese Ergänzung wird als
+        solche kenntlich gemacht, es sei denn es liegen abweichende, projektspezifische Regeln zur
+        stillschweigenden Normalisierung vor.</p>
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
@@ -21,35 +22,28 @@
     Nummern (no., N<u>o</u>) in Adresszeilen, Maßangaben und Mengenwerten.</p>
    <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
     aufgelöst.</p>
-   <p>Die <b>Auszeichnung von Abkürzungen</b> und deren Auflösung erfolgt im
-     <codeph>&lt;choice></codeph>-Element. Im <codeph>&lt;abbr></codeph>-Element wird vorlagengetreu
-    die Abkürzung festgehalten, im <codeph>&lt;expan></codeph>-Element die Ergänzung der
-    HerausgeberIn. <codeblock outputclass="language-xml"><![CDATA[<choice>
-    <abbr>Obs.</abbr>
-    <expan>Observations</expan>
-</choice>]]></codeblock></p>
-   <p>Im Falle einer <b>Auflösung und Normalisierung</b> der Abkürzung wird nur die Ergänzung
-    ausgezeichnet und die Normalisierung erfolgt stillschweigend. (nur im Kunth-Briefwechsel und
-    Cuba-Manuskript)</p>
+   <p>Im Falle einer <b>Auflösung und gleichzeitiger Normalisierung</b> der Abkürzung wird nur die
+        Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend. (nur im
+        Kunth-Briefwechsel und Cuba-Manuskript)</p>
    <p>
     <codeblock outputclass="language-xml">&lt;choice>
     &lt;abbr>Emers.&lt;/abbr>
     &lt;expan>Émersion&lt;/expan>
 &lt;/choice></codeblock>
    </p>
-   <p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung "u" und
-    ausgeschriebenem "und" dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
-    Buchstabe als "und" gewertet - es handelt sich nicht um eine Abkürzung. <fig
-     id="fig_nxf_hz1_fbb">
-     <title>"und" mit d-Oberlänge</title>
-     <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
-      id="image_oxf_hz1_fbb"/>
-    </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig
-     id="fig_jgl_wx1_fbb">
-     <title>Abkürzung "u"</title>
-     <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
-      id="image_kgl_wx1_fbb"/>
-    </fig><codeblock outputclass="language-xml"><![CDATA[ein thätiger 
+   <p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u” und
+        ausgeschriebenem „und” dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
+        Buchstabe als "und" gewertet - es handelt sich nicht um eine Abkürzung. <fig
+          id="fig_nxf_hz1_fbb">
+          <title>"und" mit d-Oberlänge</title>
+          <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
+            id="image_oxf_hz1_fbb"/>
+        </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig
+          id="fig_jgl_wx1_fbb">
+          <title>Abkürzung "u"</title>
+          <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
+            id="image_kgl_wx1_fbb"/>
+        </fig><codeblock outputclass="language-xml"><![CDATA[ein thätiger 
   <choice>
     <abbr>u</abbr>
     <expan>und</expan>
@@ -61,7 +55,10 @@
  </section>
   <section>
    <title>Kodierung</title>
-   <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.</p>
+   <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen
+        zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.
+        Im <xmlelement>&lt;abbr></xmlelement>-Element wird vorlagengetreu die Abkürzung festgehalten, im
+          <xmlelement>&lt;expan></xmlelement>-Element die Ergänzung der HerausgeberIn. </p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
  <abbr>Jan.</abbr>
  <expan>Januar</expan>

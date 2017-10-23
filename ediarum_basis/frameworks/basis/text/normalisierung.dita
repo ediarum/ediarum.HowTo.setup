@@ -3,7 +3,21 @@
 <topic id="topic_qxp_ph5_2bb">
   <title>Normalisierung</title>
   <body>
-    <section><title>Schreibgewohnheiten</title>       
+    <section>
+      <title>Allgemein</title>
+      <p>Normalisierungen sind Anpassungen von historischen oder persönlichen Schreibweisen an die
+        moderne Orthographie, die vom Herausgeber vorgenommen werden. Dabei können Normalisierungen
+        explizit ausgezeichnet oder stillschweigend vorgenommen werden. Untenstehend werden sowohl
+        die explizite Auszeichnung als auch die stillschweigend vorgenommenen Normalisierungen
+        dokumentiert.</p>
+      <p>Normalisierungen sind zu unterscheiden von Korrekturen von Fehlern, die in der Vorlage
+        enthalten sind. Darüber hinaus sind sie auch zu unterscheiden von Auflösungen von
+        Abkürzungen durch den Herausgeber.</p>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <sectiondiv>
+      <overline>Schreibgewohnheiten</overline>       
     <p>Schreibgewohnheiten Humboldts werden bewahrt. Dies führt allerdings zu einigen Kompromissen
         und Einzelfall-Lösungen. <b>Häufige Schreibgewohnheiten</b> sind:<ul id="ul_yjy_fl5_2bb">
           <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, disponirt, unnüz)</li>
@@ -16,8 +30,9 @@
           <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt. </p>
       <p><b>Eigennamen von Orten oder Personen</b> werden in ihrer ürsprünglichen Schreibweise
         belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
-        Registereintrag.</p></section>
-    <section><title>Stillschweigende Normalisierung</title>
+        Registereintrag.</p></sectiondiv>
+    <sectiondiv>
+      <overline>Stillschweigende Normalisierung</overline>
       <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
         der Verwendung von diakritischen Zeichen anhand des <codeph>&lt;choice></codeph>-Elements
         kenntlich zu machen. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
@@ -76,8 +91,8 @@
         kenntlich gemacht. Wird in vergleichbaren Fällen stillschweigend normalisiert, erfolgt in
         einer <b>Sachanmerkung</b> (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
           >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->            
-    </section>
-    <section><title>Unterscheidung zwischen Schreibgewohnheit, Normalisierung und Korrektur</title>
+    </sectiondiv>
+    <sectiondiv><overline>Unterscheidung zwischen Schreibgewohnheit, Normalisierung und Korrektur</overline>
       <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
         Schreibgewohnheit, (stillschweigender/expliziter) Normalisierung und dem korrigierenden
         Eingriff durch den Herausgeber.</p>
@@ -263,9 +278,9 @@
           </tbody>
           </tgroup>
         </table>     
-      </section>
-    <section>
-      <title>Unterscheidung zwischen Kürzel, Abkürzung und Schreibgewohnheit</title>
+      </sectiondiv>
+    <sectiondiv>
+      <overline>Unterscheidung zwischen Kürzel, Abkürzung und Schreibgewohnheit</overline>
       <p>In der Unterscheidung zwischen Kürzeln, Abkürzungen und Humboldtscher Schreibgewohnheit
         gibt es Sonderfälle, die in folgenden Tabelle dokumentiert sind. Für die Unterscheidung
         gelten die Richtlinien:</p>
@@ -411,7 +426,8 @@
           </tgroup>
         </table>
       </p>
-    </section>
+    </sectiondiv>
+    <sectiondiv>
     <p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im folgenden
       Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und expliziter
       Normalisierung von Abkürzungen verdeutlicht:</p>
@@ -441,7 +457,8 @@
       <abbr>R</abbr>
       <expan>Rath</expan>
   </choice>]]></codeblock>
-    <section><title>Stillschweigende Normalisierung von Zahlenwerten</title>
+    </sectiondiv>
+    <sectiondiv><overline>Stillschweigende Normalisierung von Zahlenwerten</overline>
       <p>Bei der Auszeichnung von Zahlenwerten wird in höherem Maße von der Manuskriptvorlage
         abgewichen als bei jeglicher anderer Art von Textphänomenen. </p>
       <p>Im Fall der <b>Nebenrechnungen</b> wird so gut wie möglich in der Transkription das
@@ -466,10 +483,26 @@
         zeigt exemplarisch eine entsprechende Auszeichnung:</p><image placement="break"
           href="../../img_avhr/abb30.png" scale="60" align="center" id="image_xqr_h24_hbb">
           <alt>RST I, 5r</alt>
-        </image></section>
-    <image placement="break" href="../../img_avhr/abb30-web.png" align="center"
-      id="image_ng3_v24_hbb">
-      <alt>RST I, 5r - Webansicht</alt>
-    </image>
+        </image>
+      <image placement="break" href="../../img_avhr/abb30-web.png" align="center"
+        id="image_ng3_v24_hbb">
+        <alt>RST I, 5r - Webansicht</alt>
+      </image>
+    </sectiondiv>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Sollen Normalisierungen explizit kodiert werden, wird das Element <xmlelement>choice</xmlelement>verwendet. Dabei wird das Wort in seiner Form, mit der es im Manuskript erscheint, in
+        einem Kindelement <xmlelement>orig</xmlelement> (original) notiert, die normalisierte Schreibweise in
+        <xmlelement>reg</xmlelement> (regularization).</p>
+      <codeblock outputclass="language-xml"><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
+    </section>
+    <section>
+      <title>Anzeige</title>
+      <p>Explizit ausgezeichnete Normalisierungen werden in der Webansicht nur in der Leseansicht dargestellt; im kritischen Text
+      wird dagegen weiterhin die originale Schreibweise angezeigt. Stillschweigende Normalisierungen werden in allen Anzeigevarianten
+      ohne weiteren Hinweis angezeigt.</p>
+    </section>
+    
   </body>  
 </topic>

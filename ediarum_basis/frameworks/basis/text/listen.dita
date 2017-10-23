@@ -2,24 +2,21 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_trq_t1v_ty">
 
- <title><image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> Listen</title>
- <shortdesc></shortdesc>
- <body> 
- <section>
-  <p>Listen im Manuskript werden mit dem <codeph>&lt;list></codeph>-Element ausgezeichnet. Die
-        einzelnen Punkte bzw. Zeilen werden jeweils in einem <codeph>&lt;item></codeph>-Element
-        transkribiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<list>
-   <item>[Listenpunkt einfügen]</item>
-   <item>[Listenpunkt einfügen]</item>
-</list>]]></codeblock>
- </section>
-  <section><title>edition humboldt digital</title><p>Auf Grundlage des semantischen Gehalts sowie des Schriftbildes der Vorlage wird festgelegt, ob
-        eine Textstelle als <b>Liste oder  implizite Tabelle</b> erfasst wird:</p>
-   <p>
-    <ul id="ul_qgp_3hg_jbb">
-     <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird anhand des
-              <codeph>&lt;list/></codeph>-Elements ausgezeichnet.<image placement="break"
+  <title>Listen</title>
+  <body>
+    <section>
+      <title>Allgemein</title>
+      <p>Listenartige Textstrukturen in der Vorlage werden als solche erfasst und ausgezeichnet.</p>
+    </section>
+    <section product="avhr">
+      <title>edition humboldt digital</title>
+      <p>Auf Grundlage des semantischen
+        Gehalts sowie des Schriftbildes der Vorlage wird festgelegt, ob eine Textstelle als <b>Liste
+          oder implizite Tabelle</b> erfasst wird:</p>
+      <p>
+        <ul id="ul_qgp_3hg_jbb">
+          <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird
+            anhand des <codeph>&lt;list/></codeph>-Elements ausgezeichnet.<image placement="break"
               href="../../img_avhr/liste.jpg" align="center" id="image_bqj_b3n_jbb" scale="70">
               <alt>Dokument (TS1) "F – Énumération des Plantes de la Province de Quito", 3a-r</alt>
             </image><p audience="editor">Das folgende Beispiel zeigt einen Grenzfall. Es handelt
@@ -39,8 +36,8 @@
   <item>Orinoco près de urbano 2674 t. <lb/>jusqu’au delà de l’Isle de 
   Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
 </list>]]></codeblock></li>
-     <li>Beinhalten Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden können und
-            sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
+          <li>Beinhalten Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden können
+            und sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
               <codeph>&lt;table/></codeph> ausgezeichnet. (siehe <xref
               href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>)<p audience="editor">Die
               Auflistung von ortsspezifischen Messwerten beispielsweise entspricht semantisch mehr
@@ -53,12 +50,40 @@
                 align="center" id="image_tbk_rm3_dbb">
                 <alt>ART III, 17v;</alt>
               </image></p></li>
-    </ul>
-   </p>
-   </section>
- </body>
- <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/liAllg.html" format="html"
-  scope="external"><linktext>Grundstruktur der Kodierung von Listen – Dokumentation des DTABf</linktext></link></linklist>
-  
- </related-links>
+        </ul>
+      </p>
+    </section>
+    <section audience="editor">
+      <title>Bedienung</title>
+      <p>Über die Funktion „Liste einfügen” im Menü mit dem Symbol <image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> in der Werkzeugleiste können Sie
+        Listen einfügen. Über dasselbe Menü steht auch die Funktion zur Verfügung, um weitere
+        Listenpunkte einzufügen. Die Listenpunkte werden dabei stets nach dem Listenpunkt eingefügt,
+        in dem sich aktuell der Cursor befindet.</p>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Listen in der Vorlage werden mit dem Element <xmlelement>list</xmlelement> ausgezeichnet. Die
+        einzelnen Punkte bzw. Zeilen werden jeweils in einem Element <xmlelement>item</xmlelement>
+        transkribiert. Eine eventuell vorhandene Nummerierung (auch mit Buchstaben) wird nicht eigens ausgezeichnet, sondern
+      innerhalb des Elements <xmlelement>item</xmlelement> einfach transkribiert.</p>
+      <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
+  <item>Le Rio Apure près de S. Fernando 206 t.</item>
+  <item>Orinoco à la bocca Apure 1905 t. <lb/>mais quand le Capucin 
+  est islado = 10750 mètres.</item>
+  <item>Orinoco près du Baraguan 889 t.</item>
+  <item>Orinoco près de urbano 2674 t. <lb/>jusqu’au delà de l’Isle de 
+  Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
+</list>]]></codeblock>
+    </section>
+  </body>
+  <related-links>
+    <linklist scope="external">
+      <title>Deutsches Textarchiv</title>
+      <link href="http://www.deutschestextarchiv.de/doku/basisformat/liAllg.html" format="html"
+        scope="external">
+        <linktext>Grundstruktur der Kodierung von Listen – Dokumentation des DTABf</linktext>
+      </link>
+    </linklist>
+
+  </related-links>
 </topic>

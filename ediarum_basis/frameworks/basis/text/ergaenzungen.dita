@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_okt_bcv_ty">
- <title><image href="../../img/add16.gif" id="image_tgq_yhf_2f" audience="editor"/> Ergänzungen</title>
+ <title>Ergänzungen</title>
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Die Ergänzungen (auch "Hinzufügungen"), die der Autor selbst im Manuskript vorgenommen hat, werden ausgezeichnet. Unter
-   Ergänzungen werden alle Hinzufügungen des Autors verstanden, die den Text nur erweitern und sich syntaktisch eingliedern. 
-   </p><p>Ergänzungen sind zu unterscheiden von den Anmerkungen, die - ähnlich wie Fußnoten im Druck - in sich abgeschlossene Texteinheiten
-   bilden.</p>
+   <p>Die Ergänzungen (auch „Hinzufügungen”), die der Autor selbst im Manuskript vorgenommen hat,
+    werden ausgezeichnet. Unter Ergänzungen werden alle Hinzufügungen des Autors verstanden, die den
+    Text nur erweitern und sich syntaktisch eingliedern. </p><p>Ergänzungen sind zu unterscheiden von den <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
+     >Anmerkungen</xref>, die - ähnlich wie Fußnoten im Druck - in sich abgeschlossene Texteinheiten
+    bilden.</p>
   </section>
    <section>
    <title>edition humboldt digital</title>
@@ -34,11 +35,13 @@ que les …]]></codeblock>
   </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Die Hinzufügung sollte zuerst transkribiert werden. Danach markieren Sie den Text und lösen die Funktion "Hinzufügung im Text durch den Autor"
-    unter dem Symbol <image href="../../img/add16.gif" id="image_tgq_yhf_2y"/> in der Werkzeugleiste aus. Im erscheinenden Dialogfenster ist der Ort der Anmerkung auszuwählen (Werte siehe nächsten Abschnitt).</p>
+   <p>Die Hinzufügung sollte zuerst transkribiert werden. Danach markieren Sie den Text und lösen
+    die Funktion „Hinzufügung im Text durch den Autor” unter dem Symbol <image
+     href="../../img/add16.gif" id="image_tgq_yhf_2y"/> in der Werkzeugleiste aus. Im erscheinenden
+    Dialogfenster ist der Ort der Anmerkung auszuwählen (Werte siehe nächsten Abschnitt).</p>
    <p>Optional können Sie vermerken, dass der Autor selbst diese Ergänzung in diese Textstelle per
-    Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü "ediarum"
-    über die Funktion "Sonderfunktion > Einweisungszeichen" einfügen. Dazu muss der Cursor vorher
+    Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum”
+    über die Funktion „Sonderfunktion > Einweisungszeichen” einfügen. Dazu muss der Cursor vorher
     allerdings in die Ergänzung gesetzt worden sein. Anstelle des Menüs können Sie auch die
     Tastenkombination Strg + Umschalt + E verwenden. </p>
   </section>

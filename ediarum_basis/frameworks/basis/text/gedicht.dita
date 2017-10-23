@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="gedicht">
+<topic id="gedicht" product="basis">
     <title>Gedicht</title>
     <body>
         <p>Gedichte werden in ediarum gemäß den DTABf-Richtlinien eigens mit <xmlelement>lg</xmlelement> (Gedicht/Strophe) bzw. <xmlelement>l</xmlelement> (Verszeile) ausgezeichnet. Eine

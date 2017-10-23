@@ -1,57 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_blt_sgv_ty">
- <title><image href="../../img/corr-sic16.gif" id="image_mpc_d3f_2y"/> <b>Korrekturen durch den Herausgeber</b></title>
+ <title>Korrekturen durch den Herausgeber</title>
  <body>
-  <p>Ein Fehler, der im Manuskript vorkommt, wird zunächst transkribiert. Im edierten Text können
-   Sie diesen Fehler mithilfe des <codeph>&lt;choice></codeph>-Elements korrigieren. Das
-   Originalwort wird in einem <codeph>&lt;sic></codeph>-Element notiert, die Korrektur in einem
-    <codeph>&lt;corr></codeph>-Element. Im <codeph>&lt;corr></codeph>-Element wird durch das
-   Attribut <codeph>@cert</codeph> (certainty) die Wahrscheinlichkeit notiert, mit der die
-   identifizierte Korrektur zutrifft: <table id="table_wl2_xhn_my">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Wahrscheinlichkeit</entry>
-       <entry>Wert für <codeph>@cert</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>niedrig</entry>
-       <entry>low</entry>
-      </row>
-      <row>
-       <entry>mittel</entry>
-       <entry>medium</entry>
-      </row>
-      <row>
-       <entry>hoch</entry>
-       <entry>high</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table>Die korrigiert Textstelle wird im <codeph>&lt;sic></codeph>-Element angegeben, die
-   eigentliche Korrektur durch die Herausgeberin im <codeph>&lt;corr></codeph>-Element.</p>
-  <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
-   <sic>daß</sic>
-   <corr cert="high">das</corr>
-</choice>]]></codeblock>
-  <p>Sie können das <codeph>&lt;choice></codeph>-Element auch verwenden, um die Schreibweise von
-   Wörtern zu normalisieren. Das Wort in seiner Form, mit der es im Manuskript erscheint, wird in
-   einem <codeph>&lt;orig></codeph>-Element (original) notiert, die normalisierte Schreibweise in
-   einem <codeph>&lt;reg></codeph>-Element (regularization). </p>
-  <codeblock outputclass="language-xml"><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
-  <section><title>edition humboldt digital</title>
+  <section>
+   <title>Allgemeines</title>
+   <p>Offensichtliche Fehler seitens des Autors werden getreu der Vorlage transkribiert. Falls es für das Verständnis 
+    des Textes notwendig erscheint, kann der Herausgeber danach diese Fehler korrigieren, indem die untenstehende 
+    Auszeichung verwendet wird.</p>
+   <p>Eng verwandt mit der Herausgeberkorrektur, aber durchaus zu unterscheiden sind <xref
+     href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref> und <xref
+     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Auflösungen</xref> von abgekürzten Wörtern.</p>
+  </section>
+  <section>
+   <title>edition humboldt digital</title>
    <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der <b>Unterscheidung zwischen
      Schreibgewohnheit,Normalisierung und Korrekturen durch den Herausgeber</b>. <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb/table_bps_3jg_hbb">Diese Grenzfälle werden anhand
-     repräsentativer Beispiele dokumentiert.</xref></p></section>
+     repräsentativer Beispiele im Abschnitt „Normalisierung” dokumentiert.</xref></p>
+  </section>
+  <section id="section_gl2_thg_qbb">
+   <title>Bedienung</title>
+   <p>Um Fehler des Autors in ediarum zu korrigieren, transkribieren Sie zuerst das fehlerhafte Wort
+    (bzw. die Wörter) getreu der Vorlage. Danach markieren Sie dieses Wort (bzw. die Wörter) und
+    wählen in der Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
+     id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber” aus. Im dann
+    erscheinenden Dialogmenü werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur, die
+    Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
+    bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingegeben können.</p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Im edierten Text können Korrekturen für Fehler des Autors mithilfe des <xmlelement>choice</xmlelement> notiert werden. Das
+    Originalwort wird in <xmlelement>sic</xmlelement> notiert, die Korrektur in einem
+    <xmlelement>corr</xmlelement>. Im Element <xmlelement>corr</xmlelement> wird durch das
+    Attribut <xmlatt>cert</xmlatt> (certainty) die Wahrscheinlichkeit notiert, mit der die
+    identifizierte Korrektur zutrifft:</p> 
+   <table id="table_wl2_xhn_my">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Wahrscheinlichkeit</entry>
+        <entry>Wert für <codeph>@cert</codeph></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>niedrig</entry>
+        <entry>low</entry>
+       </row>
+       <row>
+        <entry>mittel</entry>
+        <entry>medium</entry>
+       </row>
+       <row>
+        <entry>hoch</entry>
+        <entry>high</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
+   <sic>daß</sic>
+   <corr cert="high">das</corr>
+</choice>]]></codeblock>
+  </section>
  </body>
  <related-links>
   <linklist scope="external"><title>Deustches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eeDruckfehler.html" format="html"
    scope="external"><linktext>Druckfehler – Dokumentation des DTABf</linktext></link>
-   <link href="http://www.deutschestextarchiv.de/doku/basisformat/normalisierung.html" format="html"
-    scope="external"><linktext>Normalisierung historischer Schreibweisen – Dokumentation des DTABf</linktext></link></linklist>
+  </linklist>
  </related-links>
 </topic>

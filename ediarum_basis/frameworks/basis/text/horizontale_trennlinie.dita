@@ -3,23 +3,39 @@
 <topic id="horizontale_trennlinie">
     <title>Horizontale Trennlinie</title>
     <body>
-       <section> <p>Horizontale Trennlinien oder verzierte Trennelemente können Sie mit einem
-                    <codeph>&lt;milestone></codeph>-Element transkribieren. In der
-                ediarum-Autoransicht findet sich die Funktion als „Horizontale Trennlinie“ unter dem
-                Menüpunkt „Allgemein“.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
+        <section>
+            <title>Allgemein</title>
+            <p>Horizontale Linien oder verzierte Trennelemente in der Vorlage, die erkennbar Textbereiche voneinander trennen, werden
+                ausgezeichnet und wiedergegeben.</p>
+        </section>
         <section>
             <title>edition humboldt digital</title>
-            <p><b>Horizontale Linien</b>, die erkennbar Textbereiche voneinander trennen, werden
-                erfasst. </p>
+            <p>
                 <image placement="break" href="../../img_avhr/abb8.png" scale="90" align="center"
-                id="image_g1c_s43_dbb">
-                <alt>RST I, 1v</alt>
-            </image>
+                    id="image_g1c_s43_dbb">
+                    <alt>RST I, 1v</alt>
+                </image></p>
             <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>
 <milestone unit="section" rendition="#hr"/>
-<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15</p>]]></codeblock>    <p>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>               
+<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15</p>]]></codeblock>    
+            <p>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>               
         </section>        
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>In der ediarum-Autoransicht findet sich die Funktion „Horizontale Trennlinie“ im Menü
+                „ediarum > Textstruktur”. </p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Horizontale Trennlinien werden mit dem Element <xmlelement>milestone</xmlelement>
+                ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> wird dabei auf den Wert „#hr” gesetzt.</p>
+        <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
     </body>
-
+    <related-links>
+        <linklist scope="external">
+            <title>Deutsches Textarchiv</title>
+            <link href="http://www.deutschestextarchiv.de/doku/basisformat/horizontaleLinie.html" format="html"
+                scope="external"><linktext>Horizontale Trennlinien – Dokumentation des DTABf</linktext></link>
+        </linklist>
+    </related-links>
 </topic>

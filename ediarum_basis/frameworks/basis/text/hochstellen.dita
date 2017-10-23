@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_ckb_rbv_ty">
- <title><image href="../../img/superscript16.png" id="image_ofy_cms_2y"/> Hochstellen</title>
- <shortdesc></shortdesc>
+ <title>Hochstellungen</title>
  <body>
-  <section><p>Eine Zahl, die im Manuskript hochgestellt ist, wird durch ein <codeph>&lt;hi></codeph>-Element
-   (highlighted) ausgezeichnet. Das Attribut <codeph>@rendition</codeph> hat immer denselben Wert: "#sup".</p>
-  <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock></section>
-  <section><title>edition humboldt digital</title>
-   <p>Hochgestellte Zahlen oder Buchstaben werden getrau nach Vorlage ausgezeichnet.</p></section>
+  <section>
+   <title>Allgemein</title>
+   <p>Hochgestellte Zahlen oder Buchstaben in der Vorlage werden bei der Transkription entsprechend ausgezeichnet.</p>
+  </section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>In der Werkzeugleiste steht unter dem Symbol <image href="../../img/superscript16.png" id="image_ofy_cms_2y"/> eine 
+   entsprechende Funktion zur Verfügung. </p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Zahlen, Buchstaben oder ganze Wörter, die im Manuskript hochgestellt sind, werden durch ein Element <xmlelement>hi</xmlelement>
+    (highlighted) ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> ist dabei auf den Wert "#sup" gesetzt.</p>
+   <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
+  </section>
  </body>
+ <related-links>
+  <linklist scope="external">
+   <title>Deutsches Textarchiv</title>
+   <link href="http://www.deutschestextarchiv.de/doku/basisformat/hochstellung.html" format="html"
+    scope="external"><linktext>Hochstellung – Dokumentation des DTABf</linktext></link>
+  </linklist>
+ </related-links>
 </topic>
