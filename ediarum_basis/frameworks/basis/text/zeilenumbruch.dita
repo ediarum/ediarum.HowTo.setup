@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_w1l_n1v_ty">
- <title><image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> Zeilenumbruch</title>
+ <title>Zeilenbeginn</title>
  <body>
- <section> <p>Sollen die Zeilenumbrüche des Manuksripts transkribiert werden, so können sie mit dem leeren
-    <codeph>&lt;lb/></codeph>-Element (linebreak – Zeilenumbruch) notiert werden. Der Zeilenumbruch
-   kann über die Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden. </p>
-  <p>Wenn der Zeilenumbruch innerhalb eines Wortes vorliegt, können Sie mithilfe des Menüs
-   markieren, ob ein Trennstrich verwendet wurde. Im Attribut <codeph>@break</codeph> wird der entsprechende Wert
-   festgelegt.</p>
-  <p>
-   <table id="table_ygv_f4c_gy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Zeilenumbruch innerhalb eines Wortes</entry>
-       <entry>Wert für <codeph>@break</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>mit Trennstrich</entry>
-       <entry>yes</entry>
-      </row>
-      <row>
-       <entry>ohne Trennstrich</entry>
-       <entry>no</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table>
-  </p>
-  <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock>
-  <p>Im Autormodus wird dann automatisch ein Zeilenumbruch (vor dem Element) angezeigt. In der
-   weiteren Verarbeitungen können die Zeilenumbrüche wahlweise verwendet oder ignoriert werden.
-  </p></section>
+  <section>
+   <title>Allgemein</title>
+   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert.</p>
+  </section>
   <section audience="editor">
    <title>edition humboldt digital</title>
-   <p>Für alle handschriftlichen Texte findet eine Auszeichnung der Zeilenumbrüche statt. Im
-    Beispiel unten kommen alle drei Varianten von Zeilenumbrüchen vor. <ol id="ol_vdy_zks_2bb">
+   <p>Im Beispiel unten kommen alle drei Varianten von Zeilenumbrüchen vor. <ol id="ol_vdy_zks_2bb">
      <li>Einfacher Zeilenumbruch</li>
      <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
      <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
@@ -61,6 +32,21 @@
     darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss. <b>Wichtig</b>: Das
     Trennungszeichen setzt sich in Möglichkeit 2 von selbst.<?oxy_comment_end?></p>
   </section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>Der Zeilenbeginn kann über das Menü mit dem Symbol <image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden.</p>
+   <p>In der Werkzeugleiste stehen neben dem normalen Zeilenbeginn auch zwei Funktionen zur Verfügung mit denen ein Zeilenbeginn eingefügt wird,
+   der ein Wort trennt (einmal mit Trennzeichen, einmal ohne).</p>
+  </section>
+  <section> 
+   <title>Kodierung</title>
+   <p>Ein Zeilenumbruch in der Vorlage wird mit einem (leeren) Element <xmlelement>lb</xmlelement>
+    (line beginning) kodiert. Dabei wird das Element <xmlelement>lb</xmlelement> wie in den TEI
+    Guidelines vorgeschrieben genutzt, nämlich als Zeilen<i>beginn</i>.</p>
+   <p>Wenn der Zeilenumbruch innerhalb eines Wortes erfolgt, wird mit das Attribut
+     <xmlatt>break</xmlatt> mit dem Wert "no" gesetzt. Ein eventuell vorhandenes Trennzeichen wird
+    mit der Kodierung <codeph><![CDATA[<g ref="#typoHyphen"/>]]> erfasst.</codeph></p>
+   <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock></section>
  </body>
  <related-links>
   <linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/lbAllg.html" format="html"

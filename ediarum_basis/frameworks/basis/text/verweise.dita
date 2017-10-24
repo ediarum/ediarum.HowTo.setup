@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_e1f_thv_ty">
- <title><image href="../../img/verweis16.gif" id="image_npc_d3f_2y"/>
-  <b>Verweise</b></title>
- <body>
-  <section><title>Allgemeines</title><p>Sie können Textstellen mit zwei <codeph>&lt;anchor></codeph>-Elementen derartig markieren, dass
-   auf diese Querverweise gemacht werden können. Das Attribut <codeph>@xml:id</codeph> wird
-   automatisch generiert und beinhaltet den Code, mit den man aus einem anderen Dokument auf diese
-   Stelle verweisen kann.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
+    <title><image href="../../img/verweis16.gif" id="image_npc_d3f_2y"/>
+        <b>Verweise</b></title>
+    <body>
+        <section>
+            <title>Allgemein</title>
+            <p>Im Kommentar kann bei Bedarf auf andere Briefe, Dokumente und Textstellen verwiesen werden.
+            Dabei wird der Verweis nicht nur menschenlesbar formuliert, sondern auch maschinenlesbar kodiert.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung im Autormodus</title>
+            <ul id="ul_ucn_5t4_hbb">
+                <li>Von einer Textstelle auf eine andere Textstelle verweisen:<ol
+                        id="ol_jqs_vt4_hbb">
+                        <li>Textstelle, die das Ziel des Verweises sein soll, markieren<image
+                                placement="break" href="../../img_avhr/verweis1.png" align="left"
+                                id="image_pgr_z54_hbb"/></li>
+                        <li><b>Verweisziel markieren</b> in der Symbolleiste anklicken<image
+                                placement="break" href="../../img_avhr/verweis2.png" align="left"
+                                id="image_p1j_1v4_hbb"/></li>
+                        <li>Verweisziel erscheint als neuer Verweis in der Autoransicht<image
+                                placement="break" href="../../img_avhr/verweis3.png" align="left"
+                                id="image_k2r_vv4_hbb"/></li>
+                    </ol></li>
+                <li>Eine beliebige Textstelle mit einem bereits angelegten Verweis oder mit einem
+                    Brief verknüpfen:<ol id="ol_qfn_1w4_hbb">
+                        <li>Textstelle markieren und <b>Verweis auf Brief oder Textstelle</b> in der
+                            Symbolleiste auswählen<image placement="break"
+                                href="../../img_avhr/verweis4.png" align="left"
+                                id="image_qcp_fw4_hbb"/></li>
+                        <li>Im Auswahlmenü die korrekte Datei und Verweisstelle auswählen.
+                                <i>Wichtig: man kann nur Dateien oder in Dateien enthaltene
+                                Verweisziele auswählen, wenn diese gleichzeitig in Oxygen geöffnet
+                                sind!</i><image placement="break" href="../../img_avhr/verweis5.png"
+                                align="left" id="image_vyh_gw4_hbb"/></li>
+                    </ol></li>
+                <li>Eine beliebige Stelle im Text mit einer beliebigen Sachanmerkung verknüpfen<ol
+                        id="ol_mbh_jw4_hbb">
+                        <li>Textstelle markieren und <b>Verweis auf Sachanmerkung</b> in der
+                            Symbolleiste anklicken<image placement="break"
+                                href="../../img_avhr/verweis6.png" align="left"
+                                id="image_bdw_lw4_hbb"/></li>
+                        <li>Vorauswahl (Datei/Anmerkungstext) über Filterfunktion treffen<image
+                                placement="break" href="../../img_avhr/verweis7.png" align="left"
+                                id="image_iky_qw4_hbb"/></li>
+                        <li>Gewünschte Anmerkung auswählen und bestätigen</li>
+                    </ol></li>
+                <?oxy_comment_start author="lkirsten" timestamp="20171010T121217+0200" comment="Details klären
+"?>
+                <li>Von einer Textstelle auf eine externe Website verweisen<?oxy_comment_end?></li>
+            </ul></section>
+        <section>
+            <title>Kodierung</title>
+            <p>Verweisziele im Text werden mit zwei <xmlelement>anchor</xmlelement>-Elementen
+                markiert. Dabei trägt das Attribut <xmlatt>xml:id</xmlatt> in beiden Elementen eine
+                ID, die sich lediglich durch das Präfix "start" bzw. "stop" unterscheidet. Auf diese
+                ID kann aus anderen Texten und Dokumenten heraus verwiesen werden.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
 xml:id="start_b3k_pyf_cy"/>Wechsel<anchor
 type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
-  <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit dem Element
-    <codeph>&lt;ref></codeph> gemacht, dessen Attribut <codeph>@target</codeph> den Code für die
-   entsprechende Textstelle enthält.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p><?oxy_custom_end?>Außerdem kann mit einem <codeph>&lt;ref key="…"></codeph> auf einen Eintrag
-   im Sachregister verwiesen werden.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<ref key="B00005/#e08497e6-b9d0-4afa-902b-1a3b926db394">Kölner</ref>]]></codeblock>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p><?oxy_custom_end?>Sie können innerhalb einer Sachanmerkung (<codeph>&lt;seg></codeph>) auf eine
-   externe Website verweisen. Die Anmerkung wird in einem <codeph>&lt;note></codeph>-Element notiert
-   und der Link auf die externe Website in einem <codeph>&lt;ref></codeph>-Element angegeben. Im
-   Attribut <codeph>@target</codeph> wird die URL der Website notiert.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock></section>
- <section><title>Bedienung im Autormodus</title>
-  
-   </section>
-  <ul id="ul_ucn_5t4_hbb">
-      <li>Von einer Textstelle auf eine andere Textstelle verweisen:<ol id="ol_jqs_vt4_hbb">
-          <li>Textstelle, die das Ziel des Verweises sein soll, markieren<image placement="break"
-              href="../../img_avhr/verweis1.png" align="left" id="image_pgr_z54_hbb"/></li>
-          <li><b>Verweisziel markieren</b> in der Symbolleiste anklicken<image placement="break"
-              href="../../img_avhr/verweis2.png" align="left" id="image_p1j_1v4_hbb"/></li>
-          <li>Verweisziel erscheint als neuer Verweis in der Autoransicht<image placement="break"
-              href="../../img_avhr/verweis3.png" align="left" id="image_k2r_vv4_hbb"/></li>
-        </ol></li>
-      <li>Eine beliebige Textstelle mit einem bereits angelegten Verweis oder mit einem Brief
-          verknüpfen:<ol id="ol_qfn_1w4_hbb">
-          <li>Textstelle markieren und <b>Verweis auf Brief oder Textstelle</b> in der Symbolleiste
-              auswählen<image placement="break" href="../../img_avhr/verweis4.png" align="left"
-              id="image_qcp_fw4_hbb"/></li>
-          <li>Im Auswahlmenü die korrekte Datei und Verweisstelle auswählen. <i>Wichtig: man kann
-              nur Dateien oder in Dateien enthaltene Verweisziele auswählen, wenn diese gleichzeitig
-              in Oxygen geöffnet sind!</i><image placement="break"
-              href="../../img_avhr/verweis5.png" align="left" id="image_vyh_gw4_hbb"/></li>
-        </ol></li>
-      <li>Eine beliebige Stelle im Text mit einer beliebigen Sachanmerkung verknüpfen<ol
-          id="ol_mbh_jw4_hbb">
-          <li>Textstelle markieren und <b>Verweis auf Sachanmerkung</b> in der Symbolleiste
-              anklicken<image placement="break" href="../../img_avhr/verweis6.png" align="left"
-              id="image_bdw_lw4_hbb"/></li>
-          <li>Vorauswahl (Datei/Anmerkungstext) über Filterfunktion treffen<image placement="break"
-              href="../../img_avhr/verweis7.png" align="left" id="image_iky_qw4_hbb"/></li>
-          <li>Gewünschte Anmerkung auswählen und bestätigen</li>
-        </ol></li>
-      <?oxy_comment_start author="lkirsten" timestamp="20171010T121217+0200" comment="Details klären
-"?>
-      <li>Von einer Textstelle auf eine externe Website verweisen<?oxy_comment_end?></li>
-    </ul>
- </body>
+            <p>Der eigentliche Verweis auf einen Brief oder eine Textstelle wird mit dem Element
+                    <xmlelement>ref</xmlelement> kodiert, dessen Attribut <xmlatt>target</xmlatt>
+                die ID der Zieltextstelle enthält.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
+            <p>Darüber hinaus kann mit ref auch in einem Stellenkommentar auf eine externe Website
+                verwiesen werden. Im Attribut <xmlatt>target</xmlatt> wird in diesem Fall die
+                vollständige URL der Website notiert.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>
+        </section>
+    </body>
 </topic>
