@@ -38,6 +38,7 @@
             <topicref href="frameworks/basis/text/absatz.dita"/>           
             <topicref href="frameworks/basis/text/zeilenumbruch.dita"/>
             <topicref href="frameworks/basis/text/seitenwechsel.dita"/>
+            <topicref href="frameworks/basis/text/leerraum.dita"/>
             <topicref href="frameworks/basis/text/listen.dita"/>
             <topicref href="frameworks/basis/text/gedicht.dita"/>
             <topicref href="frameworks/basis/text/tabelle.dita"/>
@@ -54,7 +55,8 @@
         <topicref href="frameworks/basis/text/_intro_editor.dita">
             <topicref href="frameworks/basis/text/unsichere_lesart.dita"/>
             <topicref href="frameworks/basis/text/nicht_lesbar.dita"/> 
-            <topicref href="frameworks/basis/text/gestrichene_nichtlesbar.dita"/> 
+            <topicref href="frameworks/basis/text/gestrichene_nichtlesbar.dita"/>
+            <topicref href="frameworks/basis/text/auslassungen.dita"/>
             <topicref href="frameworks/basis/text/ergaenzungen_hg.dita"/> 
             <topicref href="frameworks/basis/text/fehlendes_wort.dita"/> 
             <topicref href="frameworks/basis/text/streichung_hg.dita"/> 
@@ -84,18 +86,15 @@
             <topicref href="frameworks/basis/brief/postskriptum.dita"/>
         </topichead>
     </chapter>
-    <chapter href="frameworks/index/ueberschrift.dita">
-        <topicref href="general/allgemeine_werkzeugleiste.dita" copy-to="general/register_allgemeine_werkzeugleiste.dita"/>
-        <topicref href="frameworks/index/register.dita">
-            <topicref href="frameworks/index/neuer_eintrag.dita"></topicref>
-            <topicref href="frameworks/index/allgemein.dita"></topicref>
-            <topicref href="frameworks/index/person.dita"></topicref>
-            <topicref href="frameworks/index/werke.dita"></topicref>
-            <topicref href="frameworks/index/sachregister.dita"></topicref>
-            <topicref href="frameworks/index/orte.dita"></topicref>
-            <topicref href="frameworks/index/institutionen.dita"></topicref>
-            <topicref href="frameworks/index/zusammenfuehren.dita"></topicref>
-        </topicref>       
+    <chapter href="frameworks/index/Register.dita">
+        <topicref href="frameworks/index/neuer_eintrag.dita"/>
+        <topicref href="frameworks/index/allgemein.dita"/>
+        <topicref href="frameworks/index/person.dita"/>
+        <topicref href="frameworks/index/werke.dita"/>
+        <topicref href="frameworks/index/sachregister.dita"/>
+        <topicref href="frameworks/index/orte.dita"/>
+        <topicref href="frameworks/index/institutionen.dita"/>
+        <topicref href="frameworks/index/zusammenfuehren.dita"/>
     </chapter>
 
 </bookmap>
