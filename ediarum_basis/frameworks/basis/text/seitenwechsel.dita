@@ -53,7 +53,8 @@
   <section id="section_hz5_ll2_bbb" audience="editor">
    <title>Bedienung</title>
    <p>Für die Notierung von Seiten- und Foliaangaben stehen in ediarum drei Funktionen in der
-    Werkzeugleiste im Menü mit dem Symbol XX zur Verfügung:</p>
+        Werkzeugleiste im Menü mit dem Symbol <image href="../../img/pagebreak.gif"
+          id="image_brx_xbn_qbb"/> zur Verfügung:</p>
    <ul id="ul_ycg_pl2_bbb">
     <li>Foliowechsel: Fügt einen Foliowechsel ein.</li>
     <li>Foliowechsel mit Link: Fügt einen Foliowechsel ein und ermöglicht die Eingabe einer URL zu

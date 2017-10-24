@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_aw1_5bv_ty">
- <title><image href="../../img/del16.gif" id="image_rcq_yhf_2y"/> Streichungen</title>
- <shortdesc></shortdesc>
+ <title>Streichungen</title>
  <body>
-  <section><p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem
-    <codeph>&lt;del></codeph>-Element (deletion) ausgezeichnet. Das Attribut
-    <codeph>@rendition</codeph> enthält nähere Angaben zur Art der Streichung.<table
-    id="table_frw_4ns_2y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Art der Streichung</entry>
-       <entry>Wert für <codeph>@rendition</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>ursprünglicher Text überschrieben</entry>
-       <entry>#ow</entry>
-      </row>
-      <row>
-       <entry>Textstelle durchgestrichen</entry>
-       <entry>#s</entry>
-      </row>
-      <row>
-       <entry>radiert</entry>
-       <entry>#erased</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
-  <section><title>edition humboldt digital</title>
+  <section>
+   <title>Allgemein</title>
    <p>Gestrichener Text wird grundsätzlich - soweit lesbar - vollständig erfasst, samt aller
     Textphänomene wie Zeilenumbrüche, Auflösung von Abkürzungen, Normalisierungen und
-    Herausgeberkorrekturen, bzw. –ergänzungen. <image placement="break"
+    Herausgeberkorrekturen, bzw. –ergänzungen. Die Streichung wird entsprechend ausgezeichnet.</p>
+  </section>
+  <section>
+   <title>edition humboldt digital</title>
+   <p>Beispiel: <image placement="break"
      href="../../img_avhr/abb13.png" scale="60" align="center" id="image_zyq_spt_2bb">
      <alt>Cuba, 142v "23. La salubrité de la Havane..."</alt>
     </image></p>
@@ -53,7 +29,44 @@ très]]></codeblock>
     innerhalb einer bereits gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
    <image placement="break" href="../../img_avhr/abb14-web.jpg" align="center"
     id="image_w4d_g2g_hbb"/>
+  </section>
+  <section audience="editor" id="section_znk_vdn_qbb">
+   <title>Bedienung</title>
+   <p>Transkribieren Sie zuerst das gestrichene Wort (bzw. die Wörter). Markieren Sie es und lösen
+    Sie in der Werkzeugleiste die Schaltfläche mit dem Symbol <image href="../../img/del.gif"
+     id="image_rwg_ydn_qbb"/> aus. Im erscheinenden Dialogmenü wählen Sie bitte die Art der
+    Streichung aus.</p>
   </section> 
+  <section>
+   <title>Kodierung</title>
+   <p>Vom Autor bzw. von der Autorin im Manuskript gestrichene Wörter oder Wortteile werden mit dem Element
+    <xmlelement>del</xmlelement> (deletion) ausgezeichnet. Das Attribut
+    <xmlatt>rendition</xmlatt> enthält nähere Angaben zur Art der Streichung.<table
+     id="table_frw_4ns_2y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Art der Streichung</entry>
+        <entry>Wert für <xmlatt>rendition</xmlatt></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>ursprünglicher Text überschrieben</entry>
+        <entry>#ow</entry>
+       </row>
+       <row>
+        <entry>Textstelle durchgestrichen</entry>
+        <entry>#s</entry>
+       </row>
+       <row>
+        <entry>radiert</entry>
+        <entry>#erased</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html?hl=streichung"
   format="html" scope="external"><linktext>Hinzufügung und Tilgung – Dokumentation des DTABf</linktext></link></linklist> 

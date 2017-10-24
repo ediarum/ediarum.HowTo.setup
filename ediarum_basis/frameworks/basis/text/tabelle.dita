@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_abf_x1v_ty">
- <title><image href="../../img/table.jpg"/> Tabellen</title>
+ <title>Tabellen</title>
  <body>
- <section><p>Tabellen im Manuskript werden mit dem <codeph>&lt;table></codeph>-Element (Tabelle)
-   ausgezeichnet. Über die Schaltfläche lassen sich Tabellen erstellen und bearbeiten. So lassen
-   sich weitere Zeilen und Spalten hinzufügen bzw. löschen. Wenn Sie eine Tabelle erstellen,
-   erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten (columns) angeben
-   können. Mit der Schaltfläche kann die Tabelle jederzeit noch nachträglich verändert werden. </p>
-  <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
-   Häkchen auf „ generate_table-header“. Der ersten Zeile (row) der Tabelle wird dann die Rolle der
-   Beschriftung zugewiesen:
-   <codeph>@role="label"</codeph>.</p>
-  <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
-   <head>Tabelle</head>
-   <row role="label">
-      <cell>[Überschrift Spalte 1]</cell>
-      <cell>[Überschrift Spalte 2]</cell>
-   </row>
-   <row>
-      <cell>[Spalte 1/Zeile 1]</cell>
-      <cell>[Spalte 2/ Zeile 1]</cell>
-   </row>
-   ...
-</table>]]></codeblock></section>
-   <section>
+ <section>
+   <title>Allgemein</title>
+   <p>In der Vorlage enthaltene Tabellen werden als solche transkribiert, dabei wird zwischen expliziten Tabellen
+   und impliziten unterschieden. Erste sind vom Autor tatsächlich gezeichnet; bei letzteren ist die Tabellenstruktur
+   nur durch die Anordnung ihres Inhalts erkenntlich.</p>
+   <p>Zu unterscheiden ist die Tabelle von listenartigen Aufzählungen.</p>
+ </section>
+   <section product="avhr">
       <title>edition humboldt digital</title>
       <p>Es wird zwischen expliziten und impliziten Tabellen unterschieden.</p>
       <p><b>Explizite Tabellen</b> sind erkennbar mit einem Tabellenraster angelegt worden. Sie
@@ -152,6 +138,36 @@
 </table>
 <p>donne lat. 10°17‘23“.</p>]]></codeblock>
     </section>
+   <section>
+     <title>Bedienung</title>
+     <p>Über das Menü mit dem Symbol <image href="../../img/table.jpg"/> in der Werkzeugleiste 
+       lassen sich Tabellen erstellen und bearbeiten. So können
+       weitere Zeilen und Spalten hinzugefügen bzw. gelöschen werden. Wenn Sie eine Tabelle erstellen,
+       erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten (columns) angeben
+       können. Mit der Schaltfläche kann die Tabelle jederzeit noch nachträglich verändert werden.</p>
+     <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
+       Häkchen auf „ generate_table-header“.</p>
+   </section>
+   <section>
+     <title>Kodierung</title>
+     <p>Tabellen werden mit dem Element <xmlelement>table</xmlelement> (Tabelle)
+       ausgezeichnet.</p>
+     <p>Der ersten Zeile (row) der Tabelle wird dann die Rolle der
+       Beschriftung zugewiesen:
+       <codeph>@role="label"</codeph>.</p>
+     <codeblock outputclass="language-xml"><![CDATA[<table rows="3" cols="2">
+   <head>Tabelle</head>
+   <row role="label">
+      <cell>[Überschrift Spalte 1]</cell>
+      <cell>[Überschrift Spalte 2]</cell>
+   </row>
+   <row>
+      <cell>[Spalte 1/ Zeile 1]</cell>
+      <cell>[Spalte 2/ Zeile 1]</cell>
+   </row>
+   ...
+</table>]]></codeblock>
+   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/tabAllg.html" format="html"
   scope="external"><linktext>Grundstruktur der Kodierung von Tabellen – Dokumentation des DTABf</linktext></link>

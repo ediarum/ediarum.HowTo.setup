@@ -1,51 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_g2c_tfv_ty">
- <title><image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> Unsichere Lesarten</title>
+ <title>Unsichere Lesarten</title>
  <body>
-  <p>Die Wörter, die von den HerausgeberInnen nicht eindeutig entziffert werden können, werden mit
-   dem <codeph>&lt;unclear></codeph>-Element ausgezeichnet. Im Attribut <codeph>@reason</codeph>
-   wird die Ursache der Unsicherheit angegeben:<table id="table_y1g_1qs_2y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Ursache der Unsicherheit</entry>
-       <entry>Wert für <codeph>@reason</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>unleserlich</entry>
-       <entry>illegible</entry>
-      </row>
-      <row>
-       <entry>Überzeichnung/Überschreibung</entry>
-       <entry>covered</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <p>Das Attribut <codeph>@cert</codeph> (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Ergänzung
-    zutrifft.<table id="table_ssv_tps_2y">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Wahrscheinlichkeit</entry>
-       <entry>Wert für <codeph>@cert</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>niedrig</entry>
-       <entry>low</entry>
-      </row>
-      <row>
-       <entry>hoch</entry>
-       <entry>high</entry>
-      </row>
-     </tbody>
-    </tgroup>
-    </table></p><codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
+  <section>
+   <title>Allgemein</title>
+   <p>Wörter und Textpassagen, die vom Herausgeber nicht sicher gelesen werden können, werden entsprechend
+   ausgezeichnet.</p>
+  </section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>Transkribieren Sie ihren Vorschlag für das schwer leserliche Wort und markieren Sie es. Danach können
+    Sie in der Werkzeugleiste über das Symbol <image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> die entsprechende Auszeichnung auslösen. Im erscheinenden Dialogmenü
+   spezifizieren Sie bitte den Grund der unsicheren Lesart.</p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Die Wörter, die von den HerausgeberInnen nicht eindeutig entziffert werden können, werden mit
+    dem Element <xmlelement>unclear</xmlelement> ausgezeichnet. Im Attribut <xmlatt>@reason</xmlatt>
+    wird die Ursache der Unsicherheit angegeben:</p>
+   <table id="table_y1g_1qs_2y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Ursache der Unsicherheit</entry>
+        <entry>Wert für <xmlatt>reason</xmlatt></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>unleserlich</entry>
+        <entry>illegible</entry>
+       </row>
+       <row>
+        <entry>Überzeichnung/Überschreibung</entry>
+        <entry>covered</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   <p>Das Attribut <xmlatt>cert</xmlatt> (certainty) gibt dabei Wahrscheinlichkeit an, mit der die Lesart nach Meinung
+    des Herausgebers zutrifft.</p><table id="table_ssv_tps_2y">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Wahrscheinlichkeit</entry>
+        <entry>Wert für <xmlatt>cert</xmlatt></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>niedrig</entry>
+        <entry>low</entry>
+       </row>
+       <row>
+        <entry>hoch</entry>
+        <entry>high</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">Verfalltag</unclear>]]></codeblock>
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msEditorCert.html?hl=unclear"
   format="html" scope="external"><linktext>Unsichere Lesarten – Dokumentation des DTABf</linktext></link></linklist>

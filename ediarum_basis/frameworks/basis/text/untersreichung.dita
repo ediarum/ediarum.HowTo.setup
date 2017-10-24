@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_w4p_nbv_ty">
- <title><image href="../../img/underlined16.png" id="image_qcq_yhf_2y"/> Unterstreichung</title>
-
+ <title>Unterstreichung</title>
  <body>
-  <section><p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem
-   <codeph>&lt;hi></codeph>-Element (highlighted) ausgezeichnet. Im Attribut @rendition wird
-   notiert, um was für eine Unterstreichung es sich handelt:<table id="table_gss_bxc_gy">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Art der Unterstreichung</entry>
-       <entry>Wert für <codeph>@rendition</codeph></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>einfach</entry>
-       <entry>#u</entry>
-      </row>
-      <row>
-       <entry>doppelt</entry>
-       <entry>#uu</entry>
-      </row>
-      <row>
-       <entry>am Rand</entry>
-       <entry>#mMM</entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock></section>
-  <section><title>edition humboldt digital</title>
+  <section>
+   <title>Allgemein</title>
+   <p>In der Vorlage enthaltene Unterstreichungen werden mit einer entsprechenden Kodierung
+    erfasst und wiedergegeben.</p>
+  </section>
+  <section product="avhr">
+  <title>edition humboldt digital</title>
  
   <p>
     <ul id="ul_v3f_2gg_jbb">
@@ -55,6 +33,49 @@
    scale="80">
    <alt>Cuba-Manuskript, 127r</alt>
   </image></section>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>Transkribieren Sie den unterstrichenen Text und markieren ihn danach. Nun können Sie in der Werkzeugleiste die
+    Schaltfläche mit dem Symbol <image href="../../img/underlined16.png" id="image_qcq_yhf_2y"/> auslösen. Im erscheinenden Dialogmenü wählen Sie bitte die Art der Unterstreichung aus.</p>
+   <p>Im Falle einer Randanstreichung eines ganzen Absatzes gehen Sie bitte wie folgt vor:
+    Transkribieren Sie den Absatz, der am Rand angestrichen ist und setzen Sie dann den dort hinein.
+    Danach klicken Sie auf die rechte Maustaste. Im erscheinenden Kontextmenü wählen Sie bitte die
+    Option „Am Rand angestrichen” aus. </p>
+  </section>
+  <section>
+    <title>Kodierung</title>
+   <p>Im Manuskript unterstrichene Wörter oder Wortteile werden mit dem Element
+   <xmlelement>hi</xmlelement> (highlighted) ausgezeichnet. Im Attribut <xmlatt>rendition</xmlatt> wird
+   notiert, um was für eine Art von Unterstreichung es sich handelt:</p>
+   <table id="table_gss_bxc_gy">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Art der Unterstreichung</entry>
+       <entry>Wert für <xmlatt>rendition</xmlatt></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>einfach</entry>
+       <entry>#u</entry>
+      </row>
+      <row>
+       <entry>doppelt</entry>
+       <entry>#uu</entry>
+      </row>
+      <row>
+       <entry>am Rand</entry>
+       <entry>#mMM</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+   <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
+   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert „#mMM” (am Rand angestrichen) kann auch
+    in das Element <xmlelement>p</xmlelement> eingefügt werden, falls ein ganzer Absatz am Rand
+    angestrichen ist.</p>
+  </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"
   format="html" scope="external"><linktext>Richtlinien zur Kodierung typographischer Besonderheiten – Dokumentation des DTABf</linktext></link></linklist>
