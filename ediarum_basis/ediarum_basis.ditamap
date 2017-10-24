@@ -56,7 +56,6 @@
         <topicref href="frameworks/basis/text/_intro_editor.dita">
             <topicref href="frameworks/basis/text/unsichere_lesart.dita"/>
             <topicref href="frameworks/basis/text/nicht_lesbar.dita"/> 
-            <topicref href="frameworks/basis/text/gestrichene_nichtlesbar.dita"/>
             <topicref href="frameworks/basis/text/auslassungen.dita"/>
             <topicref href="frameworks/basis/text/ergaenzungen_hg.dita"/> 
             <topicref href="frameworks/basis/text/fehlendes_wort.dita"/> 

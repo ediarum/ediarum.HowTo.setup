@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_gfh_yfv_ty">
- <title><image href="../../img/gap16.gif" id="image_hpc_d3f_2y"/>
-  <b>Nicht lesbare Zeichen und Schäden</b></title>
+ <title>Nicht lesbare Zeichen und Schäden</title>
  <body>
   <section>
    <title>Allgemein</title>
@@ -11,6 +10,11 @@
     unleserliche Schreibung.</p>
    <p>Zu unterscheiden sind nicht lesbare Wörter von schwer lesbaren Wörtern, die entsprechend
     anders ausgezeichnet werden.</p>
+  </section>
+  <section id="section_oxy_lmp_qbb" audience="editor">
+   <title>Bedienung</title>
+   <p>Die Auszeichnung wird über die Schaltfläche mit dem Symbol <image href="../../img/gap16.gif"
+     id="image_hpc_d3f_2y"/>  in der Werkzeugleiste vorgenommen. </p>
   </section>
   <section>
    <title>Kodierung</title>
@@ -68,6 +72,9 @@
      </tgroup>
     </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<gap unit="words" quantity="3" reason="illegible"/> a beaucoup baissé]]></codeblock>
+   <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
+    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap</xmlelement>.</p>
+   <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
    <p><b>Zerstörte oder verlorene Seiten</b> werden einzeln erfasst, im:</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="lost"/>]]></codeblock>
    <p>Hinweis: Ebenfalls mit <xmlelement>gap</xmlelement> ausgezeichnet werden vorhandene, aber

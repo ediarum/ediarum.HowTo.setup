@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_w2t_b3v_ty">
- <title>
-  <image href="../../img/index16.gif" id="image_sgh_kbd_gy"/><b> Textstellen indizieren</b></title>
+ <title> Textstellen indizieren</title>
  <body>
   <p>Sie können Textstellen mit einem <codeph>&lt;index></codeph>-Element umgeben, um auf einen
    Index-Eintrag zu verweisen. Das Attribut <codeph>@spanTo</codeph> wird automatisch eingetragen, wenn Sie aus der
