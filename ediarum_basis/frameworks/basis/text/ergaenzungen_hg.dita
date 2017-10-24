@@ -11,15 +11,17 @@
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
-   <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele u, n,
-    p, v), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer, page/pagina…, von) -
-    dies betrifft auch heute gebräuchliche Abkürzungen wie Prof.=Professor.</p>
-   <p>Abkürzungen bei <b>Orts- und Personennamen</b> (Don Franc. Arango/S. Domingue/S. María del
-    Rosario) werden ebenfalls aufgelöst.</p>
+   <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele sind
+          <i>u, n, p, v</i>), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer,
+        page/pagina…, von) - dies betrifft auch heute gebräuchliche Abkürzungen wie
+          <i>Prof.=Professor</i>.</p>
+   <p>Abkürzungen bei <b>Orts- und Personennamen</b> (zum Beispiel: <i>Don Franc. Arango/S.
+          Domingue/S. María del Rosario</i>) werden ebenfalls aufgelöst.</p>
    <p>Nimmt der Autor Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in
-    ihrer jeweiligen Sprache aufgelöst - in französischen und englischen Werken als p=page, in
-    deutschen und lateinischen Werken p=pagina, in spanischen p=página. Dasselbe gilt analog für
-    Nummern (no., N<u>o</u>) in Adresszeilen, Maßangaben und Mengenwerten.</p>
+        ihrer jeweiligen Sprache aufgelöst - in französischen und englischen Werken als
+          <i>p=page</i>, in deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen
+          <i>p=página</i>. Dasselbe gilt analog für Nummern (<i>no., N<u>o</u></i>) in Adresszeilen,
+        Maßangaben und Mengenwerten.</p>
    <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
     aufgelöst.</p>
    <p>Im Falle einer <b>Auflösung und gleichzeitiger Normalisierung</b> der Abkürzung wird nur die
@@ -51,7 +53,8 @@
   </section>
  <section audience="editor">
   <title>Bedienung</title>
-  <p>In der Werkzeugleiste steht die Funktion "Abkürzungen auflösungen" unter dem Symbol <image href="../../img/ex16.png" id="image_kdc_d3f_2y"/> zur Verfügung.</p>
+  <p>In der Werkzeugleiste steht die Funktion "Abkürzungen auflösen" unter dem Symbol <image
+          href="../../img/ex16.png" id="image_kdc_d3f_2y"/> zur Verfügung.</p>
  </section>
   <section>
    <title>Kodierung</title>

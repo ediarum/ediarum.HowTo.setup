@@ -64,7 +64,7 @@
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
     <p><b>4.</b> Außerdem könnnen Sie mit einem <codeph>&lt;listPerson></codeph>, dessen Attribut
         <codeph>@type</codeph> den Wert "group" hat, Gruppen anlegen.<?oxy_custom_end?></p>
-    <section>
+    <section id="section_czw_t3d_pbb">
       <title>edition humboldt digital</title>
       <p><b>Norm-ID</b></p>
       <p>Die Edition verwendet unterschiedliche Normdatenrepositorien. Wenn vorhanden verlinkt der
@@ -153,11 +153,7 @@
 <birth>1619</birth>
 <death>1676</death>
 <note>Offizier und Kolonialverwalter aus dem spanischen Hochadel. 1653–1660
-        Vizekönig von Neu-Spanien (Mexiko); hatte Verdienste um die Kultur des
-        Landes; gründete eine Art Akademie für Schriftsteller und Wissenschaftler;
-        nach seiner Rückkehr nach Europa wurde er 1664 zum obersten Befehlshaber der
-        spanischen Seestreitkräfte und später zum obersten Hofmeister des spanischen
-        Hofes</note>]]></codeblock></p>
+        Vizekönig von Neu-Spanien (Mexiko) [...]</note>]]></codeblock></p>
         </li>
         <li>
           <p><b>Adelstitel</b> werden kulturell unterschiedlich behandelt. Es wird unterscheiden
@@ -266,61 +262,61 @@
             <tbody>
               <row>
                 <entry>genaue Lebensdaten</entry>
-                <entry>1769-1859</entry>
+                <entry>1769–-1859</entry>
                 <entry><codeph>&lt;birth>1769&lt;/birth> &lt;death>1859&lt;/death></codeph>
                 </entry>
               </row>
               <row>
                 <entry>ungefähre Jahresangabe (Geburtsjahr)</entry>
-                <entry>ca. 580-495 v. Chr.</entry>
+                <entry>ca. 580–495 v. Chr.</entry>
                 <entry><codeph>&lt;birth>ca. 580&lt;/birth> &lt;death>1859&lt;/death></codeph>
                 </entry>
               </row>
               <row>
                 <entry>ungefähre Jahresangabe (Todesjahr)</entry>
-                <entry>1752-ca. 1828</entry>
+                <entry>1752–ca. 1828</entry>
                 <entry><codeph>&lt;birth>1752&lt;/birth> &lt;death>ca.
                   1828&lt;/death></codeph></entry>
               </row>
               <row>
                 <entry>ungefähre Jahresangabe (Geburts- und Todesjahr)</entry>
-                <entry>ca. 170-ca. 240</entry>
+                <entry>ca. 170–ca. 240</entry>
                 <entry><codeph>&lt;birth>ca. 170&lt;/birth> &lt;death>ca. 240&lt;/death></codeph>
                 </entry>
               </row>
               <row>
                 <entry>Datenlage schwankt zwischen zwei Geburts-/Sterbejahren</entry>
-                <entry>1622-1703/1704</entry>
+                <entry>1622–1703/1704</entry>
                 <entry><codeph>&lt;birth>1622&lt;/birth>
                   &lt;death>1703/1704&lt;/death></codeph></entry>
               </row>
               <row>
                 <entry>Geburt/Tod nachgewiesen <i>nach</i> einem bestimmten Jahr</entry>
-                <entry>385-nach 430</entry>
+                <entry>385–nach 430</entry>
                 <entry><codeph>&lt;birth>385&lt;/birth> &lt;death>nach 430&lt;/death></codeph>
                 </entry>
               </row>
               <row>
                 <entry>Geburt/Tod nachgewiesen <i>vor</i> einem bestimmten Jahr</entry>
-                <entry>1797-vor 1810</entry>
+                <entry>1797–vor 1810</entry>
                 <entry><codeph>&lt;birth>1797&lt;/birth> &lt;death>vor
                   1810&lt;/death></codeph></entry>
               </row>
               <row>
                 <entry>Lebenszeit <i>vor</i> christlicher Zeitenwende</entry>
-                <entry>100-44 v. Chr.</entry>
+                <entry>100–44 v. Chr.</entry>
                 <entry><codeph>&lt;birth>100&lt;/birth> &lt;death>44 v.
                   Chr.&lt;/death></codeph></entry>
               </row>
               <row>
                 <entry>Lebenszeit <i>nach</i> christlicher Zeitenwende</entry>
-                <entry>23-79 n. Chr.</entry>
+                <entry>23–79 n. Chr.</entry>
                 <entry><codeph>&lt;birth>23&lt;/birth> &lt;death>79 n.
                   Chr.&lt;/death></codeph></entry>
               </row>
               <row>
                 <entry>Lebenszeit <i>um</i> christliche Zeitenwende</entry>
-                <entry>63 v. Chr.-14 n. Chr.</entry>
+                <entry>63 v. Chr.–14 n. Chr.</entry>
                 <entry><codeph>&lt;birth>63 v. Chr.&lt;/birth> &lt;death>14 n.
                     Chr.&lt;/death></codeph></entry>
               </row>
@@ -368,7 +364,7 @@
               </row>
               <row>
                 <entry>genauer Wirkungszeitraum</entry>
-                <entry>1829-1850</entry>
+                <entry>1829–1850</entry>
                 <entry><codeph>notBefore="1829" notAfter="1850"</codeph></entry>
               </row>
               <row>
@@ -498,12 +494,12 @@
               </row>
               <row>
                 <entry/>
-                <entry>1. Drittel 5. Jh. </entry>
+                <entry>2. Drittel 5. Jh. </entry>
                 <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
               </row>
               <row>
                 <entry/>
-                <entry>1. Drittel 5. Jh.</entry>
+                <entry>3. Drittel 5. Jh.</entry>
                 <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
               </row>
             </tbody>
@@ -512,14 +508,14 @@
       <p>Die Verwendung von <b>Abkürzungen</b> in Lebensdaten und Wirkungszeit:</p>
       <ul id="ul_b2h_cqc_nbb">
         <li>Abgekürzte Jahreszahlen werden nicht verwendet: ("1829–50" wird ausgeschrieben als
-          "1829-1850") </li>
+          "1829–1850") </li>
         <li>"Jahrhundert" wird als "Jh." abgekürzt</li>
         <li>"nach Christus" und "vor Christus" werden abgekürzt als "n. Chr." und "v. Chr."</li>
         <li>"circa" wird abgekürzt als "ca."</li>
       </ul>
       <p><b>Kommentar</b></p>
       <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-      <p><?oxy_custom_end?>Kommentare können je nach Bedeutung der Person (im Kontext der Edition)
+      <p><?oxy_custom_end?>Kommentare können je nach Bedeutung (im Kontext der Edition) der Person
         unterschiedich lang ausfallen, werden aber wenn möglich nicht in ganzen Sätzen verfasst,
         sondern listen wesentliche biographische Daten auf. <fig id="fig_tqr_p4b_pbb">
           <title>langer biographischer Kommentar (Autormodus)</title>
@@ -538,16 +534,17 @@
           <li>C. Montúfar > Carlos Montúfar </li>
           <li>...</li>
         </ul></p>
-      <p><b>Umgang mit historischen Bezeichnungen</b></p>
+      <p><b>Herkunftsbezeichnungen im Kommentar</b></p>
       <ul id="ul_jy2_s4c_nbb">
-        <li><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Englischer/schottischer
-          usw. > britischer</li>
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+        <li><?oxy_custom_end?>Eine Herkunftsangabe im Kommentar kann angegeben bzw. belassen werden,
+            <i>Beispiel: "Sächsischer Mineraloge und Staatsmann"</i></li>
+        <li>Die Zuweisungen "englisch" und "schottisch" werden subsumiert unter "britisch"</li>
         <li>Bezeichnungen wie "irischer" , "deutscher", "deutsch-baltischer" usw. werden belassen im
           Sinne einer in erster Linie kulturellen Zuschreibung</li>
-        <li>Herkunftsangabe im Freitext wenn möglich angeben bzw. belassen, Bsp.: "Sächsischer
-          Mineraloge und Staatsmann"</li>
-        <li>Historisch variierende Toponyme: Wenn möglich, Lösung suchen nach dem Schema "aus
-          Andalusien (Spanien); Erzbischof von Neu-Granada (Kolumbien)"<?oxy_custom_end?></li>
+        <li>Historische variierende Toponyme werden, wenn möglich, durch die heutige administrative
+          Zugehörigkeit in Klammern ergänzt. <i>Beispiel: "aus Andalusien (Spanien); Erzbischof von
+            Neu-Granada (Kolumbien)"</i></li>
       </ul>
     </section>
     <section id="section_ns1_lgd_pbb" audience="editor">
@@ -562,9 +559,8 @@
       <p>Die Wirkungszeit einer Person kann über drei Merkmale definiert werden: "Nicht vor", "Nicht
         nach" und "Angabe als Text". Die Angabe als Text kann jederzeit manuell bearbeitet werden.
         Die Angaben zu "Nicht vor" und "Nicht nach" können über das Kontextmenü nachträglich
-        bearbeitet werden.</p>
-      <p>Für eine valide und maschinenlesbare Auszeichnung müssen alle drei Angaben eingetragen
-        werden. </p>
+        bearbeitet werden. Für eine valide und maschinenlesbare Auszeichnung müssen alle drei
+        Angaben eingetragen werden. </p>
     </section>
   </conbody>
 </concept>
