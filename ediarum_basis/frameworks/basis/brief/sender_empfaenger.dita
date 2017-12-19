@@ -5,10 +5,10 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Ort- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch "Kopfdaten" genannt)
+            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Ort- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch „Kopfdaten“ genannt)
                 sind wichtige Metadaten<indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
                 der Textsorte Brief sind. In der digitalen Edition können sie ganz oder teilweise in
-                der "Kopfzeile"<indexterm>Kopfzeile</indexterm> ("Titel") des Briefes genannt werden. Vor allem müssen sie aber als
+                der „Kopfzeile“<indexterm>Kopfzeile</indexterm> („Titel“) des Briefes genannt werden. Vor allem müssen sie aber als
                 sog. Metadaten eindeutig kodiert werden, die bei Absender, Empfänger, Schreib- und Empfangsort
                 <indexterm>Empfangsort</indexterm> zudem auf einen entsprechenden Registereintrag verweisen. Ohne diese
                 Metadaten ist eine Sortierung und Filterung nach Korrespondenzpartner<indexterm>Korrespondenzpartner</indexterm><indexterm>Briefpartner</indexterm> oder Datum in
@@ -18,7 +18,7 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Für Absender, Empfänger, Schreib- und Empfangsort eines Briefes stehen entsprechende Funktionen in der Werkzeugleiste im Menü "Briefmetadaten" zur Verfügung:</p>
+            <p>Für Absender, Empfänger, Schreib- und Empfangsort eines Briefes stehen entsprechende Funktionen in der Werkzeugleiste im Menü „Briefmetadaten“ zur Verfügung:</p>
             <ul>
                 <li>Absender</li>
                 <li>Absender (Organisation)</li>
@@ -34,11 +34,11 @@
             digitalen Edition werden diese Angaben aus den Registern bezogen. Wird dort also ein Name geändert, wird er automatisch korrekt überall in der 
             digitalen Edition angezeigt.</p>
             <p>Nach dem Einfügen des Absenders bzw. Empfängers kann man diese <b>Identifizierung als
-                    "unsicher"</b> markieren. Dazu klickt man mit dem Cursor in den Namen und ruft
-                danach mit der rechten Maustaste das Kontextmenü auf. Dort kann man dann "Unsichere Identifizierung"<indexterm>Identifzierung, unsichere</indexterm> auswählen. In der Folge wird der Name mit einem "(?)" markiert. Über
+                „unsicher“</b> markieren. Dazu klickt man mit dem Cursor in den Namen und ruft
+                danach mit der rechten Maustaste das Kontextmenü auf. Dort kann man dann „Unsichere Identifizierung“<indexterm>Identifzierung, unsichere</indexterm> auswählen. In der Folge wird der Name mit einem „(?)“ markiert. Über
                 denselben Weg kann man diese Markierung auch wieder entfernen.</p>
             <p>Die dazugehörigen <b>Datumsangaben</b> können über die weiteren Funktionen in der
-                Werkzeugleiste im Menü "Briefmetadaten" gesetzt werden:<ul id="ul_uc4_zh5_jbb">
+                Werkzeugleiste im Menü „Briefmetadaten“ gesetzt werden:<ul id="ul_uc4_zh5_jbb">
                     <li>Genaues Schreibdatum: Der Brief wurde an einem Tag erstellt, dieser ist
                         genau bekannt</li>
                     <li>Genauer Schreibzeitraum: Der Brief wurde über mehrere Tage hinweg
@@ -49,15 +49,15 @@
                 </ul></p>
             <p>Die Datumsangaben zum Empfang des Briefes werden, falls vorhanden, analog kodiert. Da
                 ein Brief aber nicht über mehrere Tage hinweg zugestellt werden kann, entfällt hier
-                die Option "Genauer Empfangszeitraum".</p>
-            <p>Erläuterungen zur Datierung werden in "Anmerkungen zum Brief" notiert.</p>
+                die Option „Genauer Empfangszeitraum“.</p>
+            <p>Erläuterungen zur Datierung werden in „Anmerkungen zum Brief“ notiert.</p>
         </section>
         <section>
             <title>Kodierung</title>
         <p>Die Korrespondenzmetadaten eines Briefes werden im
-            <codeph>&lt;correspDesc></codeph>-Element (correspondence description) angegeben. Es wird
-            für den Absende- und den Empfangsvorgang jeweils ein <codeph>&lt;correspAction></codeph>-Element
-            (correspondence action) angelegt. Das Attribut <codeph>@type</codeph> gibt dabei die Art der Kommunikationshandlung an; die Werte ("sent", "received")
+            <xmlelement>correspDesc</xmlelement>-Element (correspondence description) angegeben. Es wird
+            für den Absende- und den Empfangsvorgang jeweils ein <xmlelement>correspAction</xmlelement>-Element
+            (correspondence action) angelegt. Das Attribut <xmlatt>type</xmlatt> gibt dabei die Art der Kommunikationshandlung an; die Werte (<codeph>"sent"</codeph>, <codeph>"received"</codeph>)
             sind den TEI-Richtlinien für correspAction übernommen.</p>
         <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">[Angaben zum Sender]</correspAction>
@@ -82,13 +82,12 @@
         <section>
             <title>Anzeige</title>
             <p>Die Kodierungen von Absender, Empfänger, Schreib- und Empfangsort sowie den dazugehörigen Datumsangaben werden an vielen Stellen der
-            digitalen Edition ausgewertet und angezeigt. Bei der Einzelansicht eines Briefes sind die Angaben unter dem Link "Weitere Angaben zum Brief"
+                digitalen Edition ausgewertet und angezeigt. Bei der Einzelansicht eines Briefes sind die Angaben unter dem Link „Weitere Angaben zum Brief“
             zu finden. Bei der Anzeige werden die Personen-, Institutions- und Ortsnamen nicht aus dem einzelnen Brief, sondern aus dem Register bezogen.</p>
         </section>
         <section>
             <title>API</title>
-            <p>Beim Abruf der Daten über die API werden alle editionsinternen IDs in key durch URIs im Attribut ref ersetzt. Dabei werden, sofern vorhanden,
-                URIs einer <indexterm>Normdatei</indexterm> (GND, VIAF, GeoNames) verwendet - ansonsten die editionsinterne ID, allerdings als URI, d.h. in der Form http://edition-humboldt.de/H0015944.
+            <p>Beim Abruf der Daten über die API werden alle editionsinternen IDs in <xmlatt>key</xmlatt> durch URIs im Attribut <xmlatt>ref</xmlatt> ersetzt. Dabei werden, sofern vorhanden, URIs einer <indexterm>Normdatei</indexterm> (GND, VIAF, GeoNames) verwendet – ansonsten die editionsinterne ID, allerdings als URI, d. h. in der Form <codeph>http://edition-humboldt.de/H0015944</codeph>.
             Dadurch wird die projektübergreifende Nachnutzbarkeit der Daten gewährleistet.</p>
         </section>
     </body>
