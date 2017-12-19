@@ -5,11 +5,11 @@
  <body>
   <section id="section_nvp_qk2_bbb">
    <title>Allgemeines</title>
-   <p>Follierung bzw. Paginierung, d.h. Folio- bzw. Seitenwechsel der Vorlage, werden verzeichnet.
-    Dabei wird stets der Beginn des Folium / der Seite gekennzeichnet, nicht das Ende. Falls online
-    verfügbar kann im Foliowechsel ein Permalink zum entsprechenden Digitalisat des Folium gesetzt
-    werden. Existiert in der Vorlage eine weitere Seiten- bzw. Blattzählung (etwa durch den Autor
-    selbst vorgenommen), wird diese zusätzlich zur Foliierung notiert.</p>
+   <p>Foliierung bzw. Paginierung, d. h. Folio- bzw. Seitenwechsel der Vorlage, werden verzeichnet.
+        Dabei wird stets der Beginn des Folium bzw. der Seite gekennzeichnet, nicht das Ende. Falls
+        online verfügbar kann im Foliowechsel ein Permalink zum entsprechenden Digitalisat des
+        Folium gesetzt werden. Existiert in der Vorlage eine weitere Seiten- bzw. Blattzählung (etwa
+        durch den Autor selbst vorgenommen), wird diese zusätzlich zur Foliierung notiert.</p>
   </section>
   <section id="section_wtf_kq2_bbb">
    <title>edition humboldt digital</title>
