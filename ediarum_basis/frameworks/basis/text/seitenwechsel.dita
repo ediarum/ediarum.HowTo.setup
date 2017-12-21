@@ -38,13 +38,13 @@
      Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
      behalten)</li></ul>
      <p><b>Leere Seiten</b> werden als <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty"
-          >Auslassung</xref> mithilfe des <codeph>&lt;gap></codeph>-Elements erfasst. Im oberen
+          >Auslassung</xref> mithilfe des <xmlelement>gap</xmlelement>-Elements erfasst. Im oberen
         Textauszug beginnt Humboldt auf der ersten Innenseite (1v) mit dem Brief. Die erste Seite
         des Dokuments (1r) wird dementsprechend als leere Seite ausgezeichnet. <b>Zerstörte oder
-          verlorene Seiten</b> werden auf gleiche Weise im <codeph>&lt;gap></codeph>-Element
+          verlorene Seiten</b> werden auf gleiche Weise im <xmlelement>gap</xmlelement>-Element
         erfasst. Dies betrifft Seiten oder Blätter, die entnommen und uns nicht bekannt sind. Jede
         leere, bzw. fehlende Seite, auch aufeinanderfolgende, werden einzeln in separaten
-          <codeph>&lt;gap></codeph>-Elementen erfasst, um die Foliierung korrekt festzuhalten. </p>   
+          <xmlelement>gap</xmlelement>-Elementen erfasst, um die Foliierung korrekt festzuhalten. </p>   
    <p>
         <b>Humboldts Paginierung</b> wird als „Weitere Seiten- und Blattzählung” zusätzlich
         wiedergegeben.</p>
@@ -69,15 +69,15 @@
   <section id="section_qf4_sl2_bbb">
    <title>Kodierung</title>
    <p>Ein Foliowechsel bzw. Seitenwechsel in der Vorlage wird mit dem leeren
-     <codeph>&lt;pb/></codeph>-Element (pagebreak) gekennzeichnet. <codeph>@n</codeph> enthält die
+     <xmlelement>pb/</xmlelement>-Element (pagebreak) gekennzeichnet. <xmlatt>n</xmlatt> enthält die
     Seiten- bzw. Foliozahl.</p>
    <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
    <p>Ein Link zum Digitalisat wird im Attribut facs notiert. Als Link sollten im Regelfall nur
     Permalinks der bestandshaltenden Insitution (Archiv oder Bibliohtek) bzw. offzieller,
     übergeordneter Angebote (Gallica) verwendet werden.</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
-   <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element fw kodiert, dessen
-    Attribut type den Wert folnum aufweist.</p>
+   <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element <xmlelement>fw</xmlelement> kodiert, dessen
+    Attribut <xmlatt>type</xmlatt> den Wert <codeph>folnum</codeph> aufweist.</p>
     <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
     <p>Alle Auszeichnungsvarianten sind DTABf-konform.</p>
   </section>

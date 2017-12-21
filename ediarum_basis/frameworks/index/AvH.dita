@@ -30,18 +30,18 @@
         Eintrag in der Registerdatei bereits vorliegen.</p>
       <p>Zum <b>Anlegen eines neuen Verweissiglum</b> die Datei „Verweissiglen.xml“ im Verzeichnis
         „Register“ öffnen. Ein neues Siglum wird im Textmodus direkt im XML-Code angelegt. Einträge
-        heißen <codeph>&lt;item></codeph>, und enthalten typischerweise drei Informationen:</p>
+        heißen <xmlelement>item</xmlelement>, und enthalten typischerweise drei Informationen:</p>
       <ul id="ul_vwh_rn4_hbb">
-        <li>eine eindeutige #"ID" im Attribut @xml:id </li>
-        <li>eine Kennzeichnung im Element <codeph>&lt;label></codeph></li>
-        <li>eine Beschreibung im Element <codeph>&lt;desc></codeph></li>
+        <li>eine eindeutige <codeph>#"ID"</codeph> im Attribut <xmlatt>xml:id</xmlatt></li>
+        <li>eine Kennzeichnung im Element <xmlelement>label</xmlelement></li>
+        <li>eine Beschreibung im Element <xmlelement>desc</xmlelement></li>
       </ul>
       <codeblock outputclass="language-xml"><![CDATA[<item xml:id="cuba_S">
     <label>S (Kuba)</label>
     <desc>Sigle S im Kubatagebuch</desc>
 </item>]]></codeblock>
       <p>Soll ein Siglum ausgezeichnet werden, dass noch nicht im Siglenregister eingetragen ist,
-        kann ein bestehender Eintrag (<codeph>&lt;item></codeph>…<codeph>&lt;/item></codeph>)
+        kann ein bestehender Eintrag (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>)
         kopiert, neu eingefügt und entsprechend angepasst werden (ID, Kennzeichnung,
         Beschreibung).</p>
       <p>Die <b>Auszeichnung von Verweissiglen</b> funktioniert im ediarum-Autormodus

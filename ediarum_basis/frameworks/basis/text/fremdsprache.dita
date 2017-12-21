@@ -55,41 +55,41 @@
       <thead>
        <row>
         <entry>Fremdsprache</entry>
-        <entry>Wert für <codeph>@xml:lang</codeph></entry>
+        <entry>Wert für <xmlatt>xml:lang</xmlatt></entry>
        </row>
       </thead>
       <tbody>
        <row>
         <entry>Griechisch</entry>
-        <entry>grc</entry>
+        <entry><codeph>grc</codeph></entry>
        </row>
        <row>
         <entry>Latein</entry>
-        <entry>Lat</entry>
+        <entry><codeph>Lat</codeph></entry>
        </row>
        <row>
         <entry>Hebräisch</entry>
-        <entry>heb</entry>
+        <entry><codeph>heb</codeph></entry>
        </row>
        <row>
         <entry>Deutsch</entry>
-        <entry>deu</entry>
+        <entry><codeph>deu</codeph></entry>
        </row>
        <row>
         <entry>Französisch</entry>
-        <entry>fra</entry>
+        <entry><codeph>fra</codeph></entry>
        </row>
        <row>
         <entry>Englisch</entry>
-        <entry>eng</entry>
+        <entry><codeph>eng</codeph></entry>
        </row>
        <row>
         <entry>Russisch</entry>
-        <entry>rus</entry>
+        <entry><codeph>rus</codeph></entry>
        </row>
        <row>
         <entry>Spanisch</entry>
-        <entry>spa</entry>
+        <entry><codeph>spa</codeph></entry>
        </row>
       </tbody>
      </tgroup>

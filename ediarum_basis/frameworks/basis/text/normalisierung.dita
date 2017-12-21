@@ -29,14 +29,14 @@
             <li>verschiedene Formen des "s", "ß" nur dann, wenn explizit von Humboldt so
               geschrieben</li>
           </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe
-          des <codeph>&lt;choice></codeph>-Elements oder stillschweigende Normalisierung statt.
+          des <xmlelement>choice</xmlelement>-Elements oder stillschweigende Normalisierung statt.
             </p><p><b>Eigennamen von Orten oder Personen</b> werden in ihrer ürsprünglichen
           Schreibweise belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit
           dem jeweiligen Registereintrag.</p></sectiondiv>
     <sectiondiv>
         <overline>Stillschweigende Normalisierung</overline>
         <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
-          der Verwendung von diakritischen Zeichen anhand des <codeph>&lt;choice></codeph>-Elements
+          der Verwendung von diakritischen Zeichen anhand des <xmlelement>choice</xmlelement>-Elements
           kenntlich zu machen. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
           diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
             <li>Akzente in allen Sprachen</li>
@@ -91,7 +91,7 @@
         seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
           <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist. Wenn
         eine intentionale oder anderweitig signifikante Abweichung möglich oder wahrscheinlich
-        erscheint, wird die Normalisierung mithilfe des <codeph>&lt;choice></codeph>-Elements
+        erscheint, wird die Normalisierung mithilfe des <xmlelement>choice</xmlelement>-Elements
         kenntlich gemacht. Wird in vergleichbaren Fällen stillschweigend normalisiert, erfolgt in
         einer <b>Sachanmerkung</b> (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
           >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->
@@ -288,10 +288,10 @@
           Unterscheidung gelten die Richtlinien:</p><p>
           <ul id="ul_sbs_44g_hbb">
             <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
-            <li><b>Abkürzungen</b> werden anhand des <codeph>&lt;choice></codeph>-Elements aufgelöst
+            <li><b>Abkürzungen</b> werden anhand des <xmlelement>choice</xmlelement>-Elements aufgelöst
               (siehe <xref href="ergaenzungen_hg.dita#topic_ojx_3gv_ty"/>)</li>
             <li><b>Sonderfall</b>: das Kürzel für Reichsthaler („r.“) wird als Abkürzung behandelt
-              und dementsprechend im <codeph>&lt;choice></codeph>-Element aufgelöst</li>
+              und dementsprechend im <xmlelement>choice</xmlelement>-Element aufgelöst</li>
           </ul>
           <table id="table_pzj_4pg_hbb">
             <tgroup cols="4">

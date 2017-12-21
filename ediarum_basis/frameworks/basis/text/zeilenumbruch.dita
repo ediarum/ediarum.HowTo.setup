@@ -25,7 +25,7 @@
 <lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
 <lb break="no"/>catar aufzugeben, dachten wir nur wenige Wochen
 <lb/>in Cumana zu verweilen. …]]></codeblock>
-   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des <codeph>&lt;add></codeph>-Elements
+   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des <xmlelement>add</xmlelement>-Elements
     gesetzt, also nicht in Textergänzungen durch den Autor.
     <?oxy_comment_start author="lkirsten" timestamp="20170928T153328+0200" comment="unklar formuliert"?>Muss
     man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich setzen, ist
@@ -40,12 +40,12 @@
   </section>
   <section> 
    <title>Kodierung</title>
-   <p>Ein Zeilenumbruch in der Vorlage wird mit einem (leeren) Element <xmlelement>lb</xmlelement>
-    (line beginning) kodiert. Dabei wird das Element <xmlelement>lb</xmlelement> wie in den TEI
+   <p>Ein Zeilenumbruch in der Vorlage wird mit einem (leeren) Element <xmlelement>lb/</xmlelement>
+    (line beginning) kodiert. Dabei wird das Element <xmlelement>lb/</xmlelement> wie in den TEI
     Guidelines vorgeschrieben genutzt, nämlich als Zeilen<i>beginn</i>.</p>
    <p>Wenn der Zeilenumbruch innerhalb eines Wortes erfolgt, wird mit das Attribut
-     <xmlatt>break</xmlatt> mit dem Wert "no" gesetzt. Ein eventuell vorhandenes Trennzeichen wird
-    mit der Kodierung <codeph><![CDATA[<g ref="#typoHyphen"/>]]> erfasst.</codeph></p>
+     <xmlatt>break</xmlatt> mit dem Wert <codeph>"no"</codeph> gesetzt. Ein eventuell vorhandenes Trennzeichen wird
+    mit der Kodierung <codeph><![CDATA[<g ref="#typoHyphen"/>]]></codeph> erfasst.</p>
    <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock></section>
  </body>
  <related-links>

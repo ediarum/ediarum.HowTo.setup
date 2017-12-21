@@ -3,36 +3,36 @@
 <topic id="art_der_textgrundlage">
     <title>Art der Textgrundlage</title>
     <body>
-        <p>Im <codeph>&lt;msDesc></codeph> -Element können Sie die Art der Textgrundlage im
-            Attribut <codeph>@rend</codeph> auszeichnen. Dafür sind folgende Angaben möglich:<table
+        <p>Im <xmlelement>msDesc</xmlelement>-Element können Sie die Art der Textgrundlage im
+            Attribut <xmlatt>rend</xmlatt> auszeichnen. Dafür sind folgende Angaben möglich:<table
                 id="table_ul1_mws_2y">
                 <tgroup cols="2">
                     <thead>
                         <row>
                             <entry>Art der Textgrundlage</entry>
-                            <entry>Wert für @rend</entry>
+                            <entry>Wert für <xmlatt>rend</xmlatt></entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
                             <entry>Erschlossen</entry>
-                            <entry>notExtant</entry>
+                            <entry><codeph>notExtant</codeph></entry>
                         </row>
                         <row>
                             <entry>Entwurf</entry>
-                            <entry>concept</entry>
+                            <entry><codeph>concept</codeph></entry>
                         </row>
                         <row>
                             <entry>Manuskript</entry>
-                            <entry>manuscript</entry>
+                            <entry><codeph>manuscript</codeph></entry>
                         </row>
                         <row>
                             <entry>Abschrift</entry>
-                            <entry>copy</entry>
+                            <entry><codeph>copy</codeph></entry>
                         </row>
                         <row>
                             <entry>Druck</entry>
-                            <entry>print</entry>
+                            <entry><codeph>print</codeph></entry>
                         </row>
                     </tbody>
                 </tgroup>

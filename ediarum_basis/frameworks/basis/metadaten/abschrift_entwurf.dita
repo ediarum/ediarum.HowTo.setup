@@ -5,12 +5,12 @@
     <body>
         <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die
             nur archivalisch überliefert sind, wird dieser Textzeuge auch in einem
-            <codeph>&lt;witness></codeph>-Element erfasst. Es werden aber einige
-            Detailinformationen gefordert. Im <codeph>&lt;msDesc></codeph>-Element (manuscipt
-            description) wird über das Attribut <codeph>@type</codeph> angegeben, ob es sich um eine Abschrift
-            (copy) oder einen Entwurf (concept) handelt. Außerdem muss die aufbewahrende
-            Institution (<codeph>&lt;institution></codeph>) angegeben werden. Optional können
-            Sie noch Sammlung (<codeph>&lt;collection></codeph>) und eine Signatur
+            <xmlelement>witness</xmlelement>-Element erfasst. Es werden aber einige
+            Detailinformationen gefordert. Im <xmlelement>msDesc</xmlelement>-Element (manuscipt
+            description) wird über das Attribut <xmlatt>type</xmlatt> angegeben, ob es sich um eine Abschrift
+            (<codeph>"copy"</codeph>) oder einen Entwurf (<codeph>"concept"</codeph>) handelt. Außerdem muss die aufbewahrende
+            Institution (<xmlelement>institution</xmlelement>) angegeben werden. Optional können
+            Sie noch Sammlung (<xmlelement>collection</xmlelement>) und eine Signatur
             (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>
         <codeblock outputclass="language-xml"><![CDATA[<witness>
    <msDesc type="copy">

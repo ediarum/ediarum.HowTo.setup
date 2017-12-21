@@ -46,21 +46,21 @@
      <thead>
       <row>
        <entry>Art der Streichung</entry>
-       <entry>Wert für <codeph>@rendition</codeph></entry>
+       <entry>Wert für <xmlatt>rendition</xmlatt></entry>
       </row>
      </thead>
      <tbody>
       <row>
        <entry>ursprünglicher Text überschrieben</entry>
-       <entry>#ow</entry>
+       <entry><codeph>#ow</codeph></entry>
       </row>
       <row>
        <entry>Textstelle durchgestrichen</entry>
-       <entry>#s</entry>
+       <entry><codeph>#s</codeph></entry>
       </row>
       <row>
        <entry>radiert</entry>
-       <entry>#erased</entry>
+       <entry><codeph>#erased</codeph></entry>
       </row>
      </tbody>
     </tgroup>
@@ -72,33 +72,33 @@
      <thead>
       <row>
        <entry>Ort der Hinzufügung</entry>
-       <entry>Wert für <codeph>@place</codeph></entry>
+       <entry>Wert für <xmlatt>place</xmlatt></entry>
       </row>
      </thead>
      <tbody>
       <row>
        <entry>über der Zeile</entry>
-       <entry>superlinear</entry>
+       <entry><codeph>superlinear</codeph></entry>
       </row>
       <row>
        <entry>unter der Zeile</entry>
-       <entry>sublinear</entry>
+       <entry><codeph>sublinear</codeph></entry>
       </row>
       <row>
        <entry>innerhalb der Zeile</entry>
-       <entry>intralinear</entry>
+       <entry><codeph>intralinear</codeph></entry>
       </row>
       <row>
        <entry>über den ursprünglichen Text</entry>
-       <entry>across</entry>
+       <entry><codeph>across</codeph></entry>
       </row>
       <row>
        <entry>am linken Rand</entry>
-       <entry>left</entry>
+       <entry><codeph>left</codeph></entry>
       </row>
       <row>
        <entry>am rechten Rand</entry>
-       <entry>right</entry>
+       <entry><codeph>right</codeph></entry>
       </row>
      </tbody>
     </tgroup>

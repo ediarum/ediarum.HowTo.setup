@@ -4,8 +4,8 @@
  <title>Neuer Eintrag</title>
  <conbody>
   <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
-   im Personenregister wird in einem <codeph>&lt;person></codeph>-Element, im Ortsregister in einem
-   <codeph>&lt;place></codeph>-Element usw. angelegt. Beim Anlegen eines Eintrages werden Sie über
+   im Personenregister wird in einem <xmlelement>person</xmlelement>-Element, im Ortsregister in einem
+   <xmlelement>place</xmlelement>-Element usw. angelegt. Beim Anlegen eines Eintrages werden Sie über
    ein Dialogfenster nach grundlegenden Informationen gefragt, die Sie an dieser Stelle schon
    angeben können (Name, Ortsname usw.).<table id="table_bhk_fln_my">
     <tgroup cols="2">
@@ -18,23 +18,23 @@
      <tbody>
       <row>
        <entry>Person</entry>
-       <entry><codeph>&lt;person></codeph></entry>
+       <entry><xmlelement>person</xmlelement></entry>
       </row>
       <row>
        <entry>Ort</entry>
-       <entry><codeph>&lt;place></codeph></entry>
+       <entry><xmlelement>place</xmlelement></entry>
       </row>
       <row>
        <entry>Werk</entry>
-       <entry><codeph>&lt;bibl></codeph></entry>
+       <entry><xmlelement>bibl</xmlelement></entry>
       </row>
       <row>
        <entry>Sachbegriff</entry>
-       <entry><codeph>&lt;item></codeph></entry>
+       <entry><xmlelement>item</xmlelement></entry>
       </row>
       <row>
        <entry>Einrichtung</entry>
-       <entry><codeph>&lt;institution></codeph></entry>
+       <entry><xmlelement>institution</xmlelement></entry>
       </row>
      </tbody>
     </tgroup>

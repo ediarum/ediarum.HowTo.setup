@@ -20,16 +20,16 @@
     <li>Ungefährer Zeitraum (Nicht vor Tag X, nicht nach Tag Y)</li>
    </ul>
    <p>Nach entsprechender Auswahl erscheinen ein bzw. Dialogfenster, die zur Eingabe eines Datums auffordern. Das Datum muss dabei
-    maschinenlesbar in der Form JJJJ-MM-TT notiert werden, also z.B. 1800-01-01. Dadurch kann der in der Datumsangabe enthaltene
+    maschinenlesbar in der Form <codeph>"JJJJ-MM-TT"</codeph> notiert werden, also z.B. <codeph>"1800-01-01"</codeph>. Dadurch kann der in der Datumsangabe enthaltene
     Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
     Zeiträumen).</p>
   </section>
   <section>
    <title>Kodierung</title>
-   <p>Datumsangaben werden in mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare Datum wird dabei im Format JJJJ-MM-TT in den Attributen
+   <p>Datumsangaben werden in mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare Datum wird dabei im Format <codeph>"JJJJ-MM-TT"</codeph> in den Attributen
     <xmlatt>when</xmlatt>, <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> sowie <xmlatt>notBefore</xmlatt> und <xmlatt>notAfter</xmlatt>. </p>
-   <p>Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrescheinlichkeit angegeben, mit der die
-    Datumsangabe zutrifft: high, low.</p>
+   <p>Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit angegeben, mit der die
+    Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>.</p>
   <p> In dem Attribut <xmlatt>calendar</xmlatt> wird notiert, ob sich die Angabe
    nach dem Julianischen Kalender oder dem Greogorianischen Kalender richtet: </p>
   <table
@@ -38,17 +38,17 @@
      <thead>
       <row>
        <entry>Kalender</entry>
-       <entry>Wert für <codeph>@calendar</codeph></entry>
+       <entry>Wert für <xmlatt>calendar</xmlatt></entry>
       </row>
      </thead>
      <tbody>
       <row>
        <entry>Julianischer</entry>
-       <entry>#Julian</entry>
+       <entry><codeph>#Julian</codeph></entry>
       </row>
       <row>
        <entry>Gregorianischer</entry>
-       <entry>#Gregorian</entry>
+       <entry><codeph>#Gregorian</codeph></entry>
       </row>
      </tbody>
     </tgroup>

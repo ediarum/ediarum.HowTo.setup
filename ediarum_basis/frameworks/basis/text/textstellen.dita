@@ -3,9 +3,9 @@
 <topic id="topic_w2t_b3v_ty">
  <title> Textstellen indizieren</title>
  <body>
-  <p>Sie können Textstellen mit einem <codeph>&lt;index></codeph>-Element umgeben, um auf einen
-   Index-Eintrag zu verweisen. Das Attribut <codeph>@spanTo</codeph> wird automatisch eingetragen, wenn Sie aus der
-   Liste der verfügbaren Index-Einträge einen auswählen. Das Attribut @indexName gibt an, ob es sich
+  <p>Sie können Textstellen mit einem <xmlelement>index</xmlelement>-Element umgeben, um auf einen
+   Index-Eintrag zu verweisen. Das Attribut <xmlatt>spanTo</xmlatt> wird automatisch eingetragen, wenn Sie aus der
+   Liste der verfügbaren Index-Einträge einen auswählen. Das Attribut <xmlatt>indexName</xmlatt> gibt an, ob es sich
    um einen Verweis in den Personen-Index (persons), Ort-Index (places) oder
    Werk-Index<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?> (…)
    <?oxy_custom_end?>handelt.</p>

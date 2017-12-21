@@ -4,66 +4,66 @@
  <title>Personenregister</title>
  <conbody>
     <p><b>1.</b> Die Einträge im Personenregister werden in einem
-      <codeph>&lt;person></codeph>-Element notiert. Wenn Sie einen Eintrag erstellen wird im
-      Attribut <codeph>@xml.id</codeph> automatisch eine ID generiert, mit der Sie auf den Eintrag
+      <xmlelement>person</xmlelement>-Element notiert. Wenn Sie einen Eintrag erstellen wird im
+      Attribut <xmlatt>xml.id</xmlatt> automatisch eine ID generiert, mit der Sie auf den Eintrag
       referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben machen:
       Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder eine
-      mytholgische Figur handeln, wird zusätzlich das Attribut <codeph>@role</codeph> angelegt. Dort
-      wird entsprechend entweder der Wert "fictional" oder "mythological"
+      mytholgische Figur handeln, wird zusätzlich das Attribut <xmlatt>role</xmlatt> angelegt. Dort
+      wird entsprechend entweder der Wert <codeph>"fictional"</codeph> oder <codeph>"mythological"</codeph>
       eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
     <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
       Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
         <codeph>&lt;persName type="reg"></codeph> festgehalten. Varianten oder alternative Namen
-      werden jeweils in einem eigenen <codeph>&lt;persName></codeph>-Element gespeichtert, in dem
-      das Attribut <codeph>@type="alt"</codeph> (alternative) und das Attribut
-        <codeph>@subtype</codeph> angibt, welche Art von Namenvariation vorliegt.</p>
+      werden jeweils in einem eigenen <xmlelement>persName</xmlelement>-Element gespeichtert, in dem
+      das Attribut <xmlatt>type="alt"</xmlatt> (alternative) und das Attribut
+        <xmlatt>subtype</xmlatt> angibt, welche Art von Namenvariation vorliegt.</p>
     <p>
       <table id="table_ohy_qcf_hy">
         <tgroup cols="2">
           <thead>
             <row>
               <entry>Name</entry>
-              <entry>Wert für @subtype</entry>
+              <entry>Wert für <xmlatt>subtype</xmlatt></entry>
             </row>
           </thead>
           <tbody>
             <row>
               <entry>Alternative(r) Name/Schreibung</entry>
-              <entry>@subtype entfällt</entry>
+              <entry><xmlatt>subtype</xmlatt> entfällt</entry>
             </row>
             <row>
               <entry>Pseudonym</entry>
-              <entry>pseudonym</entry>
+              <entry><codeph>pseudonym</codeph></entry>
             </row>
             <row>
               <entry>Geburtsname</entry>
-              <entry>birthname</entry>
+              <entry><codeph>birthname</codeph></entry>
             </row>
           </tbody>
         </tgroup>
       </table>
     </p>
-    <p>Sie können entweder nur den Nachnamen angeben (<codeph>&lt;name></codeph>) oder Vor- und
-      Nachnamen (<codeph>&lt;surname></codeph>/<codeph>&lt;forename>)</codeph>.</p>
+    <p>Sie können entweder nur den Nachnamen angeben (<xmlelement>name</xmlelement>) oder Vor- und
+      Nachnamen (<xmlelement>surname</xmlelement>/<xmlelement>forename</xmlelement>).</p>
     <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
    <name>[Pseudonym]</name>
 </persName>]]></codeblock>
     <p><b>2.</b> Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die
       Wirkungszeit (Floruit) angeben. Die Lebensdaten werden in einem
-      <codeph>&lt;birth></codeph>-Element und <codeph>&lt;death></codeph>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
+      <xmlelement>birth</xmlelement>-Element und <xmlelement>death</xmlelement>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
 <death>1889</death>]]></codeblock></p>
-    <p>Die Wirkungszeit wird in einem <codeph>&lt;floruit></codeph>-Element notiert. In den
-      Attributen <codeph>@notBefore</codeph> (nicht vor) und <codeph>@notAfter</codeph> (nicht nach)
+    <p>Die Wirkungszeit wird in einem <xmlelement>floruit</xmlelement>-Element notiert. In den
+      Attributen <xmlatt>notBefore</xmlatt> (nicht vor) und <xmlatt>notAfter</xmlatt> (nicht nach)
       wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben,
       wobei Monat und Tag optionale Angaben
       sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
     <p><b>3.</b> Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können
-      Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <codeph>@role</codeph>
-      angelegt. Dort wird entsprechend entweder der Wert "fictional" oder "mythological"
+      Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <xmlatt>role</xmlatt>
+      angelegt. Dort wird entsprechend entweder der Wert <codeph>"fictional"</codeph> oder <codeph>"mythological"</codeph>
       eingetragen.</p>
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-    <p><b>4.</b> Außerdem könnnen Sie mit einem <codeph>&lt;listPerson></codeph>, dessen Attribut
-        <codeph>@type</codeph> den Wert "group" hat, Gruppen anlegen.<?oxy_custom_end?></p>
+    <p><b>4.</b> Außerdem könnnen Sie mit einem <xmlelement>listPerson</xmlelement>, dessen Attribut
+        <xmlatt>type</xmlatt> den Wert <codeph>"group"</codeph> hat, Gruppen anlegen.<?oxy_custom_end?></p>
     <section id="section_czw_t3d_pbb">
       <title>edition humboldt digital</title>
       <p><b>Norm-ID</b></p>

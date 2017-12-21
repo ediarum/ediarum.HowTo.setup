@@ -4,13 +4,13 @@
     <title>Erstellungsdatum</title>
     <body>
         <p>Wie auch die Angaben zum Autor und zum Schreibort wird die Datumsangabe im
-            <codeph>&lt;creation></codeph>-Element gemacht. Datumsangaben werden mit Hilfe
-            von <codeph>&lt;date></codeph> ausgezeichnet. Wichtig ist, dass die Datumsangaben
-            nochmals in einem bestimmten Format in den Attributen <codeph>@when</codeph> bzw. <codeph>@from/@to</codeph> und
-            <codeph>@notBefore/@notAfter</codeph> notiert werden. Dadurch kann der in der Datumsangabe enthaltene
+            <xmlelement>creation</xmlelement>-Element gemacht. Datumsangaben werden mit Hilfe
+            von <xmlelement>date</xmlelement> ausgezeichnet. Wichtig ist, dass die Datumsangaben
+            nochmals in einem bestimmten Format in den Attributen <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
+            <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Dadurch kann der in der Datumsangabe enthaltene
             Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in
-            bestimmten Zeiträumen). Außerdem wird in den Attribut <codeph>@cert</codeph> die Wahrescheinlichkeit
-            angegeben, mit der die Datumsangabe zutrifft: high, low. </p>
+            bestimmten Zeiträumen). Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit
+            angegeben, mit der die Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>. </p>
         <p>1. Genaues Datum</p>
         <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
         <p>2. Genaue Zeitspanne</p>

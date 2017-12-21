@@ -3,9 +3,9 @@
 <topic id="herausgeber_und_mitarbeiter">
     <title>Herausgeber und Mitarbeiter</title>
     <body>
-        <p>Der Herausgeber wird in einem <codeph>&lt;editor></codeph>-Element notiert. Die
-            Angaben zur Person werden im <codeph>&lt;persName></codeph>-Element angegeben. Im
-            Attribut <codeph>@ref</codeph> kann eine Referenz in Form einer GND, VIAF oder URI gemacht
+        <p>Der Herausgeber wird in einem <xmlelement>editor</xmlelement>-Element notiert. Die
+            Angaben zur Person werden im <xmlelement>persName</xmlelement>-Element angegeben. Im
+            Attribut <xmlatt>ref</xmlatt> kann eine Referenz in Form einer GND, VIAF oder URI gemacht
             werden.</p>
         <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
@@ -13,10 +13,10 @@
       <forename>[Vorname}</forename>
    </persName>
 </editor>]]></codeblock>
-        <p>Außerdem können Mitarbeiter in einem <codeph>&lt;respStmt></codeph>-Element
+        <p>Außerdem können Mitarbeiter in einem <xmlelement>respStmt</xmlelement>-Element
             (statement of responsibility) notiert werden. Hier können Sie auch eine GND, VIAF
             oder URI, die auf den Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird
-            dabei in einem <codeph>&lt;note></codeph>-Element bezeichnet: Mitarbeit,
+            dabei in einem <xmlelement>note</xmlelement>-Element bezeichnet: Mitarbeit,
             Redaktionelle Mitarbeit, Transkription, Kommentar und Register.</p>
         <codeblock outputclass="language-xml"><![CDATA[<respStmt>
    <persName ref="118763784">

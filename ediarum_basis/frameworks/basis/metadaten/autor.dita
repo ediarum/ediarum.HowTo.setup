@@ -4,12 +4,12 @@
     <title>Autor des Manuskripts</title>
     <body>
         <p>Angaben, die den Autor betreffen, werden innerhalb des
-            <codeph>&lt;profileDesc></codeph>-Elements gemacht. Dort wird ein
-            <codeph>&lt;creation></codeph>-Element angelegt, in dem Angaben zur Entstehung
+            <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort wird ein
+            <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur Entstehung
             notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. Der Name des Autors wird
-            schließlich in einem weiteren Element, dem <codeph>&lt;persName></codeph>-Element
+            schließlich in einem weiteren Element, dem <xmlelement>persName</xmlelement>-Element
             angegeben. Wenn Sie aus einem Verzeichnis einen Autoren auswählen, wird im Attribut
-            <codeph>@key</codeph> die zugehörige ID generiert und ein Link angelegt.</p>
+            <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link angelegt.</p>
         <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
         <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>

@@ -23,23 +23,23 @@
      <tbody>
       <row>
        <entry>Person</entry>
-       <entry><codeph>&lt;person></codeph></entry>
+       <entry><xmlelement>person</xmlelement></entry>
       </row>
       <row>
        <entry>Ort</entry>
-       <entry><codeph>&lt;place></codeph></entry>
+       <entry><xmlelement>place</xmlelement></entry>
       </row>
       <row>
        <entry>Werk</entry>
-       <entry><codeph>&lt;bibl></codeph></entry>
+       <entry><xmlelement>bibl</xmlelement></entry>
       </row>
       <row>
        <entry>Sachbegriff</entry>
-       <entry><codeph>&lt;item></codeph></entry>
+       <entry><xmlelement>item</xmlelement></entry>
       </row>
       <row>
        <entry>Einrichtung</entry>
-       <entry><codeph>&lt;institution></codeph></entry>
+       <entry><xmlelement>institution</xmlelement></entry>
       </row>
      </tbody>
     </tgroup>

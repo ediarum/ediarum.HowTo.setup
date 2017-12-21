@@ -16,7 +16,7 @@
       <p>
         <ul id="ul_qgp_3hg_jbb">
           <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird
-            anhand des <codeph>&lt;list/></codeph>-Elements ausgezeichnet.<image placement="break"
+            anhand des <xmlelement>list/</xmlelement>-Elements ausgezeichnet.<image placement="break"
               href="../../img_avhr/liste.jpg" align="center" id="image_bqj_b3n_jbb" scale="70">
               <alt>Dokument (TS1) "F – Énumération des Plantes de la Province de Quito", 3a-r</alt>
             </image><p audience="editor">Das folgende Beispiel zeigt einen Grenzfall. Es handelt
@@ -38,12 +38,12 @@
 </list>]]></codeblock></li>
           <li>Beinhalten Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden können
             und sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
-              <codeph>&lt;table/></codeph> ausgezeichnet. (siehe <xref
+              <xmlelement>table/</xmlelement> ausgezeichnet. (siehe <xref
               href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>)<p audience="editor">Die
               Auflistung von ortsspezifischen Messwerten beispielsweise entspricht semantisch mehr
               einer strukturierten Tabelle als der einer auf Zeilenebene gering strukturierten
-              Auflistung (wie oben). Bei der Entscheidung zwischen <codeph>&lt;list/></codeph> und
-                <codeph>&lt;table/></codeph> hat also die Semantik eines Textes ein höheres Gewicht
+              Auflistung (wie oben). Bei der Entscheidung zwischen <xmlelement>list/</xmlelement> und
+                <xmlelement>table/</xmlelement> hat also die Semantik eines Textes ein höheres Gewicht
               als der Befund des Schriftbildes.</p><p audience="editor">Im folgenden Beispiel wird
               zwischen Fließtext und zwei jeweils vierzeiligen und dreispaltigen Tabellen
                 unterschieden.<image placement="break" href="../../img_avhr/abb7.png" scale="60"

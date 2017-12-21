@@ -64,7 +64,7 @@
   </row>
 … ]]></codeblock>
       <p><b>Implizite Tabellen</b> sind jegliche Art von strukturierten Auflistungen, Messreihen und
-        Rechnungen. Diese Textphänomene werden im <codeph>&lt;table></codeph>-Element erfasst, um
+        Rechnungen. Diese Textphänomene werden im <xmlelement>table/</xmlelement>-Element erfasst, um
         die ihnen zugrundeliegenden Daten sichtbar zu strukturieren und die Darstellbarkeit im Web
         zu verbessern. Tabellenüberschriften oder Kopfzeilen werden in impliziten Tabellen nicht
         ausgezeichnet.</p>
@@ -73,11 +73,11 @@
       <p>
         <ul id="ul_qgp_3hg_jbb">
           <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird
-            anhand des <codeph>&lt;list/></codeph>-Elements ausgezeichnet. (siehe <xref
+            anhand des <xmlelement>list/</xmlelement>-Elements ausgezeichnet. (siehe <xref
               href="listen.dita#topic_trq_t1v_ty"/>) </li>
           <li>Beinhalten Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden können
             und sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
-              <codeph>&lt;table/></codeph> ausgezeichnet </li>
+              <xmlelement>table/</xmlelement> ausgezeichnet </li>
         </ul>
       </p>
       <p audience="editor">Es wird nach inhaltlichen Kriterien entschieden, in wie viele Zeilen und

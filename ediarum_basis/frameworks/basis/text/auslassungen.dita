@@ -19,25 +19,25 @@
             <thead>
               <row>
                 <entry>Nicht lesebares Segment</entry>
-                <entry>Wert für <codeph>@unit</codeph></entry>
+                <entry>Wert für <xmlatt>unit</xmlatt></entry>
               </row>
             </thead>
             <tbody>
               <row>
                 <entry>Zeichen</entry>
-                <entry>chars</entry>
+                <entry><codeph>chars</codeph></entry>
               </row>
               <row>
                 <entry>Zeilen</entry>
-                <entry>lines</entry>
+                <entry><codeph>lines</codeph></entry>
               </row>
               <row>
                 <entry>Seiten</entry>
-                <entry>pages</entry>
+                <entry><codeph>pages</codeph></entry>
               </row>
               <row>
                 <entry>Wörter</entry>
-                <entry>words</entry>
+                <entry><codeph>words</codeph></entry>
               </row>
             </tbody>
           </tgroup>
@@ -50,17 +50,17 @@
             <thead>
               <row>
                 <entry>Grund der Auslassung</entry>
-                <entry>Wert für <codeph>@reason</codeph></entry>
+                <entry>Wert für <xmlatt>reason</xmlatt></entry>
               </row>
             </thead>
             <tbody>
               <row>
                 <entry>fremdsprachlicher Text</entry>
-                <entry>fm</entry>
+                <entry><codeph>fm</codeph></entry>
               </row>
               <row>
                 <entry>für das Korpus unwichtig</entry>
-                <entry>insignificant</entry>
+                <entry><codeph>insignificant</codeph></entry>
               </row>
             </tbody>
           </tgroup>

@@ -3,8 +3,8 @@
 <topic id="zitat_in_regest">
     <title>Zitat in Regest, Kommentar etc.</title>
     <body>
-        <p>Sie können in einem Regest (<codeph>&lt;abstract></codeph>) aus der Quelle zitieren, benutzen Sie dafür diese Funktion. Dadurch wird es auch möglich, Textbearbeitungen des Autors oder des Herausgebers am Zitat vorzunehmen. Das
-                Zitat wird in einem <codeph>&lt;quote></codeph>-Element angegeben. <codeblock outputclass="language-xml"><![CDATA[<abstract>
+        <p>Sie können in einem Regest (<xmlelement>abstract</xmlelement>) aus der Quelle zitieren, benutzen Sie dafür diese Funktion. Dadurch wird es auch möglich, Textbearbeitungen des Autors oder des Herausgebers am Zitat vorzunehmen. Das
+                Zitat wird in einem <xmlelement>quote</xmlelement>-Element angegeben. <codeblock outputclass="language-xml"><![CDATA[<abstract>
    <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote>bald erhalten Sie ein Porträt<quot/></p>
 </abstract>]]></codeblock></p>
     </body>

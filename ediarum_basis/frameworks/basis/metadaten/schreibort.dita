@@ -3,10 +3,10 @@
 <topic id="schreibort">
     <title>Schreibort</title>
     <body>
-        <p>Auch der Schreibort wird auch im <codeph>&lt;creation></codeph>-Element angegeben.
-            Dort wird das Element <codeph>&lt;placeName></codeph> angelegt, in dem der Name des
+        <p>Auch der Schreibort wird auch im <xmlelement>creation</xmlelement>-Element angegeben.
+            Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name des
             Ortes notiert wird. Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
-            Attribut <codeph>@key</codeph> die zugehörige ID generiert und ein Link angelegt.</p>
+            Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link angelegt.</p>
         <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>
