@@ -12,7 +12,7 @@
     <section>
       <title>Kodierung</title>
       <p>Auslassungen von Zeichen, Wörtern, Textpassagen oder ganzen Seiten durch den Herausgeber
-        werden mit dem leeren Element <xmlelement>gap</xmlelement> ausgezeichnet. Im Attribut
+        werden mit dem leeren Element <xmlelement>gap/</xmlelement> ausgezeichnet. Im Attribut
           <xmlatt>unit</xmlatt> wird das nicht lesbare Segment näher bestimmt: <table
           id="table_owv_gqs_2y">
           <tgroup cols="2">
@@ -64,8 +64,8 @@
               </row>
             </tbody>
           </tgroup>
-        </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/>dann wieder]]></codeblock>
-      <p>Hinweis: Ebenfalls mit <xmlelement>gap</xmlelement> ausgezeichnet werden <xref
+        </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/> dann wieder]]></codeblock>
+      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">unleserliche oder zerstörte Textstellen</xref>
         sowie <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref>.</p>
     </section>

@@ -17,7 +17,7 @@
   <section>
    <title>Kodierung</title>
    <p>Die Wörter, die von den HerausgeberInnen nicht eindeutig entziffert werden können, werden mit
-    dem Element <xmlelement>unclear</xmlelement> ausgezeichnet. Im Attribut <xmlatt>@reason</xmlatt>
+    dem Element <xmlelement>unclear</xmlelement> ausgezeichnet. Im Attribut <xmlatt>reason</xmlatt>
     wird die Ursache der Unsicherheit angegeben:</p>
    <table id="table_y1g_1qs_2y">
      <tgroup cols="2">
@@ -30,11 +30,11 @@
       <tbody>
        <row>
         <entry>unleserlich</entry>
-        <entry>illegible</entry>
+        <entry><codeph>illegible</codeph></entry>
        </row>
        <row>
         <entry>Überzeichnung/Überschreibung</entry>
-        <entry>covered</entry>
+        <entry><codeph>covered</codeph></entry>
        </row>
       </tbody>
      </tgroup>
@@ -51,11 +51,11 @@
       <tbody>
        <row>
         <entry>niedrig</entry>
-        <entry>low</entry>
+        <entry><codeph>low</codeph></entry>
        </row>
        <row>
         <entry>hoch</entry>
-        <entry>high</entry>
+        <entry><codeph>high</codeph></entry>
        </row>
       </tbody>
      </tgroup>

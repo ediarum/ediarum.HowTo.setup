@@ -26,11 +26,11 @@
     </section>
     <section>
       <title>Kodierung</title>
-      <p>Leere Seiten werden durch das (leere) Element <xmlelement>gap</xmlelement> ausgezeichnet; es steht direkt nach dem vorangehenden 
-        Seitenwechsel (<xmlelement>pb/</xmlelement>). Die beiden Attribute <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> des Elements <xmlelement>gap</xmlelement> werden auf den Wert
+      <p>Leere Seiten werden durch das (leere) Element <xmlelement>gap/</xmlelement> ausgezeichnet; es steht direkt nach dem vorangehenden 
+        Seitenwechsel (<xmlelement>pb/</xmlelement>). Die beiden Attribute <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> des Elements <xmlelement>gap/</xmlelement> werden auf den Wert
         <codeph>"pages"</codeph> bzw. <codeph>"1"</codeph> gesetzt. Das Attribut <xmlatt>reason</xmlatt> enthält den Wert <codeph>"empty"</codeph>. Mehrere leere Seiten hintereinander werden einzeln kodiert.</p>
       <codeblock outputclass="language-xml"><![CDATA[<pb n="132v"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
-      <p>Hinweis: Ebenfalls mit gap ausgezeichnet werden <xref
+      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">zerstörte oder unleserliche Textstellen</xref>
         sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch den
         Herausgeber.</p>

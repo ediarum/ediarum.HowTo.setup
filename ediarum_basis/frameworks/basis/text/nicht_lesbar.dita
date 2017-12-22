@@ -19,7 +19,7 @@
   <section>
    <title>Kodierung</title>
    <p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
-     <xmlelement>gap</xmlelement> ausgezeichnet. Im Attribut <xmlatt>unit</xmlatt> wird das nicht
+     <xmlelement>gap/</xmlelement> ausgezeichnet. Im Attribut <xmlatt>unit</xmlatt> wird das nicht
     lesbare Segment näher bestimmt: <table id="table_owv_gqs_2y">
      <tgroup cols="2">
       <thead>
@@ -73,11 +73,11 @@
     </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<gap unit="words" quantity="3" reason="illegible"/> a beaucoup baissé]]></codeblock>
    <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
-    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap</xmlelement>.</p>
-   <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="Buchstaben"/></del>dann wieder]]></codeblock>
+    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap/</xmlelement>.</p>
+   <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="chars"/></del> dann wieder]]></codeblock>
    <p><b>Zerstörte oder verlorene Seiten</b> werden einzeln erfasst, im:</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="lost"/>]]></codeblock>
-   <p>Hinweis: Ebenfalls mit <xmlelement>gap</xmlelement> ausgezeichnet werden vorhandene, aber
+   <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden vorhandene, aber
      <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref> sowie <xref
      href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>. </p>  
   </section>

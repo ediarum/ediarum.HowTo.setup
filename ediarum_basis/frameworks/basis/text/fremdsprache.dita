@@ -5,9 +5,9 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Unter „fremdsprachlichen Text” sind Texte(-teile) zu verstehen, die entweder von der im Korpus
+   <p>Unter „fremdsprachlichem Text” sind Texte (bzw. Textteile) zu verstehen, die entweder von der im Korpus
     normalerweise vorkommenden Sprache oder einer als Standard definierten Sprache abweichen. Dabei
-    kann es sich um einzelne Wörte, längere Textpassagen oder ganze Texte (Briefe o.ä.) handeln. Der
+    kann es sich um einzelne Wörter, längere Textpassagen oder ganze Texte (Briefe o.ä.) handeln. Der
     Sprachwechsel bzw. die Sprache eines Textes sollte stets ausgezeichnet werden; dadurch wird
     sowohl die Verwendung von externen Webservices, wie dem „Cascaded Analysis Broker” des <xref
      href="http://www.deutschestextarchiv.de" format="html" scope="external">Deutschen
@@ -16,16 +16,16 @@
    <p>Zu unterscheiden ist die Auszeichnung fremdsprachlichen Textes von der Auszeichnung eines
      <xref href="schriftwechsel.dita#schriftwechsel">Schriftwechsels</xref>, mit dem erstere
     häufiger einhergeht. Z.B. wurden deutschsprachige Briefe der ersten Hälfte des 19. Jahrhunderts
-    häufig in deutscher Schrift verfasst. Verwendete man ein Fremdwort wurde dies in lateinischer
+    häufig in deutscher Schrift verfasst. Verwendete der Schreiber ein Fremdwort, wurde dies in lateinischer
     Schrift wiedergegeben.</p>
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
-   <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteilebene, bzw. in
+   <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
     Wortfolgen werden in der jeweiligen Sprache ausgezeichnet. </p>
    <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
      id="ul_cfk_qq4_mbb">
-     <li>Auf Wortebene und bei Eigennamen<fig id="fig_ht1_3s4_mbb">
+     <li>auf Wortebene und bei Eigennamen,<fig id="fig_ht1_3s4_mbb">
        <title>Manuskript</title>
        <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70" align="center"
         id="image_it1_3s4_mbb">
@@ -35,13 +35,13 @@
         <title>Kritischer Text (Webansicht)</title>
         <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
          align="center" id="image_gmc_rs4_mbb">
-         <alt>Brief Humboldt an Kunth, 27. April 1813 - Sprachwechsel nicht ausgezeichnet (orangene
+         <alt>Brief Humboldt an Kunth, 27. April 1813 - Sprachwechsel nicht ausgezeichnet (orange
          Schriftfarbe zeigt Verweis auf Eintrag im Personenregister)</alt>
         </image>       
       </fig></li>
-     <li>Auf Briefumschlägen</li>
-     <li>Bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen. Oftmals
-      finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen)</li>
+     <li>auf Briefumschlägen,</li>
+     <li>bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen. Oftmals
+      finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen).</li>
     </ul></p>
   </section>
   <section>
@@ -65,7 +65,7 @@
        </row>
        <row>
         <entry>Latein</entry>
-        <entry><codeph>Lat</codeph></entry>
+        <entry><codeph>lat</codeph></entry>
        </row>
        <row>
         <entry>Hebräisch</entry>
@@ -95,7 +95,7 @@
      </tgroup>
     </table>
    </p>
-   <codeblock outputclass="language-xml"><![CDATA[<foreign xml:lang="fra">polytechnique</foreign>]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]></codeblock>
    <p>Darüber hinaus kann das Attribut <xmlatt>xml:lang</xmlatt> sowohl auf Ebene der üblichen Textstrukturen (z.B.
     Absätze) gesetzt werden als auch für gesamte Dokumente (dann im Wurzelelement TEI).</p>
   </section>
