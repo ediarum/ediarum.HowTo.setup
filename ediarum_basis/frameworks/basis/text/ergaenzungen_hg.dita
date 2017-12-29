@@ -60,8 +60,8 @@
    <title>Kodierung</title>
    <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen
         zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.
-        Im <xmlelement>&lt;abbr></xmlelement>-Element wird vorlagengetreu die Abkürzung festgehalten, im
-          <xmlelement>&lt;expan></xmlelement>-Element die Ergänzung der HerausgeberIn. </p>
+        Im <xmlelement>abbr</xmlelement>-Element wird vorlagengetreu die Abkürzung festgehalten, im
+          <xmlelement>expan</xmlelement>-Element die Ergänzung der HerausgeberIn. </p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
  <abbr>Jan.</abbr>
  <expan>Januar</expan>
