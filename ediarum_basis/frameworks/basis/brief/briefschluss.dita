@@ -6,13 +6,13 @@
         <section>
             <title>Allgemein</title>
             <p>Ebenso wie der Anfang eines Briefes ist auch sein Schluss charakteristisch für die Textsorte Brief; daher wird dieser ebenfalls 
-                eigens ausgezeichnet. Hier setzt der Briefschreiber in der Regel eine - mehr oder weniger formale - Grußformel und eine (ebenfalls unterschiedlich stark formalisierte) Unterschrift<indexterm>Unterschrift</indexterm>.</p>
+                eigens ausgezeichnet. Hier setzt der Briefschreiber in der Regel eine – mehr oder weniger formale – Grußformel und eine (ebenfalls unterschiedlich stark formalisierte) Unterschrift<indexterm>Unterschrift</indexterm>.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>In ediarum.EDIT sind Briefanfang und -schluss i.d.R. in der Vorlage "Brief" bereits enthalten und müssen daher nicht nachträglich eingefügt
-                werden. Ist dies dennoch nötig, so finden Sie die entsprechende Funktion im Menü ediarum unter dem Punkt "Brieftext > Briefschluss".</p>
-            <p>Ist im Briefschluss eine Datumszeile enthalten, kann diese über die entsprechende Funktion im Menü "ediarum > Brieftext" eingefügt werden. Sie wird dort eingefügt, wo der Cursor im Briefschluss gesetzt wurde. 
+            <p>In ediarum.EDIT sind Briefanfang und -schluss i.d.R. in der Vorlage „Brief“ bereits enthalten und müssen daher nicht nachträglich eingefügt
+                werden. Ist dies dennoch nötig, so finden Sie die entsprechende Funktion im Menü ediarum unter dem Punkt „Brieftext > Briefschluss“.</p>
+            <p>Ist im Briefschluss eine Datumszeile enthalten, kann diese über die entsprechende Funktion im Menü „ediarum > Brieftext“ eingefügt werden. Sie wird dort eingefügt, wo der Cursor im Briefschluss gesetzt wurde. 
                 Sie kann also vor oder hinter Grußformel und Unterschrift transkibiert werden.</p>
             <p>Die in der Datumszeile enthaltenen Orts- und Datumsangaben werden nicht eigens ausgezeichnet, da diese bereits über die Briefmetadaten festgehalten werden.</p>
         </section>

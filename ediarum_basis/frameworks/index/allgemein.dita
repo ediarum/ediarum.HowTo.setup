@@ -7,7 +7,7 @@
    verwendet werden. Im Folgenden werden diese Funktionen vorgestellt.</p>
   <p><b>1.</b> Über dieses Menü können Sie einzelne Einträge mit einer Norm-ID (wie der GND o.ä.)
    versehen. Die Norm-ID wird im Element <xmlelement>idno</xmlelement>-Element (identifikator) notiert.
-   <codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://d-nb.info/gnd/170885348</idno>]]></codeblock></p>
+   <codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://d-nb.info/gnd/118554700</idno>]]></codeblock></p>
   <p><b>2.</b> Außerdem können Sie Kommentare zu den Einträgen anlegen. Diese werden in den
    einzelnen Registern unterschiedlich behandelt. Im Einrichtungsregister und Sachregister wird der
    Kommentar in einem <xmlelement>desc</xmlelement>-Element (description), im Personenregister und im
@@ -77,7 +77,7 @@
   <p>Im Attribut <xmlatt>target</xmlatt> werden detaillierte Angaben zur referierten Stelle
    gemacht. Über ein Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format <codeph>"B#SZ"</codeph>.
    Außerdem müssen Sie vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie
-   „ ja“ auswählen, wird ein zusätzliches Attribut <xmlatt>subtype</xmlatt> mit dem Wert <codeph>"comment"</codeph>
+   „ja“ auswählen, wird ein zusätzliches Attribut <xmlatt>subtype</xmlatt> mit dem Wert <codeph>"comment"</codeph>
    generiert. </p>
   <codeblock outputclass="language-xml"><![CDATA[<linkGrp>
    <ptr type="page" target="I#32"/>

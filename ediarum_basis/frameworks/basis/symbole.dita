@@ -24,7 +24,7 @@
   <title>Buchstaben</title>
   <conbody>
    <p>Sie können folgende Buchstaben, die ein fremsprachliches diakritisches Zeichen benötigen, über
-    das Menü "Symbole" in den Brieftext einfügen: </p>
+    das Menü „Symbole“ in den Brieftext einfügen: </p>
    <p>â, æ, Æ, ç, Ç, &#x229; ,&#x00EB;, ï, ,ł, Ł,ń, ñ, ø, œ, Œ, š, Š </p>
   </conbody>
  </concept>
@@ -46,7 +46,7 @@
  <concept id="concept_ldb_zkn_my">
   <title>Interpunktion</title>
   <conbody>
-   <p>Sie können über das Menü "Symbole" bestimme Interpuntionszeichen einfügen: Kürzungsstrich,
+   <p>Sie können über das Menü „Symbole“ bestimme Interpuntionszeichen einfügen: Kürzungsstrich,
     Halbgeviertstrich, Geviertstrich, Auslassungspunkte.</p>
   </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/trZeichensetzungAllg.html"
    format="html" scope="external"><linktext>Grundregeln zur Zeichensetzung – Dokumentation des DTABf</linktext></link>
@@ -58,10 +58,10 @@
   <title>edition humboldt digital</title>
   <conbody>
    <p>Häufig sind in der Textvorlage keine <b>Halbgeviertstriche</b> gesetzt, obwohl es angezeigt
-    wäre - dies gilt für Gedankenstriche sowie Jahres- und Seitenzahlen (z. B. "3000–4000", "S.
-    4–6", "1935–2014"); nicht betroffen sind Bindestriche in Namen ("Jean-Baptiste"),
-    Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche müssen - besonders
-    in Hinblick auf die Druckausgabe - nachträglich eingepflegt werden. </p>
+    wäre – dies gilt für Gedankenstriche sowie Jahres- und Seitenzahlen (z. B. „3000–4000“, „S.
+    4–6“, „1935–2014“); nicht betroffen sind Bindestriche in Namen („Jean-Baptiste“),
+    Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche müssen – besonders
+    in Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
    <p>Wenn in der Textvorlage vorhanden, wird der <b>Geminationsstrich</b> (Überstrich um
     Buchstabenverdopplung anzuzeigen) ausgezeichnet.
     <?oxy_comment_start author="lkirsten" timestamp="20170922T115835+0200" comment="das ist aus den editionsrichtlinien. kann es sein dass cursor hinter buchstabe + symbolmenü richtig ist?
@@ -74,7 +74,7 @@
    </image>
    <image placement="break" href="../img_avhr/geminationstrich-web.jpg" align="center"
     id="image_ylx_lhn_hbb">
-    <alt>Cuba, 128v - Webansicht</alt>
+    <alt>Cuba, 128v – Webansicht</alt>
    </image>
    <table frame="all" rowsep="1" colsep="1" id="table_zxp_t3n_hbb">
     <title>Unicode-Übersicht</title>

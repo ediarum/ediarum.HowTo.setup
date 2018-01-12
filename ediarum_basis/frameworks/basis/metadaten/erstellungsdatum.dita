@@ -20,8 +20,8 @@
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
         </p>
         <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
-            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum" und „Ungefährer
-            Zeitraum" bietet, um alle Datumsangaben auszuzeichnen. </p>
+            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer
+            Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. </p>
         <table id="table_xpp_ynf_cy">
             <tgroup cols="2">
                 <thead>

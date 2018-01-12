@@ -74,8 +74,8 @@
       <p><b>Namen</b></p>
       <ul id="ul_pph_jxp_mbb">
         <li>
-          <p>Angaben mehrmals verheirateter Frauen in der Form "Therese Huber, geb. Therese Marie
-            Heyne, verw. Forster" werden aufgelöst in folgender Form:<fig id="fig_idc_clb_pbb">
+          <p>Angaben mehrmals verheirateter Frauen in der Form „Therese Huber, geb. Therese Marie
+            Heyne, verw. Forster“ werden aufgelöst in folgender Form:<fig id="fig_idc_clb_pbb">
               <title>ediarum-Autormodus</title>
               <image placement="break" href="../img_avhr/personenregister1.jpg" scale="60"
                 align="left" id="image_pyz_txd_nbb"/>
@@ -127,9 +127,9 @@
             nicht erneut vermerkt.</p>
         </li>
         <li>
-          <p> Namen, die <b>Adelsprädikate</b> ("von", "zu", "de", "d'", usw.) enthalten, werden
+          <p> Namen, die <b>Adelsprädikate</b> („von“,„zu“, „de“, „d'“, usw.) enthalten, werden
             unter dem Anfangsbuchstaben des Nachnamens geführt, nicht dem des Prädikats. Namen wie
-            "Pierre d'Ailly" oder "Jean-Baptiste le Rond d’Alembert" sind also dem Buchstaben "A"
+           „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d’Alembert“ sind also dem Buchstaben „A“
             zugeordnet. </p>
         </li>
         <li>
@@ -188,8 +188,8 @@
         <li>
           <p>Namen aus der <b>Zeit vor der Entstehung moderner Familiennamen</b> (etwa Ende Frühe
             Neuzeit) werden als einfache Namen, ohne Unterscheidung zwischen Vor- und Nachnamen,
-            geführt. "Albertus Magnus" ist also "Albertus Magnus", nicht "Magnus, Albertus", und
-            steht demzufolge unter "A".<fig id="fig_fs2_cnb_pbb">
+            geführt. „Albertus Magnus“ ist also „Albertus Magnus“, nicht „Magnus, Albertus“, und
+            steht demzufolge unter „A“.<fig id="fig_fs2_cnb_pbb">
               <title>ediarum-Autormodus</title>
               <image placement="break" href="../img_avhr/Personenregister5.jpg" scale="60"
                 align="left" id="image_mbn_yyd_nbb"/>
@@ -215,7 +215,7 @@
           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
           <p><?oxy_custom_end?>Personen können als <b>fiktional</b> (Don Quijote) oder
               <b>mythologisch</b> (Jesus Christus/Achilles/Quetzalcóatl) ausgezeichnet werden. Das
-            schließt nicht aus, dass es sich um eine historische Person handelt - wie im Falle von
+            schließt nicht aus, dass es sich um eine historische Person handelt – wie im Falle von
             Jesus Christus. Der Personentyp „<b>Mythologische Person</b>“ folgt einem weiten
             Verständnis des Begriffs und schließt alle Personen oder Personennamen aus religiösen
             Kontexten mit ein. Häufig liegen für diese Personennamen auch Normdateien vor.<fig
@@ -245,7 +245,7 @@
       <p>Lebensdaten liegen vollständig und unvollständig als präzise oder ungefähre Geburts- und
         Sterbedaten, als ungefähre Wirkungszeiträume oder manchmal nur in Form einer einzelnen
         Erwähnung vor. </p>
-      <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> -
+      <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> – 
         Monat und Tag, auch wenn bekannt, werden nicht angegeben. Die unterschiedlichen Datenlagen
         bei Lebensjahren werden in folgender Weise kodiert:<table id="table_awj_3xb_pbb">
           <tgroup cols="3">
@@ -404,7 +404,7 @@
               </row>
               <row>
                 <entry>mehrmals erwähnt über einen bestimmten Zeitraum</entry>
-                <entry>erwähnt 1829-1839</entry>
+                <entry>erwähnt 1829–1839</entry>
                 <entry><codeph>notBefore="1829" notAfter="1839"</codeph></entry>
               </row>
               <row>
@@ -507,11 +507,11 @@
         </table></p>
       <p>Die Verwendung von <b>Abkürzungen</b> in Lebensdaten und Wirkungszeit:</p>
       <ul id="ul_b2h_cqc_nbb">
-        <li>Abgekürzte Jahreszahlen werden nicht verwendet: ("1829–50" wird ausgeschrieben als
-          "1829–1850") </li>
-        <li>"Jahrhundert" wird als "Jh." abgekürzt</li>
-        <li>"nach Christus" und "vor Christus" werden abgekürzt als "n. Chr." und "v. Chr."</li>
-        <li>"circa" wird abgekürzt als "ca."</li>
+        <li>Abgekürzte Jahreszahlen werden nicht verwendet: („1829–50“ wird ausgeschrieben als
+          „1829–1850“) </li>
+        <li>„Jahrhundert“ wird als „Jh.“ abgekürzt</li>
+        <li>„nach Christus“ und „vor Christus“ werden abgekürzt als „v. Chr.“ und „n. Chr.“</li>
+        <li>“circa“ wird abgekürzt als „ca.“</li>
       </ul>
       <p><b>Kommentar</b></p>
       <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
@@ -538,27 +538,27 @@
       <ul id="ul_jy2_s4c_nbb">
         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <li><?oxy_custom_end?>Eine Herkunftsangabe im Kommentar kann angegeben bzw. belassen werden,
-            <i>Beispiel: "Sächsischer Mineraloge und Staatsmann"</i></li>
-        <li>Die Zuweisungen "englisch" und "schottisch" werden subsumiert unter "britisch"</li>
-        <li>Bezeichnungen wie "irischer" , "deutscher", "deutsch-baltischer" usw. werden belassen im
+          <i>Beispiel:„Sächsischer Mineraloge und Staatsmann“</i></li>
+        <li>Die Zuweisungen „englisch“ und „schottisch“ werden subsumiert unter „britisch“</li>
+        <li>Bezeichnungen wie „irischer“ ,„deutscher“,„deutsch-baltischer“ usw. werden belassen im
           Sinne einer in erster Linie kulturellen Zuschreibung</li>
         <li>Historische variierende Toponyme werden, wenn möglich, durch die heutige administrative
-          Zugehörigkeit in Klammern ergänzt. <i>Beispiel: "aus Andalusien (Spanien); Erzbischof von
-            Neu-Granada (Kolumbien)"</i></li>
+          Zugehörigkeit in Klammern ergänzt. <i>Beispiel:„Aus Andalusien (Spanien); Erzbischof von
+            Neu-Granada (Kolumbien)“</i></li>
       </ul>
     </section>
     <section id="section_ns1_lgd_pbb" audience="editor">
       <title>Bedienung</title>
       <p>Ediarum erlaubt eine Person neu als „Mythologische Person“ anzulegen, oder auch einen
         bestehenden Eintrag um den „Personentyp (fiktional etc.)“ zu ergänzen.</p>
-      <p>Die Eingabe von Geburts- und Todesjahr erfolgt über die Schaltfläche "Lebensdaten". Wenn
+      <p>Die Eingabe von Geburts- und Todesjahr erfolgt über die Schaltfläche „Lebensdaten“. Wenn
         ein Wert nicht bekannt ist, kann das entsprechende Feld frei gelassen werden. Sollten nur
         Informationen zur Wirkungszeit vorliegen, kann diese über die Funktion „Floruit
         (Wirkungszeit)“ angegeben werden. Grundsätzlich ist nur von beiden Angaben vorgesehen und
         möglich.</p>
-      <p>Die Wirkungszeit einer Person kann über drei Merkmale definiert werden: "Nicht vor", "Nicht
-        nach" und "Angabe als Text". Die Angabe als Text kann jederzeit manuell bearbeitet werden.
-        Die Angaben zu "Nicht vor" und "Nicht nach" können über das Kontextmenü nachträglich
+      <p>Die Wirkungszeit einer Person kann über drei Merkmale definiert werden: „nicht vor“, „nicht
+        nach“ und „Angabe als Text“. Die Angabe als Text kann jederzeit manuell bearbeitet werden.
+        Die Angaben zu „nicht vor“ und „nicht nach“ können über das Kontextmenü nachträglich
         bearbeitet werden. Für eine valide und maschinenlesbare Auszeichnung müssen alle drei
         Angaben eingetragen werden. </p>
     </section>

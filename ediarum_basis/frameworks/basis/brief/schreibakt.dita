@@ -10,10 +10,10 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Soll ein weiterer Schreibakt eingefügt werden, so steht dafür die Funktion "Brieftext > Neuen Schreibakt beginnen" im Menü "ediarum" zur Verfügung.
+            <p>Soll ein weiterer Schreibakt eingefügt werden, so steht dafür die Funktion „Brieftext > Neuen Schreibakt beginnen“ im Menü „ediarum“ zur Verfügung.
             Die Funktion kann erst verwendet werden, wenn der Cursor im Brieftext platziert wird. Ein neuer Schreibakt wird dann hinter diesem Schreibakt platziert.
             </p>
-            <p>Der erste (und häufig einzigste) Schreibakt (<codeph>div/@n="1"</codeph>) ist in der Vorlage "Brief" stets bereits enthalten.</p>
+            <p>Der erste (und häufig einzigste) Schreibakt (<codeph>div/@n="1"</codeph>) ist in der Vorlage „Brief“ stets bereits enthalten.</p>
         </section>
         <section>
             <title>Kodierung</title>

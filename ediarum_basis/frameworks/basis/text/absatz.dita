@@ -57,7 +57,7 @@
          Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
      </ol>
      <div id="test2178494">
-       <p>Über die Funktion "Absatz/Liste eingerückt" im Menü "ediarum > Sonderfunktionen" kann man den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
+       <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ kann man den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
          Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <xmlatt>rendition</xmlatt>
          mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
      </div>

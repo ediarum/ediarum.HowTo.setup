@@ -8,21 +8,21 @@
     den Eintrag referien können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
     angeben.<codeblock outputclass="language-xml"><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
    <p>Der Name des Ortes wird in einem <xmlelement>placeName</xmlelement>-Element
-    angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Liverpool</placeName>]]></codeblock></p>
+   angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Berlin</placeName>]]></codeblock></p>
    <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
-    Gebäude angeben. Diese Angabe wird in einem <xmlelement>listPlace</xmlelement> notiert. Weil es
-    sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
-    <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt> eine individuelle
-    ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine Straße (<codeph>"street"</codeph>) oder um ein Gebäude
-    (<codeph>"building"</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
+   Gebäude angeben. Diese Angabe wird in einem <xmlelement>listPlace</xmlelement> notiert. Weil es
+   sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
+    <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt>
+   eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine
+   Straße (<codeph>"street"</codeph>) oder um ein Gebäude (<codeph>"building"</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
    <place xml:id="ediarum_t4p_lhf_hy" type="street">
-      <placeName type="reg">Aberdeen St </placeName>
+      <placeName type="reg">Kronenstraße</placeName>
    </place>
 </listPlace>]]></codeblock></p>
    <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
-    über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
-    Link wird in einem <xmlelement>idno</xmlelement>-Element (identifikator)
-    notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2641805<idno>]]></codeblock></p>
+   über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
+   Link wird in einem <xmlelement>idno</xmlelement>-Element (identifikator)
+   notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2950159<idno>]]></codeblock></p>
   <section id="section_sd4_s3d_pbb"><title>edition humboldt digital</title><p><b>Norm-ID
      (Geonames)</b></p><p>Jeder Ortseintrag erhält eine Geonames-ID.</p><b>Namen</b><p>Der
     Haupteintrag folgt immer der heute gängigen Schreibung. Historische Schreibweisen oder
@@ -41,11 +41,11 @@
     Haupteintrag und die kyrillische Schreibung die Alternative. <b>Lateinamerikanische
      Ländernamen</b> werden konsequent eingedeutscht. Es heißt also Ekuador, Kolumbien, Mexiko, Kuba
     usw.</p><p><b>Schreibweise und Sortierung der Namen</b></p><p>Die Schreibweise der Ortsnamen
-    entspricht ihrem offiziellem Gebrauch. Mehrteilige Ortsnamen wie "Río Blanco" werden nicht
-    aufgetrennt ("Blanco, Rìo") und stets unter dem Anfangsbuchstaben des ersten Wortes der
+    entspricht ihrem offiziellem Gebrauch. Mehrteilige Ortsnamen wie „Río Blanco“ werden nicht
+    aufgetrennt („Blanco, Rìo“) und stets unter dem Anfangsbuchstaben des ersten Wortes der
     Ortsbezeichnung geführt. </p><p>Bei der Redaktion der bestehenden Einträge ist zu beachten, dass
-    nach der Korrektur Einträge einem anderen Buchstaben zugeordnet werden müssen - im beschriebenen
-    Fall beispielsweise von "B.xml" zu "R.xml".</p><p><b>Kommentar</b></p><p>Die Kommentierung
+    nach der Korrektur Einträge einem anderen Buchstaben zugeordnet werden müssen – im beschriebenen
+    Fall beispielsweise von „B.xml“ zu „R.xml“.</p><p><b>Kommentar</b></p><p>Die Kommentierung
     erfolgt knapper als im Personenregister. Orte, die heute politisch anders zugeordnet sind als zu
     Humboldts Zeiten, können im Kommentar einen Verweis auf die aktuelle adminstrative Zugehörigkeit
     erhalten. Ein ganz einheitliches Vorgehen ist hier aber nicht möglich: <ul id="ul_nx2_krp_mbb">
@@ -64,7 +64,7 @@
       </fig></li>
     </ul></p><p>Vorhandene Kommentare werden aktualisiert oder sprachlich redigiert, wenn dies
     aufgrund von Fragen des Zeitgeistes notwendig erscheint. </p><p audience="editor"><b>Umgang mit
-     im ediarum-Autormodus hellgrün hinterlegten "Gerlach"- Einträgen:</b>Es handelt sich um
+     im ediarum-Autormodus hellgrün hinterlegten „Gerlach“- Einträgen:</b>Es handelt sich um
     Einträge, die von Klaus Gerlach bei der Edition der pflanzengeographischen Briefwechsel mit
     Kunth, Soemmerring und Willdenow angelegt worden sind und damit bereits auf edierte Inhalte des
     Korpus verweisen.<b> Diese Einträge dürfen auf keinen Fall gelöscht werden!</b> Sie können aber

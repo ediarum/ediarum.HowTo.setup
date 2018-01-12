@@ -71,7 +71,7 @@
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[<gap unit="words" quantity="3" reason="illegible"/> a beaucoup baissé]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[<gap unit="words" quantity="3" reason="illegible"/>a beaucoup baissé]]></codeblock>
    <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
     wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap/</xmlelement>.</p>
    <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="chars"/></del> dann wieder]]></codeblock>

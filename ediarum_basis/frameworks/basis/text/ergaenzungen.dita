@@ -8,7 +8,7 @@
    <p>Die Ergänzungen (auch „Hinzufügungen”), die der Autor selbst im Manuskript vorgenommen hat,
     werden ausgezeichnet. Unter Ergänzungen werden alle Hinzufügungen des Autors verstanden, die den
     Text nur erweitern und sich syntaktisch eingliedern. </p><p>Ergänzungen sind zu unterscheiden von den <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
-     >Anmerkungen</xref>, die - ähnlich wie Fußnoten im Druck - in sich abgeschlossene Texteinheiten
+     >Anmerkungen</xref>, die – ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten
     bilden.</p>
   </section>
    <section>
@@ -21,7 +21,7 @@
     generalisiert und einmal pro Befund ausgezeichnet.</p>
    <p audience="editor">
     <image placement="break" href="../../img_avhr/abb16.png" scale="60" align="center" id="image_un3_3rj_dbb">
-     <alt>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen "+"</alt>
+     <alt>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“</alt>
     </image>
    </p>
    <codeblock outputclass="language-xml"><![CDATA[… aussi la proprieté de celle de Jura (en Franconie) 

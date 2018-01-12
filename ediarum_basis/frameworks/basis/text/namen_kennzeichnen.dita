@@ -14,7 +14,7 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p><b>Personen-, Orts- und Einrichtungsnamen sowie Werktitel</b> werden konsequent in allen
-    Textsorten (Tagebüchern, Nachlassmanuskripten, Briefen) gekennzeichnet - in allen Instanzen, in
+    Textsorten (Tagebüchern, Nachlassmanuskripten, Briefen) gekennzeichnet – in allen Instanzen, in
     denen Person, Ort, Institution oder Werk genannt werden. In Sachkommentaren und in
     Chronologie-Ereignissen wird hingegen nur die Ersterwähnung ausgezeichnet.</p>
    <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („in der Umgebung des Königs [FW III]“)
@@ -48,11 +48,12 @@
   </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Derzeit verwenden wir ausschließlich die Funktion „Namen kennzeichnen“ in der Werkzeugleiste im Menü mit dem
-    Symbol <image href="../../img/names16.gif" id="image_wpc_d3f_2y"/>.</p>
-   <p>„Kennzeichnen“ bedeutet: wir markieren den jeweiligen Eintrag und verbinden ihn über die
-    Funktion „Namen kennzeichnen“ mit einem spezifischen Eintrag im Personen-, Orts- oder
-    Einrichtungsregister. </p>
+   <p>Zur Kennzeichnung von Eigennamen steht die Funktion „Namen kennzeichnen“ mit dem Symbol <image
+     href="../../img/names16.gif" id="image_wpc_d3f_2y"/> in der Werkzeugleiste im Menü zur
+    Verfügung.</p>
+   <p>„Kennzeichnen“ bedeutet: der jeweilige Eintrag wird markiert und über die Funktion „Namen
+    kennzeichnen“ mit einem spezifischen Eintrag im Personen-, Orts- oder Einrichtungsregister
+    verbunden. </p>
    <p>Wichtig: Um einen Namen korrekt zu kennzeichnen, muss sichergestellt sein, dass der jeweilige
     Registereintrag eindeutig ist, es also keine Dubletten zur selben Person/Ort/etc. an anderen
     Stellen des Registers gibt. Die Kennzeichnung eines Namens sollte also immer verbunden werden

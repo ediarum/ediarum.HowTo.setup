@@ -5,8 +5,8 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Da Briefe häufig Teil eines Briefwechsels sind ist der Korrespondenzkontext wichtig. Unter "Korrespondenzkontext"<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
-                (auch "Korrespondenzzusammenhang") werden diejenigen
+            <p>Da Briefe häufig Teil eines Briefwechsels sind ist der Korrespondenzkontext wichtig. Unter „Korrespondenzkontext“<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
+                (auch „Korrespondenzzusammenhang“) werden diejenigen
             Briefe verstanden auf die geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden Brief sind. Dabei kann es sich jeweils um einen oder mehrere
             Briefe handeln.</p>
         </section>
@@ -19,8 +19,8 @@
                 <li>Als einfacher Text (z.B. auf eine gedruckt vorliegende Edition)</li>
                 <li>Als einfacher Text inkl. externen Link (z.B. auf eine externe, aber digital vorliegende Edition)</li>
             </ul>
-            <p>Alle drei Optionen finden Sie in der Werkzeugleiste im Menü "Briefmetadaten".</p>
-            <p>Bitte beachten Sie, dass Sie im Fall eines externen Links nach Möglichkeit den "Permalink" des Briefes verwenden.</p>
+            <p>Alle drei Optionen finden Sie in der Werkzeugleiste im Menü „Briefmetadaten“.</p>
+            <p>Bitte beachten Sie, dass Sie im Fall eines externen Links nach Möglichkeit den „Permalink“ des Briefes verwenden.</p>
         </section>
         <section>
             <title>Kodierung</title>
@@ -56,11 +56,11 @@
         <codeblock outputclass="language-xml"><![CDATA[<ref type="next">Brief vom 17.02.1887</ref>]]></codeblock>
         <p>Beispiel für einen extern digital edierten Brief:</p>
         <codeblock outputclass="language-xml"><![CDATA[<ref type="prev" target=http://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3049359">Antwortschreiben</ref>]]></codeblock>
-        <p>Als URL sollte nach Möglichkeit ein "Permalink"<indexterm>Permalink</indexterm> gewählt werden.</p>
+            <p>Als URL sollte nach Möglichkeit ein „Permalink“<indexterm>Permalink</indexterm> gewählt werden.</p>
         </section>
         <section>
             <title>Anzeige</title>
-            <p>Der Korrespondenzkontext wird über den Link "Weitere Angaben zum Brief" angezeigt.</p>
+            <p>Der Korrespondenzkontext wird über den Link „weitere Angaben zum Brief“ angezeigt.</p>
         </section>
     </body>
 </topic>

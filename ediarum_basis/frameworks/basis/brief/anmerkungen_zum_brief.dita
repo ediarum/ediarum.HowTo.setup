@@ -5,12 +5,12 @@
     <body>
         <section>
             <title>Allgemeines</title>
-            <p>Unter "Anmerkungen zum Brief" werden editorische Kommentare<indexterm>Kommentar</indexterm> zum Brief verstanden, die nicht dessen Materialität behandeln. Insbesondere
+            <p>Unter „Anmerkungen zum Brief“ werden editorische Kommentare<indexterm>Kommentar</indexterm> zum Brief verstanden, die nicht dessen Materialität behandeln. Insbesondere
             werden hier Hinweise zur Datierung<indexterm>Datierung</indexterm> oder für erschlossene Briefe<indexterm>Erschlossener Brief</indexterm> deren Bezeugung notiert.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Das Feld für "Anmerkungen zum Brief" kann - sofern noch nicht vorhanden - über das Menü "Briefmetadaten > Anmerkungen zum Brief"
+            <p>Das Feld für „Anmerkungen zum Brief“ kann – sofern noch nicht vorhanden – über das Menü „Briefmetadaten > Anmerkungen zum Brief“
             aufgerufen werden. Es kann nur einmal eingefügt werden; die Schaltfläche ist grau unterlegt wenn das Feld schon vorhanden ist oder die
             Datei nicht als Brief angelegt wurde.</p>
         </section>
@@ -25,7 +25,7 @@
         </p></section>
         <section>
             <title>Anzeige</title>
-            <p>In der digitalen Edition werden die Anmerkungen zum Brief bei überliferten, vollständig edierten Briefen unter dem Link "Weitere Angaben zum Brief" 
+            <p>In der digitalen Edition werden die Anmerkungen zum Brief bei überliferten, vollständig edierten Briefen unter dem Link „weitere Angaben zum Brief“ 
             eingeblendet. Bei Briefen, die nicht überliefert sind, sondern nur noch erschlossen werden können, werden die Anmerkungen zum Brief 
             direkt unter dem Regest angezeigt.</p>
         </section>

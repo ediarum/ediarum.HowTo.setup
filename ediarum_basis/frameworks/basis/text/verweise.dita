@@ -54,7 +54,7 @@
             <title>Kodierung</title>
             <p>Verweisziele im Text werden mit zwei <xmlelement>anchor</xmlelement>-Elementen
                 markiert. Dabei trägt das Attribut <xmlatt>xml:id</xmlatt> in beiden Elementen eine
-                ID, die sich lediglich durch das Präfix "start" bzw. "stop" unterscheidet. Auf diese
+                ID, die sich lediglich durch das Präfix „start“ bzw. „stop“ unterscheidet. Auf diese
                 ID kann aus anderen Texten und Dokumenten heraus verwiesen werden.</p>
             <codeblock outputclass="language-xml"><![CDATA[<anchor type="verweisziel"
 xml:id="start_b3k_pyf_cy"/>Wechsel<anchor

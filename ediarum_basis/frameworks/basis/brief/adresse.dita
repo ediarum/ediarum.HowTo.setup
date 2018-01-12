@@ -10,7 +10,7 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Im Menü "ediarum" steht zum Einfügen eine entsprechende Funktion unter "Brieftext > Adresse" bereit.
+            <p>Im Menü „ediarum“ steht zum Einfügen eine entsprechende Funktion unter „Brieftext > Adresse“ bereit.
             Standardmäßig fügt sie die Adresse vor dem Briefanfang ein. Wird der Cursor aber in den Briefschluss<indexterm>Briefschluss</indexterm> gesetzt, wird die Adresse
             nach diesem eingefügt.</p>
             <p>Die Adresse wird standardmäßig mit einer Adressezeile eingefügt. Ist eine weitere Adressezeile notwendig, kann diese über <uicontrol>Return</uicontrol>
@@ -22,7 +22,7 @@
             Sie besteht aus einem umgegebenden Element <xmlelement>address</xmlelement> sowie einem oder mehreren Kindelementen <xmlelement>addrLine</xmlelement>.</p>
             <codeblock outputclass="language-xml"><![CDATA[<opener>
                 <address>
-                   <addrLine>Bargfeld, Jägerstraße 12</addrLine>
+                   <addrLine>Berlin, Kronenstraße 6</addrLine>
                 </address>
              </opener>]]>
             </codeblock>

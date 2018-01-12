@@ -5,10 +5,12 @@
  <body>
  <section>
    <title>Allgemein</title>
-   <p>In der Vorlage enthaltene Tabellen werden als solche transkribiert, dabei wird zwischen expliziten Tabellen
-   und impliziten unterschieden. Erste sind vom Autor tatsächlich gezeichnet; bei letzteren ist die Tabellenstruktur
-   nur durch die Anordnung ihres Inhalts erkenntlich.</p>
-   <p>Zu unterscheiden ist die Tabelle von listenartigen Aufzählungen.</p>
+   <p>In der Vorlage enthaltene Tabellen werden als solche transkribiert, dabei wird zwischen
+        expliziten Tabellen und impliziten unterschieden. Erstere sind vom Autor tatsächlich
+        gezeichnet; bei letzteren ist die Tabellenstruktur nur durch die Anordnung ihres Inhalts
+        erkenntlich.</p>
+   <p>Zu unterscheiden ist die Tabelle von <xref href="listen.dita#topic_trq_t1v_ty">listenartigen
+          Aufzählungen</xref>.</p>
  </section>
    <section product="avhr">
       <title>edition humboldt digital</title>

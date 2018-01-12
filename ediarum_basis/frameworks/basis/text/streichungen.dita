@@ -5,7 +5,7 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Gestrichener Text wird grundsätzlich - soweit lesbar - vollständig erfasst, samt aller
+   <p>Gestrichener Text wird grundsätzlich – soweit lesbar – vollständig erfasst, samt aller
     Textphänomene wie Zeilenumbrüche, Auflösung von Abkürzungen, Normalisierungen und
     Herausgeberkorrekturen, bzw. –ergänzungen. Die Streichung wird entsprechend ausgezeichnet.</p>
   </section>
@@ -13,12 +13,12 @@
    <title>edition humboldt digital</title>
    <p>Beispiel: <image placement="break"
      href="../../img_avhr/abb13.png" scale="60" align="center" id="image_zyq_spt_2bb">
-     <alt>Cuba, 142v "23. La salubrité de la Havane..."</alt>
+    <alt>Cuba, 142v „23. La salubrité de la Havane...“</alt>
     </image></p>
    <p>Auch Streichungen innerhalb einer bereits gestrichenen Passage werden ausgezeichnet.<image
      placement="break" href="../../img_avhr/abb14.png" scale="60" align="center"
      id="image_evk_nst_2bb">
-     <alt>Cuba, 142v "il leur est..."</alt>
+    <alt>Cuba, 142v „il leur est...“</alt>
     </image></p>
     <codeblock outputclass="language-xml" audience="editor"><![CDATA[il <subst>
      <del rendition="#s">est</del>

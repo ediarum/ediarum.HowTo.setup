@@ -6,9 +6,9 @@
         <section>
             <title>Allgemeines</title>
             <p>Archivalien werden traditionellerweise anhand ihrer Signatur identifiziert. Da diese
-                Signaturen aber nicht oder nur eingeschränkt maschinenlesbar sind, wird - sofern
-                vorhanden - auch eine entsprechende URI notiert. URI steht für "Uniform Resource
-                Identifier", ist als Standard definiert (<xref
+                Signaturen aber nicht oder nur eingeschränkt maschinenlesbar sind, wird – sofern
+                vorhanden – auch eine entsprechende URI notiert. URI steht für „Uniform Resource
+                Identifier“, ist als Standard definiert (<xref
                     href="https://tools.ietf.org/html/rfc3986" format="html" scope="external">RFC
                     3986</xref>) und maschinenlesbar, da sie nur aus bestimmten Zeichen bestehen
                 darf (insbesondere Leerzeichen sind ausgeschlossen). Einen guten Überblick über die
@@ -16,15 +16,15 @@
                     href="https://de.wikipedia.org/wiki/Uniform_Resource_Identifier#Aufbau"
                     format="html" scope="external">Abschnitt im Wikipedia-Artikel</xref>.</p>
             <p>URIs zu Archivalien werden mittlerweile häufig vom Archiv oder einem Verbundkatalog
-                angeboten. Im deutschsprachigen Raum bietet vor allem der Verbundkatalog "Kalliope"
-                zu jeder Verzeichniseinheit eine entsprechende URI (bezeichnet als EAD-ID, "Encoded
-                Archival Description-Identifier") an, z.B. : <xref
+                angeboten. Im deutschsprachigen Raum bietet vor allem der Verbundkatalog „Kalliope“
+                zu jeder Verzeichniseinheit eine entsprechende URI (bezeichnet als EAD-ID, „Encoded
+                Archival Description-Identifier“) an, z.B. : <xref
                     href="http://kalliope-verbund.info/DE-611-HS-2877719" format="html"
                     scope="external">http://kalliope-verbund.info/DE-611-HS-2877719</xref>.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Mit Hilfe der Funktion "URI der Archivalie" im Menü "Metadaten" in der Werkzeugleiste
+            <p>Mit Hilfe der Funktion „URI der Archivalie“ im Menü „Metadaten“ in der Werkzeugleiste
                 können Sie die entsprechende URI zum Briefe, Dokument etc. hinterlegen.</p>
         </section>
         <section>
