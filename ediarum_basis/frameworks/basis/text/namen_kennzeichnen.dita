@@ -45,7 +45,158 @@
      Auszeichnung mehrerer Personen</b> nicht möglich ist<?oxy_comment_end?> („mit allen
      <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), werden die betreffenden Personen stattdessen in
     einer Sachanmerkung einzeln aufgelöst und dort gekennzeichnet. </p>
+   <p>Bei Bezug zu Orten, Personen und Institutionen <b>ohne Nennung der (bekannten) Namen</b>:</p>
+   <p>„Gemeintes“ bekannt für Autor, Briefpartner und Bearbeiter aus:</p>
+   <p>
+    <ul id="ul_qpy_12b_4cb">
+     <li>Thematischer Kontext</li>
+     <li>gemeinsame Wissensgrundlage der Briefpartner</li>
+     <li>Wissensgrundlage des Autoren</li>
+     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>
+     <li>historischer Kontext</li>
+    </ul>
+    
+   </p>
+   <p>aber nicht notwendigerweise für Dritte. </p>
+   <table frame="all" rowsep="1" colsep="1" id="table_ljt_gv1_4cb">
+    <title>Orte</title>
+    <tgroup cols="2">
+     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+     <thead>
+      <row>
+       <entry>Art</entry>
+       <entry>Beispiele</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Oberbegriff</entry>
+       <entry>"Palais" statt "Königliches Palais" (AvH an Meyen, Anfang 1830); "Ich lege Ihnen auch
+        einiges über Arequipa und den <b>Vulcan</b>..." (AvH an Meyen, 1833?)</entry>
+      </row>
+      <row>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry/>
+      </row>
+      <row>
+       <entry/>
+       <entry/>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
   </section>
+  <table frame="all" rowsep="1" colsep="1" id="table_fhd_jw1_4cb">
+   <title>Personen</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Art</entry>
+      <entry>Beispiele</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Verwandschaftsgrad (Bruder, Schwester, Frau, Kinder)</entry>
+      <entry>"so führe ich Sie zu meinem <b>Bruder</b>..." (AvH an Meyen, 1833);</entry>
+     </row>
+     <row>
+      <entry>Funktionsbezeichnung (Amt, militärischer Grad etc.)</entry>
+      <entry>"...noch ehe ich mit dem <b>König</b> nach Potsdam gehe..."; "Der <b>Herr Minister</b>
+       pflegt in naturhistorischen ..." (AvH an Meyen, 8.07.1833); "...begleiten kann an den neuen
+       Minister." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l" format="html"
+        scope="external">AvH am Meyen, nach 22.08.1834</xref>); "Ich habe dem <b>Polizei
+        Minister</b> selbst gemeldet..." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 27.04.1813</xref>) ; "...le <b>Prince Regent</b> en a parlé
+       avec beaucoup de bonté à mon frère." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 11.11.1817</xref>)</entry>
+     </row>
+     <row>
+      <entry>Anapher (vorher genannt und ausgezeichnet, A. nicht ausgezeichnet)</entry>
+      <entry>"Der <b>Mann</b> scheint beissiger Natur." (AvH an Meyen, nach 22.08.1834)</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>"Der <b>Hingeschiedene</b> war gleich ausgezeichnet durch seinen unermüdlichen
+       Forschungs-Geist,..." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001203&amp;view=l" format="html"
+        scope="external">AvH an Meyen, 09.10.1840</xref>) </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <table frame="all" rowsep="1" colsep="1" id="table_tqq_5w1_4cb">
+   <title>Institutionen</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Art</entry>
+      <entry>Beispiele</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Oberbegriff </entry>
+      <entry>"...und dass niemand sehnlicher als ich Ihre Anstellung als Professeur extraordinaire
+       bei der <b>Universität</b> wünschen kann..." (AvH an Meyen, 8.07.1833); "...bezog sich
+       allerdings auf die Schritte und Empfehlung die ich bei dem <b>Ministerium</b> erneuert."
+        (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l"
+        format="html" scope="external">AvH am Meyen, nach 22.08.1834</xref>); "...nichts mehr als
+       die Pension des <b>Gartens</b> accediren!" (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 26.10.1832</xref>); die mir die Bibliothek abfordert. </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry> </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+     <row>
+      <entry/>
+      <entry/>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Zur Kennzeichnung von Eigennamen steht die Funktion „Namen kennzeichnen“ mit dem Symbol <image
