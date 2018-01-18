@@ -49,15 +49,25 @@
    <p>„Gemeintes“ bekannt für Autor, Briefpartner und Bearbeiter aus:</p>
    <p>
     <ul id="ul_qpy_12b_4cb">
-     <li>Thematischer Kontext</li>
+     <li>thematischer Kontext</li>
+     <li>historischer Kontext</li>
      <li>gemeinsame Wissensgrundlage der Briefpartner</li>
      <li>Wissensgrundlage des Autoren</li>
-     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>
-     <li>historischer Kontext</li>
+     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>    
     </ul>
     
    </p>
    <p>aber nicht notwendigerweise für Dritte. </p>
+   <p>Für die Wahl von <xmlelement>rs</xmlelement> statt <xmlelement>persName</xmlelement> an diesem
+    Fall sprechen folgende Gründe:</p>
+   <p>
+    <ul id="ul_m2t_5wn_4cb">
+     <li>konform mit TEI-Richtlinien</li>
+     <li>Unterscheidung bietet Möglichkeiten zur späteren Webdarstellung (volle Bezeichnung in
+      hover-over-Anzeige)</li>
+     <li/>
+    </ul>
+   </p>
    <table frame="all" rowsep="1" colsep="1" id="table_ljt_gv1_4cb">
     <title>Orte</title>
     <tgroup cols="2">
@@ -76,8 +86,11 @@
         einiges über Arequipa und den <b>Vulcan</b>..." (AvH an Meyen, 1833?)</entry>
       </row>
       <row>
-       <entry/>
-       <entry/>
+       <entry>Oberbegriff II</entry>
+       <entry>"...dass die gelben und orangenen auf dem ganzen <b>Continent</b> von unseren
+        Saamen..." (<xref
+         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0012104&amp;view=l" format="html"
+         scope="external">AvH an Kunth, 14.08.1838)</xref> → gemeint ist Europa; </entry>
       </row>
       <row>
        <entry/>
@@ -109,7 +122,13 @@
     <tbody>
      <row>
       <entry>Verwandschaftsgrad (Bruder, Schwester, Frau, Kinder)</entry>
-      <entry>"so führe ich Sie zu meinem <b>Bruder</b>..." (AvH an Meyen, 1833);</entry>
+      <entry>"so führe ich Sie zu meinem <b>Bruder</b>..." (AvH an Meyen, 1833); "<b>Sprengels
+        Sohn</b> der Senator schreibt mir er beschränke sich..." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002933&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 27.11-16.12.1833</xref>); viele Beispiele in <xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015273&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 2.11.1842</xref>; "Der Tod <b>meiner unglücklichen Mutter</b>
+       ist also endlich doch auch eingetroffen." (AvH an Willdenow, nach 19.11.1796)</entry>
      </row>
      <row>
       <entry>Funktionsbezeichnung (Amt, militärischer Grad etc.)</entry>
@@ -134,7 +153,13 @@
       <entry>"Der <b>Hingeschiedene</b> war gleich ausgezeichnet durch seinen unermüdlichen
        Forschungs-Geist,..." (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001203&amp;view=l" format="html"
-        scope="external">AvH an Meyen, 09.10.1840</xref>) </entry>
+        scope="external">AvH an Meyen, 09.10.1840</xref>); "<b>Der bescheidene Mann</b> legt eine
+       neue brochure gegen Liebig bei,..." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0004892&amp;view=l" format="html"
+        scope="external">AvH an Kunth, nach 3.05.1842</xref>); "...Monsieur Majorlin Médecin des
+       Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0005454&amp;view=l" format="html"
+        scope="external">AvH an Kunth, Oktober 1844</xref>); </entry>
      </row>
      <row>
       <entry/>
@@ -172,11 +197,19 @@
         format="html" scope="external">AvH am Meyen, nach 22.08.1834</xref>); "...nichts mehr als
        die Pension des <b>Gartens</b> accediren!" (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 26.10.1832</xref>); die mir die Bibliothek abfordert. </entry>
+        scope="external">AvH an Kunth, 26.10.1832</xref>); "Salziges Wasser, kein Geld, Fieber, Tod
+       der Bestien für den ohnedies thierlosen hiesigen <b>Garten</b> – das ist eine freudenleere
+       Welt." (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002239&amp;view=l"
+        format="html" scope="external">AvH an Kunth, 14.04.1844</xref>) → gemeint ist der
+       Zoologische Garten; </entry>
      </row>
      <row>
       <entry/>
-      <entry> </entry>
+      <entry>"Sie können mir nichts rühmliches und edles von Professor Kunth sagen, was ich nicht
+       wüsste. Er ist die Seele des <b>Instituts</b>." (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0014471&amp;view=l" format="html"
+        scope="external">AvH an Kunth, 8.10.1840</xref>) → gemeint ist der Botanische Garten in
+       Berlin; </entry>
      </row>
      <row>
       <entry/>
