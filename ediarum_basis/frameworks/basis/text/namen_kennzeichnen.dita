@@ -58,14 +58,13 @@
     
    </p>
    <p>aber nicht notwendigerweise für Dritte. </p>
-   <p>Für die Wahl von <xmlelement>rs</xmlelement> statt <xmlelement>persName</xmlelement> an diesem
+   <p>Für die Wahl von <xmlelement>rs</xmlelement> statt <xmlelement>persName</xmlelement> in diesem
     Fall sprechen folgende Gründe:</p>
    <p>
     <ul id="ul_m2t_5wn_4cb">
      <li>konform mit TEI-Richtlinien</li>
      <li>Unterscheidung bietet Möglichkeiten zur späteren Webdarstellung (volle Bezeichnung in
       hover-over-Anzeige)</li>
-     <li/>
     </ul>
    </p>
    <table frame="all" rowsep="1" colsep="1" id="table_ljt_gv1_4cb">
@@ -83,27 +82,18 @@
       <row>
        <entry>Oberbegriff</entry>
        <entry>"Palais" statt "Königliches Palais" (AvH an Meyen, Anfang 1830); "Ich lege Ihnen auch
-        einiges über Arequipa und den <b>Vulcan</b>..." (AvH an Meyen, 1833?)</entry>
-      </row>
-      <row>
-       <entry>Oberbegriff II</entry>
-       <entry>"...dass die gelben und orangenen auf dem ganzen <b>Continent</b> von unseren
-        Saamen..." (<xref
+        einiges über Arequipa und den <b>Vulcan</b>..." (AvH an Meyen, 1833?), "...dass die gelben
+        und orangenen auf dem ganzen <b>Continent</b> von unseren Saamen..." (<xref
          href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0012104&amp;view=l" format="html"
          scope="external">AvH an Kunth, 14.08.1838)</xref> → gemeint ist Europa; </entry>
       </row>
       <row>
        <entry/>
-       <entry/>
-      </row>
-      <row>
-       <entry/>
-       <entry/>
-      </row>
-      <row>
-       <entry/>
-       <entry/>
-      </row>
+       <entry>"...endlich am 1. September 1800 in Cumana zurük im Hause unseres Freundes Dn Vicente
+        Emperan (Gouverneur dieser <b>Provinz</b>.)" (<xref
+         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001181&amp;view=l" format="html"
+         scope="external">AvH an Willdenow, 21.02.1801</xref>)</entry>
+      </row>     
      </tbody>
     </tgroup>
    </table>
@@ -163,16 +153,11 @@
      </row>
      <row>
       <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
+      <entry>"Ohnerachtet mich meine Sendung zu dem <b>französischen General</b> und mein Aufenthalt
+       bei der Armee im Juli und August sehr gestört hat,…" (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001199&amp;view=k" format="html"
+        scope="external">AvH an Willdenow, 20.12.1796</xref>)</entry>
+     </row>     
     </tbody>
    </tgroup>
   </table>
@@ -210,23 +195,7 @@
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0014471&amp;view=l" format="html"
         scope="external">AvH an Kunth, 8.10.1840</xref>) → gemeint ist der Botanische Garten in
        Berlin; </entry>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry/>
-      <entry/>
-     </row>
+     </row>     
     </tbody>
    </tgroup>
   </table>
