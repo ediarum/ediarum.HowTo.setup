@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_w4p_nbv_ty">
- <title>Unterstreichung und Randanstreichung</title>
+ <title>Unterstreichung und Anstreichung am Rand</title>
  <body>
   <section>
    <title>Allgemein</title>
@@ -19,8 +19,7 @@
     eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung (Humboldt unterstreicht das Wort
     Granite und nicht „rani“ in „Granite“). </p><image placement="break"
     href="../../img_avhr/abb12.png" scale="80" align="center" id="image_xzm_pmj_dbb">
-    <alt>Cuba-Manuskript,
-     <?oxy_comment_start author="lkirsten" timestamp="20170921T114439+0200" comment="in online-edition 128r"?>127r<?oxy_comment_end?></alt>
+    <alt>Cuba-Manuskript, 128r</alt>
    </image><p>Ausgezeichnet wird daher das gesamte
     Wort:</p><codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock><image
     placement="break" href="../../img_avhr/abb12-web.jpg" align="center" id="image_k54_jfg_hbb"
@@ -29,17 +28,16 @@
    </image><ul id="ul_l1q_2tz_pcb">
     <li>Anstreichungen am Rand werden erfasst. </li>
     <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen sein. </li>
-    <?oxy_comment_start author="lkirsten" timestamp="20180123T184837+0100" comment="überflüssige Anmerkung?"?>
     <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position wird
      allerdings in der Auszeichnung nicht vermerkt und erscheint in der Webdarstellung stets am
-     linken Rand.<?oxy_comment_end?></li>
+     linken Rand.</li>
    </ul><image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center">
     <alt>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</alt>
    </image><p>Die Auszeichnung umfasst alle vier Zeilen:</p><p>
-    <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes [sic],
-fraises, petits poids, fêves, resains [sic], patates… tout cela
-depuis peu aussi a Veracruz. Le Trigo ne donnant(?) pas de graines à
-Xalappa et et [sic] donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
+    <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
+fraises, petits poids, fêves, resains, patates… tout cela
+depuis peu aussi a Veracruz. Le Trigo ne donnant pas de graines à
+Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
    </p>
    <?oxy_comment_start author="lkirsten" timestamp="20180123T184954+0100" comment="hier ist der gesamte Absatz gezeigt, reicht kleinerer Auschnitt wie oben?"?><image
     href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center">
@@ -49,18 +47,17 @@ Xalappa et et [sic] donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></c
     Textphänomene sind im Beispiel nicht ausgezeichnet):</p><codeblock outputclass="language-xml"><![CDATA[<p rendition="#mMM">Depuis 1702 -1775 on a importé a la Jamaique
 497736 Negres
 137014 Negres exportés
-et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock>
-  </section>
+et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock></section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Transkribieren Sie den unterstrichenen Text und markieren Sie ihn danach. Nun können Sie in
-    der Werkzeugleiste die Schaltfläche mit dem Symbol <image href="../../img/underlined16.png"
-     id="image_qcq_yhf_2y"/> auslösen. Im erscheinenden Dialogmenü wählen Sie bitte die Art der
-    Unterstreichung, bzw. eine Randanstreichung aus.</p>
-   <p>Im Falle einer <b>Randanstreichung</b> eines ganzen Absatzes gehen Sie bitte wie folgt vor:
-    Transkribieren Sie den Absatz, der am Rand angestrichen ist und setzen Sie dann den Cursor dort
-    hinein. Danach klicken Sie auf die rechte Maustaste. Im erscheinenden Kontextmenü wählen Sie
-    bitte die Option „Am Rand angestrichen” aus. </p>
+   <p>Bei Unterstreichungen und Anstreichungen am Rand sollte der jeweilige Text, bzw. Textstelle
+    markiert und dann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
+     href="../../img/underlined16.png" id="image_qg3_n5m_qcb"/> ausgelöst werden. Im erscheinenden
+    Dialogmenü muss die Art der Unterstreichung, bzw. eine Randanstreichung ausgewählt werden.</p>
+     <p>Im Falle einer Randanstreichung eines ganzen Absatzes kann der Cursor an irgendeine
+    Textstelle im transkribierten Absatz gesetzt und über die rechte Maustaste im Kontextmenü die
+    Option „Absatz am Rand angestrichen”  ausgewählt werden. Möglich ist dies auch über die
+    Menüauswahl „ediarum > Sonderfunktionen > Absatz am Rand angestrichen”.</p>
   </section>
   <section>
     <title>Kodierung</title>
@@ -92,8 +89,8 @@ et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock>
     </tgroup>
    </table>
    <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
-   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert „#mMM” (am Rand angestrichen) kann auch
-    in das Element <xmlelement>p</xmlelement> eingefügt werden, falls ein ganzer Absatz am Rand
+   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert „#mMM” (am Rand angestrichen) kann in das
+    Element <xmlelement>p</xmlelement> eingefügt werden, falls ein ganzer Absatz am Rand
     angestrichen ist.</p>
   </section>
  </body>
