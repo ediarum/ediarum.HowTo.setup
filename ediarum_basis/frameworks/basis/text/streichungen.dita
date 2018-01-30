@@ -38,10 +38,10 @@
    <p>Diese Art der Streichung ist zu unterscheiden von einer Streichung, die Textpassagen als
     „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>). </p>
    <p>Streichungen innerhalb einer bereits gestrichenen Passage werden ebenfalls
-     ausgezeichnet:<image placement="break" href="../../img_avhr/abb14.png" scale="60"
+     ausgezeichnet:</p><image placement="break" href="../../img_avhr/abb14.png" scale="60"
      align="center" id="image_evk_nst_2bb">
      <alt>Cuba, 142v „il leur est...“</alt>
-    </image></p>
+    </image>
     <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>
 <del rendition="#s">[...] il 
   <subst>

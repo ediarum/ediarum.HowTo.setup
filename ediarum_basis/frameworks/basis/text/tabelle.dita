@@ -14,10 +14,9 @@
  </section>
    <section product="avhr">
       <title>edition humboldt digital</title>
-      <p>Es wird zwischen expliziten und impliziten Tabellen unterschieden.</p>
+      <p>In der Edition wird zwischen expliziten und impliziten Tabellen unterschieden.</p>
       <p><b>Explizite Tabellen</b> sind erkennbar mit einem Tabellenraster angelegt worden. Sie
-        müssen als explizite Tabellen gekennzeichnet werden. Dazu steht in der ediarum-Autoransicht
-        im Kontextmenü der Befehl „Tabelle explizit gezeichnet“ zur Verfügung.</p>
+        müssen als explizite Tabellen gekennzeichnet werden. </p>
       <ul id="ul_nzr_qss_2bb" audience="editor">
         <li>Je nach Schriftbild müssen <b>Zeilenumbrüche</b> ergänzt werden. </li>
         <li>Enthält eine Tabelle eine <b>Überschrift</b> und/oder eine <b>Kopfzeile</b>, werden
@@ -148,7 +147,9 @@
        erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten (columns) angeben
        können. Mit der Schaltfläche kann die Tabelle jederzeit noch nachträglich verändert werden.</p>
      <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
-       Häkchen auf „ generate_table-header“.</p>
+        Häkchen auf „generate_table-header“.</p>
+      <p>Dazu steht in der ediarum-Autoransicht im Kontextmenü der Befehl „Tabelle explizit
+        gezeichnet“ zur Verfügung.</p>
    </section>
    <section>
      <title>Kodierung</title>

@@ -7,14 +7,16 @@
    <title>Allgemein</title>
    <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert.</p>
   </section>
-  <section audience="editor">
+  <section>
    <title>edition humboldt digital</title>
-   <p>Im Beispiel unten kommen alle drei Varianten von Zeilenumbrüchen vor. <ol id="ol_vdy_zks_2bb">
-     <li>Einfacher Zeilenumbruch</li>
-     <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
-     <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
-    </ol><b>Wichtig:</b> Punkte oder vermeintliche Anführungszeichen (auch doppelte Trennstriche) am
-    Zeilenende sind als Trennungszeichen zu behandeln.</p>
+   <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
+        unterschieden (im Beispiel unten kommen alle drei Varianten von Zeilenumbrüchen vor):<ol
+          id="ol_vdy_zks_2bb">
+          <li>Einfacher Zeilenumbruch</li>
+          <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
+          <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
+        </ol><b>Wichtig:</b> Punkte oder vermeintliche Anführungszeichen (auch doppelte
+        Trennstriche) am Zeilenende sind als Trennungszeichen zu behandeln.</p>
    <image placement="break" href="../../img_avhr/abb4-markierung.jpg" scale="60" align="center"
     id="image_vzy_vks_2bb">
     <alt>ART III, 2r</alt>
@@ -27,8 +29,8 @@
 <lb/>in Cumana zu verweilen. …]]></codeblock>
    <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
         <xmlelement>add</xmlelement>-Elements gesetzt, also nicht in Textergänzungen durch den
-        Autor. Muss man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich
-        setzen, ist darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss.
+        Autor. Muss der Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich
+        gesetzt werden, ist darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss.
           <b>Wichtig</b>: Das Trennungszeichen setzt sich in Möglichkeit 2 von selbst.</p>
   </section>
   <section audience="editor">

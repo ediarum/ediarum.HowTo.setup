@@ -17,8 +17,8 @@
         </section>        
         <section id="section_df1_dj2_bbb" audience="editor">
             <title>Bedienung</title>
-            <p>Links zu Digitalisaten, die <b>nicht</b> anhand folio- bzw. seitenweise verlinkt
-                werden sollen, können Sie über die Funktion „Digitalisat“ im Menü „Metadaten“ in der
+            <p>Links zu Digitalisaten, die <b>nicht</b> folio- bzw. seitenweise verlinkt werden
+                sollen, können Sie über die Funktion „Digitalisat“ im Menü „Metadaten“ in der
                 Werkzeugleiste verlinken. Für Verlinkungen anhand der Seitenstruktur nutzen Sie
                 bitte die Funktion „Folio- bzw. Seitenwechsel mit Link“.</p>
         </section>
@@ -27,7 +27,7 @@
             <p>Digitalisate ohne Bezug zur Seitenstruktur werden in /TEI/facsimlie mit einzelnen
                     <xmlelement>graphic</xmlelement>-Elementen notiert.</p>
             <codeblock outputclass="language-xml"><![CDATA[<facsimile>
-   <graphic url="http://bespielurl.com/image"/>
+   <graphic url="http://beispielurl.com/image"/>
 </facsimile>]]></codeblock>
         </section>
     </body>
