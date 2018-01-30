@@ -25,12 +25,11 @@
 <lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
 <lb break="no"/>catar aufzugeben, dachten wir nur wenige Wochen
 <lb/>in Cumana zu verweilen. …]]></codeblock>
-   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des <xmlelement>add</xmlelement>-Elements
-    gesetzt, also nicht in Textergänzungen durch den Autor.
-    <?oxy_comment_start author="lkirsten" timestamp="20170928T153328+0200" comment="unklar formuliert"?>Muss
-    man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich setzen, ist
-    darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss. <b>Wichtig</b>: Das
-    Trennungszeichen setzt sich in Möglichkeit 2 von selbst.<?oxy_comment_end?></p>
+   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
+        <xmlelement>add</xmlelement>-Elements gesetzt, also nicht in Textergänzungen durch den
+        Autor. Muss man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich
+        setzen, ist darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss.
+          <b>Wichtig</b>: Das Trennungszeichen setzt sich in Möglichkeit 2 von selbst.</p>
   </section>
   <section audience="editor">
    <title>Bedienung</title>

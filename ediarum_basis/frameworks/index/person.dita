@@ -262,14 +262,14 @@
             <tbody>
               <row>
                 <entry>genaue Lebensdaten</entry>
-                <entry>1769–-1859</entry>
+                <entry>1769–1859</entry>
                 <entry><codeph>&lt;birth>1769&lt;/birth> &lt;death>1859&lt;/death></codeph>
                 </entry>
               </row>
               <row>
                 <entry>ungefähre Jahresangabe (Geburtsjahr)</entry>
                 <entry>ca. 580–495 v. Chr.</entry>
-                <entry><codeph>&lt;birth>ca. 580&lt;/birth> &lt;death>1859&lt;/death></codeph>
+                <entry><codeph>&lt;birth>ca. 580&lt;/birth> &lt;death>495 v. Chr&lt;/death></codeph>
                 </entry>
               </row>
               <row>
@@ -375,17 +375,17 @@
               <row>
                 <entry>ungefähres Wirkungsjahr</entry>
                 <entry>um 1829</entry>
-                <entry><codeph>notBefore="1756" notAfter="1756"</codeph></entry>
+                <entry><codeph>notBefore="1829" notAfter="1829"</codeph></entry>
               </row>
               <row>
                 <entry>ungefährer Wirkungszeitraum</entry>
                 <entry>um 1829–1850</entry>
-                <entry><codeph>notBefore="1827" notAfter="1841"</codeph></entry>
+                <entry><codeph>notBefore="1829" notAfter="1850"</codeph></entry>
               </row>
               <row>
                 <entry>Datenlage schwankt zwischen zwei Wirkungsjahren</entry>
                 <entry>um 1829/1830</entry>
-                <entry><codeph>notBefore="1739" notAfter="1740"</codeph></entry>
+                <entry><codeph>notBefore="1829" notAfter="1830"</codeph></entry>
               </row>
               <row>
                 <entry/>

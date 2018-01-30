@@ -45,23 +45,23 @@
           id="image_kxx_ylh_hbb" scale="80"/></p>
   </section>
    <section audience="editor">
-     <title>Bedienung</title>
-     <p>Ein neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden: </p> 
-     <ol id="ol_rly_4fx_p1b">
-       <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
-         href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
-       <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-         platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
-         drückt.</li>
-       <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird der
-         Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
-     </ol>
-     <div id="test2178494">
-       <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ kann man den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
-         Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut <xmlatt>rendition</xmlatt>
-         mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
-     </div>
-   </section>
+      <title>Bedienung</title>
+      <p>Ein neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden:  </p>
+      <ol id="ol_rly_4fx_p1b">
+        <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
+            href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
+        <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
+          platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
+          drückt.</li>
+        <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird
+          der Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
+      </ol>
+      <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ kann man
+        den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
+        Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant
+        eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut
+          <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
+    </section>
    <section>
      <title>Kodierung</title>
      <p>Absätze werden mit dem Element <xmlelement>p</xmlelement> kodiert.</p>

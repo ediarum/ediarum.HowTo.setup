@@ -51,7 +51,7 @@
     eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
     Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
    <p>Der Verfasser der Anmerkung wird im Attribut <xmlatt>hand</xmlatt> notiert. Hier sind folgende
-    Werte möglich:<simpletable frame="all" relcolwidth="1.0* 4.0*" id="simpletable_uzp_ktv_jbb">
+    Werte möglich:</p><simpletable frame="all" relcolwidth="1.0* 4.0*" id="simpletable_uzp_ktv_jbb">
      <sthead>
       <stentry>Wert</stentry>
       <stentry>Definition</stentry>
@@ -70,9 +70,14 @@
      </strow>
      <strow>
       <stentry>[H000000]</stentry>
-      <stentry>Editionsinterne ID aus dem Personenregister</stentry>
+      <stentry>Editionsinterne ID aus dem Personenregister <p audience="editor"><b>Achtung</b>: Aus
+       technischen Gründen können die Personennamen derzeit nicht direkt aus dem Register bezogen
+       werden, sondern müssen im Transformations-Stylesheet (web/resources/xslt/transcription.xsl)
+       händisch eingetragen werden. Bearbeiter sollten weiterhin zum entsprechenden Registereintrag
+       verlinken, für das manuelle Nachtragen aber ein Ticket anlegen. </p></stentry>
      </strow>
-    </simpletable> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben: </p>
+    </simpletable>
+   <p> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben:</p>
    <simpletable id="table_pg1_ngn_my">
      <sthead>
        <stentry>Wert </stentry>
