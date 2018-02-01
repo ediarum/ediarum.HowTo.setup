@@ -6,7 +6,7 @@
  <section>
    <title>Allgemein</title>
    <p>In der Vorlage enthaltene Tabellen werden als solche transkribiert, dabei wird zwischen
-        expliziten Tabellen und impliziten unterschieden. Erstere sind vom Autor tatsächlich
+        expliziten  und impliziten Tabellen unterschieden. Erstere sind vom Autor tatsächlich
         gezeichnet; bei letzteren ist die Tabellenstruktur nur durch die Anordnung ihres Inhalts
         erkenntlich.</p>
    <p>Zu unterscheiden ist die Tabelle von <xref href="listen.dita#topic_trq_t1v_ty">listenartigen
@@ -14,14 +14,13 @@
  </section>
    <section product="avhr">
       <title>edition humboldt digital</title>
-      <p>In der Edition wird zwischen expliziten und impliziten Tabellen unterschieden.</p>
-      <p><b>Explizite Tabellen</b> sind erkennbar mit einem Tabellenraster angelegt worden. Sie
-        müssen als explizite Tabellen gekennzeichnet werden. </p>
+      <p><b>Explizite Tabellen</b> sind erkennbar mit einem Tabellenraster angelegt worden. Daher
+        werden sie im Kritischen Text sowie im Lesetext mit durchgehender Umrandung dargestellt.</p>
       <ul id="ul_nzr_qss_2bb" audience="editor">
-        <li>Je nach Schriftbild müssen <b>Zeilenumbrüche</b> ergänzt werden. </li>
+        <li>Je nach Schriftbild werden <b>Zeilenumbrüche</b> ergänzt. </li>
         <li>Enthält eine Tabelle eine <b>Überschrift</b> und/oder eine <b>Kopfzeile</b>, werden
           diese separat ausgezeichnet. </li>
-        <li><b>Wortzwischenräume</b> zu Beginn oder Ende einer Zelle können gestrichen werden</li>
+        <li><b>Wortzwischenräume</b> zu Beginn oder Ende einer Zelle werden nicht erfasst</li>
         <li>Striche, die als <b>Verbindungsstrich</b> zwischen zwei Werten in einer Zeile oder als
             <b>Wiederholungsstrich</b> einer Angabe zwischen zwei Zeilen dienen, werden einheitlich
           als Geviertstrich mit jeweils einem Wortzwischenraum dargestellt. </li>
@@ -64,13 +63,20 @@
     <cell>16,5.</cell>
   </row>
 … ]]></codeblock>
+      <?oxy_comment_start author="lkirsten" timestamp="20180201T181632+0100" comment="Sobald vorhanden, Screenshot mit Header ergänzen
+"?>
+      <image placement="break" href="../../img_avhr/abb6-web.JPG" align="center"
+        id="image_cfm_xqn_scb" scale="70">
+        <alt>ART III, 54v - Webansicht (Kritischer Text)</alt>
+      </image>
+      <?oxy_comment_end?>
       <p><b>Implizite Tabellen</b> sind jegliche Art von strukturierten Auflistungen, Messreihen und
-        Rechnungen. Diese Textphänomene werden im <xmlelement>table/</xmlelement>-Element erfasst, um
-        die ihnen zugrundeliegenden Daten sichtbar zu strukturieren und die Darstellbarkeit im Web
-        zu verbessern. Tabellenüberschriften oder Kopfzeilen werden in impliziten Tabellen nicht
+        Rechnungen. Diese Textphänomene werden im <xmlelement>table/</xmlelement>-Element erfasst,
+        um die ihnen zugrundeliegenden Daten sichtbar zu strukturieren und die Darstellbarkeit im
+        Web zu verbessern. Tabellenüberschriften oder Kopfzeilen werden in impliziten Tabellen nicht
         ausgezeichnet.</p>
       <p>Auf Grundlage des semantischen Gehalts sowie des Schriftbildes der Vorlage wird festgelegt,
-        ob eine Textstelle als <b>Liste oder  implizite Tabelle</b> erfasst wird:</p>
+        ob eine Textstelle als <b>Liste oder implizite Tabelle</b> erfasst wird:</p>
       <p>
         <ul id="ul_qgp_3hg_jbb">
           <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird
@@ -141,15 +147,19 @@
     </section>
    <section>
      <title>Bedienung</title>
-     <p>Über das Menü mit dem Symbol <image href="../../img/table.jpg"/> in der Werkzeugleiste 
-       lassen sich Tabellen erstellen und bearbeiten. So können
-       weitere Zeilen und Spalten hinzugefügen bzw. gelöschen werden. Wenn Sie eine Tabelle erstellen,
-       erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten (columns) angeben
-       können. Mit der Schaltfläche kann die Tabelle jederzeit noch nachträglich verändert werden.</p>
-     <p>Wenn in der ersten Zeile Überschriften für die Spalten notiert werden sollen, setzen Sie das
-        Häkchen auf „generate_table-header“.</p>
-      <p>Dazu steht in der ediarum-Autoransicht im Kontextmenü der Befehl „Tabelle explizit
-        gezeichnet“ zur Verfügung.</p>
+     <p>Über das Menü mit dem Symbol <image href="../../img/table.jpg" id="image_mrd_nmn_scb"/> in
+        der Werkzeugleiste lassen sich Tabellen erstellen und bearbeiten. Wenn Sie eine Tabelle
+        erstellen, erscheint ein Fenster, in dem Sie die Anzahl der Zeilen (rows) und Spalten
+        (columns) angeben können. Wenn in der ersten Zeile Überschriften für die Spalten notiert
+        werden sollen, setzen Sie das Häkchen auf „generate_table-header“. Mit der Schaltfläche
+          <image href="../../img/table.jpg" id="image_ig1_xmn_scb"/>  kann die Tabelle jederzeit
+        noch nachträglich verändert, d.h. weitere Zeilen und Spalten hinzugefügt, bzw. gelöscht
+        werden. </p>
+      <p>Wird eine neue Tabelle erstellt, ist diese zunächst nicht als explizit ausgezeichnet und
+        erscheint im Autormodus mit gestrichelter Umrandung. Zur Kennzeichnung als explizite Tabelle
+        sollte der Cursor an irgendeine Stelle in der Tabelle gesetzt und per Rechtsklick im
+        Kontextmenü der Befehl „Tabelle explizit gezeichnet“ ausgewählt werden - daraufhin ändert
+        sich die Umrandung zur durchgehenden Linie. </p>
    </section>
    <section>
      <title>Kodierung</title>

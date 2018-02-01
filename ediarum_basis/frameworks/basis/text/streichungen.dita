@@ -69,9 +69,9 @@ très [...]</del>
     ausgezeichnet (in folgendem Kodierbeispiel wurde die Auszeichnung der Eigennamen nicht
     berücksichtigt):</p>
    <codeblock outputclass="language-xml"><![CDATA[<p>
-<del rendition="#s">Von Aletris arborea Willd. (Dracaena<lb/>
-arborea Link ist spa wird später<lb/>
-in der Note zu pag. 247 die Rede sein.</del>]]>
+<del rendition="#s">Von Aletris arborea Willd. (Dracaena
+<lb/>arborea Link) ist spa wird später
+<lb/>in der Note zu pag. 247 die Rede sein.</del>]]>
 &lt;/p></codeblock>
    <image placement="break" href="../../img_avhr/streichung-web.jpg" id="image_a4n_gst_qcb"
     align="center">

@@ -13,7 +13,7 @@
       <p>Auf Grundlage des semantischen Gehalts sowie des Schriftbildes der Vorlage wird festgelegt,
         ob eine Textstelle als <b>Liste oder implizite Tabelle</b> erfasst wird:</p><ul
         id="ul_qgp_3hg_jbb">
-        <li>eine Liste, deren Zeile keine oder kaum Aufteilung ihrer Inhalte enthalten, wird anhand
+        <li>eine Liste, deren Zeilen keine oder kaum Aufteilung ihrer Inhalte enthalten, wird anhand
           des <xmlelement>list/</xmlelement>-Elements ausgezeichnet.</li>
       </ul><image placement="break" href="../../img_avhr/liste.jpg" align="center"
         id="image_bqj_b3n_jbb" scale="70">
