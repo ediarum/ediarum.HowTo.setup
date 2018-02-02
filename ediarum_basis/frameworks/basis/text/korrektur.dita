@@ -16,16 +16,32 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <p>Beispiel:</p>
+   <ul id="ul_k3y_wpt_scb">
+    <li>Durchstreichung und Ersetzung ganzer Wörter:</li>
+   </ul>
    <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
     id="image_uk4_4vt_2bb">
     <alt>Brief AvH an Meyen, nach 1834</alt>
    </image>
-   <fig id="fig_s2h_lxx_rcb">
-    <title>George Arnott Walker-Arnott an AvH, 15.03.1825</title>
+   <codeblock outputclass="language-xml"><![CDATA[Buchhändler in 
+ <subst>
+  <del rendition="#s">Berl</del> 
+  <add place="intralinear">Paris</add>
+ </subst> 
+giebt,]]></codeblock>
+   <p>
+    <ul id="ul_pnf_xpt_scb">
+     <li>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</li>
+    </ul>
+   </p>
     <image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
-     id="image_t2h_lxx_rcb"/>
-   </fig>
+     id="image_t2h_lxx_rcb"><alt>George Arnott Walker-Arnott an AvH, 15.03.1825</alt></image>
+   <codeblock><![CDATA[Believe me Sir yours Sincer
+ <subst>
+  <del rendition="#ow">ely</del>
+  <add place="across">e</add>
+ </subst>
+ <lb/>& very Humble ...]]></codeblock>
   </section>
   <section audience="editor">
    <title>Bedienung</title>

@@ -8,8 +8,8 @@
    <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert. </p>
   </section>
   <section>
-   <title>edition humboldt digital</title>
-   <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
+      <title>edition humboldt digital</title>
+      <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
         unterschieden (im ersten Beispiel kommen alle drei Varianten von Zeilenumbrüchen vor):<ol
           id="ol_vdy_zks_2bb">
           <li>Einfacher Zeilenumbruch</li>
@@ -18,11 +18,11 @@
         </ol>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
         vermeintliche Anführungszeichen (auch doppelte Trennstriche) am Zeilenende in Erscheinung
         treten. </p>
-   <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60" align="center"
-        id="image_vzy_vks_2bb">
+      <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60"
+        align="center" id="image_vzy_vks_2bb">
         <alt>ART III, 2r</alt>
       </image>
-   <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
+      <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
 <lb break="no"/>artigen Fibern zwangen, die Capuciner Missionen
 <lb/>am Guarapiche zu verlassen u. die Reise nach Caru<g ref="#typoHyphen"/>
 <lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
@@ -40,10 +40,11 @@
         id="image_xcs_wtl_scb">
         <alt>ART III, 2r - Webansicht (Lesetext)</alt>
       </image>
-   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
+      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
         <xmlelement>add</xmlelement>-Elements gesetzt, also nicht in Textergänzungen durch den
-        Autor. </p>
-  </section>
+        Autor. <?oxy_custom_end?></p>
+    </section>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Der Zeilenbeginn kann über das Menü mit dem Symbol <image href="../../img/lb16.gif"

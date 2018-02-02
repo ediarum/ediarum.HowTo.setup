@@ -10,17 +10,19 @@
   <section product="avhr">
       <title>edition humboldt digital</title>
       <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
-        werden in der Transkription anhand neuer Absätze abgebildet.
-        <?oxy_comment_start author="lkirsten" timestamp="20180201T104528+0100" comment="Beispiele für inhaltliche Kriterien? 
-"?>In
-        Zweifelsfällen wird nach inhaltlichen Kriterien entschieden.<?oxy_comment_end?></p>
+        werden in der Transkription anhand neuer Absätze abgebildet. </p>
+      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <p>Es kommt vor, dass ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
+        unterschieden werden kann von einem Zeilenende, dass zugleich einen Absatz abschließt. In
+        diesen Fällen werden inhaltliche Kriterien, wie etwa ein mögliches Satzende, herangezogen.
+        <?oxy_custom_end?></p>
       <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
       <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center"
         id="image_klm_jlh_hbb">
         <alt>RST I, 7r</alt>
       </image>
       <p>Im XML-Code werden Absätze innerhalb des <xmlelement>p</xmlelement>-Elementes kodiert (das
-        folgende Beispiel berücksichtigt nur die Textphänomene Absatz und Zeilenumbruch):</p> 
+        folgende Beispiel berücksichtigt nur die Textphänomene Absatz und Zeilenumbruch):</p>
       <codeblock outputclass="language-xml"><![CDATA[<p> 
   … 
   <lb/>Madeweiss. Gehülfe Anger. Jacobi
