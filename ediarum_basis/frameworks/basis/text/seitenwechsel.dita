@@ -11,44 +11,47 @@
         Folium gesetzt werden. Existiert in der Vorlage eine weitere Seiten- bzw. Blattzählung (etwa
         durch den Autor selbst vorgenommen), wird diese zusätzlich zur Foliierung notiert.</p>
   </section>
-  <section id="section_wtf_kq2_bbb">
-   <title>edition humboldt digital</title>
-   <p>Bei den Reisetagebüchern wird zwingend die sowjetische Foliierung mit recto- und verso-Zählung
-    (1r, 1v, usw.) übernommen. In Zweifelsfällen wird sich (im Fall von ART) an den Angaben der SBB
-    orientiert, wobei nicht die Scanseite („[9]“) sondern die der Foliierung ausschlaggebend ist.
-    Die SBB benutzt hierfür den etwas ungenauen Begriff „Druckseite“.<image
-     href="../img/sbb_seitenzahlen.png" id="image_svg_1r2_bbb" width="350"/></p>
-   <p>Bei vielen Nachlassbeständen ist keine Foliierung durch das bestandshaltende Archiv
-    vorgegeben, hier wird nach folgenden Regeln die Foliierung notiert:</p>
-   <ul id="ul_vnh_fr2_bbb">
-    <li>Es werden Blätter, nicht Seiten, gezählt (1r, 1v anstelle von 1, 2)</li>
-    <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument orientiert
-          – das folgende Beispiel hat somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt<fig
-            id="fig_p3t_m2g_jbb">
-            <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb"
-              scale="70">
-              <alt>Humboldt an Meyen, vor 22. August 1834, Innenseite</alt>
-            </image>
-            <image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb"
-              scale="70">
-              <alt>Humboldt an Meyen, vor 22. August 1834, Außenseite</alt>
-            </image>
-          </fig></li>
-    <li>Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene
-     Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
-     behalten)</li></ul>
-     <p><b>Leere Seiten</b> werden als <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty"
-          >Auslassung</xref> mithilfe des <xmlelement>gap</xmlelement>-Elements erfasst. Im oberen
-        Textauszug beginnt Humboldt auf der ersten Innenseite (1v) mit dem Brief. Die erste Seite
-        des Dokuments (1r) wird dementsprechend als leere Seite ausgezeichnet. <b>Zerstörte oder
-          verlorene Seiten</b> werden auf gleiche Weise im <xmlelement>gap</xmlelement>-Element
-        erfasst. Dies betrifft Seiten oder Blätter, die entnommen und uns nicht bekannt sind. Jede
-        leere, bzw. fehlende Seite, auch aufeinanderfolgende, werden einzeln in separaten
-          <xmlelement>gap</xmlelement>-Elementen erfasst, um die Foliierung korrekt festzuhalten. </p>   
-   <p>
-        <b>Humboldts Paginierung</b> wird als „Weitere Seiten- und Blattzählung” zusätzlich
-        wiedergegeben.</p>
-  </section>
+  <section id="section_wtf_kq2_bbb"><title>edition humboldt digital</title><p>Für die Bearbeitung
+        der Reisetagebücher wird zwingend die sowjetische Foliierung der Vorlage mit recto- und
+        verso-Zählung (1r, 1v, usw.) übernommen. In Zweifelsfällen (wie etwa den Amerikanischen
+        Reisetagebüchern) wird sich an der Foliierung der Staatsbibliothek zu Berlin orientiert, die
+        in der Werkansicht der Digitalisierten Sammlungen als „Druckseite“ bezeichnet wird (im
+        Gegensatz zur physischen „Scanseite“).</p><p>
+        <image placement="break" href="../../img_avhr/seitenwechsel-markierung.jpg" scale="90"
+          align="center" id="image_fcm_xcn_scb">
+          <alt>Foliierung „5r“ in der Werkansicht der Digitalisierten Sammlungen der SBB
+            (http://resolver.staatsbibliothek-berlin.de/SBB00019EF200000000, 1.02.2018)</alt>
+        </image>
+      </p><p>Bei vielen Nachlassbeständen ist keine Foliierung durch das bestandshaltende Archiv
+        vorgegeben, in diesen Fällen wird die Foliierung nach folgenden Regeln  notiert:</p><ul
+        id="ul_vnh_fr2_bbb">
+        <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2)</li>
+        <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument
+          orientiert – im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1
+          Blatt gezählt:</li>
+      </ul><fig id="fig_p3t_m2g_jbb">
+        <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb" scale="70"
+          align="center">
+          <alt>Humboldt an Meyen, vor 22. August 1834, Innenseite</alt>
+        </image>
+        <image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb" scale="70"
+          align="center">
+          <alt>Humboldt an Meyen, vor 22. August 1834, Außenseite</alt>
+        </image>
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      </fig>Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene
+      Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
+          behalten)<?oxy_custom_end?><p><b>Leere Seiten</b> werden als <xref
+          href="nicht_lesbar.dita#topic_gfh_yfv_ty">Auslassung</xref> mithilfe des
+          <xmlelement>gap</xmlelement>-Elements erfasst. Im oberen Textauszug beginnt Humboldt auf
+        der ersten Innenseite (1v) mit dem Brief. Die erste Seite des Dokuments (1r) wird
+        dementsprechend als leere Seite ausgezeichnet. <b>Zerstörte oder verlorene Seiten</b> werden
+        auf gleiche Weise im <xmlelement>gap</xmlelement>-Element erfasst. Dies betrifft Seiten oder
+        Blätter, die entnommen und den BearberiterInnen nicht bekannt sind. Jede leere, bzw.
+        fehlende Seite, auch aufeinanderfolgende, werden einzeln in separaten
+          <xmlelement>gap</xmlelement>-Elementen erfasst, um die Foliierung korrekt festzuhalten.
+        </p><p> Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
+        wiedergegeben.</p></section>
   <section id="section_hz5_ll2_bbb" audience="editor">
    <title>Bedienung</title>
    <p>Für die Notierung von Seiten- und Foliaangaben stehen in ediarum drei Funktionen in der

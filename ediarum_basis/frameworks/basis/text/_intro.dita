@@ -24,16 +24,17 @@
                     id="image_czf_vhj_wx"/><image href="../../img/foreign16.gif" id="image_sv1_xhj_wx"/>
             <image href="../../img/index.gif" id="image_oyj_jls_2y"/>
             <image href="../../img/names.gif" id="image_xf2_d3j_wx"/></p>
-        <p>In den beiden Unterkapiteln werden die Funktionen der ediarum-Arbeitsumgebung  erklärt, die zur
-            Transkription zu Verfühung stehen. Dabei werden die Funktionen entsprechend aufgeteilt nach
-            Textauszeichungen des Auors bzw. der Autorin und der/des HerausgeberIn. Die Funktionen können Sie
-            nutzen, indem Sie die jeweilige Schaltfläche benutzen. Die Erklärungen dienen zum einen dazu,
-            dass Sie die Funktionen genauer kennenlernen und die Schaltflächen benutzen können. Zum anderen
-            geben die Erklärungen einen Einblick in den <xref href="../../../introduction/xml.dita"
-                >XML-Text</xref> des Dokuments. Die Schaltflächen werden in der <xref
-                    href="../../../operation/ansichten.dita">Autoren-Ansicht</xref> verwendet. Die Markierungen, die
-            Sie mithilfe der Schaltflächen vornehmen, speichert das eigentliche XML-Dokument in einem
-            XML-Code, den Sie in der Text-Ansicht sehen können und in den Unterkapiteln erklärt wird.</p>
+        <p>In den beiden Unterkapiteln werden die Funktionen der ediarum-Arbeitsumgebung erklärt,
+            die zur Transkription zur Verfügung stehen. Dabei werden die Funktionen entsprechend
+            aufgeteilt nach Textauszeichungen des Auors bzw. der Autorin und der/des HerausgeberIn.
+            Die Funktionen können Sie nutzen, indem Sie die jeweilige Schaltfläche benutzen. Die
+            Erklärungen dienen zum einen dazu, dass Sie die Funktionen genauer kennenlernen und die
+            Schaltflächen benutzen können. Zum anderen geben die Erklärungen einen Einblick in den
+                <xref href="../../../introduction/xml.dita">XML-Text</xref> des Dokuments. Die
+            Schaltflächen werden in der <xref href="../../../operation/ansichten.dita"
+                >Autoren-Ansicht</xref> verwendet. Die Markierungen, die Sie mithilfe der
+            Schaltflächen vornehmen, speichert das eigentliche XML-Dokument in einem XML-Code, den
+            Sie in der Text-Ansicht sehen können und in den Unterkapiteln erklärt wird.</p>
         <p/>
     </body>
 </topic>

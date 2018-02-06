@@ -16,22 +16,20 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-     Manuskriptseite.<image placement="break" href="../../img_avhr/abb10-markierung.jpg"
+     Manuskriptseite.</p><image placement="break" href="../../img_avhr/abb10-markierung.jpg"
      align="center" id="image_zpy_1bg_hbb" scale="80">
      <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
-    </image></p>
-   <p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung werden erfasst.<image
+    </image>
+   <p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung werden erfasst.</p><image
      placement="break" href="../../img_avhr/abb11.png" scale="70" align="center"
      id="image_b3h_zys_2bb">
      <alt>ART I, 19r</alt>
-    </image></p>
+    </image> 
    <p audience="editor">Anmerkungen werden dort gesetzt, wo sie im Text (offensichtlich oder
-    editorisch vertretbar) hingehören.  Wenn sich dieser Punkt nicht eindeutig bestimmen lässt, kann
-    es nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p>
+    editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig bestimmen lässt,
+    können sie nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p>
    <p audience="editor"><b>Zeilenumbrüche</b> werden auch in Anmerkungen erfasst, nicht jedoch in
-    Ergänzungen (da diese in der Webansicht unmittelbar in den Fließtext eingefügt werden).</p>
-   <p>In der Textauszeichnung wird bei <b>Nebenrechnungen</b> vom Schriftbild der Vorlage
-    abgewichen. Im Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>        
+    Ergänzungen (da diese in der Webansicht unmittelbar in den Fließtext eingefügt werden).</p>        
   </section>
   <section audience="editor">
    <title>Bedienung</title>

@@ -8,42 +8,44 @@
     <p>Absätze werden getreu der Vorlage ausgezeichnet.</p>
   </section>
   <section product="avhr">
-   <title>edition humboldt digital</title>   
-   <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript werden
-        durch ein neues <xmlelement>p</xmlelement>-Element abgebildet. In Zweifelsfällen wird nach
-        inhaltlichen Kriterien entschieden. </p>
-   <p>Im folgenden Beispiel liegen drei Absätze vor:<image placement="break"
-          href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center" id="image_klm_jlh_hbb">
-          <alt>RST I, 7r</alt>
-        </image>
-        <codeblock outputclass="language-xml"><![CDATA[<p> 
+      <title>edition humboldt digital</title>
+      <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
+        werden in der Transkription anhand neuer Absätze abgebildet. </p>
+      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <p>Es kommt vor, dass ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
+        unterschieden werden kann von einem Zeilenende, dass zugleich einen Absatz abschließt. In
+        diesen Fällen werden inhaltliche Kriterien, wie etwa ein mögliches Satzende, herangezogen.
+        <?oxy_custom_end?></p>
+      <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
+      <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center"
+        id="image_klm_jlh_hbb">
+        <alt>RST I, 7r</alt>
+      </image>
+      <p>Im XML-Code werden Absätze innerhalb des <xmlelement>p</xmlelement>-Elementes kodiert (das
+        folgende Beispiel berücksichtigt nur die Textphänomene Absatz und Zeilenumbruch):</p>
+      <codeblock outputclass="language-xml"><![CDATA[<p> 
   … 
   <lb/>Madeweiss. Gehülfe Anger. Jacobi
   <lb/>Nicolovius.
 </p>
 <p>
-  Sarkau, 18ter 
-    <choice>
-      <abbr>Apr.</abbr>
-      <expan>April</expan>
-    </choice>
-  Nachts 
+  Sarkau, 18ter Apr. Nachts 
 </p>
 <p>
-  Sandkrug 19ter 
-    <choice>
-     <abbr>Ab.</abbr>
-     <expan>Abends</expan>
-    </choice>–22ter 
-    <choice>
-      <abbr>Apr.</abbr>  
-      <expan>April</expan>
-    </choice>
-  Süß
-  …
-</p>]]></codeblock><image placement="break" href="../../img_avhr/abb3-web.jpg" align="center"
-          id="image_kxx_ylh_hbb" scale="80"/></p>
-  </section>
+  Sandkrug 19ter Ab.–22ter Apr. Süß
+  <lb/> …
+</p>]]></codeblock>
+      <p>In der Webansicht werden Absätze im Gegensatz zu Zeilenumbrüchen sowohl im Kritischen als
+        auch im Lesetext dargestellt:</p>
+      <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" align="center"
+        id="image_kxx_ylh_hbb" scale="70">
+        <alt>RST I, 7r - Webansicht (Kritischer Text)</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" align="center"
+        id="image_e34_bml_scb">
+        <alt>RST I, 7r - Webansicht (Lesetext)</alt>
+      </image>
+    </section>
    <section audience="editor">
       <title>Bedienung</title>
       <p>Ein neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden:  </p>

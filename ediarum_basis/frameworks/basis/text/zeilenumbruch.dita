@@ -5,46 +5,68 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert.</p>
+   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert. </p>
   </section>
-  <section audience="editor">
-   <title>edition humboldt digital</title>
-   <p>Im Beispiel unten kommen alle drei Varianten von Zeilenumbrüchen vor. <ol id="ol_vdy_zks_2bb">
-     <li>Einfacher Zeilenumbruch</li>
-     <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
-     <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
-    </ol><b>Wichtig:</b> Punkte oder vermeintliche Anführungszeichen (auch doppelte Trennstriche) am
-    Zeilenende sind als Trennungszeichen zu behandeln.</p>
-   <image placement="break" href="../../img_avhr/abb4-markierung.jpg" scale="60" align="center"
-    id="image_vzy_vks_2bb">
-    <alt>ART III, 2r</alt>
-   </image>
-   <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
+  <section>
+      <title>edition humboldt digital</title>
+      <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
+        unterschieden (im ersten Beispiel kommen alle drei Varianten von Zeilenumbrüchen vor):<ol
+          id="ol_vdy_zks_2bb">
+          <li>Einfacher Zeilenumbruch</li>
+          <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
+          <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
+        </ol>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
+        vermeintliche Anführungszeichen (auch doppelte Trennstriche) am Zeilenende in Erscheinung
+        treten. </p>
+      <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60"
+        align="center" id="image_vzy_vks_2bb">
+        <alt>ART III, 2r</alt>
+      </image>
+      <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
 <lb break="no"/>artigen Fibern zwangen, die Capuciner Missionen
 <lb/>am Guarapiche zu verlassen u. die Reise nach Caru<g ref="#typoHyphen"/>
 <lb break="no"/>pano u. dem Vulcan (der Solfatara) von Cuma<g ref="#typoHyphen"/>
 <lb break="no"/>catar aufzugeben, dachten wir nur wenige Wochen
 <lb/>in Cumana zu verweilen. …]]></codeblock>
-   <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
+      <p>In der Webansicht wird im Kritischen Text ein Trennungszeichen nur dann abgebildet, wenn es
+        auch im Schriftbefund vorhanden ist – dargestellt werden alle verschiedenen Trennungszeichen
+        anhand des Trennungsstriches (-).</p>
+      <image placement="break" href="../../img_avhr/abb4-webkrit.JPG" scale="70" align="center"
+        id="image_x5t_rtl_scb">
+        <alt>ART III, 2r - Webansicht (Kritischer Text)</alt>
+      </image>
+      <p> Im Lesetext sind die Zeilenumbrüche der Textvorlage nicht enthalten.</p>
+      <image placement="break" href="../../img_avhr/abb4-weblese.JPG" scale="70" align="center"
+        id="image_xcs_wtl_scb">
+        <alt>ART III, 2r - Webansicht (Lesetext)</alt>
+      </image>
+      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <p><b>Ausnahme</b>: Zeilenumbrüche werden nicht innerhalb des
         <xmlelement>add</xmlelement>-Elements gesetzt, also nicht in Textergänzungen durch den
-        Autor. Muss man den Zeilenumbruch mit Silbentrennung und/ohne Trennungszeichen nachträglich
-        setzen, ist darauf zu achten, dass der Trennvorgang neu vorgenommen werden muss.
-          <b>Wichtig</b>: Das Trennungszeichen setzt sich in Möglichkeit 2 von selbst.</p>
-  </section>
+        Autor. <?oxy_custom_end?></p>
+    </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Der Zeilenbeginn kann über das Menü mit dem Symbol <image href="../../img/lb16.gif" id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt werden.</p>
-   <p>In der Werkzeugleiste stehen neben dem normalen Zeilenbeginn auch zwei Funktionen zur Verfügung mit denen ein Zeilenbeginn eingefügt wird,
-   der ein Wort trennt (einmal mit Trennzeichen, einmal ohne).</p>
+   <p>Der Zeilenbeginn kann über das Menü mit dem Symbol <image href="../../img/lb16.gif"
+          id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt
+        werden. Wird er nicht während der Transkription, sondern im bereits bestehenden Text
+        eingefügt, muss der Cursor vor das erste Wort der neuen Zeile gesetzt und dann die
+        entsprechende Funktion ausgeführt werden. </p>
+   <p>In der Werkzeugleiste stehen neben dem einfachen „Zeilenumbruch“ auch die Funktionen
+        „Zeilenumbruch mit Trennungszeichen“ und „Zeilenumbruch im Wort“ zur Verfügung, mit denen
+        ein Zeilenbeginn eingefügt wird, der ein Wort trennt (einmal mit Trennzeichen, einmal ohne).
+        Trennungszeichen werden anhand der Funktion „Zeilenumbruch mit Trennungszeichen“ gesetzt und
+          <u>sollten nicht manuell eingefügt werden</u>. </p>
   </section>
   <section> 
    <title>Kodierung</title>
    <p>Ein Zeilenumbruch in der Vorlage wird mit einem (leeren) Element <xmlelement>lb/</xmlelement>
     (line beginning) kodiert. Dabei wird das Element <xmlelement>lb/</xmlelement> wie in den TEI
     Guidelines vorgeschrieben genutzt, nämlich als Zeilen<i>beginn</i>.</p>
-   <p>Wenn der Zeilenumbruch innerhalb eines Wortes erfolgt, wird mit das Attribut
-     <xmlatt>break</xmlatt> mit dem Wert <codeph>"no"</codeph> gesetzt. Ein eventuell vorhandenes Trennzeichen wird
-    mit der Kodierung <codeph><![CDATA[<g ref="#typoHyphen"/>]]></codeph> erfasst.</p>
+   <p>Wenn der Zeilenumbruch innerhalb eines Wortes erfolgt, wird das Attribut
+          <xmlatt>break</xmlatt> mit dem Wert <codeph>"no"</codeph> gesetzt. Ein eventuell
+        vorhandenes Trennzeichen wird mit der Kodierung
+          <codeph><![CDATA[<g ref="#typoHyphen"/>]]></codeph> erfasst.</p>
    <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock></section>
  </body>
  <related-links>
