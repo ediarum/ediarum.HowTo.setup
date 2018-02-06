@@ -8,11 +8,10 @@
    Eintrag referieren könnnen. Außerdem erscheint beim Anlegen eines neuen Eintrags ein
    Dialogfenster, in dem Sie schon den Vor-und Nachnamen des Autoren und den Titel der Publikation
    eingeben können. </p>
-  <p>Die Angaben, die den Autoren betreffen, werden in einem <xmlelement>auhor</xmlelement>-Element
-   notiert. Dabei werden Angaben zum Namen in einem <xmlelement>persName</xmlelement>-Element notiert,
-   wobei der Vorname in einem <xmlelement>forename</xmlelement>-Element und der Nachname in einem
-    <xmlelement>surname</xmlelement>-Element angegeben wird.
-   <codeblock outputclass="language-xml"><![CDATA[<bibl xml:id="ed_sfz_tqr_5x">
+  <p>Die Angaben, die den Autoren betreffen, werden in einem <xmlelement>author</xmlelement>-Element
+   notiert. Dabei werden Angaben zum Namen in einem <xmlelement>persName</xmlelement>-Element
+   notiert, wobei der Vorname in einem <xmlelement>forename</xmlelement>-Element und der Nachname in
+   einem <xmlelement>surname</xmlelement>-Element angegeben wird. <codeblock outputclass="language-xml"><![CDATA[<bibl xml:id="ed_sfz_tqr_5x">
    <author role="translation">
       <persName key="ed_bkf_zlr_5x">
          <surname>Apell</surname>
