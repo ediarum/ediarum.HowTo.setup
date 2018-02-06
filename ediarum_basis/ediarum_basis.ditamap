@@ -64,7 +64,7 @@
             <topicref href="frameworks/basis/text/verweise.dita"/> 
             <topicref href="frameworks/basis/text/datum.dita"/> 
             <topicref href="frameworks/basis/text/fremdsprache.dita"/> 
-            <topicref href="frameworks/basis/text/textstellen.dita"/> 
+            <!--<topicref href="frameworks/basis/text/textstellen.dita"/> -->
             <topicref href="frameworks/basis/text/namen_kennzeichnen.dita"/>
         </topicref>
         <topicref href="frameworks/basis/symbole.dita"/>
