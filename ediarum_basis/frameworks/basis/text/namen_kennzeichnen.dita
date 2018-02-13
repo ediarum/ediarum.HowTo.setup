@@ -13,10 +13,25 @@
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
-   <p><b>Personen-, Orts- und Einrichtungsnamen sowie Werktitel</b> werden konsequent in allen
-    Textsorten (Tagebüchern, Nachlassmanuskripten, Briefen) gekennzeichnet – in allen Instanzen, in
-    denen Person, Ort, Institution oder Werk genannt werden. In Sachkommentaren und in
-    Chronologie-Ereignissen wird hingegen nur die Ersterwähnung ausgezeichnet.</p>
+   <p>Es werden konsequent in allen Textsorten folgende Eigennamen gekennzeichnet und zu einem
+    entsprechenden <xref href="../../index/Register.dita#concept_abb_p5q_gy">Registereintrag</xref>
+    verlinkt:</p>
+   <p>
+    <ul id="ul_cbj_tgv_vcb">
+     <li>Personen</li>
+     <li>Orte</li>
+     <li>Institutionen</li>
+     <li>Werktitel (<i>nicht in der Chronologie</i>)</li>
+    </ul>
+   </p>
+   <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Eigennamen
+    ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die
+    Ersterwähnung.</p>
+   <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Personen-, Orts- und
+     Einrichtungsnamen sowie Werktitel</b> werden konsequent in allen Textsorten  gekennzeichnet –
+    in allen Instanzen, in denen Person, Ort, Institution oder Werk genannt werden. In
+    Sachkommentaren und in Chronologie-Ereignissen wird hingegen nur die Ersterwähnung
+    ausgezeichnet.<?oxy_custom_end?></p>
    <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („in der Umgebung des Königs [FW III]“)
     werden ausgezeichnet. Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name
     ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der
