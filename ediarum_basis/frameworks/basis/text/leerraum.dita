@@ -1,40 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_vvj_cjl_qbb">
-  <title>Leere Seiten und Leerraum</title>
+  <title>Leerraum</title>
   <body>
     <section>
       <title>Allgemein</title>
-      <p>Leere Seiten und semantisch bedeutsamer Leerraum in der Vorlage können ausgezeichnet werden.</p>
-      <p>Zu unterscheiden sind zum einen leere Seiten von <xref
-          href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref> und zum anderen
-        Leerraum von <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den
-          Herausgeber</xref>.</p>
+      <p>Semantisch bedeutsamer Leerraum in der Vorlage kann ausgezeichnet werden. Leerräume sind
+        zum einen zu unterscheiden von <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen
+          durch den Herausgeber</xref> und zum anderen von <xref
+          href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> sowie <xref
+          href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>.</p>
     </section>
     <section audience="editor">
-      <title>Bedienung</title>  
-      <p>Um leere Seiten zu vermerken, sind in der ediarum-Autoransicht folgende Arbeitsschritte notwendig:</p>
-      <ul id="ul_igj_pdt_gbb">
-        <li>Cursor <i>hinter</i> den Seitenwechsel (<xmlelement>pb/</xmlelement>) setzen</li>
-        <li>Klick auf die Schaltfläche „Gar nicht lesbare Wörter im Text“, dann Auswahl: <ul
-          id="ul_zvf_4dt_gbb">
-          <li>Einheit: Seite</li>
-          <li>Anzahl: 1</li>
-          <li>Grund für die Lücke: Leerraum, bzw. Zerstörung/Verlust</li>
-        </ul></li>
-      </ul>
+      <title>Bedienung</title>
     </section>
     <section>
       <title>Kodierung</title>
-      <p>Leere Seiten werden durch das (leere) Element <xmlelement>gap/</xmlelement> ausgezeichnet; es steht direkt nach dem vorangehenden 
-        Seitenwechsel (<xmlelement>pb/</xmlelement>). Die beiden Attribute <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> des Elements <xmlelement>gap/</xmlelement> werden auf den Wert
-        <codeph>"pages"</codeph> bzw. <codeph>"1"</codeph> gesetzt. Das Attribut <xmlatt>reason</xmlatt> enthält den Wert <codeph>"empty"</codeph>. Mehrere leere Seiten hintereinander werden einzeln kodiert.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<pb n="132v"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
-      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
-          href="nicht_lesbar.dita#topic_gfh_yfv_ty">zerstörte oder unleserliche Textstellen</xref>
-        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch den
-        Herausgeber.</p>
-      <p><b>Semantisch bedeutsamer Leerraum</b> im Dokument kann mit Hilfe des (leeren) Elements
+      <p>Semantisch bedeutsamer Leerraum im Dokument kann mit Hilfe des (leeren) Elements
           <xmlelement>space</xmlelement> kodiert werden. Dabei zeigt das Attribut
           <xmlatt>dim</xmlatt> an, ob es sich um horizontalen oder vertikalen Leerraum handelt. </p>   
     </section> 

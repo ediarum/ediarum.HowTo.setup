@@ -12,18 +12,19 @@
     bilden.</p>
   </section>
    <section>
-   <title>edition humboldt digital</title>
-   <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-     Manuskriptseite.<image placement="break" href="../../img_avhr/abb10-markierung.jpg"
-     align="center" id="image_zpy_1bg_hbb" scale="80">
-     <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
-    </image> Zeilenumbrüche in Ergänzungen werden nicht erfasst. Einweisungszeichen werden
-    generalisiert und einmal pro Befund ausgezeichnet.</p>
-   <p audience="editor">
-    <image placement="break" href="../../img_avhr/abb16.png" scale="60" align="center" id="image_un3_3rj_dbb">
+   <title>edition humboldt digital</title><p>Häufig finden sich Ergänzungen und Anmerkungen bei
+    Humboldt am äußeren oder unteren Rand der Manuskriptseite. (Im folgenden Beispiel sind
+    Anmerkungen blau und Ergänzungen rot markiert.)</p><image placement="break"
+    href="../../img_avhr/abb10-markierung.jpg" align="center" id="image_zpy_1bg_hbb" scale="80">
+    <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
+   </image> <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zeilenumbrüche in Ergänzungen
+    werden nicht erfasst<?oxy_custom_end?>. Einweisungszeichen werden, wenn vorhanden, einmal pro
+    Befund ausgezeichnet und unabhängig vom in der Vorlage verwendeten Symbol in der Webansicht
+    einheitlich dargestellt.</p> 
+    <image placement="break" href="../../img_avhr/abb16.png" scale="60" align="center"
+     id="image_un3_3rj_dbb">
      <alt>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“</alt>
-    </image>
-   </p>
+    </image>   
    <codeblock outputclass="language-xml"><![CDATA[… aussi la proprieté de celle de Jura (en Franconie) 
   <add place="right"><metamark/>
     de presenter des grandes Cavernes qui se sont rempli d’eau 
@@ -31,7 +32,8 @@
     céroulerent sur un terrain miné et
   </add> 
 que les …]]></codeblock>
-   <image placement="break" href="../../img_avhr/abb16-web.jpg" align="center" id="image_its_4hg_hbb" scale="80"/>
+   <image placement="break" href="../../img_avhr/abb16-web.jpg" align="center"
+    id="image_its_4hg_hbb" scale="80"/>
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -43,7 +45,8 @@ que les …]]></codeblock>
     Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum”
     über die Funktion „Sonderfunktion > Einweisungszeichen” einfügen. Dazu muss der Cursor vorher
     allerdings in die Ergänzung gesetzt worden sein. Anstelle des Menüs können Sie auch die
-    Tastenkombination Strg + Umschalt + E verwenden. </p>
+    Tastenkombination [Strg] + [Umschalt] + [E] verwenden. Wird auf diesem Wege das
+    Einweisungszeichen erfasst, ist das manuelle Einfügen des Symbols nicht mehr nötig.</p>
   </section>
   <section>
    <title>Kodierung</title>
@@ -95,7 +98,7 @@ que les …]]></codeblock>
    </table>
    <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder ]]></codeblock>
    <p>Optional kann ein Einweisungszeichen des Autors durch Setzen von
-     <xmlelement>metamark</xmlelement> kodiert werden. Dabei wird nicht die Form des
+     <xmlelement>metamark</xmlelement> kodiert werden. Dabei wird nicht die Art des
     Einweisungszeichen erfasst (Stern, Nummer etc.).</p>
   </section>
  </body>

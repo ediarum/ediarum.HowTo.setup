@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_tlg_53k_wcb">
+  <title>Leere Seiten</title>
+  <body>
+    <section>
+      <title>Allgemein</title>
+      <p>Leere Seiten in der Vorlage können ausgezeichnet werden. Sie sind zum einen zu
+        unterscheiden  von <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>
+        und zum anderen von semantisch bedeutsamem <xref href="leerraum.dita#topic_vvj_cjl_qbb"
+          >Leerraum</xref> sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch
+          den Herausgeber</xref>.</p>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p>Leeren Seiten werden erfasst und in der Webansicht angezeigt.
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Das Faksimile einer
+        leeren Seite ist in der Ansicht "Text mit Faksimile" nicht enthalten oder
+        verlinkt.<?oxy_custom_end?></p>
+    </section>
+    <image placement="break" href="../../img_avhr/leere_seiten.JPG" scale="60" align="center"
+      id="image_cvv_zmk_wcb">
+      <alt>AvH an Meyen, 14.05.1830 - Webansicht mit den leeren Seiten 1v und 2r</alt>
+    </image>
+    <section audience="editor">
+      <title>Bedienung</title>
+      <p>Um leere Seiten zu vermerken, sind in der ediarum-Autoransicht folgende Arbeitsschritte
+        notwendig:</p>
+      <ul id="ul_dmc_v3k_wcb">
+        <li>Cursor <i>hinter</i> den Seitenwechsel (<xmlelement>pb/</xmlelement>) setzen</li>
+        <li>Klick auf die Schaltfläche „Gar nicht lesbare Wörter im Text“, dann Auswahl: <ul
+            id="ul_emc_v3k_wcb">
+            <li>Einheit: Seite</li>
+            <li>Anzahl: 1</li>
+            <li>Grund für die Lücke: Leerraum</li>
+          </ul></li>
+      </ul>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Leere Seiten werden durch das (leere) Element <xmlelement>gap/</xmlelement> ausgezeichnet;
+        es steht direkt nach dem vorangehenden Seitenwechsel (<xmlelement>pb/</xmlelement>). Die
+        beiden Attribute <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> des Elements
+          <xmlelement>gap/</xmlelement> werden auf den Wert <codeph>"pages"</codeph> bzw.
+          <codeph>"1"</codeph> gesetzt. Das Attribut <xmlatt>reason</xmlatt> enthält den Wert
+          <codeph>"empty"</codeph>. Mehrere leere Seiten hintereinander werden einzeln kodiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<pb n="132v"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
+      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
+          href="nicht_lesbar.dita#topic_gfh_yfv_ty">zerstörte oder unleserliche Textstellen</xref>
+        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch den
+        Herausgeber.</p>
+    </section>
+  </body>
+  <related-links>
+    <linklist scope="external">
+      <title>Deutsches Textarchiv</title>
+      <link href="http://www.deutschestextarchiv.de/doku/basisformat/gapSupplied.html" format="html"
+        scope="external">
+        <linktext>Schwer bzw. nicht entzifferbare Zeichen und Auslassungen – Dokumentation des
+          DTABf</linktext>
+      </link>
+      <link href="http://www.deutschestextarchiv.de/doku/basisformat/leerraum.html" format="html"
+        scope="external">
+        <linktext>Leerraum – Dokumentation des DTABf</linktext>
+      </link>
+    </linklist>
+  </related-links>
+</topic>

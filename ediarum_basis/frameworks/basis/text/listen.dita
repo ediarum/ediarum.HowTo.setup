@@ -18,10 +18,10 @@
       </ul><image placement="break" href="../../img_avhr/liste.jpg" align="center"
         id="image_bqj_b3n_jbb" scale="70">
         <alt>Dokument (TS1)„ – Énumération des Plantes de la Province de Quito“, 3a-r</alt>
-      </image><p>Das folgende Beispiel zeigt einen Grenzfall. Es handelt sich um eine Auflistung
-        verschiedener Flussbreiten des Río Apure, Río Negro sowie des Orinoco. Humboldts
-        Aufzeichnung ist jedoch so gering strukturiert, dass eine Auszeichnung als Tabelle keinen
-        Sinn ergibt oder als Tabelle zumindest „überkodiert“ wäre.</p><image placement="break"
+      </image><p>Das folgende Beispiel zeigt einen Grenzfall. Es handelt sich um eine Auflistung verschiedener
+        Flussbreiten des Río Apure, Río Negro sowie des Orinoco. Humboldts Aufzeichnung ist jedoch
+        so gering strukturiert, dass eine Auszeichnung als Tabelle strukturell nicht sinnvoll
+        umzusetzen wäre oder zumindest „überkodiert“ wäre.</p><image placement="break"
         href="../../img_avhr/abb5.png" scale="70" align="center" id="image_tqd_pps_2bb">
         <alt>ART III, 70r</alt>
       </image><p>(Der folgende Code berücksichtigt nicht die Streichungen.)</p><codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>

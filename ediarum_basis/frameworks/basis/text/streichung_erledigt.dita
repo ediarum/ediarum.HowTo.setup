@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cbd_4cn_qcb">
+  <title>Als „erledigt“ markierte Textstellen </title>
+ <body>
+    <section>
+      <title>Allgemein</title>
+      <p/>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p>Bisweilen finden sich im Schriftbild horizontal oder quer über Textstellen gezogene
+        Streichungen, die jene als „erledigt“ kennzeichnen. Diese Art der Streichung wird
+        ausgezeichnet und erscheint in der Webansicht als grüne Linie am linken Rand neben dem Text
+        samt symbolischen „erledigt“-Häckchen:</p> <image placement="break" href="../../img_avhr/erledigt_cuba143r.png" align="center"
+        id="image_hyx_kmn_qcb" scale="70">
+        <alt>Cuba-Manuskript, 143r</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/erledigt_cuba143r_web.jpg" align="center"
+        id="image_pnr_bqn_qcb" scale="70">
+        <alt>Cuba-Manuskript, 143r - Webansicht</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v.png" align="center"
+        id="image_c3z_smn_qcb" scale="55">
+        <alt>Brief Kunth an AvH, 13.01.1846</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v_web.jpg" align="center"
+        id="image_gwf_3qn_qcb">
+        <alt>Brief Kunth an AvH, 13.01.1846 - Webansicht</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/erledigt_rst.jpg" scale="55" align="center"
+        id="image_xwy_zmn_qcb">
+        <alt>RST I, 3v</alt>
+      </image>
+      <image placement="break" href="../../img_avhr/erledigt_rst_web.jpg" align="center"
+        id="image_x53_krn_qcb" scale="80">
+        <alt>RST I, 3v - Webansicht</alt>
+      </image>
+      <p>Die „erledigt“-Streichung ist zu unterscheiden von regulären Streichungen von Wörtern und
+        Textabschnitten (<xref href="streichungen.dita#topic_aw1_5bv_ty"/>).</p>
+    </section>
+    <section>
+      <title>Bedienung</title>
+      <p>Zum Auszeichnen der „erledigt“-Markierung muss die entsprechende Textstelle markiert und
+        anschließend der Menüpunkt „ediarum > Sonderfunktionen > Textpassage "erledigt"“ ausgewählt
+        werden.</p>
+    </section>
+    <section>
+      <title>Kodierung</title> 
+      <p>Der Beginn einer als „erledigt“ gekennzeichneten Textstelle wird durch ein
+          <xmlelement>metamark</xmlelement>-Element markiert. In dem Attribut
+          <xmlatt>function</xmlatt> gibt der Wert <codeph>used</codeph> in diesem Fall die
+        Eigenschaft „erledigt“ an. Das Ende der Textpassage wird durch einen dazugehörigen
+          <xmlelement>anchor</xmlelement> ausgezeichnet. </p>
+    </section>   
+  </body>
+</topic>

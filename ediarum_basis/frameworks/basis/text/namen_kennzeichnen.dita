@@ -6,9 +6,9 @@
   <section>
    <title>Allgemein</title>
    <p>In der Vorlage oder im Kommentar explizit genannte Namen von Personen, Orten und
-    Institutionen, Werktitel sowie Sachbegriffen werden ausgezeichnet und mit einem Registereintrag
+    Institutionen, Werktitel sowie Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
     verknüpft. Gesondert ausgezeichnet werden sog. Anaphern, d.h. verweisende Wörter, die aber kein
-    Name, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er” oder Begriffe wie „die
+    Eigenname, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er” oder Begriffe wie „die
     Kinder”.</p>
   </section>
   <section product="avhr">
@@ -25,13 +25,9 @@
     </ul>
    </p>
    <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Eigennamen
-    ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die
-    Ersterwähnung.</p>
-   <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><b>Personen-, Orts- und
-     Einrichtungsnamen sowie Werktitel</b> werden konsequent in allen Textsorten  gekennzeichnet –
-    in allen Instanzen, in denen Person, Ort, Institution oder Werk genannt werden. In
-    Sachkommentaren und in Chronologie-Ereignissen wird hingegen nur die Ersterwähnung
-    ausgezeichnet.<?oxy_custom_end?></p>
+    ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die Ersterwähnung.
+    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zudem werden in der
+    Chronologie derzeit noch keine Werktitel ausgezeichnet.<?oxy_custom_end?></p>
    <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („in der Umgebung des Königs [FW III]“)
     werden ausgezeichnet. Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name
     ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der
@@ -41,7 +37,8 @@
 + hier schon deutlich machen, dass für solche Dinge &lt;rs&gt; mit @type=&quot;person&quot; statt &lt;persName&gt; verwendet werden sollte. Siehe unten &quot;Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht, wird dies mit dem Element &lt;rs&gt; ausgezeichnet und mit Hilfe des Attributs @type konkretisiert […]&quot;."?>Redesituation
     entschieden.<?oxy_comment_end?></p>
    <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder Deiktika („dieser“, „jener“,
-    „hier“, „dort“) werden <i>nicht</i> ausgezeichnet.</p>
+    „hier“, „dort“) werden <i>nicht</i> ausgezeichnet, aber Nomen und Nominalgruppen, die sich
+    anaphorisch oder indirekt auf Eigennamen beziehen. </p>
    <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im editorischen
     Sachkommentar sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
      id="ul_fgh_f2p_mbb">
@@ -52,7 +49,7 @@
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
     Textbefund findet nicht statt, da geläufige sowie historisch valide Schreibweisen der Namen in
     den verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
-     Einrichtungsnamen</b> hingegen werden explizit aufgelöst.  </p>
+     Einrichtungsnamen</b> hingegen werden explizit aufgelöst. </p>
    <p>Da eine
      <?oxy_comment_start author="thomas" timestamp="20171222T131443+0100" comment="ist schon möglich, einfach 2 @ref bzw. @key in &lt;persName&gt;, vgl. http://www.deutschestextarchiv.de/nn_msgermqu2124_1827/13: &quot; Ich kann dieser Meinung nicht seyn, die auch die beiden &lt;hi rendition=&quot;#aq&quot;&gt;&lt;persName ref=&quot;http://d-nb.info/gnd/118534432 http://d-nb.info/gnd/118534416&quot;&gt;Forster&lt;/persName&gt;&lt;/hi&gt;&lt;lb/&gt; nicht theilen, […]&quot;
 
@@ -60,6 +57,11 @@
      Auszeichnung mehrerer Personen</b> nicht möglich ist<?oxy_comment_end?> („mit allen
      <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), werden die betreffenden Personen stattdessen in
     einer Sachanmerkung einzeln aufgelöst und dort gekennzeichnet. </p>
+   <p>Textformulierungen, die mehrere Personen meinen („mit allen <i>Kindern</i>“, „Grüßen Sie
+     <i>Forsters</i>“), werden nicht als Eigennamen gekennzeichnet und mit mehreren Personen
+    ausgezeichnet, sondern in einer Sachanmerkung einzeln aufgelöst und gekennzeichnet. <image
+     placement="break" href="../../img_avhr/aufl%C3%B6sung_in_sachanmerkung.JPG"
+     id="image_onx_khj_wcb" scale="60"><alt>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</alt></image></p>
    <p>Bei Bezug zu Orten, Personen und Institutionen <b>ohne Nennung der (bekannten) Namen</b>:</p>
    <p>„Gemeintes“ bekannt für Autor, Briefpartner und Bearbeiter aus:</p>
    <p>
@@ -68,20 +70,10 @@
      <li>historischer Kontext</li>
      <li>gemeinsame Wissensgrundlage der Briefpartner</li>
      <li>Wissensgrundlage des Autoren</li>
-     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>    
+     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>
     </ul>
-    
    </p>
    <p>aber nicht notwendigerweise für Dritte. </p>
-   <p>Für die Wahl von <xmlelement>rs</xmlelement> statt <xmlelement>persName</xmlelement> in diesem
-    Fall sprechen folgende Gründe:</p>
-   <p>
-    <ul id="ul_m2t_5wn_4cb">
-     <li>konform mit TEI-Richtlinien</li>
-     <li>Unterscheidung bietet Möglichkeiten zur späteren Webdarstellung (volle Bezeichnung in
-      hover-over-Anzeige)</li>
-    </ul>
-   </p>
    <table frame="all" rowsep="1" colsep="1" id="table_ljt_gv1_4cb">
     <title>Orte</title>
     <tgroup cols="2">
@@ -100,7 +92,7 @@
         einiges über Arequipa und den <b>Vulcan</b>..." (AvH an Meyen, 1833?), "...dass die gelben
         und orangenen auf dem ganzen <b>Continent</b> von unseren Saamen..." (<xref
          href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0012104&amp;view=l" format="html"
-         scope="external">AvH an Kunth, 14.08.1838)</xref> → gemeint ist Europa; </entry>
+         scope="external">AvH an Kunth, 14.08.1838)</xref> -> gemeint ist Europa; </entry>
       </row>
       <row>
        <entry/>
@@ -108,7 +100,7 @@
         Emperan (Gouverneur dieser <b>Provinz</b>.)" (<xref
          href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001181&amp;view=l" format="html"
          scope="external">AvH an Willdenow, 21.02.1801</xref>)</entry>
-      </row>     
+      </row>
      </tbody>
     </tgroup>
    </table>
@@ -208,7 +200,7 @@
       <entry>"Sie können mir nichts rühmliches und edles von Professor Kunth sagen, was ich nicht
        wüsste. Er ist die Seele des <b>Instituts</b>." (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0014471&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 8.10.1840</xref>) → gemeint ist der Botanische Garten in
+        scope="external">AvH an Kunth, 8.10.1840</xref>) -> gemeint ist der Botanische Garten in
        Berlin; </entry>
      </row>     
     </tbody>

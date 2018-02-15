@@ -16,20 +16,47 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-     Manuskriptseite.</p><image placement="break" href="../../img_avhr/abb10-markierung.jpg"
+    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><image placement="break" href="../../img_avhr/abb10-markierung.jpg"
      align="center" id="image_zpy_1bg_hbb" scale="80">
      <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
     </image>
-   <p>Seitenwechsel und Zeilenumbrüche innerhalb einer Anmerkung werden erfasst.</p><image
+   <p><b><?oxy_comment_start author="lkirsten" timestamp="20180215T131811+0100" comment="wäre es hier sinnvoller zu sagen: sämtliche Textphänomene? / Was ist mit Einweisungszeichen"?>Seitenwechsel</b>
+    und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst.<?oxy_comment_end?></p><image
      placement="break" href="../../img_avhr/abb11.png" scale="70" align="center"
      id="image_b3h_zys_2bb">
-     <alt>ART I, 19r</alt>
+     <alt>ART I, 19r - Fortsetzung einer Anmerkung beginnend auf 18v</alt>
     </image> 
-   <p audience="editor">Anmerkungen werden dort gesetzt, wo sie im Text (offensichtlich oder
-    editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig bestimmen lässt,
-    können sie nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen eingefügt werden.</p>
-   <p audience="editor"><b>Zeilenumbrüche</b> werden auch in Anmerkungen erfasst, nicht jedoch in
-    Ergänzungen (da diese in der Webansicht unmittelbar in den Fließtext eingefügt werden).</p>        
+   <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" align="center"
+    id="image_wc4_fyj_wcb" scale="80">
+    <alt>ART I, 18v/19r</alt>
+   </image>
+   <p>(Im Kodierbeispiel sind nur die Textphänomene Zeilenumbruch und Seitenwechsel
+    ausgezeichnet.)</p> 
+   <codeblock outputclass="language-xml"><![CDATA[<note place="left" hand="#author">
+   * u. wenn auch nicht im̅er oxygenreicher, so 
+   <lb/>enthält sie doch eine
+   <lb/>größere Menge freie<g ref="#typoHyphen"/>                        
+   <lb break="no"/>ren Sauerstofs, ein 
+   <lb/>Theil ist zersezba<g ref="#typoHyphen"/>
+   <lb break="no"/>rer, der Theil wel<g ref="#typoHyphen"/>
+   <lb break="no"/>cher bald zu 
+   <lb/>Wasser zusamen<g ref="#typoHyphen"/>
+   <lb break="no"/>gerinnt, bald 
+   <lb/>daraus frei wird. Luft<g ref="#typoHyphen"/>
+   <lb break="no"/>reinheit besteht in physical. Hinsicht nicht 
+   <lb/><pb n="19r" />bloß in der abso<g ref="#typoHyphen"/>
+   <lb break="no"/>luten Menge des Sau<g ref="#typoHyphen"/>
+   <lb break="no"/>erstofs sondern in der
+   <lb/>Leichtigkeit mit der er 
+   <lb/>abzuscheiden ist. S. mn. Grubenwetter
+   <lb/>leider nicht wahr 1806!
+ </note>]]></codeblock>
+  
+   <p audience="editor"
+    ><?oxy_comment_start author="lkirsten" timestamp="20180215T132009+0100" comment="werden metamarks auch in anmerkungen gesetzt?"?>Anmerkungen
+    werden dort gesetzt, wo sie im Text (offensichtlich oder editorisch vertretbar) hingehören. Wenn
+    sich dieser Punkt nicht eindeutig bestimmen lässt, können sie nach Augenmaß zwischen zwei
+    möglichst nahe liegenden Sätzen eingefügt werden.<?oxy_comment_end?></p>        
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -37,10 +64,11 @@
     zum einen wo die Anmerkung auf dem Blatt gemacht worden ist. Zum anderen vermerken Sie, wer die Anmerkung gemacht hat. Sollten Sie 
    „Person aus dem Register“ auswählen, wird Ihnen ein Auswahlmenü mit den Einträgen aus dem Personenregister angeboten. Die Handhabung hier
     ist analog zur Auszeichnung von Personennamen.</p>
-   <p>Optional können Sie vermerken, dass der Autor selbst diese Anmerkung in diese Textstelle per Zeichen eingewiesen hat. Ein generalisiertes 
-    Einweisungszeichen können Sie im Menü „ediarum“ über die Funktion „Sonderfunktion > Einweisungszeichen“ einfügen. Dazu muss der Cursor vorher allerdings
-    in die Anmerkung gesetzt worden sein. Anstelle des Menüs können Sie auch die Tastenkombination Strg + Umschalt + E verwenden.
-   </p>  
+   <p>Optional können Sie vermerken, dass der Autor selbst diese Anmerkung in diese Textstelle per
+    Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum“
+    über die Funktion „Sonderfunktion > Einweisungszeichen“ einfügen. Dazu muss der Cursor vorher
+    allerdings in die Anmerkung gesetzt worden sein. Anstelle des Menüs können Sie auch die
+    Tastenkombination [Strg] + [Umschalt] + [E] verwenden. </p>  
   </section>
   <section>
    <title>Kodierung</title>

@@ -91,9 +91,8 @@
       <p audience="editor">Es wird
         <?oxy_comment_start author="lkirsten" timestamp="20180202T113459+0100" comment="welche Kriterien?"?>nach
         inhaltlichen Kriterien entschieden<?oxy_comment_end?>, in wie viele Zeilen und Spalten die
-        Tabelle sinnvollerweise aufgeteilt werden muss. </p>
-      <p audience="editor">Im folgenden Kodierbeispiel wird zwischen Fließtext und zwei jeweils
-        vierzeiligen und dreispaltigen Tabellen unterschieden:</p>
+        Tabelle sinnvollerweise aufgeteilt werden muss. Im folgenden Kodierbeispiel wird zwischen
+        Fließtext und zwei jeweils vierzeiligen und dreispaltigen Tabellen unterschieden:</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>am Tuy hac. de D. José Materola.</p>
 <p>Inclin. 42°,20. osc. 22,8.</p>
 <p>le 9 Févr. observé Culminat de Canopus</p>
