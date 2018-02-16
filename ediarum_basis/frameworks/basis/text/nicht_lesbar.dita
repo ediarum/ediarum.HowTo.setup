@@ -8,13 +8,41 @@
    <p>In der Vorlage nicht lesbare Zeichen oder Wörter werden mit entsprechender Kodierung erfasst.
     Die Gründe für die Nichtlesbarkeit können zum einen Schäden am Textträger sein als auch
     unleserliche Schreibung.</p>
-   <p>Zu unterscheiden sind nicht lesbare Wörter von schwer lesbaren Wörtern, die entsprechend
-    anders ausgezeichnet werden.</p>
+   <p>Zu unterscheiden sind nicht lesbare Wörter von schwer lesbaren Wörtern, die mit einer <xref
+     href="unsichere_lesart.dita#topic_g2c_tfv_ty">unsicheren Lesart</xref> transkribiert werden
+    können.</p>
   </section>
+  <section>
+   <title>edition humboldt digital</title>
+  </section>
+  <p>
+   <ul id="ul_c1y_qsq_wcb">
+    <li>nicht lesbare Wörter</li>
+   </ul>
+   <image placement="break" href="../../img_avhr/nicht_lesbar.png" align="center"
+    id="image_x5t_zsq_wcb" scale="60">
+    <alt>AvH an Kunth, 26.08-30.10.1844</alt>
+   </image>
+   <image placement="break" href="../../img_avhr/nicht_lesbar.JPG" align="center"
+    id="image_s5m_xsq_wcb" scale="60">
+    <alt>AvH an Kunth, 26.08-30.10.1844 - Webansicht</alt>
+   </image>
+  </p>
+  <p>
+   <ul id="ul_cqf_dtq_wcb">
+    <li>Lücke<?oxy_comment_start author="lkirsten" timestamp="20180216T114223+0100" comment="Meyen-Beispiele zurzeit noch mit &lt;damage&gt; ausgezeichnet
+"?>
+     aufgrund schadhafter Stellen<?oxy_comment_end?></li>
+    <li>Seiten oder Blätter, die zerstört oder verloren und den BearberiterInnen nicht bekannt sind,
+     werden einzeln und mit entsprechender Foliierung erfasst (<xref
+      href="seitenwechsel.dita#topic_n4t_jbv_ty">siehe Foliierung und Paginierung</xref>). </li>
+   </ul>
+  </p>
   <section id="section_oxy_lmp_qbb" audience="editor">
    <title>Bedienung</title>
    <p>Die Auszeichnung wird über die Schaltfläche mit dem Symbol <image href="../../img/gap16.gif"
-     id="image_hpc_d3f_2y"/>  in der Werkzeugleiste vorgenommen. </p>
+     id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. Zerstörte oder verlorene Seiten
+    sollten jeweils erfasst werden.</p>
   </section>
   <section>
    <title>Kodierung</title>
@@ -75,7 +103,7 @@
    <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
     wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap/</xmlelement>.</p>
    <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="chars"/></del> dann wieder]]></codeblock>
-   <p><b>Zerstörte oder verlorene Seiten</b> werden einzeln erfasst, im:</p>
+   <p>Zerstörte oder verlorene Seiten werden einzeln erfasst:</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="lost"/>]]></codeblock>
    <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden vorhandene, aber
      <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref> sowie <xref

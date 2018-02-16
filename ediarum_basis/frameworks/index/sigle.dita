@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_a5k_kdr_wcb">
+  <title>Verweis-Siglen</title>
+  <body>
+    <section>
+      <title>Allgemeines</title>
+    </section>
+    <p>Humboldt verwendet häufig lateinisch ausgeschriebene Großbuchstaben, um verschiedene Inhalte
+      innerhalb eines Manuskripts oder über Manuskriptgrenzen hinweg miteinander in Beziehung zu
+      setzen. In der <i>edition humboldt digital</i> werden diese Buchstaben als Siglen bezeichnet,
+      für die ein eigenes Siglenregister angelegt worden ist.</p>
+    <section>
+      <title>edition humboldt digital</title>
+    </section>
+    <section>
+      <title>Bedienung</title>
+    <p>Die <b>Auszeichnung von Verweissiglen</b> funktioniert im ediarum-Autormodus
+        folgendermaßen:<ol id="ol_fjw_lq4_hbb">
+        <li>Siglum markieren (hier „T“)<image placement="break" href="../img_avhr/siglen1.png"
+            align="left" id="image_vqc_dr4_hbb"/></li>
+        <li>Funktion „Verweis-Siglum“ aufrufen<image placement="break"
+            href="../img_avhr/siglen2.png" align="left" id="image_l1y_dr4_hbb"/></li>
+        <li>Registereintrag auswählen (Damit ein Siglum im Manuskript richtig ausgezeichnet werden
+            kann, muss ein entsprechender Eintrag in der Registerdatei bereits vorliegen.)<image
+              placement="break" href="../img_avhr/siglen3.png" align="left" id="image_lpn_2r4_hbb"
+            /></li>
+      </ol></p>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Zum <b>Anlegen eines neuen Verweissiglum</b> die Datei „Verweissiglen.xml“ im Verzeichnis
+        „Register“ öffnen. Ein neues Siglum wird im Textmodus direkt im XML-Code angelegt. Einträge
+        heißen <xmlelement>item</xmlelement>, und enthalten typischerweise drei Informationen:</p>
+      <ul id="ul_vwh_rn4_hbb">
+        <li>eine eindeutige <codeph>#"ID"</codeph> im Attribut <xmlatt>xml:id</xmlatt></li>
+        <li>eine Kennzeichnung im Element <xmlelement>label</xmlelement></li>
+        <li>eine Beschreibung im Element <xmlelement>desc</xmlelement></li>
+      </ul>
+      <codeblock outputclass="language-xml"><![CDATA[<item xml:id="cuba_S">
+    <label>S (Kuba)</label>
+    <desc>Sigle S im Kubatagebuch</desc>
+</item>]]></codeblock>
+      <p>Soll ein Siglum ausgezeichnet werden, dass noch nicht im Siglenregister eingetragen ist, kann
+        ein bestehender Eintrag (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>)
+        kopiert, neu eingefügt und entsprechend angepasst werden (ID, Kennzeichnung,
+        Beschreibung).</p>
+    </section>
+  </body>
+</topic>
