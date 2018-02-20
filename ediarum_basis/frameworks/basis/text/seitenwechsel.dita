@@ -29,14 +29,14 @@
         vorgegeben, in diesen Fällen wird die Foliierung nach folgenden Regeln notiert:</p>
       <ul id="ul_vnh_fr2_bbb">
         <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2)</li>
-        <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument
-          orientiert – im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1
-          Blatt gezählt:</li>
+        <li>Für die Bestimmung der Seitenwechsel wird sich am
+          <?oxy_comment_start author="lkirsten" timestamp="20180220T151333+0100" comment="was heißt hier Schriftbild vs. Dokument? Beispiel impliziert eher Orientierung am Dokument"?>Schriftbild,
+          nicht am Dokument<?oxy_comment_end?> orientiert – im folgenden Beispiel werden somit 4
+          Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt gezählt:</li>
       </ul>
-      <fig id="fig_p3t_m2g_jbb">
+      <fig id="fig_p3t_m2g_jbb"><desc>Humboldt an Meyen, vor 22. August 1834, Innenseite</desc>
         <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb" scale="70"
-          align="center">
-          <alt>Humboldt an Meyen, vor 22. August 1834, Innenseite</alt>
+          align="center">          
         </image>
         <image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb" scale="70"
           align="center">

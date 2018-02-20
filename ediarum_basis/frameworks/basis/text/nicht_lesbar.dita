@@ -40,9 +40,22 @@
   </p>
   <section id="section_oxy_lmp_qbb" audience="editor">
    <title>Bedienung</title>
-   <p>Die Auszeichnung wird über die Schaltfläche mit dem Symbol <image href="../../img/gap16.gif"
-     id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. Zerstörte oder verlorene Seiten
-    sollten jeweils erfasst werden.</p>
+   <p>Die Auszeichnung von Lücken im Text wird über die Schaltfläche mit dem Symbol <image
+     href="../../img/gap16.gif" id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. Zerstörte
+    oder verlorene Seiten sollten jeweils einzeln erfasst werden.</p>
+   <p>Im Falle einer Unleserlichkeit durch <xref href="korrektur.dita#topic_tfw_wbv_ty">Streichung
+     mit anschließender Ersetzung</xref> sollten die entsprechenden ediarum-Funktionen in folgender
+    Weise kombiniert werden:</p>
+   <p>
+    <ol id="ol_bqd_pnv_xcb">
+     <li> Über das Symbol <image href="../../img/gap16.gif" id="image_r2v_snv_xcb"/> in der
+      Werkzeugleiste die Lücke in der Transkription auszeichen und als „Grund für die Lücke“ den
+      Punkt „unleserlich“ auswählen.</li>
+     <li>Anschließend die Lücke markieren und über das Symbol <image href="../../img/subst216.gif"
+       id="image_wb2_5qv_xcb"/> eine Streichung und Ersetzung auszeichnen, jeweils Art der
+      Streichung und Hinzufügung auswählen und den hinzugefügten Text eintragen.</li>
+    </ol>
+   </p>
   </section>
   <section>
    <title>Kodierung</title>

@@ -76,7 +76,7 @@
         <li>
           <p>Angaben mehrmals verheirateter Frauen in der Form „Therese Huber, geb. Therese Marie
             Heyne, verw. Forster“ werden aufgelöst in folgender Form:<fig id="fig_idc_clb_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/personenregister1.jpg" scale="60"
                 align="left" id="image_pyz_txd_nbb"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
@@ -103,7 +103,7 @@
         <li>
           <p>Namensvarianten durch <b>Scheidung</b> werden im Kommentar angegeben <fig
               id="fig_lrl_wkb_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/personenregister2.jpg" scale="60"
                 align="left" id="image_jc3_fxd_nbb"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
@@ -136,7 +136,7 @@
           <p><b>Adlige</b> werden wenn möglich und sinnvoll unter ihrem bürgerlichen Namen geführt.
             Das Adelsprädikat und der Adelstitel werden als alternative Namen oder im Kommentar
               erfasst.<fig id="fig_zwv_1mb_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/personenregister3.jpg" scale="70"
                 align="left" id="image_pkk_2yd_nbb"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://viaf.org/viaf/58797744</idno>
@@ -161,7 +161,7 @@
             deutschem Verständnis ist der Adelstitel Teil des Namens. Vor allem im
             kolonialspanischen Kontext aber gibt es sowohl einen Namen als auch einen Adelstitel
             (s.o. Beispiel Fernández de la Cueva).<fig id="fig_evm_pmb_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/personenregsiter4.jpg" align="left"
                 id="image_hqx_myd_nbb" scale="80"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
@@ -190,7 +190,7 @@
             Neuzeit) werden als einfache Namen, ohne Unterscheidung zwischen Vor- und Nachnamen,
             geführt. „Albertus Magnus“ ist also „Albertus Magnus“, nicht „Magnus, Albertus“, und
             steht demzufolge unter „A“.<fig id="fig_fs2_cnb_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/Personenregister5.jpg" scale="60"
                 align="left" id="image_mbn_yyd_nbb"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<persName type="reg">
@@ -220,7 +220,7 @@
             Verständnis des Begriffs und schließt alle Personen oder Personennamen aus religiösen
             Kontexten mit ein. Häufig liegen für diese Personennamen auch Normdateien vor.<fig
               id="fig_ybz_14b_pbb">
-              <title>ediarum-Autormodus</title>
+              <desc>ediarum-Autormodus</desc>
               <image placement="break" href="../img_avhr/personenregister7.jpg" scale="70"
                 id="image_zbz_14b_pbb"/>
             </fig><codeblock outputclass="language-xml"><![CDATA[<person xml:id="H0004159" role="mythological">
@@ -518,12 +518,12 @@
       <p><?oxy_custom_end?>Kommentare können je nach Bedeutung (im Kontext der Edition) der Person
         unterschiedich lang ausfallen, werden aber wenn möglich nicht in ganzen Sätzen verfasst,
         sondern listen wesentliche biographische Daten auf. <fig id="fig_tqr_p4b_pbb">
-          <title>langer biographischer Kommentar (Autormodus)</title>
+          <desc>langer biographischer Kommentar (Autormodus)</desc>
           <image placement="break" href="../img_avhr/personenregister8.jpg" scale="70"
             id="image_uqr_p4b_pbb"/>
         </fig></p>
       <fig id="fig_p1s_r4b_pbb">
-        <title>kurzer biographischer Kommentar (Autormodus)</title>
+        <desc>kurzer biographischer Kommentar (Autormodus)</desc>
         <image placement="break" href="../img_avhr/personenregister9.jpg" scale="65"
           id="image_q1s_r4b_pbb"/>
       </fig>

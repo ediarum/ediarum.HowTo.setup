@@ -24,9 +24,10 @@
         Maßangaben und Mengenwerten.</p>
    <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
     aufgelöst.</p>
-   <p>Im Falle einer <b>Auflösung und gleichzeitiger Normalisierung</b> der Abkürzung wird nur die
-        Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend. (nur im
-        Kunth-Briefwechsel und Cuba-Manuskript)</p>
+   <p><b>Kunth-Briefwechsel und Cuba-Manuskript</b>: Üblicherweise explizite Normalisierung von
+        Akzenten und Tremata; Im Falle einer <b>Auflösung und gleichzeitiger Normalisierung</b> der
+        Abkürzung wird nur die Ergänzung ausgezeichnet und die Normalisierung erfolgt
+        stillschweigend.</p>
    <p>
     <codeblock outputclass="language-xml">&lt;choice>
     &lt;abbr>Emers.&lt;/abbr>
@@ -37,12 +38,12 @@
         ausgeschriebenem „und” dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
         Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.<fig
           id="fig_nxf_hz1_fbb">
-          <title>„und“ mit d-Oberlänge</title>
+          <desc>„und“ mit d-Oberlänge</desc>
           <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
             id="image_oxf_hz1_fbb"/>
         </fig><codeblock outputclass="language-xml"><![CDATA[Rose und]]></codeblock><fig
           id="fig_jgl_wx1_fbb">
-          <title>Abkürzung „u“</title>
+          <desc>Abkürzung „u“</desc>
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig><codeblock outputclass="language-xml"><![CDATA[ein thätiger 

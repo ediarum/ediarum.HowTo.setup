@@ -41,8 +41,8 @@
     <label>S (Kuba)</label>
     <desc>Sigle S im Kubatagebuch</desc>
 </item>]]></codeblock>
-      <p>Soll ein Siglum ausgezeichnet werden, dass noch nicht im Siglenregister eingetragen ist, kann
-        ein bestehender Eintrag (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>)
+      <p>Soll ein Siglum ausgezeichnet werden, das noch nicht im Siglenregister eingetragen ist,
+        kann ein bestehender Eintrag (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>)
         kopiert, neu eingefügt und entsprechend angepasst werden (ID, Kennzeichnung,
         Beschreibung).</p>
     </section>

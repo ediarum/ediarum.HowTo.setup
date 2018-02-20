@@ -26,17 +26,15 @@
    <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
      id="ul_cfk_qq4_mbb">
      <li>auf Wortebene und bei Eigennamen,<fig id="fig_ht1_3s4_mbb">
-       <title>Manuskript</title>
+      <desc>Brief Humboldt an Kunth, 27. April 1813</desc>
        <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70" align="center"
         id="image_it1_3s4_mbb">
-        <alt>Brief Humboldt an Kunth, 27. April 1813</alt>
        </image></fig>
        <fig id="fig_fmc_rs4_mbb">
-        <title>Kritischer Text (Webansicht)</title>
+       <desc>Brief Humboldt an Kunth, 27. April 1813 – Webansicht (Kritischer Text); Sprachwechsel nicht
+        ausgezeichnet (orange Schriftfarbe zeigt Verweis auf Eintrag im Personenregister)</desc>
         <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
-         align="center" id="image_gmc_rs4_mbb">
-         <alt>Brief Humboldt an Kunth, 27. April 1813 – Sprachwechsel nicht ausgezeichnet (orange
-         Schriftfarbe zeigt Verweis auf Eintrag im Personenregister)</alt>
+         align="center" id="image_gmc_rs4_mbb">         
         </image>       
       </fig></li>
      <li>auf Briefumschlägen,</li>

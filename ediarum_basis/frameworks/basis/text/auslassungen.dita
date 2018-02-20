@@ -10,6 +10,9 @@
         Kodierung gesetzt, die die Auslassung kenntlich macht.</p>
     </section>
     <section>
+      <title>edition humboldt digital</title>
+    </section>
+    <section>
       <title>Kodierung</title>
       <p>Auslassungen von Zeichen, Wörtern, Textpassagen oder ganzen Seiten durch den Herausgeber
         werden mit dem leeren Element <xmlelement>gap/</xmlelement> ausgezeichnet. Im Attribut

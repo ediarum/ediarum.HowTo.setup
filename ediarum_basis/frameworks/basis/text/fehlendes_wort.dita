@@ -52,14 +52,14 @@
     Eine Setzung suggeriert eine klar nachvollziehbare Schreibhandlung, die aufgrund des
     Schriftbildes aber nicht plausibel wäre. Zudem würde durch die häufigen Sprachwechsel bei
     Humboldt eine den Regeln der französischen Typografie folgende Kodierung mit deutlich erhöhtem
-    Arbeitsaufwand einhergehen.</p>
-   <p>Die <b>Ergänzung von Buchstaben</b> ergibt sich aus dem jeweiligen Kontext. Sie erfolgt nicht
-    bei Personen- oder Ortsnamen, da in diesem Falle auf den Normeintrag im Register verwiesen wird.
-    Wenn ein Buchstabe ergänzt wird (wie im oberen Textbeispiel aus den RST I), dann ist abzuwägen
-    zwischen einer Ergänzung von Buchstaben und einer Korrektur des gesamten Wortes. Besonders am
-    Wortende ist die Ergänzung des einzelnen Buchstaben zu bevorzugen:</p>
-   <codeblock outputclass="language-xml"><![CDATA[Tellin<supplied cert="high">a</supplied>]]></codeblock>
-   <p>Die <b>Ergänzung von Wörtern</b> wird nur dann vorgenommen, wenn das Satzgefüge eine
+    Arbeitsaufwand einhergehen.</p><p>Die <b>Ergänzung von Buchstaben</b> ergibt sich aus dem
+    jeweiligen Kontext. Sie erfolgt nicht bei Personen- oder Ortsnamen, da in diesem Falle auf den
+    Normeintrag im Register verwiesen wird. Wenn ein Buchstabe ergänzt wird (wie im oberen
+    Textbeispiel aus den RST I), dann ist abzuwägen zwischen einer Ergänzung von Buchstaben und
+    einer Korrektur des gesamten Wortes. Besonders am Wortende ist die Ergänzung des einzelnen
+    Buchstaben zu bevorzugen:
+    </p><codeblock outputclass="language-xml"><![CDATA[Tellin<supplied cert="high">a</supplied>]]></codeblock><p>Die
+     <b>Ergänzung von Wörtern</b> wird nur dann vorgenommen, wenn das Satzgefüge eine
     Vervollständigung offensichtlich macht. Ganze Wörter werden mit Bedacht ergänzt, da sie einen
     starken Eingriff in die Textkonstitution darstellen. Im folgenden Textauschnitt schreibt
     Humboldt <i>„Ich habe so eben ein sehr freundliches Antwortschreiben von Minister Altenstein

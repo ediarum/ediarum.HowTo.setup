@@ -38,6 +38,7 @@
             <topicref href="frameworks/basis/text/absatz.dita"/>           
             <topicref href="frameworks/basis/text/zeilenumbruch.dita"/>
             <topicref href="frameworks/basis/text/seitenwechsel.dita"/>
+            <topicref href="frameworks/basis/text/leere_seiten.dita"/>
             <topicref href="frameworks/basis/text/leerraum.dita"/>
             <topicref href="frameworks/basis/text/listen.dita"/>
             <topicref href="frameworks/basis/text/tabelle.dita"/>

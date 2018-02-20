@@ -22,10 +22,12 @@
           <?oxy_comment_start author="lkirsten" timestamp="20171024T102108+0200" comment="Wo sind hier die Kompromisse und Einzelfalllösungen?"?>Dies
           führt allerdings zu einigen Kompromissen und Einzelfall-Lösungen.<?oxy_comment_end?>
           <b>Häufige Schreibgewohnheiten</b> sind:<ul id="ul_yjy_fl5_2bb">
-            <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, disponirt, unnüz)</li>
+            <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, unnüz)</li>
+            <li>Fehlendes Dehnungs-e (disponirt)</li>
             <li>Th statt T (Theil, Monathe)</li>
             <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
-            <li>Schwankende Schreibung von Eigennamen (Göthe, Schinckel)</li>
+            <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und
+              Schinckel)</li>
             <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so
               geschrieben</li>
           </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe
@@ -502,12 +504,12 @@
       <alt>„...als Herrn G. K R...“ – Brief AvH an Meyen, Anfang 1830</alt>
     </image>
     <fig id="fig_mx1_gqn_jbb">
-      <title>Kritischer Text</title>
+      <desc>Kritischer Text</desc>
       <image placement="break" href="../../img_avhr/k%C3%BCrzel-web1.jpg" scale="80" align="center"
         id="image_nx1_gqn_jbb"/>
     </fig>
     <fig id="fig_zkr_tpn_jbb">
-      <title>Lesetext</title>
+      <desc>Lesetext</desc>
       <image placement="break" href="../../img_avhr/k%C3%BCrzel-web2.jpg" scale="70" align="center"
         id="image_alr_tpn_jbb"/>
     </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn

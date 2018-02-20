@@ -29,11 +29,13 @@
           nach Schriftbild<?oxy_comment_end?> erfasst.</li>
         <li><b>Überschriften</b> und <b>Kopfzeilen</b> werden, wenn vorhanden, erfasst und separat
           ausgezeichnet.</li>
-        <li><b>Wortzwischenräume</b> zu Beginn oder Ende einer Zelle werden nicht erfasst.</li>
+        <li><b><?oxy_comment_start author="lkirsten" timestamp="20180220T151806+0100" comment="sind Leerzeichen gemeint? Warum der Begriff Wortzwischenraum?"?>Wortzwischenräume<?oxy_comment_end?></b>
+          zu Beginn oder Ende einer Zelle werden nicht erfasst.</li>
         <li>Striche, die als <b>Verbindungsstrich</b> zwischen zwei Werten in einer Zeile oder als
             <b>Wiederholungsstrich</b> einer Angabe zwischen zwei Zeilen dienen, werden einheitlich
-          als Geviertstrich mit jeweils einem Wortzwischenraum transkribiert und in der Webansicht
-          dargestellt. </li>
+          als Geviertstrich mit jeweils einem
+          <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Wortzwischenraum
+          <?oxy_custom_end?>transkribiert und in der Webansicht dargestellt. </li>
       </ul>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<table cols="4" rows="20" rend="drawn">
   <head>Océan entre l’europe, l’afrique et l’amérique.</head>
@@ -45,7 +47,7 @@
     <cell>température <lb/>de l’atmosphère.</cell>
   </row>
   <row>
-    <cell>43°</cell>
+    <cell>43°. 29’</cell>
     <cell>10°. 31’11</cell>
     <cell>12°.</cell>
     <cell>18°.</cell>
@@ -71,7 +73,7 @@
 … ]]></codeblock>
       <p>Explizite Tabellen werden in der Webansicht im Kritischen Text sowie im Lesetext mit
         durchgehender Umrandung dargestellt.</p>
-      <?oxy_comment_start author="lkirsten" timestamp="20180201T181632+0100" comment="Sobald vorhanden, Screenshot mit Header ergänzen
+      <?oxy_comment_start author="lkirsten" timestamp="20180201T181632+0100" comment="Sobald vorhanden, Screenshot mit Header ergänzen/ Richtigkeit der Transkription?? 11 oder Sekundenzeichen?
 "?>
       <image placement="break" href="../../img_avhr/abb6-web.JPG" align="center"
         id="image_cfm_xqn_scb" scale="70">
@@ -144,10 +146,13 @@
 <p>donne lat. 10°17‘23“.</p>]]></codeblock>
       <p>In der Webansicht werden implizite Tabellen im Kritischen Text und im Lesetext mit
         gestrichelter Umrandung dargestellt:</p>
+      <?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage
+"?>
       <image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
         id="image_tx3_qzs_scb" scale="70">
         <alt>ART III, 17v - Webansicht (Kritischer Text)</alt>
       </image>
+      <?oxy_comment_end?>
       <p><b>Implizite Tabellen und Listen</b> können sich in der Vorlage ähneln. Die Unterscheidung
         wird auf Grundlage des semantischen Gehalts sowie des Schriftbildes vorgenommen:</p>
       <p>

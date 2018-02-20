@@ -16,9 +16,9 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <ul id="ul_k3y_wpt_scb">
+   <p><ul id="ul_k3y_wpt_scb">
     <li>Durchstreichung und Ersetzung ganzer Wörter:</li>
-   </ul>
+   </ul></p>
    <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
     id="image_uk4_4vt_2bb">
     <alt>Brief AvH an Meyen, nach 1834</alt>
@@ -43,16 +43,27 @@ giebt,]]></codeblock>
  </subst>
  <lb/>& very Humble ...]]></codeblock>
   </section>
-  <section audience="editor">
-   <title>Bedienung</title>
-   <p>Geben Sie zuerst das gestrichene (oder sonstwie getilgte) Wort ein. Markieren Sie es dann und drücken Sie die
-    Schaltfläche mit dem Symbol <image href="../../img/subst216.gif" id="image_scq_yhf_2y"/> in der Werkzeugleiste.</p>
-   <p>Im nun erscheinenden Dialogmenü werden Sie nach der Art der Streichung gefragt, bitte wählen
-    Sie die der Vorlage entsprechende Option aus. In einem weiteren Dialogmenü werden Sie nach dem
-    Ort der Hinzufügung gefragt. Wählen Sie auch hier eine Option. Danach wird die Kodierung in das
-    Dokument eingefügt. Der Cursor sitzt bereits im grün markierten Feld der Hinzufügung. Tragen Sie
-    hier das Wort (oder auch die Wörter) ein, die die Streichung ersetzen.</p>
-  </section>
+  <section audience="editor"><title>Bedienung</title><p>Geben Sie zuerst das gestrichene (oder
+    sonstwie getilgte) Wort ein. Markieren Sie es dann und drücken Sie die Schaltfläche mit dem
+    Symbol <image href="../../img/subst216.gif" id="image_scq_yhf_2y"/> in der
+    Werkzeugleiste.</p><p>Im nun erscheinenden Dialogmenü werden Sie nach der Art der Streichung
+    gefragt, bitte wählen Sie die der Vorlage entsprechende Option aus. In einem weiteren Dialogmenü
+    werden Sie nach dem Ort der Hinzufügung gefragt. Wählen Sie auch hier eine Option. Danach wird
+    die Kodierung in das Dokument eingefügt. Der Cursor sitzt bereits im grün markierten Feld der
+    Hinzufügung. Tragen Sie hier das Wort (oder auch die Wörter) ein, die die Streichung
+    ersetzen.</p>Werden Wörter oder Zeichen durch eine Streichung (mit anschließender Korrektur)
+   unlesbar (siehe <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">Nicht lesbare Zeichen und
+    Schäden</xref>) und müssen daher als Lücke ausgezeichnet werde, sollten die entsprechenden
+   ediarum-Funktionen in folgender Weise kombiniert werden:<p>
+    <ol id="ol_bqd_pnv_xcb">
+     <li> Über das Symbol <image href="../../img/gap16.gif" id="image_r2v_snv_xcb"/> in der
+      Werkzeugleiste <u>zuerst</u> die Lücke in der Transkription auszeichnen und als „Grund für die
+      Lücke“ den Punkt „unleserlich“ auswählen.</li>
+     <li>Anschließend die Lücke markieren und über das Symbol <image href="../../img/subst216.gif"
+       id="image_wb2_5qv_xcb"/> eine Streichung und Ersetzung auszeichnen, jeweils Art der
+      Streichung und Hinzufügung auswählen und den hinzugefügten Text eintragen.</li>
+    </ol>
+   </p></section>
   <section>
    <title>Kodierung</title>
    <p>Ist im Manuskipt ein Wort oder eine Textstelle gestrichen und gleichzeitig durch ein
