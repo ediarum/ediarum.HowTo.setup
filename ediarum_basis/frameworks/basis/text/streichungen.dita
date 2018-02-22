@@ -18,10 +18,11 @@
     </ul>
    </p>
    <p>
-    <image placement="break" href="../../img_avhr/streichung3.png" id="image_cdn_n15_qcb"
-     align="center">
-     <alt>Cuba-Manuskript, 140r</alt>
-    </image>
+    <fig>
+<desc>Cuba-Manuskript, 140r</desc>
+<image placement="break" href="../../img_avhr/streichung3.png" id="image_cdn_n15_qcb"
+     align="center"/>
+</fig>
     <codeblock outputclass="language-xml" audience="editor">[...] Medina &lt;del rendition="#s">si rappelle&lt;/del> [...] </codeblock>
    </p>
    <p>
@@ -30,18 +31,20 @@
     </ul>
    </p>
    <p>
-    <image placement="break" href="../../img_avhr/abb13.png" scale="60" align="center"
-     id="image_zyq_spt_2bb">
-     <alt>Cuba, 142v „23. La salubrité de la Havane...“</alt>
-    </image>
+    <fig>
+<desc>Cuba, 142v „23. La salubrité de la Havane...“</desc>
+<image placement="break" href="../../img_avhr/abb13.png" scale="60" align="center"
+     id="image_zyq_spt_2bb"/>
+</fig>
    </p>
    <p>Diese Art der Streichung ist zu unterscheiden von einer Streichung, die Textpassagen als
     „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>). </p>
    <p>Streichungen innerhalb einer bereits gestrichenen Passage werden ebenfalls
-     ausgezeichnet:</p><image placement="break" href="../../img_avhr/abb14.png" scale="60"
-     align="center" id="image_evk_nst_2bb">
-     <alt>Cuba, 142v „il leur est...“</alt>
-    </image>
+     ausgezeichnet:</p><fig>
+<desc>Cuba, 142v „il leur est...“</desc>
+<image placement="break" href="../../img_avhr/abb14.png" scale="60"
+     align="center" id="image_evk_nst_2bb"/>
+</fig>
     <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>
 <del rendition="#s">[...] il 
   <subst>
@@ -60,11 +63,12 @@ très [...]</del>
      </li>
     </ul>
    </p>
-   <image placement="break" href="../../img_avhr/streichung.png" id="image_hcy_ymt_qcb" scale="60"
-    align="center">
-    <alt>Kunth, Carl Sigismund: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur
-     (1849), 5v</alt>
-   </image>
+   <fig>
+<desc>Kunth, Carl Sigismund: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur
+     (1849), 5v</desc>
+<image placement="break" href="../../img_avhr/streichung.png" id="image_hcy_ymt_qcb" scale="60"
+    align="center"/>
+</fig>
    <p>Bei dieser Art der Streichung eines Textabschnittes wird nur eine einfache Streichung
     ausgezeichnet (in folgendem Kodierbeispiel wurde die Auszeichnung der Eigennamen nicht
     berücksichtigt):</p>
@@ -73,11 +77,12 @@ très [...]</del>
 <lb/>arborea Link) ist spa wird später
 <lb/>in der Note zu pag. 247 die Rede sein.</del>]]>
 &lt;/p></codeblock>
-   <image placement="break" href="../../img_avhr/streichung-web.jpg" id="image_a4n_gst_qcb"
-    align="center">
-    <alt>Kunth: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur (1849), 5v -
-     Webansicht</alt>
-   </image>
+   <fig>
+<desc>Kunth: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur (1849), 5v -
+     Webansicht</desc>
+<image placement="break" href="../../img_avhr/streichung-web.jpg" id="image_a4n_gst_qcb"
+    align="center"/>
+</fig>
   </section>
   <section audience="editor" id="section_znk_vdn_qbb">
    <title>Bedienung</title>

@@ -13,10 +13,11 @@
             <p>
                 <?oxy_comment_start author="lkirsten" timestamp="20180220T153303+0100" comment="Erman - Schubert = Erman u Schubert? Bitte Transkription prüfen
 "?>
-                <image placement="break" href="../../img_avhr/abb8.png" scale="90" align="center"
-                    id="image_g1c_s43_dbb">
-                    <alt>RST I, 1v</alt>
-                </image>
+                <fig>
+<desc>RST I, 1v</desc>
+<image placement="break" href="../../img_avhr/abb8.png" scale="90" align="center"
+                    id="image_g1c_s43_dbb"/>
+</fig>
                 <?oxy_comment_end?>
             </p>
             <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>

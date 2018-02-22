@@ -16,10 +16,11 @@
       <title>edition humboldt digital</title>
       <p>Als <b>explizite Tabellen</b> werden solche gewertet und ausgezeichnet, die erkennbar mit
         einem Tabellenraster angelegt worden sind. </p>
-      <image placement="break" href="../../img_avhr/abb6.png" scale="60" align="center"
-        id="image_hqb_sj3_dbb">
-        <alt>ART III, 54v</alt>
-      </image>
+      <fig>
+<desc>ART III, 54v</desc>
+<image placement="break" href="../../img_avhr/abb6.png" scale="60" align="center"
+        id="image_hqb_sj3_dbb"/>
+</fig>
       <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Für häufige
         Textphänomene und grafische Eigenschaften in expliziten Tabellen gelten folgende Richtlinien
         in der Transkription:<?oxy_custom_end?></p>
@@ -75,17 +76,19 @@
         durchgehender Umrandung dargestellt.</p>
       <?oxy_comment_start author="lkirsten" timestamp="20180201T181632+0100" comment="Sobald vorhanden, Screenshot mit Header ergänzen/ Richtigkeit der Transkription?? 11 oder Sekundenzeichen?
 "?>
-      <image placement="break" href="../../img_avhr/abb6-web.JPG" align="center"
-        id="image_cfm_xqn_scb" scale="70">
-        <alt>ART III, 54v - Webansicht (Kritischer Text)</alt>
-      </image>
+      <fig>
+<desc>ART III, 54v - Webansicht (Kritischer Text)</desc>
+<image placement="break" href="../../img_avhr/abb6-web.JPG" align="center"
+        id="image_cfm_xqn_scb" scale="70"/>
+</fig>
       <?oxy_comment_end?>
       <p>Als <b>implizite Tabellen</b> gelten jegliche Art von strukturierten Auflistungen,
         Messreihen und Rechnungen. </p>
-      <image placement="break" href="../../img_avhr/abb7.png" scale="60" align="center"
-        id="image_tbk_rm3_dbb">
-        <alt>ART III, 17v</alt>
-      </image>
+      <fig>
+<desc>ART III, 17v</desc>
+<image placement="break" href="../../img_avhr/abb7.png" scale="60" align="center"
+        id="image_tbk_rm3_dbb"/>
+</fig>
       <p>Diese Textphänomene werden als Tabelle erfasst, um die ihnen zugrundeliegenden Daten
         sichtbar zu strukturieren und die Darstellbarkeit im Web zu verbessern.
           <b>Tabellenüberschriften</b> und <b>Kopfzeilen</b> werden in impliziten Tabellen nicht
@@ -148,10 +151,11 @@
         gestrichelter Umrandung dargestellt:</p>
       <?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage
 "?>
-      <image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
-        id="image_tx3_qzs_scb" scale="70">
-        <alt>ART III, 17v - Webansicht (Kritischer Text)</alt>
-      </image>
+      <fig>
+<desc>ART III, 17v - Webansicht (Kritischer Text)</desc>
+<image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
+        id="image_tx3_qzs_scb" scale="70"/>
+</fig>
       <?oxy_comment_end?>
       <p><b>Implizite Tabellen und Listen</b> können sich in der Vorlage ähneln. Die Unterscheidung
         wird auf Grundlage des semantischen Gehalts sowie des Schriftbildes vorgenommen:</p>

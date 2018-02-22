@@ -16,20 +16,23 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><image placement="break" href="../../img_avhr/abb10-markierung.jpg"
-     align="center" id="image_zpy_1bg_hbb" scale="80">
-     <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
-    </image>
+    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><fig>
+<desc>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
+<image placement="break" href="../../img_avhr/abb10-markierung.jpg"
+     align="center" id="image_zpy_1bg_hbb" scale="80"/>
+</fig>
    <p><b><?oxy_comment_start author="lkirsten" timestamp="20180215T131811+0100" comment="wäre es hier sinnvoller zu sagen: sämtliche Textphänomene? / Was ist mit Einweisungszeichen"?>Seitenwechsel</b>
-    und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst.<?oxy_comment_end?></p><image
+    und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst.<?oxy_comment_end?></p><fig>
+<desc>ART I, 19r - Fortsetzung einer Anmerkung beginnend auf 18v</desc>
+<image
      placement="break" href="../../img_avhr/abb11.png" scale="70" align="center"
-     id="image_b3h_zys_2bb">
-     <alt>ART I, 19r - Fortsetzung einer Anmerkung beginnend auf 18v</alt>
-    </image> 
-   <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" align="center"
-    id="image_wc4_fyj_wcb" scale="80">
-    <alt>ART I, 18v/19r</alt>
-   </image>
+     id="image_b3h_zys_2bb"/>
+</fig> 
+   <fig>
+<desc>ART I, 18v/19r</desc>
+<image placement="break" href="../../img_avhr/abb11-webansicht.JPG" align="center"
+    id="image_wc4_fyj_wcb" scale="80"/>
+</fig>
    <p>(Im Kodierbeispiel sind nur die Textphänomene Zeilenumbruch und Seitenwechsel
     ausgezeichnet.)</p> 
    <codeblock outputclass="language-xml"><![CDATA[<note place="left" hand="#author">

@@ -8,10 +8,11 @@
       <p>Humboldt hat am Rand des Textes der Reisetagebücher häufig Hilfsrechnungen vorgenommen. Bei
         der Transkription dieser „Nebenrechnungen” wird vom Schriftbild der Vorlage abgewichen. Im
         Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
-      <image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" align="center"
-        id="image_znp_zyn_jbb">
-        <alt>Cuba-Manuskript, 128r</alt>
-      </image>
+      <fig>
+<desc>Cuba-Manuskript, 128r</desc>
+<image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" align="center"
+        id="image_znp_zyn_jbb"/>
+</fig>
     </section>
     <section audience="editor">
       <title>Bedienung</title>
@@ -35,10 +36,11 @@
     </section>
     <section>
       <title>Anzeige</title>
-      <image placement="break" href="../../img_avhr/nebenrechnung-web.jpg" scale="100"
-        align="center" id="image_akl_3zn_jbb">
-        <alt>Cuba-Manuskript, 128r – Webansicht</alt>
-      </image>
+      <fig>
+<desc>Cuba-Manuskript, 128r – Webansicht</desc>
+<image placement="break" href="../../img_avhr/nebenrechnung-web.jpg" scale="100"
+        align="center" id="image_akl_3zn_jbb"/>
+</fig>
     </section>
   </body>
 </topic>

@@ -27,17 +27,19 @@
         <p><b>Personen und Orte</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
         Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
         Stellenkommentaren nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel
-        etwa werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<image
+        etwa werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<fig>
+<desc>AvH an Meyen, 11. März 1829</desc>
+<image
           placement="break" href="../../img_avhr/sachanmerkung1.jpg" align="center"
-          id="image_pnw_krn_hbb" scale="50">
-          <alt>AvH an Meyen, 11. März 1829</alt>
-        </image></p>          
+          id="image_pnw_krn_hbb" scale="50"/>
+</fig></p>          
   <p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der Ersterwähnung
    ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder der Vor- und Nachname
-    ausgezeichnet.<image placement="break" href="../../img_avhr/sachanmerkung2.jpg" align="center"
-    id="image_vfg_btn_hbb" scale="40">
-    <alt>AvH an Meyen, Anfang 1830</alt>
-   </image></p>
+    ausgezeichnet.<fig>
+<desc>AvH an Meyen, Anfang 1830</desc>
+<image placement="break" href="../../img_avhr/sachanmerkung2.jpg" align="center"
+    id="image_vfg_btn_hbb" scale="40"/>
+</fig></p>
   <p>Können <b>externe Quellen</b> für den Stellenkommentar ermittelt werden, wird auf diese
         verwiesen<!-- (zur Bedienung in ediarum siehe <xref href="verweise.dita#topic_e1f_thv_ty">Verweise</xref>)-->.
         Als externe Quellen gelten solche, die nicht explizit in der Editions-Bibliographie erfasst
@@ -47,19 +49,19 @@
     id="fig_fng_pk4_mbb">
     <desc>Humboldt an Meyen, 1837</desc>
     <image placement="break" href="../../img_avhr/abb32.png" scale="80" align="center"
-     id="image_gng_pk4_mbb">  
-    </image>
+     id="image_gng_pk4_mbb"/>  
    </fig><fig id="fig_ftw_tk4_mbb">
      <desc>Humboldt an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
     <image placement="break" href="../../img_avhr/abb32-web.jpg" scale="80" align="center"
      id="image_gtw_tk4_mbb">     
     </image>
    </fig></p>
-  <p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<image
+  <p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<fig>
+<desc>Screenshot von http://kalliope-verbund.info/DE-611-HS-1308253</desc>
+<image
     placement="break" href="../../img_avhr/kalliope.png" scale="80" align="center"
-    id="image_crd_5l4_mbb">
-    <alt>Screenshot von http://kalliope-verbund.info/DE-611-HS-1308253</alt>
-   </image></p>
+    id="image_crd_5l4_mbb"/>
+</fig></p>
   <p>In einer Stellenkommentar werden die Originalquelle und wenn möglich die dazugehörige Signatur
           angegeben:<fig id="fig_y43_sm4_mbb">
           <desc>Stellenkommentar zu Humboldt an Meyen, 1837 (Webansicht)</desc>

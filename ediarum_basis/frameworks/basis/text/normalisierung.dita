@@ -59,10 +59,11 @@
               Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer
               aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
               Dokumentation des Befundes den Text.
-                <image placement="break" href="../../img_avhr/kunth.jpg" align="center"
-                  id="image_i4f_vln_jbb" scale="80">
-                  <alt>Brief AvH an Kunth, 26. Oktober 1832</alt>
-                </image>
+                <fig>
+<desc>Brief AvH an Kunth, 26. Oktober 1832</desc>
+<image placement="break" href="../../img_avhr/kunth.jpg" align="center"
+                  id="image_i4f_vln_jbb" scale="80"/>
+</fig>
               </li>
             <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild,
               dass Humboldt sehr wohl ein Trema gesetzt hat, es aber bei schneller Niederschrift
@@ -70,10 +71,11 @@
               Zeichens kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830 fehlt das
               Trema über „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den vorliegenden
               Text als „fur das schone“ zu transkribieren, verfälscht den Text mehr als es ihn
-              diplomatisch wiedergibt.<image href="../../img_avhr/abb19.png" scale="70"
-                id="image_g5f_qsz_2bb">
-                <alt>„fur das schone“ – Brief AvH an Meyen, Anfang 1830</alt>
-              </image></li>
+              diplomatisch wiedergibt.<fig>
+<desc>„fur das schone“ – Brief AvH an Meyen, Anfang 1830</desc>
+<image href="../../img_avhr/abb19.png" scale="70"
+                id="image_g5f_qsz_2bb"/>
+</fig></li>
             <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
               Tremata gesetzt wurden oder nicht, müssten konsequenterweise auch fehlende i-Punkte
               dokumentgetreu ausgezeichnet werden. </li>
@@ -131,9 +133,10 @@
                 <entry>tems</entry>
                 <entry>tems</entry>
                 <entry>tems</entry>
-                <entry><image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb">
-                    <alt>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</desc>
+<image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
@@ -151,9 +154,10 @@
                 <entry>monumens/ habitans</entry>
                 <entry>monumens/ habitans</entry>
                 <?oxy_comment_start author="lkirsten" timestamp="20180112T120229+0100" comment="außerdem Titel der &apos;Vues des Cordillères et monumens des peuples indigènes de l&apos;Amérique&apos;"?>
-                <entry><image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb">
-                    <alt>„habitans“ – Cuba, 141v</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„habitans“ – Cuba, 141v</desc>
+<image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb"/>
+</fig></entry>
                 <?oxy_comment_end?>
               </row>
               <row>
@@ -161,100 +165,111 @@
                 <entry>lieuex</entry>
                 <entry>lieuex</entry>
                 <entry>lieuex</entry>
-                <entry><image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb">
-                    <alt>„...lieuex de...“ – Cuba, 141r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...lieuex de...“ – Cuba, 141r</desc>
+<image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>nud</entry>
                 <entry>nud</entry>
                 <entry>nud</entry>
-                <entry><image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb">
-                    <alt>„nud“ – Cuba, 141v</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„nud“ – Cuba, 141v</desc>
+<image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>pie</entry>
                 <entry>pié</entry>
                 <entry>pié</entry>
-                <entry><image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb">
-                    <alt>„pie“ – Cuba, 140r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„pie“ – Cuba, 140r</desc>
+<image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>hazard</entry>
                 <entry>hazard</entry>
                 <entry>hazard</entry>
-                <entry><image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb">
-                    <alt>„hazard“ – Cuba, 134r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„hazard“ – Cuba, 134r</desc>
+<image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>Sontag</entry>
                 <entry>Sontag</entry>
                 <entry>Sontag</entry>
-                <entry><image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70">
-                    <alt>„Sontag“ – Brief AvH an Kunth, 30.01.1844</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„Sontag“ – Brief AvH an Kunth, 30.01.1844</desc>
+<image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>pres Bahia Honda</entry>
                 <entry>près Bahia Honda</entry>
                 <entry>près Bahia Honda</entry>
-                <entry><image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb">
-                    <alt>„...pres Bahia Honda...“ – Cuba, 130v</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...pres Bahia Honda...“ – Cuba, 130v</desc>
+<image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>1) AvH Schreibgewohnheit</entry>
                 <entry>aye</entry>
                 <entry>aye</entry>
                 <entry>aye</entry>
-                <entry><image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb">
-                    <alt>„...qui aye... “ – Cuba, 132r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...qui aye... “ – Cuba, 132r</desc>
+<image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>2) Stillschw. Normalisierung</entry>
                 <entry>Konig</entry>
                 <entry>König</entry>
                 <entry>König</entry>
-                <entry><image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb">
-                    <alt>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</desc>
+<image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>2) Stillschw. Normalisierung</entry>
                 <entry>Francois</entry>
                 <entry>François</entry>
                 <entry>François</entry>
-                <entry><image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb">
-                    <alt>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </desc>
+<image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>2) Stillschw. Normalisierung</entry>
                 <entry>a</entry>
                 <entry>à</entry>
                 <entry>à</entry>
-                <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?><image
-                    href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70">
-                    <alt>„...a celui...“ – AvH an Kunth, 20.04.1839</alt>
-                  </image><?oxy_comment_end?></entry>
+                <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?><fig>
+<desc>„...a celui...“ – AvH an Kunth, 20.04.1839</desc>
+<image
+                    href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70"/>
+</fig><?oxy_comment_end?></entry>
               </row>
               <row>
                 <entry>2) Stillschw. Normalisierung</entry>
                 <entry>chaine</entry>
                 <entry>chaîne</entry>
                 <entry>chaîne</entry>
-                <entry><image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb">
-                    <alt>„...chaine...“ – Cuba, 129r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...chaine...“ – Cuba, 129r</desc>
+<image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>3) Explizite Normalisierung</entry>
@@ -269,36 +284,40 @@
                 <entry>parceque</entry>
                 <entry>parceque</entry>
                 <entry>parce que</entry>
-                <entry><image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb">
-                    <alt>„...parceque...“ – Cuba, 140r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...parceque...“ – Cuba, 140r</desc>
+<image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>3) Explizite Normalisierung</entry>
                 <entry>tandisque</entry>
                 <entry>tandisque</entry>
                 <entry>tandis que</entry>
-                <entry><image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb">
-                    <alt>„...tandisque...“ Cuba, 148r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...tandisque...“ Cuba, 148r</desc>
+<image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>3) Explizite Normalisierung</entry>
                 <entry>com̅e, com̅erce, im̅ense</entry>
                 <entry>com̅e, com̅erce, im̅ense</entry>
                 <entry>comme, commerce, immense</entry>
-                <entry><image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140">
-                    <alt>„com̅e“ – Cuba, 128r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„com̅e“ – Cuba, 128r</desc>
+<image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140"/>
+</fig></entry>
               </row>
               <row>
                 <entry>3) Explizite Normalisierung</entry>
                 <entry>roux</entry>
                 <entry>roux</entry>
                 <entry>roues</entry>
-                <entry><image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb">
-                    <alt>„...roux de...“ – Cuba, 130r</alt>
-                  </image></entry>
+                <entry><fig>
+<desc>„...roux de...“ – Cuba, 130r</desc>
+<image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb"/>
+</fig></entry>
               </row>
               <row>
                 <entry>3) Explizite Normalisierung</entry>
@@ -363,26 +382,29 @@
                   <entry><b>Kürzel</b></entry>
                   <entry>Herr/Herrn</entry>
                   <entry>Herr/Herrn</entry>
-                  <entry><image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb">
-                    <alt>„...H/Herr/Herrn...“ – Brief AvH an Meyen, Anfang 1830</alt>
-                    </image></entry>
+                  <entry><fig>
+<desc>„...H/Herr/Herrn...“ – Brief AvH an Meyen, Anfang 1830</desc>
+<image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"/>
+</fig></entry>
                 </row>
                 <row>
                   <entry><b>Abkürzung</b></entry>
                   <entry>Prof. Dr./D.</entry>
                   <entry>Professor Doktor</entry>
-                  <entry><image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb">
-                    <alt>„Herrn Prof. D.“ – Brief AvH an Meyen, 22.08.1834</alt>
-                    </image>
+                  <entry><fig>
+<desc>„Herrn Prof. D.“ – Brief AvH an Meyen, 22.08.1834</desc>
+<image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
                   <entry><b>AvH</b></entry>
                   <entry>ich</entry>
                   <entry>ich</entry>
-                  <entry><image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb">
-                    <alt>„...die ich...“ – Brief AvH an Meyen, Anfang 1830</alt>
-                    </image>
+                  <entry><fig>
+<desc>„...die ich...“ – Brief AvH an Meyen, Anfang 1830</desc>
+<image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
@@ -392,36 +414,40 @@
                     <p>Euer, Eure</p>
                     <p> (Ewer, Ewre)</p>
                   </entry>
-                  <entry><image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb">
-                    <alt>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</alt>
-                    </image>
+                  <entry><fig>
+<desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
+<image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
                   <entry><b>Kürzel</b></entry>
                   <entry>Wohlgeboren/er/e</entry>
                   <entry>Wohlgeboren/er/e</entry>
-                  <entry><image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb">
-                    <alt>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</alt>
-                    </image>
+                  <entry><fig>
+<desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
+<image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
                   <entry><b>Kürzel</b></entry>
                   <entry>sich</entry>
                   <entry>sich</entry>
-                  <entry><image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb">
-                    <alt>„sich“ – AvH an Soemmerring, 08.05.1796</alt>
-                    </image>
+                  <entry><fig>
+<desc>„sich“ – AvH an Soemmerring, 08.05.1796</desc>
+<image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
                   <entry><b>Kürzel</b></entry>
                   <entry>den</entry>
                   <entry>den</entry>
-                  <entry><image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb">
-                    <alt>„B. den 14 Mai 1830“ – AvH an Meyen, 14.05.1830</alt>
-                    </image>
+                  <entry><fig>
+<desc>„B. den 14 Mai 1830“ – AvH an Meyen, 14.05.1830</desc>
+<image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
@@ -440,9 +466,10 @@
                   <entry><b>Abkürzung</b></entry>
                   <entry>c. à. d./ c. a. d.</entry>
                   <entry>c’est-à-dire</entry>
-                  <entry><image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb">
-                    <alt>„c.a.d.“ – ART I, 2r </alt>
-                    </image>
+                  <entry><fig>
+<desc>„c.a.d.“ – ART I, 2r </desc>
+<image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
@@ -450,35 +477,39 @@
                   <entry>Nr./no./N<u>o</u>./n./n</entry>
                   <entry>[jeweils auflösen]</entry>
                   <entry>
-                    <image href="../../img_avhr/n.png" id="image_cq2_hsq_mcb">
-                      <alt>„n 6“ – AvH an Kunth, nach 16.05.1832</alt>
-                    </image></entry>
+                    <fig>
+<desc>„n 6“ – AvH an Kunth, nach 16.05.1832</desc>
+<image href="../../img_avhr/n.png" id="image_cq2_hsq_mcb"/>
+</fig></entry>
                 </row>
                 <row>
                   <entry><b>Abkürzungen</b></entry>
                   <entry>z.B./i.e.</entry>
                   <entry>[jeweils auflösen]</entry>
                   <entry>
-                    <image href="../../img_avhr/zb.png" id="image_a1b_plq_mcb">
-                      <alt>„z. B.“ – AvH an Willdenow, 20.04.1799</alt>
-                    </image></entry>
+                    <fig>
+<desc>„z. B.“ – AvH an Willdenow, 20.04.1799</desc>
+<image href="../../img_avhr/zb.png" id="image_a1b_plq_mcb"/>
+</fig></entry>
                 </row>
                 <row>
                   <entry><b>Sonderkürzel</b></entry>
                   <entry>r.</entry>
                   <entry>Reichsthaler</entry>
-                  <entry><image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb">
-                    <alt>„r.“ – RST I, 4v</alt>
-                    </image>
+                  <entry><fig>
+<desc>„r.“ – RST I, 4v</desc>
+<image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb"/>
+</fig>
                   </entry>
                 </row>
                 <row>
                   <entry><b>Sonderkürzel</b></entry>
                   <entry>gr.</entry>
                   <entry>Groschen</entry>
-                  <entry><image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb">
-                      <alt>Groschenkürzel, AvH an Willdenow, Aranjuez, 20.04.1799</alt>
-                    </image></entry>
+                  <entry><fig>
+<desc>Groschenkürzel, AvH an Willdenow, Aranjuez, 20.04.1799</desc>
+<image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"/>
+</fig></entry>
                 </row>
                 <row>
                   <entry><b>Sonderkürzel</b></entry>
@@ -486,9 +517,10 @@
                   <entry>
                     <p>livres (oder dt.: Pfund)</p>
                   </entry>
-                  <entry><image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb">
-                      <alt>Pfundzeichen – Cuba, 130v</alt>
-                    </image>
+                  <entry><fig>
+<desc>Pfundzeichen – Cuba, 130v</desc>
+<image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"/>
+</fig>
                   </entry>
                 </row>
               </tbody>
@@ -499,18 +531,19 @@
     <p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im folgenden
       Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und expliziter
       Normalisierung von Abkürzungen verdeutlicht:</p>
-    <image placement="break" href="../../img_avhr/k%C3%BCrzel.png" scale="80" align="center"
-      id="image_sgg_t4n_jbb">
-      <alt>„...als Herrn G. K R...“ – Brief AvH an Meyen, Anfang 1830</alt>
-    </image>
+    <fig>
+<desc>„...als Herrn G. K R...“ – Brief AvH an Meyen, Anfang 1830</desc>
+<image placement="break" href="../../img_avhr/kuerzel.png" scale="80" align="center"
+      id="image_sgg_t4n_jbb"/>
+</fig>
     <fig id="fig_mx1_gqn_jbb">
       <desc>Kritischer Text</desc>
-      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web1.jpg" scale="80" align="center"
+      <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80" align="center"
         id="image_nx1_gqn_jbb"/>
     </fig>
     <fig id="fig_zkr_tpn_jbb">
       <desc>Lesetext</desc>
-      <image placement="break" href="../../img_avhr/k%C3%BCrzel-web2.jpg" scale="70" align="center"
+      <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70" align="center"
         id="image_alr_tpn_jbb"/>
     </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
   <choice>
@@ -547,15 +580,17 @@
               anpassen</li>
             <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“)</li>
           </ul></p><p>Das folgende Beispiel der Messung der Inklination (Nadel A, Nadel B, Mittel
-          beider Nadeln) zeigt exemplarisch eine entsprechende Auszeichnung:</p><image
+          beider Nadeln) zeigt exemplarisch eine entsprechende Auszeichnung:</p><fig>
+<desc>RST I, 5r</desc>
+<image
           placement="break" href="../../img_avhr/abb30.png" scale="60" align="center"
-          id="image_xqr_h24_hbb">
-          <alt>RST I, 5r</alt>
-        </image>
-        <image placement="break" href="../../img_avhr/abb30-web.png" align="center"
-          id="image_ng3_v24_hbb">
-          <alt>RST I, 5r – Webansicht</alt>
-        </image>
+          id="image_xqr_h24_hbb"/>
+</fig>
+        <fig>
+<desc>RST I, 5r – Webansicht</desc>
+<image placement="break" href="../../img_avhr/abb30-web.png" align="center"
+          id="image_ng3_v24_hbb"/>
+</fig>
       </sectiondiv>
     </section>
     <section>

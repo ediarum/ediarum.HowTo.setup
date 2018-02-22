@@ -10,31 +10,73 @@
         stillschweigenden Normalisierung vor.</p>
   </section>
   <section product="avhr">
-   <title>edition humboldt digital</title>
-   <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele sind
+      <title>edition humboldt digital</title>
+      <p>Abkürzungen in der Vorlage werden in der Transkription grundsätzlich aufgelöst. </p>
+      <fig id="fig_a4f_sfj_ycb">
+        <desc>AvH an Meyen, 1837</desc>
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" align="center"
+          id="image_b4f_sfj_ycb" scale="80"/>
+      </fig>
+      <codeblock outputclass="language-xml"><![CDATA[[...] Aufsaz über 
+  <choice>
+     <abbr>Veg.</abbr>
+     <expan>Vegetation</expan>
+  </choice> 
+ von Himalya
+  <choice>
+     <abbr>u.</abbr>
+     <expan>und</expan>
+  </choice>]]> [...]</codeblock>
+      <p>
+        <ul id="ul_l5g_yfj_ycb">
+          <li>In der <b>Kritischen Textfassung</b> werden Abkürzungen belassen:</li>
+        </ul>
+        <fig id="fig_yjl_ngj_ycb">
+          <desc>AvH an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
+          <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
+            align="center" id="image_zjl_ngj_ycb"/>
+        </fig>
+      </p>
+      <ul id="ul_dxy_4gj_ycb">
+        <li>In <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
+          aufgelöst:</li>
+      </ul>
+      <fig id="fig_njs_bhj_ycb">
+        <desc>AvH an Meyen, 1837 - Webansicht (Lesetext)</desc>
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" align="center"
+          id="image_ojs_bhj_ycb"/>
+      </fig>
+      <p>In der <b>diplomatischen Umschrift</b> werden Abkürzungen belassen, (häufige Beispiele sind
           <i>u, n, p, v</i>), in den <b>Leseumschriften</b> ausnahmslos aufgelöst (und, Nummer,
         page/pagina…, von) – dies betrifft auch heute gebräuchliche Abkürzungen wie
           <i>Prof.=Professor</i>.</p>
-   <p>Abkürzungen bei <b>Orts- und Personennamen</b> (zum Beispiel: <i>Don Franc. Arango/S.
-          Domingue/S. María del Rosario</i>) werden ebenfalls aufgelöst.</p>
-   <p>Nimmt der Autor Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in
-        ihrer jeweiligen Sprache aufgelöst – in französischen und englischen Werken als
-          <i>p=page</i>, in deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen
-          <i>p=página</i>. Dasselbe gilt analog für Nummern (<i>no., N<u>o</u></i>) in Adresszeilen,
-        Maßangaben und Mengenwerten.</p>
-   <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
-    aufgelöst.</p>
-   <p><b>Kunth-Briefwechsel und Cuba-Manuskript</b>: Üblicherweise explizite Normalisierung von
+      <p>
+        <ul id="ul_ntr_3hj_ycb">
+          <li>Abkürzungen von <b>Orts- und Personennamen</b> werden ebenfalls ergänzt.</li>
+        </ul>
+      </p>
+      <p>
+        <ul id="ul_stm_2qj_ycb">
+          <li>Nimmt der Autor Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von
+            Seitenzahlen in ihrer jeweiligen Sprache aufgelöst – in französischen und englischen
+            Werken als <i>p=page</i>, in deutschen und lateinischen Werken <i>p=pagina</i>, in
+            spanischen <i>p=página</i>. Dasselbe gilt analog für Nummern (<i>no., N<u>o</u></i>) in
+            Adresszeilen, Maßangaben und Mengenwerten.</li>
+        </ul>
+      </p>
+      <p><b>Abgekürzte Zahlenwerte</b> werden aus arbeitsökonomischen Gründen <i>nicht</i>
+        aufgelöst.</p>
+      <p><b>Kunth-Briefwechsel und Cuba-Manuskript</b>: Üblicherweise explizite Normalisierung von
         Akzenten und Tremata; Im Falle einer <b>Auflösung und gleichzeitiger Normalisierung</b> der
         Abkürzung wird nur die Ergänzung ausgezeichnet und die Normalisierung erfolgt
         stillschweigend.</p>
-   <p>
-    <codeblock outputclass="language-xml">&lt;choice>
-    &lt;abbr>Emers.&lt;/abbr>
-    &lt;expan>Émersion&lt;/expan>
-&lt;/choice></codeblock>
-   </p>
-   <p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u” und
+      <p>
+        <codeblock outputclass="language-xml"><![CDATA[<choice>
+    <abbr>Emers.<;/abbr>
+    <expan>Émersion</expan>
+</choice>]]></codeblock>
+      </p>
+      <p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u” und
         ausgeschriebenem „und” dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
         Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.<fig
           id="fig_nxf_hz1_fbb">
@@ -50,8 +92,8 @@
   <choice>
     <abbr>u</abbr>
     <expan>und</expan>
-  </choice>]]></codeblock></p>  
-  </section>
+  </choice>]]></codeblock></p>
+    </section>
  <section audience="editor">
   <title>Bedienung</title>
   <p>In der Werkzeugleiste steht die Funktion „Abkürzungen auflösen“ unter dem Symbol <image

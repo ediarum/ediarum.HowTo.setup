@@ -18,8 +18,11 @@
           <li>Leerraum gelassen, da Name nicht bekannt</li>
         </ul>
       </p>
-        <image placement="break" href="../../img_avhr/leerraum.png" align="center"
-          id="image_ifv_1pt_xcb" scale="70"><alt>Ansichten der Natur, 3r</alt></image>
+        <fig>
+<desc>Ansichten der Natur, 3r</desc>
+<image placement="break" href="../../img_avhr/leerraum.png" align="center"
+          id="image_ifv_1pt_xcb" scale="70"/>
+</fig>
       <p><codeblock outputclass="language-xml"><![CDATA[[...] in Betracht kommt. So machen <persName key="H0000795">Reichenbach</persName> 
 <lb/>und <space dim="horizontal" unit="words" quantity="1"/> offenbar zu viel, andere 
 <lb/>zu wenig Arten. Aber auf die Familien [...] ]]></codeblock></p>

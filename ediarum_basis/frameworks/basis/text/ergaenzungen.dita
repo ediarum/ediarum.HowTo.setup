@@ -13,18 +13,24 @@
   </section>
    <section>
    <title>edition humboldt digital</title>
-   <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p>
-   <image placement="break" href="../../img_avhr/abb10-markierung.jpg" align="center"
-    id="image_zpy_1bg_hbb" scale="80">
-    <alt>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</alt>
-   </image>
+   <p>Ergänzungen können sich im laufenden Text etwa unter- oder oberhalb der Zeile sowie am äußeren
+    und unteren Rand der Manuskriptseite befinden. </p>
+   <p><?oxy_comment_start author="lkirsten" timestamp="20180222T122016+0100" comment="auch Beispiele für sub- und superlineare Ergänzungen"?>Häufig
+    finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
+    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot
+    markiert.)<?oxy_comment_end?></p>
+   <fig>
+<desc>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
+<image placement="break" href="../../img_avhr/abb10-markierung.jpg" align="center"
+    id="image_zpy_1bg_hbb" scale="80"/>
+</fig>
    <p>Einweisungszeichen werden, wenn vorhanden, einmal pro Befund ausgezeichnet und unabhängig vom
     in der Vorlage verwendeten Symbol in der Webansicht einheitlich dargestellt.</p>
-   <image placement="break" href="../../img_avhr/abb16.png" scale="60" align="center"
-    id="image_un3_3rj_dbb">
-    <alt>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“</alt>
-   </image>
+   <fig>
+<desc>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“</desc>
+<image placement="break" href="../../img_avhr/abb16.png" scale="60" align="center"
+    id="image_un3_3rj_dbb"/>
+</fig>
    <codeblock outputclass="language-xml"><![CDATA[… aussi la proprieté de celle de Jura (en Franconie) 
   <add place="right"><metamark/>
     de presenter des grandes Cavernes qui se sont rempli d’eau 

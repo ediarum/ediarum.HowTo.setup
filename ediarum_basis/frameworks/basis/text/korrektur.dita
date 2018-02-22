@@ -19,10 +19,11 @@
    <p><ul id="ul_k3y_wpt_scb">
     <li>Durchstreichung und Ersetzung ganzer Wörter:</li>
    </ul></p>
-   <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
-    id="image_uk4_4vt_2bb">
-    <alt>Brief AvH an Meyen, nach 1834</alt>
-   </image>
+   <fig>
+<desc>Brief AvH an Meyen, nach 1834</desc>
+<image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
+    id="image_uk4_4vt_2bb"/>
+</fig>
    <codeblock outputclass="language-xml"><![CDATA[Buchhändler in 
  <subst>
   <del rendition="#s">Berl</del> 
@@ -34,8 +35,11 @@ giebt,]]></codeblock>
      <li>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</li>
     </ul>
    </p>
-    <image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
-     id="image_t2h_lxx_rcb"><alt>George Arnott Walker-Arnott an AvH, 15.03.1825</alt></image>
+    <fig>
+<desc>George Arnott Walker-Arnott an AvH, 15.03.1825</desc>
+<image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
+     id="image_t2h_lxx_rcb"/>
+</fig>
    <codeblock outputclass="language-xml"><![CDATA[Believe me Sir yours Sincer
  <subst>
   <del rendition="#ow">ely</del>

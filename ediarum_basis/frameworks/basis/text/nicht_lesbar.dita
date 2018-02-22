@@ -19,14 +19,16 @@
    <ul id="ul_c1y_qsq_wcb">
     <li>nicht lesbare Wörter</li>
    </ul>
-   <image placement="break" href="../../img_avhr/nicht_lesbar.png" align="center"
-    id="image_x5t_zsq_wcb" scale="60">
-    <alt>AvH an Kunth, 26.08-30.10.1844</alt>
-   </image>
-   <image placement="break" href="../../img_avhr/nicht_lesbar.JPG" align="center"
-    id="image_s5m_xsq_wcb" scale="60">
-    <alt>AvH an Kunth, 26.08-30.10.1844 - Webansicht</alt>
-   </image>
+   <fig>
+<desc>AvH an Kunth, 26.08-30.10.1844</desc>
+<image placement="break" href="../../img_avhr/nicht_lesbar.png" align="center"
+    id="image_x5t_zsq_wcb" scale="60"/>
+</fig>
+   <fig>
+<desc>AvH an Kunth, 26.08-30.10.1844 - Webansicht</desc>
+<image placement="break" href="../../img_avhr/nicht_lesbar.JPG" align="center"
+    id="image_s5m_xsq_wcb" scale="60"/>
+</fig>
   </p>
   <p>
    <ul id="ul_cqf_dtq_wcb">

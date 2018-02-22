@@ -17,32 +17,36 @@
     </ul>
    </p><p>Im folgenden Beispiel wäre die Teilunterstreichung in der Transkription „G<u>rani</u>te“
     eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung (Humboldt unterstreicht das Wort
-    Granite und nicht „rani“ in „Granite“). </p><image placement="break"
-    href="../../img_avhr/abb12.png" scale="80" align="center" id="image_xzm_pmj_dbb">
-    <alt>Cuba-Manuskript, 128r</alt>
-   </image><p>Ausgezeichnet wird daher das gesamte
-    Wort:</p><codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock><image
+    Granite und nicht „rani“ in „Granite“). </p><fig>
+<desc>Cuba-Manuskript, 128r</desc>
+<image placement="break"
+    href="../../img_avhr/abb12.png" scale="80" align="center" id="image_xzm_pmj_dbb"/>
+</fig><p>Ausgezeichnet wird daher das gesamte
+    Wort:</p><codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock><fig>
+<desc>Cuba-Manuskript, 127r</desc>
+<image
     placement="break" href="../../img_avhr/abb12-web.jpg" align="center" id="image_k54_jfg_hbb"
-    scale="80">
-    <alt>Cuba-Manuskript, 127r</alt>
-   </image><ul id="ul_l1q_2tz_pcb">
+    scale="80"/>
+</fig><ul id="ul_l1q_2tz_pcb">
     <li>Anstreichungen am Rand werden erfasst. </li>
     <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen sein. </li>
     <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position wird
      allerdings in der Auszeichnung nicht vermerkt und erscheint in der Webdarstellung stets am
      linken Rand.</li>
-   </ul><image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center">
-    <alt>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</alt>
-   </image><p>Die Auszeichnung umfasst alle vier Zeilen:</p><p>
+   </ul><fig>
+<desc>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</desc>
+<image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center"/>
+</fig><p>Die Auszeichnung umfasst alle vier Zeilen:</p><p>
     <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
 fraises, petits poids, fêves, resains, patates… tout cela
 depuis peu aussi a Veracruz. Le Trigo ne donnant pas de graines à
 Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
    </p>
-   <?oxy_comment_start author="lkirsten" timestamp="20180123T184954+0100" comment="hier ist der gesamte Absatz gezeigt, reicht kleinerer Auschnitt wie oben?"?><image
-    href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center">
-    <alt>Cuba-Manuskript, 144r - Anstreichung eines Absatzes am rechten Rand</alt>
-   </image><?oxy_comment_end?>
+   <?oxy_comment_start author="lkirsten" timestamp="20180123T184954+0100" comment="hier ist der gesamte Absatz gezeigt, reicht kleinerer Auschnitt wie oben?"?><fig>
+<desc>Cuba-Manuskript, 144r - Anstreichung eines Absatzes am rechten Rand</desc>
+<image
+    href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center"/>
+</fig><?oxy_comment_end?>
    <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle und andere
     Textphänomene sind im Beispiel nicht ausgezeichnet):</p><codeblock outputclass="language-xml"><![CDATA[<p rendition="#mMM">Depuis 1702 -1775 on a importé a la Jamaique
 497736 Negres

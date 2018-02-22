@@ -71,14 +71,16 @@
 "?>Dazu
     wird in der ediarum-Autorenansicht der entsprechende Buchstabe markiert und im Symbolmenü der
     Überstrich eingefügt. <?oxy_comment_end?></p>
-   <image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" align="center"
-    id="image_i3m_xgn_hbb">
-    <alt>Cuba, 128v</alt>
-   </image>
-   <image placement="break" href="../img_avhr/geminationstrich-web.jpg" align="center"
-    id="image_ylx_lhn_hbb">
-    <alt>Cuba, 128v – Webansicht</alt>
-   </image>
+   <fig>
+<desc>Cuba, 128v</desc>
+<image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" align="center"
+    id="image_i3m_xgn_hbb"/>
+</fig>
+   <fig>
+<desc>Cuba, 128v – Webansicht</desc>
+<image placement="break" href="../img_avhr/geminationstrich-web.jpg" align="center"
+    id="image_ylx_lhn_hbb"/>
+</fig>
    <table frame="all" rowsep="1" colsep="1" id="table_zxp_t3n_hbb">
     <title>Unicode-Übersicht</title>
     <tgroup cols="2">
