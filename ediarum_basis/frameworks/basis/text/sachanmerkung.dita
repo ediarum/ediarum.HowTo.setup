@@ -14,16 +14,7 @@
       <p>Sachanmerkungen sind möglichst kurz und kompakt und konzentrieren sich auf wesentliche
         Erläuterungen der Textstelle oder des größeren Textsegmentes. Sie können Verweise auf
         Registereinträge, die Bibliographie der Edition oder externe Quellen
-        enthalten.</p>      
-      <p audience="editor">Bei der Erwähnung von <b>bibliographischen Angaben</b> in einer
-        Stellenkommentar müssen folgende Punkte berücksichtigt werden: <ol id="ol_w4p_ntn_hbb">
-          <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank muss vorhanden sein
-            oder neu angelegt werden</li>
-          <li>Vergabe eines Kurztitels</li>
-          <li>Angabe des Kurztitels in der Stellenkommentar nach dem Muster <b>Humboldt 1826, II,
-              235</b> [Kurztitel, Band, Seite]</li>
-          <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet</li>
-        </ol></p>      
+        enthalten.</p>            
         <p><b>Personen und Orte</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
         Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
         Stellenkommentaren nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel
@@ -67,7 +58,20 @@
           <desc>Stellenkommentar zu Humboldt an Meyen, 1837 (Webansicht)</desc>
           <image placement="break" href="../../img_avhr/abb32-web-sachanmerkung.jpg" scale="80"
             align="center" id="image_z43_sm4_mbb"/>
-        </fig></p></section>
+        </fig></p>
+    <p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen Angaben in einem
+        Stellenkommentar müssen folgende Punkte berücksichtigt werden: <ol id="ol_w4p_ntn_hbb">
+          <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank muss vorhanden sein
+            oder neu angelegt werden</li>
+          <li>Die bibliographische Angabe in Zotero sollte einen Kurztitel haben. Wenn kein
+            Kurztitel vorhanden ist,  muss er neu vergeben werden</li>
+          <li>Des Kurztitel muss im Stellenkommentar nach dem Muster <b>Humboldt 1826, II, 235</b>
+            [Kurztitel, Band, Seite] angegeben werden</li>
+          <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet (siehe
+              <xref href="namen_kennzeichnen.dita#topic_rhd_g3v_ty">Namen, Werktitel und
+              Sachbegriffe</xref>)</li>
+        </ol></p>
+  </section>
     <section>
       <title>Bedienung</title>
       <p> Die zu kommentierende Textstelle markieren. In der Werkzeugleiste die Schaltfläche mit dem

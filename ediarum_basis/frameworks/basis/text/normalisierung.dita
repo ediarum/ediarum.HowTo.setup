@@ -111,7 +111,8 @@
               Schreibweise wird als Stilelement respektiert</li>
             <li><b>Stillschweigende Normalisierung</b>: diakritische Zeichen werden stillschweigend
               ergänzt</li>
-            <li><b>Explizite Normalisieriung</b>: offener Ermessensraum zwischen 1 und 4 </li>
+            <li><b>Explizite Normalisier
+                ung</b>: offener Ermessensraum zwischen 1 und 4 </li>
             <li><b>Korrektur durch den Herausgeber</b>: offenkundige Fehler werden explizit
               korrigiert</li>
           </ol>
@@ -598,7 +599,10 @@
       <p>Sollen Normalisierungen explizit kodiert werden, wird das Element <xmlelement>choice</xmlelement>verwendet. Dabei wird das Wort in seiner Form, mit der es im Manuskript erscheint, in
         einem Kindelement <xmlelement>orig</xmlelement> (original) notiert, die normalisierte Schreibweise in
         <xmlelement>reg</xmlelement> (regularization).</p>
-      <codeblock outputclass="language-xml"><![CDATA[<choice><orig>althen</orig><reg>alten</reg></choice>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<choice>
+   <orig>althen</orig>
+   <reg>alten</reg>
+ </choice>]]></codeblock>
     </section>
     <section>
       <title>Anzeige</title>

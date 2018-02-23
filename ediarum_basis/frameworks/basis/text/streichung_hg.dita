@@ -5,14 +5,17 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Unter Umständen kann der Autor ein Wort irrtümlicherweise mehrfach gesetzt haben. Erschwert dieses überflüssige oder redundante
-   Wort das Verständnis eines Satzes, kann es durch den Herausgeber gestrichen werden.</p>
+   <p>Unter Umständen kann der Autor ein Wort irrtümlicherweise mehrfach gesetzt haben. Erschwert
+    dieses überflüssige oder redundante Wort das Verständnis eines Satzes, kann es durch den
+    Herausgeber gestrichen werden.</p>
   </section>
   <section>
    <title>edition humboldt digital</title>
    <p>
     <fig id="fig_mdk_tgk_ycb">
-     <desc>Brief AvH an Meyen, 1833(?)</desc>
+     <desc><ul id="ul_xdg_nhp_ycb">
+       <li>Streichung überflüssiger Wörter</li>
+      </ul>Brief AvH an Meyen, 1833(?)</desc>
      <image placement="break" href="../../img_avhr/streichungen_hg_1.png" align="center"
       id="image_ndk_tgk_ycb" scale="70"/>
     </fig>
@@ -20,8 +23,29 @@
   </section>
   <fig id="fig_qsc_t3k_ycb">
    <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
+   <?oxy_comment_start author="lkirsten" timestamp="20180223T105102+0100" comment="Lesetext fehlt da überflüssiges Leerzeichen anstelle des gestrichenen Wortes
+
+"?>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.png" align="center"
     id="image_rsc_t3k_ycb"/>
+   <?oxy_comment_end?>
+  </fig>
+  <p>
+   <ul id="ul_xk5_4hp_ycb">
+    <li>Streichung überflüssiger Satzzeichen</li>
+   </ul>
+  </p>
+  <fig><desc>II. Considérations générales, 3r</desc><image href="../../img_avhr/streichungen_hg_2.png" placement="break" id="image_yfs_x3p_ycb"
+   align="center"/></fig>
+  <fig id="fig_izb_fjp_ycb">
+   <desc>II. Considérations générales, 3r - Webansicht (Kritischer Text)</desc>
+   <image placement="break" href="../../img_avhr/streichungen_hg_2_webkrit.jpg" align="center"
+    id="image_jzb_fjp_ycb" scale="80"/>
+  </fig>
+  <fig id="fig_ic2_xjp_ycb">
+   <desc>II. Considérations générales, 3r - Webansicht (Lesetext)</desc>
+   <image placement="break" href="../../img_avhr/streichungen_hg_2_webles.jpg" scale="80"
+    align="center" id="image_jc2_xjp_ycb"/>
   </fig>
   <section audience="editor">
    <title>Bedienung</title>
@@ -33,10 +57,12 @@
   </section>
   <section>
    <title>Kodierung</title>
-  <p>Die Streichung eines (oder mehrer Wörter) durch den Herausgeber wird im Element <xmlelement>choice</xmlelement> vorgenommen;
-   dabei kennzeichnet das Kindelement <xmlelement>sic</xmlelement> das zustreichende Wort. Die Streichung selbst wird durch ein Im
-    weiteres Kindelement <xmlelement>corr</xmlelement> (correction), dessen Attribut <xmlatt>type</xmlatt> den Wert deleted trägt. Dadurch
-  soll die Kodierung explizit kennzeichnen, dass das Wort gestrichen ist und nicht etwa eine Herausgeberkorrektur vergessen wurde.</p>
+   <p>Die Streichung eines (oder mehrer Wörter) durch den Herausgeber wird im Element
+     <xmlelement>choice</xmlelement> vorgenommen; dabei kennzeichnet das Kindelement
+     <xmlelement>sic</xmlelement> das zustreichende Wort. Die Streichung selbst wird durch ein Im
+    weiteres Kindelement <xmlelement>corr</xmlelement> (correction), dessen Attribut
+     <xmlatt>type</xmlatt> den Wert deleted trägt. Dadurch soll die Kodierung explizit kennzeichnen,
+    dass das Wort gestrichen ist und nicht etwa eine Herausgeberkorrektur vergessen wurde.</p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
    <sic>Schiller-Anstalt</sic>
    <corr type="deleted"/>
