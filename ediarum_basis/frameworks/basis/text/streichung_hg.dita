@@ -23,12 +23,13 @@
   </section>
   <fig id="fig_qsc_t3k_ycb">
    <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
-   <?oxy_comment_start author="lkirsten" timestamp="20180223T105102+0100" comment="Lesetext fehlt da überflüssiges Leerzeichen anstelle des gestrichenen Wortes
-
-"?>
-   <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.png" align="center"
+   <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" align="center"
     id="image_rsc_t3k_ycb"/>
-   <?oxy_comment_end?>
+  </fig>
+  <fig id="fig_rkp_lps_zcb">
+   <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Lesetext)</desc>
+   <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" align="center"
+    id="image_skp_lps_zcb"/>
   </fig>
   <p>
    <ul id="ul_xk5_4hp_ycb">

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_qxv_dt5_zcb">
+  <title>Zitate</title>
+  <body>
+    <section>
+      <title>Allgemeines</title>
+      <p/>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p>
+        <ul id="ul_bs3_zt5_zcb">
+          <li>inline-Zitate werden nicht ausgezeichnet</li>
+          <li>Zitate werden mit Sachkommentar versehen und dort aufgelöst</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <title>Bedienung</title>
+      <p/>
+    </section>
+  </body>
+</topic>

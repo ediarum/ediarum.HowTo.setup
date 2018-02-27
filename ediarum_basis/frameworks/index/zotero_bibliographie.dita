@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_gkr_jm5_zcb">
+  <title>Zotero-Bibliographie</title>
+  <body>
+    <section>
+      <title>Allgemein</title>
+      <p/>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p>Anstatt eines in XML-kodierten Werkregisters nutzt die edition humboldt digital eine
+        Zotero-Bibliographie. Die Projektdatenbank des Vorhabens befindet sich in der Zotero-Gruppe
+        „AvH-R“ unter <xref href="https://www.zotero.org/groups/avh-r" format="html"
+          scope="external">https://www.zotero.org/groups/avh-r</xref></p>
+    </section>
+    <section>
+      <title>Bedienung</title>
+      <p/>
+    </section>
+  </body>
+</topic>

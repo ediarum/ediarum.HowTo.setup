@@ -44,13 +44,14 @@
             <topicref href="frameworks/basis/text/tabelle.dita"/>
             <topicref href="frameworks/basis/text/anmerkung_ms.dita"/>
             <topicref href="frameworks/basis/text/nebenrechnung.dita" product="avhr"/>
+            <topicref href="frameworks/basis/text/zitate_autor.dita" product="avhr"/>
             <topicref href="frameworks/basis/text/zeichnung.dita"/>
         </topicref>
         <topicref href="frameworks/basis/text/_intro_autor.dita">
             <topicref href="frameworks/basis/text/untersreichung.dita"/>
             <topicref href="frameworks/basis/text/hochstellen.dita"/>
             <topicref href="frameworks/basis/text/streichungen.dita"/>
-            <topicref href="frameworks/basis/text/streichung_erledigt.dita"/>
+            <topicref href="frameworks/basis/text/streichung_erledigt.dita" product="avhr"/>
             <topicref href="frameworks/basis/text/korrektur.dita"/>
             <topicref href="frameworks/basis/text/ergaenzungen.dita"/>
         </topicref>
@@ -62,7 +63,8 @@
             <topicref href="frameworks/basis/text/fehlendes_wort.dita"/> 
             <topicref href="frameworks/basis/text/streichung_hg.dita"/> 
             <topicref href="frameworks/basis/text/korrektur-hg.dita"/>
-            <topicref href="frameworks/basis/text/normalisierung.dita"/> 
+            <topicref href="frameworks/basis/text/normalisierung.dita" product="avhr"/> 
+            <topicref href="frameworks/basis/text/normalisierung_zahlenwerte.dita" product="avhr"/>
             <topicref href="frameworks/basis/text/sachanmerkung.dita"/> 
             <topicref href="frameworks/basis/text/verweise.dita"/> 
             <topicref href="frameworks/basis/text/datum.dita"/> 
@@ -92,12 +94,13 @@
         <topicref href="frameworks/index/neuer_eintrag.dita"/>
         <topicref href="frameworks/index/allgemein.dita"/>
         <topicref href="frameworks/index/person.dita"/>
-        <topicref href="frameworks/index/werke.dita"/>
+        <topicref href="frameworks/index/zotero_bibliographie.dita" product="avhr"/>
+        <!--<topicref href="frameworks/index/werke.dita"/>-->
         <topicref href="frameworks/index/sachregister.dita"/>
         <topicref href="frameworks/index/orte.dita"/>
         <topicref href="frameworks/index/institutionen.dita"/>
-        <topicref href="frameworks/index/massangaben.dita"/>
-        <topicref href="frameworks/index/sigle.dita"/>
+        <topicref href="frameworks/index/massangaben.dita" product="avhr"/>
+        <topicref href="frameworks/index/sigle.dita" product="avhr"/>
         <topicref href="frameworks/index/zusammenfuehren.dita"/>
     </chapter>
 
