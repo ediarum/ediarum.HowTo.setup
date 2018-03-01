@@ -14,22 +14,56 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <p>Einige Schreibgewohnheiten Humboldts werden prinzipiell bewahrt.
-    <?oxy_comment_start author="lkirsten" timestamp="20171024T102108+0200" comment="Wo sind hier die Kompromisse und Einzelfalllösungen?"?>Dies
-    führt allerdings zu einigen Kompromissen und Einzelfall-Lösungen.<?oxy_comment_end?>
-    <b>Häufige Schreibgewohnheiten</b> sind:<ul id="ul_yjy_fl5_2bb">
-     <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, unnüz)</li>
-     <li>Fehlendes Dehnungs-e (disponirt)</li>
-     <li>Th statt T (Theil, Monathe)</li>
-     <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
-     <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und Schinckel)</li>
-     <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so geschrieben</li>
-    </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe des
-     <xmlelement>choice</xmlelement>-Elements oder stillschweigende Normalisierung statt. </p>
-   <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der <b>Unterscheidung zwischen
-     Schreibgewohnheit, Normalisierung und Korrekturen durch den Herausgeber</b>. <xref
-     href="normalisierung.dita#topic_qxp_ph5_2bb/table_bps_3jg_hbb">Diese Grenzfälle werden anhand
-     repräsentativer Beispiele im Abschnitt „Normalisierung” dokumentiert.</xref></p>
+   <p>In der Edition wird zwischen zwei Stufen des korrigierenden Texteingriffes unterschieden:
+    Normalisierung und Korrektur.</p>
+   <p><b>Korrekturen</b> werden vorgenommen, wenn Fehler in der Vorlage das Verständnis einzelner
+    Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
+    überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
+    Deklinationen, falscher Genus bei Artikeln und Adjektiven und andere grammatische
+    Inkonsistenzen.</p>
+   <fig id="fig_gxy_vf3_1db">
+    <desc>AvH an Kunth, 5.12.1846</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" align="center"
+     id="image_hxy_vf3_1db"/>
+   </fig>
+   <fig id="fig_wwg_zf3_1db">
+    <desc>AvH an Kunth, 5.12.1846 - Webansicht (Kritischer Text)</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_1_webkrit.JPG" align="center"
+     id="image_xwg_zf3_1db"/>
+   </fig>
+   <fig id="fig_wy4_cg3_1db">
+    <desc>AvH an Kunth, 5.12.1846 - Webansicht (Lesetext)</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_1_webles.JPG" align="center"
+     id="image_xy4_cg3_1db"/>
+   </fig>
+   <fig id="fig_hrh_hr3_1db">
+    <desc>AvH an Soemmerring, 28.01/20.02.1791</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_2.png" align="center"
+     id="image_irh_hr3_1db" scale="90"/>
+   </fig>
+   <fig id="fig_yvb_sr3_1db">
+    <desc>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_2_webkrit.JPG" align="center"
+     id="image_zvb_sr3_1db"/>
+   </fig>
+   <fig id="fig_i2j_tr3_1db">
+    <desc>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Lesetext)</desc>
+    <image placement="break" href="../../img_avhr/korrektur_hg_2_webles.JPG" align="center"
+     id="image_j2j_tr3_1db"/>
+   </fig>
+   <p><b>Normalisierungen</b> sind im Rahmen der Edition kleine Korrekturen der Orthographie und
+    Interpunktion, die die Schreibung der Vorlage an orthographische Konventionen anpassen sollen
+    ohne dabei jede kleine Abweichung als Fehler zu markieren. <b>Stillschweigend normalisiert</b>
+    (auf Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
+     normalisiert</b> (auf Ebene des Lesetextes) werden üblicherweise Groß- und Kleinschreibung, die
+    Korrektur von Satzzeichen, die Ergänzung von Apostrophen usw. Explizite Normalisierungen werden
+    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen. Ausgenommen von der
+    Normalisierung sind häufige <b>Schreibgewohnheiten Humboldts</b>, die als Stilelemente bewahrt
+    werden. (Siehe <xref href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>)</p>   
+   <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der Unterscheidung zwischen
+    Schreibgewohnheit, Normalisierung und Korrekturen durch den Herausgeber. Diese Grenzfälle werden
+    anhand repräsentativer Beispiele im Abschnitt <xref href="normalisierung.dita#topic_qxp_ph5_2bb"
+     >Normalisierung</xref> dokumentiert.</p>
   </section>
   <section id="section_gl2_thg_qbb">
    <title>Bedienung</title>
@@ -39,7 +73,7 @@
      id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber” aus. Im dann
     erscheinenden Dialogmenü werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur, die
     Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
-    bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingegeben können.</p>
+    bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben können.</p>
   </section>
   <section>
    <title>Kodierung</title>

@@ -77,7 +77,7 @@
     </ul>
    </p>
    <p>aber nicht notwendigerweise für Dritte. </p>
-   <table frame="all" rowsep="1" colsep="1" id="table_ljt_gv1_4cb">
+   <table id="table_ljt_gv1_4cb">
     <title>Orte</title>
     <tgroup cols="2">
      <colspec colname="c1" colnum="1" colwidth="1.0*"/>
@@ -108,7 +108,7 @@
     </tgroup>
    </table>
   </section>
-  <table frame="all" rowsep="1" colsep="1" id="table_fhd_jw1_4cb">
+  <table id="table_fhd_jw1_4cb">
    <title>Personen</title>
    <tgroup cols="2">
     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
@@ -171,7 +171,7 @@
     </tbody>
    </tgroup>
   </table>
-  <table frame="all" rowsep="1" colsep="1" id="table_tqq_5w1_4cb">
+  <table id="table_tqq_5w1_4cb">
    <title>Institutionen</title>
    <tgroup cols="2">
     <colspec colname="c1" colnum="1" colwidth="1.0*"/>

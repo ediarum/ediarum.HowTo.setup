@@ -81,7 +81,7 @@
 <image placement="break" href="../img_avhr/geminationstrich-web.jpg" align="center"
     id="image_ylx_lhn_hbb"/>
 </fig>
-   <table frame="all" rowsep="1" colsep="1" id="table_zxp_t3n_hbb">
+   <table id="table_zxp_t3n_hbb">
     <title>Unicode-Übersicht</title>
     <tgroup cols="2">
      <colspec colname="c1" colnum="1" colwidth="1.0*"/>
