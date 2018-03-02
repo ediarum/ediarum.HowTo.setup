@@ -3,8 +3,7 @@
 <topic id="topic_qxp_ph5_2bb">
   <title>Normalisierung</title>
   <body>
-    <section>
-      <title>Allgemein</title>
+    <section>      
       <p>Normalisierungen sind Anpassungen von historischen oder persönlichen Schreibweisen an die
         moderne Orthographie, die vom Herausgeber vorgenommen werden. Dabei können Normalisierungen
         explizit ausgezeichnet oder stillschweigend - ohne Kenntlichmachung in XML - vorgenommen
@@ -12,7 +11,9 @@
         vorgenommenen Normalisierungen erläutert und dokumentiert.</p>
       <p>Normalisierungen sind zu unterscheiden von <xref href="korrektur-hg.dita#topic_blt_sgv_ty"
           >Korrekturen von Fehlern durch den Herausgeber</xref>, die in der Vorlage enthalten sind.
-        Darüber hinaus sind sie auch zu unterscheiden von <xref
+        Korrekturen im engeren Sinne werden vorgenommen, wenn Fehler in der Vorlage das Verständnis
+        einzelner Wörter oder des gesamten Satzes und somit den Lesefluss stören. Darüber hinaus
+        sind Normalisierungen zu unterscheiden von <xref
           href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Auflösungen von Abkürzungen durch den
           Herausgeber</xref>.</p>
       <p>Eine Sonderform der stillschweigenden Normalisierung in der edition humboldt digital ist
@@ -20,30 +21,38 @@
           href="normalisierung_zahlenwerte.dita#topic_xwv_ndt_zcb">Normalisierung von Zahlenwerten
           und Notationen</xref>.</p>
     </section>
-    <section><title>edition humboldt digital </title><p>Einige Schreibgewohnheiten Humboldts werden
-        prinzipiell bewahrt.
-        <?oxy_comment_start author="lkirsten" timestamp="20171024T102108+0200" comment="Wo sind hier die Kompromisse und Einzelfalllösungen?"?>Dies
-        führt allerdings zu einigen Kompromissen und Einzelfall-Lösungen.<?oxy_comment_end?>
-        <b>Häufige Schreibgewohnheiten</b> sind:<ul id="ul_yjy_fl5_2bb">
-          <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, unnüz)</li>
+    <section><title>Explizite Normalisierung</title>
+      <p>Normalisierungen sind im Rahmen der Edition Korrekturen der Orthographie und Interpunktion,
+        die die Schreibung der Vorlage der besseren Lesbarkeit halber an orthographische
+        Konventionen anpassen sollen ohne dabei jede Abweichung als Fehler zu markieren. Explizit
+        normalisiert werden üblicherweise Groß- und Kleinschreibung, die Korrektur von Satzzeichen,
+        die Ergänzung von Apostrophen, fälschlich getrennt geschriebene Wörter sowie
+        Geminations-Überstriche bei Doppelkonsonanten.</p>
+      <p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen
+        im Kritischen Text nicht markiert:</p>
+      <p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur
+        vorkommen, zum Vergleich in der Webansicht]</p><p>Ausgenommen von der expliziten Normalisierung <b>Häufige Schreibgewohnheiten Humboldts</b>, die
+        als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu zählen u.a.:<ul
+          id="ul_yjy_fl5_2bb">
+          <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt,
+            <?oxy_comment_start author="lkirsten" timestamp="20180302T140648+0100" comment="kein Doppelkonsonant, sondern Affrikate, bei der Plosiv fehlt
+"?>unnüz<?oxy_comment_end?>)</li>
           <li>Fehlendes Dehnungs-e (disponirt)</li>
           <li>Th statt T (Theil, Monathe)</li>
           <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
           <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und Schinckel)</li>
           <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so
             geschrieben</li>
-        </ul>In diesen und vergleichbaren Fällen findet keine explizite Normalisierung mithilfe des
-          <xmlelement>choice</xmlelement>-Elements oder stillschweigende Normalisierung statt.
-          </p><p><b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen
-        Schreibweise belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit
-        dem jeweiligen Registereintrag.</p> Stillschweigende Normalisierung <p>Aus Gründen der
-        Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in der Verwendung von
-        diakritischen Zeichen anhand des <xmlelement>choice</xmlelement>-Elements kenntlich zu
-        machen. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden diakritische Zeichen
-        stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
-          <li>Akzente in allen Sprachen</li>
-          <li>Tremata, etwa in deutschen Umlauten</li>
-        </ul></p><p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
+        </ul></p><p>Auch <b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen Schreibweise
+        belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
+        Registereintrag.</p></section> 
+        <section><title>Stillschweigende Normalisierung</title>Aus Gründen der Arbeitsökonomie wird
+      darauf verzichtet, Humboldts Schreibgewohnheiten in der Verwendung von diakritischen Zeichen
+      explizit zu normalisieren. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
+      diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
+        <li>Akzente in allen Sprachen</li>
+        <li>Tremata, etwa in deutschen Umlauten</li>
+      </ul><p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
           id="ul_eqt_2sz_2bb">
           <li><b>Autorintention:</b> Es wird davon ausgegangen, dass Humboldt sich sehr wohl seiner
             nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
@@ -95,297 +104,301 @@
         kenntlich gemacht. Wird in vergleichbaren Fällen stillschweigend normalisiert, erfolgt in
         einer <b>Sachanmerkung</b> (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
           >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->
-      Unterscheidung zwischen Schreibgewohnheit, Normalisierung und Korrektur <p>Im editorischen
-        Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen Schreibgewohnheit,
-        (stillschweigender/expliziter) Normalisierung und dem korrigierenden Eingriff durch den
-        Herausgeber.</p><p>Diese Grenzfälle werden anhand repräsentativer Beispiele dokumentiert.
-        Die Unterscheidung basiert auf folgenden Richtlinien:</p><p>
-        <ol id="ol_awp_1mg_hbb">
+      <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
+        Schreibgewohnheit, (stillschweigender/expliziter) Normalisierung und dem korrigierenden
+        Eingriff durch den Herausgeber.</p><p>Diese Grenzfälle werden anhand repräsentativer
+        Beispiele dokumentiert. Die Unterscheidung basiert auf folgenden Richtlinien:</p><p>
+        <ul id="ol_awp_1mg_hbb">
           <li><b>AvH Schreibgewohnheit</b>: Humboldt schreibt mit hoher Konsistenz so; die
-            Schreibweise wird als Stilelement respektiert</li>
+            Schreibweise wird als Stilelement respektiert und auf keiner Ebene normalisiert.<table
+              id="table_bps_3jg_hbb">
+              <title>Tabelle: Häufige Beispiele für Humboldts Schreibgewohnheiten</title>
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Befund</entry>
+                    <entry>Kritischer Text</entry>
+                    <entry>Lesetext</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</desc>
+                        <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>tems</entry>
+                    <entry>tems</entry>
+                  </row>
+                  <row>
+                    <?oxy_comment_start author="lkirsten" timestamp="20180112T115203+0100" comment="Cuba 137r, konnte aber faksimile nicht zuordnen
+"?>
+                    <entry/>
+                    <?oxy_comment_end?>
+                    <entry>anglois</entry>
+                    <entry>anglois</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„habitans“ – Cuba, 141v</desc>
+                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>habitans</entry>
+                    <entry>habitans</entry>
+                  </row>
+                  <row>
+                    <?oxy_comment_start author="lkirsten" timestamp="20180112T120229+0100" comment="Titel der &apos;Vues des Cordillères et monumens des peuples indigènes de l&apos;Amérique&apos;"?>
+                    <entry> </entry>
+                    <?oxy_comment_end?>
+                    <entry>monumens</entry>
+                    <entry>monumens</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...lieuex de...“ – Cuba, 141r</desc>
+                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>lieuex</entry>
+                    <entry>lieuex</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„nud“ – Cuba, 141v</desc>
+                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>nud</entry>
+                    <entry>nud</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„pie“ – Cuba, 140r</desc>
+                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>pié</entry>
+                    <entry>pié</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„hazard“ – Cuba, 134r</desc>
+                        <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>hazard</entry>
+                    <entry>hazard</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„Sontag“ – Brief AvH an Kunth, 30.01.1844</desc>
+                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70"/>
+                      </fig>
+                    </entry>
+                    <entry>Sontag</entry>
+                    <entry>Sontag</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...pres Bahia Honda...“ – Cuba, 130v</desc>
+                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>près Bahia Honda</entry>
+                    <entry>près Bahia Honda</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...qui aye... “ – Cuba, 132r</desc>
+                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>aye</entry>
+                    <entry>aye</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></li>
           <li><b>Stillschweigende Normalisierung</b>: diakritische Zeichen werden stillschweigend
-            ergänzt</li>
-          <li><b>Explizite Normalisierung</b>: offener Ermessensraum zwischen 1 und 4 </li>
-          <li><b>Korrektur durch den Herausgeber</b>: offenkundige Fehler werden explizit
-            korrigiert</li>
-        </ol>
-      </p><table id="table_bps_3jg_hbb">
-        <title>AvH-Schreibgewohnheiten</title>
-        <tgroup cols="3">
-          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
-          <thead>
-            <row>
-              <entry>Befund</entry>
-              <entry>Kritischer Text</entry>
-              <entry>Lesetext</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</desc>
-                  <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"/>
-                </fig>
-              </entry>
-              <entry>tems</entry>
-              <entry>tems</entry>
-            </row>
-            <row>
-              <?oxy_comment_start author="lkirsten" timestamp="20180112T115203+0100" comment="Cuba 137r, konnte aber faksimile nicht zuordnen
-"?>
-              <entry/>
-              <?oxy_comment_end?>
-              <entry>anglois</entry>
-              <entry>anglois</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„habitans“ – Cuba, 141v</desc>
-                  <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb"/>
-                </fig>
-              </entry>
-              <entry>habitans</entry>
-              <entry>habitans</entry>
-            </row>
-            <row>
-              <?oxy_comment_start author="lkirsten" timestamp="20180112T120229+0100" comment="Titel der &apos;Vues des Cordillères et monumens des peuples indigènes de l&apos;Amérique&apos;"?>
-              <entry> </entry>
-              <?oxy_comment_end?>
-              <entry>monumens</entry>
-              <entry>monumens</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...lieuex de...“ – Cuba, 141r</desc>
-                  <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb"/>
-                </fig>
-              </entry>
-              <entry>lieuex</entry>
-              <entry>lieuex</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„nud“ – Cuba, 141v</desc>
-                  <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb"/>
-                </fig>
-              </entry>
-              <entry>nud</entry>
-              <entry>nud</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„pie“ – Cuba, 140r</desc>
-                  <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"/>
-                </fig>
-              </entry>
-              <entry>pié</entry>
-              <entry>pié</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„hazard“ – Cuba, 134r</desc>
-                  <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"/>
-                </fig>
-              </entry>
-              <entry>hazard</entry>
-              <entry>hazard</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„Sontag“ – Brief AvH an Kunth, 30.01.1844</desc>
-                  <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70"/>
-                </fig>
-              </entry>
-              <entry>Sontag</entry>
-              <entry>Sontag</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...pres Bahia Honda...“ – Cuba, 130v</desc>
-                  <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb"/>
-                </fig>
-              </entry>
-              <entry>près Bahia Honda</entry>
-              <entry>près Bahia Honda</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...qui aye... “ – Cuba, 132r</desc>
-                  <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb"/>
-                </fig>
-              </entry>
-              <entry>aye</entry>
-              <entry>aye</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table><table id="table_yks_kp5_zcb">
-        <title>Stillschweigende Normalisierung</title>
-        <tgroup cols="3">
-          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
-          <thead>
-            <row>
-              <entry>Befund</entry>
-              <entry>Kritischer Text</entry>
-              <entry>Lesetext</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</desc>
-                  <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb"/>
-                </fig>
-              </entry>
-              <entry>König</entry>
-              <entry>König</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </desc>
-                  <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb"/>
-                </fig>
-              </entry>
-              <entry>François</entry>
-              <entry>François</entry>
-            </row>
-            <row>
-              <entry>
-                <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
-                <fig>
-                  <desc>„...a celui...“ – AvH an Kunth, 20.04.1839</desc>
-                  <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70"/>
-                </fig>
-                <?oxy_comment_end?>
-              </entry>
-              <entry>à</entry>
-              <entry>à</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...chaine...“ – Cuba, 129r</desc>
-                  <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb"/>
-                </fig>
-              </entry>
-              <entry>chaîne</entry>
-              <entry>chaîne</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table><table id="table_ecs_lp5_zcb">
-        <title>Explizite Normalisierung</title>
-        <tgroup cols="3">
-          <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-          <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-          <colspec colname="c3" colnum="3" colwidth="1.0*"/>
-          <thead>
-            <row>
-              <entry>Befund</entry>
-              <entry>Kritischer Text</entry>
-              <entry>Lesetext</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113820+0100" comment="leider kein beispiel (mit faksimile) gefunden
+              ergänzt.<table id="table_yks_kp5_zcb">
+              <title>Tabelle: Häufige Beispiele für stillschweigende Normalisierung</title>
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Befund</entry>
+                    <entry>Kritischer Text</entry>
+                    <entry>Lesetext</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</desc>
+                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>König</entry>
+                    <entry>König</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </desc>
+                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>François</entry>
+                    <entry>François</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
+                      <fig>
+                        <desc>„...a celui...“ – AvH an Kunth, 20.04.1839</desc>
+                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70"/>
+                      </fig>
+                      <?oxy_comment_end?>
+                    </entry>
+                    <entry>à</entry>
+                    <entry>à</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...chaine...“ – Cuba, 129r</desc>
+                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>chaîne</entry>
+                    <entry>chaîne</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></li>
+          <li><b>Explizite Normalisierung</b>: behutsame Anpassung an orthographische Konvention, um
+            Lesbarkeit im Lesetext zu verbessern.<table id="table_ecs_lp5_zcb">
+              <title>Tabelle : Häufige Beispiele für explizite Normalisierung</title>
+              <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Befund</entry>
+                    <entry>Kritischer Text</entry>
+                    <entry>Lesetext</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113820+0100" comment="leider kein beispiel (mit faksimile) gefunden
 "?>peutêtre<?oxy_comment_end?></entry>
-              <entry>peutêtre</entry>
-              <entry>peut-être</entry>
-            </row>
-            <row>
-              <entry><?oxy_comment_start author="lkirsten" timestamp="20180111T153345+0100" comment="es gibt peutetre (cuba 140v), leider kein beispiel für peut etre gefunden
+                    <entry>peutêtre</entry>
+                    <entry>peut-être</entry>
+                  </row>
+                  <row>
+                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180111T153345+0100" comment="es gibt peutetre (cuba 140v), leider kein beispiel für peut etre gefunden
 "?>peut
-                etre<?oxy_comment_end?></entry>
-              <entry>peut être</entry>
-              <entry>peut-être</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...parceque...“ – Cuba, 140r</desc>
-                  <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb"/>
-                </fig>
-              </entry>
-              <entry>parceque</entry>
-              <entry>parce que</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...tandisque...“ Cuba, 148r</desc>
-                  <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb"/>
-                </fig>
-              </entry>
-              <entry>tandisque</entry>
-              <entry>tandis que</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„com̅e“ – Cuba, 128r</desc>
-                  <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140"/>
-                </fig>
-              </entry>
-              <entry>com̅e</entry>
-              <entry>comme</entry>
-            </row>
-            <row>
-              <entry/>
-              <entry>com̅erce</entry>
-              <entry>commerce</entry>
-            </row>
-            <row>
-              <entry/>
-              <entry>im̅ense</entry>
-              <entry>immense</entry>
-            </row>
-            <row>
-              <entry>
-                <fig>
-                  <desc>„...roux de...“ – Cuba, 130r</desc>
-                  <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb"/>
-                </fig>
-              </entry>
-              <entry>roux</entry>
-              <entry>roues</entry>
-            </row>
-            <row>
-              <entry>RST, 32r „...devant quelquefois dur et verd comme du Grünstein...“</entry>
-              <entry>verd</entry>
-              <entry>vert</entry>
-            </row>
-            <row>
-              <entry>RST, 23r „...Kirtim (le pic apellé Wostresopka...“</entry>
-              <entry>apellé</entry>
-              <entry>appelé</entry>
-            </row>
-            <row>
-              <?oxy_comment_start author="lkirsten" timestamp="20180112T113203+0100" comment="konnte ich leider nicht finden (entziffern)
+                      etre<?oxy_comment_end?></entry>
+                    <entry>peut être</entry>
+                    <entry>peut-être</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...parceque...“ – Cuba, 140r</desc>
+                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>parceque</entry>
+                    <entry>parce que</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...tandisque...“ Cuba, 148r</desc>
+                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>tandisque</entry>
+                    <entry>tandis que</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„com̅e“ – Cuba, 128r</desc>
+                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140"/>
+                      </fig>
+                    </entry>
+                    <entry>com̅e</entry>
+                    <entry>comme</entry>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry>com̅erce</entry>
+                    <entry>commerce</entry>
+                  </row>
+                  <row>
+                    <entry/>
+                    <entry>im̅ense</entry>
+                    <entry>immense</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <fig>
+                        <desc>„...roux de...“ – Cuba, 130r</desc>
+                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb"/>
+                      </fig>
+                    </entry>
+                    <entry>roux</entry>
+                    <entry>roues</entry>
+                  </row>
+                  <row>
+                    <entry>RST, 32r „...devant quelquefois dur et verd comme du
+                      Grünstein...“</entry>
+                    <entry>verd</entry>
+                    <entry>vert</entry>
+                  </row>
+                  <row>
+                    <entry>RST, 23r „...Kirtim (le pic apellé Wostresopka...“</entry>
+                    <entry>apellé</entry>
+                    <entry>appelé</entry>
+                  </row>
+                  <row>
+                    <?oxy_comment_start author="lkirsten" timestamp="20180112T113203+0100" comment="konnte ich leider nicht finden (entziffern)
 "?>
-              <entry>RST, 23r „...angle de depression du massiv de l'Église...“</entry>
-              <?oxy_comment_end?>
-              <entry>massiv</entry>
-              <entry>massif</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table></section>
+                    <entry>RST, 23r „...angle de depression du massiv de l'Église...“</entry>
+                    <?oxy_comment_end?>
+                    <entry>massiv</entry>
+                    <entry>massif</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table></li>
+          <li><b>Korrektur durch den Herausgeber</b>: offenkundige Fehler werden explizit
+            korrigiert, um Lesbarkeit im Lesetext zu verbessern (siehe <xref
+              href="korrektur-hg.dita#topic_blt_sgv_ty">Korrektur durch den
+            Herausgeber</xref>).</li>
+        </ul>
+      </p></section>
     <section>
       <title>Bedienung </title>
       <p>Um Fehler in der Vorlage explizit zu normalisieren, transkribieren Sie zuerst das

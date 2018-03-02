@@ -20,7 +20,7 @@
     Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
     überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
     Deklinationen, falscher Genus bei Artikeln und Adjektiven und andere grammatische
-    Inkonsistenzen.</p>
+    Inkonsistenzen. Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
    <fig id="fig_gxy_vf3_1db">
     <desc>AvH an Kunth, 5.12.1846</desc>
     <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" align="center"
@@ -53,17 +53,17 @@
    </fig>
    <p><b>Normalisierungen</b> sind im Rahmen der Edition kleine Korrekturen der Orthographie und
     Interpunktion, die die Schreibung der Vorlage an orthographische Konventionen anpassen sollen
-    ohne dabei jede kleine Abweichung als Fehler zu markieren. <b>Stillschweigend normalisiert</b>
-    (auf Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
+    ohne dabei jede Abweichung als Fehler zu markieren. <b>Stillschweigend normalisiert</b> (auf
+    Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
      normalisiert</b> (auf Ebene des Lesetextes) werden üblicherweise Groß- und Kleinschreibung, die
     Korrektur von Satzzeichen, die Ergänzung von Apostrophen usw. Explizite Normalisierungen werden
     im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen. Ausgenommen von der
     Normalisierung sind häufige <b>Schreibgewohnheiten Humboldts</b>, die als Stilelemente bewahrt
     werden. (Siehe <xref href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>)</p>   
    <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der Unterscheidung zwischen
-    Schreibgewohnheit, Normalisierung und Korrekturen durch den Herausgeber. Diese Grenzfälle werden
-    anhand repräsentativer Beispiele im Abschnitt <xref href="normalisierung.dita#topic_qxp_ph5_2bb"
-     >Normalisierung</xref> dokumentiert.</p>
+    Schreibgewohnheit, expliziter und stillschweigender Normalisierung durch den Herausgeber. Diese
+    Grenzfälle werden anhand repräsentativer Beispiele im Abschnitt <xref
+     href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierung</xref> dokumentiert.</p>
   </section>
   <section id="section_gl2_thg_qbb">
    <title>Bedienung</title>
