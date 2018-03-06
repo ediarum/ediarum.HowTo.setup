@@ -16,30 +16,26 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <p><ul id="ul_k3y_wpt_scb">
-    <li>Durchstreichung und Ersetzung ganzer Wörter:</li>
-   </ul></p>
+   <?oxy_comment_start author="lkirsten" timestamp="20180306T123953+0100" comment="Einführungstext und Screenshots unter Kodierbeispielen ergänzen
+"?>
+   <p><?oxy_comment_end?>Durchstreichung und Ersetzung ganzer Wörter:</p>
    <fig>
-<desc>Brief AvH an Meyen, nach 1834</desc>
-<image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
-    id="image_uk4_4vt_2bb"/>
-</fig>
+    <desc>Brief AvH an Meyen, nach 1834</desc>
+    <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
+     id="image_uk4_4vt_2bb"/>
+   </fig>
    <codeblock outputclass="language-xml"><![CDATA[Buchhändler in 
  <subst>
   <del rendition="#s">Berl</del> 
   <add place="intralinear">Paris</add>
  </subst> 
 giebt,]]></codeblock>
-   <p>
-    <ul id="ul_pnf_xpt_scb">
-     <li>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</li>
-    </ul>
-   </p>
-    <fig>
-<desc>George Arnott Walker-Arnott an AvH, 15.03.1825</desc>
-<image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
+   <p>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</p>
+   <fig>
+    <desc>George Arnott Walker-Arnott an AvH, 15.03.1825</desc>
+    <image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
      id="image_t2h_lxx_rcb"/>
-</fig>
+   </fig>
    <codeblock outputclass="language-xml"><![CDATA[Believe me Sir yours Sincer
  <subst>
   <del rendition="#ow">ely</del>

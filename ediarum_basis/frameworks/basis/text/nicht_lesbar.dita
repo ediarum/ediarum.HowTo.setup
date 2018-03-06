@@ -15,31 +15,26 @@
   <section>
    <title>edition humboldt digital</title>
   </section>
-  <p>
-   <ul id="ul_c1y_qsq_wcb">
-    <li>nicht lesbare Wörter</li>
-   </ul>
-   <fig>
-<desc>AvH an Kunth, 26.08-30.10.1844</desc>
-<image placement="break" href="../../img_avhr/nicht_lesbar.png" align="center"
+  <?oxy_comment_start author="lkirsten" timestamp="20180306T125938+0100" comment="Einleitung hinzufügen"?>
+  <p><?oxy_comment_end?>nicht lesbare Wörter:</p>
+  <fig>
+   <desc>AvH an Kunth, 26.08-30.10.1844</desc>
+   <image placement="break" href="../../img_avhr/nicht_lesbar.png" align="center"
     id="image_x5t_zsq_wcb" scale="60"/>
-</fig>
-   <fig>
-<desc>AvH an Kunth, 26.08-30.10.1844 - Webansicht</desc>
-<image placement="break" href="../../img_avhr/nicht_lesbar.JPG" align="center"
+  </fig>
+  <fig>
+   <desc>AvH an Kunth, 26.08-30.10.1844 - Webansicht</desc>
+   <image placement="break" href="../../img_avhr/nicht_lesbar.JPG" align="center"
     id="image_s5m_xsq_wcb" scale="60"/>
-</fig>
-  </p>
-  <p>
-   <ul id="ul_cqf_dtq_wcb">
-    <li>Lücke<?oxy_comment_start author="lkirsten" timestamp="20180216T114223+0100" comment="Meyen-Beispiele zurzeit noch mit &lt;damage&gt; ausgezeichnet
+  </fig>
+  <p>Lücke<?oxy_comment_start author="lkirsten" timestamp="20180216T114223+0100" comment="Meyen-Beispiele zurzeit noch mit &lt;damage&gt; ausgezeichnet; AvH an Meyen nach 1834 &quot;Ich erhalte...&quot;
 "?>
-     aufgrund schadhafter Stellen<?oxy_comment_end?></li>
-    <li>Seiten oder Blätter, die zerstört oder verloren und den BearberiterInnen nicht bekannt sind,
-     werden einzeln und mit entsprechender Foliierung erfasst (<xref
-      href="seitenwechsel.dita#topic_n4t_jbv_ty">siehe Foliierung und Paginierung</xref>). </li>
-   </ul>
-  </p>
+   aufgrund schadhafter Stellen<?oxy_comment_end?>:</p>
+  <p><?oxy_comment_start author="lkirsten" timestamp="20180306T130001+0100" comment="in die Einleitung ziehen"?>Seiten
+   oder Blätter, die zerstört oder verloren und den BearberiterInnen nicht bekannt sind, werden
+   einzeln und mit entsprechender Foliierung erfasst (<xref
+    href="seitenwechsel.dita#topic_n4t_jbv_ty">siehe Foliierung und Paginierung</xref>). </p>
+  <?oxy_comment_end?>
   <section id="section_oxy_lmp_qbb" audience="editor">
    <title>Bedienung</title>
    <p>Die Auszeichnung von Lücken im Text wird über die Schaltfläche mit dem Symbol <image
@@ -116,13 +111,14 @@
     </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<gap unit="words" quantity="3" reason="illegible"/>a beaucoup baissé]]></codeblock>
    <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
-    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit <xmlelement>gap/</xmlelement>.</p>
+    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit
+     <xmlelement>gap/</xmlelement>.</p>
    <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap quantity="5" unit="chars"/></del> dann wieder]]></codeblock>
    <p>Zerstörte oder verlorene Seiten werden einzeln erfasst:</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap unit="pages" quantity="1" reason="lost"/>]]></codeblock>
    <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden vorhandene, aber
      <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref> sowie <xref
-     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>. </p>  
+     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>. </p>
   </section>
  </body>
  <related-links>

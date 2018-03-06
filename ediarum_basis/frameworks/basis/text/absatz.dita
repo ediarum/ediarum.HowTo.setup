@@ -15,17 +15,18 @@
       <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
         werden in der Transkription anhand neuer Absätze abgebildet, dabei werden typografische
         Leerräume zu Zeilenanfang allerdings nicht erfasst. </p>
-      <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+      <?oxy_comment_start author="lkirsten" timestamp="20180306T114340+0100" comment="mehr Beispiele für Kriterien"?>
       <p>Es kommt vor, dass ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
         unterschieden werden kann von einem Zeilenende, dass zugleich einen Absatz abschließt. In
-        diesen Fällen werden inhaltliche Kriterien, wie etwa ein mögliches Satzende, herangezogen.
-        <?oxy_custom_end?></p>
+        diesen Fällen werden inhaltliche Kriterien, wie etwa ein mögliches Satzende,
+        herangezogen.<?oxy_comment_end?>
+      </p>
       <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
       <fig>
-<desc>RST I, 7r</desc>
-<image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center"
-        id="image_klm_jlh_hbb"/>
-</fig>
+        <desc>RST I, 7r</desc>
+        <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center"
+          id="image_klm_jlh_hbb"/>
+      </fig>
       <p>Im XML-Code werden Absätze innerhalb des <xmlelement>p</xmlelement>-Elementes kodiert (das
         folgende Beispiel berücksichtigt nur die Textphänomene Absatz und Zeilenumbruch):</p>
       <codeblock outputclass="language-xml"><![CDATA[<p> 
@@ -43,15 +44,15 @@
       <p>In der Webansicht werden Absätze im Gegensatz zu Zeilenumbrüchen sowohl im Kritischen als
         auch im Lesetext dargestellt:</p>
       <fig>
-<desc>RST I, 7r - Webansicht (Kritischer Text)</desc>
-<image placement="break" href="../../img_avhr/abb3-webkrit.jpg" align="center"
-        id="image_kxx_ylh_hbb" scale="70"/>
-</fig>
+        <desc>RST I, 7r - Webansicht (Kritischer Text)</desc>
+        <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" align="center"
+          id="image_kxx_ylh_hbb" scale="70"/>
+      </fig>
       <fig>
-<desc>RST I, 7r - Webansicht (Lesetext)</desc>
-<image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" align="center"
-        id="image_e34_bml_scb"/>
-</fig>
+        <desc>RST I, 7r - Webansicht (Lesetext)</desc>
+        <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" align="center"
+          id="image_e34_bml_scb"/>
+      </fig>
     </section>
    <section audience="editor">
       <title>Bedienung</title>

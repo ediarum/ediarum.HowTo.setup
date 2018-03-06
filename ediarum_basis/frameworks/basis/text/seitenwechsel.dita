@@ -38,13 +38,12 @@
       <fig id="fig_p3t_m2g_jbb"><desc>Humboldt an Meyen, vor 22. August 1834, Innenseite</desc>
         <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb" scale="70"
           align="center">          
-        </image>
+        </image></fig>
         <fig>
 <desc>Humboldt an Meyen, vor 22. August 1834, Außenseite</desc>
 <image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb" scale="70"
           align="center"/>
-</fig>
-      </fig>
+</fig>      
       <p>
         <ul id="ul_bht_xvq_wcb">
           <li>Vorhandene, aber <b>leere Seiten</b> werden einzeln und mit entsprechender Foliierung
@@ -61,10 +60,8 @@
         </ul>
       </p>
       <ul id="ul_ggw_3wq_wcb">
-        <li><?oxy_comment_start author="lkirsten" timestamp="20180216T120602+0100" comment="Beispiel
-"?>Humboldts
-          Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
-          wiedergegeben.<?oxy_comment_end?></li>
+        <li>Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
+          wiedergegeben.</li>
       </ul>
       <p audience="editor">
         <b>Achtung:</b> Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene

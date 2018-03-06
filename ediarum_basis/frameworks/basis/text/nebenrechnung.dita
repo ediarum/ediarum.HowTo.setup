@@ -4,15 +4,16 @@
   <title>Nebenrechnungen</title>
   <body>
     <section>
-      <title>Allgemein</title>
       <p>Humboldt hat am Rand des Textes der Reisetagebücher häufig Hilfsrechnungen vorgenommen. Bei
         der Transkription dieser „Nebenrechnungen” wird vom Schriftbild der Vorlage abgewichen. Im
         Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
       <fig>
-<desc>Cuba-Manuskript, 128r</desc>
-<image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" align="center"
-        id="image_znp_zyn_jbb"/>
-</fig>
+        <desc>Cuba-Manuskript, 128r</desc>
+        <?oxy_comment_start author="lkirsten" timestamp="20180306T125706+0100" comment="Kodierbeispiel ergänzen"?>
+        <image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" align="center"
+          id="image_znp_zyn_jbb"/>
+        <?oxy_comment_end?>
+      </fig>
     </section>
     <section audience="editor">
       <title>Bedienung</title>

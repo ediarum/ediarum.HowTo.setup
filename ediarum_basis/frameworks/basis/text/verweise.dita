@@ -10,8 +10,7 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <ul id="ul_ucn_5t4_hbb">
-                <li>Bevor von einer Textstelle auf eine andere verwiesen werden kann, muss die
+            <p>Bevor von einer Textstelle auf eine andere verwiesen werden kann, muss die
                     Textstelle, die Ziel des Verweises werden soll, als solches ausgezeichnet
                         werden:<ol id="ol_jqs_vt4_hbb">
                         <li>Textstelle, die das Ziel des Verweises sein soll, markieren<image
@@ -23,9 +22,9 @@
                         <li>Verweisziel erscheint als neuer Verweis in der Autoransicht<image
                                 placement="break" href="../../img_avhr/verweis3.png" align="left"
                                 id="image_k2r_vv4_hbb"/></li>
-                    </ol></li>
-                <li>Nun ist es möglich, eine beliebige Textstelle mit dem bereits angelegten Verweis
-                    (oder mit einem Brief) zu verknüpfen:<ol id="ol_qfn_1w4_hbb">
+                    </ol>
+               Nun ist es möglich, eine beliebige Textstelle mit dem bereits angelegten
+                    Verweisziel (oder mit einem Brief) zu verknüpfen:<ol id="ol_qfn_1w4_hbb">
                         <li>Textstelle markieren und <b>Verweis auf Brief oder Textstelle</b> in der
                             Symbolleiste auswählen<image placement="break"
                                 href="../../img_avhr/verweis4.png" align="left"
@@ -35,8 +34,8 @@
                                 Verweisziele auswählen, wenn diese gleichzeitig in Oxygen geöffnet
                                 sind!</i><image placement="break" href="../../img_avhr/verweis5.png"
                                 align="left" id="image_vyh_gw4_hbb"/></li>
-                    </ol></li>
-                <li>Eine beliebige Stelle im Text mit einer beliebigen Sachanmerkung verknüpfen<ol
+                    </ol>
+               Eine beliebige Stelle im Text mit einer beliebigen Sachanmerkung verknüpfen<ol
                         id="ol_mbh_jw4_hbb">
                         <li>Textstelle markieren und <b>Verweis auf Sachanmerkung</b> in der
                             Symbolleiste anklicken<image placement="break"
@@ -46,11 +45,11 @@
                                 placement="break" href="../../img_avhr/verweis7.png" align="left"
                                 id="image_iky_qw4_hbb"/></li>
                         <li>Gewünschte Anmerkung auswählen und bestätigen</li>
-                    </ol></li>
+                    </ol>
                 <?oxy_comment_start author="lkirsten" timestamp="20171010T121217+0200" comment="Details klären
 "?>
-                <li>Von einer Textstelle auf eine externe Website verweisen<?oxy_comment_end?></li>
-            </ul></section>
+               Von einer Textstelle auf eine externe Website verweisen<?oxy_comment_end?>
+            </p></section>
         <section>
             <title>Kodierung</title>
             <p>Verweisziele im Text werden mit zwei <xmlelement>anchor</xmlelement>-Elementen

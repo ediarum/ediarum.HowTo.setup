@@ -21,7 +21,8 @@
           href="normalisierung_zahlenwerte.dita#topic_xwv_ndt_zcb">Normalisierung von Zahlenwerten
           und Notationen</xref>.</p>
     </section>
-    <section><title>Explizite Normalisierung</title>
+    <section>
+      <title>Explizite Normalisierung</title>
       <p>Normalisierungen sind im Rahmen der Edition Korrekturen der Orthographie und Interpunktion,
         die die Schreibung der Vorlage der besseren Lesbarkeit halber an orthographische
         Konventionen anpassen sollen ohne dabei jede Abweichung als Fehler zu markieren. Explizit
@@ -30,29 +31,34 @@
         Geminations-Überstriche bei Doppelkonsonanten.</p>
       <p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen
         im Kritischen Text nicht markiert:</p>
+      <?oxy_comment_start author="lkirsten" timestamp="20180306T130318+0100" comment="[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]"?>
       <p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur
-        vorkommen, zum Vergleich in der Webansicht]</p><p>Ausgenommen von der expliziten Normalisierung <b>Häufige Schreibgewohnheiten Humboldts</b>, die
-        als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu zählen u.a.:<ul
-          id="ul_yjy_fl5_2bb">
-          <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt,
-            <?oxy_comment_start author="lkirsten" timestamp="20180302T140648+0100" comment="kein Doppelkonsonant, sondern Affrikate, bei der Plosiv fehlt
-"?>unnüz<?oxy_comment_end?>)</li>
-          <li>Fehlendes Dehnungs-e (disponirt)</li>
-          <li>Th statt T (Theil, Monathe)</li>
-          <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
-          <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und Schinckel)</li>
-          <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so
-            geschrieben</li>
-        </ul></p><p>Auch <b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen Schreibweise
+        vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>
+      <p>Ausgenommen von der expliziten Normalisierung sind <b>Häufige Schreibgewohnheiten
+          Humboldts</b>, die als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu
+        zählen u.a.:</p>
+      <ul id="ul_yjy_fl5_2bb">
+        <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, unnüz)</li>
+        <li>Fehlendes Dehnungs-e (disponirt)</li>
+        <li>Th statt T (Theil, Monathe)</li>
+        <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
+        <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und Schinckel)</li>
+        <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so geschrieben</li>
+      </ul>
+      <p>Auch <b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen Schreibweise
         belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
-        Registereintrag.</p></section> 
-        <section><title>Stillschweigende Normalisierung</title>Aus Gründen der Arbeitsökonomie wird
+        Registereintrag.</p>
+    </section> 
+        <section><title>Stillschweigende Normalisierung</title><p>Aus Gründen der Arbeitsökonomie wird
       darauf verzichtet, Humboldts Schreibgewohnheiten in der Verwendung von diakritischen Zeichen
       explizit zu normalisieren. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
-      diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: <ul id="ul_db2_prz_2bb">
+      diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: </p>
+          <ul id="ul_db2_prz_2bb">
         <li>Akzente in allen Sprachen</li>
         <li>Tremata, etwa in deutschen Umlauten</li>
-      </ul><p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:<ul
+      </ul>
+          <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:</p>
+<ul
           id="ul_eqt_2sz_2bb">
           <li><b>Autorintention:</b> Es wird davon ausgegangen, dass Humboldt sich sehr wohl seiner
             nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
@@ -66,7 +72,8 @@
             unterstützt zu haben, kann ein interessanter Befund etwa für die Forschung zur
             Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer
             aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
-            Dokumentation des Befundes den Text. <fig>
+            Dokumentation des Befundes den Text. 
+            <fig>
               <desc>Brief AvH an Kunth, 26. Oktober 1832</desc>
               <image placement="break" href="../../img_avhr/kunth.jpg" align="center"
                 id="image_i4f_vln_jbb" scale="80"/>
@@ -94,8 +101,7 @@
                 ordnender, vom Herausgeber ergänzter Interpunktion sowie der Normalisierung von
                 Ortsnamen.</li>
             </ul></li>
-        </ul></p>
-      <!--<p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="Beispiel nötig für Publikation
+        </ul>      <!--<p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="Beispiel nötig für Publikation
 "?>In
         seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
           <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist. Wenn
@@ -106,13 +112,14 @@
           >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->
       <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
         Schreibgewohnheit, (stillschweigender/expliziter) Normalisierung und dem korrigierenden
-        Eingriff durch den Herausgeber.</p><p>Diese Grenzfälle werden anhand repräsentativer
+        Eingriff durch den Herausgeber.</p>
+          <p>Diese Grenzfälle werden anhand repräsentativer
         Beispiele dokumentiert. Die Unterscheidung basiert auf folgenden Richtlinien:</p><p>
         <ul id="ol_awp_1mg_hbb">
           <li><b>AvH Schreibgewohnheit</b>: Humboldt schreibt mit hoher Konsistenz so; die
             Schreibweise wird als Stilelement respektiert und auf keiner Ebene normalisiert.<table
               id="table_bps_3jg_hbb">
-              <title>Tabelle: Häufige Beispiele für Humboldts Schreibgewohnheiten</title>
+              <title>Häufige Beispiele für Humboldts Schreibgewohnheiten</title>
               <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -129,7 +136,8 @@
                     <entry>
                       <fig>
                         <desc>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</desc>
-                        <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"/>
+                        <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
+                          placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>tems</entry>
@@ -147,7 +155,7 @@
                     <entry>
                       <fig>
                         <desc>„habitans“ – Cuba, 141v</desc>
-                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb"/>
+                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>habitans</entry>
@@ -164,7 +172,7 @@
                     <entry>
                       <fig>
                         <desc>„...lieuex de...“ – Cuba, 141r</desc>
-                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb"/>
+                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>lieuex</entry>
@@ -174,7 +182,7 @@
                     <entry>
                       <fig>
                         <desc>„nud“ – Cuba, 141v</desc>
-                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb"/>
+                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>nud</entry>
@@ -184,7 +192,7 @@
                     <entry>
                       <fig>
                         <desc>„pie“ – Cuba, 140r</desc>
-                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"/>
+                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>pié</entry>
@@ -194,7 +202,8 @@
                     <entry>
                       <fig>
                         <desc>„hazard“ – Cuba, 134r</desc>
-                        <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"/>
+                        <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"
+                          align="center" placement="break"/>
                       </fig>
                     </entry>
                     <entry>hazard</entry>
@@ -204,7 +213,7 @@
                     <entry>
                       <fig>
                         <desc>„Sontag“ – Brief AvH an Kunth, 30.01.1844</desc>
-                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70"/>
+                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>Sontag</entry>
@@ -214,7 +223,7 @@
                     <entry>
                       <fig>
                         <desc>„...pres Bahia Honda...“ – Cuba, 130v</desc>
-                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb"/>
+                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>près Bahia Honda</entry>
@@ -224,7 +233,7 @@
                     <entry>
                       <fig>
                         <desc>„...qui aye... “ – Cuba, 132r</desc>
-                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb"/>
+                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>aye</entry>
@@ -235,7 +244,7 @@
             </table></li>
           <li><b>Stillschweigende Normalisierung</b>: diakritische Zeichen werden stillschweigend
               ergänzt.<table id="table_yks_kp5_zcb">
-              <title>Tabelle: Häufige Beispiele für stillschweigende Normalisierung</title>
+              <title>Häufige Beispiele für stillschweigende Normalisierung</title>
               <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -252,7 +261,7 @@
                     <entry>
                       <fig>
                         <desc>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</desc>
-                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb"/>
+                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>König</entry>
@@ -262,7 +271,7 @@
                     <entry>
                       <fig>
                         <desc>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </desc>
-                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb"/>
+                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>François</entry>
@@ -273,7 +282,7 @@
                       <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
                       <fig>
                         <desc>„...a celui...“ – AvH an Kunth, 20.04.1839</desc>
-                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70"/>
+                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" align="center"/>
                       </fig>
                       <?oxy_comment_end?>
                     </entry>
@@ -284,7 +293,7 @@
                     <entry>
                       <fig>
                         <desc>„...chaine...“ – Cuba, 129r</desc>
-                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb"/>
+                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>chaîne</entry>
@@ -295,7 +304,7 @@
             </table></li>
           <li><b>Explizite Normalisierung</b>: behutsame Anpassung an orthographische Konvention, um
             Lesbarkeit im Lesetext zu verbessern.<table id="table_ecs_lp5_zcb">
-              <title>Tabelle : Häufige Beispiele für explizite Normalisierung</title>
+              <title>Häufige Beispiele für explizite Normalisierung</title>
               <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -325,7 +334,7 @@
                     <entry>
                       <fig>
                         <desc>„...parceque...“ – Cuba, 140r</desc>
-                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb"/>
+                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>parceque</entry>
@@ -335,7 +344,7 @@
                     <entry>
                       <fig>
                         <desc>„...tandisque...“ Cuba, 148r</desc>
-                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb"/>
+                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>tandisque</entry>
@@ -345,7 +354,7 @@
                     <entry>
                       <fig>
                         <desc>„com̅e“ – Cuba, 128r</desc>
-                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140"/>
+                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>com̅e</entry>
@@ -365,7 +374,7 @@
                     <entry>
                       <fig>
                         <desc>„...roux de...“ – Cuba, 130r</desc>
-                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb"/>
+                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
                     <entry>roux</entry>

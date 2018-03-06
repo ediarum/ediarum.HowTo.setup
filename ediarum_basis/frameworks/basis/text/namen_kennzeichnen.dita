@@ -49,22 +49,24 @@
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
     Textbefund findet nicht statt, da geläufige sowie historisch valide Schreibweisen der Namen in
     den verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
-     Einrichtungsnamen</b> hingegen werden explizit aufgelöst. </p>
-   <p>Da eine
+     Einrichtungsnamen</b> hingegen werden immer explizit aufgelöst (siehe <xref
+     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>). </p>
+   <p>Eine
      <?oxy_comment_start author="thomas" timestamp="20171222T131443+0100" comment="ist schon möglich, einfach 2 @ref bzw. @key in &lt;persName&gt;, vgl. http://www.deutschestextarchiv.de/nn_msgermqu2124_1827/13: &quot; Ich kann dieser Meinung nicht seyn, die auch die beiden &lt;hi rendition=&quot;#aq&quot;&gt;&lt;persName ref=&quot;http://d-nb.info/gnd/118534432 http://d-nb.info/gnd/118534416&quot;&gt;Forster&lt;/persName&gt;&lt;/hi&gt;&lt;lb/&gt; nicht theilen, […]&quot;
 
 ==&gt; Jedenfalls sollte man in der Doku nicht schreiben, es sei nicht möglich, sofern es sich dabei nur um eine editorische Entscheidung bzw. ein Erfordernis des Workflows handelt."?><b>gleichzeitige
-     Auszeichnung mehrerer Personen</b> nicht möglich ist<?oxy_comment_end?> („mit allen
-     <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), werden die betreffenden Personen stattdessen in
-    einer Sachanmerkung einzeln aufgelöst und dort gekennzeichnet. </p>
-   <p>Textformulierungen, die mehrere Personen meinen („mit allen <i>Kindern</i>“, „Grüßen Sie
-     <i>Forsters</i>“), werden nicht als Eigennamen gekennzeichnet und mit mehreren Personen
-    ausgezeichnet, sondern in einer Sachanmerkung einzeln aufgelöst und gekennzeichnet. <fig>
-<desc>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
-<image
-     placement="break" href="../../img_avhr/aufloesung_in_sachanmerkung.JPG"
-     id="image_onx_khj_wcb" scale="60"/>
-</fig></p>
+     Auszeichnung mehrerer Personen</b>
+    <?oxy_comment_end?>bei Textformulierungen, die mehrere Personen meinen („mit allen
+     <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), ist in der Edition nicht vorgesehen.
+    Stattdessen werden die betreffenden Personen in einer Sachanmerkung einzeln aufgelöst und dort
+    gekennzeichnet (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y">Stellenkommentar</xref>). </p>
+   <p>
+    <fig>
+     <desc>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
+     <image placement="break" href="../../img_avhr/aufloesung_in_sachanmerkung.JPG"
+      id="image_onx_khj_wcb" scale="60"/>
+    </fig>
+   </p>
    <p>Bei Bezug zu Orten, Personen und Institutionen <b>ohne Nennung der (bekannten) Namen</b>:</p>
    <p>„Gemeintes“ bekannt für Autor, Briefpartner und Bearbeiter aus:</p>
    <p>

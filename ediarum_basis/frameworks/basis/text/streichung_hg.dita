@@ -10,17 +10,16 @@
     Herausgeber gestrichen werden.</p>
   </section>
   <section>
-   <title>edition humboldt digital</title>
-   <p>
-    <fig id="fig_mdk_tgk_ycb">
-     <desc><ul id="ul_xdg_nhp_ycb">
-       <li>Streichung überflüssiger Wörter</li>
-      </ul>Brief AvH an Meyen, 1833(?)</desc>
-     <image placement="break" href="../../img_avhr/streichungen_hg_1.png" align="center"
-      id="image_ndk_tgk_ycb" scale="70"/>
-    </fig>
-   </p>
-  </section>
+      <title>edition humboldt digital</title>
+      <?oxy_comment_start author="lkirsten" timestamp="20180306T135227+0100" comment="Einleitung ergänzen, vllt. Kodierbeispiel"?>
+      <p>Streichung überflüssiger Wörter:</p>
+      <?oxy_comment_end?>
+      <fig id="fig_mdk_tgk_ycb">
+        <desc>Brief AvH an Meyen, 1833(?)</desc>
+        <image placement="break" href="../../img_avhr/streichungen_hg_1.png" align="center"
+          id="image_ndk_tgk_ycb" scale="70"/>
+      </fig>
+    </section>
   <fig id="fig_qsc_t3k_ycb">
    <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" align="center"
@@ -31,11 +30,7 @@
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" align="center"
     id="image_skp_lps_zcb"/>
   </fig>
-  <p>
-   <ul id="ul_xk5_4hp_ycb">
-    <li>Streichung überflüssiger Satzzeichen</li>
-   </ul>
-  </p>
+  <p>Streichung überflüssiger Satzzeichen:</p>
   <fig><desc>II. Considérations générales, 3r</desc><image href="../../img_avhr/streichungen_hg_2.png" placement="break" id="image_yfs_x3p_ycb"
    align="center"/></fig>
   <fig id="fig_izb_fjp_ycb">

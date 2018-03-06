@@ -13,10 +13,8 @@
     </section>
     <section>
       <title>edition humboldt digital</title>
-      <p>Leeren Seiten werden erfasst und in der Webansicht angezeigt.
-        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Das Faksimile einer
-        leeren Seite ist in der Ansicht "Text mit Faksimile" nicht enthalten oder
-        verlinkt.<?oxy_custom_end?></p>
+      <p>Leeren Seiten werden erfasst und in der Webansicht angezeigt. Das Faksimile einer leeren
+        Seite ist in der Ansicht „Text mit Faksimile“ nicht enthalten oder verlinkt.</p>
     </section>
     <fig>
 <desc>AvH an Meyen, 14.05.1830 - Webansicht mit den leeren Seiten 1v und 2r</desc>

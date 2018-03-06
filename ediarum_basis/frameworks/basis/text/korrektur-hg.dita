@@ -23,8 +23,10 @@
     Inkonsistenzen. Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
    <fig id="fig_gxy_vf3_1db">
     <desc>AvH an Kunth, 5.12.1846</desc>
+    <?oxy_comment_start author="lkirsten" timestamp="20180306T123513+0100" comment="möglicherweise Kodierbeispiel ergänzen (Beispiel in &quot;Kodierung&quot; dürfte aber reichen)"?>
     <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" align="center"
      id="image_hxy_vf3_1db"/>
+    <?oxy_comment_end?>
    </fig>
    <fig id="fig_wwg_zf3_1db">
     <desc>AvH an Kunth, 5.12.1846 - Webansicht (Kritischer Text)</desc>

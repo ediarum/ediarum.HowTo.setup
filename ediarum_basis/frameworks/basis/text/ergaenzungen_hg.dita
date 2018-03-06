@@ -45,7 +45,7 @@
         Manuskripten - Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
           <b>Ergänzung und gleichzeitiger Normalisierung der Diakritika</b> wird jedoch nur die
         Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend:</p><p>
-        <codeblock outputclass="language-xml"><?oxy_comment_start author="lkirsten" timestamp="20180301T140759+0100" comment="Beispiel mit Faksimilie und Screenshot; dieses Beispiel stammt scheinbar weder aus Kunth-Briefw. noch Cuba-M.
+        <codeblock outputclass="language-xml"><?oxy_comment_start author="lkirsten" timestamp="20180301T140759+0100" comment="Beispiel mit Faksimilie und Screenshot ergänzen um Kontrast zum obigen Beispiel zu verdeutlichen; dieses Beispiel stammt scheinbar weder aus Kunth-Briefw. noch Cuba-M.
 "?><![CDATA[<choice>
     <abbr>Emers.<;/abbr>
     <expan>Émersion</expan>
@@ -69,8 +69,8 @@
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig>
-      </p><p>Humboldt verwendet zur Abkürzung von Wörtern desöfteren stenografische Kürzel. Diese
-        Kürzel werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort
+      </p><p>Humboldt verwendet zur Abkürzung von Wörtern desöfteren stenografische <b>Kürzel</b>.
+        Diese Kürzel werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort
         ausgeschrieben, das sie symbolisieren. Davon abweichende, in der Edition als Sonderkürzel
         definierte Kürzel werden hingegen transkribiert sowie ausgezeichnet und aufgelöst. </p><p>In
         der Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der
@@ -78,7 +78,7 @@
         darunterstehenden Tabelle dokumentiert):</p><ul id="ul_ty3_zph_1db">
         <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
       </ul><table id="table_pzj_4pg_hbb">
-        <title>Tabelle: Häufige Beispiele für Abkürzungen</title>
+        <title>Häufige Beispiele für Abkürzungen</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -95,7 +95,8 @@
               <entry>
                 <fig id="fig_kv5_mzg_1db">
                   <desc>„Herrn Prof. D.“ – Brief AvH an Meyen, 22.08.1834</desc>
-                  <image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb"/>
+                  <image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>Prof. Dr./D.</entry>
@@ -105,7 +106,8 @@
               <entry>
                 <fig id="fig_lv5_mzg_1db">
                   <desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
-                  <image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb"/>
+                  <image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>Ew</entry>
@@ -128,7 +130,8 @@
               <entry>
                 <fig id="fig_mv5_mzg_1db">
                   <desc>„c.a.d.“ – ART I, 2r </desc>
-                  <image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb"/>
+                  <image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>c. à. d./ c. a. d.</entry>
@@ -138,7 +141,8 @@
               <entry>
                 <fig id="fig_nv5_mzg_1db">
                   <desc>„n 6“ – AvH an Kunth, nach 16.05.1832</desc>
-                  <image href="../../img_avhr/n.png" id="image_cq2_hsq_mcb"/>
+                  <image href="../../img_avhr/n.png" id="image_cq2_hsq_mcb" placement="break"
+                    align="center"/>
                 </fig>
               </entry>
               <entry>Nr./no./N<u>o</u>./n./n</entry>
@@ -148,7 +152,8 @@
               <entry>
                 <fig id="fig_ov5_mzg_1db">
                   <desc>„z. B.“ – AvH an Willdenow, 20.04.1799</desc>
-                  <image href="../../img_avhr/zb.png" id="image_a1b_plq_mcb"/>
+                  <image href="../../img_avhr/zb.png" id="image_a1b_plq_mcb" placement="break"
+                    align="center"/>
                 </fig>
               </entry>
               <entry>z.B./i.e.</entry>
@@ -159,7 +164,7 @@
       </table><ul id="ul_sbs_44g_hbb">
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
-        <title>Tabelle: Häufige Beispiele für Kürzel</title>
+        <title>Häufige Beispiele für Kürzel</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -176,7 +181,8 @@
               <entry>
                 <fig>
                   <desc>„...die ich...“ – Brief AvH an Meyen, Anfang 1830</desc>
-                  <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"/>
+                  <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
+                    placement="break" align="center"/>
                 </fig>
                 <p>(AvH-spezifisches Kürzel)</p>
               </entry>
@@ -187,7 +193,8 @@
               <entry>
                 <fig>
                   <desc>„...H/Herr/Herrn...“ – Brief AvH an Meyen, Anfang 1830</desc>
-                  <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"/>
+                  <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>Herr/Herrn</entry>
@@ -197,7 +204,8 @@
               <entry>
                 <fig>
                   <desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
-                  <image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"/>
+                  <image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>Wohlgeboren/er/e</entry>
@@ -207,7 +215,8 @@
               <entry>
                 <fig>
                   <desc>„sich“ – AvH an Soemmerring, 08.05.1796</desc>
-                  <image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"/>
+                  <image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>sich</entry>
@@ -217,7 +226,8 @@
               <entry>
                 <fig>
                   <desc>„B. den 14 Mai 1830“ – AvH an Meyen, 14.05.1830</desc>
-                  <image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"/>
+                  <image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>den</entry>
@@ -229,7 +239,7 @@
         <li><b>Sonderkürzel</b>: werden als Abkürzung behandelt und dementsprechend vom Herausgeber
           gekennzeichnet und ergänzt</li>
       </ul><table id="table_v4q_vh5_zcb">
-        <title>Tabelle: Häufige Beispiele für Sonderkürzel</title>
+        <title>Häufige Beispiele für Sonderkürzel</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -246,7 +256,8 @@
               <entry>
                 <fig>
                   <desc>Pfundzeichen – Cuba, 130v</desc>
-                  <image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"/>
+                  <image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>lb</entry>
@@ -258,7 +269,8 @@
               <entry>
                 <fig>
                   <desc>Groschenkürzel, AvH an Willdenow, Aranjuez, 20.04.1799</desc>
-                  <image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"/>
+                  <image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>gr.</entry>
@@ -268,7 +280,8 @@
               <entry>
                 <fig>
                   <desc>„r.“ – RST I, 4v</desc>
-                  <image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb"/>
+                  <image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb"
+                    placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>r.</entry>

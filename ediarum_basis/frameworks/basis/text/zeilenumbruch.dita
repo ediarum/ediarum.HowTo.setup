@@ -10,12 +10,13 @@
   <section>
       <title>edition humboldt digital</title>
       <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
-        unterschieden (im ersten Beispiel kommen alle drei Varianten von Zeilenumbrüchen vor):<ol
+        unterschieden (im ersten Beispiel kommen alle drei Varianten von Zeilenumbrüchen vor):</p><p><ol
           id="ol_vdy_zks_2bb">
           <li>Einfacher Zeilenumbruch</li>
           <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
           <li>Zeilenumbruch mit Silbentrennung ohne Trennungszeichen</li>
-        </ol>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
+        </ol></p>
+          <p>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
         vermeintliche Anführungszeichen (auch doppelte Trennstriche) am Zeilenende in Erscheinung
         treten. </p>
       <fig>

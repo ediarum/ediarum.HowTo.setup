@@ -21,25 +21,28 @@
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
-   <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
-    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet. </p>
+   <p><?oxy_comment_start author="lkirsten" timestamp="20180306T122625+0100" comment="Beispiel ergänzen
+"?>Als
+    Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
+    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet<?oxy_comment_end?>. </p>
    <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
      id="ul_cfk_qq4_mbb">
-     <li>auf Wortebene und bei Eigennamen,<fig id="fig_ht1_3s4_mbb">
-      <desc>Brief Humboldt an Kunth, 27. April 1813</desc>
+     <li>auf Wortebene und bei Eigennamen <fig id="fig_ht1_3s4_mbb">
+       <desc>Brief Humboldt an Kunth, 27. April 1813</desc>
+       <?oxy_comment_start author="lkirsten" timestamp="20180306T122638+0100" comment="Kodierbeispiel ergänzen"?>
        <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70" align="center"
-        id="image_it1_3s4_mbb">
-       </image></fig>
-       <fig id="fig_fmc_rs4_mbb">
-       <desc>Brief Humboldt an Kunth, 27. April 1813 – Webansicht (Kritischer Text); Sprachwechsel nicht
-        ausgezeichnet (orange Schriftfarbe zeigt Verweis auf Eintrag im Personenregister)</desc>
-        <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
-         align="center" id="image_gmc_rs4_mbb">         
-        </image>       
+        id="image_it1_3s4_mbb"/>
+       <?oxy_comment_end?>
+      </fig><fig id="fig_fmc_rs4_mbb">
+       <desc>Brief Humboldt an Kunth, 27. April 1813 – Webansicht (Kritischer Text); Sprachwechsel
+        nicht ausgezeichnet (orangene Schriftfarbe zeigt Verweis auf Eintrag im
+        Personenregister)</desc>
+       <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
+        align="center" id="image_gmc_rs4_mbb"/>
       </fig></li>
-     <li>auf Briefumschlägen,</li>
+     <li>auf Briefumschlägen</li>
      <li>bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen. Oftmals
-      finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen).</li>
+      finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen)</li>
     </ul></p>
   </section>
   <section>

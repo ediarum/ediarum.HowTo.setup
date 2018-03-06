@@ -12,11 +12,7 @@
   <section>
    <title>edition humboldt digital</title>
    <p>Streichungen können in unterschiedlicher Form auftreten:</p>
-   <p>
-    <ul id="ul_yll_f4t_qcb">
-     <li><b>als Durchstreichungen einzelner oder mehrerer Wörter und Zeilen:</b></li>
-    </ul>
-   </p>
+   <p><b>als Durchstreichungen einzelner oder mehrerer Wörter und Zeilen:</b></p>
    <p>
     <fig>
 <desc>Cuba-Manuskript, 140r</desc>
@@ -25,11 +21,7 @@
 </fig>
     <codeblock outputclass="language-xml" audience="editor">[...] Medina &lt;del rendition="#s">si rappelle&lt;/del> [...] </codeblock>
    </p>
-   <p>
-    <ul id="ul_jkw_z4t_qcb">
-     <li><b>als Streichung ganzer Absätze quer über die Zeilen:</b></li>
-    </ul>
-   </p>
+   <p><b>als Streichung ganzer Absätze quer über die Zeilen:</b></p>
    <p>
     <fig>
 <desc>Cuba, 142v „23. La salubrité de la Havane...“</desc>
@@ -57,11 +49,7 @@ très [...]</del>
     innerhalb einer bereits gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
    <image placement="break" href="../../img_avhr/abb14-web.jpg" align="center"
     id="image_w4d_g2g_hbb"/>
-   <p>
-    <ul id="ul_qkm_5pt_qcb">
-     <li><b>als Streichung der einzelnen Zeilen sowie des gesamten Absatzes:</b>
-     </li>
-    </ul>
+   <p><b>als Streichung der einzelnen Zeilen sowie des gesamten Absatzes:</b>
    </p>
    <fig>
 <desc>Kunth, Carl Sigismund: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur
