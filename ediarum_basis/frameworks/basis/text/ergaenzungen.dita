@@ -51,7 +51,7 @@ que les …]]></codeblock>
     Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum”
     über die Funktion „Sonderfunktion > Einweisungszeichen” einfügen. Dazu muss der Cursor vorher
     allerdings in die Ergänzung gesetzt worden sein. Anstelle des Menüs können Sie auch die
-    Tastenkombination [Strg] + [Umschalt] + [E] verwenden. Wird auf diesem Wege das
+    Tastenkombination [Strg]+[Umschalt]+[E] verwenden. Wird auf diesem Wege das
     Einweisungszeichen erfasst, ist das manuelle Einfügen des Symbols nicht mehr nötig.</p>
   </section>
   <section>
@@ -68,41 +68,41 @@ que les …]]></codeblock>
      </thead>
      <tbody>
       <row>
-       <entry>superlinear</entry>
+       <entry><codeph>superlinear</codeph></entry>
        <entry>über der Zeile</entry>
       </row>
       <row>
-       <entry>sublinear</entry>
+       <entry><codeph>sublinear</codeph></entry>
        <entry>unter der Zeile</entry>
       </row>
       <row>
-       <entry>intralinear</entry>
+       <entry><codeph>intralinear</codeph></entry>
        <entry>innerhalb der Zeile</entry>
       </row>
       <row>
-       <entry>across</entry>
+       <entry><codeph>across</codeph></entry>
        <entry>über den ursprünglichen Text</entry>
       </row>
       <row>
-       <entry>left</entry>
+       <entry><codeph>left</codeph></entry>
        <entry>am linken Rand</entry>
       </row>
       <row>
-       <entry>right</entry>
+       <entry><codeph>right</codeph></entry>
        <entry>am rechten Rand</entry>
       </row>
       <row>
-       <entry>mTop</entry>
+       <entry><codeph>mTop</codeph></entry>
        <entry>am oberen Rand</entry>
       </row>
       <row>
-       <entry>mBottom</entry>
+       <entry><codeph>mBottom</codeph></entry>
        <entry>am unteren Rand</entry>
       </row>
      </tbody>
     </tgroup>
    </table>
-   <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place=“sublinear“>bin</add>, das Ganze folgerecht wieder ]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place="sublinear">bin</add>, das Ganze folgerecht wieder ]]></codeblock>
    <p>Optional kann ein Einweisungszeichen des Autors durch Setzen von
      <xmlelement>metamark</xmlelement> kodiert werden. Dabei wird nicht die Art des
     Einweisungszeichen erfasst (Stern, Nummer etc.).</p>

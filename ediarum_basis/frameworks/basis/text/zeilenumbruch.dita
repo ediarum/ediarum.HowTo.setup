@@ -64,7 +64,7 @@
     (line beginning) kodiert. Dabei wird das Element <xmlelement>lb/</xmlelement> wie in den TEI
     Guidelines vorgeschrieben genutzt, nämlich als Zeilen<i>beginn</i>.</p>
    <p>Wenn der Zeilenumbruch innerhalb eines Wortes erfolgt, wird das Attribut
-          <xmlatt>break</xmlatt> mit dem Wert <codeph>"no"</codeph> gesetzt. Ein eventuell
+          <xmlatt>break</xmlatt> mit dem Wert <codeph>no</codeph> gesetzt. Ein eventuell
         vorhandenes Trennzeichen wird mit der Kodierung
           <codeph><![CDATA[<g ref="#typoHyphen"/>]]></codeph> erfasst.</p>
    <codeblock outputclass="language-xml"><![CDATA[ sie bald zusammenbrech<lb break="no"/>en muß.]]></codeblock></section>

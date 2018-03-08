@@ -20,13 +20,13 @@
     <li>Ungefährer Zeitraum (Nicht vor Tag X, nicht nach Tag Y)</li>
    </ul>
    <p>Nach entsprechender Auswahl erscheinen ein bzw. Dialogfenster, die zur Eingabe eines Datums auffordern. Das Datum muss dabei
-    maschinenlesbar in der Form <codeph>"JJJJ-MM-TT"</codeph> notiert werden, also z.B. <codeph>"1800-01-01"</codeph>. Dadurch kann der in der Datumsangabe enthaltene
+    maschinenlesbar in der Form <codeph>JJJJ-MM-TT</codeph> notiert werden, also z.B. <codeph>1800-01-01</codeph>. Dadurch kann der in der Datumsangabe enthaltene
     Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
     Zeiträumen).</p>
   </section>
   <section>
    <title>Kodierung</title>
-   <p>Datumsangaben werden in mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare Datum wird dabei im Format <codeph>"JJJJ-MM-TT"</codeph> in den Attributen
+   <p>Datumsangaben werden in mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare Datum wird dabei im Format <codeph>JJJJ-MM-TT</codeph> in den Attributen
     <xmlatt>when</xmlatt>, <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> sowie <xmlatt>notBefore</xmlatt> und <xmlatt>notAfter</xmlatt>. </p>
    <p>Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit angegeben, mit der die
     Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>.</p>

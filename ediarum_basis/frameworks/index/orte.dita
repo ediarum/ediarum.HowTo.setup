@@ -14,7 +14,7 @@
    sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
     <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt>
    eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine
-   Straße (<codeph>"street"</codeph>) oder um ein Gebäude (<codeph>"building"</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
+   Straße (<codeph>street</codeph>) oder um ein Gebäude (<codeph>building</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
    <place xml:id="ediarum_t4p_lhf_hy" type="street">
       <placeName type="reg">Kronenstraße</placeName>
    </place>

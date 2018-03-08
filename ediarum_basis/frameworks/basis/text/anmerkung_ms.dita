@@ -90,19 +90,19 @@
       <stentry>Definition</stentry>
      </sthead>
      <strow>
-      <stentry>#author</stentry>
+      <stentry><codeph>#author</codeph></stentry>
       <stentry>Autor des Dokuments</stentry>
      </strow>
      <strow>
-      <stentry>#addressee</stentry>
+      <stentry><codeph>#addressee</codeph></stentry>
       <stentry>Empfänger, falls es sich um einen Brief handelt</stentry>
      </strow>
      <strow>
-      <stentry>#unknown</stentry>
+      <stentry><codeph>#unknown</codeph></stentry>
       <stentry>Unbekannter Verfasser</stentry>
      </strow>
      <strow>
-      <stentry>[H000000]</stentry>
+      <stentry><codeph>[H000000]</codeph></stentry>
       <stentry>Editionsinterne ID aus dem Personenregister <p audience="editor"><b>Achtung</b>: Aus
        technischen Gründen können die Personennamen derzeit nicht direkt aus dem Register bezogen
        werden, sondern müssen im Transformations-Stylesheet (web/resources/xslt/transcription.xsl)
@@ -117,23 +117,23 @@
        <stentry>Definition</stentry>
      </sthead>
       <strow>
-       <stentry>left</stentry>
+       <stentry><codeph>left</codeph></stentry>
        <stentry>linker Rand</stentry>
       </strow>
       <strow>
-       <stentry>right</stentry>
+       <stentry><codeph>right</codeph></stentry>
        <stentry>rechter Rand</stentry>
       </strow>
       <strow>
-       <stentry>mTop</stentry>
+       <stentry><codeph>mTop</codeph></stentry>
        <stentry>oberer Rand </stentry>
       </strow>
       <strow>
-       <stentry>mBottom</stentry>
+       <stentry><codeph>mBottom</codeph></stentry>
        <stentry>unterer Rand</stentry>
       </strow>
       <strow>
-       <stentry>inline</stentry>
+       <stentry><codeph>inline</codeph></stentry>
        <stentry>innerhalb der Zeile</stentry>
       </strow>
    </simpletable>

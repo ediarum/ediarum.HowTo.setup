@@ -53,7 +53,7 @@
   <p><b>6.</b> In jedem Eintrag können innerhalb des <xmlelement>linkGrp</xmlelement>-Elements (link
    group) Referenzen auf die Druckausgabe gemacht werden. Die einzelnen Refenzen werden in einem
     <xmlelement>ptr</xmlelement>-Element (print) angegeben. Über ein Dialogfenster geben Sie dabei an,
-   ob Sie auf eine Seitenzahl oder Briefnummer verweisen. Von dieser Angabe hängt der Wert fürs
+   ob Sie auf eine Seitenzahl oder Briefnummer verweisen. Von dieser Angabe hängt der Wert für das
    Attribut <xmlatt>type</xmlatt> ab:<table id="table_bps_jw1_3y">
     <tgroup cols="2">
      <thead>
@@ -75,10 +75,10 @@
     </tgroup>
    </table></p>
   <p>Im Attribut <xmlatt>target</xmlatt> werden detaillierte Angaben zur referierten Stelle
-   gemacht. Über ein Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format <codeph>"B#SZ"</codeph>.
+   gemacht. Über ein Dialogfenster notieren Sie Band und Seitenzahl/ Briefnummer im Format <codeph>B#SZ</codeph>.
    Außerdem müssen Sie vermerken, ob die Referenz nur in der Anmerkung erwähnt werden soll. Wenn Sie
-   „ja“ auswählen, wird ein zusätzliches Attribut <xmlatt>subtype</xmlatt> mit dem Wert <codeph>"comment"</codeph>
-   generiert. </p>
+   „ja“ auswählen, wird ein zusätzliches Attribut <xmlatt>subtype</xmlatt> mit dem Wert <codeph>comment</codeph>
+   generiert.</p>
   <codeblock outputclass="language-xml"><![CDATA[<linkGrp>
    <ptr type="page" target="I#32"/>
    <ptr type="letter" target="II#46" subtype="comment"/>

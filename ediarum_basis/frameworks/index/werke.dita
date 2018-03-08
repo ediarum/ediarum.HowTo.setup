@@ -61,10 +61,10 @@
   <codeblock outputclass="language-xml"><![CDATA[<author role="translation">]]></codeblock>
   <p>Außerdem können Sie noch die Publikationsart näher im <xmlelement>bibl</xmlelement>-Element
    bestimmen. Im Attribut <xmlatt>type</xmlatt> können Sie entweder auszeichenen, dass es sich um
-   eine Zeitschrift (<codeph>"journal"</codeph>) oder um einen Sammelband (<codeph>"edited_volume"</codeph>) handelt. Herausgeber werden
+   eine Zeitschrift (<codeph>journal</codeph>) oder um einen Sammelband (<codeph>edited_volume</codeph>) handelt. Herausgeber werden
    in einem <xmlelement>editor</xmlelement> angegeben. Einen einzelner Artikel innerhalb einer solchen
    Publikation wird in einem weiteren <xmlelement>bibl</xmlelement> angegeben, in dem ein Attribut
-   <xmlatt>type</xmlatt> angibt, dass es sich um einen Artikel handelt (<codeph>"article"</codeph>). Im
+   <xmlatt>type</xmlatt> angibt, dass es sich um einen Artikel handelt (<codeph>article</codeph>). Im
    <xmlelement>biblScope</xmlelement>-Element werden Angaben zu Band und Seitenzahl gemacht.<codeblock outputclass="language-xml"><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
    <editor>
       <persName>

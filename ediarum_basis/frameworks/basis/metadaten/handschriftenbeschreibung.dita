@@ -7,7 +7,7 @@
             description) notiert. Hier können Sie in einem <xmlelement>p</xmlelement>-Element Angaben
             zu Papier, Format, Blattanzahl etc. des Briefs festhalten.</p>
         <codeblock outputclass="language-xml"><![CDATA[<physDesc>
-   <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format...</p>
+   <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format…</p>
 </physDesc>]]></codeblock>        
     </body>
 </topic>

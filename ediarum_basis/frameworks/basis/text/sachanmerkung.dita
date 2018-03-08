@@ -87,7 +87,7 @@
         für den Text aus der Vorlage, der kommentiert wird; zum anderen
           <xmlelement>note</xmlelement> für den Stellenkommentar an sich. Das Attribut
           <xmlatt>type</xmlatt> in <xmlelement>seg</xmlelement> spezifiziert mit seinem Wert
-        „comment” die Kodierung. Die ID des Elements note ist technisch bedingt und wird automatisch
+        <codeph>comment</codeph> die Kodierung. Der Wert des Attribtus <xmlatt>xml:id</xmlatt> im Element <xmlelement>note</xmlelement> ist technisch bedingt und wird automatisch
         erzeugt.</p>
     </section>
     <section id="section_ar1_drm_qbb">

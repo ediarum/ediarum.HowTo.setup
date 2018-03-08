@@ -33,7 +33,7 @@
         „Register“ öffnen. Ein neues Siglum wird im Textmodus direkt im XML-Code angelegt. Einträge
         heißen <xmlelement>item</xmlelement>, und enthalten typischerweise drei Informationen:</p>
       <ul id="ul_vwh_rn4_hbb">
-        <li>eine eindeutige <codeph>#"ID"</codeph> im Attribut <xmlatt>xml:id</xmlatt></li>
+        <li>eine eindeutige <codeph>ID</codeph> im Attribut <xmlatt>xml:id</xmlatt></li>
         <li>eine Kennzeichnung im Element <xmlelement>label</xmlelement></li>
         <li>eine Beschreibung im Element <xmlelement>desc</xmlelement></li>
       </ul>

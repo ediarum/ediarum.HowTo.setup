@@ -50,7 +50,7 @@
                als <xmlelement>dateline</xmlelement> notiert.</p>
             <codeblock outputclass="language-xml"><![CDATA[<closer rend="paragraph">
    <dateline>4. Januar 1886</dateline>
-   ...
+   …
 </closer>]]></codeblock>
         </section>
     </body>

@@ -55,9 +55,9 @@
    <title>Kodierung</title>
    <p>Die Streichung eines (oder mehrer Wörter) durch den Herausgeber wird im Element
      <xmlelement>choice</xmlelement> vorgenommen; dabei kennzeichnet das Kindelement
-     <xmlelement>sic</xmlelement> das zustreichende Wort. Die Streichung selbst wird durch ein Im
-    weiteres Kindelement <xmlelement>corr</xmlelement> (correction), dessen Attribut
-     <xmlatt>type</xmlatt> den Wert deleted trägt. Dadurch soll die Kodierung explizit kennzeichnen,
+     <xmlelement>sic</xmlelement> das zu streichende Wort. Die Streichung selbst wird durch ein
+    weiteres Kindelement, <xmlelement>corr</xmlelement> (correction), dessen Attribut
+     <xmlatt>type</xmlatt> den Wert <codeph>deleted</codeph> trägt, angezeigt. Dadurch soll die Kodierung explizit kennzeichnen,
     dass das Wort gestrichen ist und nicht etwa eine Herausgeberkorrektur vergessen wurde.</p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
    <sic>Schiller-Anstalt</sic>

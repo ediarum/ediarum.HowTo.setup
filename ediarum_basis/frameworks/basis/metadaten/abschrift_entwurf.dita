@@ -8,7 +8,7 @@
             <xmlelement>witness</xmlelement>-Element erfasst. Es werden aber einige
             Detailinformationen gefordert. Im <xmlelement>msDesc</xmlelement>-Element (manuscipt
             description) wird über das Attribut <xmlatt>type</xmlatt> angegeben, ob es sich um eine Abschrift
-            (<codeph>"copy"</codeph>) oder einen Entwurf (<codeph>"concept"</codeph>) handelt. Außerdem muss die aufbewahrende
+            (<codeph>copy</codeph>) oder einen Entwurf (<codeph>concept</codeph>) handelt. Außerdem muss die aufbewahrende
             Institution (<xmlelement>institution</xmlelement>) angegeben werden. Optional können
             Sie noch Sammlung (<xmlelement>collection</xmlelement>) und eine Signatur
             (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>

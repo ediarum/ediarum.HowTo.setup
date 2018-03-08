@@ -13,7 +13,7 @@
         werden in der Transkription grundsätzlich aufgelöst und ausgezeichnet. Dies gilt auch für
         abgekürzte Eigennamen von <b>Orten, Personen und Institutionen</b>. </p><p>Nimmt der Autor
         Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in ihrer
-        jeweiligen Sprache aufgelöst – in französischen und englischen Werken als <i>p=page</i>, in
+        jeweiligen Sprache aufgelöst – in französischen und englischen Werken <i>p=page</i>, in
         deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen <i>p=página</i>. Dasselbe
         gilt analog für <b>fremdsprachige Nummern</b> (<i>no., N<u>o</u></i>) in Adresszeilen,
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
@@ -22,7 +22,7 @@
         <desc>AvH an Meyen, 1837</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" align="center"
           id="image_b4f_sfj_ycb" scale="80"/>
-      </fig><codeblock outputclass="language-xml"><![CDATA[[...] Aufsaz über 
+      </fig><codeblock outputclass="language-xml"><![CDATA[[…] Aufsaz über 
   <choice>
      <abbr>Veg.</abbr>
      <expan>Vegetation</expan>
@@ -31,7 +31,7 @@
   <choice>
      <abbr>u.</abbr>
      <expan>und</expan>
-  </choice>]]> [...]</codeblock><p>In der <b>Kritischen Textfassung</b> werden Abkürzungen
+  </choice>]]> […]</codeblock><p>In der <b>Kritischen Textfassung</b> werden Abkürzungen
           belassen:<fig id="fig_yjl_ngj_ycb">
           <desc>AvH an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
@@ -59,13 +59,13 @@
         handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
           <title> „und“ mit d-Oberlänge</title>
-          <desc>„...Rose und...“ - AvH an Meyen, 11.03.1829</desc>
+          <desc>„…Rose und…“ - AvH an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
             id="image_oxf_hz1_fbb"/>
         </fig>
         <fig id="fig_jgl_wx1_fbb">
           <title>Abkürzung „u“</title>
-          <desc>„...ein thätiger u...“ - AvH an Meyen, 11.03.1829</desc>
+          <desc>„…ein thätiger u…“ - AvH an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig>
@@ -118,8 +118,7 @@
             </row>
             <row>
               <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113123+0100" comment="kein humboldt-beispiel gefunden
-"?></entry>
-              <?oxy_comment_end?>
+"?></entry><?oxy_comment_end?>
               <entry>usw./etc./&amp;c./&amp;/ca.</entry>
               <entry>
                 <p>usw./etc./&amp;c./&amp;/ca.</p>
@@ -180,7 +179,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„...die ich...“ – Brief AvH an Meyen, Anfang 1830</desc>
+                  <desc>„…die ich…“ – Brief AvH an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -192,7 +191,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„...H/Herr/Herrn...“ – Brief AvH an Meyen, Anfang 1830</desc>
+                  <desc>„…H/Herr/Herrn…“ – Brief AvH an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
                     placement="break" align="center"/>
                 </fig>

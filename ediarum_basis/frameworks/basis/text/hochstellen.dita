@@ -15,7 +15,7 @@
   <section>
    <title>Kodierung</title>
    <p>Zahlen, Buchstaben oder ganze Wörter, die im Manuskript hochgestellt sind, werden durch ein Element <xmlelement>hi</xmlelement>
-    (highlighted) ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> ist dabei auf den Wert „#sup“ gesetzt.</p>
+    (highlighted) ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> ist dabei auf den Wert <codeph>#sup</codeph> gesetzt.</p>
    <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
   </section>
  </body>

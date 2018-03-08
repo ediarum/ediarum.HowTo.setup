@@ -27,14 +27,14 @@
                 </ol></p>
             <p><image href="../img/briefmetadaten_beilage.jpg" id="image_xdt_bwj_p1b"/></p>
             <p>Ein solcher Hinweis kann auch in der Beilage im Abschnitt „Anmerkung zum Brief“ oder
-               „Anmerkung zum Text“ gesetzt werden. Für diesen Zweck gehen Sie bitte analog wie beschrieben
-                vor, Sie müssen lediglich im Punkt 4 die Funktion <uicontrol>"Brief/Dokument ist Beilage zu ..."</uicontrol>
-                benutzen.</p>
+                „Anmerkung zum Text“ gesetzt werden. Für diesen Zweck gehen Sie bitte analog wie
+                beschrieben vor, Sie müssen lediglich im Punkt 4 die Funktion
+                    <uicontrol>"Brief/Dokument ist Beilage zu …"</uicontrol> benutzen.</p>
         </section>
         <section>
             <title>Kodierung</title>
             <p>Die Beilagen werden in <codeph>correspDesc/note</codeph> mit Hilfe des Elements <xmlelement>ref</xmlelement> kodiert. Dabei gibt es zwei Werte für das Attribut <xmlatt>type</xmlatt>:
-                „hasAttachement“ für einen Verweis vom Brief auf die Beilage. Und „AttachedTo“ für einen Verweis von der Beilage zum Brief.</p>
+                <codeph>hasAttachement</codeph> für einen Verweis vom Brief auf die Beilage und <codeph>AttachedTo</codeph> für einen Verweis von der Beilage zum Brief.</p>
             <codeblock outputclass="language-xml"><![CDATA[<ref type="hasAttachment" target="D00002"/>]]></codeblock>
             <codeblock outputclass="language-xml"><![CDATA[<ref type="attachedTo" target="B00061"/>]]></codeblock>
         </section>

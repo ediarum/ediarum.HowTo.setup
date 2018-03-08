@@ -79,23 +79,23 @@ et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock><
      <tbody>
       <row>
        <entry>einfach</entry>
-       <entry>#u</entry>
+       <entry><codeph>#u</codeph></entry>
       </row>
       <row>
        <entry>doppelt</entry>
-       <entry>#uu</entry>
+       <entry><codeph>#uu</codeph></entry>
       </row>
       <row>
        <entry>am Rand</entry>
-       <entry>#mMM</entry>
+       <entry><codeph>#mMM</codeph></entry>
       </row>
      </tbody>
     </tgroup>
    </table>
    <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
-   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert „#mMM” (am Rand angestrichen) kann in das
-    Element <xmlelement>p</xmlelement> eingefügt werden, falls ein ganzer Absatz am Rand
-    angestrichen ist.</p>
+   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#mMM</codeph> (am Rand
+                angestrichen) kann in das Element <xmlelement>p</xmlelement> eingefügt werden, falls
+                ein ganzer Absatz am Rand angestrichen ist.</p>
   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"

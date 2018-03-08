@@ -19,7 +19,7 @@
             <p>Die Anmerkungen zum Brief werden in <xmlelement>correspDesc</xmlelement> im Kindelement <xmlelement>note</xmlelement>notiert.</p>
             <p>
             <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
-   ...
+   …
    <note>Das Empfangsdatum kann nicht festgestellt werden.</note>
 </correspDesc>]]></codeblock>
         </p></section>

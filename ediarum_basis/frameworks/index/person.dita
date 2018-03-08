@@ -9,7 +9,7 @@
       referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben machen:
       Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder eine
       mytholgische Figur handeln, wird zusätzlich das Attribut <xmlatt>role</xmlatt> angelegt. Dort
-      wird entsprechend entweder der Wert <codeph>"fictional"</codeph> oder <codeph>"mythological"</codeph>
+      wird entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
       eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
     <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
       Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
@@ -59,11 +59,11 @@
       sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
     <p><b>3.</b> Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können
       Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <xmlatt>role</xmlatt>
-      angelegt. Dort wird entsprechend entweder der Wert <codeph>"fictional"</codeph> oder <codeph>"mythological"</codeph>
+      angelegt. Dort wird entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
       eingetragen.</p>
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
     <p><b>4.</b> Außerdem könnnen Sie mit einem <xmlelement>listPerson</xmlelement>, dessen Attribut
-        <xmlatt>type</xmlatt> den Wert <codeph>"group"</codeph> hat, Gruppen anlegen.<?oxy_custom_end?></p>
+        <xmlatt>type</xmlatt> den Wert <codeph>group</codeph> hat, Gruppen anlegen.<?oxy_custom_end?></p>
     <section id="section_czw_t3d_pbb">
       <title>edition humboldt digital</title>
       <p><b>Norm-ID</b></p>
@@ -153,7 +153,7 @@
 <birth>1619</birth>
 <death>1676</death>
 <note>Offizier und Kolonialverwalter aus dem spanischen Hochadel. 1653–1660
-        Vizekönig von Neu-Spanien (Mexiko) [...]</note>]]></codeblock></p>
+        Vizekönig von Neu-Spanien (Mexiko) […]</note>]]></codeblock></p>
         </li>
         <li>
           <p><b>Adelstitel</b> werden kulturell unterschiedlich behandelt. Es wird unterscheiden
@@ -532,7 +532,7 @@
           <li>u. > und</li>
           <li>franz. > französische/r</li>
           <li>C. Montúfar > Carlos Montúfar </li>
-          <li>...</li>
+          <li>…</li>
         </ul></p>
       <p><b>Herkunftsbezeichnungen im Kommentar</b></p>
       <ul id="ul_jy2_s4c_nbb">

@@ -6,7 +6,7 @@
         <p>Einen Drucknachweis als Textzeugen können Sie im
             <xmlelement>witness</xmlelement>-Element (Zeuge) angeben. Den eigentlichen Nachweis
             notieren Sie im <xmlelement>bibl</xmlelement>-Element. Das Attribut
-            <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>"print"</codeph> an, dass der Textzeuge ein
+            <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>print</codeph> an, dass der Textzeuge ein
             Drucknachweis ist.</p>
         <codeblock outputclass="language-xml"><![CDATA[<witness>
    <bibl type="print">[Drucknachweis]</bibl>

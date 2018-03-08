@@ -103,11 +103,11 @@
      </thead>
      <tbody>
       <row>
-       <entry>low</entry>
+       <entry><codeph>low</codeph></entry>
        <entry>niedrig</entry>
       </row>
       <row>
-       <entry>high</entry>
+       <entry><codeph>high</codeph></entry>
        <entry>hoch</entry>
       </row>
      </tbody>

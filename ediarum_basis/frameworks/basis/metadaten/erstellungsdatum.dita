@@ -117,7 +117,7 @@
         <p>
             <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
    <creation>
-      ...
+      …
       <date when="1874-12-23" cert="high"/> 
    </creation>
 </profileDesc>]]></codeblock>

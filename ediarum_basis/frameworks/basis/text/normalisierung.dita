@@ -135,7 +135,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Les tems...“ – Brief AvH an Kunth, 11. 11.1817</desc>
+                        <desc>„Les tems…“ – Brief AvH an Kunth, 11. 11.1817</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
                           placement="break" align="center"/>
                       </fig>
@@ -171,7 +171,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...lieuex de...“ – Cuba, 141r</desc>
+                        <desc>„…lieuex de…“ – Cuba, 141r</desc>
                         <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -222,7 +222,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...pres Bahia Honda...“ – Cuba, 130v</desc>
+                        <desc>„…pres Bahia Honda…“ – Cuba, 130v</desc>
                         <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -232,7 +232,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...qui aye... “ – Cuba, 132r</desc>
+                        <desc>„…qui aye… “ – Cuba, 132r</desc>
                         <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -260,7 +260,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...Konig...“ – Brief AvH an Kunth, 26.10.1832</desc>
+                        <desc>„…Konig…“ – Brief AvH an Kunth, 26.10.1832</desc>
                         <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -270,7 +270,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...Francois...“ – Brief AvH an Willdenow, 20.04.1799 </desc>
+                        <desc>„…Francois…“ – Brief AvH an Willdenow, 20.04.1799 </desc>
                         <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -281,7 +281,7 @@
                     <entry>
                       <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
                       <fig>
-                        <desc>„...a celui...“ – AvH an Kunth, 20.04.1839</desc>
+                        <desc>„…a celui…“ – AvH an Kunth, 20.04.1839</desc>
                         <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" align="center"/>
                       </fig>
                       <?oxy_comment_end?>
@@ -292,7 +292,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...chaine...“ – Cuba, 129r</desc>
+                        <desc>„…chaine…“ – Cuba, 129r</desc>
                         <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -333,7 +333,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...parceque...“ – Cuba, 140r</desc>
+                        <desc>„…parceque…“ – Cuba, 140r</desc>
                         <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -343,7 +343,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...tandisque...“ Cuba, 148r</desc>
+                        <desc>„…tandisque…“ Cuba, 148r</desc>
                         <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -373,7 +373,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„...roux de...“ – Cuba, 130r</desc>
+                        <desc>„…roux de…“ – Cuba, 130r</desc>
                         <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -381,20 +381,20 @@
                     <entry>roues</entry>
                   </row>
                   <row>
-                    <entry>RST, 32r „...devant quelquefois dur et verd comme du
-                      Grünstein...“</entry>
+                    <entry>RST, 32r „…devant quelquefois dur et verd comme du
+                      Grünstein…“</entry>
                     <entry>verd</entry>
                     <entry>vert</entry>
                   </row>
                   <row>
-                    <entry>RST, 23r „...Kirtim (le pic apellé Wostresopka...“</entry>
+                    <entry>RST, 23r „…Kirtim (le pic apellé Wostresopka…“</entry>
                     <entry>apellé</entry>
                     <entry>appelé</entry>
                   </row>
                   <row>
                     <?oxy_comment_start author="lkirsten" timestamp="20180112T113203+0100" comment="konnte ich leider nicht finden (entziffern)
 "?>
-                    <entry>RST, 23r „...angle de depression du massiv de l'Église...“</entry>
+                    <entry>RST, 23r „…angle de depression du massiv de l'Église…“</entry>
                     <?oxy_comment_end?>
                     <entry>massiv</entry>
                     <entry>massif</entry>

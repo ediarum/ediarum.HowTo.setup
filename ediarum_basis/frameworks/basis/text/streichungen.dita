@@ -19,12 +19,12 @@
 <image placement="break" href="../../img_avhr/streichung3.png" id="image_cdn_n15_qcb"
      align="center"/>
 </fig>
-    <codeblock outputclass="language-xml" audience="editor">[...] Medina &lt;del rendition="#s">si rappelle&lt;/del> [...] </codeblock>
+    <codeblock outputclass="language-xml" audience="editor">[…] Medina &lt;del rendition="#s">si rappelle&lt;/del> […] </codeblock>
    </p>
    <p><b>als Streichung ganzer Absätze quer über die Zeilen:</b></p>
    <p>
     <fig>
-<desc>Cuba, 142v „23. La salubrité de la Havane...“</desc>
+<desc>Cuba, 142v „23. La salubrité de la Havane…“</desc>
 <image placement="break" href="../../img_avhr/abb13.png" scale="60" align="center"
      id="image_zyq_spt_2bb"/>
 </fig>
@@ -33,17 +33,17 @@
     „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>). </p>
    <p>Streichungen innerhalb einer bereits gestrichenen Passage werden ebenfalls
      ausgezeichnet:</p><fig>
-<desc>Cuba, 142v „il leur est...“</desc>
+<desc>Cuba, 142v „il leur est…“</desc>
 <image placement="break" href="../../img_avhr/abb14.png" scale="60"
      align="center" id="image_evk_nst_2bb"/>
 </fig>
     <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>
-<del rendition="#s">[...] il 
+<del rendition="#s">[…] il 
   <subst>
      <del rendition="#s">est</del>
      <add place="intralinear">leur est</add>
   </subst> 
-très [...]</del>
+très […]</del>
 </p>]]></codeblock>
     <p audience="editor">In der Webansicht wird die auf diese Weise eine gestrichene Passage
     innerhalb einer bereits gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
@@ -95,15 +95,15 @@ très [...]</del>
       <tbody>
        <row>
         <entry>ursprünglicher Text überschrieben</entry>
-        <entry>#ow</entry>
+        <entry><codeph>#ow</codeph></entry>
        </row>
        <row>
         <entry>Textstelle durchgestrichen</entry>
-        <entry>#s</entry>
+        <entry><codeph>#s</codeph></entry>
        </row>
        <row>
         <entry>radiert</entry>
-        <entry>#erased</entry>
+        <entry><codeph>#erased</codeph></entry>
        </row>
       </tbody>
      </tgroup>

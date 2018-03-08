@@ -22,7 +22,7 @@
             </p>
             <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>
 <milestone unit="section" rendition="#hr"/>
-<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15 [...]</p>]]></codeblock>
+<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15 […]</p>]]></codeblock>
             <?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
             <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>
         </section>        
@@ -34,7 +34,7 @@
         <section>
             <title>Kodierung</title>
             <p>Horizontale Trennlinien werden mit dem Element <xmlelement>milestone</xmlelement>
-                ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> wird dabei auf den Wert „#hr” gesetzt.</p>
+                ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> wird dabei auf den Wert <codeph>#hr</codeph> gesetzt.</p>
         <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
     </body>
     <related-links>

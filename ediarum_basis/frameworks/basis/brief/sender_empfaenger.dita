@@ -57,7 +57,7 @@
         <p>Die Korrespondenzmetadaten eines Briefes werden im
             <xmlelement>correspDesc</xmlelement>-Element (correspondence description) angegeben. Es wird
             für den Absende- und den Empfangsvorgang jeweils ein <xmlelement>correspAction</xmlelement>-Element
-            (correspondence action) angelegt. Das Attribut <xmlatt>type</xmlatt> gibt dabei die Art der Kommunikationshandlung an; die Werte (<codeph>"sent"</codeph>, <codeph>"received"</codeph>)
+            (correspondence action) angelegt. Das Attribut <xmlatt>type</xmlatt> gibt dabei die Art der Kommunikationshandlung an; die Werte (<codeph>sent</codeph>, <codeph>received</codeph>)
             sind den TEI-Richtlinien für correspAction übernommen.</p>
         <codeblock outputclass="language-xml"><![CDATA[<correspDesc>
    <correspAction type="sent">[Angaben zum Sender]</correspAction>

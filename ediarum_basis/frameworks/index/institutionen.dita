@@ -25,7 +25,7 @@
 </location>]]></codeblock>
   <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des
    <xmlelement>location</xmlelement>-Elements in den Attributen <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> notiert wird. Die
-   Datumsangabe strukturiert sich folgendermaßen: <codeph>"JJJJ-MM-TT"</codeph>. Dabei sind Angaben zu Monat und Tag
+   Datumsangabe strukturiert sich folgendermaßen: <codeph>JJJJ-MM-TT</codeph>. Dabei sind Angaben zu Monat und Tag
    optional.</p>
   <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
  </conbody>

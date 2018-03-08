@@ -5,7 +5,7 @@
     <body>
         <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem
             <xmlelement>notesStmt</xmlelement>-Element (notes statement) gemacht. Das Attribut
-            <xmlatt>type</xmlatt> kennzeichnet mit dem Wert <codeph>"editorial"</codeph>, dass es sich um
+            <xmlatt>type</xmlatt> kennzeichnet mit dem Wert <codeph>editorial</codeph>, dass es sich um
             eine Anmerkung des Herausgebers bzw. Bearbeiters handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
    <note type="editorial">
       <p>[Anmerkung hier eingeben]</p>
