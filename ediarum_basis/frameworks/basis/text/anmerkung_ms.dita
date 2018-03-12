@@ -6,9 +6,9 @@
  <section>
   <title>Allgemein</title>
   <p>Anmerkungen des Autors oder eines zeitgenössischen Bearbeiters werden nicht nach ihrer
-    Platzierung auf dem Manuskript eingefügt, sondern an der tatsächlichen oder vermuteten (und
-    editorischen vertretbaren) Textstelle. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
-    wird ein generalisiertes Einweisungszeichen gesetzt, um kenntlich zu machen, dass die Einweisung
+    Platzierung auf dem Manuskript eingefügt, sondern an der Textstelle, auf die sich die Anmerkung
+    tatsächlich (oder vom Editor begründet angenommen) bezieht. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
+    wird ein generalisiertes Einweisungszeichen (<xmlelement>metamark</xmlelement>) gesetzt, um kenntlich zu machen, dass die Einweisung
     in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
    <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
     fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich

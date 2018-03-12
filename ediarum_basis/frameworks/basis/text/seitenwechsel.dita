@@ -52,7 +52,7 @@
               href="leere_seiten.dita#topic_tlg_53k_wcb">leere Seite</xref> ausgezeichnet.</li>
         </ul>
         <ul id="ul_rlj_bwq_wcb">
-          <li>Seiten oder Blätter, die entnommen und den BearberiterInnen nicht bekannt sind, werden
+          <li>Seiten oder Blätter, die entnommen und den BearbeiterInnen nicht bekannt sind, werden
             unter <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">nicht lesbare Zeichen und
               Schäden</xref> gezählt und als <b>Zerstörung/Verlust</b> angegeben. Jede fehlende
             Seite, auch aufeinanderfolgende, werden einzeln erfasst, um die Foliierung korrekt
@@ -92,8 +92,8 @@
     Seiten- bzw. Foliozahl.</p>
    <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
    <p>Ein Link zum Digitalisat wird im Attribut facs notiert. Als Link sollten im Regelfall nur
-    Permalinks der bestandshaltenden Insitution (Archiv oder Bibliohtek) bzw. offzieller,
-    übergeordneter Angebote (Gallica) verwendet werden.</p>
+    Permalinks der bestandshaltenden Institution (Archiv oder Bibliothek) bzw. offzieller,
+    übergeordneter Angebote (z.B. Gallica) verwendet werden.</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
    <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element <xmlelement>fw</xmlelement> kodiert, dessen
     Attribut <xmlatt>type</xmlatt> den Wert <codeph>folnum</codeph> aufweist.</p>

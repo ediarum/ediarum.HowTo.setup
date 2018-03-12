@@ -19,7 +19,7 @@
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
         dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
-        <desc>AvH an Meyen, 1837</desc>
+        <desc>Humboldt an Meyen, 1837</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" align="center"
           id="image_b4f_sfj_ycb" scale="80"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[[…] Aufsaz über 
@@ -33,12 +33,12 @@
      <expan>und</expan>
   </choice>]]> […]</codeblock><p>In der <b>Kritischen Textfassung</b> werden Abkürzungen
           belassen:<fig id="fig_yjl_ngj_ycb">
-          <desc>AvH an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
+          <desc>Humboldt an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
             align="center" id="image_zjl_ngj_ycb"/>
         </fig></p>Im <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
         aufgelöst:<fig id="fig_njs_bhj_ycb">
-        <desc>AvH an Meyen, 1837 - Webansicht (Lesetext)</desc>
+        <desc>Humboldt an Meyen, 1837 - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" align="center"
           id="image_ojs_bhj_ycb"/>
       </fig><p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
@@ -59,17 +59,17 @@
         handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
           <title> „und“ mit d-Oberlänge</title>
-          <desc>„…Rose und…“ - AvH an Meyen, 11.03.1829</desc>
+          <desc>„…Rose und…“ – Humboldt an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
             id="image_oxf_hz1_fbb"/>
         </fig>
         <fig id="fig_jgl_wx1_fbb">
           <title>Abkürzung „u“</title>
-          <desc>„…ein thätiger u…“ - AvH an Meyen, 11.03.1829</desc>
+          <desc>„…ein thätiger u…“ – Humboldt an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig>
-      </p><p>Humboldt verwendet zur Abkürzung von Wörtern desöfteren stenografische <b>Kürzel</b>.
+      </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>.
         Diese Kürzel werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort
         ausgeschrieben, das sie symbolisieren. Davon abweichende, in der Edition als Sonderkürzel
         definierte Kürzel werden hingegen transkribiert sowie ausgezeichnet und aufgelöst. </p><p>In
@@ -94,7 +94,7 @@
             <row>
               <entry>
                 <fig id="fig_kv5_mzg_1db">
-                  <desc>„Herrn Prof. D.“ – Brief AvH an Meyen, 22.08.1834</desc>
+                  <desc>„Herrn Prof. D.“ – Humboldt an Meyen, 22.08.1834</desc>
                   <image href="../../img_avhr/abb21-aus.png" id="image_vhw_lqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -105,7 +105,7 @@
             <row>
               <entry>
                 <fig id="fig_lv5_mzg_1db">
-                  <desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
+                  <desc>„Ew Wohlgeboren“ – Humboldt an Martius, 03.03.1829</desc>
                   <image href="../../img_avhr/abb23-aus.png" id="image_by3_pqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -139,7 +139,7 @@
             <row>
               <entry>
                 <fig id="fig_nv5_mzg_1db">
-                  <desc>„n 6“ – AvH an Kunth, nach 16.05.1832</desc>
+                  <desc>„n 6“ – Humboldt an Kunth, nach 16.05.1832</desc>
                   <image href="../../img_avhr/n.png" id="image_cq2_hsq_mcb" placement="break"
                     align="center"/>
                 </fig>
@@ -150,7 +150,7 @@
             <row>
               <entry>
                 <fig id="fig_ov5_mzg_1db">
-                  <desc>„z. B.“ – AvH an Willdenow, 20.04.1799</desc>
+                  <desc>„z. B.“ – Humboldt an Willdenow, 20.04.1799</desc>
                   <image href="../../img_avhr/zb.png" id="image_a1b_plq_mcb" placement="break"
                     align="center"/>
                 </fig>
@@ -179,11 +179,11 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„…die ich…“ – Brief AvH an Meyen, Anfang 1830</desc>
+                  <desc>„…die ich…“ – Humboldt an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
                     placement="break" align="center"/>
                 </fig>
-                <p>(AvH-spezifisches Kürzel)</p>
+                <p>(Humboldt-spezifisches Kürzel)</p>
               </entry>
               <entry>ich</entry>
               <entry>ich</entry>
@@ -191,7 +191,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„…H/Herr/Herrn…“ – Brief AvH an Meyen, Anfang 1830</desc>
+                  <desc>„…H/Herr/Herrn…“ – Humboldt an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -202,7 +202,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„Ew Wohlgeboren“ – Brief AvH an Martius, 03.03.1829</desc>
+                  <desc>„Ew Wohlgeboren“ – Humboldt an Martius, 03.03.1829</desc>
                   <image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -213,7 +213,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„sich“ – AvH an Soemmerring, 08.05.1796</desc>
+                  <desc>„sich“ – Humboldt an Soemmerring, 08.05.1796</desc>
                   <image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -224,7 +224,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„B. den 14 Mai 1830“ – AvH an Meyen, 14.05.1830</desc>
+                  <desc>„B. den 14 Mai 1830“ – Humboldt an Meyen, 14.05.1830</desc>
                   <image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -267,7 +267,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>Groschenkürzel, AvH an Willdenow, Aranjuez, 20.04.1799</desc>
+                  <desc>Groschenkürzel, Humboldt an Willdenow, Aranjuez, 20.04.1799</desc>
                   <image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -291,7 +291,7 @@
       </table><p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im
         folgenden Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
         expliziter Normalisierung von Abkürzungen verdeutlicht:</p><fig id="fig_edv_mzg_1db">
-        <desc>Brief AvH an Meyen, Anfang 1830</desc>
+        <desc>Humboldt an Meyen, Anfang 1830</desc>
         <image placement="break" href="../../img_avhr/kuerzel.png" scale="80" align="center"
           id="image_sgg_t4n_jbb"/>
       </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
@@ -307,11 +307,11 @@
       <abbr>R</abbr>
       <expan>Rath</expan>
   </choice>]]></codeblock><fig id="fig_mx1_gqn_jbb">
-        <desc>Brief AvH an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc>
+        <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80" align="center"
           id="image_nx1_gqn_jbb"/>
       </fig><fig id="fig_zkr_tpn_jbb">
-        <desc>Brief AvH an Meyen, Anfang 1830 - Webansicht (Lesetext)</desc>
+        <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70" align="center"
           id="image_alr_tpn_jbb"/>
       </fig></section>

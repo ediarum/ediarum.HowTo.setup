@@ -6,7 +6,7 @@
   <section>
    <title>Allgemein</title>
    <p>In der Vorlage oder im Kommentar explizit genannte Namen von Personen, Orten und
-    Institutionen, Werktitel sowie Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
+    Institutionen sowie Werktitel und Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
     verknüpft. Gesondert ausgezeichnet werden sog. Anaphern, d.h. verweisende Wörter, die aber kein
     Eigenname, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er” oder Begriffe wie „die
     Kinder”.</p>
@@ -51,18 +51,14 @@
     den verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
      Einrichtungsnamen</b> hingegen werden immer explizit aufgelöst (siehe <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>). </p>
-   <p>Eine
-     <?oxy_comment_start author="thomas" timestamp="20171222T131443+0100" comment="ist schon möglich, einfach 2 @ref bzw. @key in &lt;persName&gt;, vgl. http://www.deutschestextarchiv.de/nn_msgermqu2124_1827/13: &quot; Ich kann dieser Meinung nicht seyn, die auch die beiden &lt;hi rendition=&quot;#aq&quot;&gt;&lt;persName ref=&quot;http://d-nb.info/gnd/118534432 http://d-nb.info/gnd/118534416&quot;&gt;Forster&lt;/persName&gt;&lt;/hi&gt;&lt;lb/&gt; nicht theilen, […]&quot;
-
-==&gt; Jedenfalls sollte man in der Doku nicht schreiben, es sei nicht möglich, sofern es sich dabei nur um eine editorische Entscheidung bzw. ein Erfordernis des Workflows handelt."?><b>gleichzeitige
-     Auszeichnung mehrerer Personen</b>
-    <?oxy_comment_end?>bei Textformulierungen, die mehrere Personen meinen („mit allen
-     <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), ist in der Edition nicht vorgesehen.
-    Stattdessen werden die betreffenden Personen in einer Sachanmerkung einzeln aufgelöst und dort
-    gekennzeichnet (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y">Stellenkommentar</xref>). </p>
+   <p>Eine <b>gleichzeitige Auszeichnung mehrerer Personen</b> bei Textformulierungen, die mehrere
+    Personen meinen („mit allen <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), ist in der Edition
+    nicht vorgesehen. Stattdessen werden die betreffenden Personen in einer Sachanmerkung einzeln
+    aufgelöst und dort gekennzeichnet (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
+     >Stellenkommentar</xref>). </p>
    <p>
     <fig>
-     <desc>AvH an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
+     <desc>Humboldt an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
      <image placement="break" href="../../img_avhr/aufloesung_in_sachanmerkung.JPG"
       id="image_onx_khj_wcb" scale="60"/>
     </fig>
@@ -93,18 +89,18 @@
      <tbody>
       <row>
        <entry>Oberbegriff</entry>
-       <entry>"Palais" statt "Königliches Palais" (AvH an Meyen, Anfang 1830); "Ich lege Ihnen auch
-        einiges über Arequipa und den <b>Vulcan</b>…" (AvH an Meyen, 1833?), "…dass die gelben
-        und orangenen auf dem ganzen <b>Continent</b> von unseren Saamen…" (<xref
+       <entry>„Palais“ statt „Königliches Palais“ (Humboldt an Meyen, Anfang 1830); „Ich lege Ihnen auch
+        einiges über Arequipa und den <b>Vulcan</b>…“ (Humboldt an Meyen, 1833?), „…dass die gelben
+        und orangenen auf dem ganzen <b>Continent</b> von unseren Saamen…“ (<xref
          href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0012104&amp;view=l" format="html"
-         scope="external">AvH an Kunth, 14.08.1838)</xref> -> gemeint ist Europa; </entry>
+         scope="external">Humboldt an Kunth, 14.08.1838)</xref> -> gemeint ist Europa; </entry>
       </row>
       <row>
        <entry/>
-       <entry>"…endlich am 1. September 1800 in Cumana zurük im Hause unseres Freundes Dn Vicente
-        Emperan (Gouverneur dieser <b>Provinz</b>.)" (<xref
+       <entry>„…endlich am 1. September 1800 in Cumana zurük im Hause unseres Freundes Dn Vicente
+        Emperan (Gouverneur dieser <b>Provinz</b>.)“ (<xref
          href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001181&amp;view=l" format="html"
-         scope="external">AvH an Willdenow, 21.02.1801</xref>)</entry>
+         scope="external">Humboldt an Willdenow, 21.02.1801</xref>)</entry>
       </row>
      </tbody>
     </tgroup>
@@ -124,51 +120,51 @@
     <tbody>
      <row>
       <entry>Verwandschaftsgrad (Bruder, Schwester, Frau, Kinder)</entry>
-      <entry>"so führe ich Sie zu meinem <b>Bruder</b>…" (AvH an Meyen, 1833); "<b>Sprengels
-        Sohn</b> der Senator schreibt mir er beschränke sich…" (<xref
+      <entry>„so führe ich Sie zu meinem <b>Bruder</b>…“ (Humboldt an Meyen, 1833); „<b>Sprengels
+       Sohn</b> der Senator schreibt mir er beschränke sich…“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002933&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 27.11-16.12.1833</xref>); viele Beispiele in <xref
+        scope="external">Humboldt an Kunth, 27.11-16.12.1833</xref>); viele Beispiele in <xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015273&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 2.11.1842</xref>; "Der Tod <b>meiner unglücklichen Mutter</b>
-       ist also endlich doch auch eingetroffen." (AvH an Willdenow, nach 19.11.1796)</entry>
+        scope="external">Humboldt an Kunth, 2.11.1842</xref>; „Der Tod <b>meiner unglücklichen Mutter</b>
+       ist also endlich doch auch eingetroffen.“ (Humboldt an Willdenow, nach 19.11.1796)</entry>
      </row>
      <row>
       <entry>Funktionsbezeichnung (Amt, militärischer Grad etc.)</entry>
-      <entry>"…noch ehe ich mit dem <b>König</b> nach Potsdam gehe…"; "Der <b>Herr Minister</b>
-       pflegt in naturhistorischen …" (AvH an Meyen, 8.07.1833); "…begleiten kann an den neuen
-       Minister." (<xref
+      <entry>„…noch ehe ich mit dem <b>König</b> nach Potsdam gehe…“; „Der <b>Herr Minister</b>
+       pflegt in naturhistorischen …“ (Humboldt an Meyen, 8.07.1833); „…begleiten kann an den neuen
+       Minister.“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l" format="html"
-        scope="external">AvH am Meyen, nach 22.08.1834</xref>); "Ich habe dem <b>Polizei
-        Minister</b> selbst gemeldet…" (<xref
+        scope="external">Humboldt an Meyen, nach 22.08.1834</xref>); „Ich habe dem <b>Polizei
+         Minister</b> selbst gemeldet…“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 27.04.1813</xref>) ; "…le <b>Prince Regent</b> en a parlé
-       avec beaucoup de bonté à mon frère." (<xref
+        scope="external">Humboldt an Kunth, 27.04.1813</xref>) ; „…le <b>Prince Regent</b> en a parlé
+       avec beaucoup de bonté à mon frère.“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 11.11.1817</xref>)</entry>
+        scope="external">Humboldt an Kunth, 11.11.1817</xref>)</entry>
      </row>
      <row>
       <entry>Anapher (vorher genannt und ausgezeichnet, A. nicht ausgezeichnet)</entry>
-      <entry>"Der <b>Mann</b> scheint beissiger Natur." (AvH an Meyen, nach 22.08.1834)</entry>
+      <entry>„Der <b>Mann</b> scheint beissiger Natur.“ (Humboldt an Meyen, nach 22.08.1834)</entry>
      </row>
      <row>
       <entry/>
-      <entry>"Der <b>Hingeschiedene</b> war gleich ausgezeichnet durch seinen unermüdlichen
-       Forschungs-Geist,…" (<xref
+      <entry>„Der <b>Hingeschiedene</b> war gleich ausgezeichnet durch seinen unermüdlichen
+       Forschungs-Geist,…“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001203&amp;view=l" format="html"
-        scope="external">AvH an Meyen, 09.10.1840</xref>); "<b>Der bescheidene Mann</b> legt eine
-       neue brochure gegen Liebig bei,…" (<xref
+        scope="external">Humboldt an Meyen, 09.10.1840</xref>); „<b>Der bescheidene Mann</b> legt eine
+       neue brochure gegen Liebig bei,…“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0004892&amp;view=l" format="html"
-        scope="external">AvH an Kunth, nach 3.05.1842</xref>); "…Monsieur Majorlin Médecin des
-       Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris." (<xref
+        scope="external">Humboldt an Kunth, nach 3.05.1842</xref>); „…Monsieur Majorlin Médecin des
+       Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris.“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0005454&amp;view=l" format="html"
-        scope="external">AvH an Kunth, Oktober 1844</xref>); </entry>
+        scope="external">Humboldt an Kunth, Oktober 1844</xref>); </entry>
      </row>
      <row>
       <entry/>
-      <entry>"Ohnerachtet mich meine Sendung zu dem <b>französischen General</b> und mein Aufenthalt
-       bei der Armee im Juli und August sehr gestört hat,…" (<xref
+      <entry>„Ohnerachtet mich meine Sendung zu dem <b>französischen General</b> und mein Aufenthalt
+       bei der Armee im Juli und August sehr gestört hat,…“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001199&amp;view=k" format="html"
-        scope="external">AvH an Willdenow, 20.12.1796</xref>)</entry>
+        scope="external">Humboldt an Willdenow, 20.12.1796</xref>)</entry>
      </row>     
     </tbody>
    </tgroup>
@@ -187,25 +183,25 @@
     <tbody>
      <row>
       <entry>Oberbegriff </entry>
-      <entry>"…und dass niemand sehnlicher als ich Ihre Anstellung als Professeur extraordinaire
-       bei der <b>Universität</b> wünschen kann…" (AvH an Meyen, 8.07.1833); "…bezog sich
-       allerdings auf die Schritte und Empfehlung die ich bei dem <b>Ministerium</b> erneuert."
+      <entry>„…und dass niemand sehnlicher als ich Ihre Anstellung als Professeur extraordinaire
+       bei der <b>Universität</b> wünschen kann…“ (Humboldt an Meyen, 8.07.1833); „…bezog sich
+       allerdings auf die Schritte und Empfehlung die ich bei dem <b>Ministerium</b> erneuert.“
         (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l"
-        format="html" scope="external">AvH am Meyen, nach 22.08.1834</xref>); "…nichts mehr als
-       die Pension des <b>Gartens</b> accediren!" (<xref
+         format="html" scope="external">Humboldt an Meyen, nach 22.08.1834</xref>); „…nichts mehr als
+       die Pension des <b>Gartens</b> accediren!“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 26.10.1832</xref>); "Salziges Wasser, kein Geld, Fieber, Tod
+        scope="external">Humboldt an Kunth, 26.10.1832</xref>); „Salziges Wasser, kein Geld, Fieber, Tod
        der Bestien für den ohnedies thierlosen hiesigen <b>Garten</b> – das ist eine freudenleere
-       Welt." (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002239&amp;view=l"
-        format="html" scope="external">AvH an Kunth, 14.04.1844</xref>) → gemeint ist der
+       Welt.“ (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002239&amp;view=l"
+        format="html" scope="external">Humboldt an Kunth, 14.04.1844</xref>) → gemeint ist der
        Zoologische Garten; </entry>
      </row>
      <row>
       <entry/>
-      <entry>"Sie können mir nichts rühmliches und edles von Professor Kunth sagen, was ich nicht
-       wüsste. Er ist die Seele des <b>Instituts</b>." (<xref
+      <entry>„Sie können mir nichts rühmliches und edles von Professor Kunth sagen, was ich nicht
+       wüsste. Er ist die Seele des <b>Instituts</b>.“ (<xref
         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0014471&amp;view=l" format="html"
-        scope="external">AvH an Kunth, 8.10.1840</xref>) -> gemeint ist der Botanische Garten in
+        scope="external">Humboldt an Kunth, 8.10.1840</xref>) -> gemeint ist der Botanische Garten in
        Berlin; </entry>
      </row>     
     </tbody>

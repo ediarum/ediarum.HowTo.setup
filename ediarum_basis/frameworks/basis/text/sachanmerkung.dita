@@ -20,7 +20,7 @@
         Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
         Stellenkommentaren nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel
         etwa werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<fig>
-          <desc>AvH an Meyen, 11. März 1829</desc>
+          <desc>Humboldt an Meyen, 11. März 1829</desc>
           <?oxy_comment_start author="lkirsten" timestamp="20180306T134130+0100" comment="Vllt. Sachkommentar mit Ansicht der Textstelle"?>
           <image placement="break" href="../../img_avhr/sachanmerkung1.jpg" align="center"
             id="image_pnw_krn_hbb" scale="50"/>
@@ -29,7 +29,7 @@
       <p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der Ersterwähnung
         ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder der Vor- und
         Nachname ausgezeichnet.<fig>
-          <desc>AvH an Meyen, Anfang 1830</desc>
+          <desc>Humboldt an Meyen, Anfang 1830</desc>
           <image placement="break" href="../../img_avhr/sachanmerkung2.jpg" align="center"
             id="image_vfg_btn_hbb" scale="40"/>
         </fig></p>
@@ -62,7 +62,7 @@
       <p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen Angaben in einem
         Stellenkommentar müssen folgende Punkte berücksichtigt werden:</p>
       <ol audience="editor" id="ol_w4p_ntn_hbb">
-        <li>Eintrag der bibliographischen Angabe in der AvHR-Zotero-Datenbank muss vorhanden sein
+        <li>Eintrag der bibliographischen Angabe in der AvH-R-Zotero-Datenbank muss vorhanden sein
           oder neu angelegt werden</li>
         <li>Die bibliographische Angabe in Zotero sollte einen Kurztitel haben. Wenn kein Kurztitel
           vorhanden ist, muss er neu vergeben werden</li>

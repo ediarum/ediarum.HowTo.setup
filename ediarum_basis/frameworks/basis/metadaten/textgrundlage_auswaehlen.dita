@@ -4,8 +4,8 @@
     <title>Textgrundlage auswählen</title>
     <body>
         <p>Die Textgrundlage, die Sie für Ihre Arbeit verwenden, markieren Sie, indem Sie das
-            entsprechende <xmlelement>wittness</xmlelement>-Element auswählen und dort das Attribut
-            <xmlatt>select</xmlatt> einfügen. Das Attribut hat immer denselben Wert.</p>
+            entsprechende <xmlelement>witness</xmlelement>-Element auswählen und dort das Attribut
+                <xmlatt>select</xmlatt> einfügen. Das Attribut hat immer denselben Wert.</p>
         <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
     </body>
 </topic>

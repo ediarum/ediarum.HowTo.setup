@@ -6,18 +6,20 @@
         <section>
             <title>Allgemeines</title>
             <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
-                Wichtig ist, dass die Datumsangaben nochmals in einem bestimmten Format in den
-                Attributen <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
-                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Dadurch
-                kann der in der Datumsangabe enthaltene Wert später vom Computer für verschiedene
-                Zwecke weiterbenutzt werden (z.B. Suche in bestimmten Zeiträumen). Außerdem wird in
-                den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit angegeben, mit der die
-                Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>.</p>
+                Wichtig ist, dass die Datumsangaben nochmals
+                <!--in einem
+                <?oxy_comment_start author="thomas" timestamp="20180312T173553+0100" comment="Formulierung verbessern!"?>bestimmten
+                Format<?oxy_comment_end?>-->
+                in den Attributen <xmlatt>when</xmlatt> bzw.
+                    <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
+                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
+                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw. <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die
+                Datumsangabe zutrifft.</p>
        
         <p>1. Genaues Datum</p>
         <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">drei Tage vor Weihnachten d. 1772ten Jahres</date>]]></codeblock>
         <p>2. Genaue Zeitspanne</p>
-        <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11" cert="high">vom 11. November 1731 bis zum 11. Sept. '41</date>]]></codeblock>
+        <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11">vom 11. November 1731 bis zum 11. Sept. ’41</date>]]></codeblock>
         <p>3. Ungefährer Zeitraum</p>
         <p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
@@ -28,32 +30,35 @@
             <p>Für die Angabe ungefährer Zeiträume gelten folgende Konventionen:</p>
             <p>
                 <ul id="ul_ss5_1st_xcb">
-                    <li>„wohl um 1828“/„im Jahr 1828“ - das ganze Jahr wird angegeben</li>
+                    <li>„wohl um 1828“/„im Jahr 1828“ – das ganze Jahr wird angegeben</li>
                 </ul>
             </p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1828-01-01" notAfter="1828-12-31" cert="high"/>]]></codeblock>
             <p>
                 <ul id="ul_ovx_4st_xcb">
-                    <li>„wohl Juli 1827“ - der ganze Monat wird angegeben</li>
+                    <li>„wohl Juli 1827“ – der ganze Monat wird angegeben</li>
                 </ul>
             </p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1827-07-01" notAfter="1827-07-31" cert="high"/>]]></codeblock>
             <p>
                 <ul id="ul_jlp_pst_xcb">
-                    <li>„Anfang 1830” - das erste Jahresviertel wird angegeben</li>
+                    <li>„Anfang 1830” – das erste Jahresviertel wird angegeben</li>
                 </ul>
             </p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1830-01-01" notAfter="1830-03-31" cert="high"/>]]></codeblock>
-        <p>
+        <!--<p>
             <ul id="ul_amk_wst_xcb">
-                <li>„vor 28. September 1830“ / „vor 1829“ / „nach 22. April 1832“ - der Zeitraum
-                        wird unterschiedlich angegegen basierend auf einer begründeten
-                        Einzelfallentscheidung, da ungenaue Datierungen wie diese von sehr
-                        verschiedenen Faktoren, etwa dem möglichen zeitlichen Umfang der
-                        Korrespondenz oder den Lebens- und Wirkungsdaten der Korrespondenz-partner,
-                        abhängen.</li>
+                <li><?oxy_comment_start author="thomas" timestamp="20180312T173409+0100" comment="@TK,UP,CT: 
+* Formulierung verbessern für Version 1 
+* bis dahin auskommentiert!"?>„vor
+                        28. September 1830“, „vor 1829“, „nach 22. April 1832“ – der Zeitraum wird,
+                        basierend auf einer begründeten Einzelfallentscheidung, unterschiedlich
+                        angegeben, da ungenaue Datierungen wie diese von sehr verschiedenen
+                        Faktoren, etwa dem möglichen zeitlichen Umfang der Korrespondenz oder den
+                        Lebens- und Wirkungsdaten der Korrespondenzpartner,
+                        abhängen<?oxy_comment_end?>.</li>
             </ul>
-        </p>
+        </p>-->
         </section>
         <section>
             <title>Bedienung</title>

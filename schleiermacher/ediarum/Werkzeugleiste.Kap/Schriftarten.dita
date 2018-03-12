@@ -4,14 +4,16 @@
  <title>Schriftarten</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p>Möglicherweise ist notwendig sein, die Schriftart umzustellen – z.B. wenn die Standardschrift
-   seltene altgriechische Schriftzeichen nicht darstellen kann (was aber nicht
-   passieren sollte). Über den Punkt „Einstellungen“ im Menü „Optionen“ und im dann
-   erscheinenden Dialogfenster den Punkt „Schriftarten“ können die Schriftarten für den
-   Editor (Textmodus) sowie den Autor (Autormodus) geändert werden. Voraussetzung
-   ist, dass die Schrift im System bereits vor Programmstart installiert worden ist. Bitte
-   beachten Sie, dass u.U. die Schriftgrößen unterschiedlich ausfallen und ebenfalls nach
-   oben oder unten korrigiert werden müssen.</p>
+  <p>Möglicherweise ist es notwendig, die Schriftart umzustellen – z.B. wenn die Standardschrift
+   seltene
+   <?oxy_comment_start author="thomas" timestamp="20180312T172704+0100" comment="@SD: hier vielleicht noch allgemeiner:
+&quot;bestimmte Schriftzeichen und Symbole&quot;?"?>altgriechische
+   Schriftzeichen<?oxy_comment_end?> nicht darstellen kann (was aber nicht passieren sollte). Über
+   den Punkt „Einstellungen“ im Menü „Optionen“ und im dann erscheinenden Dialogfenster den Punkt
+   „Schriftarten“ können die Schriftarten für den Editor (Textmodus) sowie den Autor (Autormodus)
+   geändert werden. Voraussetzung ist, dass die Schrift im System bereits vor Programmstart
+   installiert worden ist. Bitte beachten Sie, dass u.U. die Schriftgrößen unterschiedlich ausfallen
+   und ebenfalls nach oben oder unten korrigiert werden müssen.</p>
   <p>Die Änderung der Schriftart hat lediglich Auswirkung auf die Darstellung der Datei. Der
    Text wird weiterhin in Unicodekodierung (UTF 8) gespeichert und ist daher von der zur
    Darstellung verwendeten Schriftart unabhängig – das gilt auch wenn Zeichen zu fehlen

@@ -74,7 +74,7 @@
             aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
             Dokumentation des Befundes den Text. 
             <fig>
-              <desc>Brief AvH an Kunth, 26. Oktober 1832</desc>
+              <desc>Humboldt an Kunth, 26. Oktober 1832</desc>
               <image placement="break" href="../../img_avhr/kunth.jpg" align="center"
                 id="image_i4f_vln_jbb" scale="80"/>
             </fig>
@@ -85,7 +85,7 @@
             kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830 fehlt das Trema über
             „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den vorliegenden Text als „fur
             das schone“ zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<fig>
-              <desc>„fur das schone“ – Brief AvH an Meyen, Anfang 1830</desc>
+              <desc>„fur das schone“ – Humboldt an Meyen, Anfang 1830</desc>
               <image href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb"/>
             </fig></li>
           <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
@@ -116,10 +116,10 @@
           <p>Diese Grenzfälle werden anhand repräsentativer
         Beispiele dokumentiert. Die Unterscheidung basiert auf folgenden Richtlinien:</p><p>
         <ul id="ol_awp_1mg_hbb">
-          <li><b>AvH Schreibgewohnheit</b>: Humboldt schreibt mit hoher Konsistenz so; die
+          <li><b>Schreibgewohnheiten Humboldts</b>: Humboldt schreibt mit hoher Konsistenz so; die
             Schreibweise wird als Stilelement respektiert und auf keiner Ebene normalisiert.<table
               id="table_bps_3jg_hbb">
-              <title>Häufige Beispiele für Humboldts Schreibgewohnheiten</title>
+              <title>Häufige Beispiele für Schreibgewohnheiten Humboldts</title>
               <tgroup cols="3">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -135,7 +135,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Les tems…“ – Brief AvH an Kunth, 11. 11.1817</desc>
+                        <desc>„Les tems…“ – Humboldt an Kunth, 11. 11.1817</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
                           placement="break" align="center"/>
                       </fig>
@@ -212,7 +212,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Sontag“ – Brief AvH an Kunth, 30.01.1844</desc>
+                        <desc>„Sontag“ – Humboldt an Kunth, 30.01.1844</desc>
                         <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -260,7 +260,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…Konig…“ – Brief AvH an Kunth, 26.10.1832</desc>
+                        <desc>„…Konig…“ – Humboldt an Kunth, 26.10.1832</desc>
                         <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -270,7 +270,7 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…Francois…“ – Brief AvH an Willdenow, 20.04.1799 </desc>
+                        <desc>„…Francois…“ – Humboldt an Willdenow, 20.04.1799 </desc>
                         <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" align="center"/>
                       </fig>
                     </entry>
@@ -281,7 +281,7 @@
                     <entry>
                       <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
                       <fig>
-                        <desc>„…a celui…“ – AvH an Kunth, 20.04.1839</desc>
+                        <desc>„…a celui…“ – Humboldt an Kunth, 20.04.1839</desc>
                         <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" align="center"/>
                       </fig>
                       <?oxy_comment_end?>

@@ -5,16 +5,19 @@
   <body>
     <section>
       <title>Allgemein</title>
-      <p>Semantisch bedeutsamer Leerraum in der Vorlage kann ausgezeichnet werden. Leerräume sind
-        zum einen zu unterscheiden von <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen
-          durch den Herausgeber</xref> und zum anderen von <xref
-          href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> sowie <xref
-          href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>.</p>
+      <p>Semantisch bedeutsamer Leerraum in der Vorlage, beispielsweise Lücken, die der Verfasser im
+        Text belassen hat, um den darin fehlenden Text ggf. später zu ergänzen, kann mit dem Element
+          <xmlelement>space</xmlelement> ausgezeichnet werden. Die Wiedergabe solcher Leerräume in
+        der Transkription ist zu unterscheiden von <xref href="auslassungen.dita#topic_iyg_1bh_qbb"
+          >Auslassungen durch den Herausgeber</xref> sowie <xref
+          href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> bzw. <xref
+          href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>, die jeweils mit
+          <xmlelement>gap</xmlelement> ausgezeichnet werden.</p>
     </section>
     <section>
       <title>edition humboldt digital</title>
       <?oxy_comment_start author="lkirsten" timestamp="20180306T124226+0100" comment="Einleitung ergänzen; Screenshots ergänzen sobald angepasst"?>
-      <p><?oxy_comment_end?>Leerraum gelassen, da Name nicht bekannt:</p>
+      <p><?oxy_comment_end?>Beispiel: Leerraum gelassen, da Name nicht bekannt:</p>
       <fig>
         <desc>Ansichten der Natur, 3r</desc>
         <image placement="break" href="../../img_avhr/leerraum.png" align="center"
@@ -33,7 +36,11 @@
       <title>Kodierung</title>
       <p>Semantisch bedeutsamer Leerraum im Dokument kann mit Hilfe des (leeren) Elements
           <xmlelement>space</xmlelement> kodiert werden. Dabei zeigt das Attribut
-          <xmlatt>dim</xmlatt> an, ob es sich um horizontalen oder vertikalen Leerraum handelt. </p>   
+          <xmlatt>dim</xmlatt> an, ob es sich um horizontalen oder vertikalen Leerraum handelt. 
+        Das Ausmaß der Auslassung wird durch die entsprechenden Werte der Attribute <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> gekennzeichnet. 
+        Falls sich die Anzahl der ausgelassen Zeilen (<codeph>unit="lines"</codeph>), Zeichen (<codeph>unit="chars"</codeph>) oder Wörter (<codeph>unit="words"</codeph>) 
+        nicht sicher ermitteln lassen, steht in <xmlatt>quantity</xmlatt> der Wert <codeph>1</codeph>.
+      </p>   
     </section> 
   </body>
   <related-links>

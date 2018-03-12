@@ -15,18 +15,18 @@
       <p>Streichung überflüssiger Wörter:</p>
       <?oxy_comment_end?>
       <fig id="fig_mdk_tgk_ycb">
-        <desc>Brief AvH an Meyen, 1833(?)</desc>
+        <desc>Humboldt an Meyen, 1833(?)</desc>
         <image placement="break" href="../../img_avhr/streichungen_hg_1.png" align="center"
           id="image_ndk_tgk_ycb" scale="70"/>
       </fig>
     </section>
   <fig id="fig_qsc_t3k_ycb">
-   <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
+   <desc>Humboldt an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" align="center"
     id="image_rsc_t3k_ycb"/>
   </fig>
   <fig id="fig_rkp_lps_zcb">
-   <desc>Brief AvH an Meyen, 1833(?) - Webansicht (Lesetext)</desc>
+   <desc>Humboldt an Meyen, 1833(?) - Webansicht (Lesetext)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" align="center"
     id="image_skp_lps_zcb"/>
   </fig>
