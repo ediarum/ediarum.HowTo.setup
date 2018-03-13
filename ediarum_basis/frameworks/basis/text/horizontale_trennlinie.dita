@@ -11,30 +11,35 @@
         <section>
             <title>edition humboldt digital</title>
             <p>
-                <?oxy_comment_start author="lkirsten" timestamp="20180220T153303+0100" comment="Erman - Schubert = Erman u Schubert? Bitte Transkription prüfen
-"?>
                 <fig>
-                    <desc>RST I, 1v</desc>
+                    <desc>Humboldt an Kunth, Potsdam, 24.11.1848, Bl. 2r</desc>
                     <image placement="break" href="../../img_avhr/abb8.png" scale="90"
                         align="center" id="image_g1c_s43_dbb"/>
                 </fig>
-                <?oxy_comment_end?>
             </p>
-            <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>Erman - Schubert</p>
+            <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>[…]Zürnen Sie mir nicht über so
+   <lb/>viele <choice><orig>qualende</orig><reg>quälende</reg></choice> Fragen<supplied cert="high" prev="Fragen">.</supplied></p>
 <milestone unit="section" rendition="#hr"/>
-<p>aber wenn nach Encke 1 Aequ. Gr. = 57104,0<hi renditi-on="#sup">t.</hi>, so ist 1/15 […]</p>]]></codeblock>
-            <?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
-            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>
+<p>Indem ich diesen Brief schliesse
+   <lb/>erhalte ich die Schreckensnach
+   <lb break="no"/>richt von dem Tode von
+   <lb/><persName key="H0014108">Joseph Mendelssohn</persName>. Er ist sanft
+   <lb/>an einem Blutschlage
+   <lb/>heute früh um 7½ Uhr
+   <lb/>verschieden.[…]</p>]]></codeblock>
+            <!--<?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
+            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>-->
         </section>        
         <section audience="editor">
             <title>Bedienung</title>
             <p>In der ediarum-Autoransicht findet sich die Funktion „Horizontale Trennlinie“ im Menü
-                „ediarum > Textstruktur”. </p>
+                „ediarum > Textstruktur“. </p>
         </section>
         <section>
             <title>Kodierung</title>
             <p>Horizontale Trennlinien werden mit dem Element <xmlelement>milestone</xmlelement>
-                ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> wird dabei auf den Wert <codeph>#hr</codeph> gesetzt.</p>
+                ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> wird dabei auf den Wert
+                    <codeph>#hr</codeph> (horizontal rule) gesetzt.</p>
         <codeblock outputclass="language-xml"><![CDATA[<milestone unit="section" rendition="#hr"/>]]></codeblock></section>
     </body>
     <related-links>

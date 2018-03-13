@@ -5,7 +5,7 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Ort- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch „Kopfdaten“ genannt)
+            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Orts- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch „Kopfdaten“ genannt)
                 sind wichtige Metadaten<indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
                 der Textsorte Brief sind. In der digitalen Edition können sie ganz oder teilweise in
                 der „Kopfzeile“<indexterm>Kopfzeile</indexterm> („Titel“) des Briefes genannt werden. Vor allem müssen sie aber als

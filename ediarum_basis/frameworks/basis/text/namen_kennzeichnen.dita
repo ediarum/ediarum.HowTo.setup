@@ -5,11 +5,11 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>In der Vorlage oder im Kommentar explizit genannte Namen von Personen, Orten und
-    Institutionen sowie Werktitel und Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
-    verknüpft. Gesondert ausgezeichnet werden sog. Anaphern, d.h. verweisende Wörter, die aber kein
-    Eigenname, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er” oder Begriffe wie „die
-    Kinder”.</p>
+   <p>In der Vorlage oder im Kommentar <!--explizit -->genannte Namen von Personen, Orten und Institutionen
+    sowie Werktitel und Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
+    verknüpft.<?oxy_comment_start author="thomas" timestamp="20180313T114444+0100" comment="@SD: überarbeiten oder rauslassen; &quot;Anapher&quot; ist hier u.E. nicht der richtige Begriff, außerdem sollten Nennungen wie &quot;er&quot;, &quot;sie&quot;, &quot;es&quot; usw. *nicht* ausgezeichnet werden, wohl aber &quot;der liebe Freund &quot; -- was aber keine Anapher ist! Bitte Rücksprache mit CT,UP"?><!-- Gesondert ausgezeichnet werden sog. Anaphern, d.h. verweisende Wörter, die aber kein
+    Eigenname, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er“ oder Begriffe wie „die
+    Kinder“.--><?oxy_comment_end?></p>
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
@@ -28,7 +28,7 @@
     ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die Ersterwähnung.
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zudem werden in der
     Chronologie derzeit noch keine Werktitel ausgezeichnet.<?oxy_custom_end?></p>
-   <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („in der Umgebung des Königs [FW III]“)
+   <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („Seine Majestät“, „der Director“)
     werden ausgezeichnet. Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name
     ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der
     Umfang der Auszeichnung wird jedoch kontextabhängig nach Textrelevanz und/oder
@@ -38,7 +38,7 @@
     entschieden.<?oxy_comment_end?></p>
    <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder Deiktika („dieser“, „jener“,
     „hier“, „dort“) werden <i>nicht</i> ausgezeichnet, aber Nomen und Nominalgruppen, die sich
-    anaphorisch oder indirekt auf Eigennamen beziehen. </p>
+    <!--anaphorisch oder -->indirekt auf Eigennamen beziehen. </p>
    <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im editorischen
     Sachkommentar sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
      id="ul_fgh_f2p_mbb">
@@ -47,8 +47,8 @@
      <li>Ortsname als Teil der Datumszeile im Briefschluss oder -anfang </li>
     </ul></p>
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
-    Textbefund findet nicht statt, da geläufige sowie historisch valide Schreibweisen der Namen in
-    den verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
+    Textbefund findet nicht statt, da geläufige sowie historische Schreibweisen der Namen in den
+    verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
      Einrichtungsnamen</b> hingegen werden immer explizit aufgelöst (siehe <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>). </p>
    <p>Eine <b>gleichzeitige Auszeichnung mehrerer Personen</b> bei Textformulierungen, die mehrere
@@ -63,19 +63,10 @@
       id="image_onx_khj_wcb" scale="60"/>
     </fig>
    </p>
-   <p>Bei Bezug zu Orten, Personen und Institutionen <b>ohne Nennung der (bekannten) Namen</b>:</p>
-   <p>„Gemeintes“ bekannt für Autor, Briefpartner und Bearbeiter aus:</p>
-   <p>
-    <ul id="ul_qpy_12b_4cb">
-     <li>thematischer Kontext</li>
-     <li>historischer Kontext</li>
-     <li>gemeinsame Wissensgrundlage der Briefpartner</li>
-     <li>Wissensgrundlage des Autoren</li>
-     <li>Kontext des Briefes/ Textes selber (vorher genannt)</li>
-    </ul>
-   </p>
-   <p>aber nicht notwendigerweise für Dritte. </p>
-   <table id="table_ljt_gv1_4cb">
+   <p><b>Orte, Personen und Institutionen</b> werden auch dann ausgezeichnet, wenn sie nicht
+    explizit genannt werden, ihre Erwähnung (oder der Verweis auf sie) sich aber aus dem
+    thematischen Kontext des Briefes oder des Dokumentes erschließen lässt.</p>
+   <!--<table id="table_ljt_gv1_4cb">
     <title>Orte</title>
     <tgroup cols="2">
      <colspec colname="c1" colnum="1" colwidth="1.0*"/>
@@ -105,7 +96,6 @@
      </tbody>
     </tgroup>
    </table>
-  </section>
   <table id="table_fhd_jw1_4cb">
    <title>Personen</title>
    <tgroup cols="2">
@@ -206,7 +196,8 @@
      </row>     
     </tbody>
    </tgroup>
-  </table>
+  </table>-->
+ </section>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Zur Kennzeichnung von Eigennamen steht die Funktion „Namen kennzeichnen“ mit dem Symbol <image
@@ -217,8 +208,9 @@
     verbunden. </p>
    <p><b>Wichtig</b>: Um einen Namen korrekt zu kennzeichnen, muss sichergestellt sein, dass der
     jeweilige Registereintrag eindeutig ist, es also keine Dubletten zur selben Person/Ort/etc. an
-    anderen Stellen des Registers gibt. Die Kennzeichnung eines Namens sollte also immer verbunden
-    werden mit einer kurzen redaktionellen Überprüfung des jeweiligen Registereintrags.</p>
+    anderen Stellen des Registers gibt. Die Kennzeichnung eines Namens sollte also immer 
+    mit einer kurzen redaktionellen Überprüfung des jeweiligen Registereintrags verbunden
+    werden.</p>
   </section>
   <section>
    <title>Kodierung</title>

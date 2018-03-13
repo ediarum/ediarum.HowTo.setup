@@ -23,10 +23,10 @@
     Inkonsistenzen. Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
    <fig id="fig_gxy_vf3_1db">
     <desc>Humboldt an Kunth, 5.12.1846</desc>
-    <?oxy_comment_start author="lkirsten" timestamp="20180306T123513+0100" comment="möglicherweise Kodierbeispiel ergänzen (Beispiel in &quot;Kodierung&quot; dürfte aber reichen)"?>
+    <?oxy_comment_start author="lkirsten" timestamp="20180306T123513+0100" comment="möglicherweise Kodierbeispiel ergänzen (Beispiel in &quot;Kodierung&quot; dürfte aber reichen)" id="f5l_x2s_ddb"?>
+    <?oxy_comment_start author="thomas" timestamp="20180313T170907+0100" comment="Ja, reicht zunächst." parentID="f5l_x2s_ddb" mid="1"?>
     <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" align="center"
-     id="image_hxy_vf3_1db"/>
-    <?oxy_comment_end?>
+     id="image_hxy_vf3_1db"/><?oxy_comment_end?><?oxy_comment_end mid="1"?>
    </fig>
    <fig id="fig_wwg_zf3_1db">
     <desc>Humboldt an Kunth, 5.12.1846 - Webansicht (Kritischer Text)</desc>
@@ -59,9 +59,10 @@
     Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
      normalisiert</b> (auf Ebene des Lesetextes) werden üblicherweise Groß- und Kleinschreibung, die
     Korrektur von Satzzeichen, die Ergänzung von Apostrophen usw. Explizite Normalisierungen werden
-    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen. Ausgenommen von der
+    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen. (Siehe <xref
+     href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>) Ausgenommen von der
     Normalisierung sind häufige <b>Schreibgewohnheiten Humboldts</b>, die als Stilelemente bewahrt
-    werden. (Siehe <xref href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>)</p>   
+    werden.</p>   
    <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der Unterscheidung zwischen
     Schreibgewohnheit, expliziter und stillschweigender Normalisierung durch den Herausgeber. Diese
     Grenzfälle werden anhand repräsentativer Beispiele im Abschnitt <xref
@@ -72,7 +73,7 @@
    <p>Um Fehler des Autors in ediarum zu korrigieren, transkribieren Sie zuerst das fehlerhafte Wort
     (bzw. die Wörter) getreu der Vorlage. Danach markieren Sie dieses Wort (bzw. die Wörter) und
     wählen in der Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
-     id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber” aus. Im dann
+     id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber“ aus. Im dann
     erscheinenden Dialogmenü werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur, die
     Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
     bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben können.</p>

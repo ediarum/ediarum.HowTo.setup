@@ -8,7 +8,7 @@
   <p>Anmerkungen des Autors oder eines zeitgenössischen Bearbeiters werden nicht nach ihrer
     Platzierung auf dem Manuskript eingefügt, sondern an der Textstelle, auf die sich die Anmerkung
     tatsächlich (oder vom Editor begründet angenommen) bezieht. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
-    wird ein generalisiertes Einweisungszeichen (<xmlelement>metamark</xmlelement>) gesetzt, um kenntlich zu machen, dass die Einweisung
+    wird ein generalisiertes Einweisungszeichen (d. i. das leere Element <xmlelement>metamark/</xmlelement>) gesetzt, um kenntlich zu machen, dass die Einweisung
     in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
    <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
     fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich
@@ -23,47 +23,46 @@
 </fig>
    <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
-    Einweisungszeichen werden ausgezeichnet und mit einem einzigen einheitlichen Symbol in der
-    Webansicht gekennzeichnet.</p><fig>
-<desc>ART I, 19r - Fortsetzung einer Anmerkung beginnend auf 18v</desc>
+    Einweisungszeichen werden, unabhängig von ihrer Erscheinungsform mit dem leere Element 
+    <xmlelement>metamark/</xmlelement> gekennzeichnet.</p><fig>
+<desc>ART I, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
+     <image placement="break" href="../../img_avhr/abb11a.png" align="center"/>
 <image
      placement="break" href="../../img_avhr/abb11.png" scale="70" align="center"
      id="image_b3h_zys_2bb"/>
-</fig> 
-   <p>(Im Kodierbeispiel sind nur die Textphänomene Zeilenumbruch und Seitenwechsel
-    ausgezeichnet.)</p> 
-   <codeblock outputclass="language-xml"><![CDATA[<note place="left" hand="#author">
-   * u. wenn auch nicht im̅er oxygenreicher, so 
-   <lb/>enthält sie doch eine
-   <lb/>größere Menge freie<g ref="#typoHyphen"/>                        
-   <lb break="no"/>ren Sauerstofs, ein 
-   <lb/>Theil ist zersezba<g ref="#typoHyphen"/>
-   <lb break="no"/>rer, der Theil wel<g ref="#typoHyphen"/>
-   <lb break="no"/>cher bald zu 
-   <lb/>Wasser zusamen<g ref="#typoHyphen"/>
-   <lb break="no"/>gerinnt, bald 
-   <lb/>daraus frei wird. Luft<g ref="#typoHyphen"/>
-   <lb break="no"/>reinheit besteht in physical. Hinsicht nicht 
-   <lb/><pb n="19r" />bloß in der abso<g ref="#typoHyphen"/>
-   <lb break="no"/>luten Menge des Sau<g ref="#typoHyphen"/>
-   <lb break="no"/>erstofs sondern in der
-   <lb/>Leichtigkeit mit der er 
-   <lb/>abzuscheiden ist. S. mn. Grubenwetter
-   <lb/>leider nicht wahr 1806!
- </note>]]></codeblock>
+    </fig>
+   <p>Kodierbeispiel (XML-Kodierung im Beispiel vereinfacht)</p> 
+   <codeblock outputclass="language-xml"><![CDATA[<metamark/>
+  <note place="left" hand="#author">
+    <lb/>u. wenn auch nicht im̅er oxygenreicher, so
+    <lb/>enthält sie doch eine
+    <lb/>größere Menge freie<g ref="#typoHyphen"/>
+    <lb break="no"/>ren Sauerstofs, ein
+    <lb/>Theil ist zersezba<g ref="#typoHyphen"/>
+    <lb break="no"/>rer, der Theil wel<g ref="#typoHyphen"/>
+    <lb break="no"/>cher <del rendition="#s">z</del> bald zu
+    <lb/>Wasser zusamen<g ref="#typoHyphen"/>
+    <lb break="no"/>gerinnt, bald
+    <lb/>daraus frei wird. Luft<g ref="#typoHyphen"/>
+    <lb break="no"/>reinheit besteht in physical. Hinsicht nicht
+    <pb n="19r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000043"/>
+    <lb/>bloß in der abso<g ref="#typoHyphen"/>
+    <lb break="no"/>luten Menge des Sau<g ref="#typoHyphen"/>
+    <lb break="no"/>erstofs sondern in der
+    <lb/>Leichtigkeit mit der er
+    <lb/>abzuscheiden ist. S. mn. Grubenwetter.
+    <lb/>leider nicht wahr 1806!
+  </note>]]></codeblock>
    <fig>
     <desc>ART I, 18v/19r</desc>
-    <?oxy_comment_start author="lkirsten" timestamp="20180306T094854+0100" comment="metamark wurde hier manuell gesetzt, am besten im Korpus korrigieren
-"?>
     <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" align="center"
      id="image_wc4_fyj_wcb" scale="80"/>
-    <?oxy_comment_end?>
    </fig>
   
    <p audience="editor"><b>Achtung:</b> Anmerkungen werden dort gesetzt, wo sie im Text
     (offensichtlich oder editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig
-    bestimmen lässt, können sie nach Augenmaß zwischen zwei möglichst nahe liegenden Sätzen
-    eingefügt werden.</p>        
+    bestimmen lässt, sollten sie zwischen zwei thematisch möglichst nahe liegenden Sätzen eingefügt
+    werden.</p>        
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -80,9 +79,9 @@
   <section>
    <title>Kodierung</title>
    <p>Anmerkungen im Manuskript werden in einem <xmlelement>note</xmlelement>-Element kodiert:</p>
-   <codeblock outputclass="language-xml">An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
+   <codeblock outputclass="language-xml"><?oxy_comment_start author="thomas" timestamp="20180313T182659+0100" comment="hier noch ein (besser kodiertes) AvH-Beispiel finden!"?>An die kleine Frau, die Dir gewiß gefallen wird, gebe ich Dir noch
     eigene Briefe mit.<![CDATA[<note place="left" hand="author">]]>Ich konnte sie nicht mehr mit der
-    Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut</codeblock>
+    Post schicken.<![CDATA[</note>]]> Niemeyer hat sich in der ganzen Sache sehr gut<?oxy_comment_end?></codeblock>
    <p>Der Verfasser der Anmerkung wird im Attribut <xmlatt>hand</xmlatt> notiert. Hier sind folgende
     Werte möglich:</p><simpletable frame="all" relcolwidth="1.0* 4.0*" id="simpletable_uzp_ktv_jbb">
      <sthead>
@@ -137,12 +136,12 @@
        <stentry>innerhalb der Zeile</stentry>
       </strow>
    </simpletable>
-   <p>Optional kann ein Einweisungszeichen des Autors durch Setzen von
-     <xmlelement>metamark</xmlelement> kodiert werden. Dabei wird nicht die Form des
-    Einweisungszeichen erfasst (Stern, Nummer etc.).</p></section>
-  <section>
+   <p>Sofern in der Vorlage ein Einweisungszeichen des Autors vorhanden ist, wird dieses durch das
+    generalisierte <xmlelement>metamark/</xmlelement> kodiert. Die Erscheinungsform des
+    Einweisungszeichen (Stern, Nummer etc.) wird dabei nicht erfasst.</p></section>
+  <!--<section>
    <title>Anzeige</title>
    <p>Anmerkungen werden im Tagebuch aufklappbar im Haupttext dargestellt.</p>
-  </section>
+  </section>-->
  </body>
 </topic>

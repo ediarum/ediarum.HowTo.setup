@@ -22,9 +22,28 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p><?oxy_comment_start author="lkirsten" timestamp="20180306T122625+0100" comment="Beispiel ergänzen
-"?>Als
+" flag="done"?>Als
     Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
-    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet<?oxy_comment_end?>. </p>
+    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet<?oxy_comment_end?>:</p>
+   <fig>
+    <desc>Humboldt an Kunth, Potsdam, 9.12.1849, Bl. 1r/1v</desc>
+    <codeblock outputclass="language-xml"><![CDATA[    <p>Auszug aus einem Schreiben
+       <lb/><persName key="H0011993">Sir William Hooker’s</persName> […]</p>
+     <p><foreign xml:lang="eng">In the matter of <persName key="H0011641">M<hi rendition="#u"><hi rendition="#sup">r.</hi></hi> Hannemann</persName>,
+       <lb/>your Excellency will see at once that Humboldt’s testi<g ref="#typoHyphen"/>
+       <lb break="no"/>mony is a host in itself
+       <lb/>and therefore I shall „stretch
+       <lb/>a point“ to make an opening
+       <lb/>for him in the spring […].</foreign></p>
+     <p>Wenn auch <persName key="H0011993">Hooker</persName> erst <lb/>[…]</p>]]></codeblock>
+   </fig>
+   <fig>
+    <desc>Isle de Cube, Bl. 129r</desc>
+   <codeblock outputclass="language-xml"><![CDATA[Elle est très charactérisée <lb/>par le 
+    <foreign xml:lang="deu">ebene Bruch ins flachmuschlige übergehend, röthlichweiß, dünn
+      <lb break="no"/>schiefrig</foreign> identique a celle de <placeName key="H0008088">Pappenheim</placeName> surtout à las <placeName key="H0011486">Lomas de
+    <lb/>Camoa</placeName>]]></codeblock>
+   </fig>
    <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
      id="ul_cfk_qq4_mbb">
      <li>auf Wortebene und bei Eigennamen <fig id="fig_ht1_3s4_mbb">
@@ -96,7 +115,7 @@
      </tgroup>
     </table>
    </p>
-   <codeblock outputclass="language-xml"><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]></codeblock>
+   <codeblock outputclass="language-xml"><?oxy_comment_start author="thomas" timestamp="20180313T153724+0100" comment="Problem: Widerspricht der o.g. Regel &quot;Ignoriert und nicht ausgezeichnet wird der Sprachwechsel in folgenden Fällen: auf Wortebene&quot;!!!"?><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]><?oxy_comment_end?></codeblock>
    <p>Darüber hinaus kann das Attribut <xmlatt>xml:lang</xmlatt> sowohl auf Ebene der üblichen Textstrukturen (z.B.
     Absätze) gesetzt werden als auch für gesamte Dokumente (dann im Wurzelelement TEI).</p>
   </section>

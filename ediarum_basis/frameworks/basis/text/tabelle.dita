@@ -48,8 +48,8 @@
     <cell>température <lb/>de l’atmosphère.</cell>
   </row>
   <row>
-    <cell>43°. 29’</cell>
-    <cell>10°. 31’11</cell>
+    <cell>43°. 29′</cell>
+    <cell>10°. 31′11</cell>
     <cell>12°.</cell>
     <cell>18°.</cell>
   </row>
@@ -103,9 +103,9 @@
 <p>le 9 Févr. observé Culminat de Canopus</p>
 <table cols="3" rows="4">
   <row>
-    <cell>12<hi rendition="#sup">h</hi>14’ 0”</cell>
+    <cell>12<hi rendition="#sup">h</hi>14′ 0″</cell>
     <cell> &#8212; </cell>
-    <cell>54°17’20”</cell>
+    <cell>54°17′20″</cell>
   </row>
   <row>
     <cell>15 48</cell>
@@ -126,9 +126,9 @@
 <p>Culm. de Canopus le 10. Febr.</p>]]></codeblock>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<table cols="3" rows="4">
   <row>
-    <cell>12<hi rendition="#sup">h</hi> 8’12”</cell>
+    <cell>12<hi rendition="#sup">h</hi> 8′12″</cell>
     <cell> &#8212; </cell>
-    <cell>54°18’10”</cell>
+    <cell>54°18″10″</cell>
   </row>
   <row>
     <cell>9 51</cell>
@@ -146,7 +146,7 @@
     <cell>17 30</cell>
   </row>
 </table>
-<p>donne lat. 10°17‘23“.</p>]]></codeblock>-->
+<p>donne lat. 10°17′23″.</p>]]></codeblock>-->
       <p>In der Webansicht werden implizite Tabellen im Kritischen Text und im Lesetext mit
         gestrichelter Umrandung dargestellt.</p>
       <!--<?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage

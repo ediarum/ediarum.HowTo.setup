@@ -58,7 +58,7 @@
     </section>
     <section audience="editor">
       <title>Bedienung</title>
-      <p>Über die Funktion „Liste einfügen” im Menü mit dem Symbol <image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> in der Werkzeugleiste können Sie
+      <p>Über die Funktion „Liste einfügen“ im Menü mit dem Symbol <image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> in der Werkzeugleiste können Sie
         Listen einfügen. Über dasselbe Menü steht auch die Funktion zur Verfügung, um weitere
         Listenpunkte einzufügen. Die Listenpunkte werden dabei stets nach dem Listenpunkt eingefügt,
         in dem sich aktuell der Cursor befindet.</p>

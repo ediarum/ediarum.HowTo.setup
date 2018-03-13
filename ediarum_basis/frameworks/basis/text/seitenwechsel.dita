@@ -60,7 +60,7 @@
         </ul>
       </p>
       <ul id="ul_ggw_3wq_wcb">
-        <li>Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung” zusätzlich
+        <li>Humboldts Paginierung wird als „Weitere Seiten- und Blattzählung“ zusätzlich
           wiedergegeben.</li>
       </ul>
       <p audience="editor">
@@ -83,7 +83,7 @@
    <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
         die Foliozahl vermerkt worden, wird sie in Klammern dahinter angezeigt. Außerdem kann noch
         auf das Digitalisat verlinkt werden, sofern ein Link über die Funktion „Foliowechsel mit
-        Link” notiert wurde.</p>
+        Link“ notiert wurde.</p>
   </section>
   <section id="section_qf4_sl2_bbb">
    <title>Kodierung</title>
@@ -102,7 +102,7 @@
   </section>
   <section id="section_mpg_5l2_bbb">
    <title>Anzeige</title>
-   <p>In der digitalen Edition wird der Seitenwechsel im Text mit einem senkrechten Strich „|”
+   <p>In der digitalen Edition wird der Seitenwechsel im Text mit einem senkrechten Strich „|“
     wiedergegeben. Auf der Höhe dieser Markierung wird ausgerückt am Rand des Textblocks die
     Folioangabe angezeigt.</p>
   </section>

@@ -19,7 +19,7 @@
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
         dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
-        <desc>Humboldt an Meyen, 1837</desc>
+          <desc>Humboldt an Meyen, [Berlin], Mittwoch [1837]</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" align="center"
           id="image_b4f_sfj_ycb" scale="80"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[[…] Aufsaz über 
@@ -50,10 +50,10 @@
     <abbr>Emers.<;/abbr>
     <expan>Émersion</expan>
 </choice>]]><?oxy_comment_end?></codeblock>
-      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u” und
-        ausgeschriebenem „und” dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
+      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
+        ausgeschriebenem „und“ dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
         Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>Der
-        Unterschied zwischen der <b>Abkürzung „u” und ausgeschriebenem „und”</b> kann im Schriftbild
+        Unterschied zwischen der <b>Abkürzung „u“ und ausgeschriebenem „und“</b> kann im Schriftbild
         der Vorlage bisweilen nicht eindeutig feststellbar sein. Falls im Schriftbefund eine
         d-Oberlänge erkennbar ist, wird der Buchstabe als ausgeschriebenes „und“ gewertet – es
         handelt sich nicht um eine Abkürzung.</p><p>
@@ -69,13 +69,13 @@
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig>
-      </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>.
-        Diese Kürzel werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort
-        ausgeschrieben, das sie symbolisieren. Davon abweichende, in der Edition als Sonderkürzel
-        definierte Kürzel werden hingegen transkribiert sowie ausgezeichnet und aufgelöst. </p><p>In
-        der Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der
-        Transkription folglich die Richtlinien (häufige Beispiele sind zudem in der
-        darunterstehenden Tabelle dokumentiert):</p><ul id="ul_ty3_zph_1db">
+      </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>. Diese Kürzel
+        werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort ausgeschrieben,
+        das sie symbolisieren. Davon abweichende, in der Edition als Sonderkürzel definierte Kürzel
+        werden hingegen transkribiert sowie ausgezeichnet und aufgelöst. </p><p>In der
+        Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der Transkription
+        folglich die Richtlinien (häufige Beispiele sind zudem in der darunterstehenden Tabelle
+        dokumentiert):</p><ul id="ul_ty3_zph_1db">
         <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
       </ul><table id="table_pzj_4pg_hbb">
         <title>Häufige Beispiele für Abkürzungen</title>
@@ -278,9 +278,10 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„r.“ – RST I, 4v</desc>
-                  <image href="../../img_avhr/abb26-aus.png" id="image_ryn_5qg_hbb"
-                    placement="break" align="center"/>
+                  <desc>Reichstalerkürzel, Humboldt an Kunth, Potsdam, Sonntag, [8.7.1845],
+                    1r</desc>
+                  <image href="../../img_avhr/Reichstaler-Symbol_H0006049.png"
+                    id="image_ryn_5qg_hbb" placement="break" align="center"/>
                 </fig>
               </entry>
               <entry>r.</entry>

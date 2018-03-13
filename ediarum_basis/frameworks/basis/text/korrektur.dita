@@ -32,16 +32,19 @@
 giebt,]]></codeblock>
    <p>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</p>
    <fig>
-    <desc>George Arnott Walker-Arnott an Humboldt 15.03.1825</desc>
+    <desc>George Arnott Walker-Arnott an Humboldt, Paris, 15.03.1825</desc>
     <image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
      id="image_t2h_lxx_rcb"/>
    </fig>
-   <codeblock outputclass="language-xml"><![CDATA[Believe me Sir yours Sincer
- <subst>
+   <codeblock outputclass="language-xml"><![CDATA[Believe me Sir your<del rendition="#s">s</del> Sincer<subst>
   <del rendition="#ow">ely</del>
   <add place="across">e</add>
  </subst>
- <lb/>& very Humble …]]></codeblock>
+ <lb/>& very Humble <choice><abbr>Serv.</abbr><expan>Servant</expan></choice>.]]></codeblock>
+   <fig>
+    <desc>Webansicht (Kritischer Text)</desc>
+    <image placement="break" href="../../img_avhr/korrektur-einzelne-zeichen.png" align="center"/>
+   </fig>
   </section>
   <section audience="editor"><title>Bedienung</title><p>Geben Sie zuerst das gestrichene (oder
     sonstwie getilgte) Wort ein. Markieren Sie es dann und drücken Sie die Schaltfläche mit dem

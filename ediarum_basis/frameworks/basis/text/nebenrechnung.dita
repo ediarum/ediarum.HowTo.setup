@@ -5,7 +5,7 @@
   <body>
     <section>
       <p>Humboldt hat am Rand des Textes der Reisetagebücher häufig Hilfsrechnungen vorgenommen. Bei
-        der Transkription dieser „Nebenrechnungen” wird vom Schriftbild der Vorlage abgewichen. Im
+        der Transkription dieser „Nebenrechnungen“ wird vom Schriftbild der Vorlage abgewichen. Im
         Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
       <fig>
         <desc>Cuba-Manuskript, 128r</desc>
@@ -30,7 +30,7 @@
     <section>
       <title>Kodierung</title>
       <p>Nebenrechnungen werden in einem Element <xmlelement>note</xmlelement> erfasst, dessen
-        Attribut <xmlatt>type</xmlatt> auf den Wert „auxCalc” gesetzt ist. Anstelle der Abbildung
+        Attribut <xmlatt>type</xmlatt> auf den Wert <codeph>auxCalc</codeph> gesetzt ist. Anstelle der Abbildung
         des Schriftbildes werden die Rechenoperatoren als typographische Zeichen eingefügt, jeweils
         umgeben von einem Element <xmlelement>supplied</xmlelement>, dass die Ergänzung durch den
         Herausgeber kenntlich macht.</p>

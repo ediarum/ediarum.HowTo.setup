@@ -42,7 +42,7 @@
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1827-07-01" notAfter="1827-07-31" cert="high"/>]]></codeblock>
             <p>
                 <ul id="ul_jlp_pst_xcb">
-                    <li>„Anfang 1830” – das erste Jahresviertel wird angegeben</li>
+                    <li>„Anfang 1830“ – das erste Jahresviertel wird angegeben</li>
                 </ul>
             </p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1830-01-01" notAfter="1830-03-31" cert="high"/>]]></codeblock>
