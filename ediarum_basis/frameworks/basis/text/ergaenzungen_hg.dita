@@ -41,16 +41,16 @@
         <desc>Humboldt an Meyen, 1837 - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" align="center"
           id="image_ojs_bhj_ycb"/>
-      </fig><p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
+      </fig><!--<p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
         Manuskripten - Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
-          <b>Ergänzung und gleichzeitiger Normalisierung der Diakritika</b> wird jedoch nur die
+          <b>Ergänzung und gleichzeitiger Normalisierung von Diakritika</b> wird jedoch nur die
         Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend:</p><p>
         <codeblock outputclass="language-xml"><?oxy_comment_start author="lkirsten" timestamp="20180301T140759+0100" comment="Beispiel mit Faksimilie und Screenshot ergänzen um Kontrast zum obigen Beispiel zu verdeutlichen; dieses Beispiel stammt scheinbar weder aus Kunth-Briefw. noch Cuba-M.
 "?><![CDATA[<choice>
-    <abbr>Emers.<;/abbr>
+    <abbr>Emers.</abbr>
     <expan>Émersion</expan>
 </choice>]]><?oxy_comment_end?></codeblock>
-      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
+      </p>--><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
         ausgeschriebenem „und“ dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
         Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>Der
         Unterschied zwischen der <b>Abkürzung „u“ und ausgeschriebenem „und“</b> kann im Schriftbild
@@ -58,14 +58,12 @@
         d-Oberlänge erkennbar ist, wird der Buchstabe als ausgeschriebenes „und“ gewertet – es
         handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
-          <title> „und“ mit d-Oberlänge</title>
-          <desc>„…Rose und…“ – Humboldt an Meyen, 11.03.1829</desc>
+          <desc> „und“ mit d-Oberlänge: „…Rose und…“ – Humboldt an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
             id="image_oxf_hz1_fbb"/>
         </fig>
         <fig id="fig_jgl_wx1_fbb">
-          <title>Abkürzung „u“</title>
-          <desc>„…ein thätiger u…“ – Humboldt an Meyen, 11.03.1829</desc>
+          <desc>Abkürzung „u“: „…ein thätiger u…“ – Humboldt an Meyen, 11.03.1829</desc>
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
             id="image_kgl_wx1_fbb"/>
         </fig>
@@ -77,7 +75,7 @@
         folglich die Richtlinien (häufige Beispiele sind zudem in der darunterstehenden Tabelle
         dokumentiert):</p><ul id="ul_ty3_zph_1db">
         <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
-      </ul><table id="table_pzj_4pg_hbb">
+      </ul><!--<table id="table_pzj_4pg_hbb">
         <title>Häufige Beispiele für Abkürzungen</title>
         <tgroup cols="3">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
@@ -160,7 +158,7 @@
             </row>
           </tbody>
         </tgroup>
-      </table><ul id="ul_sbs_44g_hbb">
+      </table>--><ul id="ul_sbs_44g_hbb">
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
         <title>Häufige Beispiele für Kürzel</title>

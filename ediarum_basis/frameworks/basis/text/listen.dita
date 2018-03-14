@@ -10,17 +10,38 @@
     </section>
     <section product="avhr">
       <title>edition humboldt digital</title>
-      <?oxy_comment_start author="lkirsten" timestamp="20180306T124628+0100" comment="Kodierbeispiele und Screenshots ergänzen"?>
-      <p><?oxy_comment_end?>Auf Grundlage des semantischen Gehalts sowie des Schriftbildes der
-        Vorlage wird festgelegt, ob eine Textstelle als <b>Liste oder implizite Tabelle</b> erfasst
-        wird.</p>
+      <?oxy_comment_start author="lkirsten" timestamp="20180306T124628+0100" comment="Kodierbeispiele und Screenshots ergänzen" id="ftk_sxz_ddb"?>
+      <?oxy_comment_start author="thomas" timestamp="20180314T183830+0100" comment="-- sobald die ediarum-Funktion zur Kodierung mit &lt;head&gt; zur Verfügung steht; vgl https://redmine.bbaw.de/issues/9728!" parentID="ftk_sxz_ddb" mid="1"?>
+      <p><?oxy_comment_end?><?oxy_comment_end mid="1"?>Auf Grundlage des semantischen Gehalts sowie
+        des Schriftbildes der Vorlage wird festgelegt, ob eine Textstelle als <b>Liste oder
+          (implizite) Tabelle</b> (siehe <xref href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>)
+        erfasst wird.</p>
       <p>Eine Liste, deren Zeilen keine oder kaum Aufteilung ihrer Inhalte enthalten, wird als Liste
-        ausgezeichnet:</p>
-      <fig>
-        <desc>Dokument (TS1)„ – Énumération des Plantes de la Province de Quito“, 3a-r</desc>
+          (<xmlelement>list</xmlelement>) ausgezeichnet, die in sich die einzelnen Einträge
+          (<xmlelement>item</xmlelement>) und ggf. auch einen Title (<xmlelement>head</xmlelement>)
+        enthält:</p>
+      <codeblock outputclass="language-xml"><![CDATA[<list>
+  <item>Le Rio Apure près de S. Fernando 206 t.</item>
+  <item>Orinoco à la bocca Apure 1905 t.<lb/>mais quand le Capucin 
+    est islado = 10750 mètres.</item>
+  <item>Orinoco près du Baraguan 889 t.</item>
+  <item>Orinoco près de urbano 2674 t. <lb/>jusqu’au delà de l’Isle de 
+    Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
+</list>]]></codeblock>
+      <!--<fig>
+        <desc>Dokument (TS1) „F – Énumération des Plantes de la Province de Quito“, 3a-r</desc>
         <image placement="break" href="../../img_avhr/liste.jpg" align="center"
           id="image_bqj_b3n_jbb" scale="70"/>
       </fig>
+      <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
+  <item>Le Rio Apure près de S. Fernando 206 t.</item>
+  <item>Le Rio Negro près de S. Carlos 292 t.</item>
+  <item>Orinoco à la bocca Apure 1905 t. <lb/>mais quand le Capucin 
+  est islado = 10750 mètres.</item>
+  <item>Orinoco près du Baraguan 889 t.</item>
+  <item>Orinoco près de urbano 2674 t. <lb/>jusqu’au delà de l’Isle de 
+  Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
+</list>]]></codeblock>
       <p>Das folgende Beispiel zeigt einen Grenzfall. Es handelt sich um eine Auflistung
         verschiedener Flussbreiten des Río Apure, Río Negro sowie des Orinoco. Humboldts
         Aufzeichnung ist jedoch so gering strukturiert, dass eine Auszeichnung als Tabelle
@@ -42,8 +63,8 @@
 </list>]]></codeblock>
       <p>Beinhalten Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden können und
         sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
-          <xmlelement>table/</xmlelement> ausgezeichnet. (siehe <xref
-          href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>) Die Auflistung von ortsspezifischen
+          <xmlelement>table/</xmlelement> ausgezeichnet (siehe <xref
+          href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>). Die Auflistung von ortsspezifischen
         Messwerten beispielsweise entspricht semantisch mehr einer strukturierten Tabelle als der
         einer auf Zeilenebene gering strukturierten Auflistung (wie oben). Bei der Entscheidung
         zwischen <xmlelement>list/</xmlelement> und <xmlelement>table/</xmlelement> hat also die
@@ -54,7 +75,7 @@
         <desc>ART III, 17v;</desc>
         <image placement="break" href="../../img_avhr/abb7.png" scale="60" align="center"
           id="image_tbk_rm3_dbb"/>
-      </fig>
+      </fig>-->
     </section>
     <section audience="editor">
       <title>Bedienung</title>
@@ -71,11 +92,11 @@
       innerhalb des Elements <xmlelement>item</xmlelement> einfach transkribiert.</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
   <item>Le Rio Apure près de S. Fernando 206 t.</item>
-  <item>Orinoco à la bocca Apure 1905 t. <lb/>mais quand le Capucin 
-  est islado = 10750 mètres.</item>
+  <item>Orinoco à la bocca Apure 1905 t.<lb/>mais quand le Capucin 
+    est islado = 10750 mètres.</item>
   <item>Orinoco près du Baraguan 889 t.</item>
   <item>Orinoco près de urbano 2674 t. <lb/>jusqu’au delà de l’Isle de 
-  Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
+    Urba<g ref="#typoHyphen"/><lb break="no"/>na et de I. vieja de Montica.</item>
 </list>]]></codeblock>
     </section>
   </body>

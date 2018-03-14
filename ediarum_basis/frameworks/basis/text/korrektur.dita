@@ -16,9 +16,7 @@
   </section>
   <section>
    <title>edition humboldt digital</title>
-   <?oxy_comment_start author="lkirsten" timestamp="20180306T123953+0100" comment="Einführungstext und Screenshots unter Kodierbeispielen ergänzen
-"?>
-   <p><?oxy_comment_end?>Durchstreichung und Ersetzung ganzer Wörter:</p>
+   <p>Durchstreichung und Ersetzung ganzer Wörter:</p>
    <fig>
     <desc>Humboldt an Meyen, nach 1834</desc>
     <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"

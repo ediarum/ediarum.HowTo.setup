@@ -6,18 +6,20 @@
     <section>
       <title>Allgemein</title>
       <p>Semantisch bedeutsamer Leerraum in der Vorlage, beispielsweise Lücken, die der Verfasser im
-        Text belassen hat, um den darin fehlenden Text ggf. später zu ergänzen, kann mit dem Element
-          <xmlelement>space</xmlelement> ausgezeichnet werden. Die Wiedergabe solcher Leerräume in
-        der Transkription ist zu unterscheiden von <xref href="auslassungen.dita#topic_iyg_1bh_qbb"
-          >Auslassungen durch den Herausgeber</xref> sowie <xref
-          href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> bzw. <xref
+        Text belassen hat, um den darin fehlenden Text ggf. später zu ergänzen, kann mit dem leeren
+        Element <xmlelement>space/</xmlelement> ausgezeichnet werden. Die Wiedergabe solcher
+        Leerräume in der Transkription ist zu unterscheiden von <xref
+          href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref> sowie
+          <xref href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> bzw. <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>, die jeweils mit
-          <xmlelement>gap</xmlelement> ausgezeichnet werden.</p>
+          <xmlelement>gap/</xmlelement> ausgezeichnet werden.</p>
     </section>
     <section>
       <title>edition humboldt digital</title>
-      <?oxy_comment_start author="lkirsten" timestamp="20180306T124226+0100" comment="Einleitung ergänzen; Screenshots ergänzen sobald angepasst"?>
-      <p><?oxy_comment_end?>Beispiel: Leerraum gelassen, da Name nicht bekannt:</p>
+      <p>Im folgenden Beispiel wurde vom Verfasser des Dokuments eine Lücke im Text belassen,
+        offenbar um den zweiten Personennamen nach „Reichenbach und“ zu einem späteren Zeitpunkt zu
+        ergänzen. Diese Lücke wird als semantisch bedeutsamer Leerraum entsprechend mit
+          <xmlelement>space/</xmlelement> kodiert:</p>
       <fig>
         <desc>Ansichten der Natur, 3r</desc>
         <image placement="break" href="../../img_avhr/leerraum.png" align="center"
@@ -28,9 +30,10 @@
 <lb/>und <space dim="horizontal" unit="words" quantity="1"/> offenbar zu viel, andere 
 <lb/>zu wenig Arten. Aber auf die Familien […] ]]></codeblock>
       </p>
+      <!-- Screenshots der Ansichten 'Kritischer Text' und 'Lesetext' ergänzen, sobald @SD das umgesetzt hat, vgl. https://redmine.bbaw.de/issues/9312#note-10 -->
     </section>
     <section audience="editor">
-      <title>Bedienung</title>
+      <title><?oxy_comment_start author="thomas" timestamp="20180314T132940+0100" comment="@SD(?): Abschnitt muss noch ergänzt werden!"?>Bedienung<?oxy_comment_end?></title>
     </section>
     <section>
       <title>Kodierung</title>

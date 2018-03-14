@@ -54,10 +54,11 @@
     <section>
       <title>Kodierung</title> 
       <p>Der Beginn einer als „erledigt“ gekennzeichneten Textstelle wird durch ein
-          <xmlelement>metamark</xmlelement>-Element markiert. In dem Attribut
-          <xmlatt>function</xmlatt> gibt der Wert <codeph>used</codeph> in diesem Fall die
-        Eigenschaft „erledigt“ an. Das Ende der Textpassage wird durch einen dazugehörigen
-          <xmlelement>anchor</xmlelement> ausgezeichnet. </p>
+          <xmlelement>metamark</xmlelement>-Element markiert.
+        <?oxy_comment_start author="thomas" timestamp="20180314T194036+0100" comment="Bezugnahme mit @span to, @xml:id noch erläutern?"?>In
+        dem Attribut <xmlatt>function</xmlatt> gibt der Wert <codeph>used</codeph> in diesem Fall
+        die Eigenschaft „erledigt“ an. Das Ende der Textpassage wird durch einen dazugehörigen
+          <xmlelement>anchor</xmlelement> ausgezeichnet<?oxy_comment_end?>.</p>
     </section>   
   </body>
 </topic>
