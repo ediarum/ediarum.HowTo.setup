@@ -63,12 +63,9 @@
     („Jean-Baptiste“), Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche
     müssen – besonders in Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
    <p>Wenn in der Textvorlage vorhanden, wird der <b>Geminationsstrich</b> (Überstrich um
-    Buchstabenverdopplung anzuzeigen) ausgezeichnet.
-    <?oxy_comment_start author="lkirsten" timestamp="20170922T115835+0200" comment="das ist aus den editionsrichtlinien. kann es sein dass cursor hinter buchstabe + symbolmenü richtig ist?
-" id="p1b_vwq_ddb" flag="done" mid="1"?><?oxy_comment_start author="thomas" timestamp="20180313T124927+0100" comment="Richtig! Gut beobachtet! Habe das geändert." parentID="p1b_vwq_ddb" flag="done"?>Dazu
-    wird in der ediarum-Autorenansicht der Cursor auf die Position nach dem entsprechenden
-    Buchstaben bewegt, der mit einem Geminationsstrich versehen werden soll, und im Symbolmenü der
-    Überstrich eingefügt.<?oxy_comment_end?><?oxy_comment_end mid="1"?></p>
+    Buchstabenverdopplung anzuzeigen) ausgezeichnet. Dazu wird in der ediarum-Autorenansicht der
+    Cursor auf die Position nach dem entsprechenden Buchstaben bewegt, der mit einem
+    Geminationsstrich versehen werden soll, und im Symbolmenü der Überstrich eingefügt.</p>
    <fig>
 <desc>Cuba, 128v</desc>
 <image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" align="center"

@@ -8,50 +8,67 @@
    <p>In der Vorlage enthaltene Unterstreichungen und Randanstreichungen werden mit einer
     entsprechenden Kodierung erfasst und wiedergegeben.</p>
   </section>
-  <section product="avhr"><title>edition humboldt digital</title><p>
-    <ul id="ul_v3f_2gg_jbb">
-     <li>Einfache und doppelte Unterstreichungen werden getreu nach Vorlage erfasst.</li>
-     <li>Wörter oder Zeichenfolgen, die im Manuskript nur teilweise unterstrichen sind, werden immer
-      in Gänze ausgezeichnet, da eine willentliche Unterstreichung einzelner Buchstaben in einem
-      Wort nicht plausibel erscheint.</li>
-    </ul>
-   </p><p>Im folgenden Beispiel wäre die Teilunterstreichung in der Transkription „G<u>rani</u>te“
-    eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung (Humboldt unterstreicht das Wort
-    Granite und nicht „rani“ in „Granite“). </p><fig>
-<desc>Cuba-Manuskript, 128r</desc>
-<image placement="break"
-    href="../../img_avhr/abb12.png" scale="80" align="center" id="image_xzm_pmj_dbb"/>
-</fig><p>Ausgezeichnet wird daher das gesamte
-    Wort:</p><codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock><fig>
-<desc>Cuba-Manuskript, 127r</desc>
-<image
-    placement="break" href="../../img_avhr/abb12-web.jpg" align="center" id="image_k54_jfg_hbb"
-    scale="80"/>
-</fig><ul id="ul_l1q_2tz_pcb">
-    <li>Anstreichungen am Rand werden erfasst. </li>
-    <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen sein. </li>
-    <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position wird
-     allerdings in der Auszeichnung nicht vermerkt und erscheint in der Webdarstellung stets am
-     linken Rand.</li>
-   </ul><fig>
-<desc>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</desc>
-<image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center"/>
-</fig><p>Die Auszeichnung umfasst alle vier Zeilen:</p><p>
-    <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
+  <section product="avhr">
+            <title>edition humboldt digital</title>
+            <p>
+                <ul id="ul_v3f_2gg_jbb">
+                    <li>Einfache und doppelte <b>Unterstreichungen</b> werden getreu nach Vorlage
+                        erfasst.</li>
+                    <li>Wörter oder Zeichenfolgen, die im Manuskript nur teilweise unterstrichen
+                        sind, werden immer in Gänze ausgezeichnet, da eine willentliche
+                        Unterstreichung einzelner Buchstaben in einem Wort nicht plausibel
+                        erscheint.</li>
+                </ul>
+            </p>
+            <p>Im folgenden Beispiel wäre die Teilunterstreichung in der Transkription
+                „G<u>rani</u>te“ eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung
+                (Humboldt unterstreicht das Wort „Granite“ und nicht „rani“ in „Granite“). </p>
+            <fig>
+                <desc>Cuba-Manuskript, 128r</desc>
+                <image placement="break" href="../../img_avhr/abb12.png" scale="80" align="center"
+                    id="image_xzm_pmj_dbb"/>
+            </fig>
+            <p>Ausgezeichnet wird daher das gesamte Wort:</p>
+            <codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock>
+            <fig>
+                <desc>Cuba-Manuskript, 127r</desc>
+                <image placement="break" href="../../img_avhr/abb12-web.jpg" align="center"
+                    id="image_k54_jfg_hbb" scale="80"/>
+            </fig>
+            <p><b>Anstreichungen am Rand</b> werden erfasst und als solche ausgezeichnet.</p>
+            <ul id="ul_l1q_2tz_pcb">
+                <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen
+                    sein. </li>
+                <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position
+                    wird allerdings in der Auszeichnung nicht vermerkt und erscheint in der
+                    Webdarstellung stets am linken Rand.</li>
+            </ul>
+            <fig>
+                <desc>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</desc>
+                <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center"/>
+            </fig>
+            <p>Die Auszeichnung umfasst alle vier Zeilen:</p>
+            <p>
+                <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
 fraises, petits poids, fêves, resains, patates… tout cela
 depuis peu aussi a Veracruz. Le Trigo ne donnant pas de graines à
 Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
-   </p>
-   <?oxy_comment_start author="lkirsten" timestamp="20180123T184954+0100" comment="hier ist der gesamte Absatz gezeigt, reicht kleinerer Auschnitt wie oben?"?><fig>
-<desc>Cuba-Manuskript, 144r - Anstreichung eines Absatzes am rechten Rand</desc>
-<image
-    href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center"/>
-</fig><?oxy_comment_end?>
-   <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle und andere
-    Textphänomene sind im Beispiel nicht ausgezeichnet):</p><codeblock outputclass="language-xml"><![CDATA[<p rendition="#mMM">Depuis 1702 -1775 on a importé a la Jamaique
+            </p>
+            <fig>
+                <desc>Cuba-Manuskript, 144r - Anstreichung eines Absatzes am rechten Rand</desc>
+                <image href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center"/>
+            </fig>
+            <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle
+                und andere Textphänomene sind im Beispiel nicht ausgezeichnet):</p>
+            <codeblock outputclass="language-xml"><![CDATA[<p><hi rendition="#mMM">Depuis 1702–1775 on a importé a la Jamaique
 497736 Negres
 137014 Negres exportés
-et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock></section>
+et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codeblock>
+      <fig>
+          <desc>Webansicht (Kritischer Text)</desc>
+          <image href="../../img_avhr/rand2-Webansicht.png" align="center"/>
+      </fig>
+        </section>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Bei Unterstreichungen und Anstreichungen am Rand sollte der jeweilige Text, bzw. Textstelle
@@ -86,13 +103,13 @@ et malgré tout cela il n’y existaient que 256000 esclaves</p>]]></codeblock><
        <entry><codeph>#uu</codeph></entry>
       </row>
       <row>
-       <entry>am Rand</entry>
+       <entry>Anstreichung am Rand</entry>
        <entry><codeph>#mMM</codeph></entry>
       </row>
      </tbody>
     </tgroup>
    </table>
-   <codeblock outputclass="language-xml">sondern ich hoffe,<![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
+   <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
    <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#mMM</codeph> (am Rand
                 angestrichen) kann in das Element <xmlelement>p</xmlelement> eingefügt werden, falls
                 ein ganzer Absatz am Rand angestrichen ist.</p>

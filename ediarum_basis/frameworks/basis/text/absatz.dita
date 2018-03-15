@@ -15,15 +15,11 @@
       <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
         werden in der Transkription anhand neuer Absätze abgebildet, dabei werden typografische
         Leerräume zu Zeilenanfang allerdings nicht erfasst. </p>
-      <?oxy_comment_start author="lkirsten" timestamp="20180306T114340+0100" comment="mehr Beispiele für Kriterien" id="mf4_dzq_ddb"?>
-      <?oxy_comment_start author="thomas" timestamp="20180313T130711+0100" comment="Habe versucht, das zu präzisieren" parentID="mf4_dzq_ddb" mid="1"?>
       <p>Es kommt vor, dass ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
         unterschieden werden kann von einem Zeilenende, dass zugleich einen Absatz abschließt. In
         diesen Fällen werden inhaltliche Kriterien herangezogen, um Zeilen- und Absatzwechsel
         voneinander zu unterscheiden, beispielsweise wenn das Zeilen- und Satzende mit dem Abschluss
-        eines geschlossenen Argumentationsstrangs
-        zusammenfallen.<?oxy_comment_end mid="1"?><?oxy_comment_end?>
-      </p>
+        eines geschlossenen Argumentationsstrangs zusammenfallen. </p>
       <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
       <fig>
         <desc>RST I, 7r</desc>

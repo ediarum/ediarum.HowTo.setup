@@ -25,16 +25,16 @@
       <title>Explizite Normalisierung</title>
       <p>Normalisierungen sind im Rahmen der Edition Korrekturen der Orthographie und Interpunktion,
         die die Schreibung der Vorlage der besseren Lesbarkeit halber an orthographische
-        Konventionen anpassen sollen ohne dabei jede Abweichung als Fehler zu markieren. Explizit
+        Konventionen anpassen sollen, ohne dabei jede Abweichung als Fehler zu markieren. Explizit
         normalisiert werden üblicherweise Groß- und Kleinschreibung, die Korrektur von Satzzeichen,
         die Ergänzung von Apostrophen, fälschlich getrennt geschriebene Wörter sowie
         Geminations-Überstriche bei Doppelkonsonanten.</p>
-      <p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen
+      <!--<p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen
         im Kritischen Text nicht markiert:</p>
       <?oxy_comment_start author="lkirsten" timestamp="20180306T130318+0100" comment="[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]"?>
       <p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur
-        vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>
-      <p>Ausgenommen von der expliziten Normalisierung sind <b>Häufige Schreibgewohnheiten
+        vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>-->
+      <p>Ausgenommen von der expliziten Normalisierung sind <b>häufige Schreibgewohnheiten
           Humboldts</b>, die als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu
         zählen u.a.:</p>
       <ul id="ul_yjy_fl5_2bb">

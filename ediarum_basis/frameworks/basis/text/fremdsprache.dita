@@ -13,18 +13,16 @@
      href="http://www.deutschestextarchiv.de" format="html" scope="external">Deutschen
      Textarchivs</xref>, als auch die Nachnutzung der edierten Texte in linguistischen Korpora
     erleichtert.</p>
-   <p>Zu unterscheiden ist die Auszeichnung fremdsprachigen Textes von der Auszeichnung eines
+   <!--<p>Zu unterscheiden ist die Auszeichnung fremdsprachigen Textes von der Auszeichnung eines
      <xref href="schriftwechsel.dita#schriftwechsel">Schriftwechsels</xref>, mit dem erstere
     häufiger einhergeht. Z.B. wurden deutschsprachige Briefe der ersten Hälfte des 19. Jahrhunderts
     häufig in deutscher Schrift verfasst. Verwendete der Schreiber ein Fremdwort, wurde dies in lateinischer
-    Schrift wiedergegeben.</p>
+    Schrift wiedergegeben.</p>-->
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
-   <p><?oxy_comment_start author="lkirsten" timestamp="20180306T122625+0100" comment="Beispiel ergänzen
-" flag="done"?>Als
-    Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
-    Wortfolgen werden in der jeweiligen Sprache ausgezeichnet<?oxy_comment_end?>:</p>
+   <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
+        Wortfolgen werden in der jeweiligen Sprache ausgezeichnet:</p>
    <fig>
     <desc>Humboldt an Kunth, Potsdam, 9.12.1849, Bl. 1r/1v</desc>
     <codeblock outputclass="language-xml"><![CDATA[    <p>Auszug aus einem Schreiben
@@ -46,19 +44,20 @@
    </fig>
    <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
      id="ul_cfk_qq4_mbb">
-     <li>auf Wortebene und bei Eigennamen <fig id="fig_ht1_3s4_mbb">
-       <desc>Brief Humboldt an Kunth, 27. April 1813</desc>
-       <?oxy_comment_start author="lkirsten" timestamp="20180306T122638+0100" comment="Kodierbeispiel ergänzen"?>
-       <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70" align="center"
-        id="image_it1_3s4_mbb"/>
-       <?oxy_comment_end?>
-      </fig><fig id="fig_fmc_rs4_mbb">
-       <desc>Brief Humboldt an Kunth, 27. April 1813 – Webansicht (Kritischer Text); Sprachwechsel
-        nicht ausgezeichnet (orangene Schriftfarbe zeigt Verweis auf Eintrag im
-        Personenregister)</desc>
-       <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
-        align="center" id="image_gmc_rs4_mbb"/>
-      </fig></li>
+     <li>auf Wortebene und bei Eigennamen <!--<fig id="fig_ht1_3s4_mbb">
+              <desc>Brief Humboldt an Kunth, 27. April 1813</desc>
+              <?oxy_comment_start author="lkirsten" timestamp="20180306T122638+0100" comment="Kodierbeispiel ergänzen" id="f4l_qtg_2db"?>
+              <?oxy_comment_start author="thomas" timestamp="20180315T171338+0100" comment="m.E. nicht notwendig, da hier ja gerade nichts kodiert wird. Überhaupt ist das Beispiel m.E. nicht notwendig und daher erstmal auskommentiert." parentID="f4l_qtg_2db" mid="1"?>
+              <image placement="break" href="../../img_avhr/sprachwechsel-ma.jpg" scale="70"
+                align="center" id="image_it1_3s4_mbb"
+              /><?oxy_comment_end?><?oxy_comment_end mid="1"?>
+            </fig><fig id="fig_fmc_rs4_mbb">
+              <desc>Brief Humboldt an Kunth, 27. April 1813 – Webansicht (Kritischer Text);
+                Sprachwechsel nicht ausgezeichnet (orangene Schriftfarbe zeigt Verweis auf Eintrag
+                im Personenregister)</desc>
+              <image placement="break" href="../../img_avhr/sprachwechsel-web.jpg" scale="80"
+                align="center" id="image_gmc_rs4_mbb"/>
+            </fig>--></li>
      <li>auf Briefumschlägen</li>
      <li>bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen. Oftmals
       finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen)</li>
@@ -115,7 +114,7 @@
      </tgroup>
     </table>
    </p>
-   <codeblock outputclass="language-xml"><?oxy_comment_start author="thomas" timestamp="20180313T153724+0100" comment="Problem: Widerspricht der o.g. Regel &quot;Ignoriert und nicht ausgezeichnet wird der Sprachwechsel in folgenden Fällen: auf Wortebene&quot;!!!"?><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]><?oxy_comment_end?></codeblock>
+   <!--<codeblock outputclass="language-xml"><?oxy_comment_start author="thomas" timestamp="20180313T153724+0100" comment="Problem: Widerspricht der o.g. Regel &quot;Ignoriert und nicht ausgezeichnet wird der Sprachwechsel in folgenden Fällen: auf Wortebene&quot;!!!"?><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]><?oxy_comment_end?></codeblock>-->
    <p>Darüber hinaus kann das Attribut <xmlatt>xml:lang</xmlatt> sowohl auf Ebene der üblichen Textstrukturen (z.B.
     Absätze) gesetzt werden als auch für gesamte Dokumente (dann im Wurzelelement TEI).</p>
   </section>
