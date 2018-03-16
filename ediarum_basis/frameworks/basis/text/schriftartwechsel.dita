@@ -21,9 +21,10 @@
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Der Schriftartwechsel wird mit dem Element <xmlelement>hi</xmlelement> ausgezeichnet,
-                dessen Attribut <xmlatt>rendition</xmlatt> Angaben zur verwendeten Schrift
-                enthält.</p><table id="table_gs3_wd1_yz">
+            <p><?oxy_comment_start author="thomas" timestamp="20180316T125722+0100" comment="hier noch als optional formuliert, da/solange noch nicht durchgehend umgesetzt."?>Der
+                    <b>Schriftartwechsel</b> kann mit dem Element <xmlelement>hi</xmlelement>
+                ausgezeichnet werden<?oxy_comment_end?>, dessen Attribut <xmlatt>rendition</xmlatt>
+                Angaben zur verwendeten Schrift enthält.</p><table id="table_gs3_wd1_yz">
                     <tgroup cols="2">
                         <thead>
                             <row>
