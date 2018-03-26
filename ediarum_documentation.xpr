@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>ediarum.AVHR - Editionsrichtlinien INTERN</String>
+                                        <String>ediarum.AVHR - Editionsrichtlinien EXTERN</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -271,7 +271,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/custom.css</String>
+                                                <String>${pd}/ediarum_basis/avhr.css</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
