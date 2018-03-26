@@ -43,7 +43,7 @@
             <topicref href="frameworks/basis/text/listen.dita"/>
             <topicref href="frameworks/basis/text/tabelle.dita"/>
             <topicref href="frameworks/basis/text/anmerkung_ms.dita"/>
-            <topicref href="frameworks/basis/text/nebenrechnung.dita" product="avhr"/>
+<!--            <topicref href="frameworks/basis/text/nebenrechnung.dita" product="avhr"/>-->
            <!-- <topicref href="frameworks/basis/text/zitate_autor.dita" product="avhr"/>-->
             <topicref href="frameworks/basis/text/zeichnung.dita"/>
         </topicref>
@@ -66,7 +66,7 @@
             <topicref href="frameworks/basis/text/normalisierung.dita" product="avhr"/> 
             <topicref href="frameworks/basis/text/normalisierung_zahlenwerte.dita" product="avhr"/>
             <topicref href="frameworks/basis/text/sachanmerkung.dita"/> 
-            <topicref href="frameworks/basis/text/verweise.dita"/> 
+<!--            <topicref href="frameworks/basis/text/verweise.dita"/> -->
             <topicref href="frameworks/basis/text/datum.dita"/> 
             <topicref href="frameworks/basis/text/fremdsprache.dita"/> 
             <!--<topicref href="frameworks/basis/text/textstellen.dita"/> -->
