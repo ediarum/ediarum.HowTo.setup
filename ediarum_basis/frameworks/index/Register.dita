@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_abb_p5q_gy">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_abb_p5q_gy">
  <title>Register</title>
- <conbody>
+ <shortdesc>Verwaltung von Daten zu Entitäten (Personen, Instiutionen, Orte, Literaturtitel etc.), die in der Edition 
+ verknüpft werden.</shortdesc>
+ <body>
+  <section>
+   <title>Allgemein</title>
+   <p>Für Entitäten, wie z.B. Personen, Insitutionen oder Orte, die über ein Register verknüpft und evtl. mit weiteren
+   Angaben (IDs aus Normdateien, Kurzbeschreibungen etc.) existiert jeweils ein eigenes Register in TEI-XML.</p>
+  </section>
+  <section product="avhr">
+   <title>edition humboldt digital</title>
+   <p>In der edition humboldt digital existierten Register für folgende Entitäten:</p>
+   <ul>
+    <li>Personen</li>
+    <li>Institutionen</li>
+    <li>Orte</li>
+    <li>Literaturtitel</li>
+   </ul>
+  </section>
+  <section audience="editor">
+   <title>Bedienung</title>
   <p>Das Register besteht in der Arbeitsumgebung ediarum.basis nicht aus einer, sondern aus mehreren
-   Dateien. Dabei wird für jeden Registertyp eine eigene Datei angelegt, d.h. der Personenregister,
-   Ortsregister, Werkregister etc. wird jeweils in <i>einer</i> Datei angelegt. In ediarum.basis
+   Dateien. Dabei wird für jeden Registertyp eine eigene Datei angelegt, d.h. für das Personenregister,
+   Ortsregister, Werkregister etc. wird jeweils in einer eigenen Datei gepflegt. In ediarum.BASIS
    stehen derzeit fünf Dateitypen zu Verfügung, deren XML-Struktur auf den erfassten Gegenstand
-   angepasst ist. Allerdings stimmt die Struktur grob überein, weswegen diese Dateien in vielerlei
+   angepasst ist. Allerdings stimmt die Struktur teilweise überein, weswegen diese Dateien in vielerlei
    Hinsicht die glleiche Funktionsweise haben. Die  Funktionen, die für alle Registertypen
    übergreifend gelten, werden unter „Neuer Eintrag“ und „Allgemein“ erläutert. Registerspezifische
    Funktion hingegen werden in den einzelnen Kapiteln vorgestellt. Natürlich müssen Sie nicht alle
@@ -44,5 +63,6 @@
      </tbody>
     </tgroup>
    </table></p>
- </conbody>
-</concept>
+  </section>
+ </body>
+</topic>
