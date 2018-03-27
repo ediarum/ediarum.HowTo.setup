@@ -387,7 +387,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/footer.xhtml</String>
+                                                <String>${pd}/ediarum_basis/footer.xml</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <String>
