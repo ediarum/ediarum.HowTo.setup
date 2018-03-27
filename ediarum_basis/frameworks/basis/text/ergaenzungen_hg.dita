@@ -19,7 +19,7 @@
         dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
           <desc>Humboldt an Meyen, [Berlin], Mittwoch [1837]</desc>
-        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" align="center"
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" 
           id="image_b4f_sfj_ycb" scale="80"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[[…] Aufsaz über 
   <choice>
@@ -34,11 +34,11 @@
           belassen:<fig id="fig_yjl_ngj_ycb">
           <desc>Humboldt an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
-            align="center" id="image_zjl_ngj_ycb"/>
+             id="image_zjl_ngj_ycb"/>
         </fig></p>Im <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
         aufgelöst:<fig id="fig_njs_bhj_ycb">
         <desc>Humboldt an Meyen, 1837 - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" align="center"
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" 
           id="image_ojs_bhj_ycb"/>
       </fig><!--<p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
         Manuskripten - Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
@@ -58,12 +58,12 @@
         handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
           <desc> „und“ mit d-Oberlänge: „…Rose und…“ – Humboldt an Meyen, 11.03.1829</desc>
-          <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" align="center"
+          <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" 
             id="image_oxf_hz1_fbb"/>
         </fig>
         <fig id="fig_jgl_wx1_fbb">
           <desc>Abkürzung „u“: „…ein thätiger u…“ – Humboldt an Meyen, 11.03.1829</desc>
-          <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" align="center"
+          <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" 
             id="image_kgl_wx1_fbb"/>
         </fig>
       </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>. Diese Kürzel
@@ -178,7 +178,7 @@
                 <fig>
                   <desc>„…die ich…“ – Humboldt an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
                 <p>(Humboldt-spezifisches Kürzel)</p>
               </entry>
@@ -190,7 +190,7 @@
                 <fig>
                   <desc>„…H/Herr/Herrn…“ – Humboldt an Meyen, Anfang 1830</desc>
                   <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>Herr/Herrn</entry>
@@ -201,7 +201,7 @@
                 <fig>
                   <desc>„Ew Wohlgeboren“ – Humboldt an Martius, 03.03.1829</desc>
                   <image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>Wohlgeboren/er/e</entry>
@@ -212,7 +212,7 @@
                 <fig>
                   <desc>„sich“ – Humboldt an Soemmerring, 08.05.1796</desc>
                   <image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>sich</entry>
@@ -223,7 +223,7 @@
                 <fig>
                   <desc>„B. den 14 Mai 1830“ – Humboldt an Meyen, 14.05.1830</desc>
                   <image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>den</entry>
@@ -253,7 +253,7 @@
                 <fig>
                   <desc>Pfundzeichen – Cuba, 130v</desc>
                   <image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>lb</entry>
@@ -266,7 +266,7 @@
                 <fig>
                   <desc>Groschenkürzel, Humboldt an Willdenow, Aranjuez, 20.04.1799</desc>
                   <image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"
-                    placement="break" align="center"/>
+                    placement="break" />
                 </fig>
               </entry>
               <entry>gr.</entry>
@@ -278,7 +278,7 @@
                   <desc>Reichstalerkürzel, Humboldt an Kunth, Potsdam, Sonntag, [8.7.1845],
                     1r</desc>
                   <image href="../../img_avhr/Reichstaler-Symbol_H0006049.png"
-                    id="image_ryn_5qg_hbb" placement="break" align="center"/>
+                    id="image_ryn_5qg_hbb" placement="break" />
                 </fig>
               </entry>
               <entry>r.</entry>
@@ -290,7 +290,7 @@
         folgenden Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
         expliziter Normalisierung von Abkürzungen verdeutlicht:</p><fig id="fig_edv_mzg_1db">
         <desc>Humboldt an Meyen, Anfang 1830</desc>
-        <image placement="break" href="../../img_avhr/kuerzel.png" scale="80" align="center"
+        <image placement="break" href="../../img_avhr/kuerzel.png" scale="80" 
           id="image_sgg_t4n_jbb"/>
       </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
   <choice>
@@ -306,11 +306,11 @@
       <expan>Rath</expan>
   </choice>]]></codeblock><fig id="fig_mx1_gqn_jbb">
         <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80" align="center"
+        <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80" 
           id="image_nx1_gqn_jbb"/>
       </fig><fig id="fig_zkr_tpn_jbb">
         <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70" align="center"
+        <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70" 
           id="image_alr_tpn_jbb"/>
       </fig></section>
  <section audience="editor">

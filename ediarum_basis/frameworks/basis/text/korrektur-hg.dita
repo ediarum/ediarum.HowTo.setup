@@ -25,32 +25,32 @@
     <desc>Humboldt an Kunth, 5.12.1846</desc>
     <?oxy_comment_start author="lkirsten" timestamp="20180306T123513+0100" comment="möglicherweise Kodierbeispiel ergänzen (Beispiel in &quot;Kodierung&quot; dürfte aber reichen)" id="f5l_x2s_ddb"?>
     <?oxy_comment_start author="thomas" timestamp="20180313T170907+0100" comment="Ja, reicht zunächst." parentID="f5l_x2s_ddb" mid="1"?>
-    <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_1.jpg" 
      id="image_hxy_vf3_1db"/><?oxy_comment_end?><?oxy_comment_end mid="1"?>
    </fig>
    <fig id="fig_wwg_zf3_1db">
     <desc>Humboldt an Kunth, 5.12.1846 - Webansicht (Kritischer Text)</desc>
-    <image placement="break" href="../../img_avhr/korrektur_hg_1_webkrit.JPG" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_1_webkrit.JPG" 
      id="image_xwg_zf3_1db"/>
    </fig>
    <fig id="fig_wy4_cg3_1db">
     <desc>Humboldt an Kunth, 5.12.1846 - Webansicht (Lesetext)</desc>
-    <image placement="break" href="../../img_avhr/korrektur_hg_1_webles.JPG" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_1_webles.JPG" 
      id="image_xy4_cg3_1db"/>
    </fig>
    <fig id="fig_hrh_hr3_1db">
     <desc>Humboldt an Soemmerring, 28.01/20.02.1791</desc>
-    <image placement="break" href="../../img_avhr/korrektur_hg_2.png" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_2.png" 
      id="image_irh_hr3_1db" scale="90"/>
    </fig>
    <fig id="fig_yvb_sr3_1db">
     <desc>Humboldt an Soemmerring, 28.01/20.02.1791 - Webansicht (Kritischer Text)</desc>
-    <image placement="break" href="../../img_avhr/korrektur_hg_2_webkrit.JPG" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_2_webkrit.JPG" 
      id="image_zvb_sr3_1db"/>
    </fig>
    <fig id="fig_i2j_tr3_1db">
     <desc>Humboldt an Soemmerring, 28.01/20.02.1791 - Webansicht (Lesetext)</desc>
-    <image placement="break" href="../../img_avhr/korrektur_hg_2_webles.JPG" align="center"
+    <image placement="break" href="../../img_avhr/korrektur_hg_2_webles.JPG" 
      id="image_j2j_tr3_1db"/>
    </fig>
    <p><b>Normalisierungen</b> sind im Rahmen der Edition kleine Korrekturen der Orthographie und

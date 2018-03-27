@@ -19,16 +19,16 @@
     Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><fig>
 <desc>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
 <image placement="break" href="../../img_avhr/abb10-markierung.jpg"
-     align="center" id="image_zpy_1bg_hbb" scale="80"/>
+      id="image_zpy_1bg_hbb" scale="80"/>
 </fig>
    <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
     Einweisungszeichen werden, unabhängig von ihrer Erscheinungsform mit dem leere Element 
     <xmlelement>metamark/</xmlelement> gekennzeichnet.</p><fig>
 <desc>ART I, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
-     <image placement="break" href="../../img_avhr/abb11a.png" align="center"/>
+     <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
-     placement="break" href="../../img_avhr/abb11.png" scale="70" align="center"
+     placement="break" href="../../img_avhr/abb11.png" scale="70" 
      id="image_b3h_zys_2bb"/>
     </fig>
    <p>Kodierbeispiel (XML-Kodierung im Beispiel vereinfacht)</p> 
@@ -54,7 +54,7 @@
   </note>]]></codeblock>
    <fig>
     <desc>ART I, 18v/19r</desc>
-    <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" align="center"
+    <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" 
      id="image_wc4_fyj_wcb" scale="80"/>
    </fig>
   

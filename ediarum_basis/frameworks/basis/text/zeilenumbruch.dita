@@ -22,7 +22,7 @@
       <fig>
         <desc>ART III, 2r</desc>
         <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60"
-          align="center" id="image_vzy_vks_2bb"/>
+           id="image_vzy_vks_2bb"/>
       </fig>
       <codeblock outputclass="language-xml"><![CDATA[<p>Als uns die ewigen Regengüsse u. Besorgniß vor bös
 <lb break="no"/>artigen Fibern zwangen, die Capuciner Missionen
@@ -35,13 +35,13 @@
         anhand des Trennungsstriches (-).</p>
       <fig>
         <desc>ART III, 2r - Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/abb4-webkrit.JPG" scale="70" align="center"
+        <image placement="break" href="../../img_avhr/abb4-webkrit.JPG" scale="70" 
           id="image_x5t_rtl_scb"/>
       </fig>
       <p> Im Lesetext sind die Zeilenumbrüche der Textvorlage nicht enthalten.</p>
       <fig>
         <desc>ART III, 2r - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/abb4-weblese.JPG" scale="70" align="center"
+        <image placement="break" href="../../img_avhr/abb4-weblese.JPG" scale="70" 
           id="image_xcs_wtl_scb"/>
       </fig>
     </section>

@@ -15,13 +15,13 @@
    </p><fig>
 <desc>Humboldt an Meyen, 8.07.1833, 2r</desc>
     <image placement="break" href="../../img_avhr/unsichere_lesarten_illegible.png" id="image_mxd_tmq_wcb"
-    align="center"/>
+    />
 </fig>
    <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">dienen</unclear>]]></codeblock>
    <fig>
 <desc>Humboldt an Meyen, 8.07.1833, 2r - Webansicht</desc>
     <image placement="break" href="../../img_avhr/unsichere_lesarten_illegible-webansicht.png"
-    id="image_h4w_zmq_wcb" align="center"/>
+    id="image_h4w_zmq_wcb" />
 </fig>
   </section>
   <p>
@@ -31,7 +31,7 @@
   </p>
   <fig>
 <desc>Cuba-Manuskript, 148r</desc>
-<image placement="break" href="../../img_avhr/unsichere_lesarten_covered.png" align="center"
+<image placement="break" href="../../img_avhr/unsichere_lesarten_covered.png" 
    id="image_s3b_hnq_wcb"/>
 </fig>
   <codeblock outputclass="language-xml"><![CDATA[<del rendition="#s">
@@ -40,7 +40,7 @@
   <fig>
 <desc>Cuba-Manuskript, 148r - Webansicht</desc>
 <image placement="break" href="../../img_avhr/unsichere_lesarten_covered-webansicht.png"
-   align="center" id="image_xwb_jnq_wcb"/>
+    id="image_xwb_jnq_wcb"/>
 </fig>  
   <section audience="editor">
    <title>Bedienung</title>

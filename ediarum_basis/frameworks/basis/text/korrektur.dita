@@ -19,7 +19,7 @@
    <p>Durchstreichung und Ersetzung ganzer Wörter:</p>
    <fig>
     <desc>Humboldt an Meyen, nach 1834</desc>
-    <image placement="break" href="../../img_avhr/abb15.png" scale="70" align="center"
+    <image placement="break" href="../../img_avhr/abb15.png" scale="70" 
      id="image_uk4_4vt_2bb"/>
    </fig>
    <codeblock outputclass="language-xml"><![CDATA[Buchhändler in 
@@ -31,7 +31,7 @@ giebt,]]></codeblock>
    <p>Durchstreichung und Ersetzung von Wortteilen oder einzelner Buchstaben:</p>
    <fig>
     <desc>George Arnott Walker-Arnott an Humboldt, Paris, 15.03.1825</desc>
-    <image placement="break" href="../../img_avhr/korrektur.jpg" align="center"
+    <image placement="break" href="../../img_avhr/korrektur.jpg" 
      id="image_t2h_lxx_rcb"/>
    </fig>
    <codeblock outputclass="language-xml"><![CDATA[Believe me Sir your<del rendition="#s">s</del> Sincer<subst>
@@ -41,7 +41,7 @@ giebt,]]></codeblock>
  <lb/>& very Humble <choice><abbr>Serv.</abbr><expan>Servant</expan></choice>.]]></codeblock>
    <fig>
     <desc>Webansicht (Kritischer Text)</desc>
-    <image placement="break" href="../../img_avhr/korrektur-einzelne-zeichen.png" align="center"/>
+    <image placement="break" href="../../img_avhr/korrektur-einzelne-zeichen.png" />
    </fig>
   </section>
   <section audience="editor"><title>Bedienung</title><p>Geben Sie zuerst das gestrichene (oder
@@ -145,7 +145,7 @@ giebt,]]></codeblock>
   </section>
   <section>
    <title>Anzeige</title>
-   <image placement="break" href="../../img_avhr/abb15-web.jpg" align="center"
+   <image placement="break" href="../../img_avhr/abb15-web.jpg" 
     id="image_dzc_rgg_hbb" scale="80"/>
   </section>
  </body>

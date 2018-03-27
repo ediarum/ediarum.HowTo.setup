@@ -23,7 +23,7 @@
       <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
       <fig>
         <desc>RST I, 7r</desc>
-        <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" align="center"
+        <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" 
           id="image_klm_jlh_hbb"/>
       </fig>
       <p>Im XML-Code werden Absätze innerhalb des <xmlelement>p</xmlelement>-Elementes kodiert (das
@@ -44,12 +44,12 @@
         auch im Lesetext dargestellt:</p>
       <fig>
         <desc>RST I, 7r - Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" align="center"
+        <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" 
           id="image_kxx_ylh_hbb" scale="70"/>
       </fig>
       <fig>
         <desc>RST I, 7r - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" align="center"
+        <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" 
           id="image_e34_bml_scb"/>
       </fig>
     </section>

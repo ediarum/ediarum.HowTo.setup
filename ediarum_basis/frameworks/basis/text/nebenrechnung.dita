@@ -10,7 +10,7 @@
       <fig>
         <desc>Cuba-Manuskript, 128r</desc>
         <?oxy_comment_start author="lkirsten" timestamp="20180306T125706+0100" comment="Kodierbeispiel ergänzen"?>
-        <image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" align="center"
+        <image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" 
           id="image_znp_zyn_jbb"/>
         <?oxy_comment_end?>
       </fig>
@@ -40,7 +40,7 @@
       <fig>
 <desc>Cuba-Manuskript, 128r – Webansicht</desc>
 <image placement="break" href="../../img_avhr/nebenrechnung-web.jpg" scale="100"
-        align="center" id="image_akl_3zn_jbb"/>
+         id="image_akl_3zn_jbb"/>
 </fig>
     </section>
   </body>

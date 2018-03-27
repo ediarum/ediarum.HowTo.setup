@@ -25,14 +25,14 @@
                 (Humboldt unterstreicht das Wort „Granite“ und nicht „rani“ in „Granite“). </p>
             <fig>
                 <desc>Cuba-Manuskript, 128r</desc>
-                <image placement="break" href="../../img_avhr/abb12.png" scale="80" align="center"
+                <image placement="break" href="../../img_avhr/abb12.png" scale="80" 
                     id="image_xzm_pmj_dbb"/>
             </fig>
             <p>Ausgezeichnet wird daher das gesamte Wort:</p>
             <codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock>
             <fig>
                 <desc>Cuba-Manuskript, 127r</desc>
-                <image placement="break" href="../../img_avhr/abb12-web.jpg" align="center"
+                <image placement="break" href="../../img_avhr/abb12-web.jpg" 
                     id="image_k54_jfg_hbb" scale="80"/>
             </fig>
             <p><b>Anstreichungen am Rand</b> werden erfasst und als solche ausgezeichnet.</p>
@@ -45,7 +45,7 @@
             </ul>
             <fig>
                 <desc>Cuba-Manuskript, 128r - Anstreichung am linken Rand über vier Zeilen</desc>
-                <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" align="center"/>
+                <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" />
             </fig>
             <p>Die Auszeichnung umfasst alle vier Zeilen:</p>
             <p>
@@ -56,7 +56,7 @@ Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblo
             </p>
             <fig>
                 <desc>Cuba-Manuskript, 144r - Anstreichung eines Absatzes am rechten Rand</desc>
-                <image href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" align="center"/>
+                <image href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" />
             </fig>
             <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle
                 und andere Textphänomene sind im Beispiel nicht ausgezeichnet):</p>
@@ -66,7 +66,7 @@ Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblo
 et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codeblock>
       <fig>
           <desc>Webansicht (Kritischer Text)</desc>
-          <image href="../../img_avhr/rand2-Webansicht.png" align="center"/>
+          <image href="../../img_avhr/rand2-Webansicht.png" />
       </fig>
         </section>
   <section audience="editor">

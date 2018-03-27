@@ -19,12 +19,12 @@
       werden kann. </p>
     <fig id="fig_xyy_yys_zcb">
       <desc>Cuba-Manuskript, 139r</desc>
-      <image placement="break" href="../../img_avhr/139r-Cuba.jpg" scale="70" align="center"
+      <image placement="break" href="../../img_avhr/139r-Cuba.jpg" scale="70" 
         id="image_yyy_yys_zcb"/>
     </fig>
     <fig id="fig_mly_1zs_zcb">
       <desc>Cuba-Manuskript, 139v</desc>
-      <image placement="break" href="../../img_avhr/139v.jpg" scale="70" align="center"
+      <image placement="break" href="../../img_avhr/139v.jpg" scale="70" 
         id="image_nly_1zs_zcb"/>
     </fig>
     <codeblock outputclass="language-xml"><![CDATA[<pb n="139v"/><gap unit="pages" quantity="1" reason="insignificant"/>]]></codeblock>

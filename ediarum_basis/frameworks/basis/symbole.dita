@@ -17,7 +17,7 @@
      <li>Auslassungspunkte</li>
     </ul></p><p>Eine Auswahl aller verfügbaren Symbole der Unicode-Zeichen findet sich über den Eintrag „Einfügen
     aus der Zeichentabelle“ in der Menüleiste.<image placement="break"
-     href="../img_avhr/screenshot_symbole.png" align="center" id="image_ec1_h4h_hbb"/></p>
+     href="../img_avhr/screenshot_symbole.png"  id="image_ec1_h4h_hbb"/></p>
   </conbody>
  </concept>
  <concept id="concept_bpr_vkn_my">
@@ -68,12 +68,12 @@
     Geminationsstrich versehen werden soll, und im Symbolmenü der Überstrich eingefügt.</p>
    <fig>
 <desc>Cuba, 128v</desc>
-<image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" align="center"
+<image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" 
     id="image_i3m_xgn_hbb"/>
 </fig>
    <fig>
 <desc>Cuba, 128v – Webansicht</desc>
-<image placement="break" href="../img_avhr/geminationstrich-web.jpg" align="center"
+<image placement="break" href="../img_avhr/geminationstrich-web.jpg" 
     id="image_ylx_lhn_hbb"/>
 </fig>
    <table id="table_zxp_t3n_hbb">

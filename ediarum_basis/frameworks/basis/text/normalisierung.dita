@@ -75,7 +75,7 @@
             Dokumentation des Befundes den Text. 
             <fig>
               <desc>Humboldt an Kunth, 26. Oktober 1832</desc>
-              <image placement="break" href="../../img_avhr/kunth.jpg" align="center"
+              <image placement="break" href="../../img_avhr/kunth.jpg" 
                 id="image_i4f_vln_jbb" scale="80"/>
             </fig>
           </li>
@@ -137,7 +137,7 @@
                       <fig>
                         <desc>„Les tems…“ – Humboldt an Kunth, 11. 11.1817</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
-                          placement="break" align="center"/>
+                          placement="break" />
                       </fig>
                     </entry>
                     <entry>tems</entry>
@@ -155,7 +155,7 @@
                     <entry>
                       <fig>
                         <desc>„habitans“ – Cuba, 141v</desc>
-                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>habitans</entry>
@@ -172,7 +172,7 @@
                     <entry>
                       <fig>
                         <desc>„…lieuex de…“ – Cuba, 141r</desc>
-                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>lieuex</entry>
@@ -182,7 +182,7 @@
                     <entry>
                       <fig>
                         <desc>„nud“ – Cuba, 141v</desc>
-                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>nud</entry>
@@ -192,7 +192,7 @@
                     <entry>
                       <fig>
                         <desc>„pie“ – Cuba, 140r</desc>
-                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>pié</entry>
@@ -203,7 +203,7 @@
                       <fig>
                         <desc>„hazard“ – Cuba, 134r</desc>
                         <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"
-                          align="center" placement="break"/>
+                           placement="break"/>
                       </fig>
                     </entry>
                     <entry>hazard</entry>
@@ -213,7 +213,7 @@
                     <entry>
                       <fig>
                         <desc>„Sontag“ – Humboldt an Kunth, 30.01.1844</desc>
-                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" align="center"/>
+                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" />
                       </fig>
                     </entry>
                     <entry>Sontag</entry>
@@ -223,7 +223,7 @@
                     <entry>
                       <fig>
                         <desc>„…pres Bahia Honda…“ – Cuba, 130v</desc>
-                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>près Bahia Honda</entry>
@@ -233,7 +233,7 @@
                     <entry>
                       <fig>
                         <desc>„…qui aye… “ – Cuba, 132r</desc>
-                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>aye</entry>
@@ -261,7 +261,7 @@
                     <entry>
                       <fig>
                         <desc>„…Konig…“ – Humboldt an Kunth, 26.10.1832</desc>
-                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>König</entry>
@@ -271,7 +271,7 @@
                     <entry>
                       <fig>
                         <desc>„…Francois…“ – Humboldt an Willdenow, 20.04.1799 </desc>
-                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>François</entry>
@@ -282,7 +282,7 @@
                       <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
                       <fig>
                         <desc>„…a celui…“ – Humboldt an Kunth, 20.04.1839</desc>
-                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" align="center"/>
+                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" />
                       </fig>
                       <?oxy_comment_end?>
                     </entry>
@@ -293,7 +293,7 @@
                     <entry>
                       <fig>
                         <desc>„…chaine…“ – Cuba, 129r</desc>
-                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>chaîne</entry>
@@ -334,7 +334,7 @@
                     <entry>
                       <fig>
                         <desc>„…parceque…“ – Cuba, 140r</desc>
-                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>parceque</entry>
@@ -344,7 +344,7 @@
                     <entry>
                       <fig>
                         <desc>„…tandisque…“ Cuba, 148r</desc>
-                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>tandisque</entry>
@@ -354,7 +354,7 @@
                     <entry>
                       <fig>
                         <desc>„com̅e“ – Cuba, 128r</desc>
-                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140" placement="break" align="center"/>
+                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140" placement="break" />
                       </fig>
                     </entry>
                     <entry>com̅e</entry>
@@ -374,7 +374,7 @@
                     <entry>
                       <fig>
                         <desc>„…roux de…“ – Cuba, 130r</desc>
-                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" align="center"/>
+                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" />
                       </fig>
                     </entry>
                     <entry>roux</entry>

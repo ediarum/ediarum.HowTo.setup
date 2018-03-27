@@ -16,32 +16,32 @@
       <?oxy_comment_end?>
       <fig id="fig_mdk_tgk_ycb">
         <desc>Humboldt an Meyen, 1833(?)</desc>
-        <image placement="break" href="../../img_avhr/streichungen_hg_1.png" align="center"
+        <image placement="break" href="../../img_avhr/streichungen_hg_1.png" 
           id="image_ndk_tgk_ycb" scale="70"/>
       </fig>
     </section>
   <fig id="fig_qsc_t3k_ycb">
    <desc>Humboldt an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
-   <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" align="center"
+   <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" 
     id="image_rsc_t3k_ycb"/>
   </fig>
   <fig id="fig_rkp_lps_zcb">
    <desc>Humboldt an Meyen, 1833(?) - Webansicht (Lesetext)</desc>
-   <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" align="center"
+   <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" 
     id="image_skp_lps_zcb"/>
   </fig>
   <p>Streichung überflüssiger Satzzeichen:</p>
   <fig><desc>II. Considérations générales, 3r</desc><image href="../../img_avhr/streichungen_hg_2.png" placement="break" id="image_yfs_x3p_ycb"
-   align="center"/></fig>
+   /></fig>
   <fig id="fig_izb_fjp_ycb">
    <desc>II. Considérations générales, 3r - Webansicht (Kritischer Text)</desc>
-   <image placement="break" href="../../img_avhr/streichungen_hg_2_webkrit.jpg" align="center"
+   <image placement="break" href="../../img_avhr/streichungen_hg_2_webkrit.jpg" 
     id="image_jzb_fjp_ycb" scale="80"/>
   </fig>
   <fig id="fig_ic2_xjp_ycb">
    <desc>II. Considérations générales, 3r - Webansicht (Lesetext)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_2_webles.jpg" scale="80"
-    align="center" id="image_jc2_xjp_ycb"/>
+     id="image_jc2_xjp_ycb"/>
   </fig>
   <section audience="editor">
    <title>Bedienung</title>
