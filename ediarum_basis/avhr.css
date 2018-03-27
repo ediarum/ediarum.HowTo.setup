@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url('http://edition-humboldt.de/resources/fonts/PTC55F-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('http://edition-humboldt.de/resources/fonts/PT_Sans-Web-Italic.woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url('http://edition-humboldt.de/resources/fonts/PT_Sans-Web-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+} 
+
+body {
+    font-family: 'PT Sans';
+}
+
+.wh_header a {
+    color: white;
+}
+
+img#betalogo {
+    position: absolute;
+    left: 35em;
+    z-index: 10000;
+}
+
+.wh_header a:hover,
+.wh_top_menu ul ul,
+.wh_top_menu ul li:hover,
+.wh_top_menu ul ul li a:hover {
+    background-color: #AC4D00;
+}
+
+.wh_header {
+    padding: 0;
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+
+.wh_footer {
+    color: white;
+    background-image: none;
+    background-color: #5F5F5F;
+}
+
+.wh_footer a {
+    color: white;
+}
+
+.wh_footer div.text-center {
+    text-align: left;
+}
+
+.topictitle2 {
+    font-weight: bold;
+}
+
+figure {
+    border: 1px solid silver;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #EEEEEE;
+}
+
+span.figdesc {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -297,6 +297,33 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
+                                                <String>args.default.language</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>de-de</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>en-us</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>en-us</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
                                                 <String>generate.copy.outer</String>
                                             </field>
                                             <field name="description">
