@@ -5,9 +5,9 @@
         <mainbooktitle>edition humboldt digital – Richtlinien</mainbooktitle>
     </booktitle>
     <chapter href="introduction/ueberschrift.dita">
-        <topicref href="introduction/datenhaltung.dita"/>
-        <topicref href="introduction/xml.dita"/>
-        <topicref href="introduction/tei.dita"/>
+        <topicref href="introduction/datenhaltung.dita" audience="editor"/>
+        <topicref href="introduction/xml.dita" audience="editor"/>
+        <topicref href="introduction/tei.dita" audience="editor"/>
     </chapter>
     <chapter href="operation/ueberschrift.dita" audience="editor">
         <topicref href="operation/ueberblick.dita"/>
