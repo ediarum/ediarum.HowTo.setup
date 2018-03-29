@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xml:lang="de-DE" id="d0e1">
+    <title>Einführung edition humboldt digital – Richtlinien</title>
+    <body>
+        <p>Die hiermit erstmals in einer beta-Version vorliegenden Richtlinien der <i>edition
+                humboldt digital </i>geben einen Überblick über</p>
+        <ul>
+            <li>die Kodierung von Metadaten und Textstrukturen der edierten Quellen,</li>
+            <li>die Transkriptionsregeln zur Bearbeitung von Textphänomenen und deren textkritischer
+                Deutung,</li>
+            <li>die technischen Grundlagen der digitalen Edition (Datenmodell, Kodierungsstandards,
+                Basistechnologien).</li>
+        </ul>
+        <p>Diese <i>edition humboldt digital</i> folgt einem Modell digitaler Edition, das eine
+            visuelle, eine textuelle und eine inhaltliche Herangehensweise an die (vornehmlich)
+            handschriftlichen Quellen umsetzt. Auf der visuellen Ebene werden Textbearbeitungen des
+            Autors abgebildet, etwa Hervorhebungen, Streichungen, Anmerkungen, zeitgenössische
+            Korrekturen und Ergänzungen. Wenn möglich, wurde versucht, alle edierten Texte auch als
+            digitale Faksimile der Original-Handschrift zu veröffentlichen. Die textuelle Ebene
+            erfasst den eigentlichen Text, der sowohl in einer kritischen als auch in einer
+            Lesefassung dargestellt wird und alle textkritischen Auszeichnungen durch die
+            Herausgeber beinhaltet. Die Erfassung der inhaltlichen Ebene konzentriert sich darauf,
+            möglichst viele der in den Texten enthaltenen Informationen als strukturierte Daten
+            aufzubereiten (Personen- und Ortsnamen, Werktitel, Maßangaben) und, wo als sinnvoll
+            erachtet, durch Stellenkommentare zu erweitern.</p>
+        <p>Die Richtlinien der <i>edition humboldt digital </i>sind in Abstimmung mit dem
+            Basisformat des Deutschen Textarchivs (DTABf) erstellt worden und folgen damit einem von
+            der DFG empfohlenen Standard der Textauszeichnung in TEI-XML.<note
+                    ><p>Deutsche Forschungsgemeinschaft (2015): Förderkriterien für
+                    wissenschaftliche Editionen in der Literaturwissenschaft. Bonn, S. 6. Online
+                    verfügbar unter
+                    http://dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf.</p></note>
+            In Einzelfällen, die in der Spezifik des Korpus begründet sind, gehen die Richtlinien
+            über das in der Dokumentation des DTABf festgelegte Kodierungsschema hinaus.</p>
+    </body>
+</topic>
