@@ -90,7 +90,7 @@
             <topicref href="frameworks/basis/brief/postskriptum.dita"/>
         </topichead>
     </chapter>
-    <chapter href="frameworks/index/Register.dita">
+    <chapter href="frameworks/index/register.dita">
         <topicref href="frameworks/index/neuer_eintrag.dita"/>
         <topicref href="frameworks/index/allgemein.dita"/>
         <topicref href="frameworks/index/person.dita"/>

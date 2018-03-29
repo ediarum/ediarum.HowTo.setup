@@ -10,21 +10,6 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>../CMIF/odd/cmi-customization.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>ediarum_basis/ediarum_basis.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -35,6 +20,21 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../CMIF/odd/cmi-customization.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -280,7 +280,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/custom.css</String>
+                                                <String>${pd}/ediarum_basis/avhr.css</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
