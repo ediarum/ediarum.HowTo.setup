@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>../CMIF/odd/cmi-customization.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ediarum_basis/ediarum_basis.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -35,21 +50,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>../CMIF/odd/cmi-customization.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -417,6 +417,36 @@
                                         <ditaParameter>
                                             <field name="name">
                                                 <String>webhelp.merge.nested.topics.related.links</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.show.indexterms.link</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -1351,7 +1381,7 @@
                                                 <String>Path where the output schema file will be saved.</String>
                                             </field>
                                             <field name="value">
-                                                <String>${cfd}/schema/${cfn}.rng</String>
+                                                <String>${cfd}/../schema/${cfn}.rng</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -1433,7 +1463,7 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="showConsoleAlways">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="advancedOptionsMap">
                                     <null/>
@@ -1487,7 +1517,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="locationToOpenInBrowserURL">
-                                    <String>${cfd}/out/${cfn}.rng</String>
+                                    <String>C:/Users/dumont/Desktop/CMIF/schema/cmi-customization.rng</String>
                                 </field>
                                 <field name="openInEditor">
                                     <Boolean>true</Boolean>

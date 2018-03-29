@@ -57,6 +57,14 @@ img#betalogo {
     color: white;
 }
 
+.wh_footer h3 {
+    font-size: 1.3em;
+}
+
+.wh_footer p {
+    line-height: 1.2;
+}
+
 .wh_footer div.text-center {
     text-align: left;
 }
