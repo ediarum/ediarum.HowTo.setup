@@ -4,7 +4,7 @@
     <booktitle>
         <mainbooktitle>edition humboldt digital – Richtlinien</mainbooktitle>
     </booktitle>
-    <chapter href="introduction/ueberschrift.dita">
+    <chapter href="avhr_einfuehrung.dita" product="avhr">
         <topicref href="introduction/datenhaltung.dita" audience="editor"/>
         <topicref href="introduction/xml.dita" audience="editor"/>
         <topicref href="introduction/tei.dita" audience="editor"/>
