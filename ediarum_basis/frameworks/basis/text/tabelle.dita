@@ -167,7 +167,7 @@
         </ul>
       </p>
     </section>
-   <section>
+   <section audience="editor">
      <title>Bedienung</title>
      <p>Über das Menü mit dem Symbol <image href="../../img/table.jpg" id="image_mrd_nmn_scb"/> in
         der Werkzeugleiste lassen sich Tabellen erstellen und bearbeiten. Wenn Sie eine Tabelle

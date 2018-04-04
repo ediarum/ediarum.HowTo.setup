@@ -72,7 +72,7 @@
             <!--<topicref href="frameworks/basis/text/textstellen.dita"/> -->
             <topicref href="frameworks/basis/text/namen_kennzeichnen.dita"/>
         </topicref>
-        <topicref href="frameworks/basis/symbole.dita"/>
+        <topicref href="frameworks/basis/symbole.dita" audience="editor"/>
     </chapter>
     <chapter href="frameworks/basis/brief/_intro.dita">
         <topichead navtitle="Korrespondenz-spezifische Metadaten">

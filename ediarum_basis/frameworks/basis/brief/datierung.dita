@@ -60,7 +60,7 @@
             </ul>
         </p>-->
         </section>
-        <section>
+        <section audience="editor">
             <title>Bedienung</title>
             <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben die Schaltfläche <image
                     href="../../img/date.gif" id="image_zfv_b5t_xcb"/> zur Verfügung, die die

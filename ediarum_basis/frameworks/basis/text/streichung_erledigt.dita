@@ -45,7 +45,7 @@
       <p>Die „erledigt“-Streichung ist zu unterscheiden von regulären Streichungen von Wörtern und
         Textabschnitten (<xref href="streichungen.dita#topic_aw1_5bv_ty"/>).</p>
     </section>
-    <section>
+   <section audience="editor">
       <title>Bedienung</title>
       <p>Zum Auszeichnen der „erledigt“-Markierung muss die entsprechende Textstelle markiert und
         anschließend der Menüpunkt „ediarum > Sonderfunktionen > Textpassage "erledigt"“ ausgewählt
