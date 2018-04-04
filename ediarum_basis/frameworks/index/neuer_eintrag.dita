@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_g51_2ln_my">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_g51_2ln_my">
  <title>Neuer Eintrag</title>
- <conbody>
-  <p>Je nachdem in welchem Register Sie sich befinden, wird ein neuer Eintrag angelegt. Ein Eintrag
+ <body>
+  <section audience="editor">
+   <title>Bedienung</title>
+   <p>Nutzen Sie diese Schaltfläche, um in den einzelnen Registern einen neuen Eintrag anzulegen. Achten Sie dabei darauf, wo ihr Cursor plaziert ist. Dort wird der Eintrag angelegt.</p>
+   <p>Beim Anlegen eines Eintrages werden Sie über
+    ein Dialogfenster nach grundlegenden Informationen gefragt, die Sie an dieser Stelle schon
+    angeben können (Name, Ortsname usw.).</p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+  </section>
+  <p>Abhängig von der Art des Registers wird ein neuer Eintrag angelegt. Ein Eintrag
    im Personenregister wird in einem <xmlelement>person</xmlelement>-Element, im Ortsregister in einem
-   <xmlelement>place</xmlelement>-Element usw. angelegt. Beim Anlegen eines Eintrages werden Sie über
-   ein Dialogfenster nach grundlegenden Informationen gefragt, die Sie an dieser Stelle schon
-   angeben können (Name, Ortsname usw.).<table id="table_bhk_fln_my">
+   <xmlelement>place</xmlelement>-Element usw. angelegt. <table id="table_bhk_fln_my">
     <tgroup cols="2">
      <thead>
       <row>
@@ -39,5 +47,5 @@
      </tbody>
     </tgroup>
    </table></p>
- </conbody>
-</concept>
+ </body>
+</topic>

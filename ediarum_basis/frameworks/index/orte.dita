@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
- <concept id="concept_wpj_jln_my">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+ <topic id="topic_wpj_jln_my">
   <title>Ortsregister</title>
-  <conbody>
-   <p>Ein Eintrag im Ortsregister wird in einem <xmlelement>place</xmlelement>-Element notiert. Wenn
-    Sie einen neuen Eintrag erstellen, wird im Attribut <xmlatt>xml:id</xmlatt> eine ID generiert, mit der Sie auf
-    den Eintrag referien können. Außerdem können Sie direkt über ein Dialogfenster den Ortsnamen
-    angeben.<codeblock outputclass="language-xml"><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
-   <p>Der Name des Ortes wird in einem <xmlelement>placeName</xmlelement>-Element
-   angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Berlin</placeName>]]></codeblock></p>
-   <p>Sie können den Eintrag detaillierter anlegen und eine bestimmte Straße oder ein bestimmtes
-   Gebäude angeben. Diese Angabe wird in einem <xmlelement>listPlace</xmlelement> notiert. Weil es
-   sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
-    <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt>
-   eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine
-   Straße (<codeph>street</codeph>) oder um ein Gebäude (<codeph>building</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[listPlace>
-   <place xml:id="ediarum_t4p_lhf_hy" type="street">
-      <placeName type="reg">Kronenstraße</placeName>
-   </place>
-</listPlace>]]></codeblock></p>
-   <p>Außerdem können Sie mit einer URI auf die GeoNames-Datenbank verlinken. Die Suchfunktion, die
-   über das Menü angeboten wird, kann genutzt werden, um die richtige Verlinkung herzustellen. Der
-   Link wird in einem <xmlelement>idno</xmlelement>-Element (identifikator)
-   notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2950159<idno>]]></codeblock></p>
+  <body>
+   <section>
+    <title>Allgemein</title>
+   <p>Im Ortsregister sind Einträge zu Ländern, Landstrichen, Städten usw. hinterlegt. Dort sind
+    nähere Angaben zu Leben und Wirken notiert. Außerdem findet sich dort eine Übersicht, an welchen
+    Stellen (in welchen Dokumenten) der Ort in der Edition erwähnt wird. Außerdem zeigt eine
+    Kartenansicht die Lage des Ortes.</p>
+   </section>
   <section id="section_sd4_s3d_pbb"><title>edition humboldt digital</title><p><b>Norm-ID
      (Geonames)</b></p><p>Jeder Ortseintrag erhält eine Geonames-ID.</p><b>Namen</b><p>Der
     Haupteintrag folgt immer der heute gängigen Schreibung. Historische Schreibweisen oder
@@ -72,6 +59,7 @@
    >Zusammenführung</xref>)</p></section>
   <section id="section_d4h_jhd_pbb" audience="editor">
    <title>Bedienung</title>
+   <p/>
    <p><b>Norm-ID (Geonames)</b></p>
    <p>Die Erfassung der Normdatei erfolgt über die Schaltfläche Ortsregister > GeoNames-ID suchen
     (s. ediarum-Spickzettel „Recherche einer Geonames-ID für Orte“)</p>
@@ -80,5 +68,25 @@
    <p>Will man eine Geo-Normdatei manuell eingeben, führt der Weg wie zuvor über die Schaltfläche
     Allgemein > Norm-ID</p>
   </section>
-  </conbody>
- </concept>
+   <section>
+    <title>Kodierung</title>
+   <p>Einträge im Ortsregister werden in einem <xmlelement>place</xmlelement>-Element notiert. Wenn
+    Sie einen neuen Eintrag erstellen, wird im Attribut <xmlatt>xml:id</xmlatt> eine ID generiert,
+    mit der auf den Eintrag referiert
+    wird.<codeblock outputclass="language-xml"><![CDATA[<place xml:id="ed_zvg_2fj_wx">]]></codeblock></p>
+   <p>Der Name des Ortes wird in einem <xmlelement>placeName</xmlelement>-Element
+    angegeben.<codeblock outputclass="language-xml"><![CDATA[<placeName type="reg">Berlin</placeName>]]></codeblock></p>
+   <p>Angaben zu Straße und Gebäude werden in einem <xmlelement>listPlace</xmlelement> notiert. Weil
+    es sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
+     <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt>
+    eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine
+    Straße (<codeph>street</codeph>) oder um ein Gebäude (<codeph>building</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[<listPlace>
+   <place xml:id="ediarum_t4p_lhf_hy" type="street">
+      <placeName type="reg">Kronenstraße</placeName>
+   </place>
+</listPlace>]]></codeblock></p>
+   <p>Die Geonames-ID wird in einem <xmlelement>idno</xmlelement>-Element (identifikator)
+    notiert.<codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://www.geonames.org/2950159<idno>]]></codeblock></p>
+   </section>
+  </body>
+ </topic>

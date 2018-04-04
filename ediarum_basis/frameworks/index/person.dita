@@ -1,69 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_gpw_hln_my">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_gpw_hln_my">
  <title>Personenregister</title>
- <conbody>
-    <p><b>1.</b> Die Einträge im Personenregister werden in einem
-      <xmlelement>person</xmlelement>-Element notiert. Wenn Sie einen Eintrag erstellen wird im
-      Attribut <xmlatt>xml.id</xmlatt> automatisch eine ID generiert, mit der Sie auf den Eintrag
-      referieren können. Außerdem können Sie direkt über ein Dialogfenster folgende Angaben machen:
-      Nach- und Vorname, Geburts- und Todesjahr. Sollte es sich um eine fiktive Person oder eine
-      mytholgische Figur handeln, wird zusätzlich das Attribut <xmlatt>role</xmlatt> angelegt. Dort
-      wird entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
-      eingetragen.<codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock></p>
-    <p>Beim Erstellen eines Registereintrags geben Sie Vor- und Nachname an, unter denen der
-      Registereintrag im Verzeichnis gespeichtert wird. Diese Angaben werden in einem
-        <codeph>&lt;persName type="reg"></codeph> festgehalten. Varianten oder alternative Namen
-      werden jeweils in einem eigenen <xmlelement>persName</xmlelement>-Element gespeichtert, in dem
-      das Attribut <xmlatt>type="alt"</xmlatt> (alternative) und das Attribut
-        <xmlatt>subtype</xmlatt> angibt, welche Art von Namenvariation vorliegt.</p>
-    <p>
-      <table id="table_ohy_qcf_hy">
-        <tgroup cols="2">
-          <thead>
-            <row>
-              <entry>Name</entry>
-              <entry>Wert für <xmlatt>subtype</xmlatt></entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry>Alternative(r) Name/Schreibung</entry>
-              <entry><xmlatt>subtype</xmlatt> entfällt</entry>
-            </row>
-            <row>
-              <entry>Pseudonym</entry>
-              <entry><codeph>pseudonym</codeph></entry>
-            </row>
-            <row>
-              <entry>Geburtsname</entry>
-              <entry><codeph>birthname</codeph></entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
-    </p>
-    <p>Sie können entweder nur den Nachnamen angeben (<xmlelement>name</xmlelement>) oder Vor- und
-      Nachnamen (<xmlelement>surname</xmlelement>/<xmlelement>forename</xmlelement>).</p>
-    <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
-   <name>[Pseudonym]</name>
-</persName>]]></codeblock>
-    <p><b>2.</b> Zur zeitlichen Bestimmung können Sie entweder Lebensdaten eintragen oder die
-      Wirkungszeit (Floruit) angeben. Die Lebensdaten werden in einem
-      <xmlelement>birth</xmlelement>-Element und <xmlelement>death</xmlelement>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
-<death>1889</death>]]></codeblock></p>
-    <p>Die Wirkungszeit wird in einem <xmlelement>floruit</xmlelement>-Element notiert. In den
-      Attributen <xmlatt>notBefore</xmlatt> (nicht vor) und <xmlatt>notAfter</xmlatt> (nicht nach)
-      wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben,
-      wobei Monat und Tag optionale Angaben
-      sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
-    <p><b>3.</b> Sollte es sich um eine fiktive Person oder eine mytholgische Figur handeln, können
-      Sie das im Registereintrag vermerken. Es wird zusätzlich das Attribut <xmlatt>role</xmlatt>
-      angelegt. Dort wird entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
-      eingetragen.</p>
-    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-    <p><b>4.</b> Außerdem könnnen Sie mit einem <xmlelement>listPerson</xmlelement>, dessen Attribut
-        <xmlatt>type</xmlatt> den Wert <codeph>group</codeph> hat, Gruppen anlegen.<?oxy_custom_end?></p>
+ <body>
+    <section>
+      <title>Allgemein</title>
+      <p>Im Personenregister sind Einträge zu Briefpartnern, Zeitgenossen usw. hinterlegt. Dort sind
+        nähere Angaben zu Leben und Wirken notiert. Außerdem findet sich dort eine Übersicht, an
+        welchen Stellen (in welchen Dokumenten) die Person in der Edition erwähnt wird.</p>
+    </section>
     <section id="section_czw_t3d_pbb">
       <title>edition humboldt digital</title>
       <p><b>Norm-ID</b></p>
@@ -129,7 +74,7 @@
         <li>
           <p> Namen, die <b>Adelsprädikate</b> („von“,„zu“, „de“, „d'“, usw.) enthalten, werden
             unter dem Anfangsbuchstaben des Nachnamens geführt, nicht dem des Prädikats. Namen wie
-           „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d’Alembert“ sind also dem Buchstaben „A“
+            „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d’Alembert“ sind also dem Buchstaben „A“
             zugeordnet. </p>
         </li>
         <li>
@@ -245,7 +190,7 @@
       <p>Lebensdaten liegen vollständig und unvollständig als präzise oder ungefähre Geburts- und
         Sterbedaten, als ungefähre Wirkungszeiträume oder manchmal nur in Form einer einzelnen
         Erwähnung vor. </p>
-      <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> – 
+      <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> –
         Monat und Tag, auch wenn bekannt, werden nicht angegeben. Die unterschiedlichen Datenlagen
         bei Lebensjahren werden in folgender Weise kodiert:<table id="table_awj_3xb_pbb">
           <tgroup cols="3">
@@ -538,7 +483,7 @@
       <ul id="ul_jy2_s4c_nbb">
         <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
         <li><?oxy_custom_end?>Eine Herkunftsangabe im Kommentar kann angegeben bzw. belassen werden,
-          <i>Beispiel:„Sächsischer Mineraloge und Staatsmann“</i></li>
+            <i>Beispiel:„Sächsischer Mineraloge und Staatsmann“</i></li>
         <li>Die Zuweisungen „englisch“ und „schottisch“ werden subsumiert unter „britisch“</li>
         <li>Bezeichnungen wie „irischer“ ,„deutscher“,„deutsch-baltischer“ usw. werden belassen im
           Sinne einer in erster Linie kulturellen Zuschreibung</li>
@@ -547,20 +492,79 @@
             Neu-Granada (Kolumbien)“</i></li>
       </ul>
     </section>
-    <section id="section_ns1_lgd_pbb" audience="editor">
+    <section audience="editor" id="section_jhj_tkv_jdb">
       <title>Bedienung</title>
-      <p>Ediarum erlaubt eine Person neu als „Mythologische Person“ anzulegen, oder auch einen
-        bestehenden Eintrag um den „Personentyp (fiktional etc.)“ zu ergänzen.</p>
-      <p>Die Eingabe von Geburts- und Todesjahr erfolgt über die Schaltfläche „Lebensdaten“. Wenn
-        ein Wert nicht bekannt ist, kann das entsprechende Feld frei gelassen werden. Sollten nur
-        Informationen zur Wirkungszeit vorliegen, kann diese über die Funktion „Floruit
-        (Wirkungszeit)“ angegeben werden. Grundsätzlich ist nur von beiden Angaben vorgesehen und
-        möglich.</p>
+      <p>Geben Sie beim Erstellen eines Eintrages Vor- und Nachname an, unter denen die Person im
+        Register geführt werden soll. Die Eingabe von Geburts- und Todesjahr erfolgt über die
+        Schaltfläche „Lebensdaten“. Wenn ein Wert nicht bekannt ist, kann das entsprechende Feld
+        frei gelassen werden. Sollten nur Informationen zur Wirkungszeit vorliegen, kann diese über
+        die Funktion „Floruit (Wirkungszeit)“ angegeben werden. Grundsätzlich ist nur von beiden
+        Angaben vorgesehen und möglich. Ediarum erlaubt eine Person neu als „Mythologische Person“
+        anzulegen, oder auch einen bestehenden Eintrag um den „Personentyp (fiktional etc.)“ zu
+        ergänzen.</p>
       <p>Die Wirkungszeit einer Person kann über drei Merkmale definiert werden: „nicht vor“, „nicht
         nach“ und „Angabe als Text“. Die Angabe als Text kann jederzeit manuell bearbeitet werden.
         Die Angaben zu „nicht vor“ und „nicht nach“ können über das Kontextmenü nachträglich
         bearbeitet werden. Für eine valide und maschinenlesbare Auszeichnung müssen alle drei
         Angaben eingetragen werden. </p>
     </section>
-  </conbody>
-</concept>
+    <section id="section_khj_tkv_jdb">
+      <title>Kodierung</title>
+      <p>Einträge im Personenregister werden in einem <xmlelement>person</xmlelement>-Element
+        notiert. Für jeden Eintrag wirrd im Attribut <xmlatt>xml.id</xmlatt> automatisch eine ID
+        generiert, mit der auf den Eintrag referiert wird. Handelt es sich um eine fiktive oder
+        mytholgische Figur, wird zusätzlich das Attribut <xmlatt>role</xmlatt> angelegt. Dort wird
+        entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
+        eingetragen.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock>
+    </section>
+    <p> Vor- und Nachname werden in einem <codeph>&lt;persName type="reg"></codeph> festgehalten.
+      Varianten oder alternative Namen werden jeweils in einem eigenen
+        <xmlelement>persName</xmlelement>-Element gespeichtert, in dem das Attribut
+        <xmlatt>type="alt"</xmlatt> (alternative) und das Attribut <xmlatt>subtype</xmlatt> angibt,
+      welche Art von Namenvariation vorliegt.</p>
+    <p>
+      <table id="table_ohy_qcf_hy">
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Name</entry>
+              <entry>Wert für <xmlatt>subtype</xmlatt></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Alternative(r) Name/Schreibung</entry>
+              <entry><xmlatt>subtype</xmlatt> entfällt</entry>
+            </row>
+            <row>
+              <entry>Pseudonym</entry>
+              <entry><codeph>pseudonym</codeph></entry>
+            </row>
+            <row>
+              <entry>Geburtsname</entry>
+              <entry><codeph>birthname</codeph></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+    <p>Sie können entweder nur den Nachnamen angeben (<xmlelement>name</xmlelement>) oder Vor- und
+      Nachnamen (<xmlelement>surname</xmlelement>/<xmlelement>forename</xmlelement>).</p>
+    <codeblock outputclass="language-xml"><![CDATA[<persName type="alt" subtype="pseudonym">
+   <name>[Pseudonym]</name>
+</persName>]]></codeblock>
+    <p> Die Lebensdaten werden in einem <xmlelement>birth</xmlelement>-Element und
+        <xmlelement>death</xmlelement>-Element notiert.<codeblock outputclass="language-xml"><![CDATA[<birth>1838</birth>
+<death>1889</death>]]></codeblock></p>
+    <p>Die Wirkungszeit wird in einem <xmlelement>floruit</xmlelement>-Element notiert. In den
+      Attributen <xmlatt>notBefore</xmlatt> (nicht vor) und <xmlatt>notAfter</xmlatt> (nicht nach)
+      wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT angegeben,
+      wobei Monat und Tag optionale Angaben
+      sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
+    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <p><b>4.</b> Außerdem könnnen Sie mit einem <xmlelement>listPerson</xmlelement>, dessen Attribut
+        <xmlatt>type</xmlatt> den Wert <codeph>group</codeph> hat, Gruppen anlegen.</p>
+    <?oxy_custom_end?>
+  </body>
+</topic>
