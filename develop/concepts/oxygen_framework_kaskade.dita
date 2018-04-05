@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_framework_kaskade">
+    <title>oxygen_framework_kaskade</title>
+    <shortdesc>Ein projektspezifisches Framework baut auf dem Framework ediarum.basis auf. ediarum.basis arbeitet mit dem DTA-Basisformat, was ein Subset von TEI ist.</shortdesc>
+    <conbody>
+        <section>
+            <p></p>
+        </section>
+    </conbody>
+</concept>

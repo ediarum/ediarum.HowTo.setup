@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ediarum_editorvariablen">
+    <title>ediarum_editorvariablen</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <section id="section_ynf_rk2_kdb">
+            <title>Zu setzende Variablen</title>
+            <p/>
+        </section>
+        <section id="section_ltd_sk2_kdb">
+            <title>In der Regel nicht zu ändernde Variablen</title>
+            <p/>
+        </section>
+    </refbody>
+</reference>

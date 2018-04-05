@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_aktion">
+    <title>Über Aktionen in Oxygen</title>
+    <shortdesc></shortdesc><!-- (AN) Ich finde es sehr schwierig, in meinem Kopf ein klares Bild von den Bestandteilen einer Aktion zu behalten. Ich glaube, das liegt an der super verfusselten- Herumklick-Zugangsweise in Oxygen. Ich möchte hier eine Tabelle zur Verfügung stellen, die die grundsätzlichen Bestandteile einer Aktion auflistet. -->
+    <conbody>
+        <p></p>
+        <!-- "Was ist eine Aktion und wozu brauche ich sie?" aus Editor*innen-Perspektive -->
+        <!-- Folgend dann die Details aus Entwickler*innen-Perspektive -->
+        <!-- Vielleicht mal übersetzt in die SW-Architektur und Terminologie, wenn ich in einer Programmiersprache eine Datenmanipulationsfunktionalität (Controller) und eine entsprechende Nutzer*innne-Interaktion (View) programmieren würde.-->
+        <p>Die Aktionen sind in der Datei <filepath>ediarum.[projekt].framework</filepath> definiert. Dort sind sie allerdings sehr unübersichtlich verteilt. Die Schnittstelle, die oXygen uns für die Erstellung und Änderung von Aktionen anbietet, ist der <uicontrol>Autor</uicontrol> Tab im <uicontrol>Dokumenttypen</uicontrol> Fenster.</p>
+        <section id="section_iht_sn2_kdb">
+            <title>Bestandteile, damit eine Aktion funktioniert</title>
+            <ul id="ul_acv_5n2_kdb">
+                <li>ID</li>
+                <li>Aktivierungs-XPath: Unter welchen Bedingungen steht die Aktion überhaupt zur
+                    Verfügung?</li>
+                <li>Operation: </li>
+                <li>Operationselemente, z.B.<ul id="ul_bbn_142_kdb">
+                        <li>Einfügeort</li>
+                        <li>einzufügendes Element</li>
+                        <li>...</li>
+                    </ul></li>
+            </ul>
+        </section>
+        <section id="section_rjr_xn2_kdb">
+            <title>Bestandteile, die Infos über die Aktion liefern</title>
+            <ul id="ul_tj4_yn2_kdb">
+                <li>Name</li>
+                <li>Beschreibung</li>
+            </ul>
+            <p/>
+        </section>
+        <section id="section_p1l_vn2_kdb">
+            <title>Was noch dazu gehört: UI-Zugriff</title>
+            <p>
+                <ul id="ul_kbn_d42_kdb">
+                    <li>Was für ein UI-Element?</li>
+                    <li>Label des UI-Elements?</li>
+                    <li>Ort des UI-Elements</li>
+                </ul>
+            </p>
+        </section>
+        
+    </conbody>
+</concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ediarum">
+    <title>ediarum</title>
+    <shortdesc>Ediarum ist eine Vorlage, die man als Ausgangspunkt benutzen kann, um für eine
+        XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu erstellen.</shortdesc>
+    <!-- oberstes Verständnis-Topic, von dem alle anderen Verständnistopics abzweigen -->
+    <conbody>
+        <p></p>
+    </conbody>
+</concept>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_framework_konventionen">
+    <title>oxygen_framework_konventionen</title>
+    <shortdesc>Um Bestandteile aus verschiedenen Frameworks auseinanderzuhalten und um die
+        Benutzungsoberfläche einheitlich zu gestalten, gelten folgende Konventionen.</shortdesc>
+    <conbody>
+        <section>
+            <title>Editorvariablen - Namenskonventionen</title>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <title>Aktionen - Namenskonventionen</title>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section>
+            <title>Verzeichnisstruktur</title>
+            <p>Wenn Sie unter Optionen>Einstellungen>Dokumenttypen-Zuordnung angeben, wo sich
+                Templates, Schemata, CSS usw. befinden, halten Sie sich wenn möglich an folgende
+                Verzeichnisstruktur:</p>
+            <p></p>
+        </section>
+        <section>
+            <title>UI-Konzept</title>
+            <p>Wie können Editor*innen auf eine Aktion zugreifen? Welche Interaktionen sind möglich?
+                </p>
+            <!-- p>Z.B. Konventionen zu:</p>
+            <ul>
+                <li>Icons?</li>
+                <li>Menüstruktur?</li>
+                <li>Tooltips?</li>
+                <li>Bezeichnungen?</li>
+                <li>Dialogtexten?</li>
+                <li>Tastenkürzeln?</li>
+                <li>u.ä.</li>
+            </ul> -->
+        </section>
+    </conbody>
+</concept>

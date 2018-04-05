@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_rqx_xdv_cz">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="concept_rqx_xdv_cz">
  <title>Programme</title>
- <conbody>
+ <shortdesc>Neben den beiden ediarum-Hauptkomponenten oXygen und eXist sind weitere Programme für die Entwicklungsarbeit erforderlich oder empfehlenswert.</shortdesc>
+ <refbody><refsyn>
   <p>Folgende Software muss auf den Rechner installiert sein:</p>
   <ul>
    <li>
@@ -14,5 +15,5 @@
       <li><xref href="http://exist-db.org/exist/apps/homepage/index.html" format="html"
           scope="external">existDB </xref>- Datenbank</li>
   </ul>
- </conbody>
-</concept>
+ </refsyn></refbody>
+</reference>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="exist_backup_erstellen">
+    <title>exist_backup_erstellen</title>
+    <shortdesc/><!-- Muss man da irgend etwas tun oder beachten oder wissen? Oder läuft das Backup automatisch richtig, sobald man ein exist-Projekt ordnungsgemäß auf einem TELOTA-Server abgelegt hat? Gibt es Lesende, die nicht auf einem TELOTA-Server arbeiten und hierzu etwas wissen müssen? -->
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
