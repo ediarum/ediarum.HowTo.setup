@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ijd_2vf_ldb">
+  <title>Zotero – Einrichten von Account und Programm</title>
+  <body>
+    <p><b>Account
+      anlegen</b></p><p>Gehen Sie auf <xref href="https://www.zotero.org/user/register"
+        format="html" scope="external"/> und geben Sie die erforderlichen Informationen an.
+        Anschließend steht Ihnen ein Zotero-Account direkt zur Verfügung. Mithilfe einer automatisch
+        an Sie gesandten Nachricht validieren Sie Ihre Email-Adresse.</p><p><b>Gruppe
+          erstellen</b></p><p>Gehen Sie auf <xref href="https://www.zotero.org/groups/new"
+            format="html" scope="external"/> und geben Sie den Gruppennamen ein. Wählen Sie von den
+            drei Gruppentypen die Option aus, die für Ihr Vorhaben am geeignetesten ist.<ul
+              id="ul_e3x_mjf_ldb">
+              <li>Public, open membership: Ihre Gruppe ist öffentlich einsehbar und jeder kann ihr
+                beitreten.</li>
+              <li>Public, closed membership: Ihre Gruppe ist öffentlich einsehbar. Aber Sie bestimmen,
+                wer in die Gruppe eintritt.</li>
+              <li>Private membership: Ihre Gruppe ist öffentlich <b>nicht</b> einsehbar. Sie bestimmen,
+                wer in die Gruppe eintritt.</li>
+            </ul></p><p>Auf der anschließenden Seite müssen weitere Einstellungen vorgenommen werden. </p><p>
+              <ul id="ul_jj5_tjf_ldb">
+                <li>Soll die Bibliographie öffentlich im Internet oder ausschließlich für
+                  Gruppenmitgliedern zugänglich sein?</li>
+                <li>Wer darf Veränderungen (neue Einträge usw.) an der Bibliographie vornehmen? (Alle
+                  Mitglieder oder nur Administratoren)</li>
+                <li>Soll es ein Daten-Speicher in der Gruppe geben? Wer darf Veränderungen an den Dateien
+                  vornehmen?</li>
+              </ul>
+            </p><p>Nachdem Sie die Gruppe erstellt haben, laden Sie über <b>Members settings</b>
+              KollegenInnen (mit einem Zotero-Account) in Ihre Gruppe ein. Sobald eine Einladung
+              angenommen wurde, erscheint ein weiterer Account in der Mitgliederliste. Als <b>owner</b>
+              der Gruppe können Sie Mitglieder den Status <b>Admin</b> verleihen. Als Admin kann man
+              Änderungen an den Einstellungen zu Gruppe, Mitglieder und Bibliographie vornehmen. Außerdem
+              können Einladungen verschickt werden.</p><p><b>Gruppe beitreten</b></p>
+    <p>Gehen Sie auf die
+    Webseite einer Gruppe und wählen Sie <b>Join</b> aus. Sofern es sich um eine Gruppe mit
+    geschlossener Mitgleidschaft handetl, müssen Sie eine Einladungsnachricht per Email
+    abwarten.</p><p><b>Programm und Web-Account synchronisieren</b></p><p>Öffnen Sie das Programm
+      und wählen Sie unter dem Menü <b>Werkzeuge</b> den Punkt <b>Einstellungen</b> aus. Dort
+      geben Sie unter dem Reiter <b>Sync</b> Ihren Benutzernamen und Ihr Passwort an. Das Häkchen
+      bei <b>Automatisch synchronisieren </b>ist bereits automatisch gesetzt. Ihr Programm lädt
+      nun von den Gruppen, deren Mitglied Sie sind, die Bibliographien. Diese können Sie jetzt im
+      Programm bearbeiten.</p>   
+  </body>
+</topic>
