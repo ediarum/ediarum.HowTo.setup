@@ -7,7 +7,7 @@
     <title>Allgemein</title>
     <p></p>
   </section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
       <p>Anstatt eines in XML-kodierten Werkregisters nutzt die edition humboldt digital eine
         Zotero-Bibliographie. Die Projektdatenbank des Vorhabens befindet sich in der Zotero-Gruppe
@@ -15,21 +15,22 @@
           scope="external">https://www.zotero.org/groups/avh-r</xref></p>
     </section>    
     <section audience="editor">
-      <title>Grundlegende Bedienung</title>
+      <title>Bedienung</title>
       <p>Die Bibliographie pflegen Sie – nachdem das Programm mit dem Web-Account synchronistert
         wurde – in dem Zotero-Programm auf Ihrem Rechner.</p>
-      <p><b>Neuer Eintrag</b></p>
+      <p><b>Neuer Eintrag</b>
+      </p>
       <p>Wählen Sie in der Leiste das <image href="https://www.zotero.org/support/_media/add.png"
           id="image_oby_lrf_ldb"/> aus, um einen neuen Eintrag zu erstellen. Sie können aus einer
-        Vielzahl von Eintragsarten auswählen (Z.B. Buch, Brief, Manuskript, Podcast und Webseite).
+        Vielzahl von Eintragsarten auswählen (z.B. Buch, Brief, Manuskript, Podcast und Webseite).
         Machen Sie auf der rechten Fensterseite manuell Angaben zum Eintrag (Titel, Autor usw.)</p>
       <p>Können Sie für eine Publikation eine ISBN, DOI oder PMID ermitteln, nutzen Sie das <image
           href="https://www.zotero.org/support/_media/toolbar-lookup.png" id="image_dcm_ssf_ldb"/>.
         Diese Funktion hat den Vorteil, dass die Daten automatisch in die Datenbank eingepflegt
         werden.</p>
       <p><b>Stichwörter/Tags anlegen</b></p>
-      <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrer Stichwörter anlegen wollen. Auf der
-        rechten Seite des Programmfensters wählen Sie den Reiter <b>Tags</b> aus. Mit der
+      <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen. Auf
+        der rechten Seite des Programmfensters wählen Sie den Reiter <b>Tags</b> aus. Mit der
         Schaltflche <b>Hinzufügen</b> lassen sich beliebig viele Stichwörter anlegen. Sie
         vereinfachen die Suche in der Bibliographie.</p>
     </section>
