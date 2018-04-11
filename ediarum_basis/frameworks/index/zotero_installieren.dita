@@ -63,11 +63,11 @@
                         <cmd><b>Achtung:</b> Im nun erscheinenden Dialog werden Sie gefragt, ob der
                             Rechner sich automatisch neu starten soll <b>oder</b> ob Sie das manuell
                             zu einem späteren Zeitpunkt machen.</cmd>
-                        <info>Achten Sie darauf, dass alle Daten gespeichert sind. Erst nach dem
-                            Neustart kann Zotero verwendet werden.</info>
+                        <info><b>Achten Sie darauf, dass alle Daten gespeichert sind. Erst nach dem
+                                Neustart kann Zotero verwendet werden.</b></info>
                     </substep>
                     <substep>
-                        <cmd>Nach dem Neusatrt den Download-Ordner öffnen und die
+                        <cmd>Nach dem Neustart den Download-Ordner öffnen und die
                             Zotero-Installationsdatei auswählen und <b>löschen</b>.</cmd>
                     </substep>
                 </substeps>
