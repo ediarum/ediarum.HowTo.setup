@@ -14,25 +14,59 @@
         „AvH-R“ unter <xref href="https://www.zotero.org/groups/avh-r" format="html"
           scope="external">https://www.zotero.org/groups/avh-r</xref></p>
     </section>    
-    <section audience="editor">
+    <section audience="editor" id="section_ucp_bvt_ldb">
       <title>Bedienung</title>
-      <p>Die Bibliographie pflegen Sie – nachdem das Programm mit dem Web-Account synchronistert
-        wurde – in dem Zotero-Programm auf Ihrem Rechner.</p>
+      <p>Die Bibliographie pflegen Sie – nachdem Sie das Programm mit dem Web-Account synchronistert
+        haben (siehe <xref href="zotero_einrichten.dita#topic_ijd_2vf_ldb"/>) – in dem
+        Zotero-Programm auf Ihrem Rechner.</p>
+      <p><b>Bibliotheken verwalten</b></p>
+      <p>Wählen Sie am linken Rand der Programmansicht die Bibliothek bzw. Bibliographie aus, die
+        Sie bearbeiten möchten (1). Im Mittelfeld erscheint eine Übersicht der Einträge, die bereits
+        eingepflegt wurden (2). Die Liste enthält sämtliche Einträge, die Mitglieder der Gruppe
+        erstellt haben, d.h. nicht alle Einträge sind von Ihnen angelegt. Wählen Sie nun einen
+        einzelnen Eintrag aus, um im rechten Feld eine Detailansicht zu erhalten (3). Nehmen Sie
+        Veränderungen und Ergänzungen vor, indem Sie die Punkte anklicken.</p>
+      <p><image href="../img_zotero/biblotheken.png" id="image_u2j_bnt_ldb"/></p>
       <p><b>Neuer Eintrag</b>
-      </p>
+        <b>(manuell)</b></p>
       <p>Wählen Sie in der Leiste das <image href="https://www.zotero.org/support/_media/add.png"
-          id="image_oby_lrf_ldb"/> aus, um einen neuen Eintrag zu erstellen. Sie können aus einer
-        Vielzahl von Eintragsarten auswählen (z.B. Buch, Brief, Manuskript, Podcast und Webseite).
-        Machen Sie auf der rechten Fensterseite manuell Angaben zum Eintrag (Titel, Autor usw.)</p>
-      <p>Können Sie für eine Publikation eine ISBN, DOI oder PMID ermitteln, nutzen Sie das <image
-          href="https://www.zotero.org/support/_media/toolbar-lookup.png" id="image_dcm_ssf_ldb"/>.
-        Diese Funktion hat den Vorteil, dass die Daten automatisch in die Datenbank eingepflegt
-        werden.</p>
-      <p><b>Stichwörter/Tags anlegen</b></p>
-      <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen. Auf
-        der rechten Seite des Programmfensters wählen Sie den Reiter <b>Tags</b> aus. Mit der
-        Schaltflche <b>Hinzufügen</b> lassen sich beliebig viele Stichwörter anlegen. Sie
-        vereinfachen die Suche in der Bibliographie.</p>
+          id="image_oby_lrf_ldb"/> aus, um einen neuen Eintrag zu erstellen. Es ercheint ein Menü,
+        in dem Sie auswählen, um was für eine Art von Eintrag es sich handelt (unter „Mehr“ stehen
+        zahlreiche Optionen zu Verfügung).</p>
+      <p><image href="../img_zotero/neuer_eintrag.png" id="image_jg5_s4t_ldb"/></p>
+      <p><b>Beispiel „Buch“: </b>Am rechten Rand erscheint eine Detailansicht, die noch keine
+        Angaben enthält.</p>
+      <p><image href="../img_zotero/detailansicht.png" id="image_tky_gpt_ldb"/></p>
+      <p>Setzen Sie den Cursor auf das Feld (z.B. „Titel“), um dort eine Angabe zu machen (1).
+        Machen Sie einen Klick mit der linken Maustaste- Schreiben Sie in das erscheinende Textfeld
+        (2).</p>
+      <p>
+        <image href="../img_zotero/detailansicht_a.png" id="image_yqc_tpt_ldb"/>
+        <image href="../img_zotero/detailansicht_b.png" id="image_rxr_hqt_ldb"/></p>
+      <p>Wiederholen Sie diese Schritte für sämtliche Punkte (Ort, Jahr, Verlag usw.), die in der
+        Bibliographie gewünscht wird. Geben Sie Personennamen an, ist Folgendes zu bachten.
+        Standartmäßig erscheint ein Feld, in dem Sie Nachname und Vorname angeben. Möchten Sie einen
+        zweiten Autor, einen Herausgeber oder einen Übersetzer hinzugügen, drücken Sie das <image
+          href="../img_zotero/plus.png" id="image_pwf_sst_ldb"/>. Mit Auswahl der Pfeils kann die
+        Rolle einer Person näher bestimmt werden.</p>
+      <p><image href="../img_zotero/person_hinzuf%C3%BCgen.png" id="image_xzk_gtt_ldb"/></p>
+      <p><b>Neuer Eintrag (automatisch)</b></p>
+      <p> Ist Ihnen für eine Publikation eine ISBN, DOI oder PMID bekannt, nutzen Sie die
+        Schaltfläche <image href="https://www.zotero.org/support/_media/toolbar-lookup.png"
+          id="image_omj_xtt_ldb"/>. Diese Funktion hat den Vorteil, dass Sie die Eingaben nicht
+        manuell einpflegen müssen, sondern das Programm den Eintrag automatisch anlegt. Das Programm
+        benötigt eventuell einige Minuten.</p>
+      <p><image href="../img_zotero/isbn_suche.png" id="image_ux4_m5t_ldb"/></p>
+      <p>Prüfen Sie die Detailansicht und nehmen Sie eventuell Veränderungen vor (insofern
+        überflüssige Informationen enthalten sind usw.)</p>
+      <p><image href="../img_zotero/isbn_fund.png" id="image_ezn_fvt_ldb"/></p>
+    </section>
+    <section audience="editor" id="section_vcp_bvt_ldb">
+      <p><b>Stichwörter anlegen (Tags)</b></p>
+      <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen.
+        Wechseln Sie in der Detailansicht vom Reiter „Info“ zum Reiter „Tags“. Mit der Schaltflche
+          <b>Hinzufügen</b> lassen sich beliebig viele Stichwörter anlegen. </p>
+      <p><image href="../img_zotero/tags_a.png" id="image_ubf_nwt_ldb"/></p>
     </section>
   </body>
   <related-links>

@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>ediarum_basis/frameworks/index/zotero.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CMIF - TEI ODD to RelaxNG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>ediarum_basis/ediarum_basis.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -158,6 +173,36 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
+                                                <String>generate.copy.outer</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>3</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>1</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>1</String>
+                                                    <String>3</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>Do not generate output for content that is located outside the DITA map directory.</String>
+                                                    <String>Shift the output directory so that it contains all output for the publication.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
                                                 <String>args.copycss</String>
                                             </field>
                                             <field name="description">
@@ -207,36 +252,6 @@
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>generate.copy.outer</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>3</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>1</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>1</String>
-                                                    <String>3</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String>Do not generate output for content that is located outside the DITA map directory.</String>
-                                                    <String>Shift the output directory so that it contains all output for the publication.</String>
-                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
