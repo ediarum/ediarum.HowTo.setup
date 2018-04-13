@@ -29,7 +29,7 @@ Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\im
    <p>Einweisungszeichen werden, wenn vorhanden, einmal pro Befund ausgezeichnet und unabhängig vom
     in der Vorlage verwendeten Symbol in der Webansicht einheitlich dargestellt.</p>
    <fig>
-<desc>Cuba, 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“ (unabhängig von der
+    <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“ (unabhängig von der
      Erscheinungsform wiedergegeben mit dem generalisierten Einweisungszeichen, leeres Element
       <xmlelement>metamark/</xmlelement>)</desc>
 <image placement="break" href="../../img_avhr/abb16.png" scale="60" 

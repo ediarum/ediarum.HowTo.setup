@@ -43,7 +43,8 @@
         <li>Th statt T (Theil, Monathe)</li>
         <li>Dopplung des Schluss-s (Besorgniss, Kenntniss)</li>
         <li>Schwankende Schreibung von Eigennamen (Goethe und Göthe, Schinkel und Schinckel)</li>
-        <li>verschiedene Formen des „s“,„ß“ nur dann, wenn explizit von Humboldt so geschrieben</li>
+        <li>verschiedene Formen des „s“ und „ß“ nur dann, wenn explizit von Humboldt so
+          geschrieben</li>
       </ul>
       <p>Auch <b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen Schreibweise
         belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
@@ -124,9 +125,11 @@
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
                 <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                <colspec colname="c4" colnum="4" colwidth="1.0*"/>
                 <thead>
                   <row>
                     <entry>Befund</entry>
+                    <entry>Quelle</entry> 
                     <entry>Kritischer Text</entry>
                     <entry>Lesetext</entry>
                   </row>
@@ -135,11 +138,12 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Les tems…“ – Humboldt an Kunth, 11. 11.1817</desc>
+                        <desc>„Les tems…“</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
                           placement="break" />
                       </fig>
-                    </entry>
+                    </entry>                    
+                    <entry>Humboldt an Kunth, 11. 11.1817</entry>
                     <entry>tems</entry>
                     <entry>tems</entry>
                   </row>
@@ -154,10 +158,11 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„habitans“ – Cuba, 141v</desc>
+                        <desc>„habitans“</desc>
                         <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141v</entry>
                     <entry>habitans</entry>
                     <entry>habitans</entry>
                   </row>
@@ -171,71 +176,78 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…lieuex de…“ – Cuba, 141r</desc>
+                        <desc>„…lieuex de…“</desc>
                         <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141r</entry>
                     <entry>lieuex</entry>
                     <entry>lieuex</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„nud“ – Cuba, 141v</desc>
+                        <desc>„nud“</desc>
                         <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141v</entry>
                     <entry>nud</entry>
                     <entry>nud</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„pie“ – Cuba, 140r</desc>
+                        <desc>„pie“</desc>
                         <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 140r</entry>
                     <entry>pié</entry>
                     <entry>pié</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„hazard“ – Cuba, 134r</desc>
+                        <desc>„hazard“</desc>
                         <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"
                            placement="break"/>
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 134r</entry>
                     <entry>hazard</entry>
                     <entry>hazard</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Sontag“ – Humboldt an Kunth, 30.01.1844</desc>
+                        <desc>„Sontag“</desc>
                         <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Humboldt an Kunth, 30.01.1844</entry>
                     <entry>Sontag</entry>
                     <entry>Sontag</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…pres Bahia Honda…“ – Cuba, 130v</desc>
+                        <desc>„…pres Bahia Honda…“</desc>
                         <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 130v</entry>
                     <entry>près Bahia Honda</entry>
                     <entry>près Bahia Honda</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…qui aye… “ – Cuba, 132r</desc>
+                        <desc>„…qui aye… “</desc>
                         <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 132r</entry>
                     <entry>aye</entry>
                     <entry>aye</entry>
                   </row>

@@ -199,20 +199,24 @@
    </tgroup>
   </table>-->
  </section>
-  <section audience="editor">
-   <title>Bedienung</title>
-   <p>Zur Kennzeichnung von Eigennamen steht die Funktion „Namen kennzeichnen“ mit dem Symbol <image
-     href="../../img/names16.gif" id="image_wpc_d3f_2y"/> in der Werkzeugleiste im Menü zur
-    Verfügung.</p>
-   <p>„Kennzeichnen“ bedeutet: der jeweilige Eintrag wird markiert und über die Funktion „Namen
-    kennzeichnen“ mit einem spezifischen Eintrag im Personen-, Orts- oder Einrichtungsregister
-    verbunden. </p>
-   <p><b>Wichtig</b>: Um einen Namen korrekt zu kennzeichnen, muss sichergestellt sein, dass der
-    jeweilige Registereintrag eindeutig ist, es also keine Dubletten zur selben Person/Ort/etc. an
-    anderen Stellen des Registers gibt. Die Kennzeichnung eines Namens sollte also immer 
-    mit einer kurzen redaktionellen Überprüfung des jeweiligen Registereintrags verbunden
-    werden.</p>
-  </section>
+  <section audience="editor"><title>Bedienung</title><p>Zur Kennzeichnung von Eigennamen steht die
+    Funktion „Namen kennzeichnen“ mit dem Symbol <image href="../../img/names16.gif"
+     id="image_wpc_d3f_2y"/> in der Werkzeugleiste im Menü zur Verfügung. Mithilfe dieser Funktion
+    wird ein Eigenname im Text mit einem spezifischen Eintrag im Personen-, Orts- oder
+    Einrichtungsregister verbunden.</p><p>Befinden sich Eigennamen innerhalb anderer
+    Textauszeichnungen wie der Auflösung von Abkürzungen und Korrekturen (<xmlatt>choice</xmlatt>),
+    muss darauf geachtet werden, dass der Tag der Namensauszeichnung (<xmlatt>persName</xmlatt>,
+     <xmlatt>placeName</xmlatt> usw.) diese umschließt. Im Autormodus ist eine einfache manuelle
+    Markierung des betreffenden Textes zumeist nicht ausreichend, da hier nur Unterelemente markiert
+    werden. Um sicherzugehen, dass das gesamte Element markiert wurde, kann die Navigationsleiste
+    oberhalb des Bearbeitungsfensters genutzt werden: </p><p><image
+     href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"/></p>Der Cursor
+   kann an irgendeine Stelle im zu markierenden Text gesetzt und das entsprechende Elemente in der
+   Navigationsleiste per Klick ausgewählt werden. <p><b>Wichtig</b>: Um einen Namen korrekt zu
+    kennzeichnen, muss sichergestellt sein, dass der jeweilige Registereintrag eindeutig ist, es
+    also keine Dubletten zur selben Person/Ort/etc. an anderen Stellen des Registers gibt. Die
+    Kennzeichnung eines Namens sollte also immer mit einer kurzen redaktionellen Überprüfung des
+    jeweiligen Registereintrags verbunden werden. </p></section>
   <section>
    <title>Kodierung</title>
    <p>Namen, Werktitel und Sachbegriffe, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt werden, 

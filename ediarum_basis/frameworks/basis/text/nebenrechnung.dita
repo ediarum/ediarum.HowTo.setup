@@ -8,7 +8,7 @@
         der Transkription dieser „Nebenrechnungen“ wird vom Schriftbild der Vorlage abgewichen. Im
         Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
       <fig>
-        <desc>Cuba-Manuskript, 128r</desc>
+        <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 128r</desc>
         <?oxy_comment_start author="lkirsten" timestamp="20180306T125706+0100" comment="Kodierbeispiel ergänzen"?>
         <image placement="break" href="../../img_avhr/nebenrechnung.jpg" scale="50" 
           id="image_znp_zyn_jbb"/>
@@ -38,7 +38,7 @@
     <section>
       <title>Anzeige</title>
       <fig>
-<desc>Cuba-Manuskript, 128r – Webansicht</desc>
+        <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 128r – Webansicht</desc>
 <image placement="break" href="../../img_avhr/nebenrechnung-web.jpg" scale="100"
          id="image_akl_3zn_jbb"/>
 </fig>
