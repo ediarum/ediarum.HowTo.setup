@@ -19,6 +19,8 @@
       <p>Die Bibliographie pflegen Sie – nachdem Sie das Programm mit dem Web-Account synchronistert
         haben (siehe <xref href="zotero_einrichten.dita#topic_ijd_2vf_ldb"/>) – in dem
         Zotero-Programm auf Ihrem Rechner.</p>
+      <p><b><xref href="https://www.zotero.org/support/de/quick_start_guide" format="html"
+            scope="external">Offizielle Zotero-Dokumentation – Schnelleinstieg</xref></b></p>
       <p><b>Bibliotheken verwalten</b></p>
       <p>Wählen Sie am linken Rand der Programmansicht die Bibliothek bzw. Bibliographie aus, die
         Sie bearbeiten möchten (1). Im Mittelfeld erscheint eine Übersicht der Einträge, die bereits
@@ -59,19 +61,16 @@
       <p><image href="../img_zotero/isbn_suche.png" id="image_ux4_m5t_ldb"/></p>
       <p>Prüfen Sie die Detailansicht und nehmen Sie eventuell Veränderungen vor (insofern
         überflüssige Informationen enthalten sind usw.)</p>
-      <p><image href="../img_zotero/isbn_fund.png" id="image_ezn_fvt_ldb"/></p>
+      <p><image href="../img_zotero/isbn_fund.png" id="image_ezn_fvt_ldb"/></p><p><b><xref href="https://www.zotero.org/support/de/getting_stuff_into_your_library"
+        format="html" scope="external">Offizielle Zotero-Dokumentation - Die Zotero-Bibliothek mit Inhalten füllen</xref></b></p>
     </section>
     <section audience="editor" id="section_vcp_bvt_ldb">
       <p><b>Stichwörter anlegen (Tags)</b></p>
       <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen.
         Wechseln Sie in der Detailansicht vom Reiter „Info“ zum Reiter „Tags“. Mit der Schaltflche
           <b>Hinzufügen</b> lassen sich beliebig viele Stichwörter anlegen. </p>
-      <p><image href="../img_zotero/tags_a.png" id="image_ubf_nwt_ldb"/></p>
+      <p><image href="../img_zotero/tags_a.png" id="image_ubf_nwt_ldb"/></p><p><b><xref href="https://www.zotero.org/support/de/collections_and_tags" format="html"
+            scope="external">Offizielle Zotero-Dokumentation - Sammlungen und Tags</xref></b></p>
     </section>
   </body>
-  <related-links>
-    <link href="https://www.zotero.org/support/getting_stuff_into_your_library" format="html"
-      scope="external"><linktext>Offizielle Zotero-Dokumentation - Adding Items to your Zotero Library</linktext></link>
-    <link href="https://www.zotero.org/support/collections_and_tags" format="html" scope="external"><linktext>Offizielle Zotero-Dokumentation - Collections and Tags</linktext></link>
-  </related-links>
 </topic>

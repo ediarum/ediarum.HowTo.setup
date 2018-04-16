@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_smz_wbf_ldb">
-    <title>Zotero – Installation</title>
+    <title>Zotero Standalone – Installation</title>
     <shortdesc/>
     <taskbody>
         <context>
@@ -78,7 +78,7 @@
         </steps>
     </taskbody>
     <related-links>
-        <link href="https://www.zotero.org/support/installation" format="html" scope="external"><linktext>Offizielle Zotero-Dokumentation - Installation</linktext></link>
+        <link href="https://www.zotero.org/support/de/installation" format="html" scope="external"><linktext>Offizielle Zotero-Dokumentation - Installation</linktext></link>
     </related-links>
 </task>
         
