@@ -47,11 +47,14 @@
                             deinstallieren)</info>
                     </substep>
                     <substep>
-                        <cmd>Im erscheinenden Dialogfenster mit <b>Weiter</b> bestätigen</cmd>
+                        <cmd>Im erscheinenden Dialogfenster mit <b>Next</b> bestätigen</cmd><info><image
+                            href="../img_zotero/install_1.png" id="image_hqs_w5c_ndb"/></info>
                     </substep>
                     <substep>
                         <cmd>Im nächsten Fenster das bereits gesetzte <b>Häkchen</b> auf
                                 <b>Standart</b> belassen und mit <b>Weiter</b> bestätigen.</cmd>
+                        <info><image href="../img_zotero/install_2.png" id="image_ynn_dxc_ndb"
+                            /></info>
                     </substep>
                     <substep>
                         <cmd>Im folgenden Dialog <b>Installieren</b> auswählen.</cmd>
