@@ -12,7 +12,7 @@
       <p>Anstatt eines in XML-kodierten Werkregisters nutzt die edition humboldt digital eine
         Zotero-Bibliographie. Die Projektdatenbank des Vorhabens befindet sich in der Zotero-Gruppe
         „AvH-R“ unter <xref href="https://www.zotero.org/groups/avh-r" format="html"
-          scope="external">https://www.zotero.org/groups/avh-r</xref></p>
+          scope="external">https://www.zotero.org/groups/avh-r</xref>.</p>
     </section>    
     <section audience="editor" id="section_ucp_bvt_ldb">
       <title>Bedienung</title>
@@ -30,7 +30,7 @@
       <p><b>Neuer Eintrag</b>
         <b>(manuell)</b></p>
       <p>Wählen Sie in der Leiste das <image href="https://www.zotero.org/support/_media/add.png"
-          id="image_oby_lrf_ldb"/> aus, um einen neuen Eintrag zu erstellen. Es ercheint ein Menü,
+          id="image_oby_lrf_ldb"/> aus, um einen neuen Eintrag zu erstellen. Es erscheint ein Menü,
         in dem Sie auswählen, um was für eine Art von Eintrag es sich handelt (unter „Mehr“ stehen
         zahlreiche Optionen zu Verfügung).</p>
       <p><image href="../img_zotero/neuer_eintrag.png" id="image_jg5_s4t_ldb"/></p>
