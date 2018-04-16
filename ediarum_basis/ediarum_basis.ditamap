@@ -94,7 +94,11 @@
         <topicref href="frameworks/index/neuer_eintrag.dita" audience="editor"/>
         <topicref href="frameworks/index/allgemein.dita" audience="editor"/>
         <topicref href="frameworks/index/person.dita"/>
-        <!--<topicref href="frameworks/index/zotero_bibliographie.dita" product="avhr"/>-->
+        <topichead navtitle="Literatur und Zotero">
+          <topicref href="frameworks/index/zotero.dita"/>
+          <topicref href="frameworks/index/zotero_installieren.dita" audience="editor"/>
+          <topicref href="frameworks/index/zotero_einrichten.dita" audience="editor"/>
+        </topichead>        
         <!--<topicref href="frameworks/index/werke.dita"/>-->
 <!--        <topicref href="frameworks/index/sachregister.dita"/>-->
         <topicref href="frameworks/index/orte.dita"/>
