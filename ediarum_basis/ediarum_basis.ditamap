@@ -90,12 +90,13 @@
             <topicref href="frameworks/basis/brief/postskriptum.dita"/>
         </topichead>
     </chapter>
-    <chapter href="frameworks/index/register.dita">
+    <chapter href="frameworks/index/Register.dita">
         <topicref href="frameworks/index/neuer_eintrag.dita" audience="editor"/>
         <topicref href="frameworks/index/allgemein.dita" audience="editor"/>
         <topicref href="frameworks/index/person.dita"/>
         <topichead navtitle="Literatur und Zotero">
           <topicref href="frameworks/index/zotero.dita"/>
+          <topicref href="frameworks/index/zotero_titelaufnahme.dita" product="avhr"/>  
           <topicref href="frameworks/index/zotero_installieren.dita" audience="editor"/>
           <topicref href="frameworks/index/zotero_einrichten.dita" audience="editor"/>
         </topichead>        
