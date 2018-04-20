@@ -3,16 +3,31 @@
 <topic id="abschrift_entwurf">
     <title>Abschrift &amp; Entwurf</title>
     <body>
-        <p>Falls es sich bei dem Textzeugen, um eine Abschrift oder einen Entwurf handelt, die
-            nur archivalisch überliefert sind, wird dieser Textzeuge auch in einem
-            <xmlelement>witness</xmlelement>-Element erfasst. Es werden aber einige
-            Detailinformationen gefordert. Im <xmlelement>msDesc</xmlelement>-Element (manuscipt
-            description) wird über das Attribut <xmlatt>type</xmlatt> angegeben, ob es sich um eine Abschrift
-            (<codeph>copy</codeph>) oder einen Entwurf (<codeph>concept</codeph>) handelt. Außerdem muss die aufbewahrende
-            Institution (<xmlelement>institution</xmlelement>) angegeben werden. Optional können
-            Sie noch Sammlung (<xmlelement>collection</xmlelement>) und eine Signatur
-            (<codeph>&lt;idno type="shelfmark"></codeph>) des Textzeugen angeben.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness>
+        <section>
+            <title>Allgemein</title>
+            <p>Ist der Textzeuge nur archivalisch überliefert und handelt es sich um eine Abschrift
+                oder einen Entwurf, werden Informationen zur aufbewahrenden Instituition aufgeführt.
+                In einigen Fällen wird die entprechende Sammlung und Signatur verzeichnet.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Geben Sie direkt beim Anlegen eines neuen Dokuments an, dass es sich um eine
+                Abschrift oder einen Entwurf handelt. Es erscheint zu diesem Zweck ein
+                Dialogfenster. Dort verzeichnen Sie die aufbewahrende Institution und ggf. Sammlung
+                und Signatur.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Der Textzeuge wird in einem <xmlelement>witness</xmlelement>-Element erfasst. Im
+                <xmlelement>msDesc</xmlelement>-Element (manuscipt description) wird über das
+                Attribut <xmlatt>type</xmlatt> angegeben, ob es sich um eine Abschrift
+                (<codeph>copy</codeph>) oder einen Entwurf (<codeph>concept</codeph>) handelt.
+                Die Detailangaben werden im <xmlelement>msIdentifier</xmlelement>-Element notiert:
+                die aufbewahrende Institution in (<xmlelement>institution</xmlelement>).
+                Optional können Sie noch Sammlung
+                (<xmlelement>collection</xmlelement>) und eine Signatur (<codeph>&lt;idno
+                    type="shelfmark"></codeph>) des Textzeugen angeben.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
    <msDesc type="copy">
       <msIdentifier>
          <institution>[aufbewahrende Institution]</institution>
@@ -23,7 +38,8 @@
       </msIdentifier>
    </msDesc>
 </witness]]></codeblock>
-        <p>Wenn Sie ein neues Dokument erstellen, um einen Brief zu transkribieren, erscheint
-            ein Dialogfenster, in dem Sie diese Angaben bereits machen können.</p>
+        </section>
+
+ 
     </body>
 </topic>

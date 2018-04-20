@@ -3,28 +3,50 @@
 <topic id="herausgeber_und_mitarbeiter">
     <title>Herausgeber und Mitarbeiter</title>
     <body>
-        <p>Der Herausgeber wird in einem <xmlelement>editor</xmlelement>-Element notiert. Die
-            Angaben zur Person werden im <xmlelement>persName</xmlelement>-Element angegeben. Im
-            Attribut <xmlatt>ref</xmlatt> kann eine Referenz in Form einer GND, VIAF oder URI gemacht
-            werden.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<editor>
+        <section>
+            <title>Allgemein</title>
+            <p/>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p/>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <?oxy_comment_start author="phlinss" timestamp="20180420T114511+0200" comment="Ist das noch aktuell?"?>
+            <p>Der Herausgeber wird in einem <xmlelement>editor</xmlelement>-Element notiert. Die
+                Angaben zur Person werden im <xmlelement>persName</xmlelement>-Element angegeben.<ul
+                    id="ul_r2b_v4g_4db">
+                    <li>Nachname: <xmlelement>surname</xmlelement></li>
+                    <li>Vorname: <xmlelement>forename</xmlelement></li>
+                </ul> Im Attribut <xmlatt>ref</xmlatt> wird die Referenz auf eine externe Datenbank in
+                Form einer GND, VIAF oder URI notiert.<?oxy_comment_end?></p>
+            <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
       <surname>[Nachname]</surname>
       <forename>[Vorname}</forename>
    </persName>
 </editor>]]></codeblock>
-        <p>Außerdem können Mitarbeiter in einem <xmlelement>respStmt</xmlelement>-Element
-            (statement of responsibility) notiert werden. Hier können Sie auch eine GND, VIAF
-            oder URI, die auf den Mitarbeiter referiert, angeben. Die Art der Mitarbeit wird
-            dabei in einem <xmlelement>note</xmlelement>-Element bezeichnet: Mitarbeit,
-            Redaktionelle Mitarbeit, Transkription, Kommentar und Register.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<respStmt>
+            <p>Angaben zu Mitarbeitern werden in einem <xmlelement>respStmt</xmlelement>-Element
+                (statement of responsibility) notiert.  Die Angaben zur Person werden im
+                <xmlelement>persName</xmlelement>-Element angegeben.<ul id="ul_tff_hpg_4db">
+                    <li>Nachname: <xmlelement>surname</xmlelement></li>
+                    <li>Vorname: <xmlelement>forename</xmlelement></li>
+                </ul>Im Attribut <xmlatt>ref</xmlatt> wird die Referenz auf eine externe Datenbank in
+                Form einer GND, VIAF oder URI notiert. </p>
+            <p> Die Art der Mitarbeit wird dabei in einem <xmlelement>resp</xmlelement>-Element
+                (responsibility) näher bestimmt. In einem <xmlelement>note</xmlelement>-Element wird der
+                Beitrag bezeichnet: Mitarbeit, Redaktionelle Mitarbeit, Transkription, Kommentar und
+                Register.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<respStmt>
    <persName ref="118763784">
       <surname>[Nachname]</surname>
       <forename>[Vorname]</forename>
    </persName> 
    <resp><note type="remarkResponsibility">Mitarbeit</note></resp>
 </respStmt>]]></codeblock>
+        </section>
+
     </body>
     <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/mdRespStmt.html?hl=respstmt"
         format="html" scope="external"><linktext>Umgang mit externen Quellen für die DTA-Textgrundlage – Dokumentation des DTABf</linktext></link></linklist>           

@@ -3,18 +3,30 @@
 <topic id="autor_des_manuskripts">
     <title>Autor des Manuskripts</title>
     <body>
-        <p>Angaben, die den Autor betreffen, werden innerhalb des
-            <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort wird ein
-            <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur Entstehung
-            notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. Der Name des Autors wird
-            schließlich in einem weiteren Element, dem <xmlelement>persName</xmlelement>-Element
-            angegeben. Wenn Sie aus einem Verzeichnis einen Autoren auswählen, wird im Attribut
-            <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link angelegt.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+        <section>
+            <title>Allgemein</title>
+            <p></p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p></p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort wird
+                ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur Entstehung
+                notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. </p>
+            <p>Der Name des Autors wird schließlich in einem weiteren Element, dem
+                <xmlelement>persName</xmlelement>-Element angegeben. Wenn Sie den Autor aus dem
+                Personenregister auswählen, wird im Attribut <xmlatt>key</xmlatt> die zugehörige ID
+                generiert und ein Link auf das Register angelegt.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
         <persName key="ed_ats_ysj_wx">Marx, Karl (1818-1883)</persName>
         …
     </creation>
 </profileDesc>]]></codeblock>
+        </section>
+
     </body>
 </topic>

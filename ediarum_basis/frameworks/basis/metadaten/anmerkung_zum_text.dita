@@ -3,13 +3,25 @@
 <topic id="anmerkung_zum_text">
     <title>Anmerkung zum Text</title>
     <body>
-        <p>Eine Anmerkung zum Text durch den Herausgeber wird in einem
-            <xmlelement>notesStmt</xmlelement>-Element (notes statement) gemacht. Das Attribut
-            <xmlatt>type</xmlatt> kennzeichnet mit dem Wert <codeph>editorial</codeph>, dass es sich um
-            eine Anmerkung des Herausgebers bzw. Bearbeiters handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
+        <section>
+            <title>Allgemein</title>
+            <p></p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p></p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Die Anmerkung des Herausgebers wird in einem <xmlelement>notesStmt</xmlelement>-Element
+                (notes statement) gemacht. Das Attribut <xmlatt>type</xmlatt> kennzeichnet mit dem Wert
+                <codeph>editorial</codeph>, dass es sich um eine Anmerkung des Herausgebers bzw.
+                Bearbeiters (und <i>nicht</i> des Autors) handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
    <note type="editorial">
       <p>[Anmerkung hier eingeben]</p>
    </note>
 </notesStmt>]]></codeblock></p>
+        </section>
+
     </body>
 </topic>

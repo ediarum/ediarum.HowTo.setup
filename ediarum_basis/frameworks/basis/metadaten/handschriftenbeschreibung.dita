@@ -3,11 +3,24 @@
 <topic id="handschriftenbeschreibung">
     <title>Handschriftenbeschreibung</title>
     <body>
-        <p>Die Handschriftenbeschreibung wird im <xmlelement>physDesc</xmlelement>-Element (physical
-            description) notiert. Hier können Sie in einem <xmlelement>p</xmlelement>-Element Angaben
-            zu Papier, Format, Blattanzahl etc. des Briefs festhalten.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<physDesc>
+        <section>
+            <title>Allgemein</title>
+            <p>In der Handschriftenbeschreibung werden Angaben zur Beschaffenheit des Manuskriptes
+                gemacht, d.h. zu Papier, Format, Blattanzahl usw.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p></p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Die Handschriftenbeschreibung wird im <xmlelement>physDesc</xmlelement>-Element (physical
+                description) notiert. Die Beschreibung wird als Text in einem
+                <xmlelement>p</xmlelement>-Element gemacht.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<physDesc>
    <p>Der Brief besteht aus einem Bogen dünnem, weißen Papier im Format…</p>
-</physDesc>]]></codeblock>        
+</physDesc>]]></codeblock> 
+        </section>
+       
     </body>
 </topic>
