@@ -9,7 +9,14 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p></p>
+            <p>Wählen Sie die Funktion „Autor des Manuskripts“ im Menü „Metadaten“ in der
+                Werkzeugleiste aus. Geben Sie im Dialogfenster den Anfangsbuchstaben des Namens ein.
+                Anschließend erscheint ein Dialogfenster, in dem Sie den Autor aus der Liste
+                (Personenregister) auswählen.</p>
+            <p><image href="../img/autor.png" id="image_nhb_rld_pdb"/></p>
+            <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
+                    href="../brief/sender_empfaenger.dita" format="xml">„Absender“</xref>  im Menü
+                „Briefmetadaten“ verwenden.</p>
         </section>
         <section>
             <title>Kodierung</title>

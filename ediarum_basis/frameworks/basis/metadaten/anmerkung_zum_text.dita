@@ -9,8 +9,13 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p></p>
         </section>
+        <p>In der Werkzeugleiste steht im Menü „Metadaten“ die entsprechende Funktion „Anmerkung zum
+            Text“ bereit. Verwenden Sie das erscheindene Textfeld, um die Anmerkung zu notieren.</p>
+        <p><image href="../img/anmerkung_zum_text.png" id="image_ukh_j4d_pdb"/></p>
+        <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
+                href="../brief/anmerkungen_zum_brief.dita#anmerkungen_zum_brief">„Anmerkung zum
+            Brief“</xref> im Menü „Briefmetadaten“ verwenden.</p>
         <section>
             <title>Kodierung</title>
             <p>Die Anmerkung des Herausgebers wird in einem <xmlelement>notesStmt</xmlelement>-Element

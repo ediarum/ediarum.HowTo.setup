@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="handschriftenbeschreibung">
-    <title>Handschriftenbeschreibung</title>
+    <title>Beschreibung des Manuskripts</title>
     <body>
         <section>
             <title>Allgemein</title>
@@ -10,7 +10,10 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p></p>
+            <p>Wählen Sie die Funktion „Beschreibung des Manuskipts“ im Menü „Metadaten“ in der
+                Werkzeugleiste aus. In der Dokumentansicht erscheint ein Textfeld, in das Sie die
+                Beschreibung direkt eingeben.</p>
+            <p><image href="../img/handschriftenbeschreibung.png" id="image_p24_yhd_pdb"/></p>
         </section>
         <section>
             <title>Kodierung</title>

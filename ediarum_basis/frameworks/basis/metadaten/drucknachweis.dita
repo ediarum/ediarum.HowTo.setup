@@ -10,7 +10,13 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p></p>
+            <p>Wählen Sie die Funktion „Überlieferung: Druck“ im Menü „Metadaten“ in der
+                Werkzeugleiste aus. Es erscheint ein Dialogfenster, in dem Sie den Drucknachweis
+                notieren.</p>
+            <p><image href="../img/drucknachweis.png" id="image_klk_h3d_pdb"/></p>
+            <p>Im Anschluss können Sie den Drucknachweis markieren und mit Hilfe der Funktion <xref
+                    href="../text/namen_kennzeichnen.dita" format="xml">„Namen kennzeichnen“</xref>
+                mit dem Werkregister verknüpfen.</p>
         </section>
         <section>
             <title>Kodierung</title>

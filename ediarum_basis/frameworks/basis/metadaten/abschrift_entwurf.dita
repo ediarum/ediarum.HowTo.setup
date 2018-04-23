@@ -11,10 +11,16 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Geben Sie direkt beim Anlegen eines neuen Dokuments an, dass es sich um eine
-                Abschrift oder einen Entwurf handelt. Es erscheint zu diesem Zweck ein
-                Dialogfenster. Dort verzeichnen Sie die aufbewahrende Institution und ggf. Sammlung
-                und Signatur.</p>
+            <p>Wählen Sie die Funktion „Überlieferung: Abschrift, Entwurf ...“ im Menü „Metadaten“
+                in der Werkzeugleiste aus. Es erscheinen mehrere Dialogfelder, in denen Sie folgende
+                Angaben machen:</p>
+            <p>
+                <ul id="ul_lvy_1jd_pdb">
+                    <li>Handelt es sich um eine Abschrift oder einen Entwurf?</li>
+                    <li>Angaben zur aufbewahrenden Institution </li>
+                    <li>ggf. Angaben zur Sammlung und Signatur.</li>
+                </ul>
+            </p>
         </section>
         <section>
             <title>Kodierung</title>

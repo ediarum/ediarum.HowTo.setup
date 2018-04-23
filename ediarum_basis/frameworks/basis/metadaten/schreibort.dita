@@ -9,7 +9,13 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p></p>
+            <p>Wählen Sie die Funktion „Schreibort“ im Menü „Metadaten“ in der Werkzeugleiste aus.
+                Es erscheint ein Dialogfenster, in dem Sie den Schreibort aus der Liste
+                (Ortsregister) auswählen.</p>
+            <p><image href="../img/schreibort.png" id="image_nyh_2md_pdb"/></p>
+            <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
+                    href="../brief/sender_empfaenger.dita" format="xml">„Schreibort“</xref> im Menü
+                „Briefmetadaten“ verwenden.</p>
         </section>
         <section>
             <title>Kodierung</title>
