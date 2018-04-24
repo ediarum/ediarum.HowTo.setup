@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_arr_bbf_ldb" product="avhr">
+  <title>Zotero-Titelaufnahme</title>
+  <body>
+    <section><title>Eintragsart</title>
+      <p>Bevor die Titelinformationen aufgenommen werden können, muss die Eintragsart ausgewählt
+        werden. Die häufigsten Dokumententypen in der edition humboldt digital sind:</p>
+      <p>
+        <ul id="ul_vjb_st1_4db">
+          <li><b>Buch</b> (Monographien, Sammelbände, Werkausgaben)</li>
+          <li><b>Buchteil</b> (Artikel in einem Sammelband, Aufsatz in einer Aufsatzsammlung oder
+            einer Ausgabe gesammelter Schriften)</li>
+          <li><b>Zeitschriftenartikel</b></li>
+          <li><b>Zeitungsartikel</b></li>
+          <li><b>Manuskript</b> (jegliche Art von textbasiertem Archivgut, zumeist Materialien aus
+            den Handschriftenabteilungen)</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <title>In der Edition verwendete Felder der Titelaufnahme</title>
+      <p>Bei der Anlegung neuer und Redaktion bestehender Einträge gibt es Details in der Form zu
+        beachten, sodass die eingegebene Information später zur Verlinkung und Verarbeitung der
+        Bibliographie mit dem Projekt-Korpus problemlos genutzt werden kann. Zur Eingabe neuer Titel
+        werden folgende Zotero-Felder genutzt:</p>
+      <p><b>Titel:</b> Der vollständige Titel des Dokuments muss aufgenommen werden, einschließlich
+        eventuell vorhandener Untertitel und Titelei-Angaben der Form „Mit einem einleitenden Essay
+        von Ottmar Ette“.</p>
+      <?oxy_comment_start author="lkirsten" timestamp="20180424T095001+0200" comment="wird in diesem Fall auch ein Eintrag für den Sammelband angelegt?"?>
+      <p><b>Titel</b> und <b>Buchtitel:</b> bei der Eintragsart <i>Buchteil</i> müssen der Titel des
+        Aufsatzes sowie der Titel des Buches, in dem der Aufsatz enthalten ist, angegeben werden.
+        Zotero erlaubt es nicht, Buch und Buchteil direkt hierarchisch aufeinander zu beziehen,
+        daher muss bei der Aufnahme auf die Konsistenz der Buchtitel geachtet werden, damit
+        verschiedene Buchteile ein- und demselben Band zugeordnet werden können.</p>
+      <?oxy_comment_end?>
+      <p><b>Autor:</b> Name und Vorname einer Person werden in getrennte Felder eingegeben.
+        Vornamen, wenn vollständig bekannt, sollten komplett ausgeschrieben werden. Im Falle einer
+        Institution als Herausgeberin wird der Name (etwa „Académie française“) nur in das Feld
+          <b>Name</b> eingetragen. Über die Bedienfläche <image
+          href="../img_avhr/Zotero-Autoren.png" id="image_sfs_qk1_4db" scale="40"/> können weitere
+        Autoren sowie Herausgeber, Mitarbeiter, Reihenherausgeber oder Übersetzer angegeben oder
+        entfernt werden.</p>
+      <p><b>Reihe </b>und <b>Nummer der Reihe:</b> Gehört der Titel einer Reihe an, sollten Titel
+        sowie Nummer der Reihe angegeben werden. Ist der Reihentitel in der Datenbank bereits
+        vorhanden, zeigt Zotero diesen bei der Eingabe als Vorschlag an.</p>
+      <p>Humboldts Amerikanisches Reisewerk sollte immer mit dem Reihentitel „Voyage de Humboldt et
+        Bonpland“ angegeben werden. Als Nummer der Reihe wird die entsprechende Partie angegeben
+        (etwa „Sixième Partie. Botanique“). Im Zweifelsfall wird sich an der bibliographischen
+        Angabe in Fiedler/Leitner 2000 orientiert.</p>
+      <p><b>Band</b> und <b># von Bänden:</b> Bei mehrbändigen Werken muss im Feld <b># von
+          Bänden</b> die Gesamtzahl der Bände angeben werden. Mehrbändige Ausgaben (wie etwa die
+        Quartausgabe der „Relation historique“ in drei Bänden) werden als ein Eintrag behandelt, die
+        einzelnen Bände einer Ausgabe erhalten demnach keine individuellen Titelaufnahmen. Eine
+        spezifische Bandangabe wie „Tome premier“ entfällt daher.</p>
+      <p>Verschiedene Versionen eines Werkes erhalten einen jeweils eigenen Eintrag. Neben den
+        Eintrag zur Quartausgabe der „Relation historique“ (in drei Bänden) gehört also ein weiterer
+        Eintrag zur Oktavausgabe (in dreizehn Bänden).</p>
+      <p><b>Auflage</b>: Dieses Feld wird im Falle der Erstauflage freigelassen. Ausnahme:
+        Nachschlagewerke wie etwa das „Dictionnaire de l’Académie française“.</p>
+      <p><b>Ort</b> und <b>Verlag:</b> diese Felder sind obligatorisch. Bei unsicheren
+        Verlagsangaben gilt die Titelaufnahme des StaBiKat als Orientierung. Mehrer Orts- oder
+        Verlagsangaben werden durch ein Semikolon getrennt.</p>
+      <p><b>Datum:</b> Das Datum kann auf das Jahr („2015“), den Monat („05.2015“) oder den Tag
+        („13.05.2015“) genau angegeben werden. Unsichere Datumsangaben werden je nach Fall ganz
+        „[1805]“ oder zum Teil „[1810-]1813“ in eckige Klammern gesetzt. Datumsangaben, die nicht
+        den Formaten „TT.MM.JJJJ“, „MM.JJJJ“ oder „JJJJ“ entsprechen, erhalten im Feld <b>Extra</b>
+        vor allen anderen möglichen Angaben den Hinweis „{:avhr-date: [1810-]1813}“, sodass
+        abweichende Datumsangaben für die Webansicht verarbeitet werden können. Dies betrifft
+        u.a.:</p>
+      <p>
+        <ul id="ul_hfm_4bk_pdb">
+          <li>Datumsangaben in eckigen Klammern „[1810]“ ({:avhr-date: [1810])</li>
+          <li><?oxy_comment_start author="lkirsten" timestamp="20180424T132021+0200" comment="sollte man hier nicht eine Variante festlegen?"?>Zeitspannen
+            „1794-1795“ ({:avhr-date: 1794-1795}). Bei Zeitspannen ist zudem zu beachten, alle
+            Jahreszahlen stets vierstellig auszuschreiben („1794-1795“ und nicht „1794-95“). </li>
+          <li>mehrere Erscheinungsjahre, durch Komma („1797, 1799“ = {:avhr-date: 1797, 1799}) oder
+            Schrägstrich getrennt („1794/1802“ = {:avhr-date: 1794/1802}). Bei mehreren
+            Erscheinungsjahren ist zudem zu beachten, alle Jahreszahlen stets vierstellig
+            auszuschreiben.<?oxy_comment_end?></li>
+        </ul>
+      </p>
+      <p><b>Kurztitel:</b> Die Kurztitel-Vergabe ist entscheidend für die Auszeichnung von
+        bibliographischen Angaben in ediarum. Damit in der Verlinkung von der digitalen Edition zur
+        Zotero-Datenbank jeder Werkerwähnung genau ein Zotero-Eintrag zugeordnet werden kann, muss
+        darauf geachtet werden, Kurztitel nur einmal zu vergeben. Für Kurztitel gibt es verschiedene
+        Schreibweisen:</p>
+      <p>
+        <ol id="ol_nyy_sw1_4db">
+          <li><b>Humboldt 1813</b> = der Kurztitel setzt sich zusammen aus Autorname und Jahr. Bei
+            dieser Variante wird auf unsichere Angaben verzichtet und sich nur auf die Verlagsangabe
+            oder historische Titelei bezogen.</li>
+          <li><b>Humboldt 1827, Humboldt 1827a, Humboldt 1827b</b> = Titel aus demselben Jahr werden
+            mit Beginn des zweiten Titels alphabetisch sortiert.</li>
+          <li><b>Fiedler/Leitner 2000</b> = bei zwei oder drei Autoren/Herausgebern werden die
+            Autorennamen durch einen Schrägstrich getrennt</li>
+          <li><b>Leitner et al. 1994</b> = bei vier oder mehr Autoren/Herausgebern wird nur der in
+            der Titelei zuerst genannte Autor aufgeführt</li>
+          <li><b>Dictionnaire 1694</b> = bei allgemeinen, bzw. sehr kanonischen Nachschlagewerken
+            ohne spezifischen Herausgeber wird der Werktitel genannt</li>
+          <li>Die Einträge zu den <i>Amerikanischen Reisetagebüchern</i> haben Siglen erhalten und
+            werden daher anders geführt, nämlich als <b>ART I</b>, <b>ART II u. VI</b>, <b>ART
+              III</b>, usw.</li>
+        </ol>
+      </p>
+      <p><b>URL </b>und<b> DOI (Direct Object Identifier):</b> Eine URL kann, wenn möglich und
+        sinnvoll, angegeben werden. Es sollten dabei ausschließlich persistente URLs vergeben
+        werden, da diese dauerhaft auf die Ressource verlinken oder dies zumindest von der
+        jeweiligen Institution so angegeben wird (etwa bei den großen Digitalen Sammlungen der
+        Staatsbibliothek oder der BNF). Eine DOI wird im Normalfall nur für die Eintragsart
+          <i>Zeitschriftenartikel</i> vergeben, sofern es sich um eine elektronische Publikation
+        handelt. Wenn eine DOI vorhanden ist, wird diese ohne URL angegeben. Die DOI-basierte URL
+        sollte im Feld <b>URL</b> eingetragen werden.</p>
+      <p>Für die persistente URL aller HiN-Artikel vor Bd. 16, Nr. 31 (2015) gibt es einige
+        Besonderheiten zu beachten, die im unteren Abschnitt erläutert sind.</p>
+      <p><b>ISBN</b> und <b>ISSN:</b> ISB-Nummern für Bücher müssen nicht angegeben werden. Bei
+        Zeitschriftentiteln sollte, wenn möglich, die ISSN angeben werden.</p>
+      <p><b>Archiv</b>, <b>Standort im Archiv</b> und <b>Signatur:</b> Diese drei Felder müssen nur
+        (wenn bekannt) bei der Eintragsart <i>Manuskript</i> ausgefüllt werden. Sie können
+        beispielsweise in folgender Weise ausgefüllt werden:</p>
+      <p>
+        <ul id="ul_s5r_1nk_pdb">
+          <li><b>Archiv</b> Staatsbibliothek zu Berlin Preußischer Kulturbesitz</li>
+          <li><b>Standort im Archiv</b> Handschriftenabteilung</li>
+          <li><b>Signatur</b> Nachl. Alexander von Humboldt (Tagebücher) I</li>
+        </ul>
+      </p>
+    </section>
+    <section><title>Besonderheiten von Artikeln und Werken ohne Verfasserangabe und/oder ohne
+        Titel</title>
+      <p>
+        <ol id="ol_bbl_p51_4db">
+          <li><b>Unselbständige Schriften</b>
+            <p><b>Autor:</b> in das Unterfeld <b>Name</b> wird „Anonym“
+                eingetragen</p><p><b>Kurztitel:</b> bei Zeitschriften- und Zeitungsartikeln wird
+              eine Kurzfassung des jeweiligen Publikationsorgans in Kombination mit dem
+              Erscheinungsjahr angegeben. Demnach erhält ein 1845 in der Tageszeitung „Journal des
+              Débats politiques et littéraires“ erschienener Artikel ohne Verfasserangabe den
+              Kurztitel „Journal des Débats 1845“; ein anonymer Aufsatz im „The Asiatic Journal and
+              Monthly Register for British India and its Dependencies” von 1819 erhält den Kurztitel
+              „Asiatic Journal 1819“.</p><p><b>Titel:</b> Nicht selten fehlt bei Artikeln ohne
+              Verfasserangabe auch ein Titel (insbesondere im Fall von Zeitungsartikeln und
+              Miszellen in Zeitschriften). In diesem Fall sollte in der Zotero-Eingabemaske an die
+              Stelle des Titels das Incipit, also die ersten Worte des jeweiligen Textes,
+              eingetragen werden. Im Falle des Literatureintrags „Journal des Débats 1845“ lautet
+              der Zotero-Titel: „On écrit de Berlin, le 5 novembre: Par suite des difficultés qui se
+              sont élevées entre J. Meyerbeer...“</p></li>
+          <li><b>Selbständig erschienene Werke</b>
+            <p><b>Autor:</b> in das Unterfeld <b>Name</b> wird „Anonym“
+                eingetragen</p><p><b>Kurztitel:</b> Es wird eine Kurzfassung des jeweiligen
+              Publikationsorgans in Kombination mit dem Erscheinungsjahr angegeben. So kann für das
+              ohne Angabe eines Verfassers erschienene Werk „Memoiren eines Emigranten der kein
+              Emigrant war, auf seiner Reise nach Spanien im Jahre 1791“ - erschienen 1793 - der
+              Kurztitel „Memoiren eines Emigranten 1793“ angegeben werden.</p></li>
+        </ol>
+      </p></section>
+    <section>
+      <title>Recherche und Verlinkung der URL und DOI im Falle von HiN-Artikeln</title>
+      <p>Alle Artikel zwischen Bd. 1, Nr. 1 (2000) bis Bd. 16, Nr. 30 (2015) sind weiterhin über die
+        alte Webpräsenz der Zeitschrift zu erreichen. Alle Einträge in der Zotero-Datenbank der
+        Edition sollten jedoch nicht auf die alkte, sondern auf die neue Webpräsenz (seit Bd. 16,
+        Nr. 31 (2015)) verlinken. </p>
+      <p><b>Beispiel</b>: Leitner, Ulrike (2002): "Anciennes folies neptuniennes!". Über das
+        wiedergefundene Journal du Mexique à Veracruz aus den mexikanischen Reisetagebüchern A. v.
+        Humboldts. In: <i>HiN – Alexander von Humboldt im Netz. Internationale Zeitschrift für
+          Humboldt-Studien</i> 3 (5), S. 3–13. </p>
+      <p>Dieser Artikel befindet sich im Volltext auf der alten Webpräsenz unter <xref
+          href="http://www.uni-potsdam.de/romanistik/hin/hin5/leitner.htm" format="html"
+          scope="external">http://www.uni-potsdam.de/romanistik/hin/hin5/leitner.htm</xref> Die neue
+        persistente Adresse kann in folgenden vier Schritten recherchiert werden:</p>
+      <p>
+        <ol id="ol_mlq_z4k_pdb">
+          <li><xref href="http://www.hin-online.de" format="html" scope="external"
+              >www.hin-online.de</xref> aufsuchen<image href="../img_avhr/hin-1.png"
+              placement="break" id="image_cq5_cpk_pdb" scale="70"/></li>
+          <li>Im Suchfeld unter „Zeitschrifteninhalte“ (rechte Spalte) nach dem Artikel suchen, im
+            Falle des oben genannten Beispiels etwa mit dem Suchbegriff „anciennes folies“ <image
+              href="../img_avhr/hin-2.png" placement="break" id="image_cnb_kpk_pdb" scale="70"
+            /></li>
+          <li>Im richtigen Suchergebnis auf „ABSTRACT“ klicken<image href="../img_avhr/hin-3.png"
+              placement="break" id="image_srl_qpk_pdb" scale="70"/></li>
+          <li>Am Ende der Seite die URL kopieren, aus der sich zugleich die korrekte DOI ergibt.
+            URL: <b>http://dx.doi.org/10.18443/31</b>, DOI: <b>10.18443/31</b>.<image
+              href="../img_avhr/hin-4.png" placement="break" id="image_xcf_xpk_pdb" scale="70"
+            /></li>
+        </ol>
+      </p>
+    </section>
+  </body>
+</topic>
