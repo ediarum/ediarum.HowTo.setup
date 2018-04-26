@@ -3,40 +3,66 @@
 <topic id="art_der_textgrundlage">
     <title>Art der Textgrundlage</title>
     <body>
-        <p>Im <xmlelement>msDesc</xmlelement>-Element können Sie die Art der Textgrundlage im
-            Attribut <xmlatt>rend</xmlatt> auszeichnen. Dafür sind folgende Angaben möglich:<table
-                id="table_ul1_mws_2y">
-                <tgroup cols="2">
-                    <thead>
-                        <row>
-                            <entry>Art der Textgrundlage</entry>
-                            <entry>Wert für <xmlatt>rend</xmlatt></entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>Erschlossen</entry>
-                            <entry><codeph>notExtant</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Entwurf</entry>
-                            <entry><codeph>concept</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Manuskript</entry>
-                            <entry><codeph>manuscript</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Abschrift</entry>
-                            <entry><codeph>copy</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>Druck</entry>
-                            <entry><codeph>print</codeph></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table></p>
-        <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+        <section>
+            <title>Allgemein</title>
+            <p>Der Textfassung der Edition liegt immer ein Text zugrunde, der unterschiedlicher Art
+                sein kann:</p>
+            <p><ul id="ul_k24_5hg_4db">
+                    <li>Manuskript</li>
+                    <li>Abschrift</li>
+                    <li>Entwurf</li>
+                    <li>Druck</li>
+                </ul>In einigen Fällen liegen mehrere Textzeugen vor. Dann wird <i>ein </i>Textzeuge
+                ausgewählt, der die Textfassung der Edition vorgibt (Grundlage). Die anderen
+                Textzeugen finden nur an den Stellen, wo sie Varianten aufzeigen, über ein
+                Stellenkommentar expliziten Eingang in die Edition.</p>
+            <p>Wird ein Text mit Hilfe anderer Dokumente „erschlossen“, gibt es keine
+                Textgrundlage.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Wählen Sie die Funktion „Art der Textgrundlage“ im Menü „Metadaten“ in der
+                Werkzeugleiste aus. Wählen Sie in den Dialogfenster eine der oben genannten Optionen
+                aus.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Im <xmlelement>msDesc</xmlelement>-Element wird die Art der Textgrundlage im Attribut
+                    <xmlatt>rend</xmlatt> ausgezeichnet. Folgende Wert stehen zur Option:<table
+                    id="table_ul1_mws_2y">
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Art der Textgrundlage</entry>
+                                <entry>Wert für <xmlatt>rend</xmlatt></entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Erschlossen</entry>
+                                <entry><codeph>notExtant</codeph></entry>
+                            </row>
+                            <row>
+                                <entry>Entwurf</entry>
+                                <entry><codeph>concept</codeph></entry>
+                            </row>
+                            <row>
+                                <entry>Manuskript</entry>
+                                <entry><codeph>manuscript</codeph></entry>
+                            </row>
+                            <row>
+                                <entry>Abschrift</entry>
+                                <entry><codeph>copy</codeph></entry>
+                            </row>
+                            <row>
+                                <entry>Druck</entry>
+                                <entry><codeph>print</codeph></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
+            <codeblock outputclass="language-xml"><![CDATA[<msDesc rend="manuscript">]]></codeblock>
+        </section>
+
     </body>
 </topic>

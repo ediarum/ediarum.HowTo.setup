@@ -24,7 +24,7 @@
         <topicref href="frameworks/basis/metadaten/drucknachweis.dita"/>
         <topicref href="frameworks/basis/metadaten/abschrift_entwurf.dita"/>
         <topicref href="frameworks/basis/metadaten/art_der_textgrundlage.dita"/>
-        <topicref href="frameworks/basis/metadaten/textgrundlage_auswaehlen.dita"/>
+        <topicref href="frameworks/basis/metadaten/textgrundlage_auswaehlen.dita" audience="editor"/>
         <topicref href="frameworks/basis/metadaten/autor.dita"/>
         <topicref href="frameworks/basis/metadaten/schreibort.dita"/>
         <topicref href="frameworks/basis/brief/datierung.dita"/>

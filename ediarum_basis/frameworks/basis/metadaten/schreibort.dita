@@ -3,10 +3,30 @@
 <topic id="schreibort">
     <title>Schreibort</title>
     <body>
-        <p>Auch der Schreibort wird auch im <xmlelement>creation</xmlelement>-Element angegeben.
-            Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name des
-            Ortes notiert wird. Wenn Sie aus einem Verzeichnis einen Ort auswählen, wird im
-            Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link angelegt.</p>
+        <section>
+            <title>Allgemein</title>
+            <p></p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Wählen Sie die Funktion „Schreibort“ im Menü „Metadaten“ in der Werkzeugleiste aus.
+                Es erscheint ein Dialogfenster, in dem Sie den Schreibort aus der Liste
+                (Ortsregister) auswählen.</p>
+            <p><image href="../img/schreibort.png" id="image_nyh_2md_pdb"/></p>
+            <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
+                    href="../brief/sender_empfaenger.dita" format="xml">„Schreibort“</xref> im Menü
+                „Briefmetadaten“ verwenden.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort
+                wird ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur
+                Entstehung notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. </p>
+        </section>
+        <p>Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name des
+            Ortes notiert wird. Wenn Sie den Schreibort aus dem Ortsregister auswählen, wird im
+            Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum Ortsregister
+            angelegt.</p>
         <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>

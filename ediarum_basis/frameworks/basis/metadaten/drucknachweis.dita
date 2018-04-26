@@ -3,13 +3,31 @@
 <topic id="drucknachweis">
     <title>Drucknachweis</title>
     <body>
-        <p>Einen Drucknachweis als Textzeugen können Sie im
-            <xmlelement>witness</xmlelement>-Element (Zeuge) angeben. Den eigentlichen Nachweis
-            notieren Sie im <xmlelement>bibl</xmlelement>-Element. Das Attribut
-            <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>print</codeph> an, dass der Textzeuge ein
-            Drucknachweis ist.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness>
-   <bibl type="print">[Drucknachweis]</bibl>
+        <section>
+            <title>Allgemein</title>
+            <p>Der Drucknachweis gibt darüber Auskunft, aus welcher Publikation der Textzeuge
+                (Druck) stammt.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Wählen Sie die Funktion „Überlieferung: Druck“ im Menü „Metadaten“ in der
+                Werkzeugleiste aus. Es erscheint ein Dialogfenster, in dem Sie den Drucknachweis
+                notieren.</p>
+            <p><image href="../img/drucknachweis.png" id="image_klk_h3d_pdb"/></p>
+            <p>Im Anschluss können Sie den Drucknachweis markieren und mit Hilfe der Funktion <xref
+                    href="../text/namen_kennzeichnen.dita" format="xml">„Namen kennzeichnen“</xref>
+                mit dem Werkregister verknüpfen.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Der Drucknachweis wird im <xmlelement>witness</xmlelement>-Element (Zeuge) angeben. Die
+                Literaturangaben werden im <xmlelement>bibl</xmlelement>-Element notiert. Das Attribut
+                <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>print</codeph> an, dass der
+                Textzeuge ein Druck (und <i>kein</i> Manuskript o.ä) ist.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness>
+   <bibl type="print">Schmidt-Lötzen, Eduard, Dreißig Jahre am Hof Friedrichs des Großen, Bd. 1, Gotha 1910</bibl>
 </witness>]]></codeblock>
+        </section>
+
     </body>
 </topic>

@@ -3,9 +3,27 @@
 <topic id="zitat_in_regest">
     <title>Zitat in Regest, Kommentar etc.</title>
     <body>
-        <p>Sie können in einem Regest (<xmlelement>abstract</xmlelement>) aus der Quelle zitieren, benutzen Sie dafür diese Funktion. Dadurch wird es auch möglich, Textbearbeitungen des Autors oder des Herausgebers am Zitat vorzunehmen. Das
-                Zitat wird in einem <xmlelement>quote</xmlelement>-Element angegeben. <codeblock outputclass="language-xml"><![CDATA[<abstract>
-   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote>bald erhalten Sie ein Porträt<quot/></p>
+        <section>
+            <title>Allgemein</title>
+            <p>Im Regest wird in einigen Fällen aus der Quelle zitiert.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Um die Funktion „Zitat in Regest, Kommentar etc.“ verwenden zu können, müssen Sie
+                sich mit dem Cursor im Textfeld für den Regest befinden. In den Zitaten können Sie –
+                wie bei regulärer Trankription – <xref href="_intro.dita" format="xml">mit Hilfe der
+                    Werkzeugleiste Textphänomen auszeichnen</xref>.</p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Der Regest  wird mit einem <xmlelement>abstract</xmlelement>-Element ausgezeichnet. Der
+                Regesttext wird in einem <xmlelement>p</xmlelement>-Element notiert. Zitate innerhalb
+                des Regesttextes werden mit einem <xmlelement>quote</xmlelement>-Element ausgezeichent. </p>
+            <p>Der Text im <xmlelement>quote</xmlelement>-Element gilt als Transkription, d.h.
+                Textphänomene wie z.B. Streichungen, Korrekturen usw. können markiert werden.<codeblock outputclass="language-xml"><![CDATA[<abstract>
+   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote><rendition=#u">bald</rendition> erhalten Sie ein Porträt<quot/></p>
 </abstract>]]></codeblock></p>
+        </section>
+ 
     </body>
 </topic>

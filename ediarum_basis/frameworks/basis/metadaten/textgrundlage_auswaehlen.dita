@@ -3,9 +3,23 @@
 <topic id="textgrundlage_auswaehlen">
     <title>Textgrundlage auswählen</title>
     <body>
-        <p>Die Textgrundlage, die Sie für Ihre Arbeit verwenden, markieren Sie, indem Sie das
-            entsprechende <xmlelement>witness</xmlelement>-Element auswählen und dort das Attribut
-                <xmlatt>select</xmlatt> einfügen. Das Attribut hat immer denselben Wert.</p>
+        <section>
+            <title>Allgemein</title>
+            <p>Siehe <i><xref href="art_der_textgrundlage.dita#art_der_textgrundlage">Art der
+                        Textgrundlage</xref></i>.</p>
+        </section>
+        <section audience="editor">
+            <title>Bedienung</title>
+            <p>Setzen Sie den Cursor in die Zeile, die den Quellennachweis (über die Textgrundlage)
+                enthält. Wählen Sie <b>danach</b> die Funktion „Textgrundlage auswählen“ im Menü
+                „Metadaten“ in der Werkzeugleiste aus. Die Textgrundlage erscheint fett.</p>
+            <p><image href="../img/textgrundlage.png" id="image_w3h_3kd_pdb"/></p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+        </section>
+        <p>Die Textgrundlage wird im entsprechenden <xmlelement>witness</xmlelement>-Element mit dem
+            Attribut <xmlatt>select</xmlatt> markiert. Das Attribut hat immer den Wert <![CDATA["#this"]]>.</p>
         <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
     </body>
 </topic>
