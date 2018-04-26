@@ -24,14 +24,14 @@
                 „G<u>rani</u>te“ eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung
                 (Humboldt unterstreicht das Wort „Granite“ und nicht „rani“ in „Granite“). </p>
             <fig>
-                <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 128r</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r</desc>
                 <image placement="break" href="../../img_avhr/abb12.png" scale="80" 
                     id="image_xzm_pmj_dbb"/>
             </fig>
             <p>Ausgezeichnet wird daher das gesamte Wort:</p>
             <codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock>
             <fig>
-                <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 127r</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 127r</desc>
                 <image placement="break" href="../../img_avhr/abb12-web.jpg" 
                     id="image_k54_jfg_hbb" scale="80"/>
             </fig>
@@ -44,7 +44,7 @@
                     Webdarstellung stets am linken Rand.</li>
             </ul>
             <fig>
-                <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 128r - Anstreichung am linken Rand über vier Zeilen</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r - Anstreichung am linken Rand über vier Zeilen</desc>
                 <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" />
             </fig>
             <p>Die Auszeichnung umfasst alle vier Zeilen:</p>
@@ -55,7 +55,7 @@ depuis peu aussi a Veracruz. Le Trigo ne donnant pas de graines à
 Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
             </p>
             <fig>
-                <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 144r - Anstreichung eines Absatzes am rechten Rand</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 144r - Anstreichung eines Absatzes am rechten Rand</desc>
                 <image href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" />
             </fig>
             <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle

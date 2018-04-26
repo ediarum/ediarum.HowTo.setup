@@ -15,12 +15,15 @@
       <title>edition humboldt digital</title>
       <p>Leeren Seiten werden erfasst und in der Webansicht angezeigt. Das Faksimile einer leeren
         Seite ist in der Ansicht „Text mit Faksimile“ nicht enthalten oder verlinkt.</p>
+      <fig>
+        <desc><xref href="https://edition-humboldt.de/H0002651" format="html" scope="external">Alexander von
+          Humboldt an Franz Julius Ferdinand Meyen. Berlin, 14. Mai 1830</xref> - Webansicht mit den
+          leeren Seiten 1v und 2r</desc>
+        <image placement="break" href="../../img_avhr/leere_seiten.JPG" scale="60" 
+          id="image_cvv_zmk_wcb"/>
+      </fig>
     </section>
-    <fig>
-<desc>Humboldt an Meyen, 14.05.1830 - Webansicht mit den leeren Seiten 1v und 2r</desc>
-<image placement="break" href="../../img_avhr/leere_seiten.JPG" scale="60" 
-      id="image_cvv_zmk_wcb"/>
-</fig>
+    
     <section audience="editor">
       <title>Bedienung</title>
       <p>Um leere Seiten zu vermerken, sind in der ediarum-Autoransicht folgende Arbeitsschritte

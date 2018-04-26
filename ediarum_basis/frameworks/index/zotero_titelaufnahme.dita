@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_arr_bbf_ldb" product="avhr">
-  <title>Zotero-Titelaufnahme</title>
+  <title>Zotero – Titelaufnahme</title>
   <body>
     <section><title>Eintragsart</title>
       <p>Bevor die Titelinformationen aufgenommen werden können, muss die Eintragsart ausgewählt
@@ -23,7 +23,7 @@
       <p>Bei der Anlegung neuer und Redaktion bestehender Einträge gibt es Details in der Form zu
         beachten, sodass die eingegebene Information später zur Verlinkung und Verarbeitung der
         Bibliographie mit dem Projekt-Korpus problemlos genutzt werden kann. Zur Eingabe neuer Titel
-        werden folgende Zotero-Felder genutzt:</p>
+        werden folgende Zotero-Felder verwendet:</p>
       <p><b>Titel:</b> Der vollständige Titel des Dokuments muss aufgenommen werden, einschließlich
         eventuell vorhandener Untertitel und Titelei-Angaben der Form „Mit einem einleitenden Essay
         von Ottmar Ette“.</p>

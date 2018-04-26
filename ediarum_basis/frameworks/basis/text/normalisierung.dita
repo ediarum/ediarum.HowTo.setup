@@ -29,11 +29,7 @@
         normalisiert werden üblicherweise Groß- und Kleinschreibung, die Korrektur von Satzzeichen,
         die Ergänzung von Apostrophen, fälschlich getrennt geschriebene Wörter sowie
         Geminations-Überstriche bei Doppelkonsonanten.</p>
-      <!--<p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen
-        im Kritischen Text nicht markiert:</p>
-      <?oxy_comment_start author="lkirsten" timestamp="20180306T130318+0100" comment="[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]"?>
-      <p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur
-        vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>-->
+      <!--<p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen im Kritischen Text nicht markiert:</p><p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>-->
       <p>Ausgenommen von der expliziten Normalisierung sind <b>häufige Schreibgewohnheiten
           Humboldts</b>, die als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu
         zählen u.a.:</p>
@@ -67,26 +63,28 @@
             sich nachweisen, dass Humboldt die fehlenden Tremata selbst nachträglich ergänzte, um
             seinen (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
           <li><b>Autorbild:</b> Wird eine transparente Normalisierung konsequent durchgeführt,
-            enstände dadurch ein kritischer Text, der das Bild Humboldts als Autor und in Gänze den
-            Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich
-            Kunth gegenüber „glucklich“ zeigt, ihm „sagen zu konnen“, Lessing mit 800 Talern
-            unterstützt zu haben, kann ein interessanter Befund etwa für die Forschung zur
-            Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer
-            aber und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
-            Dokumentation des Befundes den Text. 
-            <fig>
-              <desc>Humboldt an Kunth, 26. Oktober 1832</desc>
-              <image placement="break" href="../../img_avhr/kunth.jpg" 
-                id="image_i4f_vln_jbb" scale="80"/>
-            </fig>
-          </li>
+          enstände dadurch ein kritischer Text, der das Bild Humboldts als Autor und in Gänze den
+          Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich
+          Kunth gegenüber „glucklich“ zeigt, ihm „sagen zu konnen“, Lessing mit 800 Talern
+          unterstützt zu haben, kann ein interessanter Befund etwa für die Forschung zur
+          Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer aber
+          und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
+          Dokumentation des Befundes den Text. <fig>
+            <desc><xref href="https://edition-humboldt.de/H0002734" format="html" scope="external"
+                >Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26. Oktober
+                1832] </xref>, Bl. 1r</desc>
+            <image placement="break" href="../../img_avhr/kunth.jpg" id="image_i4f_vln_jbb"
+              scale="80"/>
+          </fig></li>
           <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild,
             dass Humboldt sehr wohl ein Trema gesetzt hat, es aber bei schneller Niederschrift oder
             abgenutzter Schreibfeder wahrscheinlich nicht zum (vollständigen) Abdruck des Zeichens
             kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830 fehlt das Trema über
             „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den vorliegenden Text als „fur
             das schone“ zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<fig>
-              <desc>„fur das schone“ – Humboldt an Meyen, Anfang 1830</desc>
+              <desc>„fur das schone“ – <xref href="https://edition-humboldt.de/H0006179"
+                format="html" scope="external">Alexander von Humboldt an Franz Julius Ferdinand
+                Meyen. [Berlin], Mittwoch, [Anfang 1830]</xref>, Bl. 1r</desc>
               <image href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb"/>
             </fig></li>
           <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
@@ -138,12 +136,14 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„Les tems…“</desc>
+                        <desc>„Le tems…“</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
                           placement="break" />
                       </fig>
                     </entry>                    
-                    <entry>Humboldt an Kunth, 11. 11.1817</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0014746" format="html"
+                        scope="external">Alexander von Humboldt an Carl Sigismund Kunth. London, 11.
+                        November 1817</xref>, Bl. 1r</entry>
                     <entry>tems</entry>
                     <entry>tems</entry>
                   </row>
@@ -162,7 +162,9 @@
                         <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141v</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 141v</entry>
                     <entry>habitans</entry>
                     <entry>habitans</entry>
                   </row>
@@ -180,7 +182,9 @@
                         <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 141r</entry>
                     <entry>lieuex</entry>
                     <entry>lieuex</entry>
                   </row>
@@ -191,7 +195,9 @@
                         <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 141v</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 141v</entry>
                     <entry>nud</entry>
                     <entry>nud</entry>
                   </row>
@@ -202,7 +208,9 @@
                         <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 140r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 140r</entry>
                     <entry>pié</entry>
                     <entry>pié</entry>
                   </row>
@@ -214,7 +222,9 @@
                            placement="break"/>
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 134r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 134r</entry>
                     <entry>hazard</entry>
                     <entry>hazard</entry>
                   </row>
@@ -225,7 +235,9 @@
                         <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Humboldt an Kunth, 30.01.1844</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0015157" format="html"
+                        scope="external">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin,
+                        30. Januar 1844]</xref>, Bl. 1r</entry>
                     <entry>Sontag</entry>
                     <entry>Sontag</entry>
                   </row>
@@ -236,7 +248,9 @@
                         <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 130v</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 130v</entry>
                     <entry>près Bahia Honda</entry>
                     <entry>près Bahia Honda</entry>
                   </row>
@@ -247,7 +261,9 @@
                         <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 132r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 132r</entry>
                     <entry>aye</entry>
                     <entry>aye</entry>
                   </row>
@@ -282,10 +298,13 @@
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…Francois…“ – Humboldt an Willdenow, 20.04.1799 </desc>
+                        <desc>„…Francois…“</desc>
                         <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" />
                       </fig>
                     </entry>
+                    <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
+                        scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez,
+                        20. April 1799</xref>, Bl. 1v</entry>
                     <entry>François</entry>
                     <entry>François</entry>
                   </row>
@@ -308,7 +327,9 @@
                         <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 129r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 129r</entry>
                     <entry>chaîne</entry>
                     <entry>chaîne</entry>
                   </row>
@@ -350,7 +371,9 @@
                         <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 140r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 140r</entry>
                     <entry>parceque</entry>
                     <entry>parce que</entry>
                   </row>
@@ -361,7 +384,9 @@
                         <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 148r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 148r</entry>
                     <entry>tandisque</entry>
                     <entry>tandis que</entry>
                   </row>
@@ -372,7 +397,9 @@
                         <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 128r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 128r</entry>
                     <entry>com̅e</entry>
                     <entry>comme</entry>
                   </row>
@@ -393,7 +420,9 @@
                         <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" />
                       </fig>
                     </entry>
-                    <entry>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 130r</entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 130r</entry>
                     <entry>roux</entry>
                     <entry>roues</entry>
                   </row>

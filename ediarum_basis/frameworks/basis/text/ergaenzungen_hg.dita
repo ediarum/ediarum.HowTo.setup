@@ -18,9 +18,11 @@
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
         dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
-          <desc>Humboldt an Meyen, [Berlin], Mittwoch [1837]</desc>
-        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" 
-          id="image_b4f_sfj_ycb" scale="80"/>
+          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+            [1837]</xref></desc>
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" id="image_b4f_sfj_ycb"
+          scale="80"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[[…] Aufsaz über 
   <choice>
      <abbr>Veg.</abbr>
@@ -32,15 +34,19 @@
      <expan>und</expan>
   </choice>]]> […]</codeblock><p>In der <b>Kritischen Textfassung</b> werden Abkürzungen
           belassen:<fig id="fig_yjl_ngj_ycb">
-          <desc>Humboldt an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
+            <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+              >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+              [1837]</xref> - Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
-             id="image_zjl_ngj_ycb"/>
+            id="image_zjl_ngj_ycb"/>
         </fig></p>Im <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
         aufgelöst:<fig id="fig_njs_bhj_ycb">
-        <desc>Humboldt an Meyen, 1837 - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png" 
+          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+            [1837]</xref> - Webansicht (Lesetext)</desc>
+        <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png"
           id="image_ojs_bhj_ycb"/>
-      </fig><!--<p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
+      </fig><p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
         Manuskripten - Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
           <b>Ergänzung und gleichzeitiger Normalisierung von Diakritika</b> wird jedoch nur die
         Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend:</p><p>
@@ -49,7 +55,7 @@
     <abbr>Emers.</abbr>
     <expan>Émersion</expan>
 </choice>]]><?oxy_comment_end?></codeblock>
-      </p>--><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
+      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
         ausgeschriebenem „und“ dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
         Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>Der
         Unterschied zwischen der <b>Abkürzung „u“ und ausgeschriebenem „und“</b> kann im Schriftbild
@@ -57,13 +63,17 @@
         d-Oberlänge erkennbar ist, wird der Buchstabe als ausgeschriebenes „und“ gewertet – es
         handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
-          <desc> „und“ mit d-Oberlänge: „…Rose und…“ – Humboldt an Meyen, 11.03.1829</desc>
-          <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" 
-            id="image_oxf_hz1_fbb"/>
+          <desc> „und“ mit d-Oberlänge: „…Rose und…“ – <xref
+              href="https://edition-humboldt.de/H0002242" format="html" scope="external">Alexander
+              von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref></desc>
+          <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" id="image_oxf_hz1_fbb"
+          />
         </fig>
         <fig id="fig_jgl_wx1_fbb">
-          <desc>Abkürzung „u“: „…ein thätiger u…“ – Humboldt an Meyen, 11.03.1829</desc>
-          <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80" 
+          <desc>Abkürzung „u“: „…ein thätiger u…“ – <xref
+              href="https://edition-humboldt.de/H0002242" format="html" scope="external">Alexander
+              von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref></desc>
+          <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80"
             id="image_kgl_wx1_fbb"/>
         </fig>
       </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>. Diese Kürzel
@@ -157,7 +167,8 @@
             </row>
           </tbody>
         </tgroup>
-      </table>--><ul id="ul_sbs_44g_hbb">
+      </table>--><ul
+        id="ul_sbs_44g_hbb">
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
         <title>Häufige Beispiele für Kürzel</title>
@@ -165,9 +176,11 @@
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
           <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
               <entry><b>Befund</b></entry>
+              <entry><b>Quelle</b></entry>
               <entry><b>Kritischer Text</b></entry>
               <entry><b>Lesetext</b></entry>
             </row>
@@ -176,56 +189,69 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„…die ich…“ – Humboldt an Meyen, Anfang 1830</desc>
+                  <desc>„…die ich…“</desc>
                   <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
                 <p>(Humboldt-spezifisches Kürzel)</p>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry> 
               <entry>ich</entry>
               <entry>ich</entry>
             </row>
             <row>
               <entry>
                 <fig>
-                  <desc>„…H/Herr/Herrn…“ – Humboldt an Meyen, Anfang 1830</desc>
+                  <desc>„…H/Herr/Herrn…“</desc>
                   <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry> 
               <entry>Herr/Herrn</entry>
               <entry>Herr/Herrn</entry>
             </row>
             <row>
               <entry>
                 <fig>
-                  <desc>„Ew Wohlgeboren“ – Humboldt an Martius, 03.03.1829</desc>
+                  <desc>„Ew Wohlgeboren“</desc>
                   <image href="../../img_avhr/abb24-aus.png" id="image_lxd_qqg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry>Humboldt an Martius, 03.03.1829</entry>
               <entry>Wohlgeboren/er/e</entry>
               <entry>Wohlgeboren/er/e</entry>
             </row>
             <row>
               <entry>
                 <fig>
-                  <desc>„sich“ – Humboldt an Soemmerring, 08.05.1796</desc>
+                  <desc>„sich“</desc>
                   <image href="../../img_avhr/abb11-aus.png" id="image_g2k_rqg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0008511" format="html"
+                  scope="external">Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 8.
+                  Mai 1796</xref>, Bl. 1v</entry>
               <entry>sich</entry>
               <entry>sich</entry>
             </row>
             <row>
               <entry>
                 <fig>
-                  <desc>„B. den 14 Mai 1830“ – Humboldt an Meyen, 14.05.1830</desc>
+                  <desc>„B. den 14 Mai 1830“</desc>
                   <image href="../../img_avhr/abb12-aus.png" id="image_lcl_sqg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0002651" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin,
+                  14. Mai 1830</xref>, Bl. 1r</entry>
               <entry>den</entry>
               <entry>den</entry>
             </row>
@@ -240,9 +266,11 @@
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
           <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+          <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
               <entry><b>Befund</b></entry>
+              <entry><b>Quelle</b></entry>
               <entry><b>Kritischer Text</b></entry>
               <entry><b>Lesetext</b></entry>
             </row>
@@ -251,11 +279,13 @@
             <row>
               <entry>
                 <fig>
-                  <desc>Pfundzeichen – Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 130v</desc>
+                  <desc>Pfundzeichen</desc>
                   <image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>,
+                Bl. 130v</entry>
               <entry>lb</entry>
               <entry>
                 <p>livres (oder dt.: Pfund)</p>
@@ -264,23 +294,28 @@
             <row>
               <entry>
                 <fig>
-                  <desc>Groschenkürzel, Humboldt an Willdenow, Aranjuez, 20.04.1799</desc>
+                  <desc>Groschenkürzel</desc>
                   <image href="../../img_avhr/abb13-aus.png" id="image_b3h_vqg_hbb"
-                    placement="break" />
+                    placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
+                  scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
+                  April 1799</xref>, Bl. 2r</entry>
               <entry>gr.</entry>
               <entry>Groschen</entry>
             </row>
             <row>
               <entry>
                 <fig>
-                  <desc>Reichstalerkürzel, Humboldt an Kunth, Potsdam, Sonntag, [8.7.1845],
-                    1r</desc>
+                  <desc>Reichstalerkürzel </desc>
                   <image href="../../img_avhr/Reichstaler-Symbol_H0006049.png"
-                    id="image_ryn_5qg_hbb" placement="break" />
+                    id="image_ryn_5qg_hbb" placement="break"/>
                 </fig>
               </entry>
+              <entry><xref href="https://edition-humboldt.de/H0006049" format="html"
+                  scope="external">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Sonntag,
+                  [8. Juli 1845]</xref>, Bl. 1r</entry>
               <entry>r.</entry>
               <entry>Reichsthaler</entry>
             </row>
@@ -289,9 +324,11 @@
       </table><p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im
         folgenden Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
         expliziter Normalisierung von Abkürzungen verdeutlicht:</p><fig id="fig_edv_mzg_1db">
-        <desc>Humboldt an Meyen, Anfang 1830</desc>
-        <image placement="break" href="../../img_avhr/kuerzel.png" scale="80" 
-          id="image_sgg_t4n_jbb"/>
+        <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r</desc>
+        <image placement="break" href="../../img_avhr/kuerzel.png" scale="80" id="image_sgg_t4n_jbb"
+        />
       </fig><codeblock outputclass="language-xml" audience="editor"><![CDATA[Als Herrn
   <choice>
       <abbr>G.</abbr>
@@ -305,12 +342,16 @@
       <abbr>R</abbr>
       <expan>Rath</expan>
   </choice>]]></codeblock><fig id="fig_mx1_gqn_jbb">
-        <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80" 
+      <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+        >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+        1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+        <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80"
           id="image_nx1_gqn_jbb"/>
       </fig><fig id="fig_zkr_tpn_jbb">
-        <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70" 
+        <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+          >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+          1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
+        <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
       </fig></section>
  <section audience="editor">

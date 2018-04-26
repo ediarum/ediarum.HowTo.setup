@@ -18,15 +18,16 @@
   <?oxy_comment_start author="lkirsten" timestamp="20180306T125938+0100" comment="Einleitung hinzufügen"?>
   <p><?oxy_comment_end?>Beispiel für ein nicht lesbares Wort aufgrund einer Streichung:</p>
   <fig>
-   <desc>Humboldt an Kunth, 26.08-30.10.1844</desc>
+   <desc><xref href="https://edition-humboldt.de/H0015182" format="html" scope="external">Alexander
+     von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [26. August 1844 – 30. Oktober 1844]
+    </xref>, Bl. 2r</desc>
    <image placement="break" href="../../img_avhr/nicht_lesbar.png" 
     id="image_x5t_zsq_wcb" scale="60"/>
   </fig>
-  <fig>
-   <desc>Humboldt an Kunth, 26.08-30.10.1844 - Webansicht</desc>
-   <image placement="break" href="../../img_avhr/nicht_lesbar.JPG" 
-    id="image_s5m_xsq_wcb" scale="60"/>
-  </fig>
+  <fig><desc><xref href="https://edition-humboldt.de/H0015182" format="html" scope="external">Alexander
+    von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [26. August 1844 – 30. Oktober 1844]
+   </xref>, Bl. 2r - Webansicht</desc><image placement="break"
+    href="../../img_avhr/nicht_lesbar.JPG" id="image_s5m_xsq_wcb" scale="60"/></fig>
   <!--<p>Lücke<?oxy_comment_start author="lkirsten" timestamp="20180216T114223+0100" comment="Meyen-Beispiele zurzeit noch mit &lt;damage&gt; ausgezeichnet; AvH an Meyen nach 1834 &quot;Ich erhalte…&quot;
 "?>
    aufgrund schadhafter Stellen<?oxy_comment_end?>:</p>-->

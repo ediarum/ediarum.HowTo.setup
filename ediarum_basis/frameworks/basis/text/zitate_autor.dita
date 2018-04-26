@@ -4,16 +4,28 @@
   <title>Zitate</title>
   <body>
     <section>
-      <p>
-        <ul id="ul_bs3_zt5_zcb">
-          <li>inline-Zitate werden nicht ausgezeichnet</li>
-          <li>Zitate werden mit Sachkommentar versehen und dort aufgelöst</li>
-        </ul>
-      </p>
+      <p>Zitiert der Autor aus anderen Werken oder Dokumenten, wird das Zitat textkritisch
+        bearbeitet, nicht aber inline als Zitat ausgezeichnet. Stattdessen wird es in einer <xref
+          href="sachanmerkung.dita#topic_lgx_rhx_5y">Sachanmerkung</xref> kommentiert und als Zitat
+        markiert, sowie - wenn möglich - mit einer Quellenangabe versehen. Es kann sich hierbei auch
+        um Stellen handeln, die nicht unmittelbar als Zitat erkennbar sind (bspw. Paraphrasen) oder
+        nicht getreu der Vorlage wiedergegeben werden. In solchen Fällen liegt die Entscheidung,
+        eine Sachanmerkung hinzuzufügen, beim
+        Bearbeiter.<?oxy_comment_start author="lkirsten" timestamp="20180426T114020+0200" comment="Screenshot von Zitaten im Text?"?></p>
+      <?oxy_comment_end?>
     </section>
     <section>
       <title>Bedienung</title>
-      <p/>
+      <p>Um eine Sachanmerkung zum Zitat anzulegen, muss die zu kommentierende Textstelle markiert
+        werden. Anschließend kann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
+          href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/> gedrückt werden, um die Textstelle
+        zu kommentieren. Der Cursor ist bereits im Kommentarfeld platziert, und es kann direkt mit
+        der Eingabe des Kommentars begonnen werden.</p>
+      <p>Soll innerhalb des Stellenkommentars ein Zitat als solches ausgezeichnet werden, muss es
+        markiert und über die Menüleiste „ediarum > Herausgeberbearbeitung > Zitat in Regest,
+        Kommentar etc.“ oder das Tastaturkürzel [Strg] + [Umschalt] + [Z] die entsprechende Funktion
+        ausgelöst werden. <i>Eine textkritische Bearbeitung von Zitaten ist nur möglich, wenn sie
+          zuvor auch als Zitat ausgezeichnet wurden.</i></p>
     </section>
   </body>
 </topic>

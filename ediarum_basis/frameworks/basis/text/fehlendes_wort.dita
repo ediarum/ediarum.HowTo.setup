@@ -36,8 +36,10 @@
       </fig><p>Einen <b>Sonderfall bei der Ergänzung fehlender Satzzeichen</b> stellen Sätze ohne
         Satzzeichen am Ende dar, die nicht klar als Frage oder Aussage zu identifizieren
         sind:</p><fig id="fig_c1f_fsj_ycb">
-        <desc>Humboldt an Meyen, Anfang 1830 - „Wollen Sie nicht beiliegende französische Bücher,
-          die ich eben von Paris bekomme, durchsehen und medizinischen Freunden schenken“</desc>
+          <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r - „Wollen Sie nicht beiliegende französische Bücher, die ich eben
+          von Paris bekomme, durchsehen und medizinischen Freunden schenken“</desc>
         <image placement="break" href="../../img_avhr/fragezeichen-punkt.jpg" scale="70"
            id="image_cqn_bgh_hbb"/>
       </fig><p>In Fällen wie diesen wird eine Einzelfallentscheidung getroffen zwischen zwei
@@ -52,7 +54,9 @@
           </li>
         </ul></p><p>In vorliegendem Fall wird der Satz als implizite Aufforderung gedeutet und nicht
         als Frage, und daher ein Punkt am Ende des Satzes ergänzt: </p><fig id="fig_d1f_fsj_ycb">
-        <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc>
+        <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
         <image href="../../img_avhr/fragezeichen-punkt-web.jpg" scale="70" id="image_uwf_f1g_jbb"/>
       </fig><p>Bei <b>Satzzeichen in mehrheitlich französischen Texten</b> wird stillschweigend auf
         die Ergänzung eines Leerzeichens vor Doppelpunkt, Semikolon, Frage- oder Ausrufezeichen
@@ -65,16 +69,22 @@
       Das Wort wird am Ende der Zeile ergänzt, auch wenn es in der Textvorlage nicht mehr in die
       Zeile passen würde. Es wird demnach <b>kein Zeilenumbruch</b> in die Ergänzung eingefügt.<fig
         id="fig_e1f_fsj_ycb">
-        <desc>Humboldt an Meyen, Anfang 1830 - „Ich habe so eben ein sehr freundliches
-          Antwortschreiben von Minister Altenstein über Ihre Reise.“</desc>
+        <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r - „Ich habe so eben ein sehr freundliches Antwortschreiben von
+          Minister Altenstein über Ihre Reise.“</desc>
         <image placement="break" href="../../img_avhr/abb29.png" scale="80" 
           id="image_bsk_lnr_gbb"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[Ich habe so eben ein sehr freundliches Antwortschreiben von Minister 
  Altenstein über Ihre Reise <supplied cert="high">erhalten</supplied>.]]></codeblock></section>
-  <fig><desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Kritischer Text)</desc><image placement="break" href="../../img_avhr/abb29-webkrit.JPG" 
+  <fig><desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external">Alexander von
+          Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang 1830]</xref>, Bl. 1r
+        - Webansicht (Kritischer Text)</desc><image placement="break" href="../../img_avhr/abb29-webkrit.JPG" 
     id="image_ght_jyj_ycb" scale="70"/> </fig>
   <fig id="fig_w44_pyj_ycb">
-   <desc>Humboldt an Meyen, Anfang 1830 - Webansicht (Lesetext)</desc>
+   <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external">Alexander
+          von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang 1830]</xref>,
+        Bl. 1r - Webansicht (Lesetext)</desc>
    <image placement="break" href="../../img_avhr/abb29-webles.JPG" scale="70" 
     id="image_x44_pyj_ycb"/>
   </fig>

@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_lgx_rhx_5y">
- <title>Stellenkommentar</title>
+ <title>Sachanmerkung</title>
  <body>
-    <section id="section_m2y_jqm_qbb"><title>Allgemein</title>Ein Stellenkommentar bezieht sich auf
-      eine einzelne Passage des Textes, typischerweise einen oder mehrere Sätze. Er soll das
-      Verständnis der einzelnen Textstelle befördern.<p>Zu unterscheiden ist der Stellenkommentar
-        zum einen vom übergreifenden editorischen Kommentar, der sich auf einen Text (z.B. einen
-        Brief) insgesamt bezieht. Zum anderen ist er zu unterscheiden von rein identifizierenden
+    <section id="section_m2y_jqm_qbb"><title>Allgemein</title>Eine Sachanmerkung bezieht sich auf
+      eine einzelne Passage des Textes, typischerweise einen oder mehrere Sätze. Sie soll das
+      Verständnis der einzelnen Textstelle befördern.<p>Zu unterscheiden ist die Sachanmerkung zum
+        einen vom übergreifenden editorischen Kommentar, der sich auf einen Text (z.B. einen Brief)
+        insgesamt bezieht. Zum anderen ist sie zu unterscheiden von rein identifizierenden
         Annotationen von im Text erwähnten Namen und Begriffen.</p></section>
-  <section>
-      <title>edition humboldt digital</title>
-      <?oxy_comment_start author="lkirsten" timestamp="20180306T134346+0100" comment="Kennzeichnung von Zitaten in Sachanmerkungen ergänzen; siehe topic zitate_autor"?>
-      <p><?oxy_comment_end?>Sachanmerkungen sind möglichst kurz und kompakt und konzentrieren sich
-        auf wesentliche Erläuterungen der Textstelle oder des größeren Textsegmentes. Sie können
-        Verweise auf Registereinträge, die Bibliographie der Edition oder externe Quellen
-        enthalten.</p>
-      <p><b>Personen und Orte</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
+  <section><title>edition humboldt
+        digital</title><?oxy_comment_start author="lkirsten" timestamp="20180306T134346+0100" comment="Kennzeichnung von Zitaten in Sachanmerkungen ergänzen; siehe topic zitate_autor"?><p><?oxy_comment_end?>Sachanmerkungen
+        sind möglichst kurz und kompakt und konzentrieren sich auf wesentliche Erläuterungen der
+        Textstelle oder des größeren Textsegmentes. Sie können Verweise auf Registereinträge, die
+        Bibliographie der Edition oder externe Quellen enthalten.</p><p><b>Personen, Orte und
+          Institutionen</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
         Ersterwähnung. Briefpartner und -orte werden analog zur allgemeinen Regel für Briefe auch in
-        Stellenkommentaren nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel
-        etwa werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<fig>
-          <desc>Humboldt an Meyen, 11. März 1829</desc>
+        Sachanmerkungen nicht ausgezeichnet. Im folgenden Kommentar aus dem Meyen-Briefwechsel etwa
+        werden nicht Meyen und Humboldt, sehr wohl aber die anderen Angaben referenziert.<fig>
+          <desc><xref href="https://edition-humboldt.de/H0002242" format="html" scope="external"
+              >Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref>,
+            Bl. 1r</desc>
           <?oxy_comment_start author="lkirsten" timestamp="20180306T134130+0100" comment="Vllt. Sachkommentar mit Ansicht der Textstelle"?>
           <image placement="break" href="../../img_avhr/sachanmerkung1.jpg" id="image_pnw_krn_hbb"
             scale="100"/>
           <?oxy_comment_end?>
-        </fig></p>
-      <p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der Ersterwähnung
-        ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder der Vor- und
-        Nachname ausgezeichnet.<fig>
-          <desc>Humboldt an Meyen, Anfang 1830</desc>
-          <image placement="break" href="../../img_avhr/sachanmerkung2.jpg" 
-            id="image_vfg_btn_hbb" scale="40"/>
-        </fig></p>
-      <p>Können <b>externe Quellen</b> für den Stellenkommentar ermittelt werden, wird auf diese
+        </fig></p><p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der
+        Ersterwähnung ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder
+        der Vor- und Nachname ausgezeichnet.<fig>
+          <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+              >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+              1830]</xref>, 1r</desc>
+          <image placement="break" href="../../img_avhr/sachanmerkung2.jpg" id="image_vfg_btn_hbb"
+            scale="40"/>
+        </fig></p><b>Zitate in Sachanmerkungen</b> werden also solche gekennzeichnet. Handelt es
+      sich um Zitate aus Manuskripten der Edition oder externe handschriftliche Quellen, werden
+      diese auch textkritisch bearbeitet.<p>Können <b>externe Quellen</b> für den Stellenkommentar
+        ermittelt werden, wird auf diese
         verwiesen<!-- (zur Bedienung in ediarum siehe <xref href="verweise.dita#topic_e1f_thv_ty">Verweise</xref>)-->.
         Als externe Quellen gelten solche, die nicht explizit in der Editions-Bibliographie erfasst
         sind. Dies sind etwa Quellen oder Dokumente, auf die Humboldt direkt verweist und deren
-        Standort beispielsweise über Kalliope nachgewiesen werden kann. </p>
-      <p>Im folgenden Brief an Meyen erwähnt Humboldt einen Brief von Charles Francis Hall:<fig
-          id="fig_fng_pk4_mbb">
-          <desc>Humboldt an Meyen, 1837</desc>
-          <image placement="break" href="../../img_avhr/abb32.png" scale="80" 
-            id="image_gng_pk4_mbb"/>
+        Standort beispielsweise über Kalliope nachgewiesen werden kann. </p><p>Im folgenden Brief an
+        Meyen erwähnt Humboldt einen Brief von Charles Francis Hall:<fig id="fig_fng_pk4_mbb">
+          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+              >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
+              [1837]</xref>, Bl. 1r</desc>
+          <image placement="break" href="../../img_avhr/abb32.png" scale="80" id="image_gng_pk4_mbb"
+          />
         </fig><fig id="fig_ftw_tk4_mbb">
-          <desc>Humboldt an Meyen, 1837 - Webansicht (Kritischer Text)</desc>
-          <image placement="break" href="../../img_avhr/abb32-web.jpg" scale="80" 
+          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+              >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
+              [1837]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+          <image placement="break" href="../../img_avhr/abb32-web.jpg" scale="80"
             id="image_gtw_tk4_mbb"/>
-        </fig></p>
-      <p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<fig>
+        </fig></p><p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<fig>
           <desc>Screenshot von http://kalliope-verbund.info/DE-611-HS-1308253</desc>
-          <image placement="break" href="../../img_avhr/kalliope.png" scale="80" 
+          <image placement="break" href="../../img_avhr/kalliope.png" scale="80"
             id="image_crd_5l4_mbb"/>
-        </fig></p>
-      <p>In einer Stellenkommentar werden die Originalquelle und wenn möglich die dazugehörige
-        Signatur angegeben:<fig id="fig_y43_sm4_mbb">
-          <desc>Stellenkommentar zu Humboldt an Meyen, 1837 (Webansicht)</desc>
+        </fig></p><p>In einer Stellenkommentar werden die Originalquelle und wenn möglich die
+        dazugehörige Signatur angegeben:<fig id="fig_y43_sm4_mbb">
+          <desc>Stellenkommentar zu <xref href="https://edition-humboldt.de/H0006511" format="html"
+              scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+              Mittwoch [1837]</xref>, Bl. 1r  - Webansicht</desc>
           <image placement="break" href="../../img_avhr/abb32-web-sachanmerkung.jpg" scale="80"
-             id="image_z43_sm4_mbb"/>
-        </fig></p>
-      <p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen Angaben in einem
-        Stellenkommentar müssen folgende Punkte berücksichtigt werden:</p>
-      <ol audience="editor" id="ol_w4p_ntn_hbb">
+            id="image_z43_sm4_mbb"/>
+        </fig></p><p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen
+        Angaben in einem Stellenkommentar müssen folgende Punkte berücksichtigt werden:</p><ol
+        audience="editor" id="ol_w4p_ntn_hbb">
         <li>Eintrag der bibliographischen Angabe in der AvH-R-Zotero-Datenbank muss vorhanden sein
           oder neu angelegt werden</li>
         <li>Die bibliographische Angabe in Zotero sollte einen Kurztitel haben. Wenn kein Kurztitel
@@ -71,11 +76,10 @@
         <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet (siehe <xref
             href="namen_kennzeichnen.dita#topic_rhd_g3v_ty">Namen, Werktitel und
           Sachbegriffe</xref>)</li>
-      </ol>
-    </section>
+      </ol></section>
    <section audience="editor">
       <title>Bedienung</title>
-      <p> Die zu kommentierende Textstelle markieren. In der Werkzeugleiste die Schaltfläche mit dem
+      <p>Die zu kommentierende Textstelle markieren. In der Werkzeugleiste die Schaltfläche mit dem
         Symbol <image href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/> drücken, um die
         Textstelle zu kommentieren. Der Cursor ist bereits im Kommentarfeld platziert, Sie können
         direkt mit der Eingabe des Kommentars beginnen.</p>
