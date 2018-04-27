@@ -15,18 +15,24 @@
       <p>Streichung überflüssiger Wörter:</p>
       <?oxy_comment_end?>
       <fig id="fig_mdk_tgk_ycb">
-        <desc>Humboldt an Meyen, 1833(?)</desc>
+        <desc><xref href="https://edition-humboldt.de/H0002241" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], 1833?</xref>, Bl.
+          1v</desc>
         <image placement="break" href="../../img_avhr/streichungen_hg_1.png" 
           id="image_ndk_tgk_ycb" scale="70"/>
       </fig>
     </section>
   <fig id="fig_qsc_t3k_ycb">
-   <desc>Humboldt an Meyen, 1833(?) - Webansicht (Kritischer Text)</desc>
+   <desc><xref href="https://edition-humboldt.de/H0002241" format="html" scope="external">Alexander
+          von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], 1833?</xref>, Bl. 1v - Webansicht
+        (Kritischer Text)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webkrit.JPG" 
     id="image_rsc_t3k_ycb"/>
   </fig>
   <fig id="fig_rkp_lps_zcb">
-   <desc>Humboldt an Meyen, 1833(?) - Webansicht (Lesetext)</desc>
+   <desc><xref href="https://edition-humboldt.de/H0002241" format="html" scope="external">Alexander
+          von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], 1833?</xref>, Bl. 1v - Webansicht
+        (Lesetext)</desc>
    <image placement="break" href="../../img_avhr/streichungen_hg_1_webles.JPG" 
     id="image_skp_lps_zcb"/>
   </fig>

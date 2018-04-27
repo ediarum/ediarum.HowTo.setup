@@ -13,13 +13,16 @@
      <li>Unsichere Lesart aufgrund des Schriftbildes </li>
     </ul>
    </p><fig>
-<desc>Humboldt an Meyen, 8.07.1833, 2r</desc>
+    <desc><xref href="https://edition-humboldt.de/H0006177" format="html" scope="external">Alexander
+      von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], um den 8. Juli 1833</xref>, 2r</desc>
     <image placement="break" href="../../img_avhr/unsichere_lesarten_illegible.png" id="image_mxd_tmq_wcb"
     />
 </fig>
    <codeblock outputclass="language-xml"><![CDATA[<unclear reason="illegible" cert="high">dienen</unclear>]]></codeblock>
    <fig>
-<desc>Humboldt an Meyen, 8.07.1833, 2r - Webansicht</desc>
+    <desc><xref href="https://edition-humboldt.de/H0006177" format="html" scope="external">Alexander
+      von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], um den 8. Juli 1833</xref>, 2r -
+     Webansicht</desc>
     <image placement="break" href="../../img_avhr/unsichere_lesarten_illegible-webansicht.png"
     id="image_h4w_zmq_wcb" />
 </fig>
