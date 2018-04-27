@@ -3,6 +3,116 @@
 <topic id="topic_m1d_zgf_qdb">
   <title>Symbole und Kürzel</title>
   <body>
-    <section><p></p></section>
+    <section><p>[Text schreibt CT]</p>
+      <p>[Beispiele such LK]<table frame="all" rowsep="1" colsep="1" id="table_l4m_tqf_qdb">
+          <title>Häufig auftretende
+            <?oxy_comment_start author="thomas" timestamp="20180427T122049+0200" comment="Vgl. https://de.wikipedia.org/wiki/Astronomisches_Symbol"?>Symbole<?oxy_comment_end?></title>
+          <tgroup cols="4" align="left">
+            <colspec colname="c1" colnum="1" colwidth="1*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*"/>
+            <colspec colname="c3" colnum="3" colwidth="1*"/>
+            <colspec colname="c4" colnum="4" colwidth="1*"/>
+            <thead>
+              <row>
+                <entry>Symbol</entry>
+                <entry>Element</entry>
+                <entry>atronomische Bedeutung</entry>
+                <entry>Unicode</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>☉</entry>
+                <entry>Gold</entry>
+                <entry>Sonne</entry>
+                <entry>U+2609</entry>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+              <row>
+                <entry/>
+                <entry/>
+                <entry/>
+                <entry/>
+              </row>
+            </tbody>
+          </tgroup>
+        </table></p></section>
   </body>
 </topic>
