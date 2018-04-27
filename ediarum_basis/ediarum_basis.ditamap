@@ -71,6 +71,7 @@
             <topicref href="frameworks/basis/text/fremdsprache.dita"/> 
             <!--<topicref href="frameworks/basis/text/textstellen.dita"/> -->
             <topicref href="frameworks/basis/text/namen_kennzeichnen.dita"/>
+            <topicref href="frameworks/basis/text/symbole_ehd.dita" product="avhr"/>
         </topicref>
         <topicref href="frameworks/basis/symbole.dita" audience="editor"/>
     </chapter>
