@@ -24,7 +24,8 @@
    <p>Als Standardsprache ist Deutsch vorgegeben. Abweichungen auf Satz- oder Satzteil-Ebene bzw. in
         Wortfolgen werden in der jeweiligen Sprache ausgezeichnet:</p>
    <fig>
-    <desc>Humboldt an Kunth, Potsdam, 9.12.1849, Bl. 1r/1v</desc>
+    <desc><xref href="https://edition-humboldt.de/H0011540" format="html" scope="external">Alexander
+            von Humboldt an Carl Sigismund Kunth. Potsdam, 9. Dezember 1849,</xref> Bl. 1r/1v</desc>
     <codeblock outputclass="language-xml"><![CDATA[    <p>Auszug aus einem Schreiben
        <lb/><persName key="H0011993">Sir William Hooker’s</persName> […]</p>
      <p><foreign xml:lang="eng">In the matter of <persName key="H0011641">M<hi rendition="#u"><hi rendition="#sup">r.</hi></hi> Hannemann</persName>,
@@ -36,7 +37,8 @@
      <p>Wenn auch <persName key="H0011993">Hooker</persName> erst <lb/>[…]</p>]]></codeblock>
    </fig>
    <fig>
-    <desc>Isle de Cube, Bl. 129r</desc>
+     <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external"
+            >Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r</desc>
    <codeblock outputclass="language-xml"><![CDATA[Elle est très charactérisée <lb/>par le 
     <foreign xml:lang="deu">ebene Bruch ins flachmuschlige übergehend, röthlichweiß, dünn
       <lb break="no"/>schiefrig</foreign> identique a celle de <placeName key="H0008088">Pappenheim</placeName> surtout à las <placeName key="H0011486">Lomas de

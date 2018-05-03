@@ -17,7 +17,7 @@
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
     Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><fig>
-<desc>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
+     <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux Canaries et à Cumana, Bl. 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
 <image placement="break" href="../../img_avhr/abb10-markierung.jpg"
       id="image_zpy_1bg_hbb" scale="80"/>
 </fig>
@@ -25,7 +25,7 @@
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
     Einweisungszeichen werden, unabhängig von ihrer Erscheinungsform mit dem leere Element 
     <xmlelement>metamark/</xmlelement> gekennzeichnet.</p><fig>
-<desc>ART I, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
+     <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux Canaries et à Cumana, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
      <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
      placement="break" href="../../img_avhr/abb11.png" scale="70" 
@@ -53,7 +53,7 @@
     <lb/>leider nicht wahr 1806!
   </note>]]></codeblock>
    <fig>
-    <desc>ART I, 18v/19r</desc>
+    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux Canaries et à Cumana, 18v/19r</desc>
     <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" 
      id="image_wc4_fyj_wcb" scale="80"/>
    </fig>
