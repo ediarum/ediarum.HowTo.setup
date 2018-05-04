@@ -13,17 +13,17 @@
   <section product="avhr">
       <title>edition humboldt digital</title>
       <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
-        werden in der Transkription anhand neuer Absätze abgebildet, dabei werden typografische
-        Leerräume zu Zeilenanfang allerdings nicht erfasst. </p>
-      <p>Es kommt vor, dass ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
-        unterschieden werden kann von einem Zeilenende, dass zugleich einen Absatz abschließt. In
+        werden in der Transkription anhand neuer Absätze abgebildet, typografische Leerräume am
+        Zeilenanfang werden hingegen nicht erfasst. </p>
+      <p>Bisweilen kann ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
+        unterschieden werden von einem Zeilenende, das zugleich auch einen Absatz abschließt. In
         diesen Fällen werden inhaltliche Kriterien herangezogen, um Zeilen- und Absatzwechsel
-        voneinander zu unterscheiden, beispielsweise wenn das Zeilen- und Satzende mit dem Abschluss
-        eines geschlossenen Argumentationsstrangs zusammenfallen. </p>
+        voneinander zu unterscheiden. Fallen beispielsweise Zeilen- und Satzende mit dem Abschluss
+        eines Argumentationsstrangs zusammen, weist dies auf ein Absatzende hin.</p>
       <p>Im folgenden Beispiel liegen drei Absätze vor:</p>
       <fig>
         <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r</desc>
-        <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80" 
+        <image placement="break" href="../../img_avhr/abb3-markierung.jpg" scale="80"
           id="image_klm_jlh_hbb"/>
       </fig>
       <p>Im XML-Code werden Absätze innerhalb des <xmlelement>p</xmlelement>-Elementes kodiert (das
@@ -43,13 +43,15 @@
       <p>In der Webansicht werden Absätze im Gegensatz zu Zeilenumbrüchen sowohl im Kritischen als
         auch im Lesetext dargestellt:</p>
       <fig>
-        <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r - Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" 
-          id="image_kxx_ylh_hbb" scale="70"/>
+        <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r -
+          Webansicht (Kritischer Text)</desc>
+        <image placement="break" href="../../img_avhr/abb3-webkrit.jpg" id="image_kxx_ylh_hbb"
+          scale="70"/>
       </fig>
       <fig>
-        <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r - Webansicht (Lesetext)</desc>
-        <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70" 
+        <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r -
+          Webansicht (Lesetext)</desc>
+        <image placement="break" href="../../img_avhr/abb3-weblese.JPG" scale="70"
           id="image_e34_bml_scb"/>
       </fig>
     </section>

@@ -15,25 +15,26 @@
       <title>edition humboldt digital</title>
       <p>Für die Bearbeitung der Reisetagebücher wird zwingend die sowjetische Foliierung der
         Vorlage mit recto- und verso-Zählung (1r, 1v, usw.) übernommen. In Zweifelsfällen (wie etwa
-        den Amerikanischen Reisetagebüchern) wird sich an der Foliierung der Staatsbibliothek zu
-        Berlin orientiert, die in der Werkansicht der Digitalisierten Sammlungen als „Druckseite“
+        den Amerikanischen Reisetagebüchern) wird dient die Foliierung der Staatsbibliothek zu
+        Berlin als Orientierung, die in der Werkansicht der Digitalisierten Sammlungen als „Druckseite“
         bezeichnet wird (im Gegensatz zur physischen „Scanseite“).</p>
       <p>
         <fig>
-<desc>Foliierung „5r“ in der Werkansicht der Digitalisierten Sammlungen der SBB
-            (http://resolver.staatsbibliothek-berlin.de/SBB00019EF200000000, 1.02.2018)</desc>
+          <desc><xref href="http://resolver.staatsbibliothek-berlin.de/SBB00019EF200000000"
+              format="html" scope="external">Alexander von Humboldt: II. Considerations general sur
+              le Geogr des plants á l'entrée de la Zone torride. Resultats</xref>, Bl. 5r -
+            Foliierung in der Werkansicht der Digitalisierten Sammlungen der SBB </desc>
 <image placement="break" href="../../img_avhr/seitenwechsel-markierung.jpg" scale="90"
            id="image_fcm_xcn_scb"/>
 </fig>
       </p>
       <p>Bei vielen Nachlassbeständen ist keine Foliierung durch das bestandshaltende Archiv
-        vorgegeben, in diesen Fällen wird die Foliierung nach folgenden Regeln notiert:</p>
+        vorgegeben. In diesen Fällen wird die Foliierung nach folgenden Regeln notiert:</p>
       <ul id="ul_vnh_fr2_bbb">
         <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2)</li>
-        <li>Für die Bestimmung der Seitenwechsel wird sich am
-          <?oxy_comment_start author="lkirsten" timestamp="20180220T151333+0100" comment="was heißt hier Schriftbild vs. Dokument? Beispiel impliziert eher Orientierung am Dokument"?>Schriftbild,
-          nicht am Dokument<?oxy_comment_end?> orientiert – im folgenden Beispiel werden somit 4
-          Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt gezählt:</li>
+        <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument
+          orientiert – im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1
+          Blatt gezählt:</li>
       </ul>
       <fig id="fig_p3t_m2g_jbb"><desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external">Alexander von
             Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22. August
