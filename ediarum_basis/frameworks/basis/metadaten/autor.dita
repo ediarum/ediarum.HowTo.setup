@@ -15,7 +15,7 @@
                 (Personenregister) auswählen.</p>
             <p><image href="../img/autor.png" id="image_nhb_rld_pdb"/></p>
             <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
-                    href="../brief/sender_empfaenger.dita" format="xml">„Absender“</xref>  im Menü
+                    href="../brief/sender_empfaenger.dita" format="dita">„Absender“</xref>  im Menü
                 „Briefmetadaten“ verwenden.</p>
         </section>
         <section>

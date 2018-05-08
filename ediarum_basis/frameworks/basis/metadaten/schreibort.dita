@@ -14,7 +14,7 @@
                 (Ortsregister) auswählen.</p>
             <p><image href="../img/schreibort.png" id="image_nyh_2md_pdb"/></p>
             <p>Bei der Transkription eines Briefes müssen Sie die Funktion <xref
-                    href="../brief/sender_empfaenger.dita" format="xml">„Schreibort“</xref> im Menü
+                    href="../brief/sender_empfaenger.dita" format="dita">„Schreibort“</xref> im Menü
                 „Briefmetadaten“ verwenden.</p>
         </section>
         <section>

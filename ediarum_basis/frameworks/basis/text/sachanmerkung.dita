@@ -74,7 +74,7 @@
         <li>Des Kurztitel muss im Stellenkommentar nach dem Muster <b>Humboldt 1826, II, 235</b>
           [Kurztitel, Band, Seite] angegeben werden</li>
         <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet (siehe <xref
-            href="namen_kennzeichnen.dita">Namen, Werktitel und
+            href="namen_kennzeichnen.dita" format="dita">Namen, Werktitel und
           Sachbegriffe</xref>)</li>
       </ol></section>
    <section audience="editor">

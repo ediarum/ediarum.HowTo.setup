@@ -27,7 +27,7 @@
             <p>In der Werkzeugleiste steht im Menü „Metadaten“ die entsprechende Funktion „Regest“
                 bereit. Im Regest können Personennamen etc. mit dem Register verknüpft werden. Wird
                 aus einer historischen Quelle zitiert, muss die Funktion <xref
-                    href="zitat_in_regest.dita" format="xml">„Zitat im Regest, Sachanmerkung
+                    href="zitat_in_regest.dita" format="dita">„Zitat im Regest, Sachanmerkung
                     etc.“</xref> verwendet werden, um Herausgebertext und Quellenzitat unterscheiden
                 zu können.</p>
         </section>
