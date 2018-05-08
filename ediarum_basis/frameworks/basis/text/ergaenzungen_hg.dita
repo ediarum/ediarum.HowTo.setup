@@ -86,11 +86,11 @@
         <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
       </ul><table id="table_pzj_4pg_hbb">
         <title>Häufige Beispiele für Abkürzungen</title>
-        <tgroup cols="3">
+        <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
           <colspec colname="c3" colnum="3" colwidth="1.0*"/>
-          <colspec colname="c4" colnum="3" colwidth="1.0*"/>
+          <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
               <entry><b>Befund</b></entry>
@@ -132,6 +132,7 @@
             <row>
               <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113123+0100" comment="kein humboldt-beispiel gefunden
 "?></entry><?oxy_comment_end?>
+              <entry></entry>
               <entry>usw./etc./&amp;c./&amp;/ca.</entry>
               <entry>
                 <p>usw./etc./&amp;c./&amp;/ca.</p>
@@ -185,7 +186,7 @@
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
         <title>Häufige Beispiele für Kürzel</title>
-        <tgroup cols="3">
+        <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
           <colspec colname="c3" colnum="3" colwidth="1.0*"/>
@@ -275,7 +276,7 @@
           gekennzeichnet und ergänzt</li>
       </ul><table id="table_v4q_vh5_zcb">
         <title>Häufige Beispiele für Sonderkürzel</title>
-        <tgroup cols="3">
+        <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
           <colspec colname="c3" colnum="3" colwidth="1.0*"/>
