@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_isb_sb2_vw">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_isb_sb2_vw">
  <title>TEI</title>
- <conbody>
+ <body>
   <p>Eine XML-Datei kann auf ein Schema zurückgreifen, dass die „Grammatik“ vorgibt, d.h. welche
    Elemente gibt es und wie bzw. wo dürfen sie verwendet werden. Anhand dieses Schemas kann die
    Software überprüfen, ob das Dokument das Schema korrekt umsetzt (validiert) oder nicht.</p>
@@ -96,7 +96,7 @@
     </tbody>
    </tgroup>
   </table>
- </conbody>
+ </body>
  <related-links>
   <linklist scope="external">
    <title>Deutsches Textarchiv</title>
@@ -105,4 +105,4 @@
   
   
  </related-links>
-</concept>
+</topic>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_h2m_bb2_vw">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="concept_h2m_bb2_vw">
  <title>Einsatz von XML</title>
- <conbody>
+ <body>
   <p>Die Texte werden als XML-Dokument (.xml) gespeichert und bereitgehalten. XML bedeutet
    „Extensible Markup Language“ und ist eine Auszeichnungssprache, mit der der Inhalt eines
    Dokumentes beschrieben werden kann. So können beispielsweise Absätze oder unterstrichene Wörter
@@ -84,5 +84,5 @@ ist.</p>]]></codeblock>
   <p>Die Bezeichnung leer bezieht sich allerdings nicht auf Attribute. Gerade leere Elemente haben
    meistens Attribute, die weitere Informationen zum Element in sich tragen (im Codebeispiel wird
    die Folioangabe dort notiert).</p>
- </conbody>
-</concept>
+ </body>
+</topic>
