@@ -43,8 +43,8 @@
             <topicref href="frameworks/basis/text/listen.dita"/>
             <topicref href="frameworks/basis/text/tabelle.dita"/>
             <topicref href="frameworks/basis/text/anmerkung_ms.dita"/>
-<!--            <topicref href="frameworks/basis/text/nebenrechnung.dita" product="avhr"/>-->
-           <!-- <topicref href="frameworks/basis/text/zitate_autor.dita" product="avhr"/>-->
+            <topicref href="frameworks/basis/text/nebenrechnung.dita" product="avhr"/>
+            <topicref href="frameworks/basis/text/zitate_autor.dita" product="avhr"/>
             <topicref href="frameworks/basis/text/zeichnung.dita"/>
         </topicref>
         <topicref href="frameworks/basis/text/_intro_autor.dita">
@@ -97,7 +97,7 @@
         <topicref href="frameworks/index/person.dita"/>
         <topichead navtitle="Literatur und Zotero">
           <topicref href="frameworks/index/zotero.dita"/>
-          <topicref href="frameworks/index/zotero_titelaufnahme.dita" product="avhr"/>  
+          <topicref href="frameworks/index/zotero_titelaufnahme.dita" product="avhr" audience="editor"/>  
           <topicref href="frameworks/index/zotero_installieren.dita" audience="editor"/>
           <topicref href="frameworks/index/zotero_einrichten.dita" audience="editor"/>
         </topichead>        

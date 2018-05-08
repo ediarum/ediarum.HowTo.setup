@@ -11,21 +11,23 @@
         um Stellen handeln, die nicht unmittelbar als Zitat erkennbar sind (bspw. Paraphrasen) oder
         nicht getreu der Vorlage wiedergegeben werden. In solchen Fällen liegt die Entscheidung,
         eine Sachanmerkung hinzuzufügen, beim
-        Bearbeiter.<?oxy_comment_start author="lkirsten" timestamp="20180426T114020+0200" comment="Screenshot von Zitaten im Text?"?></p>
+        Bearbeiter.<?oxy_comment_start author="lkirsten" timestamp="20180426T114020+0200" comment="Beispiel für Zitat mit Sachanmerkung
+"?></p>
       <?oxy_comment_end?>
     </section>
     <section>
       <title>Bedienung</title>
       <p>Um eine Sachanmerkung zum Zitat anzulegen, muss die zu kommentierende Textstelle markiert
         werden. Anschließend kann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
-          href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/> gedrückt werden, um die Textstelle
+          href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/> geklickt werden, um die Textstelle
         zu kommentieren. Der Cursor ist bereits im Kommentarfeld platziert, und es kann direkt mit
         der Eingabe des Kommentars begonnen werden.</p>
-      <p>Soll innerhalb des Stellenkommentars ein Zitat als solches ausgezeichnet werden, muss es
+      <p>Soll innerhalb der Sachanmerkung ein Zitat als solches ausgezeichnet werden, muss es
         markiert und über die Menüleiste „ediarum > Herausgeberbearbeitung > Zitat in Regest,
         Kommentar etc.“ oder das Tastaturkürzel [Strg] + [Umschalt] + [Z] die entsprechende Funktion
-        ausgelöst werden. <i>Eine textkritische Bearbeitung von Zitaten ist nur möglich, wenn sie
-          zuvor auch als Zitat ausgezeichnet wurden.</i></p>
+        ausgelöst werden. Wird diese Auszeichnung verwendet, ist ein manuelles Setzen von
+        Anführungszeichen nicht mehr nötig. <i>Eine textkritische Bearbeitung von Zitaten ist nur
+          möglich, wenn sie zuvor auch als Zitat ausgezeichnet wurden.</i></p>
     </section>
   </body>
 </topic>

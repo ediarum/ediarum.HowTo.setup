@@ -17,15 +17,17 @@
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
     Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><fig>
-<desc>ART I, 17r (rote Markierung = Ergänzung, blaue Markierung = Anmerkung)</desc>
+     <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux
+     Canaries et à Cumana, Bl. 17r (Die rote Markierung zeigt Ergänzungen, die blaue Markierung
+     Anmerkungen.)</desc>
 <image placement="break" href="../../img_avhr/abb10-markierung.jpg"
       id="image_zpy_1bg_hbb" scale="80"/>
 </fig>
    <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
-    Einweisungszeichen werden, unabhängig von ihrer Erscheinungsform mit dem leere Element 
-    <xmlelement>metamark/</xmlelement> gekennzeichnet.</p><fig>
-<desc>ART I, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
+    Einweisungszeichen werden erfasst und unabhängig von ihrer Erscheinungsform im Manuskript stets
+    mit einem einheitlichen Symbol in der Webansicht wiedergegeben. </p><fig>
+     <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux Canaries et à Cumana, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
      <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
      placement="break" href="../../img_avhr/abb11.png" scale="70" 
@@ -53,7 +55,7 @@
     <lb/>leider nicht wahr 1806!
   </note>]]></codeblock>
    <fig>
-    <desc>ART I, 18v/19r</desc>
+    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I: Voyage d'Espagne aux Canaries et à Cumana, 18v/19r</desc>
     <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" 
      id="image_wc4_fyj_wcb" scale="80"/>
    </fig>
@@ -73,7 +75,8 @@
     Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum“
     über die Funktion „Sonderfunktion > Einweisungszeichen“ einfügen. Dazu muss der Cursor vorher
     allerdings in die Anmerkung gesetzt worden sein. Anstelle des Menüs können Sie auch die
-    Tastenkombination [Strg] + [Umschalt] + [E] verwenden. </p>  
+    Tastenkombination [Strg] + [Umschalt] + [E] verwenden. Wird diese Funktion ausgeführt, ist ein
+    manuelles Notieren des Einweisungszeichen nicht mehr nötig.</p>  
   </section>
   <section>
    <title>Kodierung</title>
@@ -136,7 +139,7 @@
       </strow>
    </simpletable>
    <p>Sofern in der Vorlage ein Einweisungszeichen des Autors vorhanden ist, wird dieses durch das
-    generalisierte <xmlelement>metamark/</xmlelement> kodiert. Die Erscheinungsform des
+    leere Element <xmlelement>metamark/</xmlelement> kodiert. Die Erscheinungsform des
     Einweisungszeichen (Stern, Nummer etc.) wird dabei nicht erfasst.</p></section>
   <section>
    <title>Anzeige</title>

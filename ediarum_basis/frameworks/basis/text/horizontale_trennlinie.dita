@@ -10,13 +10,14 @@
         </section>
         <section>
             <title>edition humboldt digital</title>
+            <p>Horizontale Trennlinien werden erfasst und im Kritischen Text angezeigt.</p>
             <p>
                 <fig>
                     <desc><xref href="https://edition-humboldt.de/H0000608" format="html"
                             scope="external">Alexander von Humboldt an Carl Sigismund Kunth.
                             Potsdam, Freitag, [24. November 1848]</xref>, Bl. 2r</desc>
                     <image placement="break" href="../../img_avhr/abb8.png" scale="90"
-                         id="image_g1c_s43_dbb"/>
+                        id="image_g1c_s43_dbb"/>
                 </fig>
             </p>
             <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>[…]Zürnen Sie mir nicht über so
@@ -29,8 +30,16 @@
    <lb/>an einem Blutschlage
    <lb/>heute früh um 7½ Uhr
    <lb/>verschieden.[…]</p>]]></codeblock>
-            <!--<?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
-            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>-->
+            <fig id="fig_abc_2qf_sdb">
+                <desc><xref href="https://edition-humboldt.de/H0000608" format="html"
+                        scope="external">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam,
+                        Freitag, [24. November 1848]</xref>, Bl. 2r - Webansicht (Kritischer
+                    Text)</desc>
+                <image placement="break" href="../../img_avhr/abb8_webansicht.JPG"
+                    id="image_bbc_2qf_sdb" scale="70"/>
+            </fig>
+            <?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
+            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>
         </section>        
         <section audience="editor">
             <title>Bedienung</title>
