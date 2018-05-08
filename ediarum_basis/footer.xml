@@ -4,7 +4,7 @@
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
             <h3>Über diese Publikation</h3>
             <p>
-                Richtlinien der <i><a href="http://edition-humboldt.de">edition humboldt digital</a></i>, hg. von Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften 2018.</p>
+                Richtlinien der <i><a href="https://edition-humboldt.de">edition humboldt digital</a></i>, hg. von Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften 2018.</p>
         <p>Die <I>edition humboldt digital</I> wird im Rahmen des Akademienvorhabens „Alexander von Humboldt auf Reisen – Wissenschaft aus der Bewegung“ erarbeitet.</p>
         </div>
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
@@ -15,14 +15,14 @@
         </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
         <h3>Lizenz</h3>
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="http://edition-humboldt.de/resources/images/cc-by-sa.png" width="110"/></a>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110"/></a>
         <p><br/>Alle Inhalte dieser Seite unterstehen, soweit nicht anders gekennzeichnet, der <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Lizenz CC BY-SA 4.0</a>.</p>
     </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
         <h3>Feedback</h3>
         <p>Senden Sie Rückmeldungen zu den Editionsrichtlinien an: <br/><a href="mailto:edition-humboldt@bbaw.de?subject=Feedback&amp;body=Feedback zu den Editionsrichtlinien von edition humboldt digital, URL: [sub]" onclick="this.href = this.href.replace('[sub]',window.location)">edition-humboldt@bbaw.de</a> </p>
-        <a href="http://www.bbaw.de"><img style="width: 250px;" src="http://edition-humboldt.de/resources/images/bbaw_logo.svg" title="Berlin-Brandeburgische Akademie der Wissenschaften" alt="Das Logo der Berlin-Brandenburgischen Akademie der Wissenschaften zeigt den Schriftzug neben einem Adler vor einem Sternenhimmel"/></a><br/>
-            <p style="text-align: right;"><a href="http://edition-humboldt.de/impressum.xql">Impressum</a>
+        <a href="http://www.bbaw.de"><img style="width: 250px;" src="https://edition-humboldt.de/resources/images/bbaw_logo.svg" title="Berlin-Brandeburgische Akademie der Wissenschaften" alt="Das Logo der Berlin-Brandenburgischen Akademie der Wissenschaften zeigt den Schriftzug neben einem Adler vor einem Sternenhimmel"/></a><br/>
+            <p style="text-align: right;"><a href="https://edition-humboldt.de/impressum.xql">Impressum</a>
             </p>
         <p style="text-align: right; color: silver;">Version 0.11. Stand: 08.05.2018</p>
         </div>
