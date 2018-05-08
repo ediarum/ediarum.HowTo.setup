@@ -7,13 +7,13 @@
       <p>[Beispiele sucht LK]<table frame="all" rowsep="1" colsep="1" id="table_l4m_tqf_qdb">
           <title>Häufig auftretende
             <?oxy_comment_start author="thomas" timestamp="20180427T122049+0200" comment="Vgl. https://de.wikipedia.org/wiki/Astronomisches_Symbol"?>Symbole<?oxy_comment_end?></title>
-          <tgroup cols="4" align="left">
+          <tgroup cols="6" align="left">
             <colspec colname="c1" colnum="1" colwidth="1*"/>
             <colspec colname="c2" colnum="2" colwidth="1*"/>
             <colspec colname="c3" colnum="3" colwidth="1*"/>
             <colspec colname="c4" colnum="4" colwidth="1*"/>
-            <colspec colname="c5" colnum="3" colwidth="1*"/>
-            <colspec colname="c6" colnum="4" colwidth="1*"/>
+            <colspec colname="c5" colnum="5" colwidth="1*"/>
+            <colspec colname="c6" colnum="6" colwidth="1*"/>
             <thead>
               <row>
                 <entry>Befund</entry>
