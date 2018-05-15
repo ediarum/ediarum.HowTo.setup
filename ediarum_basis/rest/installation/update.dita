@@ -15,22 +15,30 @@
         </context>
         <steps>
             <step>
-                <cmd>Nach Start der Anwendung (oder im Menü Hilfe „Check for add-ons updates“ auswählen)
-                    erscheint eine Meldung „Updates available“ auf „Review Updates“ klicken.</cmd>
+                <cmd>Im Menü Hilfe „Auf Add-On Updates überprüfen“ auswählen.</cmd>
+                <info><image href="img/update1.png" id="image_nsh_zrh_vdb"/></info>
             </step>
             <step>
-                <cmd>Im Dialogfenster unter „Install/Aktualisieren“ ein Häkchen bei der gewünschten
-                    Arbeitsumgebung setzen, deren Status auf „Can be installed“ steht.</cmd>
+                <cmd>Im Fenster Häkchen kontrollieren (ob die gewünschten Add-Ons ausgewählt sind)
+                    und mit „Aktualisieren“ bestätigen. </cmd>
+                <info><image href="img/update2.png" id="image_uzb_4sh_vdb"/><p>Add-Ons, für die
+                        Updates vorliegen, werden mit „Update verfügbar“ angezeigt und sind deswegen
+                        schon mit einem Häkchen versehen. Add-Ons, für die <i>keine</i> Updates
+                        vorliegen, werden mit dem Zusatz „Installiert“ angezeigt und sind nicht
+                        ausgewählt.</p></info>
             </step>
             <step>
-                <cmd>Im nachfolgenden Fenster „License and signature“ das Häkchen unten rechts bei „I
-                    accept all terms of the end user license agreement“ setzen</cmd>
+                <cmd>Im nachfolgenden Fenster „License and signature“ das Häkchen unten bei „Ich
+                    akzeptiere die Bestimmungen der Lizenzerklärung für Endbenutzer“ setzen.</cmd>
             </step>
             <step>
-                <cmd>Auf „Aktualisieren“ klicken</cmd>
+                <cmd>Auf „Beenden“ klicken</cmd>
             </step>
             <step>
-                <cmd>Nach Erfolgsmeldung das Programm neu starten</cmd>
+                <cmd>Im Dialogfenster mit „Trotzdem fortsetzen“ bestätigen.</cmd>
+            </step>
+            <step>
+                <cmd>Programm neustarten.</cmd>
             </step>
         </steps>
     </taskbody>
