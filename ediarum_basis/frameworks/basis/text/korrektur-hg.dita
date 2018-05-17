@@ -80,16 +80,24 @@
     Grenzfälle werden anhand repräsentativer Beispiele im Abschnitt <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierung</xref> dokumentiert.</p>
   </section>
-  <section id="section_gl2_thg_qbb" audience="editor">
-   <title>Bedienung</title>
-   <p>Um Fehler des Autors in ediarum zu korrigieren, transkribieren Sie zuerst das fehlerhafte Wort
-    (bzw. die Wörter) getreu der Vorlage. Danach markieren Sie dieses Wort (bzw. die Wörter) und
-    wählen in der Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
+  <section id="section_gl2_thg_qbb" audience="editor"><title>Bedienung</title><p>Um Fehler des
+    Autors in ediarum zu korrigieren, transkribieren Sie zuerst das fehlerhafte Wort (bzw. die
+    Wörter) getreu der Vorlage. Danach markieren Sie dieses Wort (bzw. die Wörter) und wählen in der
+    Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
      id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber“ aus. Im dann
     erscheinenden Dialogmenü werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur, die
     Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
-    bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben können.</p>
-  </section>
+    bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben
+    können.</p><p>Soll eine unsichere Lesart eines Fehler und seiner Korrektur gekennzeichnet
+    werden, besteht die Möglichkeit nur eines oder beide Kindelemente auszuzeichnen. Sollen beide
+    als unsichere Lesart gekennzeichnet werden, ist darauf zu achten, dass im Autormodus das
+     <xmlelement>choice</xmlelement>-Element ausgewählt ist. Um sicherzugehen, dass das gesamte
+    Element markiert wurde, kann die Navigationsleiste oberhalb des Bearbeitungsfensters genutzt
+    werden: <image href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"
+    /></p>Der Cursor kann an irgendeine Stelle im zu markierenden Text gesetzt und das entsprechende
+   Element in der Navigationsleiste per Klick ausgewählt werden. Auf dieselbe Weise können auch die
+   Kindelemente ausgewählt werden, falls nur eines von beiden als unsichere Lesart ausgezeichnet
+   werden soll.</section>
   <section>
    <title>Kodierung</title>
    <p>Im edierten Text können Korrekturen für Fehler des Autors mithilfe des <xmlelement>choice</xmlelement> notiert werden. Das

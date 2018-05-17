@@ -122,7 +122,9 @@
                     placement="break" align="center"/>
                 </fig>
               </entry>
-              <entry>Humboldt an Martius, 03.03.1829</entry>
+              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 03. März
+                  1829</xref></entry>
               <entry>Ew</entry>
               <entry>
                 <p>Euer, Eure</p>
@@ -147,7 +149,7 @@
                     placement="break" align="center"/>
                 </fig>
               </entry>
-              <entry>ART I, 2r</entry>
+              <entry>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 2r</entry>
               <entry>c. à. d./ c. a. d.</entry>
               <entry>c’est-à-dire</entry>
             </row>
@@ -237,7 +239,9 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry>Humboldt an Martius, 03.03.1829</entry>
+              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 03. März
+                  1829</xref></entry>
               <entry>Wohlgeboren/er/e</entry>
               <entry>Wohlgeboren/er/e</entry>
             </row>
@@ -368,11 +372,19 @@
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
       </fig></section>
- <section audience="editor">
-  <title>Bedienung</title>
-  <p>In der Werkzeugleiste steht die Funktion „Abkürzungen auflösen“ unter dem Symbol <image
-          href="../../img/ex16.png" id="image_kdc_d3f_2y"/> zur Verfügung.</p>
- </section>
+ <section audience="editor"><title>Bedienung</title><p>In der Werkzeugleiste steht die Funktion
+        „Abkürzungen auflösen“ unter dem Symbol <image href="../../img/ex16.png"
+          id="image_kdc_d3f_2y"/> zur Verfügung. </p><p>Soll eine unsichere Lesart einer Abkürzung
+        und deren Auflösung gekennzeichnet werden, besteht die Möglichkeit nur eines oder beide
+        Kindelemente auszuzeichnen. Sollen beide als unsichere Lesart gekennzeichnet werden, ist
+        darauf zu achten, dass im Autormodus das <xmlelement>choice</xmlelement>-Element ausgewählt
+        ist. Um sicherzugehen, dass das gesamte Element markiert wurde, kann die Navigationsleiste
+        oberhalb des Bearbeitungsfensters genutzt werden: <image
+          href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"/></p>Der
+      Cursor kann an irgendeine Stelle im zu markierenden Text gesetzt und das entsprechende Element
+      in der Navigationsleiste per Klick ausgewählt werden. Auf dieselbe Weise können auch die
+      Kindelemente ausgewählt werden, falls nur eines von beiden als unsichere Lesart ausgezeichnet
+      werden soll.</section>
   <section>
    <title>Kodierung</title>
    <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen

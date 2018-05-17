@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_fkv_xpw_vdb">
+  <title>Sachbegriffe</title>
+  <body>
+    <section><title>Allgemeines</title><p>In der Vorlage oder im
+        <?oxy_comment_start author="lkirsten" timestamp="20180517T181314+0200" comment="werden Sachbegriffe auch im Kommentar ausgezeichnet?"?>Kommentar<?oxy_comment_end?>
+        genutzte Sachbegriffe werden ausgezeichnet und mit einem Registereintrag verknüpft.</p></section>
+    <section>
+      <title>Bedienung</title>
+      <p/>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Sachbegriffe, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt
+        werden, werden mit dem Element <xmlelement>rs</xmlelement>, das das Attribut
+          <xmlatt>type</xmlatt> mit dem Wert <codeph>term</codeph> enthält, ausgezeichnet. Die ID
+        des verknüpften Registereintrags wird im Attribut <xmlatt>key</xmlatt> notiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[Mr. <persName key="H0012737">James Arnold</persName>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique…“</bibl>]]></codeblock>
+    </section>
+  </body>
+</topic>

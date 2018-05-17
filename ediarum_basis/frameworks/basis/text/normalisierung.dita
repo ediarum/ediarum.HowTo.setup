@@ -452,15 +452,22 @@
             Herausgeber</xref>).</li>
         </ul>
       </p></section>
-    <section audience="editor">
-      <title>Bedienung </title>
-      <p>Um Fehler in der Vorlage explizit zu normalisieren, transkribieren Sie zuerst das
-        fehlerhafte Wort (bzw. die Wörter) getreu der Vorlage. Markieren Sie anschließend das Wort
-        (bzw. die Wörter) und wählen Sie in der Werkzeugleiste im Menü mit dem Symbol <image
-          href="../../img/corr-sic16.gif" id="image_mpc_d3f_2y"/> die Funktion „Normalisierte
-        Schreibung“ aus. Danach ist der Cursor bereits in demjenigen Feld platziert, in dem Sie
-        ihren Korrekturvorschlag eingeben können.</p>
-    </section>
+    <section audience="editor"><title>Bedienung </title><p>Um Fehler in der Vorlage explizit zu
+        normalisieren, transkribieren Sie zuerst das fehlerhafte Wort (bzw. die Wörter) getreu der
+        Vorlage. Markieren Sie anschließend das Wort (bzw. die Wörter) und wählen Sie in der
+        Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
+          id="image_mpc_d3f_2y"/> die Funktion „Normalisierte Schreibung“ aus. Danach ist der Cursor
+        bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben
+        können.</p><p>Soll eine unsichere Lesart einer Normalisierung gekennzeichnet werden, besteht
+        die Möglichkeit nur eines oder beide Kindelemente auszuzeichnen. Sollen beide als unsichere
+        Lesart gekennzeichnet werden, ist darauf zu achten, dass im Autormodus das
+          <xmlelement>choice</xmlelement>-Element ausgewählt ist. Um sicherzugehen, dass das gesamte
+        Element markiert wurde, kann die Navigationsleiste oberhalb des Bearbeitungsfensters genutzt
+        werden: <image href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"
+        /></p>Der Cursor kann an irgendeine Stelle im zu markierenden Text gesetzt und das
+      entsprechende Element in der Navigationsleiste per Klick ausgewählt werden. Auf dieselbe Weise
+      können auch die Kindelemente ausgewählt werden, falls nur eines von beiden als unsichere
+      Lesart ausgezeichnet werden soll.</section>
     <section>
       <title>Kodierung</title>
       <p>Sollen Normalisierungen explizit kodiert werden, wird das Element

@@ -46,7 +46,7 @@
  <concept id="concept_ldb_zkn_my">
   <title>Interpunktion</title>
   <conbody>
-   <p>Sie können über das Menü „Symbole“ bestimme Interpuntionszeichen einfügen: Kürzungsstrich,
+   <p>Sie können über das Menü „Symbole“ bestimmte Interpunktionszeichen einfügen: Kürzungsstrich,
     Halbgeviertstrich, Geviertstrich, Auslassungspunkte.</p>
   </conbody><related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/trZeichensetzungAllg.html"
    format="html" scope="external"><linktext>Grundregeln zur Zeichensetzung – Dokumentation des DTABf</linktext></link>
@@ -76,6 +76,10 @@
     <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128v – Webansicht</desc>
 <image placement="break" href="../img_avhr/geminationstrich-web.jpg" 
     id="image_ylx_lhn_hbb"/>
+    <p>Für die <b>Auszeichnung von Minuten-, bzw. Zollzeichen</b> werden nicht Anführungszeichen
+     benutzt, sondern das Prime-Zeichen. Über das Menü Symbole > Einheitenzeichen oder die
+     Tastenkombination [Strg] + [Umschalt] + [Zirkumflex (^)] kann ein Auswahlfenster geöffnet und
+     je nach Befund ein einfaches (′) , zweifaches (″) oder dreifaches (‴) Prime ausgewählt werden. </p>
 </fig>
    <table id="table_zxp_t3n_hbb">
     <title>Unicode-Übersicht</title>
@@ -96,6 +100,18 @@
       <row>
        <entry>Geminationsstrich, Überstrich</entry>
        <entry>U+0305</entry>
+      </row>
+      <row>
+       <entry>Minutenzeichen (prime)</entry>
+       <entry>U+2032</entry>
+      </row>
+      <row>
+       <entry>Zoll-, Sekundenzeichen (double prime)</entry>
+       <entry>U+2033</entry>
+      </row>
+      <row>
+       <entry>Linienzeichen (triple prime)</entry>
+       <entry>U+2034</entry>
       </row>     
      </tbody>
     </tgroup>

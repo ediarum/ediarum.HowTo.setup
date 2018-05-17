@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_rhd_g3v_ty">
+  <title>Namen</title>
+  <body>
+    <section>
+      <title>Allgemein</title>
+      <p>In der Vorlage oder im Kommentar <!--explizit -->genannte Namen von Personen, Orten und Institutionen
+        sowie Werktitel und Sachbegriffe werden ausgezeichnet und mit einem Registereintrag
+        verknüpft.<?oxy_comment_start author="thomas" timestamp="20180313T114444+0100" comment="@SD: überarbeiten oder rauslassen; &quot;Anapher&quot; ist hier u.E. nicht der richtige Begriff, außerdem sollten Nennungen wie &quot;er&quot;, &quot;sie&quot;, &quot;es&quot; usw. *nicht* ausgezeichnet werden, wohl aber &quot;der liebe Freund &quot; -- was aber keine Anapher ist! Bitte Rücksprache mit CT,UP"?><!-- Gesondert ausgezeichnet werden sog. Anaphern, d.h. verweisende Wörter, die aber kein
+    Eigenname, Werktitel oder Sachbegriff sind. Z.B. Pronomen wie „er“ oder Begriffe wie „die
+    Kinder“.--><?oxy_comment_end?></p>
+    </section>
+    <section product="avhr">
+      <title>edition humboldt digital</title>
+      <p>Es werden konsequent in allen Textsorten folgende Eigennamen gekennzeichnet und zu einem
+        entsprechenden <xref href="../../index/register.dita#concept_abb_p5q_gy" format="dita">Registereintrag</xref>
+        verlinkt:</p>
+      <p>
+        <ul id="ul_cbj_tgv_vcb">
+          <li>Personen</li>
+          <li>Orte</li>
+          <li>Institutionen</li>
+          <li>Werktitel (<i>nicht in der Chronologie</i>)</li>
+          <li>Sachbegriffe (<i>geplant</i>)</li>
+        </ul>
+      </p>
+      <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Eigennamen
+        ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die Ersterwähnung.
+        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Zudem werden in der
+        Chronologie derzeit noch keine Werktitel ausgezeichnet.<?oxy_custom_end?></p>
+      <p><b>Funktionsbezeichnungen ohne Namensnennung</b> („Seine Majestät“, „der Director“)
+        werden ausgezeichnet. Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name
+        ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der
+        Umfang der Auszeichnung wird jedoch kontextabhängig nach Textrelevanz und/oder
+        <?oxy_comment_start author="thomas" timestamp="20171222T131025+0100" comment="Beispiel ergänzen, z.B. aus dem Briefwechsel.
+          
++ hier schon deutlich machen, dass für solche Dinge &lt;rs&gt; mit @type=&quot;person&quot; statt &lt;persName&gt; verwendet werden sollte. Siehe unten &quot;Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht, wird dies mit dem Element &lt;rs&gt; ausgezeichnet und mit Hilfe des Attributs @type konkretisiert […]&quot;."?>Redesituation
+        entschieden.<?oxy_comment_end?></p>
+      <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder Deiktika („dieser“, „jener“,
+        „hier“, „dort“) werden <i>nicht</i> ausgezeichnet, aber Nomen und Nominalgruppen, die sich
+        <!--anaphorisch oder -->indirekt auf Eigennamen beziehen. </p>
+      <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im editorischen
+        Sachkommentar sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
+          id="ul_fgh_f2p_mbb">
+          <li>„AHumboldt“ als Signatur eines Humboldt-Briefes</li>
+          <li>Personennamen als Teil der Anrede („mein lieber Kunth“) </li>
+          <li>Ortsname als Teil der Datumszeile im Briefschluss oder -anfang </li>
+        </ul></p>
+      <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
+        Textbefund findet nicht statt, da geläufige sowie historische Schreibweisen der Namen in den
+        verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
+          Einrichtungsnamen</b> hingegen werden immer explizit aufgelöst (siehe <xref
+            href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>). </p>
+      <p>Eine <b>gleichzeitige Auszeichnung mehrerer Personen</b> bei Textformulierungen, die mehrere
+        Personen meinen („mit allen <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), ist in der Edition
+        nicht vorgesehen. Stattdessen werden die betreffenden Personen in einer Sachanmerkung einzeln
+        aufgelöst und dort gekennzeichnet (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
+          >Stellenkommentar</xref>). </p>
+      <p>
+        <fig>
+          <desc><xref href="https://edition-humboldt.de/H0002656" format="html" scope="external"
+            >Alexander von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar und 20. Februar
+            1791</xref>, Bl. 4v - Webansicht (Kritischer Text)</desc>
+          <image placement="break" href="../../img_avhr/aufloesung_in_sachanmerkung.JPG"
+            id="image_onx_khj_wcb" scale="60"/>
+        </fig>
+      </p>
+      <p><b>Orte, Personen und Institutionen</b> werden auch dann ausgezeichnet, wenn sie nicht
+        explizit genannt werden, ihre Erwähnung (oder der Verweis auf sie) sich aber aus dem
+        thematischen Kontext des Briefes oder des Dokumentes erschließen lässt.</p>
+      <!--<table id="table_ljt_gv1_4cb">
+    <title>Orte</title>
+    <tgroup cols="2">
+     <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+     <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+     <thead>
+      <row>
+       <entry>Art</entry>
+       <entry>Beispiele</entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Oberbegriff</entry>
+       <entry>„Palais“ statt „Königliches Palais“ (Humboldt an Meyen, Anfang 1830); „Ich lege Ihnen auch
+        einiges über Arequipa und den <b>Vulcan</b>…“ (Humboldt an Meyen, 1833?), „…dass die gelben
+        und orangenen auf dem ganzen <b>Continent</b> von unseren Saamen…“ (<xref
+         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0012104&amp;view=l" format="html"
+         scope="external">Humboldt an Kunth, 14.08.1838)</xref> -> gemeint ist Europa; </entry>
+      </row>
+      <row>
+       <entry/>
+       <entry>„…endlich am 1. September 1800 in Cumana zurük im Hause unseres Freundes Dn Vicente
+        Emperan (Gouverneur dieser <b>Provinz</b>.)“ (<xref
+         href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001181&amp;view=l" format="html"
+         scope="external">Humboldt an Willdenow, 21.02.1801</xref>)</entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table>
+  <table id="table_fhd_jw1_4cb">
+   <title>Personen</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Art</entry>
+      <entry>Beispiele</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Verwandschaftsgrad (Bruder, Schwester, Frau, Kinder)</entry>
+      <entry>„so führe ich Sie zu meinem <b>Bruder</b>…“ (Humboldt an Meyen, 1833); „<b>Sprengels
+       Sohn</b> der Senator schreibt mir er beschränke sich…“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002933&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 27.11-16.12.1833</xref>); viele Beispiele in <xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015273&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 2.11.1842</xref>; „Der Tod <b>meiner unglücklichen Mutter</b>
+       ist also endlich doch auch eingetroffen.“ (Humboldt an Willdenow, nach 19.11.1796)</entry>
+     </row>
+     <row>
+      <entry>Funktionsbezeichnung (Amt, militärischer Grad etc.)</entry>
+      <entry>„…noch ehe ich mit dem <b>König</b> nach Potsdam gehe…“; „Der <b>Herr Minister</b>
+       pflegt in naturhistorischen …“ (Humboldt an Meyen, 8.07.1833); „…begleiten kann an den neuen
+       Minister.“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l" format="html"
+        scope="external">Humboldt an Meyen, nach 22.08.1834</xref>); „Ich habe dem <b>Polizei
+         Minister</b> selbst gemeldet…“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 27.04.1813</xref>) ; „…le <b>Prince Regent</b> en a parlé
+       avec beaucoup de bonté à mon frère.“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 11.11.1817</xref>)</entry>
+     </row>
+     <row>
+      <entry>Anapher (vorher genannt und ausgezeichnet, A. nicht ausgezeichnet)</entry>
+      <entry>„Der <b>Mann</b> scheint beissiger Natur.“ (Humboldt an Meyen, nach 22.08.1834)</entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>„Der <b>Hingeschiedene</b> war gleich ausgezeichnet durch seinen unermüdlichen
+       Forschungs-Geist,…“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001203&amp;view=l" format="html"
+        scope="external">Humboldt an Meyen, 09.10.1840</xref>); „<b>Der bescheidene Mann</b> legt eine
+       neue brochure gegen Liebig bei,…“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0004892&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, nach 3.05.1842</xref>); „…Monsieur Majorlin Médecin des
+       Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris.“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0005454&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, Oktober 1844</xref>); </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>„Ohnerachtet mich meine Sendung zu dem <b>französischen General</b> und mein Aufenthalt
+       bei der Armee im Juli und August sehr gestört hat,…“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001199&amp;view=k" format="html"
+        scope="external">Humboldt an Willdenow, 20.12.1796</xref>)</entry>
+     </row>     
+    </tbody>
+   </tgroup>
+  </table>
+  <table id="table_tqq_5w1_4cb">
+   <title>Institutionen</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Art</entry>
+      <entry>Beispiele</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>Oberbegriff </entry>
+      <entry>„…und dass niemand sehnlicher als ich Ihre Anstellung als Professeur extraordinaire
+       bei der <b>Universität</b> wünschen kann…“ (Humboldt an Meyen, 8.07.1833); „…bezog sich
+       allerdings auf die Schritte und Empfehlung die ich bei dem <b>Ministerium</b> erneuert.“
+        (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002240&amp;view=l"
+         format="html" scope="external">Humboldt an Meyen, nach 22.08.1834</xref>); „…nichts mehr als
+       die Pension des <b>Gartens</b> accediren!“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0015058&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 26.10.1832</xref>); „Salziges Wasser, kein Geld, Fieber, Tod
+       der Bestien für den ohnedies thierlosen hiesigen <b>Garten</b> – das ist eine freudenleere
+       Welt.“ (<xref href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0002239&amp;view=l"
+        format="html" scope="external">Humboldt an Kunth, 14.04.1844</xref>) → gemeint ist der
+       Zoologische Garten; </entry>
+     </row>
+     <row>
+      <entry/>
+      <entry>„Sie können mir nichts rühmliches und edles von Professor Kunth sagen, was ich nicht
+       wüsste. Er ist die Seele des <b>Instituts</b>.“ (<xref
+        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0014471&amp;view=l" format="html"
+        scope="external">Humboldt an Kunth, 8.10.1840</xref>) -> gemeint ist der Botanische Garten in
+       Berlin; </entry>
+     </row>     
+    </tbody>
+   </tgroup>
+  </table>-->
+    </section>
+    <section audience="editor"><title>Bedienung</title><p>Zur Kennzeichnung von Eigennamen steht die
+      Funktion „Namen kennzeichnen“ mit dem Symbol <image href="../../img/names16.gif"
+        id="image_wpc_d3f_2y"/> in der Werkzeugleiste im Menü zur Verfügung. Mithilfe dieser Funktion
+      wird ein Eigenname im Text mit einem spezifischen Eintrag im Personen-, Orts- oder
+      Einrichtungsregister verbunden.</p><p>Befinden sich Eigennamen innerhalb anderer
+        Textauszeichnungen wie der Auflösung von Abkürzungen und Korrekturen (<xmlatt>choice</xmlatt>),
+        muss darauf geachtet werden, dass der Tag der Namensauszeichnung (<xmlatt>persName</xmlatt>,
+        <xmlatt>placeName</xmlatt> usw.) diese umschließt. Im Autormodus ist eine einfache manuelle
+        Markierung des betreffenden Textes zumeist nicht ausreichend, da hier nur Unterelemente markiert
+        werden. Um sicherzugehen, dass das gesamte Element markiert wurde, kann die Navigationsleiste
+        oberhalb des Bearbeitungsfensters genutzt werden: </p><p><image
+          href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"/></p>Der Cursor
+      kann an irgendeine Stelle im zu markierenden Text gesetzt und das entsprechende Element in der
+      Navigationsleiste per Klick ausgewählt werden. <p><b>Wichtig</b>: Um einen Namen korrekt zu
+        kennzeichnen, muss sichergestellt sein, dass der jeweilige Registereintrag eindeutig ist, es
+        also keine Dubletten zur selben Person/Ort/etc. an anderen Stellen des Registers gibt. Die
+        Kennzeichnung eines Namens sollte also immer mit einer kurzen redaktionellen Überprüfung des
+        jeweiligen Registereintrags verbunden werden. </p></section>
+    <section>
+      <title>Kodierung</title>
+      <p>Namen, Werktitel und Sachbegriffe, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt werden, 
+        werden mit den folgenden Elementen ausgezeichnet:</p>
+      <p>
+        <ul id="ul_ajg_nxx_5y">
+          <li>Person: <xmlelement>persName</xmlelement></li>
+          <li>Ort: <xmlelement>placeName</xmlelement></li>
+          <li>Organisation: <xmlelement>orgName</xmlelement></li>
+          <li>Werk: <xmlelement>bibl</xmlelement></li>
+          <li>Sachbegriff: <xmlelement>rs</xmlelement> mit dem Attribut <xmlatt>type</xmlatt>, dessen Wert auf <codeph>term</codeph> gesetzt ist.</li>
+        </ul>
+      </p>
+      <p>Die ID des verknüpften Registereintrags wird im Attribut <xmlatt>key</xmlatt>
+        (<xmlelement>persName</xmlelement>, <xmlelement>placeName</xmlelement>,
+        <xmlelement>orgName</xmlelement>, <xmlelement>rs</xmlelement>) bzw. im Attribut
+        <xmlatt>sameAs</xmlatt> (bibl) notiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[Mr. <persName key="H0012737">James Arnold</persName>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique…“</bibl>]]></codeblock>
+      <p>Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht,
+        <?oxy_comment_start author="thomas" timestamp="20171222T142715+0100" comment="Hier auch noch Beispiel einfügen"?>wird
+        dies mit dem Element <xmlelement>rs</xmlelement> ausgezeichnet und mit Hilfe des Attributs
+        <xmlatt>type</xmlatt> konkretisiert<?oxy_comment_end?>:</p>
+      <table id="table_krh_ncd_gy">
+        <tgroup cols="2">
+          <thead>
+            <row>
+              <entry>Bezug auf</entry>
+              <entry>Wert für <xmlatt>type</xmlatt></entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>Person</entry>
+              <entry><codeph>person</codeph></entry>
+            </row>
+            <row>
+              <entry>Ort</entry>
+              <entry><codeph>place</codeph></entry>
+            </row>
+            <row>
+              <entry>Literaturangabe</entry>
+              <entry><codeph>bibl</codeph></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+  </body>
+  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eigenname.html?"
+    format="html" scope="external"><linktext>Eigennamen – Dokumentation des DTABf</linktext></link></linklist> 
+  </related-links>
+</topic>

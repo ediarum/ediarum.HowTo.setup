@@ -32,8 +32,7 @@
         </ul>
      <p>Beispiel für eine explizite Tabelle:</p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III: Voyage de Cumana à
-          Caracas, Calabozo et S. Fernando de Apure de Nov. 1799 à Mars 1799 [sic], Bl. 54v </desc>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v </desc>
         <image placement="break" href="../../img_avhr/abb6.png" scale="60" 
           id="image_hqb_sj3_dbb"/>
       </fig>
@@ -76,8 +75,7 @@
       <p>Explizite Tabellen werden in der Webansicht im Kritischen Text sowie im Lesetext mit
         durchgehender Umrandung dargestellt.</p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III: Voyage de Cumana à
-          Caracas, Calabozo et S. Fernando de Apure de Nov. 1799 à Mars 1799 [sic], Bl. 54v  -
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v  -
           Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/abb6-web.JPG" 
           id="image_cfm_xqn_scb" scale="100"/>
@@ -85,8 +83,7 @@
       <p>Als <b>implizite Tabellen</b> gelten jegliche Art von strukturierten Auflistungen,
         Messreihen und Rechnungen. </p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III: Voyage de Cumana à
-          Caracas, Calabozo et S. Fernando de Apure de Nov. 1799 à Mars 1799 [sic], Bl. 17v</desc>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 17v</desc>
         <image placement="break" href="../../img_avhr/abb7.png" scale="60" 
           id="image_tbk_rm3_dbb"/>
       </fig>

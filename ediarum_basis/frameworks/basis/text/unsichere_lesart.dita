@@ -45,12 +45,22 @@
 <image placement="break" href="../../img_avhr/unsichere_lesarten_covered-webansicht.png"
     id="image_xwb_jnq_wcb"/>
 </fig>  
-  <section audience="editor">
-   <title>Bedienung</title>
-   <p>Transkribieren Sie ihren Vorschlag für das schwer leserliche Wort und markieren Sie es. Danach können
-    Sie in der Werkzeugleiste über das Symbol <image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> die entsprechende Auszeichnung auslösen. Im erscheinenden Dialogmenü
-   spezifizieren Sie bitte den Grund der unsicheren Lesart.</p>
-  </section>
+  <section audience="editor"><title>Bedienung</title><p>Transkribieren Sie ihren Vorschlag für das
+    schwer leserliche Wort und markieren Sie es. Danach können Sie in der Werkzeugleiste über das
+    Symbol <image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> die entsprechende
+    Auszeichnung auslösen. Im erscheinenden Dialogmenü spezifizieren Sie bitte den Grund der
+    unsicheren Lesart.</p><p>Soll eine unsichere Lesart einer <xref
+     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Abkürzung und deren Auflösung</xref>, einer
+    Normalisierung oder <xref href="normalisierung.dita#topic_qxp_ph5_2bb">Korrektur</xref>
+    gekennzeichnet werden, besteht die Möglichkeit nur eines oder beide Elemente auszuzeichnen.
+    Sollen beide als unsichere Lesart gekennzeichnet werden, ist darauf zu achten, dass im
+    Autormodus das <xmlelement>choice</xmlelement>-Element ausgewählt ist. Um sicherzugehen, dass
+    das gesamte Element markiert wurde, kann die Navigationsleiste oberhalb des Bearbeitungsfensters
+    genutzt werden: <image href="../../img_avhr/namen_kennzeichnen_bedienung.JPG"
+     id="image_mg5_jbb_mdb"/></p>Der Cursor kann an irgendeine Stelle im zu markierenden Text
+   gesetzt und das entsprechende Element in der Navigationsleiste per Klick ausgewählt werden. Auf
+   dieselbe Weise können auch die Kindelemente ausgewählt werden, falls nur eines von beiden als
+   unsichere Lesart ausgezeichnet werden soll.</section>
   <section>
    <title>Kodierung</title>
    <p>Die Wörter, die von den HerausgeberInnen nicht eindeutig entziffert werden können, werden mit

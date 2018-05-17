@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_qzv_fqw_vdb">
+  <title>Werktitel</title>
+  <body>
+    <section><title>Allgemeines</title><p>In der Vorlage oder im Kommentar explizit genannte Werktitel werden ausgezeichnet und mit einem
+        Registereintrag verknüpft. </p></section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p/>
+    </section>
+    <section>
+      <title>Bedienung</title>
+      <p/>
+    </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Werktitel, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt werden,
+        werden mit Element <xmlelement>bibl</xmlelement> ausgezeichnet. Die ID des verknüpften
+        Registereintrags wird im Attribut <xmlatt>sameAs</xmlatt> (bibl) notiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique…“</bibl>]]></codeblock>
+      <p>Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht,
+        <?oxy_comment_start author="thomas" timestamp="20171222T142715+0100" comment="Hier auch noch Beispiel einfügen"?>wird
+        dies mit dem Element <xmlelement>rs</xmlelement> ausgezeichnet und mit Hilfe des Attributs
+          <xmlatt>type</xmlatt> mit dem Wert <codeph>bibl</codeph>
+        konkretisiert<?oxy_comment_end?>.</p>
+    </section>
+  </body>
+</topic>
