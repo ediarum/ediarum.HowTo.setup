@@ -18,7 +18,7 @@
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
         dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
-          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+        <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
             [1837]</xref></desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1.png" id="image_b4f_sfj_ycb"
@@ -34,14 +34,14 @@
      <expan>und</expan>
   </choice>]]> […]</codeblock><p>In der <b>Kritischen Textfassung</b> werden Abkürzungen
           belassen:<fig id="fig_yjl_ngj_ycb">
-            <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
               >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
               [1837]</xref> - Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
             id="image_zjl_ngj_ycb"/>
         </fig></p>Im <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
         aufgelöst:<fig id="fig_njs_bhj_ycb">
-          <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
+        <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
             [1837]</xref> - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png"
@@ -133,8 +133,9 @@
             </row>
             <row>
               <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113123+0100" comment="kein humboldt-beispiel gefunden
-"?></entry><?oxy_comment_end?>
-              <entry></entry>
+"?></entry>
+              <?oxy_comment_end?>
+              <entry/>
               <entry>usw./etc./&amp;c./&amp;/ca.</entry>
               <entry>
                 <p>usw./etc./&amp;c./&amp;/ca.</p>
@@ -183,8 +184,7 @@
             </row>
           </tbody>
         </tgroup>
-      </table><ul
-        id="ul_sbs_44g_hbb">
+      </table><ul id="ul_sbs_44g_hbb">
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
         <title>Häufige Beispiele für Kürzel</title>
@@ -213,7 +213,7 @@
               </entry>
               <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
                   scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry> 
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>ich</entry>
               <entry>ich</entry>
             </row>
@@ -227,7 +227,7 @@
               </entry>
               <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
                   scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry> 
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>Herr/Herrn</entry>
               <entry>Herr/Herrn</entry>
             </row>
@@ -302,7 +302,8 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>,
+              <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                  scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>,
                 Bl. 130v</entry>
               <entry>lb</entry>
               <entry>
@@ -341,7 +342,7 @@
         </tgroup>
       </table><p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im
         folgenden Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
-        expliziter Normalisierung von Abkürzungen verdeutlicht:</p><fig id="fig_edv_mzg_1db">
+        expliziter Normalisierung von Abkürzungen verdeutlicht.</p><fig id="fig_edv_mzg_1db">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
             1830]</xref>, Bl. 1r</desc>
@@ -360,18 +361,21 @@
       <abbr>R</abbr>
       <expan>Rath</expan>
   </choice>]]></codeblock><fig id="fig_mx1_gqn_jbb">
-      <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
-        >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-        1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+        <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80"
           id="image_nx1_gqn_jbb"/>
       </fig><fig id="fig_zkr_tpn_jbb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
-          >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-          1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
+            1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
-      </fig></section>
+      </fig><b>Aufeinanderfolgende Abkürzungen</b> werden stets einzeln aufgelöst, auch wenn sie
+      Teile einer semantisch Einheit (hier der Titel) sind. Soll die daraus resultierende ergänzte
+      Schreibung zu einer (für die Zeit) orthographisch typischeren Variante normalisiert werden,
+      geschieht dies explizit. </section>
  <section audience="editor"><title>Bedienung</title><p>In der Werkzeugleiste steht die Funktion
         „Abkürzungen auflösen“ unter dem Symbol <image href="../../img/ex16.png"
           id="image_kdc_d3f_2y"/> zur Verfügung. </p><p>Soll eine unsichere Lesart einer Abkürzung

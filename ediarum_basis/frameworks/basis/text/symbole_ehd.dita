@@ -11,28 +11,39 @@
         <table frame="all" rowsep="1" colsep="1" id="table_l4m_tqf_qdb">
           <title>Häufig auftretende
             <?oxy_comment_start author="thomas" timestamp="20180427T122049+0200" comment="Vgl. https://de.wikipedia.org/wiki/Astronomisches_Symbol"?>Symbole<?oxy_comment_end?></title>
-          <tgroup cols="4" align="left">
-            <colspec colname="c1" colnum="1" colwidth="1.97*"/>
-            <colspec colname="c2" colnum="2" colwidth="1.18*"/>
-            <colspec colname="c3" colnum="3" colwidth="3.73*"/>
-            <colspec colname="c4" colnum="4" colwidth="1*"/>
+          <tgroup cols="5" align="left">
+            <colspec colname="c1" colnum="1" colwidth="2.19*"/>
+            <colspec colname="c2" colnum="2" colwidth="1*"/>
+            <colspec colname="newCol3" colnum="3" colwidth="2.07*"/>
+            <colspec colname="c3" colnum="4" colwidth="3.46*"/>
+            <colspec colname="c4" colnum="5" colwidth="1.11*"/>
             <thead>
               <row>
                 <entry>Symbol</entry>
                 <entry>Element</entry>
+                <entry>Maßeinheit</entry>
                 <entry>astronomische Bedeutung</entry>
                 <entry>Unicode</entry>
               </row>
             </thead>
             <tbody>
               <row>
-                <entry>□ oder ❒</entry>
+                <entry>□ </entry>
                 <entry>Salz</entry>
+                <entry>Quadratmeter</entry>
                 <entry>Quadratur-Konstellation</entry>
                 <entry>U+25A1</entry>
               </row>
               <row>
+                <entry>❒</entry>
+                <entry/>
+                <entry>Kubikmeter</entry>
+                <entry/>
+                <entry>U+2752</entry>
+              </row>
+              <row>
                 <entry>△</entry>
+                <entry/>
                 <entry/>
                 <entry>Trigon</entry>
                 <entry>U+25B3</entry>
@@ -40,48 +51,56 @@
               <row>
                 <entry>☉</entry>
                 <entry>Gold</entry>
+                <entry/>
                 <entry>Sonne</entry>
                 <entry>U+2609</entry>
               </row>
               <row>
                 <entry>☽</entry>
                 <entry>Silber</entry>
+                <entry/>
                 <entry>Zunehmender Sichelmond</entry>
                 <entry>U+263D</entry>
               </row>
               <row>
                 <entry>☾</entry>
                 <entry>Silber</entry>
+                <entry/>
                 <entry>Abnehmender Sichelmond</entry>
                 <entry>U+263E</entry>
               </row>
               <row>
                 <entry>♂</entry>
                 <entry>Eisen</entry>
+                <entry/>
                 <entry>Mars</entry>
                 <entry>U+2642</entry>
               </row>
               <row>
                 <entry>♃</entry>
                 <entry>Zinn</entry>
+                <entry/>
                 <entry>Jupiter</entry>
                 <entry>U+2643</entry>
               </row>
               <row>
                 <entry><?oxy_comment_start author="lkirsten" timestamp="20180427T153908+0200" comment="ab hier nicht mehr in der Edition"?>♄<?oxy_comment_end?></entry>
                 <entry>Blei</entry>
+                <entry/>
                 <entry>Saturn</entry>
                 <entry>U+2644</entry>
               </row>
               <row>
                 <entry>☿</entry>
                 <entry>Quecksilber</entry>
+                <entry/>
                 <entry>Merkur</entry>
                 <entry>U+263F</entry>
               </row>
               <row>
                 <entry>♀</entry>
                 <entry>Kupfer</entry>
+                <entry/>
                 <entry>Venus</entry>
                 <entry>U+2640</entry>
               </row>

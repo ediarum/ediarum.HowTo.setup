@@ -13,11 +13,11 @@
   <conbody>
    <p>Standardmäßig öffnet sich ein Dokment im Ansichtsmodus „Autor“. Das ist eine Ansicht ähnlich
     einem Schreibprogramm wie Microsoft Word. Im Dokument sind die verschiedenen Elemente
-    entsprechend formatiert. Es gibt auch einige Elemente, die der Übersichtlickeit halber
+    entsprechend formatiert. Es gibt auch einige Elemente, die der Übersichtlichkeit halber
     ausgeblendet wurden (insbesondere im sog. teiHeader). Die Werkzeugleisten mit den
     Bearbeitungsfunktionen für die Handschriftenbeschreibung und Transkription werden auch nur in
     diesem Modus eingeblendet.</p>
-   <p>Die Ansicht des Dokuments im Autorenmodus kann über die Schaltfläche „Stile “ in der oberen
+   <p>Die Ansicht des Dokuments im Autormodus kann über die Schaltfläche „Stile “ in der oberen
     Werkzeugleiste angepasst werden.</p>
   </conbody>
  </concept>
@@ -49,7 +49,7 @@
     unterschiedlich ausfallen und ebenfalls nach oben oder unten korrigiert werden müssen.</p>
    <p>Die Änderung der Schriftart hat lediglich Auswirkung auf die Darstellung der Datei. Der Text
     wird weiterhin in Unicodekodierung (UTF 8) gespeichert und ist daher von der zur Darstellung
-    verwendeten Schriftart unabhängig – das gilt auch wenn Zeichen zu fehlen scheinen (d.h. leere
+    verwendeten Schriftart unabhängig – das gilt auch, wenn Zeichen zu fehlen scheinen (d.h. leere
     Blöcke angezeigt werden).</p>
    <p>Bei Fragen und Problemen mit Schriften und der Darstellung von (insbesondere altgriechischen)
     Zeichen wenden Sie sich bitte an TELOTA .</p>
