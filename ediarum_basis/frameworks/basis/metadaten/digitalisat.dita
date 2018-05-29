@@ -20,11 +20,13 @@
             <p>Links zu Digitalisaten, die <b>nicht</b> folio- bzw. seitenweise verlinkt werden
                 sollen, können Sie über die Funktion „Digitalisat“ im Menü „Metadaten“ in der
                 Werkzeugleiste verlinken. Für Verlinkungen anhand der Seitenstruktur nutzen Sie
-                bitte die Funktion „Folio- bzw. Seitenwechsel mit Link“.</p>
+                bitte die Funktion „Foliowechsel mit Link“, die im Menü „Folio- und Seitenwechsel“
+                in der Werkzeugleiste mit dem Symbol <image href="../../img/pagebreak.gif"
+                    id="image_brx_xbn_qbb"/> ausgewählt werden kann. </p>
         </section>
         <section id="section_jxg_4j2_bbb">
             <title>Kodierung</title>
-            <p>Digitalisate ohne Bezug zur Seitenstruktur werden in /TEI/facsimlie mit einzelnen
+            <p>Digitalisate ohne Bezug zur Seitenstruktur werden in /TEI/facsimile mit einzelnen
                     <xmlelement>graphic</xmlelement>-Elementen notiert.</p>
             <codeblock outputclass="language-xml"><![CDATA[<facsimile>
    <graphic url="http://beispielurl.com/image"/>

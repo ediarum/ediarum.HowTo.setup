@@ -5,7 +5,7 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p></p>
+            <p/>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
@@ -22,16 +22,16 @@
             <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort
                 wird ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur
                 Entstehung notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. </p>
-        </section>
-        <p>Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name des
-            Ortes notiert wird. Wenn Sie den Schreibort aus dem Ortsregister auswählen, wird im
-            Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum Ortsregister
-            angelegt.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
+            <p>Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name
+                des Ortes notiert wird. Wenn Sie den Schreibort aus dem Ortsregister auswählen, wird
+                im Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum
+                Ortsregister angelegt.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>
        <placeName key="ed_wz2_shs_qx">London</placeName>
        …
     </creation>
 </profileDesc>]]></codeblock>
+        </section>
     </body>
 </topic>

@@ -7,12 +7,34 @@
         Registereintrag verknüpft. </p></section>
     <section>
       <title>edition humboldt digital</title>
-      <p/>
+      <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Werktiteln
+        ausgezeichnet, in Sachkommentaren hingegen nur die Ersterwähnung. In der Chronologie werden
+        derzeit noch keine Werktitel ausgezeichnet.</p>
+      <p>Als expliziter Verweis gilt der Name des Autoren in Kombination mit Jahres-, Band- oder
+        Seitenangaben. Ausgezeichnet wird dabei stets die gesamte Angabe inklusive Seiten- und
+        Jahreszahl.</p>
+      <p>Ist ein Literaturverweis aus dem Text erkenntlich, nicht aber explizit genannt, können
+        BearbeiterInnen den bibliographischen Kontext in einem Sachkommentar herstellen. </p>
+      <p><b>Indirekter Verweis in Form eines Personennamens</b>: Der Verweis kann sich sowohl auf
+        eine Person als auch auf Literatur derselben beziehen. Ausgezeichnet wird allerdings die
+        Person, der Werktitel wird im Kommentar erläutert und ausgezeichnet. Dass auf ein Werk
+        verwiesen wird und um welches es sich handelt, ist hier nicht konkret und wird von
+        BearbeiterInnen aus dem Kontext erschlossen. </p>
+      <p><b>Verweis auf Brief</b></p>
+      <p><b>Vermutung HerausgeberIn</b></p>
+      <p><b>Komplexe Angaben</b></p>
+      <p><b>Verweis auf ungedrucktes/ unveröffentlichtes Werk</b></p>
+      <p><b>indirekter Verweis auf eigenes Werk</b></p>
     </section>
-    <section>
-      <title>Bedienung</title>
-      <p/>
-    </section>
+    <section><title>Bedienung</title><p>Zur Auszeichnung von Werktiteln kann die Funktion „Namen
+        kennzeichnen“ mit dem Symbol <image href="../../img/names16.gif" id="image_mlg_3mv_xdb"/> in
+        der Werkzeugleiste genutzt werden. Zuerst muss „Werktitel“ als zu kennzeichnende Einheit und
+        anschließend aus der sich öffnenden Liste das entsprechende Werk ausgewählt werden, um zum
+        richtigen Eintrag im Werkregister zu verlinken. </p><b>Wichtig</b>: Um einen Werktitel
+      korrekt zu kennzeichnen, muss sichergestellt sein, dass der jeweilige Registereintrag
+      eindeutig ist, es also keine Dubletten zum selben Werk an anderen Stellen des Registers gibt.
+      Die Kennzeichnung eines Werktitels sollte demnach immer mit einer kurzen redaktionellen
+      Überprüfung des jeweiligen Registereintrags verbunden werden.</section>
     <section>
       <title>Kodierung</title>
       <p>Werktitel, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt werden,

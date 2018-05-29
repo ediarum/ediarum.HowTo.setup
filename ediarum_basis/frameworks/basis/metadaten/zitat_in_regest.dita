@@ -16,13 +16,16 @@
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Der Regest  wird mit einem <xmlelement>abstract</xmlelement>-Element ausgezeichnet. Der
-                Regesttext wird in einem <xmlelement>p</xmlelement>-Element notiert. Zitate innerhalb
-                des Regesttextes werden mit einem <xmlelement>quote</xmlelement>-Element ausgezeichent. </p>
+            <p>Der Regest wird mit einem <xmlelement>abstract</xmlelement>-Element ausgezeichnet.
+                Der Regesttext wird in einem <xmlelement>p</xmlelement>-Element notiert. Zitate
+                innerhalb des Regesttextes werden mit einem <xmlelement>quote</xmlelement>-Element
+                ausgezeichnet. </p>
             <p>Der Text im <xmlelement>quote</xmlelement>-Element gilt als Transkription, d.h.
                 Textphänomene wie z.B. Streichungen, Korrekturen usw. können markiert werden.<codeblock outputclass="language-xml"><![CDATA[<abstract>
-   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] <quote><rendition=#u">bald</rendition> erhalten Sie ein Porträt<quot/></p>
-</abstract>]]></codeblock></p>
+   <p>Ankündigung eines Porträts; Rat für Lottchen [Charlotte Buff] 
+     <quote><rendition=#u">bald</rendition> erhalten Sie ein Porträt<quote/>
+   </p>
+ </abstract>]]></codeblock></p>
         </section>
  
     </body>

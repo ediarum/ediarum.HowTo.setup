@@ -6,7 +6,7 @@
   <section>
    <title>Allgemeines</title>
     <p>Absätze werden getreu der Vorlage ausgezeichnet. Möglich ist zudem das Erfassen von
-        eingerückten Absätzen, wenn die Einrückung in der Vorlage der Fall ist und nach den
+        eingerückten Absätzen, wenn eine Einrückung in der Vorlage vorhanden ist, nach den
         jeweiligen Editionsrichtlinien als signifikant eingestuft wird und daher kodiert werden
         muss.</p>
   </section>
@@ -62,15 +62,15 @@
         <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
             href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
         <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-          platzieren, Return drücken und „Neu p“ auwählen – indem man einfach nochmals Return
+          platzieren, Return drücken und „Neu p“ auswählen – indem man einfach nochmals Return
           drückt.</li>
         <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird
           der Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
       </ol>
       <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ kann man
         den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
-        Einrückung in der Vorlage der Fall ist und nach den Editionsrichtlinien als signifikant
-        eingestuft und daher kodiert werden muss. Durch die Funktion wird das Attribut
+        Einrückung in der Vorlage vorhanden ist, nach den Editionsrichtlinien als signifikant
+        eingestuft wird und daher kodiert werden muss. Durch die Funktion wird das Attribut
           <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
     </section>
    <section>

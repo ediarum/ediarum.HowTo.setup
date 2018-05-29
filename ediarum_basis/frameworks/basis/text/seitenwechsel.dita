@@ -32,9 +32,9 @@
         vorgegeben. In diesen Fällen wird die Foliierung nach folgenden Regeln notiert:</p>
       <ul id="ul_vnh_fr2_bbb">
         <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2)</li>
-        <li>Für die Bestimmung der Seitenwechsel wird sich am Schriftbild, nicht am Dokument
-          orientiert – im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1
-          Blatt gezählt:</li>
+        <li>Für die Bestimmung der Seitenwechsel ist das Schriftbild, nicht das Dokument maßgebend –
+          im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt
+          gezählt:</li>
       </ul>
       <fig id="fig_p3t_m2g_jbb"><desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external">Alexander von
             Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22. August
@@ -97,8 +97,8 @@
     Seiten- bzw. Foliozahl.</p>
    <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
    <p>Ein Link zum Digitalisat wird im Attribut facs notiert. Als Link sollten im Regelfall nur
-    Permalinks der bestandshaltenden Institution (Archiv oder Bibliothek) bzw. offzieller,
-    übergeordneter Angebote (z.B. Gallica) verwendet werden.</p>
+        Permalinks der bestandshaltenden Institution (Archiv oder Bibliothek) bzw. offizieller,
+        übergeordneter Angebote (z.B. Gallica) verwendet werden.</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
    <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element <xmlelement>fw</xmlelement> kodiert, dessen
     Attribut <xmlatt>type</xmlatt> den Wert <codeph>folnum</codeph> aufweist.</p>

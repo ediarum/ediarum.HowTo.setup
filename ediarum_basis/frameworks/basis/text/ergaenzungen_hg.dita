@@ -373,9 +373,9 @@
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
       </fig><b>Aufeinanderfolgende Abkürzungen</b> werden stets einzeln aufgelöst, auch wenn sie
-      Teile einer semantisch Einheit (hier der Titel) sind. Soll die daraus resultierende ergänzte
-      Schreibung zu einer (für die Zeit) orthographisch typischeren Variante normalisiert werden,
-      geschieht dies explizit. </section>
+      Teile einer semantisch Einheit sind. Soll die daraus resultierende ergänzte Schreibung zu
+      einer (für die Zeit) orthographisch typischeren Variante normalisiert werden, geschieht dies
+      explizit. </section>
  <section audience="editor"><title>Bedienung</title><p>In der Werkzeugleiste steht die Funktion
         „Abkürzungen auflösen“ unter dem Symbol <image href="../../img/ex16.png"
           id="image_kdc_d3f_2y"/> zur Verfügung. </p><p>Soll eine unsichere Lesart einer Abkürzung

@@ -27,6 +27,11 @@
     </section>
     <section>
       <title>Kodierung</title>
+      <p>Maßangaben werden mithilfe des Elements <xmlelement>measure</xmlelement> ausgezeichnet. In
+        dem Attribut <xmlatt>quantity</xmlatt> wird der Messwert je nach Vorlage entweder als ganze
+        Zahl oder Dezimalzahl mit Punkt angegeben. In dem Attribut <xmlatt>unit</xmlatt> wird die ID
+        des zu verknüpfenden Registereintrags notiert.</p>
+      <codeblock outputclass="language-xml"><![CDATA[</measure> Höhe volle <lb/><measure quantity="7.5" unit="milla">7.5 millas</measure>]]></codeblock>
     </section>
   </body>
 </topic>

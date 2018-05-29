@@ -29,5 +29,13 @@
         Anführungszeichen nicht mehr nötig. <i>Eine textkritische Bearbeitung von Zitaten ist nur
           möglich, wenn sie zuvor auch als Zitat ausgezeichnet wurden.</i></p>
     </section>
+    <section>
+      <title>Kodierung</title>
+      <p>Zitate innerhalb des Regesttextes werden mit einem <xmlelement>quote</xmlelement>-Element
+        ausgezeichnet. Der Text im <xmlelement>quote</xmlelement>-Element gilt als Transkription,
+        d.h. Textphänomene wie z.B. Streichungen, Korrekturen usw. können markiert werden.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<quote>eine Beobachtung, welche unsere, im Jahre 1831 daselbst angestellten
+  Messungen ganz genau bestätigen…</quote>]]></codeblock>
+    </section>
   </body>
 </topic>
