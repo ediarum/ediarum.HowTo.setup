@@ -13,6 +13,15 @@
       <p>Als expliziter Verweis gilt der Name des Autoren in Kombination mit Jahres-, Band- oder
         Seitenangaben. Ausgezeichnet wird dabei stets die gesamte Angabe inklusive Seiten- und
         Jahreszahl.</p>
+      <fig id="fig_scm_vhf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 4r</desc>
+        <image placement="break" href="../../img_avhr/werktitel1.jpg" id="image_tcm_vhf_zdb"/>
+      </fig>
+      <fig id="fig_njn_xhf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 4r</desc>
+        <image placement="break" href="../../img_avhr/werktitel1_webansicht.JPG"
+          id="image_ojn_xhf_zdb"/>
+      </fig>
       <p>Ist ein Literaturverweis aus dem Text erkenntlich, nicht aber explizit genannt, können
         BearbeiterInnen den bibliographischen Kontext in einem Sachkommentar herstellen. </p>
       <p><b>Indirekter Verweis in Form eines Personennamens</b>: Der Verweis kann sich sowohl auf
@@ -21,8 +30,42 @@
         verwiesen wird und um welches es sich handelt, ist hier nicht konkret und wird von
         BearbeiterInnen aus dem Kontext erschlossen. </p>
       <p><b>Verweis auf Brief</b></p>
+      <fig id="fig_iv4_vjf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 17r</desc>
+        <image placement="break" href="../../img_avhr/werktitel3.jpg" id="image_jv4_vjf_zdb"/>
+      </fig>
+      <fig id="fig_szd_xjf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 17r</desc>
+        <image placement="break" href="../../img_avhr/werktitel3_webansicht.JPG"
+          id="image_tzd_xjf_zdb"/>
+      </fig>
       <p><b>Vermutung HerausgeberIn</b></p>
+      <fig id="fig_nwt_1kf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 16v</desc>
+        <image placement="break" href="../../img_avhr/werktitel4.jpg" id="image_owt_1kf_zdb"/>
+      </fig>
+      <fig id="fig_cqw_bkf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 16v</desc>
+        <image placement="break" href="../../img_avhr/werktitel4_webansicht.JPG"
+          id="image_dqw_bkf_zdb"/>
+      </fig>
       <p><b>Komplexe Angaben</b></p>
+      <fig id="fig_ict_hkf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r</desc>
+        <image placement="break" href="../../img_avhr/werktitel5.jpg" id="image_jct_hkf_zdb"/>
+      </fig>
+      <fig id="fig_ydw_jkf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r - Webansicht
+          erste Sachanmerkung</desc>
+        <image placement="break" href="../../img_avhr/werktitel5_webansicht1.JPG"
+          id="image_zdw_jkf_zdb"/>
+      </fig>
+      <fig id="fig_yjd_4kf_zdb">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r - Webansicht
+          zweite Sachanmerkung</desc>
+        <image placement="break" href="../../img_avhr/werktitel5_webansicht2.JPG"
+          id="image_zjd_4kf_zdb"/>
+      </fig>
       <p><b>Verweis auf ungedrucktes/ unveröffentlichtes Werk</b></p>
       <p><b>indirekter Verweis auf eigenes Werk</b></p>
     </section>
