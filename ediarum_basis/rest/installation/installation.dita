@@ -12,31 +12,23 @@
                     <cmd>Download</cmd>
                     <substeps id="substeps_kn1_vcd_by">
                         <substep>
-                            <cmd>Im Browser die URL eingeben: <xref href="https://www.oxygenxml.com"
+                            <cmd>Im Browser die URL eingeben: <xref href="https://www.oxygenxml.com/xml_author.html"
                                 format="html" scope="external"/></cmd>
-                            <info>
-                                <image placement="break" href="img/step1.a.png" id="image_utp_b2d_by"
-                                    width="700"/>
-                            </info>
-                            <info>
-                                <p><b>Products</b> auswählen und dort <b>Oxygen XML Author</b>
-                                auswählen.</p>
-                            </info>
                         </substep>
                         <substep>
                             <cmd>Auf <b>Download</b> klicken.</cmd>
-                            <info>
-                                <image placement="break" href="img/step1.b.png" scale="50"
-                                    id="image_z3x_zd5_2y"/>
-                            </info>
+                            <info><image href="img/step1.a.png" id="image_dhr_pl2_zdb"/></info>
                         </substep>
                         <substep>
-                            <cmd>Auf der nächsten Seite die 32-bit-Version auswählen:</cmd>
-                            <info>
-                                <image placement="break" href="img/step1.c.png" id="image_hh1_p2d_by"
-                                    scale="65"/>
-                            </info>
-                        </substep>
+                        <cmd>Auf der nächsten Seite die 32-bit-Version auswählen:</cmd>
+                        <info>Wählen Sie auf der nächsten Seite entweder die 64-bit oder
+                            32-bit-Version zum Download aus. <b>Beachten Sie dabei:</b> Für die
+                            Arbeit an kleineren Dateien (Briefe usw.) genügt die 32-bit-Version. Für
+                            Arbeit an größeren Dateien benötigen Sie die 64-bit-Version (<b>Achten
+                                Sie darauf, dass Ihr Computer eine entsprechende 64-bit Festplatte
+                                hat.</b>)</info>
+                        <info><image href="img/step1.b.png" id="image_kkx_cm2_zdb"/></info>
+                    </substep>
                         <substep>
                         <cmd>Warten bis der Download abgeschlossen ist (kann einige Minuten
                             dauern).</cmd>
@@ -50,9 +42,9 @@
                             <cmd>Den Download-Ordner auf dem eigenen PC öffnen.</cmd>
                         </substep>
                         <substep>
-                            <cmd>Und die heruntergeladene Datei <b>oxygenAuthor</b> für die Installation
-                                öffnen.</cmd>
-                        </substep>
+                        <cmd>Und die heruntergeladene Datei <b>oxygenAuthor.exe</b> für die
+                            Installation öffnen.</cmd>
+                    </substep>
                         <substep>
                             <cmd>Die nächsten Dialogfenster mit <b>OK</b> und mit <b>Weiter</b>
                                 bestätigen:</cmd>
@@ -79,6 +71,9 @@
                             <cmd>Nach Beendigung der Installation <b>Häkchen</b> zum Starten des Oxygen
                                 XML Author setzen und mit <b>Fertigstellen</b> bestätigen.</cmd>
                         </substep>
+                    <substep>
+                        <cmd>Geben Sie nun den Produktschlüssel ein.</cmd>
+                    </substep>
                         <substep>
                             <cmd>Den Download-Ordner öffnen und die oxygenAuthor-Installationsdatei
                                 auswählen und <b>löschen</b>.</cmd>
@@ -128,10 +123,10 @@
                             <cmd>Den Oxygen XML Author schließen und neu starten.</cmd>
                         </substep>
                         <substep>
-                            <cmd>Die Schritte a-h wiederholen mit der URL für das Vorhaben:<xref
-                                href="http://telotadev.bbaw.de/oxygen/cagb/update.xml" format="html"
-                                scope="external"/></cmd>
-                        </substep>
+                        <cmd>Die Schritte a-h wiederholen mit der URL für das Vorhaben:
+                                http://telotadev.bbaw.de/oxygen/<b>[Name oder Kürzel Ihres
+                                Projekts]</b>/update.xml</cmd>
+                    </substep>
                     </substeps>
                 </step>
                 <step>
@@ -153,7 +148,7 @@
                         </info>
                     </substep>
                     <substep>
-                        <cmd>Mit Doppelklick die aktuelle Versionsnummer <b>v18.0</b> von Oxygen
+                        <cmd>Mit Doppelklick die aktuelle Versionsnummer <b>v20.0</b> von Oxygen
                             auswählen.</cmd>
                     </substep>
                     <substep>
