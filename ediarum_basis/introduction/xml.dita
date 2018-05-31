@@ -42,7 +42,7 @@ ist.</p>]]></codeblock>
     </tbody>
    </tgroup>
   </table>
-  <p>Im öffnenden Attribut kann ein Attribut notiert werden. Im obigen Beispiel ist das Attribut:
+  <p>Im öffnenden Element kann ein Attribut notiert werden. Im obigen Beispiel ist das Attribut:
    <![CDATA[align="left"]]>. Attribute setzen sich aus Name und Wert zusammen.</p>
   <table id="table_syb_r3k_qx">
    <tgroup cols="2">

@@ -17,9 +17,10 @@
         </section>
         <section>
             <title>Kodierung</title>
+            <p>Die Textgrundlage wird im entsprechenden <xmlelement>witness</xmlelement>-Element mit
+                dem Attribut <xmlatt>select</xmlatt> markiert. Das Attribut hat immer den Wert
+                <![CDATA["#this"]]>.</p>
+            <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
         </section>
-        <p>Die Textgrundlage wird im entsprechenden <xmlelement>witness</xmlelement>-Element mit dem
-            Attribut <xmlatt>select</xmlatt> markiert. Das Attribut hat immer den Wert <![CDATA["#this"]]>.</p>
-        <codeblock outputclass="language-xml"><![CDATA[<witness select="#this">]]></codeblock>
     </body>
 </topic>

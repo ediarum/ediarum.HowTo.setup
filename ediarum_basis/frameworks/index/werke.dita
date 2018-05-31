@@ -3,11 +3,18 @@
 <concept id="concept_rjp_lln_my">
  <title>Werkregister</title>
  <conbody>
-  <p>Ein Eintrag im Werkregister wird in einem <xmlelement>bibl</xmlelement>-Element notiert. Wenn Sie
-   einen neuen Eintrag erstellen, wird im Attribut <xmlatt>xml:id</xmlatt> eine ID gneriert, mit der Sie auf den
-   Eintrag referieren könnnen. Außerdem erscheint beim Anlegen eines neuen Eintrags ein
-   Dialogfenster, in dem Sie schon den Vor-und Nachnamen des Autoren und den Titel der Publikation
-   eingeben können. </p>
+<section><title>Alllgemeines</title></section>
+  <section>
+   <p/>
+  </section>
+  <section><title>edition humboldt digital</title></section> 
+  <section><title>Bedienung</title>
+   <p>Ein Eintrag im Werkregister wird in einem <xmlelement>bibl</xmlelement>-Element notiert. Wenn
+    Sie einen neuen Eintrag erstellen, wird im Attribut <xmlatt>xml:id</xmlatt> eine ID generiert,
+    mit der Sie auf den Eintrag referieren könnnen. Außerdem erscheint beim Anlegen eines neuen
+    Eintrags ein Dialogfenster, in dem Sie schon den Vor-und Nachnamen des Autoren und den Titel der
+    Publikation eingeben können. </p></section>
+  <section><title>Kodierung</title></section>
   <p>Die Angaben, die den Autoren betreffen, werden in einem <xmlelement>author</xmlelement>-Element
    notiert. Dabei werden Angaben zum Namen in einem <xmlelement>persName</xmlelement>-Element
    notiert, wobei der Vorname in einem <xmlelement>forename</xmlelement>-Element und der Nachname in

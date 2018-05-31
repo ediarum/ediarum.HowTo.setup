@@ -4,28 +4,24 @@
   <title>Verweis-Siglen</title>
   <body>
     <section>
-      <title>Allgemeines</title>
-    </section>
-    <p>Humboldt verwendet häufig lateinisch ausgeschriebene Großbuchstaben, um verschiedene Inhalte
-      innerhalb eines Manuskripts oder über Manuskriptgrenzen hinweg miteinander in Beziehung zu
-      setzen. In der <i>edition humboldt digital</i> werden diese Buchstaben als Siglen bezeichnet,
-      für die ein eigenes Siglenregister angelegt worden ist.</p>
-    <section>
-      <title>edition humboldt digital</title>
+      <p>Humboldt verwendet häufig lateinisch ausgeschriebene Großbuchstaben, um verschiedene
+        Inhalte innerhalb eines Manuskripts oder über Manuskriptgrenzen hinweg miteinander in
+        Beziehung zu setzen. In der <i>edition humboldt digital</i> werden diese Buchstaben als
+        Siglen bezeichnet, für die ein eigenes Siglenregister angelegt worden ist.</p>
     </section>
     <section audience="editor">
       <title>Bedienung</title>
-    <p>Die <b>Auszeichnung von Verweissiglen</b> funktioniert im ediarum-Autormodus
-        folgendermaßen:<ol id="ol_fjw_lq4_hbb">
-        <li>Siglum markieren (hier „T“)<image placement="break" href="../img_avhr/siglen1.png"
-            align="left" id="image_vqc_dr4_hbb"/></li>
-        <li>Funktion „Verweis-Siglum“ aufrufen<image placement="break"
-            href="../img_avhr/siglen2.png" align="left" id="image_l1y_dr4_hbb"/></li>
-        <li>Registereintrag auswählen (Damit ein Siglum im Manuskript richtig ausgezeichnet werden
+      <p>Die <b>Auszeichnung von Verweissiglen</b> funktioniert im ediarum-Autormodus
+          folgendermaßen:<ol id="ol_fjw_lq4_hbb">
+          <li>Siglum markieren (hier „T“)<image placement="break" href="../img_avhr/siglen1.png"
+              align="left" id="image_vqc_dr4_hbb"/></li>
+          <li>Funktion „Verweis-Siglum“ aufrufen<image placement="break"
+              href="../img_avhr/siglen2.png" align="left" id="image_l1y_dr4_hbb"/></li>
+          <li>Registereintrag auswählen (Damit ein Siglum im Manuskript richtig ausgezeichnet werden
             kann, muss ein entsprechender Eintrag in der Registerdatei bereits vorliegen.)<image
               placement="break" href="../img_avhr/siglen3.png" align="left" id="image_lpn_2r4_hbb"
             /></li>
-      </ol></p>
+        </ol></p>
     </section>
     <section>
       <title>Kodierung</title>

@@ -63,7 +63,7 @@ type="verweisziel" xml:id="stop_b3k_pyf_cy"/>]]></codeblock>
                     <xmlelement>ref</xmlelement> kodiert, dessen Attribut <xmlatt>target</xmlatt>
                 die ID der Zieltextstelle enthält.</p>
             <codeblock outputclass="language-xml"><![CDATA[<ref target="BTEST/#start_b3k_pyf_cy">Die École wird bald genug folgen.</ref>]]></codeblock>
-            <p>Darüber hinaus kann mit ref auch in einem Stellenkommentar auf eine externe Website
+            <p>Darüber hinaus kann mit ref auch in einer Sachanmerkung auf eine externe Website
                 verwiesen werden. Im Attribut <xmlatt>target</xmlatt> wird in diesem Fall die
                 vollständige URL der Website notiert.</p>
             <codeblock outputclass="language-xml"><![CDATA[<seg type="comment"><orig>der Fluss</orig><note xml:id="nxlm_bhy_ny"><ref target="http://www.kallilope.de/beispiel"/></note></seg>]]></codeblock>

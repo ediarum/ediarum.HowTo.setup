@@ -13,7 +13,7 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Eigennamen
-    ausgezeichnet, in Sachkommentaren und Chronologie-Ereignissen hingegen nur die Ersterwähnung. </p>
+    ausgezeichnet, in Sachanmerkungen und Chronologie-Ereignissen hingegen nur die Ersterwähnung. </p>
    <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder <b>Deiktika</b> („dieser“,
     „jener“, „hier“, „dort“) werden <i>nicht</i> ausgezeichnet. Nomen und Nominalgruppen, die sich
     indirekt auf Orte, Personen und Institutionen beziehen und deren Bezug sich aus dem Kontext der
@@ -53,8 +53,8 @@
        scope="external">Humboldt an Willdenow, 20.12.1796</xref>)</li>
     </ul>
    </p>
-   <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im editorischen
-    Sachkommentar sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
+   <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib-, bzw. Empfangsorte</b> im der editorischen
+    Sachanmerkung sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
      id="ul_fgh_f2p_mbb">
      <li>„AHumboldt“ als Signatur eines Humboldt-Briefes</li>
      <li>Humboldt“ als Signatur eines Humboldt-Briefes</li>

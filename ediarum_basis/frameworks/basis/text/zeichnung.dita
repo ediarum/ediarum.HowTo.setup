@@ -48,7 +48,7 @@
         Bildunterschrift notiert ist, wird diese im Kindelement <xmlelement>p</xmlelement>
         festgehalten. Im Kindelement <xmlelement>figDesc</xmlelement> wird dagegen das Bild durch
         die Herausgeberin beschrieben. Im Attribut <xmlatt>facs</xmlatt> schießlich ist der
-        Dateiname notiert. Stellenkommentare, die sich auf das Bild an sich beziehen, werden im
+        Dateiname notiert. Sachanmerkungen, die sich auf das Bild an sich beziehen, werden im
         Kindelement <xmlelement>note</xmlelement> erfasst.</p>
       <codeblock outputclass="language-xml"><![CDATA[<figure facs="abbildung" hand="#adresee">
    <p>[Bildunterschrift im Ms]</p>

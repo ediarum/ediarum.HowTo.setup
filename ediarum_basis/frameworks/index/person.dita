@@ -517,11 +517,11 @@
         entsprechend entweder der Wert <codeph>fictional</codeph> oder <codeph>mythological</codeph>
         eingetragen.</p>
       <codeblock outputclass="language-xml"><![CDATA[<person xml:id="pdrPo.001.004.000005229">]]></codeblock>
-    </section>
-    <p> Vor- und Nachname werden in einem <codeph>&lt;persName type="reg"></codeph> festgehalten.
+    
+    <p>Vor- und Nachname werden in einem <codeph>&lt;persName type="reg"></codeph> festgehalten.
       Varianten oder alternative Namen werden jeweils in einem eigenen
         <xmlelement>persName</xmlelement>-Element gespeichtert, in dem das Attribut
-        <xmlatt>type="alt"</xmlatt> (alternative) und das Attribut <xmlatt>subtype</xmlatt> angibt,
+        <xmlatt>type="alt"</xmlatt>(alternative) und das Attribut <xmlatt>subtype</xmlatt> angibt,
       welche Art von Namenvariation vorliegt.</p>
     <p>
       <table id="table_ohy_qcf_hy">
@@ -565,6 +565,6 @@
     <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
     <p><b>4.</b> Außerdem könnnen Sie mit einem <xmlelement>listPerson</xmlelement>, dessen Attribut
         <xmlatt>type</xmlatt> den Wert <codeph>group</codeph> hat, Gruppen anlegen.</p>
-    <?oxy_custom_end?>
+    <?oxy_custom_end?></section>
   </body>
 </topic>

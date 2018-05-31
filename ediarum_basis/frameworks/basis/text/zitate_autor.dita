@@ -10,11 +10,18 @@
         markiert, sowie - wenn möglich - mit einer Quellenangabe versehen. Es kann sich hierbei auch
         um Stellen handeln, die nicht unmittelbar als Zitat erkennbar sind (bspw. Paraphrasen) oder
         nicht getreu der Vorlage wiedergegeben werden. In solchen Fällen liegt die Entscheidung,
-        eine Sachanmerkung hinzuzufügen, beim
-        Bearbeiter.<?oxy_comment_start author="lkirsten" timestamp="20180426T114020+0200" comment="Beispiel für Zitat mit Sachanmerkung
-"?></p>
-      <?oxy_comment_end?>
-    </section>
+        eine Sachanmerkung hinzuzufügen, beim Bearbeiter.</p>
+      <fig id="fig_ibn_bns_zdb">
+        <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 142r</desc>
+        <image placement="break" href="../../img_avhr/zitate_autor1.jpg" id="image_jbn_bns_zdb"/>
+      </fig>
+    
+    <fig id="fig_d1y_dns_zdb">
+      <desc>Alexander von Humboldt: Isle de Cube. Antilles en général, Bl. 142r -
+        Webansicht</desc>
+      <image placement="break" href="../../img_avhr/zitate_autor1-webansicht.JPG"
+        id="image_e1y_dns_zdb"/>
+    </fig></section>
     <section>
       <title>Bedienung</title>
       <p>Um eine Sachanmerkung zum Zitat anzulegen, muss die zu kommentierende Textstelle markiert
@@ -26,8 +33,9 @@
         markiert und über die Menüleiste „ediarum > Herausgeberbearbeitung > Zitat in Regest,
         Kommentar etc.“ oder das Tastaturkürzel [Strg] + [Umschalt] + [Z] die entsprechende Funktion
         ausgelöst werden. Wird diese Auszeichnung verwendet, ist ein manuelles Setzen von
-        Anführungszeichen nicht mehr nötig. <i>Eine textkritische Bearbeitung von Zitaten ist nur
-          möglich, wenn sie zuvor auch als Zitat ausgezeichnet wurden.</i></p>
+        Anführungszeichen nicht mehr nötig. <i>Eine textkritische Bearbeitung von Zitaten innerhalb
+          einer Sachanmerkung ist nur möglich, wenn sie zuvor auch als Zitat ausgezeichnet
+          wurden.</i></p>
     </section>
     <section>
       <title>Kodierung</title>

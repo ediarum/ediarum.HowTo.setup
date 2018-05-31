@@ -8,8 +8,8 @@
             <p>Digitalisate, die in Webangeboten Dritter zur Verfügung gestellt werden, können auf
                 zwei Arten verlinkt werden. Zum einen einzeln beim Folio- bzw. Seitenwechsel, zum
                 anderen generalisiert für das Manuskript als ganzes. Vorzuziehen ist eher letztere
-                Variante. Allerdings kann es z.B. bei Regestenausgaben nötig sein, nicht anhand der
-                Folio- bzw. Seitenstruktur zu verlinken. Sollte dies der Fall sein, wird der Link
+                Variante, da es in einigen Fällen wie z.B. Regestenausgaben nötig sein, nicht anhand
+                der Folio- bzw. Seitenstruktur zu verlinken. Sollte dies vorkommen, wird der Link
                 zum Digitalisat in den Metadaten notiert. Für Links zu Digitalisaten sollte in der
                 Regel das Webangebot der bestandshaltenden Institution verwendet werden und die dort
                 üblicherweise angebotenen „Permalinks“. Bei „Kalliope“-Einträgen meint dies den

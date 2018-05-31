@@ -35,7 +35,7 @@
             scale="40"/>
         </fig></p><b>Zitate in Sachanmerkungen</b> werden also solche gekennzeichnet. Handelt es
       sich um Zitate aus Manuskripten der Edition oder externe handschriftliche Quellen, werden
-      diese auch textkritisch bearbeitet.<p>Können <b>externe Quellen</b> für den Stellenkommentar
+      diese auch textkritisch bearbeitet.<p>Können <b>externe Quellen</b> für die Sachanmerkung
         ermittelt werden, wird auf diese
         verwiesen<!-- (zur Bedienung in ediarum siehe <xref href="verweise.dita#topic_e1f_thv_ty">Verweise</xref>)-->.
         Als externe Quellen gelten solche, die nicht explizit in der Editions-Bibliographie erfasst
@@ -59,7 +59,7 @@
             id="image_crd_5l4_mbb"/>
         </fig></p><p>In einer Sachanmerkung werden die Originalquelle und wenn möglich die
         dazugehörige Signatur angegeben:<fig id="fig_y43_sm4_mbb">
-          <desc>Stellenkommentar zu <xref href="https://edition-humboldt.de/H0006511" format="html"
+          <desc>Sachanmerkung zu <xref href="https://edition-humboldt.de/H0006511" format="html"
               scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
               Mittwoch [1837]</xref>, Bl. 1r - Webansicht</desc>
           <image placement="break" href="../../img_avhr/abb32-web-sachanmerkung.jpg" scale="80"
@@ -71,7 +71,7 @@
           oder neu angelegt werden</li>
         <li>Die bibliographische Angabe in Zotero sollte einen Kurztitel haben. Wenn kein Kurztitel
           vorhanden ist, muss er neu vergeben werden</li>
-        <li>Des Kurztitel muss im Stellenkommentar nach dem Muster <b>Humboldt 1826, II, 235</b>
+        <li>Des Kurztitel muss in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
           [Kurztitel, Band, Seite] angegeben werden</li>
         <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet (siehe <xref
             href="namen_kennzeichnen.dita" format="dita">Namen, Werktitel und
@@ -86,10 +86,10 @@
     </section>
     <section id="section_hpw_crm_qbb">
       <title>Kodierung</title>
-      <p>Stellenkommentare werden mit dem Element <xmlelement>seg</xmlelement> (arbitrary segment)
+      <p>Sachanmerkungen werden mit dem Element <xmlelement>seg</xmlelement> (arbitrary segment)
         ausgezeichnet, das stets zwei Kindelemente enthält: Zum einen <xmlelement>orig</xmlelement>
         für den Text aus der Vorlage, der kommentiert wird; zum anderen
-          <xmlelement>note</xmlelement> für den Stellenkommentar an sich. Das Attribut
+          <xmlelement>note</xmlelement> für die Sachanmerkung an sich. Das Attribut
           <xmlatt>type</xmlatt> in <xmlelement>seg</xmlelement> spezifiziert mit seinem Wert
         <codeph>comment</codeph> die Kodierung. Der Wert des Attribtus <xmlatt>xml:id</xmlatt> im Element <xmlelement>note</xmlelement> ist technisch bedingt und wird automatisch
         erzeugt.</p>
@@ -100,14 +100,14 @@
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
 </seg>]]></codeblock>
       <p>Die Kodierung ist nicht konform zum DTABf. Grund dafür ist die erleichterte Prüfung der
-        oben abgebildeten Kodierung, ob sowohl Bezugstext als auch Stellenkommentar vorhanden
+        oben abgebildeten Kodierung, ob sowohl Bezugstext als auch Sachanmerkung vorhanden
         sind.</p>
     </section>
     <section id="section_wgf_gzm_qbb">
       <title>Anzeige</title>
       <p>In der digitalen Edition werden kommentierte Textstellen farbig hinterlegt. Wird der
         Mauszeiger über den Bezugstext gelenkt, wird dieser stärker hervorgehoben und rechts der
-        zugehörige Kommentar angezeigt. Der Stellenkommentar schließt sich automatisch, sobald eine
+        zugehörige Kommentar angezeigt. Die Sachanmerkung schließt sich automatisch, sobald eine
         andere kommentierte Stelle mit dem Cursor angesteuert wird.</p>
     </section>
     <section id="section_djp_qzm_qbb">
