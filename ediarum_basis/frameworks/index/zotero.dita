@@ -3,14 +3,7 @@
 <topic id="topic_arr_bbf_ldb">
   <title>Zotero</title>
   <body>
-    <section><title>Allgemein</title></section>
-    <section product="avhr">
-      <title>edition humboldt digital</title>
-      <p>Anstatt eines in XML-kodierten Werkregisters nutzt die edition humboldt digital eine
-        Zotero-Bibliographie. Die Projektdatenbank des Vorhabens befindet sich in der Zotero-Gruppe
-        „AvH-R“ unter <xref href="https://www.zotero.org/groups/avh-r" format="html"
-          scope="external">https://www.zotero.org/groups/avh-r</xref>.</p>
-    </section>    
+    <section><title>Allgemein</title></section>    
     <section audience="editor" id="section_ucp_bvt_ldb">
       <title>Bedienung</title>
       <p>Die Bibliographie pflegen Sie – nachdem Sie das Programm mit dem Web-Account synchronistert

@@ -5,8 +5,8 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Im Kommentar kann bei Bedarf auf andere Briefe, Dokumente und Textstellen verwiesen werden.
-            Dabei wird der Verweis nicht nur menschenlesbar formuliert, sondern auch maschinenlesbar kodiert.</p>
+            <p>Im Kommentar kann bei Bedarf auf andere Briefe, Dokumente und Textstellen verwiesen
+                werden. </p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

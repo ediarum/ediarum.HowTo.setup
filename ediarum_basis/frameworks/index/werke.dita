@@ -3,22 +3,39 @@
 <concept id="concept_rjp_lln_my">
  <title>Werkregister</title>
  <conbody>
-<section><title>Alllgemeines</title></section>
   <section>
-   <p/>
+   <title>Alllgemeines</title>
   </section>
-  <section><title>edition humboldt digital</title></section> 
-  <section><title>Bedienung</title>
+  <section>
+   <p>Im Werkregister sind Einträge zu allen auf in der Edition verwiesenen Werke hinterlegt. Dort
+    sind übliche bibliographische Angaben wie Titel, Autor und Publikationsart notiert. Außerdem
+    findet sich dort eine Übersicht, an welchen Stellen (in welchen Dokumenten) das Werk in der
+    Edition erwähnt wird. </p>
+  </section>
+  <section>
+   <title>edition humboldt digital</title>
+  </section>
+  <section>
+   <p>Anstatt eines in XML-kodierten Werkregisters nutzt die edition humboldt digital eine
+    Zotero-Bibliographie. Die Projektdatenbank des Vorhabens befindet sich in der Zotero-Gruppe
+    „AvH-R“ unter <xref href="https://www.zotero.org/groups/avh-r" format="html" scope="external"
+     >https://www.zotero.org/groups/avh-r</xref>.</p>
+  </section>
+  <section>
+   <title>Bedienung</title>
    <p>Ein Eintrag im Werkregister wird in einem <xmlelement>bibl</xmlelement>-Element notiert. Wenn
     Sie einen neuen Eintrag erstellen, wird im Attribut <xmlatt>xml:id</xmlatt> eine ID generiert,
     mit der Sie auf den Eintrag referieren könnnen. Außerdem erscheint beim Anlegen eines neuen
     Eintrags ein Dialogfenster, in dem Sie schon den Vor-und Nachnamen des Autoren und den Titel der
-    Publikation eingeben können. </p></section>
-  <section><title>Kodierung</title></section>
-  <p>Die Angaben, die den Autoren betreffen, werden in einem <xmlelement>author</xmlelement>-Element
-   notiert. Dabei werden Angaben zum Namen in einem <xmlelement>persName</xmlelement>-Element
-   notiert, wobei der Vorname in einem <xmlelement>forename</xmlelement>-Element und der Nachname in
-   einem <xmlelement>surname</xmlelement>-Element angegeben wird. <codeblock outputclass="language-xml"><![CDATA[<bibl xml:id="ed_sfz_tqr_5x">
+    Publikation eingeben können. </p>
+  </section>
+  <section>
+   <title>Kodierung</title>
+   <p>Die Angaben, die den Autoren betreffen, werden in einem
+    <xmlelement>author</xmlelement>-Element notiert. Dabei werden Angaben zum Namen in einem
+     <xmlelement>persName</xmlelement>-Element notiert, wobei der Vorname in einem
+     <xmlelement>forename</xmlelement>-Element und der Nachname in einem
+     <xmlelement>surname</xmlelement>-Element angegeben wird. <codeblock outputclass="language-xml"><![CDATA[<bibl xml:id="ed_sfz_tqr_5x">
    <author role="translation">
       <persName key="ed_bkf_zlr_5x">
          <surname>Apell</surname>
@@ -26,53 +43,54 @@
       </persName>
    </author>
 </bibl>]]></codeblock></p>
-  <p>Es können weitere Autoren hinzugefügt werden. Die Angaben für jeden Autoren werden jeweils in
-   einem <xmlelement>author</xmlelement>-Element gemacht. Sie können den Anteil, den die einzelnen
-   Autoren jeweils am Werk hatten, näher bestimmen. Dafür kann ein Attribut <xmlatt>role</xmlatt> angelegt werden,
-   dessen Wert die Art der Mitarbeit angibt.<table id="table_b4y_qr1_py">
-    <tgroup cols="2">
-     <thead>
-      <row>
-       <entry>Anteil am Werk</entry>
-       <entry>Wert für <xmlatt>role</xmlatt></entry>
-      </row>
-     </thead>
-     <tbody>
-      <row>
-       <entry>Musik</entry>
-       <entry><codeph>music</codeph></entry>
-      </row>
-      <row>
-       <entry>Komposition</entry>
-       <entry><codeph>composition</codeph></entry>
-      </row>
-      <row>
-       <entry>Bearbeitung</entry>
-       <entry><codeph>arrangement</codeph></entry>
-      </row>
-      <row>
-       <entry>Libretto</entry>
-       <entry><codeph>libretto</codeph></entry>
-      </row>
-      <row>
-       <entry>Text</entry>
-       <entry><codeph>text</codeph></entry>
-      </row>
-      <row>
-       <entry>Übersetzung</entry>
-       <entry><codeph>translation</codeph></entry>
-      </row>
-     </tbody>
-    </tgroup>
-   </table></p>
-  <codeblock outputclass="language-xml"><![CDATA[<author role="translation">]]></codeblock>
-  <p>Außerdem können Sie noch die Publikationsart näher im <xmlelement>bibl</xmlelement>-Element
-   bestimmen. Im Attribut <xmlatt>type</xmlatt> können Sie entweder auszeichenen, dass es sich um
-   eine Zeitschrift (<codeph>journal</codeph>) oder um einen Sammelband (<codeph>edited_volume</codeph>) handelt. Herausgeber werden
-   in einem <xmlelement>editor</xmlelement> angegeben. Einen einzelner Artikel innerhalb einer solchen
-   Publikation wird in einem weiteren <xmlelement>bibl</xmlelement> angegeben, in dem ein Attribut
-   <xmlatt>type</xmlatt> angibt, dass es sich um einen Artikel handelt (<codeph>article</codeph>). Im
-   <xmlelement>biblScope</xmlelement>-Element werden Angaben zu Band und Seitenzahl gemacht.<codeblock outputclass="language-xml"><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
+   <p>Es können weitere Autoren hinzugefügt werden. Die Angaben für jeden Autoren werden jeweils in
+    einem <xmlelement>author</xmlelement>-Element gemacht. Sie können den Anteil, den die einzelnen
+    Autoren jeweils am Werk hatten, näher bestimmen. Dafür kann ein Attribut <xmlatt>role</xmlatt>
+    angelegt werden, dessen Wert die Art der Mitarbeit angibt.<table id="table_b4y_qr1_py">
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Anteil am Werk</entry>
+        <entry>Wert für <xmlatt>role</xmlatt></entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>Musik</entry>
+        <entry><codeph>music</codeph></entry>
+       </row>
+       <row>
+        <entry>Komposition</entry>
+        <entry><codeph>composition</codeph></entry>
+       </row>
+       <row>
+        <entry>Bearbeitung</entry>
+        <entry><codeph>arrangement</codeph></entry>
+       </row>
+       <row>
+        <entry>Libretto</entry>
+        <entry><codeph>libretto</codeph></entry>
+       </row>
+       <row>
+        <entry>Text</entry>
+        <entry><codeph>text</codeph></entry>
+       </row>
+       <row>
+        <entry>Übersetzung</entry>
+        <entry><codeph>translation</codeph></entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table></p>
+   <codeblock outputclass="language-xml"><![CDATA[<author role="translation">]]></codeblock>
+   <p>Außerdem können Sie noch die Publikationsart näher im <xmlelement>bibl</xmlelement>-Element
+    bestimmen. Im Attribut <xmlatt>type</xmlatt> können Sie entweder auszeichenen, dass es sich um
+    eine Zeitschrift (<codeph>journal</codeph>) oder um einen Sammelband
+     (<codeph>edited_volume</codeph>) handelt. Herausgeber werden in einem
+     <xmlelement>editor</xmlelement> angegeben. Einen einzelner Artikel innerhalb einer solchen
+    Publikation wird in einem weiteren <xmlelement>bibl</xmlelement> angegeben, in dem ein Attribut
+     <xmlatt>type</xmlatt> angibt, dass es sich um einen Artikel handelt (<codeph>article</codeph>).
+    Im <xmlelement>biblScope</xmlelement>-Element werden Angaben zu Band und Seitenzahl gemacht.<codeblock outputclass="language-xml"><![CDATA[<bibl type="journal" xml:id="ed_gnk_wt1_py">
    <editor>
       <persName>
          <surname>Rambach</surname>
@@ -91,5 +109,6 @@
         <biblScope>IV#77-89</biblScope>
     </bibl>
 </bibl>]]></codeblock></p>
+  </section>
  </conbody>
 </concept>
