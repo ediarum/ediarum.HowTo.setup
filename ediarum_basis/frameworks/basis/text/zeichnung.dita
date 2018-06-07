@@ -6,9 +6,21 @@
     <section>
       <title>Allgemein</title>
       <p>Zeichnungen oder Abbildungen, die in der Vorlage enthalten sind, werden eigens erfasst. Sie
-        können kommentiert und beschrieben werden.</p>
+        können kommentiert und beschrieben werden. </p>
       <p>Zeichnungen oder Abbildungen sind zu unterscheiden von Digitalisaten (auch: Faksimiles)
         eines ganzen Dokuments.</p>
+    </section>
+    <section>
+      <title>edition humboldt digital</title>
+      <p>Bildbeschreibungen beinhalten die Art der Zeichnung (Skizze, Karte), Zeichengerät
+        (Bleistift, Tinte) sowie gegebenenfalls eine Einschätzung, was abgebildet werden sollte. Wie
+        umfangreich die inhaltliche Beschreibung dabei ausfällt, liegt im Ermessen der einzelnen
+        BearbeiterInnen.</p>
+      <p>Für <xref href="sachanmerkung.dita#topic_lgx_rhx_5y">Sachanmerkungen</xref> zu Zeichnungen
+        sind möglichst kurz und kompakt und konzentrieren sich auf wesentliche Erläuterungen zur
+        Zeichnung und des dazugehörigen Textsegmentes. Sie können Verweise auf Registereinträge, die
+        Bibliographie der Edition oder externe Quellen enthalten. Je nachdem, wie es der Kontext
+        anbietet, kann auch in Sachanmerkungen der Inhalt der Zeichnung beschrieben werden.</p>
     </section>
     <section audience="editor">
       <title>Bedienung</title>
@@ -18,7 +30,8 @@
           <li>Schnappschuss im Bildbearbeitungsprogramm bearbeiten (etwa in IrfanView)</li>
           <li>Bilddatei als JPG korrekt abspeichern, d.h.:<ol id="ol_ahx_z1t_2bb">
               <li>Bei Bedarf in ediarum im Verzeichnis „Zeichnungen“ ein neues Verzeichnis anlegen
-                (etwa „Cuba“). Das Verzeichnis sollte keine Leer- und Sonderzeichen aufweisen.</li>
+                (etwa „Cuba“). Der Verzeichnisname sollte keine Leer- und Sonderzeichen
+                aufweisen.</li>
               <li>Bilddatei mit eindeutigem Namen versehen. Dieser setzt sich zusammen aus der
                 Foliierung der Vorlage und einer laufenden Zahl (etwa 129r_1.jpg)</li>
             </ol></li>
@@ -43,17 +56,17 @@
     <section>
       <title>Kodierung</title>
       <p>Zeichnungen werden mit dem Element <xmlelement>figure</xmlelement> erfasst. Die Person, die
-        die Zeichung vorgenommen hat, wird im Attribut <xmlatt>hand</xmlatt> angegeben: #author,
-        #addressee oder eine Person aus dem Personen-Register. Fall in der Vorlage eine
+        die Zeichnung vorgenommen hat, wird im Attribut <xmlatt>hand</xmlatt> angegeben: #author,
+        #addressee oder eine Person aus dem Personen-Register. Falls in der Vorlage eine
         Bildunterschrift notiert ist, wird diese im Kindelement <xmlelement>p</xmlelement>
         festgehalten. Im Kindelement <xmlelement>figDesc</xmlelement> wird dagegen das Bild durch
-        die Herausgeberin beschrieben. Im Attribut <xmlatt>facs</xmlatt> schießlich ist der
+        die HerausgeberInnen beschrieben. Im Attribut <xmlatt>facs</xmlatt> schießlich ist der
         Dateiname notiert. Sachanmerkungen, die sich auf das Bild an sich beziehen, werden im
         Kindelement <xmlelement>note</xmlelement> erfasst.</p>
       <codeblock outputclass="language-xml"><![CDATA[<figure facs="abbildung" hand="#adresee">
-   <p>[Bildunterschrift im Ms]</p>
-   <figDesc>[Bildbeschreibung des Bearbeiters]</figDesc>
-   <note type="editorial">[Kommentar Bearbeiterin]</note>
+   <p>[Bildunterschrift im Manuskript]</p>
+   <figDesc>[Bildbeschreibung BearbeiterIn]</figDesc>
+   <note type="editorial">[Kommentar BearbeiterIn]</note>
 </figure>]]></codeblock></section>
   </body>
   <related-links>

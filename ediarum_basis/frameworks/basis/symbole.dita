@@ -62,6 +62,9 @@
     „3000–4000“, „S. 4–6“, „1935–2014“); nicht betroffen sind Bindestriche in Namen
     („Jean-Baptiste“), Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche
     müssen – besonders in Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
+   <p>Unterführungszeichen (Wiederholungsstriche in Listen und Tabellen) werden als
+     <b>Geviertstriche</b> transkribiert. Wichtig ist hierbei, sie zudem explizit als das Wort zu
+    normalisieren, das sie repräsentieren.</p>
    <p>Wenn in der Textvorlage vorhanden, wird der <b>Geminationsstrich</b> (Überstrich um
     Buchstabenverdopplung anzuzeigen) ausgezeichnet. Dazu wird in der ediarum-Autorenansicht der
     Cursor auf die Position nach dem entsprechenden Buchstaben bewegt, der mit einem
@@ -69,18 +72,19 @@
    <fig>
     <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander
       von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128v</desc>
-<image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70" 
-    id="image_i3m_xgn_hbb"/>
-</fig>
+    <image placement="break" href="../img_avhr/geminationstrich.jpg" scale="70"
+     id="image_i3m_xgn_hbb"/>
+   </fig>
    <fig>
-    <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128v – Webansicht</desc>
-<image placement="break" href="../img_avhr/geminationstrich-web.jpg" 
-    id="image_ylx_lhn_hbb"/>
+    <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander
+      von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128v – Webansicht</desc>
+    <image placement="break" href="../img_avhr/geminationstrich-web.jpg" id="image_ylx_lhn_hbb"/>
     <p>Für die Auszeichnung von <b>Minuten-, bzw. Zollzeichen</b> werden nicht Anführungszeichen
      benutzt, sondern das Prime-Zeichen. Über das Menü Symbole > Einheitenzeichen oder die
      Tastenkombination [Strg] + [Umschalt] + [Zirkumflex (^)] kann ein Auswahlfenster geöffnet und
-     je nach Befund ein einfaches (′) , zweifaches (″) oder dreifaches (‴) Prime ausgewählt werden. </p>
-</fig>
+     je nach Befund ein einfaches (′) , zweifaches (″) oder dreifaches (‴) Prime ausgewählt werden.
+    </p>
+   </fig>
    <table id="table_zxp_t3n_hbb">
     <title>Unicode-Übersicht</title>
     <tgroup cols="2">
@@ -93,6 +97,10 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>Geviertstrich</entry>
+       <entry>U+2014</entry>
+      </row>
       <row>
        <entry>Halbgeviertstrich </entry>
        <entry>U+2013 </entry>
@@ -112,7 +120,7 @@
       <row>
        <entry>Linienzeichen (triple prime)</entry>
        <entry>U+2034</entry>
-      </row>     
+      </row>
      </tbody>
     </tgroup>
    </table>

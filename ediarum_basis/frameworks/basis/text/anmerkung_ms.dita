@@ -24,8 +24,7 @@
 </fig>
    <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
-    Einweisungszeichen werden erfasst und unabhängig von ihrer Erscheinungsform im Manuskript stets
-    mit einem einheitlichen Symbol in der Webansicht wiedergegeben. </p><fig>
+    Einweisungszeichen werden erfasst und in der Webansicht wiedergegeben. </p><fig>
      <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 18v/19r - Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
      <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
@@ -66,10 +65,12 @@
   </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Klicken Sie in der Werkzeugleiste auf das Symbol <image href="../../img/note16.gif" id="image_jll_6ls_2y"/>. In den beiden nacheinander erscheinenden Dialogmenüs spezifizieren Sie 
-    zum einen wo die Anmerkung auf dem Blatt gemacht worden ist. Zum anderen vermerken Sie, wer die Anmerkung gemacht hat. Sollten Sie 
-   „Person aus dem Register“ auswählen, wird Ihnen ein Auswahlmenü mit den Einträgen aus dem Personenregister angeboten. Die Handhabung hier
-    ist analog zur Auszeichnung von Personennamen.</p>
+   <p>Klicken Sie in der Werkzeugleiste auf das Symbol <image href="../../img/note16.gif"
+     id="image_jll_6ls_2y"/>. In den beiden nacheinander erscheinenden Dialogmenüs spezifizieren Sie
+    zum einen, wo die Anmerkung auf dem Blatt gemacht worden ist. Zum anderen vermerken Sie, wer die
+    Anmerkung gemacht hat. Sollten Sie „Person aus dem Register“ auswählen, wird Ihnen ein
+    Auswahlmenü mit den Einträgen aus dem Personenregister angeboten. Die Handhabung hier ist analog
+    zur Auszeichnung von Personennamen.</p>
    <p>Optional können Sie vermerken, dass der Autor selbst diese Anmerkung in diese Textstelle per
     Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum“
     über die Funktion „Sonderfunktion > Einweisungszeichen“ einfügen. Dazu muss der Cursor vorher

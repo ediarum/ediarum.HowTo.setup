@@ -3,7 +3,7 @@
 <topic id="topic_qxp_ph5_2bb">
   <title>Normalisierung</title>
   <body>
-    <section>      
+    <section>
       <p>Normalisierungen sind Anpassungen von historischen oder persönlichen Schreibweisen an die
         moderne Orthographie, die vom Herausgeber vorgenommen werden. Dabei können Normalisierungen
         explizit ausgezeichnet oder stillschweigend - ohne Kenntlichmachung in XML - vorgenommen
@@ -28,7 +28,10 @@
         Konventionen anpassen sollen, ohne dabei jede Abweichung als Fehler zu markieren. Explizit
         normalisiert werden üblicherweise Groß- und Kleinschreibung, die Korrektur von Satzzeichen,
         die Ergänzung von Apostrophen, fälschlich getrennt geschriebene Wörter sowie
-        Geminations-Überstriche bei Doppelkonsonanten.</p>
+        Geminations-Überstriche bei Doppelkonsonanten. Ebenfalls explizit normalisiert werden
+        Unterführungszeichen in <xref href="listen.dita#topic_trq_t1v_ty">Listen</xref> und <xref
+          href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>, die normalisierte Variante sind
+        hierbei die Zahlen oder Wörter, die das Wiederholungszeichen repräsentiert.</p>
       <!--<p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen im Kritischen Text nicht markiert:</p><p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>-->
       <p>Ausgenommen von der expliziten Normalisierung sind <b>häufige Schreibgewohnheiten
           Humboldts</b>, die als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu
@@ -45,24 +48,23 @@
       <p>Auch <b>Eigennamen von Orten oder Personen</b> werden in ihrer ursprünglichen Schreibweise
         belassen. Die Normalisierung erfolgt hier durch die Verknüpfung der Namen mit dem jeweiligen
         Registereintrag.</p>
-    </section> 
-        <section><title>Stillschweigende Normalisierung</title><p>Aus Gründen der Arbeitsökonomie wird
-      darauf verzichtet, Humboldts Schreibgewohnheiten in der Verwendung von diakritischen Zeichen
-      explizit zu normalisieren. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
-      diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: </p>
-          <ul id="ul_db2_prz_2bb">
+    </section>
+    <section><title>Stillschweigende Normalisierung</title><p>Aus Gründen der Arbeitsökonomie wird
+        darauf verzichtet, Humboldts Schreibgewohnheiten in der Verwendung von diakritischen Zeichen
+        explizit zu normalisieren. Im Unterschied zu Schreibgewohnheiten auf der Wortebene werden
+        diakritische Zeichen stillschweigend ergänzt. Hierzu zählen: </p>
+      <ul id="ul_db2_prz_2bb">
         <li>Akzente in allen Sprachen</li>
         <li>Tremata, etwa in deutschen Umlauten</li>
       </ul>
-          <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:</p>
-<ul
-          id="ul_eqt_2sz_2bb">
-          <li><b>Autorintention:</b> Es wird davon ausgegangen, dass Humboldt sich sehr wohl seiner
-            nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
-            oder rasche Notizen im Reisetagebuch als überflüssig erachtete. In Einzelfällen lässt
-            sich nachweisen, dass Humboldt die fehlenden Tremata selbst nachträglich ergänzte, um
-            seinen (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
-          <li><b>Autorbild:</b> Wird eine transparente Normalisierung konsequent durchgeführt,
+      <p>Neben dem arbeitsökonomischen Argument wird dies folgendermaßen begründet:</p>
+      <ul id="ul_eqt_2sz_2bb">
+        <li><b>Autorintention:</b> Es wird davon ausgegangen, dass Humboldt sich sehr wohl seiner
+          nachlässigen Schreibweise bewusst war, ihre Korrektur aber für die Alltagskommunikation
+          oder rasche Notizen im Reisetagebuch als überflüssig erachtete. In Einzelfällen lässt sich
+          nachweisen, dass Humboldt die fehlenden Tremata selbst nachträglich ergänzte, um seinen
+          (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
+        <li><b>Autorbild:</b> Wird eine transparente Normalisierung konsequent durchgeführt,
           enstände dadurch ein kritischer Text, der das Bild Humboldts als Autor und in Gänze den
           Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich
           Kunth gegenüber „glucklich“ zeigt, ihm „sagen zu konnen“, Lessing mit 800 Talern
@@ -76,31 +78,32 @@
             <image placement="break" href="../../img_avhr/kunth.jpg" id="image_i4f_vln_jbb"
               scale="80"/>
           </fig></li>
-          <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild,
-            dass Humboldt sehr wohl ein Trema gesetzt hat, es aber bei schneller Niederschrift oder
-            abgenutzter Schreibfeder wahrscheinlich nicht zum (vollständigen) Abdruck des Zeichens
-            kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830 fehlt das Trema über
-            „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den vorliegenden Text als „fur
-            das schone“ zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<fig>
-              <desc>„fur das schone“ – <xref href="https://edition-humboldt.de/H0006179"
-                format="html" scope="external">Alexander von Humboldt an Franz Julius Ferdinand
-                Meyen. [Berlin], Mittwoch, [Anfang 1830]</xref>, Bl. 1r</desc>
-              <image href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb"/>
-            </fig></li>
-          <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
-            Tremata gesetzt wurden oder nicht, müssten konsequenterweise auch fehlende i-Punkte
-            dokumentgetreu ausgezeichnet werden. </li>
-          <li><b>Vergleichstexte:</b> Der Großteil der Texte wird in diesem Sinne stillschweigend
-            normalisiert. Beispielhaft werden aber einzelne Konvolute mit erhöhter
-            Auszeichnungstiefe (Granularität) publiziert:<ul id="ul_qdx_1tz_2bb">
-              <li><b>Kunth-Briefwechsel</b>: die Normalisierung von diakritischen Zeichen erfolgt
-                explizit. </li>
-              <li><b>Cuba-Manuskript</b>: der Unterschied zwischen Befund (kritischer Text) und
-                Deutung (Lesetext) wird noch stärker ausgebaut durch hohen Einsatz von den Text
-                ordnender, vom Herausgeber ergänzter Interpunktion sowie der Normalisierung von
-                Ortsnamen.</li>
-            </ul></li>
-        </ul>      <!--<p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="Beispiel nötig für Publikation
+        <li><b>Nicht eindeutige materielle Grundlage:</b> Zuweilen suggeriert das Schriftbild, dass
+          Humboldt sehr wohl ein Trema gesetzt hat, es aber bei schneller Niederschrift oder
+          abgenutzter Schreibfeder wahrscheinlich nicht zum (vollständigen) Abdruck des Zeichens
+          kam. Im folgenden Auschnitt aus einem Brief an Meyen Anfang 1830 fehlt das Trema über
+          „fur“, über „schone“ hingegen zeichnet es sich leicht ab. Den vorliegenden Text als „fur
+          das schone“ zu transkribieren, verfälscht den Text mehr als es ihn diplomatisch wiedergibt.<fig>
+            <desc>„fur das schone“ – <xref href="https://edition-humboldt.de/H0006179" format="html"
+                scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                Mittwoch, [Anfang 1830]</xref>, Bl. 1r</desc>
+            <image href="../../img_avhr/abb19.png" scale="70" id="image_g5f_qsz_2bb"/>
+          </fig></li>
+        <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
+          Tremata gesetzt wurden oder nicht, müssten konsequenterweise auch fehlende i-Punkte
+          dokumentgetreu ausgezeichnet werden. </li>
+        <li><b>Vergleichstexte:</b> Der Großteil der Texte wird in diesem Sinne stillschweigend
+          normalisiert. Beispielhaft werden aber einzelne Konvolute mit erhöhter Auszeichnungstiefe
+          (Granularität) publiziert:<ul id="ul_qdx_1tz_2bb">
+            <li><b>Kunth-Briefwechsel</b>: die Normalisierung von diakritischen Zeichen erfolgt
+              explizit. </li>
+            <li><b>Cuba-Manuskript</b>: der Unterschied zwischen Befund (kritischer Text) und
+              Deutung (Lesetext) wird noch stärker ausgebaut durch hohen Einsatz von den Text
+              ordnender, vom Herausgeber ergänzter Interpunktion sowie der Normalisierung von
+              Ortsnamen.</li>
+          </ul></li>
+      </ul>
+      <p><?oxy_comment_start author="lkirsten" timestamp="20170922T114728+0200" comment="Beispiel nötig für Publikation
 "?>In
         seltenen Fällen kann auf Basis der Textvorlage nicht eindeutig geklärt werden, ob eine
           <b>stillschweigende Normalisierung oder explizite Normalisierung</b> angemessen ist. Wenn
@@ -108,12 +111,12 @@
         erscheint, wird die Normalisierung mithilfe des <xmlelement>choice</xmlelement>-Elements
         kenntlich gemacht. Wird in vergleichbaren Fällen stillschweigend normalisiert, erfolgt in
         einer <b>Sachanmerkung</b> (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
-          >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>-->
+          >Sachanmerkung</xref>) eine kurze Begründung der Kenntlichmachung.<?oxy_comment_end?></p>
       <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle zwischen den Polen
         Schreibgewohnheit, (stillschweigender/expliziter) Normalisierung und dem korrigierenden
         Eingriff durch den Herausgeber.</p>
-          <p>Diese Grenzfälle werden anhand repräsentativer
-        Beispiele dokumentiert. Die Unterscheidung basiert auf folgenden Richtlinien:</p><p>
+      <p>Diese Grenzfälle werden anhand repräsentativer Beispiele dokumentiert. Die Unterscheidung
+        basiert auf folgenden Richtlinien:</p><p>
         <ul id="ol_awp_1mg_hbb">
           <li><b>Schreibgewohnheiten Humboldts</b>: Humboldt schreibt mit hoher Konsistenz so; die
             Schreibweise wird als Stilelement respektiert und auf keiner Ebene normalisiert.<table
@@ -127,7 +130,7 @@
                 <thead>
                   <row>
                     <entry>Befund</entry>
-                    <entry>Quelle</entry> 
+                    <entry>Quelle</entry>
                     <entry>Kritischer Text</entry>
                     <entry>Lesetext</entry>
                   </row>
@@ -138,9 +141,9 @@
                       <fig>
                         <desc>„Le tems…“</desc>
                         <image href="../../img_avhr/tems.jpg" id="image_yk3_s1p_mcb"
-                          placement="break" />
+                          placement="break"/>
                       </fig>
-                    </entry>                    
+                    </entry>
                     <entry><xref href="https://edition-humboldt.de/H0014746" format="html"
                         scope="external">Alexander von Humboldt an Carl Sigismund Kunth. London, 11.
                         November 1817</xref>, Bl. 1r</entry>
@@ -148,9 +151,16 @@
                     <entry>tems</entry>
                   </row>
                   <row>
-                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T115203+0100" comment="Cuba 137r, konnte aber faksimile nicht zuordnen
-                    "?><?oxy_comment_end?></entry>
-                    <entry></entry>
+                    <entry>
+                      <fig id="fig_bp5_1ls_b2b">
+                        <desc>„Anglois“</desc>
+                        <image placement="break" href="../../img_avhr/anglois.png"
+                          id="image_cp5_1ls_b2b"/>
+                      </fig>
+                    </entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 137r</entry>
                     <entry>anglois</entry>
                     <entry>anglois</entry>
                   </row>
@@ -158,7 +168,8 @@
                     <entry>
                       <fig>
                         <desc>„habitans“</desc>
-                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb" placement="break" />
+                        <image href="../../img_avhr/habitans.png" id="image_xyb_1jw_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -168,16 +179,11 @@
                     <entry>habitans</entry>
                   </row>
                   <row>
-                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T120229+0100" comment="Titel der &apos;Vues des Cordillères et monumens des peuples indigènes de l&apos;Amérique&apos;"?> <?oxy_comment_end?></entry>
-                    <entry></entry>
-                    <entry>monumens</entry>
-                    <entry>monumens</entry>
-                  </row>
-                  <row>
                     <entry>
                       <fig>
                         <desc>„…lieuex de…“</desc>
-                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb" placement="break" />
+                        <image href="../../img_avhr/lieuex.png" id="image_typ_5fq_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -190,7 +196,8 @@
                     <entry>
                       <fig>
                         <desc>„nud“</desc>
-                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb" placement="break" />
+                        <image href="../../img_avhr/nud.png" id="image_c5k_chq_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -203,7 +210,8 @@
                     <entry>
                       <fig>
                         <desc>„pie“</desc>
-                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb" placement="break" />
+                        <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -217,7 +225,7 @@
                       <fig>
                         <desc>„hazard“</desc>
                         <image href="../../img_avhr/hazard.png" id="image_ndj_j3q_mcb"
-                           placement="break"/>
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -230,7 +238,8 @@
                     <entry>
                       <fig>
                         <desc>„Sontag“</desc>
-                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70" placement="break" />
+                        <image href="../../img_avhr/sontag.png" id="image_vzc_pcp_mcb" scale="70"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0015157" format="html"
@@ -243,7 +252,8 @@
                     <entry>
                       <fig>
                         <desc>„…pres Bahia Honda…“</desc>
-                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb" placement="break" />
+                        <image href="../../img_avhr/presbahiahonda.png" id="image_pgm_zxp_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -256,7 +266,8 @@
                     <entry>
                       <fig>
                         <desc>„…qui aye… “</desc>
-                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb" placement="break" />
+                        <image href="../../img_avhr/aye.png" id="image_cc3_bbq_mcb"
+                          placement="break"/>
                       </fig>
                     </entry>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
@@ -271,25 +282,23 @@
           <li><b>Stillschweigende Normalisierung</b>: diakritische Zeichen werden stillschweigend
               ergänzt.<table id="table_yks_kp5_zcb">
               <title>Häufige Beispiele für stillschweigende Normalisierung</title>
-              <tgroup cols="3">
+              <tgroup cols="4">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>
                 <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+                <colspec colname="c4" colnum="4" colwidth="1.0*"/>
                 <thead>
                   <row>
                     <entry>Befund</entry>
+                    <entry>Quelle</entry>
                     <entry>Kritischer Text</entry>
                     <entry>Lesetext</entry>
                   </row>
                 </thead>
                 <tbody>
                   <row>
-                    <entry>
-                      <fig>
-                        <desc>„…Konig…“ – Humboldt an Kunth, 26.10.1832</desc>
-                        <image href="../../img_avhr/konig.png" id="image_ukf_kdp_mcb" placement="break" />
-                      </fig>
-                    </entry>
+                    <entry> „…Konig…“ </entry>
+                    <entry/>
                     <entry>König</entry>
                     <entry>König</entry>
                   </row>
@@ -297,24 +306,19 @@
                     <entry>
                       <fig>
                         <desc>„…Francois…“</desc>
-                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb" placement="break" />
+                        <image href="../../img_avhr/francois.png" id="image_gzx_ggp_mcb"
+                          placement="break"/>
                       </fig>
-                      <xref href="https://edition-humboldt.de/H0001200" format="html"
-                        scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez,
-                        20. April 1799</xref>, Bl. 1v
                     </entry>
+                    <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
+                        scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez,
+                        20. April 1799</xref>, Bl. 1v </entry>
                     <entry>François</entry>
                     <entry>François</entry>
                   </row>
                   <row>
-                    <entry>
-                      <?oxy_comment_start author="lkirsten" timestamp="20180112T114808+0100" comment="aus dem Kunth-Briefwechsel, wo nicht stillschweigend normalisiert wurde"?>
-                      <fig>
-                        <desc>„…a celui…“ – Humboldt an Kunth, 20.04.1839</desc>
-                        <image href="../../img_avhr/a.png" id="image_xbf_ngw_mcb" scale="70" placement="break" />
-                      </fig>
-                      <?oxy_comment_end?>
-                    </entry>
+                    <entry> „…a…“ </entry>
+                    <entry></entry>
                     <entry>à</entry>
                     <entry>à</entry>
                   </row>
@@ -322,12 +326,13 @@
                     <entry>
                       <fig>
                         <desc>„…chaine…“</desc>
-                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb" placement="break" />
+                        <image href="../../img_avhr/chaine.png" id="image_ocl_zcq_mcb"
+                          placement="break"/>
                       </fig>
-                      <xref href="https://edition-humboldt.de/H0002922" format="html"
-                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 129r
-                    </entry>
+                     </entry>
+                    <entry> <xref href="https://edition-humboldt.de/H0002922" format="html"
+                      scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                      général</xref>, Bl. 129r </entry>
                     <entry>chaîne</entry>
                     <entry>chaîne</entry>
                   </row>
@@ -337,54 +342,72 @@
           <li><b>Explizite Normalisierung</b>: behutsame Anpassung an orthographische Konvention, um
             Lesbarkeit im Lesetext zu verbessern.<table id="table_ecs_lp5_zcb">
               <title>Häufige Beispiele für explizite Normalisierung</title>
-              <tgroup cols="3">
-                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
-                <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+              <tgroup cols="4">
+                <colspec colname="c1" colnum="1" colwidth="1.01*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="1.02*"/>
+                <colspec colname="c3" colnum="4" colwidth="1.01*"/>
                 <thead>
                   <row>
                     <entry>Befund</entry>
+                    <entry>Quelle</entry>
                     <entry>Kritischer Text</entry>
                     <entry>Lesetext</entry>
                   </row>
                 </thead>
                 <tbody>
                   <row>
-                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113820+0100" comment="leider kein beispiel (mit faksimile) gefunden
-"?>peutêtre<?oxy_comment_end?></entry>
+                    <entry>
+                      <fig id="fig_knb_lbt_b2b">
+                        <desc>„peutêtre“</desc>
+                        <image placement="break" href="../../img_avhr/peutetre.jpg" scale="20"
+                          id="image_lnb_lbt_b2b"/>
+                      </fig>
+                    </entry>
+                    <entry>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl.
+                      23v</entry>
                     <entry>peutêtre</entry>
                     <entry>peut-être</entry>
                   </row>
                   <row>
-                    <entry><?oxy_comment_start author="lkirsten" timestamp="20180111T153345+0100" comment="es gibt peutetre (cuba 140v), leider kein beispiel für peut etre gefunden
-"?>peut
-                      etre<?oxy_comment_end?></entry>
+                    <entry>
+                      <fig id="fig_ob4_tbt_b2b">
+                        <desc>„peut être“</desc>
+                        <image placement="break" href="../../img_avhr/peut_etre.jpg"
+                          id="image_pb4_tbt_b2b" scale="30"/>
+                      </fig>
+                    </entry>
+                    <entry>Alexander von Humboldt: II. Considerations general sur le Geogr des
+                      plants á l'entrée de la Zone torride. Resultats, Bl. 3v</entry>
                     <entry>peut être</entry>
                     <entry>peut-être</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…parceque…“</desc>
-                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb" placement="break" />
+                        <desc>„parceque“</desc>
+                        <image href="../../img_avhr/parceque.png" id="image_t1l_qjp_mcb"
+                          placement="break"/>
                       </fig>
+                    </entry>
+                    <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 140r
-                    </entry>
+                        général</xref>, Bl. 140r </entry>
                     <entry>parceque</entry>
                     <entry>parce que</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
-                        <desc>„…tandisque…“</desc>
-                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb" placement="break" />
+                        <desc>„tandisque“</desc>
+                        <image href="../../img_avhr/tandisque.png" id="image_slb_2wp_mcb"
+                          placement="break"/>
                       </fig>
-                      <xref href="https://edition-humboldt.de/H0002922" format="html"
-                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 148r
                     </entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                        général</xref>, Bl. 148r </entry>
                     <entry>tandisque</entry>
                     <entry>tandis que</entry>
                   </row>
@@ -392,54 +415,82 @@
                     <entry>
                       <fig>
                         <desc>„com̅e“</desc>
-                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140" placement="break" />
+                        <image href="../../img_avhr/come.png" id="image_edf_s5q_mcb" scale="140"
+                          placement="break"/>
                       </fig>
+                    </entry>
+                    <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 128r
-                    </entry>
+                        général</xref>, Bl. 128r </entry>
                     <entry>com̅e</entry>
                     <entry>comme</entry>
                   </row>
                   <row>
-                    <entry/>
-                    <entry>com̅erce</entry>
-                    <entry>commerce</entry>
-                  </row>
-                  <row>
-                    <entry/>
-                    <entry>im̅ense</entry>
-                    <entry>immense</entry>
+                    <entry>
+                      <fig id="fig_x4s_m2t_b2b">
+                        <desc>„bestim̅t“</desc>
+                        <image placement="break" href="../../img_avhr/bestimmt.png" scale="100"
+                          id="image_y4s_m2t_b2b"/>
+                      </fig>
+                    </entry>
+                    <entry><xref href="https://edition-humboldt.de/H0002658" format="html"
+                        scope="external">Alexander von Humboldt an Samuel Thomas Soemmerring.
+                        Bayreuth, 7. Februar 1796</xref>, Bl. 3v</entry>
+                    <entry>bestim̅en/ bestim̅t</entry>
+                    <entry>bestimmen/ bestimmt</entry>
                   </row>
                   <row>
                     <entry>
                       <fig>
                         <desc>„…roux de…“</desc>
-                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb" placement="break" />
+                        <image href="../../img_avhr/roux.png" id="image_m1w_f3p_mcb"
+                          placement="break"/>
                       </fig>
+                    </entry>
+                    <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 130r
-                    </entry>
+                        général</xref>, Bl. 130r </entry>
                     <entry>roux</entry>
                     <entry>roues</entry>
                   </row>
                   <row>
-                    <entry>RST, 32r „…devant quelquefois dur et verd comme du
-                      Grünstein…“</entry>
+                    <entry>
+                      <fig id="fig_yv5_z2t_b2b">
+                        <desc>„verd“</desc>
+                        <image placement="break" href="../../img_avhr/verd.jpg"
+                          id="image_zv5_z2t_b2b" scale="30"/>
+                      </fig>
+                    </entry>
+                    <entry>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl.
+                      32r</entry>
                     <entry>verd</entry>
                     <entry>vert</entry>
                   </row>
                   <row>
-                    <entry>RST, 23r „…Kirtim (le pic apellé Wostresopka…“</entry>
+                    <entry>
+                      <fig id="fig_a4d_5ft_b2b">
+                        <desc>„apellé“</desc>
+                        <image placement="break" href="../../img_avhr/apell%C3%A9.jpg" scale="30"
+                          id="image_b4d_5ft_b2b"/>
+                      </fig>
+                    </entry>
+                    <entry>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl.
+                      23r</entry>
                     <entry>apellé</entry>
                     <entry>appelé</entry>
                   </row>
                   <row>
-                    <?oxy_comment_start author="lkirsten" timestamp="20180112T113203+0100" comment="konnte ich leider nicht finden (entziffern)
-"?>
-                    <entry>RST, 23r „…angle de depression du massiv de l'Église…“</entry>
-                    <?oxy_comment_end?>
+                    <entry>
+                      <fig id="fig_aqs_vft_b2b">
+                        <desc>„massiv“</desc>
+                        <image placement="break" href="../../img_avhr/massiv.jpg" scale="30"
+                          id="image_bqs_vft_b2b"/>
+                      </fig>
+                    </entry>
+                    <entry>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl.
+                      23r</entry>
                     <entry>massiv</entry>
                     <entry>massif</entry>
                   </row>

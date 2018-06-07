@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="datierung">
-    <title>Datierung</title>
+    <title><?oxy_comment_start author="lkirsten" timestamp="20180607T111446+0200" comment="Topic umstellen, &quot;Allgemeines&quot; enthält im Moment &quot;Kodierung&quot; und &quot;Bedienung&quot;"?>Datierung<?oxy_comment_end?></title>
     <body>
         <section>
             <title>Allgemeines</title>
             <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
-                Wichtig ist, dass die Datumsangaben nochmals
-                <!--in einem
-                <?oxy_comment_start author="thomas" timestamp="20180312T173553+0100" comment="Formulierung verbessern!"?>bestimmten
-                Format<?oxy_comment_end?>-->
-                in den Attributen <xmlatt>when</xmlatt> bzw.
-                    <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
+                Wichtig ist, dass die Datumsangaben in dem Format JJJJ-MM-TT in den Attributen
+                    <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
                     <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
-                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw. <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die
-                Datumsangabe zutrifft.</p>
+                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
+                    <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die Datumsangabe
+                zutrifft.</p>
        
         <p>1. Genaues Datum</p>
         <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">drei Tage vor Weihnachten d. 1772ten Jahres</date>]]></codeblock>
@@ -46,9 +43,9 @@
                 </ul>
             </p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1830-01-01" notAfter="1830-03-31" cert="high"/>]]></codeblock>
-        <!--<p>
-            <ul id="ul_amk_wst_xcb">
-                <li><?oxy_comment_start author="thomas" timestamp="20180312T173409+0100" comment="@TK,UP,CT: 
+            <p>
+                <ul id="ul_amk_wst_xcb">
+                    <li><?oxy_comment_start author="thomas" timestamp="20180312T173409+0100" comment="@TK,UP,CT: 
 * Formulierung verbessern für Version 1 
 * bis dahin auskommentiert!"?>„vor
                         28. September 1830“, „vor 1829“, „nach 22. April 1832“ – der Zeitraum wird,
@@ -57,8 +54,8 @@
                         Faktoren, etwa dem möglichen zeitlichen Umfang der Korrespondenz oder den
                         Lebens- und Wirkungsdaten der Korrespondenzpartner,
                         abhängen<?oxy_comment_end?>.</li>
-            </ul>
-        </p>-->
+                </ul>
+            </p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

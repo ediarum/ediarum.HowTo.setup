@@ -18,23 +18,24 @@
         Auflistungen (beispielsweise von Beobachtungs- oder Messdaten), die strukturell einer
         Tabelle entsprechen. Häufige Textphänomene und grafische Eigenschaften in Tabellen werden
         folgendermaßen in der Transkription erfasst:</p>
-        <ul id="ul_nzr_qss_2bb" audience="editor">
-          <li><b>Zeilenumbrüche</b> werden nach Vorlage erfasst.</li>
-          <li><b>Überschriften</b> und <b>Kopfzeilen</b> werden, wenn vorhanden, erfasst und separat
-            ausgezeichnet.</li>
-          <!--<li><b><?oxy_comment_start author="lkirsten" timestamp="20180220T151806+0100" comment="sind Leerzeichen gemeint? Warum der Begriff Wortzwischenraum?"?>Wortzwischenräume<?oxy_comment_end?></b>
-          zu Beginn oder Ende einer Zelle werden nicht erfasst.</li>-->
-          <li>Striche, die als <b>Verbindungsstrich</b> zwischen zwei Werten in einer Zeile oder als
+      <ul id="ul_nzr_qss_2bb" audience="editor">
+        <li><b>Zeilenumbrüche</b> werden nach Vorlage erfasst.</li>
+        <li><b>Überschriften</b> und <b>Kopfzeilen</b> werden, wenn vorhanden, erfasst und separat
+          ausgezeichnet.</li>
+        <li><b><?oxy_comment_start author="lkirsten" timestamp="20180220T151806+0100" comment="sind Leerzeichen gemeint? Warum der Begriff Wortzwischenraum?"?>Wortzwischenräume<?oxy_comment_end?></b>
+          zu Beginn oder Ende einer Zelle werden nicht erfasst.</li>
+        <li>Striche, die als <b>Verbindungsstrich</b> zwischen zwei Werten in einer Zeile oder als
             <b>Wiederholungsstrich</b> einer Angabe zwischen zwei Zeilen dienen, werden einheitlich
           als Geviertstrich mit jeweils einem
           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Wortzwischenraum
-          <?oxy_custom_end?>transkribiert und in der Webansicht dargestellt.</li>
-        </ul>
-     <p>Beispiel für eine explizite Tabelle:</p>
+          <?oxy_custom_end?>transkribiert und in der Webansicht dargestellt Sie müssen zudem als die
+          darüberstehenden Wörter oder Zahlen, die sie repräsentieren, <xref
+            href="normalisierung.dita#topic_qxp_ph5_2bb">explizit normalisiert</xref> werden.</li>
+      </ul>
+      <p>Beispiel für eine explizite Tabelle:</p>
       <fig>
         <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v </desc>
-        <image placement="break" href="../../img_avhr/abb6.png" scale="60" 
-          id="image_hqb_sj3_dbb"/>
+        <image placement="break" href="../../img_avhr/abb6.png" scale="60" id="image_hqb_sj3_dbb"/>
       </fig>
       <codeblock outputclass="language-xml"><![CDATA[<table cols="4" rows="20" rend="drawn">
 <head>Océan entre l’europe<supplied>,</supplied> l’afrique et l’amérique.</head>
@@ -75,25 +76,26 @@
       <p>Explizite Tabellen werden in der Webansicht im Kritischen Text sowie im Lesetext mit
         durchgehender Umrandung dargestellt.</p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v  -
-          Webansicht (Kritischer Text)</desc>
-        <image placement="break" href="../../img_avhr/abb6-web.JPG" 
-          id="image_cfm_xqn_scb" scale="100"/>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v - Webansicht
+          (Kritischer Text)</desc>
+        <image placement="break" href="../../img_avhr/abb6-web.JPG" id="image_cfm_xqn_scb"
+          scale="100"/>
       </fig>
       <p>Als <b>implizite Tabellen</b> gelten jegliche Art von strukturierten Auflistungen,
         Messreihen und Rechnungen. </p>
-      <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 17v</desc>
-        <image placement="break" href="../../img_avhr/abb7.png" scale="60" 
-          id="image_tbk_rm3_dbb"/>
-      </fig>
+      
       <p>Diese Textphänomene werden ebenfalls als Tabelle erfasst, um die ihnen zugrundeliegenden
         Daten sichtbar zu strukturieren und die Darstellbarkeit im Web zu verbessern.
         <!--<b>Tabellenüberschriften</b> und <b>Kopfzeilen</b> werden in impliziten Tabellen nicht ausgezeichnet.--></p>
       <p audience="editor">Es wird nach inhaltlichen Kriterien entschieden, in wie viele Zeilen und
         Spalten die Tabelle sinnvollerweise aufgeteilt werden muss.</p>
-      <!--Im folgenden Kodierbeispiel wird zwischen
-        Fließtext und zwei jeweils vierzeiligen und dreispaltigen Tabellen unterschieden:</p>
+     <fig>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 17v</desc>
+        <image placement="break" href="../../img_avhr/abb7.png" scale="60" id="image_tbk_rm3_dbb"/>
+      </fig>
+      <p><?oxy_comment_start author="lkirsten" timestamp="20180607T170753+0200" comment="war vorher auskommentiert, noch klären warum"?>Im
+        folgenden Kodierbeispiel wird zwischen Fließtext und zwei jeweils vierzeiligen und
+        dreispaltigen Tabellen unterschieden:</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>am Tuy hac. de D. José Materola.</p>
 <p>Inclin. 42°,20. osc. 22,8.</p>
 <p>le 9 Févr. observé Culminat de Canopus</p>
@@ -142,17 +144,17 @@
     <cell>17 30</cell>
   </row>
 </table>
-<p>donne lat. 10°17′23″.</p>]]></codeblock>-->
+<p>donne lat. 10°17′23″.</p>]]><?oxy_comment_end?></codeblock>
       <p>In der Webansicht werden implizite Tabellen im Kritischen Text und im Lesetext mit
         gestrichelter Umrandung dargestellt.</p>
-      <!--<?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage
+      <?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage
 "?>
-      <fig>
-<desc>ART III, 17v - Webansicht (Kritischer Text)</desc>
-<image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
-        id="image_tx3_qzs_scb" scale="70"/>
-</fig>
-      <?oxy_comment_end?>-->
+      <fig id="fig_iwf_vgt_b2b">
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, 17v - Webansicht (Kritischer Text)</desc>
+        <image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
+          id="image_tx3_qzs_scb" scale="70"/>
+      </fig>
+      <?oxy_comment_end?>
       <p><b>Implizite Tabellen und Listen</b> können sich in der Vorlage ähneln. Die Unterscheidung
         wird auf Grundlage des semantischen Gehalts sowie des Schriftbildes vorgenommen:</p>
       <p>
