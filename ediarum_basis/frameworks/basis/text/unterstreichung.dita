@@ -47,7 +47,8 @@
                 <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r - Anstreichung am linken Rand über vier Zeilen</desc>
                 <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" />
             </fig>
-            <p>Die Auszeichnung umfasst alle vier Zeilen:</p>
+            <p>Die Auszeichnung umfasst alle vier Zeilen (das Kodierbeispiel enthält keine sonstigen
+                Textauszeichnungen wie Normalisierungen und Korrekturen):</p>
             <p>
                 <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
 fraises, petits poids, fêves, resains, patates… tout cela
@@ -71,10 +72,11 @@ et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codebl
         </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Bei Unterstreichungen und Anstreichungen am Rand sollte der jeweilige Text, bzw. Textstelle
-    markiert und dann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
-     href="../../img/underlined16.png" id="image_qg3_n5m_qcb"/> ausgelöst werden. Im erscheinenden
-    Dialogmenü muss die Art der Unterstreichung, bzw. eine Randanstreichung ausgewählt werden.</p>
+   <p>Bei Unterstreichungen und Anstreichungen am Rand sollte der jeweilige Text bzw. die Textstelle
+                markiert und dann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
+                    href="../../img/underlined16.png" id="image_qg3_n5m_qcb"/> ausgelöst werden. Im
+                erscheinenden Dialogmenü muss die Art der Unterstreichung bzw. eine Randanstreichung
+                ausgewählt werden.</p>
      <p>Im Falle einer Randanstreichung eines ganzen Absatzes kann der Cursor an irgendeine
     Textstelle im transkribierten Absatz gesetzt und über die rechte Maustaste im Kontextmenü die
     Option „Absatz am Rand angestrichen“  ausgewählt werden. Möglich ist dies auch über die

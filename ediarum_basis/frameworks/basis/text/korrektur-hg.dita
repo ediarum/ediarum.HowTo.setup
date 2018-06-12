@@ -5,9 +5,9 @@
  <body>
   <section>
    <title>Allgemeines</title>
-   <p>Offensichtliche Fehler seitens des Autors werden getreu der Vorlage transkribiert. Falls es für das Verständnis 
-    des Textes notwendig erscheint, kann der Herausgeber danach diese Fehler korrigieren, indem die untenstehende 
-    Auszeichung verwendet wird.</p>
+   <p>Offensichtliche Fehler seitens des Autors werden getreu der Vorlage transkribiert. Falls es
+    für das Verständnis des Textes notwendig erscheint, kann der Herausgeber diese Fehler
+    korrigieren, indem die untenstehende Auszeichnung verwendet wird.</p>
    <p>Eng verwandt mit der Herausgeberkorrektur, aber durchaus zu unterscheiden sind <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref> und <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Auflösungen</xref> von abgekürzten Wörtern.</p>
@@ -19,8 +19,8 @@
    <p><b>Korrekturen</b> werden vorgenommen, wenn Fehler in der Vorlage das Verständnis einzelner
     Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
     überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
-    Deklinationen, falscher Genus bei Artikeln und Adjektiven und andere grammatische
-    Inkonsistenzen. Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
+    Deklinationen, falscher Genus bei Artikeln und Adjektiven und andere grammatische Inkongruenzen.
+    Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
    <fig id="fig_gxy_vf3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
       von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5. Dezember 1846]</xref>, Bl.
@@ -71,8 +71,8 @@
     Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
      normalisiert</b> (auf Ebene des Lesetextes) werden üblicherweise Groß- und Kleinschreibung, die
     Korrektur von Satzzeichen, die Ergänzung von Apostrophen usw. Explizite Normalisierungen werden
-    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen. (Siehe <xref
-     href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>) Ausgenommen von der
+    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen (siehe <xref
+     href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>). Ausgenommen von der
     Normalisierung sind häufige <b>Schreibgewohnheiten Humboldts</b>, die als Stilelemente bewahrt
     werden.</p>   
    <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der Unterscheidung zwischen

@@ -175,7 +175,7 @@
         (columns) angeben können. Wenn in der ersten Zeile Überschriften für die Spalten notiert
         werden sollen, setzen Sie das Häkchen auf „generate_table-header“. Mit der Schaltfläche
           <image href="../../img/table.jpg" id="image_ig1_xmn_scb"/>  kann die Tabelle jederzeit
-        noch nachträglich verändert, d.h. weitere Zeilen und Spalten hinzugefügt, bzw. gelöscht
+        noch nachträglich verändert, d.h. weitere Zeilen und Spalten hinzugefügt bzw. gelöscht
         werden. </p>
       <p>Wird eine neue Tabelle erstellt, ist diese zunächst nicht als explizit ausgezeichnet und
         erscheint im Autormodus mit gestrichelter Umrandung. Zur Kennzeichnung als explizite Tabelle

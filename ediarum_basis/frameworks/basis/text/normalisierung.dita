@@ -33,9 +33,9 @@
           href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>, die normalisierte Variante sind
         hierbei die Zahlen oder Wörter, die das Wiederholungszeichen repräsentiert.</p>
       <!--<p>Im Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen im Kritischen Text nicht markiert:</p><p>[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]<?oxy_comment_end?></p>-->
-      <p>Ausgenommen von der expliziten Normalisierung sind <b>häufige Schreibgewohnheiten
-          Humboldts</b>, die als Stilelement bewahrt und auf keiner Ebene normalisiert werden. Dazu
-        zählen u.a.:</p>
+      <p>Ausgenommen von der expliziten Normalisierung sind <b>Schreibgewohnheiten Humboldts</b>,
+        die oftmals der orthographischen Norm bzw. Variation der Zeit entsprechen. Sie werden als
+        Stilelement bewahrt und auf keiner Ebene normalisiert. Dazu zählen u.a.:</p>
       <ul id="ul_yjy_fl5_2bb">
         <li>Fehlende Doppelkonsonanten (vortreflich, gedrukt, unnüz)</li>
         <li>Fehlendes Dehnungs-e (disponirt)</li>
@@ -64,14 +64,14 @@
           oder rasche Notizen im Reisetagebuch als überflüssig erachtete. In Einzelfällen lässt sich
           nachweisen, dass Humboldt die fehlenden Tremata selbst nachträglich ergänzte, um seinen
           (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
-        <li><b>Autorbild:</b> Wird eine transparente Normalisierung konsequent durchgeführt,
-          enstände dadurch ein kritischer Text, der das Bild Humboldts als Autor und in Gänze den
-          Leseeindruck verzerren würde. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich
-          Kunth gegenüber „glucklich“ zeigt, ihm „sagen zu konnen“, Lessing mit 800 Talern
-          unterstützt zu haben, kann ein interessanter Befund etwa für die Forschung zur
-          Schriftbildlichkeit oder der Materialität historischer Handschriften sein. Auf Dauer aber
-          und in der Menge, in der diese Nachlässigkeiten vorkommen, verzerrt die präzise
-          Dokumentation des Befundes den Text. <fig>
+        <li><b>Autorbild:</b> Würde eine transparente Normalisierung konsequent durchgeführt,
+          entstände dadurch ein kritischer Text, der das Bild Humboldts als Autor sowie den
+          Leseeindruck verzerrt. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich Kunth
+          gegenüber „glucklich“ zeigt, ihm „sagen zu konnen“, Lessing mit 800 Talern unterstützt zu
+          haben, kann ein interessanter Befund etwa für die Forschung zur Schriftbildlichkeit oder
+          der Materialität historischer Handschriften sein. Auf Dauer aber und in der Menge, in der
+          diese Nachlässigkeiten vorkommen, verzerrt die präzise Dokumentation des Befundes den
+          Text. <fig>
             <desc><xref href="https://edition-humboldt.de/H0002734" format="html" scope="external"
                 >Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26. Oktober
                 1832] </xref>, Bl. 1r</desc>
@@ -119,9 +119,9 @@
         basiert auf folgenden Richtlinien:</p><p>
         <ul id="ol_awp_1mg_hbb">
           <li><b>Schreibgewohnheiten Humboldts</b>: Humboldt schreibt mit hoher Konsistenz so; die
-            Schreibweise wird als Stilelement respektiert und auf keiner Ebene normalisiert.<table
-              id="table_bps_3jg_hbb">
-              <title>Häufige Beispiele für Schreibgewohnheiten Humboldts</title>
+            Schreibweise wird als Stilelement bzw. als historische Norm respektiert und auf keiner
+            Ebene normalisiert.<table id="table_bps_3jg_hbb">
+              <title>Häufige Beispiele Schreibgewohnheiten Humboldts</title>
               <tgroup cols="4">
                 <colspec colname="c1" colnum="1" colwidth="1.0*"/>
                 <colspec colname="c2" colnum="2" colwidth="1.0*"/>

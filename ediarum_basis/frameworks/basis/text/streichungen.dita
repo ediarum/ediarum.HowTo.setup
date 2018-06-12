@@ -7,7 +7,7 @@
    <title>Allgemein</title>
    <p>Gestrichener Text wird grundsätzlich – soweit lesbar – vollständig erfasst, samt aller
     Textphänomene wie Zeilenumbrüchen, Auflösung von Abkürzungen, Normalisierungen und
-    Herausgeberkorrekturen, bzw. –ergänzungen. Die Streichung wird entsprechend ausgezeichnet.</p>
+    Herausgeberkorrekturen bzw. –ergänzungen. Die Streichung wird entsprechend ausgezeichnet.</p>
   </section>
   <section>
    <title>edition humboldt digital</title>
@@ -45,8 +45,8 @@
   </subst> 
 très […]</del>
 </p>]]></codeblock>
-    <p audience="editor">In der Webansicht wird die auf diese Weise eine gestrichene Passage
-    innerhalb einer bereits gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
+    <p audience="editor">In der Webansicht wird eine gestrichene Passage innerhalb einer bereits
+    gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
    <fig><desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v - Webansicht (Kritischer Text)</desc><image placement="break" href="../../img_avhr/abb14-web.jpg" 
     id="image_w4d_g2g_hbb"/></fig>
    <p><b>als Streichung der einzelnen Zeilen sowie des gesamten Absatzes:</b>

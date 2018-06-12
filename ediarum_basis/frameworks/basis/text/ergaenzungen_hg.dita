@@ -55,13 +55,10 @@
     <abbr>Emers.</abbr>
     <expan>Émersion</expan>
 </choice>]]><?oxy_comment_end?></codeblock>
-      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der Abkürzung „u“ und
-        ausgeschriebenem „und“ dar. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der
-        Buchstabe als „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>Der
-        Unterschied zwischen der <b>Abkürzung „u“ und ausgeschriebenem „und“</b> kann im Schriftbild
-        der Vorlage bisweilen nicht eindeutig feststellbar sein. Falls im Schriftbefund eine
-        d-Oberlänge erkennbar ist, wird der Buchstabe als ausgeschriebenes „und“ gewertet – es
-        handelt sich nicht um eine Abkürzung.</p><p>
+      </p><p>Einen <b>Sonderfall</b> stellt die Unterscheidung zwischen der <b>Abkürzung „u“ und
+          ausgeschriebenem „und“</b> kann im Schriftbild der Vorlage bisweilen nicht eindeutig
+        feststellbar sein. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der Buchstabe
+        als ausgeschriebenes „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
           <desc> „und“ mit d-Oberlänge: „…Rose und…“ – <xref
               href="https://edition-humboldt.de/H0002242" format="html" scope="external">Alexander
@@ -85,7 +82,7 @@
         dokumentiert):</p><ul id="ul_ty3_zph_1db">
         <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
       </ul><table id="table_pzj_4pg_hbb">
-        <title>Häufige Beispiele für Abkürzungen</title>
+        <title>Häufige verwendete Abkürzungen</title>
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -187,7 +184,7 @@
       </table><ul id="ul_sbs_44g_hbb">
         <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
       </ul><table id="table_ljp_5h5_zcb">
-        <title>Häufige Beispiele für Kürzel</title>
+        <title>Häufige verwendete Kürzel</title>
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -279,7 +276,7 @@
         <li><b>Sonderkürzel</b>: werden als Abkürzung behandelt und dementsprechend vom Herausgeber
           gekennzeichnet und ergänzt</li>
       </ul><table id="table_v4q_vh5_zcb">
-        <title>Häufige Beispiele für Sonderkürzel</title>
+        <title>Häufige verwendete Sonderkürzel</title>
         <tgroup cols="4">
           <colspec colname="c1" colnum="1" colwidth="1.0*"/>
           <colspec colname="c2" colnum="2" colwidth="1.0*"/>
@@ -340,9 +337,13 @@
             </row>
           </tbody>
         </tgroup>
-      </table><p>Es gibt Fälle, in denen <b>Kürzel und Abkürzungen</b> gemeinsam auftreten. Im
-        folgenden Beispiel wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
-        expliziter Normalisierung von Abkürzungen verdeutlicht.</p><fig id="fig_edv_mzg_1db">
+      </table><b>Aufeinanderfolgende Abkürzungen</b> werden stets einzeln aufgelöst, auch wenn sie
+      Teile einer semantisch Einheit sind. Soll die daraus resultierende ergänzte Schreibung zu
+      einer (für die Zeit) orthographisch typischeren Variante normalisiert werden, geschieht dies
+      explizit (siehe <xref href="normalisierung.dita#topic_qxp_ph5_2bb">explizite
+        Normalisierung</xref>). Folgendes Beispiel zeigt den Umgang mit aufeinanderfolgenden
+      Abkürzungen, zudem wird der Kontrast zwischen stillschweigender Auflösung der Kürzel und
+      expliziter Normalisierung von Abkürzungen deutlich:<fig id="fig_edv_mzg_1db">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
             1830]</xref>, Bl. 1r</desc>
@@ -372,10 +373,7 @@
             1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
-      </fig><b>Aufeinanderfolgende Abkürzungen</b> werden stets einzeln aufgelöst, auch wenn sie
-      Teile einer semantisch Einheit sind. Soll die daraus resultierende ergänzte Schreibung zu
-      einer (für die Zeit) orthographisch typischeren Variante normalisiert werden, geschieht dies
-      explizit. </section>
+      </fig></section>
  <section audience="editor"><title>Bedienung</title><p>In der Werkzeugleiste steht die Funktion
         „Abkürzungen auflösen“ unter dem Symbol <image href="../../img/ex16.png"
           id="image_kdc_d3f_2y"/> zur Verfügung. </p><p>Soll eine unsichere Lesart einer Abkürzung
