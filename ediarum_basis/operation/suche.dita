@@ -5,19 +5,19 @@
   <conbody>
     <p>Über den Punkt „Finden/Ersetzen in Dateien“ im Kontextmenü des Dateibaums kann nach
       bestimmten Wörtern oder Wortteilen gesucht werden.</p>
-    <p>Das Verzeichnis, in dem gesucht werden soll, wird dadurch bestimmt, welcher Ordner (bzw.)
-      auch Datei bei Aufruf des Kontextmenüs ausgewählt wird. Soll beispielsweise nur in den Briefen
-      gesuchten werden, so muss das Kontextmenü mit einem rechten Mausklick auf dem Ordner „Briefe“
-      aufgerufen werden.</p>
+    <p>Das Verzeichnis, in dem gesucht werden soll, wird dadurch bestimmt, welcher Ordner bzw.
+      welche Datei bei Aufruf des Kontextmenüs ausgewählt wird. Soll beispielsweise nur in den
+      Briefen gesucht werden, so muss das Kontextmenü mit einem rechten Mausklick auf den Ordner
+      „Briefe“ aufgerufen werden.</p>
   </conbody>
   <concept id="concept_nyc_lnn_my">
     <title>Einfache Suche</title>
     <conbody>
-      <p>1. Rechter Mausklick auf das Verzeichnis, das durchsucht werden soll.</p>
-      <p>2. Im erscheinenden Kontextmenü „Finden/Ersetzen in Dateien“ auswählen.</p>
+      <p>1. Rechter Mausklick auf das Verzeichnis, das durchsucht werden soll</p>
+      <p>2. Im erscheinenden Kontextmenü „Finden/Ersetzen in Dateien“ auswählen</p>
       <p>3. Im erscheinenden Dialogfenster den Suchbegriff (oder mehrere Begriffe) im ersten
-        Eingabefeld eintragen.</p>
-      <p>4. Darauf achten, dass „Unterverzeichnisse einbeziehen“ angekreuzt ist.</p>
+        Eingabefeld eintragen</p>
+      <p>4. Darauf achten, dass „Unterverzeichnisse einbeziehen“ angekreuzt ist</p>
       <p>5. Auf [Alle suchen] klicken</p>
       <p>
         <b>Achtung</b>: <i>Klicken Sie nicht auf [Alle ersetzen] bzw. brechen Sie den Vorgang ab,

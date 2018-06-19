@@ -22,14 +22,9 @@
     <ul id="ul_sty_qzc_ydb">
      <li><p><b>Funktionsbezeichnungen (ohne Namensnennung)</b>: „…noch ehe ich mit dem <i>König</i>
       nach Potsdam gehe…“, „Der <i>Herr Minister</i> pflegt in naturhistorischen …“, „…le <i>Prince
-       Regent</i> en a parlé avec beaucoup de bonté à mon frère.“.</p> <p>Wenn sowohl eine Funktion, ein
-      Titel, eine Anrede und ein Name ausgezeichnet werden können, fällt die Wahl gewöhnlich auf die
-      kürzeste Variante (Name). Der Umfang der Auszeichnung wird jedoch kontextabhängig nach
-      Textrelevanz und/oder
-      <?oxy_comment_start author="thomas" timestamp="20171222T131025+0100" comment="Beispiel ergänzen, z.B. aus dem Briefwechsel.
-
-+ hier schon deutlich machen, dass für solche Dinge &lt;rs&gt; mit @type=&quot;person&quot; statt &lt;persName&gt; verwendet werden sollte. Siehe unten &quot;Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht, wird dies mit dem Element &lt;rs&gt; ausgezeichnet und mit Hilfe des Attributs @type konkretisiert […]&quot;."?>Redesituation
-      entschieden.<?oxy_comment_end?></p></li>
+       Regent</i> en a parlé avec beaucoup de bonté à mon frère.“.</p> <p>Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name ausgezeichnet werden können,
+       fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der Umfang der Auszeichnung wird
+       jedoch kontextabhängig nach Textrelevanz und/oder Redesituation entschieden.</p></li>
      <li><b>Verwandschaftsgrad</b>: „so führe ich Sie zu meinem <i>Bruder</i>…“, „<i>Sprengels
        Sohn</i> der Senator schreibt mir er beschränke sich…“, „Der Tod <i>meiner unglücklichen
        Mutter</i> ist also endlich doch auch eingetroffen.“</li>
@@ -41,7 +36,7 @@
       „…nichts mehr als die Pension des <i>Gartens</i> accediren!“, „Salziges Wasser, kein Geld,
       Fieber, Tod der Bestien für den ohnedies thierlosen hiesigen <i>Garten</i> – das ist eine
       freudenleere Welt.“  </li>
-     <li>„<b>Der bescheidene Mann</b> legt eine neue brochure gegen Liebig bei,…“ (<xref
+     <li>„<i>Der bescheidene Mann</i> legt eine neue brochure gegen Liebig bei,…“ (<xref
        href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0004892&amp;view=l" format="html"
        scope="external">Humboldt an Kunth, nach 3.05.1842</xref>); „…Monsieur Majorlin Médecin des
       Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris.“ (<xref
@@ -56,9 +51,9 @@
    <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib- bzw. Empfangsorte</b> im der editorischen
     Sachanmerkung sowie im Brieftext selbst werden <i>nicht</i> ausgezeichnet:<ul
      id="ul_fgh_f2p_mbb">
-     <li>„AHumboldt“ als Signatur eines Humboldt-Briefes</li>
-     <li>Humboldt“ als Signatur eines Humboldt-Briefes</li>
-     <li>Personennamen als Teil der Anrede („mein lieber Kunth“) </li>
+     <li><i>„AHumboldt“</i> als Signatur eines Humboldt-Briefes</li>
+     <li><i>„Humboldt“</i> als Signatur eines Humboldt-Briefes</li>
+     <li>Personennamen als Teil der Anrede (<i>„mein lieber Kunth“</i>) </li>
      <li>Ortsname als Teil der Datumszeile im Briefschluss oder -anfang </li>
     </ul></p>
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
@@ -111,35 +106,7 @@
     </ul>
    </p>
    <p>Die ID des verknüpften Registereintrags wird im Attribut <xmlatt>key</xmlatt> notiert.</p>
-   <codeblock outputclass="language-xml"><![CDATA[Mr. <persName key="H0012737">James Arnold</persName>]]></codeblock>
-   <p>Wenn anstelle eines Namens nur ein verweisendes Wort in der Vorlage steht,
-    <?oxy_comment_start author="thomas" timestamp="20171222T142715+0100" comment="Hier auch noch Beispiel einfügen"?>wird
-    dies mit dem Element <xmlelement>rs</xmlelement> ausgezeichnet und mit Hilfe des Attributs
-     <xmlatt>type</xmlatt> konkretisiert<?oxy_comment_end?>:</p>
-    <table id="table_krh_ncd_gy">
-     <tgroup cols="2">
-      <thead>
-       <row>
-        <entry>Bezug auf</entry>
-        <entry>Wert für <xmlatt>type</xmlatt></entry>
-       </row>
-      </thead>
-      <tbody>
-       <row>
-        <entry>Person</entry>
-        <entry><codeph>person</codeph></entry>
-       </row>
-       <row>
-        <entry>Ort</entry>
-        <entry><codeph>place</codeph></entry>
-       </row>
-       <row>
-        <entry>Institution</entry>
-        <entry><?oxy_comment_start author="lkirsten" timestamp="20180517T181012+0200" comment="stimmt das?"?><codeph>org</codeph><?oxy_comment_end?></entry>
-       </row>
-      </tbody>
-     </tgroup>
-    </table>
+   <codeblock outputclass="language-xml"><![CDATA[Mr. <persName key="H0012737">James Arnold</persName>]]></codeblock>   
   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/eigenname.html?"

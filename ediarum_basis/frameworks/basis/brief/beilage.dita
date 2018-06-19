@@ -14,13 +14,13 @@
             <p>In der „Anmerkung zum Brief“ können Hinweise auf Beilagen als Text notiert werden. Liegen
                 Brief als auch Beilage in der Datenbank vor, werden sie verlinkt. Dafür gehen Sie
                 wie folgt vor:<ol id="ol_m3s_t5j_p1b">
-                    <li>Öffnen Sie sowohl Brief als auch Beilage im oXygen XML Author</li>
-                    <li>Gehen Sie in den Brief und legen dort – sofern noch nicht vorhanden – eine „Anmerkung
-                        zum Brief“ an (im Menü „Briefmetadaten“ in der Werkzeugleiste. </li>
+                    <li>Öffnen Sie sowohl Brief als auch Beilage im oXygen XML Author.</li>
+                    <li>Gehen Sie in den Brief und legen dort – sofern noch nicht vorhanden – eine
+                        „Anmerkung zum Brief“ an (im Menü „Briefmetadaten“ in der Werkzeugleiste). </li>
                     <li>Notieren Sie die Beilage als Text im Abschnitt „Anmerkungen zum Brief“, z.B. „diesem
                         Brief lag ein Brief von Friedrich Tiedemann vom 23.8.1808 bei“.</li>
-                    <li>Rufen Sie in der Werkzeugleiste im Menü „Verweise“ (das mit dem blauen Pfeil) die
-                        Funktion „Verweis auf Beilage“ auf</li>
+                    <li>Rufen Sie in der Werkzeugleiste im Menü „Verweise“ (das mit dem blauen
+                        Pfeil) die Funktion „Verweis auf Beilage“ auf.</li>
                     <li>Wählen Sie im erscheinenden Auswahlmenü in der <i>oberen</i> Fensterhälfte die Datei
                         der Beilage aus und klicken Sie auf „OK“. Die Beilage ist nun vom Brief aus verknüpft.
                     </li>

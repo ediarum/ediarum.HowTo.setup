@@ -5,16 +5,20 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>, Orts- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch „Kopfdaten“ genannt)
-                sind wichtige Metadaten<indexterm>Metadaten</indexterm>, die charakteristische, wenn nicht gar notwendige Merkmale
-                der Textsorte Brief sind. In der digitalen Edition können sie ganz oder teilweise in
-                der „Kopfzeile“<indexterm>Kopfzeile</indexterm> („Titel“) des Briefes genannt werden. Vor allem müssen sie aber als
-                sog. Metadaten eindeutig kodiert werden, die bei Absender, Empfänger, Schreib- und Empfangsort
-                <indexterm>Empfangsort</indexterm> zudem auf einen entsprechenden Registereintrag verweisen. Ohne diese
-                Metadaten ist eine Sortierung und Filterung nach Korrespondenzpartner<indexterm>Korrespondenzpartner</indexterm><indexterm>Briefpartner</indexterm> oder Datum in
-                der digitalen Briefedition nicht möglich. Die Angabe eines Schreib- oder
-                Empfangsdatum ist zu unterscheiden von der Erläuterung zur Datierung, die getrennt
-                notiert wird.</p>
+            <p>Absender<indexterm>Absender</indexterm>, Empfänger<indexterm>Empfänger</indexterm>,
+                Orts- und Datumsangaben<indexterm>Datumszeile</indexterm> eines Briefes (auch
+                „Kopfdaten“ genannt) sind wichtige Metadaten<indexterm>Metadaten</indexterm>, die
+                charakteristische, wenn nicht gar notwendige Merkmale der Textsorte Brief sind. In
+                der digitalen Edition können sie ganz oder teilweise in der
+                    „Kopfzeile“<indexterm>Kopfzeile</indexterm> („Titel“) des Briefes genannt
+                werden. Vor allem müssen sie aber als sog. Metadaten eindeutig kodiert werden, die
+                bei Absender, Empfänger, Schreib- und Empfangsort <indexterm>Empfangsort</indexterm>
+                zudem auf einen entsprechenden Registereintrag verweisen. Ohne diese Metadaten ist
+                eine Sortierung und Filterung nach
+                    Korrespondenzpartner<indexterm>Korrespondenzpartner</indexterm><indexterm>Briefpartner</indexterm>
+                oder Datum in der digitalen Briefedition nicht möglich. Die Angabe eines Schreib-
+                oder Empfangsdatums ist zu unterscheiden von der Erläuterung zur Datierung, die
+                getrennt notiert wird.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

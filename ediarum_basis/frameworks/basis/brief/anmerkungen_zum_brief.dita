@@ -10,9 +10,10 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Das Feld für „Anmerkungen zum Brief“ kann – sofern noch nicht vorhanden – über das Menü „Briefmetadaten > Anmerkungen zum Brief“
-            aufgerufen werden. Es kann nur einmal eingefügt werden; die Schaltfläche ist grau unterlegt wenn das Feld schon vorhanden ist oder die
-            Datei nicht als Brief angelegt wurde.</p>
+            <p>Das Feld für „Anmerkungen zum Brief“ kann – sofern noch nicht vorhanden – über das
+                Menü „Briefmetadaten > Anmerkungen zum Brief“ eingefügt werden. Die Schaltfläche ist
+                grau unterlegt, wenn das Feld schon vorhanden ist oder die Datei nicht als Brief
+                angelegt wurde.</p>
         </section>
         <section>
             <title>Kodierung</title>

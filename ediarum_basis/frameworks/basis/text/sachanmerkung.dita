@@ -57,7 +57,7 @@
           <desc>Screenshot von http://kalliope-verbund.info/DE-611-HS-1308253</desc>
           <image placement="break" href="../../img_avhr/kalliope.png" scale="80"
             id="image_crd_5l4_mbb"/>
-        </fig></p><p>In einer Sachanmerkung werden die Originalquelle und wenn möglich die
+        </fig></p><p>In einer Sachanmerkung werden die Originalquelle und, wenn möglich, die
         dazugehörige Signatur angegeben:<fig id="fig_y43_sm4_mbb">
           <desc>Sachanmerkung zu <xref href="https://edition-humboldt.de/H0006511" format="html"
               scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
@@ -67,20 +67,19 @@
         </fig></p><p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen
         Angaben in einer Sachanmerkung müssen folgende Punkte berücksichtigt werden:</p><ol
         audience="editor" id="ol_w4p_ntn_hbb">
-        <li>Eintrag der bibliographischen Angabe in der AvH-R-Zotero-Datenbank muss vorhanden sein
-          oder neu angelegt werden</li>
+        <li>Ein Eintrag der bibliographischen Angabe in der AvH-R-Zotero-Datenbank muss vorhanden
+          sein oder neu angelegt werden.</li>
         <li>Die bibliographische Angabe in Zotero sollte einen Kurztitel haben. Wenn kein Kurztitel
-          vorhanden ist, muss er neu vergeben werden</li>
-        <li>Des Kurztitel muss in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
-          [Kurztitel, Band, Seite] angegeben werden</li>
-        <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank ausgezeichnet (siehe <xref
-            href="namen_kennzeichnen.dita" format="dita">Namen, Werktitel und
-          Sachbegriffe</xref>)</li>
+          vorhanden ist, muss er neu vergeben werden.</li>
+        <li>Der Kurztitel muss in der Sachanmerkung nach dem Muster <b>Humboldt 1826, II, 235</b>
+          [Kurztitel, Band, Seite] angegeben werden.</li>
+        <li>Nur der Kurztitel wird mit dem Werktitel der Zotero-Datenbank verknüpft (siehe <xref
+            href="werktitel_kennzeichnen.dita#topic_qzv_fqw_vdb">Werktitel</xref>).</li>
       </ol></section>
    <section audience="editor">
       <title>Bedienung</title>
       <p>Die zu kommentierende Textstelle markieren. In der Werkzeugleiste die Schaltfläche mit dem
-        Symbol <image href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/> drücken, um die
+        Symbol <image href="../../img/seg-note16.gif" id="image_vn4_2nf_cy"/>drücken, um die
         Textstelle zu kommentieren. Der Cursor ist bereits im Kommentarfeld platziert, Sie können
         direkt mit der Eingabe des Kommentars beginnen.</p>
     </section>
@@ -100,8 +99,7 @@
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
 </seg>]]></codeblock>
       <p>Die Kodierung ist nicht konform zum DTABf. Grund dafür ist die erleichterte Prüfung der
-        oben abgebildeten Kodierung, ob sowohl Bezugstext als auch Sachanmerkung vorhanden
-        sind.</p>
+        oben abgebildeten Kodierung, ob sowohl Bezugstext als auch Sachanmerkung vorhanden sind.</p>
     </section>
     <section id="section_wgf_gzm_qbb">
       <title>Anzeige</title>

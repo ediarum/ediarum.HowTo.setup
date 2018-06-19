@@ -23,8 +23,8 @@
  <concept id="concept_bpr_vkn_my">
   <title>Buchstaben</title>
   <conbody>
-   <p>Sie können folgende Buchstaben, die ein fremsprachliches diakritisches Zeichen benötigen, über
-    das Menü „Symbole“ in den Brieftext einfügen: </p>
+   <p>Sie können folgende Buchstaben, die ein fremdsprachliches diakritisches Zeichen benötigen,
+    über das Menü „Symbole“ in den Brieftext einfügen: </p>
    <p>â, æ, Æ, ç, Ç, &#x229; ,&#x00EB;, ï, ,ł, Ł,ń, ñ, ø, œ, Œ, š, Š </p>
   </conbody>
  </concept>
@@ -61,7 +61,7 @@
     wäre – dies gilt für Gedankenstriche sowie Angaben zu Jahres- und Seitenzahlen (z. B.
     „3000–4000“, „S. 4–6“, „1935–2014“); nicht betroffen sind Bindestriche in Namen
     („Jean-Baptiste“), Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche
-    müssen – besonders in Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
+    müssen – besonders im Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
    <p>Unterführungszeichen (Wiederholungsstriche in Listen und Tabellen) werden als
      <b>Geviertstriche</b> transkribiert. Wichtig ist hierbei, sie zudem explizit als das Wort zu
     normalisieren, das sie repräsentieren.</p>

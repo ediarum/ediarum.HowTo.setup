@@ -4,12 +4,12 @@
  <title>Allgemeine Werkzeugleiste</title>
  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
  <conbody>
-  <p><image href="img/toolbar.png"><?oxy_custom_end?></image></p>
+  <p><?oxy_custom_end?><image href="img/toolbar.png"/></p>
  </conbody>
  <concept id="concept_uhy_32n_my">
   <title><image href="img/save.png" id="image_jhr_l2n_my"/> Speichern</title>
   <conbody>
-   <p>Es empfiehlt sich nicht nur am Ende der Arbeit, sondern zur Sicherheit auch zwischendurch zu
+   <p>Es empfiehlt sich, nicht nur am Ende der Arbeit, sondern zur Sicherheit auch zwischendurch zu
     speichern.</p>
   </conbody>
  </concept>
@@ -26,7 +26,7 @@
    <p>Mithilfe dieser Schaltfläche können Sie in der Datei, die Sie geöffnet haben, bestimmte Wörter
     oder Wortteile suchen. Es öffnet sich ein Suchfenster, in dem Sie sich mit der Funktion „ Alle
     suchen“ sämtliche Suchergebnisse anzeigen lassen können. <i>Achten Sie hierbei unbedingt darauf,
-     nicht die Funktion „ Alle ersetzen“ auszuwählen</i>.</p>
+     nicht die Funktion „Alle ersetzen“ auszuwählen</i>.</p>
   </conbody>
  </concept>
  <concept id="concept_us5_52n_my">
@@ -37,8 +37,7 @@
   </conbody>
  </concept>
  <concept id="concept_e2p_x2n_my">
-  <title><image href="img/comment.png" id="image_zlh_y2n_my"/><b>
-    Bearbeitungskommentare</b></title>
+  <title><image href="img/comment.png" id="image_zlh_y2n_my"/><b> Bearbeitungskommentare</b></title>
   <conbody>
    <p>Mit diesen Schaltflächen können Sie Bearbeitungskommentare im Dokument einfügen, bearbeiten
     und verwalten.</p>
@@ -50,7 +49,7 @@
    <p>Hier können Sie das zugrunde liegende „Cascading Stylesheet“ (CSS), das für die Anzeige
     verantwortlich ist, wechseln. Eine Änderung hat nur Auswirkungen auf die Anzeige, nicht auf das
     Dokument an sich!</p>
-   <p>Außerdem können Sie sich über das Menü Sachanmerkungen, indizierte Stellen, Namen-/Werktitel,
+   <p>Außerdem können Sie sich über das Menü „Sachanmerkungen“ indizierte Stellen, Namen-/Werktitel,
     Verweise und Datumsangaben anzeigen lassen. Diese werden dann farblich hervorgehoben. Auch hier
     verändert sich die Datei nicht, sondern bloß die Darstellung in Ihrem Oxygen-Autor.</p>
   </conbody>

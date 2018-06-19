@@ -3,12 +3,12 @@
 <topic id="concept_isb_sb2_vw">
  <title>TEI</title>
  <body>
-        <p>Eine XML-Datei kann auf ein Schema zurückgreifen, dass die „Grammatik“ vorgibt, d.h.
+        <p>Eine XML-Datei kann auf ein Schema zurückgreifen, das die „Grammatik“ vorgibt, d.h.
             welche Elemente gibt es und wie bzw. wo dürfen sie verwendet werden. Anhand dieses
             Schemas kann die Software überprüfen, ob das Dokument das Schema korrekt umsetzt
             (validiert) oder nicht.</p>
         <p>Im Fall des Arbeitsvorhabens ediarum.Basis wird ein Schema auf Basis der
-            TEI-P5-Richtlinie verwendet, die von der „Text Encoding Initiative“ bereitgestellt
+            TEI-P5-Richtlinie verwendet, die von der „Text Encoding Initiative“ (TEi) bereitgestellt
             wurde. Letztere arbeitet seit 1987 an diesen Richtlinien, die Elemente bereitstellen,
             mit denen u.a. Manuskripte ausgezeichnet bzw. beschrieben werden können. Die TEI ist
             also eine speziell für geisteswissenschaftliche Forschungsprojekte entwickelte
@@ -38,15 +38,15 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>Wie im Beispiel zu sehen ist werden die Textpassagen mit Hilfe der TEI semantisch
-            ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: so
-            steht <codeph>&lt;ex></codeph> für „editorial expansion“ und <codeph>&lt;add></codeph>
-            für „addition“. Dadurch sind die Auszeichnungen unabhängig von ihrer späteren
-            Formatierung. Beispiel:</p>
+        <p>Wie im Beispiel zu sehen ist, werden die Textpassagen mit Hilfe der TEI semantisch
+            ausgezeichnet, d.h. die Elemente tragen schon die Bedeutung der Auszeichnung in sich: So
+            steht <codeph>&lt;i></codeph> für „italic“ (Kursivschreibung) und
+                <codeph>&lt;add></codeph> für „addition“. Dadurch sind die Auszeichnungen unabhängig
+            von ihrer späteren Formatierung. Beispiel:</p>
         <codeblock outputclass="language-xml"><![CDATA[ich konnte <hi rendition="#u">gänzlich</hi> nicht verstehen]]></codeblock>
         <p>Hier wird lediglich vermerkt, dass im Manuskript das Wort „gänzlich“ unterstrichen war.
             Ob im Druck oder im Web die entsprechende Stelle nun tatsächlich unterstrichen oder
-            vielleicht eher gesperrt wird, muss hier nicht entschieden werden.</p>
+            vielleicht eher gesperrt dargestellt wird, muss hier nicht entschieden werden.</p>
         <p>Da die TEI für viele verschiedene Textsorten und Anwendungsfälle gedacht ist, umfasst sie
             sehr viel mehr Elemente als normalerweise in einem Projekt benötigt werden. Im
             Teuchos-Zentrum für Handschriften- und Textforschung an der Universität Hamburg wurde
@@ -54,12 +54,12 @@
             Handschriftenbeschreibung mit XML strukturiert und ausgezeichnet werden können. Von
             TELOTA wurde auf dieser Basis ein XML-Schema für die digitale Arbeitsumgebung
             entwickelt, gegen das die XML-Dokumente zukünftig validiert, d.h. geprüft werden
-            könnnen.</p>
+            können.</p>
         <p>Der Baum eines TEI-kodierten XML-Dokuments besteht immer aus zwei Teilen: dem
-                <codeph>&lt;tei-Header></codeph> und dem <codeph>&lt;text></codeph>. Während die
-            eigentliche Handschriftenbeschreibung sich im letzteren befindet, werden im teiHeader
-            Metaangaben zum XML-Dokument notiert. Grobe Struktur eines TEI-kodierten
-            XML-Dokuments:</p>
+                <codeph>&lt;teiHeader></codeph> und dem <codeph>&lt;text></codeph>. Während die
+            eigentliche Handschriftenbeschreibung sich im letzteren befindet, werden im
+                <codeph>&lt;teiHeader></codeph> Metaangaben zum XML-Dokument notiert. Die grobe
+            Struktur eines TEI-kodierten XML-Dokuments sieht wie folgt aus:</p>
         <p> </p>
         <table>
             <tgroup cols="2">
@@ -78,20 +78,20 @@
                             <codeblock outputclass="language-xml">&lt;teiHeader>
         &lt;fileDesc>
             &lt;titleStmt>
-                ...
+                … 
             &lt;/titleStmt>
             &lt;editionStmt>
-                ...
+                … 
             &lt;/editionStmt>
             &lt;publicationStmt>
-                … [Angaben zur Herausgeberin]
+                … [Angaben zur HerausgeberIn]
             &lt;/publicationStmt>
             &lt;sourceDesc>
-                ...
+                … 
             &lt;/sourceDesc>
         &lt;/fileDesc>
         &lt;profileDesc>
-            ...
+            … 
         &lt;/profileDesc>
     &lt;/teiHeader></codeblock>
                         </entry>
@@ -101,7 +101,7 @@
                         <entry>
                             <codeblock outputclass="language-xml"><![CDATA[   <text>
       <body>
-          ... [Eigentliche Handschriftenbeschreibung]
+          … [Eigentliche Handschriftenbeschreibung]
       </body>
    <text>
 </TEI>]]></codeblock>

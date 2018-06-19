@@ -5,10 +5,12 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Da Briefe häufig Teil eines Briefwechsels sind ist der Korrespondenzkontext wichtig. Unter „Korrespondenzkontext“<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
-                (auch „Korrespondenzzusammenhang“) werden diejenigen
-            Briefe verstanden auf die geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden Brief sind. Dabei kann es sich jeweils um einen oder mehrere
-            Briefe handeln.</p>
+            <p>Da Briefe häufig Teil eines Briefwechsels sind, ist der Korrespondenzkontext wichtig.
+                Unter
+                    „Korrespondenzkontext“<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
+                (auch „Korrespondenzzusammenhang“) werden diejenigen Briefe verstanden, auf die
+                geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden Brief sind.
+                Dabei kann es sich jeweils um einen oder mehrere Briefe handeln.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
@@ -16,7 +18,7 @@
             auf drei unterschiedliche Arten angegeben werden:</p>
             <ul>
                 <li>Als Link zu einem in der digitalen Edition bereits vorhandenen Brief</li>
-                <li>Als einfacher Text (z.B. auf eine gedruckt vorliegende Edition)</li>
+                <li>Als einfacher Text (z.B. als Hinweis auf eine gedruckt vorliegende Edition)</li>
                 <li>Als einfacher Text inkl. externen Link (z.B. auf eine externe, aber digital vorliegende Edition)</li>
             </ul>
             <p>Alle drei Optionen finden Sie in der Werkzeugleiste im Menü „Briefmetadaten“.</p>

@@ -18,9 +18,10 @@
         <section>
             <title>Kodierung</title>
             <p>Der Briefanfang wird im <xmlelement>opener</xmlelement>-Element notiert und kann eine
-                Datumsangabe und Grußformel enthalten. Die Datumsangabe <xmlelement>datline</xmlelement> gibt
-                in ihrem Attribut <xmlatt>rend</xmlatt> die Textaurichtung der Datumsangabe an. Im Element
-                <xmlelement>salute</xmlelement> wird die Anrede transkribiert.</p>
+                Datumsangabe und Grußformel enthalten. Die Datumsangabe
+                    <xmlelement>datline</xmlelement> gibt in ihrem Attribut <xmlatt>rend</xmlatt>
+                die Textausrichtung der Datumsangabe an. Im Element <xmlelement>salute</xmlelement>
+                wird die Anrede transkribiert.</p>
             <codeblock outputclass="language-xml"><![CDATA[<opener>
        <dateline rend="align(right)">4.Januar 1886</dateline>
        <salute>Lieber Mohr</salute>

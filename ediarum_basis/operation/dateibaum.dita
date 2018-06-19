@@ -13,13 +13,12 @@
   <p><image href="img/Dateibaum.png" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
    sich um eine zentrale Datenbank handelt, auf die alle MitarbeiterInnen des Vorhabens zugreifen,
-   darf jede Datei gleichzeitig nur von einem Bearbeiter geöffnet werden. Ist eine Datei bereits von
-   einem Nutzer geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei.
-   Versucht man die Datei dennoch zu öffnen, erscheint ein Warnhinweis, der zum Abbrechen des
-   Vorgangs auffordert. Bitte beachten Sie diese Warnung und brechen sie den Vorgang ab.</p>
-  <p>Dateien können auch mit heruntergedrückter linker Maustaste in andere Ordner verschoben
-   werden.
-  Um im Dateibaum weitere Aktionen (z.B. neue Datei anlegen) durchzuführen, muss per rechter
+   darf jede Datei stets nur von einem Bearbeiter geöffnet werden. Ist eine Datei bereits von einem
+   Nutzer geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei. Versucht
+   man die Datei dennoch zu öffnen, erscheint ein Warnhinweis, der zum Abbrechen des Vorgangs
+   auffordert. Bitte beachten Sie diese Warnung und brechen sie den Vorgang ab.</p>
+  <p>Dateien können auch mit heruntergedrückter linker Maustaste in andere Ordner verschoben werden.
+   Um im Dateibaum weitere Aktionen (z.B. eine neue Datei anlegen) durchzuführen, muss per rechtem
    Mausklick auf eine Datei bzw. ein Verzeichnis das Kontextmenü aufgerufen werden.</p>
   <p><image href="img/Dateibaum.b.png" /></p>
  </conbody>
@@ -27,19 +26,19 @@
   <title>Neue Datei anlegen</title>
   <conbody>
    <p>Wenn eine neue Datei angelegt werden soll, sind folgende Schritte notwendig.</p>
-   <p>1. Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll.</p>
-   <p>2. Neue Datei auswählen</p>
-   <p>3. Dateiname unten im Feld eingeben</p>
-   <p>4. Erstellen klicken</p>
+   <p>1. Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll</p>
+   <p>2. „Neue Datei“ auswählen</p>
+   <p>3. Dateinamen unten im Feld eingeben</p>
+   <p>4. [Erstellen] klicken</p>
   </conbody>
  </concept>
  <concept id="concept_rsk_yln_my">
   <title>Neues Verzeichnis anlegen</title>
   <conbody>
    <p>Beim Anlegen eines neuen Verzeichnisses sind folgende Schritte notwendig:</p>
-   <p>1. Rechter Mausklick auf das Verzeichnis, in dem die neue Datei angelegt werden soll</p>
+   <p>1. Rechter Mausklick auf das Verzeichnis, in dem das neue Verzeichnis angelegt werden soll</p>
    <p>2. „Neues Verzeichnis“ auswählen</p>
-   <p>3. Verzeichnisname im erscheinenden Dialogfenster eingeben</p>
+   <p>3. Verzeichnisnamen im erscheinenden Dialogfenster eingeben</p>
    <p>4. [OK] klicken</p>
   </conbody>
  </concept>
@@ -48,14 +47,14 @@
   <conbody>
    <p>Ohne Zugriff auf die online verfügbare Datenbank kann es (z.B. unterwegs oder im Archiv)
     notwendig sein, eine Datei erst einmal lokal – also auf dem eigenen Rechner – anzulegen. Das
-    kann über das Blattsymbol links oben oder über das „Menü Datei > Neu“ geschehen. Später kann die
+    kann über das Blattsymbol links oben oder über das Menü „Datei > Neu“ geschehen. Später kann die
     nur lokal vorhandene Datei in die Datenbank hochgeladen werden.</p>
   </conbody>
  </concept>
  <concept id="concept_r3x_1mn_my">
   <title><b>Lokale Datei(en) in die Datenbank hochladen</b></title>
   <conbody>
-   <p>1. Rechter Mausklick auf das Verzeichnis, in dem die Datei(en) hochgeladen werden soll(en)</p>
+   <p>1. Rechter Mausklick auf das Verzeichnis, in das die Datei(en) hochgeladen werden soll(en)</p>
    <p>2. Im Kontextmenü „Dateien einfügen“ auswählen</p>
    <p>3. Im erscheinenden Dateibrowser eine oder mehrere Dateien (mit Shift) auswählen</p>
    <p>4. [Öffnen] klicken</p>
@@ -66,7 +65,7 @@
   <conbody>
    <p>1. Rechter Mausklick auf die Datei oder das Verzeichnis, das umbenannt werden soll</p>
    <p>2. Im Kontextmenü „Umbennen“ auswählen</p>
-   <p>3. Datei- bzw. Verzeichnisname ändern</p>
+   <p>3. Datei- bzw. Verzeichnisnamen ändern</p>
    <p>4. [OK] klicken</p>
   </conbody>
  </concept>

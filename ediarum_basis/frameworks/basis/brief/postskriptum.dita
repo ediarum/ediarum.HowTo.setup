@@ -5,12 +5,16 @@
     <body>
         <section>
             <title>Allgemein</title>
-            <p>Das Postskriptum<indexterm>Postskriptum</indexterm> ist ein Nachtrag zum Brief, dass häufig unterhalb der Unterschrift zu finden ist, aber auch an den Rand o.ä.
-            geschrieben sein kann. Zu unterscheiden ist es von einem weiteren Schreibakt<indexterm>Schreibakt</indexterm>, wenn der Brief über mehrere Tage hin fortgesetzt wird.</p>
+            <p>Das Postskriptum<indexterm>Postskriptum</indexterm> ist ein Nachtrag zum Brief, der
+                häufig unterhalb der Unterschrift zu finden ist, aber auch an den Rand o.ä.
+                geschrieben sein kann. Zu unterscheiden ist es von einem weiteren
+                    Schreibakt<indexterm>Schreibakt</indexterm>, wenn der Brief über mehrere Tage
+                hinweg fortgesetzt wird.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Das Postskriptum wird über die Schalftlfäche „Brieftext > Postskriptum“ im Menü „ediarum“ eingefügt.</p>
+            <p>Das Postskriptum wird über die Schaltfläche „Brieftext > Postskriptum“ im Menü
+                „ediarum“ eingefügt.</p>
         </section>
         <section>
             <title>Kodierung</title>
