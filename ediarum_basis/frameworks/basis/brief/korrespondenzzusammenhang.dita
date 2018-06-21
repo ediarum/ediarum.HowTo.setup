@@ -8,48 +8,51 @@
             <p>Da Briefe häufig Teil eines Briefwechsels sind, ist der Korrespondenzkontext wichtig.
                 Unter
                     „Korrespondenzkontext“<indexterm>Korrespondenzkontext</indexterm><indexterm>Korrespondenzzzusammenhang</indexterm><indexterm>Antwortbrief</indexterm>
-                (auch „Korrespondenzzusammenhang“) werden diejenigen Briefe verstanden, auf die
-                geantwortet wird bzw. die wiederum Antwort auf den gerade vorliegenden Brief sind.
+                (auch „Korrespondenzzusammenhang“) werden die Bezugs- und Antwortbriefe verstanden.
                 Dabei kann es sich jeweils um einen oder mehrere Briefe handeln.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Der Korrespondenzkontext, also der beantwortete (d.h. vorangehende) und der antwortende (d.h. nachfolgende) Brief kann
-            auf drei unterschiedliche Arten angegeben werden:</p>
+            <p>Der Korrespondenzkontext, also Bezugs- und Antwortbrief, kann auf drei
+                unterschiedliche Arten angegeben werden:</p>
             <ul>
-                <li>Als Link zu einem in der digitalen Edition bereits vorhandenen Brief</li>
-                <li>Als einfacher Text (z.B. als Hinweis auf eine gedruckt vorliegende Edition)</li>
-                <li>Als einfacher Text inkl. externen Link (z.B. auf eine externe, aber digital vorliegende Edition)</li>
+                <li>als Link zu einem in der digitalen Edition bereits vorhandenen Brief</li>
+                <li>als einfacher Text (z. B. wenn Bezugs- oder Antwortbrief in einer gedruckten
+                    Edition vorliegen)</li>
+                <li>als einfacher Text inkl. externem Link (z. B. wenn Bezugs- oder Antwortbrief
+                    extern in einer digitalen Edition vorliegen)</li>
             </ul>
             <p>Alle drei Optionen finden Sie in der Werkzeugleiste im Menü „Briefmetadaten“.</p>
-            <p>Bitte beachten Sie, dass Sie im Fall eines externen Links nach Möglichkeit den „Permalink“ des Briefes verwenden.</p>
+            <p>Bitte achten Sie darauf, dass Sie im Fall eines externen Links nach Möglichkeit den
+                „Permalink“ des Briefes verwenden.</p>
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Der Korrespondenzkontext wird in <xmlelement>correspDesc</xmlelement> im Kindelement <xmlelement>correspContext</xmlelement>
-            kodiert, in dem auf den vorangehenden bzw. nachfolgenden Brief mit Hilfe des Elements <xmlelement>ref</xmlelement> verwiesen wird. In dessen Attribut
-            <xmlatt>target</xmlatt> wird der interne Link des entsprechenden Briefs angegeben. Das Attribut <xmlatt>type</xmlatt> gibt
-            dabei an, ob es sich um einen vorangehenden oder einen nachfolgenden Brief handelt.<table
-                id="table_k4w_y2d_gy">
-                <tgroup cols="2">
-                    <thead>
-                        <row>
-                            <entry>Korrespondierender Brief</entry>
-                            <entry>Wert für <xmlatt>type</xmlatt></entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry>vorangehender Brief</entry>
-                            <entry><codeph>prev</codeph></entry>
-                        </row>
-                        <row>
-                            <entry>nachfolgender Brief</entry>
-                            <entry><codeph>next</codeph></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table></p>
+            <p>Der Korrespondenzkontext wird in <xmlelement>correspDesc</xmlelement> im Kindelement
+                    <xmlelement>correspContext</xmlelement> kodiert, in dem auf den Bezugs- bzw.
+                Antwortbrief mit Hilfe des Elements <xmlelement>ref</xmlelement> verwiesen wird. In
+                dessen Attribut <xmlatt>target</xmlatt> wird der interne Link des entsprechenden
+                Briefs angegeben. Das Attribut <xmlatt>type</xmlatt> gibt dabei an, ob es sich um
+                einen Bezugs- oder einen Antwortbrief handelt.<table id="table_k4w_y2d_gy">
+                    <tgroup cols="2">
+                        <thead>
+                            <row>
+                                <entry>Korrespondierender Brief</entry>
+                                <entry>Wert für <xmlatt>type</xmlatt></entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Bezugsbrief</entry>
+                                <entry><codeph>prev</codeph></entry>
+                            </row>
+                            <row>
+                                <entry>Antwortbrief</entry>
+                                <entry><codeph>next</codeph></entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table></p>
         <codeblock outputclass="language-xml"><![CDATA[<correspContext>
    <ref type="next" target="B00009"/>
    <ref type="prev" target="B00002"/>

@@ -12,23 +12,23 @@
                     <li>Abschrift</li>
                     <li>Entwurf</li>
                     <li>Druck</li>
-                </ul>In einigen Fällen liegen mehrere Textzeugen vor. Dann wird <i>ein </i>Textzeuge
-                ausgewählt, der die Textfassung der Edition vorgibt (Grundlage). Die anderen
-                Textzeugen finden nur an den Stellen, wo sie Varianten aufzeigen, über eine
+                </ul>In einigen Fällen liegen mehrere Textzeugen vor. Dann wird <i>genau ein</i>
+                Textzeuge ausgewählt, der die Textfassung der Edition vorgibt (Grundlage). Die
+                anderen Textzeugen finden nur an den Stellen, wo sie Varianten aufzeigen, über eine
                 Sachanmerkung expliziten Eingang in die Edition.</p>
             <p>Wird ein Text mit Hilfe anderer Dokumente „erschlossen“, gibt es keine
                 Textgrundlage.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Wählen Sie die Funktion „Art der Textgrundlage“ im Menü „Metadaten“ in der
-                Werkzeugleiste aus. Wählen Sie in den Dialogfenster eine der oben genannten Optionen
+            <p>Wählen Sie im Menü „Metadaten“ in der Werkzeugleiste die Funktion „Art der
+                Textgrundlage“ aus. Wählen Sie in dem Dialogfenster eine der oben genannten Optionen
                 aus.</p>
         </section>
         <section>
             <title>Kodierung</title>
             <p>Im <xmlelement>msDesc</xmlelement>-Element wird die Art der Textgrundlage im Attribut
-                    <xmlatt>rend</xmlatt> ausgezeichnet. Folgende Wert stehen zur Option:<table
+                    <xmlatt>rend</xmlatt> ausgezeichnet. Folgende Werte stehen zur Option:<table
                     id="table_ul1_mws_2y">
                     <tgroup cols="2">
                         <thead>

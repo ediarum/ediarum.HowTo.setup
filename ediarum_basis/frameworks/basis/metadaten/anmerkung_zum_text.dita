@@ -17,10 +17,11 @@
             Brief“</xref> im Menü „Briefmetadaten“ verwenden.</p></section>
         <section>
             <title>Kodierung</title>
-            <p>Die Anmerkung des Herausgebers wird in einem <xmlelement>notesStmt</xmlelement>-Element
-                (notes statement) gemacht. Das Attribut <xmlatt>type</xmlatt> kennzeichnet mit dem Wert
-                <codeph>editorial</codeph>, dass es sich um eine Anmerkung des Herausgebers bzw.
-                Bearbeiters (und <i>nicht</i> des Autors) handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
+            <p>Die Anmerkung des Herausgebers erfolgt in einem
+                <xmlelement>notesStmt</xmlelement>-Element (notes statement). Das Attribut
+                    <xmlatt>type</xmlatt> kennzeichnet mit dem Wert <codeph>editorial</codeph>, dass
+                es sich um eine Anmerkung des Herausgebers bzw. Bearbeiters (und <i>nicht</i> des
+                Autors) handelt.<codeblock outputclass="language-xml"><![CDATA[<notesStmt>
    <note type="editorial">
       <p>[Anmerkung hier eingeben]</p>
    </note>

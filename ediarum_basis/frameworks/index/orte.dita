@@ -43,7 +43,7 @@
      <li>Die meisten lateinamerikanischen Toponyme können heute politisch eindeutig zugeordnet
       werden und erhalten daher einen Verweis auf die administrative Zugehörigkeit. <fig
        id="fig_njs_dbd_pbb">
-       <desc>Beispiel &quot;Tapia&quot; - Ansicht im ediarum-Autormodus</desc>
+       <desc>Beispiel &quot;Tapia&quot; – Ansicht im ediarum-Autormodus</desc>
        <image placement="break" href="../img_avhr/ortsregister1.jpg" scale="70"
         id="image_ojs_dbd_pbb">      
        </image>
@@ -61,12 +61,12 @@
    <title>Bedienung</title>
    <p/>
    <p><b>Norm-ID (Geonames)</b></p>
-   <p>Die Erfassung der Normdatei erfolgt über die Schaltfläche Ortsregister > GeoNames-ID suchen
+   <p>Die Erfassung der Normdatei erfolgt über die Schaltfläche „Ortsregister > GeoNames-ID“ suchen
     (s. ediarum-Spickzettel „Recherche einer Geonames-ID für Orte“)</p>
    <p>Wichtig: Erst den Haupteintrag markieren, dann die Funktion „GeoNames-ID suchen“
     anklicken.</p>
    <p>Will man eine Geo-Normdatei manuell eingeben, führt der Weg wie zuvor über die Schaltfläche
-    Allgemein > Norm-ID</p>
+    „Allgemein > Norm-ID“</p>
   </section>
    <section>
     <title>Kodierung</title>

@@ -44,19 +44,19 @@
                     Webdarstellung stets am linken Rand.</li>
             </ul>
             <fig>
-                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r - Anstreichung am linken Rand über vier Zeilen</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r – Anstreichung am linken Rand über vier Zeilen</desc>
                 <image href="../../img_avhr/rand1.png" id="image_m3x_txz_pcb" />
             </fig>
             <p>Die Auszeichnung umfasst alle vier Zeilen (das Kodierbeispiel enthält keine sonstigen
                 Textauszeichnungen wie Normalisierungen und Korrekturen):</p>
             <p>
                 <codeblock outputclass="language-xml"><![CDATA[<hi rendition="#mMM">Havane se donnent en abondance des asperges, salades, epiñardes,
-fraises, petits poids, fêves, resains, patates… tout cela
+fraises, petits poids, fêves, resains, patates … tout cela
 depuis peu aussi a Veracruz. Le Trigo ne donnant pas de graines à
 Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblock>
             </p>
             <fig>
-                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 144r - Anstreichung eines Absatzes am rechten Rand</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 144r – Anstreichung eines Absatzes am rechten Rand</desc>
                 <image href="../../img_avhr/rand2.png" id="image_kml_kh1_qcb" />
             </fig>
             <p>In der Kodierung wird der gesamte Absatz als angestrichen ausgezeichnet (die Sigle
@@ -66,7 +66,7 @@ Xalappa et et donne beaucoup de farine a la Victoria (Caraccas)</hi>]]></codeblo
 137014 Negres exportés
 et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codeblock>
       <fig>
-          <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 144r - Anstreichung eines Absatzes am rechten Rand - Webansicht (Kritischer Text)</desc>
+          <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 144r – Anstreichung eines Absatzes am rechten Rand – Webansicht (Kritischer Text)</desc>
           <image href="../../img_avhr/rand2-Webansicht.png" />
       </fig>
         </section>

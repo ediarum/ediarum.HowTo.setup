@@ -19,7 +19,7 @@
    <p><b>Korrekturen</b> werden vorgenommen, wenn Fehler in der Vorlage das Verständnis einzelner
     Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
     überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
-    Deklinationen, falscher Genus bei Artikeln und Adjektiven und andere grammatische Inkongruenzen.
+    Deklinationen, falsches Genus bei Artikeln und Adjektiven und andere grammatische Inkongruenzen.
     Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
    <fig id="fig_gxy_vf3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
@@ -33,14 +33,14 @@
    <fig id="fig_wwg_zf3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
      von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5. Dezember 1846]</xref>, Bl.
-     1v - Webansicht (Kritischer Text)</desc>
+     1v – Webansicht (Kritischer Text)</desc>
     <image placement="break" href="../../img_avhr/korrektur_hg_1_webkrit.JPG" 
      id="image_xwg_zf3_1db"/>
    </fig>
    <fig id="fig_wy4_cg3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
      von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5. Dezember 1846]</xref>, Bl.
-     1v - Webansicht (Lesetext)</desc>
+     1v – Webansicht (Lesetext)</desc>
     <image placement="break" href="../../img_avhr/korrektur_hg_1_webles.JPG" 
      id="image_xy4_cg3_1db"/>
    </fig>
@@ -54,14 +54,14 @@
    <fig id="fig_yvb_sr3_1db">
     <desc><xref href="https://edition-humboldt.de/H0002656" format="html" scope="external">Alexander
       von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar und 20. Februar 1791</xref>,
-     Bl. 3v - Webansicht (Kritischer Text)</desc>
+     Bl. 3v – Webansicht (Kritischer Text)</desc>
     <image placement="break" href="../../img_avhr/korrektur_hg_2_webkrit.JPG" 
      id="image_zvb_sr3_1db"/>
    </fig>
    <fig id="fig_i2j_tr3_1db">
     <desc><xref href="https://edition-humboldt.de/H0002656" format="html" scope="external">Alexander
       von Humboldt an Samuel Thomas Soemmerring. Hamburg, 28. Januar und 20. Februar 1791</xref>,
-     Bl. 3v - Webansicht (Lesetext)</desc>
+     Bl. 3v – Webansicht (Lesetext)</desc>
     <image placement="break" href="../../img_avhr/korrektur_hg_2_webles.JPG" 
      id="image_j2j_tr3_1db"/>
    </fig>
@@ -71,13 +71,13 @@
     Ebene des Kritischen und des Lesetextes) werden Tremata und Akzente. <b>Explizit
      normalisiert</b> (auf Ebene des Lesetextes) werden üblicherweise Groß- und Kleinschreibung, die
     Korrektur von Satzzeichen, die Ergänzung von Apostrophen usw. Explizite Normalisierungen werden
-    im XML-Code ausgezeichnet - allerdings auf andere Weise als Korrekturen (siehe <xref
+    im XML-Code ausgezeichnet – allerdings auf andere Weise als Korrekturen (siehe <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref>). Ausgenommen von der
     Normalisierung sind häufige <b>Schreibgewohnheiten Humboldts</b>, die als Stilelemente bewahrt
     werden.</p>   
    <p>Im editorischen Alltag ergeben sich zahlreiche Einzelfälle in der Unterscheidung zwischen
-    Schreibgewohnheit, expliziter und stillschweigender Normalisierung durch den Herausgeber. Diese
-    Grenzfälle werden anhand repräsentativer Beispiele im Abschnitt <xref
+    Schreibgewohnheit, expliziter und stillschweigender Normalisierung durch die HerausgeberInnen.
+    Diese Grenzfälle werden anhand repräsentativer Beispiele im Abschnitt <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierung</xref> dokumentiert.</p>
   </section>
   <section id="section_gl2_thg_qbb" audience="editor"><title>Bedienung</title><p>Um Fehler des
@@ -85,8 +85,8 @@
     Wörter) getreu der Vorlage. Danach markieren Sie dieses Wort (bzw. die Wörter) und wählen in der
     Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"
      id="image_mpc_d3f_2y"/> die Funktion „Korrektur durch den Herausgeber“ aus. Im dann
-    erscheinenden Dialogmenü werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur, die
-    Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
+    erscheinenden Dialogfenster werden Sie gefragt, mit welcher Wahrscheinlichkeit die Korrektur,
+    die Sie notieren möchten, zutrifft. Wählen Sie die entsprechende Option. Danach ist der Cursor
     bereits in demjenigen Feld platziert, in dem Sie ihren Korrekturvorschlag eingeben
     können.</p><p>Soll eine unsichere Lesart eines Fehler und seiner Korrektur gekennzeichnet
     werden, besteht die Möglichkeit nur eines oder beide Kindelemente auszuzeichnen. Sollen beide
@@ -100,11 +100,11 @@
    werden soll.</section>
   <section>
    <title>Kodierung</title>
-   <p>Im edierten Text können Korrekturen für Fehler des Autors mithilfe des <xmlelement>choice</xmlelement> notiert werden. Das
-    Originalwort wird in <xmlelement>sic</xmlelement> notiert, die Korrektur in einem
-    <xmlelement>corr</xmlelement>. Im Element <xmlelement>corr</xmlelement> wird durch das
-    Attribut <xmlatt>cert</xmlatt> (certainty) die Wahrscheinlichkeit notiert, mit der die
-    identifizierte Korrektur zutrifft:</p> 
+   <p>Im edierten Text können Korrekturen von Fehlern des Autors mithilfe des
+     <xmlelement>choice</xmlelement>-Elements notiert werden. Das Originalwort wird in
+     <xmlelement>sic</xmlelement> notiert, die Korrektur in <xmlelement>corr</xmlelement>. Im
+    Element <xmlelement>corr</xmlelement> wird durch das Attribut <xmlatt>cert</xmlatt> (certainty)
+    die Wahrscheinlichkeit angegeben, mit der die Korrektur zutrifft:</p> 
    <table id="table_wl2_xhn_my">
      <tgroup cols="2">
       <thead>
@@ -132,7 +132,7 @@
    <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
    <sic>daß</sic>
    <corr cert="high">das</corr>
-</choice>]]></codeblock>
+</choice> […]]]> </codeblock>
   </section>
  </body>
  <related-links>

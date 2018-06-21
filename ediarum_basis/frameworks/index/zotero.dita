@@ -2,11 +2,9 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_arr_bbf_ldb">
   <title>Zotero</title>
-  <body>
-    <section><title>Allgemein</title></section>    
+  <body>  
     <section audience="editor" id="section_ucp_bvt_ldb">
-      <title>Bedienung</title>
-      <p>Die Bibliographie pflegen Sie – nachdem Sie das Programm mit dem Web-Account synchronistert
+      <p>Die Bibliographie pflegen Sie – nachdem Sie das Programm mit dem Web-Account synchronisiert
         haben (siehe <xref href="zotero_einrichten.dita#topic_ijd_2vf_ldb"/>) – in dem
         Zotero-Programm auf Ihrem Rechner.</p>
       <p><b><xref href="https://www.zotero.org/support/de/quick_start_guide" format="html"
@@ -15,7 +13,7 @@
       <p>Wählen Sie am linken Rand der Programmansicht die Bibliothek bzw. Bibliographie aus, die
         Sie bearbeiten möchten (1). Im Mittelfeld erscheint eine Übersicht der Einträge, die bereits
         eingepflegt wurden (2). Die Liste enthält sämtliche Einträge, die Mitglieder der Gruppe
-        erstellt haben, d.h. nicht alle Einträge sind von Ihnen angelegt. Wählen Sie nun einen
+        erstellt haben, d. h. nicht alle Einträge sind von Ihnen angelegt. Wählen Sie nun einen
         einzelnen Eintrag aus, um im rechten Feld eine Detailansicht zu erhalten (3). Nehmen Sie
         Veränderungen und Ergänzungen vor, indem Sie die Punkte anklicken.</p>
       <p><image href="../img_zotero/biblotheken.png" id="image_u2j_bnt_ldb"/></p>
@@ -29,18 +27,18 @@
       <p><b>Beispiel „Buch“: </b>Am rechten Rand erscheint eine Detailansicht, die noch keine
         Angaben enthält.</p>
       <p><image href="../img_zotero/detailansicht.png" id="image_tky_gpt_ldb"/></p>
-      <p>Setzen Sie den Cursor auf das Feld (z.B. „Titel“), um dort eine Angabe zu machen (1).
-        Machen Sie einen Klick mit der linken Maustaste- Schreiben Sie in das erscheinende Textfeld
+      <p>Setzen Sie den Cursor auf das Feld (z. B. „Titel“), um dort eine Angabe zu machen (1).
+        Machen Sie einen Klick mit der linken Maustaste. Schreiben Sie in das erscheinende Textfeld
         (2).</p>
       <p>
         <image href="../img_zotero/detailansicht_a.png" id="image_yqc_tpt_ldb"/>
         <image href="../img_zotero/detailansicht_b.png" id="image_rxr_hqt_ldb"/></p>
       <p>Wiederholen Sie diese Schritte für sämtliche Punkte (Ort, Jahr, Verlag usw.), die in der
-        Bibliographie gewünscht wird. Geben Sie Personennamen an, ist Folgendes zu bachten.
-        Standartmäßig erscheint ein Feld, in dem Sie Nachname und Vorname angeben. Möchten Sie einen
-        zweiten Autor, einen Herausgeber oder einen Übersetzer hinzugügen, drücken Sie das <image
-          href="../img_zotero/plus.png" id="image_pwf_sst_ldb"/>. Mit Auswahl der Pfeils kann die
-        Rolle einer Person näher bestimmt werden.</p>
+        Bibliographie gewünscht werden. Geben Sie Personennamen an, ist Folgendes zu beachten:
+        Standardmäßig erscheint ein Feld, in dem Sie den Nachnamen und Vornamen angeben. Möchten Sie
+        einen zweiten Autor, einen Herausgeber oder einen Übersetzer hinzufügen, drücken Sie das
+        Pluszeichen <image href="../img_zotero/plus.png" id="image_pwf_sst_ldb"/>. Mit Auswahl des
+        Pfeils kann die Rolle einer Person näher bestimmt werden.</p>
       <p><image href="../img_zotero/person_hinzuf%C3%BCgen.png" id="image_xzk_gtt_ldb"/></p>
       <p><b>Neuer Eintrag (automatisch)</b></p>
       <p> Ist Ihnen für eine Publikation eine ISBN, DOI oder PMID bekannt, nutzen Sie die
@@ -50,15 +48,15 @@
         benötigt eventuell einige Minuten.</p>
       <p><image href="../img_zotero/isbn_suche.png" id="image_ux4_m5t_ldb"/></p>
       <p>Prüfen Sie die Detailansicht und nehmen Sie eventuell Veränderungen vor (insofern
-        überflüssige Informationen enthalten sind usw.)</p>
+        überflüssige Informationen enthalten sind o. ä.).</p>
       <p><image href="../img_zotero/isbn_fund.png" id="image_ezn_fvt_ldb"/></p><p><b><xref href="https://www.zotero.org/support/de/getting_stuff_into_your_library"
         format="html" scope="external">Offizielle Zotero-Dokumentation - Die Zotero-Bibliothek mit Inhalten füllen</xref></b></p>
     </section>
     <section audience="editor" id="section_vcp_bvt_ldb">
       <p><b>Stichwörter anlegen (Tags)</b></p>
       <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen.
-        Wechseln Sie in der Detailansicht vom Reiter „Info“ zum Reiter „Tags“. Mit der Schaltflche
-          <b>Hinzufügen</b> lassen sich beliebig viele Stichwörter anlegen. </p>
+        Wechseln Sie in der Detailansicht vom Reiter „Info“ zum Reiter „Tags“. Mit der Schaltfläche
+        „Hinzufügen“ lassen sich beliebig viele Stichwörter anlegen. </p>
       <p><image href="../img_zotero/tags_a.png" id="image_ubf_nwt_ldb"/></p><p><b><xref href="https://www.zotero.org/support/de/collections_and_tags" format="html"
             scope="external">Offizielle Zotero-Dokumentation - Sammlungen und Tags</xref></b></p>
     </section>

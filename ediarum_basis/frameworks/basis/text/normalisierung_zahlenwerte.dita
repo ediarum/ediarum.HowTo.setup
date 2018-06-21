@@ -4,9 +4,9 @@
   <title>Normalisierung von Notationen und Zahlenwerten</title>
   <body>
     <section>
-      <p>In der <i>edition humboldt digital</i> erfolgt die Normalisierung von Zahlenwerten und
-        Notationen immer stillschweigend. Es wird in der Auszeichnung zudem in höherem Maße von der
-        Manuskriptvorlage abgewichen als bei jeglicher anderer Art von Textphänomenen. </p>
+      <p>In der <i>edition humboldt digital</i> erfolgt die Normalisierung von Notationen und
+        Zahlenwerten immer stillschweigend. Es wird in der Auszeichnung zudem in höherem Maße von
+        der Manuskriptvorlage abgewichen als bei jeglicher anderen Art von Textphänomenen. </p>
       <p>Im Falle vom <b>Nebenrechnungen</b> wird vom Schriftbild der Vorlage abgewichen, um die
         korrekte Wiedergabe der Rechenoperation zu gewährleisten.</p>
       <p>In <b>Tabellen und Berechnungen</b> setzt Humboldt Punkte und Kommata (etwa um
@@ -15,14 +15,15 @@
         im Zweifelsfall nach heute gängiger Schreibpraxis verfahren wird – Dezimalstellen werden mit
         Punkt getrennt, Nachkommastellen entsprechend mit einem Komma. Darüber hinaus wird die
         Darstellung von Messwerten im Sinne ihrer zu Humboldts Zeit konventionellen Form
-        vereinheitlicht. Dies hat zur Folge, dass in der Transkription der Messwerte die
-        Auszeichnung der Zeichenabstände im Vordergrund und der Aufwand in der Bearbeitung insgesamt
-        in einem akzeptablen Verhältnis zum Ergebnis steht. </p>
+        vereinheitlicht. Dies hat zur Folge, dass in der Transkription der Messwerte zugunsten der
+        Lesbarkeit die Zeichenabstände vereinheitlicht werden und somit der Aufwand in der
+        Bearbeitung insgesamt in einem akzeptablen Verhältnis zum Ergebnis steht. </p>
       <p><b>Maßgaben bei der Transkription von Messwerten sind</b>: <ul id="ul_ohg_bf4_hbb">
-          <li>Zeichensetzung (Punkte, Kommata) normalisieren</li>
-          <li>Messwerteinheiten (Grad, Minuten) normalisieren</li>
-          <li>Zeichenabstände (Halbgeviertabstand und Leerzeichen) zwischen den Zahlen anpassen</li>
-          <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“)</li>
+          <li>Zeichensetzung (Punkte, Kommata) normalisieren.</li>
+          <li>Messwerteinheiten (Grad, Minuten) normalisieren.</li>
+          <li>Zeichenabstände (Halbgeviertabstand und Leerzeichen) zwischen den Zahlen
+            anpassen.</li>
+          <li>Zahlenreihen ausrichten (Funktion „Ausrichtung ändern“).</li>
         </ul></p>
       <p>Das folgende Beispiel der Messung der Inklination (Nadel A, Nadel B, Mittel beider Nadeln)
         zeigt exemplarisch eine entsprechende Auszeichnung:</p>

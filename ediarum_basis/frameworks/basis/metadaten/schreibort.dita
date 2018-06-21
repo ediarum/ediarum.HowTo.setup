@@ -19,12 +19,12 @@
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Elements gemacht. Dort
-                wird ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur
-                Entstehung notiert werden, d.h. Autor, Schreibort, Entstehungsdatum. </p>
+            <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Element gemacht. Dort wird
+                ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur
+                Entstehung notiert werden, d. h. Autor, Schreibort, Entstehungsdatum. </p>
             <p>Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name
-                des Ortes notiert wird. Wenn Sie den Schreibort aus dem Ortsregister auswählen, wird
-                im Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum
+                des Ortes notiert wird. Wird der Schreibort aus dem Ortsregister ausgewählt, wird im
+                Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum
                 Ortsregister angelegt.</p>
             <codeblock outputclass="language-xml"><![CDATA[<profileDesc>
     <creation>

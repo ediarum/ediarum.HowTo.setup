@@ -4,23 +4,7 @@
     <title><?oxy_comment_start author="lkirsten" timestamp="20180607T111446+0200" comment="Topic umstellen, &quot;Allgemeines&quot; enthält im Moment &quot;Kodierung&quot; und &quot;Bedienung&quot;"?>Datierung<?oxy_comment_end?></title>
     <body>
         <section>
-            <title>Allgemeines</title>
-            <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
-                Wichtig ist, dass die Datumsangaben in dem Format JJJJ-MM-TT in den Attributen
-                    <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
-                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
-                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
-                    <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die Datumsangabe
-                zutrifft.</p>
-       
-        <p>1. Genaues Datum</p>
-        <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">drei Tage vor Weihnachten d. 1772ten Jahres</date>]]></codeblock>
-        <p>2. Genaue Zeitspanne</p>
-        <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11">vom 11. November 1731 bis zum 11. Sept. ’41</date>]]></codeblock>
-        <p>3. Ungefährer Zeitraum</p>
-        <p>
-            <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
-        </p> 
+            <title>Allgemeines</title>            
         </section>
         <section>
             <title>edition humboldt digital</title>
@@ -59,10 +43,29 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben die Schaltfläche <image
+            <p>In oXygen XML Author steht zur Auszeichnung von Datumsangaben die Schaltfläche <image
                     href="../../img/date.gif" id="image_zfv_b5t_xcb"/> zur Verfügung, die die
                 Optionen „Genaues Datum“, „Genaue Zeitspanne“ und „Ungefährer Zeitraum“ bietet, um
                 alle Datumsangaben auszuzeichnen. </p>
+        </section>
+        <section>
+            <title>Kodierung</title>
+            <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
+                Die Datumsangaben müssen dabei in dem Format <i>JJJJ-MM-TT</i> in den Attributen
+                    <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> oder
+                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
+                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
+                    <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die Datumsangabe
+                zutrifft.</p>
+            
+            <p>1. Genaues Datum</p>
+            <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">drei Tage vor Heiligabend d. 1772ten Jahres</date>]]></codeblock>
+            <p>2. Genaue Zeitspanne</p>
+            <codeblock outputclass="language-xml"><![CDATA[<date from="1731-11-11" to="1741-09-11">vom 11. November 1731 bis zum 11. Sept. ’41</date>]]></codeblock>
+            <p>3. Ungefährer Zeitraum</p>
+            <p>
+                <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
+            </p> 
         </section>
     </body>
 </topic>

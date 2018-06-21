@@ -76,7 +76,7 @@
       <p>Explizite Tabellen werden in der Webansicht im Kritischen Text sowie im Lesetext mit
         durchgehender Umrandung dargestellt.</p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v - Webansicht
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v – Webansicht
           (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/abb6-web.JPG" id="image_cfm_xqn_scb"
           scale="100"/>
@@ -150,7 +150,7 @@
       <?oxy_comment_start author="lkirsten" timestamp="20180220T153133+0100" comment="Transkription prüfen 10. Febr. = 10 Febr in Vorlage
 "?>
       <fig id="fig_iwf_vgt_b2b">
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, 17v - Webansicht (Kritischer Text)</desc>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, 17v – Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/abb7-web.JPG" align="center"
           id="image_tx3_qzs_scb" scale="70"/>
       </fig>
@@ -175,12 +175,12 @@
         (columns) angeben können. Wenn in der ersten Zeile Überschriften für die Spalten notiert
         werden sollen, setzen Sie das Häkchen auf „generate_table-header“. Mit der Schaltfläche
           <image href="../../img/table.jpg" id="image_ig1_xmn_scb"/>  kann die Tabelle jederzeit
-        noch nachträglich verändert, d.h. weitere Zeilen und Spalten hinzugefügt bzw. gelöscht
+        noch nachträglich verändert, d. h. weitere Zeilen und Spalten hinzugefügt bzw. gelöscht
         werden. </p>
       <p>Wird eine neue Tabelle erstellt, ist diese zunächst nicht als explizit ausgezeichnet und
         erscheint im Autormodus mit gestrichelter Umrandung. Zur Kennzeichnung als explizite Tabelle
         sollte der Cursor an eine beliebige Stelle in der Tabelle gesetzt und per Rechtsklick im
-        Kontextmenü der Befehl „Tabelle explizit gezeichnet“ ausgewählt werden - daraufhin ändert
+        Kontextmenü der Befehl „Tabelle explizit gezeichnet“ ausgewählt werden – daraufhin ändert
         sich die Umrandung zur durchgehenden Linie. </p>
    </section>
    <section>

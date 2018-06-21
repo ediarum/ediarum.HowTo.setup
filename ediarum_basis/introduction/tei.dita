@@ -7,7 +7,7 @@
             welche Elemente gibt es und wie bzw. wo dürfen sie verwendet werden. Anhand dieses
             Schemas kann die Software überprüfen, ob das Dokument das Schema korrekt umsetzt
             (validiert) oder nicht.</p>
-        <p>Im Fall des Arbeitsvorhabens ediarum.Basis wird ein Schema auf Basis der
+        <p>Im Fall des Arbeitsvorhabens ediarum.BASIS wird ein Schema auf Basis der
             TEI-P5-Richtlinie verwendet, die von der „Text Encoding Initiative“ (TEi) bereitgestellt
             wurde. Letztere arbeitet seit 1987 an diesen Richtlinien, die Elemente bereitstellen,
             mit denen u.a. Manuskripte ausgezeichnet bzw. beschrieben werden können. Die TEI ist

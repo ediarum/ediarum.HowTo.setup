@@ -67,13 +67,13 @@
         <image placement="break" href="../../img_avhr/werktitel5.jpg" id="image_jct_hkf_zdb"/>
       </fig>
       <fig id="fig_ydw_jkf_zdb">
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r - Webansicht
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r – Webansicht
           erste Sachanmerkung</desc>
         <image placement="break" href="../../img_avhr/werktitel5_webansicht1.JPG"
           id="image_zdw_jkf_zdb"/>
       </fig>
       <fig id="fig_yjd_4kf_zdb">
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r - Webansicht
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 47r – Webansicht
           zweite Sachanmerkung</desc>
         <image placement="break" href="../../img_avhr/werktitel5_webansicht2.JPG"
           id="image_zjd_4kf_zdb"/>
@@ -115,7 +115,7 @@
       <p>Werktitel, die in der Vorlage oder auch in einer Sacherläuterung explizit genannt werden,
         werden mit Element <xmlelement>bibl</xmlelement> ausgezeichnet. Die ID des verknüpften
         Registereintrags wird im Attribut <xmlatt>sameAs</xmlatt> (bibl) notiert.</p>
-      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique…“</bibl>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique …“</bibl>]]></codeblock>
     </section>
   </body>
 </topic>

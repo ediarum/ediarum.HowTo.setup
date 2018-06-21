@@ -5,8 +5,12 @@
     <body>
         <section>
             <title>Allgemeines</title>
-            <p>Unter „Anmerkungen zum Brief“ werden editorische Kommentare<indexterm>Kommentar</indexterm> zum Brief verstanden, die nicht dessen Materialität behandeln. Insbesondere
-            werden hier Hinweise zur Datierung<indexterm>Datierung</indexterm> oder für erschlossene Briefe<indexterm>Erschlossener Brief</indexterm> deren Bezeugung notiert.</p>
+            <p>Unter „Anmerkungen zum Brief“ werden editorische
+                    Kommentare<indexterm>Kommentar</indexterm> zum Brief verstanden, die nicht
+                dessen Materialität behandeln. Insbesondere werden hier Hinweise zur
+                    Datierung<indexterm>Datierung</indexterm> oder bei erschlossenen
+                    Briefe<indexterm>Erschlossener Brief</indexterm> Hinweise auf deren Bezeugung
+                notiert.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

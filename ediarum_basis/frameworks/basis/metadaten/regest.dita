@@ -12,16 +12,16 @@
                 <li>Das Manuskript soll nicht ediert, sondern nur per Regest erschlossen
                     werden.</li>
                 <li>Der Brief (oder ein sonstiges Manuskript) ist in keiner Form überliefert worden.
-                    Durch Erwähnungen an anderen Stellen (antwortende Briefe, Drittbriefe o.ä.) kann
-                    aber auf den Inhalt oder Teile davon geschlossen werden.</li>
+                    Durch Erwähnungen an anderen Stellen (Antwortbriefe, Drittbriefe o.ä.) kann aber
+                    auf den Inhalt oder Teile davon geschlossen werden.</li>
             </ul>
-            <p>Hinweis: Die Editionswissenschaft unterscheidet manchmal zwischen Regest und (kürzer)
-                Zusammenfassung. Dies wird aber nicht explizit in der Datenmodellierung abgebildet,
-                da es sich in beiden Fällen um Zusammenfassungen handelt.</p>
+            <p>Hinweis: Die Editionswissenschaft unterscheidet manchmal zwischen Regest und
+                (kürzerer) Zusammenfassung. Dies wird aber nicht explizit in der Datenmodellierung
+                abgebildet, da es sich in beiden Fällen um Zusammenfassungen handelt.</p>
         </section>
         <section id="section_yvz_zg2_bbb" product="avhr">
             <title>edition humboldt digital</title>
-            <p>Eintrag nur notwendig bei lediglich erschlossenen Textgrundlagen.</p>
+            <p>Eintrag nur notwendig bei lediglich erschlossenen Texten.</p>
         </section>
         <section audience="editor">
             <title>Bedienung</title>

@@ -10,9 +10,9 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Setzen Sie den Cursor in die Zeile, die den Quellennachweis (über die Textgrundlage)
-                enthält. Wählen Sie <b>danach</b> die Funktion „Textgrundlage auswählen“ im Menü
-                „Metadaten“ in der Werkzeugleiste aus. Die Textgrundlage erscheint fett.</p>
+            <p>Setzen Sie den Cursor in die Zeile, die den Quellennachweis (für die Textgrundlage)
+                enthält. Wählen Sie <b>danach</b> im Menü „Metadaten“ in der Werkzeugleiste die
+                Funktion „Textgrundlage auswählen“ aus. Die Textgrundlage erscheint fett.</p>
             <p><image href="../img/textgrundlage.png" id="image_w3h_3kd_pdb"/></p>
         </section>
         <section>

@@ -8,7 +8,7 @@
             von <xmlelement>date</xmlelement> ausgezeichnet. Wichtig ist, dass die Datumsangaben
             nochmals in einem bestimmten Format in den Attributen <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
             <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Dadurch kann der in der Datumsangabe enthaltene
-            Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in
+            Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z. B. Suche in
             bestimmten Zeiträumen). Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit
             angegeben, mit der die Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>. </p>
         <p>1. Genaues Datum</p>
@@ -19,7 +19,7 @@
         <p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
         </p>
-        <p>In Oxygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
+        <p>In oXygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
             Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer
             Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. </p>
         <table id="table_xpp_ynf_cy">

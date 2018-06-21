@@ -10,8 +10,10 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>In ediarum.EDIT sind Briefanfang und -schluss i.d.R. in der Vorlage „Brief“ bereits enthalten und müssen daher nicht nachträglich eingefügt
-                werden. Ist dies dennoch nötig, so finden Sie die entsprechende Funktion im Menü ediarum unter dem Punkt „Brieftext > Briefschluss“.</p>
+            <p>In ediarum.EDIT sind Briefanfang und -schluss i. d. R. in der Vorlage „Brief“ bereits
+                enthalten und müssen daher nicht nachträglich eingefügt werden. Ist dies dennoch
+                nötig, so finden Sie die entsprechende Funktion im Menü „ediarum“ unter dem Punkt
+                „Brieftext > Briefschluss“.</p>
             <p>Ist im Briefschluss eine Datumszeile enthalten, kann diese über die entsprechende
                 Funktion im Menü „ediarum > Brieftext“ eingefügt werden. Sie wird dort eingefügt, wo
                 der Cursor im Briefschluss gesetzt wurde. Sie kann also vor oder hinter Grußformel

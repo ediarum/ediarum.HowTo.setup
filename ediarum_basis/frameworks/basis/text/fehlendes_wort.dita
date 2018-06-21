@@ -5,14 +5,14 @@
  <body>
   <section>
    <title>Allgemein</title>
-   <p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen ergänzt werden; diese Ergänzungen werden mit
-    <xmlelement>supplied</xmlelement> ausgezeichnet. Dabei wird die Wahrscheinlichkeit angegeben, mit der diese Ergänzung
-    zutrifft.</p>
+   <p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen ergänzt werden. Diese
+        Ergänzungen werden mit <xmlelement>supplied</xmlelement> ausgezeichnet. Dabei wird die
+        Wahrscheinlichkeit angegeben, mit der diese Ergänzung zutrifft.</p>
    <p>Die Ergänzung von fehlenden Wörtern oder Satzzeichen ist zu unterscheiden von der <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzung (auch: Auflösung) abgekürzter
      Wörter</xref>. </p></section> 
   <section product="avhr"><title>edition humboldt digital</title><p>Ergänzungen werden auf Ebene von
-        einzelnen Buchstaben, Satzzeichen bishin zu ganzen Wörtern vorgenommen.</p><p>Bei
+        einzelnen Buchstaben, Satzzeichen bis hin zu ganzen Wörtern vorgenommen.</p><p>Bei
           <b>fehlenden Buchstaben</b> wird abgewogen zwischen einer Ergänzung einzelner Zeichen und
         einer Korrektur des gesamten Wortes. Besonders am Wortende ist die Ergänzung des einzelnen
         Buchstabens zu bevorzugen. Sie erfolgt nicht bei Personen- oder Ortsnamen, da in diesem
@@ -37,7 +37,7 @@
         sind:</p><fig id="fig_c1f_fsj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - „Wollen Sie nicht beiliegende französische Bücher, die ich eben
+            1830]</xref>, Bl. 1r – „Wollen Sie nicht beiliegende französische Bücher, die ich eben
           von Paris bekomme, durchsehen und medizinischen Freunden schenken“</desc>
         <image placement="break" href="../../img_avhr/fragezeichen-punkt.jpg" scale="70"
           id="image_cqn_bgh_hbb"/>
@@ -55,7 +55,7 @@
         als Frage, und daher ein Punkt am Ende des Satzes ergänzt: </p><fig id="fig_d1f_fsj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+            1830]</xref>, Bl. 1r – Webansicht (Kritischer Text)</desc>
         <image href="../../img_avhr/fragezeichen-punkt-web.jpg" scale="70" id="image_uwf_f1g_jbb"/>
       </fig><p>Bei <b>Satzzeichen in mehrheitlich französischen Texten</b> wird stillschweigend auf
         die Ergänzung eines Leerzeichens vor Doppelpunkt, Semikolon, Frage- oder Ausrufezeichen
@@ -70,7 +70,7 @@
         id="fig_e1f_fsj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - „Ich habe so eben ein sehr freundliches Antwortschreiben von
+            1830]</xref>, Bl. 1r – „Ich habe so eben ein sehr freundliches Antwortschreiben von
           Minister Altenstein über Ihre Reise.“</desc>
         <image placement="break" href="../../img_avhr/abb29.png" scale="80" id="image_bsk_lnr_gbb"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[Ich habe so eben ein sehr freundliches Antwortschreiben von Minister 
@@ -78,14 +78,14 @@
       <fig>
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+            1830]</xref>, Bl. 1r – Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/abb29-webkrit.JPG" id="image_ght_jyj_ycb"
           scale="70"/>
       </fig>
       <fig id="fig_w44_pyj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
+            1830]</xref>, Bl. 1r – Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/abb29-webles.JPG" scale="70"
           id="image_x44_pyj_ycb"/>
       </fig></section>
@@ -101,9 +101,10 @@
   </section>
   <section>
    <title>Kodierung</title>
-   <p>Ergänzungen von fehlenden Satzeichen oder ganzen Wörtern wird mit <xmlelement>supplied</xmlelement> gekennzeichnet.</p>
-   <p>Dabei drückt der Attributwert für <xmlatt>cert</xmlatt> (certainty) die Wahrscheinlichkeit aus, inwiefern die Ergänzung richtig
-   ist:</p>
+   <p>Ergänzungen von fehlenden Satzzeichen oder ganzen Wörtern werden mit
+          <xmlelement>supplied</xmlelement> gekennzeichnet.</p>
+   <p>Dabei drückt der Attributwert für <xmlatt>cert</xmlatt> (certainty) aus, mit welcher
+        Wahrscheinlichkeit die Ergänzung richtig ist:</p>
    <table id="table_hxd_thn_my">
     <tgroup cols="2">
      <thead>

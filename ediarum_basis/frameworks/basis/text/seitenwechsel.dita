@@ -98,7 +98,7 @@
    <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
    <p>Ein Link zum Digitalisat wird im Attribut facs notiert. Als Link sollten im Regelfall nur
         Permalinks der bestandshaltenden Institution (Archiv oder Bibliothek) bzw. offizieller,
-        übergeordneter Angebote (z.B. Gallica) verwendet werden.</p>
+        übergeordneter Angebote (z. B. Gallica) verwendet werden.</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
    <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element <xmlelement>fw</xmlelement> kodiert, dessen
     Attribut <xmlatt>type</xmlatt> den Wert <codeph>folnum</codeph> aufweist.</p>

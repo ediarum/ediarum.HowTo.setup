@@ -7,7 +7,7 @@
       <p>Zitiert der Autor aus anderen Werken oder Dokumenten, wird das Zitat textkritisch
         bearbeitet, nicht aber inline als Zitat ausgezeichnet. Stattdessen wird es in einer <xref
           href="sachanmerkung.dita#topic_lgx_rhx_5y">Sachanmerkung</xref> kommentiert und als Zitat
-        markiert, sowie - wenn möglich - mit einer Quellenangabe versehen. Es kann sich hierbei auch
+        markiert, sowie, wenn möglich, mit einer Quellenangabe versehen. Es kann sich hierbei auch
         um Stellen handeln, die nicht unmittelbar als Zitat erkennbar sind (bspw. Paraphrasen) oder
         nicht getreu der Vorlage wiedergegeben werden. In solchen Fällen liegt die Entscheidung,
         eine Sachanmerkung hinzuzufügen, beim Bearbeiter.</p>
@@ -41,9 +41,9 @@
       <title>Kodierung</title>
       <p>Zitate innerhalb des Regesttextes werden mit einem <xmlelement>quote</xmlelement>-Element
         ausgezeichnet. Der Text im <xmlelement>quote</xmlelement>-Element gilt als Transkription,
-        d.h. Textphänomene wie z.B. Streichungen, Korrekturen usw. können markiert werden.</p>
+        d. h. Textphänomene wie z. B. Streichungen, Korrekturen usw. können markiert werden.</p>
       <codeblock outputclass="language-xml"><![CDATA[<quote>eine Beobachtung, welche unsere, im Jahre 1831 daselbst angestellten
-  Messungen ganz genau bestätigen…</quote>]]></codeblock>
+  Messungen ganz genau bestätigen …</quote>]]></codeblock>
     </section>
   </body>
 </topic>

@@ -17,7 +17,7 @@
           <xmlatt>type</xmlatt> mit dem Wert <codeph>term</codeph> enthält, ausgezeichnet. Die ID
         des verknüpften Registereintrags wird im Attribut <xmlatt>key</xmlatt> notiert.</p>
       <codeblock outputclass="language-xml"><![CDATA[Mr. <persName key="H0012737">James Arnold</persName>]]></codeblock>
-      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique…“</bibl>]]></codeblock>
+      <codeblock outputclass="language-xml"><![CDATA[<bibl sameAs="zotero-667230-RKBBPG4A">„Atlas géographique et physique …“</bibl>]]></codeblock>
     </section>
   </body>
 </topic>

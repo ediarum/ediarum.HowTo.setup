@@ -9,9 +9,9 @@
         </section>
         <section audience="editor">
             <title>Bedienung</title>
-            <p>Wählen Sie die Funktion „Herausgeber“ bzw. „Mitarbeiter“ im Menü „Metadaten“ in der
-                Werkzeugleiste aus. Machen Sie sämtliche Angaben über die Dialogfenster (Name, GND
-                usw.).</p>
+            <p>Wählen Sie im Menü „Metadaten“ in der Werkzeugleiste die Funktion „Herausgeber“ bzw.
+                „Mitarbeiter“ aus. Machen Sie sämtliche Angaben (Name, GND usw.) über die
+                Dialogfenster.</p>
         </section>
         <section>
             <title>Kodierung</title>
@@ -25,7 +25,7 @@
             <codeblock outputclass="language-xml"><![CDATA[<editor>
    <persName ref="118763784">
       <surname>[Nachname]</surname>
-      <forename>[Vorname}</forename>
+      <forename>[Vorname]</forename>
    </persName>
 </editor>]]></codeblock>
             <p>Angaben zu Mitarbeitern werden in einem <xmlelement>respStmt</xmlelement>-Element

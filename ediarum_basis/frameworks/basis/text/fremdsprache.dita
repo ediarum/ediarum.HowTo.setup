@@ -14,7 +14,7 @@
           scope="external">Deutschen Textarchivs</xref>, als auch die Nachnutzung der edierten Texte
         in linguistischen Korpora erleichtert.</p>
       <p>Zu unterscheiden ist die Auszeichnung fremdsprachigen Textes von der Auszeichnung eines
-        Schriftwechsels, mit dem ersterer häufiger einhergeht. Z.B. wurden deutschsprachige Briefe
+        Schriftwechsels, mit dem ersterer häufiger einhergeht. Beispielsweise wurden deutschsprachige Briefe
         der ersten Hälfte des 19. Jahrhunderts häufig in deutscher Schrift verfasst. Verwendete der
         Schreiber ein Fremdwort, wurde dies in lateinischer Schrift wiedergegeben.</p>
     </section>
@@ -41,7 +41,7 @@
       <fig id="fig_x33_jxr_b2b">
         <desc><xref href="https://edition-humboldt.de/H0011540" format="html" scope="external"
             >Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 9. Dezember 1849,</xref> Bl.
-          1r/1v - Webansicht (Lesetext)</desc>
+          1r/1v – Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/sprachwechsel2-web.JPG" id="image_y33_jxr_b2b"
           scale="70"/>
       </fig>
@@ -53,13 +53,13 @@
         <image placement="break" href="../../img_avhr/sprachwechsel3-ma.png" id="image_ck1_czr_b2b"
         />
       </fig>
-      <codeblock outputclass="language-xml"><![CDATA[[...] Elle est très charactérisée 
+      <codeblock outputclass="language-xml"><![CDATA[[…] Elle est très charactérisée 
  <lb/>par le <foreign xml:lang="deu">ebene Bruch ins flachmuschlige übergehend, röthlichweiß, dünn
  <lb break="no"/>schiefrig</foreign> identique a celle de Pappenheimsurtout à las Lomas de
- <lb/>Camoa [...]]]></codeblock>
+ <lb/>Camoa […]]]></codeblock>
       <fig id="fig_bym_4yr_b2b">
         <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external"
-            >Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r - Webansicht
+            >Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r – Webansicht
           (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/sprachwechsel3-web.JPG" id="image_cym_4yr_b2b"
           scale="60"/>
@@ -126,7 +126,7 @@
       <codeblock outputclass="language-xml"><?oxy_comment_start author="thomas" timestamp="20180313T153724+0100" comment="Problem: Widerspricht der o.g. Regel &quot;Ignoriert und nicht ausgezeichnet wird der Sprachwechsel in folgenden Fällen: auf Wortebene&quot;!!!"?><?oxy_comment_start author="lkirsten" timestamp="20180607T130048+0200" comment="der Abschnitt Kodierung ist nicht editionsspezifisch. Unter &quot;Allgemeines&quot; ist auch von Einzelwörtern die Rede
 " mid="1"?><![CDATA[Das <lb/>2te und 3te <foreign xml:lang="spa">vela</foreign> Rufen machte sichtbar weniger Eindruk.]]><?oxy_comment_end?><?oxy_comment_end mid="1"?></codeblock>
       <p>Darüber hinaus kann das Attribut <xmlatt>xml:lang</xmlatt> sowohl auf Ebene der üblichen
-        Textstrukturen (z.B. Absätze) gesetzt werden als auch für gesamte Dokumente (dann im
+        Textstrukturen (z. B. Absätze) gesetzt werden als auch für gesamte Dokumente (dann im
         Wurzelelement TEI).</p>
     </section>
   </body>

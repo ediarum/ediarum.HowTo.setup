@@ -6,7 +6,7 @@
     <section id="section_m2y_jqm_qbb"><title>Allgemein</title>Eine Sachanmerkung bezieht sich auf
       eine einzelne Passage des Textes, typischerweise einen oder mehrere Sätze. Sie soll das
       Verständnis der einzelnen Textstelle befördern.<p>Zu unterscheiden ist die Sachanmerkung zum
-        einen vom übergreifenden editorischen Kommentar, der sich auf einen Text (z.B. einen Brief)
+        einen vom übergreifenden editorischen Kommentar, der sich auf einen Text (z. B. einen Brief)
         insgesamt bezieht. Zum anderen ist sie zu unterscheiden von rein identifizierenden
         Annotationen von im Text erwähnten Namen und Begriffen.</p></section>
   <section><title>edition humboldt
@@ -50,7 +50,7 @@
         </fig><fig id="fig_ftw_tk4_mbb">
           <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
               >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
-              [1837]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+              [1837]</xref>, Bl. 1r – Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/abb32-web.jpg" scale="80"
             id="image_gtw_tk4_mbb"/>
         </fig></p><p>Der erwähnte Brief von Hall liegt in Kalliope als Eintrag und als Digitalisat vor:<fig>
@@ -61,7 +61,7 @@
         dazugehörige Signatur angegeben:<fig id="fig_y43_sm4_mbb">
           <desc>Sachanmerkung zu <xref href="https://edition-humboldt.de/H0006511" format="html"
               scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-              Mittwoch [1837]</xref>, Bl. 1r - Webansicht</desc>
+              Mittwoch [1837]</xref>, Bl. 1r – Webansicht</desc>
           <image placement="break" href="../../img_avhr/abb32-web-sachanmerkung.jpg" scale="80"
             id="image_z43_sm4_mbb"/>
         </fig></p><p audience="editor"><b>Achtung:</b> Bei der Erwähnung von bibliographischen
@@ -90,7 +90,8 @@
         für den Text aus der Vorlage, der kommentiert wird; zum anderen
           <xmlelement>note</xmlelement> für die Sachanmerkung an sich. Das Attribut
           <xmlatt>type</xmlatt> in <xmlelement>seg</xmlelement> spezifiziert mit seinem Wert
-        <codeph>comment</codeph> die Kodierung. Der Wert des Attribtus <xmlatt>xml:id</xmlatt> im Element <xmlelement>note</xmlelement> ist technisch bedingt und wird automatisch
+          <codeph>comment</codeph> die Kodierung. Der Wert des Attributs <xmlatt>xml:id</xmlatt> im
+        Element <xmlelement>note</xmlelement> ist technisch bedingt und wird automatisch
         erzeugt.</p>
     </section>
     <section id="section_ar1_drm_qbb">

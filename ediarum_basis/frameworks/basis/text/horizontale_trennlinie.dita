@@ -20,7 +20,7 @@
                         id="image_g1c_s43_dbb"/>
                 </fig>
             </p>
-            <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>[…]Zürnen Sie mir nicht über so
+            <codeblock outputclass="language-xml" audience="editor"><![CDATA[<p>[…] Zürnen Sie mir nicht über so
    <lb/>viele <choice><orig>qualende</orig><reg>quälende</reg></choice> Fragen<supplied cert="high" prev="Fragen">.</supplied></p>
 <milestone unit="section" rendition="#hr"/>
 <p>Indem ich diesen Brief schliesse
@@ -29,11 +29,11 @@
    <lb/><persName key="H0014108">Joseph Mendelssohn</persName>. Er ist sanft
    <lb/>an einem Blutschlage
    <lb/>heute früh um 7½ Uhr
-   <lb/>verschieden.[…]</p>]]></codeblock>
+   <lb/>verschieden. […]</p>]]></codeblock>
             <fig id="fig_abc_2qf_sdb">
                 <desc><xref href="https://edition-humboldt.de/H0000608" format="html"
                         scope="external">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam,
-                        Freitag, [24. November 1848]</xref>, Bl. 2r - Webansicht (Kritischer
+                        Freitag, [24. November 1848]</xref>, Bl. 2r – Webansicht (Kritischer
                     Text)</desc>
                 <image placement="break" href="../../img_avhr/abb8_webansicht.JPG"
                     id="image_bbc_2qf_sdb" scale="70"/>

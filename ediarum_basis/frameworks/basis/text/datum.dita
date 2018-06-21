@@ -21,8 +21,8 @@
    </ul>
    <p>Nach entsprechender Auswahl erscheinen Dialogfenster, die zur Eingabe eines Datums auffordern.
     Das Datum muss dabei maschinenlesbar in der Form <codeph>JJJJ-MM-TT</codeph> notiert werden,
-    also z.B. <codeph>1800-01-01</codeph>. Dadurch kann der in der Datumsangabe enthaltene Wert
-    später vom Computer für verschiedene Zwecke weiterbenutzt werden (z.B. Suche in bestimmten
+    also z. B. <codeph>1800-01-01</codeph>. Dadurch kann der in der Datumsangabe enthaltene Wert
+    später vom Computer für verschiedene Zwecke weiterbenutzt werden (z. B. Suche in bestimmten
     Zeiträumen).</p>
   </section>
   <section>
@@ -154,7 +154,7 @@
     </tbody>
    </tgroup>
   </table>
-  <p>Kombinierte Angaben ergeben die Summe der Zeiträume, z.B.:</p>
+  <p>Kombinierte Angaben ergeben die Summe der Zeiträume, z. B.:</p>
   <table id="table_gyw_f4f_cy">
    <tgroup cols="2">
     <thead>

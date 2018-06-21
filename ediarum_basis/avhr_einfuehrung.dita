@@ -24,23 +24,26 @@
             visuelle, eine textuelle und eine inhaltliche Herangehensweise an die (vornehmlich)
             handschriftlichen Quellen umsetzt. Auf der visuellen Ebene werden Textbearbeitungen des
             Autors abgebildet, etwa Hervorhebungen, Streichungen, Anmerkungen, zeitgenössische
-            Korrekturen und Ergänzungen. Wenn möglich, werden alle edierten Texte zudem als digitale
-            Faksimile der Original-Handschrift veröffentlicht. Die textuelle Ebene erfasst den
-            eigentlichen Text, der sowohl in einer kritischen als auch in einer Lesefassung
-            dargestellt wird und alle textkritischen Auszeichnungen durch die Herausgeber
-            beinhaltet. Die Erfassung der inhaltlichen Ebene konzentriert sich darauf, möglichst
-            viele der in den Texten enthaltenen Informationen als strukturierte Daten aufzubereiten
-            (Personen- und Ortsnamen, Werktitel, Maßangaben) und, wo als sinnvoll erachtet, durch
-            Stellenkommentare zu erweitern.</p>
+            Korrekturen und Ergänzungen. Alle edierten Texte werden – soweit aufgrund der
+            Überlieferungslage, dem Stand der Digitalisierung und den rechtlichen Rahmenbedingungen
+            möglich – auch als digitale Faksimiles der Original-Handschrift veröffentlicht. Die
+            textuelle Ebene erfasst den eigentlichen Text und wird in drei Darstellungsvarianten
+            angezeigt: "Kritischer Text" und "Text mit Faksimile" beinhalten alle durch die
+            Herausgeber vorgenommenen textkritischen Auszeichnungen; "Lesetext" zielt auf eine
+            lesefreundliche Darstellung und vereinfacht das Schriftbild (Auflösung des
+            Zeilenumbruchs, der Abkürzungen und Textkorrekturen durch den Autor und Herausgeber,
+            Normalisierung der Orthographie, stillschweigende Übernahme von Textergänzungen durch
+            den Herausgeber). Die Erfassung der inhaltlichen Ebene konzentriert sich darauf,
+            möglichst viele der in den Texten enthaltenen Informationen als strukturierte Daten
+            aufzubereiten (Personen- und Ortsnamen, Werktitel, Maßangaben) und, wo als sinnvoll
+            erachtet, durch Stellenkommentare zu erweitern.</p>
         <p>Das Datenmodell der <i>edition humboldt digital</i> basiert in weiten Teilen auf dem
                 <xref href="http://deutschestextarchiv.de/doku/basisformat/" format="html"
                 scope="external">Basisformat des Deutschen Textarchivs</xref> (DTABf) und folgt
             damit einem von der DFG empfohlenen Standard der Textauszeichnung und -archivierung in
-            TEI-XML (Deutsche Forschungsgemeinschaft: <xref
-                href="http://dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/foerderkriterien_editionen_literaturwissenschaft.pdf"
-                format="pdf" scope="external">Förderkriterien für wissenschaftliche Editionen</xref>
-            in der Literaturwissenschaft. Bonn (2015), S. 6)</p>
-            <p>In Einzelfällen, die in der Spezifik des Korpus begründet sind, geht die Kodierung
-            über das Datenmodell des DTABf hinaus.</p>
+            TEI-XML (Deutsche Forschungsgemeinschaft (2015): Förderkriterien für wissenschaftliche
+            Editionen in der Literaturwissenschaft. Bonn, S. 6). In Einzelfällen, die in der
+            Spezifik des Korpus begründet sind, weicht die Kodierung vom DTABf ab bzw. geht über
+            dessen Datenmodell hinaus. </p>
     </body>
 </topic>

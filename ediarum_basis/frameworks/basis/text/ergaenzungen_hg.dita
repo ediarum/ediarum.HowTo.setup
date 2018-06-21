@@ -6,7 +6,7 @@
   <section>
    <title>Allgemein</title>
    <p>Im Manuskript abgekürzte Wörter werden vom Herausgeber ergänzt. Diese Ergänzungen werden als
-     solche kenntlich gemacht; Abweichungen von dieser Regel werden im Folgenden spezifiziert.</p>
+     solche kenntlich gemacht.</p>
   </section>
   <section product="avhr"><title>edition humboldt digital</title><p>Abkürzungen in der Vorlage
         werden in der Transkription grundsätzlich aufgelöst und ausgezeichnet. Dies gilt auch für
@@ -15,8 +15,8 @@
         jeweiligen Sprache aufgelöst – in französischen und englischen Werken <i>p=page</i>, in
         deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen <i>p=página</i>. Dasselbe
         gilt analog für <b>fremdsprachige Nummern</b> (<i>no., N<u>o</u></i>) in Adresszeilen,
-        Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>Abgekürzte Zahlenwerte</b>
-        dar - sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
+        Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>abgekürzte Zahlenwerte</b>
+        dar – sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
@@ -36,18 +36,18 @@
           belassen:<fig id="fig_yjl_ngj_ycb">
           <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
               >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
-              [1837]</xref> - Webansicht (Kritischer Text)</desc>
+              [1837]</xref> – Webansicht (Kritischer Text)</desc>
           <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webkrit.png"
             id="image_zjl_ngj_ycb"/>
         </fig></p>Im <b>Lesetext</b> werden sie zugunsten der Lesefreundlichkeit ausnahmlos
         aufgelöst:<fig id="fig_njs_bhj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
-            [1837]</xref> - Webansicht (Lesetext)</desc>
+            [1837]</xref> – Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/ergaenzungen_hg_1-webles.png"
           id="image_ojs_bhj_ycb"/>
-      </fig><p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden - im Gegensatz zu den anderen
-        Manuskripten - Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
+      </fig><p>Im <b>Kunth-Briefwechsel und Cuba-Manuskript</b> werden – im Gegensatz zu den anderen
+        Manuskripten – Akzente und Tremata explizit korrigiert oder ergänzt. Im Falle einer
           <b>Ergänzung und gleichzeitiger Normalisierung von Diakritika</b> wird jedoch nur die
         Ergänzung ausgezeichnet und die Normalisierung erfolgt stillschweigend:</p><p>
         <codeblock outputclass="language-xml"><?oxy_comment_start author="lkirsten" timestamp="20180301T140759+0100" comment="Beispiel mit Faksimilie und Screenshot ergänzen um Kontrast zum obigen Beispiel zu verdeutlichen; dieses Beispiel stammt scheinbar weder aus Kunth-Briefw. noch Cuba-M.
@@ -60,14 +60,14 @@
         feststellbar sein. Falls im Schriftbefund eine d-Oberlänge erkennbar ist, wird der Buchstabe
         als ausgeschriebenes „und“ gewertet – es handelt sich nicht um eine Abkürzung.</p><p>
         <fig id="fig_nxf_hz1_fbb">
-          <desc> „und“ mit d-Oberlänge: „…Rose und…“ – <xref
+          <desc> „und“ mit d-Oberlänge: „… Rose und …“ – <xref
               href="https://edition-humboldt.de/H0002242" format="html" scope="external">Alexander
               von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref></desc>
           <image placement="break" href="../../img_avhr/ausgeschrieben_u.png" id="image_oxf_hz1_fbb"
           />
         </fig>
         <fig id="fig_jgl_wx1_fbb">
-          <desc>Abkürzung „u“: „…ein thätiger u…“ – <xref
+          <desc>Abkürzung „u“: „… ein thätiger u …“ – <xref
               href="https://edition-humboldt.de/H0002242" format="html" scope="external">Alexander
               von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref></desc>
           <image placement="break" href="../../img_avhr/abgekuerzt_u.png" scale="80"
@@ -80,7 +80,7 @@
         Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der Transkription
         folglich die Richtlinien (häufige Beispiele sind zudem in der darunterstehenden Tabelle
         dokumentiert):</p><ul id="ul_ty3_zph_1db">
-        <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt</li>
+        <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt.</li>
       </ul><table id="table_pzj_4pg_hbb">
         <title>Häufige verwendete Abkürzungen</title>
         <tgroup cols="4">
@@ -120,7 +120,7 @@
                 </fig>
               </entry>
               <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
-                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 03. März
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
                   1829</xref></entry>
               <entry>Ew</entry>
               <entry>
@@ -142,7 +142,7 @@
             <row>
               <entry>
                 <fig id="fig_mv5_mzg_1db">
-                  <desc>„c.a.d.“</desc>
+                  <desc>„c. a. d.“</desc>
                   <image href="../../img_avhr/abb25-aus.png" id="image_gsl_tqg_hbb"
                     placement="break" align="center"/>
                 </fig>
@@ -176,13 +176,13 @@
               <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
                   scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
                   April 1799</xref>, Bl. 2v</entry>
-              <entry>z.B./i.e.</entry>
+              <entry>z. B./i. e.</entry>
               <entry>[jeweils auflösen]</entry>
             </row>
           </tbody>
         </tgroup>
       </table><ul id="ul_sbs_44g_hbb">
-        <li><b>Kürzel</b> werden stillschweigend aufgelöst</li>
+        <li><b>Kürzel</b> werden stillschweigend aufgelöst.</li>
       </ul><table id="table_ljp_5h5_zcb">
         <title>Häufige verwendete Kürzel</title>
         <tgroup cols="4">
@@ -202,7 +202,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„…die ich…“</desc>
+                  <desc>„… die ich …“</desc>
                   <image href="../../img_avhr/abb22-aus.png" id="image_l2j_4qg_hbb"
                     placement="break"/>
                 </fig>
@@ -217,7 +217,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>„…H/Herr/Herrn…“</desc>
+                  <desc>„… H/Herr/Herrn …“</desc>
                   <image href="../../img_avhr/abb20-aus.png" id="image_f1p_zpg_hbb"
                     placement="break"/>
                 </fig>
@@ -237,7 +237,7 @@
                 </fig>
               </entry>
               <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
-                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 03. März
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
                   1829</xref></entry>
               <entry>Wohlgeboren/er/e</entry>
               <entry>Wohlgeboren/er/e</entry>
@@ -273,8 +273,8 @@
           </tbody>
         </tgroup>
       </table><ul id="ul_isz_zph_1db">
-        <li><b>Sonderkürzel</b>: werden als Abkürzung behandelt und dementsprechend vom Herausgeber
-          gekennzeichnet und ergänzt</li>
+        <li><b>Sonderkürzel</b> werden als Abkürzung behandelt und dementsprechend vom Herausgeber
+          gekennzeichnet und ergänzt.</li>
       </ul><table id="table_v4q_vh5_zcb">
         <title>Häufige verwendete Sonderkürzel</title>
         <tgroup cols="4">
@@ -324,7 +324,7 @@
             <row>
               <entry>
                 <fig>
-                  <desc>Reichstalerkürzel </desc>
+                  <desc>Reichsthalerkürzel </desc>
                   <image href="../../img_avhr/Reichstaler-Symbol_H0006049.png"
                     id="image_ryn_5qg_hbb" placement="break"/>
                 </fig>
@@ -338,7 +338,7 @@
           </tbody>
         </tgroup>
       </table><b>Aufeinanderfolgende Abkürzungen</b> werden stets einzeln aufgelöst, auch wenn sie
-      Teile einer semantisch Einheit sind. Soll die daraus resultierende ergänzte Schreibung zu
+      Teile einer semantischen Einheit sind. Soll die daraus resultierende ergänzte Schreibung zu
       einer (für die Zeit) orthographisch typischeren Variante normalisiert werden, geschieht dies
       explizit (siehe <xref href="normalisierung.dita#topic_qxp_ph5_2bb">explizite
         Normalisierung</xref>). Folgendes Beispiel zeigt den Umgang mit aufeinanderfolgenden
@@ -364,13 +364,13 @@
   </choice>]]></codeblock><fig id="fig_mx1_gqn_jbb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - Webansicht (Kritischer Text)</desc>
+            1830]</xref>, Bl. 1r – Webansicht (Kritischer Text)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web1.jpg" scale="80"
           id="image_nx1_gqn_jbb"/>
       </fig><fig id="fig_zkr_tpn_jbb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
-            1830]</xref>, Bl. 1r - Webansicht (Lesetext)</desc>
+            1830]</xref>, Bl. 1r – Webansicht (Lesetext)</desc>
         <image placement="break" href="../../img_avhr/kuerzel-web2.jpg" scale="70"
           id="image_alr_tpn_jbb"/>
       </fig></section>
