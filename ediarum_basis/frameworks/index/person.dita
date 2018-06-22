@@ -4,10 +4,11 @@
  <title>Personenregister</title>
  <body>
     <section>
-      <title>Allgemein</title>
+      <title>ediarum.BASIS</title>
       <p>Im Personenregister sind Einträge zu Briefpartnern, Zeitgenossen usw. hinterlegt. Dort sind
-        nähere Angaben zu deren Leben und Wirken notiert. Außerdem findet sich dort eine Übersicht,
-        an welchen Stellen (in welchen Dokumenten) die Person in der Edition erwähnt wird.</p>
+        nähere Angaben zu deren Leben und Wirken notiert. Jeder Eintrag enthält zudem eine
+        Übersicht, an welchen Stellen (in welchen Dokumenten) die Person in der Edition erwähnt
+        wird.</p>
     </section>
     <section id="section_czw_t3d_pbb">
       <title>edition humboldt digital</title>
@@ -74,7 +75,7 @@
         <li>
           <p> Namen, die <b>Adelsprädikate</b> („von“, „zu“, „de“, „d'“, usw.) enthalten, werden
             unter dem Anfangsbuchstaben des Nachnamens geführt, nicht dem des Prädikats. Namen wie
-            „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d’Alembert“ sind also dem Buchstaben „A“
+            „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d'Alembert“ sind also dem Buchstaben „A“
             zugeordnet. </p>
         </li>
         <li>
@@ -558,13 +559,12 @@
 <death>1889</death>]]></codeblock></p>
       <p>Die Wirkungszeit wird in einem <xmlelement>floruit</xmlelement>-Element notiert. In den
         Attributen <xmlatt>notBefore</xmlatt> (nicht vor) und <xmlatt>notAfter</xmlatt> (nicht nach)
-        wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format JJJJ-MM-TT kodiert,
-        wobei Monat und Tag optionale Angaben
+        wird der Zeitraum des Wirkens angegeben. Die Daten werden im Format
+          <codeph>JJJJ-MM-TT</codeph> kodiert, wobei Monat und Tag optionale Angaben
         sind.<codeblock outputclass="language-xml"><![CDATA[<floruit notBefore="1860" notAfter="1880"/>]]></codeblock></p>
       <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-      <p><?oxy_custom_end?><b>4.</b> Außerdem können in einem
-        <xmlelement>listPerson</xmlelement>-Element, dessen Attribut <xmlatt>type</xmlatt> den Wert
-          <codeph>group</codeph> hat, Gruppen angelegt
+      <p><?oxy_custom_end?>Außerdem können in einem <xmlelement>listPerson</xmlelement>-Element,
+        dessen Attribut <xmlatt>type</xmlatt> den Wert <codeph>group</codeph> hat, Gruppen angelegt
         werden.<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?></p>
       <?oxy_custom_end?>
     </section>

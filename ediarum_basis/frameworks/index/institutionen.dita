@@ -4,15 +4,11 @@
  <title>Institutionsregister</title>
  <body>
   <section>
-   <title>Allgemein</title>
+   <title>ediarum.BASIS</title>
    <p>Im Institutionsregister sind Einträge zu Organisationen, Körperschaften usw. hinterlegt. Dort
     sind nähere Angaben zu Geschichte und Standort einer Institution notiert. Außerdem findet sich
     dort eine Übersicht, an welchen Stellen (in welchen Dokumenten) die Institution erwähnt
     wird.</p>
-  </section>
-  <section product="avhr">
-   <title>edition humboldt digital</title>
-   <p></p>
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -20,7 +16,7 @@
     dabei darauf, an welcher Stelle ihr Cursor gesetzt ist. Dort wird der Eintrag angelegt. Geben
     Sie im Dialogfenster direkt den Namen der Institution ein. Sie können den Standort entweder
     detailliert (mit Straßen etc.) oder allgemeiner angeben (Stadt/Ortschaft). Machen Sie über das
-    „ Insittitutionsregister“ Angaben zum Standort. </p>
+    „ Institutionsregister“ Angaben zum Standort. </p>
   </section>
   <section>
    <title>Kodierung</title>

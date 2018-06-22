@@ -4,7 +4,7 @@
   <title>Fremdsprachiger Text</title>
   <body>
     <section>
-      <title>Allgemein</title>
+      <title>ediarum.BASIS</title>
       <p>Unter „fremdsprachigem Text“ sind Texte (bzw. Textteile) zu verstehen, die entweder von der
         im Korpus normalerweise vorkommenden Sprache oder einer als Standard definierten Sprache
         abweichen. Dabei kann es sich um einzelne Wörter, längere Textpassagen oder ganze Texte
@@ -55,7 +55,7 @@
       </fig>
       <codeblock outputclass="language-xml"><![CDATA[[…] Elle est très charactérisée 
  <lb/>par le <foreign xml:lang="deu">ebene Bruch ins flachmuschlige übergehend, röthlichweiß, dünn
- <lb break="no"/>schiefrig</foreign> identique a celle de Pappenheimsurtout à las Lomas de
+ <lb break="no"/>schiefrig</foreign> identique a celle de Pappenheim surtout à las Lomas de
  <lb/>Camoa […]]]></codeblock>
       <fig id="fig_bym_4yr_b2b">
         <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external"
@@ -64,12 +64,12 @@
         <image placement="break" href="../../img_avhr/sprachwechsel3-web.JPG" id="image_cym_4yr_b2b"
           scale="60"/>
       </fig>
-      <p>Ignoriert und <b>nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
+      <p><b>Nicht ausgezeichnet</b> wird der Sprachwechsel in folgenden Fällen:<ul
           id="ul_cfk_qq4_mbb">
           <li>auf Wortebene und bei Eigennamen </li>
           <li>auf Briefumschlägen</li>
-          <li>bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)begriffen.
-            Oftmals finden sich auch eingedeutschte Termini (Rosaceae = Rosaceen)</li>
+          <li>bei lateinischen, griechischen oder sonstigen fremdsprachigen (Fach-)Begriffen
+            (Oftmals finden sich auch eingedeutschte Termini wie bspw. Rosaceae = Rosaceen.)</li>
         </ul></p>
     </section>
     <section>

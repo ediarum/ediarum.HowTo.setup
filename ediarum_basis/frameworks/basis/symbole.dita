@@ -16,8 +16,8 @@
      <li>Geviertstrich</li>
      <li>Auslassungspunkte</li>
     </ul></p><p>Eine Auswahl aller verfügbaren Symbole der Unicode-Zeichen findet sich über den Eintrag „Einfügen
-    aus der Zeichentabelle“ in der Menüleiste.<image placement="break"
-     href="../img_avhr/screenshot_symbole.png"  id="image_ec1_h4h_hbb"/></p>
+    aus der Zeichentabelle“ in der Menüleiste („Bearbeiten“).<image placement="break"
+     href="../img_avhr/screenshot_symbole.png" id="image_ec1_h4h_hbb"/></p>
   </conbody>
  </concept>
  <concept id="concept_bpr_vkn_my">
@@ -60,13 +60,14 @@
    <p>Häufig sind in der Textvorlage keine <b>Halbgeviertstriche</b> gesetzt, obwohl es angezeigt
     wäre – dies gilt für Gedankenstriche sowie Angaben zu Jahres- und Seitenzahlen (z. B.
     „3000–4000“, „S. 4–6“, „1935–2014“); nicht betroffen sind Bindestriche in Namen
-    („Jean-Baptiste“), Ergänzungstriche in Aufzählungen und Worttrennungsstriche. Halbgeviertstriche
-    müssen – besonders im Hinblick auf die Druckausgabe – nachträglich eingepflegt werden. </p>
+    („Jean-Baptiste“), Ergänzungsstriche in Aufzählungen und Worttrennungsstriche.
+    Halbgeviertstriche müssen – besonders im Hinblick auf die Druckausgabe – nachträglich
+    eingepflegt werden. </p>
    <p>Unterführungszeichen (Wiederholungsstriche in Listen und Tabellen) werden als
      <b>Geviertstriche</b> transkribiert. Wichtig ist hierbei, sie zudem explizit als das Wort zu
     normalisieren, das sie repräsentieren.</p>
    <p>Wenn in der Textvorlage vorhanden, wird der <b>Geminationsstrich</b> (Überstrich um
-    Buchstabenverdopplung anzuzeigen) ausgezeichnet. Dazu wird in der ediarum-Autorenansicht der
+    Buchstabenverdopplung anzuzeigen) ausgezeichnet. Dazu wird in der ediarum-Autoransicht der
     Cursor auf die Position nach dem entsprechenden Buchstaben bewegt, der mit einem
     Geminationsstrich versehen werden soll, und im Symbolmenü der Überstrich eingefügt.</p>
    <fig>

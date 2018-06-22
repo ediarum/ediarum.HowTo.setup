@@ -4,7 +4,7 @@
  <title> Fehlendes Wort oder Satzzeichen</title>
  <body>
   <section>
-   <title>Allgemein</title>
+   <title>ediarum.BASIS</title>
    <p>Fehlende Wörter oder Satzzeichen können durch die HerausgeberInnen ergänzt werden. Diese
         Ergänzungen werden mit <xmlelement>supplied</xmlelement> ausgezeichnet. Dabei wird die
         Wahrscheinlichkeit angegeben, mit der diese Ergänzung zutrifft.</p>

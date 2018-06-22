@@ -4,11 +4,12 @@
  <title>Personen, Orte und Institutionen</title>
  <body>
   <section>
-   <title>Allgemein</title>
+   <title>ediarum.BASIS</title>
    <p>In der Vorlage oder im Kommentar genannte Personen, Orte und Institutionen werden
-    ausgezeichnet und mit einem Registereintrag verknüpft. Referenzen in der Vorlage können explizit
-    in Form von Eigennamen erfolgen oder indirekt durch Funktionsbezeichnungen, Verwandschaftsgrade
-    oder ähnliches. Die Auszeichnung letzterer liegt im Ermessen der einzelnen Editionen.</p>
+        ausgezeichnet und mit einem Registereintrag verknüpft. Referenzen in der Vorlage können
+        explizit in Form von Eigennamen erfolgen oder indirekt in Form von Anaphern
+        (Funktionsbezeichnungen, Verwandschaftsgrade o. ä.). Die Auszeichnung letzterer liegt im
+        Ermessen der einzelnen Editionen.</p>
   </section>
   <section product="avhr">
    <title>edition humboldt digital</title>
@@ -20,32 +21,26 @@
     Vorlage erschließen lässt, werden hingegen ausgezeichnet. Hierzu zählen:</p>
    <p>
     <ul id="ul_sty_qzc_ydb">
-     <li><p><b>Funktionsbezeichnungen (ohne Namensnennung)</b>: „… noch ehe ich mit dem <i>König</i>
-      nach Potsdam gehe …“, „Der <i>Herr Minister</i> pflegt in naturhistorischen …“, „… le <i>Prince
-       Regent</i> en a parlé avec beaucoup de bonté à mon frère.“.</p> <p>Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name ausgezeichnet werden können,
+     <li><p><b>Funktionsbezeichnungen (ohne Namensnennung)</b>: „… noch ehe ich mit dem <i>König</i> nach
+              Potsdam gehe …“, „Der <i>Herr Minister</i> pflegt in naturhistorischen …“, „… le
+                <i>Prince Regent</i> en a parlé avec beaucoup de bonté à mon frère.“</p> <p>Wenn sowohl eine Funktion, ein Titel, eine Anrede und ein Name ausgezeichnet werden können,
        fällt die Wahl gewöhnlich auf die kürzeste Variante (Name). Der Umfang der Auszeichnung wird
        jedoch kontextabhängig nach Textrelevanz und/oder Redesituation entschieden.</p></li>
      <li><b>Verwandschaftsgrad</b>: „so führe ich Sie zu meinem <i>Bruder</i> …“, „<i>Sprengels
        Sohn</i> der Senator schreibt mir er beschränke sich …“, „Der Tod <i>meiner unglücklichen
        Mutter</i> ist also endlich doch auch eingetroffen.“</li>
-     <li><b>Oberbegriffe</b>: „Palais“ statt „Königliches Palais“, „Ich lege Ihnen auch einiges über
-      Arequipa und den <i>Vulcan</i> …“, „… dass die gelben und orangenen auf dem ganzen
-       <i>Continent</i> von unseren Saamen …“, „… und dass niemand sehnlicher als ich Ihre Anstellung
-      als Professeur extraordinaire bei der <i>Universität</i> wünschen kann …“, „… bezog sich
-      allerdings auf die Schritte und Empfehlung die ich bei dem <i>Ministerium</i> erneuert.“,
-      „… nichts mehr als die Pension des <i>Gartens</i> accediren!“, „Salziges Wasser, kein Geld,
-      Fieber, Tod der Bestien für den ohnedies thierlosen hiesigen <i>Garten</i> – das ist eine
-      freudenleere Welt.“  </li>
-     <li>„<i>Der bescheidene Mann</i> legt eine neue brochure gegen Liebig bei, …“ (<xref
-       href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0004892&amp;view=l" format="html"
-       scope="external">Humboldt an Kunth, nach 3.05.1842</xref>); „… Monsieur Majorlin Médecin des
-      Hôpitaux fils du <b>Chirurgien célèbre</b> de Paris.“ (<xref
-       href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0005454&amp;view=l" format="html"
-       scope="external">Humboldt an Kunth, Oktober 1844</xref>); „Ohnerachtet mich meine Sendung zu
-      dem <b>französischen General</b> und mein Aufenthalt bei der Armee im Juli und August sehr
-      gestört hat, …“ (<xref
-       href="http://telotadev.bbaw.de/avhr/briefe/detail.xql?id=H0001199&amp;view=k" format="html"
-       scope="external">Humboldt an Willdenow, 20.12.1796</xref>)</li>
+     <li><b>geographische und institutionelle Oberbegriffe</b>: „Palais“ statt „Königliches Palais“,
+            „Ich lege Ihnen auch einiges über Arequipa und den <i>Vulcan</i> …“, „… dass die gelben
+            und orangenen auf dem ganzen <i>Continent</i> von unseren Saamen …“, „… und dass niemand
+            sehnlicher als ich Ihre Anstellung als Professeur extraordinaire bei der
+              <i>Universität</i> wünschen kann …“, „… bezog sich allerdings auf die Schritte und
+            Empfehlung die ich bei dem <i>Ministerium</i> erneuert.“, „… nichts mehr als die Pension
+            des <i>Gartens</i> accediren!“, „Salziges Wasser, kein Geld, Fieber, Tod der Bestien für
+            den ohnedies thierlosen hiesigen <i>Garten</i> – das ist eine freudenleere Welt.“ </li>
+     <li><b>Umschreibungen von Personen</b>: „<i>Der bescheidene Mann</i> legt eine neue brochure
+            gegen Liebig bei, …“, „… Monsieur Majorlin Médecin des Hôpitaux fils du <i>Chirurgien
+              célèbre</i> de Paris.“, „Ohnerachtet mich meine Sendung zu dem <i>französischen
+              General</i> und mein Aufenthalt bei der Armee im Juli und August sehr gestört hat, …“ </li>
     </ul>
    </p>
    <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib- bzw. Empfangsorte</b> im der editorischen
@@ -54,7 +49,7 @@
      <li><i>„AHumboldt“</i> als Signatur eines Humboldt-Briefes</li>
      <li><i>„Humboldt“</i> als Signatur eines Humboldt-Briefes</li>
      <li>Personennamen als Teil der Anrede (<i>„mein lieber Kunth“</i>) </li>
-     <li>Ortsname als Teil der Datumszeile im Briefschluss oder -anfang </li>
+     <li>Ortsnamen als Teil der Datumszeile im Briefschluss oder -anfang </li>
     </ul></p>
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
     Textbefund findet nicht statt, da geläufige sowie historische Schreibweisen der Namen in den
@@ -96,8 +91,8 @@
     jeweiligen Registereintrags verbunden werden. </p></section>
   <section>
    <title>Kodierung</title>
-   <p>Personen, Orte und Insitutionen, die in der Vorlage oder auch in einer Sacherläuterung
-    explizit genannt werden, werden mit den folgenden Elementen ausgezeichnet:</p>
+   <p>Personen, Orte und Institutionen, die in der Vorlage oder auch in einer Sacherläuterung
+        explizit genannt werden, werden mit den folgenden Elementen ausgezeichnet:</p>
    <p>
     <ul id="ul_ajg_nxx_5y">
      <li>Person: <xmlelement>persName</xmlelement></li>

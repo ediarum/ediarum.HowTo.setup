@@ -4,7 +4,7 @@
     <title><?oxy_comment_start author="lkirsten" timestamp="20180607T111446+0200" comment="Topic umstellen, &quot;Allgemeines&quot; enthält im Moment &quot;Kodierung&quot; und &quot;Bedienung&quot;"?>Datierung<?oxy_comment_end?></title>
     <body>
         <section>
-            <title>Allgemeines</title>            
+            <title>ediarum.BASIS</title>            
         </section>
         <section>
             <title>edition humboldt digital</title>
@@ -51,7 +51,7 @@
         <section>
             <title>Kodierung</title>
             <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
-                Die Datumsangaben müssen dabei in dem Format <i>JJJJ-MM-TT</i> in den Attributen
+                Die Datumsangaben müssen dabei in dem Format <codeph>JJJJ-MM-TT</codeph> in den Attributen
                     <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> oder
                     <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
                 wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.

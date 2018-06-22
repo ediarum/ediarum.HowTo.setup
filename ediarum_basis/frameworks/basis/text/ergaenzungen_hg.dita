@@ -4,7 +4,7 @@
   <title>Ergänzungen des Herausgebers</title>
  <body>
   <section>
-   <title>Allgemein</title>
+   <title>ediarum.BASIS</title>
    <p>Im Manuskript abgekürzte Wörter werden vom Herausgeber ergänzt. Diese Ergänzungen werden als
      solche kenntlich gemacht.</p>
   </section>
@@ -98,6 +98,9 @@
           </thead>
           <tbody>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0006506" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                  Sonnabend, nach 22. August 1834</xref>, Bl. 2v</entry>
               <entry>
                 <fig id="fig_kv5_mzg_1db">
                   <desc>„Herrn Prof. D.“</desc>
@@ -105,13 +108,13 @@
                     placement="break" align="center"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0006506" format="html"
-                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                  Sonnabend, nach 22. August 1834</xref>, Bl. 2v</entry>
               <entry>Prof. Dr./D.</entry>
               <entry>Professor Doktor</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
+                  1829</xref></entry>
               <entry>
                 <fig id="fig_lv5_mzg_1db">
                   <desc>„Ew Wohlgeboren“</desc>
@@ -119,9 +122,6 @@
                     placement="break" align="center"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
-                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
-                  1829</xref></entry>
               <entry>Ew</entry>
               <entry>
                 <p>Euer, Eure</p>
@@ -129,10 +129,9 @@
               </entry>
             </row>
             <row>
+              <entry/>
               <entry><?oxy_comment_start author="lkirsten" timestamp="20180112T113123+0100" comment="kein humboldt-beispiel gefunden
 "?></entry>
-              <?oxy_comment_end?>
-              <entry/>
               <entry>usw./etc./&amp;c./&amp;/ca.</entry>
               <entry>
                 <p>usw./etc./&amp;c./&amp;/ca.</p>
@@ -140,6 +139,7 @@
               </entry>
             </row>
             <row>
+              <entry>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 2r</entry>
               <entry>
                 <fig id="fig_mv5_mzg_1db">
                   <desc>„c. a. d.“</desc>
@@ -147,11 +147,13 @@
                     placement="break" align="center"/>
                 </fig>
               </entry>
-              <entry>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 2r</entry>
               <entry>c. à. d./ c. a. d.</entry>
               <entry>c’est-à-dire</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0005458" format="html"
+                  scope="external">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach
+                  16. Mai 1832</xref>, Bl. 1v</entry>
               <entry>
                 <fig id="fig_nv5_mzg_1db">
                   <desc>„n 6“</desc>
@@ -159,13 +161,13 @@
                     align="center"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0005458" format="html"
-                  scope="external">Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach
-                  16. Mai 1832</xref>, Bl. 1v</entry>
               <entry>Nr./no./N<u>o</u>./n./n</entry>
               <entry>[jeweils auflösen]</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
+                  scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
+                  April 1799</xref>, Bl. 2v</entry>
               <entry>
                 <fig id="fig_ov5_mzg_1db">
                   <desc>„z. B.“</desc>
@@ -173,9 +175,6 @@
                     align="center"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
-                  scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
-                  April 1799</xref>, Bl. 2v</entry>
               <entry>z. B./i. e.</entry>
               <entry>[jeweils auflösen]</entry>
             </row>
@@ -200,6 +199,9 @@
           </thead>
           <tbody>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>
                 <fig>
                   <desc>„… die ich …“</desc>
@@ -208,13 +210,13 @@
                 </fig>
                 <p>(Humboldt-spezifisches Kürzel)</p>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
-                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>ich</entry>
               <entry>ich</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>
                 <fig>
                   <desc>„… H/Herr/Herrn …“</desc>
@@ -222,13 +224,13 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0006179" format="html"
-                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                  Mittwoch, [Anfang 1830]</xref>, Bl. 1r</entry>
               <entry>Herr/Herrn</entry>
               <entry>Herr/Herrn</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
+                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
+                  1829</xref></entry>
               <entry>
                 <fig>
                   <desc>„Ew Wohlgeboren“</desc>
@@ -236,13 +238,13 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/v2/H0002654" format="html"
-                  scope="external">Alexander von Humboldt an Karl Christian Gmelin. Berlin, 3. März
-                  1829</xref></entry>
               <entry>Wohlgeboren/er/e</entry>
               <entry>Wohlgeboren/er/e</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0008511" format="html"
+                  scope="external">Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 8.
+                  Mai 1796</xref>, Bl. 1v</entry>
               <entry>
                 <fig>
                   <desc>„sich“</desc>
@@ -250,13 +252,13 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0008511" format="html"
-                  scope="external">Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 8.
-                  Mai 1796</xref>, Bl. 1v</entry>
               <entry>sich</entry>
               <entry>sich</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0002651" format="html"
+                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin,
+                  14. Mai 1830</xref>, Bl. 1r</entry>
               <entry>
                 <fig>
                   <desc>„B. den 14 Mai 1830“</desc>
@@ -264,9 +266,6 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0002651" format="html"
-                  scope="external">Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin,
-                  14. Mai 1830</xref>, Bl. 1r</entry>
               <entry>den</entry>
               <entry>den</entry>
             </row>
@@ -292,22 +291,25 @@
           </thead>
           <tbody>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
+                  scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>,
+                Bl. 130v</entry>
               <entry>
-                <fig>
+                <fig id="fig_xpk_fvx_f2b">
                   <desc>Pfundzeichen</desc>
                   <image href="../../img_avhr/abb14-aus.png" id="image_rfz_vqg_hbb"
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
-                  scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>,
-                Bl. 130v</entry>
               <entry>lb</entry>
               <entry>
                 <p>livres (oder dt.: Pfund)</p>
               </entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
+                  scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
+                  April 1799</xref>, Bl. 2r</entry>
               <entry>
                 <fig>
                   <desc>Groschenkürzel</desc>
@@ -315,13 +317,13 @@
                     placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
-                  scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20.
-                  April 1799</xref>, Bl. 2r</entry>
               <entry>gr.</entry>
               <entry>Groschen</entry>
             </row>
             <row>
+              <entry><xref href="https://edition-humboldt.de/H0006049" format="html"
+                  scope="external">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Sonntag,
+                  [8. Juli 1845]</xref>, Bl. 1r</entry>
               <entry>
                 <fig>
                   <desc>Reichsthalerkürzel </desc>
@@ -329,9 +331,6 @@
                     id="image_ryn_5qg_hbb" placement="break"/>
                 </fig>
               </entry>
-              <entry><xref href="https://edition-humboldt.de/H0006049" format="html"
-                  scope="external">Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Sonntag,
-                  [8. Juli 1845]</xref>, Bl. 1r</entry>
               <entry>r.</entry>
               <entry>Reichsthaler</entry>
             </row>

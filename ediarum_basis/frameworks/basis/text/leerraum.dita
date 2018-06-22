@@ -4,7 +4,7 @@
   <title>Leerraum</title>
   <body>
     <section>
-      <title>Allgemein</title>
+      <title>ediarum.BASIS</title>
       <p>Semantisch bedeutsamer Leerraum in der Vorlage – beispielsweise Lücken, die der Verfasser
         im Text belassen hat, um den darin fehlenden Text ggf. später zu ergänzen – kann mit dem
         leeren Element <xmlelement>space/</xmlelement> ausgezeichnet werden. Die Wiedergabe solcher

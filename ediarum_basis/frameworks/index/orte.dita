@@ -4,7 +4,7 @@
   <title>Ortsregister</title>
   <body>
    <section>
-    <title>Allgemein</title>
+    <title>ediarum.BASIS</title>
    <p>Im Ortsregister sind Einträge zu Ländern, Landstrichen, Städten usw. hinterlegt. Dort sind
     nähere Angaben zu Leben und Wirken notiert. Außerdem findet sich dort eine Übersicht, an welchen
     Stellen (in welchen Dokumenten) der Ort in der Edition erwähnt wird. Außerdem zeigt eine
@@ -79,7 +79,7 @@
    <p>Angaben zu Straße und Gebäude werden in einem <xmlelement>listPlace</xmlelement> notiert. Weil
     es sich um eine spezifischere Angabe handelt, wird diese wiederum in einem
      <xmlelement>place</xmlelement>-Element angegeben und erhält im Attribut <xmlatt>xml:id</xmlatt>
-    eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet ob es sich um eine
+    eine individuelle ID. Im Attribut <xmlatt>type</xmlatt> wird ausgezeichnet, ob es sich um eine
     Straße (<codeph>street</codeph>) oder um ein Gebäude (<codeph>building</codeph>) handelt.<codeblock outputclass="language-xml"><![CDATA[<listPlace>
    <place xml:id="ediarum_t4p_lhf_hy" type="street">
       <placeName type="reg">Kronenstraße</placeName>

@@ -3,7 +3,7 @@
 <topic id="topic_lgx_rhx_5y">
  <title>Sachanmerkung</title>
  <body>
-    <section id="section_m2y_jqm_qbb"><title>Allgemein</title>Eine Sachanmerkung bezieht sich auf
+    <section id="section_m2y_jqm_qbb"><title>ediarum.BASIS</title>Eine Sachanmerkung bezieht sich auf
       eine einzelne Passage des Textes, typischerweise einen oder mehrere Sätze. Sie soll das
       Verständnis der einzelnen Textstelle befördern.<p>Zu unterscheiden ist die Sachanmerkung zum
         einen vom übergreifenden editorischen Kommentar, der sich auf einen Text (z. B. einen Brief)
@@ -15,9 +15,9 @@
         Textstelle oder des größeren Textsegmentes. Sie können Verweise auf Registereinträge, die
         Bibliographie der Edition oder externe Quellen enthalten.</p><p><b>Personen, Orte und
           Institutionen</b> werden in Sachanmerkungen ausgezeichnet, allerdings nur bei
-        Ersterwähnung. Briefpartner und -orte in Sachanmerkungen nicht ausgezeichnet. Im folgenden
-        Kommentar aus dem Meyen-Briefwechsel etwa werden nicht Meyen und Humboldt, sehr wohl aber
-        die anderen Angaben referenziert.<fig>
+        Ersterwähnung. Briefpartner und -orte werden in Sachanmerkungen nicht ausgezeichnet. Im
+        folgenden Kommentar aus dem Meyen-Briefwechsel etwa werden nicht Meyen und Humboldt, sehr
+        wohl aber die anderen Angaben referenziert.<fig>
           <desc><xref href="https://edition-humboldt.de/H0002242" format="html" scope="external"
               >Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März 1829</xref>,
             Bl. 1r</desc>
@@ -25,9 +25,9 @@
           <image placement="break" href="../../img_avhr/sachanmerkung1.jpg" id="image_pnw_krn_hbb"
             scale="100"/>
           <?oxy_comment_end?>
-        </fig></p><p>Im folgenden Kommentar eines anderen Briefs an Meyen wird Rother nur bei der
-        Ersterwähnung ausgezeichnet. Bei Wilhelm von Humboldt wird in Abgrenzung zu seinem Bruder
-        der Vor- und Nachname ausgezeichnet.<fig>
+        </fig></p><p>Im folgenden Kommentar eines anderen Briefs an Meyen wird der mehrfach genannte
+        Christian Rother nur bei der Ersterwähnung ausgezeichnet. Bei Wilhelm von Humboldt werden in
+        Abgrenzung zu seinem Bruder der Vor- und Nachname ausgezeichnet.<fig>
           <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
               >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
               1830]</xref>, 1r</desc>
@@ -99,8 +99,8 @@
    <orig>Rede des Helden</orig>
    <note xml:id="nv1l_mxf_cy">ironische Bemerkung</note>
 </seg>]]></codeblock>
-      <p>Die Kodierung ist nicht konform zum DTABf. Grund dafür ist die erleichterte Prüfung der
-        oben abgebildeten Kodierung, ob sowohl Bezugstext als auch Sachanmerkung vorhanden sind.</p>
+      <p>Die Kodierung ist nicht konform zum DTABf, aber leichter daraufhin zu prüfen, ob sowohl
+        Bezugstext als auch Sachanmerkung vorhanden sind.</p>
     </section>
     <section id="section_wgf_gzm_qbb">
       <title>Anzeige</title>

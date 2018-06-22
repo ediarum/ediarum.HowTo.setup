@@ -6,7 +6,7 @@
   die in der Edition verknüpft werden.</shortdesc>
  <body>
   <section>
-   <title>Allgemein</title>
+   <title>ediarum.BASIS</title>
    <p>Für Entitäten, wie z. B. Personen, Institutionen oder Orte, die über ein Register verknüpft
     und evtl. mit weiteren Angaben (IDs aus Normdateien, Kurzbeschreibungen etc.) versehen sind,
     existiert jeweils ein eigenes Register in TEI-XML.</p>
