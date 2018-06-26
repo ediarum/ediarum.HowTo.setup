@@ -19,7 +19,7 @@
 <image placement="break" href="../../img_avhr/streichung3.png" id="image_cdn_n15_qcb"
      />
 </fig>
-    <codeblock outputclass="language-xml" audience="editor">[…] Medina &lt;del rendition="#s">si rappelle&lt;/del> […] </codeblock>
+    <codeblock outputclass="language-xml" audience="editor">[…] Medina &lt;del rendition="#s">si rappelle&lt;/del> […]</codeblock>
    </p>
    <p><b>als Streichung ganzer Absätze quer über die Zeilen:</b></p>
    <p>
@@ -30,7 +30,7 @@
 </fig>
    </p>
    <p>Diese Art der Streichung ist zu unterscheiden von einer Streichung, die Textpassagen als
-    „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>). </p>
+    „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>).</p>
    <p>Streichungen innerhalb einer bereits gestrichenen Passage werden ebenfalls
      ausgezeichnet:</p><fig>
       <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v „il leur est …“</desc>

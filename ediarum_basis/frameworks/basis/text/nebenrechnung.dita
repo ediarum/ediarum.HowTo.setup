@@ -6,7 +6,7 @@
     <section>
       <p>Humboldt hat am Rand des Textes der Reisetagebücher häufig Hilfsrechnungen vorgenommen. Bei
         der Transkription dieser „Nebenrechnungen“ wird vom Schriftbild der Vorlage abgewichen. Im
-        Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
+        Vordergrund steht die korrekte Wiedergabe der Rechenoperation.</p>
       <fig>
         <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r</desc>
         <?oxy_comment_start author="lkirsten" timestamp="20180306T125706+0100" comment="Kodierbeispiel ergänzen"?>
@@ -24,7 +24,7 @@
             Nebenrechnung“ oder den Kurzbefehl [Alt] + [N] bestimmen</li>
           <li>Zahlenwerte und mathematische Operatoren (Addition, Substraktion, Multiplikation,
             Division) werden über die entsprechenden Stellen im Menüpunkt oder den Kurzbefehl ([Alt]
-            + [NumPad] + […]) eingegeben </li>
+            + [NumPad] + […]) eingegeben</li>
         </ol>
     </section>
     <section>

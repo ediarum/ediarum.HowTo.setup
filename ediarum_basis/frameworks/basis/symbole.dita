@@ -24,8 +24,8 @@
   <title>Buchstaben</title>
   <conbody>
    <p>Sie können folgende Buchstaben, die ein fremdsprachliches diakritisches Zeichen benötigen,
-    über das Menü „Symbole“ in den Brieftext einfügen: </p>
-   <p>â, æ, Æ, ç, Ç, &#x229; ,&#x00EB;, ï, ,ł, Ł,ń, ñ, ø, œ, Œ, š, Š </p>
+    über das Menü „Symbole“ in den Brieftext einfügen:</p>
+   <p>â, æ, Æ, ç, Ç, &#x229;, &#x00EB;, ï, ł, Ł, ń, ñ, ø, œ, Œ, š, Š</p>
   </conbody>
  </concept>
  <concept id="concept_wnv_wkn_my">
@@ -62,10 +62,12 @@
     „3000–4000“, „S. 4–6“, „1935–2014“); nicht betroffen sind Bindestriche in Namen
     („Jean-Baptiste“), Ergänzungsstriche in Aufzählungen und Worttrennungsstriche.
     Halbgeviertstriche müssen – besonders im Hinblick auf die Druckausgabe – nachträglich
-    eingepflegt werden. </p>
-   <p>Unterführungszeichen (Wiederholungsstriche in Listen und Tabellen) werden als
-     <b>Geviertstriche</b> transkribiert. Wichtig ist hierbei, sie zudem explizit als das Wort zu
-    normalisieren, das sie repräsentieren.</p>
+    eingepflegt werden.</p>
+   <p>Unterführungszeichen (Wiederholungszeichen in Listen und Tabellen) werden als
+     <b>Geviertstriche</b> transkribiert. Sie können zudem <xref
+     href="text/normalisierung.dita#topic_qxp_ph5_2bb">explizit normalisiert</xref> werden, wobei
+    die normalisierte Variante (in <xmlelement>reg</xmlelement>) das Zeichen oder Wort ist, das das
+    Unterführungszeichen repräsentiert.</p>
    <p>Wenn in der Textvorlage vorhanden, wird der <b>Geminationsstrich</b> (Überstrich um
     Buchstabenverdopplung anzuzeigen) ausgezeichnet. Dazu wird in der ediarum-Autoransicht der
     Cursor auf die Position nach dem entsprechenden Buchstaben bewegt, der mit einem
@@ -83,7 +85,7 @@
     <p>Für die Auszeichnung von <b>Minuten- bzw. Zollzeichen</b> werden nicht Anführungszeichen
      benutzt, sondern das Prime-Zeichen. Über das Menü „Symbole > Einheitenzeichen“ oder die
      Tastenkombination [Strg] + [Umschalt] + [Zirkumflex (^)] kann ein Auswahlfenster geöffnet und
-     je nach Befund ein einfaches (′) , zweifaches (″) oder dreifaches (‴) Prime ausgewählt werden.
+     je nach Befund ein einfaches (′), zweifaches (″) oder dreifaches (‴) Prime ausgewählt werden.
     </p>
    </fig>
    <table id="table_zxp_t3n_hbb">
@@ -103,8 +105,8 @@
        <entry>U+2014</entry>
       </row>
       <row>
-       <entry>Halbgeviertstrich </entry>
-       <entry>U+2013 </entry>
+       <entry>Halbgeviertstrich</entry>
+       <entry>U+2013</entry>
       </row>
       <row>
        <entry>Geminationsstrich, Überstrich</entry>

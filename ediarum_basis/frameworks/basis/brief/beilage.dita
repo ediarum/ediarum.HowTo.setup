@@ -18,7 +18,7 @@
                 Dafür gehen Sie wie folgt vor:<ol id="ol_m3s_t5j_p1b">
                     <li>Öffnen Sie sowohl Brief als auch Beilage im oXygen XML Author.</li>
                     <li>Legen Sie in der Datei zum Brief – sofern noch nicht vorhanden – eine
-                        „Anmerkung zum Brief“ an (im Menü „Briefmetadaten“ in der Werkzeugleiste). </li>
+                        „Anmerkung zum Brief“ an (im Menü „Briefmetadaten“ in der Werkzeugleiste).</li>
                     <li>Notieren Sie die Beilage als Text im Abschnitt „Anmerkungen zum Brief“, z. B.
                         „diesem Brief lag ein Brief von Friedrich Tiedemann vom 23.8.1808 bei“.</li>
                     <li>Rufen Sie in der Werkzeugleiste im Menü „Verweise“ (<image
@@ -26,7 +26,7 @@
                         „Verweis auf Beilage“ auf.</li>
                     <li>Wählen Sie im erscheinenden Auswahlmenü in der <i>oberen</i> Fensterhälfte
                         die Datei der Beilage aus und klicken Sie auf „OK“. Die Beilage ist nun vom
-                        Brief aus verknüpft. </li>
+                        Brief aus verknüpft.</li>
                 </ol></p>
             <p><image href="../img/briefmetadaten_beilage.jpg" id="image_xdt_bwj_p1b"/></p>
             <p>Ein solcher Hinweis kann auch in der Beilage im Abschnitt „Anmerkung zum Brief“ oder

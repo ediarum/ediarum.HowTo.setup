@@ -22,7 +22,7 @@
             </p>
             <p>Im folgenden Beispiel wäre die Teilunterstreichung in der Transkription
                 „G<u>rani</u>te“ eine Überbetonung des Schriftbildes gegenüber seiner Bedeutung
-                (Humboldt unterstreicht das Wort „Granite“ und nicht „rani“ in „Granite“). </p>
+                (Humboldt unterstreicht das Wort „Granite“ und nicht „rani“ in „Granite“).</p>
             <fig>
                 <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r</desc>
                 <image placement="break" href="../../img_avhr/abb12.png" scale="80" 
@@ -38,7 +38,7 @@
             <p><b>Anstreichungen am Rand</b> werden erfasst und als solche ausgezeichnet.</p>
             <ul id="ul_l1q_2tz_pcb">
                 <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen
-                    sein. </li>
+                    sein.</li>
                 <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position
                     wird allerdings in der Auszeichnung nicht vermerkt und erscheint in der
                     Webdarstellung stets am linken Rand.</li>

@@ -39,7 +39,7 @@
                         <info>Der Dateiname ändert sich mit den Versionen. Achten Sie darauf, dass
                                 <b>Zotero</b> und <b><b>setup.exe</b>
                             </b>im Namen enthalten sind. <b>Eventuell</b> müssen Sie in einem
-                            Dialogfeld mit <b>Ausführen </b>bestätigen.</info>
+                            Dialogfeld mit <b>Ausführen</b>bestätigen.</info>
                     </substep>
                     <substep>
                         <cmd>Warten, bis der grüne Balken auf 100% ist.</cmd>

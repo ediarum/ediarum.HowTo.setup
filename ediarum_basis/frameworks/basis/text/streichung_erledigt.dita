@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_cbd_4cn_qcb">
-  <title>Als „erledigt“ markierte Textstellen </title>
+  <title>Als „erledigt“ markierte Textstellen</title>
  <body>
-    <section>
-      <title>ediarum.BASIS</title>
-      <p/>
-    </section>
     <section>
       <title>edition humboldt digital</title>
       <p>Bisweilen finden sich im Schriftbild horizontal oder quer über Textstellen gezogene
@@ -24,17 +20,21 @@
 </fig>
       <fig>
 <desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von Carl
-            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v </desc>
+            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v</desc>
 <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v.png" 
         id="image_c3z_smn_qcb" scale="55"/>
 </fig>
       <fig>
-<desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von Carl
-            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v -
+        <desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von
+            Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v -
           Webansicht</desc>
-<image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v_web.jpg" 
-        id="image_gwf_3qn_qcb"/>
-</fig>
+        <?oxy_comment_start author="lkirsten" timestamp="20180626T142140+0200" comment="Ausschnitt erneuern
+
+"?>
+        <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v_web.jpg"
+          id="image_gwf_3qn_qcb"/>
+        <?oxy_comment_end?>
+      </fig>
       <fig>
 <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 3v</desc>
 <image placement="break" href="../../img_avhr/erledigt_rst.jpg" scale="55" 

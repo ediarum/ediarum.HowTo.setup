@@ -4,7 +4,7 @@
   <title>Werktitel</title>
   <body>
     <section><title>ediarum.BASIS</title><p>In der Vorlage oder im Kommentar explizit genannte
-        Werktitel werden ausgezeichnet und mit einem Registereintrag verknüpft. </p></section>
+        Werktitel werden ausgezeichnet und mit einem Registereintrag verknüpft.</p></section>
     <section>
       <title>edition humboldt digital</title>
       <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Werktiteln
@@ -39,12 +39,12 @@
           id="image_vc2_cgx_f2b"/>
       </fig>
       <p>Ist ein Literaturverweis aus dem Text erkenntlich, nicht aber explizit genannt, können
-        BearbeiterInnen den bibliographischen Kontext in einer Sachanmerkung herstellen. </p>
+        BearbeiterInnen den bibliographischen Kontext in einer Sachanmerkung herstellen.</p>
       <p><b>Indirekter Verweis in Form eines Personennamens</b>: Der Verweis kann sich sowohl auf
         eine Person als auch auf ein Werk derselben beziehen. Ausgezeichnet wird allerdings die
         Person, der Werktitel wird im Kommentar erläutert und ausgezeichnet. Dass auf ein Werk
         verwiesen wird und um welches es sich handelt, ist hier nicht unmittelbar ersichtlich und
-        wird von BearbeiterInnen aus dem Kontext erschlossen. </p>
+        wird von BearbeiterInnen aus dem Kontext erschlossen.</p>
       <fig id="fig_gv2_xls_zdb">
         <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 6r</desc>
         <image placement="break" href="../../img_avhr/werktitel8_webansicht.jpg"
@@ -119,7 +119,7 @@
         kennzeichnen“ mit dem Symbol <image href="../../img/names16.gif" id="image_mlg_3mv_xdb"/> in
         der Werkzeugleiste genutzt werden. Zuerst muss „Werktitel“ als zu kennzeichnende Einheit und
         anschließend aus der sich öffnenden Liste das entsprechende Werk ausgewählt werden, um zum
-        richtigen Eintrag im Werkregister zu verlinken. </p><b>Wichtig</b>: Um einen Werktitel
+        richtigen Eintrag im Werkregister zu verlinken.</p><b>Wichtig</b>: Um einen Werktitel
       korrekt zu kennzeichnen, muss sichergestellt sein, dass der jeweilige Registereintrag
       eindeutig ist, es also keine Dubletten zum selben Werk an anderen Stellen des Registers gibt.
       Die Kennzeichnung eines Werktitels sollte demnach immer mit einer kurzen redaktionellen

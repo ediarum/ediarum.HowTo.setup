@@ -22,7 +22,7 @@
         <li>Private membership: Ihre Gruppe ist öffentlich <b>nicht</b> einsehbar. Sie bestimmen,
           wer in die Gruppe eintritt.</li>
       </ul></p>
-    <p>Auf der anschließenden Seite müssen weitere Einstellungen vorgenommen werden. </p>
+    <p>Auf der anschließenden Seite müssen weitere Einstellungen vorgenommen werden.</p>
     <p><image href="../img_zotero/gruppen_settings.png" id="image_ttq_qtc_ndb"/></p>
     <p>
       <ul id="ul_jj5_tjf_ldb">
@@ -43,7 +43,7 @@
       Der Admin kann außerdem Mitgliedschaftseinladungen verschicken.</p>
     <p><b>Gruppe beitreten</b></p>
     <p>Treten Sie einer bestehenden Gruppe bei, indem Sie auf deren Zotero-Webseite der Gruppe gehen
-      und den Button „Join“<b> </b> auswählen. Nutzen Sie die <xref
+      und den Button „Join“ auswählen. Nutzen Sie die <xref
         href="https://www.zotero.org/search/type/group" format="html" scope="external"
         >Suchfunktion</xref>, um die Seite zu finden. Im Falle, dass die Mitgliedschaft geschlossen
       ist („Membership: Closed“), muss ein Admin der Gruppe Ihrem Beitritt zustimmen.</p>

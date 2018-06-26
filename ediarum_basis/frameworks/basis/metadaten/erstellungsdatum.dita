@@ -3,14 +3,21 @@
 <topic id="erstellungsdatum">
     <title>Erstellungsdatum</title>
     <body>
-        <p>Wie auch die Angaben zum Autor und zum Schreibort wird die Datumsangabe im
-            <xmlelement>creation</xmlelement>-Element gemacht. Datumsangaben werden mit Hilfe
-            von <xmlelement>date</xmlelement> ausgezeichnet. Wichtig ist, dass die Datumsangaben
-            nochmals in einem bestimmten Format in den Attributen <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> und
-            <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Dadurch kann der in der Datumsangabe enthaltene
-            Wert später vom Computer für verschiedene Zwecke weiterbenutzt werden (z. B. Suche in
-            bestimmten Zeiträumen). Außerdem wird in den Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit
-            angegeben, mit der die Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>. </p>
+        <section audience="editor"><title>Bedienung</title><p>In oXygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
+            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer
+            Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen.</p></section>
+        <section><title>Kodierung</title><p>Wie auch die Angaben zum Autor und Schreibort wird die Datumsangabe im
+                    <xmlelement>creation</xmlelement>-Element gemacht. Datumsangaben werden mit
+                einem <xmlelement>date</xmlelement>-Element ausgezeichnet und in dem Format
+                    <codeph>JJJJ-MM-TT</codeph> (bzw. je nach Datenlage <codeph>JJJJ-MM</codeph>
+                oder <codeph>JJJJ</codeph>) in den Attributen <xmlatt>when</xmlatt> bzw.
+                    <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> oder
+                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert. Dadurch kann der
+                in der Datumsangabe enthaltene Wert später vom Computer für verschiedene Zwecke
+                weiterbenutzt werden (z. B. die Suche in bestimmten Zeiträumen). Außerdem wird im
+                Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
+                    <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die Datumsangabe
+                zutrifft.</p>
         <p>1. Genaues Datum</p>
         <codeblock outputclass="language-xml"><![CDATA[<date when="1772-12-21">Studentengeschichten</date>]]></codeblock>
         <p>2. Genaue Zeitspanne</p>
@@ -19,9 +26,7 @@
         <p>
             <codeblock outputclass="language-xml"><![CDATA[<date notBefore="1804-05-01" notAfter="1804-05-16">Erste Hälfte Mai 1804</date>]]></codeblock>
         </p>
-        <p>In oXygen XML Author steht zur Auszeichnung von Datumsangaben eine entsprechende
-            Schaltfläche zur Verfügung, die die Optionen „Genaues Datum“ und „Ungefährer
-            Zeitraum“ bietet, um alle Datumsangaben auszuzeichnen. </p>
+       
         <table id="table_xpp_ynf_cy">
             <tgroup cols="2">
                 <thead>
@@ -121,6 +126,6 @@
       <date when="1874-12-23" cert="high"/> 
    </creation>
 </profileDesc>]]></codeblock>
-        </p>
+        </p></section>
     </body>
 </topic>

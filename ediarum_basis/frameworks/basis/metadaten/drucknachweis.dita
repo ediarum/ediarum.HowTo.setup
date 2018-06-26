@@ -20,10 +20,10 @@
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Der Drucknachweis wird im <xmlelement>witness</xmlelement>-Element (Zeuge) angeben. Die
-                Literaturangaben werden im <xmlelement>bibl</xmlelement>-Element notiert. Das Attribut
-                <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>print</codeph> an, dass der
-                Textzeuge ein Druck (und <i>kein</i> Manuskript o.ä) ist.</p>
+            <p>Der Drucknachweis wird im <xmlelement>witness</xmlelement>-Element (Zeuge) angeben.
+                Die Literaturangaben werden im <xmlelement>bibl</xmlelement>-Element notiert. Das
+                Attribut <xmlatt>type</xmlatt> gibt mit dem Wert <codeph>print</codeph> an, dass der
+                Textzeuge ein Druck (und <i>kein</i> Manuskript o. ä.) ist.</p>
             <codeblock outputclass="language-xml"><![CDATA[<witness>
    <bibl type="print">Schmidt-Lötzen, Eduard, Dreißig Jahre am Hof Friedrichs des Großen, Bd. 1, Gotha 1910</bibl>
 </witness>]]></codeblock>

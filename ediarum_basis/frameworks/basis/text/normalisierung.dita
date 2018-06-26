@@ -27,10 +27,10 @@
         Konventionen anpassen sollen, ohne dabei jede Abweichung als Fehler zu markieren. Explizit
         normalisiert werden üblicherweise Groß- und Kleinschreibung, die Korrektur von Satzzeichen,
         die Ergänzung von Apostrophen, fälschlich getrennt geschriebene Wörter sowie
-        Geminations-Überstriche bei Doppelkonsonanten. Ebenfalls explizit normalisiert werden
-        Unterführungszeichen (auch Wiederholungszeichen genannt) in <xref
-          href="listen.dita#topic_trq_t1v_ty">Listen</xref> und <xref
-          href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>, die normalisierte Variante sind
+        Geminations-Überstriche bei Doppelkonsonanten. Im Ermessen der BearbeiterInnen liegt die
+        explizite Normalisierung von Unterführungszeichen (auch Wiederholungszeichen genannt) in
+          <xref href="listen.dita#topic_trq_t1v_ty">Listen</xref> und <xref
+          href="tabelle.dita#topic_abf_x1v_ty">Tabellen</xref>. Die normalisierte Variante sind
         hierbei die Zahlen oder Wörter, die das Unterführungszeichen repräsentiert.</p>
       <p><?oxy_comment_start author="lkirsten" timestamp="20180621T185450+0200" comment="[Beispiel einfügen, in dem Explizite Normalisierung (nicht Diakritika) und Korrektur vorkommen, zum Vergleich in der Webansicht]"?>Im
         Gegensatz zur Korrektur von Fehlern werden explizit normalisierte Wörter und Satzzeichen im
@@ -56,7 +56,7 @@
       <p>Aus Gründen der Arbeitsökonomie wird darauf verzichtet, Humboldts Schreibgewohnheiten in
         der Verwendung von diakritischen Zeichen explizit zu normalisieren. Im Unterschied zu
         Schreibgewohnheiten auf der Wortebene werden diakritische Zeichen stillschweigend ergänzt.
-        Hierzu zählen: </p>
+        Hierzu zählen:</p>
       <ul id="ul_db2_prz_2bb">
         <li>Akzente in allen Sprachen</li>
         <li>Doppelpunkte über deutschen Umlauten (sog. Umlautzeichen)</li>
@@ -67,7 +67,7 @@
           Schreibweise sehr wohl bewusst war, ihre Korrektur aber für die Alltagskommunikation oder
           rasche Notizen im Reisetagebuch als überflüssig erachtete. In Einzelfällen lässt sich
           nachweisen, dass Humboldt fehlende Umlautzeichen selbst nachträglich ergänzte, um seinen
-          (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren. </li>
+          (in diesem Fall wichtigen) Briefinhalt auch zweifelsfrei zu kommunizieren.</li>
         <li><b>Autorbild:</b> Würde eine transparente Normalisierung konsequent durchgeführt,
           entstünde dadurch ein kritischer Text, der das Bild Humboldts als Autor sowie den
           Leseeindruck verzerrt. Beispielhaft aufgezeigt zu bekommen, dass Humboldt sich Kunth
@@ -78,7 +78,7 @@
           Textphänomen zu große Bedeutung verleihen. <fig>
             <desc><xref href="https://edition-humboldt.de/H0002734" format="html" scope="external"
                 >Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26. Oktober
-                1832] </xref>, Bl. 1r</desc>
+                1832]</xref>, Bl. 1r</desc>
             <image placement="break" href="../../img_avhr/kunth.jpg" id="image_i4f_vln_jbb"
               scale="80"/>
           </fig></li>
@@ -95,12 +95,12 @@
           </fig></li>
         <li><b>Grenzen der diplomatischen Umschrift:</b> Wird im Einzellfall unterschieden, ob
           Umlautzeichen gesetzt wurden oder nicht, müssten konsequenterweise auch fehlende i-Punkte
-          dokumentgetreu ausgezeichnet werden. </li>
+          dokumentgetreu ausgezeichnet werden.</li>
         <li><b>Vergleichstexte:</b> Der Großteil der Texte wird in diesem Sinne stillschweigend
           normalisiert. Beispielhaft werden aber einzelne Konvolute mit erhöhter Auszeichnungstiefe
           (Granularität) publiziert:<ul id="ul_qdx_1tz_2bb">
             <li><b>Kunth-Briefwechsel</b>: die Normalisierung von diakritischen Zeichen erfolgt
-              explizit. </li>
+              explizit.</li>
             <li><b>Cuba-Manuskript</b>: der Unterschied zwischen Befund (kritischer Text) und
               Deutung (Lesetext) wird noch stärker ausgebaut durch hohen Einsatz von den Text
               ordnender, von den HerausgeberInnen ergänzter Interpunktion sowie der Normalisierung
@@ -216,7 +216,7 @@
                         général</xref>, Bl. 140r</entry>
                     <entry>
                       <fig>
-                        <desc>„pie“</desc>
+                        <desc>„pié“</desc>
                         <image href="../../img_avhr/pie.png" id="image_ezh_w3q_mcb"
                           placement="break"/>
                       </fig>
@@ -288,14 +288,14 @@
                 <tbody>
                   <row>
                     <entry/>
-                    <entry> „Konig“ </entry>
+                    <entry>„Konig“</entry>
                     <entry>König</entry>
                     <entry>König</entry>
                   </row>
                   <row>
                     <entry><xref href="https://edition-humboldt.de/H0001200" format="html"
                         scope="external">Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez,
-                        20. April 1799</xref>, Bl. 1v </entry>
+                        20. April 1799</xref>, Bl. 1v</entry>
                     <entry>
                       <fig>
                         <desc>„Francois“</desc>
@@ -308,13 +308,13 @@
                   </row>
                   <row>
                     <entry/>
-                    <entry> „a“ </entry>
+                    <entry>„a“</entry>
                     <entry>à</entry>
                     <entry>à</entry>
                   </row>
                   <row>
                     <entry/>
-                    <entry> „chaine“ </entry>
+                    <entry>„chaine“</entry>
                     <entry>chaîne</entry>
                     <entry>chaîne</entry>
                   </row>
@@ -383,7 +383,7 @@
                     <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 140r </entry>
+                        général</xref>, Bl. 140r</entry>
                     <entry>
                       <fig>
                         <desc>„parceque“</desc>
@@ -397,7 +397,7 @@
                   <row>
                     <entry><xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 148r </entry>
+                        général</xref>, Bl. 148r</entry>
                     <entry>
                       <fig>
                         <desc>„tandisque“</desc>
@@ -412,7 +412,7 @@
                     <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 128r </entry>
+                        général</xref>, Bl. 128r</entry>
                     <entry>
                       <fig>
                         <desc>„com̅e“</desc>
@@ -441,7 +441,7 @@
                     <entry>
                       <xref href="https://edition-humboldt.de/H0002922" format="html"
                         scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
-                        général</xref>, Bl. 130r </entry>
+                        général</xref>, Bl. 130r</entry>
                     <entry>
                       <fig>
                         <desc>„roux de“</desc>
@@ -501,7 +501,7 @@
         </ul>
       </p>
     </section>
-    <section audience="editor"><title>Bedienung </title><p>Um Fehler in der Vorlage explizit zu
+    <section audience="editor"><title>Bedienung</title><p>Um Fehler in der Vorlage explizit zu
         normalisieren, transkribieren Sie zuerst das fehlerhafte Wort (bzw. die Wörter) getreu der
         Vorlage. Markieren Sie anschließend das Wort (bzw. die Wörter) und wählen Sie in der
         Werkzeugleiste im Menü mit dem Symbol <image href="../../img/corr-sic16.gif"

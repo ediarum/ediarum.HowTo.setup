@@ -5,7 +5,7 @@
  <body>
   <section>
    <title>ediarum.BASIS</title>
-   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert. </p>
+   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert.</p>
   </section>
   <section>
       <title>edition humboldt digital</title>
@@ -18,7 +18,7 @@
         </ol></p>
           <p>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
         vermeintliche Anführungszeichen (auch doppelte Trennstriche) am Zeilenende in Erscheinung
-        treten. </p>
+        treten.</p>
       <fig>
         <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 2r</desc>
         <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60"
@@ -53,12 +53,12 @@
           id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt
         werden. Wird er nicht während der Transkription, sondern im bereits bestehenden Text
         eingefügt, muss der Cursor vor das erste Wort der neuen Zeile gesetzt und dann die
-        entsprechende Funktion ausgeführt werden. </p>
+        entsprechende Funktion ausgeführt werden.</p>
    <p>In der Werkzeugleiste stehen neben dem einfachen „Zeilenumbruch“ auch die Funktionen
         „Zeilenumbruch mit Trennungszeichen“ und „Zeilenumbruch im Wort“ zur Verfügung, mit denen
         ein Zeilenbeginn eingefügt wird, der ein Wort trennt (einmal mit Trennzeichen, einmal ohne).
         Trennungszeichen werden anhand der Funktion „Zeilenumbruch mit Trennungszeichen“ gesetzt und
-          <u>sollten nicht manuell eingefügt werden</u>. </p>
+          <u>sollten nicht manuell eingefügt werden</u>.</p>
   </section>
   <section> 
    <title>Kodierung</title>

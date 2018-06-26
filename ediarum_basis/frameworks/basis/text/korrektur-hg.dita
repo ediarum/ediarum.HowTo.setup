@@ -20,7 +20,7 @@
     Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
     überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
     Deklinationen, falsches Genus bei Artikeln und Adjektiven und andere grammatische Inkongruenzen.
-    Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
+    Nicht korrigiert hingegen werden orthographische Varianten der Zeit.</p>
    <fig id="fig_gxy_vf3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
       von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5. Dezember 1846]</xref>, Bl.
@@ -132,7 +132,7 @@
    <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
    <sic>daß</sic>
    <corr cert="high">das</corr>
-</choice> […]]]> </codeblock>
+</choice> […]]]></codeblock>
   </section>
  </body>
  <related-links>

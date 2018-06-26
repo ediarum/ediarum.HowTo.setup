@@ -15,7 +15,7 @@
   <section>
    <title>edition humboldt digital</title>
    <p>Nicht lesbare Wörter oder Textstellen entstehen häufig durch Streichungen des Autors, die den
-    Ursprungstext so stark abdecken, dass darunterliegende Wörter nicht mehr entzifferbar sind: </p>
+    Ursprungstext so stark abdecken, dass darunterliegende Wörter nicht mehr entzifferbar sind:</p>
    <fig>
     <desc><xref href="https://edition-humboldt.de/H0015182" format="html" scope="external">Alexander
       von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [26. August 1844 – 30. Oktober 1844]
@@ -53,7 +53,7 @@
      href="../../img/gap16.gif" id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. In den
     sich öffnenden Dialogfenstern müssen zuerst Einheit (Zeichen, Wörter, Zeilen oder Seiten), dann
     Anzahl und zuletzt der Grund für die Lücke angegeben werden. Zerstörte oder verlorene Seiten
-    sollten jeweils einzeln erfasst werden. </p>
+    sollten jeweils einzeln erfasst werden.</p>
    <p>Im Falle einer Unleserlichkeit durch <xref href="korrektur.dita#topic_tfw_wbv_ty">Streichung
      mit anschließender Ersetzung</xref> sollten die entsprechenden ediarum-Funktionen in folgender
     Weise kombiniert werden:</p>
@@ -132,7 +132,7 @@
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap reason="lost" unit="pages" quantity="1"/>]]></codeblock>
    <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden vorhandene, aber
      <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref> sowie <xref
-     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>. </p>
+     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>.</p>
   </section>
  </body>
  <related-links>

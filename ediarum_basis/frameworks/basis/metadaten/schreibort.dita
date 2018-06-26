@@ -21,7 +21,7 @@
             <title>Kodierung</title>
             <p>Die Angaben werden im <xmlelement>profileDesc</xmlelement>-Element gemacht. Dort wird
                 ein <xmlelement>creation</xmlelement>-Element angelegt, in dem Angaben zur
-                Entstehung notiert werden, d. h. Autor, Schreibort, Entstehungsdatum. </p>
+                Entstehung notiert werden, d. h. Autor, Schreibort, Entstehungsdatum.</p>
             <p>Dort wird das Element <xmlelement>placeName</xmlelement> angelegt, in dem der Name
                 des Ortes notiert wird. Wird der Schreibort aus dem Ortsregister ausgewählt, wird im
                 Attribut <xmlatt>key</xmlatt> die zugehörige ID generiert und ein Link zum

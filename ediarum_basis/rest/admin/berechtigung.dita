@@ -6,7 +6,7 @@
   <p>Damit die Datenbank nur für angemeldete Benutzer zugänglich ist, müssen die Berechtigungen der
    einzelnen Dateien korrekt gesetzt sein. Die Standard-Einstellung von eXist sieht einen
    Lesezugriff auch für Gäste vor, was hier aber explizit nicht gewünscht ist.</p>
-  <p>Gewünscht ist ein Zugriff nur für angemeldete Benutzer, d.h. nach dem <xref
+  <p>Gewünscht ist ein Zugriff nur für angemeldete Benutzer, d. h. nach dem <xref
     href="http://telotadev.bbaw.de:9121/exist/apps/doc/security.xml#permissions" format="html"
     scope="external">Berechtigungsschema</xref> von eXist
    <codeph>-rwxrwx--- (group: user)</codeph>für alle Dateien im Ordner

@@ -19,14 +19,18 @@
       <p>Eine Liste, deren Zeilen keine oder kaum Aufteilung ihrer Inhalte enthalten, wird als Liste
           (<xmlelement>list</xmlelement>) ausgezeichnet, die einzelne Einträge
           (<xmlelement>item</xmlelement>) und ggf. auch einen Title (<xmlelement>head</xmlelement>)
-        enthält. Unterführungsstriche (Wiederholungszeichen) werden als Geviertstriche transkribiert
-        und explizit normalisiert als die darüberstehenden Wörter, die sie repräsentieren.</p>
+        enthält. Die in Listen und Tabellen häufig verwendeten Unterführungszeichen (auch
+        Wiederholungszeichen genannt) werden einheitlich als Geviertstrich transkribiert. Es liegt
+        Im Ermessen der BearbeiterInnen die sie zudem <xref
+          href="normalisierung.dita#topic_qxp_ph5_2bb">explizit zu normalisieren</xref>. Die
+        normalisierte Variante sind hierbei die Zahlen oder Wörter, die das Unterführungszeichen
+        repräsentiert. </p>
       <fig id="fig_h2m_x2r_b2b">
         <desc>Dokument (TS1) „F – Énumération des Plantes de la Province de Quito“, 3a-r</desc>
         <image placement="break" href="../../img_avhr/liste.jpg" align="center"
           id="image_bqj_b3n_jbb" scale="70"/>
       </fig>
-      <p>(Der folgende Code berücksichtigt nicht die Streichungen.)</p>
+      <p>(Das folgende berücksichtigt nicht die Streichungen.)</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
     <head>Regio frigida de 1600–2460 t</head>
     <item>Polypodium tenuifolium Tunguragua I 9. (1658 t.)</item>

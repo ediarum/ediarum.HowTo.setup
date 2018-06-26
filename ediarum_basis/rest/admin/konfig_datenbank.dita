@@ -9,7 +9,7 @@
    von SADE lautet der Pfad <b>webapps/exist/WEB-INF/lib/</b>.</p>
   <p>n der Datei <b>conf.xml</b> im eXist-Ordner bzw. bei SADE im Ordner
     <b>webapps/exist/WEB-INF/lib/</b> können verschiedene Einstellungen verändert werden. Unter
-    <b>scheduler</b> können wiederkehrende Routinen eingerichtet werden, (s.a. <xref href="http://telotadev.bbaw.de:9121/exist/apps/doc/scheduler.xml" format="html" scope="external">Scheduler Module</xref> in der eXist-Dokumentation). Zunächst muss dort die Zeile</p>
+    <b>scheduler</b> können wiederkehrende Routinen eingerichtet werden, (siehe auch <xref href="http://telotadev.bbaw.de:9121/exist/apps/doc/scheduler.xml" format="html" scope="external">Scheduler Module</xref> in der eXist-Dokumentation). Zunächst muss dort die Zeile</p>
   <codeblock outputclass="language-xml">&lt;module uri="http://exist-db.org/xquery/scheduler" class="org.exist.xquery.modules.scheduler.SchedulerModule"</codeblock>
   <p>entkommentiert werden. Die Einstellungen für ein vierstündliches inkrementelles Backup mit
    täglichem Vollbackup sehen so

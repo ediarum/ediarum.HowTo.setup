@@ -4,7 +4,7 @@
     <shortdesc>... in die Editionsrichtlinien der <i>edition humboldt digital</i>.</shortdesc>
     <body>
         <p>Die hiermit erstmals in einer beta-Version vorliegenden Richtlinien der <i>edition
-                humboldt digital </i>geben einen Überblick über</p>
+                humboldt digital</i> geben einen Überblick über</p>
         <ul>
             <li>die Kodierung von <xref href="frameworks/basis/metadaten/_intro.dita" format="dita"
                     >Metadaten</xref> und <xref href="frameworks/basis/text/textstrukturen.dita"
@@ -44,6 +44,6 @@
             TEI-XML (Deutsche Forschungsgemeinschaft (2015): Förderkriterien für wissenschaftliche
             Editionen in der Literaturwissenschaft. Bonn, S. 6). In Einzelfällen, die in der
             Spezifik des Korpus begründet sind, weicht die Kodierung vom DTABf ab bzw. geht über
-            dessen Datenmodell hinaus. </p>
+            dessen Datenmodell hinaus.</p>
     </body>
 </topic>

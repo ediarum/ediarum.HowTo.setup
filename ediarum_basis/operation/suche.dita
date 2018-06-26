@@ -26,7 +26,7 @@
     </conbody>
   </concept>
   <concept id="concept_ifj_mnn_my">
-    <title>Suchergebnisse </title>
+    <title>Suchergebnisse</title>
     <conbody>
       <p>Die Suchergebnisse werden in einem neuen Fenster unten (1) ausgegeben. Geordnet nach
         Dateien sind dort jeweils in einer Zeile die gefundenen Ergebnisse mit ihrem Kontext
@@ -36,7 +36,7 @@
         löschen. Ein Klick auf [x] im Karteikartenreiter unten (5) schließt die
         Suchergebnisanzeige.</p>
       <p><image href="img/suchergebnisse.jpg" id="image_yzk_4nn_my"/></p>
-      <p>1. Suchergebnisanzeige (erscheint nach Abschicken der Suche) </p>
+      <p>1. Suchergebnisanzeige (erscheint nach Abschicken der Suche)</p>
       <p>2. Ein markierter Treffer</p>
       <p>3. Suchbegriff ist im geöffneten Dokument markiert</p>
       <p>4. Einzelne Treffer aus der Trefferliste löschen</p>

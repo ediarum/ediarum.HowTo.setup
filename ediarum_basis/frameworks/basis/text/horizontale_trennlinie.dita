@@ -39,12 +39,12 @@
                     id="image_bbc_2qf_sdb" scale="70"/>
             </fig>
             <?oxy_comment_start author="lkirsten" timestamp="20180306T123231+0100" comment="Screenshots ergänzen und dann der ehd-ditamap hinzufügen"?>
-            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst. </p>
+            <p><?oxy_comment_end?>Das <b>Umkreisen eines Textbereiches</b> wird nicht erfasst.</p>
         </section>        
         <section audience="editor">
             <title>Bedienung</title>
             <p>In der ediarum-Autoransicht findet sich die Funktion „Horizontale Trennlinie“ im Menü
-                „ediarum > Textstruktur“. </p>
+                „ediarum > Textstruktur“.</p>
         </section>
         <section>
             <title>Kodierung</title>

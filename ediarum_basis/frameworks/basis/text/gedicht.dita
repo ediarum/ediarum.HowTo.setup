@@ -5,7 +5,7 @@
     <body>
         <p>Gedichte werden in ediarum gemäß den DTABf-Richtlinien eigens mit <xmlelement>lg</xmlelement> (Gedicht/Strophe) bzw. <xmlelement>l</xmlelement> (Verszeile) ausgezeichnet. Eine
             Funktion <uicontrol>Gedicht / Strophe</uicontrol> zum Einfügen von Gedichtstrukten steht im Menü <uicontrol>ediarum >
-            Textrstrukturen</uicontrol> bereit. </p>
+            Textrstrukturen</uicontrol> bereit.</p>
         <p>Befindet sich der Mauscursoer bereits in einer Gedichtstruktur (Vers, Strophe etc.) fügt
             die Funktion eine neue, weitere Strophe ein. Bei jeder neuen Strophe ist im Dialogfenster die Strophennummer
             anzugeben.</p>

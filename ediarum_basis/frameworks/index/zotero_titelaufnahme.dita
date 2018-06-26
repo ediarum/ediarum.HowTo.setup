@@ -41,7 +41,7 @@
           href="../img_avhr/Zotero-Autoren.png" id="image_sfs_qk1_4db" scale="40"/> können weitere
         AutorInnen sowie HerausgeberInnen, MitarbeiterInnen, ReihenherausgeberInnen oder
         ÜbersetzerInnen angegeben oder entfernt werden.</p>
-      <p><b>Reihe </b>und <b>Nummer der Reihe:</b> Gehört der Titel einer Reihe an, sollten Titel
+      <p><b>Reihe</b> und <b>Nummer der Reihe:</b> Gehört der Titel einer Reihe an, sollten Titel
         sowie Nummer der Reihe angegeben werden. Ist der Reihentitel in der Datenbank bereits
         vorhanden, zeigt Zotero diesen bei der Eingabe als Vorschlag an.</p>
       <p>Humboldts Amerikanisches Reisewerk sollte immer mit dem Reihentitel „Voyage de Humboldt et
@@ -73,7 +73,7 @@
           <li>Datumsangaben in eckigen Klammern wie „[1810]“ ({:avhr-date: [1810]),</li>
           <li><?oxy_comment_start author="lkirsten" timestamp="20180424T132021+0200" comment="sollte man hier nicht eine Variante festlegen?"?>Zeitspannen
             der Form „1794-1795“ ({:avhr-date: 1794-1795}). Bei Zeitspannen ist zudem zu beachten,
-            alle Jahreszahlen stets vierstellig auszuschreiben („1794-1795“ und nicht „1794-95“). </li>
+            alle Jahreszahlen stets vierstellig auszuschreiben („1794-1795“ und nicht „1794-95“).</li>
           <li>Mehrere Erscheinungsjahre, durch Komma („1797, 1799“ = {:avhr-date: 1797, 1799}) oder
             Schrägstrich getrennt („1794/1802“ = {:avhr-date: 1794/1802}). Bei mehreren
             Erscheinungsjahren ist zudem zu beachten, alle Jahreszahlen stets vierstellig
@@ -103,7 +103,7 @@
               III</b>, usw.</li>
         </ol>
       </p>
-      <p><b>URL </b>und<b> DOI (Direct Object Identifier):</b> Eine URL kann, wenn möglich und
+      <p><b>URL</b> und<b> DOI (Direct Object Identifier):</b> Eine URL kann, wenn möglich und
         sinnvoll, angegeben werden. Es sollten dabei ausschließlich persistente URLs vergeben
         werden, da diese dauerhaft auf die Ressource verlinken (etwa bei den großen Digitalen
         Sammlungen der Staatsbibliothek oder der BNF). Eine DOI wird im Normalfall nur für die
@@ -158,11 +158,11 @@
       <p>Alle Artikel von Bd. 1, Nr. 1 (2000) bis Bd. 16, Nr. 30 (2015) sind weiterhin über die alte
         Webpräsenz der Zeitschrift zu erreichen. Alle Einträge in der Zotero-Datenbank der Edition
         sollten jedoch nicht auf die alte, sondern auf die neue Webpräsenz (seit Bd. 16, Nr. 31
-        (2015)) verlinken. </p>
+        (2015)) verlinken.</p>
       <p><b>Beispiel</b>: Leitner, Ulrike (2002): „Anciennes folies neptuniennes!“. Über das
         wiedergefundene Journal du Mexique à Veracruz aus den mexikanischen Reisetagebüchern A. v.
         Humboldts. In: <i>HiN – Alexander von Humboldt im Netz. Internationale Zeitschrift für
-          Humboldt-Studien</i> 3 (5), S. 3–13. </p>
+          Humboldt-Studien</i> 3 (5), S. 3–13.</p>
       <p>Dieser Artikel befindet sich im Volltext auf der alten Webpräsenz unter <xref
           href="http://www.uni-potsdam.de/romanistik/hin/hin5/leitner.htm" format="html"
           scope="external">http://www.uni-potsdam.de/romanistik/hin/hin5/leitner.htm</xref> Die neue

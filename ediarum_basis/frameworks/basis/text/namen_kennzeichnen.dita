@@ -14,7 +14,7 @@
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Eigennamen
-    ausgezeichnet, in Sachanmerkungen und Chronologie-Ereignissen hingegen nur die Ersterwähnung. </p>
+    ausgezeichnet, in Sachanmerkungen und Chronologie-Ereignissen hingegen nur die Ersterwähnung.</p>
    <p>Referenzen in Form von <b>Pronomina</b> („seine“, „ihre“) oder <b>Deiktika</b> („dieser“,
     „jener“, „hier“, „dort“) werden <i>nicht</i> ausgezeichnet. Nomen und Nominalgruppen, die sich
     indirekt auf Orte, Personen und Institutionen beziehen und deren Bezug sich aus dem Kontext der
@@ -36,11 +36,11 @@
               <i>Universität</i> wünschen kann …“, „… bezog sich allerdings auf die Schritte und
             Empfehlung die ich bei dem <i>Ministerium</i> erneuert.“, „… nichts mehr als die Pension
             des <i>Gartens</i> accediren!“, „Salziges Wasser, kein Geld, Fieber, Tod der Bestien für
-            den ohnedies thierlosen hiesigen <i>Garten</i> – das ist eine freudenleere Welt.“ </li>
+            den ohnedies thierlosen hiesigen <i>Garten</i> – das ist eine freudenleere Welt.“</li>
      <li><b>Umschreibungen von Personen</b>: „<i>Der bescheidene Mann</i> legt eine neue brochure
             gegen Liebig bei, …“, „… Monsieur Majorlin Médecin des Hôpitaux fils du <i>Chirurgien
               célèbre</i> de Paris.“, „Ohnerachtet mich meine Sendung zu dem <i>französischen
-              General</i> und mein Aufenthalt bei der Armee im Juli und August sehr gestört hat, …“ </li>
+              General</i> und mein Aufenthalt bei der Armee im Juli und August sehr gestört hat, …“</li>
     </ul>
    </p>
    <p>Die Erwähnung der <b>Korrespondenzpartner und Schreib- bzw. Empfangsorte</b> im der editorischen
@@ -48,19 +48,19 @@
      id="ul_fgh_f2p_mbb">
      <li><i>„AHumboldt“</i> als Signatur eines Humboldt-Briefes</li>
      <li><i>„Humboldt“</i> als Signatur eines Humboldt-Briefes</li>
-     <li>Personennamen als Teil der Anrede (<i>„mein lieber Kunth“</i>) </li>
-     <li>Ortsnamen als Teil der Datumszeile im Briefschluss oder -anfang </li>
+     <li>Personennamen als Teil der Anrede (<i>„mein lieber Kunth“</i>)</li>
+     <li>Ortsnamen als Teil der Datumszeile im Briefschluss oder -anfang</li>
     </ul></p>
    <p>Eine <b>Normalisierung oder Korrektur</b> von Personen-, Orts- und Einrichtungsnamen im
     Textbefund findet nicht statt, da geläufige sowie historische Schreibweisen der Namen in den
     verknüpften Registereinträgen verzeichnet sind. <b>Abkürzungen von Personen-, Orts- und
      Einrichtungsnamen</b> hingegen werden immer explizit aufgelöst (siehe <xref
-     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>). </p>
+     href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzungen des Herausgebers</xref>).</p>
    <p>Eine <b>gleichzeitige Auszeichnung mehrerer Personen</b> bei Textformulierungen, die mehrere
     Personen meinen („mit allen <i>Kindern</i>“, „Grüßen Sie <i>Forsters</i>“), ist in der Edition
     nicht vorgesehen. Stattdessen werden die betreffenden Personen in einer Sachanmerkung einzeln
     aufgelöst und dort gekennzeichnet (siehe <xref href="sachanmerkung.dita#topic_lgx_rhx_5y"
-     >Sachanmerkung</xref>). </p>
+     >Sachanmerkung</xref>).</p>
    <p>
     <fig>
      <desc><xref href="https://edition-humboldt.de/H0002656" format="html" scope="external"
@@ -81,14 +81,14 @@
      <xmlatt>placeName</xmlatt> usw.) diese umschließt. Im Autormodus ist eine einfache manuelle
     Markierung des betreffenden Textes zumeist nicht ausreichend, da hier nur Unterelemente markiert
     werden. Um sicherzugehen, dass das gesamte Element markiert wurde, kann die Navigationsleiste
-    oberhalb des Bearbeitungsfensters genutzt werden: </p><p><image
+    oberhalb des Bearbeitungsfensters genutzt werden:</p><p><image
      href="../../img_avhr/namen_kennzeichnen_bedienung.JPG" id="image_mg5_jbb_mdb"/></p>Der Cursor
    kann an irgendeine Stelle im zu markierenden Text gesetzt und das entsprechende Element in der
    Navigationsleiste per Klick ausgewählt werden. <p><b>Wichtig</b>: Um einen Namen korrekt zu
     kennzeichnen, muss sichergestellt sein, dass der jeweilige Registereintrag eindeutig ist, es
     also keine Dubletten zur selben Person/Ort/etc. an anderen Stellen des Registers gibt. Die
     Kennzeichnung eines Namens sollte also immer mit einer kurzen redaktionellen Überprüfung des
-    jeweiligen Registereintrags verbunden werden. </p></section>
+    jeweiligen Registereintrags verbunden werden.</p></section>
   <section>
    <title>Kodierung</title>
    <p>Personen, Orte und Institutionen, die in der Vorlage oder auch in einer Sacherläuterung

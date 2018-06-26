@@ -7,14 +7,14 @@
    <title>ediarum.BASIS</title>
    <p>Die Ergänzungen (auch „Hinzufügungen“), die der Autor selbst im Manuskript vorgenommen hat,
     werden ausgezeichnet. Unter Ergänzungen werden alle Hinzufügungen des Autors verstanden, die den
-    Text nur erweitern und sich syntaktisch eingliedern. </p><p>Ergänzungen sind zu unterscheiden von den <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
+    Text nur erweitern und sich syntaktisch eingliedern.</p><p>Ergänzungen sind zu unterscheiden von den <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
      >Anmerkungen</xref>, die – ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten
     bilden.</p>
   </section>
    <section>
    <title>edition humboldt digital</title>
    <p>Ergänzungen können sich im laufenden Text etwa unter- oder oberhalb der Zeile sowie am äußeren
-    und unteren Rand der Manuskriptseite befinden. </p>
+    und unteren Rand der Manuskriptseite befinden.</p>
    <p><?oxy_comment_start author="thomas" timestamp="20180313T151654+0100" comment="Kann man noch ergänzen, aber erstmal nicht so dringend.
 
 Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\img_avhr angelegt!" parentID="ijj_2qr_ddb"?><?oxy_comment_start author="lkirsten" timestamp="20180222T122016+0100" comment="auch Beispiele für sub- und superlineare Ergänzungen" id="ijj_2qr_ddb" mid="1"?>Häufig
@@ -22,7 +22,7 @@ Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\im
     Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot
     markiert.)<?oxy_comment_end?><?oxy_comment_end mid="1"?>:</p>
    <fig>
-    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 17r </desc>
+    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 17r</desc>
 <image placement="break" href="../../img_avhr/abb10-markierung.jpg" 
     id="image_zpy_1bg_hbb" scale="80"/>
 </fig>
@@ -70,7 +70,7 @@ Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\im
     <tgroup cols="2">
      <thead>
       <row>
-       <entry>Wert </entry>
+       <entry>Wert</entry>
        <entry>Definition</entry>
       </row>
      </thead>

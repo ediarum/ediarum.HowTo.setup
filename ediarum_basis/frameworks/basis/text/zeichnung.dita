@@ -6,7 +6,7 @@
     <section>
       <title>ediarum.BASIS</title>
       <p>Zeichnungen oder Abbildungen, die in der Vorlage enthalten sind, werden eigens erfasst. Sie
-        können kommentiert und beschrieben werden. </p>
+        können kommentiert und beschrieben werden.</p>
       <p>Zeichnungen oder Abbildungen sind zu unterscheiden von Digitalisaten (auch: Faksimiles)
         eines ganzen Dokuments.</p>
     </section>
@@ -24,7 +24,7 @@
     </section>
     <section audience="editor">
       <title>Bedienung</title>
-      <p><b>Bildvorlage erstellen </b></p><p>Die Erstellung und korrekte Ablage der Bildvorlage
+      <p><b>Bildvorlage erstellen</b></p><p>Die Erstellung und korrekte Ablage der Bildvorlage
         erfolgt in 3 Schritten:<ol id="ol_zgx_z1t_2bb">
           <li>Schnappschuss der Zeichnung/Skizze erstellen (etwa in Acrobat Reader)</li>
           <li>Schnappschuss im Bildbearbeitungsprogramm bearbeiten (etwa in IrfanView)</li>

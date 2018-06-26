@@ -44,7 +44,7 @@
           <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> gekennzeichnet. Falls sich die Anzahl
         der ausgelassenen Zeilen (<codeph>unit="lines"</codeph>), Zeichen
           (<codeph>unit="chars"</codeph>) oder Wörter (<codeph>unit="words"</codeph>) nicht sicher
-        ermitteln lässt, steht in <xmlatt>quantity</xmlatt> der Wert <codeph>1</codeph>. </p>   
+        ermitteln lässt, steht in <xmlatt>quantity</xmlatt> der Wert <codeph>1</codeph>.</p>   
     </section> 
   </body>
   <related-links>

@@ -12,7 +12,7 @@
     in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
    <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
     fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich
-    wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten. </p></section>
+    wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p></section>
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
@@ -24,7 +24,7 @@
 </fig>
    <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
     andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
-    Einweisungszeichen werden erfasst und in der Webansicht wiedergegeben. </p><fig>
+    Einweisungszeichen werden erfasst und in der Webansicht wiedergegeben.</p><fig>
      <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 18v/19r – Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
      <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
@@ -57,11 +57,9 @@
     <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" 
      id="image_wc4_fyj_wcb" scale="80"/>
    </fig>
-  
-   <p audience="editor"><b>Achtung:</b> Anmerkungen werden dort gesetzt, wo sie im Text
-    (offensichtlich oder editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig
-    bestimmen lässt, sollten sie zwischen zwei thematisch möglichst nahe liegenden Sätzen eingefügt
-    werden.</p>        
+   <p>Anmerkungen werden dort gesetzt, wo sie im Text (offensichtlich oder editorisch vertretbar)
+    hingehören. Wenn sich dieser Punkt nicht eindeutig bestimmen lässt, werden sie zwischen zwei
+    thematisch möglichst nahe liegenden Sätzen eingefügt.</p>        
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -108,13 +106,13 @@
        technischen Gründen können die Personennamen derzeit nicht direkt aus dem Register bezogen
        werden, sondern müssen im Transformations-Stylesheet (web/resources/xslt/transcription.xsl)
        händisch eingetragen werden. Bearbeiter sollten weiterhin zum entsprechenden Registereintrag
-       verlinken, für das manuelle Nachtragen aber ein Ticket anlegen. </p></stentry>
+       verlinken, für das manuelle Nachtragen aber ein Ticket anlegen.</p></stentry>
      </strow>
     </simpletable>
    <p> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben:</p>
    <simpletable id="table_pg1_ngn_my">
      <sthead>
-       <stentry>Wert </stentry>
+       <stentry>Wert</stentry>
        <stentry>Definition</stentry>
      </sthead>
       <strow>
@@ -127,7 +125,7 @@
       </strow>
       <strow>
        <stentry><codeph>mTop</codeph></stentry>
-       <stentry>oberer Rand </stentry>
+       <stentry>oberer Rand</stentry>
       </strow>
       <strow>
        <stentry><codeph>mBottom</codeph></stentry>

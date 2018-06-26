@@ -50,7 +50,7 @@
      href="http://telotadev.bbaw.de:9121/exist/apps/doc/triggers.xml#D2.2.5.3" format="html"
      scope="external">xQuery-Funktionen</xref>). Die Einrichtung wird im folgenden an einem Beispiel
     erläutert.</p><p>Beispiel: Jeder Registereintrag eines gemeinsamen Register liegt in einer
-    eigenen Datei. Nach der Erstellung eines Registereintrags (d.h. einer neuen Datei im Ordner
+    eigenen Datei. Nach der Erstellung eines Registereintrags (d. h. einer neuen Datei im Ordner
     Register) oder einer Änderung in einer solchen Datei soll ein neues Gesamtregister erstellt
     werden, das alle Einträge des Registers mit der ID enthält.</p><p>Im Ordner /db/system/config/db/Register wird eine Datei <xref
      href="http://telotadev.bbaw.de:9121/exist/apps/eXide/index.html?open=/db/apps/ediarum/../../system/config/db/Register/collection.xconf"
@@ -82,7 +82,7 @@ declare function trigger:after-create-document($uri as xs:anyURI) {
 declare function trigger:after-update-document($uri as xs:anyURI) {
   local:cumulateIndex($uri)
 };</pre><p>Die
-    auszuführenden xQueries müssen über die im Trigger angegebene URL erreichbar sein, d.h. sie
+    auszuführenden xQueries müssen über die im Trigger angegebene URL erreichbar sein, d. h. sie
     müssen auch mit Gastrechten ausführbar sein</p></div>
  </conbody>
 </concept>

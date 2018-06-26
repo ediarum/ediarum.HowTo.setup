@@ -10,17 +10,17 @@
         Wahrscheinlichkeit angegeben, mit der diese Ergänzung zutrifft.</p>
    <p>Die Ergänzung von fehlenden Wörtern oder Satzzeichen ist zu unterscheiden von der <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Ergänzung (auch: Auflösung) abgekürzter
-     Wörter</xref>. </p></section> 
+     Wörter</xref>.</p></section> 
   <section product="avhr"><title>edition humboldt digital</title><p>Ergänzungen werden auf Ebene von
         einzelnen Buchstaben, Satzzeichen bis hin zu ganzen Wörtern vorgenommen.</p><p>Bei
           <b>fehlenden Buchstaben</b> wird abgewogen zwischen einer Ergänzung einzelner Zeichen und
         einer Korrektur des gesamten Wortes. Besonders am Wortende ist die Ergänzung des einzelnen
         Buchstabens zu bevorzugen. Sie erfolgt nicht bei Personen- oder Ortsnamen, da in diesem
-        Falle auf den Normeintrag im Register verwiesen wird. </p><p>Die <b>Ergänzung fehlender
+        Falle auf den Normeintrag im Register verwiesen wird.</p><p>Die <b>Ergänzung fehlender
           Satzzeichen</b> erfolgt nur dann, wenn sie deutlich die Lesbarkeit des Textes unterstützt,
         nicht aber bloß, weil es syntaktisch oder orthographisch angezeigt wäre. Am Ende eines jeden
         syntaktisch vollständigen Satzes wird ein Punkt ergänzt. Dies dient vor allem der erhöhten
-        Lesbarkeit des Textes in der Lesefassung. </p><fig id="fig_b1f_fsj_ycb">
+        Lesbarkeit des Textes in der Lesefassung.</p><fig id="fig_b1f_fsj_ycb">
         <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 7r</desc>
         <image placement="break" href="../../img_avhr/abb28.png" id="image_w5z_hhb_fbb" scale="80"/>
       </fig><codeblock outputclass="language-xml"><![CDATA[Mya<supplied cert="high">,</supplied> Tellin<supplied cert="high">a</supplied>]]></codeblock><fig
@@ -52,7 +52,7 @@
               <codeblock outputclass="language-xml"><![CDATA[schenken<supplied cert="high">.</supplied>]]></codeblock></p>
           </li>
         </ul></p><p>In vorliegendem Fall wird der Satz als implizite Aufforderung gedeutet und nicht
-        als Frage, und daher ein Punkt am Ende des Satzes ergänzt: </p><fig id="fig_d1f_fsj_ycb">
+        als Frage, und daher ein Punkt am Ende des Satzes ergänzt:</p><fig id="fig_d1f_fsj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006179" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, [Anfang
             1830]</xref>, Bl. 1r – Webansicht (Kritischer Text)</desc>

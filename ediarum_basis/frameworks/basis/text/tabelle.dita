@@ -25,16 +25,18 @@
         <li><b><?oxy_comment_start author="lkirsten" timestamp="20180220T151806+0100" comment="sind Leerzeichen gemeint? Warum der Begriff Wortzwischenraum?"?>Wortzwischenräume<?oxy_comment_end?></b>
           zu Beginn oder Ende einer Zelle werden nicht erfasst.</li>
         <li>Striche, die als <b>Verbindungsstrich</b> zwischen zwei Werten in einer Zeile oder als
-            <b>Wiederholungsstrich</b> einer Angabe zwischen zwei Zeilen dienen, werden einheitlich
-          als Geviertstrich mit jeweils einem
+            <b>Unterführungszeichen</b> (auch Wiederholungszeichen genannt) einer Angabe zwischen
+          zwei Zeilen dienen, werden einheitlich als Geviertstrich mit jeweils einem
           <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Wortzwischenraum
-          <?oxy_custom_end?>transkribiert und in der Webansicht dargestellt Sie müssen zudem als die
-          darüberstehenden Wörter oder Zahlen, die sie repräsentieren, <xref
-            href="normalisierung.dita#topic_qxp_ph5_2bb">explizit normalisiert</xref> werden.</li>
+          <?oxy_custom_end?>transkribiert und in der Webansicht dargestellt. Es liegt Im Ermessen
+          der BearbeiterInnen die Unterführungszeichen zudem <xref
+            href="normalisierung.dita#topic_qxp_ph5_2bb">explizit zu normalisieren</xref>. Die
+          normalisierte Variante sind hierbei die Zahlen oder Wörter, die das Unterführungszeichen
+          repräsentiert. </li>
       </ul>
       <p>Beispiel für eine explizite Tabelle:</p>
       <fig>
-        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v </desc>
+        <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 54v</desc>
         <image placement="break" href="../../img_avhr/abb6.png" scale="60" id="image_hqb_sj3_dbb"/>
       </fig>
       <codeblock outputclass="language-xml"><![CDATA[<table cols="4" rows="20" rend="drawn">
@@ -82,7 +84,7 @@
           scale="100"/>
       </fig>
       <p>Als <b>implizite Tabellen</b> gelten jegliche Art von strukturierten Auflistungen,
-        Messreihen und Rechnungen. </p>
+        Messreihen und Rechnungen.</p>
       
       <p>Diese Textphänomene werden ebenfalls als Tabelle erfasst, um die ihnen zugrundeliegenden
         Daten sichtbar zu strukturieren und die Darstellbarkeit im Web zu verbessern.
@@ -160,10 +162,10 @@
       <p>
         <ul id="ul_qgp_3hg_jbb">
           <li>eine Liste, deren Zeilen keine oder kaum Aufteilung ihrer Inhalte enthalten, wird als
-            einfache Liste ausgezeichnet. (siehe <xref href="listen.dita#topic_trq_t1v_ty"/>) </li>
+            einfache Liste ausgezeichnet. (siehe <xref href="listen.dita#topic_trq_t1v_ty"/>)</li>
           <li>Beinhalten die Listenpunkte Text oder Zahlen, die in Spalten strukturiert werden
             können und sich in dieser Form über mehrere Zeilen wiederholen, wird die Vorlage als
-            implizite Tabelle ausgezeichnet. </li>
+            implizite Tabelle ausgezeichnet.</li>
         </ul>
       </p>
     </section>
@@ -176,12 +178,12 @@
         werden sollen, setzen Sie das Häkchen auf „generate_table-header“. Mit der Schaltfläche
           <image href="../../img/table.jpg" id="image_ig1_xmn_scb"/>  kann die Tabelle jederzeit
         noch nachträglich verändert, d. h. weitere Zeilen und Spalten hinzugefügt bzw. gelöscht
-        werden. </p>
+        werden.</p>
       <p>Wird eine neue Tabelle erstellt, ist diese zunächst nicht als explizit ausgezeichnet und
         erscheint im Autormodus mit gestrichelter Umrandung. Zur Kennzeichnung als explizite Tabelle
         sollte der Cursor an eine beliebige Stelle in der Tabelle gesetzt und per Rechtsklick im
         Kontextmenü der Befehl „Tabelle explizit gezeichnet“ ausgewählt werden – daraufhin ändert
-        sich die Umrandung zur durchgehenden Linie. </p>
+        sich die Umrandung zur durchgehenden Linie.</p>
    </section>
    <section>
      <title>Kodierung</title>
