@@ -6,13 +6,17 @@
   <section>
    <title>ediarum.BASIS</title>
    <p>Gestrichener Text wird grundsätzlich – soweit lesbar – vollständig erfasst, samt aller
-    Textphänomene wie Zeilenumbrüchen, Auflösung von Abkürzungen, Normalisierungen und
+    Textphänomene wie Zeilenumbrüche, Auflösung von Abkürzungen, Normalisierungen und
     Herausgeberkorrekturen bzw. –ergänzungen. Die Streichung wird entsprechend ausgezeichnet.</p>
   </section>
-  <section>
+  <section product="avhr"> 
    <title>edition humboldt digital</title>
    <p>Streichungen können in unterschiedlicher Form auftreten:</p>
-   <p><b>als Durchstreichungen einzelner oder mehrerer Wörter und Zeilen:</b></p>
+   <ul id="ul_pyx_11q_h2b">
+    <li>
+     <p><b>als Durchstreichungen einzelner oder mehrerer Wörter und Zeilen:</b></p>
+    </li>
+   </ul>
    <p>
     <fig>
      <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 140r</desc>
@@ -21,16 +25,22 @@
 </fig>
     <codeblock outputclass="language-xml" audience="editor">[…] Medina &lt;del rendition="#s">si rappelle&lt;/del> […]</codeblock>
    </p>
-   <p><b>als Streichung ganzer Absätze quer über die Zeilen:</b></p>
+   <p>
+    <ul id="ul_ab1_11q_h2b">
+     <li><b>als Streichung ganzer Absätze quer über die Zeilen:</b></li>
+    </ul>
+   </p>
    <p>
     <fig>
-     <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v „23. La salubrité de la Havane …“</desc>
+     <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external"
+       >Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v „32. La salubrité
+      de la Havane …“</desc>
 <image placement="break" href="../../img_avhr/abb13.png" scale="60" 
      id="image_zyq_spt_2bb"/>
 </fig>
    </p>
    <p>Diese Art der Streichung ist zu unterscheiden von einer Streichung, die Textpassagen als
-    „erledigt“ kennzeichnet (<xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>).</p>
+    „erledigt“ kennzeichnet (siehe <xref href="streichung_erledigt.dita#topic_cbd_4cn_qcb"/>).</p>
    <p>Streichungen innerhalb einer bereits gestrichenen Passage werden ebenfalls
      ausgezeichnet:</p><fig>
       <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v „il leur est …“</desc>
@@ -49,8 +59,12 @@ très […]</del>
     gestrichenen Passage als doppelt durchgestrichen dargestellt:</p>
    <fig><desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 142v – Webansicht (Kritischer Text)</desc><image placement="break" href="../../img_avhr/abb14-web.jpg" 
     id="image_w4d_g2g_hbb"/></fig>
-   <p><b>als Streichung der einzelnen Zeilen sowie des gesamten Absatzes:</b>
-   </p>
+   <ul id="ul_pwp_g1q_h2b">
+    <li>
+     <p><b>als Streichung der einzelnen Zeilen sowie des gesamten Absatzes:</b>
+     </p>
+    </li>
+   </ul>
    <fig>
 <desc>Kunth, Carl Sigismund: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur
      (1849), 5v</desc>
@@ -58,7 +72,7 @@ très […]</del>
     />
 </fig>
    <p>Bei dieser Art der Streichung eines Textabschnittes wird nur eine einfache Streichung
-    ausgezeichnet (in folgendem Kodierbeispiel wurde die Auszeichnung der Eigennamen nicht
+    ausgezeichnet (im folgenden Kodierbeispiel wurde die Auszeichnung der Eigennamen nicht
     berücksichtigt):</p>
    <codeblock outputclass="language-xml"><![CDATA[<p>
 <del rendition="#s">Von Aletris arborea Willd. (Dracaena
@@ -74,9 +88,9 @@ très […]</del>
   </section>
   <section audience="editor" id="section_znk_vdn_qbb">
    <title>Bedienung</title>
-   <p>Transkribieren Sie zuerst das gestrichene Wort (bzw. die Wörter). Markieren Sie es und lösen
-    Sie in der Werkzeugleiste die Schaltfläche mit dem Symbol <image href="../../img/del.gif"
-     id="image_rwg_ydn_qbb"/> aus. Im erscheinenden Dialogmenü wählen Sie bitte die Art der
+   <p>Transkribieren Sie zuerst den gestrichenen Text. Markieren Sie ihn anschließend und lösen Sie
+    in der Werkzeugleiste die Schaltfläche mit dem Symbol <image href="../../img/del.gif"
+     id="image_rwg_ydn_qbb"/> aus. Im erscheinenden Dialogfenster wählen Sie bitte die Art der
     Streichung aus.</p>
   </section> 
   <section>
@@ -108,9 +122,11 @@ très […]</del>
       </tbody>
      </tgroup>
     </table></p>
-   <codeblock outputclass="language-xml"><![CDATA[so beug‘ ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
+   <codeblock outputclass="language-xml"><![CDATA[so beug' ich mich <del rend="#s">ehrfurchtsvoll</del>; wenn ich]]></codeblock></section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html?hl=streichung"
-  format="html" scope="external"><linktext>Hinzufügung und Tilgung – Dokumentation des DTABf</linktext></link></linklist> 
+    format="html" scope="external">
+    <linktext>Hinzufügungen und Tilgungen – Dokumentation des DTABf</linktext>
+   </link></linklist> 
  </related-links>
 </topic>

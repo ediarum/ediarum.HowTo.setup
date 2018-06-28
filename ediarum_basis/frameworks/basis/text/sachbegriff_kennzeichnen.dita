@@ -6,7 +6,7 @@
     <section><title>ediarum.BASIS</title><p>In der Vorlage oder im
         <?oxy_comment_start author="lkirsten" timestamp="20180517T181314+0200" comment="werden Sachbegriffe auch im Kommentar ausgezeichnet?"?>Kommentar<?oxy_comment_end?>
         genutzte Sachbegriffe werden ausgezeichnet und mit einem Registereintrag verknüpft.</p></section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
       <p/>
     </section>

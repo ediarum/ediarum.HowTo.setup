@@ -14,37 +14,41 @@
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>, die jeweils mit
           <xmlelement>gap/</xmlelement> ausgezeichnet werden.</p>
     </section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
       <p>Im folgenden Beispiel wurde vom Verfasser des Dokuments eine Lücke im Text belassen,
         offenbar um den zweiten Personennamen nach „Reichenbach und“ zu einem späteren Zeitpunkt zu
         ergänzen. Diese Lücke wird als semantisch bedeutsamer Leerraum entsprechend mit
-          <xmlelement>space/</xmlelement> kodiert:</p>
+          <xmlelement>space/</xmlelement> kodiert und in der Webansicht angezeigt:</p>
       <fig>
         <desc>Ansichten der Natur, 3r</desc>
-        <image placement="break" href="../../img_avhr/leerraum.png" 
-          id="image_ifv_1pt_xcb" scale="70"/>
+        <image placement="break" href="../../img_avhr/leerraum.png" id="image_ifv_1pt_xcb"
+          scale="70"/>
       </fig>
       <p>
         <codeblock outputclass="language-xml"><![CDATA[[…] in Betracht kommt. So machen <persName key="H0000795">Reichenbach</persName> 
 <lb/>und <space dim="horizontal" unit="words" quantity="1"/> offenbar zu viel, andere 
 <lb/>zu wenig Arten. Aber auf die Familien […] ]]></codeblock>
       </p>
-      <!-- Screenshots der Ansichten 'Kritischer Text' und 'Lesetext' ergänzen, sobald @SD das umgesetzt hat, vgl. https://redmine.bbaw.de/issues/9312#note-10 -->
+      <fig id="fig_xkg_lg4_h2b">
+        <desc>Ansichten der Natur, Bl. 3r - Webansicht</desc>
+        <image placement="break" href="../../img_avhr/leerraum_webansicht_krit.png"
+          id="image_ykg_lg4_h2b"/>
+      </fig>
     </section>
     <section audience="editor">
       <title><?oxy_comment_start author="thomas" timestamp="20180314T132940+0100" comment="@SD(?): Abschnitt muss noch ergänzt werden!"?>Bedienung<?oxy_comment_end?></title>
     </section>
     <section>
       <title>Kodierung</title>
-      <p>Semantisch bedeutsamer Leerraum im Dokument kann mit Hilfe des (leeren) Elements
-          <xmlelement>space</xmlelement> kodiert werden. Dabei zeigt das Attribut
-          <xmlatt>dim</xmlatt> an, ob es sich um horizontalen oder vertikalen Leerraum handelt. Das
-        Ausmaß der Auslassung wird durch die entsprechenden Werte der Attribute
-          <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> gekennzeichnet. Falls sich die Anzahl
-        der ausgelassenen Zeilen (<codeph>unit="lines"</codeph>), Zeichen
-          (<codeph>unit="chars"</codeph>) oder Wörter (<codeph>unit="words"</codeph>) nicht sicher
-        ermitteln lässt, steht in <xmlatt>quantity</xmlatt> der Wert <codeph>1</codeph>.</p>   
+      <p>Semantisch bedeutsamer Leerraum im Dokument wird mit dem (leeren) Elements
+          <xmlelement>space/</xmlelement> kodiert. Dabei zeigt das Attribut <xmlatt>dim</xmlatt> an,
+        ob es sich um horizontalen oder vertikalen Leerraum handelt. Das Ausmaß der Auslassung wird
+        durch die entsprechenden Werte der Attribute <xmlatt>unit</xmlatt> und
+          <xmlatt>quantity</xmlatt> gekennzeichnet. Falls sich die Anzahl der ausgelassenen Zeilen
+          (<codeph>unit="lines"</codeph>), Zeichen (<codeph>unit="chars"</codeph>) oder Wörter
+          (<codeph>unit="words"</codeph>) nicht sicher ermitteln lässt, steht in
+          <xmlatt>quantity</xmlatt> der Wert <codeph>1</codeph>.</p>   
     </section> 
   </body>
   <related-links>

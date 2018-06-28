@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_n4t_jbv_ty">
- <title>Foliierung und Paginierung</title>
- <body>
-  <section id="section_nvp_qk2_bbb">
-   <title>ediarum.BASIS</title>
-   <p>Foliierung bzw. Paginierung, d. h. Folio- bzw. Seitenwechsel der Vorlage, werden verzeichnet.
-        Dabei wird stets der Beginn des Folium bzw. der Seite gekennzeichnet, nicht das Ende. Falls
-        online verfügbar kann im Foliowechsel ein Permalink zum entsprechenden Digitalisat des
-        Folium gesetzt werden. Existiert in der Vorlage eine weitere Seiten- bzw. Blattzählung (etwa
-        durch den Autor selbst vorgenommen), wird diese zusätzlich zur Foliierung notiert.</p>
-  </section>
-  <section id="section_wtf_kq2_bbb">
+  <title>Foliierung und Paginierung</title>
+  <body>
+    <section id="section_nvp_qk2_bbb">
+      <title>ediarum.BASIS</title>
+      <p>Foliierung bzw. Paginierung, d. h. Folio- bzw. Seitenwechsel der Vorlage, werden
+        verzeichnet. Dabei wird stets der Beginn des Folium bzw. der Seite gekennzeichnet, nicht das
+        Ende. Falls online verfügbar kann im Foliowechsel ein Permalink zum entsprechenden
+        Digitalisat des Folium gesetzt werden. Existiert in der Vorlage eine weitere Seiten- bzw.
+        Blattzählung (etwa durch den Autor selbst vorgenommen), wird diese zusätzlich zur Foliierung
+        notiert.</p>
+    </section>
+    <section id="section_wtf_kq2_bbb" product="avhr">
       <title>edition humboldt digital</title>
       <p>Für die Bearbeitung der Reisetagebücher wird zwingend die sowjetische Foliierung der
         Vorlage mit recto- und verso-Zählung (1r, 1v, usw.) übernommen. In Zweifelsfällen (wie etwa
-        den Amerikanischen Reisetagebüchern) wird dient die Foliierung der Staatsbibliothek zu
-        Berlin als Orientierung, die in der Werkansicht der Digitalisierten Sammlungen als „Druckseite“
+        den Amerikanischen Reisetagebüchern) dient die Foliierung der Staatsbibliothek zu Berlin als
+        Orientierung, die in der Werkansicht der Digitalisierten Sammlungen als „Druckseite“
         bezeichnet wird (im Gegensatz zur physischen „Scanseite“).</p>
       <p>
         <fig>
@@ -24,31 +25,30 @@
               format="html" scope="external">Alexander von Humboldt: II. Considerations general sur
               le Geogr des plants á l'entrée de la Zone torride. Resultats</xref>, Bl. 5r -
             Foliierung in der Werkansicht der Digitalisierten Sammlungen der SBB</desc>
-<image placement="break" href="../../img_avhr/seitenwechsel-markierung.jpg" scale="90"
-           id="image_fcm_xcn_scb"/>
-</fig>
+          <image placement="break" href="../../img_avhr/seitenwechsel-markierung.jpg" scale="90"
+            id="image_fcm_xcn_scb"/>
+        </fig>
       </p>
       <p>Bei vielen Nachlassbeständen ist keine Foliierung durch das bestandshaltende Archiv
         vorgegeben. In diesen Fällen wird die Foliierung nach folgenden Regeln notiert:</p>
       <ul id="ul_vnh_fr2_bbb">
-        <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2)</li>
+        <li>Es werden Blätter – nicht Seiten – gezählt (1r, 1v anstelle von 1, 2).</li>
         <li>Für die Bestimmung der Seitenwechsel ist das Schriftbild, nicht das Dokument maßgebend –
           im folgenden Beispiel werden somit 4 Seiten und 2 Blatt, nicht 2 Seiten und 1 Blatt
-          gezählt:</li>
+          (Doppelblatt) gezählt:</li>
       </ul>
-      <fig id="fig_p3t_m2g_jbb"><desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external">Alexander von
-            Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22. August
-          1834</xref>, Innenseite</desc>
-        <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb" scale="70"
-          >          
-        </image></fig>
-        <fig>
-<desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external">Alexander von
-            Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22. August
-          1834</xref>, Außenseite</desc>
-<image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb" scale="70"
-          />
-</fig>      
+      <fig id="fig_p3t_m2g_jbb">
+        <desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22.
+            August 1834</xref>, Innenseite</desc>
+        <image placement="break" href="../../img_avhr/abb1.jpg" id="image_q3t_m2g_jbb" scale="70"/>
+      </fig>
+      <fig>
+        <desc><xref href="https://edition-humboldt.de/H0001202" format="html" scope="external"
+            >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch, vor 22.
+            August 1834</xref>, Außenseite</desc>
+        <image placement="break" href="../../img_avhr/abb2.jpg" id="image_tt4_w2g_jbb" scale="70"/>
+      </fig>
       <p>
         <ul id="ul_bht_xvq_wcb">
           <li>Vorhandene, aber <b>leere Seiten</b> werden einzeln und mit entsprechender Foliierung
@@ -60,7 +60,7 @@
           <li>Seiten oder Blätter, die entnommen und den BearbeiterInnen nicht bekannt sind, werden
             unter <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">nicht lesbare Zeichen und
               Schäden</xref> gezählt und als <b>Zerstörung/Verlust</b> angegeben. Jede fehlende
-            Seite, auch aufeinanderfolgende, werden einzeln erfasst, um die Foliierung korrekt
+            Seite, auch aufeinanderfolgende, wird einzeln erfasst, um die Foliierung korrekt
             festzuhalten.</li>
         </ul>
       </p>
@@ -71,49 +71,58 @@
       <p audience="editor">
         <b>Achtung:</b> Zur Vorbereitung der Digitalisate-Vorlage kann es notwendig sein, vorhandene
         Blatt-Digitalisate zuzuschneiden (es empfiehlt sich, eine Kopie des Original-Digitalisats zu
-        behalten)</p>
+        behalten).</p>
     </section>
-  <section id="section_hz5_ll2_bbb" audience="editor">
-   <title>Bedienung</title>
-   <p>Für die Notierung von Seiten- und Foliaangaben stehen in ediarum drei Funktionen in der
+    <section id="section_hz5_ll2_bbb" audience="editor">
+      <title>Bedienung</title>
+      <p>Für die Notierung von Seiten- und Foliaangaben stehen in ediarum drei Funktionen in der
         Werkzeugleiste im Menü mit dem Symbol <image href="../../img/pagebreak.gif"
           id="image_brx_xbn_qbb"/> zur Verfügung:</p>
-   <ul id="ul_ycg_pl2_bbb">
-    <li>Foliowechsel: Fügt einen Foliowechsel ein.</li>
-    <li>Foliowechsel mit Link: Fügt einen Foliowechsel ein und ermöglicht die Eingabe einer URL zu
-     einem Digitalisat.</li>
-    <li>Weitere Seiten- und Blattzählung: gibt eine weitere, zusätzliche Seitenangabe der Vorlage
-     wieder.</li>
-   </ul>
-   <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
-        die Foliozahl vermerkt worden, wird sie in Klammern dahinter angezeigt. Außerdem kann noch
-        auf das Digitalisat verlinkt werden, sofern ein Link über die Funktion „Foliowechsel mit
+      <ul id="ul_ycg_pl2_bbb">
+        <li>„Foliowechsel“ fügt einen Foliowechsel ein.</li>
+        <li>„Foliowechsel mit Link“ fügt einen Foliowechsel ein und ermöglicht die Eingabe einer URL
+          zu einem Digitalisat.</li>
+        <li>„Weitere Seiten- und Blattzählung“ gibt eine weitere, zusätzliche Seitenangabe der
+          Vorlage wieder.</li>
+      </ul>
+      <p>In der Autoransicht wird der Foliowechsel mit einem senkrechten Strich „|“ dargestellt. Ist
+        die Foliozahl vermerkt worden, wird sie in Klammern dahinter angezeigt. Außerdem können Sie
+        noch auf das Digitalisat verlinken, sofern ein Link über die Funktion „Foliowechsel mit
         Link“ notiert wurde.</p>
-  </section>
-  <section id="section_qf4_sl2_bbb">
-   <title>Kodierung</title>
-   <p>Ein Foliowechsel bzw. Seitenwechsel in der Vorlage wird mit dem leeren
-     <xmlelement>pb/</xmlelement>-Element (pagebreak) gekennzeichnet. <xmlatt>n</xmlatt> enthält die
-    Seiten- bzw. Foliozahl.</p>
-   <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n=“17v“/>völliger Unkunde lässest]]></codeblock>
-   <p>Ein Link zum Digitalisat wird im Attribut facs notiert. Als Link sollten im Regelfall nur
-        Permalinks der bestandshaltenden Institution (Archiv oder Bibliothek) bzw. offizieller,
-        übergeordneter Angebote (z. B. Gallica) verwendet werden.</p>
-   <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
-   <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element <xmlelement>fw</xmlelement> kodiert, dessen
-    Attribut <xmlatt>type</xmlatt> den Wert <codeph>folnum</codeph> aufweist.</p>
-    <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
-    <p>Alle Auszeichnungsvarianten sind DTABf-konform.</p>
-  </section>
-  <section id="section_mpg_5l2_bbb">
-   <title>Anzeige</title>
-   <p>In der digitalen Edition wird der Seitenwechsel im Text mit einem senkrechten Strich „|“
-    wiedergegeben. Auf der Höhe dieser Markierung wird ausgerückt am Rand des Textblocks die
-    Folioangabe angezeigt.</p>
-  </section>
- </body>
- <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msFoliierung.html?hl=folio"
-  format="html" scope="external"><linktext>Seiten- und Blattnummerierung – Dokumentation des DTABf</linktext></link></linklist>
-  
- </related-links>
+    </section>
+    <section id="section_qf4_sl2_bbb">
+      <title>Kodierung</title>
+      <p>Ein Foliowechsel bzw. Seitenwechsel in der Vorlage wird mit dem leeren
+          <xmlelement>pb/</xmlelement>-Element (pagebreak) gekennzeichnet. Das Attribut
+          <xmlatt>n</xmlatt> enthält die Seiten- bzw. Foliozahl.</p>
+      <codeblock outputclass="language-xml"><![CDATA[mich überhaupt in <pb n="17v"/>völliger Unkunde lässest]]></codeblock>
+      <p>Ein Link zum Digitalisat wird im Attribut <xmlatt>facs</xmlatt> (facsimile) notiert. Als
+        Link werden im Regelfall nur Permalinks der bestandshaltenden Institution (Archiv oder
+        Bibliothek) bzw. offizieller, übergeordneter Angebote (z. B. Gallica) verwendet.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<pb n="50r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001527100000099"/>]]></codeblock>
+      <p>Weitere in der Vorlage enthaltene Seitenangaben werden mit dem Element
+          <xmlelement>fw</xmlelement> (forme work) kodiert, dessen Attribut <xmlatt>type</xmlatt>
+        den Wert <codeph>folNum</codeph> aufweist.</p>
+      <codeblock outputclass="language-xml"><![CDATA[<fw type="folNum">34</fw>]]></codeblock>
+      <p>Alle Auszeichnungsvarianten sind DTABf-konform.</p>
+    </section>
+    <section id="section_mpg_5l2_bbb">
+      <title>Anzeige</title>
+      <p><?oxy_comment_start author="lkirsten" timestamp="20180628T110927+0200" comment="Hier noch bei Gelegenheit Webansicht ergänzen
+"?>In
+        der digitalen Edition wird der Seitenwechsel im Text mit einem senkrechten Strich „|“
+        wiedergegeben. Auf der Höhe dieser Markierung wird ausgerückt am Rand des Textblocks die
+        Folioangabe angezeigt.</p>
+    </section>
+  </body>
+  <?oxy_comment_end?>
+  <related-links>
+    <linklist scope="external">
+      <title>Deutsches Textarchiv</title>
+      <link href="http://www.deutschestextarchiv.de/doku/basisformat/msFoliierung.html?hl=folio"
+        format="html" scope="external">
+        <linktext>Seiten- und Blattnummerierung – Dokumentation des DTABf</linktext>
+      </link>
+    </linklist>
+  </related-links>
 </topic>

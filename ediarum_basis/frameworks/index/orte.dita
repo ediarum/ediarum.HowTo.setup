@@ -10,7 +10,7 @@
     Stellen (in welchen Dokumenten) der Ort in der Edition erwähnt wird. Außerdem zeigt eine
     Kartenansicht die Lage des Ortes.</p>
    </section>
-  <section id="section_sd4_s3d_pbb"><title>edition humboldt digital</title><p><b>Norm-ID
+   <section id="section_sd4_s3d_pbb" product="avhr"><title>edition humboldt digital</title><p><b>Norm-ID
      (Geonames)</b></p><p>Jeder Ortseintrag erhält eine Geonames-ID.</p><b>Namen</b><p>Der
     Haupteintrag folgt immer der heute gängigen Schreibung. Historische Schreibweisen oder
     Humboldtsche Varianten werden als „Alternative Namen bzw. Schreibung“ erfasst.

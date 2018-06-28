@@ -31,13 +31,15 @@
             <p>Ausgezeichnet wird daher das gesamte Wort:</p>
             <codeblock outputclass="language-xml"><![CDATA[il y a du <hi rendition="#u">Granite</hi>, du Schiste primitif]]></codeblock>
             <fig>
-                <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 127r</desc>
+                <desc><xref href="https://edition-humboldt.de/H0002922" format="html"
+                        scope="external">Alexander von Humboldt: Isle de Cube. Antilles en
+                    général</xref>, Bl. 127r – Webansicht</desc>
                 <image placement="break" href="../../img_avhr/abb12-web.jpg" 
                     id="image_k54_jfg_hbb" scale="80"/>
             </fig>
             <p><b>Anstreichungen am Rand</b> werden erfasst und als solche ausgezeichnet.</p>
             <ul id="ul_l1q_2tz_pcb">
-                <li>Es können mehrere Zeile im laufenden Text oder gesamte Absätze angestrichen
+                <li>Es können mehrere Zeilen im laufenden Text oder gesamte Absätze angestrichen
                     sein.</li>
                 <li>Die Anstreichung kann sich am linken oder rechten Rand befinden, die Position
                     wird allerdings in der Auszeichnung nicht vermerkt und erscheint in der
@@ -75,7 +77,7 @@ et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codebl
    <p>Bei Unterstreichungen und Anstreichungen am Rand sollte der jeweilige Text bzw. die Textstelle
                 markiert und dann in der Werkzeugleiste die Schaltfläche mit dem Symbol <image
                     href="../../img/underlined16.png" id="image_qg3_n5m_qcb"/> ausgelöst werden. Im
-                erscheinenden Dialogmenü muss die Art der Unterstreichung bzw. eine Randanstreichung
+                erscheinenden Dialogfenster muss die Art der Unterstreichung bzw. eine Randanstreichung
                 ausgewählt werden.</p>
      <p>Im Falle einer Randanstreichung eines ganzen Absatzes kann der Cursor an irgendeine
     Textstelle im transkribierten Absatz gesetzt und über die rechte Maustaste im Kontextmenü die
@@ -112,9 +114,9 @@ et malgré tout cela il n’y existaient que 256000 esclaves</hi></p>]]></codebl
     </tgroup>
    </table>
    <codeblock outputclass="language-xml">sondern ich hoffe, <![CDATA[<hi rendition="#uu">durchdacht</hi> habe]]></codeblock>
-   <p>Das Attribut <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#mMM</codeph> (am Rand
-                angestrichen) kann in das Element <xmlelement>p</xmlelement> eingefügt werden, falls
-                ein ganzer Absatz am Rand angestrichen ist.</p>
+   <p>Falls ein ganzer Absatz am Rand angestrichen ist, erhält das Element
+                    <xmlelement>p</xmlelement> das Attribut <xmlatt>rendition</xmlatt> mit dem Wert
+                    <codeph>#mMM</codeph> (Anstreichung am Rand).</p>
   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/typogrAllg.html?hl=unterstreichung"

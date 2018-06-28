@@ -8,7 +8,7 @@
    <p>Wörter und Textpassagen, die vom Herausgeber nicht sicher gelesen werden können, werden
     entsprechend ausgezeichnet.</p>
   </section>
-  <section><title>edition humboldt digital</title><p>
+  <section product="avhr"><title>edition humboldt digital</title><p>
     <ul id="ul_hwx_1mq_wcb">
      <li>Unsichere Lesart aufgrund des Schriftbildes</li>
     </ul>
@@ -48,7 +48,7 @@
   <section audience="editor"><title>Bedienung</title><p>Transkribieren Sie ihren Vorschlag für das
     schwer leserliche Wort und markieren Sie es. Danach können Sie in der Werkzeugleiste über das
     Symbol <image href="../../img/unclear16.gif" id="image_gpc_d3f_2y"/> die entsprechende
-    Auszeichnung auslösen. Im erscheinenden Dialogmenü spezifizieren Sie bitte den Grund der
+    Auszeichnung auslösen. Im erscheinenden Dialogfenster spezifizieren Sie bitte den Grund der
     unsicheren Lesart.</p><p>Soll eine unsichere Lesart einer <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Abkürzung und deren Auflösung</xref>, einer
     Normalisierung oder <xref href="normalisierung.dita#topic_qxp_ph5_2bb">Korrektur</xref>

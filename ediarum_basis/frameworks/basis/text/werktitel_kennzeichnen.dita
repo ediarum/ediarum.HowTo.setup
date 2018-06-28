@@ -5,7 +5,7 @@
   <body>
     <section><title>ediarum.BASIS</title><p>In der Vorlage oder im Kommentar explizit genannte
         Werktitel werden ausgezeichnet und mit einem Registereintrag verknüpft.</p></section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
       <p>In den Tagebüchern, Nachlassmanuskripten und Briefen werden alle Erwähnungen von Werktiteln
         ausgezeichnet, in Sachanmerkungen hingegen nur die Ersterwähnung. In der Chronologie werden

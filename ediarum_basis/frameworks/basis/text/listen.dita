@@ -21,16 +21,16 @@
           (<xmlelement>item</xmlelement>) und ggf. auch einen Title (<xmlelement>head</xmlelement>)
         enthält. Die in Listen und Tabellen häufig verwendeten Unterführungszeichen (auch
         Wiederholungszeichen genannt) werden einheitlich als Geviertstrich transkribiert. Es liegt
-        Im Ermessen der BearbeiterInnen die sie zudem <xref
+        Im Ermessen der einzelnen BearbeiterInnen, Unterführungszeichen zudem <xref
           href="normalisierung.dita#topic_qxp_ph5_2bb">explizit zu normalisieren</xref>. Die
-        normalisierte Variante sind hierbei die Zahlen oder Wörter, die das Unterführungszeichen
+        normalisierten Varianten sind hierbei die Zahlen oder Wörter, die das Unterführungszeichen
         repräsentiert. </p>
       <fig id="fig_h2m_x2r_b2b">
         <desc>Dokument (TS1) „F – Énumération des Plantes de la Province de Quito“, 3a-r</desc>
         <image placement="break" href="../../img_avhr/liste.jpg" align="center"
           id="image_bqj_b3n_jbb" scale="70"/>
       </fig>
-      <p>(Das folgende berücksichtigt nicht die Streichungen.)</p>
+      <p>(Das folgende Kodierbeispiel berücksichtigt nicht die Streichungen.)</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
     <head>Regio frigida de 1600–2460 t</head>
     <item>Polypodium tenuifolium Tunguragua I 9. (1658 t.)</item>
@@ -74,7 +74,7 @@
         <image placement="break" href="../../img_avhr/abb5.png" scale="70" align="center"
           id="image_tqd_pps_2bb"/>
       </fig>
-      <p>(Der folgende Code berücksichtigt nicht die Streichungen.)</p>
+      <p>(Das folgende Kodierbeispiel berücksichtigt nicht die Streichungen.)</p>
       <codeblock outputclass="language-xml" audience="editor"><![CDATA[<list>
   <item>Le Rio Apure près de S. Fernando 206 t.</item>
   <item>Le Rio Negro près de S. Carlos 292 t.</item>
@@ -102,10 +102,11 @@
     </section>
     <section audience="editor">
       <title>Bedienung</title>
-      <p>Über die Funktion „Liste einfügen“ im Menü mit dem Symbol <image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/> in der Werkzeugleiste können Sie
-        Listen einfügen. Über dasselbe Menü steht auch die Funktion zur Verfügung, um weitere
-        Listenpunkte einzufügen. Die Listenpunkte werden dabei stets nach dem Listenpunkt eingefügt,
-        in dem sich aktuell der Cursor befindet.</p>
+      <p>Im Menü mit dem Symbol <image href="../../img/unorderedList16.png" id="image_ynm_qwk_xx"/>
+        in der Werkzeugleiste können Sie über die Funktion „Liste einfügen“ Listen erstellen. Im
+        selben Menü können sie mithilfe der Funktion „Listenpunkt einfügen“ die Liste erweitern. Die
+        neuen Listenpunkte werden dabei stets nach dem Listenpunkt eingefügt, in dem sich aktuell
+        der Cursor befindet.</p>
     </section>
     <section>
       <title>Kodierung</title>

@@ -2,7 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="intro">
     <title>Text</title>
-    <shortdesc>Kodierung von Textbearbeitungen und -erläuterung durch den Autor bzw. Herausgeber.</shortdesc>
+    <shortdesc>Kodierung von Textbearbeitungen und -erläuterungen durch die Autoren bzw.
+        HerausgeberInnen.</shortdesc>
     <body>
         <p><image href="../../img/paragraph20.png"/>
             <image href="../../img/lb.gif"/>
@@ -25,17 +26,16 @@
             <image href="../../img/index.gif" id="image_oyj_jls_2y"/>
             <image href="../../img/names.gif" id="image_xf2_d3j_wx"/></p>
         <p>In den beiden Unterkapiteln werden die Funktionen der ediarum-Arbeitsumgebung erklärt,
-            die zur Transkription zur Verfügung stehen. Dabei werden die Funktionen entsprechend
-            aufgeteilt nach Textauszeichungen des Autors bzw. der Autorin und des Herausgeber bzw.
-            der Herausgeberin. Die Funktionen können Sie nutzen, indem Sie die jeweilige
-            Schaltfläche benutzen. Die Erklärungen dienen zum einen dazu, dass Sie die Funktionen
-            genauer kennenlernen und die Schaltflächen benutzen können. Zum anderen geben die
-            Erklärungen einen Einblick in den <xref href="../../../introduction/xml.dita"
-                >XML-Text</xref> des Dokuments. Die Schaltflächen werden in der <xref
-                href="../../../operation/ansichten.dita">Autoren-Ansicht</xref> verwendet. Die
-            Markierungen, die Sie mithilfe der Schaltflächen vornehmen, speichert das eigentliche
-            XML-Dokument in einem XML-Code, den Sie in der Text-Ansicht sehen können und der in den
-            Unterkapiteln erklärt wird.</p>
+            die zur Transkription zur Verfügung stehen. Dabei werden die Funktionen aufgeteilt nach
+            Textauszeichungen des Autors bzw. der Autorin und des Herausgeber bzw. der
+            Herausgeberin. Die Funktionen können durch Anklicken der jeweiligen Schaltfläche benutzt
+            werden. Die Erklärungen dienen zum genauerem Kennenlernen der Funktionen und
+            Schaltflächen und geben einen Einblick in den <xref
+                href="../../../introduction/xml.dita">XML-Text</xref> des Dokuments. Die
+            Schaltflächen werden in der <xref href="../../../operation/ansichten.dita"
+                >Autoransicht</xref> verwendet. Die Auszeichnungen, die Sie mithilfe der
+            Schaltflächen vornehmen, speichert das eigentliche XML-Dokument in einem XML-Code, den
+            Sie in der Text-Ansicht sehen können und der in den Unterkapiteln erklärt wird.</p>
         <p/>
     </body>
 </topic>

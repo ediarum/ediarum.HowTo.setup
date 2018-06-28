@@ -7,34 +7,33 @@
    <title>ediarum.BASIS</title>
    <p>Die Ergänzungen (auch „Hinzufügungen“), die der Autor selbst im Manuskript vorgenommen hat,
     werden ausgezeichnet. Unter Ergänzungen werden alle Hinzufügungen des Autors verstanden, die den
-    Text nur erweitern und sich syntaktisch eingliedern.</p><p>Ergänzungen sind zu unterscheiden von den <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
+    Text nur erweitern und sich syntaktisch eingliedern.</p><p>Ergänzungen sind zu unterscheiden von <xref href="anmerkung_ms.dita#topic_dsx_1bv_ty"
      >Anmerkungen</xref>, die – ähnlich wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten
     bilden.</p>
   </section>
-   <section>
+  <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Ergänzungen können sich im laufenden Text etwa unter- oder oberhalb der Zeile sowie am äußeren
-    und unteren Rand der Manuskriptseite befinden.</p>
-   <p><?oxy_comment_start author="thomas" timestamp="20180313T151654+0100" comment="Kann man noch ergänzen, aber erstmal nicht so dringend.
+    und unteren Rand der Manuskriptseite befinden.
+    <?oxy_comment_start author="thomas" timestamp="20180313T151654+0100" comment="Kann man noch ergänzen, aber erstmal nicht so dringend.
 
 Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\img_avhr angelegt!" parentID="ijj_2qr_ddb"?><?oxy_comment_start author="lkirsten" timestamp="20180222T122016+0100" comment="auch Beispiele für sub- und superlineare Ergänzungen" id="ijj_2qr_ddb" mid="1"?>Häufig
     finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot
-    markiert.)<?oxy_comment_end?><?oxy_comment_end mid="1"?>:</p>
+    Manuskriptseite<?oxy_comment_end?><?oxy_comment_end mid="1"?>:</p>
    <fig>
-    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 17r</desc>
-<image placement="break" href="../../img_avhr/abb10-markierung.jpg" 
-    id="image_zpy_1bg_hbb" scale="80"/>
-</fig>
+    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, 17r (Die rote Markierung
+     zeigt Ergänzungen, die blaue Markierung Anmerkungen.)</desc>
+    <image placement="break" href="../../img_avhr/abb10-markierung.jpg" id="image_zpy_1bg_hbb"
+     scale="80"/>
+   </fig>
    <p>Einweisungszeichen werden, wenn vorhanden, einmal pro Befund ausgezeichnet und unabhängig vom
     in der Vorlage verwendeten Symbol in der Webansicht einheitlich dargestellt.</p>
    <fig>
-    <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r; Ergänzung am rechten Rand mit Einweisungszeichen „+“ (unabhängig von der
-     Erscheinungsform wiedergegeben mit dem generalisierten Einweisungszeichen, leeres Element
-      <xmlelement>metamark/</xmlelement>)</desc>
-<image placement="break" href="../../img_avhr/abb16.png" scale="60" 
-    id="image_un3_3rj_dbb"/>
-</fig>
+    <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander
+     von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r – Ergänzung am rechten Rand mit
+     Einweisungszeichen „+“</desc>
+    <image placement="break" href="../../img_avhr/abb16.png" scale="60" id="image_un3_3rj_dbb"/>
+   </fig>
    <codeblock outputclass="language-xml"><![CDATA[
   […] aussi la proprieté de celle de Jura (en Franconie) 
   <add place="right">
@@ -46,9 +45,12 @@ Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\im
     <lb/>miné et
   </add>
   que les […]]]></codeblock>
-   <image placement="break" href="../../img_avhr/abb16-web.jpg" 
-    id="image_its_4hg_hbb" scale="80"/>
   </section>
+  <fig id="fig_rdz_1lq_h2b">
+   <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander
+    von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 129r – Webansicht</desc>
+   <image placement="break" href="../../img_avhr/abb16-web.jpg" id="image_sdz_1lq_h2b"/>
+  </fig>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Die Hinzufügung sollte zuerst transkribiert werden. Danach markieren Sie den Text und lösen
