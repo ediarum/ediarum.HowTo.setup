@@ -10,12 +10,13 @@
   <section audience="editor">
    <title>Bedienung</title>
    <p>In der Werkzeugleiste steht unter dem Symbol <image href="../../img/superscript16.png" id="image_ofy_cms_2y"/> eine 
-   entsprechende Funktion zur Verfügung. </p>
+   entsprechende Funktion zur Verfügung.</p>
   </section>
   <section>
    <title>Kodierung</title>
-   <p>Zahlen, Buchstaben oder ganze Wörter, die im Manuskript hochgestellt sind, werden durch ein Element <xmlelement>hi</xmlelement>
-    (highlighted) ausgezeichnet. Das Attribut <xmlatt>rendition</xmlatt> ist dabei auf den Wert <codeph>#sup</codeph> gesetzt.</p>
+   <p>Zahlen, Buchstaben oder ganze Wörter, die im Manuskript hochgestellt sind, werden durch das
+    Element <xmlelement>hi</xmlelement> (highlighted) ausgezeichnet. Das Attribut
+     <xmlatt>rendition</xmlatt> ist dabei auf den Wert <codeph>#sup</codeph> gesetzt.</p>
    <codeblock outputclass="language-xml"><![CDATA[4 Jan<hi rendition="#sup">r</hi>]]></codeblock>
   </section>
  </body>

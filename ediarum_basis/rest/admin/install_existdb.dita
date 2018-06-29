@@ -25,7 +25,7 @@
     format="html" scope="external">server:port/exist</xref> erreichen.</p>
   <p>
    <div>
-    <p>Ist die Datenbank korrupt oder soll sie auf null zurückgesetzt werden, d.h. alle Daten,
+    <p>Ist die Datenbank korrupt oder soll sie auf null zurückgesetzt werden, d. h. alle Daten,
      Benutzerkonten (inkl. des <b>admin</b>) und installierte Apps gelöscht werden, reicht es nach
      dem Stoppen der Datenbank den separaten Daten-Ordner auf dem Server zu löschen. Mit einem
      erneuten Starten der Datenbank erhält man eine leere Datenbank und kann dort wieder neue Apps

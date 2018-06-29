@@ -6,13 +6,13 @@
   <section>
    <title>ediarum.BASIS</title>
    <p>Offensichtliche Fehler seitens des Autors werden getreu der Vorlage transkribiert. Falls es
-    für das Verständnis des Textes notwendig erscheint, kann der Herausgeber diese Fehler
+    für das Verständnis des Textes notwendig erscheint, können die HerausgeberInnen diese Fehler
     korrigieren, indem die untenstehende Auszeichnung verwendet wird.</p>
    <p>Eng verwandt mit der Herausgeberkorrektur, aber durchaus zu unterscheiden sind <xref
      href="normalisierung.dita#topic_qxp_ph5_2bb">Normalisierungen</xref> und <xref
      href="ergaenzungen_hg.dita#topic_ojx_3gv_ty">Auflösungen</xref> von abgekürzten Wörtern.</p>
   </section>
-  <section>
+  <section product="avhr">
    <title>edition humboldt digital</title>
    <p>In der Edition wird zwischen zwei Stufen des korrigierenden Texteingriffes unterschieden:
     Normalisierung und Korrektur.</p>
@@ -20,7 +20,7 @@
     Wörter oder des gesamten Satzes und somit den Lesefluss stören. Dies betrifft fehlende oder
     überflüssige Buchstaben und Silben, Verwechslung von Plural und Singular bei Konjugationen und
     Deklinationen, falsches Genus bei Artikeln und Adjektiven und andere grammatische Inkongruenzen.
-    Nicht korrigiert hingegen werden orthographische Varianten der Zeit. </p>
+    Nicht korrigiert hingegen werden orthographische Varianten der Zeit.</p>
    <fig id="fig_gxy_vf3_1db">
     <desc><xref href="https://edition-humboldt.de/H0014768" format="html" scope="external">Alexander
       von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend, [5. Dezember 1846]</xref>, Bl.
@@ -132,7 +132,7 @@
    <codeblock outputclass="language-xml"><![CDATA[inne wirst <choice>
    <sic>daß</sic>
    <corr cert="high">das</corr>
-</choice> […]]]> </codeblock>
+</choice> […]]]></codeblock>
   </section>
  </body>
  <related-links>

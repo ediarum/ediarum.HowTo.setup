@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_cbd_4cn_qcb">
-  <title>Als „erledigt“ markierte Textstellen </title>
+  <title>Als „erledigt“ markierte Textstellen</title>
  <body>
     <section>
-      <title>ediarum.BASIS</title>
-      <p/>
-    </section>
-    <section>
-      <title>edition humboldt digital</title>
-      <p>Bisweilen finden sich im Schriftbild horizontal oder quer über Textstellen gezogene
-        Streichungen, die jene als „erledigt“ kennzeichnen. Diese Art der Streichung wird
+      <p>Bisweilen finden sich im Schriftbild Humboldts horizontal oder quer über Textstellen
+        gezogene Streichungen, die jene als „erledigt“ kennzeichnen. Diese Art der Streichung wird
         ausgezeichnet und erscheint in der Webansicht als grüne Linie am linken Rand neben dem Text
-        samt symbolischem „erledigt“-Häckchen:</p> <fig>
+        samt symbolischem „erledigt“-Häkchen:</p> <fig>
           <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 143r</desc>
 <image placement="break" href="../../img_avhr/erledigt_cuba143r.png" 
         id="image_hyx_kmn_qcb" scale="70"/>
@@ -24,17 +19,17 @@
 </fig>
       <fig>
 <desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von Carl
-            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v </desc>
+            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v</desc>
 <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v.png" 
         id="image_c3z_smn_qcb" scale="55"/>
 </fig>
       <fig>
-<desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von Carl
-            Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v -
+        <desc><xref href="https://edition-humboldt.de/H0015159" format="html" scope="external">Von
+            Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 13. Januar 1849</xref>, Bl. 5v -
           Webansicht</desc>
-<image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v_web.jpg" 
-        id="image_gwf_3qn_qcb"/>
-</fig>
+        <image placement="break" href="../../img_avhr/erledigt_kunth1311846_5v_web.jpg"
+          id="image_gwf_3qn_qcb"/>
+      </fig>
       <fig>
 <desc>Alexander von Humboldt: Fragment des Sibirischen Reise-Journals 1829, Bl. 3v</desc>
 <image placement="break" href="../../img_avhr/erledigt_rst.jpg" scale="55" 

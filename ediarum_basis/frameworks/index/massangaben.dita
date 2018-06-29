@@ -5,21 +5,21 @@
   <body>   
     <section>
       <p>Die in der Edition aufgeführten Maße und Gewichte sowie die Angaben zur Umrechnung ins
-        metrische System sind den Verzeichnissen der Beiträge zur „Alexander“-von Humboldt-Forschung
-        entnommen. </p>
+        metrische System sind den Verzeichnissen der „Beiträge zur Alexander-von Humboldt-Forschung“
+        entnommen.</p>
     </section>   
     <section>
       <title>Bedienung</title>
       <p>Bei Maßangaben werden grundsätzlich Wert und Maßeinheit ausgezeichnet. In der
         ediarum-Autoransicht ist dies in folgenden Schritten möglich:</p>
       <ol id="ol_hdb_wk4_hbb">
-        <li>Maßangabe markieren<image placement="break" href="../img_avhr/massangabe1.png"
+        <li>Maßangabe markieren.<image placement="break" href="../img_avhr/massangabe1.png"
             align="left" id="image_phf_ml4_hbb"/></li>
-        <li>Menüpunkt „Sonstiges > Maßangabe“<image placement="break"
+        <li>Menüpunkt „Sonstiges > Maßangabe“ auswählen.<image placement="break"
             href="../img_avhr/massangabe2.png" align="left" id="image_pry_ml4_hbb"/></li>
-        <li>Angabe des Messwerts <image placement="break" href="../img_avhr/massangabe3.png"
+        <li>Messwerts angeben.<image placement="break" href="../img_avhr/massangabe3.png"
             align="left" id="image_ksv_nl4_hbb"/></li>
-        <li>Angabe der Messeinheit<image placement="break" href="../img_avhr/massangabe4.png"
+        <li>Messeinheit angeben.<image placement="break" href="../img_avhr/massangabe4.png"
             align="left" id="image_amv_4l4_hbb"/><p>Der Wert ist nun eingetragen und mit dem
             entsprechenden Registereintrag zu Maßeinheiten (Verzeichnis „Register > Maße.xml“)
             verknüpft und wird in der richtigen Umrechnung auf der Webseite dargestellt.</p></li>

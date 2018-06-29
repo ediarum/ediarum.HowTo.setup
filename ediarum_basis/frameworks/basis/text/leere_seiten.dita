@@ -9,13 +9,13 @@
         unterscheiden  von <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>
         und zum anderen von semantisch bedeutsamem <xref href="leerraum.dita#topic_vvj_cjl_qbb"
           >Leerraum</xref> sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch
-          den Herausgeber</xref>.</p>
+          die HerausgeberInnen</xref>.</p>
     </section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
-      <p>Leeren Seiten, auch wenn mehrere aufeinander folgen, werden einzeln erfasst und einzeln in
-        der Webansicht angezeigt. Das Faksimile einer leeren Seite ist in der Webansicht „Text mit
-        Faksimile“ nicht enthalten oder verlinkt. </p>
+      <p>Leere Seiten, auch mehrere aufeinanderfolgende, werden einzeln erfasst und einzeln in der
+        Webansicht angezeigt. Das Faksimile einer leeren Seite ist in der Webansicht „Text mit
+        Faksimile“ nicht enthalten oder verlinkt.</p>
       <fig>
         <desc><xref href="https://edition-humboldt.de/H0002651" format="html" scope="external">Alexander von
           Humboldt an Franz Julius Ferdinand Meyen. Berlin, 14. Mai 1830</xref> – Webansicht mit den
@@ -30,17 +30,17 @@
       <p>Um leere Seiten zu vermerken, sind in der ediarum-Autoransicht folgende Arbeitsschritte
         notwendig:</p>
       <ul id="ul_dmc_v3k_wcb">
-        <li>Cursor <i>hinter</i> den Seitenwechsel (<xmlelement>pb/</xmlelement>) setzen</li>
-        <li>Klick auf die Schaltfläche „Gar nicht lesbare Wörter im Text“, dann Auswahl: <ul
-            id="ul_emc_v3k_wcb">
+        <li>Cursor <i>hinter</i> den Seitenwechsel (<xmlelement>pb/</xmlelement>) setzen.</li>
+        <li>Auf die Schaltfläche „Gar nicht lesbare Wörter im Text“ klicken, dann folgende Merkmale
+          auswählen: <ul id="ul_emc_v3k_wcb">
             <li>Einheit: Seite</li>
             <li>Anzahl: 1</li>
             <li>Grund für die Lücke: Leerraum</li>
           </ul></li>
       </ul>
-      <p>Um die Foliierung korrekt erfassen und anzeigen zu können, muss jede (leere) Seite einzeln
-        erfasst werden. Auch wenn mehrere leere Seiten aufeinander folgen, sollte bei einer
-        einzelnen Erfassung der Seiten stets als Anzahl „1“ angegeben werden. </p>
+      <p>Um die Foliierung korrekt erfassen und anzeigen zu können, müssen Sie jede (leere) Seite
+        einzeln erfassen. Auch wenn mehrere leere Seiten aufeinanderfolgen, sollte Sie bei einer
+        einzelnen Erfassung der Seiten stets als Anzahl „1“ angeben.</p>
     </section>
     <section>
       <title>Kodierung</title>
@@ -51,10 +51,10 @@
           <codeph>1</codeph> gesetzt. Das Attribut <xmlatt>reason</xmlatt> enthält den Wert
           <codeph>empty</codeph>. Mehrere leere Seiten hintereinander werden einzeln kodiert.</p>
       <codeblock outputclass="language-xml"><![CDATA[<pb n="132v"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
-      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
+      <p>Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">zerstörte oder unleserliche Textstellen</xref>
-        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch den
-        Herausgeber.</p>
+        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch die
+        HerausgeberInnen.</p>
     </section>
   </body>
   <related-links>

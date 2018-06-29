@@ -30,11 +30,11 @@
    <p>Datumsangaben werden mit <xmlelement>date</xmlelement> ausgezeichnet. Das maschinenlesbare
     Datum wird dabei im Format <codeph>JJJJ-MM-TT</codeph> in den Attributen <xmlatt>when</xmlatt>,
      <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> sowie <xmlatt>notBefore</xmlatt> und
-     <xmlatt>notAfter</xmlatt> notiert. </p>
+     <xmlatt>notAfter</xmlatt> notiert.</p>
    <p>Außerdem wird in dem Attribut <xmlatt>cert</xmlatt> die Wahrscheinlichkeit angegeben, mit der
     die Datumsangabe zutrifft: <codeph>high</codeph>, <codeph>low</codeph>.</p>
   <p>In dem Attribut <xmlatt>calendar</xmlatt> wird notiert, ob sich die Angabe nach dem
-    Julianischen Kalender oder dem Gregorianischen Kalender richtet: </p>
+    Julianischen Kalender oder dem Gregorianischen Kalender richtet:</p>
   <table
     id="table_nmm_4bd_gy">
     <tgroup cols="2">

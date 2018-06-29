@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="datierung">
-    <title><?oxy_comment_start author="lkirsten" timestamp="20180607T111446+0200" comment="Topic umstellen, &quot;Allgemeines&quot; enthält im Moment &quot;Kodierung&quot; und &quot;Bedienung&quot;"?>Datierung<?oxy_comment_end?></title>
-    <body>
-        <section>
-            <title>ediarum.BASIS</title>            
-        </section>
-        <section>
+    <title>Datierung</title>
+    <body>        
+        <section product="avhr">
             <title>edition humboldt digital</title>
             <p>Für die Angabe ungefährer Zeiträume gelten folgende Konventionen:</p>
             <p>
@@ -46,15 +43,18 @@
             <p>In oXygen XML Author steht zur Auszeichnung von Datumsangaben die Schaltfläche <image
                     href="../../img/date.gif" id="image_zfv_b5t_xcb"/> zur Verfügung, die die
                 Optionen „Genaues Datum“, „Genaue Zeitspanne“ und „Ungefährer Zeitraum“ bietet, um
-                alle Datumsangaben auszuzeichnen. </p>
+                alle Datumsangaben auszuzeichnen.</p>
         </section>
         <section>
             <title>Kodierung</title>
-            <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet.
-                Die Datumsangaben müssen dabei in dem Format <codeph>JJJJ-MM-TT</codeph> in den Attributen
+            <p>Datumsangaben werden mit einem <xmlelement>date</xmlelement>-Element ausgezeichnet
+                und in dem Format <codeph>JJJJ-MM-TT</codeph> (bzw. je nach Datenlage
+                    <codeph>JJJJ-MM</codeph> oder <codeph>JJJJ</codeph>) in den Attributen
                     <xmlatt>when</xmlatt> bzw. <xmlatt>from</xmlatt>/<xmlatt>to</xmlatt> oder
-                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert werden. Außerdem
-                wird im Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
+                    <xmlatt>notBefore</xmlatt>/<xmlatt>notAfter</xmlatt> notiert. Dadurch kann der
+                in der Datumsangabe enthaltene Wert später vom Computer für verschiedene Zwecke
+                weiterbenutzt werden (z. B. die Suche in bestimmten Zeiträumen). Außerdem wird im
+                Attribut <xmlatt>cert</xmlatt> mit den Werten <codeph>high</codeph> bzw.
                     <codeph>low</codeph> die Wahrscheinlichkeit angegeben, mit der die Datumsangabe
                 zutrifft.</p>
             

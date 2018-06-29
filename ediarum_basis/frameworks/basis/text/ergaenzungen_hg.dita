@@ -5,18 +5,18 @@
  <body>
   <section>
    <title>ediarum.BASIS</title>
-   <p>Im Manuskript abgekürzte Wörter werden vom Herausgeber ergänzt. Diese Ergänzungen werden als
+   <p>Im Manuskript abgekürzte Wörter werden von den HerausgeberInnen ergänzt. Diese Ergänzungen werden als
      solche kenntlich gemacht.</p>
   </section>
   <section product="avhr"><title>edition humboldt digital</title><p>Abkürzungen in der Vorlage
         werden in der Transkription grundsätzlich aufgelöst und ausgezeichnet. Dies gilt auch für
-        abgekürzte Eigennamen von <b>Orten, Personen und Institutionen</b>. </p><p>Nimmt der Autor
+        abgekürzte Eigennamen von <b>Orten, Personen und Institutionen</b>.</p><p>Nimmt der Autor
         Bezug auf <b>fremdsprachige Werke</b>, werden Abkürzungen von Seitenzahlen in ihrer
         jeweiligen Sprache aufgelöst – in französischen und englischen Werken <i>p=page</i>, in
         deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen <i>p=página</i>. Dasselbe
         gilt analog für <b>fremdsprachige Nummern</b> (<i>no., N<u>o</u></i>) in Adresszeilen,
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>abgekürzte Zahlenwerte</b>
-        dar – sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
+        dar – sie werden aus arbeitsökonomischen Gründen nicht von den HerausgeberInnen aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
@@ -76,11 +76,11 @@
       </p><p>Humboldt verwendet zur Abkürzung von Wörtern des Öfteren <b>Kürzel</b>. Diese Kürzel
         werden nicht in ursprünglicher Form transkribiert, sondern als jenes Wort ausgeschrieben,
         das sie symbolisieren. Davon abweichende, in der Edition als Sonderkürzel definierte Kürzel
-        werden hingegen transkribiert sowie ausgezeichnet und aufgelöst. </p><p>In der
+        werden hingegen transkribiert sowie ausgezeichnet und aufgelöst.</p><p>In der
         Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der Transkription
         folglich die Richtlinien (häufige Beispiele sind zudem in der darunterstehenden Tabelle
         dokumentiert):</p><ul id="ul_ty3_zph_1db">
-        <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt.</li>
+        <li><b>Abkürzungen</b> werden von den HerausgeberInnen gekennzeichnet und ergänzt.</li>
       </ul><table id="table_pzj_4pg_hbb">
         <title>Häufige verwendete Abkürzungen</title>
         <tgroup cols="4">
@@ -134,8 +134,7 @@
 "?></entry>
               <entry>usw./etc./&amp;c./&amp;/ca.</entry>
               <entry>
-                <p>usw./etc./&amp;c./&amp;/ca.</p>
-                <p> </p>
+                <p>usw./etc./&amp;c./&amp;/ca.</p>              
               </entry>
             </row>
             <row>
@@ -272,7 +271,7 @@
           </tbody>
         </tgroup>
       </table><ul id="ul_isz_zph_1db">
-        <li><b>Sonderkürzel</b> werden als Abkürzung behandelt und dementsprechend vom Herausgeber
+        <li><b>Sonderkürzel</b> werden als Abkürzung behandelt und dementsprechend von den HerausgeberInnen
           gekennzeichnet und ergänzt.</li>
       </ul><table id="table_v4q_vh5_zcb">
         <title>Häufige verwendete Sonderkürzel</title>
@@ -326,7 +325,7 @@
                   [8. Juli 1845]</xref>, Bl. 1r</entry>
               <entry>
                 <fig>
-                  <desc>Reichsthalerkürzel </desc>
+                  <desc>Reichsthalerkürzel</desc>
                   <image href="../../img_avhr/Reichstaler-Symbol_H0006049.png"
                     id="image_ryn_5qg_hbb" placement="break"/>
                 </fig>
@@ -375,7 +374,7 @@
       </fig></section>
  <section audience="editor"><title>Bedienung</title><p>In der Werkzeugleiste steht die Funktion
         „Abkürzungen auflösen“ unter dem Symbol <image href="../../img/ex16.png"
-          id="image_kdc_d3f_2y"/> zur Verfügung. </p><p>Soll eine unsichere Lesart einer Abkürzung
+          id="image_kdc_d3f_2y"/> zur Verfügung.</p><p>Soll eine unsichere Lesart einer Abkürzung
         und deren Auflösung gekennzeichnet werden, besteht die Möglichkeit nur eines oder beide
         Kindelemente auszuzeichnen. Sollen beide als unsichere Lesart gekennzeichnet werden, ist
         darauf zu achten, dass im Autormodus das <xmlelement>choice</xmlelement>-Element ausgewählt
@@ -391,7 +390,7 @@
    <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen
         zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.
         Im <xmlelement>abbr</xmlelement>-Element wird vorlagengetreu die Abkürzung festgehalten, im
-          <xmlelement>expan</xmlelement>-Element die Ergänzung der HerausgeberIn. </p>
+          <xmlelement>expan</xmlelement>-Element die Ergänzung der HerausgeberInnen.</p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
  <abbr>Jan.</abbr>
  <expan>Januar</expan>

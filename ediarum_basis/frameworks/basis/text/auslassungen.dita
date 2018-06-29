@@ -5,17 +5,17 @@
   <body>
     <section>
       <title>ediarum.BASIS</title>
-      <p>Die Editionsrichtlinien können vorsehen, dass bestimmte Abschnitte nicht durch den
-        Herausgeber transkribiert werden. In diesen Fällen wird allerdings eine entsprechende
+      <p>Die Editionsrichtlinien können vorsehen, dass bestimmte Abschnitte nicht durch die
+        HerausgeberInnen transkribiert werden. In diesen Fällen wird allerdings eine entsprechende
         Kodierung gesetzt, die die Auslassung kenntlich macht.</p>
     </section>
-    <section>
+    <section product="avhr">
       <title>edition humboldt digital</title>
-      <p>Die folgenden Seiten des Cuba-Manuskript sind Vorder- und Rückseite eines am linken Rand der
-        Seite 134v angeklebten Zettels. Die Vorderseite enthält Markierungen, die Rückseite hingegen
-        keine. Es wird daher davon ausgegangen, dass nur die Vorderseite des angeklebten
-        Schriftstückes relevant für Humboldt war und die Rückseite in der Transkription ausgelassen
-        werden kann. </p>
+      <p>Die folgenden Seiten des Cuba-Manuskript sind Vorder- und Rückseite eines am linken Rand
+        der Seite 134v angeklebten Zettels (Fragment einer Druckseite). Die Vorderseite enthält
+        Markierungen, die Rückseite hingegen keine. Es wird daher davon ausgegangen, dass nur die
+        Vorderseite des angeklebten Schriftstückes relevant für Humboldt war und die Rückseite in
+        der Transkription ausgelassen werden kann.</p>
       <fig id="fig_xyy_yys_zcb">
         <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 139r</desc>
         <image placement="break" href="../../img_avhr/139r-Cuba.jpg" scale="70" 
@@ -30,9 +30,9 @@
     </section>  
     <section>
       <title>Kodierung</title>
-      <p>Auslassungen von Zeichen, Wörtern, Textpassagen oder ganzen Seiten durch den Herausgeber
-        werden mit dem leeren Element <xmlelement>gap/</xmlelement> ausgezeichnet. Im Attribut
-          <xmlatt>unit</xmlatt> wird das nicht lesbare Segment näher bestimmt: <table
+      <p>Auslassungen von Zeichen, Wörtern, Textpassagen oder ganzen Seiten durch die
+        HerausgeberInnen werden mit dem leeren Element <xmlelement>gap/</xmlelement> ausgezeichnet.
+        Im Attribut <xmlatt>unit</xmlatt> wird das nicht lesbare Segment näher bestimmt: <table
           id="table_owv_gqs_2y">
           <tgroup cols="2">
             <thead>
@@ -84,7 +84,7 @@
             </tbody>
           </tgroup>
         </table></p><codeblock outputclass="language-xml"><![CDATA[oft <gap unit="words" quantity="1" reason="fm"/> dann wieder]]></codeblock>
-      <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
+      <p>Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">unleserliche oder zerstörte Textstellen</xref>
         sowie <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref>.</p>
     </section>

@@ -22,14 +22,14 @@
         <li>Private membership: Ihre Gruppe ist öffentlich <b>nicht</b> einsehbar. Sie bestimmen,
           wer in die Gruppe eintritt.</li>
       </ul></p>
-    <p>Auf der anschließenden Seite müssen weitere Einstellungen vorgenommen werden. </p>
+    <p>Auf der anschließenden Seite müssen weitere Einstellungen vorgenommen werden.</p>
     <p><image href="../img_zotero/gruppen_settings.png" id="image_ttq_qtc_ndb"/></p>
     <p>
       <ul id="ul_jj5_tjf_ldb">
-        <li>Soll die Bibliographie öffentlich im Internet oder ausschließlich für Gruppenmitgliedern
+        <li>Soll die Bibliographie öffentlich im Internet oder ausschließlich für Gruppenmitglieder
           zugänglich sein?</li>
-        <li>Wer darf Veränderungen (neue Einträge usw.) an der Bibliographie vornehmen? (Alle
-          Mitglieder oder nur Administratoren)</li>
+        <li>Wer darf Veränderungen (neue Einträge usw.) an der Bibliographie vornehmen? Alle
+          Mitglieder oder nur Administratoren?</li>
         <li>Soll es ein Daten-Speicher in der Gruppe geben? Wer darf Veränderungen an den Dateien
           vornehmen?</li>
       </ul>
@@ -38,22 +38,22 @@
       Gruppe ein. Dafür geben Sie die entsprechenden Email-Adressen in das angezeigte Feld ein.
         <image href="../img_zotero/gruppe_einladen.png" id="image_zpy_b5c_ndb"/></p>
     <p>Wird eine Einladung bestätigt, erscheint der entsprechende Account in der Mitgliederliste.
-      Als „owner“ der Gruppe können Sie Mitglieder den Status „Admin“ verleihen. Als Admin kann
+      Als „owner“ der Gruppe können Sie Mitgliedern den Status „Admin“ verleihen. Als Admin kann
       diese Person die Einstellungen zu der Gruppe, den Mitgliedern und der Bibliographie ändern.
       Der Admin kann außerdem Mitgliedschaftseinladungen verschicken.</p>
     <p><b>Gruppe beitreten</b></p>
-    <p>Treten Sie einer bestehenden Gruppe bei, indem Sie auf deren Zotero-Webseite der Gruppe gehen
-      und den Button „Join“<b> </b> auswählen. Nutzen Sie die <xref
+    <p>Treten Sie einer bestehenden Gruppe bei, indem Sie auf die Zotero-Webseite der Gruppe gehen
+      und den Button „Join“ auswählen. Nutzen Sie die <xref
         href="https://www.zotero.org/search/type/group" format="html" scope="external"
-        >Suchfunktion</xref>, um die Seite zu finden. Im Falle, dass die Mitgliedschaft geschlossen
-      ist („Membership: Closed“), muss ein Admin der Gruppe Ihrem Beitritt zustimmen.</p>
+        >Suchfunktion</xref>, um die Seite zu finden. Falls die Mitgliedschaft beschränkt ist
+      („Membership: Closed“), muss ein Admin der Gruppe Ihrem Beitritt zustimmen.</p>
     <p><image href="../img_zotero/join.png" id="image_dyr_nsc_ndb"/></p>
     <p><b>Programm und Web-Account synchronisieren</b></p>
-    <p>Bei der ersten Anwendung des Programms wählen Sie unter dem Menü „Werkzeuge“ den Punkt
+    <p>Bei der ersten Anwendung des Programms wählen Sie im Menü „Werkzeuge“ den Punkt
       „Einstellungen“ aus. Dort geben Sie unter dem Reiter „Sync“ Ihren Zotero-Benutzernamen und Ihr
-      Passwort an.  Prüfen Sie, ob das Häkchen für „Automatisch synchronisieren“ gesetzt ist!
+      Passwort an. Prüfen Sie, ob das Häkchen für „Automatisch synchronisieren“ gesetzt ist!
       Bestätigen Sie mit „OK“.</p>
-    <p> Das Programm lädt nun die Bibliographien von den Gruppen, deren Mitglied Sie sind. Ihr
+    <p> Das Programm lädt nun die Bibliographien der Gruppen, deren Mitglied Sie sind. Ihr
       Arbeitsstand wird nun automatisch mit dem der Gruppe synchronisiert. Die Bibliographie
       bearbeiten Sie jetzt im Programm auf Ihrem Rechner.</p>
     <image href="../img_zotero/sync.png" id="image_mzx_cl5_ldb"/>

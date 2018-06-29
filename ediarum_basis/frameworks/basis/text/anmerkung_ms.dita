@@ -9,29 +9,33 @@
     Platzierung auf dem Manuskript eingefügt, sondern an der Textstelle, auf die sich die Anmerkung
     tatsächlich (oder vom Editor begründet angenommen) bezieht. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
     wird ein generalisiertes Einweisungszeichen (d. i. das leere Element <xmlelement>metamark/</xmlelement>) gesetzt, um kenntlich zu machen, dass die Einweisung
-    in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
+    in den Text nicht durch die HerausgeberInnen, sondern durch den Autor erfolgte.</p>
    <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
     fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich
-    wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten. </p></section>
+    wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p></section>
   <section product="avhr">
    <title>edition humboldt digital</title>
    <p>Häufig finden sich Ergänzungen und Anmerkungen bei Humboldt am äußeren oder unteren Rand der
-    Manuskriptseite. (Im folgenden Beispiel sind Anmerkungen blau und Ergänzungen rot markiert.)</p><fig>
+    Manuskriptseite. Anmerkungen werden von den BearbeiterInnen dort gesetzt, wo sie im Text
+    (offensichtlich oder editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig
+    bestimmen lässt, werden sie zwischen zwei thematisch möglichst nahe liegenden Sätzen eingefügt. </p><fig>
      <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 17r (Die rote Markierung zeigt Ergänzungen, die blaue Markierung
      Anmerkungen.)</desc>
 <image placement="break" href="../../img_avhr/abb10-markierung.jpg"
       id="image_zpy_1bg_hbb" scale="80"/>
 </fig>
-   <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst, sowie
-    andere mögliche Textphänomene wie Streichungen, Korrekturen etc. Auch vorhandene
-    Einweisungszeichen werden erfasst und in der Webansicht wiedergegeben. </p><fig>
+   <p><b>Seitenwechsel</b> und <b>Zeilenumbrüche</b> innerhalb einer Anmerkung werden erfasst,
+    andere mögliche Textphänomene wie Streichungen, Korrekturen etc. ebenfalls. Auch
+    Einweisungszeichen, falls vorhanden, werden erfasst und in der Webansicht stets mit demselben
+    Symbol einheitlich dargestellt.</p><fig>
      <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 18v/19r – Fortgesetzte Anmerkung; Beginn auf Bl. 18v, Abschluss Bl. 19r</desc>
      <image placement="break" href="../../img_avhr/abb11a.png" />
 <image
      placement="break" href="../../img_avhr/abb11.png" scale="70" 
      id="image_b3h_zys_2bb"/>
     </fig>
-   <p>Kodierbeispiel (XML-Kodierung im Beispiel vereinfacht)</p> 
+   <p>(Das folgende Kodierbeispiel berücksichtigt der Übersichtlichkeit halber nicht alle
+    Textphänomene.)</p> 
    <codeblock outputclass="language-xml"><![CDATA[<note place="left" hand="#author">
   <metamark/>u. wenn auch nicht im̅er oxygenreicher, so
     <lb/>enthält sie doch eine
@@ -53,30 +57,27 @@
     <lb/>leider nicht wahr 1806!
   </note>]]></codeblock>
    <fig>
-    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I 18v/19r</desc>
+    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 18v/19r –
+     Webansicht</desc>
     <image placement="break" href="../../img_avhr/abb11-webansicht.JPG" 
      id="image_wc4_fyj_wcb" scale="80"/>
-   </fig>
-  
-   <p audience="editor"><b>Achtung:</b> Anmerkungen werden dort gesetzt, wo sie im Text
-    (offensichtlich oder editorisch vertretbar) hingehören. Wenn sich dieser Punkt nicht eindeutig
-    bestimmen lässt, sollten sie zwischen zwei thematisch möglichst nahe liegenden Sätzen eingefügt
-    werden.</p>        
+   </fig>        
   </section>
   <section audience="editor">
    <title>Bedienung</title>
    <p>Klicken Sie in der Werkzeugleiste auf das Symbol <image href="../../img/note16.gif"
-     id="image_jll_6ls_2y"/>. In den beiden nacheinander erscheinenden Dialogmenüs spezifizieren Sie
+     id="image_jll_6ls_2y"/>. In den beiden nacheinander erscheinenden Dialogfenstern spezifizieren Sie
     zum einen, wo die Anmerkung auf dem Blatt gemacht worden ist. Zum anderen vermerken Sie, wer die
     Anmerkung gemacht hat. Sollten Sie „Person aus dem Register“ auswählen, wird Ihnen ein
     Auswahlmenü mit den Einträgen aus dem Personenregister angeboten. Die Handhabung hier ist analog
-    zur Auszeichnung von Personennamen.</p>
+    zur <xref href="namen_kennzeichnen.dita#topic_rhd_g3v_ty">Auszeichnung von
+    Personennamen</xref>.</p>
    <p>Optional können Sie vermerken, dass der Autor selbst diese Anmerkung in diese Textstelle per
     Zeichen eingewiesen hat. Ein generalisiertes Einweisungszeichen können Sie im Menü „ediarum“
     über die Funktion „Sonderfunktion > Einweisungszeichen“ einfügen. Dazu muss der Cursor vorher
     allerdings in die Anmerkung gesetzt worden sein. Anstelle des Menüs können Sie auch die
     Tastenkombination [Strg] + [Umschalt] + [E] verwenden. Wird diese Funktion ausgeführt, ist ein
-    manuelles Notieren des Einweisungszeichen nicht mehr nötig.</p>  
+    manuelles Einfügen des Einweisungszeichen nicht mehr nötig.</p>  
   </section>
   <section>
    <title>Kodierung</title>
@@ -107,14 +108,14 @@
       <stentry>Editionsinterne ID aus dem Personenregister <p audience="editor"><b>Achtung</b>: Aus
        technischen Gründen können die Personennamen derzeit nicht direkt aus dem Register bezogen
        werden, sondern müssen im Transformations-Stylesheet (web/resources/xslt/transcription.xsl)
-       händisch eingetragen werden. Bearbeiter sollten weiterhin zum entsprechenden Registereintrag
-       verlinken, für das manuelle Nachtragen aber ein Ticket anlegen. </p></stentry>
+       händisch eingetragen werden. Die BearbeiterInnen sollten weiterhin zum entsprechenden
+       Registereintrag verlinken, für das manuelle Nachtragen aber ein Ticket anlegen.</p></stentry>
      </strow>
     </simpletable>
    <p> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben:</p>
    <simpletable id="table_pg1_ngn_my">
      <sthead>
-       <stentry>Wert </stentry>
+       <stentry>Wert</stentry>
        <stentry>Definition</stentry>
      </sthead>
       <strow>
@@ -127,7 +128,7 @@
       </strow>
       <strow>
        <stentry><codeph>mTop</codeph></stentry>
-       <stentry>oberer Rand </stentry>
+       <stentry>oberer Rand</stentry>
       </strow>
       <strow>
        <stentry><codeph>mBottom</codeph></stentry>

@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle>Handbuch zur Einrichtung - ediarum.Basis </mainbooktitle>
+        <mainbooktitle>Handbuch zur Einrichtung - ediarum.Basis</mainbooktitle>
     </booktitle>
     <chapter href="rest/installation/installation.dita">
         <topicref href="rest/installation/update.dita"></topicref>

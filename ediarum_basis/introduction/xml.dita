@@ -63,7 +63,7 @@ ist.</p>]]></codeblock>
   <p>Mehrere Elemente können – wie oben schon gezeigt – ineinander verschachtelt werden. Dadurch
    entsteht eine hierarchische Baumstruktur, die für XML-Dokumente charakteristisch ist.</p>
   <p>Enthalten Elemente keinen Text oder weitere Kind-Elemente, handelt es sich um leere Elemente.
-   Sie werden in einer Kurzschreibweise notiert: </p>
+   Sie werden in einer Kurzschreibweise notiert:</p>
   <table id="table_r1k_qgq_nx">
    <tgroup cols="2">
     <thead>

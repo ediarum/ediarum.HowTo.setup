@@ -24,7 +24,7 @@
         in dem Sie auswählen, um was für eine Art von Eintrag es sich handelt (unter „Mehr“ stehen
         zahlreiche Optionen zu Verfügung).</p>
       <p><image href="../img_zotero/neuer_eintrag.png" id="image_jg5_s4t_ldb"/></p>
-      <p><b>Beispiel „Buch“: </b>Am rechten Rand erscheint eine Detailansicht, die noch keine
+      <p><b>Beispiel „Buch“:</b>Am rechten Rand erscheint eine Detailansicht, die noch keine
         Angaben enthält.</p>
       <p><image href="../img_zotero/detailansicht.png" id="image_tky_gpt_ldb"/></p>
       <p>Setzen Sie den Cursor auf das Feld (z. B. „Titel“), um dort eine Angabe zu machen (1).
@@ -36,7 +36,7 @@
       <p>Wiederholen Sie diese Schritte für sämtliche Punkte (Ort, Jahr, Verlag usw.), die in der
         Bibliographie gewünscht werden. Geben Sie Personennamen an, ist Folgendes zu beachten:
         Standardmäßig erscheint ein Feld, in dem Sie den Nachnamen und Vornamen angeben. Möchten Sie
-        einen zweiten Autor, einen Herausgeber oder einen Übersetzer hinzufügen, drücken Sie das
+        weitere AutorInnen, HerausgeberInnen  oder ÜbersetzerInnen hinzufügen, drücken Sie das
         Pluszeichen <image href="../img_zotero/plus.png" id="image_pwf_sst_ldb"/>. Mit Auswahl des
         Pfeils kann die Rolle einer Person näher bestimmt werden.</p>
       <p><image href="../img_zotero/person_hinzuf%C3%BCgen.png" id="image_xzk_gtt_ldb"/></p>
@@ -56,7 +56,7 @@
       <p><b>Stichwörter anlegen (Tags)</b></p>
       <p>Wählen Sie den Eintrag aus, für den Sie ein oder mehrere Stichwörter anlegen wollen.
         Wechseln Sie in der Detailansicht vom Reiter „Info“ zum Reiter „Tags“. Mit der Schaltfläche
-        „Hinzufügen“ lassen sich beliebig viele Stichwörter anlegen. </p>
+        „Hinzufügen“ lassen sich beliebig viele Stichwörter anlegen.</p>
       <p><image href="../img_zotero/tags_a.png" id="image_ubf_nwt_ldb"/></p><p><b><xref href="https://www.zotero.org/support/de/collections_and_tags" format="html"
             scope="external">Offizielle Zotero-Dokumentation - Sammlungen und Tags</xref></b></p>
     </section>

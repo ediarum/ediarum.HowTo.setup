@@ -6,7 +6,7 @@
     <section>
       <p>Humboldt hat am Rand des Textes der Reisetagebücher häufig Hilfsrechnungen vorgenommen. Bei
         der Transkription dieser „Nebenrechnungen“ wird vom Schriftbild der Vorlage abgewichen. Im
-        Vordergrund steht die korrekte Wiedergabe der Rechenoperation. </p>
+        Vordergrund steht die korrekte Wiedergabe der Rechenoperation.</p>
       <fig>
         <desc><xref href="https://edition-humboldt.de/H0002922" format="html" scope="external">Alexander von Humboldt: Isle de Cube. Antilles en général</xref>, Bl. 128r</desc>
         <?oxy_comment_start author="lkirsten" timestamp="20180306T125706+0100" comment="Kodierbeispiel ergänzen"?>
@@ -17,23 +17,23 @@
     </section>
     <section audience="editor">
       <title>Bedienung</title>
-      <p audience="editor">In der ediarum-Autoransicht wird zur <b>Auszeichnung einer
-          Nebenrechnung</b> in folgenden Schritten vorgegangen:</p><ol id="ul_mnc_lg4_hbb">
-          <li>Anmerkung einfügen mit Angaben zum Ort und Schreiber der Anmerkung</li>
-          <li>Anmerkung als Nebenrechnung über die Menüpunkte „Reisetagebücher“ > „Anmerkung ist
-            Nebenrechnung“ oder den Kurzbefehl [Alt] + [N] bestimmen</li>
+      <p audience="editor">In der ediarum-Autoransicht können Sie zur <b>Auszeichnung einer
+          Nebenrechnung</b> in folgenden Schritten vorgehen:</p><ol id="ul_mnc_lg4_hbb">
+          <li>Die Anmerkung mit Angaben zum Ort und Schreiber einfügen.</li>
+          <li>Die Anmerkung  über die Menüpunkte „Reisetagebücher > Anmerkung ist Nebenrechnung“
+          oder den Kurzbefehl [Alt] + [N] als Nebenrechnung kennzeichnen.</li>
           <li>Zahlenwerte und mathematische Operatoren (Addition, Substraktion, Multiplikation,
-            Division) werden über die entsprechenden Stellen im Menüpunkt oder den Kurzbefehl ([Alt]
-            + [NumPad] + […]) eingegeben </li>
+          Division) über die entsprechenden Punkte im Menü „Reisetagebücher“ oder den Kurzbefehl
+          [Alt] + [NumPad] + […] eingeben.</li>
         </ol>
     </section>
     <section>
       <title>Kodierung</title>
       <p>Nebenrechnungen werden in einem Element <xmlelement>note</xmlelement> erfasst, dessen
-        Attribut <xmlatt>type</xmlatt> auf den Wert <codeph>auxCalc</codeph> gesetzt ist. Anstelle der Abbildung
-        des Schriftbildes werden die Rechenoperatoren als typographische Zeichen eingefügt, jeweils
-        umgeben von einem Element <xmlelement>supplied</xmlelement>, dass die Ergänzung durch den
-        Herausgeber kenntlich macht.</p>
+        Attribut <xmlatt>type</xmlatt> auf den Wert <codeph>auxCalc</codeph> gesetzt ist. Anstelle
+        der getreuen Abbildung des Schriftbildes werden Rechenoperatoren als typographische Zeichen
+        ergänzt, jeweils umgeben von einem Element <xmlelement>supplied</xmlelement>, das die
+        Ergänzung durch die HerausgeberInnen kenntlich macht.</p>
     </section>
     <section>
       <title>Anzeige</title>

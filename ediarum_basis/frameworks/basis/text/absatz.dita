@@ -12,9 +12,9 @@
   </section>
   <section product="avhr">
       <title>edition humboldt digital</title>
-      <p>Einrückungen und Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
+      <p>Einrückungen, Einzüge und sonstige erkennbar abgesetzte Textpassagen im Manuskript
         werden in der Transkription anhand neuer Absätze abgebildet, typografische Leerräume am
-        Zeilenanfang werden hingegen nicht erfasst. </p>
+        Zeilenanfang werden hingegen nicht erfasst.</p>
       <p>Bisweilen kann ein einfaches Zeilenende am rechten Seitenrand grafisch nicht klar
         unterschieden werden von einem Zeilenende, das zugleich auch einen Absatz abschließt. In
         diesen Fällen werden inhaltliche Kriterien herangezogen, um Zeilen- und Absatzwechsel
@@ -57,25 +57,28 @@
     </section>
    <section audience="editor">
       <title>Bedienung</title>
-      <p>Ein neuer Absatz kann auf drei Arten eingefügt bzw. erzeugt werden:  </p>
+      <p>Sie können einen neuen Absatz auf drei Arten eingefügen bzw. erzeugen: </p>
       <ol id="ol_rly_4fx_p1b">
         <li>Cursor im vorhergehenden Absatz platzieren und in der Werkzeugleiste <image
             href="../../img/paragraph16.png" id="image_mcq_yhf_2y"/> anklicken.</li>
         <li>Am Ende des vorhergehenden Absatzes bzw. am Anfang des nachfolgenden Absatzes den Cursor
-          platzieren, Return drücken und „Neu p“ auswählen – indem man einfach nochmals Return
-          drückt.</li>
-        <li>Platziert man den Cursor mitten im Absatz, drückt Return und wählt „Teilen p“ aus, wird
-          der Absatz an dieser Stelle in zwei Absätze aufgeteilt.</li>
+          platzieren, [Return] drücken und „Neu p“ auswählen, indem Sie nochmals [Return]
+          drücken.</li>
+        <li>Platzieren Sie den Cursor mitten im Text, drücken [Return] und wählen „Teilen p“ aus,
+          wird der Text an dieser Stelle in zwei Absätze aufgeteilt.</li>
       </ol>
-      <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ kann man
-        den gesamten <b>Absatz einrücken</b>. Diese Funktion sollte nur verwendet werden, wenn die
-        Einrückung in der Vorlage vorhanden ist, nach den Editionsrichtlinien als signifikant
-        eingestuft wird und daher kodiert werden muss. Durch die Funktion wird das Attribut
+      <p>Über die Funktion „Absatz/Liste eingerückt“ im Menü „ediarum > Sonderfunktionen“ könne Sie
+        den gesamten Absatz einrücken. Diese Funktion sollten Sie nur verwenden, wenn die Einrückung
+        in der Vorlage vorhanden ist, nach den Editionsrichtlinien als signifikant eingestuft wird
+        und daher kodiert werden muss. Durch die Funktion wird das Attribut
           <xmlatt>rendition</xmlatt> mit dem Wert <codeph>#et</codeph> gesetzt (gemäß DTABf).</p>
     </section>
    <section>
      <title>Kodierung</title>
-     <p>Absätze werden mit dem Element <xmlelement>p</xmlelement> kodiert.</p>
+     <p><?oxy_comment_start author="lkirsten" timestamp="20180628T105018+0200" comment="hier kann bei Gelegenheit noch ein Kodierbeispiel hinzugefügt werden
+"?>Absätze
+        werden mit dem Element <xmlelement>p</xmlelement> (paragraph)
+        kodiert.<?oxy_comment_end?></p>
    </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/absatz.html" format="html"

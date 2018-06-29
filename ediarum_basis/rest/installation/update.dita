@@ -5,7 +5,7 @@
     <shortdesc/>
     <taskbody>
         <context>
-            <p>Die digitale Arbeitsumgebung (d.h. die Oxygen XML Dokumententypzuordnung) wird
+            <p>Die digitale Arbeitsumgebung (d. h. die Oxygen XML Dokumententypzuordnung) wird
                 über einen Server bereitgestellt.</p>
             <p>URL: http://telotadev.bbaw.de/oxygen/updateSite.xml</p>
             <p>Dadurch ist es möglich, dass die Arbeitsumgebung nach einmaliger Installation der Software
@@ -20,7 +20,7 @@
             </step>
             <step>
                 <cmd>Im Fenster Häkchen kontrollieren (ob die gewünschten Add-Ons ausgewählt sind)
-                    und mit „Aktualisieren“ bestätigen. </cmd>
+                    und mit „Aktualisieren“ bestätigen.</cmd>
                 <info><image href="img/update2.png" id="image_uzb_4sh_vdb"/><p>Add-Ons, für die
                         Updates vorliegen, werden mit „Update verfügbar“ angezeigt und sind deswegen
                         schon mit einem Häkchen versehen. Add-Ons, für die <i>keine</i> Updates

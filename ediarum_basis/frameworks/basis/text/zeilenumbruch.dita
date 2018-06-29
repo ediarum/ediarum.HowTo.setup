@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_w1l_n1v_ty">
- <title>Zeilenbeginn</title>
+ <title>Zeilenumbruch</title>
  <body>
   <section>
    <title>ediarum.BASIS</title>
-   <p>Der Zeilenumbruch wird getreu der Vorlage transkribiert. </p>
+   <p>Zeilenumbrüche werden getreu der Vorlage transkribiert.</p>
   </section>
-  <section>
+   <section product="avhr">
       <title>edition humboldt digital</title>
       <p>In der Edition werden auf Grundlage des Textbefundes drei Varianten von Zeilenumbrüchen
-        unterschieden (im ersten Beispiel kommen alle drei Varianten von Zeilenumbrüchen vor):</p><p><ol
+        unterschieden:</p><p><ol
           id="ol_vdy_zks_2bb">
           <li>Einfacher Zeilenumbruch</li>
           <li>Zeilenumbruch mit Silbentrennung und Trennungszeichen</li>
@@ -18,7 +18,8 @@
         </ol></p>
           <p>Trennungszeichen können im Schriftbefund neben Strichen auch als Punkte oder
         vermeintliche Anführungszeichen (auch doppelte Trennstriche) am Zeilenende in Erscheinung
-        treten. </p>
+        treten. Im folgenden Manuskript-Ausschnitt kommen alle drei Varianten von Zeilenumbrüchen
+        vor:</p>
       <fig>
         <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise III, Bl. 2r</desc>
         <image placement="break" href="../../img_avhr/abb4-markierung-alt.JPG" scale="60"
@@ -49,16 +50,17 @@
     </section>
   <section audience="editor">
    <title>Bedienung</title>
-   <p>Der Zeilenbeginn kann über das Menü mit dem Symbol <image href="../../img/lb16.gif"
-          id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] gesetzt
-        werden. Wird er nicht während der Transkription, sondern im bereits bestehenden Text
-        eingefügt, muss der Cursor vor das erste Wort der neuen Zeile gesetzt und dann die
-        entsprechende Funktion ausgeführt werden. </p>
+   <p>Den Zeilenumbruch können Sie über das Menü mit dem Symbol <image href="../../img/lb16.gif"
+          id="image_ncq_yhf_2y"/> in der Werkzeugleiste oder per Tastaturkürzel [Strg] + [L] setzen.
+        Wird er nicht während der Transkription, sondern im bereits bestehenden Text eingefügt, muss
+        der Cursor vor das erste Wort der neuen Zeile gesetzt und dann die entsprechende Funktion
+        ausgeführt werden.</p>
    <p>In der Werkzeugleiste stehen neben dem einfachen „Zeilenumbruch“ auch die Funktionen
         „Zeilenumbruch mit Trennungszeichen“ und „Zeilenumbruch im Wort“ zur Verfügung, mit denen
         ein Zeilenbeginn eingefügt wird, der ein Wort trennt (einmal mit Trennzeichen, einmal ohne).
         Trennungszeichen werden anhand der Funktion „Zeilenumbruch mit Trennungszeichen“ gesetzt und
-          <u>sollten nicht manuell eingefügt werden</u>. </p>
+          <i>sollten nicht manuell, d. h. mit der Bindestrich-Taste der Tastatur, eingefügt
+          werden</i>.</p>
   </section>
   <section> 
    <title>Kodierung</title>

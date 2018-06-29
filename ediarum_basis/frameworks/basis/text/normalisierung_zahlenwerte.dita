@@ -6,7 +6,7 @@
     <section>
       <p>In der <i>edition humboldt digital</i> erfolgt die Normalisierung von Notationen und
         Zahlenwerten immer stillschweigend. Es wird in der Auszeichnung zudem in höherem Maße von
-        der Manuskriptvorlage abgewichen als bei jeglicher anderen Art von Textphänomenen. </p>
+        der Manuskriptvorlage abgewichen als bei jeglicher anderen Art von Textphänomenen.</p>
       <p>Im Falle vom <b>Nebenrechnungen</b> wird vom Schriftbild der Vorlage abgewichen, um die
         korrekte Wiedergabe der Rechenoperation zu gewährleisten.</p>
       <p>In <b>Tabellen und Berechnungen</b> setzt Humboldt Punkte und Kommata (etwa um
@@ -17,7 +17,7 @@
         Darstellung von Messwerten im Sinne ihrer zu Humboldts Zeit konventionellen Form
         vereinheitlicht. Dies hat zur Folge, dass in der Transkription der Messwerte zugunsten der
         Lesbarkeit die Zeichenabstände vereinheitlicht werden und somit der Aufwand in der
-        Bearbeitung insgesamt in einem akzeptablen Verhältnis zum Ergebnis steht. </p>
+        Bearbeitung insgesamt in einem akzeptablen Verhältnis zum Ergebnis steht.</p>
       <p><b>Maßgaben bei der Transkription von Messwerten sind</b>: <ul id="ul_ohg_bf4_hbb">
           <li>Zeichensetzung (Punkte, Kommata) normalisieren.</li>
           <li>Messwerteinheiten (Grad, Minuten) normalisieren.</li>
@@ -38,5 +38,11 @@
           id="image_ng3_v24_hbb"/>
       </fig>
     </section>
+    <section><title>Bedienung</title>
+      <p>Für die Auszeichnung von <b>Minuten- bzw. Zollzeichen</b> werden nicht Anführungszeichen
+        benutzt, sondern das Prime-Zeichen. Über das Menü „Symbole > Einheitenzeichen“ oder die
+        Tastenkombination [Strg] + [Umschalt] + [Zirkumflex (^)] kann ein Auswahlfenster geöffnet
+        und je nach Befund ein einfaches (′), zweifaches (″) oder dreifaches (‴) Prime ausgewählt
+        werden. </p></section>
   </body>
 </topic>

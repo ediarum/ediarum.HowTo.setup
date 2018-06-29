@@ -13,12 +13,12 @@
   <p><image href="img/Dateibaum.png" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
    sich um eine zentrale Datenbank handelt, auf die alle MitarbeiterInnen des Vorhabens zugreifen,
-   darf jede Datei stets nur von einem Bearbeiter geöffnet werden. Ist eine Datei bereits von einem
-   Nutzer geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei. Versucht
+   darf jede Datei stets nur von einem Bearbeiter bzw. einer Bearbeiterin geöffnet werden. Ist eine Datei bereits von einem Nutzer bzw. einer
+   Nutzerin geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei. Versucht
    man die Datei dennoch zu öffnen, erscheint ein Warnhinweis, der zum Abbrechen des Vorgangs
    auffordert. Bitte beachten Sie diese Warnung und brechen sie den Vorgang ab.</p>
   <p>Dateien können auch mit heruntergedrückter linker Maustaste in andere Ordner verschoben werden.
-   Um im Dateibaum weitere Aktionen (z.B. eine neue Datei anlegen) durchzuführen, muss per rechtem
+   Um im Dateibaum weitere Aktionen (z. B. eine neue Datei anlegen) durchzuführen, muss per rechtem
    Mausklick auf eine Datei bzw. ein Verzeichnis das Kontextmenü aufgerufen werden.</p>
   <p><image href="img/Dateibaum.b.png" /></p>
  </conbody>
@@ -45,7 +45,7 @@
  <concept id="concept_wsn_zln_my">
   <title>Lokale Datei anlegen</title>
   <conbody>
-   <p>Ohne Zugriff auf die online verfügbare Datenbank kann es (z.B. unterwegs oder im Archiv)
+   <p>Ohne Zugriff auf die online verfügbare Datenbank kann es (z. B. unterwegs oder im Archiv)
     notwendig sein, eine Datei erst einmal lokal – also auf dem eigenen Rechner – anzulegen. Das
     kann über das Blattsymbol links oben oder über das Menü „Datei > Neu“ geschehen. Später kann die
     nur lokal vorhandene Datei in die Datenbank hochgeladen werden.</p>

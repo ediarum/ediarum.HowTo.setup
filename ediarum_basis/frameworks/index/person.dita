@@ -10,7 +10,7 @@
         Übersicht, an welchen Stellen (in welchen Dokumenten) die Person in der Edition erwähnt
         wird.</p>
     </section>
-    <section id="section_czw_t3d_pbb">
+   <section id="section_czw_t3d_pbb" product="avhr">
       <title>edition humboldt digital</title>
       <p><b>Norm-ID</b></p>
       <p>Die Edition verwendet unterschiedliche Normdatenrepositorien. Wenn vorhanden, verlinkt der
@@ -76,7 +76,7 @@
           <p> Namen, die <b>Adelsprädikate</b> („von“, „zu“, „de“, „d'“, usw.) enthalten, werden
             unter dem Anfangsbuchstaben des Nachnamens geführt, nicht dem des Prädikats. Namen wie
             „Pierre d'Ailly“ oder „Jean-Baptiste le Rond d'Alembert“ sind also dem Buchstaben „A“
-            zugeordnet. </p>
+            zugeordnet.</p>
         </li>
         <li>
           <p><b>Adlige</b> werden, wenn möglich und sinnvoll, unter ihrem bürgerlichen Namen
@@ -88,7 +88,7 @@
             </fig><codeblock outputclass="language-xml"><![CDATA[<idno type="uri">http://viaf.org/viaf/58797744</idno>
 <persName type="reg">
     <surname>Fernández de la Cueva y Enríquez</surname>
-    <forename>Francisco </forename>
+    <forename>Francisco</forename>
 </persName>
 <persName type="alt">
     <name>Duque de Albuquerque</name>
@@ -190,7 +190,7 @@
       <p><b>Lebensdaten und Wirkungszeit</b></p>
       <p>Lebensdaten liegen vollständig oder unvollständig als präzise oder ungefähre Geburts- und
         Sterbedaten, als ungefähre Wirkungszeiträume oder manchmal nur in Form einer einzelnen
-        Erwähnung vor. </p>
+        Erwähnung vor.</p>
       <p>Die Angabe von <b>Lebensdaten</b> beschränkt sich auf das Geburts- bzw. Todes<i>jahr</i> –
         Monat und Tag, auch wenn bekannt, werden nicht angegeben. Die unterschiedlichen Datenlagen
         bei Lebensjahren werden in folgender Weise kodiert:<table id="table_awj_3xb_pbb">
@@ -435,12 +435,12 @@
               </row>
               <row>
                 <entry/>
-                <entry>1. Drittel 5. Jh. </entry>
+                <entry>1. Drittel 5. Jh.</entry>
                 <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
               </row>
               <row>
                 <entry/>
-                <entry>2. Drittel 5. Jh. </entry>
+                <entry>2. Drittel 5. Jh.</entry>
                 <entry><codeph>notBefore="0400" notAfter="0500"</codeph></entry>
               </row>
               <row>
@@ -477,7 +477,7 @@
         konsequent aufgelöst: <ul id="ul_xpm_dr4_4bb">
           <li>u. > und</li>
           <li>franz. > französische/r</li>
-          <li>C. Montúfar > Carlos Montúfar </li>
+          <li>C. Montúfar > Carlos Montúfar</li>
           <li>…</li>
         </ul></p>
       <p><b>Herkunftsbezeichnungen im Kommentar</b></p>
@@ -507,7 +507,7 @@
         nach“ und „Angabe als Text“. Die Angabe als Text kann jederzeit manuell bearbeitet werden.
         Die Angaben zu „nicht vor“ und „nicht nach“ können über das Kontextmenü nachträglich
         bearbeitet werden. Für eine valide und maschinenlesbare Auszeichnung müssen alle drei
-        Angaben eingetragen werden. </p>
+        Angaben eingetragen werden.</p>
     </section>
     <section id="section_khj_tkv_jdb">
       <title>Kodierung</title>
