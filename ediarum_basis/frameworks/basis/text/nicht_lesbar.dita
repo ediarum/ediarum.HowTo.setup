@@ -50,8 +50,10 @@
    <title>Bedienung</title>
    <p>Die Auszeichnung von Lücken im Text wird über die Schaltfläche mit dem Symbol <image
      href="../../img/gap16.gif" id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. In den
-    sich öffnenden Dialogfenstern müssen Sie zuerst Einheit (Zeichen, Wörter, Zeilen oder Seiten),
-    dann Anzahl und zuletzt der Grund für die Lücke angeben. Zerstörte oder verlorene Seiten sollten
+    sich öffnenden Dialogfenstern müssen Sie zuerst den Grund für die Lücke, dann die Einheit (Zeichen, Wörter, Zeilen oder Seiten),
+    und zuletzt die Anzahl der Zeilen, Wörter etc. angeben. Können Sie die Anzahl der Zeichen, Wörter etc. nicht schätzen, so können Sie das Feld
+   einfach leer lassen. ediarum wird dann nur den angegebenen Grund für die Lücke einfügen.</p> 
+    <p>Zerstörte oder verlorene Seiten sollten
     Sie jeweils einzeln erfassen.</p>
    <p>Im Falle einer Unleserlichkeit durch <xref href="korrektur.dita#topic_tfw_wbv_ty">Streichung
      mit anschließender Ersetzung</xref> sollten die entsprechenden ediarum-Funktionen in folgender
@@ -71,7 +73,34 @@
    <title>Kodierung</title>
    <p>Nicht lesbare Zeichen oder Zeichenketten im Manuskript werden mit dem leeren Element
      <xmlelement>gap/</xmlelement> ausgezeichnet. Im Attribut <xmlatt>unit</xmlatt> wird das nicht
-    lesbare Segment näher bestimmt: <table id="table_owv_gqs_2y">
+    lesbare Segment näher bestimmt:</p> 
+   <p>Das Attribut <xmlatt>reason</xmlatt> gibt den Grund der Unleserlichkeit an: <table
+    id="table_efs_mqs_2y">
+    <tgroup cols="2">
+     <thead>
+      <row>
+       <entry>Grund der Unleserlichkeit</entry>
+       <entry>Wert für <xmlatt>reason</xmlatt></entry>
+      </row>
+     </thead>
+     <tbody>
+      <row>
+       <entry>Zerstörung/Verlust</entry>
+       <entry><codeph>lost</codeph></entry>
+      </row>
+      <row>
+       <entry>unleserlich</entry>
+       <entry><codeph>illegible</codeph></entry>
+      </row>
+      <row>
+       <entry>durch Überschreibung/Überzeichnung schwer leserlich</entry>
+       <entry><codeph>covered</codeph></entry>
+      </row>
+     </tbody>
+    </tgroup>
+   </table></p>
+   <p>Sind Anzahl der Zeilen, Wörter etc. der Lücke bekannt, können Sie mit Hilfe von <xmlatt>unit</xmlatt> und <xmlatt>quantity</xmlatt> notiert werden. Ansonsten entfallen sie ersatzlos.</p>
+    <table id="table_owv_gqs_2y">
      <tgroup cols="2">
       <thead>
        <row>
@@ -98,30 +127,9 @@
        </row>
       </tbody>
      </tgroup>
-    </table></p>
+    </table>
    <p>Im Attribut <xmlatt>quantity</xmlatt> wird die Anzahl der nicht lesbaren Zeichen, Zeilen etc.
     notiert.</p>
-   <p>Das Attribut <xmlatt>reason</xmlatt> gibt den Grund der Unleserlichkeit an. <table
-     id="table_efs_mqs_2y">
-     <tgroup cols="2">
-      <thead>
-       <row>
-        <entry>Grund der Unleserlichkeit</entry>
-        <entry>Wert für <xmlatt>reason</xmlatt></entry>
-       </row>
-      </thead>
-      <tbody>
-       <row>
-        <entry>Zerstörung/Verlust</entry>
-        <entry><codeph>lost</codeph></entry>
-       </row>
-       <row>
-        <entry>unleserlich</entry>
-        <entry><codeph>illegible</codeph></entry>
-       </row>
-      </tbody>
-     </tgroup>
-    </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<gap reason="illegible" unit="words" quantity="3"/>a beaucoup baissé]]></codeblock>
    <p>Falls ein Zeichen (oder eine Zeichenkette) durchgestrichen ist und nicht entziffert werden
     kann, wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit
