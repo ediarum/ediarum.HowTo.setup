@@ -54,7 +54,7 @@
     format="html" scope="external"><linktext>Gedankenstrich – Dokumentation des DTABf</linktext></link></linklist>  
   </related-links>
  </concept>
- <concept id="concept_i32_dcn_hbb" audience="editor">
+ <concept id="concept_i32_dcn_hbb" audience="editor" product="avhr">
   <title>edition humboldt digital</title>
   <conbody>
    <p>Häufig sind in der Textvorlage keine <b>Halbgeviertstriche</b> gesetzt, obwohl es angezeigt
