@@ -6,8 +6,8 @@
   <section>
    <title>ediarum.BASIS</title>
    <p>Unter Umständen kann der Autor ein Wort irrtümlicherweise mehrfach gesetzt haben. Erschwert
-    dieses überflüssige oder redundante Wort das Verständnis eines Satzes, kann es durch den
-    Herausgeber gestrichen werden.</p>
+    dieses überflüssige oder redundante Wort das Verständnis eines Satzes, kann es durch die
+    HerausgeberInnen gestrichen werden.</p>
   </section>
    <section product="avhr">
       <title>edition humboldt digital</title>
@@ -53,13 +53,13 @@
    <title>Bedienung</title>
    <p>Zuerst wird das redundante Wort transkribiert und markiert, danach kann die Schaltfläche mit
         dem Symbol <image href="../../img/supplied16.gif" id="image_f3d_xfk_ycb"/> zur Streichung
-        des Wortes durch den Herausgeber verwendet werden. Im Anschluss erscheint im Autormodus grün
+        des Wortes durch die HerausgeberInnen verwendet werden. Im Anschluss erscheint im Autormodus grün
         unterlegt der Hinweis „gelöscht“, um anzuzeigen, dass es sich nicht um eine
         Herausgeberkorrektur, sondern um eine Streichung handelt.</p>
   </section>
   <section>
    <title>Kodierung</title>
-   <p>Die Streichung eines Wortes (oder mehrerer Wörter) durch den Herausgeber wird im Element
+   <p>Die Streichung eines Wortes (oder mehrerer Wörter) durch die HerausgeberInnen wird im Element
           <xmlelement>choice</xmlelement> vorgenommen; dabei kennzeichnet das Kindelement
           <xmlelement>sic</xmlelement> das zu streichende Wort. Die Streichung selbst wird durch ein
         weiteres Kindelement, <xmlelement>corr</xmlelement> (correction), dessen Attribut

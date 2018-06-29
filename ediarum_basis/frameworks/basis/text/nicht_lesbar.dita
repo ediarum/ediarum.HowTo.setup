@@ -31,11 +31,10 @@
      scale="60"/>
    </fig>
    <p>Seiten oder Blätter, die zerstört oder verloren und den BearbeiterInnen nicht bekannt sind,
-    werden einzeln und mit entsprechender Foliierung erfasst (<xref
-     href="seitenwechsel.dita#topic_n4t_jbv_ty">siehe Foliierung und Paginierung</xref>). Schadhafte
-    oder fehlende Stellen im Manuskript werden als „zerstört/verloren“ angezeigt, ihr Umfang kann
-    oftmals nur anhand des umliegenden Schriftbildes oder z. T. des Textinhaltes geschätzt
-    werden:</p>
+    werden einzeln und mit entsprechender Foliierung erfasst (siehe <xref
+     href="seitenwechsel.dita#topic_n4t_jbv_ty">Foliierung und Paginierung</xref>). Schadhafte oder
+    fehlende Stellen im Manuskript werden als „zerstört/verloren“ angezeigt, ihr Umfang kann oftmals
+    nur anhand des umliegenden Schriftbildes oder des Textinhaltes geschätzt werden:</p>
   <fig id="fig_gnr_tds_b2b">
    <desc>Alexander von Humboldt: Tagebücher der Amerikanischen Reise I, Bl. 1r</desc>
    <image placement="break" href="../../img_avhr/schadhafte_stelle.png" scale="60"
@@ -51,20 +50,20 @@
    <title>Bedienung</title>
    <p>Die Auszeichnung von Lücken im Text wird über die Schaltfläche mit dem Symbol <image
      href="../../img/gap16.gif" id="image_hpc_d3f_2y"/> in der Werkzeugleiste vorgenommen. In den
-    sich öffnenden Dialogfenstern müssen zuerst Einheit (Zeichen, Wörter, Zeilen oder Seiten), dann
-    Anzahl und zuletzt der Grund für die Lücke angegeben werden. Zerstörte oder verlorene Seiten
-    sollten jeweils einzeln erfasst werden.</p>
+    sich öffnenden Dialogfenstern müssen Sie zuerst Einheit (Zeichen, Wörter, Zeilen oder Seiten),
+    dann Anzahl und zuletzt der Grund für die Lücke angeben. Zerstörte oder verlorene Seiten sollten
+    Sie jeweils einzeln erfassen.</p>
    <p>Im Falle einer Unleserlichkeit durch <xref href="korrektur.dita#topic_tfw_wbv_ty">Streichung
      mit anschließender Ersetzung</xref> sollten die entsprechenden ediarum-Funktionen in folgender
     Weise kombiniert werden:</p>
    <p>
     <ol id="ol_bqd_pnv_xcb">
      <li> Über das Symbol <image href="../../img/gap16.gif" id="image_r2v_snv_xcb"/> in der
-      Werkzeugleiste die Lücke in der Transkription auszeichen und als „Grund für die Lücke“ den
-      Punkt „unleserlich“ auswählen.</li>
+      Werkzeugleiste die Lücke in der Transkription auszeichnen und als „Grund für die Lücke“ den
+      Punkt „unleserlich“ auswählen</li>
      <li>Anschließend die Lücke markieren und über das Symbol <image href="../../img/subst216.gif"
        id="image_wb2_5qv_xcb"/> eine Streichung und Ersetzung auszeichnen, jeweils Art der
-      Streichung und Hinzufügung auswählen und den hinzugefügten Text eintragen.</li>
+      Streichung und Hinzufügung auswählen und den hinzugefügten Text eintragen</li>
     </ol>
    </p>
   </section>
@@ -124,15 +123,15 @@
      </tgroup>
     </table></p>
    <codeblock outputclass="language-xml"><![CDATA[<gap reason="illegible" unit="words" quantity="3"/>a beaucoup baissé]]></codeblock>
-   <p>Falls ein Zeichen oder eine Zeichenkette durchgestrichen ist und nicht entziffert werden kann,
-    wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit
+   <p>Falls ein Zeichen (oder eine Zeichenkette) durchgestrichen ist und nicht entziffert werden
+    kann, wird es sowohl mit <xmlelement>del</xmlelement> kodiert als auch mit
      <xmlelement>gap/</xmlelement>.</p>
    <codeblock outputclass="language-xml"><![CDATA[oft <del rendition="#s"><gap reason="illegible" unit="chars" quantity="5"/></del> dann wieder]]></codeblock>
    <p>Zerstörte oder verlorene Seiten werden einzeln erfasst:</p>
    <codeblock outputclass="language-xml"><![CDATA[<pb n="1r"/><gap reason="lost" unit="pages" quantity="1"/>]]></codeblock>
    <p>Hinweis: Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden vorhandene, aber
      <xref href="leerraum.dita#topic_vvj_cjl_qbb">leere Seiten</xref> sowie <xref
-     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref>.</p>
+     href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch die HerausgeberInnen.</p>
   </section>
  </body>
  <related-links>

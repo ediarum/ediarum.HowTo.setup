@@ -5,10 +5,9 @@
  <body>
   <section>
    <title>ediarum.BASIS</title>
-   <p>Im Institutionsregister sind Einträge zu Organisationen, Körperschaften usw. hinterlegt. Dort
-    sind nähere Angaben zu Geschichte und Standort einer Institution notiert. Außerdem findet sich
-    dort eine Übersicht, an welchen Stellen (in welchen Dokumenten) die Institution erwähnt
-    wird.</p>
+   <p>Im Institutionsregister sind Einträge zu Organisationen, Körperschaften usw. hinterlegt. Die
+    Einträge enthalten nähere Angaben zu Geschichte und Standort sowie eine Übersicht, an welchen
+    Stellen (in welchen Dokumenten) die Institution in der Edition erwähnt wird.</p>
   </section>
   <section audience="editor">
    <title>Bedienung</title>
@@ -22,33 +21,29 @@
    <title>Kodierung</title>
    <p>Einträge im Institutionsregister werden in einem <xmlelement>org</xmlelement>-Element
     (organization) notiert. Für jeden Eintrag wird im Attribut <xmlatt>xml:id</xmlatt> eine ID
-    generiert, mithilfe der auf den Eintrag verwiesen wird. Der Name der Institution wird mit einem
-    <xmlelement>orgName</xmlelement>-Element (organization name) ausgezeichnet.</p>
+    generiert, mit deren Hilfe auf den Eintrag verwiesen werden kann. Der Name der Institution wird
+    mit einem <xmlelement>orgName</xmlelement>-Element (organization name) ausgezeichnet.</p>
    <codeblock outputclass="language-xml"><![CDATA[<org xml:id="pdrPo.001.015.000090143">
    <orgName type="reg">A. Hübenthal Co.</orgName>]]>
 &lt;/org></codeblock>
-   <p>Der Standort wird in einem <xmlelement>location</xmlelement>-Element angegeben.  Die Adresse
-    wird einem <xmlelement>adress</xmlelement>-Element angegeben. Die Ortschaft wird in einem
-    <xmlelement>settlement</xmlelement>-Element auszezeichnet, wobei das Attribut
-    <xmlatt>key</xmlatt> die ID der entsprechenden Stadt übernimmt. Innerhalb des
-    <xmlelement>note</xmlelement>-Elements werden dann die detaillierteren Angaben aufgeführt.</p>
+   <p>Der Standort wird in einem <xmlelement>location</xmlelement>-Element angegeben, das wiederum
+    ein <xmlelement>address</xmlelement>-Element zur näheren Bestimmung der Adresse enthält. Im
+     <xmlelement>address</xmlelement>-Element wird die Ortschaft in dem Kindelement
+     <xmlelement>settlement</xmlelement> ausgezeichnet, wobei das Attribut <xmlatt>key</xmlatt> die
+    ID des entsprechenden Eintrags im Ortregister erhält. Innerhalb des Kindelements
+     <xmlelement>note</xmlelement> werden gegebenenfalls weitere Angaben wie Stadtteil, Straße und
+    Hausnummer aufgeführt.</p>
    <codeblock outputclass="language-xml"><![CDATA[<location xml:id="grm_mwq_gy">
    <address>
       <settlement key="ed_p3t_jpj_wx">Genf</settlement>
       <note>Rudolfstraße</note>
    </address>
 </location>]]></codeblock>
-   <p>Die Standortangabe lässt sich um eine Datumsangabe ergänzen, die innerhalb des
-    <xmlelement>location</xmlelement>-Elements in den Attributen <xmlatt>from</xmlatt> und <xmlatt>to</xmlatt> notiert wird. Die
-    Datumsangabe strukturiert sich folgendermaßen: <codeph>JJJJ-MM-TT</codeph>. Dabei sind Angaben zu Monat und Tag
-    optional.</p>
+   <p>Die Standortangabe kann zudem um eine Datumsangabe ergänzt werden, die innerhalb des
+     <xmlelement>location</xmlelement>-Elements in den Attributen <xmlatt>from</xmlatt> und
+     <xmlatt>to</xmlatt> notiert wird. Die Datumsangabe erfolgt im Format
+     <codeph>JJJJ-MM-TT</codeph>, wobei Angaben zu Monat und Tag optional sind.</p>
    <codeblock outputclass="language-xml">&lt;location xml:id="grm_mwq_gy" from="1865" to="1889"></codeblock>
   </section>
-  
-  
-  
-  
-  
-
  </body>
 </topic>

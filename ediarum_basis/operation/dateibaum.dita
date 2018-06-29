@@ -13,8 +13,8 @@
   <p><image href="img/Dateibaum.png" /></p>
   <p>Dateien können per Doppelklick geöffnet und dann im Textfenster rechts bearbeitet werden. Da es
    sich um eine zentrale Datenbank handelt, auf die alle MitarbeiterInnen des Vorhabens zugreifen,
-   darf jede Datei stets nur von einem Bearbeiter geöffnet werden. Ist eine Datei bereits von einer Nutzerin bzw. einem
-   Nutzer geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei. Versucht
+   darf jede Datei stets nur von einem Bearbeiter bzw. einer Bearbeiterin geöffnet werden. Ist eine Datei bereits von einem Nutzer bzw. einer
+   Nutzerin geöffnet, erscheint ein kleines Hängeschlosssymbol an der entsprechenden Datei. Versucht
    man die Datei dennoch zu öffnen, erscheint ein Warnhinweis, der zum Abbrechen des Vorgangs
    auffordert. Bitte beachten Sie diese Warnung und brechen sie den Vorgang ab.</p>
   <p>Dateien können auch mit heruntergedrückter linker Maustaste in andere Ordner verschoben werden.

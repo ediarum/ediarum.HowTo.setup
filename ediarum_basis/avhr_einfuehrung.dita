@@ -29,14 +29,14 @@
             möglich – auch als digitale Faksimiles der Original-Handschrift veröffentlicht. Die
             textuelle Ebene erfasst den eigentlichen Text und wird in drei Darstellungsvarianten
             angezeigt: "Kritischer Text" und "Text mit Faksimile" beinhalten alle durch die
-            Herausgeber vorgenommenen textkritischen Auszeichnungen; "Lesetext" zielt auf eine
+            HerausgeberInnen vorgenommenen textkritischen Auszeichnungen; "Lesetext" zielt auf eine
             lesefreundliche Darstellung und vereinfacht das Schriftbild (Auflösung des
-            Zeilenumbruchs, der Abkürzungen und Textkorrekturen durch den Autor und Herausgeber,
-            Normalisierung der Orthographie, stillschweigende Übernahme von Textergänzungen durch
-            den Herausgeber). Die Erfassung der inhaltlichen Ebene konzentriert sich darauf,
-            möglichst viele der in den Texten enthaltenen Informationen als strukturierte Daten
-            aufzubereiten (Personen- und Ortsnamen, Werktitel, Maßangaben) und, wo als sinnvoll
-            erachtet, durch Stellenkommentare zu erweitern.</p>
+            Zeilenumbruchs, der Abkürzungen und Textkorrekturen durch den Autor und die
+            HerausgeberInnen, Normalisierung der Orthographie, stillschweigende Übernahme von
+            Textergänzungen durch die HerausgeberInnen). Die Erfassung der inhaltlichen Ebene
+            konzentriert sich darauf, möglichst viele der in den Texten enthaltenen Informationen
+            als strukturierte Daten aufzubereiten (Personen- und Ortsnamen, Werktitel, Maßangaben)
+            und, wo als sinnvoll erachtet, durch Stellenkommentare zu erweitern.</p>
         <p>Das Datenmodell der <i>edition humboldt digital</i> basiert in weiten Teilen auf dem
                 <xref href="http://deutschestextarchiv.de/doku/basisformat/" format="html"
                 scope="external">Basisformat des Deutschen Textarchivs</xref> (DTABf) und folgt

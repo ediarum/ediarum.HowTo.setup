@@ -9,7 +9,7 @@
     Platzierung auf dem Manuskript eingefügt, sondern an der Textstelle, auf die sich die Anmerkung
     tatsächlich (oder vom Editor begründet angenommen) bezieht. Ist ein Einweisungszeichen angegeben (Stern, Ziffer etc.)
     wird ein generalisiertes Einweisungszeichen (d. i. das leere Element <xmlelement>metamark/</xmlelement>) gesetzt, um kenntlich zu machen, dass die Einweisung
-    in den Text nicht durch den Herausgeber, sondern durch den Autor erfolgte.</p>
+    in den Text nicht durch die HerausgeberInnen, sondern durch den Autor erfolgte.</p>
    <p><b>Anmerkungen sind von Ergänzungen zu unterscheiden:</b> Ergänzungen erweitern den
     fortlaufenden Haupttext und gliedern sich syntaktisch in diesen ein. Anmerkungen sind – ähnlich
     wie Fußnoten im Druck – in sich abgeschlossene Texteinheiten.</p></section>
@@ -108,8 +108,8 @@
       <stentry>Editionsinterne ID aus dem Personenregister <p audience="editor"><b>Achtung</b>: Aus
        technischen Gründen können die Personennamen derzeit nicht direkt aus dem Register bezogen
        werden, sondern müssen im Transformations-Stylesheet (web/resources/xslt/transcription.xsl)
-       händisch eingetragen werden. Bearbeiter sollten weiterhin zum entsprechenden Registereintrag
-       verlinken, für das manuelle Nachtragen aber ein Ticket anlegen.</p></stentry>
+       händisch eingetragen werden. Die BearbeiterInnen sollten weiterhin zum entsprechenden
+       Registereintrag verlinken, für das manuelle Nachtragen aber ein Ticket anlegen.</p></stentry>
      </strow>
     </simpletable>
    <p> Der Ort der Anmerkung wird im Attribut <xmlatt>place</xmlatt> angegeben:</p>

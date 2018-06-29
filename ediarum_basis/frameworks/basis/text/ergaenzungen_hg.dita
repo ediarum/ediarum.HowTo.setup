@@ -5,7 +5,7 @@
  <body>
   <section>
    <title>ediarum.BASIS</title>
-   <p>Im Manuskript abgekürzte Wörter werden vom Herausgeber ergänzt. Diese Ergänzungen werden als
+   <p>Im Manuskript abgekürzte Wörter werden von den HerausgeberInnen ergänzt. Diese Ergänzungen werden als
      solche kenntlich gemacht.</p>
   </section>
   <section product="avhr"><title>edition humboldt digital</title><p>Abkürzungen in der Vorlage
@@ -16,7 +16,7 @@
         deutschen und lateinischen Werken <i>p=pagina</i>, in spanischen <i>p=página</i>. Dasselbe
         gilt analog für <b>fremdsprachige Nummern</b> (<i>no., N<u>o</u></i>) in Adresszeilen,
         Maßangaben und Mengenwerten.</p><p>Einzige Ausnahme stellen <b>abgekürzte Zahlenwerte</b>
-        dar – sie werden aus arbeitsökonomischen Gründen nicht vom Herausgeber aufgelöst.</p><fig
+        dar – sie werden aus arbeitsökonomischen Gründen nicht von den HerausgeberInnen aufgelöst.</p><fig
         id="fig_a4f_sfj_ycb">
         <desc><xref href="https://edition-humboldt.de/H0006511" format="html" scope="external"
             >Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
@@ -80,7 +80,7 @@
         Unterscheidung zwischen Kürzeln, Abkürzungen und Sonderkürzeln gelten in der Transkription
         folglich die Richtlinien (häufige Beispiele sind zudem in der darunterstehenden Tabelle
         dokumentiert):</p><ul id="ul_ty3_zph_1db">
-        <li><b>Abkürzungen</b> werden vom Herausgeber gekennzeichnet und ergänzt.</li>
+        <li><b>Abkürzungen</b> werden von den HerausgeberInnen gekennzeichnet und ergänzt.</li>
       </ul><table id="table_pzj_4pg_hbb">
         <title>Häufige verwendete Abkürzungen</title>
         <tgroup cols="4">
@@ -271,7 +271,7 @@
           </tbody>
         </tgroup>
       </table><ul id="ul_isz_zph_1db">
-        <li><b>Sonderkürzel</b> werden als Abkürzung behandelt und dementsprechend vom Herausgeber
+        <li><b>Sonderkürzel</b> werden als Abkürzung behandelt und dementsprechend von den HerausgeberInnen
           gekennzeichnet und ergänzt.</li>
       </ul><table id="table_v4q_vh5_zcb">
         <title>Häufige verwendete Sonderkürzel</title>
@@ -390,7 +390,7 @@
    <p>Abkürzungen und ihre Auflösung werden mit Hilfe von <xmlelement>choice</xmlelement> und seinen
         zwei Kindelementen <xmlelement>abbr</xmlelement> und <xmlelement>expan</xmlelement> kodiert.
         Im <xmlelement>abbr</xmlelement>-Element wird vorlagengetreu die Abkürzung festgehalten, im
-          <xmlelement>expan</xmlelement>-Element die Ergänzung der HerausgeberIn.</p>
+          <xmlelement>expan</xmlelement>-Element die Ergänzung der HerausgeberInnen.</p>
    <codeblock outputclass="language-xml"><![CDATA[<choice>
  <abbr>Jan.</abbr>
  <expan>Januar</expan>

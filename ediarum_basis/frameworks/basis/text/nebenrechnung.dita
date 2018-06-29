@@ -32,8 +32,8 @@
       <p>Nebenrechnungen werden in einem Element <xmlelement>note</xmlelement> erfasst, dessen
         Attribut <xmlatt>type</xmlatt> auf den Wert <codeph>auxCalc</codeph> gesetzt ist. Anstelle
         der getreuen Abbildung des Schriftbildes werden Rechenoperatoren als typographische Zeichen
-        ergänzt, jeweils umgeben von einem Element <xmlelement>supplied</xmlelement>, dass die
-        Ergänzung durch den Herausgeber kenntlich macht.</p>
+        ergänzt, jeweils umgeben von einem Element <xmlelement>supplied</xmlelement>, das die
+        Ergänzung durch die HerausgeberInnen kenntlich macht.</p>
     </section>
     <section>
       <title>Anzeige</title>

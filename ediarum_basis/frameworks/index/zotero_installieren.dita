@@ -15,11 +15,11 @@
                     <substep>
                         <cmd>Im Browser die URL eingeben: <xref
                                 href="https://www.zotero.org/download/" format="html"
-                                scope="external"/></cmd>
+                                scope="external"/></cmd>.
                     </substep>
                     <substep>
                         <cmd>Auf <b>Download</b> klicken.</cmd>
-                        <info>Wählen Sie den ihrem Betriebssystem entsprechenden Download.</info>
+                        <info>Wählen Sie den Ihrem Betriebssystem entsprechenden Download.</info>
                     </substep>
                     <substep>
                         <cmd>Warten bis der Download abgeschlossen ist (kann einige Minuten
@@ -34,7 +34,7 @@
                         <cmd>Den Download-Ordner auf dem eigenen PC öffnen.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Und die heruntergeladene Datei <b>Zotero-5.0.44_setup.exe</b> für die
+                        <cmd>Die heruntergeladene Datei <b>Zotero-5.0.44_setup.exe</b> für die
                             Installation öffnen.</cmd>
                         <info>Der Dateiname ändert sich mit den Versionen. Achten Sie darauf, dass
                                 <b>Zotero</b> und <b><b>setup.exe</b>
@@ -43,16 +43,16 @@
                     </substep>
                     <substep>
                         <cmd>Warten, bis der grüne Balken auf 100% ist.</cmd>
-                        <info>(evtl. mit <b>Weiter</b> bestätigen, um eine veraltete Version zu
-                            deinstallieren)</info>
+                        <info>(Evtl. mit <b>Weiter</b> bestätigen, um eine veraltete Version zu
+                            deinstallieren.)</info>
                     </substep>
                     <substep>
-                        <cmd>Im erscheinenden Dialogfenster mit <b>Next</b> bestätigen</cmd><info><image
+                        <cmd>Im erscheinenden Dialogfenster mit <b>Next</b> bestätigen.</cmd><info><image
                             href="../img_zotero/install_1.png" id="image_hqs_w5c_ndb"/></info>
                     </substep>
                     <substep>
                         <cmd>Im nächsten Fenster das bereits gesetzte <b>Häkchen</b> auf
-                                <b>Standart</b> belassen und mit <b>Weiter</b> bestätigen.</cmd>
+                                <b>Standard</b> belassen und mit <b>Weiter</b> bestätigen.</cmd>
                         <info><image href="../img_zotero/install_2.png" id="image_ynn_dxc_ndb"
                             /></info>
                     </substep>
@@ -60,7 +60,7 @@
                         <cmd>Im folgenden Dialog <b>Installieren</b> auswählen.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Warten bis das Programm installiert ist.</cmd>
+                        <cmd>Warten, bis das Programm installiert ist.</cmd>
                     </substep>
                     <substep>
                         <cmd><b>Achtung:</b> Im nun erscheinenden Dialog werden Sie gefragt, ob der

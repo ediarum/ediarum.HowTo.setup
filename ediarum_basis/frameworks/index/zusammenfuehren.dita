@@ -3,10 +3,15 @@
 <topic id="topic_h5d_qln_my">
  <title>Zusammenführen</title>
  <body>
-  <section><title>Bedienung</title><p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
-   Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entprechenden Eintrag
-   setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag, den Sie als
-   zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten Eintrages werden als
-   alternative Angaben behandelt.</p></section>
+  <section>
+      <title>Bedienung</title>
+      <p>Sie können zwei Einträge im Register zusammenführen. Wählen Sie dafür über das Menü die
+        Einträge aus. Ein Eintrag wird ausgewählt, indem Sie den Cursor auf den entsprechenden
+        Eintrag setzen und die Schaltfläche „Eintrag auswählen“ benutzen. Dabei wird der Eintrag,
+        den Sie als Zweites auswählen, unter den anderen subsumiert. Die Angaben des zweiten
+        Eintrages werden als alternative Angaben behandelt.
+        <?oxy_comment_start author="lkirsten" timestamp="20180629T130053+0200" comment="Vielleicht Hinweis ergänzen, wie es sich mit IDs verhält"?></p>
+      <?oxy_comment_end?>
+    </section>
  </body>
 </topic>

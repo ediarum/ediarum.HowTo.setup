@@ -9,7 +9,7 @@
         im Text belassen hat, um den darin fehlenden Text ggf. später zu ergänzen – kann mit dem
         leeren Element <xmlelement>space/</xmlelement> ausgezeichnet werden. Die Wiedergabe solcher
         Leerräume in der Transkription ist zu unterscheiden von <xref
-          href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch den Herausgeber</xref> sowie
+          href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch die HerausgeberInnen sowie
           <xref href="leere_seiten.dita#topic_tlg_53k_wcb">leeren</xref> bzw. <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>, die jeweils mit
           <xmlelement>gap/</xmlelement> ausgezeichnet werden.</p>

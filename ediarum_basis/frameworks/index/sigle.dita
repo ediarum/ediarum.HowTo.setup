@@ -13,34 +13,37 @@
       <title>Bedienung</title>
       <p>Die <b>Auszeichnung von Verweissiglen</b> funktioniert im ediarum-Autormodus
           folgendermaßen:<ol id="ol_fjw_lq4_hbb">
-          <li>Siglum markieren (hier „T“)<image placement="break" href="../img_avhr/siglen1.png"
+          <li>Siglum markieren (hier „T“).<image placement="break" href="../img_avhr/siglen1.png"
               align="left" id="image_vqc_dr4_hbb"/></li>
-          <li>Funktion „Verweis-Siglum“ aufrufen<image placement="break"
+          <li>Funktion „Verweis-Siglum“ aufrufen.<image placement="break"
               href="../img_avhr/siglen2.png" align="left" id="image_l1y_dr4_hbb"/></li>
-          <li>Registereintrag auswählen (Damit ein Siglum im Manuskript richtig ausgezeichnet werden
-            kann, muss ein entsprechender Eintrag in der Registerdatei bereits vorliegen.)<image
+          <li>Registereintrag auswählen. Damit ein Siglum im Manuskript richtig ausgezeichnet werden
+            kann, muss ein entsprechender Eintrag in der Registerdatei bereits vorliegen.<image
               placement="break" href="../img_avhr/siglen3.png" align="left" id="image_lpn_2r4_hbb"
             /></li>
         </ol></p>
     </section>
+    <p>Zum <b>Anlegen einer neuen Verweissiglums</b> die Datei „Verweissiglen.xml“ im Verzeichnis
+      „Register“ öffnen. Ein neues Siglum wird im Textmodus direkt im XML-Code angelegt. Einträge
+      heißen <xmlelement>item</xmlelement> und enthalten typischerweise drei Informationen:<ul
+        id="ul_w3s_2xv_h2b">
+        <li>eine eindeutige <codeph>ID</codeph> im Attribut <xmlatt>xml:id</xmlatt>,</li>
+        <li>eine Kennzeichnung im Element <xmlelement>label</xmlelement>,</li>
+        <li>eine Beschreibung im Element <xmlelement>desc</xmlelement>.</li>
+      </ul></p>
+    <p>Soll ein neues Siglum angelegt werden, kann ein bestehender Eintrag
+        (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>) kopiert, neu eingefügt und
+      entsprechend angepasst werden (ID, Kennzeichnung, Beschreibung).</p>
     <section>
       <title>Kodierung</title>
-      <p>Zum <b>Anlegen eines neuen Verweissiglum</b> die Datei „Verweissiglen.xml“ im Verzeichnis
-        „Register“ öffnen. Ein neues Siglum wird im Textmodus direkt im XML-Code angelegt. Einträge
-        heißen <xmlelement>item</xmlelement>, und enthalten typischerweise drei Informationen:</p>
-      <ul id="ul_vwh_rn4_hbb">
-        <li>eine eindeutige <codeph>ID</codeph> im Attribut <xmlatt>xml:id</xmlatt></li>
-        <li>eine Kennzeichnung im Element <xmlelement>label</xmlelement></li>
-        <li>eine Beschreibung im Element <xmlelement>desc</xmlelement></li>
-      </ul>
+      <p>Siglen sind in jeweils einem <xmlelement>item</xmlelement>-Element angelegt und erhalten im
+        Attribut <xmlatt>xml:id</xmlatt> eine eindeutige ID,  mit der auf sie verwiesen werden kann.
+        Im Kindelement <xmlelement>label</xmlelement> werden Name und Bezug des Siglums angegeben.
+        Das <xmlelement>desc</xmlelement>-Element enthält eine kurze Beschreibung des Siglums.  </p>
       <codeblock outputclass="language-xml"><![CDATA[<item xml:id="cuba_S">
     <label>S (Kuba)</label>
-    <desc>Sigle S im Kubatagebuch</desc>
+    <desc>Siglum S im Kubatagebuch</desc>
 </item>]]></codeblock>
-      <p>Soll ein Siglum ausgezeichnet werden, das noch nicht im Siglenregister eingetragen ist,
-        kann ein bestehender Eintrag (<xmlelement>item</xmlelement>…<xmlelement>/item</xmlelement>)
-        kopiert, neu eingefügt und entsprechend angepasst werden (ID, Kennzeichnung,
-        Beschreibung).</p>
     </section>
   </body>
 </topic>

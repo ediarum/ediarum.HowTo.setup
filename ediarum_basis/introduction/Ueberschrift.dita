@@ -11,7 +11,7 @@
     <p>Als zentrale Softwarekomponente der neuen Arbeitsumgebung wird Oxygen XML Author eingesetzt.
       Die BearbeiterInnen arbeiten in Oxygen XML Author nicht in einer Codeansicht, sondern in einer
       benutzerfreundlichen „Autoransicht“, die über Cascading Stylesheets (CSS) gestaltet wird.
-      Dem Bearbeiter stehen dabei mehrere Ansichten zur Auswahl, so dass per Mausklick die für den
+      Den BearbeiterInnen stehen dabei mehrere Ansichten zur Auswahl, so dass per Mausklick die für den
       Arbeitsschritt geeignetste ausgewählt werden kann. Außerdem kann der Endanwender über eine
       eigene Werkzeugleiste per Knopfdruck Auszeichnungen vornehmen. So können z. B. in Manuskripten
       Streichungen markiert oder Sachanmerkungen eingegeben werden. Auch Personen- oder Ortsnamen

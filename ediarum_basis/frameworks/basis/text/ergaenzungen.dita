@@ -112,10 +112,10 @@ Beispielbilder sind schon in ..ediarum_documentation\ediarum_basis\frameworks\im
      </tbody>
     </tgroup>
    </table>
-   <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place="sublinear">bin</add>, das Ganze folgerecht wieder ]]></codeblock>
+   <codeblock outputclass="language-xml"><![CDATA[nimmermehr im Stande <add place="sublinear">bin</add>, das Ganze folgerecht wieder]]></codeblock>
    <p>Sofern in der Vorlage ein Einweisungszeichen des Autors vorhanden ist, wird dieses durch das
     generalisierte <xmlelement>metamark/</xmlelement> kodiert. Die Erscheinungsform des
-    Einweisungszeichen (Stern, Nummer etc.) wird dabei nicht erfasst.</p>
+    Einweisungszeichens (Stern, Nummer etc.) wird dabei nicht erfasst.</p>
   </section>
  </body>
  <related-links><linklist scope="external"><title>Deutsches Textarchiv</title><link href="http://www.deutschestextarchiv.de/doku/basisformat/msAddDel.html" format="html" scope="external"><linktext>Hinzufügungen und Tilgungen – Dokumentation des DTABf</linktext></link></linklist>

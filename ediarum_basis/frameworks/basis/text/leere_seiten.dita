@@ -9,7 +9,7 @@
         unterscheiden  von <xref href="nicht_lesbar.dita#topic_gfh_yfv_ty">verlorenen Seiten</xref>
         und zum anderen von semantisch bedeutsamem <xref href="leerraum.dita#topic_vvj_cjl_qbb"
           >Leerraum</xref> sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen durch
-          den Herausgeber</xref>.</p>
+          die HerausgeberInnen</xref>.</p>
     </section>
     <section product="avhr">
       <title>edition humboldt digital</title>
@@ -53,8 +53,8 @@
       <codeblock outputclass="language-xml"><![CDATA[<pb n="132v"/><gap unit="pages" quantity="1" reason="empty"/>]]></codeblock>
       <p>Ebenfalls mit <xmlelement>gap/</xmlelement> ausgezeichnet werden <xref
           href="nicht_lesbar.dita#topic_gfh_yfv_ty">zerstörte oder unleserliche Textstellen</xref>
-        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch den
-        Herausgeber.</p>
+        sowie <xref href="auslassungen.dita#topic_iyg_1bh_qbb">Auslassungen</xref> durch die
+        HerausgeberInnen.</p>
     </section>
   </body>
   <related-links>
