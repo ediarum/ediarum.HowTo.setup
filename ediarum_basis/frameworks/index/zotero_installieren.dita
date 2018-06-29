@@ -15,7 +15,7 @@
                     <substep>
                         <cmd>Im Browser die URL eingeben: <xref
                                 href="https://www.zotero.org/download/" format="html"
-                                scope="external"/></cmd>.
+                                scope="external"/></cmd>
                     </substep>
                     <substep>
                         <cmd>Auf <b>Download</b> klicken.</cmd>
