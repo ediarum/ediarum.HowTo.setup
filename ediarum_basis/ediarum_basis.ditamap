@@ -2,8 +2,8 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap>
     <booktitle>
-        <mainbooktitle product="basis">ediarum.BASIS – Benutzerhandbuch</mainbooktitle>
-        <booktitlealt product="avhr">edition humboldt digital – Richtlinien</booktitlealt>
+<!--        <mainbooktitle product="basis">ediarum.BASIS – Benutzerhandbuch</mainbooktitle>-->
+        <mainbooktitle product="avhr">edition humboldt digital – Richtlinien</mainbooktitle>
     </booktitle>
     <chapter href="avhr_einfuehrung.dita" product="avhr">
         <topicref href="introduction/datenhaltung.dita" audience="editor"/>
