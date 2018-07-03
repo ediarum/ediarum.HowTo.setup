@@ -10,10 +10,10 @@
         </context>
         <steps>
             <step>
-                <cmd>Über "Fenster > Layout exportieren" Layout-Datei <projektname>.layout im Ordner des Erweiterungsframeworks speichern.</cmd>
+                <cmd>Über "Fenster > Layout exportieren" Layout-Datei [projektname].layout im Ordner des Erweiterungsframeworks speichern.</cmd>
             </step>
             <step>
-                <cmd>Im Framework unter Layout der Anwendung > benutzerdefiniert einstellen, zeigt auf ${pd}/<projektname>.layout.</cmd>
+                <cmd>Im Framework unter Layout der Anwendung > benutzerdefiniert einstellen, zeigt auf ${pd}/[projektname].layout.</cmd>
             </step>
         </steps>
     </taskbody>

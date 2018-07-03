@@ -4,7 +4,7 @@
     <title>ediarum_editorvariablen</title>
     <shortdesc>Einige Namen, Pfade und Grundeinstellungen bleiben immer gleich. Damit diese nicht
         mühsam immer wieder von Hand eingegeben werden und bei Veränderungen nur einmal angepasst
-        werden müssen, definiert man diese Eigenschaften in Editorvariablen</shortdesc>
+        werden müssen, definiert man diese Eigenschaften in Editorvariablen.</shortdesc>
     <refbody>
         <section id="section_ynf_rk2_kdb">
             <title>Zu setzende Variablen</title>

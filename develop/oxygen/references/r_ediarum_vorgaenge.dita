@@ -39,7 +39,7 @@
            <li><p>org.bbaw.telota.ediarum.InsertListItemAtOperation.java</p><p>
                      Liest eine Liste aus einer URL aus und fügt entsprechend der Auswahl ein Element an einer bestimmten Position ein.</p>
                <p>Argument: URL</p>      
-               <ul><
+               <ul>
                    <li>Wir haben standardmässig immer eine xql-Datei, die die Personenregister-xml erzeugt. Warum: Wegen Unterteilung in Vorname, Nachname, etc</li>
                    <li>Wir geben für dieses Argument keinen hard-coded Pfad ein, sondern per Editorvariablen</li>
                      </ul>

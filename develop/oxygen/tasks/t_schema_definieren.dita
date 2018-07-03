@@ -9,10 +9,10 @@
         </context>
         <steps>
             <step>
-                <cmd>im Erweiterungsframework, Verzeichnis "schemata" erstellen und Datei "<projektschema>.rng" anlegen</cmd>
+                <cmd>im Erweiterungsframework, Verzeichnis "schemata" erstellen und Datei "[projektschema].rng" anlegen</cmd>
             </step>
             <step>
-                <cmd>Validierung > hinzufügen (+) > Eigenes Schema > <projektschema>.rng einbinden > ok > als Standard aktivieren</cmd>
+                <cmd>Validierung > hinzufügen (+) > Eigenes Schema > [projektschema].rng einbinden > ok > als Standard aktivieren</cmd>
             </step>
         </steps>
     </taskbody>
