@@ -14,9 +14,8 @@
                     >Textphänomenen</xref> und deren <xref
                     href="frameworks/basis/text/_intro_editor.dita" format="dita">textkritischer
                     Deutung</xref>,</li>
-            <li>die Datenmodellierung der <xref href="frameworks/index/register.dita"
-                    format="dita">Register</xref> (Personen, Orte, Institutionen und
-                Verweissiglen)</li>
+            <li>die Datenmodellierung der <xref href="frameworks/index/register.dita" format="dita"
+                    >Register</xref> (Personen, Orte, Institutionen und Verweissiglen),</li>
             <li>die technischen Grundlagen der digitalen Edition (Datenmodell, Kodierungsstandards,
                 Basistechnologien).</li>
         </ul>

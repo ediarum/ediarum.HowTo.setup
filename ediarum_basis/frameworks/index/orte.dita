@@ -16,7 +16,8 @@
      <p><b>Norm-ID (GeoNames)</b></p>
     </li>
    </ul>
-   <p>Jeder Ortseintrag erhält, falls vorhanden, eine GeoNames-ID.</p>
+   <p>Jeder Ortseintrag erhält, falls vorhanden, eine GeoNames-ID. Falls noch kein GeoNames-Eintrag
+    vorhanden ist, wird dieser neu angelegt.</p>
    <ul id="ul_pz4_5pv_h2b">
     <li><b>Namen</b></li>
    </ul>

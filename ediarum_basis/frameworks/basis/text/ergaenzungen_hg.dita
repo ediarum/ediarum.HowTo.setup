@@ -90,8 +90,8 @@
           <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
-              <entry><b>Befund</b></entry>
               <entry><b>Quelle</b></entry>
+              <entry><b>Befund</b></entry>             
               <entry><b>Kritischer Text</b></entry>
               <entry><b>Lesetext</b></entry>
             </row>
@@ -190,8 +190,8 @@
           <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
-              <entry><b>Befund</b></entry>
               <entry><b>Quelle</b></entry>
+              <entry><b>Befund</b></entry>             
               <entry><b>Kritischer Text</b></entry>
               <entry><b>Lesetext</b></entry>
             </row>
@@ -282,8 +282,8 @@
           <colspec colname="c4" colnum="4" colwidth="1.0*"/>
           <thead>
             <row>
-              <entry><b>Befund</b></entry>
               <entry><b>Quelle</b></entry>
+              <entry><b>Befund</b></entry>              
               <entry><b>Kritischer Text</b></entry>
               <entry><b>Lesetext</b></entry>
             </row>
