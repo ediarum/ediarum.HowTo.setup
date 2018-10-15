@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>develop-doku</title>
+    <topichead navtitle="Über ediarum">
+        <topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
+    </topichead>
+    <topichead navtitle="ediarum installieren"/>
+    <topichead navtitle="ediarum konfigurieren - eigenes Framework aufsetzen"/>
+    <topichead navtitle="ediarum entwickeln">
+        <topichead navtitle="Entwicklungsumgebung">
+            <topicref href="ediarum_uebergreifend/references/r_benoetigte_programme.dita">
+                <topicref href="ediarum_uebergreifend/concepts/c_ant.dita"/>
+                <topicref href="ediarum_uebergreifend/concepts/c_atom.dita"/>
+                <topicref href="ediarum_uebergreifend/concepts/c_git.dita"/>
+            </topicref>
+        </topichead>
+        <topichead navtitle="Setup bei TELOTA">
+            <topicref href="ediarum_uebergreifend/references/r_telota_server.dita"/>
+            <topicref href="ediarum_uebergreifend/concepts/c_projektinstanzen.dita"/>
+            <topicref href="ediarum_uebergreifend/concepts/c_redmine.dita"/>
+            <topicref href="ediarum_uebergreifend/tasks/t_redmine_ticket_anlegen.dita"/>
+        </topichead>
+        <topicref href="ediarum_uebergreifend/tasks/t_entwicklungsumgebung_einrichten.dita"/>
+    </topichead>
+</map>
