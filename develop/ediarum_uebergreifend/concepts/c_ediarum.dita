@@ -6,6 +6,35 @@
         XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu erstellen.</shortdesc>
     <!-- oberstes Verständnis-Topic, von dem alle anderen Verständnistopics abzweigen -->
     <conbody>
-        <p></p>
+        <p>Workflow, wie eine digitale Edition entsteht:</p>
+        <ol>
+            <li>Datenmodell definieren (XML Schema, TEI > DTABF > projektspezifisch)</li>
+            <li>"Daten" eingeben (per Oxygen Author, Speichern in exist DB)</li>
+            <li>Webausgabe herstellen (aus exist DB, mithilfe von integriertem
+                Templating-Mechanismus und ediarum.web)</li>
+        </ol>
+        <p>Zusammenhang zwischen:</p>
+        <ul>
+            <li>eXist</li>
+            <li>Oxygen, Framework</li>
+        </ul>
+        <p>Zusammenhang zwischen:</p>
+        <ul id="ul_nsb_4dd_mfb">
+            <li>db.app</li>
+            <li>ediarum.base</li>
+            <li>ediarum.register</li>
+            <li>ediarum.edit</li>
+            <li>ediarum.jar</li>
+            <li>ediarum.web</li>
+        </ul>
+        <p>Framework-Zusammenhang zwischen:</p>
+        <ul>
+            <li>Template</li>
+            <li>Schema</li>
+            <li>Anwendungslayout</li>
+            <li>CSS</li>
+            <li>Editorvariablen</li>
+            <li>Vorgänge/Aktionen/Operationen</li>
+        </ul>
     </conbody>
 </concept>

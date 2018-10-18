@@ -77,7 +77,7 @@
                <p>Argument: element</p>
                <ul>
                    <li>Das, was an der ausgewählten Position eingefügt wird</li>
-                   <li><persName xmlns="http://www.tei-c.org/ns/1.0" key="$ITEMS"/></li>
+                   <li>persName xmlns="http://www.tei-c.org/ns/1.0" key="$ITEMS"/</li>
                    <li>Achtung, Namespace nicht vergessen!</li>
                </ul>
                

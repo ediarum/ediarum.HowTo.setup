@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="oxygen_addon_installieren">
-    <title>Framework installieren</title>
+    <title>Framework installieren (Add-On)</title>
     <!-- "installieren"? Oder lieber "aktivieren"? -->
     <shortdesc>In Oxygen können Sie sehr einfach ein anderes Framework mitsamt allen Einstellungen
         installieren, wenn das Framework als Add-On bereit steht.</shortdesc>
