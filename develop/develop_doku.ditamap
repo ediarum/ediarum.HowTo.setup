@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>develop-doku</title>
+    <topichead navtitle="Über ediarum">
+        <topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita">
+            <topicref href="oxygen/concepts/c_framework_kaskade.dita"/>
+            <topicref href="oxygen/concepts/c_aktion.dita"/>
+            <topicref href="oxygen/concepts/c_editorvariable.dita"/>
+            <topicref href="oxygen/tasks/t_nutzer_verwalten.dita"/>
+        </topicref>
+        <topicref href="existDB/concepts/c_existdb.dita"/>
+        <topicref href="oxygen/concepts/c_oxygen.dita">
+            <topicref href="oxygen/concepts/c_oxygen_author.dita"/>
+            <topicref href="oxygen/concepts/c_oxygen_editor.dita"/>
+            <topicref href="oxygen/concepts/c_versionen_lizenzen.dita"/>
+        </topicref>
+    </topichead>
+    <topichead navtitle="Benötigte Software installieren und einrichten">
+        <topicref href="existDB/tasks/t_exist_installieren.dita"/>
+        <topicref href="oxygen/tasks/t_oxygen_installieren.dita"/>
+        <topicref href="oxygen/tasks/t_mit_exist_verbinden.dita"/>
+    </topichead>
+    <topichead navtitle="ediarum installieren">
+        <topicref href="existDB/tasks/t_register_aktivieren.dita"/>
+        <topicref href="oxygen/tasks/t_projekt_anlegen.dita"/>
+        <topicref href="oxygen/tasks/t_framework_erstellen.dita"/>
+        <topicref href="oxygen/tasks/t_verknuepfungsregeln_ergaenzen.dita"/>
+        <topicref href="oxygen/tasks/t_templates_erstellen.dita"/>
+        <topicref href="oxygen/tasks/t_framework_anlegen.dita"/>
+        <topicref href="oxygen/tasks/t_schema_definieren.dita"/>
+        <topicref href="oxygen/tasks/t_anwendungslayout_verknuepfen.dita"/>
+        <topicref href="oxygen/tasks/t_autor_css_anlegen.dita"/>
+        <topicref href="oxygen/tasks/t_editorvariablen_setzen.dita"/>
+        <topicref href="oxygen/tasks/t_einstellungen_einstellen.dita"/>
+        <topicref href="oxygen/tasks/t_aktion_definieren.dita">
+            <topicref href="oxygen/concepts/c_vorgang_operation.dita"/>
+        </topicref>
+        <topicref href="oxygen/tasks/t_addon_installieren.dita"/>
+    </topichead>
+    <topichead navtitle="ediarum konfigurieren - eigenes Framework aufsetzen">
+        <topicref href="existDB/tasks/t_projekt_anlegen.dita"/>
+        <topicref href="oxygen/concepts/c_framework_konventionen.dita"/>
+    </topichead>
+    <topichead navtitle="ediarum updaten">
+        <topicref href="oxygen/tasks/t_framework_updaten.dita"/>
+    </topichead>
+    <topichead navtitle="ediarum entwickeln">
+        <topichead navtitle="Entwicklungsumgebung">
+            <topicref href="ediarum_uebergreifend/references/r_benoetigte_programme.dita">
+                <topicref href="ediarum_uebergreifend/concepts/c_ant.dita"/>
+                <topicref href="ediarum_uebergreifend/concepts/c_atom.dita"/>
+                <topicref href="ediarum_uebergreifend/concepts/c_git.dita"/>
+            </topicref>
+            <topicref href="ediarum_uebergreifend/tasks/t_entwicklungsumgebung_einrichten.dita"/>
+        </topichead>
+        <topichead navtitle="Setup bei TELOTA">
+            <topichead navtitle="Server">
+                <topicref href="ediarum_uebergreifend/references/r_telota_server.dita"/>
+                <topicref href="ediarum_uebergreifend/concepts/c_projektinstanzen.dita"/>
+            </topichead>
+            <topichead navtitle="exist">
+                <topicref href="existDB/references/r_verzeichnisstruktur.dita"/>
+                <topicref href="existDB/tasks/t_nutzer_verwalten.dita"/>
+                <topicref href="existDB/tasks/t_projekt_migrieren.dita"/>
+            </topichead>
+            <topicref href="ediarum_uebergreifend/concepts/c_redmine.dita">
+                <topicref href="ediarum_uebergreifend/tasks/t_redmine_ticket_anlegen.dita"/>
+            </topicref>
+        </topichead>
+        <topicref href="oxygen/tasks/t_addon_liefern.dita"/>
+        <topichead navtitle="ediarum.web entwickeln">
+            <topicref href="existDB/concepts/c_edweb_xquery_funktionen.dita"/>
+        </topichead>
+    </topichead>
+    <topichead navtitle="Backups">
+        <topicref href="existDB/tasks/t_backup_erstellen.dita"/>
+        <topicref href="existDB/tasks/t_backup_finden.dita"/>
+    </topichead>
+</map>

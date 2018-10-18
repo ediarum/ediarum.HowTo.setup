@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_editorvariablen_setzen">
+    <title>Editorvariablen setzen (Oxygen)</title>
+    <shortdesc>Sie müssen einmal die Standard-Namen und -Pfade für Ihr Projekt festlegen. Dann
+        verwendet Oxygen sie für die Generierung aller Pfade, Einstellungen und
+        ähnlichem.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd><!-- Wo man das macht... --></cmd>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links><!-- siehe Reference-Task mit Editorvariablen-Übersicht. Diese Links vorauss. nicht direkt hier setzen, sondern über die DITA-Map --></related-links>
+</task>
