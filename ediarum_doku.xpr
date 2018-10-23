@@ -2,7 +2,16 @@
 <project version="20.1">
     <meta>
         <filters directoryPatterns="" filePatterns="ediarum_doku.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options/>
+        <options>
+            <serialized version="20.1" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/develop/develop_doku.ditamap</String>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
     </meta>
     <projectTree name="ediarum_doku.xpr">
         <folder path="."/>
