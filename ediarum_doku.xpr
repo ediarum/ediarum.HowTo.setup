@@ -382,6 +382,8 @@
                                 </field>
                             </ditaScenario>
                         </scenario-array>
+                        <String>keys.context</String>
+                        <String>${pdu}/develop/develop_doku.ditamap</String>
                     </entry>
                 </serializableOrderedMap>
             </serialized>
