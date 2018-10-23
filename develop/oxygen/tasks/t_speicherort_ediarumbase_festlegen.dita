@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_speicherort_ediarumbase_festlegen">
+    <title>ediarum.BASE "installieren" (Oxygen)</title>
+    <shortdesc>In Oxygen legen Sie einen Arbeitsordner fest, in dem Sie alle Dateien des
+        ediarum.BASE-Frameworks ablegen. [Ist das hier der Punkt, wo man sich  [was genau?] von
+        github holt und in diesen Ordner legt?]</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+            <note>Anstelle des hier beschriebenen Vorgehens können Sie alternativ eine Standard-Ordnerstruktur benutzen, die auf github [genauer Pfad, Dateiname?] zur Verfügung steht. Sie benötigen dafür ANT.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_ediarumdb_installieren">
+    <title>ediarum.DB installieren (eXist-db)</title>
+    <shortdesc>Über die grafische Oberfläche [Package Manager] der eXist-db installieren Sie das
+        xar-Package [genauer Dateiname, Ordnerpfad] von github. Danach können Sie die eXist-App
+        ediarum.DB verwenden.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
