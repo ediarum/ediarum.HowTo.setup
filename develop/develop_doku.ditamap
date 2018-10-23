@@ -6,10 +6,10 @@
     <title>develop-doku</title>
     <topichead navtitle="Über ediarum">
         <topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita">
-            <topicref href="oxygen/concepts/c_framework_kaskade.dita"/>
             <topicref href="oxygen/concepts/c_aktion.dita"/>
             <topicref href="oxygen/concepts/c_editorvariable.dita"/>
             <topicref href="oxygen/tasks/t_nutzer_verwalten.dita"/>
+            <topicref href="oxygen/concepts/c_framework.dita"/>
         </topicref>
         <topicref href="existDB/concepts/c_existdb.dita"/>
         <topicref href="oxygen/concepts/c_oxygen.dita">
