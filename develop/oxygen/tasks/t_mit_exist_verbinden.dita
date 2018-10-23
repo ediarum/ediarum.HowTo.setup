@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="oxygen_mit_exist_verbinden">
     <title>Oxygen mit der Datenbank eXist verbinden</title>
-    <shortdesc>Anleitung, wie der Oxygen mit der Datenbank verbunden wird</shortdesc>
+    <shortdesc>Anleitung, wie Sie den Oxygen mit der Datenbank verbinden.</shortdesc>
     <taskbody>
         <context>
             <p></p>
@@ -14,36 +14,24 @@
             </step>
             <step>
                 <cmd>Erstellen Sie eine neue Verbindung.</cmd>
-                <info>Klicken Sie den <uicontrol>+-Button</uicontrol> in der unteren Hälfte (Verbindungen)<image href="../../img/oxy_anbindung_01.png" placement="break"></image></info>
+                <info>Klicken Sie den <uicontrol>+-Button</uicontrol> in der unteren Hälfte (Verbindungen)</info>
             </step>
             <step>
                 <cmd>Füllen Sie die Angaben im neuen Fenster aus.</cmd>
-                <info><image href="../../img/oxy_anbindung_02.png" placement="break"></image></info>
+                <info><image href="../../img/oxy_anbindung.png" placement="break"></image></info>
                 <substeps>
                     <substep>
-                        <cmd>Name: Geben Sie den Projektnamen ein (Empfehlung).</cmd>
-                        <info>Siehe in der Abbildung, Nr. 1</info>
+                        <cmd>Name: Geben Sie den Projektnamen ein.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Datenquelle: Wählen Sie eXistTreiber</cmd>
-                        <info>Siehe in der Abbildung, Nr. 2</info>
+                        <cmd>Datenquelle: Wählen Sie webDAV (S)FTP.</cmd>
                     </substep>
                     <substep><!-- extern -->
-                        <cmd>XML DB URI: Geben Sie die den Pfad zur Datenbank ein.</cmd>
-                        <info>Siehe in der Abbildung, Nr. 3, Muster: "xmldb:exist://&lt;host&gt;:8080/exist/xmlrpc"</info>
-                        <!-- INTERN <info>XML DB URI: xmldb:exist://xmldev.bbaw.de/ediarum/xmlrpc</info>-->
+                        <cmd>WebDAV: Geben Sie den Pfad zur Datenbank ein.</cmd>
+                        <!-- INTERN https://xmledit.bbaw.de/ediarum/webdav/db/projects/ovp/data-->
                     </substep>
                     <substep>
-                        <cmd>Benutzer: Geben Sie Ihren Benutzernamen ein, den Sie bei der Einrichtung der Datenbank angegeben haben. In der Regel lautet dieser "admin".</cmd>
-                        <info>Siehe in der Abbildung, Nr. 4</info>
-                    </substep>
-                    <substep>
-                        <cmd>Passwort: Geben Sie das Passwort für den Benutzer ein, das Sie bei der Einrichtung der Datenbank vergeben haben.</cmd>
-                        <info>Siehe in der Abbildung, Nr. 5</info>
-                    </substep>
-                    <substep>
-                        <cmd>Sammlung: /db</cmd>
-                        <info>Siehe in der Abbildung, Nr. 6.</info>
+                        <cmd>Benutzer und Passwort: Geben Sie Ihre Anmeldedaten für die Datenbank ein, die Sie in der eXist-App ediarum.DB angelegt haben</cmd>
                     </substep>
                 </substeps>
             </step>
