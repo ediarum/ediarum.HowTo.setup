@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ediarumdb_installieren">
     <title>ediarum.DB installieren (eXist-db)</title>
-		<shortdesc>Über das Dashboard der eXist-db installieren Sie eine <codeph>xar</codeph>-Datei. Danach können Sie die eXist-App <uicontrol>ediarum.DB</uicontrol> verwenden.</shortdesc>
+    <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App <uicontrol>ediarum.DB</uicontrol> verwenden.</shortdesc>
     <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
     <taskbody>
         <context>
@@ -12,7 +12,7 @@
                         href="https://github.com/ediarum/ediarum.DB"
                         >https://github.com/ediarum/ediarum.DB</xref> geklont.<!-- Oder irgendwie allgemeiner formulieren? Alternative: ZIP-Datei runterladen? --></li>
             </ul>
-						<note>Installationsanleitung mit technischen Details siehe: <codeph>INSTALLATION.md</codeph> im
+            <note>Installationsanleitung mit technischen Details siehe: INSTALLATION.md im
                 ediarum.DB Repositorium</note> <!-- Oder sollen wir alleine auf diese Installationsanleitung verweisen und hier garnichts weiter dazu schreiben? -->
         </context>
         <steps>
