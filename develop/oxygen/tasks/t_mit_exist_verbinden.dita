@@ -14,7 +14,7 @@
             </step>
             <step>
                 <cmd>Erstellen Sie eine neue Verbindung.</cmd>
-                <info>Klicken Sie den <uicontrol>+-Button</uicontrol> in der unteren Hälfte (Verbindungen)<image href="../../img/oxy_anbindung_01.png" placement="break"></image></info>
+                <info>Klicken Sie den <uicontrol>+-Button</uicontrol> in der unteren Hälfte (Verbindungen)</info>
             </step>
             <step>
                 <cmd>Füllen Sie die Angaben im neuen Fenster aus.</cmd>
