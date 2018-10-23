@@ -223,7 +223,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/footer.xml</String>
+                                                <String>${pd}/develop/static/footer.xml</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <String>
