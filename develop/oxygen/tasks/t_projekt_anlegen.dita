@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_projekt_anlegen">
-    <title>Projekt anlegen (Oxygen)</title>
+    <title>Projekt in Oxygen anlegen</title>
     <shortdesc>Sie müssen ein Oxygen-Projekt anlegen, in dem alle Framework-spezifischen
-        Einstellungen abgelegt werden.</shortdesc>
+        Einstellungen abgelegt werden. So können Sie die Einstellungen später gebündelt an andere
+        weitergeben.</shortdesc>
     <!-- TODO: ordentlich auszeichnen -->
     <taskbody>
         <context>

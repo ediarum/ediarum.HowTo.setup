@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ueberblick_setup">
+    <title>Überblick über das Setup</title>
+    <shortdesc>[Basic Setup ohne Register, sodass ediarum erstmal läuft]</shortdesc>
+    <conbody>
+        <p>Voraussetzungen:</p>
+        <ul>
+            <li></li>
+        </ul>
+        <p>[In eXist gibt es Apps. Was ist das?]</p>
+        <p/>
+    </conbody>
+</concept>
