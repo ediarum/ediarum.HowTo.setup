@@ -37,6 +37,9 @@
             <li>Editorvariablen</li>
             <li>Vorgänge/Aktionen/Operationen</li>
         </ul>
+        <fig>
+            <image href="../../img/Ediarum-setup-v1.png"></image>
+        </fig>
         <section>
             <title>Überblick über die Softwarearchitektur und die Setup-Mechanismen</title>
             <p>Um den grundlegenden Ablauf zu verstehen, wie Sie ediarum als Editionsumgebung einrichten, hilft es folgende Konzepte verstehen:</p>
