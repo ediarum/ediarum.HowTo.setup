@@ -44,7 +44,9 @@
             <title>Überblick über die Softwarearchitektur und die Setup-Mechanismen</title>
             <p>Um den grundlegenden Ablauf zu verstehen, wie Sie ediarum als Editionsumgebung einrichten, hilft es folgende Konzepte verstehen:</p>
             <ul>
-                <li>eXist-db und Oxygen als Software-Komponenten, mit Apps (eXist-db) und Frameworks (Oxygen) als Konfigurations- und Erweiterungs-Medien [“Medien”?!]</li>
+                <li>eXist-db und Oxygen als Software-Komponenten, mit Apps (eXist-db) und Frameworks
+                    (Oxygen) als Konfigurations- und Erweiterungs-Medien [“Medien”?!]
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Komponenten?<?oxy_custom_end?></li>
                 <li>Aufbau und Funktionsweise eines Frameworks in Oxygen</li>
                 <li>Generalisierung durch Verwendung eines TEI-Subsets in mehreren Erweiterungsstufen: DTA Basisformat → ediarum Schema → Ihr projektspezifisches Schema</li>
             </ul>
@@ -57,7 +59,10 @@
                 <li>Datenhaltung als XML: eXist-db</li>
                 <li>Editionsumgebung (Dateneingabe als XML): Oxygen</li>
             </ul>
-            <p>Sowohl eXist-db als auch Oxygen liefern Mechanismen [?] mit, um sie projektspezifisch zu konfigurieren sowie diese Konfiguration gebündelt an andere Instanzen weiterzugeben:</p>
+            <p>Sowohl eXist-db als auch Oxygen liefern Mechanismen [?] mit, um sie
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>(Arbeitsumgebung)<?oxy_custom_end?>
+                projektspezifisch zu konfigurieren sowie diese Konfiguration gebündelt an andere
+                Instanzen weiterzugeben:</p>
             <ul>
                 <li>eXist-db: App</li>
                 <li> 
@@ -70,8 +75,8 @@
                 <li>
                     <ul>
                         <li>Standardstruktur der XML-Dateien: XML Schema</li>
-                        <li>◦	GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
-                        <li>◦	Gestaltung, wie die festgelegten Elemente und Attribute in der XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML): CSS</li>
+                        <li>GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
+                        <li>Gestaltung, wie die festgelegten Elemente und Attribute in der XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML): CSS</li>
                     </ul>
                 </li>
             
