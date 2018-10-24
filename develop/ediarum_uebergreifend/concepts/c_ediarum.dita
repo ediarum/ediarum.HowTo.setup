@@ -10,15 +10,15 @@
         <p>Workflow, wie eine digitale Edition entsteht:</p>
         <ol>
             <li>Datenmodell definieren (XML Schema, TEI >
-                <?oxy_comment_start aujakob="jakob" timestamp="20181024T120539+0200" comment="Wenn man es googelt, wird &quot;Basisformat&quot; immer mit &quot;-&quot; abgetrennt (&quot;DTA-Basisformat&quot;) oder das ganze mit &quot;DTABf&quot; abgekuerzt. So oder so waere wahrscheinlich 1 Glossareintrag dafuer sinnvoll."?>DTABf<?oxy_comment_end?>
+                <?oxy_comment_start author="jakob" timestamp="20181024T120539+0200" comment="Wenn man es googelt, wird &quot;Basisformat&quot; immer mit &quot;-&quot; abgetrennt (&quot;DTA-Basisformat&quot;) oder das ganze mit &quot;DTABf&quot; abgekuerzt. So oder so waere wahrscheinlich 1 Glossareintrag dafuer sinnvoll."?>DTABf<?oxy_comment_end?>
                 > projektspezifisch)</li>
             <li>"Daten" eingeben (per
-                <?oxy_comment_start aujakob="jakob" timestamp="20181024T120740+0200" comment="glossareintrag um unterschiede zu Editor/Developer klarzumachen?
+                <?oxy_comment_start author="jakob" timestamp="20181024T120740+0200" comment="glossareintrag um unterschiede zu Editor/Developer klarzumachen?
 "?>Oxygen
-                Aujakob<?oxy_comment_end?>, Speichern in
-                <?oxy_comment_start aujakob="jakob" timestamp="20181024T120801+0200" comment="glossareintrag/concept/keyconref?"?>exist
+                Au<?oxy_comment_end?>thor, Speichern in
+                <?oxy_comment_start author="jakob" timestamp="20181024T120801+0200" comment="glossareintrag/concept/keyconref?"?>exist
                 DB<?oxy_comment_end?>)</li>
-            <li><?oxy_comment_start aujakob="jakob" timestamp="20181024T120905+0200" comment="muessen wir auch irgendwie festlegen, ob wir das webausgabe oder webhelp oder sonstwie nennen und bestimmt ist es gut wenn die einzelnen ausgabeformate in jeweils einem concept erklaert werden"?>Webausgabe<?oxy_comment_end?>
+            <li><?oxy_comment_start author="jakob" timestamp="20181024T120905+0200" comment="muessen wir auch irgendwie festlegen, ob wir das webausgabe oder webhelp oder sonstwie nennen und bestimmt ist es gut wenn die einzelnen ausgabeformate in jeweils einem concept erklaert werden"?>Webausgabe<?oxy_comment_end?>
                 herstellen (aus exist DB, mithilfe von integriertem Templating-Mechanismus und
                 ediarum.web)</li>
         </ol>
@@ -79,8 +79,8 @@
                 <li>
                     <ul>
                         <li>Standardstruktur der XML-Dateien: XML Schema</li>
-                        <li>◦	GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
-                        <li>◦	Gestaltung, wie die festgelegten Elemente und Attribute in der XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML): CSS</li>
+                        <li>GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
+                        <li>Gestaltung, wie die festgelegten Elemente und Attribute in der XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML): CSS</li>
                     </ul>
                 </li>
             
