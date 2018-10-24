@@ -40,6 +40,9 @@
         <fig>
             <image href="../../img/Ediarum-setup-v1.png"></image>
         </fig>
+        <fig>
+            <image href="../../img/Ediarum-setup-v2.png"></image>
+        </fig>
         <section>
             <title>Überblick über die Softwarearchitektur und die Setup-Mechanismen</title>
             <p>Um den grundlegenden Ablauf zu verstehen, wie Sie ediarum als Editionsumgebung einrichten, hilft es folgende Konzepte verstehen:</p>
@@ -67,7 +70,11 @@
                 <li>eXist-db: App</li>
                 <li> 
                     <ul>
-                        <li>Templating-System, um mithilfe von xquery und/oder xslt aus den Daten Webanwendungen zu publizieren</li>
+                        <li>Templating-System, um mithilfe von
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>xquery<?oxy_custom_end?>
+                            und/oder
+                            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>xslt<?oxy_custom_end?>
+                            aus den Daten Webanwendungen zu publizieren</li>
                         <li>projektspezifische Ordnerstruktur für die Datenhaltung</li>
                     </ul>
                 </li>
