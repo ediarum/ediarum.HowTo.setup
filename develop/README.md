@@ -22,6 +22,16 @@ Darin sind ein paar erforderliche Variablen gesetzt, die so oder so aehnlich aus
 
 Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man z.B. die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
 
+Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter `develop/out/webhelp-responsive/index.html` sein.
+
+
+##### Deployment
+
+Fuer Review etc. stellen wir HTML-Webhelp-Builds auf [`telota.bbaw.de`](http://telota.bbaw.de/ediarum/manual/setup/) ins Internet.
+Das Verzeichnis wo die Inhalte dazu hinkopiert werden muessen ist:
+
+    root@telota.bbaw.de:/data1/projekte/ediarum/manual/setup
+
 
 ### Editorvariablen
 
