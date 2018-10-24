@@ -27,9 +27,9 @@
                 <cmd>Klicken Sie das Icon <uicontrol>add a button</uicontrol> an und ziehen Sie aus
                     dem ediarum.DB Repositorium die Datei <filepath>release/ediarum.xar</filepath>
                     in das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
-                <fig>
+                <info><fig>
                     <image href="../../img/exist_PackageManager_UploadPackages.png"/>
-                </fig>
+                </fig></info>
             </step>
         </steps>
         <result>Im Dashboard sehen Sie nun die eXist-App <uicontrol>ediarum.DB</uicontrol>.</result>
