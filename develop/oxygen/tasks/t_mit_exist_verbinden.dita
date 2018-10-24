@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="oxygen_mit_exist_verbinden">
-    <title>Oxygen mit der Datenbank eXist verbinden</title>
-    <shortdesc>Anleitung, wie Sie den Oxygen mit der Datenbank verbinden.</shortdesc>
+    <title>Oxygen mit eXist-db verbinden</title>
+    <shortdesc>Verbinden Sie Oxygen als Eingabekomponente mit der Datenbank.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
         <steps>
             <step>
-                <cmd>Öffnen Sie den Datenquellen Explorer.</cmd>
-                <info>Optionen > Einstellungen > Datenquellen</info>
+                <cmd>Öffnen Sie in Oxygen den Datenquellen Explorer: <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol><uicontrol>Datenquellen</uicontrol></menucascade></cmd>
             </step>
             <step>
-                <cmd>Erstellen Sie eine neue Verbindung.</cmd>
-                <info>Klicken Sie den <uicontrol>+-Button</uicontrol> in der unteren Hälfte (Verbindungen)</info>
+                <cmd>Klicken Sie den <uicontrol>+</uicontrol> Button in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>), um eine neue Verbindung zu erstellen.</cmd>
             </step>
             <step>
-                <cmd>Füllen Sie die Angaben im neuen Fenster aus.</cmd>
-                <info><image href="../../img/oxy_anbindung.png" placement="break"></image></info>
-                <substeps>
-                    <substep>
-                        <cmd>Name: Geben Sie den Projektnamen ein.</cmd>
-                    </substep>
-                    <substep>
-                        <cmd>Datenquelle: Wählen Sie webDAV (S)FTP.</cmd>
-                    </substep>
-                    <substep><!-- extern -->
-                        <cmd>WebDAV: Geben Sie den Pfad zur Datenbank ein.</cmd>
-                        <!-- INTERN https://xmledit.bbaw.de/ediarum/webdav/db/projects/ovp/data-->
-                    </substep>
-                    <substep>
-                        <cmd>Benutzer und Passwort: Geben Sie Ihre Anmeldedaten für die Datenbank ein, die Sie in der eXist-App ediarum.DB angelegt haben</cmd>
-                    </substep>
-                </substeps>
+                <cmd>Füllen Sie die Angaben im nun geöffneten <uicontrol>Verbindungen</uicontrol>
+                    Fenster aus.</cmd>
+                <info>
+                    <image href="../../img/oxy_anbindung.png" placement="break"
+                        id="image_ynk_yd4_4fb"/>
+                    <ul id="ul_znk_yd4_4fb">
+                        <li><uicontrol>Name</uicontrol>: Name dieser Verbindung, z.B.
+                                <userinput>Beispieledition</userinput>. Dient Ihnen zur
+                            Unterscheidung dieser Verbindung von anderen Datenbankverbindungen, die
+                            Sie in Oxygen definiert haben.</li>
+                        <li><uicontrol>Datenquelle</uicontrol>: <userinput>WebDAV (S)FTP</userinput></li>
+                        <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
+                            eXist-Instanz, nach dem Muster:
+                                    <userinput>http://<varname>HOST</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
+                            </userinput>Zum Beispiel:
+                                <userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/Beispieledition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard!--></li>
+                        <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
+                            Anmeldedaten, die Sie in der eXist-App ediarum.DB angelegt haben</li>
+                    </ul>
+                </info>
             </step>
         </steps>
     </taskbody>
