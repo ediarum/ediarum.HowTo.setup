@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_framework_anlegen">
+<task id="t_framework_anlegen" xml:lang="de-DE">
     <title>Projektspezifisches Framework anlegen (Oxygen)</title>
     <shortdesc>Sie müssen ein projektspezifisches Framework als eine Erweiterung des
         ediarum.basis-Frameworks anlegen, auch wenn Sie vorerst keine Veränderungen an ediarum.BASE

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="ediarum">
+<concept id="ediarum" xml:lang="de-DE">
     <title>ediarum</title>
     <shortdesc>Ediarum ist eine Softwarekomponete, die man als Ausgangspunkt benutzen kann, um für
         eine XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu

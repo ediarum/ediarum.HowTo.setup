@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="oxygen_mit_exist_verbinden">
+<task id="oxygen_mit_exist_verbinden" xml:lang="de-DE">
     <title>Oxygen mit eXist-db verbinden</title>
     <shortdesc>Verbinden Sie Oxygen als Eingabekomponente mit der Datenbank.</shortdesc>
     <taskbody>
