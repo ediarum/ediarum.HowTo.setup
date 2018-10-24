@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="ediarum_basis">
+    <booktitle>
+        <mainbooktitle>Ediarum Basisdokumentation</mainbooktitle>
+    </booktitle>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+		<chapter navtitle="Überblick">
+		<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
+	</chapter>
+		<chapter navtitle="Basic Setup">
+			<topicref href="./ediarum_uebergreifend/concepts/c_ueberblick_setup.dita">
+				<topicref href="./existDB/tasks/t_existdb_einrichten.dita">
+					<topicref href="./existDB/tasks/t_ediarumdb_installieren.dita"/>
+					<topicref href="./existDB/tasks/t_projekt_anlegen.dita"/>
+				</topicref>
+			<topicref href="./oxygen/tasks/t_mit_exist_verbinden.dita"/>
+				<topichead navtitle="Oxygen einrichten">
+				<topicref href="./oxygen/tasks/t_speicherort_ediarumbase_festlegen.dita"/>
+				<topicref href="./oxygen/tasks/t_projekt_anlegen.dita"/>
+				<topicref href="./oxygen/tasks/t_framework_anlegen.dita"/>
+				</topichead>
+			<topicref href="./oxygen/tasks/t_addon_liefern.dita"/>
+			</topicref>
+		</chapter>
+		<chapter navtitle="Setup der Registerfunktionalitäten"></chapter>
+		<chapter navtitle="Oxygen Framework für das eigene Editionsprojekt konfigurieren"></chapter>
+
+</bookmap>
