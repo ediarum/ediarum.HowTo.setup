@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<div class="container">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+            <h3>Über diese Publikation</h3>
+            <p>Benutzerhandbuch ediarum.BASIS</p>
+        </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>&#x00A0;</h3>
+        <p>
+        </p>
+        </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Lizenz</h3>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110"/></a>
+        <p><br/>Alle Inhalte dieser Seite unterstehen, soweit nicht anders gekennzeichnet, der <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Lizenz CC BY-SA 4.0</a>.</p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Herausgeber</h3>
+        <p>TELOTA-Arbeitsgruppe der Berlin-Brandenburgischen Akademie der Wissenschaften</p>
+        <p style="text-align: right; color: silver;">Version 0.2. Stand: 29.06.2018</p>
+        </div>
+</div>
