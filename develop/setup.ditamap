@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<bookmap id="ediarum_basis">
+<bookmap id="ediarum_basis" xml:lang="de-DE">
     <booktitle>
         <mainbooktitle>Ediarum Basisdokumentation</mainbooktitle>
     </booktitle>
@@ -20,9 +20,9 @@
 				</topicref>
 			<topicref href="./oxygen/tasks/t_mit_exist_verbinden.dita"/>
 				<topichead navtitle="Oxygen einrichten">
-				<topicref href="./oxygen/tasks/t_speicherort_ediarumbase_festlegen.dita"/>
-				<topicref href="./oxygen/tasks/t_projekt_anlegen.dita"/>
-				<topicref href="./oxygen/tasks/t_framework_anlegen.dita"/>
+					<topicref href="./oxygen/tasks/t_speicherort_ediarumbase_festlegen.dita"/>
+					<topicref href="./oxygen/tasks/t_projekt_anlegen.dita"/>
+					<topicref href="./oxygen/tasks/t_framework_anlegen.dita"/>
 				</topichead>
 			<topicref href="./oxygen/tasks/t_addon_liefern.dita"/>
 			</topicref>
