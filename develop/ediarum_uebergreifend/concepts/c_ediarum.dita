@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ediarum">
     <title>ediarum</title>
-    <shortdesc>Ediarum ist eine Vorlage, die man als Ausgangspunkt benutzen kann, um für eine
-        XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu erstellen.</shortdesc>
+    <shortdesc>Ediarum ist eine Softwarekomponete, die man als Ausgangspunkt benutzen kann, um für
+        eine XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu
+        erstellen.</shortdesc>
     <!-- oberstes Verständnis-Topic, von dem alle anderen Verständnistopics abzweigen -->
     <conbody>
         <p>Workflow, wie eine digitale Edition entsteht:</p>
@@ -36,5 +37,83 @@
             <li>Editorvariablen</li>
             <li>Vorgänge/Aktionen/Operationen</li>
         </ul>
+        <fig>
+            <image href="../../img/Ediarum-setup-v1.png"></image>
+        </fig>
+        <section>
+            <title>Überblick über die Softwarearchitektur und die Setup-Mechanismen</title>
+            <p>Um den grundlegenden Ablauf zu verstehen, wie Sie ediarum als Editionsumgebung einrichten, hilft es folgende Konzepte verstehen:</p>
+            <ul>
+                <li>eXist-db und Oxygen als Software-Komponenten, mit Apps (eXist-db) und Frameworks (Oxygen) als Konfigurations- und Erweiterungs-Medien [“Medien”?!]</li>
+                <li>Aufbau und Funktionsweise eines Frameworks in Oxygen</li>
+                <li>Generalisierung durch Verwendung eines TEI-Subsets in mehreren Erweiterungsstufen: DTA Basisformat → ediarum Schema → Ihr projektspezifisches Schema</li>
+            </ul>
+        </section>
+        <section>
+            <title>eXist-db mit Apps, Oxygen mit Frameworks</title>
+            <p>Ediarum ist für Editionen, die ihre Daten als XML eingeben und speichern. Es baut auf folgenden zwei Programmen auf:</p>
+            
+            <ul>
+                <li>Datenhaltung als XML: eXist-db</li>
+                <li>Editionsumgebung (Dateneingabe als XML): Oxygen</li>
+            </ul>
+            <p>Sowohl eXist-db als auch Oxygen liefern Mechanismen [?] mit, um sie projektspezifisch zu konfigurieren sowie diese Konfiguration gebündelt an andere Instanzen weiterzugeben:</p>
+            <ul>
+                <li>eXist-db: App</li>
+                <li> 
+                    <ul>
+                        <li>Templating-System, um mithilfe von xquery und/oder xslt aus den Daten Webanwendungen zu publizieren</li>
+                        <li>projektspezifische Ordnerstruktur für die Datenhaltung</li>
+                    </ul>
+                </li>
+                <li>Oxygen: Framework</li>
+                <li>
+                    <ul>
+                        <li>Standardstruktur der XML-Dateien: XML Schema</li>
+                        <li>◦	GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
+                        <li>◦	Gestaltung, wie die festgelegten Elemente und Attribute in der XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML): CSS</li>
+                    </ul>
+                </li>
+            
+            </ul>
+            <p>Ediarum besteht aus mehreren solcher Oxygen-Frameworks und eXist-db-Apps, die für ein TEI-Subset generalisierbare Konfigurationen enthalten und die hinsichtlich Datenhaltungsstrukturen und Datenzugriff- und verarbeitungslogiken aufeinander abgestimmt sind. Die Generalisierung wird erreicht, indem die ediarum-Frameworks und -Apps die Konfigurationen für ein bestimmtes Subset von TEI enthalten. [Details zu DTABF, Kaskadierung, etc. siehe… Deshalb ist ediarum für alle Editionen interessant, die ihre Editionsanforderungen und ihre Editionsrichtlinien mit diesem TEI-Subset umsetzen können.]
+                Ediarum als Editionsumgebung besteht aus der App ediarum.DB und aus den Frameworks ediarum.BASE und ediarum.REGISTER. Ediarum ist zusätzlich als Publikationsumgebung nutzbar, mit der App ediarum.WEB für Web-Publikationen und der App ediarum.PDF für PDF-Publikationen.
+                Im Überblick besteht das Einrichten (Setup) von ediarum als Publikationsumgebung demzufolge aus folgenden Schritten:
+            </p>
+            <ul>
+                <li>eXist-db und Oxygen installieren</li>
+                <li>ediarum.DB auf eXist-db einrichten</li>
+                <li>ediarum.BASE in Oxygen einrichten</li>
+                <li>Die Verbindung zwischen Oxygen und eXist-db herstellen</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Aufbau und Funktionsweise eines Frameworks in Oxygen
+                Aufbau
+            </title>
+            <p>Für eine Software mit interaktiven GUI-Elementen muss immer folgendes “programmiert” werden:</p>
+            <p>Datenstruktur (Model) – Erklärung, Beispiel</p>
+            <p>Anzeigeelement (View) – Erklärung, Beispiel</p>
+            <p>Ein typisches Beispiel aus der Editionswelt durch alle diese drei Schichten.</p>
+            <p>Oxygen liefert die Grundprogrammierung mit, z.B. Bausteine für Hintergrundabläufe. Es liefert außerdem die GUI mit, über die man aus diesen Bausteinen seine eigenen GUI-Funktionalitäten zusammenbauen kann.</p>
+            <p>Tabelle mit den Spalten: Wofür [?] - Worin steht das, wo liegt das bzw. woher liest Oxygen das? - Wo definiere ich es (GUI)? Welche Oxygen-Komponenten (Bibliotheken?, Dependencies?) benutze ich für die Definition (z.B. ....jar)?</p>      
+        </section>
+        <section>
+            <title>Einstellungen, damit Oxygen es benutzen kann</title>
+            <p>Überblick</p>
+            <ul>
+                <li>zwei Ebenen, auf denen in Oxygen eigene Konfigurationen gespeichert werden: xpr (“Projekt”) und Framework. Ein xpr kann mehrere Frameworks benutzen.</li>
+                <li>In Oxygen Ort angeben für Arbeitsordner, Frameworkordner und z.T. Dateien</li>
+                <li>Oxygen-Einstellungen, die für ediarum in die xpr gehen sollen, wo Sie das angeben (Einstellungen projektspezifisch speichern), wo die xpr liegt</li>
+            </ul>
+            <p>Oxygen liefert von Hause aus verschiedenste Frameworks mit. Die entsprechenden Dateien liegen im Installations-Ordner von Oxygen.</p>
+            <p>Oxygen liefert von Hause aus verschiedenste Frameworks mit. Die entsprechenden Dateien liegen im Installations-Ordner von Oxygen.</p>
+            <p>Egal, wo Sie die Dateien zu Ihren eigenen Frameworks ablegen: Sie müssen Oxygen diesen Ort explizit mitteilen, und zwar für einige Unterordner und Dateien extra:
+                Screenshot oder Grafik Ordnerstruktur mit Standard-Dateien
+                Tabelle mit eine Zeile je Ordner, Unterordner, Datei und mit folgenden Spalten: 1. Ort muss in Oxygen definiert werden? (ja, nein) 2. Wo in Oxygen wird der Ort definiert?
+            </p>
+        </section>
+        
     </conbody>
 </concept>
