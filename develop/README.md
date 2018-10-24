@@ -22,7 +22,7 @@ Darin sind ein paar erforderliche Variablen gesetzt, die so oder so aehnlich aus
 
 Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man z.B. die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
 
-Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter `develop/out/webhelp-responsive/index.html` sein.
+Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter [`develop/out/webhelp-responsive/index.html`](out/webhelp-responsive/index.html) sein.
 
 
 ##### Deployment
@@ -36,3 +36,4 @@ Das Verzeichnis wo die Inhalte dazu hinkopiert werden muessen ist:
 ### Editorvariablen
 
 
+<!--- vim: set ts=2 sw=2 tw=0 noet ft=markdown : -->
