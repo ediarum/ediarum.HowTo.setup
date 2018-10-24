@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_framework_kaskade">
+    <title>oxygen_framework</title>
+    <shortdesc>Ein Framwork in definiert Editionsrichtlinien und die Benutzungsoberfläche in
+        Oxygen.</shortdesc>
+    <conbody>
+        <section>
+            <title>Framework</title>
+            <p>Im Framework sind die Benutzungsoberfläche und die Editionsrichtlinien für bestimmte
+                Dokumententypen definiert. Das Framwork assoziert einen Dokumententyp oder eine
+                definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
+                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. Für
+                Ihr eigenes Projekt können Sie das mitgelieferte ediarum-Framework erweitern ein
+                eigenes Framework, in dem Sie individuell die Werkzeugleiste, die Editionsansicht
+                und Vorlagen einstellen können. Dafür passen Sie im Oxygen-Author  über die
+                Dokumenttypen-Zuordnung die Frameworkkonfiguration an. Mehr Informationen zur
+                Erstellung und Erweiterung finden Sie unter den weiterführenden Links.</p>
+            
+        </section>
+        <section>
+            <title>Framework Kaskade</title>
+            <p>ediarum.basis arbeitet mit dem DTA-Basisformat, was ein Subset von TEI ist. Ein
+                projektspezifisches Framework baut auf dem Framework ediarum.basis auf.</p>
+        </section>
+    </conbody>
+    <related-links scope="external" format="html">
+        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/">
+            <linktext>Tutorial: Wie baue ich ein eigenes Framework für Oxygen XML?</linktext>
+        </link>
+        <link href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial">
+            <linktext>Oxygen-Anleitung zur Anpassung eines Frameworks</linktext>
+        </link>
+    </related-links>
+</concept>
