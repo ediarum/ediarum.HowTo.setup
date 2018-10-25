@@ -3,23 +3,23 @@
 <task id="t_speicherort_ediarumbase_festlegen">
     <title>ediarum-Frameworks einrichten</title>
     <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Arbeitsumgebung verfügbar.
-        Die Funktionalitäten sind in zwei ediarum.edit-Frameworks definiert.</shortdesc>
+        Die Funktionalitäten sind in zwei ediarum._.edit-Frameworks definiert.</shortdesc>
     <taskbody>
         <context>
             <p>Überblick:</p>
             <ul>
-                <li>Sie holen sich die beiden publizierten ediarum.edit-Frameworks auf Ihren lokalen Rechner.
-                <ul>
-                    <li>Anstelle des hier beschriebenen manuellen Vorgehens können Sie in der eXist-App
-                        <uicontrol>ediarum.DB</uicontrol> das Standardverzeichnis mit den
-                        Standarddateien automatisch generieren (<menucascade>
-                            <uicontrol>Projektkonfiguration</uicontrol>
-                            <uicontrol>Entwicklung</uicontrol>
-                        </menucascade> für Ihr Editionsprojekt). Sie benötigen dafür ANT.</li>
-                </ul>
+                <li>Sie holen sich die beiden publizierten ediarum._.edit-Frameworks auf Ihren
+                    lokalen Rechner. <ul>
+                        <li>Anstelle des hier beschriebenen manuellen Vorgehens können Sie in der
+                            eXist-App ediarum.DB das Standardverzeichnis mit
+                            den Standarddateien automatisch generieren (<menucascade>
+                                <uicontrol>Projektkonfiguration</uicontrol>
+                                <uicontrol>Entwicklung</uicontrol>
+                            </menucascade> für Ihr Editionsprojekt). Sie benötigen dafür ANT.</li>
+                    </ul>
                 </li>
-                <li>Sie ändern den Standardordner, an dem Oxygen die Frameworks verwaltet, um Probleme mit Zugriffsrechten zu
-                    vermeiden.</li>
+                <li>Sie ändern den Standardordner, an dem Oxygen die Frameworks verwaltet. Dadurch
+                    vermeiden Sie Probleme mit Zugriffsrechten.</li>
                 <li>Sie legen ein eigenes Framework für Ihre Edition an, auch wenn Sie vorerst keine eigenen Konfigurationen für die Oxygen-Arbeitsumgebung vornehmen möchten. Sie legen dieses Framework als eine Erweiterung des
                     ediarum.BASE.edit-Frameworks an, damit Sie in Ihrer editionsspezifischen Arbeitsumgebung alle Funktionalitäten von ediarum zur Verfügung haben.</li>
             </ul>
@@ -45,8 +45,12 @@
             </step>
             <step>
                 <cmd>Legen Sie in dem Arbeitsordner zusätzlich gleich ein Verzeichnis an, in das Sie
-                    später Ihre editionsspezifisches Framework legen können.</cmd>
-                <info>Empfehlung: Behalten sie <userinput>ediarum</userinput> als ersten Teil des Namens bei, um kenntlich zu machen, dass Ihr editionsspezifisches Framwork eine Erweiterung von ediarum ist. Zum Beispiel: <userinput>ediarum_meineEdition</userinput> </info>
+                    später Ihr editionsspezifisches Framework legen können.</cmd>
+                <info>Empfehlung: Behalten sie im Namen des Ordners <userinput>ediarum</userinput>
+                    als ersten Teil bei, um kenntlich zu machen, dass Ihr editionsspezifisches
+                    Framework eine Erweiterung von ediarum ist. Zum Beispiel:
+                        <userinput>ediarum_meineEdition</userinput>
+                </info>
                 <stepresult>Ihr Arbeitsordner hat nun folgende Struktur und enthält folgende
                     Dateien.
                     <fig/><!-- Screenshot des Ordners, mit aufgeklappten Unterordnern. Der ediarum_beispieledition-Ordner ist leer. --></stepresult>
@@ -59,10 +63,16 @@
                         <cmd>Wählen Sie in Oxygen das Menü <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol></menucascade>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol> Fenster den Eintrag <menucascade><uicontrol>Dokumenttypen-Zuordnung</uicontrol><uicontrol>Orte</uicontrol></menucascade>aus.</cmd>
+                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol>
+                            Fenster den Eintrag <menucascade>
+                                <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
+                                <uicontrol>Orte</uicontrol>
+                            </menucascade> aus.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Aktivieren Sie die Option <uicontrol>Benutzerdefiniert:</uicontrol> und tragen Sie den Pfad zum Arbeitsordner ein und klicken Sie auf <uicontrol>OK</uicontrol>.</cmd>
+                        <cmd>Aktivieren Sie die Option <uicontrol>Benutzerdefiniert:</uicontrol> ,
+                            tragen Sie den Pfad zum Arbeitsordner ein und klicken Sie auf
+                                <uicontrol>OK</uicontrol>.</cmd>
                     </substep>
                 </substeps>
                 <info><fig><image><!-- Screenshot von dem Fenster, mit "Benutzerdefiniert" ausgewählt und eingetragenem Beispielpfad. --></image></fig></info>

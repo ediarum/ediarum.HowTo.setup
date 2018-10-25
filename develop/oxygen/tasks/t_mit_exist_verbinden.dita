@@ -8,7 +8,11 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Öffnen Sie in Oxygen den Datenquellen Explorer: <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol><uicontrol>Datenquellen</uicontrol></menucascade></cmd>
+                <cmd>Öffnen Sie in Oxygen den Datenquellen Explorer (<menucascade>
+                        <uicontrol>Optionen</uicontrol>
+                        <uicontrol>Einstellungen</uicontrol>
+                        <uicontrol>Datenquellen</uicontrol>
+                    </menucascade>)</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie den <uicontrol>+</uicontrol> Button in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>), um eine neue Verbindung zu erstellen.</cmd>
