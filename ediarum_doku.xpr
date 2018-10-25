@@ -14,22 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>ediarum_basis_dokumentation (WebHelp Responsive)</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>develop/ediarum_basis_dokumentation.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>ediarum_basis_dokumentation (WebHelp Responsive)</String>
+                                        <String>Ediarum Einrichtung Dokumentation (WebHelp Responsive)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -315,7 +300,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>ediarum_basis_dokumentation (WebHelp Responsive)</String>
+                                    <String>Ediarum Einrichtung Dokumentation (WebHelp Responsive)</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
