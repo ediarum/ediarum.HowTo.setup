@@ -11,6 +11,8 @@
     </frontmatter>
 		<chapter navtitle="Überblick">
 		<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
+		<topicref href="oxygen/concepts/c_framework.dita"/>
+		<topicref href="ediarum_uebergreifend/concepts/c_register.dita"/>
 	</chapter>
 		<chapter navtitle="Basic Setup">
 		<topicref href="./existDB/tasks/t_existdb_einrichten.dita">
