@@ -10,11 +10,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>develop/ediarum_basis_dokumentation.ditamap</String>
+                                    <String>develop/setup.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>ediarum_basis_dokumentation (WebHelp Responsive)</String>
+                                        <String>Ediarum Einrichtung Dokumentation (WebHelp Responsive)</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -300,7 +300,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>ediarum_basis_dokumentation (WebHelp Responsive)</String>
+                                    <String>Ediarum Einrichtung Dokumentation (WebHelp Responsive)</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>

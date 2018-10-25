@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="exist_projekt_anlegen">
+<task id="exist_projekt_anlegen" xml:lang="de-DE">
     <title>Projekt in der Datenbank anlegen</title>
     <shortdesc>In der Datenbank muss ein Projekt für Ihre Edition mit einer standardisierten
         Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards

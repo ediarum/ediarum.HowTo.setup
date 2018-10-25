@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="oxygen_addon_liefern">
+<task id="oxygen_addon_liefern" xml:lang="de-DE">
     <title>Das ediarum-Setup mit anderen teilen</title>
     <shortdesc>Um den Setup-Vorgang für andere Mitglieder Ihres Projektes zu verkürzen, können Sie
         ein Add-On erstellen, über das andere in Oxygen ediarum.BASE für Ihr Projekt installieren
