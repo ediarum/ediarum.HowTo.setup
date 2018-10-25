@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_ediarumdb_installieren">
+<task id="t_ediarumdb_installieren" xml:lang="de-DE">
     <title>ediarum.DB installieren (eXist-db)</title>
     <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App <uicontrol>ediarum.DB</uicontrol> verwenden.</shortdesc>
     <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
@@ -27,9 +27,9 @@
                 <cmd>Klicken Sie das Icon <uicontrol>add a button</uicontrol> an und ziehen Sie aus
                     dem ediarum.DB Repositorium die Datei <filepath>release/ediarum.xar</filepath>
                     in das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
-                <fig>
+                <info><fig>
                     <image href="../../img/exist_PackageManager_UploadPackages.png"/>
-                </fig>
+                </fig></info>
             </step>
         </steps>
         <result>Im Dashboard sehen Sie nun die eXist-App <uicontrol>ediarum.DB</uicontrol>.</result>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_ueberblick_setup">
+<concept id="c_ueberblick_setup" xml:lang="de-DE">
     <title>Überblick über das Setup</title>
     <shortdesc>[Basic Setup ohne Register, sodass ediarum erstmal läuft]</shortdesc>
     <conbody>

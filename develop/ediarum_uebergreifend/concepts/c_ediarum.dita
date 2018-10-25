@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="ediarum">
+<concept id="ediarum" xml:lang="de-DE">
     <title>ediarum</title>
-    <shortdesc>Ediarum ist eine Vorlage, die man als Ausgangspunkt benutzen kann, um für eine
-        XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu erstellen.</shortdesc>
+    <shortdesc>Ediarum ist eine Softwarekomponete, die man als Ausgangspunkt benutzen kann, um für
+        eine XML-Edition eine Arbeits/Texterfassungs- und Publikationsumgebung zu
+        erstellen.</shortdesc>
     <!-- oberstes Verständnis-Topic, von dem alle anderen Verständnistopics abzweigen -->
     <conbody>
         <p>Workflow, wie eine digitale Edition entsteht:</p>
         <ol>
-            <li>Datenmodell definieren (XML Schema, TEI > DTABF > projektspezifisch)</li>
-            <li>"Daten" eingeben (per Oxygen Author, Speichern in exist DB)</li>
-            <li>Webausgabe herstellen (aus exist DB, mithilfe von integriertem
-                Templating-Mechanismus und ediarum.web)</li>
+            <li>Datenmodell definieren (XML Schema, TEI >
+                <?oxy_comment_start author="jhoeper" timestamp="20181024T120539+0200" comment="Wenn man es googelt, wird &quot;Basisformat&quot; immer mit &quot;-&quot; abgetrennt (&quot;DTA-Basisformat&quot;) oder das ganze mit &quot;DTABf&quot; abgekuerzt. So oder so waere wahrscheinlich 1 Glossareintrag dafuer sinnvoll."?>DTABf<?oxy_comment_end?>
+                > projektspezifisch)</li>
+            <li>"Daten" eingeben (per
+                <?oxy_comment_start author="jhoeper" timestamp="20181024T120740+0200" comment="glossareintrag um unterschiede zu Editor/Developer klarzumachen?
+"?>Oxygen
+                Au<?oxy_comment_end?>thor, Speichern in
+                <?oxy_comment_start author="jhoeper" timestamp="20181024T120801+0200" comment="glossareintrag/concept/keyconref?"?>exist
+                DB<?oxy_comment_end?>)</li>
+            <li><?oxy_comment_start author="jhoeper" timestamp="20181024T120905+0200" comment="muessen wir auch irgendwie festlegen, ob wir das webausgabe oder webhelp oder sonstwie nennen und bestimmt ist es gut wenn die einzelnen ausgabeformate in jeweils einem concept erklaert werden"?>Webausgabe<?oxy_comment_end?>
+                herstellen (aus exist DB, mithilfe von integriertem Templating-Mechanismus und
+                ediarum.web)</li>
         </ol>
         <p>Zusammenhang zwischen:</p>
         <ul>
@@ -20,12 +29,12 @@
         </ul>
         <p>Zusammenhang zwischen:</p>
         <ul id="ul_nsb_4dd_mfb">
-            <li>db.app</li>
+            <li><?oxy_comment_start author="jhoeper" timestamp="20181024T160000+0200" comment="sollte man diese liste nicht aufteilen weil sonst die erklaerung der zusammenhaenge sehr kompliziert werden koennte weil hier komponenten aus ganz unterschiedlichen kategorien (client vs. server) und ebenen (library vs. framework) vorkommen?"?>db.app</li>
             <li>ediarum.base</li>
             <li>ediarum.register</li>
             <li>ediarum.edit</li>
             <li>ediarum.jar</li>
-            <li>ediarum.web</li>
+            <li>ediarum.web<?oxy_comment_end?></li>
         </ul>
         <p>Framework-Zusammenhang zwischen:</p>
         <ul>
@@ -36,5 +45,140 @@
             <li>Editorvariablen</li>
             <li>Vorgänge/Aktionen/Operationen</li>
         </ul>
+        <fig>
+            <image href="../../img/Ediarum-setup-v1.png"/>
+        </fig>
+        <fig>
+            <image href="../../img/Ediarum-setup-v2.png"></image>
+        </fig>
+        <section>
+            <title>Überblick über die Softwarearchitektur und die Setup-Mechanismen</title>
+            <p>Um den grundlegenden Ablauf zu verstehen, wie Sie ediarum als Editionsumgebung
+                einrichten, hilft es, folgende Konzepte zu verstehen:</p>
+            <ul>
+                <li>eXist-db und Oxygen als
+                    <?oxy_comment_start author="asef" timestamp="20181024T144203+0200" comment="Hier einfach Software? Sie sind ja die Basis, mit der ediarum mit eigenen Komponenten aufbaut
+"?>Software-Komponenten<?oxy_comment_end?>,
+                    mit Apps (eXist-db) und Frameworks (Oxygen) als Konfigurations- und
+                    Erweiterungs-Medien<?oxy_comment_start author="asef" timestamp="20181024T142825+0200" comment="Komponenten?"?>
+                    [“Medien”?!] <?oxy_comment_end?></li>
+                <li>Aufbau und Funktionsweise eines Frameworks in Oxygen</li>
+                <li><?oxy_comment_start author="asef" timestamp="20181024T144307+0200" comment="für mich unklar was generalisiert ist: ediarum oder das Projekt, was ich erstellen will (ersteres oder?)"?>Generalisierung<?oxy_comment_end?>
+                    durch Verwendung eines TEI-Subsets in mehreren Erweiterungsstufen: DTA
+                    Basisformat → ediarum Schema → Ihr projektspezifisches Schema</li>
+            </ul>
+        </section>
+        <section>
+            <title>eXist-db mit Apps, Oxygen mit Frameworks</title>
+            <p>Ediarum ist für Editionen, die ihre Daten als XML eingeben und speichern. Es baut auf folgenden zwei Programmen auf:</p>
+            
+            <ul>
+                <li>Datenhaltung als XML: eXist-db</li>
+                <li>Editionsumgebung (Dateneingabe als XML): Oxygen</li>
+            </ul>
+            <p>Sowohl eXist-db als auch Oxygen liefern Mechanismen [?] mit, um
+                <?oxy_comment_start author="asef" timestamp="20181024T142843+0200" comment="die Arbeitsumgebung?"?>sie<?oxy_comment_end?>
+                projektspezifisch zu konfigurieren sowie diese Konfiguration gebündelt an andere
+                Instanzen weiterzugeben:</p>
+            <ul>
+                <li>eXist-db: App</li>
+                <li>
+                    <ul>
+                        <li><?oxy_comment_start author="asef" timestamp="20181024T144350+0200" comment="ist das nicht dann ediarum.web?"?>Templating-System,
+                            um mithilfe von xquery und/oder xslt aus den Daten Webanwendungen zu
+                            publizieren<?oxy_comment_end?></li>
+                        <li>projektspezifische Ordnerstruktur für die Datenhaltung</li>
+                    </ul>
+                </li>
+                <li><?oxy_comment_start author="asef" timestamp="20181024T143248+0200" comment="das in Oxygen/c_framework und verlinken?
+"?>Oxygen:
+                    Framework</li>
+                <li>
+                    <ul>
+                        <li>Standardstruktur der XML-Dateien: XML Schema</li>
+                        <li>GUI-Elemente für die Eingabe aller im Schema festgelegten Elemente und
+                            Attribute, mit entsprechenden schreibenden und lesenden Aktionen auf der
+                            Datenbank: Oxygen Vorgänge [?], Oxygen Layout)</li>
+                        <li>Gestaltung, wie die festgelegten Elemente und Attribute in der
+                            XML-Editionsumgebung angezeigt werden (WYSIWYG anstatt plain XML):
+                            CSS<?oxy_comment_end?></li>
+                    </ul>
+                </li>
+            </ul>
+            <p><?oxy_comment_start author="jhoeper" timestamp="20181024T160204+0200" comment="sollte das nicht ganz an den anfang bevor man anfaengt ins detail zu gehen?"?>Ediarum
+                besteht aus mehreren solcher Oxygen-Frameworks und eXist-db-Apps, die für ein
+                TEI-Subset generalisierbare Konfigurationen enthalten und die hinsichtlich
+                Datenhaltungsstrukturen und Datenzugriff- und Verarbeitungslogiken aufeinander
+                abgestimmt sind.<?oxy_comment_end?> Die Generalisierung wird erreicht, indem die
+                ediarum-Frameworks und -Apps die Konfigurationen für ein bestimmtes Subset von TEI
+                enthalten. [Details zu DTABF, Kaskadierung, etc. siehe… Deshalb ist ediarum für alle
+                Editionen interessant, die ihre Editionsanforderungen und ihre Editionsrichtlinien
+                mit diesem TEI-Subset umsetzen können.] Ediarum als Editionsumgebung besteht aus der
+                App ediarum.DB und aus den Frameworks ediarum.BASE und ediarum.REGISTER. Ediarum ist
+                zusätzlich als Publikationsumgebung nutzbar, mit der App ediarum.WEB für
+                Web-Publikationen und der App ediarum.PDF für PDF-Publikationen. Im Überblick
+                besteht das Einrichten (Setup) von ediarum als
+                <?oxy_comment_start author="asef" timestamp="20181024T144532+0200" comment="besser &quot;Editionsumgebung&quot;-&gt; wurde vorher so genannt und .web und .pdf sind ja noch in Entwicklung
+"?>Publikationsumgebung<?oxy_comment_end?>
+                demzufolge aus folgenden Schritten: </p>
+            <ul>
+                <li><?oxy_comment_start author="jhoeper" timestamp="20181024T160234+0200" comment="soll man hier schon auf die tasks verlinken?"?>eXist-db
+                    und Oxygen installieren<?oxy_comment_end?></li>
+                <li>ediarum.DB auf eXist-db einrichten</li>
+                <li>ediarum.BASE in Oxygen einrichten</li>
+                <li>Die Verbindung zwischen Oxygen und eXist-db
+                    <?oxy_comment_start author="asef" timestamp="20181024T144858+0200" comment="... durch Erstellung eines eigenen Projektdatei mit einem weiteren projektspezifischen Framework"?>herstellen<?oxy_comment_end?></li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Aufbau und Funktionsweise eines Frameworks in Oxygen Aufbau </title>
+            <p>Für eine Software mit interaktiven GUI-Elementen muss immer folgendes “programmiert”
+                werden:</p>
+            <p>Datenstruktur (Model) – Erklärung, Beispiel</p>
+            <p>Anzeigeelement (View) – Erklärung, Beispiel</p>
+            <?oxy_comment_start author="jhoeper" timestamp="20181024T160402+0200" comment="paszt das evtl auch vorne hin wo der typische workflow steht?"?>
+            <p>Ein typisches Beispiel aus der Editionswelt durch alle diese drei Schichten.</p><?oxy_comment_end?>
+            <p>Oxygen liefert die Grundprogrammierung mit, z.B. Bausteine für Hintergrundabläufe. Es
+                liefert außerdem die GUI mit, über die man aus diesen Bausteinen seine eigenen
+                GUI-Funktionalitäten zusammenbauen kann.</p>
+            <p><?oxy_comment_start author="asef" timestamp="20181024T145140+0200" comment="wäre das nicht eher eine reference liste?
+"?>Tabelle
+                mit den Spalten: Wofür [?] - Worin steht das, wo liegt das bzw. woher liest Oxygen
+                das? - Wo definiere ich es (GUI)? Welche Oxygen-Komponenten (Bibliotheken?,
+                Dependencies?) benutze ich für die Definition (z.B. ....jar)?<?oxy_comment_end?></p>
+        </section>
+        <section>
+            <title>Einstellungen, damit Oxygen es benutzen kann</title>
+            <p>Ü<?oxy_comment_start author="asef" timestamp="20181024T145434+0200" comment="würde folgende Reihnfolge Vorschlafen : 
+die Frameworks Ediarum.BASE und .REGISTER im Projektordner speichern
+Dann neues projektspezifisches Framework über die Oxygen-Einstellungen anpassen und in den Projektordner spreichern
+dann xpr in neuen projektspezifischen Ordner speichern"?>berblick<?oxy_comment_end?></p>
+            <ul>
+                <li><?oxy_comment_start author="jhoeper" timestamp="20181024T160613+0200" comment="wenn ediarum.BASE und .REGISTER extra nicht mit ins bundle sollen, damit sichergestellt werden kann, dasz leute die ein editionsbundle fuer ihren oxygen bekommen auch jeweils aktuelle releases von BASE und REGISTER verwenden, warum ist es dann relevant dasz konfigurationen auf framework ebene abgelegt werden koennen?"?>zwei
+                    Ebenen, auf denen in Oxygen eigene Konfigurationen gespeichert werden: xpr
+                    (“Projekt”) und Framework. Ein xpr kann mehrere Frameworks
+                    benutzen.<?oxy_comment_end?></li>
+                <li>In Oxygen Ort angeben für Arbeitsordner, Frameworkordner und z.T. Dateien</li>
+                <li>Oxygen-Einstellungen, die für ediarum in die xpr gehen sollen, wo Sie das angeben (Einstellungen projektspezifisch speichern),
+                    wo die xpr liegt</li>
+            </ul>
+            <p><?oxy_comment_start author="asef" timestamp="20181024T145333+0200" comment="hier überflüssig?
+"?>Oxygen
+                liefert von Hause aus verschiedenste Frameworks mit. Die entsprechenden Dateien
+                liegen im Installations-Ordner von Oxygen.<?oxy_comment_end?></p>
+            <p>Für Ihre eigenen Frameworks können Sie die Dateien ebenfalls dort ablegen, pro Framework gibt es einen Ordner (Framework-Ordner).
+                Sie können aber auch an einem anderen Ort einen Ordner für Ihre eigenen Frameworks anlegen.
+                Die Vorteile: nicht so umständlich zu erreichen, klar getrennt, Add-On sauber herstellbar?
+                [oder welche Vor- und Nachteile gibt es?] Diesen Ordner nennen wir hier “Arbeitsordner”.</p>
+            <p>Egal, wo Sie die
+                <?oxy_comment_start author="jhoeper" timestamp="20181024T160739+0200" comment="konfiguration oder das tatsaechliche framework?"?>Dateien
+                zu Ihren eigenen Frameworks<?oxy_comment_end?> ablegen: Sie müssen Oxygen diesen Ort
+                explizit mitteilen, und zwar für einige Unterordner und Dateien extra: Screenshot
+                oder Grafik Ordnerstruktur mit Standard-Dateien Tabelle mit eine Zeile je Ordner,
+                Unterordner, Datei und mit folgenden Spalten: 1. Ort muss in Oxygen definiert
+                werden? (ja, nein) 2. Wo in Oxygen wird der Ort definiert? </p>
+        </section>
+        
     </conbody>
 </concept>
