@@ -12,7 +12,7 @@
         </context>
         <steps>
             <step>
-                <cmd>Öffnen Sie vom eXist-db Dashboard die ediarum App.</cmd>
+                <cmd>Klicken Sie im Dashboard der eXist-db das Icon <uicontrol>ediarum</uicontrol> an, um die App zu öffnen.</cmd>
             </step>
             <step>
                 <cmd>Gehen Sie in das Setup (<menucascade>
