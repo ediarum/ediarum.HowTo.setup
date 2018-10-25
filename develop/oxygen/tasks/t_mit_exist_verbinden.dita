@@ -2,7 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="oxygen_mit_exist_verbinden" xml:lang="de-DE">
     <title>Oxygen mit eXist-db verbinden</title>
-    <shortdesc>Verbinden Sie Oxygen als Eingabekomponente mit der Datenbank.</shortdesc>
+    <shortdesc>Sie konfigurieren die Verbindung für den Lese- und Schreibzugriff von der
+        Arbeitsumgebung auf die XML-Daten. Die WebDAV-Verbindung stellt sicher, dass keine
+        Schreibkonflikte zwischen verschiedenen Benutzer/innen entstehen.</shortdesc>
     <taskbody>
         <steps>
             <step>
