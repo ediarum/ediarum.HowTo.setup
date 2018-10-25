@@ -2,18 +2,66 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_projekt_anlegen">
     <title>Projekt in Oxygen anlegen</title>
-    <shortdesc>Sie müssen ein Oxygen-Projekt anlegen, in dem alle Framework-spezifischen
-        Einstellungen abgelegt werden. So können Sie die Einstellungen später gebündelt an andere
+    <shortdesc>Sie können Oxygen-Einstellungen, die spezifisch für Ihre Edition sind, in einem
+        Projekt speichern. Sie können die Einstellungen später gebündelt an andere
         weitergeben.</shortdesc>
-    <!-- TODO: ordentlich auszeichnen -->
     <taskbody>
-        <context>
-            <p></p>
-        </context>
+        <context>Für das Basic Setup von ediarum müssen mindestens die für das Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden.</context>
         <steps>
             <step>
-                <cmd>Projekt > Neues Projekt, Datei "[projektname].xpr" im Ordner des Erweiterungsframeworks speichern</cmd>
+                <cmd>Wählen Sie <menucascade><uicontrol>Projekt</uicontrol><uicontrol>Neues Projekt</uicontrol></menucascade> aus.</cmd>
             </step>
-        </steps>
+            <step>
+                <cmd>Geben Sie im nun geöffneten <uicontrol>Neues Projekt</uicontrol> Fenster als Speicherort Ihren Framework-Ordner an und klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
+            </step>
+            <!-- Screenshot ist vorhanden, muss aber mit neuen Angaben nochmal gemacht werden, mit "Beispieledition". -->
+            <step>
+                <cmd>Legen Sie fest, dass die Editorvariablen im Projekt gespeichert werden:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Wählen Sie das Menü <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol></menucascade>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol> Fenster den Eintrag <uicontrol>Benutzerspezifische Editorvariablen</uicontrol> aus.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Aktivieren Sie die Option <uicontrol>Projekt-Optionen</uicontrol> und klicken Sie auf <uicontrol>Anwenden</uicontrol>.</cmd>
+                    </substep>
+                 </substeps>
+                <stepresult>Der Eintrag <uicontrol>Benutzerspezifische Editorvariablen</uicontrol> ist jetzt mit einem <uicontrol>[P]</uicontrol> gekennzeichnet und fett dargestellt.</stepresult>
+            </step>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Neu</uicontrol> und tragen Sie die Editorvariablen ${ediarum_project_name}, ${ediarum_project_domain} und ${ediarum_website_base} samt Werten ein.</cmd>
+              <info>
+                  <table>
+                  <tgroup cols="">
+                      <tbody>
+                          <!-- @Stefan: Diese Angaben besonders prüfen: -->
+                          <row>
+                              <entry><uicontrol>Name:</uicontrol> ${ediarum_project_name}</entry>
+                              <entry>Der Wert muss mit dem in eXist-db festgelegten Projektnamen übereinstimmen.</entry>
+                              <entry><uicontrol>Wert:</uicontrol> (Beispiel) beispieledition</entry>
+                          </row>
+                          <row>
+                              <entry><uicontrol>Name:</uicontrol> ${ediarum_project_domain}</entry>
+                              <entry>Basis-URL zur Datenbank. Der Wert muss Domain, Server-Port und
+                                        Server-Credentials enthalten.</entry>
+                              <entry><uicontrol>Wert:</uicontrol> (Beispiel) http://oxygen-bot:******@telotadev.bbaw.de:8028</entry>
+                              
+                          </row>
+                          <row>
+                              <entry><uicontrol>Name:</uicontrol> ${ediarum_website_base}</entry>
+                              <entry>Basis-URL zur Webpublikation. Der Wert muss die
+                                        Server-Credentials enthalten.
+                                        <!-- Und was, wenn man noch keine hat, was in der Setup-Situation der wahrscheinlichste Fall ist? --></entry>
+                              <entry><uicontrol>Wert:</uicontrol> (Beispiel) http://website-user:******@telotadev.bbaw.de</entry>
+                              
+                          </row>
+                      </tbody>
+                  </tgroup>
+              </table></info>
+            </step>
+         </steps>
     </taskbody>
+    <!-- Später hier einfügen: related links zu Infos zu weiteren möglichen Projekt-Einstellungen, z.B. Layout -->
 </task>

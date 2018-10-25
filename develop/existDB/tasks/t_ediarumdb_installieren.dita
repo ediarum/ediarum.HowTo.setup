@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ediarumdb_installieren">
-    <title>ediarum.DB installieren (eXist-db)</title>
+    <title>ediarum.DB App installieren (eXist-db)</title>
     <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App <uicontrol>ediarum.DB</uicontrol> verwenden.</shortdesc>
     <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
     <taskbody>
@@ -17,7 +17,7 @@
         </context>
         <steps>
             <step>
-                <cmd>Loggen Sie sich im Dashboard der eXist-db ein.</cmd>
+                <cmd>Loggen Sie sich im Dashboard der eXist-db mit Admin-Rechten ein.</cmd>
             </step>
             <step>
                 <cmd>Öffnen Sie die eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>

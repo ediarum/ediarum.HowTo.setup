@@ -2,8 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="exist_projekt_anlegen">
     <title>Projekt in der Datenbank anlegen</title>
-    <shortdesc>Sie müssen in der Datenbank ein eigenes Projekt anlegen. Dies können Sie in der
-        eXist-App ediarum.DB tun.</shortdesc>
+    <shortdesc>In der Datenbank muss ein Projekt für Ihre Edition mit einer standardisierten
+        Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
+        automatisiert korrekt anzulegen, benutzen Sie die eXist-App ediarum.DB.</shortdesc>
     <taskbody>
         <context>
             <p>Voraussetzung:</p>

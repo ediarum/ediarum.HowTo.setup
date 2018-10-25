@@ -1,18 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_speicherort_ediarumbase_festlegen">
-    <title>ediarum.BASE "installieren" (Oxygen)</title>
-    <shortdesc>In Oxygen legen Sie einen Arbeitsordner fest, in dem Sie alle Dateien des
-        ediarum.BASE-Frameworks ablegen. [Ist das hier der Punkt, wo man sich  [was genau?] von
-        github holt und in diesen Ordner legt?]</shortdesc>
+    <title>ediarum-Frameworks einrichten</title>
+    <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Arbeitsumgebung verfügbar.
+        Die Funktionalitäten sind in zwei ediarum.edit-Frameworks definiert.</shortdesc>
     <taskbody>
         <context>
-            <p></p>
-            <note>Anstelle des hier beschriebenen Vorgehens können Sie alternativ eine Standard-Ordnerstruktur benutzen, die auf github [genauer Pfad, Dateiname?] zur Verfügung steht. Sie benötigen dafür ANT.</note>
+            <p>Überblick:</p>
+            <ul>
+                <li>Sie holen sich die beiden publizierten ediarum.edit-Frameworks auf Ihren lokalen Rechner.
+                <ul>
+                    <li>Anstelle des hier beschriebenen manuellen Vorgehens können Sie in der eXist-App
+                        <uicontrol>ediarum.DB</uicontrol> das Standardverzeichnis mit den
+                        Standarddateien automatisch generieren (<menucascade>
+                            <uicontrol>Projektkonfiguration</uicontrol>
+                            <uicontrol>Entwicklung</uicontrol>
+                        </menucascade> für Ihr Editionsprojekt). Sie benötigen dafür ANT.</li>
+                </ul>
+                </li>
+                <li>Sie ändern den Standardordner, an dem Oxygen die Frameworks verwaltet, um Probleme mit Zugriffsrechten zu
+                    vermeiden.</li>
+                <li>Sie legen ein eigenes Framework für Ihre Edition an, auch wenn Sie vorerst keine eigenen Konfigurationen für die Oxygen-Arbeitsumgebung vornehmen möchten. Sie legen dieses Framework als eine Erweiterung des
+                    ediarum.BASE.edit-Frameworks an, damit Sie in Ihrer editionsspezifischen Arbeitsumgebung alle Funktionalitäten von ediarum zur Verfügung haben.</li>
+            </ul>
+            <p>Benötigtes Vorwissen:</p>
+            <ul>
+                <li>git, github</li>
+            </ul>
         </context>
         <steps>
             <step>
-                <cmd></cmd>
+                <cmd>Legen Sie in Ihrem lokalen Dateisystem einen Arbeitsordner an.</cmd>
+            </step>
+            <step>
+                <cmd>Klonen Sie sich die folgenden Repositorien von github in den Arbeitsordner:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>https://github.com/ediarum/ediarum.BASE.edit.git</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>https://github.com/ediarum/ediarum.REGISTER.edit.git</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Legen Sie in dem Arbeitsordner zusätzlich gleich ein Verzeichnis an, in das Sie
+                    später Ihre editionsspezifisches Framework legen können.</cmd>
+                <info>Empfehlung: Behalten sie <userinput>ediarum</userinput> als ersten Teil des Namens bei, um kenntlich zu machen, dass Ihr editionsspezifisches Framwork eine Erweiterung von ediarum ist. Zum Beispiel: <userinput>ediarum_meineEdition</userinput> </info>
+                <stepresult>Ihr Arbeitsordner hat nun folgende Struktur und enthält folgende
+                    Dateien.
+                    <fig/><!-- Screenshot des Ordners, mit aufgeklappten Unterordnern. Der ediarum_beispieledition-Ordner ist leer. --></stepresult>
+            </step>
+            <step>
+                <cmd>Ändern Sie in Oxygen den Speicherort für Frameworks, sodass er auf den
+                    Arbeitsordner verweist:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Wählen Sie in Oxygen das Menü <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol></menucascade>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol> Fenster den Eintrag <menucascade><uicontrol>Dokumenttypen-Zuordnung</uicontrol><uicontrol>Orte</uicontrol></menucascade>aus.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Aktivieren Sie die Option <uicontrol>Benutzerdefiniert:</uicontrol> und tragen Sie den Pfad zum Arbeitsordner ein und klicken Sie auf <uicontrol>OK</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+                <info><fig><image><!-- Screenshot von dem Fenster, mit "Benutzerdefiniert" ausgewählt und eingetragenem Beispielpfad. --></image></fig></info>
+            </step>
+            <step>
+                <cmd>Starten Sie Oxygen neu.</cmd>
+                <stepresult><p>Unter <menucascade>
+                            <uicontrol>Optionen</uicontrol>
+                            <uicontrol>Einstellungen</uicontrol>
+                            <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
+                        </menucascade> werden die zwei ediarum-Frameworks angezeigt.</p><fig><image><!-- Screenshot. --></image></fig><!-- Testen, ob wirklich nur die zwei Frameworks angezeigt werden, oder auch das MeineEdition-Framework. Wir haben ja schon den dritten Ordner, aber noch keine .framework-Datei darin. --></stepresult>
+            </step>
+            <step>
+                <cmd>Legen Sie das Erweiterungsframework für Ihre Edition an.</cmd>
+            <substeps>
+                <substep>
+                <cmd>Wählen Sie im Fenster <uicontrol>Dokumenttypen-Zuordnung</uicontrol> das <uicontrol>ediarum.BASE.edit</uicontrol> Framework aus und klicken Sie auf <uicontrol>Erweitern</uicontrol>.</cmd>
+            </substep>
+            <substep>
+                <cmd>Geben Sie im Feld <uicontrol>Name:</uicontrol> den Namen für Ihr editionsspezifisches Framework ein.</cmd>
+                <info>Empfehlung: Verwenden Sie denselben Namen, den Sie Ihrem Framework-Ordner in Ihrem Dateisystem gegeben haben.</info>
+            </substep>
+                <substep>
+                    <cmd>Aktivieren Sie für <uicontrol>Speicherort:</uicontrol> die Option <uicontrol>Extern</uicontrol> und geben Sie den Pfad zu Ihrem Framework-Ordner an.</cmd>
+                </substep>
+                <substep>
+                    <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>.</cmd>
+                </substep>
+            </substeps>
+               <info><fig><image><!-- Screenshot mit ausgefüllten Feldern (Name: ediarum_meineEdition, Speicherort: ../../ediarum_meineEdition --></image></fig></info>
             </step>
         </steps>
     </taskbody>
