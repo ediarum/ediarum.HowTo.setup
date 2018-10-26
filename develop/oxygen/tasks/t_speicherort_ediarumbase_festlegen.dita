@@ -36,10 +36,14 @@
                 <cmd>Klonen Sie sich die folgenden Repositorien von github in den Arbeitsordner:</cmd>
                 <substeps>
                     <substep>
-                        <cmd>https://github.com/ediarum/ediarum.BASE.edit.git</cmd>
+                        <cmd> <xref 
+                            href="https://github.com/ediarum/ediarum.BASE.edit.git" scope="external" format="html"
+                            >https://github.com/ediarum/ediarum.BASE.edit.git</xref></cmd>
                     </substep>
                     <substep>
-                        <cmd>https://github.com/ediarum/ediarum.REGISTER.edit.git</cmd>
+                        <cmd><xref
+                            href="https://github.com/ediarum/ediarum.REGISTER.edit.git" scope="external" format="html"
+                            >https://github.com/ediarum/ediarum.REGISTER.edit.git</xref></cmd>
                     </substep>
                 </substeps>
             </step>
