@@ -53,7 +53,7 @@
                 </info>
                 <stepresult>Ihr Arbeitsordner hat nun folgende Struktur und enthält folgende
                     Dateien.
-                    <fig/><!-- Screenshot des Ordners, mit aufgeklappten Unterordnern. Der ediarum_beispieledition-Ordner ist leer. --></stepresult>
+                   <fig> <image href="../../img/Frameworkordner.PNG"/></fig> </stepresult>
             </step>
             <step>
                 <cmd>Ändern Sie in Oxygen den Speicherort für Frameworks, sodass er auf den
@@ -75,7 +75,7 @@
                                 <uicontrol>OK</uicontrol>.</cmd>
                     </substep>
                 </substeps>
-                <info><fig><image><!-- Screenshot von dem Fenster, mit "Benutzerdefiniert" ausgewählt und eingetragenem Beispielpfad. --></image></fig></info>
+                <info><fig><image href="../../img/DokTypeZuordnung_Orte.png"></image></fig></info>
             </step>
             <step>
                 <cmd>Starten Sie Oxygen neu.</cmd>
@@ -83,7 +83,7 @@
                             <uicontrol>Optionen</uicontrol>
                             <uicontrol>Einstellungen</uicontrol>
                             <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
-                        </menucascade> werden die zwei ediarum-Frameworks angezeigt.</p><fig><image><!-- Screenshot. --></image></fig><!-- Testen, ob wirklich nur die zwei Frameworks angezeigt werden, oder auch das MeineEdition-Framework. Wir haben ja schon den dritten Ordner, aber noch keine .framework-Datei darin. --></stepresult>
+                        </menucascade> werden die zwei ediarum-Frameworks angezeigt.</p><fig><image href="../../img/DokTypZuordnung_Frameworks.png"/></fig></stepresult>
             </step>
             <step>
                 <cmd>Legen Sie das Erweiterungsframework für Ihre Edition an.</cmd>
@@ -102,7 +102,7 @@
                     <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>.</cmd>
                 </substep>
             </substeps>
-               <info><fig><image><!-- Screenshot mit ausgefüllten Feldern (Name: ediarum_meineEdition, Speicherort: ../../ediarum_meineEdition --></image></fig></info>
+               <info><fig><image href="../../img/framework_erweitern.png"/></fig></info>
             </step>
         </steps>
     </taskbody>
