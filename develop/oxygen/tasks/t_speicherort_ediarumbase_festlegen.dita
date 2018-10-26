@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_speicherort_ediarumbase_festlegen">
     <title>ediarum-Frameworks einrichten</title>
-    <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Arbeitsumgebung verfügbar.
-        Die Funktionalitäten sind in zwei ediarum._.edit-Frameworks definiert.</shortdesc>
+    <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Arbeitsumgebung verfügbar,
+        indem Sie zwei ediarum._.edit-Frameworks einbinden.</shortdesc>
     <taskbody>
         <context>
             <p>Überblick:</p>
