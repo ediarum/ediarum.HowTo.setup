@@ -13,8 +13,8 @@
             </step>
             <step>
                 <cmd>Geben Sie im nun geöffneten <uicontrol>Neues Projekt</uicontrol> Fenster als Speicherort Ihren Framework-Ordner an und klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
+                <info><fig><image href="../../img/projekt_speicherort_v2.png"/></fig></info>
             </step>
-            <!-- Screenshot ist vorhanden, muss aber mit neuen Angaben nochmal gemacht werden, mit "Beispieledition". -->
             <step>
                 <cmd>Legen Sie fest, dass die Editorvariablen im Projekt gespeichert werden:</cmd>
                 <substeps>
@@ -37,9 +37,8 @@
                     samt Werten ein.</cmd>
                 <info>
                     <table>
-                        <tgroup cols="">
+                        <tgroup cols="3">
                             <tbody>
-                                <!-- @Stefan: Diese Angaben besonders prüfen: -->
                                 <row>
                                     <entry><uicontrol>Name:</uicontrol>
                                         ${ediarum_project_name}</entry>
