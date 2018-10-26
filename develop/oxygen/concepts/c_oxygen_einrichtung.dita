@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_oxygen_einrichtung">
+    <title>Arbeitsumgebung in Oxygen einrichten</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>Führen Sie die Einrichtung im Oxygen XML Author durch, nicht im Oxygen XML Editor. So
+            sehen Sie direkt, welche Auswirkungen Ihre Konfigurationen in dem Programm haben, mit
+            dem auch die Editor/innen später arbeiten werden.</p>
+        <p>Verwenden Sie Oxygen XML Author mindestens in der Version 19.</p>
+    </conbody>
+</concept>

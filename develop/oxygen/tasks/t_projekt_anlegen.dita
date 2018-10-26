@@ -46,24 +46,24 @@
                                     <entry>Der Wert muss mit dem in eXist-db festgelegten
                                         Projektnamen übereinstimmen.</entry>
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
-                                        beispieledition</entry>
+                                        meineEdition</entry>
                                 </row>
                                 <row>
                                     <entry><uicontrol>Name:</uicontrol>
                                         ${ediarum_project_domain}</entry>
-                                    <entry>Basis-URL zur Datenbank. Der Wert muss Domain,
+                                    <entry>Basis-URL zur Datenbank. Der Wert muss Domain, ggf.
                                         Server-Port und Server-Anmeldedaten enthalten.</entry>
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
-                                        http://oxygen-bot:******@telotadev.bbaw.de:8028</entry>
+                                        http://oxygen-bot:******@example.de:8028</entry>
                                 </row>
                                 <row>
                                     <entry><uicontrol>Name:</uicontrol>
                                         ${ediarum_website_base}</entry>
-                                    <entry>Basis-URL zur Webpublikation. Der Wert muss die
-                                        Server-Anmeldedaten enthalten.
+                                    <entry>Basis-URL zur Webpublikation. Der Wert kann leer bleiben.
+                                        Der Wert muss die Server-Anmeldedaten enthalten.
                                         <!-- Und was, wenn man noch keine hat, was in der Setup-Situation der wahrscheinlichste Fall ist? --></entry>
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
-                                        http://website-user:******@telotadev.bbaw.de</entry>
+                                        http://website-user:******@example.de</entry>
                                 </row>
                             </tbody>
                         </tgroup>
