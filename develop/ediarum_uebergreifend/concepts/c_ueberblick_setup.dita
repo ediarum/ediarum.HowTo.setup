@@ -2,13 +2,32 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_ueberblick_setup" xml:lang="de-DE">
     <title>Überblick über das Setup</title>
-    <shortdesc>[Basic Setup ohne Register, sodass ediarum erstmal läuft]</shortdesc>
+    <shortdesc>Sie können die Editionsumgebung von ediarum einrichten, erweitern, und die
+        Erweiterung an andere weitergeben.</shortdesc>
     <conbody>
+        <p>Das initiale Setup von ediarum können Sie durchführen, wenn Sie grundlegende IT-Kenntnisse
+            für Digital Humanities (DH) haben. Wenn das Setup einmal abgeschlossen ist, können Sie
+            es als Add-On an die Editor/innen Ihrer Editions-Arbeitsgruppe weitergeben.</p>
+        <p>Vorwissen:</p>
+        <ul>
+            <li>Grundverständnis von XML, XML-Schemata, TEI</li>
+            <li>Grundverständis von git</li>
+        </ul>
         <p>Voraussetzungen:</p>
         <ul>
-            <li></li>
+            <li>eXist-db ist installiert</li>
+            <li>Oxygen XML Author und Oxygen XML Editor sind installiert, mindestens in der Version
+                19</li>
         </ul>
-        <p>[In eXist gibt es Apps. Was ist das?]</p>
-        <p/>
+        <section>
+            <title>Setup-Varianten</title>
+            <p>Sie können ediarum zunächst einfach zum Laufen bringen (Basic Setup). Sie können das
+                Basic Setup mit oder ohne Registerfunktionalitäten vornehmen. Wenn ediarum läuft,
+                können Sie der Arbeitsumgebung eigene Funktionaliäten hinzufügen, indem Sie ein
+                eigenes Oxygen-Framework einrichten, welches das ediarum-Framework erweitert.</p>
+            </section>
+            
+ 
+        
     </conbody>
 </concept>

@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_oxygen_einrichtung">
     <title>Arbeitsumgebung in Oxygen einrichten</title>
-    <shortdesc></shortdesc>
+    <shortdesc>Sie binden die ediarum-Frameworks ein, legen ein eigenes Framework an und speichern
+        für ediarum relevante Oxygen-Einstellungen in einem Oxygen-Projekt.</shortdesc>
     <conbody>
         <p>Führen Sie die Einrichtung im Oxygen XML Author durch, nicht im Oxygen XML Editor. So
             sehen Sie direkt, welche Auswirkungen Ihre Konfigurationen in dem Programm haben, mit
