@@ -11,10 +11,10 @@
     </frontmatter>
 	<chapter href="ediarum_uebergreifend/concepts/c_doku_meta.dita"/>
 		<chapter navtitle="Überblick">
-		<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
 		<topicref href="ediarum_uebergreifend/concepts/c_register.dita"/>
 	</chapter>
 		<chapter navtitle="Basic Setup">
+		<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
 		<topicref href="existDB/concepts/c_exist_einrichtung.dita">
 			<topicref href="./existDB/tasks/t_ediarumdb_installieren.dita"/>
 			<topicref href="./existDB/tasks/t_projekt_anlegen.dita"/>
@@ -27,6 +27,7 @@
 		<topicref href="./oxygen/tasks/t_addon_liefern.dita"/>
 		</chapter>
 		<chapter navtitle="Setup der Registerfunktionalitäten"></chapter>
+	<chapter href="oxygen/concepts/c_framework.dita"/>
 		<chapter navtitle="Oxygen Framework für das eigene Editionsprojekt konfigurieren"></chapter>
 
 </bookmap>
