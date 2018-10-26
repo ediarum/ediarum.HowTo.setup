@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_oxygen_einrichtung">
+<concept id="c_oxygen_einrichtung" xml:lang="de-DE">
     <title>Arbeitsumgebung in Oxygen einrichten</title>
     <shortdesc>Sie binden die ediarum-Frameworks ein, legen ein eigenes Framework an und speichern
         für ediarum relevante Oxygen-Einstellungen in einem Oxygen-Projekt.</shortdesc>

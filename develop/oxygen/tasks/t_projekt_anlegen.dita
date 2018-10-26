@@ -13,7 +13,7 @@
             </step>
             <step>
                 <cmd>Geben Sie im nun geöffneten <uicontrol>Neues Projekt</uicontrol> Fenster als Speicherort Ihren Framework-Ordner an und klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
-                <info><fig><image href="../../img/projekt_speicherort_v2.png"/></fig></info>
+                <info><fig><image href="../../img/projekt_speicherort_v2.png" width="600"/></fig></info>
             </step>
             <step>
                 <cmd>Legen Sie fest, dass die Editorvariablen im Projekt gespeichert werden:</cmd>
