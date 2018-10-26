@@ -2,33 +2,29 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="oxygen_framework_kaskade">
     <title>Ein eigenes Framework einrichten</title>
-    <shortdesc>Ein Framwork in definiert Editionsrichtlinien und die Benutzungsoberfläche in
-        Oxygen.</shortdesc>
+    <shortdesc>Ein Oxygen-Framework implementiert die Editionsrichtlinien, indem es eine spezifische
+        Benutzungsoberfläche für das Edieren von Texten in XML zur Verfügung stellt.</shortdesc>
     <conbody>
         <section>
             <title>Framework</title>
-            <p>Im Framework sind die Benutzungsoberfläche und die Editionsrichtlinien für bestimmte
-                Dokumententypen definiert. Das Framwork assoziert einen Dokumententyp oder eine
-                definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
+            <p>Im Framework sind die Oxygen-Benutzungsoberflächen für bestimmte Dokumententypen
+                (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die Werkzeugleiste, die
+                Editionsansicht und die Vorlagen. Das Framework assoziiert dafür einen Dokumententyp
+                oder eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
                 Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. Für
-                Ihr eigenes Projekt können Sie das mitgelieferte ediarum-Framework erweitern ein
-                eigenes Framework, in dem Sie individuell die Werkzeugleiste, die Editionsansicht
-                und Vorlagen einstellen können. Dafür passen Sie im Oxygen-Author  über die
-                Dokumenttypen-Zuordnung die Frameworkkonfiguration an. Mehr Informationen zur
-                Erstellung und Erweiterung finden Sie unter den weiterführenden Links.</p>
+                Ihr eigenes Editionsprojekt können Sie das mitgelieferte ediarum-Framework
+                erweitern. In Ihrem eigenen Erweiterungs-Framework können Sie dann weitere Elemente
+                für die Oxygen-Benutzungsoberfläche konfigurieren.</p>
             
-        </section>
-        <section>
-            <title>Framework Kaskade</title>
-            <p>ediarum.basis arbeitet mit dem DTA-Basisformat, was ein Subset von TEI ist. Ein
-                projektspezifisches Framework baut auf dem Framework ediarum.basis auf.</p>
         </section>
         <section>
             <title>Konfigurations-Komponenten</title>
             
-            <p>Sie können eigene XML-Schemata definieren. Für die XML-Eingabe entsprechend dieser Schemata können Sie eigene Oxygen-GUI-Funktionalitäten definieren. Oxygen hinterlegt diese Konfigurationen im Hintergrund in verschiedenen Dateien. Für die GUI-Funktionalitäten stellt Oxygen eine grafische Oberfläche bereit, um die Funktionalitäten zu konfigurieren.</p>
+            <p>Oxygen hinterlegt die Konfiguration der Benutzungsoberfläche in verschiedenen
+                Dateien. Einen Großteil der Konfiguration können Sie im <uicontrol>Dokumenttypen</uicontrol> Fenster von
+                Oxygen vornehmen.</p>
                 <table frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
-                    <title>Konfiguration per Framework</title>
+                    <title/>
                     <tgroup cols="3">
                         <colspec colname="c1" colnum="1" colwidth="1*"/>
                         <colspec colname="c2" colnum="2" colwidth="1.31*"/>
@@ -52,22 +48,20 @@
                             </row>
                             <row>
                                 <entry>Schema</entry>
-                                <entry>XML-Schema, das die mögliche Struktur der XML-Dateien
-                                    definiert</entry>
+                                <entry>XML-Schema (Strukturvorgaben)</entry>
                                 <entry>.rng-Datei</entry>
                                 <entry>Die rng-Datei bearbeiten</entry>
                             </row>
                             <row>
                                 <entry>Template</entry>
-                                <entry>Beispieldatei, die das Schema implementiert, als Startpunkt
-                                    für die XML-Eingabe.</entry>
+                                <entry>Vorlage für neue XML-Dokumente</entry>
                                 <entry>.xml-Datei</entry>
                                 <entry>Die xml-Datei bearbeiten</entry>
                             </row>
                             <row>
                                 <entry>GUI-Funktionalitäten</entry>
                                 <entry>GUI-Elemente und -Funktionalitäten, die Oxygen dann im
-                                    Author-Modus bereitstellt.</entry>
+                                Author-Modus bereitstellt</entry>
                                 <entry>.framework-Datei</entry>
                                 <entry>Im <uicontrol>Autor</uicontrol> Tab des
                                         <uicontrol>Dokumenttypen</uicontrol> Fensters (<menucascade>
