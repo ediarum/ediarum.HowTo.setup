@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="t_speicherort_ediarumbase_festlegen">
+<task id="t_speicherort_ediarumbase_festlegen" xml:lang="de-DE">
     <title>ediarum-Frameworks einrichten</title>
     <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Arbeitsumgebung verfügbar,
         indem Sie zwei ediarum._.edit-Frameworks einbinden.</shortdesc>

@@ -28,9 +28,9 @@
                 benötigt, das die Konfiguration einer REST-Schnittstelle mit der Datenbank
                 definiert.</p>
             <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten vorhanden.</p>
-            <fig> <image href="../../img/Ediarum-setup-v6-2.png"/></fig>
-            <fig> <image href="../../img/ediarum-componenten.png"/></fig>
-            <!-- mögliche alternative Grafik <fig>
+            <fig> <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline" /></fig>
+            <!-- mögliche alternative Grafik (Preferenz von Esther) <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           
+           mögliche weitere alternative Grafik <fig>
                 <image href="../../img/Ediarum-setup-v3-2.png"/>
             </fig> -->
             <p/>

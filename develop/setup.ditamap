@@ -22,6 +22,8 @@
 			<topicref href="./oxygen/tasks/t_projekt_anlegen.dita"/>
 		</topicref>
 		</chapter>
-	<chapter href="oxygen/concepts/c_framework.dita"/>
+	<chapter navtitle="Eigene Konfiguration">
+		<topicref href="oxygen/concepts/c_framework.dita"/>
+	</chapter>
 
 </bookmap>

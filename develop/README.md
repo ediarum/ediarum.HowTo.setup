@@ -35,6 +35,8 @@ Das Verzeichnis wo die Inhalte dazu hinkopiert werden muessen ist:
 scp -r develop/out/webhelp-responsive/* root@telota.bbaw.de:/data1/projekte/ediarum/manual/setup
 ```
 
+###### Version
+Version 0.1. Stand: 26.10.2018; Updates einzutragen unter develop/static/footer.xml
 
 ### Editorvariablen
 

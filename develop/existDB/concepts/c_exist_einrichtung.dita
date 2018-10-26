@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="c_exist_einrichtung">
+<concept id="c_exist_einrichtung" xml:lang="de-DE">
     <title>Datenbank einrichten</title>
     <shortdesc>Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in
         Ihrer Datenbank ein eigenes Projekt, das alle benötigten Standardsettings für ediarum
