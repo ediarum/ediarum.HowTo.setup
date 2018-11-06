@@ -37,10 +37,9 @@
         </section>
        
         <section>
-             <p>Im Überblick besteht das Einrichten (Setup) von ediarum entsprechend aus folgenden
-                Schritten: </p>
+             <p>Wenn Sie eXist-db und Oxygen installiert haben, besteht im Überblick das Einrichten
+                (Setup) von ediarum aus folgenden Schritten: </p>
             <ul>
-                <li>eXist-db und Oxygen installieren</li>
                 <li>ediarum.DB auf eXist-db einrichten und ein Projekt erstellen</li>
                 <li>ediarum.BASE.edit und ediarum.REGISTER.edit in Oxygen einrichten und ein Projekt
                     erstellen</li>
