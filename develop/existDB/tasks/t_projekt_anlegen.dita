@@ -7,39 +7,58 @@
         automatisiert korrekt anzulegen, benutzen Sie die eXist-App ediarum.DB.</shortdesc>
     <taskbody>
         <context>
-            <p>Voraussetzung:</p>
-            <ul><li>Sie sind mit Admin-Rechten in der eXist-db eingeloggt.</li></ul>
+            <?oxy_comment_start author="phlinss" timestamp="20181112T142537+0100" comment="Vorraussetzung: Sie sind mit Admin-Rechten in der eXist-db eingeloggt. (alte Version)"?>Befolgen
+            Sie diese Schritte, um ein Projekt anzulegen:<?oxy_comment_end?>
         </context>
         <steps>
             <step>
-                <cmd>Klicken Sie im Dashboard der eXist-db das Icon <uicontrol>ediarum</uicontrol> an, um die App zu öffnen.</cmd>
-            </step>
-            <step>
-                <cmd>Gehen Sie in das Setup (<menucascade>
-                    <uicontrol>Verwaltung</uicontrol>
-                    <uicontrol>Setup</uicontrol>
-                </menucascade>) und ändern Sie dort folgende Einstellungen:</cmd>
-                <itemgroup><p><uicontrol>Port</uicontrol>: ...</p></itemgroup>
-                <itemgroup><p><uicontrol>Passwort</uicontrol>: ...</p></itemgroup>
-            </step>
-            <step>
+                <?oxy_comment_start author="phlinss" timestamp="20181112T142826+0100" comment="1. Klicken Sie im Dashboard der eXist-db das Icon ediarum an, um die App zu öffnen. (alte Version)"?>
                 <cmd>Gehen Sie in <menucascade>
-                    <uicontrol>Verwaltung</uicontrol>
-                    <uicontrol>exist-db</uicontrol>
-                </menucascade>) und ändern Sie dort folgende Einstellungen:</cmd>
-                <itemgroup><p><uicontrol>??</uicontrol>: ...</p></itemgroup>
-                <itemgroup><p><uicontrol>??</uicontrol>: ...</p></itemgroup>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte<?oxy_comment_end?></uicontrol>
+                    </menucascade>
+                </cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in <menucascade><uicontrol>Verwaltung</uicontrol><uicontrol>Projekte</uicontrol><uicontrol>Neues Projekt</uicontrol>
-                </menucascade>) und legen Sie ein Projekt für Ihre Edition an.</cmd>
-                <itemgroup><p><uicontrol>Projektname:</uicontrol> Name, den Sie später für die Datenbankanbindung angeben
-                        müssen. Verwenden Sie keine Leerzeichen.</p></itemgroup>
-                <stepresult>eXist-db legt eine Standard-Ordnerstruktur für die XML-Daten Ihrer Edition an. <!-- TODO: Hier evtl. ul oder Screenshot, wie diese Standardordnerstruktur aussieht. --></stepresult>
-            </step>
-            <step>
-                <cmd>Um bei weiteren Einrichtung von ediarum die Resultate für EditorInnen zu testen, legen Sie einen Benutzer mit Benutzerrechten an: <!-- Wie das geht --></cmd>
+                <?oxy_comment_start author="phlinss" timestamp="20181112T143520+0100" comment="   &lt;step&gt;
+                &lt;cmd&gt;Gehen Sie in das Setup (&lt;menucascade&gt;
+                    &lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;
+                    &lt;uicontrol&gt;Setup&lt;/uicontrol&gt;
+                &lt;/menucascade&gt;) und ändern Sie dort folgende Einstellungen:&lt;/cmd&gt;
+                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Port&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
+                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Passwort&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
+            &lt;/step&gt;
+            &lt;step&gt;
+                &lt;cmd&gt;Gehen Sie in &lt;menucascade&gt;
+                    &lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;
+                    &lt;uicontrol&gt;exist-db&lt;/uicontrol&gt;
+                &lt;/menucascade&gt;) und ändern Sie dort folgende Einstellungen:&lt;/cmd&gt;
+                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;??&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
+                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;??&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
+            &lt;/step&gt;
+            &lt;step&gt;
+                &lt;cmd&gt;Gehen Sie in &lt;menucascade&gt;&lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;&lt;uicontrol&gt;Projekte&lt;/uicontrol&gt;&lt;uicontrol&gt;Neues Projekt&lt;/uicontrol&gt;
+                &lt;/menucascade&gt;) und legen Sie ein Projekt für Ihre Edition an.&lt;/cmd&gt;
+                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Projektname:&lt;/uicontrol&gt; Name, den Sie später für die Datenbankanbindung angeben
+                        müssen. Verwenden Sie keine Leerzeichen.&lt;/p&gt;&lt;/itemgroup&gt;
+                &lt;stepresult&gt;eXist-db legt eine Standard-Ordnerstruktur für die XML-Daten Ihrer Edition an. &lt;!-- TODO: Hier evtl. ul oder Screenshot, wie diese Standardordnerstruktur aussieht. --&gt;&lt;/stepresult&gt;
+            &lt;/step&gt;
+            
+            (alte Version)"?>
+                <cmd>Unter „Neues Projekt“ geben Sie Ihren <term>Projektnamen</term> für Ihre Edition an.</cmd> <itemgroup><uicontrol>Projektname:</uicontrol> Name, den Sie später für die Datenbankanbindung angeben müssen. Verwenden Sie keine Leer- oder Sonderzeichen</itemgroup>
+                <?oxy_comment_end?>
+                <stepresult>Die App ediarum.DB legt eine Standard-Ordnerstruktur mit Beispieldateien für die XML-Daten Ihrer Edition an. <ul><li>	Projektname-Ordner</li>
+                    <li><ul>
+                                <?oxy_comment_start author="phlinss" timestamp="20181112T144541+0100" comment="Nadine: diese können an das Projekt angepasst werden (Beachte aber, dass ggf. Editorvariablen ebenfalls angepasst werden müssen) "?>
+                                <li>Briefe</li>
+                                <li>Register<?oxy_comment_end?></li>
+                            </ul></li>
+                </ul></stepresult>
             </step>
         </steps>
+         <postreq><ul>
+             <li>Um bei weiteren Einrichtung von ediarum die Resultate für EditorInnen zu testen, legen Sie einen Benutzer mit Benutzerrechten an</li>
+        <li>Datenbankanbindung einrichten</li><li>Register einrichten</li> </ul></postreq>
+            
     </taskbody>
 </task>

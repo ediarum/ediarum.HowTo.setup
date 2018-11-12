@@ -16,6 +16,7 @@
 			<topicref href="./existDB/tasks/t_ediarumdb_installieren.dita"/>
 			<topicref href="./existDB/tasks/t_projekt_anlegen.dita"/>
 		</topicref>
+			<topicref href="ediarum_uebergreifend/tasks/t_register_anlegen"></topicref>
 		<topicref href="./oxygen/tasks/t_mit_exist_verbinden.dita"/>
 		<topicref href="oxygen/concepts/c_oxygen_einrichtung.dita">
 			<topicref href="./oxygen/tasks/t_speicherort_ediarumbase_festlegen.dita"/>

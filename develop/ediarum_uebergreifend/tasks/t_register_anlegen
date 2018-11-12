@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_psj_nwx_tfb">
+    <title>Register anlegen und einrichten</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
+            </step>
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade>.</cmd>
+                <choicetable>
+                    <chrow>
+                        <choption>ediarum Register</choption>
+                        <chdesc>?</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Register verfügbar machen</choption>
+                        <chdesc>?</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Führen Sie zum Aktivieren oder Hinzufügen die entsprechende Aktion aus.</cmd>
+                <choices id="choices_cgj_xyx_tfb">
+                    <choice>
+                        <?oxy_comment_start author="phlinss" timestamp="20181112T152319+0100" comment="Alternativ:
+&lt;p&gt;Klicken Sie &lt;menucascade&gt;
+                                &lt;uicontrol&gt;Neue Register&lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Personenregister&lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Registeraufbau &lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Aktivieren&lt;/uicontrol&gt;
+                            &lt;/menucascade&gt; (Register in einer Datei oder Register nach Buchstaben
+                            getrennt)&lt;/p&gt;"?>
+                        <p>Beispiel: Personenregister</p><p>Klicken Sie <uicontrol>Neue Register Aktivieren</uicontrol> und wählen
+                            Sie <uicontrol>Personenregister</uicontrol> aus und aktivieren Sie den
+                                <uicontrol>Registeraufbau</uicontrol> (Register in einer Datei oder
+                            Register nach Buchstaben getrennt)<?oxy_comment_end?></p>
+                        <p>In der Datenbank werden die Datei oder Dateien erstellt/überschrieben.</p>
+                    </choice>
+                    <choice><p>Legen Sie eine neue Registeranbindung (Projekt) an, z.B. Maßangaben</p>
+                    <table>
+                        <tgroup cols="3">
+                                <thead>
+                                    <row>
+                                        <entry/>
+                                        <entry> Bsp. für Maßangaben bei einem Registereintrag: <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
+<label>Kölnische Mark</label>
+</item>]]></codeblock>
+                                        </entry>
+                                        <entry>Allgemein</entry>
+                                    </row>
+                                </thead>
+                            <tbody>
+                                <row>
+                                    <entry>API-ID</entry>
+                                    <entry>units</entry>
+                                    <entry>frei wählbar, wird bei den Editorvariablen
+                                            angegeben</entry>
+                                </row>
+                                <row>
+                                    <entry>Bezeichnung</entry>
+                                    <entry>Maße</entry>
+                                    <entry>Name des Registers (freiwählbar)</entry>
+                                </row>
+                                <row>
+                                    <entry>Registerordner/ -datei</entry>
+                                    <entry>Register/Maße.xml</entry>
+                                    <entry>Register/NAME.xml</entry>
+                                </row>
+                                <row>
+                                    <entry>Namespace</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                </row>
+                                <row>
+                                    <entry>Node</entry>
+                                    <entry>tei:item</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                                <row>
+                                    <entry>XML-ID</entry>
+                                    <entry>@xml:id</entry>
+                                    <entry>@xml:id</entry>
+                                </row>
+                                    <row>
+                                        <entry>Span</entry>
+                                        <entry>//tei:label</entry>
+                                        <entry>orientiert sich am Aufbau des Registers</entry>
+                                    </row>
+                            </tbody>
+                        </tgroup>
+                    </table></choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>
