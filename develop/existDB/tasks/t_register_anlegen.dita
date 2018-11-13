@@ -6,9 +6,7 @@
         Ortsregister <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
         ediarum.DB.</shortdesc>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
+
         <steps>
             <step>
                 <cmd>Gehen Sie in <menucascade>
@@ -23,35 +21,17 @@
                 <cmd>Gehen Sie in <menucascade>
                         <uicontrol>Projektkonfiguration</uicontrol>
                         <uicontrol>Register</uicontrol>
-                    </menucascade>.</cmd>
-                <choicetable>
-                    <chrow>
-                        <choption>ediarum Register</choption>
-                        <chdesc>?</chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>Register verfügbar machen</choption>
-                        <chdesc>?</chdesc>
-                    </chrow>
-                </choicetable>
+                    </menucascade>.</cmd></step>
+                <step>
+                    <cmd>Klicken Sie <uicontrol>Register verfügbar machen</uicontrol>.</cmd>
             </step>
+            
             <step>
                 <cmd>Führen Sie zum Aktivieren oder Hinzufügen die entsprechende Aktion aus.</cmd>
                 <choices id="choices_cgj_xyx_tfb">
                     <choice>
-                        <?oxy_comment_start author="phlinss" timestamp="20181112T152319+0100" comment="Alternativ:
-&lt;p&gt;Klicken Sie &lt;menucascade&gt;
-                                &lt;uicontrol&gt;Neue Register&lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Personenregister&lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Registeraufbau &lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Aktivieren&lt;/uicontrol&gt;
-                            &lt;/menucascade&gt; (Register in einer Datei oder Register nach Buchstaben
-                            getrennt)&lt;/p&gt;"?>
-                        <p>Beispiel: Personenregister</p><p>Klicken Sie <uicontrol>Neue Register Aktivieren</uicontrol> und wählen
-                            Sie <uicontrol>Personenregister</uicontrol> aus und aktivieren Sie den
-                                <uicontrol>Registeraufbau</uicontrol> (Register in einer Datei oder
-                            Register nach Buchstaben getrennt)<?oxy_comment_end?></p>
-                        <p>In der Datenbank werden die Datei oder Dateien erstellt/überschrieben.</p>
+                        <p>In der Datenbank werden die Datei oder Dateien
+                            erstellt/überschrieben.</p>
                     </choice>
                     <choice><p><?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
                             Sie eine neue Registeranbindung (Projekt) an<?oxy_comment_end?>, z.B.

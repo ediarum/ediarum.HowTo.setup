@@ -30,8 +30,30 @@
                 <info><fig>
                     <image href="../../img/exist_PackageManager_UploadPackages.png"/>
                 </fig></info>
+                <stepresult>Im Dashboard sehen Sie nun die eXist-App ediarum.DB.</stepresult>
+            </step>
+            
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                    <uicontrol>Verwaltung</uicontrol>
+                    <uicontrol>Projekte</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
+            </step>
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                    <uicontrol>Projektkonfiguration</uicontrol>
+                    <uicontrol>Register</uicontrol>
+                </menucascade>.</cmd>
+                
+            </step>
+            <step>
+                <cmd>Aktivieren Sie die Register.</cmd>
             </step>
         </steps>
-        <result>Im Dashboard sehen Sie nun die eXist-App ediarum.DB.</result>
+       
+       
     </taskbody>
 </task>

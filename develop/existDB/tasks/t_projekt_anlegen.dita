@@ -6,55 +6,27 @@
         Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
         automatisiert korrekt anzulegen, benutzen Sie die eXist-App ediarum.DB.</shortdesc>
     <taskbody>
-        <context>
-            <?oxy_comment_start author="phlinss" timestamp="20181112T142537+0100" comment="Vorraussetzung: Sie sind mit Admin-Rechten in der eXist-db eingeloggt. (alte Version)" id="wn3_5bf_5fb"?><?oxy_comment_start author="notroff" timestamp="20181113T144412+0100" comment="Lieber ohne so einen Einleitungssatz. Sonst müssen wir in jedem Topic sowas schreiben. Das muss die DITA-Output-Ansicht leisten, dass sichtbar wird, dass es um nachzuvollziehende Schritte geht." parentID="wn3_5bf_5fb" mid="1"?>Befolgen
-            Sie diese Schritte, um ein Projekt
-            anzulegen:<?oxy_comment_end mid="1"?><?oxy_comment_end?>
-        </context>
+        <prereq>Sie sind als Admin in der eXist-App ediarum DB angemeldet.</prereq>
         <steps>
             <step>
-                <?oxy_comment_start author="phlinss" timestamp="20181112T142826+0100" comment="1. Klicken Sie im Dashboard der eXist-db das Icon ediarum an, um die App zu öffnen. (alte Version)" id="c4n_wbf_5fb"?>
-                <?oxy_comment_start author="notroff" timestamp="20181113T144450+0100" comment="Wenn man das Topic stand-alone liest, hat man keine Ahnung, in welchem Kontext man &quot;Verwaltung&quot; finden soll." parentID="c4n_wbf_5fb" mid="3"?>
+                <cmd>Klicken Sie im Dashboard der eXist-db das Icon <uicontrol>ediarum</uicontrol> an, um die App zu öffnen.</cmd>
+            </step>
+            <step>
                 <cmd>Gehen Sie in <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
-                        <uicontrol>Projekte<?oxy_comment_end mid="3"?><?oxy_comment_end?></uicontrol>
+                        <uicontrol>Projekte</uicontrol>
                     </menucascade>
                 </cmd>
             </step>
             <step>
-                <?oxy_comment_start author="phlinss" timestamp="20181112T143520+0100" comment="   &lt;step&gt;
-                &lt;cmd&gt;Gehen Sie in das Setup (&lt;menucascade&gt;
-                    &lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;
-                    &lt;uicontrol&gt;Setup&lt;/uicontrol&gt;
-                &lt;/menucascade&gt;) und ändern Sie dort folgende Einstellungen:&lt;/cmd&gt;
-                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Port&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
-                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Passwort&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
-            &lt;/step&gt;
-            &lt;step&gt;
-                &lt;cmd&gt;Gehen Sie in &lt;menucascade&gt;
-                    &lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;
-                    &lt;uicontrol&gt;exist-db&lt;/uicontrol&gt;
-                &lt;/menucascade&gt;) und ändern Sie dort folgende Einstellungen:&lt;/cmd&gt;
-                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;??&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
-                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;??&lt;/uicontrol&gt;: ...&lt;/p&gt;&lt;/itemgroup&gt;
-            &lt;/step&gt;
-            &lt;step&gt;
-                &lt;cmd&gt;Gehen Sie in &lt;menucascade&gt;&lt;uicontrol&gt;Verwaltung&lt;/uicontrol&gt;&lt;uicontrol&gt;Projekte&lt;/uicontrol&gt;&lt;uicontrol&gt;Neues Projekt&lt;/uicontrol&gt;
-                &lt;/menucascade&gt;) und legen Sie ein Projekt für Ihre Edition an.&lt;/cmd&gt;
-                &lt;itemgroup&gt;&lt;p&gt;&lt;uicontrol&gt;Projektname:&lt;/uicontrol&gt; Name, den Sie später für die Datenbankanbindung angeben
-                        müssen. Verwenden Sie keine Leerzeichen.&lt;/p&gt;&lt;/itemgroup&gt;
-                &lt;stepresult&gt;eXist-db legt eine Standard-Ordnerstruktur für die XML-Daten Ihrer Edition an. &lt;!-- TODO: Hier evtl. ul oder Screenshot, wie diese Standardordnerstruktur aussieht. --&gt;&lt;/stepresult&gt;
-            &lt;/step&gt;
-            
-            (alte Version)"?>
                 <cmd>Unter
                     <?oxy_comment_start author="notroff" timestamp="20181113T145259+0100" comment="&lt;uicontrol&gt; + Bezeichner verwenden. (Z.B. Menü? Eingabefeld?)
 Siehe Terminologieliste im Wiki (bitte laufend ergänzen)."?>„Neues
-                    Projekt“<?oxy_comment_end?> geben Sie Ihren <term>Projektnamen</term> für Ihre
-                    Edition an.</cmd>
+                    Projekt“<?oxy_comment_end?> geben Sie Ihren Projektnamen für Ihre Edition
+                    an.</cmd>
                 <info><uicontrol>Projektname:</uicontrol> Name, den Sie später für die
                     Datenbankanbindung angeben müssen. Verwenden Sie keine Leer- oder
-                    Sonderzeichen.</info><?oxy_comment_end?>
+                    Sonderzeichen.</info>
                 <stepresult>Die App ediarum.DB legt eine Standard-Ordnerstruktur mit Beispieldateien
                     für die XML-Daten Ihrer Edition an. <ul>
                         <li><?oxy_comment_start author="notroff" timestamp="20181113T145430+0100" comment="Hier müssen wir noch schreiben, wo die Leute das nachschauen können, das wird wahrscheinlich nicht direkt als Ergebnis angezeigt. Screenshot der Ordnerstruktur funktioniert hier wahrscheinlich besser als eine Liste."?>Projektname<?oxy_comment_end?>-Ordner</li>
@@ -67,15 +39,40 @@ Siehe Terminologieliste im Wiki (bitte laufend ergänzen)."?>„Neues
                     </ul></stepresult>
                 <!-- Evtl. Hinweis, oder später/woanders beschreiben: Die Ordnerstruktur kann an das Projekt angepasst werden (Beachte aber, dass ggf. Editorvariablen ebenfalls angepasst werden müssen) -->
             </step>
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                    <uicontrol>Verwaltung</uicontrol>
+                    <uicontrol>Projekte</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
+            </step>
+            <step>
+                <cmd>Gehen Sie in <menucascade>
+                    <uicontrol>Projektkonfiguration</uicontrol>
+                    <uicontrol>Register</uicontrol>
+                </menucascade>.</cmd>
+                
+            </step>
+            <step>
+                <cmd>Aktivieren Sie die Register.</cmd><stepxmp>
+                        Personenregister<?oxy_comment_start author="phlinss" timestamp="20181113T162508+0100" comment="Alternativ:
+&lt;p&gt;Klicken Sie &lt;menucascade&gt;
+                                &lt;uicontrol&gt;Neue Register&lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Personenregister&lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Registeraufbau &lt;/uicontrol&gt;
+                                &lt;uicontrol&gt;Aktivieren&lt;/uicontrol&gt;
+                            &lt;/menucascade&gt; (Register in einer Datei oder Register nach Buchstaben
+                            getrennt)&lt;/p&gt;"?><p>
+                        Klicken Sie <uicontrol>Neue Register Aktivieren</uicontrol> und wählen Sie
+                            <uicontrol>Personenregister</uicontrol> aus und aktivieren Sie den
+                            <uicontrol>Registeraufbau</uicontrol> (Register in einer Datei oder
+                        Register nach Buchstaben getrennt). In der Datenbank werden die Datei oder
+                        Dateien erstellt/überschrieben.<?oxy_comment_end?></p></stepxmp>
+                
+            </step>
         </steps>
-         <postreq><ul>
-                <?oxy_comment_start author="notroff" timestamp="20181113T145758+0100" comment="Wir beschreiben (noch nicht) nirgends, wie das geht. Aber wenn wir darauf hinweisen wollen, sollten wir mindestens den Einstiegspunkt (welche DB-App, welches Menü) liefern."?>
-                <li>Um bei weiteren Einrichtung von ediarum die Resultate für EditorInnen zu testen,
-                    legen Sie einen Benutzer mit Benutzerrechten an<?oxy_comment_end?></li>
-                <?oxy_comment_start author="notroff" timestamp="20181113T145622+0100" comment="genauso nennen, wie das entsprechende Topic heißt, bzw. das Topic verlinken. Wir müssen uns entscheiden, ob wir in jedem Topic explizit schreiben wollen, was als nächstes zu tun ist, oder ob wir das dem Verlinkungs-Output von DITA überlassen."?>
-                <li>Datenbankanbindung einrichten<?oxy_comment_end?></li>
-                <li>Register einrichten</li>
-            </ul></postreq>
             
     </taskbody>
 </task>
