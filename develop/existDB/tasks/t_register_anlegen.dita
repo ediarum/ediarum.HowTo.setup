@@ -2,7 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb">
     <title>Register anlegen und einrichten</title>
-    <shortdesc/>
+    <shortdesc>ediarum enthält die Grundstruktur für zwei Register: Personenregister und
+        Ortsregister <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
+        ediarum.DB.</shortdesc>
     <taskbody>
         <context>
             <p></p>
@@ -51,7 +53,9 @@
                             Register nach Buchstaben getrennt)<?oxy_comment_end?></p>
                         <p>In der Datenbank werden die Datei oder Dateien erstellt/überschrieben.</p>
                     </choice>
-                    <choice><p>Legen Sie eine neue Registeranbindung (Projekt) an, z.B. Maßangaben</p>
+                    <choice><p><?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
+                            Sie eine neue Registeranbindung (Projekt) an<?oxy_comment_end?>, z.B.
+                            Maßangaben</p>
                     <table>
                         <tgroup cols="3">
                                 <thead>
