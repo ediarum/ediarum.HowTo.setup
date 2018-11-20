@@ -12,21 +12,39 @@
                 <li>eXist-db (XML-Datenbank)</li>
                 <li>Oxygen (XML-Editor)</li>
             </ul>
-            <p>Beide Programme enthalten Mechanismen, wie die Funktionalität der Programme
-                konfiguriert und erweitert werden kann, sowie wie diese Konfigurationen gebündelt an
-                andere Programm-Instanzen weitergegeben werden können:</p>
+            <p>Beide Programme enthalten
+                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?"?>Mechanismen,
+                wie die Funktionalität der Programme konfiguriert und erweitert werden
+                kann,<?oxy_comment_end?> sowie wie diese Konfigurationen gebündelt an andere
+                Programm-Instanzen weitergegeben werden können:</p>
             <ul>
                 <li>In Oxygen kann man GUI-Elemente für XML-Bearbeitungsfunktionen erstellen. Der
                     Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
                     Oxygen "Framework".</li>
                 <li>In eXist-db kann man mithilfe eines Templating-Systems Webanwendungen aus den
-                    XML-Daten generieren, die sogenannten "Apps".</li>
+                    <?oxy_comment_start author="phlinss" timestamp="20181120T144048+0100" comment="Was sind XML-Daten?
+- Menge an XML-Dateien
+- ?"?>XML-Daten<?oxy_comment_end?>
+                    generieren<?oxy_comment_start author="phlinss" timestamp="20181120T144031+0100" comment="Ausdruck unklar:
+was sind die Apps?
+- die Webanwendungen
+- XML-Daten
+
+"?>,
+                    die sogenannten "Apps".<?oxy_comment_end?></li>
             </ul>
             <p>Ediarum besteht aus mehreren solchen Oxygen-Frameworks und eXist-Apps. Zusätzlich
-                wird in der Datenbank ein Projekt benötigt, das ediarum-spezifische
-                Datenhaltungs-Strukturen und Datenbank-Settings enthält. In Oxygen wird ein Projekt
-                benötigt, das die Konfiguration einer REST-Schnittstelle mit der Datenbank
-                definiert.</p>
+                wird in der Datenbank
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ein
+                Projekt<?oxy_custom_end?> benötigt, das ediarum-spezifische
+                <?oxy_comment_start author="phlinss" timestamp="20181120T144307+0100" comment="[nach Rechtschreibung:]Entweder Fugen-S oder Bindestrich.
+
+-Datenhaltung-Strukturen [liest sich schlechter]
+-Datenhatlungsstrukturen"?>Datenhaltungs-Strukturen<?oxy_comment_end?>
+                und Datenbank-Settings enthält. In Oxygen wird
+                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="phlinss" timestamp="20181120T144331+0100" comment="Bezeichnet &quot;ein Projekt&quot; in den beiden Sätzen dasselbe Objekt oder zwei unterschiedliiche?" mid="6"?>ein Projekt<?oxy_custom_end?>
+                <?oxy_comment_end mid="6"?>benötigt, das die Konfiguration einer REST-Schnittstelle
+                mit der Datenbank definiert.</p>
             <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten vorhanden.</p>
             <fig> <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline" /></fig>
             <!-- mögliche alternative Grafik (Preferenz von Esther) <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           

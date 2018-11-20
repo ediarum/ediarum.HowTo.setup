@@ -9,69 +9,65 @@
         <prereq>Sie sind als Admin in der eXist-App ediarum DB angemeldet.</prereq>
         <steps>
             <step>
-                <cmd>Klicken Sie im Dashboard der eXist-db das Icon <uicontrol>ediarum</uicontrol> an, um die App zu öffnen.</cmd>
+                <cmd>Klicken Sie im Dashboard der eXist-db das
+                    <?oxy_comment_start author="phlinss" timestamp="20181120T150926+0100" comment="Hier wird vom Icon ediarum gesprochen. Im vorausgehenden Topic wird stattdessen gesagt: 
+
+Im Dashboard sehen Sie nun die eXist-App ediarum.DB
+
+Auch hier: Wenn Icon erwähnt wird, dann Abblidung?"?>Icon
+                        <uicontrol>ediarum<?oxy_comment_end?></uicontrol> an, um die App zu
+                    öffnen.</cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in <menucascade>
+                <cmd>Gehen Sie in Menü <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
                         <uicontrol>Projekte</uicontrol>
                     </menucascade>
                 </cmd>
             </step>
             <step>
-                <cmd>Unter
-                    <?oxy_comment_start author="notroff" timestamp="20181113T145259+0100" comment="&lt;uicontrol&gt; + Bezeichner verwenden. (Z.B. Menü? Eingabefeld?)
-Siehe Terminologieliste im Wiki (bitte laufend ergänzen)."?>„Neues
-                    Projekt“<?oxy_comment_end?> geben Sie Ihren Projektnamen für Ihre Edition
-                    an.</cmd>
+                <cmd>Im Feld <uicontrol>Neues Projekt</uicontrol> geben Sie Ihren Projektnamen für
+                    Ihre Edition an und klicken auf den Button <uicontrol>Anlegen</uicontrol>.</cmd>
                 <info><uicontrol>Projektname:</uicontrol> Name, den Sie später für die
-                    Datenbankanbindung angeben müssen. Verwenden Sie keine Leer- oder
+                    Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaute, Leer- oder
                     Sonderzeichen.</info>
-                <stepresult>Die App ediarum.DB legt eine Standard-Ordnerstruktur mit Beispieldateien
-                    für die XML-Daten Ihrer Edition an. <ul>
-                        <li><?oxy_comment_start author="notroff" timestamp="20181113T145430+0100" comment="Hier müssen wir noch schreiben, wo die Leute das nachschauen können, das wird wahrscheinlich nicht direkt als Ergebnis angezeigt. Screenshot der Ordnerstruktur funktioniert hier wahrscheinlich besser als eine Liste."?>Projektname<?oxy_comment_end?>-Ordner</li>
-                        <li>
-                            <ul>
-                                <li>Briefe</li>
-                                <li>Register</li>
-                            </ul>
-                        </li>
-                    </ul></stepresult>
+                <stepresult>Klicken Sie auf nun erscheindende Feld mit Ihrem Projektnamen. Die App
+                    ediarum.DB legt eine Standard-Ordnerstruktur mit Beispieldateien für die
+                    XML-Daten Ihrer Edition an. <image placement="break"
+                        href="../../img/ordnerstruktur.png" id="image_jqh_3d2_wfb"/></stepresult>
                 <!-- Evtl. Hinweis, oder später/woanders beschreiben: Die Ordnerstruktur kann an das Projekt angepasst werden (Beachte aber, dass ggf. Editorvariablen ebenfalls angepasst werden müssen) -->
             </step>
             <step>
-                <cmd>Gehen Sie in <menucascade>
+                <?oxy_comment_start author="phlinss" timestamp="20181120T150528+0100" comment="Es ist unsauber, wenn wir das in diesem Ticket unterbringen.
+                    
+Vorschlag - Task-Topic: &quot;Ediarum-Register aktivieren&quot;"?>
+                <cmd>Gehen Sie in das Menü <menucascade>
                     <uicontrol>Verwaltung</uicontrol>
                     <uicontrol>Projekte</uicontrol>
                 </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
+                <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in <menucascade>
+                <cmd>Gehen Sie in das Menü <menucascade>
                     <uicontrol>Projektkonfiguration</uicontrol>
                     <uicontrol>Register</uicontrol>
                 </menucascade>.</cmd>
-                
             </step>
             <step>
-                <cmd>Aktivieren Sie die Register.</cmd><stepxmp>
-                        Personenregister<?oxy_comment_start author="phlinss" timestamp="20181113T162508+0100" comment="Alternativ:
-&lt;p&gt;Klicken Sie &lt;menucascade&gt;
-                                &lt;uicontrol&gt;Neue Register&lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Personenregister&lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Registeraufbau &lt;/uicontrol&gt;
-                                &lt;uicontrol&gt;Aktivieren&lt;/uicontrol&gt;
-                            &lt;/menucascade&gt; (Register in einer Datei oder Register nach Buchstaben
-                            getrennt)&lt;/p&gt;"?><p>
-                        Klicken Sie <uicontrol>Neue Register Aktivieren</uicontrol> und wählen Sie
-                            <uicontrol>Personenregister</uicontrol> aus und aktivieren Sie den
-                            <uicontrol>Registeraufbau</uicontrol> (Register in einer Datei oder
-                        Register nach Buchstaben getrennt). In der Datenbank werden die Datei oder
-                        Dateien erstellt/überschrieben.<?oxy_comment_end?></p></stepxmp>
+                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> licken Sie auf dem Feld
+                    <uicontrol>Neues Register</uicontrol> auf den Button
+                    <uicontrol>Aktivieren</uicontrol>.</cmd>
+                <info>Ediarum stellt diese Register zur Verfügung: Personen, Ort, Sachbegriffe,
+                    Körperschaft, Werk, Briefe, Anmerkungen.</info>
+                <stepresult>Wählen Sie im nun geöffneten Fenster das Register geschwünschte
+                    aus.<?oxy_comment_end?><?oxy_comment_start author="phlinss" timestamp="20181120T150626+0100" comment="In develop/img abgelegt."?><image
+                        placement="break" href="../../img/ediarum_register.png"
+                        id="image_rxd_gb2_wfb"/><?oxy_comment_end?></stepresult>
+             </step>
                 
-            </step>
+         
         </steps>
             
     </taskbody>

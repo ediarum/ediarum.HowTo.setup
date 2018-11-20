@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb">
-    <title>Register anlegen und einrichten</title>
-    <shortdesc>ediarum enthält die Grundstruktur für zwei Register: Personenregister und
-        Ortsregister <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
-        ediarum.DB.</shortdesc>
+    <title><?oxy_comment_start author="phlinss" timestamp="20181120T153002+0100" comment="Vorschlag:
+&quot;Eigene Register einrichten&quot;
+
+[im Gegensatz zu &quot;Ediarum-Register einrichten&quot;]"?>Register
+        anlegen und einrichten<?oxy_comment_end?></title>
+    <shortdesc><?oxy_comment_start author="phlinss" timestamp="20181120T152911+0100" comment="Tatsächlich sind es 7 Registerarten. Die shortdesc bezieht sich mehr auf das Aktivieren der Ediarum-Register. 
+
+Hier müsste etwas stehen wie:
+Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angelegt werden usw."?>ediarum
+        enthält die Grundstruktur für zwei Register: Personenregister und Ortsregister
+        <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
+        ediarum.DB.<?oxy_comment_end?></shortdesc>
     <taskbody>
 
         <steps>
             <step>
-                <cmd>Gehen Sie in <menucascade>
+                <cmd>Gehen Sie in Menü <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
                         <uicontrol>Projekte</uicontrol>
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
+                <cmd>Klicken Sie Ihr das Feld Ihres eigenen Projekts an.</cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in <menucascade>
+                <cmd>Gehen Sie in das Menü <menucascade>
                         <uicontrol>Projektkonfiguration</uicontrol>
                         <uicontrol>Register</uicontrol>
-                    </menucascade>.</cmd></step>
+                    </menucascade>.</cmd>
+            </step>
                 <step>
-                    <cmd>Klicken Sie <uicontrol>Register verfügbar machen</uicontrol>.</cmd>
+                <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
+                    den Button <uicontrol>Hinzufügen</uicontrol>.</cmd>
+                    <stepresult>Es öffnet sich ein Fenster, in dem Sie die Parameter eintragen
+                        müssen.<image placement="break" href="../../img/neue_registeranbindung.png"
+                        id="image_sq3_wf2_wfb"/></stepresult>
             </step>
             
             <step>
-                <cmd>Führen Sie zum Aktivieren oder Hinzufügen die entsprechende Aktion aus.</cmd>
-                <choices id="choices_cgj_xyx_tfb">
-                    <choice>
-                        <p>In der Datenbank werden die Datei oder Dateien
-                            erstellt/überschrieben.</p>
-                    </choice>
-                    <choice><p><?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
+                <cmd>[Tabelle]
+                        <p><?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
                             Sie eine neue Registeranbindung (Projekt) an<?oxy_comment_end?>, z.B.
                             Maßangaben</p>
-                    <table>
-                        <tgroup cols="3">
+                        <table>
+                            <tgroup cols="3">
                                 <thead>
                                     <row>
                                         <entry/>
@@ -48,47 +56,47 @@
                                         <entry>Allgemein</entry>
                                     </row>
                                 </thead>
-                            <tbody>
-                                <row>
-                                    <entry>API-ID</entry>
-                                    <entry>units</entry>
-                                    <entry>frei wählbar, wird bei den Editorvariablen
+                                <tbody>
+                                    <row>
+                                        <entry>API-ID</entry>
+                                        <entry>units</entry>
+                                        <entry>frei wählbar, wird bei den Editorvariablen
                                             angegeben</entry>
-                                </row>
-                                <row>
-                                    <entry>Bezeichnung</entry>
-                                    <entry>Maße</entry>
-                                    <entry>Name des Registers (freiwählbar)</entry>
-                                </row>
-                                <row>
-                                    <entry>Registerordner/ -datei</entry>
-                                    <entry>Register/Maße.xml</entry>
-                                    <entry>Register/NAME.xml</entry>
-                                </row>
-                                <row>
-                                    <entry>Namespace</entry>
-                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
-                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
-                                </row>
-                                <row>
-                                    <entry>Node</entry>
-                                    <entry>tei:item</entry>
-                                    <entry>orientiert sich am Aufbau des Registers</entry>
-                                </row>
-                                <row>
-                                    <entry>XML-ID</entry>
-                                    <entry>@xml:id</entry>
-                                    <entry>@xml:id</entry>
-                                </row>
+                                    </row>
+                                    <row>
+                                        <entry>Bezeichnung</entry>
+                                        <entry>Maße</entry>
+                                        <entry>Name des Registers (freiwählbar)</entry>
+                                    </row>
+                                    <row>
+                                        <entry>Registerordner/ -datei</entry>
+                                        <entry>Register/Maße.xml</entry>
+                                        <entry>Register/NAME.xml</entry>
+                                    </row>
+                                    <row>
+                                        <entry>Namespace</entry>
+                                        <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                        <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    </row>
+                                    <row>
+                                        <entry>Node</entry>
+                                        <entry>tei:item</entry>
+                                        <entry>orientiert sich am Aufbau des Registers</entry>
+                                    </row>
+                                    <row>
+                                        <entry>XML-ID</entry>
+                                        <entry>@xml:id</entry>
+                                        <entry>@xml:id</entry>
+                                    </row>
                                     <row>
                                         <entry>Span</entry>
                                         <entry>//tei:label</entry>
                                         <entry>orientiert sich am Aufbau des Registers</entry>
                                     </row>
-                            </tbody>
-                        </tgroup>
-                    </table></choice>
-                </choices>
+                                </tbody>
+                            </tgroup>
+                        </table></cmd>
+                    
             </step>
         </steps>
     </taskbody>

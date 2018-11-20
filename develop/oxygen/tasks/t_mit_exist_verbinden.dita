@@ -8,14 +8,20 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Öffnen Sie in Oxygen den Datenquellen Explorer (<menucascade>
+                <cmd>Gehen Sie in Oxygen in das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
+                    </menucascade> und wählen Sie in dem nun geöffneten Fenster in der linken Spalte
+                    den Listenpunkt <menucascade>
                         <uicontrol>Datenquellen</uicontrol>
-                    </menucascade>)</cmd>
+                    </menucascade> aus.</cmd>
             </step>
             <step>
-                <cmd>Klicken Sie den <uicontrol>+</uicontrol> Button in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>), um eine neue Verbindung zu erstellen.</cmd>
+                <cmd>Klicken Sie in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>) den
+                        <?oxy_comment_start author="phlinss" timestamp="20181120T155642+0100" comment="Screenshot
+
+Unterschied zwischen Icon und Button?"?><uicontrol>+</uicontrol>
+                    Button<?oxy_comment_end?>, um eine neue Verbindung zu hererstellen.</cmd>
             </step>
             <step>
                 <cmd>Füllen Sie die Angaben im nun geöffneten <uicontrol>Verbindungen</uicontrol>
@@ -34,8 +40,14 @@
                                     <userinput>http://<varname>HOST</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
                             </userinput>Zum Beispiel:
                                 <userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/Beispieledition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard!--></li>
-                        <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
-                            Anmeldedaten, die Sie in der eXist-App ediarum.DB angelegt haben</li>
+                        <li><uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T153650+0100" comment="Noch nicht dokumentiert/ das erste Mal überhaupt &quot;Benutzer&quot; erwähnt.
+- Wer ist Benutzer? (MitarbeiterInnen/EditorInnen)
+- Wo lege ich die an?
+- Wird Keepass in der Doku empfohlen/ erwähnt?
+
+[Vorschlag: eigenständiges Topic hinter &quot;Projekt in der Datenbank anlegen]"?>Benutzer</uicontrol>,
+                                <uicontrol>Passwort</uicontrol>: Anmeldedaten, die Sie in der
+                            eXist-App ediarum.DB angelegt haben<?oxy_comment_end?></li>
                     </ul>
                 </info>
             </step>

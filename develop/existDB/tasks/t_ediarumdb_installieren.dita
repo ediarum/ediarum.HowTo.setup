@@ -5,53 +5,52 @@
     <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App ediarum.DB verwenden.</shortdesc>
     <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
     <taskbody>
-        <context>
-            <p>Voraussetzung:</p>
-            <ul>
-                <li>Sie haben aus github das Repositorium <xref 
+        <prereq>
+            
+            
+                Sie haben aus github das Repositorium <xref 
                         href="https://github.com/ediarum/ediarum.DB" scope="external" format="html"
-                        >https://github.com/ediarum/ediarum.DB</xref> geklont.<!-- Oder irgendwie allgemeiner formulieren? Alternative: ZIP-Datei runterladen? --></li>
-            </ul>
+                        >https://github.com/ediarum/ediarum.DB</xref> geklont.<!-- Oder irgendwie allgemeiner formulieren? Alternative: ZIP-Datei runterladen? -->
+            
             <note>Installationsanleitung mit technischen Details siehe: INSTALLATION.md im
                 ediarum.DB Repositorium</note> <!-- Oder sollen wir alleine auf diese Installationsanleitung verweisen und hier garnichts weiter dazu schreiben? -->
-        </context>
+        </prereq>
         <steps>
             <step>
                 <cmd>Loggen Sie sich im Dashboard der eXist-db mit Admin-Rechten ein.</cmd>
             </step>
             <step>
                 <cmd>Öffnen Sie die eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>
-                <info><fig><image href="../../img/exist_packageManager.png"></image></fig></info>
+                <info>
+                    <fig>
+                        <image href="../../img/exist_packageManager.png"/>
+                    </fig>
+                </info>
             </step>
             <step>
-                <cmd>Klicken Sie das Icon <uicontrol>add a button</uicontrol> an und ziehen Sie aus
-                    dem ediarum.DB Repositorium die Datei <filepath>release/ediarum.xar</filepath>
-                    in das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
-                <info><fig>
-                    <image href="../../img/exist_PackageManager_UploadPackages.png"/>
-                </fig></info>
-                <stepresult>Im Dashboard sehen Sie nun die eXist-App ediarum.DB.</stepresult>
+                <cmd>Klicken Sie das Icon
+                        <uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T144820+0100" comment="korrekt: add a package
+
+Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?"?>add
+                        a button</uicontrol>
+                    <?oxy_comment_end?>an und ziehen Sie aus dem ediarum.DB Repositorium die Datei
+                        <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
+
+-ediarum-3.0.0.317.xar
+-ediarum-3.0.1.318.xar
+-ediarum.db-3.2.0.436
+-ediarum.db-3.2.1.437"?>release/ediarum.xar</filepath>
+                    <?oxy_comment_end?>in das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
+                <info>
+                    <fig>
+                        <image href="../../img/exist_PackageManager_UploadPackages.png"/>
+                    </fig>
+                </info>
+                <stepresult>Im Dashboard sehen Sie nun
+                    <?oxy_comment_start author="phlinss" timestamp="20181120T144858+0100" comment="Im Dashboard heißt die App schlicht &quot;ediarum&quot;."?>die
+                    eXist-App ediarum.DB.<?oxy_comment_end?></stepresult>
             </step>
             
-            <step>
-                <cmd>Gehen Sie in <menucascade>
-                    <uicontrol>Verwaltung</uicontrol>
-                    <uicontrol>Projekte</uicontrol>
-                </menucascade>.</cmd>
-            </step>
-            <step>
-                <cmd>Klicken Sie Ihr eigenes Projekt an.</cmd>
-            </step>
-            <step>
-                <cmd>Gehen Sie in <menucascade>
-                    <uicontrol>Projektkonfiguration</uicontrol>
-                    <uicontrol>Register</uicontrol>
-                </menucascade>.</cmd>
-                
-            </step>
-            <step>
-                <cmd>Aktivieren Sie die Register.</cmd>
-            </step>
         </steps>
        
        
