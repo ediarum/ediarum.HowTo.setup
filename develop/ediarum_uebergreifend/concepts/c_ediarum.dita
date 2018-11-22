@@ -13,10 +13,10 @@
                 <li>Oxygen (XML-Editor)</li>
             </ul>
             <p>Beide Programme enthalten
-                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?"?>Mechanismen,
+                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?" id="ojq_3k5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T205651+0100" comment="Für jeden sprachlich guten Vorschlag, wie man diesen Monstersatz auseinandernehmen kann, bin ich sehr dankbar! Her damit!" parentID="ojq_3k5_wfb" mid="1"?>Mechanismen,
                 wie die Funktionalität der Programme konfiguriert und erweitert werden
-                kann,<?oxy_comment_end?> sowie wie diese Konfigurationen gebündelt an andere
-                Programm-Instanzen weitergegeben werden können:</p>
+                kann,<?oxy_comment_end mid="1"?><?oxy_comment_end?> sowie wie diese Konfigurationen
+                gebündelt an andere Programm-Instanzen weitergegeben werden können:</p>
             <ul>
                 <li>In Oxygen kann man GUI-Elemente für XML-Bearbeitungsfunktionen erstellen. Der
                     Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
@@ -24,27 +24,18 @@
                 <li>In eXist-db kann man mithilfe eines Templating-Systems Webanwendungen aus den
                     <?oxy_comment_start author="phlinss" timestamp="20181120T144048+0100" comment="Was sind XML-Daten?
 - Menge an XML-Dateien
-- ?"?>XML-Daten<?oxy_comment_end?>
-                    generieren<?oxy_comment_start author="phlinss" timestamp="20181120T144031+0100" comment="Ausdruck unklar:
-was sind die Apps?
-- die Webanwendungen
-- XML-Daten
-
-"?>,
-                    die sogenannten "Apps".<?oxy_comment_end?></li>
+- ?" id="zyc_mk5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T205752+0100" comment="Sehr gut gesehen. Nimm das mal als Frage mit in die Terminologieliste im Wiki auf." parentID="zyc_mk5_wfb" mid="3"?>XML-Daten<?oxy_comment_end mid="3"?><?oxy_comment_end?>
+                    generieren. Diese Webanwendungen heißen "Apps".</li>
             </ul>
             <p>Ediarum besteht aus mehreren solchen Oxygen-Frameworks und eXist-Apps. Zusätzlich
-                wird in der Datenbank
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>ein
-                Projekt<?oxy_custom_end?> benötigt, das ediarum-spezifische
+                werden zwei "Projekte" benötigt: ein Projekt in Oxygen, ein Projekt in der
+                Datenbank. Das Projekt in der Datenbank enthält ediarum-spezifische
                 <?oxy_comment_start author="phlinss" timestamp="20181120T144307+0100" comment="[nach Rechtschreibung:]Entweder Fugen-S oder Bindestrich.
 
 -Datenhaltung-Strukturen [liest sich schlechter]
--Datenhatlungsstrukturen"?>Datenhaltungs-Strukturen<?oxy_comment_end?>
-                und Datenbank-Settings enthält. In Oxygen wird
-                <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="phlinss" timestamp="20181120T144331+0100" comment="Bezeichnet &quot;ein Projekt&quot; in den beiden Sätzen dasselbe Objekt oder zwei unterschiedliiche?" mid="6"?>ein Projekt<?oxy_custom_end?>
-                <?oxy_comment_end mid="6"?>benötigt, das die Konfiguration einer REST-Schnittstelle
-                mit der Datenbank definiert.</p>
+-Datenhatlungsstrukturen" flag="done"?>Datenhaltungsstrukturen<?oxy_comment_end?>
+                und Datenbanksettings. Das Projekt in Oxygen definiert die Konfiguration einer
+                REST-Schnittstelle mit der Datenbank.</p>
             <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten vorhanden.</p>
             <fig> <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline" /></fig>
             <!-- mögliche alternative Grafik (Preferenz von Esther) <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           

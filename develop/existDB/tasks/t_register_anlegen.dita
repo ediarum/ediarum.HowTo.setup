@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb">
-    <title><?oxy_comment_start author="phlinss" timestamp="20181120T153002+0100" comment="Vorschlag:
-&quot;Eigene Register einrichten&quot;
-
-[im Gegensatz zu &quot;Ediarum-Register einrichten&quot;]"?>Register
-        anlegen und einrichten<?oxy_comment_end?></title>
+    <title>ediarum-Register aktivieren</title>
     <shortdesc><?oxy_comment_start author="phlinss" timestamp="20181120T152911+0100" comment="Tatsächlich sind es 7 Registerarten. Die shortdesc bezieht sich mehr auf das Aktivieren der Ediarum-Register. 
 
 Hier müsste etwas stehen wie:
-Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angelegt werden usw."?>ediarum
+Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angelegt werden usw." id="q2n_pn5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T212143+0100" comment="Wir hatten gesagt, dass dieses Topic erstmal nur die zwingend notwendigen Schritte beinhalten soll, um die ediarum-Register zu aktivieren. Noch keine Beschreibung, wie man eigene Register einrichtet. Hast du beim Durchprobieren evtl. herausgefunden, was man für das Aktivieren der ediarum-Register machen muss?
+Müssen wir vielleicht so oder so am Dienstag gemeinsam vor der Datenbank anschauen." parentID="q2n_pn5_wfb" mid="1"?>ediarum
         enthält die Grundstruktur für zwei Register: Personenregister und Ortsregister
         <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
-        ediarum.DB.<?oxy_comment_end?></shortdesc>
+        ediarum.DB.<?oxy_comment_end mid="1"?><?oxy_comment_end?></shortdesc>
     <taskbody>
 
         <steps>
             <step>
-                <cmd>Gehen Sie in Menü <menucascade>
+                <cmd>Gehen Sie in das Menü <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
                         <uicontrol>Projekte</uicontrol>
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Klicken Sie Ihr das Feld Ihres eigenen Projekts an.</cmd>
+                <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
             </step>
             <step>
                 <cmd>Gehen Sie in das Menü <menucascade>
@@ -40,62 +37,66 @@ Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angel
             </step>
             
             <step>
-                <cmd>[Tabelle]
-                        <p><?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
+                <cmd>
+                        <?oxy_comment_start author="notroff" timestamp="20181113T151553+0100" comment="Das machen wir in ein extra Topic. Erstens ist das nicht zwingend nötig, um ediarum zum Laufen zu kriegen, zweitens fehlt da noch Hintergrundinfo, um die Tabelle verstehen zu können."?>Legen
                             Sie eine neue Registeranbindung (Projekt) an<?oxy_comment_end?>, z.B.
-                            Maßangaben</p>
-                        <table>
-                            <tgroup cols="3">
-                                <thead>
-                                    <row>
-                                        <entry/>
-                                        <entry> Bsp. für Maßangaben bei einem Registereintrag: <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
+                            Maßangaben
+                        </cmd>
+                <info>
+                    <table>
+                        <tgroup cols="3">
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry> Bsp. für Maßangaben bei einem Registereintrag: <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
 <label>Kölnische Mark</label>
 </item>]]></codeblock>
-                                        </entry>
-                                        <entry>Allgemein</entry>
-                                    </row>
-                                </thead>
-                                <tbody>
-                                    <row>
-                                        <entry>API-ID</entry>
-                                        <entry>units</entry>
-                                        <entry>frei wählbar, wird bei den Editorvariablen
-                                            angegeben</entry>
-                                    </row>
-                                    <row>
-                                        <entry>Bezeichnung</entry>
-                                        <entry>Maße</entry>
-                                        <entry>Name des Registers (freiwählbar)</entry>
-                                    </row>
-                                    <row>
-                                        <entry>Registerordner/ -datei</entry>
-                                        <entry>Register/Maße.xml</entry>
-                                        <entry>Register/NAME.xml</entry>
-                                    </row>
-                                    <row>
-                                        <entry>Namespace</entry>
-                                        <entry>tei:http://www.tei-c.org/ns/1.0</entry>
-                                        <entry>tei:http://www.tei-c.org/ns/1.0</entry>
-                                    </row>
-                                    <row>
-                                        <entry>Node</entry>
-                                        <entry>tei:item</entry>
-                                        <entry>orientiert sich am Aufbau des Registers</entry>
-                                    </row>
-                                    <row>
-                                        <entry>XML-ID</entry>
-                                        <entry>@xml:id</entry>
-                                        <entry>@xml:id</entry>
-                                    </row>
-                                    <row>
-                                        <entry>Span</entry>
-                                        <entry>//tei:label</entry>
-                                        <entry>orientiert sich am Aufbau des Registers</entry>
-                                    </row>
-                                </tbody>
-                            </tgroup>
-                        </table></cmd>
+                                    </entry>
+                                    <entry>Allgemein</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>API-ID</entry>
+                                    <entry>units</entry>
+                                    <entry>frei wählbar, wird bei den Editorvariablen
+                                        angegeben</entry>
+                                </row>
+                                <row>
+                                    <entry>Bezeichnung</entry>
+                                    <entry>Maße</entry>
+                                    <entry>Name des Registers (freiwählbar)</entry>
+                                </row>
+                                <row>
+                                    <entry>Registerordner/ -datei</entry>
+                                    <entry>Register/Maße.xml</entry>
+                                    <entry>Register/NAME.xml</entry>
+                                </row>
+                                <row>
+                                    <entry>Namespace</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                </row>
+                                <row>
+                                    <entry>Node</entry>
+                                    <entry>tei:item</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                                <row>
+                                    <entry>XML-ID</entry>
+                                    <entry>@xml:id</entry>
+                                    <entry>@xml:id</entry>
+                                </row>
+                                <row>
+                                    <entry>Span</entry>
+                                    <entry>//tei:label</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                    
+                </info>
                     
             </step>
         </steps>

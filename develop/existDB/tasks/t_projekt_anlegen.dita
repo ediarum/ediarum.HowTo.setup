@@ -14,9 +14,9 @@
 
 Im Dashboard sehen Sie nun die eXist-App ediarum.DB
 
-Auch hier: Wenn Icon erwähnt wird, dann Abblidung?"?>Icon
-                        <uicontrol>ediarum<?oxy_comment_end?></uicontrol> an, um die App zu
-                    öffnen.</cmd>
+Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb" mid="1"?>Icon
+                        <uicontrol>ediarum<?oxy_comment_end mid="1"?><?oxy_comment_end?></uicontrol>
+                    an, um die App zu öffnen.</cmd>
             </step>
             <step>
                 <cmd>Gehen Sie in Menü <menucascade>
