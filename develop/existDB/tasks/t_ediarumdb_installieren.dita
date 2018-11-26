@@ -31,25 +31,26 @@
                 <cmd>Klicken Sie das Icon
                         <uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T144820+0100" comment="korrekt: add a package
 
-Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?" id="pdr_sl5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T210724+0100" comment="Ja, wäre sinnvoller. Ist eine Aufwandsentscheidung. Fangen wir das einmal an, müssen wir es überall machen und pflegen. Deshalb: Kannst du hier im Screenshot das Icon markieren. Siehe Topic &quot;ediarum-Frameworks einrichten&quot;." parentID="pdr_sl5_wfb"?>add
-                        a package</uicontrol><?oxy_comment_end mid="1"?><?oxy_comment_end?>an und
-                    ziehen Sie aus dem ediarum.DB Repositorium die Datei
+Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?" id="pdr_sl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210724+0100" comment="Ja, wäre sinnvoller. Ist eine Aufwandsentscheidung. Fangen wir das einmal an, müssen wir es überall machen und pflegen. Deshalb: Kannst du hier im Screenshot das Icon markieren. Siehe Topic &quot;ediarum-Frameworks einrichten&quot;." parentID="pdr_sl5_wfb" mid="1"?><?oxy_comment_start author="phlinss" timestamp="20181126T141251+0100" comment="Erledigt." parentID="pdr_sl5_wfb" mid="2"?>add
+                        a
+                    package</uicontrol><?oxy_comment_end?><?oxy_comment_end mid="1"?><?oxy_comment_end mid="2"?>
+                    an (1) und ziehen Sie aus dem ediarum.DB Repositorium die Datei
                         <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
 
 -ediarum-3.0.0.317.xar
 -ediarum-3.0.1.318.xar
 -ediarum.db-3.2.0.436
--ediarum.db-3.2.1.437" id="dh2_vl5_wfb" mid="3"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb"?>release/ediarum.xar</filepath><?oxy_comment_end mid="3"?><?oxy_comment_end?>in
-                    das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
+-ediarum.db-3.2.1.437" id="dh2_vl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb" mid="4"?>release/ediarum.xar</filepath><?oxy_comment_end?><?oxy_comment_end mid="4"?>in
+                    das Fenster <uicontrol>Upload Packages</uicontrol> (2). </cmd>
                 <info>
                     <fig>
                         <image href="../../img/exist_PackageManager_UploadPackages.png"/>
                     </fig>
                 </info>
                 <stepresult>Im Dashboard sehen Sie nun
-                    <?oxy_comment_start author="phlinss" timestamp="20181120T144858+0100" comment="Im Dashboard heißt die App schlicht &quot;ediarum&quot;." id="ajm_gm5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T211127+0100" comment="Ja, stimmt! Kannst du bitte &quot;ediarum App&quot; in die Terminologieliste im Wiki aufnehmen? Ich glaube es steht auch schon eine entsprechende Anmerkung/Frage dort." parentID="ajm_gm5_wfb" mid="5"?>die
+                    <?oxy_comment_start author="phlinss" timestamp="20181120T144858+0100" comment="Im Dashboard heißt die App schlicht &quot;ediarum&quot;." id="ajm_gm5_wfb" mid="7"?><?oxy_comment_start author="notroff" timestamp="20181122T211127+0100" comment="Ja, stimmt! Kannst du bitte &quot;ediarum App&quot; in die Terminologieliste im Wiki aufnehmen? Ich glaube es steht auch schon eine entsprechende Anmerkung/Frage dort." parentID="ajm_gm5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T141231+0100" comment="Erledigt." parentID="ajm_gm5_wfb" mid="6"?>die
                         <uicontrol>ediarum</uicontrol>
-                    App.<?oxy_comment_end mid="5"?><?oxy_comment_end?></stepresult>
+                    App.<?oxy_comment_end mid="6"?><?oxy_comment_end?><?oxy_comment_end mid="7"?></stepresult>
             </step>
             
         </steps>

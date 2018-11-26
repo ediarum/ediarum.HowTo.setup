@@ -14,8 +14,8 @@
 
 Im Dashboard sehen Sie nun die eXist-App ediarum.DB
 
-Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb" mid="1"?>Icon
-                        <uicontrol>ediarum<?oxy_comment_end mid="1"?><?oxy_comment_end?></uicontrol>
+Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T141844+0100" comment="Erledigt." parentID="r3m_km5_wfb" mid="2"?>Icon
+                        <uicontrol>ediarum<?oxy_comment_end mid="2"?><?oxy_comment_end?><?oxy_comment_end mid="1"?></uicontrol>
                     an, um die App zu öffnen.</cmd>
             </step>
             <step>
@@ -67,7 +67,20 @@ Vorschlag - Task-Topic: &quot;Ediarum-Register aktivieren&quot;"?>
                         id="image_rxd_gb2_wfb"/><?oxy_comment_end?></stepresult>
              </step>
                 
-         
+         <step>
+             <cmd>Gehen Sie in das Menü <menucascade>
+                 <uicontrol>Projektkonfiguration</uicontrol>
+                 <uicontrol>Benutzer</uicontrol>
+             </menucascade>.</cmd>
+             <info>Der Benutzer <uicontrol>website-user</uicontrol> ist standartmäßig bereits angelegt.</info>
+         </step>
+            <step>
+                <cmd>Erstellen Sie über das Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
+                    Benutzer-Account für jeden/r Mitarbeiter/in.</cmd>
+                <info><uicontrol>Benutzername</uicontrol>: Name, den Sie später für die
+                    Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaut keine Umlaute,
+                    Leer- oder Sonderzeichen.</info>
+            </step>
         </steps>
             
     </taskbody>

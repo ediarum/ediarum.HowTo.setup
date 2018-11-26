@@ -5,11 +5,11 @@
     <shortdesc><?oxy_comment_start author="phlinss" timestamp="20181120T152911+0100" comment="Tatsächlich sind es 7 Registerarten. Die shortdesc bezieht sich mehr auf das Aktivieren der Ediarum-Register. 
 
 Hier müsste etwas stehen wie:
-Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angelegt werden usw." id="q2n_pn5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T212143+0100" comment="Wir hatten gesagt, dass dieses Topic erstmal nur die zwingend notwendigen Schritte beinhalten soll, um die ediarum-Register zu aktivieren. Noch keine Beschreibung, wie man eigene Register einrichtet. Hast du beim Durchprobieren evtl. herausgefunden, was man für das Aktivieren der ediarum-Register machen muss?
-Müssen wir vielleicht so oder so am Dienstag gemeinsam vor der Datenbank anschauen." parentID="q2n_pn5_wfb" mid="1"?>ediarum
+Neben den stardartmäßigen Ediarum-Register können zusätzliche Register angelegt werden usw." id="q2n_pn5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T212143+0100" comment="Wir hatten gesagt, dass dieses Topic erstmal nur die zwingend notwendigen Schritte beinhalten soll, um die ediarum-Register zu aktivieren. Noch keine Beschreibung, wie man eigene Register einrichtet. Hast du beim Durchprobieren evtl. herausgefunden, was man für das Aktivieren der ediarum-Register machen muss?
+Müssen wir vielleicht so oder so am Dienstag gemeinsam vor der Datenbank anschauen." parentID="q2n_pn5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T142056+0100" comment="Siehe unten in t_projekt_anlegen.dita" parentID="q2n_pn5_wfb" mid="2"?>ediarum
         enthält die Grundstruktur für zwei Register: Personenregister und Ortsregister
         <!--Stimmt das?-->. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App
-        ediarum.DB.<?oxy_comment_end mid="1"?><?oxy_comment_end?></shortdesc>
+        ediarum.DB.<?oxy_comment_end mid="2"?><?oxy_comment_end?><?oxy_comment_end mid="1"?></shortdesc>
     <taskbody>
 
         <steps>
