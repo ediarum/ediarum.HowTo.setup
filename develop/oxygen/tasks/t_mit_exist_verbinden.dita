@@ -18,11 +18,8 @@
             </step>
             <step>
                 <cmd>Klicken Sie in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>) den
-                        <?oxy_comment_start author="phlinss" timestamp="20181120T155642+0100" comment="Screenshot
-
-Unterschied zwischen Icon und Button?" id="hnc_yn5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T212414+0100" comment="Auf Button kann ich klicken, dann passiert was. Icon wird nur angezeigt. Vielleicht diese Erklärung in der Terminologieliste ergänzen? Könntest du die Doku nochmal durchgehen, ob die beiden Terme überall entsprechend eingesetzt sind?" parentID="hnc_yn5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T142703+0100" comment="Ist das allgemeiner Sprachgebrauch? Auf dem Dektop klickt man doch eher Icons als Buttons an (und etwas passiert)." parentID="hnc_yn5_wfb" mid="2"?><uicontrol>+</uicontrol>
-                    Button<?oxy_comment_end mid="2"?><?oxy_comment_end?><?oxy_comment_end mid="1"?>,
-                    um eine neue Verbindung zu hererstellen.</cmd>
+                        <uicontrol>+</uicontrol> Button, um eine neue Verbindung zu
+                    hererstellen.</cmd>
             </step>
             <step>
                 <cmd>Füllen Sie die Angaben im nun geöffneten <uicontrol>Verbindung</uicontrol>
@@ -42,20 +39,8 @@ Unterschied zwischen Icon und Button?" id="hnc_yn5_wfb" mid="1"?><?oxy_comment_s
                                     <userinput>http://<varname>HOST</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
                             </userinput>Zum Beispiel:
                                 <userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/Beispieledition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard!--></li>
-                        <li><uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T153650+0100" comment="Noch nicht dokumentiert/ das erste Mal überhaupt &quot;Benutzer&quot; erwähnt.
-- Wer ist Benutzer? (MitarbeiterInnen/EditorInnen)
-- Wo lege ich die an?
-- Wird Keepass in der Doku empfohlen/ erwähnt?
-
-[Vorschlag: eigenständiges Topic hinter &quot;Projekt in der Datenbank anlegen]" id="fbm_y45_wfb" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181122T213157+0100" comment="Guter Punkt. Da fehlt inhaltlich was im Topic &quot;Projekt in der Datenbank anlegen&quot;. Das müssen wir mal durchspielen, ob bei der Installation der ediarum App automatisch ein Benutzer angelegt wird und welcher das ist, oder ob man selbst einen anlegen muss. Du kannst auf der Test-DB mal die ediarum-App deinstallieren (über den Minus-Button im Package Manager), und dann so wie es hier beschrieben ist, neu installieren. Wenn man dann die App aufmacht, muss es in irgendeinem Menü etwas zu Benutzern, Rechten u.ä. geben. Dort kannst du mal reinschauen, was dort eingetragen ist.
-Außerdem frage ich mich gerade, ob man diejenigen Benutzerdaten aus der eXist-App eintragen muss, oder nicht eher diejenigen aus der eigenen Projekt-App.
-Wir sollten hier am Ende auf jeden Fall noch schreiben, wie man prüft, ob die WebDAV-Verbindung funktioniert, nämlich indem man in Oxygen im Datenquellenexplorer versucht, die Daten zu holen. Falls du weißt wie das geht - probiers mal aus." parentID="fbm_y45_wfb" mid="5"?><?oxy_comment_start author="phlinss" timestamp="20181126T154154+0100" comment="Im Tooic &quot;Projekt in der Datenbank anlegen&quot; dokumentiert, wie ein Benutzer angelegt wird. 
-Mann muss die Benutzerdaten aus der eXist-App eintragen, um Oxygen mit eXist-DB zu verbinden.
-
-Für Kontrolle über Datenquellenexplorer siehe unten." parentID="fbm_y45_wfb"?>Benutzer</uicontrol>,
-                                <uicontrol>Passwort</uicontrol>: Anmeldedaten, die Sie in der
-                            eXist-App ediarum.DB angelegt
-                            haben<?oxy_comment_end?><?oxy_comment_end mid="5"?><?oxy_comment_end mid="4"?></li>
+                        <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
+                            Anmeldedaten, die Sie in der eXist-App ediarum.DB angelegt haben</li>
                     </ul>
                 </info>
             </step>
@@ -67,13 +52,15 @@ Für Kontrolle über Datenquellenexplorer siehe unten." parentID="fbm_y45_wfb"?>
                     </menucascade> die Datenanbindung.</cmd>
             </step>
             <step>
-                <cmd>Klappen Sie im Explorer die Ordnerstruktur auf.</cmd>
+                <cmd>Die hergestellte Verbindung wird im Explorer angezeigt (<i>hier</i>
+                    beispiel_edition). Klicken Sie den Pfeil neben der Verbindung, um die Datenbaum
+                    zu öffnen.</cmd>
                 <info><image href="../../img/datebexplorer.png" id="image_lng_vyv_xfb"/></info>
             </step>
             
         </steps>
         <result>
-            <p>Sie haben Zugriff auf die Order <uicontrol>Briefe</uicontrol> und
+            <p>Sie haben Zugriff auf die Ordner <uicontrol>Briefe</uicontrol> und
                     <uicontrol>Register</uicontrol>.</p>
         </result>
         <tasktroubleshooting>

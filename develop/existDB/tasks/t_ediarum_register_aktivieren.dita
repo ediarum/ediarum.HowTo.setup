@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_grk_ypc_yfb">
+    <title>ediarum-Register aktivieren</title>
+    <shortdesc>ediarum enthält die Grundstruktur für sieben Register: Personen, Orte, Sachbegriffe,
+        Körperschaften, Werke, Briefe und Anmerkungen. Um diese benutzen zu können, aktivieren Sie
+        sie in der eXist-App ediarum.DB</shortdesc>
+    <taskbody>
+        <prereq>Sie sind als Admin in Ihrer eXist-App ediarum.DB angemeldet.</prereq>
+        <steps>
+            
+            <step><cmd>Gehen Sie in das Menü <menucascade>
+                <uicontrol>Verwaltung</uicontrol>
+                <uicontrol>Projekte</uicontrol>
+            </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie das Feld Ihres Projekts an.</cmd>
+            </step>
+                <step>
+                    <cmd>Gehen Sie in das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade>.</cmd>
+                </step>
+                <step>
+                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie im Feld
+                        <uicontrol>Neues Register</uicontrol> auf den Button
+                        <uicontrol>Aktivieren</uicontrol>.</cmd>
+                <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?"?>
+                <info><?oxy_comment_end?>Ediarum stellt diese Register zur Verfügung: Personen, Ort,
+                    Sachbegriffe, Körperschaft, Werk, Briefe, Anmerkungen.</info>
+            </step>
+                <step>
+                <cmd>Für jedes gewünschte Register: Wählen Sie im nun geöffneten Fenster das
+                    Register aus und klicken Sie auf den <uicontrol>Aktivieren</uicontrol>
+                    Button.</cmd>
+                <info>Sie können das Register entweder in einer Datei oder nach Buchstaben getrennt
+                    anlegen.Wählen Sie die gewünschte Option unter
+                        <uicontrol>Registeraufbau</uicontrol>.<fig>
+                        <image placement="break" href="../../img/ediarum_register.png"
+                            id="image_rxd_gb2_wfb"/>
+                    </fig></info>
+            </step>
+            
+        </steps>
+        <result>Die Standard-Ordnerstruktur auf der Übersichtsseite des Projekts ist um die
+            aktivierten Register ergänzt. <image placement="break"
+                href="../../img/ordnerstruktur_register.png" id="image_ufr_yvc_yfb"/></result>
+    </taskbody>
+</task>

@@ -21,28 +21,24 @@
             </step>
             <step>
                 <cmd>Öffnen Sie die eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>
-                <?oxy_comment_start author="notroff" timestamp="20181127T115558+0100" comment="Wir brauchen hier einen Screenshot ohne die App &quot;Commentaria in Aristotelem Graeca et Byzantina&quot;. Die App &quot;Package Manager&quot; mit roter Umrandung hervorheben."?>
-                <info><?oxy_comment_end?>
+                <?oxy_comment_start author="notroff" timestamp="20181127T115558+0100" comment="Wir brauchen hier einen Screenshot ohne die App &quot;Commentaria in Aristotelem Graeca et Byzantina&quot;. Die App &quot;Package Manager&quot; mit roter Umrandung hervorheben." flag="done"?>
+                <info>
+                    <?oxy_comment_end?>
                     <fig>
                         <image href="../../img/exist_packageManager.png"/>
                     </fig>
                 </info>
             </step>
             <step>
-                <cmd>Klicken Sie das Icon
-                        <uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T144820+0100" comment="korrekt: add a package
-
-Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?" id="pdr_sl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210724+0100" comment="Ja, wäre sinnvoller. Ist eine Aufwandsentscheidung. Fangen wir das einmal an, müssen wir es überall machen und pflegen. Deshalb: Kannst du hier im Screenshot das Icon markieren. Siehe Topic &quot;ediarum-Frameworks einrichten&quot;." parentID="pdr_sl5_wfb" id="lzb_mbc_yfb" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181127T120206+0100" comment="Lieber ohne Zahlen und ohne Rahmen um das &quot;Upload Packages&quot; Fenster. Wegen a) Pflegeaufwand (sobald man im Text einen weiteren Detailschritt zufügt o.ä. stimmt die Grafik nicht mehr) b) Der visuelle Fokus ist eh schon auf dem &quot;Upload Packages&quot; Fenster, weil der Rest ausgegraut ist. Wenn wir anfangen alle Fenster zu umranden, die sich irgendwo öffnen, kommen wir vom hundertsten ins tausendste." parentID="lzb_mbc_yfb" flag="done" mid="3"?><?oxy_comment_start author="phlinss" timestamp="20181126T141251+0100" comment="Erledigt." parentID="pdr_sl5_wfb" mid="2"?>add
-                        a
-                    package</uicontrol><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?>
-                    an (1) und ziehen Sie aus dem ediarum.DB Repositorium die Datei
+                <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol> und ziehen Sie
+                    aus dem ediarum.DB Repositorium die Datei
                         <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
 
 -ediarum-3.0.0.317.xar
 -ediarum-3.0.1.318.xar
 -ediarum.db-3.2.0.436
--ediarum.db-3.2.1.437" id="dh2_vl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb" mid="7"?><?oxy_comment_start author="notroff" timestamp="20181127T115906+0100" comment="Ach so. Wir brauchen hier einen Platzhalter für die Versionsangabe." parentID="dh2_vl5_wfb" mid="6"?>release/ediarum.xar</filepath><?oxy_comment_end?><?oxy_comment_end mid="7"?><?oxy_comment_end mid="6"?>in
-                    das Fenster <uicontrol>Upload Packages</uicontrol> (2). </cmd>
+-ediarum.db-3.2.1.437" id="dh2_vl5_wfb" flag="done"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb" flag="done" mid="3"?><?oxy_comment_start author="notroff" timestamp="20181127T115906+0100" comment="Ach so. Wir brauchen hier einen Platzhalter für die Versionsangabe." parentID="dh2_vl5_wfb" flag="done" mid="2"?>release/ediarum〈version〉.xar</filepath><?oxy_comment_end?><?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?>in
+                    das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
                 <info>
                     <fig>
                         <image href="../../img/exist_PackageManager_UploadPackages.png"/>

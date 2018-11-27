@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_psj_nwx_tfb">
+    <title>Ein neues Register einrichten</title>
+    <shortdesc>Legen Sie in der eXist-App ediarum.DB ein zusätzliches Register an, das ediarum nicht
+        standartmäßig zu Verfügung stellt. Um diese benutzen zu können, legen Sie sie in der
+        eXist-App ediarum.DB an.</shortdesc>
+    <taskbody>
+        <prereq>Pürfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>
+        <steps>
+            <step>
+                <cmd>Gehen Sie in das Menü <menucascade>
+                    <uicontrol>Verwaltung</uicontrol>
+                    <uicontrol>Projekte</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
+            </step>
+            <step>
+                <cmd>Gehen Sie in das Menü <menucascade>
+                    <uicontrol>Projektkonfiguration</uicontrol>
+                    <uicontrol>Register</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
+                    den Button <uicontrol>Hinzufügen</uicontrol>.</cmd>
+                <stepresult>Es öffnet sich ein Fenster, in dem Sie die Parameter eintragen
+                    müssen.<image placement="break" href="../../img/neue_registeranbindung.png"
+                        id="image_sq3_wf2_wfb"/></stepresult>
+            </step>
+            
+            <step>
+                <cmd> Legen Sie eine neue Registeranbindung (Projekt) an, z.B. Maßangaben </cmd>
+                <info>
+                    <table>
+                        <tgroup cols="3">
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry> Bsp. für Maßangaben bei einem Registereintrag: <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
+<label>Kölnische Mark</label>
+</item>]]></codeblock>
+                                    </entry>
+                                    <entry>Allgemein</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>API-ID</entry>
+                                    <entry>units</entry>
+                                    <entry>frei wählbar, wird bei den Editorvariablen
+                                        angegeben</entry>
+                                </row>
+                                <row>
+                                    <entry>Bezeichnung</entry>
+                                    <entry>Maße</entry>
+                                    <entry>Name des Registers (freiwählbar)</entry>
+                                </row>
+                                <row>
+                                    <entry>Registerordner/ -datei</entry>
+                                    <entry>Register/Maße.xml</entry>
+                                    <entry>Register/NAME.xml</entry>
+                                </row>
+                                <row>
+                                    <entry>Namespace</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                </row>
+                                <row>
+                                    <entry>Node</entry>
+                                    <entry>tei:item</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                                <row>
+                                    <entry>XML-ID</entry>
+                                    <entry>@xml:id</entry>
+                                    <entry>@xml:id</entry>
+                                </row>
+                                <row>
+                                    <entry>Span</entry>
+                                    <entry>//tei:label</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
