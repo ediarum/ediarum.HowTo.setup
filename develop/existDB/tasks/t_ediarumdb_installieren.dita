@@ -32,9 +32,9 @@
                 <cmd>Klicken Sie das Icon
                         <uicontrol><?oxy_comment_start author="phlinss" timestamp="20181120T144820+0100" comment="korrekt: add a package
 
-Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?" id="pdr_sl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210724+0100" comment="Ja, wäre sinnvoller. Ist eine Aufwandsentscheidung. Fangen wir das einmal an, müssen wir es überall machen und pflegen. Deshalb: Kannst du hier im Screenshot das Icon markieren. Siehe Topic &quot;ediarum-Frameworks einrichten&quot;." parentID="pdr_sl5_wfb" id="lzb_mbc_yfb" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181127T120206+0100" comment="Lieber ohne Zahlen und ohne Rahmen um das &quot;Upload Packages&quot; Fenster. Wegen a) Pflegeaufwand (sobald man im Text einen weiteren Detailschritt zufügt o.ä. stimmt die Grafik nicht mehr) b) Der visuelle Fokus ist eh schon auf dem &quot;Upload Packages&quot; Fenster, weil der Rest ausgegraut ist. Wenn wir anfangen alle Fenster zu umranden, die sich irgendwo öffnen, kommen wir vom hundertsten ins tausendste." parentID="lzb_mbc_yfb" mid="2"?><?oxy_comment_start author="phlinss" timestamp="20181126T141251+0100" comment="Erledigt." parentID="pdr_sl5_wfb" mid="3"?>add
+Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a package) hinzuzufügen?" id="pdr_sl5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T210724+0100" comment="Ja, wäre sinnvoller. Ist eine Aufwandsentscheidung. Fangen wir das einmal an, müssen wir es überall machen und pflegen. Deshalb: Kannst du hier im Screenshot das Icon markieren. Siehe Topic &quot;ediarum-Frameworks einrichten&quot;." parentID="pdr_sl5_wfb" id="lzb_mbc_yfb" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181127T120206+0100" comment="Lieber ohne Zahlen und ohne Rahmen um das &quot;Upload Packages&quot; Fenster. Wegen a) Pflegeaufwand (sobald man im Text einen weiteren Detailschritt zufügt o.ä. stimmt die Grafik nicht mehr) b) Der visuelle Fokus ist eh schon auf dem &quot;Upload Packages&quot; Fenster, weil der Rest ausgegraut ist. Wenn wir anfangen alle Fenster zu umranden, die sich irgendwo öffnen, kommen wir vom hundertsten ins tausendste." parentID="lzb_mbc_yfb" flag="done" mid="3"?><?oxy_comment_start author="phlinss" timestamp="20181126T141251+0100" comment="Erledigt." parentID="pdr_sl5_wfb" mid="2"?>add
                         a
-                    package</uicontrol><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="3"?>
+                    package</uicontrol><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?>
                     an (1) und ziehen Sie aus dem ediarum.DB Repositorium die Datei
                         <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
 
@@ -48,10 +48,8 @@ Ist es sinnvoller das Icon an dieser Stelle abzubilden? und in Klammern (add a p
                         <image href="../../img/exist_PackageManager_UploadPackages.png"/>
                     </fig>
                 </info>
-                <stepresult>Im Dashboard sehen Sie nun
-                    <?oxy_comment_start author="phlinss" timestamp="20181120T144858+0100" comment="Im Dashboard heißt die App schlicht &quot;ediarum&quot;." id="ajm_gm5_wfb" mid="9"?><?oxy_comment_start author="notroff" timestamp="20181122T211127+0100" comment="Ja, stimmt! Kannst du bitte &quot;ediarum App&quot; in die Terminologieliste im Wiki aufnehmen? Ich glaube es steht auch schon eine entsprechende Anmerkung/Frage dort." parentID="ajm_gm5_wfb" flag="done" mid="10"?><?oxy_comment_start author="phlinss" timestamp="20181126T141231+0100" comment="Erledigt." parentID="ajm_gm5_wfb"?>die
-                        <uicontrol>ediarum</uicontrol>
-                    App.<?oxy_comment_end?><?oxy_comment_end mid="10"?><?oxy_comment_end mid="9"?></stepresult>
+                <stepresult>Im Dashboard sehen Sie nun die <uicontrol>ediarum</uicontrol>
+                    App.</stepresult>
             </step>
             
         </steps>

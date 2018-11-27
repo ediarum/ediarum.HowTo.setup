@@ -12,15 +12,8 @@
                 <li>eXist-db (XML-Datenbank)</li>
                 <li>Oxygen (XML-Editor)</li>
             </ul>
-            <p>In  beiden Programmen ist es möglich, die
-                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?" id="ojq_3k5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T205651+0100" comment="Für jeden sprachlich guten Vorschlag, wie man diesen Monstersatz auseinandernehmen kann, bin ich sehr dankbar! Her damit!" parentID="ojq_3k5_wfb" mid="2"?><?oxy_comment_start author="phlinss" timestamp="20181126T161607+0100" comment="Vorschlag
-
-Beide Programme erlauben (ermöglichen) es, ihre Funktionen zu konfigurieren und zu erweitern, und enthalten gleichzeitig Mechanismen, um diese Änderungen (Konfigurationen) gebündelt an andere Programm-Instanzen weiterzugeben.
-
-" parentID="ojq_3k5_wfb" flag="done"?>Funktionalität
-                der Programme zu konfigurieren und zu erweitern. Beide Programme enthalten
-                Mechanismen,
-                wie<?oxy_comment_end?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="1"?> solche
+            <p>In beiden Programmen ist es möglich, die Funktionalität der Programme zu
+                konfigurieren und zu erweitern. Beide Programme enthalten Mechanismen, wie solche
                 Konfigurationen gebündelt an andere Programm-Instanzen weitergegeben werden
                 können:</p>
             <ul>
@@ -28,10 +21,7 @@ Beide Programme erlauben (ermöglichen) es, ihre Funktionen zu konfigurieren und
                     Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
                     Oxygen "Framework".</li>
                 <li>In eXist-db kann man mithilfe eines Templating-Systems Webanwendungen aus den
-                    <?oxy_comment_start author="phlinss" timestamp="20181120T144048+0100" comment="Was sind XML-Daten?
-- Menge an XML-Dateien
-- ?" id="zyc_mk5_wfb"?><?oxy_comment_start author="notroff" timestamp="20181122T205752+0100" comment="Sehr gut gesehen. Nimm das mal als Frage mit in die Terminologieliste im Wiki auf." parentID="zyc_mk5_wfb" mid="3"?>XML-Daten<?oxy_comment_end mid="3"?><?oxy_comment_end?>
-                    generieren. Diese Webanwendungen heißen "Apps".</li>
+                    XML-Daten generieren. Diese Webanwendungen heißen "Apps".</li>
             </ul>
             <p>Ediarum besteht aus mehreren solchen Oxygen-Frameworks und eXist-Apps. Zusätzlich
                 werden zwei "Projekte" benötigt: ein Projekt in Oxygen, ein Projekt in der

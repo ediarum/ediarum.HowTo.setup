@@ -79,9 +79,9 @@ Für Kontrolle über Datenquellenexplorer siehe unten." parentID="fbm_y45_wfb"?>
         <tasktroubleshooting>
             <p>Wenn sich die Ordner nicht aufklappen lassen und eine Fehlermeldung erscheint
                 <ul>
-                    <li>Kontrollieren Sie die Angaben im <uicontrol>Verbindung</uicontrol> Fenster
-                        (siehe Punkt 3).</li>
-                    <li>Machen Sie im Explorer danach einen Rechtsklick auf Ihre Edition und klichen
+                    <li>Kontrollieren Sie die Richtigkeit Ihrer Angaben im
+                            <uicontrol>Verbindung</uicontrol> Fenster (siehe Punkt 3).</li>
+                    <li>Machen Sie im Explorer danach einen Rechtsklick auf Ihre Edition und klicken
                         im Kontextmenü <uicontrol>Erneut laden</uicontrol>.</li>
                     <li>Wiederholen Sie diese Schritte und kontrollieren Sie ggf. in der eXist-App
                         ediarum.DB, ob die Benutzer korrekt angelegt sind.</li>

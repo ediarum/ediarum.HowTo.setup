@@ -56,10 +56,8 @@ Vorschlag - Task-Topic: &quot;Ediarum-Register aktivieren&quot;"?>
                     </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie
-                    <?oxy_comment_start author="notroff" timestamp="20181127T121503+0100" comment="&quot;in dem Feld&quot;?"?>auf
-                    dem Feld<?oxy_comment_end?>
-                    <uicontrol>Neues Register</uicontrol> auf den Button
+                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie im Feld
+                        <uicontrol>Neues Register</uicontrol> auf den Button
                         <uicontrol>Aktivieren</uicontrol>.</cmd>
                 <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?"?>
                 <info><?oxy_comment_end?>Ediarum stellt diese Register zur Verfügung: Personen, Ort,
@@ -90,8 +88,8 @@ Vorschlag - Task-Topic: &quot;Ediarum-Register aktivieren&quot;"?>
                 <cmd>Erstellen Sie über das Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
                     Benutzer-Account für jeden/r Mitarbeiter/in.</cmd>
                 <info><uicontrol>Benutzername</uicontrol>: Name, den Sie später für die
-                    Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaut keine Umlaute,
-                    Leer- oder Sonderzeichen.</info>
+                    Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaute, Leer- oder
+                    Sonderzeichen.</info>
             </step>
         </steps>
             
