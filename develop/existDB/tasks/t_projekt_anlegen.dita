@@ -6,7 +6,7 @@
         Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
         automatisiert korrekt anzulegen, benutzen Sie die eXist-App ediarum.DB.</shortdesc>
     <taskbody>
-        <prereq>Sie sind als Admin in der eXist-App ediarum DB angemeldet.</prereq>
+        <prereq>Sie sind als Admin in Ihrer eXist Datenbank angemeldet.</prereq>
         <steps>
             <step>
                 <cmd>Klicken Sie im Dashboard der eXist-db das
@@ -14,8 +14,8 @@
 
 Im Dashboard sehen Sie nun die eXist-App ediarum.DB
 
-Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T141844+0100" comment="Erledigt." parentID="r3m_km5_wfb" mid="2"?>Icon
-                        <uicontrol>ediarum<?oxy_comment_end mid="2"?><?oxy_comment_end?><?oxy_comment_end mid="1"?></uicontrol>
+Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb" flag="done" mid="2"?><?oxy_comment_start author="phlinss" timestamp="20181126T141844+0100" comment="Erledigt." parentID="r3m_km5_wfb"?>Icon
+                        <uicontrol>ediarum<?oxy_comment_end?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="1"?></uicontrol>
                     an, um die App zu öffnen.</cmd>
             </step>
             <step>
@@ -42,38 +42,50 @@ Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" mid="1"?><
                     
 Vorschlag - Task-Topic: &quot;Ediarum-Register aktivieren&quot;"?>
                 <cmd>Gehen Sie in das Menü <menucascade>
-                    <uicontrol>Verwaltung</uicontrol>
-                    <uicontrol>Projekte</uicontrol>
-                </menucascade>.</cmd>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
             </step>
             <step>
                 <cmd>Gehen Sie in das Menü <menucascade>
-                    <uicontrol>Projektkonfiguration</uicontrol>
-                    <uicontrol>Register</uicontrol>
-                </menucascade>.</cmd>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade>.</cmd>
             </step>
             <step>
-                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> licken Sie auf dem Feld
+                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie
+                    <?oxy_comment_start author="notroff" timestamp="20181127T121503+0100" comment="&quot;in dem Feld&quot;?"?>auf
+                    dem Feld<?oxy_comment_end?>
                     <uicontrol>Neues Register</uicontrol> auf den Button
-                    <uicontrol>Aktivieren</uicontrol>.</cmd>
-                <info>Ediarum stellt diese Register zur Verfügung: Personen, Ort, Sachbegriffe,
-                    Körperschaft, Werk, Briefe, Anmerkungen.</info>
-                <stepresult>Wählen Sie im nun geöffneten Fenster das Register geschwünschte
-                    aus.<?oxy_comment_end?><?oxy_comment_start author="phlinss" timestamp="20181120T150626+0100" comment="In develop/img abgelegt."?><image
-                        placement="break" href="../../img/ediarum_register.png"
-                        id="image_rxd_gb2_wfb"/><?oxy_comment_end?></stepresult>
-             </step>
-                
-         <step>
-             <cmd>Gehen Sie in das Menü <menucascade>
-                 <uicontrol>Projektkonfiguration</uicontrol>
-                 <uicontrol>Benutzer</uicontrol>
-             </menucascade>.</cmd>
-             <info>Der Benutzer <uicontrol>website-user</uicontrol> ist standartmäßig bereits angelegt.</info>
-         </step>
+                        <uicontrol>Aktivieren</uicontrol>.</cmd>
+                <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?"?>
+                <info><?oxy_comment_end?>Ediarum stellt diese Register zur Verfügung: Personen, Ort,
+                    Sachbegriffe, Körperschaft, Werk, Briefe, Anmerkungen.</info>
+                <stepresult/>
+            </step>
+            <step>
+                <?oxy_comment_start author="notroff" timestamp="20181127T121940+0100" comment="Dies ist ein Step, kein Result. Können wir kurz drüber reden."?>
+                <cmd><?oxy_comment_end?>Für jedes gewünschte Register: Wählen Sie im nun geöffneten
+                    Fenster das Register aus und klicken Sie auf den
+                        <uicontrol>Aktivieren</uicontrol> Button.</cmd>
+                <info>
+                    <fig>
+                        <image placement="break" href="../../img/ediarum_register.png"
+                            id="image_rxd_gb2_wfb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Gehen Sie in das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Benutzer</uicontrol>
+                    </menucascade>.</cmd>
+                <info>Der Benutzer <uicontrol>website-user</uicontrol> ist standardmäßig bereits
+                    angelegt.</info>
+            </step>
             <step>
                 <cmd>Erstellen Sie über das Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
                     Benutzer-Account für jeden/r Mitarbeiter/in.</cmd>

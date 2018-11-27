@@ -12,16 +12,17 @@
                 <li>eXist-db (XML-Datenbank)</li>
                 <li>Oxygen (XML-Editor)</li>
             </ul>
-            <p>Beide Programme enthalten
-                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?" id="ojq_3k5_wfb" mid="2"?><?oxy_comment_start author="notroff" timestamp="20181122T205651+0100" comment="Für jeden sprachlich guten Vorschlag, wie man diesen Monstersatz auseinandernehmen kann, bin ich sehr dankbar! Her damit!" parentID="ojq_3k5_wfb"?><?oxy_comment_start author="phlinss" timestamp="20181126T161607+0100" comment="Vorschlag
+            <p>In  beiden Programmen ist es möglich, die
+                <?oxy_comment_start author="phlinss" timestamp="20181120T143959+0100" comment="Ist das ein grammitscher Ausdruck?" id="ojq_3k5_wfb" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T205651+0100" comment="Für jeden sprachlich guten Vorschlag, wie man diesen Monstersatz auseinandernehmen kann, bin ich sehr dankbar! Her damit!" parentID="ojq_3k5_wfb" mid="2"?><?oxy_comment_start author="phlinss" timestamp="20181126T161607+0100" comment="Vorschlag
 
 Beide Programme erlauben (ermöglichen) es, ihre Funktionen zu konfigurieren und zu erweitern, und enthalten gleichzeitig Mechanismen, um diese Änderungen (Konfigurationen) gebündelt an andere Programm-Instanzen weiterzugeben.
 
-" parentID="ojq_3k5_wfb" mid="1"?>Mechanismen,
-                wie die Funktionalität der Programme konfiguriert und erweitert werden
-                kann,<?oxy_comment_end mid="1"?><?oxy_comment_end?><?oxy_comment_end mid="2"?> sowie
-                wie diese Konfigurationen gebündelt an andere Programm-Instanzen weitergegeben
-                werden können:</p>
+" parentID="ojq_3k5_wfb" flag="done"?>Funktionalität
+                der Programme zu konfigurieren und zu erweitern. Beide Programme enthalten
+                Mechanismen,
+                wie<?oxy_comment_end?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="1"?> solche
+                Konfigurationen gebündelt an andere Programm-Instanzen weitergegeben werden
+                können:</p>
             <ul>
                 <li>In Oxygen kann man GUI-Elemente für XML-Bearbeitungsfunktionen erstellen. Der
                     Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
@@ -37,7 +38,11 @@ Beide Programme erlauben (ermöglichen) es, ihre Funktionen zu konfigurieren und
                 Datenbank. Das Projekt in der Datenbank enthält ediarum-spezifische
                 Datenhaltungsstrukturen und Datenbanksettings. Das Projekt in Oxygen definiert die
                 Konfiguration einer REST-Schnittstelle mit der Datenbank.</p>
-            <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten vorhanden.</p>
+            <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten
+                <?oxy_comment_start author="notroff" timestamp="20181127T115430+0100" comment="Die Grafik ist noch nicht korrekt.
+- ediarum.PDF muss raus
+- zwei Projekte müssen dazu
+Entweder wir nehmen die Grafik für die erste Veröffentlichung raus und listen die Komponenten stattdessen in einer Tabelle auf. Oder du hast Zeit (und ein Faible oder Interesse für Grafikbearbeitungsprogramme), die Grafik entsprechend anzupassen? "?>vorhanden<?oxy_comment_end?>.</p>
             <fig> <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline" /></fig>
             <!-- mögliche alternative Grafik (Preferenz von Esther) <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           
            mögliche weitere alternative Grafik <fig>
