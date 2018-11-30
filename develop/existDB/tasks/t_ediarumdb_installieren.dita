@@ -6,9 +6,7 @@
     <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
     <taskbody>
         <prereq>
-            
-            
-                Sie haben aus github das Repositorium <xref 
+                  Sie haben aus github das Repositorium <xref 
                         href="https://github.com/ediarum/ediarum.DB" scope="external" format="html"
                         >https://github.com/ediarum/ediarum.DB</xref> geklont.<!-- Oder irgendwie allgemeiner formulieren? Alternative: ZIP-Datei runterladen? -->
             

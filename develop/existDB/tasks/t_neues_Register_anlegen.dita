@@ -6,7 +6,7 @@
         standartmäßig zu Verfügung stellt. Um diese benutzen zu können, legen Sie sie in der
         eXist-App ediarum.DB an.</shortdesc>
     <taskbody>
-        <prereq>Pürfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>
+        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>
         <steps>
             <step>
                 <cmd>Gehen Sie in das Menü <menucascade>
