@@ -9,13 +9,15 @@
         <prereq>Sie sind als Admin in Ihrer eXist Datenbank angemeldet.</prereq>
         <steps>
             <step>
-                <cmd>Klicken Sie im Dashboard der eXist-db die <?oxy_comment_start author="phlinss" timestamp="20181120T150926+0100" comment="Hier wird vom Icon ediarum gesprochen. Im vorausgehenden Topic wird stattdessen gesagt: 
+                <cmd><?oxy_comment_start author="phlinss" timestamp="20181203T150700+0100" comment="Screenshot."?>Klicken
+                    Sie im Dashboard der eXist-db die <?oxy_comment_start author="phlinss" timestamp="20181120T150926+0100" comment="Hier wird vom Icon ediarum gesprochen. Im vorausgehenden Topic wird stattdessen gesagt: 
 
 Im Dashboard sehen Sie nun die eXist-App ediarum.DB
 
-Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" flag="done" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb" flag="done" mid="2"?><?oxy_comment_start author="phlinss" timestamp="20181126T141844+0100" comment="Erledigt." parentID="r3m_km5_wfb" flag="done"?>
-                    <uicontrol>ediarum<?oxy_comment_end?><?oxy_comment_end mid="2"?><?oxy_comment_end mid="1"?></uicontrol>
+Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" flag="done" mid="2"?><?oxy_comment_start author="notroff" timestamp="20181122T211237+0100" comment="Bitte als Variante und Frage in die Terminologieliste im Wiki aufnehmen." parentID="r3m_km5_wfb" flag="done" mid="3"?><?oxy_comment_start author="phlinss" timestamp="20181126T141844+0100" comment="Erledigt." parentID="r3m_km5_wfb" flag="done"?>
+                    <uicontrol>ediarum<?oxy_comment_end?><?oxy_comment_end mid="3"?><?oxy_comment_end mid="2"?></uicontrol>
                     App an.</cmd>
+                <?oxy_comment_end?>
             </step>
             <step>
                 <cmd>Wählen Sie das Menü <menucascade>
