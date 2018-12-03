@@ -7,28 +7,39 @@
         App.</shortdesc>
     <taskbody>
         <steps>
-            <step><cmd>Gehen Sie in das Menü <menucascade>
-                <uicontrol>Verwaltung</uicontrol>
-                <uicontrol>Projekte</uicontrol>
-            </menucascade>.</cmd></step>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
             
                 <step>
                 <cmd>Klicken Sie das Feld Ihres Projekts an.</cmd>
             </step>
-                <step><cmd>Gehen Sie in das Menü <menucascade>
-                    <uicontrol>Projektkonfiguration</uicontrol>
-                    <uicontrol>Benutzer</uicontrol>
-                </menucascade>.</cmd>
-                <info>Der Benutzer <uicontrol>website-user</uicontrol> ist standardmäßig bereits
-                    angelegt.</info>
+                <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Benutzer</uicontrol>
+                    </menucascade> aus.</cmd>
+                <info>D<?oxy_comment_start author="phlinss" timestamp="20181203T151111+0100" comment="Frage an SD: Stimmt das?"?>er
+                    Benutzer <uicontrol>website-user</uicontrol> ist standardmäßig bereits
+                    angelegt.<?oxy_comment_end?></info>
             </step>
             <step>
-                <cmd>Erstellen Sie im Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
-                    Benutzer-Account für jede/n Editor/in.</cmd>
+                <cmd>Geben Sie im Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
+                    Benutzernamen und ein Passwort ein.</cmd>
                 <info><uicontrol>Benutzername</uicontrol>: Name, den Sie später für die
                     Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaute, Leer- oder
                         Sonderzeichen.<image placement="break" href="../../img/user_anlegen.png"
                         id="image_ess_fwc_yfb"/></info>
+            </step>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Anlegen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Legen Sie so für jede/n wissenschaftliche Editor/in einen Nutzer-Account
+                    an.</cmd>
             </step>
         </steps>
     </taskbody>

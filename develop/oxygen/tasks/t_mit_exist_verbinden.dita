@@ -8,13 +8,16 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Gehen Sie in Oxygen in das Menü <menucascade>
+                <cmd>Wählen Sie in Oxygen das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
-                    </menucascade> und wählen Sie in dem nun geöffneten Fenster in der linken Spalte
-                    den Listenpunkt <menucascade>
+                    </menucascade> aus. </cmd>
+            </step>
+            <step>
+                <cmd> Wählen Sie <menucascade>
                         <uicontrol>Datenquellen</uicontrol>
-                    </menucascade> aus.</cmd>
+                    </menucascade> in der linken Spalte des nun geöffneten Fensters
+                        <uicontrol>Einstellungen</uicontrol> aus.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>) den
@@ -29,9 +32,10 @@
                         id="image_ynk_yd4_4fb"/>
                     <ul id="ul_znk_yd4_4fb">
                         <li><uicontrol>Name</uicontrol>: Name dieser Verbindung, z.B.
-                                <userinput>Beispieledition</userinput>. Dient Ihnen zur
-                            Unterscheidung dieser Verbindung von anderen Datenbankverbindungen, die
-                            Sie in Oxygen definiert haben.</li>
+                                <userinput><?oxy_comment_start author="phlinss" timestamp="20181203T152449+0100" comment="ändern in PROKEKTNAME? 
+Siehe Abbildung oben."?>Beispieledition<?oxy_comment_end?></userinput>.
+                            Dient Ihnen zur Unterscheidung dieser Verbindung von anderen
+                            Datenbankverbindungen, die Sie in Oxygen definiert haben.</li>
                         <li><uicontrol>Datenquelle</uicontrol>: <userinput>WebDAV
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
@@ -45,16 +49,17 @@
                 </info>
             </step>
             <step>
-                <cmd>Kontrollieren Sie die Datenanbindung. Gehen Sie in das Menü <menucascade>
+                <cmd>Kontrollieren Sie die Datenanbindung. Wählen Sie im  Menü <menucascade>
                         <uicontrol>Fenster</uicontrol>
                         <uicontrol>Ansicht zeigen</uicontrol>
                         <uicontrol>Datenquellen Explorer</uicontrol>
-                    </menucascade> die Datenanbindung.</cmd>
+                    </menucascade> aus.</cmd>
             </step>
             <step>
                 <cmd>Die hergestellte Verbindung wird im Explorer angezeigt (<i>hier</i>
-                    beispiel_edition). Klicken Sie den Pfeil neben der Verbindung, um die Datenbaum
-                    zu öffnen.</cmd>
+                    beispiel_edition). Klicken Sie den Pfeil neben der Verbindung, um
+                    <?oxy_comment_start author="phlinss" timestamp="20181203T152757+0100" comment="oder Ordnerstruktur?"?>den
+                    Datenbaum<?oxy_comment_end?> zu öffnen.</cmd>
                 <info><image href="../../img/datebexplorer.png" id="image_lng_vyv_xfb"/></info>
             </step>
             

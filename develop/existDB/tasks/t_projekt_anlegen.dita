@@ -18,15 +18,14 @@ Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" flag="done
                     App an.</cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in Menü <menucascade>
+                <cmd>Wählen Sie das Menü <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
                         <uicontrol>Projekte</uicontrol>
-                    </menucascade>
-                </cmd>
+                    </menucascade> aus.</cmd>
             </step>
             <step>
                 <cmd>Im Feld <uicontrol>Neues Projekt</uicontrol> geben Sie Ihren Projektnamen für
-                    Ihre Edition an und klicken auf den Button <uicontrol>Anlegen</uicontrol>.</cmd>
+                    Ihre Edition an und klicken auf <uicontrol>Anlegen</uicontrol>.</cmd>
                 <info><uicontrol>Projektname:</uicontrol> Name, den Sie später für die
                     Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaute, Leer- oder
                     Sonderzeichen.</info>
