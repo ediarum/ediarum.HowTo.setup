@@ -8,7 +8,7 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Wählen Sie in Oxygen das Menü <menucascade>
+                <cmd>Wählen Sie im Oxygen XML Author das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
                     </menucascade> aus. </cmd>
@@ -33,16 +33,21 @@
                     <ul id="ul_znk_yd4_4fb">
                         <li><uicontrol>Name</uicontrol>: Name dieser Verbindung, z.B.
                                 <userinput><?oxy_comment_start author="phlinss" timestamp="20181203T152449+0100" comment="ändern in PROKEKTNAME? 
-Siehe Abbildung oben."?>Beispieledition<?oxy_comment_end?></userinput>.
-                            Dient Ihnen zur Unterscheidung dieser Verbindung von anderen
-                            Datenbankverbindungen, die Sie in Oxygen definiert haben.</li>
+Siehe Abbildung oben.
+
+Alternativ: 
+- meineEdition (schon anderswo in Doku so verwendet)
+- Screenshots neu machen "?><?oxy_custom_start type="oxy_content_highlight" color="255,255,0" mid="1"?>Beispieledition<?oxy_comment_end?></userinput>.
+                            <?oxy_custom_end mid="1"?>Dient Ihnen zur Unterscheidung dieser
+                            Verbindung von anderen Datenbankverbindungen, die Sie in Oxygen
+                            definiert haben.</li>
                         <li><uicontrol>Datenquelle</uicontrol>: <userinput>WebDAV
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
                             eXist-Instanz, nach dem Muster:
                                     <userinput>http://<varname>HOST</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
                             </userinput>Zum Beispiel:
-                                <userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/Beispieledition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard!--></li>
+                                <userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/<?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Beispieledition<?oxy_custom_end?>/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard!--></li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
                             Anmeldedaten, die Sie in der eXist-App ediarum.DB angelegt haben</li>
                     </ul>
@@ -57,7 +62,8 @@ Siehe Abbildung oben."?>Beispieledition<?oxy_comment_end?></userinput>.
             </step>
             <step>
                 <cmd>Die hergestellte Verbindung wird im Explorer angezeigt (<i>hier</i>
-                    beispiel_edition). Klicken Sie den Pfeil neben der Verbindung, um
+                    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>beispiel_edition<?oxy_custom_end?>).
+                    Klicken Sie den Pfeil neben der Verbindung, um
                     <?oxy_comment_start author="phlinss" timestamp="20181203T152757+0100" comment="oder Ordnerstruktur?"?>den
                     Datenbaum<?oxy_comment_end?> zu öffnen.</cmd>
                 <info><image href="../../img/datebexplorer.png" id="image_lng_vyv_xfb"/></info>

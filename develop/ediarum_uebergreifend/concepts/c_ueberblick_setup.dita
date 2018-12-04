@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_ueberblick_setup" xml:lang="de-DE">
-    <title>Überblick über das Setup</title>
+    <title><?oxy_comment_start author="phlinss" timestamp="20181204T155340+0100" comment="Soll in diesem Topic Zotero erwähnt werden?"?>Überblick<?oxy_comment_end?>
+        über das Setup</title>
     <shortdesc>Sie können die Editionsumgebung von ediarum einrichten, erweitern, und die
         Erweiterung an andere weitergeben.</shortdesc>
     <conbody>
@@ -22,7 +23,9 @@
         <section>
             <title>Setup-Varianten</title>
             <p>Sie können ediarum zunächst einfach zum Laufen bringen (Basic Setup). Sie können das
-                Basic Setup mit oder ohne Registerfunktionalitäten vornehmen. Wenn ediarum läuft,
+                Basic Setup
+                <?oxy_comment_start author="phlinss" timestamp="20181204T153858+0100" comment="Im Basic Setup sollten nach Rücksprache mit SD Person- und Ortsregister aktiviert werden."?>mit
+                oder ohne Registerfunktionalitäten<?oxy_comment_end?> vornehmen. Wenn ediarum läuft,
                 können Sie der Arbeitsumgebung eigene Funktionalitäten hinzufügen, indem Sie ein
                 eigenes Oxygen-Framework einrichten, welches das ediarum-Framework erweitert.</p>
             </section>

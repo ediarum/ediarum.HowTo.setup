@@ -22,9 +22,8 @@
                         <uicontrol>Projektkonfiguration</uicontrol>
                         <uicontrol>Benutzer</uicontrol>
                     </menucascade> aus.</cmd>
-                <info>D<?oxy_comment_start author="phlinss" timestamp="20181203T151111+0100" comment="Frage an SD: Stimmt das?"?>er
-                    Benutzer <uicontrol>website-user</uicontrol> ist standardmäßig bereits
-                    angelegt.<?oxy_comment_end?></info>
+                <info>Der Benutzer <uicontrol>website-user</uicontrol> ist standardmäßig bereits
+                    angelegt.</info>
             </step>
             <step>
                 <cmd>Geben Sie im Feld <uicontrol>Neues Projektmitglied</uicontrol> einen

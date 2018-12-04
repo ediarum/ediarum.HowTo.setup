@@ -28,9 +28,21 @@
                 <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie im Feld
                         <uicontrol>Neues Register</uicontrol> auf
                     <uicontrol>Aktivieren</uicontrol>.</cmd>
-                <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?"?>
-                <info><?oxy_comment_end?>Ediarum stellt diese Register zur Verfügung: Personen, Ort,
-                    Sachbegriffe, Körperschaft, Werk, Briefe, Anmerkungen.</info>
+                <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?" id="lmf_kyb_1gb"?>
+                <?oxy_comment_start author="phlinss" timestamp="20181204T151553+0100" comment="Ich habe mit Stefan gesprochen:
+- wir sollten an dieser Stelle empfehlen Personen- und Ortsregister anzulegen
+- und kurz erklären warum
+
+Textvorschlag:
+[shortDesc:] Für das Basic Setup von ediarum benötigen Sie das Person- und Ortsregister. Sie sind Vorraussetzung für wesentliche Funktionen. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App ediarum.DB 
+Später können Sie zusätzlich aus fünf weiteren ediarum-Registern auswählen: Sachbegriffe, Körperschaften, Werke, Briefe und Anmerkungen. 
+
+[Die Info unter 4. weglassen]
+[5.] Wählen Sie das Personenregister im nun geöffneten Fenster Ediarum-Register aus und klicken auf Aktivieren.
+[6.] Wiederholen Sie den Vorgang und aktivieren Sie das Ortsregister." parentID="lmf_kyb_1gb" mid="1"?>
+                <info><?oxy_comment_end?><?oxy_comment_end mid="1"?>Ediarum stellt diese Register
+                    zur Verfügung: Personen, Ort, Sachbegriffe, Körperschaft, Werk, Briefe,
+                    Anmerkungen.</info>
             </step>
                 <step>
                 <cmd>Für jedes gewünschte Register: Wählen Sie im nun geöffneten Fenster das

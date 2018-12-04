@@ -37,15 +37,17 @@
 -ediarum-3.0.0.317.xar
 -ediarum-3.0.1.318.xar
 -ediarum.db-3.2.0.436
--ediarum.db-3.2.1.437" id="dh2_vl5_wfb" flag="done"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb" flag="done" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181127T115906+0100" comment="Ach so. Wir brauchen hier einen Platzhalter für die Versionsangabe." parentID="dh2_vl5_wfb" flag="done" mid="3"?>release/ediarum〈version〉.xar</filepath><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?>in
-                    das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
+-ediarum.db-3.2.1.437" id="dh2_vl5_wfb" flag="done"?><?oxy_comment_start author="notroff" timestamp="20181122T210808+0100" comment="?? Müssen wir anschauen." parentID="dh2_vl5_wfb" flag="done" mid="4"?><?oxy_comment_start author="notroff" timestamp="20181127T115906+0100" comment="Ach so. Wir brauchen hier einen Platzhalter für die Versionsangabe." parentID="dh2_vl5_wfb" flag="done" mid="3"?>release/ediarum〈version〉.xar</filepath><?oxy_comment_end?><?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?>
+                    in das Fenster <uicontrol>Upload Packages</uicontrol>.</cmd>
                 <info>
                     <fig>
                         <image href="../../img/exist_PackageManager_UploadPackages.png"/>
                     </fig>
                 </info>
                 <stepresult>Im Dashboard sehen Sie nun die <uicontrol>ediarum</uicontrol>
-                    App.</stepresult>
+                        App.<?oxy_comment_start author="phlinss" timestamp="20181204T142749+0100" comment="Screenshot hinzugefügt."?><image
+                        placement="break" href="../../img/dashboard_ediarum.png"
+                        id="image_cyr_1rb_1gb"/><?oxy_comment_end?></stepresult>
             </step>
             
         </steps>

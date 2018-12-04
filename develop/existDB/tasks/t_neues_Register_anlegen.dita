@@ -9,25 +9,25 @@
         <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>
         <steps>
             <step>
-                <cmd>Gehen Sie in das Menü <menucascade>
-                    <uicontrol>Verwaltung</uicontrol>
-                    <uicontrol>Projekte</uicontrol>
-                </menucascade>.</cmd>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
             </step>
             <step>
-                <cmd>Gehen Sie in das Menü <menucascade>
-                    <uicontrol>Projektkonfiguration</uicontrol>
-                    <uicontrol>Register</uicontrol>
-                </menucascade>.</cmd>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register </uicontrol>
+                    </menucascade>aus.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
-                    den Button <uicontrol>Hinzufügen</uicontrol>.</cmd>
+                    den <uicontrol>Hinzufügen</uicontrol>.</cmd>
                 <stepresult>Es öffnet sich ein Fenster, in dem Sie die Parameter eintragen
-                    müssen.<image placement="break" href="../../img/neue_registeranbindung.png"
+                        müssen.<image placement="break" href="../../img/neue_registeranbindung.png"
                         id="image_sq3_wf2_wfb"/></stepresult>
             </step>
             

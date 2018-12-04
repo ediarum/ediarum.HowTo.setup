@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ek3_dfc_1gb">
+    <title>Register </title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Öffnen Sie das Personenregister.</cmd>
+                <info>Wechseln Sie in den Autor-Modus, falls Ihnen der XML-Text angezeigt
+                    wird.</info>
+            </step>
+            <step>
+                <cmd>Legen Sie über das Menü <menucascade>
+                        <uicontrol>Neuer Eintrag</uicontrol>
+                    </menucascade> testweise einen Eintrag (z.B. Mustermann) an.</cmd>
+            </step>
+            <step>
+                <cmd>Wiederholen Sie die Schritte für das Ortsregister.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
