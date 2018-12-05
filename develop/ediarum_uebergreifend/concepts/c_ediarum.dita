@@ -2,48 +2,49 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ediarum" xml:lang="de-DE">
     <title>ediarum-Architektur mit dem Basic Setup</title>
-    <shortdesc>Das Basic Setup von ediarum stellt eine auf wissenschaftliche Editionen
-        zugeschnittene Daten-Eingabe-Umgebung in Oxygen zur Verfügung.</shortdesc>
+    <shortdesc>ediarum steht auf github zur Verfügung, in Form von Konfigurationskomponenten für
+        Oxygen (den sogenannten Frameworks) und für eXist-db (den sogenannten Apps).</shortdesc>
     <conbody>
              
-        <section>
-            <p>Ediarum baut auf zwei Programmen auf:</p>
-            <ul>
+        <section><p>Ediarum baut auf zwei Programmen auf:</p><ul>
                 <li>eXist-db (XML-Datenbank)</li>
                 <li>Oxygen (XML-Editor)</li>
-            </ul>
-            <p>In beiden Programmen ist es möglich, die Funktionalität der Programme zu
+            </ul><p>In beiden Programmen ist es möglich, die Funktionalität der Programme zu
                 konfigurieren und zu erweitern. Beide Programme enthalten Mechanismen, wie solche
                 Konfigurationen gebündelt an andere Programm-Instanzen weitergegeben werden
-                können:</p>
-            <ul>
+                können:</p><ul>
                 <li>In Oxygen kann man GUI-Elemente für XML-Bearbeitungsfunktionen erstellen. Der
                     Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
                     Oxygen "Framework".</li>
                 <li>In eXist-db kann man mithilfe eines Templating-Systems Webanwendungen aus den
                     XML-Daten generieren. Diese Webanwendungen heißen "Apps".</li>
-            </ul>
-            <p>Ediarum besteht aus mehreren solchen Oxygen-Frameworks und eXist-Apps. Zusätzlich
-                werden zwei "Projekte" benötigt: ein Projekt in Oxygen, ein Projekt in der
-                Datenbank. Das Projekt in der Datenbank enthält ediarum-spezifische
-                Datenhaltungsstrukturen und Datenbanksettings. Das Projekt in Oxygen definiert die
-                Konfiguration einer REST-Schnittstelle mit der Datenbank.</p>
-            <p>Nach erfolgreichem Basic Setup sind die hier dargestellten Komponenten
-                <?oxy_comment_start author="notroff" timestamp="20181127T115430+0100" comment="Die Grafik ist noch nicht korrekt.
-- ediarum.PDF muss raus
-- zwei Projekte müssen dazu
-Entweder wir nehmen die Grafik für die erste Veröffentlichung raus und listen die Komponenten stattdessen in einer Tabelle auf. Oder du hast Zeit (und ein Faible oder Interesse für Grafikbearbeitungsprogramme), die Grafik entsprechend anzupassen? "?>vorhanden<?oxy_comment_end?>.</p>
-            <fig> <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline" /></fig>
-            <!-- mögliche alternative Grafik (Preferenz von Esther) <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           
+            </ul>Nach erfolgreichem Basic Setup von ediarum haben Sie mehrere solcher
+            Oxygen-Frameworks und eXist-Apps sowie zwei "Projekte" in Ihrer lokalen Umgebung:<p>In
+                Oxygen:</p><ul>
+                <li>Frameworks: <ul>
+                        <li>ediarum.BASE.edit</li>
+                        <li>ediarum.REGISTER.edit</li>
+                        <li>MeineEdition.edit</li>
+                    </ul>
+                </li>
+                <li>Projekt. Enthält die Konfiguration einer REST-Schnittstelle mit der
+                    Datenbank.</li>
+            </ul><p>In eXist-db:</p><ul>
+                <li>App ediarum.DB</li>
+                <li>Projekt. Enthält ediarum-spezifische Datenhaltungsstrukturen und
+                    Datenbanksettings.</li>
+            </ul><!-- Grafik ist noch falsch. ediarum.pdf ediarum.WEB sind zu viel drin. Projekte müssen rein.
+            <fig>
+                <image href="../../img/Ediarum-setup-v6-2.png" width="400" placement="inline"/>
+            </fig>
+            mögliche alternative Grafik (Preferenz von Esther)
+            <fig> <image href="../../img/ediarum-componenten.png" width="300"/></fig>           
            mögliche weitere alternative Grafik <fig>
                 <image href="../../img/Ediarum-setup-v3-2.png"/>
-            </fig> -->
-            <p/>
-        </section>
+            </fig>--><p/></section>
        
         <section>
-             <p>Wenn Sie eXist-db und Oxygen installiert haben, besteht im Überblick das Einrichten
-                (Setup) von ediarum aus folgenden Schritten: </p>
+             <p>Das Einrichten der Komponenten erfolgt in folgender Reihenfolge: </p>
             <ul>
                 <li>ediarum.DB auf eXist-db einrichten und ein Projekt erstellen</li>
                 <li>ediarum.BASE.edit und ediarum.REGISTER.edit in Oxygen einrichten und ein Projekt

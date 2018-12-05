@@ -3,8 +3,8 @@
 <concept id="c_ueberblick_setup" xml:lang="de-DE">
     <title><?oxy_comment_start author="phlinss" timestamp="20181204T155340+0100" comment="Soll in diesem Topic Zotero erwähnt werden?"?>Überblick<?oxy_comment_end?>
         über das Setup</title>
-    <shortdesc>Sie können die Editionsumgebung von ediarum einrichten, erweitern, und die
-        Erweiterung an andere weitergeben.</shortdesc>
+    <shortdesc>Sie können die Editionsumgebung von ediarum einrichten und das Setup an andere
+        weitergeben.</shortdesc>
     <conbody>
         <p>Das initiale Setup von ediarum können Sie durchführen, wenn Sie grundlegende IT-Kenntnisse
             für Digital Humanities (DH) haben. Wenn das Setup einmal abgeschlossen ist, können Sie
@@ -12,22 +12,28 @@
         <p>Vorwissen:</p>
         <ul>
             <li>Grundverständnis von XML, XML-Schemata, TEI</li>
-            <li>Grundverständis von git</li>
+            <li>Grundverständnis von git</li>
         </ul>
         <p>Voraussetzungen:</p>
         <ul>
-            <li>eXist-db ist installiert</li>
+            <li>eXist-db ist installiert. Ediarum ist für eXist-db 3.5 und 4.4 getestet. <xref
+                    href="https://github.com/eXist-db/exist" format="html" scope="external"/></li>
             <li>Oxygen XML Author und Oxygen XML Editor sind installiert, mindestens in der Version
-                19</li>
+                19. <xref href="https://www.oxygenxml.com" format="html" scope="external"
+                    >https://www.oxygenxml.com</xref></li>
         </ul>
         <section>
             <title>Setup-Varianten</title>
-            <p>Sie können ediarum zunächst einfach zum Laufen bringen (Basic Setup). Sie können das
-                Basic Setup
-                <?oxy_comment_start author="phlinss" timestamp="20181204T153858+0100" comment="Im Basic Setup sollten nach Rücksprache mit SD Person- und Ortsregister aktiviert werden."?>mit
-                oder ohne Registerfunktionalitäten<?oxy_comment_end?> vornehmen. Wenn ediarum läuft,
-                können Sie der Arbeitsumgebung eigene Funktionalitäten hinzufügen, indem Sie ein
-                eigenes Oxygen-Framework einrichten, welches das ediarum-Framework erweitert.</p>
+            <p>Diese Dokumentation beschreibt das Basic Setup von ediarum. Sie beschreibt nicht die
+                editionsspezifische Konfiguration und Erweiterung.</p>
+            <p>Basic Setup: Sie bringen ediarum zum Laufen, sodass die mitgelieferten
+                Eingabefunktionalitäten für das mitgelieferte XML-Schema zur Verfügung stehen. Das
+                Basic Setup umfasst auch das Personenregister und das Ortsregister sowie die
+                entsprechenden Eingabefunktionalitäten.</p>
+            <p>Editionsspezifische Konfiguration und Erweiterung: Wenn ediarum läuft, können Sie der
+                Arbeitsumgebung eigene Funktionalitäten hinzufügen, z.B. für editionsspezifische
+                TEI-Elemente. Sie können mitgelieferte Eingabefunktionalitäten für weitere Register
+                (z.B. Werkregister) aktivieren und eigene Register hinzufügen.</p>
             </section>
             
  

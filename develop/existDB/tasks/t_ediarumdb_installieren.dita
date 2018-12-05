@@ -3,35 +3,39 @@
 <task id="t_ediarumdb_installieren" xml:lang="de-DE">
     <title>ediarum.DB App installieren</title>
     <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App ediarum.DB verwenden.</shortdesc>
-    <!-- TODO: Screenshots ordentlich machen: ohne CAGB- und ediarum-App, relevante Elemente mit rotem Rahmen markieren.-->
     <taskbody>
-        <prereq>
-                  Sie haben aus github das Repositorium <xref 
-                        href="https://github.com/ediarum/ediarum.DB" scope="external" format="html"
-                        >https://github.com/ediarum/ediarum.DB</xref> geklont.<!-- Oder irgendwie allgemeiner formulieren? Alternative: ZIP-Datei runterladen? -->
-            
-            <note>Installationsanleitung mit technischen Details siehe: INSTALLATION.md im
-                ediarum.DB Repositorium</note> <!-- Oder sollen wir alleine auf diese Installationsanleitung verweisen und hier garnichts weiter dazu schreiben? -->
-        </prereq>
+        <context>
+            <info>
+            <note>Für diesen Ablauf steht auf github eine Installationsanleitung mit technischen
+                    Details zur Verfügung: INSTALLATION.md in folgendem Repositorium: <xref
+                        href="https://github.com/ediarum/ediarum.DB" format="db" scope="external"
+                    /></note>
+            </info></context>
         <steps>
+            <step>
+                <cmd>Klonen Sie sich das folgende Repositorium von github: </cmd>
+            </step>
+            <step>
+                <cmd><xref href="https://github.com/ediarum/ediarum.DB" format="db" scope="external"
+                    /></cmd>
+            </step>
             <step>
                 <cmd>Loggen Sie sich im Dashboard Ihrer eXist Datenbank mit Admin-Rechten ein.</cmd>
             </step>
             <step>
-                <cmd>Öffnen Sie den eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>
+                <cmd>Öffnen Sie die eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>
                 <?oxy_comment_start author="notroff" timestamp="20181127T115558+0100" comment="Wir brauchen hier einen Screenshot ohne die App &quot;Commentaria in Aristotelem Graeca et Byzantina&quot;. Die App &quot;Package Manager&quot; mit roter Umrandung hervorheben." flag="done"?>
                 <info>
-                    <?oxy_comment_end?>
-                    <fig>
+                    <fig><fig>
                         <image href="../../img/exist_packageManager.png"/>
-                    </fig>
+                    </fig></fig>
                 </info>
             </step>
             <step>
                 <cmd>Klicken Sie auf
-                    <?oxy_comment_start author="phlinss" timestamp="20181203T150543+0100" comment="weglassen?"?>den
-                    Button <?oxy_comment_end?><uicontrol>add a package</uicontrol> und ziehen Sie
-                    aus dem ediarum.DB Repositorium die Datei
+                    <?oxy_comment_start author="phlinss" timestamp="20181203T150543+0100" comment="weglassen?" id="cpq_bnj_1gb"?><?oxy_comment_start author="notroff" timestamp="20181205T161347+0100" comment="Hier ist &quot;Button&quot; wichtig, da der Button ja nicht den Text anzeigt, sondern ein Bild." parentID="cpq_bnj_1gb" mid="1"?>den
+                    Button <?oxy_comment_end mid="1"?><?oxy_comment_end?><uicontrol>add a
+                        package</uicontrol> und ziehen Sie aus dem ediarum.DB Repositorium die Datei
                         <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
 
 -ediarum-3.0.0.317.xar
@@ -44,10 +48,9 @@
                         <image href="../../img/exist_PackageManager_UploadPackages.png"/>
                     </fig>
                 </info>
-                <stepresult>Im Dashboard sehen Sie nun die <uicontrol>ediarum</uicontrol>
-                        App.<?oxy_comment_start author="phlinss" timestamp="20181204T142749+0100" comment="Screenshot hinzugefügt."?><image
+                <stepresult>Im Dashboard sehen Sie nun die <uicontrol>ediarum</uicontrol> App.<image
                         placement="break" href="../../img/dashboard_ediarum.png"
-                        id="image_cyr_1rb_1gb"/><?oxy_comment_end?></stepresult>
+                        id="image_cyr_1rb_1gb"/></stepresult>
             </step>
             
         </steps>

@@ -3,7 +3,7 @@
 <task id="task_psj_nwx_tfb">
     <title>Ein neues Register einrichten</title>
     <shortdesc>Legen Sie in der eXist-App ediarum.DB ein zusätzliches Register an, das ediarum nicht
-        standartmäßig zu Verfügung stellt. Um diese benutzen zu können, legen Sie sie in der
+        standardmäßig zu Verfügung stellt. Um diese benutzen zu können, legen Sie sie in der
         eXist-App ediarum.DB an.</shortdesc>
     <taskbody>
         <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>

@@ -20,9 +20,9 @@
         <section>
             <title>Konfigurationskomponenten</title>
             
-            <p>Oxygen hinterlegt die Konfiguration der Benutzungsoberfläche in verschiedenen
-                Dateien. Einen Großteil der Konfiguration können Sie im <uicontrol>Dokumenttypen</uicontrol> Fenster von
-                Oxygen vornehmen.</p>
+            <p>Einen Großteil der Konfiguration können Sie im <uicontrol>Dokumenttypen</uicontrol>
+                Fenster von Oxygen vornehmen. Oxygen hinterlegt die Konfiguration dann in
+                verschiedenen Dateien.</p>
                 <table  frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
                     <title>Konfigurationskomponenten</title>
                     <tgroup cols="4">

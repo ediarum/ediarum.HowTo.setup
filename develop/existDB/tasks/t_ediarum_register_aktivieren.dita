@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_grk_ypc_yfb">
     <title>ediarum-Register aktivieren</title>
-    <shortdesc>ediarum enthält die Grundstruktur für sieben Register: Personen, Orte, Sachbegriffe,
-        Körperschaften, Werke, Briefe und Anmerkungen. Um diese benutzen zu können, aktivieren Sie
-        sie in der eXist-App ediarum.DB</shortdesc>
+    <shortdesc>Um die ediarum-Funktionalitäten gut zu nutzen, aktivieren Sie für das Basic Setup die
+        mitgelieferten Personen- und Ortsregister. Sie können zusätzlich weitere ediarum-Register
+        aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe und Anmerkungen.</shortdesc>
     <taskbody>
         <prereq>Sie sind als Admin in Ihrer eXist-App ediarum.DB angemeldet.</prereq>
         <steps>
@@ -16,7 +16,8 @@
                     </menucascade> aus.</cmd>
             </step>
             <step>
-                <cmd>Klicken Sie das Feld Ihres Projekts an.</cmd>
+                <cmd>Klicken Sie Ihr Projekt an, um die Übersichtsseite des Projekts zu
+                    öffnen.</cmd>
             </step>
                 <step>
                 <cmd>Wählen Sie das Menü <menucascade>
@@ -24,39 +25,33 @@
                         <uicontrol>Register</uicontrol>
                     </menucascade> aus.</cmd>
             </step>
-                <step>
-                <cmd>Unter dem Punkt <uicontrol>Ediarum Register</uicontrol> klicken Sie im Feld
-                        <uicontrol>Neues Register</uicontrol> auf
-                    <uicontrol>Aktivieren</uicontrol>.</cmd>
-                <?oxy_comment_start author="notroff" timestamp="20181127T121637+0100" comment="Inhaltliche Frage an SD: Welche Register sollte ich für das Basic Setup auf jeden Fall aktivieren, damit ediarum erstmal läuft (d.h. ich später in Oxygen keine Fehlermeldungen kriege oder ähnliches)?" id="lmf_kyb_1gb"?>
-                <?oxy_comment_start author="phlinss" timestamp="20181204T151553+0100" comment="Ich habe mit Stefan gesprochen:
-- wir sollten an dieser Stelle empfehlen Personen- und Ortsregister anzulegen
-- und kurz erklären warum
-
-Textvorschlag:
-[shortDesc:] Für das Basic Setup von ediarum benötigen Sie das Person- und Ortsregister. Sie sind Vorraussetzung für wesentliche Funktionen. Um diese benutzen zu können, aktivieren Sie sie in der eXist-App ediarum.DB 
-Später können Sie zusätzlich aus fünf weiteren ediarum-Registern auswählen: Sachbegriffe, Körperschaften, Werke, Briefe und Anmerkungen. 
-
-[Die Info unter 4. weglassen]
-[5.] Wählen Sie das Personenregister im nun geöffneten Fenster Ediarum-Register aus und klicken auf Aktivieren.
-[6.] Wiederholen Sie den Vorgang und aktivieren Sie das Ortsregister." parentID="lmf_kyb_1gb" mid="1"?>
-                <info><?oxy_comment_end?><?oxy_comment_end mid="1"?>Ediarum stellt diese Register
-                    zur Verfügung: Personen, Ort, Sachbegriffe, Körperschaft, Werk, Briefe,
-                    Anmerkungen.</info>
+            <step>
+                <cmd>Führen Sie die folgenden Schritte für jedes Register aus, das Sie in Ihrer
+                    Editionsarbeit benutzen möchten, mindestens für das Personen- und das
+                    Ortsregister.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Klicken Sie in der Liste <uicontrol>Ediarum Register</uicontrol> im
+                            Listeneintrag <uicontrol>Neues Register</uicontrol> auf
+                                <uicontrol>Aktivieren</uicontrol>.</cmd>
+                        <cmd/>
+                    </substep>
+                    <substep>
+                        <cmd>Wählen Sie den Register-Typ (unter
+                                <uicontrol>Ediarum-Register</uicontrol>) und den Register-Aufbau und
+                            klicken Sie auf <uicontrol>Aktivieren</uicontrol>. <info>
+                                <fig>
+                                    <image placement="break" href="../../img/ediarum_register.png"
+                                        id="image_rxd_gb2_wfb"/>
+                                </fig>
+                            </info>
+                        </cmd>
+                    </substep>
+                </substeps>
             </step>
-                <step>
-                <cmd>Für jedes gewünschte Register: Wählen Sie im nun geöffneten Fenster das
-                    Register aus und klicken Sie auf <uicontrol>Aktivieren</uicontrol>.</cmd>
-                <info>Sie können das Register entweder in einer Datei oder nach Buchstaben getrennt
-                    anlegen.Wählen Sie die gewünschte Option unter
-                        <uicontrol>Registeraufbau</uicontrol> aus.<fig>
-                        <image placement="break" href="../../img/ediarum_register.png"
-                            id="image_rxd_gb2_wfb"/>
-                    </fig></info>
-            </step>
-            
+        
         </steps>
-        <result>Die Standard-Ordnerstruktur auf der Übersichtsseite des Projekts ist um die
+        <result>Die Standard-Ordnerstruktur auf der Übersichtsseite Ihres Projekts ist um die
             aktivierten Register ergänzt. <image placement="break"
                 href="../../img/ordnerstruktur_register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>

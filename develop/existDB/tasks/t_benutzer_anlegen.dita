@@ -3,8 +3,7 @@
 <task id="task_plw_hqc_yfb">
     <title>Benutzer anlegen</title>
     <shortdesc>Die Benutzer-Accounts in der eXist-App ediarum.DB sind Voraussetzung, damit die
-        Editor/innen  Oxygen mit der eXist-Datenbank verbinden können. Erstellen Sie sie in der
-        App.</shortdesc>
+        Editor/innen ihre Oxygen-Instanz mit der eXist-Datenbank verbinden können.</shortdesc>
     <taskbody>
         <steps>
             <step>
@@ -28,10 +27,10 @@
             <step>
                 <cmd>Geben Sie im Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
                     Benutzernamen und ein Passwort ein.</cmd>
-                <info><uicontrol>Benutzername</uicontrol>: Name, den Sie später für die
-                    Datenbankanbindung angeben müssen. Verwenden Sie keine Umlaute, Leer- oder
-                        Sonderzeichen.<image placement="break" href="../../img/user_anlegen.png"
-                        id="image_ess_fwc_yfb"/></info>
+                <info>Der Benutzername ist der Name, den Sie später für die Datenbankanbindung
+                    angeben müssen. Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen.<image
+                        placement="break" href="../../img/user_anlegen.png" id="image_ess_fwc_yfb"
+                    /></info>
             </step>
             <step>
                 <cmd>Klicken Sie auf <uicontrol>Anlegen</uicontrol>.</cmd>
