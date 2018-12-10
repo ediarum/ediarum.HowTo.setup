@@ -33,8 +33,8 @@
             </step>
             <step>
                 <cmd>Klicken Sie auf
-                    <?oxy_comment_start author="phlinss" timestamp="20181203T150543+0100" comment="weglassen?" id="cpq_bnj_1gb"?><?oxy_comment_start author="notroff" timestamp="20181205T161347+0100" comment="Hier ist &quot;Button&quot; wichtig, da der Button ja nicht den Text anzeigt, sondern ein Bild." parentID="cpq_bnj_1gb" mid="1"?>den
-                    Button <?oxy_comment_end mid="1"?><?oxy_comment_end?><uicontrol>add a
+                    <?oxy_comment_start author="phlinss" timestamp="20181203T150543+0100" comment="weglassen?" id="cpq_bnj_1gb" flag="done" mid="1"?><?oxy_comment_start author="notroff" timestamp="20181205T161347+0100" comment="Hier ist &quot;Button&quot; wichtig, da der Button ja nicht den Text anzeigt, sondern ein Bild." parentID="cpq_bnj_1gb" flag="done"?>den
+                    Button <?oxy_comment_end?><?oxy_comment_end mid="1"?><uicontrol>add a
                         package</uicontrol> und ziehen Sie aus dem ediarum.DB Repositorium die Datei
                         <filepath><?oxy_comment_start author="phlinss" timestamp="20181120T144838+0100" comment="nicht in ediarum.DB enthalten, sondern:
 

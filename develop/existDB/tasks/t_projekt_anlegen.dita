@@ -23,11 +23,12 @@ Auch hier: Wenn Icon erwähnt wird, dann Abblidung?" id="r3m_km5_wfb" flag="done
                     </menucascade> aus.</cmd>
             </step>
             <step>
-                <cmd><?oxy_comment_start author="notroff" timestamp="20181205T163455+0100" comment="Screenshot ergänzen!"?>Schreiben<?oxy_comment_end?>
+                <cmd><?oxy_comment_start author="notroff" timestamp="20181205T163455+0100" comment="Screenshot ergänzen!" flag="done"?>Schreiben<?oxy_comment_end?>
                     Sie in das Feld <uicontrol>Neues Projekt</uicontrol> einen Projektnamen für Ihre
                     Edition und klicken Sie auf <uicontrol>Anlegen!</uicontrol>.</cmd>
                 <info>Den Projektnamen müssen Sie später für die Datenbankanbindung angeben.
-                    Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen.</info>
+                    Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen.<image placement="break"
+                        href="../../img/neues_projekt_eXist.png" id="image_hfh_kht_bgb"/></info>
                 <stepresult>Die angezeigte Projektliste enthält nun Ihr Projekt. Für das Projekt
                     existieren eine Ordnerstruktur und eine Beispieldatei. Sie können die Struktur
                     sehen, indem Sie in der Projektliste auf Ihr Projekt klicken. <image
