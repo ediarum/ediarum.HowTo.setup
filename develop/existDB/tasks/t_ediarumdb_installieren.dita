@@ -5,12 +5,12 @@
     <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach können Sie die eXist-App ediarum.DB verwenden.</shortdesc>
     <taskbody>
         <context>
-            <info>
+            
             <note>Für diesen Ablauf steht auf github eine Installationsanleitung mit technischen
                     Details zur Verfügung: INSTALLATION.md in folgendem Repositorium: <xref
                         href="https://github.com/ediarum/ediarum.DB" format="db" scope="external"
                     /></note>
-            </info></context>
+            </context>
         <steps>
             <step>
                 <cmd>Klonen Sie sich das folgende Repositorium von github: </cmd>
@@ -26,9 +26,9 @@
                 <cmd>Öffnen Sie die eXist-App <uicontrol>Package Manager</uicontrol>.</cmd>
                 <?oxy_comment_start author="notroff" timestamp="20181127T115558+0100" comment="Wir brauchen hier einen Screenshot ohne die App &quot;Commentaria in Aristotelem Graeca et Byzantina&quot;. Die App &quot;Package Manager&quot; mit roter Umrandung hervorheben." flag="done"?>
                 <info>
-                    <fig><fig>
+                    <fig>
                         <image href="../../img/exist_packageManager.png"/>
-                    </fig></fig>
+                    </fig>
                 </info>
             </step>
             <step>
