@@ -2,18 +2,30 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_projekt_anlegen" xml:lang="de-DE">
     <title>Projekt in Oxygen anlegen</title>
-    <shortdesc>Sie können Oxygen-Einstellungen, die spezifisch für Ihre Edition sind, in einem
-        Projekt speichern. Oxygen speichert projektspezifische Einstellungen in einer .xpr Datei,
-        mithilfe derer Sie die Einstellungen an andere weitergeben können.</shortdesc>
+    <shortdesc>Für den Register-Lookup ist eine eigene Datenbankanbindung nötig, die mithilfe von
+        sogenannten "Editorvariablen" in einem Oxygen-Projekt hinterlegt wird.</shortdesc>
     <taskbody>
-        <context>Für das Basic Setup von ediarum müssen mindestens die für das Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden.</context>
+        <context>Für das Basic Setup von ediarum müssen mindestens die für das Register-Lookup
+            benötigten Editorvariablen im Projekt gespeichert werden. Oxygen speichert diese
+            Einstellungen in einer .xpr Datei. Im Anschluss an das Basic Setup dient das Projekt
+            später als Container für weitere editionsspezifische Konfigurationen.</context>
         <steps>
             <step>
                 <cmd>Wählen Sie <menucascade><uicontrol>Projekt</uicontrol><uicontrol>Neues Projekt</uicontrol></menucascade> aus.</cmd>
             </step>
             <step>
-                <cmd>Geben Sie im nun geöffneten <uicontrol>Neues Projekt</uicontrol> Fenster als Speicherort Ihren Framework-Ordner an und klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
-                <info><fig><image href="../../img/projekt_speicherort_v2.png" width="600"/></fig></info>
+                <cmd>Wählen Sie im nun geöffneten <uicontrol>Neues Projekt</uicontrol> Fenster den
+                    Ordner Ihres editionsspezifischen Frameworks aus.</cmd>
+            </step>
+            <step>
+                <cmd>Geben Sie einen Namen für die Projektdatei ein (zum Beispiel:
+                        <userinput>meineEditon.xpr</userinput>) und klicken Sie auf
+                        <uicontrol>Speichern</uicontrol>.</cmd>
+                <info>
+                    <fig>
+                        <image href="../../img/projekt_speicherort_v2.png" width="600"/>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>Legen Sie fest, dass die Editorvariablen im Projekt gespeichert werden:</cmd>
@@ -22,7 +34,9 @@
                         <cmd>Wählen Sie das Menü <menucascade><uicontrol>Optionen</uicontrol><uicontrol>Einstellungen</uicontrol></menucascade>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol> Fenster den Eintrag <uicontrol>Benutzerspezifische Editorvariablen</uicontrol> aus.</cmd>
+                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol>
+                            Fenster den Eintrag <uicontrol>Benutzerspezifische
+                                Editorvariablen</uicontrol> aus.</cmd>
                     </substep>
                     <substep>
                         <cmd>Aktivieren Sie die Option <uicontrol>Projekt-Optionen</uicontrol> und klicken Sie auf <uicontrol>Anwenden</uicontrol>.</cmd>
@@ -58,9 +72,9 @@
                                 <row>
                                     <entry><uicontrol>Name:</uicontrol>
                                         ${ediarum_website_base}</entry>
-                                    <entry>Basis-URL zur Webpublikation. Der Wert kann leer bleiben.
-                                        Der Wert muss die Server-Anmeldedaten enthalten.
-                                        <!-- Und was, wenn man noch keine hat, was in der Setup-Situation der wahrscheinlichste Fall ist? --></entry>
+                                    <entry><!-- @Stefan, Martin: Diese Information klingt verwirrend widersprüchlich. Geht es tatsächlich um die Webpublikation? Zum jetzigen Zeitpunkt hat man normalerweise noch keine Webpublikation, also keine solche URL. Im Realtest mit Jana war es nicht möglich, "OK" anzuklicken, wenn der Wert leer war. Geht es hier um den Registerzugriff? Kann man sich die einzutragende URL irgendwie aus der Datenbankverbindungs-URL (Oxygen WebDAV) herleiten?-->Basis-URL
+                                        zur Webpublikation. Der Wert kann leer bleiben. Der Wert
+                                        muss die Server-Anmeldedaten enthalten. </entry>
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
                                         http://website-user:******@example.de</entry>
                                 </row>
@@ -69,7 +83,21 @@
                     </table>
                 </info>
             </step>
-         </steps>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Anwenden</uicontrol> und <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>Wenn Sie das Dokument-Template aus dem ediarum.BASE.edit-Framework öffnen (<menucascade>
+                <uicontrol>Datei</uicontrol>
+                <uicontrol>Öffnen...</uicontrol>
+                <uicontrol>.../frameworks/ediarum.BASE.edit/templates</uicontrol>
+            </menucascade>, werden im Autor-Modus die ediarum-spezifischen Schaltflächen angezeigt.
+            Sie können nun Dokumente und Briefe edieren und mit den aktivierten Registern arbeiten. </result>
     </taskbody>
-    <!-- Später hier einfügen: related links zu Infos zu weiteren möglichen Projekt-Einstellungen, z.B. Layout -->
+    <related-links>
+        <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external">
+            <linktext>Erklärung der ediarum-Schaltflächen</linktext>
+        </link>
+        
+    </related-links>
 </task>

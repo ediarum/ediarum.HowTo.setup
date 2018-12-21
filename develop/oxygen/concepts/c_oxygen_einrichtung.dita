@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_oxygen_einrichtung" xml:lang="de-DE">
-    <title>Arbeitsumgebung in Oxygen einrichten</title>
-    <shortdesc>Sie binden die ediarum-Frameworks ein, legen ein eigenes Framework an und speichern
-        für ediarum relevante Oxygen-Einstellungen in einem Oxygen-Projekt.</shortdesc>
+    <title>Editionsumgebung in Oxygen einrichten</title>
+    <shortdesc>Sie verbinden Oxygen (Editor) mit eXist-db (Datenbank) und machen alle in ediarum
+        enthaltenen Editionsfunktionalitäten verfügbar.</shortdesc>
     <conbody>
-        <p>Führen Sie die Einrichtung im Oxygen XML Author durch, nicht im Oxygen XML Editor. So
-            sehen Sie direkt, welche Auswirkungen Ihre Konfigurationen in dem Programm haben, mit
-            dem auch die Editor/innen später arbeiten werden.</p>
-        <p>Verwenden Sie Oxygen XML Author mindestens in der Version 19.</p>
+        <p>Verwenden Sie Oxygen XML Author oder Editor, mindestens in der Version 19.</p>
     </conbody>
 </concept>

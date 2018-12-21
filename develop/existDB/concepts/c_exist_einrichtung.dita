@@ -3,9 +3,18 @@
 <concept id="c_exist_einrichtung" xml:lang="de-DE">
     <title>Datenbank einrichten</title>
     <shortdesc>Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in
-        Ihrer Datenbank ein eigenes Projekt, das alle benötigten Standardsettings für ediarum
-        enthält.</shortdesc>
+        Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von
+        Datenbank und Oxygen enthält.</shortdesc>
     <conbody>
-        
+        <p>Diese Dokumentation bietet einen grundlegenden Einstieg, wie Sie vorgehen. Details finden Sie in den .md Dateien des ediarum.DB Repositoriums, das auf github zur Verfügung steht, z.B. folgende Informationen:</p>
+        <ul>
+            <li>Hintergrundinformationen und Details zu Installation und Setup</li>
+            <li>Beschreibung der Benutzungsoberfläche der eXist-App <uicontrol>ediarum</uicontrol></li>
+            <li>Konfigurationsinformationen, die Ihnen helfen, ediarum ausgehend vom Basic Setup für Ihr Editionsprojekt und Ihre technische Umgebung anzupassen</li>
+        </ul>
+     
     </conbody>
+    <related-links>
+        <link href="https://github.com/telota/ediarum.DB" format="html" scope="external"></link>
+    </related-links>
 </concept>

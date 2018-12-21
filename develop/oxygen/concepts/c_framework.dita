@@ -1,94 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="oxygen_framework_kaskade" xml:lang="de-DE">
-    <title>Ein eigenes Framework einrichten</title>
-    <shortdesc>Ein Oxygen-Framework implementiert die Editionsrichtlinien, indem es eine spezifische
-        Benutzungsoberfläche für das Edieren von Texten in XML zur Verfügung stellt.</shortdesc>
+    <title>Über Oxygen-Frameworks und ediarum-Spezifika</title>
+    <shortdesc>Die Oxygen-Dokumentation beschreibt das grundsätzliche Vorgehen für die Konfiguration
+        via sogenannten "Frameworks". Ediarum enthält einige spezifische
+        Konfigurationskomponenten.</shortdesc>
     <conbody>
         <section>
             <title>Framework</title>
             <p>Im Framework sind die Oxygen-Benutzungsoberflächen für bestimmte Dokumententypen
                 (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die Werkzeugleiste, die
-                Editionsansicht und die Vorlagen. Das Framework assoziiert dafür einen Dokumententyp
-                oder eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
-                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. Für
-                Ihr eigenes Editionsprojekt können Sie das mitgelieferte ediarum-Framework
-                erweitern. In Ihrem eigenen Erweiterungs-Framework können Sie dann weitere Elemente
-                für die Oxygen-Benutzungsoberfläche konfigurieren.</p>
+                Editionsansicht und die Vorlagen. Das Framework assoziiert einen Dokumententyp oder
+                eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
+                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. In
+                Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
+                Oxygen-Benutzungsoberfläche konfigurieren.</p>
             
         </section>
-        <section>
-            <title>Konfigurationskomponenten</title>
+        <section><title>Konfigurationskomponenten</title>
+            <p>Im Hintergrund besteht das Framework aus einer Sammlung von Dateien. Einige Aspekte
+                der Konfiguration nehmen Sie direkt in den Dateien vor, für andere benutzen Sie das
+                    <uicontrol>Dokumenttypen</uicontrol> Fenster.</p>
             
-            <p>Einen Großteil der Konfiguration können Sie im <uicontrol>Dokumenttypen</uicontrol>
-                Fenster von Oxygen vornehmen. Oxygen hinterlegt die Konfiguration dann in
-                verschiedenen Dateien.</p>
-                <table  frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
-                    <title>Konfigurationskomponenten</title>
-                    <tgroup cols="4">
-                        <colspec colname="c1" colnum="1" colwidth="1*"/>
-                        <colspec colname="c2" colnum="2" colwidth="1.31*"/>
-                        <colspec colname="c3" colnum="3" colwidth="1*"/>
-                        <colspec colnum="4" colname="c4" colwidth="1.32*"/>
-                        <thead>
-                            <row>
-                                <entry>Komponente</entry>
-                                <entry/>
-                                <entry>Speicherung</entry>
-                                <entry>Änderung</entry>
-                            </row>
-                        </thead>
-                        <tbody>
-                            <row>
-                                <entry>Was können Sie konfigurieren?</entry>
-                                <entry/>
-                                <entry>Wo speichert Oxygen Ihre Konfigurationen?</entry>
-                                <entry>Auf welchem Weg können Sie die Konfigurationen
-                                    ändern?</entry>
-                            </row>
-                            <row>
-                                <entry>Schema</entry>
-                                <entry>XML-Schema (Strukturvorgaben)</entry>
-                                <entry>.rng-Datei</entry>
-                                <entry>Die rng-Datei bearbeiten</entry>
-                            </row>
-                            <row>
-                                <entry>Template</entry>
-                                <entry>Vorlage für neue XML-Dokumente</entry>
-                                <entry>.xml-Datei</entry>
-                                <entry>Die xml-Datei bearbeiten</entry>
-                            </row>
-                            <row>
-                                <entry>GUI-Funktionalitäten</entry>
-                                <entry>GUI-Elemente und -Funktionalitäten, die Oxygen dann im
+            <table
+                frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
+                <title>Konfigurationskomponenten</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.31*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colnum="4" colname="c4" colwidth="1.32*"/>
+                    <thead>
+                        <row>
+                            <entry>Komponente</entry>
+                            <entry/>
+                            <entry>Speicherung</entry>
+                            <entry>Änderung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Was können Sie konfigurieren?</entry>
+                            <entry/>
+                            <entry>Wo speichert Oxygen Ihre Konfigurationen?</entry>
+                            <entry>Auf welchem Weg können Sie die Konfigurationen ändern?</entry>
+                        </row>
+                        <row>
+                            <entry>Schema</entry>
+                            <entry>XML-Schema (Strukturvorgaben)</entry>
+                            <entry>.rng-Datei</entry>
+                            <entry>Die rng-Datei bearbeiten</entry>
+                        </row>
+                        <row>
+                            <entry>Template</entry>
+                            <entry>Vorlage für neue XML-Dokumente</entry>
+                            <entry>.xml-Datei</entry>
+                            <entry>Die xml-Datei bearbeiten</entry>
+                        </row>
+                        <row>
+                            <entry>GUI-Funktionalitäten</entry>
+                            <entry>GUI-Elemente und -Funktionalitäten, die Oxygen dann im
                                 Autor-Modus bereitstellt</entry>
-                                <entry>.framework-Datei</entry>
-                                <entry>Im <uicontrol>Autor</uicontrol> Tab des
-                                        <uicontrol>Dokumenttypen</uicontrol> Fensters (<menucascade>
-                                        <uicontrol>Optionen</uicontrol>
-                                        <uicontrol>Einstellungen</uicontrol>
-                                            <uicontrol>Dokumenttypen-Zuordnung</uicontrol></menucascade>, Framework
-                                    auswählen) </entry>
-                            </row>
-                        </tbody>
-                    </tgroup>
-                </table>
-            
-        </section>
+                            <entry>.framework-Datei</entry>
+                            <entry>Im <uicontrol>Autor</uicontrol> Tab des
+                                    <uicontrol>Dokumenttypen</uicontrol> Fensters: <menucascade>
+                                    <uicontrol>Optionen</uicontrol>
+                                    <uicontrol>Einstellungen</uicontrol>
+                                    <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
+                                </menucascade>, Framework auswählen</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
         <section>
             <title>ediarum-Spezifika für die Konfiguration per Framework</title>
-            <p>Die GUI-Funktionalitäten werden aus "Operationen" zusammengebaut. Ediarum liefert ediarum-spezifische Operationen in der Datei ediarum.jar.</p>
-            <p>Für die Benennung und den Ablageort der Konfigurationsdateien folgt ediarum eigenen
-                Konventionen, unter anderem, um eine einfache gebündelte Auslieferung eines
-                Frameworks zu ermöglichen.</p>
+            <p>Ableitungsstruktur: ediarum.BASE.edit arbeitet mit dem Datenmodell des
+                DTA-Basisformats (Subset von TEI-XML) und erweitert dieses an einigen Punkten. Für
+                Ihr Editionsprojekt erweitern Sie wiederum das Datenmodell von ediarum.BASE.edit.
+                Das Datenmodell für Ihr Editionsprojekt enthält also am Ende unterschiedlich
+                generische Anteile, die voneinander abgeleitet sind: DTA-Basisformat >
+                ediarum.BASE.edit > projektspezifische Schema-Anteile. Entsprechend dieser
+                Ableitungsstruktur beim Datenmodell sind auch die Frameworks voneinander abgeleitet. </p>
+            <p>Dateinamen und Ordnerstrukturen: Für die Benennung und den Ablageort der
+                Konfigurationsdateien folgt ediarum eigenen Konventionen, unter anderem, um eine
+                einfache gebündelte Auslieferung eines Frameworks zu ermöglichen. Orientieren Sie
+                sich an Struktur und Inhalten des ediarum.BASE.edit Ordners.</p>
+            <p>Oxygen-"Operationen": Die GUI-Funktionalitäten werden aus sogenannten "Operationen"
+                zusammengebaut. Die Datei ediarum.jar enthält ediarum-spezifische Operationen, die
+                Sie benutzen können.</p>
+   
         </section>
     </conbody>
     <related-links scope="external" format="html">
-        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/">
-            <linktext>Tutorial: Wie baue ich ein eigenes Framework für Oxygen XML?</linktext>
-        </link>
         <link href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial">
             <linktext>Oxygen-Anleitung zur Anpassung eines Frameworks</linktext>
+        </link>
+        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/">
+            <linktext>Tutorial: Wie baue ich ein eigenes Framework für Oxygen XML?</linktext>
         </link>
     </related-links>
     

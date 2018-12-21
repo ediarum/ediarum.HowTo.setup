@@ -1,30 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_ueberblick_setup" xml:lang="de-DE">
-    <title><?oxy_comment_start author="phlinss" timestamp="20181204T155340+0100" comment="Soll in diesem Topic Zotero erwähnt werden?"?>Überblick<?oxy_comment_end?>
-        über das Setup</title>
-    <shortdesc>Sie können die Editionsumgebung von ediarum einrichten und das Setup an andere
-        weitergeben.</shortdesc>
+    <title>Überblick über das Setup</title>
+    <shortdesc>Das Basic Setup macht die Editionsumgebung verfügbar, zunächst ohne Konfigurationen
+        für Ihr Editionsprojekt.</shortdesc>
     <conbody>
+        <section>
+            <title>Über ediarum</title>
+            <p>Ediarum ist eine Editionsumgebung für wissenschaftliche digitale Editionen mit dem
+                DTA-Basisformat, einem Subset von TEI-XML. Editor/innen können in dieser Editionsumgebung Texte edieren,
+                kommentieren und mit Register-Links versehen.</p>
+        </section>
+        <section>
+        <title>An wen sich diese Publikation richtet</title>
         <p>Das initiale Setup von ediarum können Sie durchführen, wenn Sie grundlegende IT-Kenntnisse
             für Digital Humanities (DH) haben. Wenn das Setup einmal abgeschlossen ist, können Sie
             es als Add-On an die Editor/innen Ihrer Editions-Arbeitsgruppe weitergeben.</p>
-        <p>Vorwissen:</p>
+         <p>Vorwissen, um das Setup durchzuführen:</p>
         <ul>
-            <li>Grundverständnis von XML, XML-Schemata, TEI</li>
-            <li>Grundverständnis von git</li>
+            <li>Grundverständnis von XML, XML-Schemata</li>
+            <li>Kenntnis des Dashboards der eXist-db, d.h. der graphischen Oberfläche für die Arbeit mit Ihrer Datenbank.</li>
         </ul>
-        <p>Voraussetzungen:</p>
+        <p>Vorwissen, um mit ediarum im Basic Setup editorisch zu arbeiten:</p>
         <ul>
-            <li>eXist-db ist installiert. Ediarum ist für eXist-db 3.5 und 4.4 getestet. <xref
-                    href="https://github.com/eXist-db/exist" format="html" scope="external"/></li>
-            <li>Oxygen XML Author und Oxygen XML Editor sind installiert, mindestens in der Version
-                19. <xref href="https://www.oxygenxml.com" format="html" scope="external"
-                    >https://www.oxygenxml.com</xref></li>
+            <li>Grundverständnis von XML und TEI</li>
+            <li>Vertrautheit mit Oxygen</li>
         </ul>
+           
+        </section>
+        <section>
+            <title>Voraussetzungen</title>
+            
+            <ul>
+                <li>Oxygen XML Author oder Oxygen XML Editor ist installiert, mindestens in der Version
+                    19.</li>
+                <li>eXist-db ist installiert, in der Version 3.5 oder 4.4
+                    <ul>
+                        <li>Siehe Installationsvoraussetzungen, insbesondere hinsichtlich der Java-Version</li>
+                        <li>Empfehlungen für die Installation unter Windows:
+                            <ul>
+                                <li>Speicher auf 1024 MB reduzieren.</li>
+                                <li><b>Nicht</b> als <q>Service at Startup</q> installieren</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </section>
         <section>
             <title>Setup-Varianten</title>
-            <p>Diese Dokumentation beschreibt das Basic Setup von ediarum. Sie beschreibt nicht die
+            <p>Diese Publikation beschreibt das Basic Setup von ediarum. Sie beschreibt nicht die
                 editionsspezifische Konfiguration und Erweiterung.</p>
             <p>Basic Setup: Sie bringen ediarum zum Laufen, sodass die mitgelieferten
                 Eingabefunktionalitäten für das mitgelieferte XML-Schema zur Verfügung stehen. Das
@@ -35,8 +61,20 @@
                 TEI-Elemente. Sie können mitgelieferte Eingabefunktionalitäten für weitere Register
                 (z.B. Werkregister) aktivieren und eigene Register hinzufügen.</p>
             </section>
-            
- 
-        
     </conbody>
+    <related-links>
+        <linkpool>
+        <link href="http://exist-db.org" format="html" scope="external"></link>
+        <link  href="https://exist-db.org/exist/apps/doc/" format="html" scope="external"><linktext>eXist-db: Installationsvoraussetzungen und -anleitung</linktext></link>
+        </linkpool>
+        <linkpool>
+        <link href="https://www.oxygenxml.com" format="html" scope="external"></link>
+            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external"><linktext>Oxagen: Anleitungen für Installation und Benutzung</linktext></link>
+            <link href="https://www.oxygenxml.com/videos.html" format="html" scope="external"><linktext>Oxygen: Videotutorials für die Benutzung</linktext></link>
+        </linkpool>
+        <linkpool>
+        <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external"><linktext>Ediarum: Anleitung für die Benutzung der Editionsumgebung</linktext></link>
+        <link href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>DTA-Basisformat: Referenz-Dokumentation</linktext></link>
+        </linkpool>
+    </related-links>
 </concept>
