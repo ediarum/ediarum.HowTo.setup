@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_grk_ypc_yfb">
+<task id="task_grk_ypc_yfb" xml:lang="de-DE">
     <title>ediarum-Register aktivieren</title>
     <shortdesc>Sie aktivieren die mitgelieferten Personen- und Ortsregister, die typischerweise in
         einer Edition benötigt werden. Sie haben die Möglichkeit, zusätzlich weitere
-        ediarum-Register zu aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe,
+        <i>ediarum</i>-Standardregister zu aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe,
         Anmerkungen.</shortdesc>
     <taskbody>
-        <prereq>Sie haben in Ihrer eXist-DB die <uicontrol>ediarum</uicontrol> App mit Admin-Rechten
+        <prereq>Sie haben in Ihrer eXist-DB die <i>ediarum.DB</i>-App mit Admin-Rechten
             geöffnet.</prereq>
         <steps>
             
@@ -33,10 +33,9 @@
                     Ortsregister.</cmd>
                 <substeps>
                     <substep>
-                        <cmd>Klicken Sie in der Liste <uicontrol>Ediarum Register</uicontrol> im
+                        <cmd>Klicken Sie in der Liste <uicontrol>Ediarum-Register</uicontrol> im
                             Listeneintrag <uicontrol>Neues Register</uicontrol> auf
                                 <uicontrol>Aktivieren</uicontrol>.</cmd>
-                        
                     </substep>
                     <substep>
                         <cmd>Wählen Sie den Register-Typ (unter

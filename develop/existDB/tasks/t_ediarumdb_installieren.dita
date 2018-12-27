@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ediarumdb_installieren" xml:lang="de-DE">
     <title>ediarum.DB App installieren</title>
-    <shortdesc>Über das Dashboard der eXist-db installieren Sie eine xar-Datei. Danach enthält Ihre
-        Datenbank einige grundlegende Zugriffs-Einstellungen und Sie können die
-            <uicontrol>ediarum</uicontrol> App verwenden.</shortdesc>
+    <shortdesc>Über das Dashboard der <i>eXist-db</i> installieren Sie <i>ediarum.DB</i> mithilfe
+        xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und
+        Zugriffs-Einstellungen und Sie können die <i>ediarum.DB</i> App verwenden.</shortdesc>
     <taskbody>
         
         <steps>
@@ -30,35 +30,42 @@
             </step>
             <step>
                 <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol>, ziehen Sie die
-                    gespeicherte Datei <filepath>ediarum.db-〈version〉.xar </filepath>in das Fenster
-                        <uicontrol>Upload Packages</uicontrol> und schließen Sie das Fenster <uicontrol>Package
-                            Manager</uicontrol>.</cmd>
+                    gespeicherte Datei <filepath>ediarum.db-〈version〉.xar </filepath> in das Fenster
+                        <uicontrol>Upload Packages</uicontrol> oder klicken Sie auf
+                        <uicontrol>Upload</uicontrol> und wählen die xar-Datei über Ihr
+                    Dateiexplorer aus und schließen Sie das Fenster <uicontrol>Package
+                        Manager</uicontrol>.</cmd>
                 <info>
                     <fig>
                         <image placement="inline"
                             href="../../img/exist_PackageManager_UploadPackages.png"/>
                     </fig>
                 </info>
-                
             </step>
             
         </steps>
        <result>
-           <ul><li>Im Dashboard sehen Sie nun die <uicontrol>ediarum</uicontrol> App.
-               <fig><image
-                   placement="inline" href="../../img/dashboard_ediarum.png"
-                   id="image_cyr_1rb_1gb"/></fig></li>
+           <ul><li>Im Dashboard sehen Sie nun die <i>ediarum.DB</i>-App. <fig>
+                        <image placement="inline" href="../../img/dashboard_ediarum.png"
+                            id="image_cyr_1rb_1gb"/>
+                    </fig></li>
                
-               <li>Ihre eXist-db enthält nun folgendes:
-               <ul>
-                   <li>Nutzer-Gruppen: <keyword>website</keyword>, <keyword>oxygen</keyword></li>
-                   <li>Nutzer: <keyword>exist-bot</keyword>, <keyword>oxygen-bot</keyword>,
-                                <keyword>website-user</keyword>, mit identischen Passwörtern</li>
-                   <li>Zugriffsrechte zu benötigten Verzeichnissen und Prozessen</li>
-               </ul>
-               </li>
+               <li>In Ihrer <i>eXist-db</i> wurde nun Folgendes eingerichtet: <ul>
+                        <li>Nutzer-Gruppen: <keyword>website</keyword>,
+                            <keyword>oxygen</keyword></li>
+                        <li>Nutzer: <keyword>exist-bot</keyword>, <keyword>oxygen-bot</keyword>,
+                                <keyword>website-user</keyword>, mit entsprechend lautenden
+                            Passwörtern</li>
+                        <li>Zugriffsrechte zu benötigten Verzeichnissen und Prozessen</li>
+                    </ul></li>
            </ul>
        </result>
        
     </taskbody>
+    <related-links>
+        <linkpool>
+            <link href="https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md"
+                format="html" scope="external"/>
+        </linkpool>
+    </related-links>
 </task>

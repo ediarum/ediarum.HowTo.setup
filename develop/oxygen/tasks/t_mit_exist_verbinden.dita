@@ -8,7 +8,7 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Wählen Sie im Oxygen XML Author das Menü <menucascade>
+                <cmd>Wählen Sie im <i>Oxygen XML Editor</i> das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
                     </menucascade> aus. </cmd>
@@ -36,17 +36,17 @@
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
                             eXist-Instanz, nach dem Muster:
-                                    <userinput>http://<varname>HOST</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
+                                    <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
                             </userinput>Zum Beispiel:
                                 <userinput>https://meinInstitut.de/ediarum/webdav/db/projects/meineEdition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard: !--><userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</userinput></li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
-                            Angaben des Nutzeraccounts, den Sie in der
-                            <uicontrol>ediarum</uicontrol> App in eXist-db angelegt haben (<menucascade>
+                            Angaben des Nutzeraccounts, den Sie in der <i>ediarum.DB</i>-App in
+                                <i>eXist-db</i> angelegt haben (<menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
-                                <uicontrol>Projekte</uicontrol><uicontrol>Projektkonfiguration</uicontrol>
+                                <uicontrol>Projekte</uicontrol>
+                                <uicontrol>Projektkonfiguration</uicontrol>
                                 <uicontrol>Benutzer</uicontrol>
-                            </menucascade>).
-                        </li>
+                            </menucascade>). </li>
                     </ul>
                 </info>
             </step>
@@ -72,8 +72,8 @@
                         <info><?oxy_comment_end?><image href="../../img/datebexplorer.png"
                                 id="image_lng_vyv_xfb"/></info>
                         <stepresult>Die Struktur ist identisch mit der Ordnerstruktur, die in
-                            eXist-db auf der Übersichtsseite Ihres Projekts angezeigt wird
-                                (<uicontrol>ediarum</uicontrol> App: <menucascade>
+                                <i>eXist-db</i> auf der Übersichtsseite Ihres Projekts angezeigt
+                            wird (<i>ediarum.DB</i>-App: <menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
                                 <uicontrol>Projekte</uicontrol>
                             </menucascade>). Sie haben Zugriff auf die Ordner
@@ -90,13 +90,19 @@
                 
                     <ol>
                         <li>Kontrollieren Sie die Richtigkeit Ihrer Angaben im
-                                    <uicontrol>Verbindung</uicontrol> Fenster, insbesondere:
-                            <ul>
-                                <li><uicontrol>WebDAV</uicontrol>: Ist der Pfad bis zu der Ebene
+                        <uicontrol>Verbindung</uicontrol>-Fenster, insbesondere: <ul>
+                        <li><uicontrol>WebDAV</uicontrol>: Ist der Pfad bis zu der Ebene
                                 <userinput>.../data</userinput> eingetragen?</li>
-                                <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>: Sind die Angaben identisch mit den Angaben in der <uicontrol>ediarum</uicontrol> App in eXist-db?</li>
-                            </ul>
-                        </li>
+                        <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>: Sind
+                            die Angaben identisch mit den Angaben in der
+                                <uicontrol>ediarum</uicontrol> App in eXist-db?</li>
+                        <li>Verfügbarkeit: Sie können die Richtigkeit und Verfügbarkeit der
+                            Datenverbindung der Angaben auch dadurch prüfen, dass Sie versuchen den
+                            entsprechenden Pfad in Ihrem Browser öffnen (unter Eingabe von Benutzer
+                            und Passwort). Ihr Browser sollte Ihnen dann ein XML-Output mit den
+                            Ordnerangaben anzeigen.</li>
+                    </ul>
+                </li>
                         <li>Machen Sie im <uicontrol>Datenquellen Explorer</uicontrol> einen Rechtsklick auf Ihre
                             Edition und klicken Sie im Kontextmenü <uicontrol>Erneut laden</uicontrol> an.</li>
                         </ol>

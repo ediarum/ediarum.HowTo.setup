@@ -4,9 +4,8 @@
     <title>Überblick über die editionsspezifische Konfiguration</title>
     <shortdesc></shortdesc>
     <conbody>
-        <p>Ausgehend vom ediarum Basic Setup haben Sie die Möglichkeit, für Ihr Editionsprojekt
-            folgende Einstellungen vorzunehmen:
-            <ul id="ul_fyh_cx4_2gb">
+        <p>Ausgehend vom ediarum Basis-Setup haben Sie die Möglichkeit, für Ihr Editionsprojekt
+            folgende Einstellungen vorzunehmen: <ul id="ul_fyh_cx4_2gb">
                 <li>Schaltflächen und Funktionen hinzufügen oder ändern, indem Sie das für Ihre
                     Edition angelegte Framework konfigurieren.</li>
                 <li>Eigene Register einrichten.</li>

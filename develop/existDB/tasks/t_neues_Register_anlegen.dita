@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_psj_nwx_tfb">
+<task id="task_psj_nwx_tfb" xml:lang="de-DE">
     <title>Ein neues Register einrichten</title>
-    <shortdesc>Wenn Sie ein Register benötigen, das nicht in ediarum enthalten ist, legen Sie dieses
-        in eXist-db in der <uicontrol>ediarum</uicontrol> App an.</shortdesc>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht in <i>ediarum</i> enthalten ist, legen Sie
+        dieses in <i>eXist-db</i> in der <i>ediarum.DB</i>-App an.</shortdesc>
     <taskbody>
-        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von ediarum enthalten ist.</prereq>
+        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von <i>ediarum</i> enthalten
+            ist.</prereq>
         <steps>
             <step>
                 <cmd>Wählen Sie das Menü <menucascade>
@@ -59,13 +60,13 @@
                                 <row>
                                     <entry><uicontrol>API-ID</uicontrol></entry>
                                     <entry>units</entry>
-                                    <entry>frei wählbar, wird bei den Editorvariablen
-                                        angegeben</entry>
+                                    <entry>frei wählbar, wird bei den Editorvariablen angegeben
+                                        (sollte keine Leer- oder Sonderzeichen enthalten)</entry>
                                 </row>
                                 <row>
                                     <entry><uicontrol>Bezeichnung</uicontrol></entry>
                                     <entry>Maße</entry>
-                                    <entry>Name des Registers (freiwählbar)</entry>
+                                    <entry>Name des Registers (frei wählbar)</entry>
                                 </row>
                                 <row>
                                     <entry><uicontrol>Registerordner/ -datei</uicontrol></entry>
@@ -96,6 +97,11 @@
                         </tgroup>
                     </table>
                 </info>
+            </step>
+            <step>
+                <cmd>Nach Bestätigung findet sich die eingerichtete Register-Schnittstelle in der
+                    Register-Liste. Unter dem Knopf <uicontrol>API-Links</uicontrol> sind die URLs
+                    für den Aufruf des Registers sichtbar.</cmd>
             </step>
         </steps>
     </taskbody>

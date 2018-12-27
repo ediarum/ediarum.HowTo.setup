@@ -4,12 +4,12 @@
     <title>Projekt in der Datenbank anlegen</title>
     <shortdesc>In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten
         Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
-        automatisiert korrekt anzulegen, benutzen Sie die <uicontrol>ediarum</uicontrol> App.</shortdesc>
+        automatisiert korrekt anzulegen, benutzen Sie die <i>ediarum.DB</i>-App.</shortdesc>
     <taskbody>
-        <prereq>Sie sind im Dashboard Ihrer eXist-db mit Admin-Rechten angemeldet.</prereq>
+        <prereq>Sie sind im Dashboard Ihrer <i>eXist-db</i> mit Admin-Rechten angemeldet.</prereq>
         <steps>
             <step>
-                <cmd>Öffnen Sie die <uicontrol>ediarum</uicontrol> App.</cmd>
+                <cmd>Öffnen Sie die <i>ediarum.DB</i>-App.</cmd>
                 <info>
                     <fig>
                         <image placement="inline" href="../../img/dashboard_ediarum.png"
@@ -26,10 +26,12 @@
             <step>
                 <cmd>Schreiben Sie in das Feld <uicontrol>Neues Projekt</uicontrol> einen
                     Projektnamen für Ihre Edition und klicken Sie auf
-                        <uicontrol>Anlegen!</uicontrol>.</cmd>
+                        <uicontrol>Anlegen!</uicontrol>. In der Datenbank wird ein neuer Ordner mit
+                    dem gewählten Namen angelegt.</cmd>
                 <info>Den Projektnamen müssen Sie später für die Datenbankanbindung angeben.
-                    Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen.<image placement="break"
-                        href="../../img/neues_projekt_eXist.png" id="image_hfh_kht_bgb"/></info>
+                        <b>Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</b><image
+                        placement="break" href="../../img/neues_projekt_eXist.png"
+                        id="image_hfh_kht_bgb"/></info>
                 <stepresult>Die angezeigte Projektliste enthält nun Ihr Projekt. Wenn Sie Ihr
                     Projekt anklicken, sehen Sie die Ordnerstruktur, in der später die XML-Dateien
                     Ihrer Edition gespeichert werden. <image placement="break"

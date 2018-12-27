@@ -2,9 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_oxygen_einrichtung" xml:lang="de-DE">
     <title>Editionsumgebung in Oxygen einrichten</title>
-    <shortdesc>Sie verbinden Oxygen (Editor) mit eXist-db (Datenbank) und machen alle in ediarum
-        enthaltenen Editionsfunktionalitäten verfügbar.</shortdesc>
+    <shortdesc>Sie verbinden <i>Oxygen XML Editor</i> mit eXist-db (Datenbank) und machen alle in
+        ediarum enthaltenen Editionsfunktionalitäten verfügbar.</shortdesc>
     <conbody>
-        <p>Verwenden Sie Oxygen XML Author oder Editor, mindestens in der Version 19.</p>
+        <p>Verwenden Sie <i>Oxygen XML Editor</i>, mindestens in der Version 19. Für die gesamte
+            Einrichtung und Benutzung von ediarum ist es auch möglich den <i>Oxygen XML Author</i>
+            zu
+            nutzen.<?oxy_comment_start author="fechner" timestamp="20181227T125655+0100" comment="Wollen wir grundsätzlich den Editor oder den Author empfehlen?"?></p><?oxy_comment_end?>
     </conbody>
 </concept>

@@ -2,37 +2,38 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ediarum" xml:lang="de-DE">
     <title>ediarum-Architektur mit dem Basic Setup</title>
-    <shortdesc>Ediarum steht auf github zur Verfügung, in Form von Konfigurationskomponenten für
-        Oxygen (den sogenannten Frameworks) und für eXist-db (den sogenannten Apps).</shortdesc>
+    <shortdesc><i>ediarum</i> steht auf github zur Verfügung, in Form von Konfigurationskomponenten
+        für den <i>Oxygen XML Editor</i> (den sogenannten Frameworks) und für die XML-Datenbank
+            <i>eXist-db</i> (den sogenannten
+        Apps).<?oxy_comment_start author="fechner" timestamp="20181227T120808+0100" comment="Hier noch die Links auf Github einfügen"?></shortdesc><?oxy_comment_end?>
     <conbody>
-             
-        <section><p>Ediarum baut auf zwei Programmen auf:</p><ul>
-                <li>Oxygen: XML-Editor, mithilfe dessen die Editionstexte als XML-Dateien erstellt
-                    werden.</li>
-                <li>eXist-db: XML-Datenbank, in der die edierten XML-Dateien gespeichert
+        <section><p><i>ediarum</i> baut auf zwei Programmen auf:</p><ul>
+                <li><i>Oxygen: XML-Editor</i>, mithilfe dessen die Editionstexte als XML-Dateien
+                    erstellt werden.</li>
+                <li><i>eXist-db</i>: XML-Datenbank, in der die edierten XML-Dateien gespeichert
                     werden.</li>
             </ul><p>In beiden Programmen ist es möglich, die Funktionalität zu konfigurieren und zu
                 erweitern. Desweiteren ist es möglich, diese Konfigurationen gebündelt an andere
                 Programm-Instanzen weiterzugeben, zum Beispiel an alle Mitglieder Ihrer
                 Arbeitsgruppe:</p><ul>
-                <li>In Oxygen kann man eigene GUI-Elemente für XML-Bearbeitungsfunktionen erstellen.
-                    Der Container, in dem diese Add-On-Funktionalitäten gespeichert werden, heißt in
-                    Oxygen "Framework".</li>
-                <li>In eXist-db kann man Webanwendungen mit Datenbankfunktionalitäten erstellen.
-                    Diese Webanwendungen heißen in eXist-db "Apps".</li>
-            </ul>Nach erfolgreichem Basic Setup von ediarum haben Sie mehrere solcher
+                <li>Im <i>Oxygen XML Editor</i> kann man eigene GUI-Elemente für
+                    XML-Bearbeitungsfunktionen erstellen. Der Container, in dem diese
+                    Add-On-Funktionalitäten gespeichert werden, heißt im <i>Oxygen XML Editor</i>
+                    "Framework".</li>
+                <li>In <i>eXist-db</i> kann man Webanwendungen mit Datenbankfunktionalitäten
+                    erstellen. Diese Webanwendungen heißen in <i>eXist-db</i> "Apps".</li>
+            </ul>Nach erfolgreichem Basis-Setup von <i>ediarum</i> haben Sie mehrere solcher
             Oxygen-Frameworks und eXist-Apps sowie zwei "Projekte" in Ihrer lokalen Umgebung:<p>In
                 Oxygen:</p><ul>
                 <li>Frameworks: <ul>
                         <li>ediarum.BASE.edit</li>
                         <li>ediarum.REGISTER.edit</li>
-                        <li>meineEdition.edit</li>
-                    </ul>
-                </li>
+                        <li>meineEdition.edit </li>
+                    </ul></li>
                 <li>Projekt: Enthält die Konfiguration einer REST-Schnittstelle mit der
                     Datenbank.</li>
             </ul><p>In eXist-db:</p><ul>
-                <li>App ediarum.DB</li>
+                <li>App: ediarum.DB</li>
                 <li>Projekt: Enthält ediarum-spezifische Datenhaltungsstrukturen und
                     Datenbanksettings.</li>
             </ul><!-- Grafik ist noch falsch. ediarum.pdf ediarum.WEB sind zu viel drin. Projekte müssen rein.
@@ -44,20 +45,21 @@
            mögliche weitere alternative Grafik <fig>
                 <image href="../../img/Ediarum-setup-v3-2.png"/>
             </fig>--><p/></section>
-       
         <section>
-             <p>Das Einrichten der Komponenten erfolgt in folgender Reihenfolge: </p>
-            <ul>
-                <li>eXist-db: Die App ediarum.DB einrichten und ein Projekt erstellen.</li>
-                <li>Die WEBDAV-Verbindung zwischen eXist-db und Oxygen konfigurieren</li>
-                <li>Oxygen: Die Frameworks ediarum.BASE.edit und ediarum.REGISTER.edit einrichten.
-                    Ein eigenes Framework MeineEdition.edit anlegen, das ediarum.Base.edit
+            <p>Das Einrichten der Komponenten erfolgt in folgender Reihenfolge: </p>
+            <ol>
+                <li><i>eXist-db</i>: Die App <i>ediarum.DB</i> einrichten und ein Projekt
+                    erstellen.</li>
+                <li>Die WEBDAV-Verbindung zwischen <i>eXist-db</i> und <i>Oxygen XML Editor</i>
+                    konfigurieren</li>
+                <li><i>Oxygen XML Editor</i>: Die Frameworks <i>ediarum.BASE.edit</i> und
+                        <i>ediarum.REGISTER.edit</i> einrichten. Ein eigenes Framework
+                        <i>meineEdition.edit</i> anlegen, das <i>ediarum.Base.edit</i>
                     erweitert.</li>
-                <li>Oxygen: Ein Projekt anlegen.</li>
-       
-            </ul>
+                <li><i>Oxygen XML Editor</i>: Ein Projekt
+                    anlegen.<?oxy_comment_start author="fechner" timestamp="20181227T121717+0100" comment="Hier fehlt noch der Schritt: Frameworks in ein Addon verpacken und ausliefern; Oxygen bei den Editionsmitarbeitern einrichten"?></li><?oxy_comment_end?>
+            </ol>
         </section>
-        
         <!-- TODO:
             Folgende Inhalte in irgendeiner (visuellen) Form noch einarbeiten:
             
@@ -152,6 +154,5 @@ Die generalisierte Verwendungsmöglichkeit von ediarum wird erreicht, indem die 
    
         
         -->
-        
-     </conbody>
+    </conbody>
 </concept>

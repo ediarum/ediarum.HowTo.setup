@@ -2,20 +2,21 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_speicherort_ediarumbase_festlegen" xml:lang="de-DE">
     <title>ediarum-Frameworks einrichten</title>
-    <shortdesc>Sie machen die ediarum-Funktionalitäten in Ihrer Oxygen-Editionsumgebung verfügbar,
-        indem Sie zwei ediarum-spezifische Oxygen-"Frameworks"
+    <shortdesc>Sie machen die <i>ediarum</i>-Funktionalitäten in Ihrer
+        <i>Oxygen</i>-Editionsumgebung verfügbar, indem Sie zwei ediarum-spezifische
+        <i>Oxygen</i>-"Frameworks"
         einbinden.<?oxy_comment_start author="notroff" timestamp="20181221T190106+0100" comment="Lieber Philipp. Wir warten mal den Content Review von Stefan und Martin ab. Je nachdem, welchen Namen sie für das Editionsframework empfehlen: Könntest du dann in diesem Topic die Screenshots prüfen und anpassen?"?></shortdesc><?oxy_comment_end?>
     <taskbody>
         <context>
             <p>Überblick über den Ablauf:</p>
             <ul>
-                <li>Sie holen sich die beiden ediarum-Frameworks auf Ihren lokalen Rechner. </li>
-                <li>Sie ändern den Standardordner, an dem Oxygen die Frameworks verwaltet. Dadurch
-                    vermeiden Sie Probleme mit Zugriffsrechten.</li>
+                <li>Sie holen sich die beiden <i>ediarum</i>-Frameworks auf Ihren lokalen Rechner. </li>
+                <li>Sie ändern den Standardordner, an dem <i>Oxygen</i> die Frameworks verwaltet.
+                    Dadurch vermeiden Sie Probleme mit Zugriffsrechten.</li>
                 <li>Sie legen ein eigenes Framework für Ihre Edition an. Sie legen dieses Framework
-                    als eine Erweiterung des ediarum.BASE.edit-Frameworks an, damit Sie alle
-                    Funktionalitäten von ediarum zur Verfügung haben. <ul>
-                        <li>Nach Abschluss des Basic Setup können Sie in diesem Framework Ihre
+                    als eine Erweiterung des <i>ediarum.BASE.edit</i>-Frameworks an, damit Sie alle
+                    Funktionalitäten von <i>ediarum</i> zur Verfügung haben. <ul>
+                        <li>Nach Abschluss des Basis-Setups können Sie in diesem Framework Ihre
                             eigenen Konfigurationen der Editionsumgebung speichern.</li>
                     </ul>
                 </li>
@@ -27,8 +28,9 @@
         </context>
         <steps>
             <step>
-                <cmd>Legen Sie in Ihrem lokalen Dateisystem einen Ordner für alle Frameworks
-                    an.</cmd>
+                <cmd>Legen Sie in Ihrem lokalen Dateisystem einen
+                    <?oxy_comment_start author="fechner" timestamp="20181227T154744+0100" comment="Dieser Ordner ist später auch der Ordner für die Erstellung eines Addons."?>Ordner<?oxy_comment_end?>
+                    für alle Frameworks an.</cmd>
             </step>
             <step>
                 <cmd>Laden Sie sich die folgenden Repositorien von github in den Ordner (in github:
@@ -57,13 +59,15 @@
             </step>
             <step>
                 <cmd>Stellen Sie sicher, dass der Frameworks-Ordner folgende Struktur hat:</cmd>
-                <info><fig>
-                    <image href="../../img/Frameworkordner.PNG"/>
-                </fig></info>
+                <info>
+                    <fig>
+                        <image href="../../img/Frameworkordner.PNG"/>
+                    </fig>
+                </info>
             </step>
             <step>
-                <cmd>Ändern Sie in Oxygen den Speicherort für Frameworks, sodass er auf den Ordner
-                    verweist, der alle Frameworks enthält:</cmd>
+                <cmd>Ändern Sie in <i>Oxygen</i> den Speicherort für Frameworks, sodass er auf den
+                    Ordner verweist, der alle Framework-Ordner enthält:</cmd>
                 <substeps>
                     <substep>
                         <cmd>Wählen Sie in Oxygen das Menü <menucascade>
@@ -84,7 +88,8 @@
                     </substep>
                     <substep>
                         <cmd>Benutzen Sie das Ordner-Icon, um den Pfad auszuwählen.</cmd>
-                    </substep>
+                        <?oxy_comment_start author="fechner" timestamp="20181227T155210+0100" comment="Wenn man mit einer xpr-Projetdatei arbeiitet, sollte diese im Ordner über dem projektspezifischen Framework liegen. Der Framework-Ordner kann dann über eine Benutzervariable angesprochen werden (%pd% o.ä.). Das hat den Vorteil, dass man bei Wechsel des Projekts (der xpr-Datei) auch immer gleich die entsprechenden Frameworks lädt."?>
+                    </substep><?oxy_comment_end?>
                 </substeps>
                 <info>
                     <fig>
@@ -93,16 +98,17 @@
                 </info>
             </step>
             <step>
-                <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>, um das <uicontrol>Einstellungen</uicontrol> Fenster zu schließen.</cmd>
+                <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>, um das
+                        <uicontrol>Einstellungen</uicontrol> Fenster zu schließen.</cmd>
             </step>
             <step>
-                <cmd>Starten Sie Oxygen neu.</cmd>
+                <cmd>Starten Sie <i>Oxygen</i> neu.</cmd>
                 <stepresult>
                     <p>Unter <menucascade>
                             <uicontrol>Optionen</uicontrol>
                             <uicontrol>Einstellungen</uicontrol>
                             <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
-                        </menucascade> werden die zwei ediarum-Frameworks angezeigt.</p>
+                        </menucascade> werden die zwei <i>ediarum</i>-Frameworks angezeigt.</p>
                     <fig>
                         <image href="../../img/DokTypZuordnung_Frameworks.png"/>
                     </fig>
@@ -120,8 +126,8 @@
                         <cmd>Geben Sie im Feld <uicontrol>Name:</uicontrol> den Namen für Ihr
                             editionsspezifisches Framework ein.</cmd>
                         <info>Empfehlung: Verwenden Sie denselben Namen, den Sie dem
-                            editionsspezifischen Ordner in Ihrem Dateisystem gegeben haben. Zum Beispiel:
-                            <userinput>ediarum.meineEdition.edit</userinput></info>
+                            editionsspezifischen Ordner in Ihrem Dateisystem gegeben haben. Zum
+                            Beispiel: <userinput>ediarum.meineEdition.edit</userinput></info>
                     </substep>
                     <substep>
                         <cmd>Aktivieren Sie für <uicontrol>Speicherort:</uicontrol> die Option
@@ -133,7 +139,7 @@
                                 <userinput>ediarum.meineEdition.edit/ediarum.meineEditon.edit.framework</userinput>.
                             Benutzen Sie das Ordner-Icon, um die Datei auszuwählen.</cmd>
                     </substep>
-              </substeps>
+                </substeps>
                 <info>
                     <fig>
                         <image href="../../img/framework_erweitern.png"/>
@@ -141,7 +147,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>, um das <uicontrol>Einstellungen</uicontrol> Fenster zu schließen.</cmd>
+                <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>, um das
+                        <uicontrol>Einstellungen</uicontrol> Fenster zu schließen.</cmd>
             </step>
         </steps>
     </taskbody>
@@ -151,8 +158,7 @@
                                 <uicontrol>Projektkonfiguration</uicontrol>
                                 <uicontrol>Entwicklung</uicontrol>
                             </menucascade> für Ihr Editionsprojekt). Sie benötigen dafür ANT. -->
-<related-links>
+    <related-links>
         <link href="../concepts/c_framework.dita#oxygen_framework_kaskade"/>
-    
-</related-links>
+    </related-links>
 </task>

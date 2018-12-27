@@ -2,19 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="oxygen_framework_kaskade" xml:lang="de-DE">
     <title>Über Oxygen-Frameworks und ediarum-Spezifika</title>
-    <shortdesc>Die Oxygen-Dokumentation beschreibt das grundsätzliche Vorgehen für die Konfiguration
-        via sogenannten "Frameworks". Ediarum enthält einige spezifische
+    <shortdesc>Die <i>Oxygen</i>-Dokumentation beschreibt das grundsätzliche Vorgehen für die
+        Konfiguration via sogenannten "Frameworks". Ediarum enthält einige spezifische
         Konfigurationskomponenten.</shortdesc>
     <conbody>
         <section>
             <title>Framework</title>
-            <p>Im Framework sind die Oxygen-Benutzungsoberflächen für bestimmte Dokumententypen
-                (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die Werkzeugleiste, die
-                Editionsansicht und die Vorlagen. Das Framework assoziiert einen Dokumententyp oder
-                eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
-                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. In
-                Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
-                Oxygen-Benutzungsoberfläche konfigurieren.</p>
+            <p>Im Framework sind die <i>Oxygen</i>-Benutzungsoberflächen für bestimmte
+                Dokumententypen (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die
+                Werkzeugleiste, die Editionsansicht und die Vorlagen. Das Framework assoziiert einen
+                Dokumententyp oder eine definierte Gruppe an Dokumententypen u.a. mit CSS
+                stylesheets, Validierungs-Schematas, Vorlagen für neue Dokumente und
+                Tranformationsszenarios. In Ihrem eigenen Erweiterungs-Framework können Sie eigene
+                Elemente für die Oxygen-Benutzungsoberfläche konfigurieren.</p>
             
         </section>
         <section><title>Konfigurationskomponenten</title>
@@ -74,20 +74,21 @@
             </table></section>
         <section>
             <title>ediarum-Spezifika für die Konfiguration per Framework</title>
-            <p>Ableitungsstruktur: ediarum.BASE.edit arbeitet mit dem Datenmodell des
+            <p>Ableitungsstruktur: <i>ediarum.BASE.edit</i> arbeitet mit dem Datenmodell des
                 DTA-Basisformats (Subset von TEI-XML) und erweitert dieses an einigen Punkten. Für
-                Ihr Editionsprojekt erweitern Sie wiederum das Datenmodell von ediarum.BASE.edit.
-                Das Datenmodell für Ihr Editionsprojekt enthält also am Ende unterschiedlich
-                generische Anteile, die voneinander abgeleitet sind: DTA-Basisformat >
-                ediarum.BASE.edit > projektspezifische Schema-Anteile. Entsprechend dieser
-                Ableitungsstruktur beim Datenmodell sind auch die Frameworks voneinander abgeleitet. </p>
+                Ihr Editionsprojekt erweitern Sie wiederum das Datenmodell von
+                    <i>ediarum.BASE.edit</i>. Das Datenmodell für Ihr Editionsprojekt enthält also
+                am Ende unterschiedlich generische Anteile, die voneinander abgeleitet sind:
+                DTA-Basisformat > ediarum.BASE.edit > projektspezifische Schema-Anteile.
+                Entsprechend dieser Ableitungsstruktur beim Datenmodell sind auch die Frameworks
+                voneinander abgeleitet. </p>
             <p>Dateinamen und Ordnerstrukturen: Für die Benennung und den Ablageort der
-                Konfigurationsdateien folgt ediarum eigenen Konventionen, unter anderem, um eine
-                einfache gebündelte Auslieferung eines Frameworks zu ermöglichen. Orientieren Sie
-                sich an Struktur und Inhalten des ediarum.BASE.edit Ordners.</p>
-            <p>Oxygen-"Operationen": Die GUI-Funktionalitäten werden aus sogenannten "Operationen"
-                zusammengebaut. Die Datei ediarum.jar enthält ediarum-spezifische Operationen, die
-                Sie benutzen können.</p>
+                Konfigurationsdateien folgt <i>ediarum</i> eigenen Konventionen, unter anderem, um
+                eine einfache gebündelte Auslieferung eines Frameworks zu ermöglichen. Orientieren
+                Sie sich an Struktur und Inhalten des <i>ediarum.BASE.edit</i> Ordners.</p>
+            <p><i>Oxygen</i>-"Operationen": Die GUI-Funktionalitäten werden aus sogenannten
+                "Operationen" zusammengebaut. Die Datei <i>ediarum.jar</i> enthält
+                <i>ediarum</i>-spezifische Operationen, die Sie benutzen können.</p>
    
         </section>
     </conbody>
