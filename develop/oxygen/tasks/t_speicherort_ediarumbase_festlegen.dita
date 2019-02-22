@@ -4,8 +4,7 @@
     <title>ediarum-Frameworks einrichten</title>
     <shortdesc>Sie machen die <keyword>ediarum</keyword>-Funktionalitäten in Ihrer
             <keyword>Oxygen</keyword>-Editionsumgebung verfügbar, indem Sie zwei ediarum-spezifische
-            <keyword>Oxygen</keyword>-"Frameworks"
-        einbinden.<?oxy_comment_start author="notroff" timestamp="20181221T190106+0100" comment="Lieber Philipp. Wir warten mal den Content Review von Stefan und Martin ab. Je nachdem, welchen Namen sie für das Editionsframework empfehlen: Könntest du dann in diesem Topic die Screenshots prüfen und anpassen?"?></shortdesc><?oxy_comment_end?>
+            <keyword>Oxygen</keyword>-"Frameworks" einbinden.</shortdesc>
     <taskbody>
         <context>
             <p>Überblick über den Ablauf:</p>
@@ -17,10 +16,8 @@
                 <li>Sie legen ein eigenes Framework für Ihre Edition an. Sie legen dieses Framework
                     als eine Erweiterung des <keyword>ediarum.BASE.edit</keyword>-Frameworks an,
                     damit Sie alle Funktionalitäten von <keyword>ediarum</keyword> zur Verfügung
-                    haben. <ul>
-                        <li>Nach Abschluss des Basis-Setups können Sie in diesem Framework Ihre
-                            eigenen Konfigurationen der Editionsumgebung speichern.</li>
-                    </ul>
+                    haben. Nach Abschluss des Basis-Setups können Sie in diesem Framework Ihre
+                    eigenen Konfigurationen der Editionsumgebung speichern.
                 </li>
             </ul>
             <p>Benötigtes Vorwissen:</p>
@@ -30,9 +27,8 @@
         </context>
         <steps>
             <step>
-                <cmd>Legen Sie in Ihrem lokalen Dateisystem einen
-                    <?oxy_comment_start author="fechner" timestamp="20181227T154744+0100" comment="Dieser Ordner ist später auch der Ordner für die Erstellung eines Addons." id="qvv_2fm_wgb" flag="done"?><?oxy_comment_start author="notroff" timestamp="20190222T165659+0100" comment="Da wir in dieser Version überhaupt noch nicht von Frameworks reden, ergänze ich hier im Moment nichts. Führt sonst nur zur Verwirrung." parentID="qvv_2fm_wgb" flag="done" mid="2"?>Ordner<?oxy_comment_end mid="2"?><?oxy_comment_end?>
-                    für alle Frameworks an.</cmd>
+                <cmd>Legen Sie in Ihrem lokalen Dateisystem einen Ordner für alle Frameworks
+                    an.</cmd>
             </step>
             <step>
                 <cmd>Laden Sie sich die folgenden Repositorien von github in den Ordner (in github:
@@ -90,9 +86,7 @@
                     </substep>
                     <substep>
                         <cmd>Benutzen Sie das Ordner-Icon, um den Pfad auszuwählen.</cmd>
-                        <?oxy_comment_start author="fechner" timestamp="20181227T155210+0100" comment="Wenn man mit einer xpr-Projetdatei arbeiitet, sollte diese im Ordner über dem projektspezifischen Framework liegen. Der Framework-Ordner kann dann über eine Benutzervariable angesprochen werden (%pd% o.ä.). Das hat den Vorteil, dass man bei Wechsel des Projekts (der xpr-Datei) auch immer gleich die entsprechenden Frameworks lädt." id="fkp_ngm_wgb" flag="done"?>
-                        <?oxy_comment_start author="notroff" timestamp="20190222T170709+0100" comment="Ich habe die Info in einem Ticket für die nächste Doku-Version abgelegt. Martin hat sich in den Ticket-Kommentaren einverstanden erklärt, dass die FW-Datei fürs erste so abgelegt wird wie hier beschrieben. Die komplexere Lage für die Ablage von xpr-Dateien sollte erst dann beschrieben werden, wenn sie tatsächlich benutzt werden muss, d.h. wohl vor allem, wenn man auf bestimmte Weise mit Add-Ons arbeitet." parentID="fkp_ngm_wgb" flag="done" mid="4"?>
-                    </substep><?oxy_comment_end?><?oxy_comment_end mid="4"?>
+                    </substep>
                 </substeps>
                 <info>
                     <fig>
@@ -156,12 +150,6 @@
             </step>
         </steps>
     </taskbody>
-    <!-- Später ergänzen, oder auch erst in den Topics, wo man im eigenen Framework Dateien anlegt (schema, templates, etc.): Anstelle des hier beschriebenen manuellen Vorgehens können Sie in der
-                            eXist-App ediarum.DB das Standardverzeichnis mit
-                            den Standarddateien automatisch generieren (<menucascade>
-                                <uicontrol>Projektkonfiguration</uicontrol>
-                                <uicontrol>Entwicklung</uicontrol>
-                            </menucascade> für Ihr Editionsprojekt). Sie benötigen dafür ANT. -->
     <related-links>
         <link href="../concepts/c_framework.dita#oxygen_framework_kaskade"/>
     </related-links>

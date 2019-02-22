@@ -68,12 +68,11 @@
                     <substep>
                         <cmd>Klicken Sie den Pfeil neben der Verbindung an, um die Ordnerstruktur zu
                             öffnen.</cmd>
-                        <?oxy_comment_start author="notroff" timestamp="20181221T181448+0100" comment="Lieber Philipp, könntest du diesen Screenshot neu machen mit &quot;meineEdition&quot;? Oder evtl. in der Grafik rumpfuschen und den Text ändern?"?>
-                        <info><?oxy_comment_end?><image href="../../img/datebexplorer.png"
-                                id="image_lng_vyv_xfb"/></info>
+                        <info><image href="../../img/datebexplorer.png" id="image_lng_vyv_xfb"
+                            /></info>
                         <stepresult>Die Struktur ist identisch mit der Ordnerstruktur, die in
-                                <keyword>eXist-db</keyword> auf der Übersichtsseite Ihres Projekts angezeigt
-                            wird (<keyword>ediarum.DB</keyword>-App: <menucascade>
+                                <keyword>eXist-db</keyword> auf der Übersichtsseite Ihres Projekts
+                            angezeigt wird (<keyword>ediarum.DB</keyword>-App: <menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
                                 <uicontrol>Projekte</uicontrol>
                             </menucascade>). Sie haben Zugriff auf die Ordner
