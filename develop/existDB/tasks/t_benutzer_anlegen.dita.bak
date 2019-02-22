@@ -2,11 +2,11 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_plw_hqc_yfb" xml:lang="de-DE">
     <title>Nutzer-Account anlegen</title>
-    <shortdesc>Die Nutzer-Accounts in der <keyword>ediarum.DB</keyword>-App sind Voraussetzung, damit die
+    <shortdesc>Die Nutzer-Accounts in der <keyword>ediarum.DB</i>-App sind Voraussetzung, damit die
         Editor/innen ihre Oxygen-Instanzen mit der eXist-db verbinden können.</shortdesc>
     <taskbody>
         
-        <prereq>Sie haben in Ihrer eXist-db die <keyword>ediarum.DB</keyword>-App mit Admin-Rechten
+        <prereq>Sie haben in Ihrer eXist-db die <keyword>ediarum.DB</i>-App mit Admin-Rechten
             geöffnet.</prereq>
         <context>Sie benötigen mindestens einen Nutzer-Account, um im späteren Setup-Verlauf die
             Datenbankanbindung konfigurieren zu können. Wenn Sie möchten, können Sie gleich weitere

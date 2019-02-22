@@ -2,10 +2,10 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb" xml:lang="de-DE">
     <title>Ein neues Register einrichten</title>
-    <shortdesc>Wenn Sie ein Register benötigen, das nicht in <keyword>ediarum</keyword> enthalten ist, legen Sie
-        dieses in <keyword>eXist-db</keyword> in der <keyword>ediarum.DB</keyword>-App an.</shortdesc>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht in <keyword>ediarum</i> enthalten ist, legen Sie
+        dieses in <keyword>eXist-db</i> in der <keyword>ediarum.DB</i>-App an.</shortdesc>
     <taskbody>
-        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von <keyword>ediarum</keyword> enthalten
+        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von <keyword>ediarum</i> enthalten
             ist.</prereq>
         <steps>
             <step>

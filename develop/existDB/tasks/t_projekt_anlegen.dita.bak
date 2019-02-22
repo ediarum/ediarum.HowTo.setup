@@ -4,12 +4,12 @@
     <title>Projekt in der Datenbank anlegen</title>
     <shortdesc>In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten
         Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
-        automatisiert korrekt anzulegen, benutzen Sie die <keyword>ediarum.DB</keyword>-App.</shortdesc>
+        automatisiert korrekt anzulegen, benutzen Sie die <keyword>ediarum.DB</i>-App.</shortdesc>
     <taskbody>
-        <prereq>Sie sind im Dashboard Ihrer <keyword>eXist-db</keyword> mit Admin-Rechten angemeldet.</prereq>
+        <prereq>Sie sind im Dashboard Ihrer <keyword>eXist-db</i> mit Admin-Rechten angemeldet.</prereq>
         <steps>
             <step>
-                <cmd>Öffnen Sie die <keyword>ediarum.DB</keyword>-App.</cmd>
+                <cmd>Öffnen Sie die <keyword>ediarum.DB</i>-App.</cmd>
                 <info>
                     <fig>
                         <image placement="inline" href="../../img/dashboard_ediarum.png"

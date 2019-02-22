@@ -3,10 +3,10 @@
 <task id="t_projekt_anlegen" xml:lang="de-DE">
     <title>Projekt in Oxygen anlegen</title>
     <shortdesc>Für den Register-Lookup ist eine eigene Datenbankanbindung nötig, die mithilfe von
-        sogenannten "Editorvariablen" in einem <keyword>Oxygen</keyword>-Projekt hinterlegt wird.</shortdesc>
+        sogenannten "Editorvariablen" in einem <keyword>Oxygen</i>-Projekt hinterlegt wird.</shortdesc>
     <taskbody>
-        <context>Für das Basis-Setup von <keyword>ediarum</keyword> müssen mindestens die für das
-            Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden. <keyword>Oxygen</keyword>
+        <context>Für das Basis-Setup von <keyword>ediarum</i> müssen mindestens die für das
+            Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden. <keyword>Oxygen</i>
             speichert diese Einstellungen in einer .xpr-Datei. Im Anschluss an das Basis-Setup dient
             das Projekt später als Container für weitere editionsspezifische
             Konfigurationen.</context>
@@ -88,7 +88,7 @@
                 <cmd>Klicken Sie auf <uicontrol>Anwenden</uicontrol> und <uicontrol>OK</uicontrol>.</cmd>
             </step>
         </steps>
-        <result>Wenn Sie das Dokument-Template aus dem <keyword>ediarum.BASE.edit</keyword>-Framework öffnen (<menucascade>
+        <result>Wenn Sie das Dokument-Template aus dem <keyword>ediarum.BASE.edit</i>-Framework öffnen (<menucascade>
                 <uicontrol>Datei</uicontrol>
                 <uicontrol>Öffnen...</uicontrol>
                 <uicontrol>.../frameworks/ediarum.BASE.edit/templates</uicontrol>

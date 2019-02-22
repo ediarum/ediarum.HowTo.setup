@@ -4,10 +4,10 @@
     <title>ediarum-Register aktivieren</title>
     <shortdesc>Sie aktivieren die mitgelieferten Personen- und Ortsregister, die typischerweise in
         einer Edition benötigt werden. Sie haben die Möglichkeit, zusätzlich weitere
-        <keyword>ediarum</keyword>-Standardregister zu aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe,
+        <keyword>ediarum</i>-Standardregister zu aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe,
         Anmerkungen.</shortdesc>
     <taskbody>
-        <prereq>Sie haben in Ihrer eXist-DB die <keyword>ediarum.DB</keyword>-App mit Admin-Rechten
+        <prereq>Sie haben in Ihrer eXist-DB die <keyword>ediarum.DB</i>-App mit Admin-Rechten
             geöffnet.</prereq>
         <steps>
             

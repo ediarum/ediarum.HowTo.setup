@@ -8,7 +8,7 @@
     <taskbody>
         <steps>
             <step>
-                <cmd>Wählen Sie im <keyword>Oxygen XML Editor</keyword> das Menü <menucascade>
+                <cmd>Wählen Sie im <keyword>Oxygen XML Editor</i> das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
                     </menucascade> aus. </cmd>
@@ -40,8 +40,8 @@
                             </userinput>Zum Beispiel:
                                 <userinput>https://meinInstitut.de/ediarum/webdav/db/projects/meineEdition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard: !--><userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</userinput></li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
-                            Angaben des Nutzeraccounts, den Sie in der <keyword>ediarum.DB</keyword>-App in
-                                <keyword>eXist-db</keyword> angelegt haben (<menucascade>
+                            Angaben des Nutzeraccounts, den Sie in der <keyword>ediarum.DB</i>-App in
+                                <keyword>eXist-db</i> angelegt haben (<menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
                                 <uicontrol>Projekte</uicontrol>
                                 <uicontrol>Projektkonfiguration</uicontrol>
@@ -72,8 +72,8 @@
                         <info><?oxy_comment_end?><image href="../../img/datebexplorer.png"
                                 id="image_lng_vyv_xfb"/></info>
                         <stepresult>Die Struktur ist identisch mit der Ordnerstruktur, die in
-                                <keyword>eXist-db</keyword> auf der Übersichtsseite Ihres Projekts angezeigt
-                            wird (<keyword>ediarum.DB</keyword>-App: <menucascade>
+                                <keyword>eXist-db</i> auf der Übersichtsseite Ihres Projekts angezeigt
+                            wird (<keyword>ediarum.DB</i>-App: <menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
                                 <uicontrol>Projekte</uicontrol>
                             </menucascade>). Sie haben Zugriff auf die Ordner

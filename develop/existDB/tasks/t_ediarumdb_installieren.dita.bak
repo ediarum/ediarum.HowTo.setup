@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_ediarumdb_installieren" xml:lang="de-DE">
     <title>ediarum.DB App installieren</title>
-    <shortdesc>Über das Dashboard der <keyword>eXist-db</keyword> installieren Sie <keyword>ediarum.DB</keyword> mithilfe
+    <shortdesc>Über das Dashboard der <keyword>eXist-db</i> installieren Sie <keyword>ediarum.DB</i> mithilfe
         xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und
-        Zugriffs-Einstellungen und Sie können die <keyword>ediarum.DB</keyword> App verwenden.</shortdesc>
+        Zugriffs-Einstellungen und Sie können die <keyword>ediarum.DB</i> App verwenden.</shortdesc>
     <taskbody>
         
         <steps>
@@ -45,12 +45,12 @@
             
         </steps>
        <result>
-           <ul><li>Im Dashboard sehen Sie nun die <keyword>ediarum.DB</keyword>-App. <fig>
+           <ul><li>Im Dashboard sehen Sie nun die <keyword>ediarum.DB</i>-App. <fig>
                         <image placement="inline" href="../../img/dashboard_ediarum.png"
                             id="image_cyr_1rb_1gb"/>
                     </fig></li>
                
-               <li>In Ihrer <keyword>eXist-db</keyword> wurde nun Folgendes eingerichtet: <ul>
+               <li>In Ihrer <keyword>eXist-db</i> wurde nun Folgendes eingerichtet: <ul>
                         <li>Nutzer-Gruppen: <keyword>website</keyword>,
                             <keyword>oxygen</keyword></li>
                         <li>Nutzer: <keyword>exist-bot</keyword>, <keyword>oxygen-bot</keyword>,

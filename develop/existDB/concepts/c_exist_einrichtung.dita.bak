@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_exist_einrichtung" xml:lang="de-DE">
     <title>Datenbank einrichten</title>
-    <shortdesc>Sie installieren sich die eXist-App <keyword>ediarum.DB</keyword>. Mithilfe dieser App generieren
+    <shortdesc>Sie installieren sich die eXist-App <keyword>ediarum.DB</i>. Mithilfe dieser App generieren
         Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das
         Zusammenspiel von Datenbank und Oxygen enthält.</shortdesc>
     <conbody>
         <p>Diese Dokumentation bietet einen grundlegenden Einstieg, wie Sie vorgehen. Details finden
-            Sie in den .md Dateien des <keyword>ediarum.DB</keyword> Repositoriums, das auf github zur Verfügung
+            Sie in den .md Dateien des <keyword>ediarum.DB</i> Repositoriums, das auf github zur Verfügung
             steht, z.B. folgende Informationen:</p>
         <ul>
             <li>Hintergrundinformationen und Details zu Installation und Setup</li>
-            <li>Beschreibung der Benutzungsoberfläche der eXist-App <keyword>ediarum.DB</keyword></li>
-            <li>Konfigurationsinformationen, die Ihnen helfen, <keyword>ediarum.DB</keyword> besser zu verstehen
+            <li>Beschreibung der Benutzungsoberfläche der eXist-App <keyword>ediarum.DB</i></li>
+            <li>Konfigurationsinformationen, die Ihnen helfen, <keyword>ediarum.DB</i> besser zu verstehen
                 und weiter an Ihre technischen Anforderungen anzupassen</li>
         </ul>
      
