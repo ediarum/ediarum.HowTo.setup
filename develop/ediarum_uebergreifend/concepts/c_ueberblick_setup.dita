@@ -70,11 +70,14 @@
     <related-links>
         <linkpool>
         <link href="http://exist-db.org" format="html" scope="external"></link>
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html" scope="external"><linktext>eXist-db 3.5.0 - Download</linktext></link>
+
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-4.4.0" format="html" scope="external"><linktext>eXist-db 4.4.0 - Download</linktext></link>
         <link  href="https://exist-db.org/exist/apps/doc/" format="html" scope="external"><linktext>eXist-db: Installationsvoraussetzungen und -anleitung</linktext></link>
         </linkpool>
         <linkpool>
         <link href="https://www.oxygenxml.com" format="html" scope="external"></link>
-            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external"><linktext>Oxagen: Anleitungen für Installation und Benutzung</linktext></link>
+            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external"><linktext>Oxygen: Anleitungen für Installation und Benutzung</linktext></link>
             <link href="https://www.oxygenxml.com/videos.html" format="html" scope="external"><linktext>Oxygen: Videotutorials für die Benutzung</linktext></link>
         </linkpool>
         <linkpool>

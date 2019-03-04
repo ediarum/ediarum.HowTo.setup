@@ -7,8 +7,9 @@
         zwischen verschiedenen Benutzer/innen.</shortdesc>
     <taskbody>
         <steps>
+            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Editor</keyword>.</cmd></step>
             <step>
-                <cmd>Wählen Sie im <keyword>Oxygen XML Editor</keyword> das Menü <menucascade>
+                <cmd>Wählen Sie im das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
                     </menucascade> aus. </cmd>
@@ -111,7 +112,7 @@
     </taskbody>
     <related-links>
         <linklist>
-            <link href="https://www.oxygenxml.com/doc/" format="html" scope="external">
+            <link href="https://www.oxygenxml.com/doc/versions/20.1/ug-editor/" format="html" scope="external">
                 <linktext>Oxygen-Dokumentation, u.a. zu Datenbankanbindungen</linktext>
             </link>
         </linklist>
