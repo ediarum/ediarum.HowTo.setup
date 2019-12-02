@@ -7,7 +7,7 @@
         zwischen verschiedenen Benutzer/innen.</shortdesc>
     <taskbody>
         <steps>
-            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Editor</keyword>.</cmd></step>
+            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Editor<!-- SD: Author --></keyword>.</cmd></step>
             <step>
                 <cmd>Wählen Sie im das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
@@ -15,7 +15,7 @@
                     </menucascade> aus. </cmd>
             </step>
             <step>
-                <cmd> Wählen Sie in der linken Spalte des nun geöffneten <uicontrol>Einstellungen</uicontrol> Fensters den Eintrag <uicontrol>Datenquellen</uicontrol> aus.</cmd>
+                <cmd> Wählen Sie in der linken Spalte des nun geöffneten <uicontrol>Einstellungen</uicontrol>-Fensters den Eintrag <uicontrol>Datenquellen</uicontrol> aus.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>) auf den
@@ -37,8 +37,12 @@
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
                             eXist-Instanz, nach dem Muster:
+                            <!-- SD: hier fehlt eigentlich /exist/ vor WebDAV, da dies nicht Bestandteil des hosts ist -->
                                     <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
                             </userinput>Zum Beispiel:
+                                <!-- SD: Das erste Beispiel besser mit 
+                                    https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data ;; exist statt ediarum; letzteres
+                                ist nur bei uns der Fall!! -->
                                 <userinput>https://meinInstitut.de/ediarum/webdav/db/projects/meineEdition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard: !--><userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</userinput></li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
                             Angaben des Nutzeraccounts, den Sie in der <keyword>ediarum.DB</keyword>-App in

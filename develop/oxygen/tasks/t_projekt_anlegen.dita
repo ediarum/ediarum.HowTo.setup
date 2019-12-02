@@ -7,7 +7,7 @@
     <taskbody>
         <context>Für das Basis-Setup von <keyword>ediarum</keyword> müssen mindestens die für das
             Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden. <keyword>Oxygen</keyword>
-            speichert diese Einstellungen in einer .xpr-Datei. Im Anschluss an das Basis-Setup dient
+            speichert diese Einstellungen in einer <!-- SD: Projektdatei mit der Endung ... -->XPR-Datei. Im Anschluss an das Basis-Setup dient
             das Projekt später als Container für weitere editionsspezifische
             Konfigurationen.</context>
         <steps>
@@ -51,6 +51,7 @@
                     ${ediarum_project_name}, ${ediarum_project_domain} und ${ediarum_website_base}
                     samt Werten ein.</cmd>
                 <info>
+                    <!-- SD: es fehlen eigentlich noch weitere Editorvariablen, hier am besten Rücksprache mit mir, das geht schneller, denke ich -->
                     <table>
                         <tgroup cols="3">
                             <tbody>
@@ -74,7 +75,8 @@
                                     <entry><uicontrol>Name:</uicontrol>
                                         ${ediarum_website_base}</entry>
                                     <entry><!-- @Stefan, Martin: Diese Information klingt verwirrend widersprüchlich. Geht es tatsächlich um die Webpublikation? Zum jetzigen Zeitpunkt hat man normalerweise noch keine Webpublikation, also keine solche URL. Im Realtest mit Jana war es nicht möglich, "OK" anzuklicken, wenn der Wert leer war. Geht es hier um den Registerzugriff? Kann man sich die einzutragende URL irgendwie aus der Datenbankverbindungs-URL (Oxygen WebDAV) herleiten?-->Basis-URL
-                                        zur Webpublikation. Der Wert kann leer bleiben. Der Wert
+                                        <!-- SD: Ja, macht hier keinen Sinn derzeit, ich würde es einfach rausnahmen; oben dann natürlich auch -->
+zur Webpublikation. Der Wert kann leer bleiben. Der Wert
                                         muss die Server-Anmeldedaten enthalten. </entry>
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
                                         http://website-user:******@example.de</entry>
