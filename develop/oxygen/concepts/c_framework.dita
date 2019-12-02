@@ -8,6 +8,7 @@
     <conbody>
         <section>
             <title>Framework</title>
+            <!-- SD: über diesen Absatz sollten wir nochmal kurz sprechen: -->
             <p>Im Framework sind die <keyword>Oxygen</keyword>-Benutzungsoberflächen für bestimmte
                 Dokumententypen (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die
                 Werkzeugleiste, die Editionsansicht und die Vorlagen. Das Framework assoziiert einen
@@ -20,7 +21,7 @@
         <section><title>Konfigurationskomponenten</title>
             <p>Im Hintergrund besteht das Framework aus einer Sammlung von Dateien. Einige Aspekte
                 der Konfiguration nehmen Sie direkt in den Dateien vor, für andere benutzen Sie das
-                    <uicontrol>Dokumenttypen</uicontrol> Fenster.</p>
+                    <uicontrol>Dokumenttypen</uicontrol>-Fenster.</p>
             
             <table
                 frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
@@ -48,20 +49,20 @@
                         <row>
                             <entry>Schema</entry>
                             <entry>XML-Schema (Strukturvorgaben)</entry>
-                            <entry>.rng-Datei</entry>
-                            <entry>Die rng-Datei bearbeiten</entry>
+                            <entry>RNG-Datei</entry>
+                            <entry>Die RNG-Datei bearbeiten</entry>
                         </row>
                         <row>
                             <entry>Template</entry>
                             <entry>Vorlage für neue XML-Dokumente</entry>
-                            <entry>.xml-Datei</entry>
-                            <entry>Die xml-Datei bearbeiten</entry>
+                            <entry>XML-Datei</entry>
+                            <entry>Die XML-Datei bearbeiten</entry>
                         </row>
                         <row>
                             <entry>GUI-Funktionalitäten</entry>
                             <entry>GUI-Elemente und -Funktionalitäten, die Oxygen dann im
                                 Autor-Modus bereitstellt</entry>
-                            <entry>.framework-Datei</entry>
+                            <entry>FRAMEWORK-Datei</entry>
                             <entry>Im <uicontrol>Autor</uicontrol> Tab des
                                     <uicontrol>Dokumenttypen</uicontrol> Fensters: <menucascade>
                                     <uicontrol>Optionen</uicontrol>
@@ -86,7 +87,9 @@
                 Konfigurationsdateien folgt <keyword>ediarum</keyword> eigenen Konventionen, unter anderem, um
                 eine einfache gebündelte Auslieferung eines Frameworks zu ermöglichen. Orientieren
                 Sie sich an Struktur und Inhalten des <keyword>ediarum.BASE.edit</keyword> Ordners.</p>
-            <p><keyword>Oxygen</keyword>-"Operationen": Die GUI-Funktionalitäten werden aus sogenannten
+            <p><keyword>Oxygen</keyword>-"Operationen": Die GUI-Funktionalitäten <!-- SD: ergänzen/ersetzen mit "bestehen im Kern aus sog. "Operationen", die 
+                mit Parametern konfiguriert werden können. Dabei gibt es Operationen, die mit Oxygen XML Author mitgeliefert werden,
+                und solche, die eigens für ediarum programmiert und bereitgestellt wurden." -->werden aus sogenannten
                 "Operationen" zusammengebaut. Die Datei <keyword>ediarum.jar</keyword> enthält
                 <keyword>ediarum</keyword>-spezifische Operationen, die Sie benutzen können.</p>
    

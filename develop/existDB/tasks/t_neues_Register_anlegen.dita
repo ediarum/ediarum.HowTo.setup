@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb" xml:lang="de-DE">
-    <title>Ein neues Register einrichten</title>
-    <shortdesc>Wenn Sie ein Register benötigen, das nicht in <keyword>ediarum</keyword> enthalten ist, legen Sie
+    <title>Ein neues <!-- SD: "customized" o.ä.? --> Register einrichten</title>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht <!-- SD besser: "bereits als Standardregister" -->in <keyword>ediarum</keyword> enthalten ist, legen Sie
         dieses in <keyword>eXist-db</keyword> in der <keyword>ediarum.DB</keyword>-App an.</shortdesc>
     <taskbody>
-        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur von <keyword>ediarum</keyword> enthalten
+        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur <!-- SD besser: "bereits standardmäßig in.." --> von <keyword>ediarum</keyword> enthalten
             ist.</prereq>
         <steps>
             <step>
@@ -102,6 +102,7 @@
                 <cmd>Nach Bestätigung findet sich die eingerichtete Register-Schnittstelle in der
                     Register-Liste. Unter dem Knopf <uicontrol>API-Links</uicontrol> sind die URLs
                     für den Aufruf des Registers sichtbar.</cmd>
+                <!-- SD: ergänzen: diese müssen dann als Editorvariablen notiert werden -->
             </step>
         </steps>
     </taskbody>
