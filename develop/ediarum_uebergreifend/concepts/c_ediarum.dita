@@ -8,7 +8,7 @@
         Apps).</shortdesc>
     <conbody>
         <section><p><keyword>ediarum</keyword> baut auf zwei Programmen auf:</p><ul>
-                <li><keyword>Oxygen: XML-Editor</keyword>, mithilfe dessen die Editionstexte als
+                <li><keyword>Oxygen: XML-Editor<!-- SD: besser: Oxygen XML *Author* --></keyword>, mithilfe dessen die Editionstexte als
                     XML-Dateien erstellt werden.</li>
                 <li><keyword>eXist-db</keyword>: XML-Datenbank, in der die edierten XML-Dateien
                     gespeichert werden.</li>
@@ -16,10 +16,10 @@
                 erweitern. Desweiteren ist es möglich, diese Konfigurationen gebündelt an andere
                 Programm-Instanzen weiterzugeben, zum Beispiel an alle Mitglieder Ihrer
                 Arbeitsgruppe:</p><ul>
-                <li>Im <keyword>Oxygen XML Editor</keyword> kann man eigene GUI-Elemente für
+                <li>Im <keyword>Oxygen XML Editor<!-- SD: Author! --></keyword> kann man eigene GUI-Elemente für
                     XML-Bearbeitungsfunktionen erstellen. Der Container, in dem diese
                     Add-On-Funktionalitäten gespeichert werden, heißt im <keyword>Oxygen XML
-                        Editor</keyword> "Framework".</li>
+                        Editor</keyword> "Framework".<!-- SD: Leider auch "Dokumenttyp-Zuordung", Oxygen verwendet beide Terminologien parallel --></li>
                 <li>In <keyword>eXist-db</keyword> kann man Webanwendungen mit
                     Datenbankfunktionalitäten erstellen. Diese Webanwendungen heißen in
                         <keyword>eXist-db</keyword> "Apps".</li>
@@ -49,8 +49,8 @@
                         <keyword>ediarum.BASE.edit</keyword> und
                         <keyword>ediarum.REGISTER.edit</keyword> einrichten. Ein eigenes Framework
                         <keyword>meineEdition.edit</keyword> anlegen, das
-                        <keyword>ediarum.Base.edit</keyword> erweitert.</li>
-                <li><keyword>Oxygen XML Editor</keyword>: Ein Projekt anlegen.</li>
+                        <keyword>ediarum.BASE.edit</keyword> erweitert.</li>
+                <li><keyword>Oxygen XML Editor<!-- Author --></keyword>: Ein Projekt anlegen.</li>
             </ol>
         </section>
     </conbody>
