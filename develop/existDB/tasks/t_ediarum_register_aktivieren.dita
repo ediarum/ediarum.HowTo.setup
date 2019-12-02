@@ -33,13 +33,13 @@
                     Ortsregister.</cmd>
                 <substeps>
                     <substep>
-                        <cmd>Klicken Sie in der Liste <uicontrol>Ediarum-Register</uicontrol> im
+                        <cmd>Klicken Sie in der Liste <uicontrol>ediarum-Register</uicontrol> im
                             Listeneintrag <uicontrol>Neues Register</uicontrol> auf
                                 <uicontrol>Aktivieren</uicontrol>.</cmd>
                     </substep>
                     <substep>
                         <cmd>Wählen Sie den Register-Typ (unter
-                                <uicontrol>Ediarum-Register</uicontrol>) und den Register-Aufbau und
+                                <uicontrol>ediarum-Register</uicontrol>) und den Register-Aufbau und
                             klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
                             
                             <info>
