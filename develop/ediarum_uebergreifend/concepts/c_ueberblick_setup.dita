@@ -22,8 +22,9 @@
          <p>Vorwissen, um das Setup durchzuführen:</p>
         <ul>
             <li>Grundverständnis von XML, XML-Schemata</li>
-            <li>Kenntnis des Dashboards der <keyword>eXist-db</keyword>, d.h. der graphischen Oberfläche für die
-                    Arbeit mit Ihrer Datenbank.</li>
+            <li>Kenntnis des Dashboards der <keyword>eXist-db</keyword>, d.h. der graphischen
+                    Oberfläche für die Arbeit mit Ihrer Datenbank</li>
+                <li>Grundverständnis von github</li>
         </ul>
         <p>Vorwissen, um mit ediarum im Basis-Setup editorisch zu arbeiten:</p>
         <ul>

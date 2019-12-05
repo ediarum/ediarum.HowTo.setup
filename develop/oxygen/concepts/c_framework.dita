@@ -2,21 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="oxygen_framework_kaskade" xml:lang="de-DE">
     <title>Über Oxygen-Frameworks und ediarum-Spezifika</title>
-    <shortdesc>Die <keyword>Oxygen</keyword>-Dokumentation beschreibt das grundsätzliche Vorgehen für die
-        Konfiguration via sogenannten "Frameworks". Ediarum enthält einige spezifische
+    <shortdesc>Die <keyword>Oxygen</keyword>-Dokumentation beschreibt das grundsätzliche Vorgehen
+        für die Konfiguration via sogenannter "Frameworks". Ediarum enthält einige spezifische
         Konfigurationskomponenten.</shortdesc>
     <conbody>
         <section>
             <title>Framework</title>
             <!-- SD: über diesen Absatz sollten wir nochmal kurz sprechen: -->
-            <p>Im Framework sind die <keyword>Oxygen</keyword>-Benutzungsoberflächen für bestimmte
-                Dokumententypen (z.B. Brief, Manuskript, Notizbuch) definiert, d.h. die
-                Werkzeugleiste, die Editionsansicht und die Vorlagen. Das Framework assoziiert einen
-                Dokumententyp oder eine definierte Gruppe an Dokumententypen u.a. mit CSS
-                stylesheets, Validierungs-Schematas, Vorlagen für neue Dokumente und
-                Tranformationsszenarios. In Ihrem eigenen Erweiterungs-Framework können Sie eigene
-                Elemente für die Oxygen-Benutzungsoberfläche konfigurieren.</p>
-            
+            <?oxy_comment_start author="notroff" timestamp="20191203T112639+0100" comment="Besprechen"?>
+            <p><?oxy_comment_end?>Im Framework sind die
+                <keyword>Oxygen</keyword>-Benutzungsoberflächen für bestimmte Dokumententypen (z.B.
+                Brief, Manuskript, Notizbuch) definiert, d.h. die Werkzeugleiste, die
+                Editionsansicht und die Vorlagen. Das Framework assoziiert einen Dokumententyp oder
+                eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
+                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. In
+                Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
+                Oxygen-Benutzungsoberfläche
+                konfigurieren.<?oxy_comment_start author="notroff" timestamp="20191203T124657+0100" comment="Neu liegt hier auch ediarum.Intro mit im Framework. Dokumententypen fungieren nicht so als Trigger wie hier beschrieben. Rausschmeißen!"?></p><?oxy_comment_end?>
         </section>
         <section><title>Konfigurationskomponenten</title>
             <p>Im Hintergrund besteht das Framework aus einer Sammlung von Dateien. Einige Aspekte

@@ -2,8 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb" xml:lang="de-DE">
     <title>Ein neues <!-- SD: "customized" o.ä.? --> Register einrichten</title>
-    <shortdesc>Wenn Sie ein Register benötigen, das nicht <!-- SD besser: "bereits als Standardregister" -->in <keyword>ediarum</keyword> enthalten ist, legen Sie
-        dieses in <keyword>eXist-db</keyword> in der <keyword>ediarum.DB</keyword>-App an.</shortdesc>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht <!-- SD besser: "bereits als Standardregister" --><?oxy_comment_start author="notroff" timestamp="20191203T113034+0100" comment="Widerspruch? Soll das Register enthalten sein oder nicht?"?>in<?oxy_comment_end?>
+        <keyword>ediarum</keyword> enthalten ist, legen Sie dieses in <keyword>eXist-db</keyword> in
+        der <keyword>ediarum.DB</keyword>-App an.</shortdesc>
     <taskbody>
         <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur <!-- SD besser: "bereits standardmäßig in.." --> von <keyword>ediarum</keyword> enthalten
             ist.</prereq>
@@ -27,16 +28,17 @@
                 <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
                         <uicontrol>Hinzufügen</uicontrol>.</cmd>
             </step>
-            
             <step>
-                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus. Legen Sie eine neue Registeranbindung (Projekt) an, z.B. Maßangaben </cmd>
+                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus. Legen Sie eine neue
+                    Registeranbindung (Projekt) an, z.B. Maßangaben </cmd>
                 <info>
-                    <fig><title>Fenster für den Eintrag von Register-Parametern</title><image placement="break"
-                        href="../../img/neue_registeranbindung.png" id="image_sq3_wf2_wfb"
-                    /></fig>
-                   
-                   <table>
-                       <title>Beispielhafte Werte, anhand eines Registers für Maßangaben</title>
+                    <fig>
+                        <title>Fenster für den Eintrag von Register-Parametern</title>
+                        <image placement="break" href="../../img/neue_registeranbindung.png"
+                            id="image_sq3_wf2_wfb"/>
+                    </fig>
+                    <table>
+                        <title>Beispielhafte Werte, anhand eines Registers für Maßangaben</title>
                         <tgroup cols="3">
                             <colspec colnum="1" colname="c1" colwidth="114pt"/>
                             <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
@@ -44,18 +46,19 @@
                             <thead>
                                 <row>
                                     <entry/>
-                                    <entry> Beispielwert
-                                    </entry>
+                                    <entry> Beispielwert </entry>
                                     <entry>Erklärung</entry>
                                 </row>
                             </thead>
                             <tbody>
                                 <row>
                                     <entry>Struktur eines Registereintrags</entry>
-                                    <entry><codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
+                                    <entry>
+                                        <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
 <label>Kölnische Mark</label>
-</item>]]></codeblock></entry>
-                                    <entry></entry>
+</item>]]></codeblock>
+                                    </entry>
+                                    <entry/>
                                 </row>
                                 <row>
                                     <entry><uicontrol>API-ID</uicontrol></entry>
@@ -99,11 +102,14 @@
                 </info>
             </step>
             <step>
-                <cmd>Nach Bestätigung findet sich die eingerichtete Register-Schnittstelle in der
-                    Register-Liste. Unter dem Knopf <uicontrol>API-Links</uicontrol> sind die URLs
-                    für den Aufruf des Registers sichtbar.</cmd>
+                <cmd><?oxy_comment_start author="notroff" timestamp="20191203T113224+0100" comment="? @AN Ordentlich formulieren"?>Nach
+                    Bestätigung<?oxy_comment_end?> findet sich die eingerichtete
+                    Register-Schnittstelle in der Register-Liste. Unter dem Button
+                        <uicontrol>API-Links</uicontrol> sind die URLs für den Aufruf des Registers
+                    sichtbar.</cmd>
                 <!-- SD: ergänzen: diese müssen dann als Editorvariablen notiert werden -->
-            </step>
+                <?oxy_comment_start author="notroff" timestamp="20191203T123518+0100" comment="Neuer Inhalt: Weitere Steps: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine"?>
+            </step><?oxy_comment_end?>
         </steps>
     </taskbody>
 </task>

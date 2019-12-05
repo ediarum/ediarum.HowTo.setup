@@ -37,7 +37,8 @@
                     Ihrer Edition gespeichert werden. <image placement="break"
                         href="../../img/ordnerstruktur.png" id="image_jqh_3d2_wfb"/></stepresult>
                 <!-- Evtl. Hinweis, oder später/woanders beschreiben: Die Ordnerstruktur kann an das Projekt angepasst werden (Beachte aber, dass ggf. Editorvariablen ebenfalls angepasst werden müssen) -->
-            </step>
+                <?oxy_comment_start author="notroff" timestamp="20191203T104526+0100" comment="Besprechen. Wegen der Editorvariablen-Änderung empfehlen wir, es so zu lassen. Unter &quot;Data&quot; kann ich alles anpassen. Nur Register muss da sein. Ich kann Unterordner für Jahrgänge unter Briefe. Oder: Briefe umbenennen in Dokumente. Empfehlung: Register lassen, alles andere kann man ändern."?>
+            </step><?oxy_comment_end?>
         </steps>
     </taskbody>
 </task>

@@ -29,11 +29,11 @@
                 </info>
             </step>
             <step>
-                <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol>, ziehen Sie die
-                    gespeicherte Datei <filepath>ediarum.db-〈version〉.xar </filepath> in das Fenster
-                        <uicontrol>Upload Packages</uicontrol> oder klicken Sie auf
-                        <uicontrol>Upload</uicontrol> und wählen die XAR-Datei über Ihr
-                    Dateiexplorer aus und schließen Sie das Fenster <uicontrol>Package
+                <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol> und ziehen Sie
+                    die gespeicherte Datei <filepath>ediarum.db-〈version〉.xar</filepath> in das
+                    Fenster <uicontrol>Upload Packages</uicontrol>. Oder: Klicken Sie auf
+                        <uicontrol>Upload</uicontrol> und wählen Sie die XAR-Datei über den
+                    Dateiexplorer aus. Schließen Sie das Fenster <uicontrol>Package
                         Manager</uicontrol>.</cmd>
                 <info>
                     <fig>

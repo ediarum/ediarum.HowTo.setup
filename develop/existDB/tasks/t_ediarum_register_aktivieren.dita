@@ -38,17 +38,15 @@
                                 <uicontrol>Aktivieren</uicontrol>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Wählen Sie den Register-Typ (unter
-                                <uicontrol>ediarum-Register</uicontrol>) und den Register-Aufbau und
+                        <cmd>Wählen Sie den Register-Typ (im Feld
+                                <uicontrol>Ediarum-Register</uicontrol>) und den Register-Aufbau und
                             klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
-                            
-                            <info>
-                                <fig>
-                                    <image placement="break" href="../../img/ediarum_register.png"
-                                        id="image_rxd_gb2_wfb"/>
-                                </fig>
-                            </info>
-                       
+                        <info>
+                            <fig>
+                                <image placement="break" href="../../img/ediarum_register.png"
+                                    id="image_rxd_gb2_wfb"/>
+                            </fig>
+                        </info>
                     </substep>
                 </substeps>
             </step>

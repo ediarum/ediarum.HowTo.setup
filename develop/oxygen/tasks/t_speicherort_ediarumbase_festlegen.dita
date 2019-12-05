@@ -9,10 +9,11 @@
         <context>
             <p>Überblick über den Ablauf:</p>
             <ul>
-                <li>Sie holen sich <!-- SD: besser: laden sich herunter --> die beiden <keyword>ediarum</keyword>-Frameworks auf Ihren
-                    lokalen Rechner. </li>
+                <li>Sie laden sich die beiden
+                        <keyword>ediarum</keyword>-Frameworks auf Ihren lokalen Rechner. </li>
                 <li>Sie ändern den Standardordner, in dem <keyword>Oxygen</keyword> die Frameworks
-                    verwaltet. Dadurch vermeiden Sie Probleme mit Zugriffsrechten <!-- SD: ergänzen: seitens des Betriebssystems (insbesondere Windows) -->.</li>
+                    verwaltet. Dadurch vermeiden Sie Probleme mit Zugriffsrechten seitens des
+                    Betriebssystems (insbesondere Windows).</li>
                 <li>Sie legen ein eigenes Framework für Ihre Edition an. Sie legen dieses Framework
                     als eine Erweiterung des <keyword>ediarum.BASE.edit</keyword>-Frameworks an,
                     damit Sie alle Funktionalitäten von <keyword>ediarum</keyword> zur Verfügung
@@ -23,7 +24,6 @@
             <p>Benötigtes Vorwissen:</p>
             <ul>
                 <li>Grundverständnis von github</li>
-                <!-- SD: Müsste man das nicht auch ganz vorne bei den Vorkenntnissen nennen? --> 
             </ul>
         </context>
         <steps>
@@ -34,8 +34,10 @@
             <step>
                 <cmd>Laden Sie sich die folgenden Repositorien von github in den Ordner (in github:
                         <uicontrol>Download ZIP</uicontrol>, dann lokal entpacken):</cmd>
-                        <!-- SD: Hier gibt es auch Releases, vllt. dann die besser verwenden, analog zur eXistdb-App? -->
-                <substeps>
+                <!-- SD: Hier gibt es auch Releases, vllt. dann die besser verwenden, analog zur eXistdb-App? -->
+                <?oxy_comment_start author="notroff" timestamp="20191203T111218+0100" comment="Dann wäre die generelle Empfehlung für das erste Einrichten von ediarum, den neuesten Release zu verwenden? Hinweis, wie notwendig oder nicht es ist, die nachfolgenden Updates zu machen bzw. wo man Infos dazu findet. (readme, Mailingliste) Irgendwo (wo es passt) müssten wir beschreiben, in welchen Fällen man evtl. einen älteren Release braucht.
+Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei der Mailingliste anmelden: dev.list@ediarum.org https://mailman.bbaw.de/mailman/listinfo/dev.list"?>
+                <substeps><?oxy_comment_end?>
                     <substep>
                         <cmd>
                             <xref href="https://github.com/ediarum/ediarum.BASE.edit.git"

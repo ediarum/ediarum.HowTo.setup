@@ -5,5 +5,9 @@
     <shortdesc></shortdesc>
     <conbody>
         <p></p>
+        <section>
+            <title>Was ist neu in der Doku-Version 1.1?</title>
+            <p>Neu benötigen Sie den Oxygen Editor mindestens in der Version 20.1 (alt: Version 19).</p>
+        </section>
     </conbody>
 </concept>
