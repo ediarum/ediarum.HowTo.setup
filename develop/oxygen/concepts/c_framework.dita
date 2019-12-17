@@ -45,7 +45,7 @@
                         <row>
                             <entry>Was können Sie konfigurieren?</entry>
                             <entry/>
-                            <entry>Wo speichert Oxygen Ihre Konfigurationen?</entry>
+                            <entry>Wo speichert Oxygen XML Author Ihre Konfigurationen?</entry>
                             <entry>Auf welchem Weg können Sie die Konfigurationen ändern?</entry>
                         </row>
                         <row>
@@ -62,7 +62,7 @@
                         </row>
                         <row>
                             <entry>GUI-Funktionalitäten</entry>
-                            <entry>GUI-Elemente und -Funktionalitäten, die Oxygen dann im
+                            <entry>GUI-Elemente und -Funktionalitäten, die Oxygen XML Author dann im
                                 Autor-Modus bereitstellt</entry>
                             <entry>FRAMEWORK-Datei</entry>
                             <entry>Im <uicontrol>Autor</uicontrol> Tab des

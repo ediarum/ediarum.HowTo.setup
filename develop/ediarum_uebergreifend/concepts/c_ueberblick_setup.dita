@@ -29,7 +29,7 @@
         <p>Vorwissen, um mit ediarum im Basis-Setup editorisch zu arbeiten:</p>
         <ul>
             <li>Grundverständnis von XML und TEI</li>
-            <li>Vertrautheit mit <keyword>Oxygen XML Editor</keyword></li>
+            <li>Vertrautheit mit <keyword>Oxygen XML Author</keyword></li>
             <!-- SD: hier könnte man auf das ediarum.BASE.edit-Manual verweisen, aber vllt. kommt das noch später --> 
         </ul>
            
@@ -38,8 +38,7 @@
             <title>Voraussetzungen</title>
             
             <ul>
-                <li><keyword>Oxygen XML Author</keyword> oder <keyword>Oxygen XML Editor</keyword><!-- wir empfehlen eigentlich immer nur Oxygen XML Author, 
-                    Editor geht natürlich auch, aber dann muss man trotzdem den Author benutzen --> ist installiert,
+                <li><keyword>Oxygen XML Author</keyword> oder <keyword>Oxygen XML Author</keyword> ist installiert,
                     mindestens in der Version 19.<!-- SD: Aktuell wird mindestens 20.1 für ediarum.BASE.edit benötigt (das bleibt erstmal auch so) --></li>
                 <li>eXist-db ist installiert, in der Version 3.5 oder 4.4
                     <ul>

@@ -2,7 +2,7 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap id="ediarum_basis" xml:lang="de-DE">
     <booktitle>
-        <mainbooktitle>Ediarum
+        <mainbooktitle>ediarum
 			<?oxy_comment_start author="phlinss" timestamp="20181204T140013+0100" comment="Setup-Dokumentation?"?>Basisdokumentation<?oxy_comment_end?></mainbooktitle>
     </booktitle>
 		<chapter navtitle="Basic Setup">

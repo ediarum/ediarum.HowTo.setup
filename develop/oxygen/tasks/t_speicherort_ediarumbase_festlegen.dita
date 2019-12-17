@@ -11,7 +11,7 @@
             <ul>
                 <li>Sie laden sich die beiden
                         <keyword>ediarum</keyword>-Frameworks auf Ihren lokalen Rechner. </li>
-                <li>Sie ändern den Standardordner, in dem <keyword>Oxygen</keyword> die Frameworks
+                <li>Sie ändern den Standardordner, in dem <keyword>Oxygen XML Author</keyword> die Frameworks
                     verwaltet. Dadurch vermeiden Sie Probleme mit Zugriffsrechten seitens des
                     Betriebssystems (insbesondere Windows).</li>
                 <li>Sie legen ein eigenes Framework für Ihre Edition an. Sie legen dieses Framework
@@ -69,8 +69,9 @@ Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei d
                 </info>
             </step> 
             <step>
-                <cmd>Ändern Sie in <keyword>Oxygen <!-- XML Author --></keyword> den Speicherort für Frameworks, sodass
-                    er auf den Ordner verweist, der alle Framework-Ordner enthält:</cmd>
+                <cmd>Ändern Sie in <keyword>Oxygen <!-- XML Author --></keyword> den Speicherort für
+                    Frameworks, sodass der Speicherort auf den Ordner verweist, der alle
+                    Framework-Ordner enthält:</cmd>
                 <substeps>
                     <substep>
                         <cmd>Wählen Sie in Oxygen <!-- XML Author --> das Menü <menucascade>
@@ -79,7 +80,8 @@ Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei d
                             </menucascade> aus.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Wählen Sie im nun geöffneten <uicontrol>Einstellungen</uicontrol>-Fenster den Eintrag <menucascade>
+                        <cmd>Wählen Sie im nun geöffneten
+                            <uicontrol>Einstellungen</uicontrol>-Fenster den Eintrag <menucascade>
                                 <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
                                 <uicontrol>Orte</uicontrol>
                             </menucascade> aus.</cmd>
@@ -103,7 +105,7 @@ Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei d
                         <uicontrol>Einstellungen</uicontrol>-Fenster zu schließen.</cmd>
             </step>
             <step>
-                <cmd>Starten Sie <keyword>Oxygen</keyword> neu.</cmd>
+                <cmd>Starten Sie <keyword>Oxygen XML Author</keyword> neu.</cmd>
                 <stepresult>
                     <p>Unter <menucascade>
                             <uicontrol>Optionen</uicontrol>

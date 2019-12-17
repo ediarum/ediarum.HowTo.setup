@@ -7,7 +7,7 @@
         zwischen verschiedenen Benutzer/innen.</shortdesc>
     <taskbody>
         <steps>
-            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Editor<!-- SD: Author --></keyword>.</cmd></step>
+            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Author</keyword>.</cmd></step>
             <step>
                 <cmd>Wählen Sie das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_projekt_anlegen" xml:lang="de-DE">
-    <title>Projekt in Oxygen anlegen</title>
+    <title>Projekt im Oxygen XML Author anlegen</title>
     <shortdesc>Für das Register-Lookup ist eine eigene Datenbankverbindung nötig, die mithilfe von
         sogenannten "Editorvariablen" in einem <keyword>Oxygen</keyword>-Projekt hinterlegt
         wird.</shortdesc>
     <taskbody>
         <context>Für das Basis-Setup von <keyword>ediarum</keyword> müssen mindestens die für das
             Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden.
-                <keyword>Oxygen</keyword> speichert diese Einstellungen in einer Datei mit der
+                <keyword>Oxygen XML Author</keyword> speichert diese Einstellungen in einer Datei mit der
             Endung XPR. Im Anschluss an das Basis-Setup dient das "Projekt" später als Container für
             weitere editionsspezifische Konfigurationen.</context>
         <steps>
