@@ -3,7 +3,7 @@
 <task id="oxygen_mit_exist_verbinden" xml:lang="de-DE">
     <title>Oxygen mit der Datenbank verbinden</title>
     <shortdesc>Sie konfigurieren die Verbindung für den Lese- und Schreibzugriff von der
-        Editionsumgebung auf die XML-Dateien. Die WebDAV-Verbindung verhindert Schreibkonflikte
+        Eingabeoberfläche auf die XML-Dateien. Die WebDAV-Verbindung verhindert Schreibkonflikte
         zwischen verschiedenen Benutzer/innen.</shortdesc>
     <taskbody>
         <steps>
@@ -36,12 +36,10 @@
                         <li><uicontrol>Datenquelle</uicontrol>: <userinput>WebDAV
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
-                            eXist-Instanz, nach dem Muster: <!-- SD: hier fehlt eigentlich /exist/ vor WebDAV, da dies nicht Bestandteil des hosts ist -->
+                            eXist-Instanz, nach dem Muster:
                             <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
-                            </userinput>Zum Beispiel: <!-- SD: Das erste Beispiel besser mit 
-                                    https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data ;; exist statt ediarum; letzteres
-                                ist nur bei uns der Fall!! -->
-                            <userinput>https://meinInstitut.de/ediarum/webdav/db/projects/meineEdition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard: !--><userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</userinput></li>
+                            </userinput>Zum Beispiel:
+                            <userinput>https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data</userinput></li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
                             Angaben des Nutzeraccounts, den Sie in der
                             <keyword>ediarum.DB</keyword>-App in <keyword>eXist-db</keyword>

@@ -36,9 +36,15 @@
                     Projekt anklicken, sehen Sie die Ordnerstruktur, in der später die XML-Dateien
                     Ihrer Edition gespeichert werden. <image placement="break"
                         href="../../img/ordnerstruktur.png" id="image_jqh_3d2_wfb"/></stepresult>
-                <!-- Evtl. Hinweis, oder später/woanders beschreiben: Die Ordnerstruktur kann an das Projekt angepasst werden (Beachte aber, dass ggf. Editorvariablen ebenfalls angepasst werden müssen) -->
-                <?oxy_comment_start author="notroff" timestamp="20191203T104526+0100" comment="Besprechen. Wegen der Editorvariablen-Änderung empfehlen wir, es so zu lassen. Unter &quot;Data&quot; kann ich alles anpassen. Nur Register muss da sein. Ich kann Unterordner für Jahrgänge unter Briefe. Oder: Briefe umbenennen in Dokumente. Empfehlung: Register lassen, alles andere kann man ändern."?>
-            </step><?oxy_comment_end?>
+            </step>
+            <step>
+                <cmd>Optional: Sie können den Ordner "Briefe" umbenennen und Unterordner anlegen,
+                    sodass die Ablagestruktur zu Ihren zu edierenden Texten passt.</cmd>
+                <info>Nehmen Sie für das Basis Setup vorerst <b>keine</b> Änderungen am oder im
+                    Ordner "Register" vor. Solche Änderungen erfordern Änderungen an den
+                    Editorvariablen. Das Vorgehen, wie Sie Register anpassen und eigene Register
+                    anlegen können, wird in der Konfigurations-Dokumentation beschrieben.</info>
+            </step>
         </steps>
     </taskbody>
 </task>

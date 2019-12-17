@@ -2,16 +2,31 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="c_ueberblick_setup" xml:lang="de-DE">
     <title>Überblick über das Setup</title>
-    <shortdesc>Das Basis-Setup macht die Editionsumgebung von <keyword>ediarum</keyword> <!-- SD: eigentlich macht es ja die Eingabe und Datenverwaltung vefügbar, vllt. spezifieren hier? -->zunächst in der
-        Standardvariante verfügbar, ohne besondere Konfigurationen für Ihr
-        Editionsprojekt.</shortdesc>
+    <shortdesc>Das Basis-Setup macht <keyword>ediarum</keyword> zunächst in der Standardvariante
+        verfügbar, ohne besondere Konfigurationen für Ihr Editionsprojekt.</shortdesc>
     <conbody>
         <section>
             <title>Über ediarum</title>
-            <p><keyword>ediarum</keyword> ist eine Editionsumgebung für wissenschaftliche digitale Editionen,
-                die auf dem DTA-Basisformat, einem Subset von TEI-XML, basieren. Editor/innen können
-                in dieser Editionsumgebung Texte edieren, kommentieren und mit Register-Links
-                versehen.</p>
+            <sectiondiv>
+                <p>Nutzung:</p>
+                <p><keyword>Ediarum</keyword> ist eine Arbeitsumgebung für wissenschaftliche digitale
+                    Editionen, die auf dem DTA-Basisformat, einem Subset von TEI-XML, basieren.
+                    Editor/innen können in dieser Arbeitsumgebung TEI-XML-basierte Transkriptionen von
+                    Textquellen erstellen und bearbeiten. In den Transkriptionen können die Editor/innen
+                    Textphänomene auszeichnen, Sacherläuterungen einfügen, Links zu Registern setzen,
+                    Registereinträge pflegen und mit Normdaten ausstatten. Das Basis-Setup stellt mit
+                    ediarum.BASE ein auf historische (früh-)neuzeitliche Quellen ausgerichtetes Subset
+                    von TEI-XML zur Verfügung.</p>
+            </sectiondiv>
+             <sectiondiv>
+                 <p>Technische Komponenten:</p>
+                 <p>Auf technischer Ebene stellt ediarum folgende Komponenten zur Verfügung:</p>
+            <ul>
+                <li>ediarum.BASE.edit: Framework für Oxygen XML Author für Text-Transkriptionen</li>
+                <li>ediarum.REGISTER.edit: Framework für Oxygen XML Author für Register</li>
+                <li>ediarum.DB: eXistdb App für ediarum.BASE.edit und ediarum.REGISTER.edit</li>
+            </ul>
+             </sectiondiv>
         </section>
         <section>
         <title>An wen sich diese Publikation richtet</title>
@@ -26,11 +41,10 @@
                     Oberfläche für die Arbeit mit Ihrer Datenbank</li>
                 <li>Grundverständnis von github</li>
         </ul>
-        <p>Vorwissen, um mit ediarum im Basis-Setup editorisch zu arbeiten:</p>
+        <p>Vorwissen, um mit ediarum editorisch zu arbeiten:</p>
         <ul>
             <li>Grundverständnis von XML und TEI</li>
-            <li>Vertrautheit mit <keyword>Oxygen XML Author</keyword></li>
-            <!-- SD: hier könnte man auf das ediarum.BASE.edit-Manual verweisen, aber vllt. kommt das noch später --> 
+            <li>Vertrautheit mit <keyword>Oxygen XML Author</keyword></li> 
         </ul>
            
         </section>
@@ -38,26 +52,27 @@
             <title>Voraussetzungen</title>
             
             <ul>
-                <li><keyword>Oxygen XML Author</keyword> oder <keyword>Oxygen XML Author</keyword> ist installiert,
-                    mindestens in der Version 19.<!-- SD: Aktuell wird mindestens 20.1 für ediarum.BASE.edit benötigt (das bleibt erstmal auch so) --></li>
+                <li><keyword>Oxygen XML Author</keyword> ist installiert, mindestens in der Version
+                    20.1 (alternativ: Oxygen XML Editor).</li>
                 <li>eXist-db ist installiert, in der Version 3.5 oder 4.4
                     <ul>
-                        <li>Siehe Installationsvoraussetzungen, insbesondere hinsichtlich der Java-Version</li>
+                        <li>Beachten Sie die Installationsvoraussetzungen von eXist-db, insbesondere
+                            hinsichtlich der Java-Version.</li>
                         <li>Empfehlungen für die Installation unter Windows:
                             <ul>
                                 <li>Speicher auf 1024 MB reduzieren.</li>
-                                <li><b>Nicht</b> als <q>Service at Startup</q> installieren <!-- SD: Begründung, weil es dann zumindest mit Version 3.5. zu Problemen kam beim Start von eXistdb --></li>
+                                <li><b>Nicht</b> als <q>Service at Startup</q> installieren.
+                                    "Service at Startup" kann zu Problemen beim Starten von eXist-db
+                                    führen, zumindest in eXist-db Version 3.5. </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                
             </ul>
         </section>
         <section>
             <title>Setup-Varianten</title>
-            <p>Diese Publikation beschreibt das Basis-Setup von <keyword>ediarum</keyword>.<!-- SD: auch hier könnte man die beiden Komponenten
-                ediarum.BASE.edit und ediarum.DB benennen --> Sie beschreibt nicht
+            <p>Diese Publikation beschreibt das Basis-Setup von <keyword>ediarum</keyword>. Sie beschreibt nicht
                 die editionsspezifische Konfiguration und projektspezifische Erweiterung.</p>
             <p>Basis-Setup: Sie bringen <keyword>ediarum</keyword> zum Laufen, sodass die mitgelieferten
                 Eingabefunktionalitäten für das mitgelieferte XML-Schema zur Verfügung stehen. Das
@@ -72,6 +87,13 @@
     </conbody>
     <related-links>
         <linkpool>
+            <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external">
+                <linktext>ediarum: Anleitung für Editor/innen (Editionsrichtlinie, digital
+                    erweitert)</linktext>
+            </link>
+            <link href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>DTA-Basisformat: Referenz-Dokumentation</linktext></link>
+        </linkpool>
+        <linkpool>
         <link href="http://exist-db.org" format="html" scope="external"></link>
             <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html" scope="external"><linktext>eXist-db 3.5.0 - Download</linktext></link>
 
@@ -80,12 +102,12 @@
         </linkpool>
         <linkpool>
         <link href="https://www.oxygenxml.com" format="html" scope="external"></link>
-            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external"><linktext>Oxygen: Anleitungen für Installation und Benutzung</linktext></link>
-            <link href="https://www.oxygenxml.com/videos.html" format="html" scope="external"><linktext>Oxygen: Videotutorials für die Benutzung</linktext></link>
+            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
+                <linktext>Oxygen XML Author: Anleitungen für Installation und Benutzung</linktext>
+            </link>
+            <link href="https://www.oxygenxml.com/videos.html" format="html" scope="external">
+                <linktext>Oxygen XML Author: Videotutorials für die Benutzung</linktext>
+            </link>
         </linkpool>
-        <linkpool>
-        <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external"><linktext>ediarum: Anleitung für die Benutzung der Editionsumgebung</linktext></link>
-        <link href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>DTA-Basisformat: Referenz-Dokumentation</linktext></link>
-        </linkpool>
-    </related-links>
+         </related-links>
 </concept>

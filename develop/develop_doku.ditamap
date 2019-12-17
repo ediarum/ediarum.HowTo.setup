@@ -5,7 +5,7 @@
 <map>
     <title>develop-doku</title>
     <topichead navtitle="Über ediarum">
-        <topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita">
+        <topicref href="ediarum_uebergreifend/concepts/c_ueberblick_architektur.dita">
             <topicref href="oxygen/concepts/c_aktion.dita"/>
             <topicref href="oxygen/concepts/c_editorvariable.dita"/>
             <topicref href="oxygen/tasks/t_nutzer_verwalten.dita"/>
@@ -58,7 +58,7 @@
         </topichead>
         <topichead navtitle="Setup bei TELOTA">
             <topichead navtitle="Server">
-                <topicref href="ediarum_uebergreifend/references/r_telota_server.dita"/>
+                <topicref href="ediarum_uebergreifend/references/c_telota_standards.dita"/>
                 <topicref href="ediarum_uebergreifend/concepts/c_projektinstanzen.dita"/>
             </topichead>
             <topichead navtitle="exist">

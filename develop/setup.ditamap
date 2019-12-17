@@ -8,7 +8,8 @@
 		<chapter navtitle="Basic Setup">
 		<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_setupDoku.dita">
 			<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_setup.dita"/>
-			<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
+			<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_architektur.dita"/>
+			<topicref href="ediarum_uebergreifend/concepts/c_telota_standards.dita"/>
 		</topicref>
 		<topicref href="existDB/concepts/c_exist_einrichtung.dita">
 			<topicref href="./existDB/tasks/t_ediarumdb_installieren.dita"/>
