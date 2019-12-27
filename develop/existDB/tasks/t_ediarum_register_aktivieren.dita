@@ -56,4 +56,7 @@
             aktivierten Register ergänzt. <image placement="break"
                 href="../../img/ordnerstruktur_register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>
+    <related-links>
+        <link href="../tasks/t_neues_Register_anlegen.dita"/>
+    </related-links>
 </task>

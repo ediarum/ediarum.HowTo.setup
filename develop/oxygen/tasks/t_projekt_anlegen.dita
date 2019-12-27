@@ -50,12 +50,10 @@
             <step>
                 <cmd>Klicken Sie auf <uicontrol>Neu</uicontrol> und tragen Sie im nun geöffneten
                         <uicontrol>Editorvariablen</uicontrol>-Fenster die Editorvariablen
-                    ${ediarum_project_name}, ${ediarum_project_domain} und ${ediarum_website_base}
-                    samt Werten ein.</cmd>
+                    ${ediarum_project_name} und ${ediarum_project_domain} samt Werten ein.</cmd>
                 <info>
                     <!-- SD: es fehlen eigentlich noch weitere Editorvariablen, hier am besten Rücksprache mit mir, das geht schneller, denke ich -->
-                    <?oxy_comment_start author="notroff" timestamp="20191203T112157+0100" comment="Stefan, kannst du die Tabelle einfach korrekt ausfüllen?"?>
-                    <table><?oxy_comment_end?>
+                    <table>
                         <tgroup cols="3">
                             <tbody>
                                 <row>
@@ -75,14 +73,10 @@
                                         http://oxygen-bot:******@example.de:8028</entry>
                                 </row>
                                 <row>
-                                    <entry><uicontrol>Name:</uicontrol>
-                                        ${ediarum_website_base}</entry>
-                                    <entry><!-- @Stefan, Martin: Diese Information klingt verwirrend widersprüchlich. Geht es tatsächlich um die Webpublikation? Zum jetzigen Zeitpunkt hat man normalerweise noch keine Webpublikation, also keine solche URL. Im Realtest mit Jana war es nicht möglich, "OK" anzuklicken, wenn der Wert leer war. Geht es hier um den Registerzugriff? Kann man sich die einzutragende URL irgendwie aus der Datenbankverbindungs-URL (Oxygen WebDAV) herleiten?-->Basis-URL
-                                        <!-- SD: Ja, macht hier keinen Sinn derzeit, ich würde es einfach rausnahmen; oben dann natürlich auch -->
-                                        zur Webpublikation. Der Wert kann leer bleiben. Der Wert
-                                        muss die Server-Anmeldedaten enthalten. </entry>
-                                    <entry><uicontrol>Wert:</uicontrol> (Beispiel)
-                                        http://website-user:******@example.de</entry>
+                                    <entry><uicontrol>Name:</uicontrol> ${}</entry>
+                                    <entry> </entry>
+                                    <entry><uicontrol>Wert:</uicontrol>
+                                    </entry>
                                 </row>
                             </tbody>
                         </tgroup>
@@ -92,6 +86,46 @@
             <step>
                 <cmd>Klicken Sie auf <uicontrol>Anwenden</uicontrol> und <uicontrol>OK</uicontrol>.</cmd>
             </step>
+            <step>
+                <cmd><?oxy_comment_start author="notroff" timestamp="20191227T163204+0100" comment="Stefan, macht das so Sinn? Wie/wo findet man raus, ob man selbst &quot;exist&quot; oder &quot;ediarum&quot; oder etwas anderes im Pfad braucht? Z.B. ist das direkt aus dem ableitbar, was man vorher im &quot;Verbindungs&quot;-Fenster eingegeben hat?"?>Prüfen
+                    Sie, ob folgende Editorvariablen für die Datenbankanbindung passend zu Ihrer
+                    Infrastruktur gesetzt sind.</cmd><?oxy_comment_end?>
+                <info>
+                    <table>
+                        <tgroup cols="3">
+                            <tbody>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_projects_directory}</entry>
+                                    <entry>Pfad zu den Projektordnern in der eXist-DB via
+                                        REST-Verbindung.</entry>
+                                    <entry>
+                                        <p><uicontrol>Wert:</uicontrol> (Standard)
+                                            /exist/rest/db/projects</p>
+                                        <p>Anstelle von <userinput>exist</userinput> ggf. eine
+                                            andere Angabe, z.B. <userinput>ediarum</userinput></p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_projects_directory_webdav}</entry>
+                                    <entry>Pfad zu den Projekt-Ordnern in der eXist-DB via
+                                        WebDAV-Verbindung.</entry>
+                                    <entry>
+                                        <p><uicontrol>Wert:</uicontrol> (Standard)
+                                            /exist/webdav/db/projects</p>
+                                        <p>Anstelle von <userinput>exist</userinput> ggf. eine
+                                            andere Angabe, z.B. <userinput>ediarum</userinput></p>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Falls Sie Änderungen vorgenommen haben, klicken Sie auf <uicontrol>Anwenden</uicontrol> und <uicontrol>OK</uicontrol>.</cmd>
+            </step>
         </steps>
         <result>Wenn Sie das Dokument-Template aus dem <keyword>ediarum.BASE.edit</keyword>-Framework öffnen (<menucascade><uicontrol>Datei</uicontrol>
                 <uicontrol>Öffnen...</uicontrol><uicontrol>.../frameworks/ediarum.BASE.edit/templates</uicontrol></menucascade>, werden im Autor-Modus die ediarum-spezifischen Schaltflächen angezeigt. Sie können nun Dokumente und Briefe edieren und mit den aktivierten Registern arbeiten. </result>
@@ -99,6 +133,9 @@
     <related-links>
         <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external">
             <linktext>Erklärung der ediarum-Schaltflächen</linktext>
+        </link>
+        <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
+            <linktext>Zu Editorvariablen siehe die Oxygen-Dokumentation</linktext>
         </link>
         
     </related-links>

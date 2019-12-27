@@ -32,23 +32,20 @@
                     an.</cmd>
             </step>
             <step>
-                <cmd>Laden Sie sich die folgenden Repositorien von github in den Ordner (in github:
-                        <uicontrol>Download ZIP</uicontrol>, dann lokal entpacken):</cmd>
-                <!-- SD: Hier gibt es auch Releases, vllt. dann die besser verwenden, analog zur eXistdb-App? -->
-                <?oxy_comment_start author="notroff" timestamp="20191203T111218+0100" comment="Dann wäre die generelle Empfehlung für das erste Einrichten von ediarum, den neuesten Release zu verwenden? Hinweis, wie notwendig oder nicht es ist, die nachfolgenden Updates zu machen bzw. wo man Infos dazu findet. (readme, Mailingliste) Irgendwo (wo es passt) müssten wir beschreiben, in welchen Fällen man evtl. einen älteren Release braucht.
-Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei der Mailingliste anmelden: dev.list@ediarum.org https://mailman.bbaw.de/mailman/listinfo/dev.list"?>
-                <substeps><?oxy_comment_end?>
+                <cmd>Laden Sie sich die folgenden github-Repositorien in den Ordner, den Sie gerade
+                    angelegt haben (in github: Button <uicontrol>Latest release</uicontrol>, dann
+                    gezippte Datei lokal speichern und entpacken):</cmd>
+                    <substeps>
                     <substep>
                         <cmd>
-                            <xref href="https://github.com/ediarum/ediarum.BASE.edit.git"
+                            <xref href="https://github.com/ediarum/ediarum.BASE.edit/releases"
                                 scope="external" format="html"
-                                >https://github.com/ediarum/ediarum.BASE.edit.git</xref></cmd>
+                                >https://github.com/ediarum/ediarum.BASE.edit/releases</xref></cmd>
                     </substep>
                     <substep>
-                        <!-- SD: Hier gibt es auch Releases, vllt. dann die besser verwenden, analog zur eXistdb-App? -->
-                        <cmd><xref href="https://github.com/ediarum/ediarum.REGISTER.edit.git"
+                       <cmd><xref href="https://github.com/ediarum/ediarum.REGISTER.edit/releases"
                                 scope="external" format="html"
-                                >https://github.com/ediarum/ediarum.REGISTER.edit.git</xref></cmd>
+                                >https://github.com/ediarum/ediarum.REGISTER.edit/releases</xref></cmd>
                     </substep>
                 </substeps>
             </step>
@@ -61,7 +58,8 @@ Neue Releases werden auf github publiziert. Ansonsten für Release-Updates bei d
                         <userinput>ediarum.meineEdition.edit</userinput>. </info>
             </step>
             <step>
-                <cmd>Stellen Sie sicher, dass der Framework-Ordner folgende Struktur hat:</cmd>
+                <cmd><?oxy_comment_start author="notroff" timestamp="20191227T185256+0100" comment="Luise: Hier ist sicher auch ein neuer Screenshot nötig, denn neu sollte es hier einen Unterordner für ediarum.Intro geben."?>Stelle<?oxy_comment_end?>n
+                    Sie sicher, dass der Framework-Ordner folgende Struktur hat:</cmd>
                 <info>
                     <fig>
                         <image href="../../img/Frameworkordner.PNG"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb" xml:lang="de-DE">
-    <title>Ein neues <!-- SD: "customized" o.ä.? --> Register einrichten</title>
-    <shortdesc>Wenn Sie ein Register benötigen, das nicht <!-- SD besser: "bereits als Standardregister" --><?oxy_comment_start author="notroff" timestamp="20191203T113034+0100" comment="Widerspruch? Soll das Register enthalten sein oder nicht?"?>in<?oxy_comment_end?>
-        <keyword>ediarum</keyword> enthalten ist, legen Sie dieses in <keyword>eXist-db</keyword> in
-        der <keyword>ediarum.DB</keyword>-App an.</shortdesc>
+    <title>Ein eigenes Register einrichten</title>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht bereits als Standardregister
+        in <keyword>ediarum</keyword> enthalten
+        ist, legen Sie dieses in <keyword>eXist-db</keyword> in der
+        <keyword>ediarum.DB</keyword>-App an.</shortdesc>
     <taskbody>
-        <prereq>Prüfen Sie, ob das Register nicht in der Grundstruktur <!-- SD besser: "bereits standardmäßig in.." --> von <keyword>ediarum</keyword> enthalten
-            ist.</prereq>
+       
         <steps>
             <step>
                 <cmd>Wählen Sie das Menü <menucascade>
@@ -25,12 +25,15 @@
                     </menucascade>aus.</cmd>
             </step>
             <step>
+                <cmd>Stellen Sie sicher, dass das gewünschte Register nicht bereits in der
+                    angezeigten Registerliste enthalten ist.</cmd>
+            </step>
+            <step>
                 <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
                         <uicontrol>Hinzufügen</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus. Legen Sie eine neue
-                    Registeranbindung (Projekt) an, z.B. Maßangaben </cmd>
+                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus.</cmd>
                 <info>
                     <fig>
                         <title>Fenster für den Eintrag von Register-Parametern</title>
@@ -102,14 +105,18 @@
                 </info>
             </step>
             <step>
-                <cmd><?oxy_comment_start author="notroff" timestamp="20191203T113224+0100" comment="? @AN Ordentlich formulieren"?>Nach
-                    Bestätigung<?oxy_comment_end?> findet sich die eingerichtete
-                    Register-Schnittstelle in der Register-Liste. Unter dem Button
+                <cmd>Klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
+                <stepresult>In der Registerliste sehen Sie nun das neue Register. Über den Button
                         <uicontrol>API-Links</uicontrol> sind die URLs für den Aufruf des Registers
-                    sichtbar.</cmd>
-                <!-- SD: ergänzen: diese müssen dann als Editorvariablen notiert werden -->
-                <?oxy_comment_start author="notroff" timestamp="20191203T123518+0100" comment="Neuer Inhalt: Weitere Steps: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine"?>
-            </step><?oxy_comment_end?>
+                    zugänglich.</stepresult>
+            </step>
+            <step>
+                <cmd>Auf Basis der API-Links müssen Sie nun in Ihrem Oxygen-Projekt Editorvariablen
+                    definieren, sodass Sie registerspezifische Buttons definieren können, z.B. für
+                    Einfügeaktionen. Orientieren Sie sich dafür an den Editorvariablen und Aktionen,
+                    die für die Standardregister bereits in ediarum enthalten sind.</cmd>
+                <!-- TO DO next docu-release: Die nötigen Schritte in Oxygen beschreiben: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine. -->
+            </step>
         </steps>
     </taskbody>
 </task>

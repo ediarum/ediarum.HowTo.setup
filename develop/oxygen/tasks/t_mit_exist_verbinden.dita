@@ -37,9 +37,12 @@
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
                             eXist-Instanz, nach dem Muster:
-                            <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
-                            </userinput>Zum Beispiel:
-                            <userinput>https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data</userinput></li>
+                                    <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
+                            </userinput>Zum Beispiel: <ul>
+                                <li><userinput><?oxy_comment_start author="notroff" timestamp="20191227T165525+0100" comment="Luise: Screenshot mit korrigiertem Eintrag im Feld &quot;WebDAV/FTP URL&quot; (identisch mit dem hier markierten Bsp.)"?>https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data</userinput><?oxy_comment_end?></li>
+                                <li><userinput><?oxy_comment_start author="notroff" timestamp="20191227T164757+0100" comment="Stefan, was wäre hier ein typisches Bsp., wenn man sich zum Herumprobieren erstmal eine lokale eXist-DB eingerichtet hat?"?>xmldb:exist://localhost:8088/exist/xmlrpc/projects/meineEdition/data</userinput><?oxy_comment_end?></li>
+                            </ul>
+                        </li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
                             Angaben des Nutzeraccounts, den Sie in der
                             <keyword>ediarum.DB</keyword>-App in <keyword>eXist-db</keyword>

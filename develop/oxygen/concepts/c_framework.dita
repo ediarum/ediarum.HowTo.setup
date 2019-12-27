@@ -2,23 +2,29 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="oxygen_framework_kaskade" xml:lang="de-DE">
     <title>Über Oxygen-Frameworks und ediarum-Spezifika</title>
-    <shortdesc>Die <keyword>Oxygen</keyword>-Dokumentation beschreibt das grundsätzliche Vorgehen
-        für die Konfiguration via sogenannter "Frameworks". Ediarum enthält einige spezifische
-        Konfigurationskomponenten.</shortdesc>
+    <shortdesc>Das grundsätzliche Vorgehen für die Konfiguration via sogenannter "Frameworks" finden
+        Sie in der Oxygen-Dokumentation. Ediarum stellt für diese Konfiguration einige
+        Standardbausteine bereit.</shortdesc>
     <conbody>
         <section>
-            <title>Framework</title>
-            <!-- SD: über diesen Absatz sollten wir nochmal kurz sprechen: -->
-            <?oxy_comment_start author="notroff" timestamp="20191203T112639+0100" comment="Besprechen"?>
-            <p><?oxy_comment_end?>Im Framework sind die
-                <keyword>Oxygen</keyword>-Benutzungsoberflächen für bestimmte Dokumententypen (z.B.
-                Brief, Manuskript, Notizbuch) definiert, d.h. die Werkzeugleiste, die
-                Editionsansicht und die Vorlagen. Das Framework assoziiert einen Dokumententyp oder
-                eine definierte Gruppe an Dokumententypen u.a. mit CSS stylesheets,
-                Validierungs-Schematas, Vorlagen für neue Dokumente und Tranformationsszenarios. In
-                Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
-                Oxygen-Benutzungsoberfläche
-                konfigurieren.<?oxy_comment_start author="notroff" timestamp="20191203T124657+0100" comment="Neu liegt hier auch ediarum.Intro mit im Framework. Dokumententypen fungieren nicht so als Trigger wie hier beschrieben. Rausschmeißen!"?></p><?oxy_comment_end?>
+            <title>Framework-Komponenten</title>
+              <p>Im Framework ist die <keyword>Oxygen</keyword>-Benutzungsoberfläche für Ihr
+                Oxygen-Projekt mit Ihrem Datenmodell (XML-Struktur) definiert, ggf. für verschieden
+                strukturierte Dokumenttypen (z.B. Brief, Manuskript, Notizbuch). Diese
+                Benutzungsoberfläche umfasst folgende Elemente: <ul>
+                    <li>Vorlagen für neue Dokumente, sodass die Editor/innen die XML-Struktur nicht
+                        "von null" alleine aufbauen müssen (XML-Template)</li>
+                    <li>Lesefreundliches Layout der XML-Inhalte im "Autor"-Tab, d.h. eine
+                        "What-you-see-is-what-you-get"-Schreiboberfläche, sodass die Editor/innen
+                        nicht direkt in XML schreiben müssen und ihre Textarbeiten übersichtlich und
+                        publikationsnah überprüfen können. </li>
+                    <li>Buttons und Aktionen in der Werkzeugleiste, sodass die Editor/innen
+                        XML-Elemente und Attributwerte per Klick und in Eingabefeldern einfügen
+                        können, ohne die benötigten XML-Elemente kennen zu müssen</li>
+                    <li>ggf. Transformationsszenarien, die verschiedene Publikations-Layouts zur
+                        Verfügung stellen, z.B. für Korrekturdurchläufe</li>
+                </ul>In Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
+                Oxygen-Benutzungsoberfläche konfigurieren.</p>
         </section>
         <section><title>Konfigurationskomponenten</title>
             <p>Im Hintergrund besteht das Framework aus einer Sammlung von Dateien. Einige Aspekte
@@ -89,11 +95,15 @@
                 Konfigurationsdateien folgt <keyword>ediarum</keyword> eigenen Konventionen, unter anderem, um
                 eine einfache gebündelte Auslieferung eines Frameworks zu ermöglichen. Orientieren
                 Sie sich an Struktur und Inhalten des <keyword>ediarum.BASE.edit</keyword> Ordners.</p>
-            <p><keyword>Oxygen</keyword>-"Operationen": Die GUI-Funktionalitäten <!-- SD: ergänzen/ersetzen mit "bestehen im Kern aus sog. "Operationen", die 
-                mit Parametern konfiguriert werden können. Dabei gibt es Operationen, die mit Oxygen XML Author mitgeliefert werden,
-                und solche, die eigens für ediarum programmiert und bereitgestellt wurden." -->werden aus sogenannten
-                "Operationen" zusammengebaut. Die Datei <keyword>ediarum.jar</keyword> enthält
-                <keyword>ediarum</keyword>-spezifische Operationen, die Sie benutzen können.</p>
+            <p><keyword>Oxygen</keyword>-"Operationen": Die GUI-Funktionalitäten bestehen im Kern
+                aus sogenannten"Operationen",
+                d.h. Befehls-Bausteinen, aus denen Sie eine eigene Funktionalität zusammensetzen und
+                mithilfe von Parametern auf Ihre Edition anpassen können. Dabei gibt es Operationen,
+                die der Oxygen XML Author mitliefert, und solche, die eigens für ediarum
+                programmiert und bereitgestellt wurden. Die Datei <keyword>ediarum.jar</keyword>
+                enthält <keyword>die ediarum</keyword>-spezifischen Operationen, die Sie benutzen
+                können.</p>
+            <p><keyword>Oxygen</keyword>-"Editorvariablen": Die von Oxygen XML Author und von ediarum bereitgestellten Operationen und einige andere Konfigurationskomponenten sollen einfach und vielfältig wiederverwendbar sein. Deshalb sind, wo immer kontextspezifische Angaben nötig sind, anstatt konkreter Werte Platzhalter (Variablen) eingesetzt, z.B. für Projektname, Datei-, Ordner- und URL-Pfade. Die Werte dieser sogenannten Editor-Variablen sind einmal an zentraler Stelle definiert. Für Ihre eigene editionsspezifische Konfiguration müssen Sie die Werte für projektspezifische Editor-Variablen eintragen und gegebenenfalls zusätzliche, eigene Editor-Variablen erstellen, z.B. für zusätzliche Registerarten. Es empfiehlt sich, dabei die Namenskonventionen der bestehenden Editorvariablen konsistent weiter zu führen.</p>
    
         </section>
     </conbody>

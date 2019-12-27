@@ -1,8 +1,10 @@
 ## Dokumentation für die Einrichtung der notwendigen Komponenten für Ediarum
 
+Diese Doku ist in DITA-XML geschrieben.
+
 ### Einstiegspunkt
 
-Wir definieren die Inhaltsstruktur (und das Glossar?) bis auf weiteres in der DITA bookmap [`setup.ditamap`](setup.ditamap).
+Wir definieren die Inhaltsstruktur (und das Glossar?) in der DITA bookmap [`setup.ditamap`](setup.ditamap).
 
 
 ### Build-Targets
@@ -20,8 +22,8 @@ Darin sind ein paar erforderliche Variablen gesetzt, die so oder so aehnlich aus
 | `webhelp.fragment.footer` | `${pd}/develop/static/footer.xml` |
 | `webhelp.logo.image` | `${pd}/ediarum_basis/bbaw_logo.png` |
 
-Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man z.B. die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
-Beim ersten Durchlauf ist darauf zu achten, dasz als anzuwendendes Transformationsszenario tatsaechlich das in der Projektdatei definierte ausgewaehlt ist (das blaue ganz unten) und nicht eines der Standard-Scenarien von Oxygen (die gelben oben).
+Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
+Beim ersten Durchlauf ist darauf zu achten, dasz unter *Transform > Configure Transformation Scenario(s)* als anzuwendendes Transformationsszenario tatsaechlich das in der Projektdatei definierte ausgewaehlt ist (das blaue ganz unten) und nicht eines der Standard-Scenarien von Oxygen (die gelben oben).
 
 Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter `develop/out/webhelp-responsive/index.html` sein.
 
@@ -36,7 +38,8 @@ scp -r develop/out/webhelp-responsive/* root@telota.bbaw.de:/data1/projekte/edia
 ```
 
 ###### Version
-Version 0.1. Stand: 26.10.2018; Updates einzutragen unter develop/static/footer.xml
+Die Version ist einzutragen unter develop/static/footer.xml
+Z.B.: Version 0.1. Stand: 26.10.2018
 
 ### Editorvariablen
 
