@@ -52,18 +52,35 @@
             <step>
                 <cmd>Legen Sie in dem Ordner zusätzlich gleich ein Verzeichnis an, in das Sie später
                     Ihr editionsspezifisches Framework legen können.</cmd>
-                <info>Empfehlung: Behalten sie im Namen des Ordners <userinput>ediarum</userinput>
+                <info>Empfehlung: Behalten Sie im Namen des Ordners <userinput>ediarum</userinput>
                     als ersten Teil bei, um kenntlich zu machen, dass Ihr editionsspezifisches
                     Framework eine Erweiterung von ediarum ist. Zum Beispiel:
                         <userinput>ediarum.meineEdition.edit</userinput>. </info>
             </step>
             <step>
-                <cmd><?oxy_comment_start author="notroff" timestamp="20191227T185256+0100" comment="Luise: Hier ist sicher auch ein neuer Screenshot nötig, denn neu sollte es hier einen Unterordner für ediarum.Intro geben."?>Stelle<?oxy_comment_end?>n
-                    Sie sicher, dass der Framework-Ordner folgende Struktur hat:</cmd>
+                <cmd>Stellen Sie sicher, dass der Framework-Ordner folgende Struktur hat:</cmd>
                 <info>
-                    <fig>
-                        <image href="../../img/Frameworkordner.PNG"/>
-                    </fig>
+                    <ul>
+                        <li>frameworks <ul>
+                                <li>ediarum.BASE.edit <ul>
+                                        <li>css</li>
+                                        <li>fonts</li>
+                                        <li>icons</li>
+                                        <li>resources</li>
+                                        <li>schemata</li>
+                                        <li>templates</li>
+                                    </ul>
+                                </li>
+                                <li>ediarum.REGISTER.edit <ul>
+                                        <li>css</li>
+                                        <li>resources</li>
+                                        <li>schema</li>
+                                    </ul>
+                                </li>
+                                <li>ediarum.meineEdition.edit</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </info>
             </step> 
             <step>
@@ -121,8 +138,9 @@
                 <substeps>
                     <substep>
                         <cmd>Wählen Sie im Fenster <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
-                            das <uicontrol>ediarum.BASE.edit</uicontrol> Framework aus und klicken
-                            Sie auf <uicontrol>Erweitern</uicontrol>.</cmd>
+                            das <uicontrol>ediarum.BASE.edit</uicontrol> Framework aus (nicht
+                            doppelklicken!) und klicken Sie auf
+                            <uicontrol>Erweitern</uicontrol>.</cmd>
                     </substep>
                     <substep>
                         <cmd>Geben Sie im Feld <uicontrol>Name:</uicontrol> den Namen für Ihr

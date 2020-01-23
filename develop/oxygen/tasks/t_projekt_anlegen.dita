@@ -72,13 +72,7 @@
                                     <entry><uicontrol>Wert:</uicontrol> (Beispiel)
                                         http://oxygen-bot:******@example.de:8028</entry>
                                 </row>
-                                <row>
-                                    <entry><uicontrol>Name:</uicontrol> ${}</entry>
-                                    <entry> </entry>
-                                    <entry><uicontrol>Wert:</uicontrol>
-                                    </entry>
-                                </row>
-                            </tbody>
+                             </tbody>
                         </tgroup>
                     </table>
                 </info>
