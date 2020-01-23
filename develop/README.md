@@ -22,6 +22,8 @@ Darin sind ein paar erforderliche Variablen gesetzt, die so oder so aehnlich aus
 | `webhelp.fragment.footer` | `${pd}/develop/static/footer.xml` |
 | `webhelp.logo.image` | `${pd}/ediarum_basis/bbaw_logo.png` |
 
+Desweiteren wurden Variablen gesetzt, um die Short Descriptions anzuzeigen, Navigationselemente anzuzeigen und ähnliches, über das "Configure Transformation Scenarios"-Fenster (siehe https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/wh-responsive-output.html). Diese sind ebenfalls in ediarum_doku.xpr gespeichert.
+
 Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
 Beim ersten Durchlauf ist darauf zu achten, dasz unter *Transform > Configure Transformation Scenario(s)* als anzuwendendes Transformationsszenario tatsaechlich das in der Projektdatei definierte ausgewaehlt ist (das blaue ganz unten) und nicht eines der Standard-Scenarien von Oxygen (die gelben oben).
 
@@ -38,6 +40,7 @@ scp -r develop/out/webhelp-responsive/* root@telota.bbaw.de:/data1/projekte/edia
 ```
 
 ###### Version
+
 Die Version ist einzutragen unter develop/static/footer.xml
 Z.B.: Version 0.1. Stand: 26.10.2018
 
