@@ -125,7 +125,7 @@
                 <uicontrol>Öffnen...</uicontrol><uicontrol>.../frameworks/ediarum.BASE.edit/templates</uicontrol></menucascade>, werden im Autor-Modus die ediarum-spezifischen Schaltflächen angezeigt. Sie können nun Dokumente und Briefe edieren und mit den aktivierten Registern arbeiten. </result>
     </taskbody>
     <related-links>
-        <link href="http://telota.bbaw.de/ediarum/base/manual" format="html" scope="external">
+        <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html" scope="external">
             <linktext>Erklärung der ediarum-Schaltflächen</linktext>
         </link>
         <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
