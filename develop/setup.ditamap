@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
-<bookmap id="ediarum_basis" xml:lang="de-DE">
+<bookmap id="setup" xml:lang="de-DE">
+	
     <booktitle>
-        <mainbooktitle>Ediarum
-			<?oxy_comment_start author="phlinss" timestamp="20181204T140013+0100" comment="Setup-Dokumentation?"?>Basisdokumentation<?oxy_comment_end?></mainbooktitle>
+        <mainbooktitle>ediarum Setup-Anleitung</mainbooktitle>
     </booktitle>
-		<chapter navtitle="Basic Setup">
-		<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_setupDoku.dita">
-			<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_setup.dita"/>
-			<topicref href="ediarum_uebergreifend/concepts/c_ediarum.dita"/>
-		</topicref>
-		<topicref href="existDB/concepts/c_exist_einrichtung.dita">
+	
+	<chapter href="ediarum_uebergreifend/concepts/c_ueberblick_setup.dita" navtitle="Basis-Setup"
+		collection-type="sequence">
+		<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_dok.dita"/>
+		<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_architektur.dita"/>
+		<topicref href="existDB/concepts/c_exist_einrichtung.dita" collection-type="sequence">
 			<topicref href="./existDB/tasks/t_ediarumdb_installieren.dita"/>
 			<topicref href="./existDB/tasks/t_projekt_anlegen.dita"/>
 			<topicref href="./existDB/tasks/t_ediarum_register_aktivieren.dita"/>
 			<topicref href="./existDB/tasks/t_benutzer_anlegen.dita"/>
 		</topicref>
-		<topicref href="oxygen/concepts/c_oxygen_einrichtung.dita">
+		<topicref href="oxygen/concepts/c_oxygen_einrichtung.dita" collection-type="sequence">
 			<topicref href="./oxygen/tasks/t_mit_exist_verbinden.dita"/>
 			<topicref href="./oxygen/tasks/t_speicherort_ediarumbase_festlegen.dita"/>
 			<topicref href="./oxygen/tasks/t_projekt_anlegen.dita"/>
 		</topicref>
-		</chapter>
-	<chapter navtitle="Editionsspezifische Konfiguration">
-		<topicref href="ediarum_uebergreifend/concepts/c_ueberblick_konfig.dita">
-			<topicref href="oxygen/concepts/c_framework.dita"/>
-			<topicref href="./existDB/tasks/t_neues_Register_anlegen.dita"/>
-		</topicref>
-		
 	</chapter>
-
+		
+	<chapter href="ediarum_uebergreifend/concepts/c_ueberblick_konfig.dita" navtitle="Editionsspezifische Konfiguration" collection-type="sequence">
+		<topicref href="oxygen/concepts/c_framework.dita"/>
+		<topicref href="./existDB/tasks/t_neues_Register_anlegen.dita"/>
+	</chapter>
 </bookmap>

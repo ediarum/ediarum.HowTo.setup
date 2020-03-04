@@ -81,10 +81,10 @@
                                 <field name="publishingTemplateDataPO">
                                     <publishingTemplate>
                                         <field name="templateRoot">
-                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/light</String>
+                                            <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp.responsive/templates/blue</String>
                                         </field>
                                         <field name="descriptorRelativePath">
-                                            <String>light-tree.opt</String>
+                                            <String>blue-tree.opt</String>
                                         </field>
                                         <field name="isCustomTemplate">
                                             <Boolean>false</Boolean>
@@ -153,6 +153,90 @@
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.default.language</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>de</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>en-us</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>en-us</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.ftr</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/develop/static/footer.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -258,7 +342,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/ediarum_basis/bbaw_logo.png</String>
+                                                <String>${pd}/develop/img/bbaw_logo.png</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -271,6 +355,97 @@
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.publication.toc.links</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>chapter</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>topic</String>
+                                                    <String>chapter</String>
+                                                    <String>all</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>The Publication TOC will include only the links to the current topic and its children.</String>
+                                                    <String>The Publication TOC will include the links to the current topic, its children, and its ancestors.</String>
+                                                    <String>The Publication TOC will include all links.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.show.child.links</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>no</String>
+                                                    <String>yes</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.top.menu.depth</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>3</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>3</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>0</String>
+                                                    <String>3</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>The menu has unlimited depth.</String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -382,8 +557,6 @@
                                 </field>
                             </ditaScenario>
                         </scenario-array>
-                        <String>keys.context</String>
-                        <String>${pdu}/develop/setup.ditamap</String>
                     </entry>
                 </serializableOrderedMap>
             </serialized>

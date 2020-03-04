@@ -3,15 +3,15 @@
 <task id="t_ediarumdb_installieren" xml:lang="de-DE">
     <title>ediarum.DB App installieren</title>
     <shortdesc>Über das Dashboard der <keyword>eXist-db</keyword> installieren Sie <keyword>ediarum.DB</keyword> mithilfe
-        xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und
-        Zugriffs-Einstellungen und Sie können die <keyword>ediarum.DB</keyword> App verwenden.</shortdesc>
+        der XAR-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und
+        Zugriffs-Einstellungen und Sie können die <keyword>ediarum.DB</keyword>-App verwenden.</shortdesc>
     <taskbody>
         
         <steps>
             <step>
                 <cmd>Klicken Sie auf der Webseite <xref
                         href="https://github.com/ediarum/ediarum.DB/releases" format="html"
-                        scope="external"/> auf den Butten <uicontrol>Latest Release</uicontrol> und
+                        scope="external"/> auf den Button <uicontrol>Latest Release</uicontrol> und
                     speichern Sie die Datei <filepath>ediarum.db-〈version〉.xar</filepath> lokal
                     ab.</cmd>
             </step>
@@ -21,7 +21,7 @@
                 <cmd>Melden Sie sich im Dashboard Ihrer eXist-db mit Admin-Rechten an.</cmd>
             </step>
             <step>
-                <cmd>Öffnen Sie die <uicontrol>Package Manager</uicontrol> App.</cmd>
+                <cmd>Öffnen Sie die <uicontrol>Package Manager</uicontrol>-App.</cmd>
                 <info>
                     <fig>
                         <image placement="inline" href="../../img/exist_packageManager.png"/>
@@ -29,11 +29,11 @@
                 </info>
             </step>
             <step>
-                <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol>, ziehen Sie die
-                    gespeicherte Datei <filepath>ediarum.db-〈version〉.xar </filepath> in das Fenster
-                        <uicontrol>Upload Packages</uicontrol> oder klicken Sie auf
-                        <uicontrol>Upload</uicontrol> und wählen die xar-Datei über Ihr
-                    Dateiexplorer aus und schließen Sie das Fenster <uicontrol>Package
+                <cmd>Klicken Sie auf den Button <uicontrol>add a package</uicontrol> und ziehen Sie
+                    die gespeicherte Datei <filepath>ediarum.db-〈version〉.xar</filepath> in das
+                    Fenster <uicontrol>Upload Packages</uicontrol>. Oder: Klicken Sie auf
+                        <uicontrol>Upload</uicontrol> und wählen Sie die XAR-Datei über den
+                    Dateiexplorer aus. Schließen Sie das Fenster <uicontrol>Package
                         Manager</uicontrol>.</cmd>
                 <info>
                     <fig>

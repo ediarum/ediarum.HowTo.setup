@@ -3,27 +3,27 @@
 <task id="oxygen_mit_exist_verbinden" xml:lang="de-DE">
     <title>Oxygen mit der Datenbank verbinden</title>
     <shortdesc>Sie konfigurieren die Verbindung für den Lese- und Schreibzugriff von der
-        Editionsumgebung auf die XML-Dateien. Die WebDAV-Verbindung verhindert Schreibkonflikte
+        Eingabeoberfläche auf die XML-Dateien. Die WebDAV-Verbindung verhindert Schreibkonflikte
         zwischen verschiedenen Benutzer/innen.</shortdesc>
     <taskbody>
         <steps>
-            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Editor</keyword>.</cmd></step>
+            <step><cmd>Öffnen Sie den <keyword>Oxygen XML Author</keyword>.</cmd></step>
             <step>
-                <cmd>Wählen Sie im das Menü <menucascade>
+                <cmd>Wählen Sie das Menü <menucascade>
                         <uicontrol>Optionen</uicontrol>
                         <uicontrol>Einstellungen</uicontrol>
                     </menucascade> aus. </cmd>
             </step>
             <step>
-                <cmd> Wählen Sie in der linken Spalte des nun geöffneten <uicontrol>Einstellungen</uicontrol> Fensters den Eintrag <uicontrol>Datenquellen</uicontrol> aus.</cmd>
+                <cmd> Wählen Sie in der linken Spalte des nun geöffneten <uicontrol>Einstellungen</uicontrol>-Fensters den Eintrag <uicontrol>Datenquellen</uicontrol> aus.</cmd>
             </step>
             <step>
                 <cmd>Klicken Sie in der unteren Hälfte (<uicontrol>Verbindungen</uicontrol>) auf den
                         <uicontrol>+</uicontrol> Button, um eine neue Verbindung zu erstellen.</cmd>
             </step>
             <step>
-                <cmd>Füllen Sie die Angaben im nun geöffneten <uicontrol>Verbindung</uicontrol>
-                    Fenster aus.</cmd>
+                <cmd>Füllen Sie die Angaben im nun geöffneten Fenster
+                        <uicontrol>Verbindung</uicontrol> aus.</cmd>
                 <info>
                     <image href="../../img/oxy_anbindung.png" placement="break"
                         id="image_ynk_yd4_4fb"/>
@@ -37,12 +37,16 @@
                             (S)FTP</userinput></li>
                         <li><uicontrol>WebDAV</uicontrol>: Pfad zu Ihren Projektdaten in Ihrer
                             eXist-Instanz, nach dem Muster:
-                                    <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data.
-                            </userinput>Zum Beispiel:
-                                <userinput>https://meinInstitut.de/ediarum/webdav/db/projects/meineEdition/data</userinput><!--TODO: Einarbeiten, mit Filter: Für TELOTA gilt der Serverpfad als Standard: !--><userinput>https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</userinput></li>
+                                    <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROJEKT</varname>/data</userinput>.
+                            Zum Beispiel:<ul>
+                                <li>https://meinInstitut.de/exist/webdav/db/projects/meineEdition/data</li>
+                                <li>http://localhost:8080/exist/webdav/db/projects/meineEdition/data</li>
+                            </ul>
+                        </li>
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>:
-                            Angaben des Nutzeraccounts, den Sie in der <keyword>ediarum.DB</keyword>-App in
-                                <keyword>eXist-db</keyword> angelegt haben (<menucascade>
+                            Angaben des Nutzeraccounts, den Sie in der
+                            <keyword>ediarum.DB</keyword>-App in <keyword>eXist-db</keyword>
+                            angelegt haben (<menucascade>
                                 <uicontrol>Verwaltung</uicontrol>
                                 <uicontrol>Projekte</uicontrol>
                                 <uicontrol>Projektkonfiguration</uicontrol>
@@ -55,7 +59,7 @@
                 <cmd>Klicken Sie auf <uicontrol>OK</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Kontrollieren Sie die Datenbankanbindung:</cmd>
+                <cmd>Kontrollieren Sie die Datenbankverbindung:</cmd>
                 <substeps>
                     <substep>
                         <cmd>Wählen Sie das Menü <menucascade>
@@ -96,11 +100,10 @@
                         <li><uicontrol>Benutzer</uicontrol>, <uicontrol>Passwort</uicontrol>: Sind
                             die Angaben identisch mit den Angaben in der
                                 <uicontrol>ediarum</uicontrol> App in eXist-db?</li>
-                        <li>Verfügbarkeit: Sie können die Richtigkeit und Verfügbarkeit der
-                            Datenverbindung der Angaben auch dadurch prüfen, dass Sie versuchen den
-                            entsprechenden Pfad in Ihrem Browser öffnen (unter Eingabe von Benutzer
-                            und Passwort). Ihr Browser sollte Ihnen dann ein XML-Output mit den
-                            Ordnerangaben anzeigen.</li>
+                        <li>Verfügbarkeit: Sie können die Korrektheit und Verfügbarkeit auch dadurch
+                            prüfen, dass Sie den entsprechenden Pfad in Ihrem Browser öffnen (unter
+                            Eingabe von Benutzer und Passwort). Ihr Browser sollte Ihnen dann einen
+                            XML-Output mit den Ordnerangaben anzeigen.</li>
                     </ul>
                 </li>
                         <li>Machen Sie im <uicontrol>Datenquellen Explorer</uicontrol> einen Rechtsklick auf Ihre
@@ -112,8 +115,8 @@
     </taskbody>
     <related-links>
         <linklist>
-            <link href="https://www.oxygenxml.com/doc/versions/20.1/ug-editor/" format="html" scope="external">
-                <linktext>Oxygen-Dokumentation, u.a. zu Datenbankanbindungen</linktext>
+            <link href="https://www.oxygenxml.com/doc/versions/20.1/ug-editor/index.html" format="html" scope="external">
+                <linktext>Oxygen-Dokumentation, u.a. zu Datenbankverbindungen</linktext>
             </link>
         </linklist>
     </related-links>

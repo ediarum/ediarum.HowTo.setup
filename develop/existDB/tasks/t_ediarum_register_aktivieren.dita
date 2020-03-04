@@ -33,22 +33,20 @@
                     Ortsregister.</cmd>
                 <substeps>
                     <substep>
-                        <cmd>Klicken Sie in der Liste <uicontrol>Ediarum-Register</uicontrol> im
+                        <cmd>Klicken Sie in der Liste <uicontrol>ediarum-Register</uicontrol> im
                             Listeneintrag <uicontrol>Neues Register</uicontrol> auf
                                 <uicontrol>Aktivieren</uicontrol>.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Wählen Sie den Register-Typ (unter
+                        <cmd>Wählen Sie den Register-Typ (im Feld
                                 <uicontrol>Ediarum-Register</uicontrol>) und den Register-Aufbau und
                             klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
-                            
-                            <info>
-                                <fig>
-                                    <image placement="break" href="../../img/ediarum_register.png"
-                                        id="image_rxd_gb2_wfb"/>
-                                </fig>
-                            </info>
-                       
+                        <info>
+                            <fig>
+                                <image placement="break" href="../../img/ediarum_register.png"
+                                    id="image_rxd_gb2_wfb"/>
+                            </fig>
+                        </info>
                     </substep>
                 </substeps>
             </step>
@@ -58,4 +56,7 @@
             aktivierten Register ergänzt. <image placement="break"
                 href="../../img/ordnerstruktur_register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>
+    <related-links>
+        <link href="../tasks/t_neues_Register_anlegen.dita"/>
+    </related-links>
 </task>
