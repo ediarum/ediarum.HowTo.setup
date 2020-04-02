@@ -19,7 +19,7 @@
         </topicref>
     </topichead>
     <topichead navtitle="Benötigte Software installieren und einrichten">
-        <topicref href="existDB/tasks/t_exist_installieren.dita"/>
+        <topicref href="ediarum_uebergreifend/tasks/t_exist_und_oxygen_installieren.dita"/>
         <topicref href="oxygen/tasks/t_oxygen_installieren.dita"/>
         <topicref href="oxygen/tasks/t_mit_exist_verbinden.dita"/>
     </topichead>

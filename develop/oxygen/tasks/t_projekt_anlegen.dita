@@ -45,7 +45,10 @@
                         <cmd>Aktivieren Sie die Option <uicontrol>Projekt-Optionen</uicontrol> und klicken Sie auf <uicontrol>Anwenden</uicontrol>.</cmd>
                     </substep>
                  </substeps>
-                <stepresult>Der Eintrag <uicontrol>Benutzerspezifische Editorvariablen</uicontrol> ist jetzt mit einem <uicontrol>[P]</uicontrol> gekennzeichnet und fett dargestellt.</stepresult>
+                <stepresult>Der Eintrag <uicontrol>Benutzerspezifische
+                        <?oxy_comment_start author="notroff" timestamp="20200309T171619+0100" comment="Was ist eine Editorvariable? &quot;Editor&quot; bezieht sich auf den Oxygen-Editor, nicht auf den Menschen."?>Editorvariablen<?oxy_comment_end?></uicontrol>
+                    ist jetzt mit einem <uicontrol>[P]</uicontrol> gekennzeichnet und fett
+                    dargestellt.</stepresult>
             </step>
             <step>
                 <cmd>Klicken Sie auf <uicontrol>Neu</uicontrol> und tragen Sie im nun geöffneten
@@ -95,7 +98,7 @@
                                         REST-Verbindung.</entry>
                                     <entry>
                                         <p><uicontrol>Wert:</uicontrol> (Standard)
-                                            /exist/rest/db/projects</p>
+                                            /exist/rest/db/projects/</p>
                                         <p>Anstelle von <userinput>exist</userinput> ggf. eine
                                             andere Angabe, z.B. <userinput>ediarum</userinput></p>
                                     </entry>
@@ -107,7 +110,7 @@
                                         WebDAV-Verbindung.</entry>
                                     <entry>
                                         <p><uicontrol>Wert:</uicontrol> (Standard)
-                                            /exist/webdav/db/projects</p>
+                                            /exist/webdav/db/projects/</p>
                                         <p>Anstelle von <userinput>exist</userinput> ggf. eine
                                             andere Angabe, z.B. <userinput>ediarum</userinput></p>
                                     </entry>

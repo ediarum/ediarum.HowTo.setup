@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ediarum" xml:lang="de-DE">
-    <title>ediarum-Architektur mit dem Basis-Setup</title>
+    <title>Überblick über das Basis-Setup</title>
     <shortdesc><keyword>ediarum</keyword> steht auf github zur Verfügung, in Form von
         Konfigurationskomponenten für den <keyword>Oxygen XML Author</keyword> (den sogenannten
         Frameworks) und für die XML-Datenbank <keyword>eXist-db</keyword> (den sogenannten
@@ -43,6 +43,7 @@
         <section>
             <p>Das Einrichten der Komponenten erfolgt in folgender Reihenfolge: </p>
             <ol>
+                <li><keyword>eXist-db</keyword> und <keyword>Oxygen XML Author</keyword> installieren.</li>
                 <li><keyword>eXist-db</keyword>: Die App <keyword>ediarum.DB</keyword> einrichten
                     und ein Projekt erstellen.</li>
                 <li>Die WEBDAV-Verbindung zwischen <keyword>eXist-db</keyword> und <keyword>Oxygen
