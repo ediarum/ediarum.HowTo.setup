@@ -7,10 +7,12 @@
         wird.</shortdesc>
     <taskbody>
         <context>Für das Basis-Setup von <keyword>ediarum</keyword> müssen mindestens die für das
-            Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden.
-                <keyword>Oxygen XML Author</keyword> speichert diese Einstellungen in einer Datei mit der
-            Endung XPR. Im Anschluss an das Basis-Setup dient das "Projekt" später als Container für
-            weitere editionsspezifische Konfigurationen.</context>
+            Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden. Eine
+            "Editor"-Variable ist eine generische Angabe in dem Tool <keyword>Oxygen XML
+                "Editor"</keyword> (oder <keyword>Oxygen XML Author</keyword>). <keyword>Oxygen XML
+                Author</keyword> speichert diese Einstellungen in einer Datei mit der Endung XPR. Im
+            Anschluss an das Basis-Setup dient das "Projekt" später als Container für weitere
+            editionsspezifische Konfigurationen.</context>
         <steps>
             <step>
                 <cmd>Wählen Sie <menucascade><uicontrol>Projekt</uicontrol><uicontrol>Neues Projekt</uicontrol></menucascade> aus.</cmd>
@@ -45,8 +47,7 @@
                         <cmd>Aktivieren Sie die Option <uicontrol>Projekt-Optionen</uicontrol> und klicken Sie auf <uicontrol>Anwenden</uicontrol>.</cmd>
                     </substep>
                  </substeps>
-                <stepresult>Der Eintrag <uicontrol>Benutzerspezifische
-                        <?oxy_comment_start author="notroff" timestamp="20200309T171619+0100" comment="Was ist eine Editorvariable? &quot;Editor&quot; bezieht sich auf den Oxygen-Editor, nicht auf den Menschen."?>Editorvariablen<?oxy_comment_end?></uicontrol>
+                <stepresult>Der Eintrag <uicontrol>Benutzerspezifische Editorvariablen</uicontrol>
                     ist jetzt mit einem <uicontrol>[P]</uicontrol> gekennzeichnet und fett
                     dargestellt.</stepresult>
             </step>
@@ -84,7 +85,7 @@
                 <cmd>Klicken Sie auf <uicontrol>Anwenden</uicontrol> und <uicontrol>OK</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd><?oxy_comment_start author="notroff" timestamp="20191227T163204+0100" comment="Stefan, macht das so Sinn? Wie/wo findet man raus, ob man selbst &quot;exist&quot; oder &quot;ediarum&quot; oder etwas anderes im Pfad braucht? Z.B. ist das direkt aus dem ableitbar, was man vorher im &quot;Verbindungs&quot;-Fenster eingegeben hat?"?>Prüfen
+                <cmd><?oxy_comment_start author="notroff" timestamp="20191227T163204+0100" comment="TODO: Content Review: Stefan, macht das so Sinn? Wie/wo findet man raus, ob man selbst &quot;exist&quot; oder &quot;ediarum&quot; oder etwas anderes im Pfad braucht? Z.B. ist das direkt aus dem ableitbar, was man vorher im &quot;Verbindungs&quot;-Fenster eingegeben hat?"?>Prüfen
                     Sie, ob folgende Editorvariablen für die Datenbankanbindung passend zu Ihrer
                     Infrastruktur gesetzt sind.</cmd><?oxy_comment_end?>
                 <info>
@@ -131,8 +132,8 @@
         <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html" scope="external">
             <linktext>Erklärung der ediarum-Schaltflächen</linktext>
         </link>
-        <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
-            <linktext>Zu Editorvariablen siehe die Oxygen-Dokumentation</linktext>
+        <link href="https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/editor-variables.html" format="html" scope="external">
+            <linktext>Was ist eine Editorvariable?</linktext>
         </link>
         
     </related-links>

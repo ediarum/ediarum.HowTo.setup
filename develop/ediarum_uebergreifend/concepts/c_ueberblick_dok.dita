@@ -69,6 +69,14 @@
         </ul>
         </section>
         <section>
+            <title>Voraussetzungen</title>       
+            <ul>
+                <li><keyword>Oxygen XML Author</keyword> ist installiert, mindestens in der Version
+                    20.1 (alternativ: Oxygen XML Editor). </li>
+                <li>eXist-db ist installiert, in der Version 3.5 oder 4.4.</li>
+                </ul>
+        </section>
+        <section>
             <title>Feedback</title>
             <p>Wir sind jederzeit froh über Feedback zu dieser Anleitung an
                 andrea.notroff@bbaw.de.</p>
@@ -78,7 +86,7 @@
      </conbody>
     <related-links>
         <linkpool>
-            <link href="https://ride.i-d-e.de/issues/issue-11/ediarum/"><linktext>ediarum: Nutzungs- und Technologie-Beschreibung, Review</linktext></link>
+            <link href="https://ride.i-d-e.de/issues/issue-11/ediarum/" format="html" scope="external"><linktext>ediarum: Nutzungs- und Technologie-Beschreibung, Review</linktext></link>
             <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html" scope="external">
                 <linktext>ediarum: Anleitung für Editor/innen (Editionsrichtlinie, digital
                     erweitert)</linktext>
@@ -88,6 +96,33 @@
             <link href="https://www.oxygenxml.com" format="html" scope="external"></link>
         </linkpool>
      </related-links>
+    <concept id="what_is_new">
+        <title>Was ist neu in dieser Dokument-Version?</title>
+        <conbody>
+            <section>
+                <title>v1.2.1 vom 30.03.2020</title>
+                <ul>
+                    <li>Korrektur in <xref href="../../oxygen/tasks/t_oxygen-projekt_anlegen.dita"></xref> zu
+                        zwei Editorvariablen: Am Ende des Pfades muss ein Schrägstrich stehen ("/").
+                        Wenn diese Editorvariablen nicht korrekt eingetragen sind, können Sie zum
+                        Beispiel die Registerfunktionalitäten nicht benutzen. <ul>
+                            <li>Für ${ediarum_projects_directory} zum Beispiel:
+                                /exist/rest/db/projects/</li>
+                            <li>Für ${ediarum_projects_directory_webdav} zum Beispiel:
+                                /exist/webdav/db/projects/</li>
+                        </ul>
+                    </li>
+                    <li>Korrektur in <xref href="../../existDB/tasks/t_db-projekt_anlegen.dita"></xref> zur Umbenennung von Datenbank-Ordnern für
+                        XML-Daten: Sie sollten die bei der Installation der <keyword>ediarum.DB
+                            App</keyword> automatisch angelegten Ordner nicht in der
+                        <keyword>eXist-db</keyword> umbenennen, sondern erst nachdem Sie das
+                        Basis-Setup abgeschlossen haben, per <keyword>Oxygen XML
+                            Author</keyword>.</li>
+                    <li>Neues Kapitel: <xref href= "../../ediarum_uebergreifend/tasks/c_exist_oxygen_installationstips.dita"></xref></li>
+                </ul>
+            </section>
+        </conbody>
+    </concept>
     <concept id="version_history">
         <title>Änderungsverlauf</title>
         <conbody>
@@ -126,32 +161,5 @@
             </simpletable>
         </conbody>
     </concept>
-    <concept id="what_is_new">
-        <title>Was ist neu in dieser Dokument-Version?</title>
-        <conbody>
-            <section>
-                <title>v1.2.1 vom 30.03.2020</title>
-                <ul>
-                    <li>Korrektur in <xref href="">Projekt im Oxygen XML Author anlegen</xref> zu zwei Editorvariablen: Am Ende des Pfades
-                        muss ein Schrägstrich stehen ("/"). Wenn diese Editorvariablen nicht korrekt
-                        eingetragen sind, können Sie zum Beispiel die Registerfunktionalitäten nicht
-                        benutzen.
-                        <ul>
-                            <li>Für ${ediarum_projects_directory} zum Beispiel:
-                                /exist/rest/db/projects/</li>
-                            <li>Für ${ediarum_projects_directory_webdav} zum Beispiel:
-                                /exist/webdav/db/projects/</li>
-                        </ul>
-                    </li>
-                    <li>Korrektur in <xref href="">Projekt in der Datenbank anlegen</xref> zur Umbenennung von Datenbank-Ordnern für
-                        XML-Daten: Sie sollten die bei der Installation der <keyword>ediarum.DB
-                            App</keyword> automatisch angelegten Ordner nicht in der
-                            <keyword>eXist-db</keyword> umbenennen, sondern erst nachdem Sie das
-                        Basis-Setup abgeschlossen haben, per <keyword>Oxygen XML
-                        Author</keyword>.</li>
-                    <li>Neues Kapitel: <xref href= "">eXist-db und Oxygen XML Author installieren</xref></li>
-                </ul>
-            </section>
-        </conbody>
-    </concept>
+    
 </concept>

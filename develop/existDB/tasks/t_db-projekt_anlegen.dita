@@ -31,14 +31,16 @@
                         <b>Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</b><image
                         placement="break" href="../../img/neues_projekt_eXist.png"
                         id="image_hfh_kht_bgb"/></info>
-                <stepresult>In der Datenbank wird ein neuer Ordner mit
-                    dem gewählten Namen angelegt.</stepresult>
-                <stepresult>Die angezeigte Projektliste enthält nun Ihr Projekt. Wenn Sie Ihr
-                    Projekt anklicken, sehen Sie die Ordnerstruktur, in der die XML-Dateien Ihrer
-                    Edition gespeichert werden. Später, nachdem Sie das Basis-Setup abgeschlossen
-                    haben, können Sie die Ordner im <keyword>Oxygen XML Author</keyword>
+                <stepresult>
+                    <p>In der Datenbank wird ein neuer Ordner mit
+                    dem gewählten Namen angelegt.</p>
+                    <p>Die angezeigte Projektliste enthält nun Ihr Projekt. Wenn Sie Ihr
+                        Projekt anklicken, sehen Sie die Ordnerstruktur, in der die XML-Dateien Ihrer
+                        Edition gespeichert werden. Später, nachdem Sie das Basis-Setup abgeschlossen
+                        haben, können Sie die Ordner im <keyword>Oxygen XML Author</keyword>
                         umbenennen.<image placement="break" href="../../img/ordnerstruktur.png"
-                        id="image_jqh_3d2_wfb"/></stepresult>
+                            id="image_jqh_3d2_wfb"/></p>
+                </stepresult>
                 
             </step>
            
