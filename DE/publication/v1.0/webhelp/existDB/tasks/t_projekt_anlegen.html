@@ -1,0 +1,55 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.Type" content="task" /><meta name="DC.Title" content="Projekt in der Datenbank anlegen" /><meta name="abstract" content="In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards automatisiert korrekt anzulegen, benutzen Sie die ediarum.DB-App." /><meta name="description" content="In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards automatisiert korrekt anzulegen, benutzen Sie die ediarum.DB-App." /><meta name="DC.Relation" scheme="URI" content="../../existDB/concepts/c_exist_einrichtung.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="exist_projekt_anlegen" /><meta name="DC.Language" content="de-DE" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/css/commonltr.css?buildId=2017062918"><!----></link><title>Projekt in der Datenbank anlegen</title><!--  Generated with Oxygen version 19.0, build number 2017062918.  --><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/css/webhelp_topic.css?buildId=2017062918"><!----></link><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/skins/skin.css?buildId=2017062918" /><script type="text/javascript"><!--
+            
+            var prefix = "../../index.html";
+            
+            --></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery-3.1.1.min.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery-ui.min.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../../oxygen-webhelp/resources/js/webhelp_topic.js?buildId=2017062918"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="exist_projekt_anlegen">
+<header role="banner"><table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Diese Seite drucken"></a></div><div id="permalink"><a href="#" title="Link zu dieser Seite"></a></div></td></tr><tr><td style="width:75%;"><span class="topic_breadcrumb_links"><span class="topic_breadcrumb_link"><a class="navheader_parent_path" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält.">Datenbank einrichten</a></span></span></td><td><span id="topic_navigation_links" class="navheader">
+<span class="navparent"><a class="link" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält."><span class="navheader_label">Übergeordnetes Thema</span><span class="navheader_separator">: </span><span class="navheader_linktext">Datenbank einrichten</span></a></span>  </span></td></tr></tbody></table></header><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Projekt in der Datenbank anlegen</h1>
+
+    
+    <div class="body taskbody"><p class="shortdesc">In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten
+        Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
+        automatisiert korrekt anzulegen, benutzen Sie die <span class="keyword">ediarum.DB</span>-App.</p>
+
+        <div class="section prereq p">Sie sind im Dashboard Ihrer <span class="keyword">eXist-db</span> mit Admin-Rechten angemeldet.</div>
+
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Öffnen Sie die <span class="keyword">ediarum.DB</span>-App.</span>
+                <div class="itemgroup info">
+                    <figure class="fig fignone">
+                        <img class="image" id="exist_projekt_anlegen__image_cyr_1rb_1gb" src="../../img/dashboard_ediarum.png" />
+                    </figure>
+
+                </div>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Wählen Sie in der App das Menü <span class="ph menucascade"><span class="ph uicontrol">Verwaltung</span> &gt; <span class="ph uicontrol">Projekte</span></span> aus.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Schreiben Sie in das Feld <span class="ph uicontrol">Neues Projekt</span> einen
+                    Projektnamen für Ihre Edition und klicken Sie auf
+                        <span class="ph uicontrol">Anlegen!</span>. In der Datenbank wird ein neuer Ordner mit
+                    dem gewählten Namen angelegt.</span>
+                <div class="itemgroup info">Den Projektnamen müssen Sie später für die Datenbankanbindung angeben.
+                        <strong class="ph b">Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</strong><br /><img class="image" id="exist_projekt_anlegen__image_hfh_kht_bgb" src="../../img/neues_projekt_eXist.png" /><br /></div>
+                <div class="itemgroup stepresult">Die angezeigte Projektliste enthält nun Ihr Projekt. Wenn Sie Ihr
+                    Projekt anklicken, sehen Sie die Ordnerstruktur, in der später die XML-Dateien
+                    Ihrer Edition gespeichert werden. <br /><img class="image" id="exist_projekt_anlegen__image_jqh_3d2_wfb" src="../../img/ordnerstruktur.png" /><br /></div>
+                
+            </li>
+</ol>
+
+    </div>
+
+<nav role="navigation" class="related-links"></nav></article></main><footer role="contentinfo"><div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält."><span class="navheader_label">Übergeordnetes Thema</span><span class="navheader_separator">: </span><span class="navheader_linktext">Datenbank einrichten</span></a></span>  </div><div class="footer" id="webhelp_copyright_information">Generated by<a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+                            &lt;oXygen/&gt; XML WebHelp
+                        </a></div></footer></body>
+</html>
