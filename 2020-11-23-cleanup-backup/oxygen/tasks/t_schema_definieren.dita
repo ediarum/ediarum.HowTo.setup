@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_schema_definieren">
+    <title>Projektspezifisches Schema definieren (Oxygen)</title>
+    <shortdesc>Sie müssen festlegen, wie Oxygen für eine XML-Datei feststellen kann, welches Schema es für diese XML-Datei verwenden soll.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>im Erweiterungsframework, Verzeichnis "schemata" erstellen und Datei "[projektschema].rng" anlegen</cmd>
+            </step>
+            <step>
+                <cmd>Validierung > hinzufügen (+) > Eigenes Schema > [projektschema].rng einbinden > ok > als Standard aktivieren</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

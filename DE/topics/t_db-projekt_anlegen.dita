@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="exist_projekt_anlegen" xml:lang="de-DE">
+    <title>Projekt in der Datenbank anlegen</title>
+    <shortdesc>In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten
+        Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards
+        automatisiert korrekt anzulegen, benutzen Sie die <keyword>ediarum.DB</keyword>-App.</shortdesc>
+    <taskbody>
+        <prereq>Sie sind im Dashboard Ihrer <keyword>eXist-db</keyword> mit Admin-Rechten angemeldet.</prereq>
+        <steps>
+            <step>
+                <cmd>Öffnen Sie die <keyword>ediarum.DB</keyword>-App.</cmd>
+                <info>
+                    <fig>
+                        <image placement="inline" href="../../common/images/exist_dashboard_ediarum.png"
+                            id="image_cyr_1rb_1gb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Wählen Sie in der App das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Schreiben Sie in das Feld <uicontrol>Neues Projekt</uicontrol> einen
+                    Projektnamen für Ihre Edition und klicken Sie auf
+                        <uicontrol>Anlegen!</uicontrol>.</cmd>
+                <info>Den Projektnamen müssen Sie später für die Datenbankanbindung angeben.
+                        <b>Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</b><image
+                        placement="break" href="../images/ediarumDB_neuesProjekt.png"
+                        id="image_hfh_kht_bgb"/></info>
+                <stepresult>
+                    <p>In der Datenbank wird ein neuer Ordner mit
+                    dem gewählten Namen angelegt.</p>
+                    <p>Die angezeigte Projektliste enthält nun Ihr Projekt. Wenn Sie Ihr
+                        Projekt anklicken, sehen Sie die Ordnerstruktur, in der die XML-Dateien Ihrer
+                        Edition gespeichert werden. Später, nachdem Sie das Basis-Setup abgeschlossen
+                        haben, können Sie die Ordner im <keyword>Oxygen XML Author</keyword>
+                        umbenennen.<image placement="break" href="../images/ediarumDB_Ordnerstruktur.png"
+                            id="image_jqh_3d2_wfb"/></p>
+                </stepresult>
+                
+            </step>
+           
+        </steps>
+    </taskbody>
+</task>

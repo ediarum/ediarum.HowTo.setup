@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_plw_hqc_yfb" xml:lang="de-DE">
+    <title>Nutzer-Account anlegen</title>
+    <shortdesc>Die Nutzer-Accounts in der <keyword>ediarum.DB</keyword>-App sind Voraussetzung, damit die
+        Editor/innen ihre Oxygen-Instanzen mit der eXist-db verbinden können.</shortdesc>
+    <taskbody>
+
+        <prereq>Sie haben in Ihrer eXist-db die <keyword>ediarum.DB</keyword>-App mit Admin-Rechten
+            geöffnet.</prereq>
+        <context>Sie benötigen mindestens einen Nutzer-Account, um im späteren Setup-Verlauf die
+            Datenbankanbindung konfigurieren zu können. Wenn Sie möchten, können Sie gleich weitere
+            Nutzer-Accounts anlegen - pro Editor*in einen Account.</context>
+        <steps>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+
+                <step>
+                <cmd>Klicken Sie Ihr Projekt an, um die Übersichtsseite des Projekts zu
+                    öffnen.</cmd>
+            </step>
+                <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Benutzer</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Geben Sie im Feld <uicontrol>Neues Projektmitglied</uicontrol> einen
+                    Benutzernamen und ein Passwort ein.</cmd>
+                <info>Der Benutzername ist der Name, den Sie später für die Datenbankanbindung
+                    angeben müssen. Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!<image
+                        placement="break" href="../../img/user_anlegen.png" id="image_ess_fwc_yfb"
+                    /></info>
+            </step>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Anlegen</uicontrol>.</cmd>
+            </step>
+
+        </steps>
+
+    </taskbody>
+</task>

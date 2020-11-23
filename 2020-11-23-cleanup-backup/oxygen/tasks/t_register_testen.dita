@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_ek3_dfc_1gb">
+    <title>Registerfunktion in den Registern </title>
+    <shortdesc>Um die Registerfunktionen zu testen, verlinken Sie einen Eintrag im Personenregister
+        mit einem Eintrag im Ortsregister.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Öffnen Sie im Datenbaum unter <uicontrol>Register</uicontrol> das
+                    Personenregister.</cmd>
+                <info>Wechseln Sie in den Autor-Modus, falls Ihnen der XML-Text angezeigt
+                    wird.</info>
+            </step>
+            <step>
+                <cmd>Legen Sie über das Menü <menucascade>
+                        <uicontrol>Neuer Eintrag</uicontrol>
+                    </menucascade> testweise einen Eintrag (z.B. Mustermann) an.</cmd>
+                <info><image placement="break" href="../../img/neue_person.png"
+                        id="image_unk_rrt_bgb"/>Speichern Sie anschließend die Datei.</info>
+                <stepresult>
+                    <image placement="break" href="../../img/eintrag_personeneregister.png"
+                        id="image_wvt_wrt_bgb"/>
+                </stepresult>
+            </step>
+            <!--  <step>
+                <cmd>
+Welche Funktionen müssen auf jeden Fall getestet werden?
+
+- Allgemein&gt; Literaturtitel (Zotero) verlinken
+
+Ortsregister:
+- GeoNames [?]
+
+[Test der Funktionen:] Testen Sie in der Menüleiste probeweise die
+                    Funktionen im Menü <uicontrol>Personenregister</uicontrol> und im Menü
+                        <uicontrol>Allgemein</uicontrol>.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>[Funktion 1]</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>[Funktion 2]</cmd>
+                    </substep>
+                </substeps>
+            </step>-->
+            <step>
+                <cmd>Öffnen Sie im Datenbaum das Ortsregister und legen Sie dort einen neuen Eintrag
+                    an.</cmd>
+            </step>
+            <step>
+                <cmd>Legen Sie für diesen Eintrag über das Menü <menucascade>
+                        <uicontrol>Allgemein</uicontrol>
+                        <uicontrol>Kommentar</uicontrol>
+                    </menucascade> einen Kommentarfeld an, in dem Sie einen Beispieltext
+                    schreiben.</cmd>
+                <stepresult>
+                    <image placement="break" href="../../img/beispiel_ort.png"
+                        id="image_cj2_hst_bgb"/>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Markieren Sie den Beispieltext und gehen Sie in das Menü <menucascade>
+                        <uicontrol>Allgemein</uicontrol>
+                        <uicontrol>Personenname verlinken</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Wählen Sie im Fenster <uicontrol>Registereintrag auswählen</uicontrol> ihren
+                    Testeintrag aus dem Personenregister aus und bestätigen Sie mit
+                        <uicontrol>Ok</uicontrol>.</cmd>
+                <info>
+                    <image placement="break" href="../../img/registereintrag_ausw%C3%A4hlen.png"
+                        id="image_zsd_btt_bgb"/>
+                </info>
+                <stepresult>Sie haben auf einen Eintrag des Personenregisters verlinkt.</stepresult>
+            </step>
+            <step>
+                <cmd>Wiederholen Sie diesselben Schritte im Personenregister und verlinken dort
+                    innerhalb eines Kommentars zu einem Eintrag auf einen Ort.</cmd>
+            </step>
+        </steps>
+        <result id="result_msf_3nt_bgb">Sie haben Einträge aus verschiedenen Registern verlinkt und
+            damit die Registerfunktionen von ediarum getestet.</result>
+    </taskbody>
+</task>

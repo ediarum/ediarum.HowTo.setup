@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_pvp_rhv_cz">
- <title>Git</title>
- <conbody>
-  <p>Mit Git lassen sich die aufeinanderfolgenden Versionen verwalten, die bei der
-   Entwicklungsarbeit an Dateien entstehen. Die Dateien werden bei den </p>
- </conbody>
-</concept>

@@ -1,8 +1,0 @@
-Spiegelung des Repos /git.bbaw.de/git/ediarum.GUIDE.git, das verschiedenste (zum Großteil veraltete?) Dokus rund um ediarum und ediarum-Editionen enthält. Perspektivisch soll dieses Repo nur die Setup-Doku enthalten (und dann evtl. umbenannt werden). Repo für das ediarum.BASE manual: git.bbaw.de/git/ediarum.BASE.manual.git
-
-Verantwortlichkeiten je Unterordner:
-
-* /Uebersichtstabelle: ?
-* /cagb: Martin? Veraltet?
-* /develop: Andrea. = Setup-Doku.
-* /schleiermacher: Frederike? Lou? Veraltet?
