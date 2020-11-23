@@ -86,7 +86,10 @@
      </conbody>
     <related-links>
         <linkpool>
-            <link href="https://ride.i-d-e.de/issues/issue-11/ediarum/" format="html" scope="external"><linktext>ediarum: Nutzungs- und Technologie-Beschreibung, Review</linktext></link>
+            <link href="https://ride.i-d-e.de/issues/issue-11/ediarum/" format="html"
+                scope="external">
+                <linktext>        ediarum: Nutzungs- und Technologie-Beschreibung, Review</linktext>
+            </link>
             <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html" scope="external">
                 <linktext>ediarum: Anleitung für Editor/innen (Editionsrichtlinie, digital
                     erweitert)</linktext>
@@ -100,7 +103,7 @@
         <title>Was ist neu in dieser Dokument-Version?</title>
         <conbody>
             <section>
-                <title>v1.2.1 vom 30.03.2020</title>
+                <title>v1.3 vom 25.11.2020</title>
                 <ul>
                     <li>Korrektur in <xref href="../../oxygen/tasks/t_oxygen-projekt_anlegen.dita"></xref> zu
                         zwei Editorvariablen: Am Ende des Pfades muss ein Schrägstrich stehen ("/").
@@ -134,8 +137,8 @@
                     <stentry>Änderungen</stentry>
                 </sthead>
                 <strow>
-                    <stentry>v1.2.1</stentry>
-                    <stentry>30.03.2020</stentry>
+                    <stentry>v1.3</stentry>
+                    <stentry>25.11.2020</stentry>
                     <stentry>
                         <p>Oxygen XML Author v20.1</p>
                         <p>eXist-db v3.5 oder v4.4</p>
@@ -143,8 +146,7 @@
                         <p>ediarum.DB v3.2.5</p>
                         <p>ediarum.REGISTER.edit v1.0.1</p>
                     </stentry>
-                    <stentry>Korrekturen aufgrund des ediarum-Workshops 09.-11.03. 2020. Details
-                        siehe unten.</stentry>
+                    <stentry>Korrekturen aufgrund des ediarum-Workshops 09.-11.03. 2020.</stentry>
                 </strow>
                 <strow>
                     <stentry>v1.2</stentry>
