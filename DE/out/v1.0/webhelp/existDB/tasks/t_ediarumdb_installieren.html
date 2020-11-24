@@ -1,0 +1,91 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />        
+      <meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.Type" content="task" /><meta name="DC.Title" content="ediarum.DB App installieren" /><meta name="abstract" content="Über das Dashboard der eXist-db installieren Sie ediarum.DB mithilfe xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und Zugriffs-Einstellungen und Sie können die ediarum.DB App verwenden." /><meta name="description" content="Über das Dashboard der eXist-db installieren Sie ediarum.DB mithilfe xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und Zugriffs-Einstellungen und Sie können die ediarum.DB App verwenden." /><meta name="DC.Relation" scheme="URI" content="../../existDB/concepts/c_exist_einrichtung.html" /><meta name="DC.Relation" scheme="URI" content="https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="t_ediarumdb_installieren" /><meta name="DC.Language" content="de-DE" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/css/commonltr.css?buildId=2017062918"><!----></link><title>ediarum.DB App installieren</title><!--  Generated with Oxygen version 19.0, build number 2017062918.  --><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/css/webhelp_topic.css?buildId=2017062918"><!----></link><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/resources/skins/skin.css?buildId=2017062918" /><script type="text/javascript"><!--
+            
+            var prefix = "../../index.html";
+            
+            --></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery-3.1.1.min.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery-ui.min.js"><!----></script><script type="text/javascript" src="../../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../../oxygen-webhelp/resources/js/webhelp_topic.js?buildId=2017062918"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="t_ediarumdb_installieren">
+<header role="banner"><table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Diese Seite drucken"></a></div><div id="permalink"><a href="#" title="Link zu dieser Seite"></a></div></td></tr><tr><td style="width:75%;"><span class="topic_breadcrumb_links"><span class="topic_breadcrumb_link"><a class="navheader_parent_path" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält.">Datenbank einrichten</a></span></span></td><td><span id="topic_navigation_links" class="navheader">
+<span class="navparent"><a class="link" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält."><span class="navheader_label">Übergeordnetes Thema</span><span class="navheader_separator">: </span><span class="navheader_linktext">Datenbank einrichten</span></a></span>  </span></td></tr></tbody></table></header><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">ediarum.DB App installieren</h1>
+
+    
+    <div class="body taskbody"><p class="shortdesc">Über das Dashboard der <span class="keyword">eXist-db</span> installieren Sie <span class="keyword">ediarum.DB</span> mithilfe
+        xar-Datei. Danach enthält Ihre Datenbank einige grundlegende Funktionen und
+        Zugriffs-Einstellungen und Sie können die <span class="keyword">ediarum.DB</span> App verwenden.</p>
+
+        
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Klicken Sie auf der Webseite <a class="xref" href="https://github.com/ediarum/ediarum.DB/releases" target="_blank">https://github.com/ediarum/ediarum.DB/releases</a> auf den Butten <span class="ph uicontrol">Latest Release</span> und
+                    speichern Sie die Datei <span class="ph filepath">ediarum.db-〈version〉.xar</span> lokal
+                    ab.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Melden Sie sich im Dashboard Ihrer eXist-db mit Admin-Rechten an.</span>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Öffnen Sie die <span class="ph uicontrol">Package Manager</span> App.</span>
+                <div class="itemgroup info">
+                    <figure class="fig fignone">
+                        <img class="image" src="../../img/exist_packageManager.png" />
+                    </figure>
+
+                </div>
+            </li>
+<li class="li step stepexpand">
+                <span class="ph cmd">Klicken Sie auf den Button <span class="ph uicontrol">add a package</span>, ziehen Sie die
+                    gespeicherte Datei <span class="ph filepath">ediarum.db-〈version〉.xar </span> in das Fenster
+                        <span class="ph uicontrol">Upload Packages</span> oder klicken Sie auf
+                        <span class="ph uicontrol">Upload</span> und wählen die xar-Datei über Ihr
+                    Dateiexplorer aus und schließen Sie das Fenster <span class="ph uicontrol">Package
+                        Manager</span>.</span>
+                <div class="itemgroup info">
+                    <figure class="fig fignone">
+                        <img class="image" src="../../img/exist_PackageManager_UploadPackages.png" />
+                    </figure>
+
+                </div>
+            </li>
+</ol>
+
+       <section class="section result">
+           <ul class="ul"><li class="li">Im Dashboard sehen Sie nun die <span class="keyword">ediarum.DB</span>-App. <figure class="fig fignone">
+                        <img class="image" id="t_ediarumdb_installieren__image_cyr_1rb_1gb" src="../../img/dashboard_ediarum.png" />
+                    </figure>
+</li>
+
+               
+               <li class="li">In Ihrer <span class="keyword">eXist-db</span> wurde nun Folgendes eingerichtet: <ul class="ul">
+                        <li class="li">Nutzer-Gruppen: <span class="keyword">website</span>,
+                            <span class="keyword">oxygen</span></li>
+
+                        <li class="li">Nutzer: <span class="keyword">exist-bot</span>, <span class="keyword">oxygen-bot</span>,
+                                <span class="keyword">website-user</span>, mit entsprechend lautenden
+                            Passwörtern</li>
+
+                        <li class="li">Zugriffsrechte zu benötigten Verzeichnissen und Prozessen</li>
+
+                    </ul>
+</li>
+
+           </ul>
+
+       </section>
+
+       
+    </div>
+
+    
+<nav role="navigation" class="related-links">
+<div class="linklist linklist relinfo"><strong>Zugehörige Informationen</strong><br />
+
+<div class="related_link"><a class="navheader_parent_path" href="https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md" target="_blank" title="https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md">https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md</a></div></div>
+</nav></article></main><footer role="contentinfo"><div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../../existDB/concepts/c_exist_einrichtung.html" title="Sie installieren sich die eXist-App ediarum.DB. Mithilfe dieser App generieren Sie in Ihrer Datenbank ein eigenes Projekt, das alle benötigten Settings für das Zusammenspiel von Datenbank und Oxygen enthält."><span class="navheader_label">Übergeordnetes Thema</span><span class="navheader_separator">: </span><span class="navheader_linktext">Datenbank einrichten</span></a></span>  </div><div class="footer" id="webhelp_copyright_information">Generated by<a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+                            &lt;oXygen/&gt; XML WebHelp
+                        </a></div></footer></body>
+</html>
