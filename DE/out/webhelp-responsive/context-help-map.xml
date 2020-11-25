@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="c_ueberblick_setup" path="DE/topics/c_ueberblick_setup.html"/>
-   <appContext helpID="c_ueberblick_setup" path="DE/topics/c_ueberblick_dok.html"/>
-   <appContext helpID="ediarum" path="DE/topics/c_ueberblick_architektur.html"/>
+   <appContext helpID="c_ueberblick_setup" path="DE/topics/basis-setup.html"/>
+   <appContext helpID="c_ueberblick_setup" path="DE/topics/ueber-diese-anleitung.html"/>
+   <appContext helpID="ediarum" path="DE/topics/basis-setup/ueberblick-basis-setup.html"/>
    <appContext helpID="t_exist_installieren"
-               path="DE/topics/c_exist_oxygen_installationstips.html"/>
-   <appContext helpID="c_exist_einrichtung" path="DE/topics/c_exist_einrichtung.html"/>
+               path="DE/topics/basis-setup/tips-oxygen-exist-installation.html"/>
+   <appContext helpID="c_exist_einrichtung" path="DE/topics/basis-setup/db_einrichtung.html"/>
    <appContext helpID="t_ediarumdb_installieren"
-               path="DE/topics/t_ediarumdb_installieren.html"/>
-   <appContext helpID="exist_projekt_anlegen" path="DE/topics/t_db-projekt_anlegen.html"/>
-   <appContext helpID="task_grk_ypc_yfb" path="DE/topics/t_ediarum_register_aktivieren.html"/>
-   <appContext helpID="task_plw_hqc_yfb" path="DE/topics/t_benutzer_anlegen.html"/>
-   <appContext helpID="c_oxygen_einrichtung" path="DE/topics/c_oxygen_einrichtung.html"/>
-   <appContext helpID="oxygen_mit_exist_verbinden" path="DE/topics/t_mit_exist_verbinden.html"/>
+               path="DE/topics/basis-setup/db_app-installieren.html"/>
+   <appContext helpID="exist_projekt_anlegen"
+               path="DE/topics/basis-setup/db_projekt-anlegen.html"/>
+   <appContext helpID="task_grk_ypc_yfb"
+               path="DE/topics/basis-setup/db_register-aktivieren.html"/>
+   <appContext helpID="task_plw_hqc_yfb" path="DE/topics/basis-setup/db_user-anlegen.html"/>
+   <appContext helpID="c_oxygen_einrichtung"
+               path="DE/topics/basis-setup/oxygen_einrichtung.html"/>
+   <appContext helpID="oxygen_mit_exist_verbinden"
+               path="DE/topics/basis-setup/oxygen_mit-db-verbinden.html"/>
    <appContext helpID="t_speicherort_ediarumbase_festlegen"
-               path="DE/topics/t_speicherort_ediarumbase_festlegen.html"/>
-   <appContext helpID="t_projekt_anlegen" path="DE/topics/t_oxygen-projekt_anlegen.html"/>
-   <appContext helpID="c_ueberblick_konfig" path="DE/topics/c_ueberblick_konfig.html"/>
-   <appContext helpID="oxygen_framework_kaskade" path="DE/topics/c_framework.html"/>
-   <appContext helpID="task_psj_nwx_tfb" path="DE/topics/t_neues_Register_anlegen.html"/>
+               path="DE/topics/basis-setup/oxygen_frameworks-einrichten.html"/>
+   <appContext helpID="t_projekt_anlegen"
+               path="DE/topics/basis-setup/oxygen_projekt-anlegen.html"/>
+   <appContext helpID="c_ueberblick_konfig" path="DE/topics/konfiguration/konfiguration.html"/>
+   <appContext helpID="oxygen_framework_kaskade"
+               path="DE/topics/konfiguration/ueberblick-konfiguration.html"/>
+   <appContext helpID="task_psj_nwx_tfb" path="DE/topics/konfiguration/register-anlegen.html"/>
 </map>

@@ -111,7 +111,7 @@
                 </substeps>
                 <info>
                     <fig>
-                        <image href="../images/oxygen_DokTypeZuordnung_Orte.png"/>
+                        <image href="../../images/oxygen_DokTypeZuordnung_Orte.png"/>
                     </fig>
                 </info>
             </step>
@@ -129,7 +129,7 @@
                         </menucascade> werden die zwei <keyword>ediarum</keyword>-Frameworks
                         angezeigt.</p>
                     <fig>
-                        <image href="../images/oxygen_DokTypZuordnung_Frameworks.png"/>
+                        <image href="../../images/oxygen_DokTypZuordnung_Frameworks.png"/>
                     </fig>
                 </stepresult>
             </step>
@@ -162,7 +162,7 @@
                 </substeps>
                 <info>
                     <fig>
-                        <image href="../images/oxygen_Framework_erweitern.png"/>
+                        <image href="../../images/oxygen_Framework_erweitern.png"/>
                     </fig>
                 </info>
             </step>
@@ -173,6 +173,6 @@
         </steps>
     </taskbody>
     <related-links>
-        <link href="c_framework.dita#oxygen_framework_kaskade"/>
+        <link href="../konfiguration/ueberblick-konfiguration.dita#oxygen_framework_kaskade"/>
     </related-links>
 </task>

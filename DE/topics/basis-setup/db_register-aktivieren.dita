@@ -43,7 +43,7 @@
                             klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
                         <info>
                             <fig>
-                                <image placement="break" href="../images/ediarumDB_Register.png"
+                                <image placement="break" href="../../images/ediarumDB_Register.png"
                                     id="image_rxd_gb2_wfb"/>
                             </fig>
                         </info>
@@ -54,9 +54,9 @@
         </steps>
         <result>Die Standard-Ordnerstruktur auf der Übersichtsseite Ihres Projekts ist um die
             aktivierten Register ergänzt. <image placement="break"
-                href="../images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
+                href="../../images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>
     <related-links>
-        <link href="t_neues_Register_anlegen.dita"/>
+        <link href="../konfiguration/register-anlegen.dita"/>
     </related-links>
 </task>

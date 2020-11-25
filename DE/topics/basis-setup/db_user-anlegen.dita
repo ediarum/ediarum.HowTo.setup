@@ -34,7 +34,7 @@
                     Benutzernamen und ein Passwort ein.</cmd>
                 <info>Der Benutzername ist der Name, den Sie später für die Datenbankanbindung
                     angeben müssen. Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!<image
-                        placement="break" href="../images/ediarumDB_UserAnlegen.png" id="image_ess_fwc_yfb"
+                        placement="break" href="../../images/ediarumDB_UserAnlegen.png" id="image_ess_fwc_yfb"
                     /></info>
             </step>
             <step>

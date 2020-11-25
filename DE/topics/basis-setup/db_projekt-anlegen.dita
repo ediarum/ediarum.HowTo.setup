@@ -12,7 +12,7 @@
                 <cmd>Öffnen Sie die <keyword>ediarum.DB</keyword>-App.</cmd>
                 <info>
                     <fig>
-                        <image placement="inline" href="../../common/images/exist_dashboard_ediarum.png"
+                        <image placement="inline" href="../../../common/images/exist_dashboard_ediarum.png"
                             id="image_cyr_1rb_1gb"/>
                     </fig>
                 </info>
@@ -29,7 +29,7 @@
                         <uicontrol>Anlegen!</uicontrol>.</cmd>
                 <info>Den Projektnamen müssen Sie später für die Datenbankanbindung angeben.
                         <b>Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</b><image
-                        placement="break" href="../images/ediarumDB_neuesProjekt.png"
+                        placement="break" href="../../images/ediarumDB_neuesProjekt.png"
                         id="image_hfh_kht_bgb"/></info>
                 <stepresult>
                     <p>In der Datenbank wird ein neuer Ordner mit
@@ -38,7 +38,7 @@
                         Projekt anklicken, sehen Sie die Ordnerstruktur, in der die XML-Dateien Ihrer
                         Edition gespeichert werden. Später, nachdem Sie das Basis-Setup abgeschlossen
                         haben, können Sie die Ordner im <keyword>Oxygen XML Author</keyword>
-                        umbenennen.<image placement="break" href="../images/ediarumDB_Ordnerstruktur.png"
+                        umbenennen.<image placement="break" href="../../images/ediarumDB_Ordnerstruktur.png"
                             id="image_jqh_3d2_wfb"/></p>
                 </stepresult>
                 

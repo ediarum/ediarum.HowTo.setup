@@ -25,7 +25,7 @@
                 <cmd>Füllen Sie die Angaben im nun geöffneten Fenster
                         <uicontrol>Verbindung</uicontrol> aus.</cmd>
                 <info>
-                    <image href="../images/oxygen_DB-verbindung.png" placement="break"
+                    <image href="../../images/oxygen_DB-verbindung.png" placement="break"
                         id="image_ynk_yd4_4fb"/>
                     <ul id="ul_znk_yd4_4fb">
                         <li><uicontrol>Name</uicontrol>: Name dieser Verbindung, z.B.
@@ -73,7 +73,7 @@
                     <substep>
                         <cmd>Klicken Sie den Pfeil neben der Verbindung an, um die Ordnerstruktur zu
                             öffnen.</cmd>
-                        <info><image href="../images/oxygen_Datenquellenexplorer.png" id="image_lng_vyv_xfb"
+                        <info><image href="../../images/oxygen_Datenquellenexplorer.png" id="image_lng_vyv_xfb"
                             /></info>
                         <stepresult>Die Struktur ist identisch mit der Ordnerstruktur, die in
                                 <keyword>eXist-db</keyword> auf der Übersichtsseite Ihres Projekts

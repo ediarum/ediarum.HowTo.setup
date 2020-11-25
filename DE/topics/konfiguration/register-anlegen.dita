@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_psj_nwx_tfb" xml:lang="de-DE">
-    <title>Ein eigenes Register einrichten</title>
+    <title>Ein eigenes Register anlegen</title>
     <shortdesc>Wenn Sie ein Register benötigen, das nicht bereits als Standardregister
         in <keyword>ediarum</keyword> enthalten
         ist, legen Sie dieses in <keyword>eXist-db</keyword> in der
@@ -37,7 +37,7 @@
                 <info>
                     <fig>
                         <title>Fenster für den Eintrag von Register-Parametern</title>
-                        <image placement="break" href="../images/ediarumDB_neueRegisteranbindung.png"
+                        <image placement="break" href="../../images/ediarumDB_neueRegisteranbindung.png"
                             id="image_sq3_wf2_wfb"/>
                     </fig>
                     <table>

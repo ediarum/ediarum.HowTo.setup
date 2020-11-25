@@ -24,7 +24,7 @@
                 <cmd>Öffnen Sie die <uicontrol>Package Manager</uicontrol>-App.</cmd>
                 <info>
                     <fig>
-                        <image placement="inline" href="../../common/images/exist_packageManager.png"/>
+                        <image placement="inline" href="../../../common/images/exist_packageManager.png"/>
                     </fig>
                 </info>
             </step>
@@ -38,7 +38,7 @@
                 <info>
                     <fig>
                         <image placement="inline"
-                            href="../../common/images/exist_packageManager_uploadPackages.png"/>
+                            href="../../../common/images/exist_packageManager_uploadPackages.png"/>
                     </fig>
                 </info>
             </step>
@@ -46,7 +46,7 @@
         </steps>
        <result>
            <ul><li>Im Dashboard sehen Sie nun die <keyword>ediarum.DB</keyword>-App. <fig>
-                        <image placement="inline" href="../../common/images/exist_dashboard_ediarum.png"
+                        <image placement="inline" href="../../../common/images/exist_dashboard_ediarum.png"
                             id="image_cyr_1rb_1gb"/>
                     </fig></li>
                
