@@ -6,7 +6,7 @@
         <mainbooktitle>ediarum Setup-Anleitung</mainbooktitle>
     </booktitle>
 	
-	<chapter href="DE/topics/basis-setup.dita" navtitle="Basis-Setup"
+	<chapter href="DE/topics/basis-setup/basis-setup.dita" navtitle="Basis-Setup"
 		collection-type="sequence">
 		<topicref href="DE/topics/ueber-diese-anleitung.dita"/>
 		<topicref href="DE/topics/basis-setup/ueberblick-basis-setup.dita"/>

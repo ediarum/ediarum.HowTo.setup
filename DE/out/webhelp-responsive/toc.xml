@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
    <title><span xmlns="http://www.w3.org/1999/xhtml" class="booktitle">  <span class="ph mainbooktitle">ediarum Setup-Anleitung</span>  </span></title>
-   <topic href="DE/topics/basis-setup.html" collection-type="sequence" data-id="c_ueberblick_setup" wh-toc-id="c_ueberblick_setup-d66e14">
+   <topic href="DE/topics/basis-setup/basis-setup.html" collection-type="sequence" data-id="c_ueberblick_setup" wh-toc-id="c_ueberblick_setup-d66e14">
       <title>Basis-Setup</title>
       <shortdesc>
          <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Das Basis-Setup macht mit <span class="keyword">ediarum</span> eine Arbeitsumgebung für         wissenschaftliche Editionen verfügbar. Nach erfolgreichem Setup können Editor/innen in 

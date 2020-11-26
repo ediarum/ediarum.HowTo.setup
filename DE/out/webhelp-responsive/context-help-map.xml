@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="c_ueberblick_setup" path="DE/topics/basis-setup.html"/>
+   <appContext helpID="c_ueberblick_setup" path="DE/topics/basis-setup/basis-setup.html"/>
    <appContext helpID="c_ueberblick_setup" path="DE/topics/ueber-diese-anleitung.html"/>
    <appContext helpID="ediarum" path="DE/topics/basis-setup/ueberblick-basis-setup.html"/>
    <appContext helpID="t_exist_installieren"
