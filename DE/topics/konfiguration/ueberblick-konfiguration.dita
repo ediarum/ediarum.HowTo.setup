@@ -15,13 +15,13 @@ Nehmen Sie für das Basis Setup vorerst keine Änderungen am oder im Ordner &quo
                 Oxygen-Projekt mit Ihrem Datenmodell (XML-Struktur) definiert, ggf. für verschieden
                 strukturierte Dokumenttypen (z.B. Brief, Manuskript, Notizbuch). Diese
                 Benutzungsoberfläche umfasst folgende Elemente: <ul>
-                    <li>Vorlagen für neue Dokumente, sodass die Editor/innen die XML-Struktur nicht
+                    <li>Vorlagen für neue Dokumente, sodass die Editor:innen die XML-Struktur nicht
                         "von null" alleine aufbauen müssen (XML-Template)</li>
                     <li>Lesefreundliches Layout der XML-Inhalte im "Autor"-Tab, d.h. eine
-                        "What-you-see-is-what-you-get"-Schreiboberfläche, sodass die Editor/innen
+                        "What-you-see-is-what-you-get"-Schreiboberfläche, sodass die Editor:innen
                         nicht direkt in XML schreiben müssen und ihre Textarbeiten übersichtlich und
                         publikationsnah überprüfen können. </li>
-                    <li>Buttons und Aktionen in der Werkzeugleiste, sodass die Editor/innen
+                    <li>Buttons und Aktionen in der Werkzeugleiste, sodass die Editor:innen
                         XML-Elemente und Attributwerte per Klick und in Eingabefeldern einfügen
                         können, ohne die benötigten XML-Elemente kennen zu müssen</li>
                     <li>ggf. Transformationsszenarien, die verschiedene Publikations-Layouts zur

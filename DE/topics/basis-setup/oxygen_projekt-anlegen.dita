@@ -86,7 +86,7 @@
             </step>
             <step>
                 <cmd><?oxy_comment_start author="notroff" timestamp="20191227T163204+0100" comment="TODO: Content Review: Stefan, macht das so Sinn? Wie/wo findet man raus, ob man selbst &quot;exist&quot; oder &quot;ediarum&quot; oder etwas anderes im Pfad braucht? Z.B. ist das direkt aus dem ableitbar, was man vorher im &quot;Verbindungs&quot;-Fenster eingegeben hat?"?>Prüfen
-                    Sie, ob folgende Editorvariablen für die Datenbankanbindung passend zu Ihrer
+                    Sie, ob folgende Editorvariablen für die Datenbankverbindung passend zu Ihrer
                     Infrastruktur gesetzt sind.</cmd><?oxy_comment_end?>
                 <info>
                     <table>

@@ -11,9 +11,9 @@
             <sectiondiv>
                 <p>Nutzung:</p>
                 <p><keyword>Ediarum</keyword> ist eine Arbeitsumgebung für wissenschaftliche
-                    digitale Editionen. Editor*innen können in dieser Arbeitsumgebung
+                    digitale Editionen. Editor:innen können in dieser Arbeitsumgebung
                     TEI-XML-basierte Transkriptionen von Textquellen erstellen und bearbeiten, ohne
-                    über vertiefte XML-Kenntnisse zu verfügen. Dabei können die Editor*innen
+                    über vertiefte XML-Kenntnisse zu verfügen. Dabei können die Editor:innen
                     Textphänomene auszeichnen, Sacherläuterungen einfügen, Links zu Registern
                     setzen, Registereinträge pflegen und mit Normdaten ausstatten. Das Basis-Setup
                     stellt mit ediarum.BASE.edit ein auf historische (früh-)neuzeitliche Quellen
@@ -54,7 +54,7 @@
         <title>An wen sich diese Anleitung richtet</title>
         <p>Das Basis-Setup von ediarum können Sie durchführen, wenn Sie grundlegende IT-Kenntnisse
                 in den Digital Humanities haben. Wenn das Setup einmal abgeschlossen ist, können Sie
-                es als Add-On an die Editor/innen Ihrer Editions-Arbeitsgruppe weitergeben.</p>
+                es als Add-On an die Editor:innen Ihrer Editions-Arbeitsgruppe weitergeben.</p>
          <p>Vorwissen, um das Setup durchzuführen:</p>
         <ul>
             <li>Grundverständnis von XML, XML-Schemata</li>
@@ -91,7 +91,7 @@
                 <linktext>        ediarum: Nutzungs- und Technologie-Beschreibung, Review</linktext>
             </link>
             <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html" scope="external">
-                <linktext>ediarum: Anleitung für Editor/innen (Editionsrichtlinie, digital
+                <linktext>ediarum: Anleitung für Editor:innen (Editionsrichtlinie, digital
                     erweitert)</linktext>
             </link>
             <link href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html" scope="external"><linktext>DTA-Basisformat: Referenz-Dokumentation</linktext></link>

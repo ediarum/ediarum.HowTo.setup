@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="t_exist_installieren" xml:lang="de-DE">
+    <title>Installationstipps eXist-db und Oxygen</title>
+    <shortdesc>Die Installationsanleitungen für eXist-db und Oxygen finden Sie auf deren Webseiten.
+        Die hier versammelten zusätzlichen Tipps basieren auf der Erfahrung der
+        ediarum-Entwickler/innen und können bei typischen Installationsproblemen hilfreich
+        sein.</shortdesc>
+    <conbody>
+
+    <section>
+     
+          <title>eXist-db</title>
+         
+            <ul>
+                <li>Für ediarum benötigen Sie die eXist-db-Version 3.5 oder 4.4.</li>
+                <li>Java muss installiert und aktuell sein.</li>
+                <li>Beachten Sie die Installationsvoraussetzungen auf der Webseite von eXist, insbesondere hinsichtlich der Java-Version.</li>
+            </ul>
+
+                    <p>Installation unter Windows:</p>
+                 <ul>
+                <li>Speicher auf 1024 MB
+                    reduzieren.<?oxy_comment_start author="notroff" timestamp="20200309T170257+0100" comment="Evtl. Screenshot zu der 1024-Reduzierung?"?></li><?oxy_comment_end?>
+                <li><b>Nicht</b> als <q>Service at Startup</q> installieren. "Service at Startup"
+                    kann zu Problemen beim Starten von eXist-db führen, zumindest in eXist-db
+                    Version 3.5. </li>
+            </ul>
+
+            <p>Deinstallation von alten Versionen:</p>
+            <ul>
+                <li>Der lokale db Ordner (meist C-Laufwerk) wird bei der Deinstallation manchmal
+                    nicht automatisch gelöscht und muss deshalb manuell entfernt werden. Dazu ist
+                    nach der Deinstallation mit der uninstall.jar manchmal ein Neustart
+                    erforderlich, bevor der Ordner sich löschen
+                    lässt.<?oxy_comment_start author="notroff" timestamp="20201114T141233+0100" comment="TODO: Content Review"?></li><?oxy_comment_end?>
+            </ul>
+            </section>
+            <section>
+      
+     
+            <title>Oxygen XML Author</title>
+<ul>            <li>Für ediarum benötigen Sie den <keyword>Oxygen XML Author</keyword>, mindestens in der Version
+            20.1 (alternativ: Oxygen XML Editor).</li></ul>
+        
+            </section>
+
+    </conbody>
+    <related-links>
+        <linkpool>
+            <link href="https://exist-db.org/exist/apps/doc/" format="html" scope="external"><linktext>eXist-db: Installationsvoraussetzungen und -anleitungen</linktext></link>
+            <link href="https://exist-db.org/exist/apps/doc/advanced-installation" format="html" scope="external"><linktext>eXist-db Installation auf einem Server</linktext></link>
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html" scope="external"><linktext>eXist-db 3.5.0 - Download</linktext></link>
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-4.4.0" format="html" scope="external"><linktext>eXist-db 4.4.0 - Download</linktext></link>
+        </linkpool>
+        <linkpool>
+            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
+                <linktext>Oxygen XML Author: Anleitungen für Installation und Benutzung</linktext>
+            </link>
+        </linkpool>
+    </related-links>
+</concept>
