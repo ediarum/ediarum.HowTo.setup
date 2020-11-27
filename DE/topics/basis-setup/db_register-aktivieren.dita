@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_grk_ypc_yfb" xml:lang="de-DE">
+    <title>ediarum-Register aktivieren</title>
+    <shortdesc>Sie aktivieren die mitgelieferten Personen- und Ortsregister, die typischerweise in
+        einer Edition benötigt werden. Sie haben die Möglichkeit, zusätzlich weitere
+        <keyword>ediarum</keyword>-Standardregister zu aktivieren: Sachbegriffe, Körperschaften, Werke, Briefe,
+        Anmerkungen.</shortdesc>
+    <taskbody>
+        <prereq>Sie haben in Ihrer eXist-DB die <keyword>ediarum.DB</keyword>-App mit Admin-Rechten
+            geöffnet.</prereq>
+        <steps>
+            
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie Ihr Projekt an, um die Übersichtsseite des Projekts zu
+                    öffnen.</cmd>
+            </step>
+                <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Führen Sie die folgenden Schritte für jedes Register aus, das Sie in Ihrer
+                    Editionsarbeit benutzen möchten, mindestens für das Personen- und das
+                    Ortsregister.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Klicken Sie in der Liste <uicontrol>ediarum-Register</uicontrol> im
+                            Listeneintrag <uicontrol>Neues Register</uicontrol> auf
+                                <uicontrol>Aktivieren</uicontrol>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Wählen Sie den Register-Typ (im Feld
+                                <uicontrol>Ediarum-Register</uicontrol>) und den Register-Aufbau und
+                            klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
+                        <info>
+                            <fig>
+                                <image placement="break" href="../../images/ediarumDB_Register.png"
+                                    id="image_rxd_gb2_wfb"/>
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+        
+        </steps>
+        <result>Die Standard-Ordnerstruktur auf der Übersichtsseite Ihres Projekts ist um die
+            aktivierten Register ergänzt. <image placement="break"
+                href="../../images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
+    </taskbody>
+    <related-links>
+        <link href="../konfiguration/register-anlegen.dita"/>
+    </related-links>
+</task>
