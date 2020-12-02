@@ -43,7 +43,7 @@
                             klicken Sie auf <uicontrol>Aktivieren</uicontrol>. </cmd>
                         <info>
                             <fig>
-                                <image placement="break" href="../../images/ediarumDB_Register.png"
+                                <image placement="break" href="../../../common/images/ediarumDB_Register.png"
                                     id="image_rxd_gb2_wfb"/>
                             </fig>
                         </info>
@@ -57,6 +57,6 @@
                 href="../../images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>
     <related-links>
-        <link href="../konfiguration/register-anlegen.dita"/>
+        <link href="../customization/register-anlegen.dita"/>
     </related-links>
 </task>

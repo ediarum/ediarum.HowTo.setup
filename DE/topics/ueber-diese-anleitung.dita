@@ -105,7 +105,7 @@
             <section>
                 <title>v1.3 vom 25.11.2020</title>
                 <ul>
-                    <li>Korrektur in <xref href="basis-setup/oxygen_projekt-anlegen.dita"></xref> zu
+                    <li>Korrektur in <xref href="setup/oxygen_projekt-anlegen.dita"></xref> zu
                         zwei Editorvariablen: Am Ende des Pfades muss ein Schrägstrich stehen ("/").
                         Wenn diese Editorvariablen nicht korrekt eingetragen sind, können Sie zum
                         Beispiel die Registerfunktionalitäten nicht benutzen. <ul>
@@ -115,13 +115,13 @@
                                 /exist/webdav/db/projects/</li>
                         </ul>
                     </li>
-                    <li>Korrektur in <xref href="basis-setup/db_projekt-anlegen.dita"></xref> zur Umbenennung von Datenbank-Ordnern für
+                    <li>Korrektur in <xref href="setup/db_projekt-anlegen.dita"></xref> zur Umbenennung von Datenbank-Ordnern für
                         XML-Daten: Sie sollten die bei der Installation der <keyword>ediarum.DB
                             App</keyword> automatisch angelegten Ordner nicht in der
                         <keyword>eXist-db</keyword> umbenennen, sondern erst nachdem Sie das
                         Basis-Setup abgeschlossen haben, per <keyword>Oxygen XML
                             Author</keyword>.</li>
-                    <li>Neues Kapitel: <xref href= "basis-setup/tips-oxygen-exist-installation.dita"></xref></li>
+                    <li>Neues Kapitel: <xref href= "setup/tips-oxygen-exist-installation.dita"></xref></li>
                 </ul>
             </section>
         </conbody>

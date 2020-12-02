@@ -23,13 +23,12 @@
                         <uicontrol>Projekte</uicontrol>
                     </menucascade> aus.</cmd>
             </step>
-            <step>
-                <cmd>Schreiben Sie in das Feld <uicontrol>Neues Projekt</uicontrol> einen
+            <step>                <cmd>Schreiben Sie in das Feld <uicontrol>Neues Projekt</uicontrol> einen
                     Projektnamen für Ihre Edition und klicken Sie auf
                         <uicontrol>Anlegen!</uicontrol>.</cmd>
                 <info>Den Projektnamen müssen Sie später für die Datenbankverbindung angeben.
                         <b>Verwenden Sie keine Umlaute, Leer- oder Sonderzeichen!</b><image
-                        placement="break" href="../../images/ediarumDB_neuesProjekt.png"
+                        placement="break" href="../../../common/images/ediarumDB_neuesProjekt.png"
                         id="image_hfh_kht_bgb"/></info>
                 <stepresult>
                     <p>In der Datenbank wird ein neuer Ordner mit

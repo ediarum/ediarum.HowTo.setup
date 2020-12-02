@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>setup-doc_DE.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>ediarum Setup Doku DE (WebHelp Responsive)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>setup-doku_DE.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -637,7 +652,7 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="ediarum_setup-doku.xpr">
+    <projectTree name="setup-doc_DE.xpr">
         <folder path="."/>
     </projectTree>
 </project>
