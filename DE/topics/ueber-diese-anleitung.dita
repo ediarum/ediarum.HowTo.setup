@@ -103,7 +103,7 @@
         <title>Was ist neu in dieser Dokument-Version?</title>
         <conbody>
             <section>
-                <title>v1.3 vom 25.11.2020</title>
+                <title>v1.2.1_localization vom 03.12.2020</title>
                 <ul>
                     <li>Korrektur in <xref href="setup/oxygen_projekt-anlegen.dita"></xref> zu
                         zwei Editorvariablen: Am Ende des Pfades muss ein Schrägstrich stehen ("/").
@@ -137,8 +137,9 @@
                     <stentry>Änderungen</stentry>
                 </sthead>
                 <strow>
-                    <stentry>v1.3</stentry>
-                    <stentry>25.11.2020</stentry>
+                    <stentry>v1.1.2_localization</stentry>
+                    <stentry><p>03.12.2020</p>
+                    <p>(not published, for internal use only)</p></stentry>
                     <stentry>
                         <p>Oxygen XML Author v20.1</p>
                         <p>eXist-db v3.5 oder v4.4</p>

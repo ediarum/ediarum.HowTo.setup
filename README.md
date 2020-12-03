@@ -4,13 +4,13 @@ Diese Doku ist in DITA-XML geschrieben.
 
 ### Einstiegspunkt
 
-Wir definieren die Inhaltsstruktur (und das Glossar?) in der DITA bookmap [`setup.ditamap`](setup.ditamap).
+Wir definieren die Inhaltsstruktur (und das Glossar?) in der DITA bookmap [`setup-doc_DE.ditamap`](setup.ditamap).
 
 ### Build-Targets
 
 #### Version
 
-Bei jeder Ver?ffentlichung ist die Version einzutragen unter develop/static/footer.xml
+Bei jeder Ver?ffentlichung ist die Version einzutragen unter /static/footer.xml
 Z.B.: Version 0.1. Stand: 26.10.2018
 Ausserdem die Versionsangaben f?r die abgedeckte Software (eXist, Oxygen) und f?r die abgedeckten ediarum-Komponenten.
 
@@ -18,8 +18,8 @@ Ausserdem die Versionsangaben f?r die abgedeckte Software (eXist, Oxygen) und f?
 
 ##### Konfiguration
 
-Die Oxygen-Projektdatei [`ediarum_doku.xpr`](../ediarum_doku.xpr) enthaelt eine Konfiguration fuer DITA-OT Transformation in ein *Webhelp-responsive* target.
-Darin sind ein paar erforderliche Variablen gesetzt, die so oder so aehnlich aus [`ediarum_basis`](../ediarum_basis/) uebernommen wurden:
+Die Oxygen-Projektdatei [`setup-doc_DE.xpr`](../setup-doc_DE.xpr) enthaelt eine Konfiguration fuer DITA-OT Transformation in ein *Webhelp-responsive* target.
+Darin sind ein paar erforderliche Variablen gesetzt:
 
 | Variable | Wert |
 |----------|------|
@@ -32,16 +32,14 @@ Desweiteren wurden Variablen gesetzt, um die Short Descriptions anzuzeigen, Navi
 
 Weitere Infos, wie man den Output konfiguriert: https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/wh-responsive-output.html
 
-Projektspezifisches CSS:
-... @Stefan: Bitte hier Infos ergaenzen ...
-...
+Projektspezifisches CSS: commmon/custom.css
 
 ##### Ausfuehrung
 
-Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man die DITA map (`setup.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
-Beim ersten Durchlauf ist darauf zu achten, dasz unter *Transform > Configure Transformation Scenario(s)* als anzuwendendes Transformationsszenario tatsaechlich das in der Projektdatei definierte ausgewaehlt ist (das blaue ganz unten, "Ediarum Einrichtung Dokumentation (WebHelp Responsive)") und nicht eines der Standard-Scenarien von Oxygen (die gelben oben).
+Um die Transformation aus dem Oxygen heraus auszufuehren, waehlt man die DITA map (`setup-doc_DE.ditamap`) im *Project Manager* aus, macht Rechtsklick und geht im Kontextmenu zu *Transform > Apply Transformation Scenario*.
+Beim ersten Durchlauf ist darauf zu achten, dasz unter *Transform > Configure Transformation Scenario(s)* als anzuwendendes Transformationsszenario tatsaechlich das in der Projektdatei definierte ausgewaehlt ist (das blaue ganz unten, "Ediarum Setup Doku DE") und nicht eines der Standard-Scenarien von Oxygen (die gelben oben).
 
-Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter `develop/out/webhelp-responsive/index.html` sein.
+Wenn der Build erfolgreich verlaeuft, sollte die HTML-Datei fuer die landing page unter `/out/webhelp-responsive/index.html` sein.
 
 
 #### Deployment
