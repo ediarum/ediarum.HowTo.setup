@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap id="setup" xml:lang="es-ES">
+	
+    <booktitle>
+        <mainbooktitle>Guía de instalación y configuración de ediarum</mainbooktitle>
+    </booktitle>
+	
+	<chapter href="ES/topics/setup/basis-setup.dita" navtitle="Basis-Setup"
+		collection-type="sequence">
+		<topicref href="ES/topics/ueber-diese-anleitung.dita"/>
+		<topicref href="ES/topics/setup/ueberblick-basis-setup.dita"/>
+		<topicref href="ES/topics/setup/tips-oxygen-exist-installation.dita"/>
+		<topicref href="ES/topics/setup/db_einrichtung.dita" collection-type="sequence">
+			<topicref href="ES/topics/setup/db_app-installieren.dita"/>
+			<topicref href="ES/topics/setup/db_projekt-anlegen.dita"/>
+			<topicref href="ES/topics/setup/db_activar-registros.dita"/>
+			<topicref href="ES/topics/setup/db_user-anlegen.dita"/>
+		</topicref>
+		<topicref href="ES/topics/setup/oxygen_einrichtung.dita" collection-type="sequence">
+			<topicref href="ES/topics/setup/oxygen_mit-db-verbinden.dita"/>
+			<topicref href="ES/topics/setup/oxygen_instalar-frameworks.dita"/>
+			<topicref href="ES/topics/setup/oxygen_projekt-anlegen.dita"/>
+		</topicref>
+	</chapter>
+		
+	<chapter href="ES/topics/customization/konfiguration.dita" navtitle="Editionsspezifische Konfiguration" collection-type="sequence">
+		<topicref href="ES/topics/customization/ueberblick-konfiguration.dita"/>
+		<topicref href="ES/topics/customization/register-anlegen.dita"/>
+	</chapter>
+</bookmap>

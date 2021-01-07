@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_framework_kaskade" xml:lang="es-ES">
+    <title>Über Oxygen-Frameworks und ediarum-Spezifika</title>
+    <shortdesc>Das grundsätzliche Vorgehen für die Konfiguration via sogenannter "Frameworks" finden
+        Sie in der Oxygen-Dokumentation. Ediarum stellt für diese Konfiguration einige
+        Standardbausteine
+        bereit.<?oxy_comment_start author="notroff" timestamp="20200329T162713+0200" comment="Optional: Sie können den Ordner &quot;Briefe&quot; umbenennen und Unterordner anlegen, sodass die Ablagestruktur zu Ihren zu edierenden Texten passt.
+Nehmen Sie für das Basis Setup vorerst keine Änderungen am oder im Ordner &quot;Register&quot; vor. Solche Änderungen erfordern Änderungen an den Editorvariablen. Das Vorgehen, wie Sie Register anpassen und eigene Register anlegen können, wird in der Konfigurations-Dokumentation beschrieben.
+"?></shortdesc><?oxy_comment_end?>
+    <conbody>
+        <section>
+            <title>Framework-Komponenten</title>
+            <p>Im Framework ist die <keyword>Oxygen</keyword>-Benutzungsoberfläche für Ihr
+                Oxygen-Projekt mit Ihrem Datenmodell (XML-Struktur) definiert, ggf. für verschieden
+                strukturierte Dokumenttypen (z.B. Brief, Manuskript, Notizbuch). Diese
+                Benutzungsoberfläche umfasst folgende Elemente: <ul>
+                    <li>Vorlagen für neue Dokumente, sodass die Editor:innen die XML-Struktur nicht
+                        "von null" alleine aufbauen müssen (XML-Template)</li>
+                    <li>Lesefreundliches Layout der XML-Inhalte im "Autor"-Tab, d.h. eine
+                        "What-you-see-is-what-you-get"-Schreiboberfläche, sodass die Editor:innen
+                        nicht direkt in XML schreiben müssen und ihre Textarbeiten übersichtlich und
+                        publikationsnah überprüfen können. </li>
+                    <li>Buttons und Aktionen in der Werkzeugleiste, sodass die Editor:innen
+                        XML-Elemente und Attributwerte per Klick und in Eingabefeldern einfügen
+                        können, ohne die benötigten XML-Elemente kennen zu müssen</li>
+                    <li>ggf. Transformationsszenarien, die verschiedene Publikations-Layouts zur
+                        Verfügung stellen, z.B. für Korrekturdurchläufe</li>
+                </ul>In Ihrem eigenen Erweiterungs-Framework können Sie eigene Elemente für die
+                Oxygen-Benutzungsoberfläche konfigurieren.</p>
+        </section>
+        <section>
+            <title>Konfigurationskomponenten</title>
+            <p>Im Hintergrund besteht das Framework aus einer Sammlung von Dateien. Einige Aspekte
+                der Konfiguration nehmen Sie direkt in den Dateien vor, für andere benutzen Sie das
+                    <uicontrol>Dokumenttypen</uicontrol>-Fenster.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
+                <title>Konfigurationskomponenten</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.31*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colnum="4" colname="c4" colwidth="1.32*"/>
+                    <thead>
+                        <row>
+                            <entry>Komponente</entry>
+                            <entry/>
+                            <entry>Speicherung</entry>
+                            <entry>Änderung</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Was können Sie konfigurieren?</entry>
+                            <entry/>
+                            <entry>Wo speichert Oxygen XML Author Ihre Konfigurationen?</entry>
+                            <entry>Auf welchem Weg können Sie die Konfigurationen ändern?</entry>
+                        </row>
+                        <row>
+                            <entry>Schema</entry>
+                            <entry>XML-Schema (Strukturvorgaben)</entry>
+                            <entry>RNG-Datei</entry>
+                            <entry>Die RNG-Datei bearbeiten</entry>
+                        </row>
+                        <row>
+                            <entry>Template</entry>
+                            <entry>Vorlage für neue XML-Dokumente</entry>
+                            <entry>XML-Datei</entry>
+                            <entry>Die XML-Datei bearbeiten</entry>
+                        </row>
+                        <row>
+                            <entry>GUI-Funktionalitäten</entry>
+                            <entry>GUI-Elemente und -Funktionalitäten, die Oxygen XML Author dann im
+                                Autor-Modus bereitstellt</entry>
+                            <entry>FRAMEWORK-Datei</entry>
+                            <entry>Im <uicontrol>Autor</uicontrol> Tab des
+                                    <uicontrol>Dokumenttypen</uicontrol> Fensters: <menucascade>
+                                    <uicontrol>Optionen</uicontrol>
+                                    <uicontrol>Einstellungen</uicontrol>
+                                    <uicontrol>Dokumenttypen-Zuordnung</uicontrol>
+                                </menucascade>, Framework auswählen</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+        <section>
+            <title>ediarum-Spezifika für die Konfiguration per Framework</title>
+            <p>Ableitungsstruktur: <keyword>ediarum.BASE.edit</keyword> arbeitet mit dem Datenmodell
+                des DTA-Basisformats (Subset von TEI-XML) und erweitert dieses an einigen Punkten.
+                Für Ihr Editionsprojekt erweitern Sie wiederum das Datenmodell von
+                    <keyword>ediarum.BASE.edit</keyword>. Das Datenmodell für Ihr Editionsprojekt
+                enthält also am Ende unterschiedlich generische Anteile, die voneinander abgeleitet
+                sind: DTA-Basisformat > ediarum.BASE.edit > projektspezifische Schema-Anteile.
+                Entsprechend dieser Ableitungsstruktur beim Datenmodell sind auch die Frameworks
+                voneinander abgeleitet. </p>
+            <p>Dateinamen und Ordnerstrukturen: Für die Benennung und den Ablageort der
+                Konfigurationsdateien folgt <keyword>ediarum</keyword> eigenen Konventionen, unter
+                anderem, um eine einfache gebündelte Auslieferung eines Frameworks zu ermöglichen.
+                Orientieren Sie sich an Struktur und Inhalten des
+                    <keyword>ediarum.BASE.edit</keyword> Ordners.</p>
+            <p><keyword>Oxygen</keyword>-"Operationen": Die GUI-Funktionalitäten bestehen im Kern
+                aus sogenannten"Operationen", d.h. Befehls-Bausteinen, aus denen Sie eine eigene
+                Funktionalität zusammensetzen und mithilfe von Parametern auf Ihre Edition anpassen
+                können. Dabei gibt es Operationen, die der Oxygen XML Author mitliefert, und solche,
+                die eigens für ediarum programmiert und bereitgestellt wurden. Die Datei
+                    <keyword>ediarum.jar</keyword> enthält <keyword>die
+                ediarum</keyword>-spezifischen Operationen, die Sie benutzen können.</p>
+            <p><keyword>Oxygen</keyword>-"Editorvariablen": Die von Oxygen XML Author und von
+                ediarum bereitgestellten Operationen und einige andere Konfigurationskomponenten
+                sollen einfach und vielfältig wiederverwendbar sein. Deshalb sind, wo immer
+                kontextspezifische Angaben nötig sind, anstatt konkreter Werte Platzhalter
+                (Variablen) eingesetzt, z.B. für Projektname, Datei-, Ordner- und URL-Pfade. Die
+                Werte dieser sogenannten Editor-Variablen sind einmal an zentraler Stelle definiert.
+                Für Ihre eigene editionsspezifische Konfiguration müssen Sie die Werte für
+                projektspezifische Editor-Variablen eintragen und gegebenenfalls zusätzliche, eigene
+                Editor-Variablen erstellen, z.B. für zusätzliche Registerarten. Es empfiehlt sich,
+                dabei die Namenskonventionen der bestehenden Editorvariablen konsistent weiter zu
+                führen.</p>
+        </section>
+    </conbody>
+    <related-links scope="external" format="html">
+        <link
+            href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial">
+            <linktext>Oxygen-Anleitung zur Anpassung eines Frameworks</linktext>
+        </link>
+        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/">
+            <linktext>Tutorial: Wie baue ich ein eigenes Framework für Oxygen XML?</linktext>
+        </link>
+    </related-links>
+</concept>

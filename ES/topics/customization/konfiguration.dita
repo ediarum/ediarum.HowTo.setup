@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ueberblick_konfig" xml:lang="es-ES">
+    <title>Editionsspezifische Konfiguration</title>
+    <shortdesc>Wenn für Ihre Edition ein umfassenderes XML-Schema benötigt wird als das mit ediarum
+        abgedeckte, können Sie das Schema und die Arbeitsumgebung erweitern. Sie können außerdem
+        zusätzliche Register erstellen.</shortdesc>
+    <conbody>
+        <p>Ausgehend vom ediarum Basis-Setup haben Sie die Möglichkeit, für Ihr Editionsprojekt
+            folgende Einstellungen vorzunehmen: <ul id="ul_fyh_cx4_2gb">
+                <li>Buttons und Funktionen hinzufügen oder ändern, indem Sie das für Ihre Edition
+                    angelegte Framework konfigurieren.</li>
+                <li>Eigene Register einrichten.</li>
+                <li>Literaturbestände, die Sie im Programm Zotero verwalten, als Register
+                    einbinden.</li>
+            </ul></p>
+    </conbody>
+</concept>
