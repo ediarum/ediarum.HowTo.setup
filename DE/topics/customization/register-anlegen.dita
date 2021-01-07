@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_psj_nwx_tfb" xml:lang="de-DE">
+    <title>Ein eigenes Register anlegen</title>
+    <shortdesc>Wenn Sie ein Register benötigen, das nicht bereits als Standardregister
+        in <keyword>ediarum</keyword> enthalten
+        ist, legen Sie dieses in <keyword>eXist-db</keyword> in der
+        <keyword>ediarum.DB</keyword>-App an.</shortdesc>
+    <taskbody>
+       
+        <steps>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
+            </step>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register </uicontrol>
+                    </menucascade>aus.</cmd>
+            </step>
+            <step>
+                <cmd>Stellen Sie sicher, dass das gewünschte Register nicht bereits in der
+                    angezeigten Registerliste enthalten ist.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> auf
+                        <uicontrol>Hinzufügen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus.</cmd>
+                <info>
+                    <fig>
+                        <title>Fenster für den Eintrag von Register-Parametern</title>
+                        <image placement="break" href="../../../common/images/ediarumDB_neueRegisteranbindung.png"
+                            id="image_sq3_wf2_wfb"/>
+                    </fig>
+                    <table>
+                        <title>Beispielhafte Werte, anhand eines Registers für Maßangaben</title>
+                        <tgroup cols="3">
+                            <colspec colnum="1" colname="c1" colwidth="114pt"/>
+                            <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
+                            <colspec colnum="3" colname="c3" colwidth="432.75pt"/>
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry> Beispielwert </entry>
+                                    <entry>Erklärung</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Struktur eines Registereintrags</entry>
+                                    <entry>
+                                        <codeblock outputclass="language-xml"><![CDATA[<item xml:id="mark_koelnisch">
+<label>Kölnische Mark</label>
+</item>]]></codeblock>
+                                    </entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>API-ID</uicontrol></entry>
+                                    <entry>units</entry>
+                                    <entry>frei wählbar, wird bei den Editorvariablen angegeben
+                                        (sollte keine Leer- oder Sonderzeichen enthalten)</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Bezeichnung</uicontrol></entry>
+                                    <entry>Maße</entry>
+                                    <entry>Name des Registers (frei wählbar)</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Registerordner/ -datei</uicontrol></entry>
+                                    <entry>Register/Maße.xml</entry>
+                                    <entry>Register/NAME.xml</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Namespace</uicontrol></entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Node</uicontrol></entry>
+                                    <entry>tei:item</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>XML-ID</uicontrol></entry>
+                                    <entry>@xml:id</entry>
+                                    <entry>@xml:id</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Span</uicontrol></entry>
+                                    <entry>//tei:label</entry>
+                                    <entry>orientiert sich am Aufbau des Registers</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
+                <stepresult>In der Registerliste sehen Sie nun das neue Register. Über den Button
+                        <uicontrol>API-Links</uicontrol> sind die URLs für den Aufruf des Registers
+                    zugänglich.</stepresult>
+            </step>
+            <step>
+                <cmd>Auf Basis der API-Links müssen Sie nun in Ihrem Oxygen-Projekt Editorvariablen
+                    definieren, sodass Sie registerspezifische Buttons definieren können, z.B. für
+                    Einfügeaktionen. Orientieren Sie sich dafür an den Editorvariablen und Aktionen,
+                    die für die Standardregister bereits in ediarum enthalten sind.</cmd>
+                <!-- TO DO next docu-release: Die nötigen Schritte in Oxygen beschreiben: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine. -->
+            </step>
+        </steps>
+    </taskbody>
+</task>
