@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_grk_ypc_yfb" xml:lang="es-ES">
+    <title>Activar los registros de ediarum / “Ediarum-Register”</title>
+    <shortdesc>Se activan el registro de personas y el registro de lugares. Ambos registros ya están
+        incluidos en <keyword>ediarum</keyword>, porque son los tipos de registro que normalmente se
+        necesitan en una edición. Es posible activar más registros estándar de
+            <keyword>ediarum</keyword>: Términos técnicos, organizaciones, obras, cartas y
+        notas.</shortdesc>
+    <taskbody>
+        <prereq> Abra la aplicación <keyword>ediarum.DB</keyword> en el dashboard de su eXist-db con
+            derechos de admnistrador. </prereq>
+        <steps>
+            
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Administración → Proyectos”).</cmd>
+            </step>
+            <step>
+                <cmd>Haga clic en su proyecto para abrir la página principal del proyecto.</cmd>
+            </step>
+                <step>
+                <cmd>Seleccione el menú<menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade> (“Configuración del proyecto → Registro”).</cmd>
+            </step>
+            <step>
+                <cmd>Siga los siguientes pasos para cada registro que quiere utlitzar en su trabajo
+                    editorial, al menos para el registro de personas y el registro de lugares.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Al final de la lista <uicontrol>ediarum-Register</uicontrol> encuentra
+                            la entrada <uicontrol>Neues Register</uicontrol> (“Registro nuevo”).
+                            Haga clic en el botón <uicontrol>Aktivieren</uicontrol>
+                            (“Activar”).</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Seleccione el tipo de registro (en el campo
+                                <uicontrol>Ediarum-Register</uicontrol>) y la estructura del
+                            registro (en el campo <uicontrol>Registeraufbau</uicontrol>) y haga clic
+                            en el botón <uicontrol>Aktivieren</uicontrol> (“Activar”). Si quiere
+                            cancelar la acción, haga clic en el botón
+                                <uicontrol>Schließen</uicontrol> para cerrar la ventana.</cmd>
+                        <info>
+                            <fig>
+                                <image placement="break"
+                                    href="../../../common/images/ediarumDB_Register.png"
+                                    id="image_rxd_gb2_wfb"/>
+                            </fig>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+        
+        </steps>
+        <result>La página principal de su proyecto ahora muestra los registros recién activados que
+            se han añadido a la estructura predeterminada de la carpeta. <image placement="break"
+                href="../../../common/images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"
+            /></result>
+    </taskbody>
+    <related-links>
+        <link href="../customization/register-anlegen.dita"/>
+    </related-links>
+</task>
