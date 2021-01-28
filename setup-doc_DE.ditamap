@@ -27,5 +27,10 @@
 	<chapter href="DE/topics/customization/konfiguration.dita" navtitle="Editionsspezifische Konfiguration" collection-type="sequence">
 		<topicref href="DE/topics/customization/ueberblick-konfiguration.dita"/>
 		<topicref href="DE/topics/customization/register-anlegen.dita"/>
+		<topicref href="DE/topics/customization/zotero_einrichtung.dita" collection-type="sequence">
+			<topicref href="DE/topics/customization/zotero_verbindung.dita"/>
+			<topicref href="DE/topics/customization/zotero_register.dita"/>
+			<topicref href="DE/topics/customization/zotero_register-anlegen.dita"/>
+		</topicref>
 	</chapter>
 </bookmap>

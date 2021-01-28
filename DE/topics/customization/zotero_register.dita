@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_zotero_register" xml:lang="de-DE">
+    <title>Ein Register der Zotero-Einträge erstellen</title>
+    <shortdesc>Für einzelne <keyword>Zotero-Verbindungen</keyword> lassen sich Register einrichten, um diese dann in <keyword>ediarum</keyword> nutzen zu können.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> aus.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie das Feld Ihres eigenen Projekts an.</cmd>
+            </step>
+            <step>
+                <cmd>Wählen Sie das Menü <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register </uicontrol>
+                    </menucascade>aus.</cmd>
+            </step>
+            <step>
+                <cmd>Stellen Sie sicher, dass das gewünschte Register nicht bereits in der
+                    angezeigten Registerliste enthalten ist.</cmd>
+            </step>
+            <step>
+                <cmd>Klicken Sie im Feld <uicontrol>Neue Registeranbindung (Zotero)</uicontrol> auf
+                        <uicontrol>Hinzufügen</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Füllen Sie in dem geöffneten Fenster alle Parameter aus.</cmd>
+                <info>
+                    <fig>
+                        <title>Fenster für den Eintrag von Zotero-Register-Parametern</title>
+                        <image placement="break" href="../../../common/images/ediarumDB_zotero_register.png"/>
+                    </fig>
+                    <ul>
+                        <li><uicontrol>API-ID</uicontrol>: Geben Sie hier eine eindeutige Folge aus Buchstaben und Zeichen (ohne Sonderzeichen) ein, mit Hilfe derer das Register über eine URI angesprochen werden kann. Dies ist später wichtig für die benutzerspezifischen Variablen. (Sie können die ID frei definieren. Sie steht in keinem Zusammenhang mit der API-ID der Zotero-Verbindung.) Zum Beispiel: <ul><li>mEdi</li></ul></li>
+                        <li><uicontrol>Bezeichnung</uicontrol>: Sie können die Bezeichnung des Registers frei wählen. Zum Beispiel: <ul><li>MeineEdition</li></ul></li>
+                        <li><uicontrol>Zotero-Verbindung</uicontrol>: Wählen Sie hier eine der eingerichteten Zotero-Verbindungen aus. Bestehen bisher keine Verbindungen, so müssen Sie vorher eine einrichten. (Siehe vorheriger Schritt: <i><xref href="zotero_verbindung.dita">Eine Verbindung zu Zotero einrichten</xref></i>.)</li>
+                        <li><uicontrol>Zotero-Ordner</uicontrol>: Ein Register kann auf einen einzelnen Ordner einer Zotero-Gruppe beschränkt werden. Ist dies der Fall, dann muss der entsprechende Ordner hier ausgewählt werden. Bleibt das Feld leer, so umfasst das Register alle Einträge der Zotero-Gruppe.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Klicken Sie auf <uicontrol>Speichern</uicontrol>.</cmd>
+                <stepresult>Für jede eingerichtete Zotero-Gruppe stehen nun mehrere Aktionen zur Verfügung:
+                    <ul>
+                        <li><uicontrol>API-Links</uicontrol>
+                            <ul>
+                                <li><uicontrol>GET</uicontrol>: Ausgabe des Registers im TEI-Format.</li>
+                                <li><uicontrol>UPDATE</uicontrol> Das Register wird über die Zotero-Verbindung auf den aktuellen Stand der Zotero-Einträge gebracht.</li>
+                                <li><uicontrol>UPDATE and GET</uicontrol> Das Register wird zunächst aktualisiert und dann in der aktualisierten Form im TEI-Format ausgegeben.</li>
+                            </ul>
+                        </li>
+                        <li><uicontrol>Bearbeiten</uicontrol>: Die oben genannten Einstellungen können geändert werden.</li>
+                        <li><uicontrol>Entfernen</uicontrol>: Das Register wird gelöscht.</li>
+                    </ul>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
