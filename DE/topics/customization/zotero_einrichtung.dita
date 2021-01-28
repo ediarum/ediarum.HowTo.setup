@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_zotero_einrichtung" xml:lang="de-DE">
+    <title>Literaturbestände aus Zotero als Register einbinden</title>
+    <shortdesc>Wenn Sie ihre Literaturbestände über <keyword>Zotero</keyword> verwalten, können Sie diese auch als Register in <keyword>ediarum</keyword> einbinden und so auf die entsprechende Literatur verweisen.</shortdesc>
+    <conbody>
+        <ul>
+            <li>Zuerst muss dazu eine Verbindung zu einer Zotero-Gruppe hergestellt werden.</li>
+            <li>Anschließend kann diese Gruppe dann als Register in ediarum eingebunden werden.</li>
+            <li>Das in ediarum eingebundenen Register lässt sich abschließend für das Framework einrichten.</li>
+        </ul>
+    </conbody>
+</concept>
