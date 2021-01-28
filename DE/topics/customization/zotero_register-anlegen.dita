@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_zotero_register-anlegen" xml:lang="de-DE">
+    <title>Das Zotero-Register in Oxygen einbinden</title>
+    <shortdesc>Um das Register in <keyword>ediarum</keyword>-Frameworks zu verwenden, müssen Sie es abschließend noch in <keyword>Oxygen</keyword> einbinden.</shortdesc>
+    <taskbody>
+        <context>Auf Basis der API-Links müssen Sie nun in Ihrem Oxygen-Projekt Editorvariablen
+            definieren, sodass Sie registerspezifische Buttons anlegen können, z.B. für
+            Einfügeaktionen. Tipp: Orientieren Sie sich dafür an den Editorvariablen und Aktionen,
+            die für die Standardregister bereits in ediarum enthalten sind.
+            <!-- TO DO next docu-release: Die nötigen Schritte in Oxygen beschreiben: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine.  -> #NA: Weiß ich ;)--></context>
+        <steps>
+            <step>
+                <cmd>Stellen Sie sicher, dass die richtige Projektdatei (.xpr) in Oxygen geöffnet
+                    ist. (Ggf. müssen Sie über <menucascade>
+                        <uicontrol>Projekt</uicontrol>
+                        <uicontrol>Projekt öffnen...</uicontrol>
+                    </menucascade> die richtige Datei auswählen.) </cmd>
+            </step>
+            <step>
+                <cmd>Wählen Sie nun <menucascade>
+                    <uicontrol>Optionen</uicontrol>
+                    <uicontrol>Einstellungen</uicontrol>
+                    <uicontrol>Benutzerspezifische Editorvariablen [P]</uicontrol>
+                </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Erstellen Sie mit <uicontrol>Neu</uicontrol> eine neue Editorvariable.</cmd>
+                <info>
+                    <fig>
+                        <title>Fenster für den neuen Eintrag einer benutzerspezifischen Editorvariable</title>
+                        <image placement="break" href="../../../common/images/oxygen_editorvariablen.png"/>
+                    </fig>
+                    <table>
+                        <title>Werte der benutzerspezifischen Editorvariable zur Einbindung eines Zotero-Registers</title>
+                        <tgroup cols="3">
+                            <colspec colnum="1" colname="c1" colwidth="114pt"/>
+                            <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
+                            <colspec colnum="3" colname="c3" colwidth="432.75pt"/>
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry>Beispielwert</entry>
+                                    <entry>Erklärung</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry><uicontrol>Name</uicontrol></entry>
+                                    <entry>ediarum_index_bibl_zotero</entry>
+                                    <entry>Der Name der Variable. Dieser wird später in Funktionen
+                                        oder anderen Editorvariablen verwendet und sollte daher
+                                        verständlich sein sowie keine Leer- oder Sonderzeichen
+                                        enthalten.</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Wert</uicontrol></entry>
+                                    <entry>/oxygen/ediarum.xql?index=<varname>IN EDIARUM GEGEBENE API-ID</varname>&amp;action=update-get</entry>
+                                    <entry>Der Wert der Variable beschreibt die (Teil-)URL und ggf.
+                                        weitere Editorvariablen, auf die zugegriffen werden soll.
+                                        Der Registerzugriff erfolgt hier über ediarum.xql. Als
+                                        API-ID ist die im vorherigen Schritt in ediarum definierte
+                                        API-ID des Registers anzugeben.</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Beschreibung</uicontrol></entry>
+                                    <entry/>
+                                    <entry>Hier können Sie eine optionale Beschreibung vergeben.</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Das Zotero-Register ist nun für das Framework eingerichtet und Sie können
+                    Aktionen für die editorische Arbeit mit dem Register definieren.</cmd>
+            </step>
+        </steps>        
+    </taskbody>
+</task>
