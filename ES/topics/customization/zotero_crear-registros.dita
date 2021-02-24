@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_zotero_register-anlegen" xml:lang="es-ES">
+    <title>Integrar el registro de Zotero en Oxygen</title>
+    <shortdesc>Para poder utilizar el registro en los frameworks de <keyword>ediarum</keyword>, hay
+        que integrarlo en <keyword>Oxygen</keyword>.</shortdesc>
+    <taskbody>
+        <context>Basándose en los enlaces de API, ahora tiene que definir las variables de editor en
+            su proyecto de Oxygen para poder crear botones específicos para el registro, por ejemplo
+            para las acciones de inserción. Consejo: Utilice como guía las variables y acciones de
+            editor ya incluidas en ediarum para los registros estándar.
+            <!-- TO DO next docu-release: Die nötigen Schritte in Oxygen beschreiben: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine.  -> #NA: Weiß ich ;)--></context>
+        <steps>
+            <step>
+                <cmd>Asegúrese de que el archivo de proyecto correcto (.xpr) está abierto en Oxygen.
+                    (Es posible que tenga que seleccionar el archivo correcto a través de <menucascade>
+                        <uicontrol>Project</uicontrol>
+                        <uicontrol>Open Project...</uicontrol>
+                    </menucascade>.)</cmd>
+            </step>
+            <step>
+                <cmd>Ahora seleccione <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                        <uicontrol>Custom Editor Variables [P]</uicontrol>
+                    </menucascade> (“Variables de editor definidas por el usuario”).</cmd>
+            </step>
+            <step>
+                <cmd>Cree una nueva variable de editor con <uicontrol>New</uicontrol>.</cmd>
+                <info>
+                    <fig>
+                        <title>Ventana para la nueva entrada de una variable de editor definida por
+                            el usuario</title>
+                        <image placement="break"
+                            href="../../../common/images/oxygen_editor-variables.PNG"/>
+                    </fig>
+                    <table>
+                        <title>Valores de la variable de editor definida por el usuario para la
+                            integración de un registro de Zotero</title>
+                        <tgroup cols="3">
+                            <colspec colnum="1" colname="c1" colwidth="114pt"/>
+                            <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
+                            <colspec colnum="3" colname="c3" colwidth="432.75pt"/>
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry>Beispielwert</entry>
+                                    <entry>Erklärung</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry><uicontrol>Name</uicontrol></entry>
+                                    <entry>ediarum_index_bibl_zotero</entry>
+                                    <entry>El nombre de la variable. Se utilizará más tarde en
+                                        funciones u otras variables de editor, y por lo tanto debe
+                                        ser comprensible y no contener espacios o caracteres
+                                        especiales.</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Value</uicontrol></entry>
+                                    <entry>/oxygen/ediarum.xql?index=<varname>ID DE LA API DADA EN
+                                            EDIARUM</varname>&amp;action=update-get</entry>
+                                    <entry>El valor de la variable describe la URL (parcial) y, en
+                                        su caso, otras variables de editor a las que se debe
+                                        acceder. El acceso al registro se realiza aquí a través de
+                                        ediarum.xql. Como ID de API se debe indicar el ID de API que
+                                        se ha definido previamente al crear una nueva conexión de
+                                        registro.</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Description</uicontrol></entry>
+                                    <entry/>
+                                    <entry>Aquí puede introducir una descripción opcional.</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>El registro ahora está configurado para el framework y se pueden definir las
+                    acciones para el trabajo editorial con el registro.</cmd>
+            </step>
+        </steps>        
+    </taskbody>
+</task>

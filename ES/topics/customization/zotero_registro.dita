@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_zotero_register" xml:lang="es-ES">
+    <title>Crear un registro de las entradas bibliográficas de Zotero</title>
+    <shortdesc>Se pueden configurar registros para conexiones individuales con
+            <keyword>Zotero</keyword> con el fin de que luego puedan ser utilizados en
+            <keyword>ediarum</keyword>.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
+            </step>
+            <step>
+                <cmd>Haga clic en el campo de su proyecto.</cmd>
+            </step>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade> (“Configuración de proyectos → Registros”).</cmd>
+            </step>
+            <step>
+                <cmd>Asegúrese de que el registro que quiere crear no está ya incluido en la lista
+                    de registros mostrada.</cmd>
+            </step>
+            <step>
+                <cmd>En el campo <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> (“Nueva
+                    conexión de registro (proyecto)”), haga clic en
+                        <uicontrol>Hinzufügen</uicontrol> (“Añadir”).</cmd>
+            </step>
+            <step>
+                <cmd>Especifique todos los parámetros en la ventana abierta.</cmd>
+                <info>
+                    <fig>
+                        <title>Ventana para introducir los parámetros del registro de Zotero (Para
+                            la traducción de los campos en alemán, véase la lista de abajo)</title>
+                        <image placement="break"
+                            href="../../../common/images/ediarumDB_zotero_register.png"/>
+                    </fig>
+                    <ul>
+                        <li><uicontrol>API-ID</uicontrol> (“ID de la API”): Introduzca aquí una
+                            secuencia única de letras y caracteres (sin caracteres especiales), con
+                            la ayuda de la cual el registro puede ser dirigido a través de un URI.
+                            Esto es importante más adelante para las variables específicas del
+                            usuario. (Puede definir el ID libremente. No está relacionado con el ID
+                            de la API de la conexión a Zotero). Por ejemplo:  <ul>
+                                <li>mEdi</li>
+                            </ul></li>
+                        <li><uicontrol>Bezeichnung</uicontrol> (“Denominación”): Puede elegir
+                            libremente el nombre del registro. Por ejemplo:  <ul>
+                                <li>MiEdicion</li>
+                            </ul></li>
+                        <li><uicontrol>Zotero-Verbindung</uicontrol> (“Conexión de Zotero”):
+                            Seleccione una de las conexiones de Zotero establecidas. Si aún no
+                            existe ninguna conexión, primero debe establecerse una. (Véase el paso
+                            anterior: <i><xref href="zotero_conexion.dita">Establecer una conexión
+                                    con Zotero</xref></i>.)</li>
+                        <li><uicontrol>Zotero-Ordner</uicontrol> (“Carpeta de Zotero”): Un registro
+                            puede restringirse a una sola carpeta de un grupo de Zotero. Si este es
+                            el caso, entonces la carpeta correspondiente debe ser seleccionada aquí.
+                            Si el campo permanece vacío, el registro incluye todas las entradas del
+                            grupo de Zotero.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>Speichern</uicontrol> (“Guardar”).</cmd>
+                <stepresult>Ahora están disponibles varias acciones para cada grupo de Zotero
+                    configurado: <ul>
+                        <li><uicontrol>API-Links</uicontrol>:<ul>
+                                <li><uicontrol>GET</uicontrol>: Salida del registro en formato
+                                    TEI.</li>
+                                <li><uicontrol>UPDATE</uicontrol>: El registro se actualiza con el
+                                    estado actual de las entradas de Zotero a través de la conexión
+                                    con Zotero.</li>
+                                <li><uicontrol>UPDATE and GET</uicontrol>: El registro se actualiza
+                                    primero y luego se emite en la forma actualizada en formato
+                                    TEI.</li>
+                            </ul></li>
+                        <li><uicontrol>Bearbeiten</uicontrol> (“Editar”): Las configuraciones
+                            anteriormente mencionadas pueden ser modificadas.</li>
+                        <li><uicontrol>Entfernen</uicontrol> (“Eliminar”): Se elimina el
+                            registro.</li>
+                    </ul>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

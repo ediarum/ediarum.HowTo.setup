@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_zotero_einrichtung" xml:lang="es-ES">
+    <title>Integrar los fondos bibliográficos de Zotero como registro</title>
+    <shortdesc>Si gestiona sus fondos bibliográficos en <keyword>Zotero</keyword>, también puede
+        integrarlos como registro en <keyword>ediarum</keyword> y así hacer referencias
+        bibliográficas.</shortdesc>
+    <conbody>
+        <ul>
+            <li>En primer lugar, debe establecerse una conexión con un grupo de Zotero.</li>
+            <li>A continuación, este grupo puede integrarse como un registro en ediarum.</li>
+            <li>El registro integrado en ediarum finalmente puede configurarse para el
+                framework.</li>
+        </ul>
+    </conbody>
+</concept>

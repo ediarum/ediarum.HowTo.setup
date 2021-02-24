@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="t_exist_installieren" xml:lang="es-ES">
+    <title>Tips para la instalación de eXist-db y Oxygen</title>
+    <shortdesc>Las guías de instalación para eXist-db y Oxygen se encuentran en sus sitios web
+        correspondientes. Los consejos adicionales que se han recopilado aquí se basan en la
+        experiencia de los desarrolladores y desarrolladoras de ediarum y pueden ser útiles para los
+        problemas típicos de instalación.</shortdesc>
+    <conbody>
+
+    <section>
+     
+          <title>eXist-db</title>
+         
+            <ul>
+                <li>Para usar ediarum se necesita la versión 3.5 o 4.4 de eXist-db. </li>
+                <li>Java debe estar instalado y actualizado. </li>
+                <li>Se deben tener en cuenta los requisitos de instalación en el sitio web de eXist,
+                    especialmente en cuanto a la versión de Java.</li>
+            </ul>
+
+                    <p>Instalación en Windows:</p>
+                 <ul>
+                <li>Reduzca la memoria a 1024
+                    MB.<?oxy_comment_start author="notroff" timestamp="20200309T170257+0100" comment="Evtl. Screenshot zu der 1024-Reduzierung?"?></li><?oxy_comment_end?>
+                <li><b>No</b> lo instale como <q>Service at Startup</q>. <q>Service at Startup</q>
+                    puede causar problemas al inciar eXist-db, al menos en la versión 3.5 de
+                    eXist-db.</li>
+            </ul>
+
+            <p>Desinstalación de versiones anteriores:</p>
+            <ul>
+                <li>La carpeta local db (que normalmente se encuentra en la unidad C) a veces no se
+                    borra automáticamente durante la desinstalación y por lo tanto debe ser
+                    eliminada manualmente. Esto a veces requiere un reinicio después de la
+                    desinstalación usando el archivo uninstall.jar antes de que la carpeta db pueda
+                    ser
+                    eliminada.<?oxy_comment_start author="notroff" timestamp="20201114T141233+0100" comment="TODO: Content Review"?></li><?oxy_comment_end?>
+            </ul>
+            </section>
+            <section>
+      
+     
+            <title>Oxygen XML Author</title>
+<ul>            <li>Para usar ediarum se necesita el <keyword>Oxygen XML Author</keyword>, al menos la
+                    versión 20.1 (alternativamente: Oxygen XML Editor).</li></ul>
+        
+            </section>
+
+    </conbody>
+    <related-links>
+        <linkpool>
+            <link href="https://exist-db.org/exist/apps/doc/" format="html" scope="external">
+                <linktext>eXist-db: Requisitos y guías de instalación (en inglés)</linktext>
+            </link>
+            <link href="https://exist-db.org/exist/apps/doc/advanced-installation" format="html"
+                scope="external">
+                <linktext>eXist-db Instalación en el servidor (en inglés)</linktext>
+            </link>
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html"
+                scope="external">
+                <linktext>eXist-db 3.5.0 - Descarga</linktext>
+            </link>
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-4.4.0" format="html"
+                scope="external">
+                <linktext>eXist-db 4.4.0 - Descarga</linktext>
+            </link>
+        </linkpool>
+        <linkpool>
+            <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">
+                <linktext>Oxygen XML Author: Guía de usuario y instalación (en inglés) </linktext>
+            </link>
+        </linkpool>
+    </related-links>
+</concept>

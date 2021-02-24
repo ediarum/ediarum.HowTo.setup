@@ -54,7 +54,7 @@
         </steps>
         <result>Die Standard-Ordnerstruktur auf der Übersichtsseite Ihres Projekts ist um die
             aktivierten Register ergänzt. <image placement="break"
-                href="../../../common/images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
+                href="../../images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"/></result>
     </taskbody>
     <related-links>
         <link href="../customization/register-anlegen.dita"/>

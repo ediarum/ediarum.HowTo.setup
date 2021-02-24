@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_exist_einrichtung" xml:lang="es-ES">
+    <title>Instalar y configurar la base de datos</title>
+    <shortdesc>Instala la aplicación eXist <keyword>ediarum.DB</keyword>. Usando esta aplicación,
+        crea su propio proyecto en su base de datos que contiene todos las configuraciones
+        necesarias para la interacción entre la base de datos y Oxygen XML Author. </shortdesc>
+    <conbody>
+        <p>Esta documentación ofrece una introducción básica sobre cómo proceder. Los detalles
+            encuentra en los archivos .md del repositorio <keyword>ediarum.DB</keyword> en GitHub,
+            por ejemplo las siguientes informaciones:</p>
+        <ul>
+            <li>Más detalles acerca de la instalación y configuración</li>
+            <li>Descripción de la interfaz de usuario de la aplicación eXist
+                    <keyword>ediarum.DB</keyword></li>
+            <li>Informaciones de configuración que le ayudan a comprender mejor
+                    <keyword>ediarum.DB</keyword> y adaptar la aplicación a sus requerimientos
+                técnicos</li>
+        </ul>
+     
+    </conbody>
+    <related-links>
+        <link href="https://github.com/ediarum/ediarum.DB" format="html" scope="external"></link>
+    </related-links>
+</concept>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ueberblick_setup" xml:lang="es-ES">
+    <title>Sobre esta guía</title>
+    <shortdesc>La configuración básica primero hace disponible <keyword>ediarum</keyword> en la
+        versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que
+        necesite conocimientos de programación.</shortdesc>
+    <conbody>
+        <section>
+            <title>Sobre ediarum</title>
+            <sectiondiv>
+                <p>Uso:</p>
+                <p><keyword>Ediarum</keyword> es un entorno de trabajo para ediciones filológicas
+                    digitales. En este entorno de trabajo, los editores y editoras pueden crear y
+                    editar transcripciones basadas en XML-TEI de fuentes de texto sin tener
+                    conocimientos profundos de XML. De esta manera, los editores y editoras pueden
+                    marcar fenómenos textuales, insertar comentarios, crear enlaces a los registros,
+                    mantener las entradas de los registros y proporcionarles de datos de autoridad.
+                    La configuración básica proporciona a través de ediarum.BASE.edit un modelo de
+                    datos orientado a fuentes históricas de la (Temprana) Edad Moderna que está
+                    basado en el DTA-Basisformat (“formato básico del DTA”).</p>
+            </sectiondiv>
+            <sectiondiv>
+                <p>Componentes técnicos:</p>
+                <p>A nivel técnico, ediarum proporciona los siguientes componentes:</p>
+                <ul>
+                    <li>ediarum.BASE.edit: framework para Oxygen XML Author para transcribir textos<ul>
+                            <li>Contiene ediarum.jar, ...</li>
+                        </ul></li>
+                    <li>ediarum.REGISTER.edit: framework para Oxygen XML Author para registros</li>
+                    <li>ediarum.DB: una aplicación de eXist-db para la gestión de datos adecuada para
+                        ediarum.BASE.edit y ediarum.REGISTER.edit</li>
+                </ul>
+            </sectiondiv>
+        </section>
+        <section>
+            <title>Variantes de configuración</title>
+            <p>Este manual describe la configuración básica de <keyword>ediarum</keyword>. No
+                describe la configuración y extensión específica de una edición, pero ofrece
+                información básica sobre ambas.</p>
+            <p>Configuración básica: Pone en funcionamiento <keyword>ediarum</keyword> de modo que
+                las funcionalidades de entrada para el esquema XML suministrada estén disponibles.
+                La configuración básica también incluye la configuración de un registro de personas
+                y un registro de lugares, así como de las correspondientes funcionalidades de
+                entrada.</p>
+            <p>Configuración y extensión específica de su edición: Cuando <keyword>ediarum</keyword>
+                está funcionando, puede añadir sus propias funcionalidades al framework, por ejemplo
+                para elementos TEI específicos de su edición. Puede activar las funcionalidades de
+                entrada suministradas para más registros (por ejemplo, el registro de obras) o
+                añadir sus propios registros.</p>
+        </section>
+        <section>
+            <title>¿A quién va dirigido este manual?</title>
+            <p>Puede realizar la instalación y configuración básica de ediarum si tiene
+                conocimientos básicos de informática en las humanidades digitales. Una vez que ha
+                completado la configuración, puede pasarla como add-on a los editores y editoras del
+                grupo de trabajo de su edición. </p>
+            <p>Conocimientos necesarios para realizar la configuración:</p>
+            <ul>
+                <li>Conocimientos básicos de XML, esquemas XML</li>
+                <li>Conocimientos básicos del dashboard eXist-db, es decir, la interfaz gráfica para
+                    el trabajo con su base de datos </li>
+                <li>Conocimientos básicos de GitHub</li>
+            </ul>
+            <p>Conocimientos necesarios para realizar trabajos editoriales con ediarum:</p>
+            <ul>
+                <li>Conocimientos básicos de XML y TEI</li>
+                <li>Conocimientos básicos de <keyword>Oxygen XML Author</keyword></li>
+            </ul>
+        </section>
+        <section>
+            <title>Requisitos</title>
+            <ul>
+                <li><keyword>Oxygen XML Author</keyword> está instalado, al menos la versión 20.1
+                    (alternativamente: Oxygen XML Editor). </li>
+                <li>La versión 3.5 o 4.4 de eXist-db está instalado.</li>
+            </ul>
+        </section>
+        <section>
+            <title>Idiomas</title>
+            <p>Los componentes necesarios para instalar y usar ediarum están disponibles en los
+                siguientes idiomas:</p>
+            <ul>
+            <li><keyword>Oxygen XML Author</keyword> está disponible en inglés. </li>
+            <li> El tablero de instrumentos de eXist-db tiene una interfaz de usuario en inglés, la
+                    aplicación ediarum.DB sólo está disponible en alemán. Para poder usarla sin
+                    conocimientos de alemán, esta guía describe cada paso de la instalación, hace
+                    referencia a los elementos de la GUI y explica su significado y contenido.  </li>
+                <li>La interfaz de ediarum.BASE.edit está disponible en alemán. <xref
+                        href="https://habanaberlin.hypotheses.org/" format="html" scope="external"
+                        >Proyecto Humboldt Digital</xref> (ProHD) está desarrollando una
+                    localización en español. También es posible crear su propio extensión del
+                    framework de ediarum.BASE.edit que incluya su traducción de la interfaz gráfica
+                    de usuario.</li>
+                <li>El ediarum.BASE.manual está disponible en alemán y español. La versión en
+                    español hace referencia a los términos localizados de la GUI de
+                    ediarum.PROHD.edit.  </li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Retroalimentación</title>
+            <p>Siempre estamos felices de recibir retroalimentación sobre esta guía. Por favor,
+                dirija sus comentarios a: jan.wierzoch@bbaw.de. </p>
+            <p>Estamos planeando hacer disponibles los archivos XML de esta guía en GitHub en el
+                futuro próximo para que pueda contribuir con añadiduras directamente. </p>
+        </section>
+    </conbody>
+    <related-links>
+        <linkpool>
+            <link href="https://ride.i-d-e.de/issues/issue-11/ediarum/" format="html"
+                scope="external">
+                <linktext>ediarum: Descripción del uso y la tecnología. Reseña en inglés</linktext>
+            </link>
+            <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html"
+                scope="external">
+                <linktext><?oxy_comment_start author="Linda Kirsten" timestamp="20210205T232105+0100" comment="zum spanischsprachigen Manual verlinken, sobald dies online ist"?>ediarum:
+                    <?oxy_comment_end?>Manual para editores</linktext>
+            </link>
+            <link href="http://www.deutschestextarchiv.de/doku/basisformat/" format="html"
+                scope="external">
+                <linktext>DTA-Basisformat: Documentación en alemán</linktext>
+            </link>
+            <link href="http://exist-db.org" format="html" scope="external"/>
+            <link href="https://www.oxygenxml.com" format="html" scope="external"/>
+        </linkpool>
+    </related-links>
+    <concept id="what_is_new">
+        <title>¿Qué hay de nuevo en esta versión del manual?</title>
+        <conbody>
+            <section>
+                <title>v1.2.1_localization del 03.12.2020</title>
+                <ul>
+                    <li>Correción en <xref href="../../DE/topics/setup/oxygen_projekt-anlegen.dita"
+                        /> de dos variables de editor: Debe haber una barra (“/”) al final de la
+                        ruta. Si estas variables del editor no se introducen correctamente, no podrá
+                        utilizar las funcionalidades de registro, por ejemplo. <ul>
+                            <li>Por ejemplo, para ${ediarum_projects_directory}:
+                                /exist/rest/db/projects/</li>
+                            <li>Por ejemplo, para ${ediarum_projects_directory_webdav}:
+                                /exist/webdav/db/projects/</li>
+                        </ul></li>
+                    <li>Correción en <xref href="../../DE/topics/setup/db_projekt-anlegen.dita"/>
+                        sobre el cambio de nombre de las carpetas de la base de datos para los datos
+                        XML: No debe cambiar el nombre de las carpetas creadas automáticamente
+                        durante la instalación de la aplicación <keyword>ediarum.DB</keyword> en
+                            <keyword>eXist-db</keyword>, ino sólo después de haber completado la
+                        configuración básica, a través del <keyword>Oxygen XML
+                        Author</keyword>.</li>
+                    <li>Nuevo capítulo: <xref
+                            href="../../DE/topics/setup/tips-oxygen-exist-installation.dita"/></li>
+                </ul>
+            </section>
+        </conbody>
+    </concept>
+    <concept id="version_history">
+        <title>Historial de cambios</title>
+        <conbody>
+            <simpletable frame="all" id="simpletable_ljd_yvp_2lb">
+                <sthead>
+                    <stentry>versión del documento</stentry>
+                    <stentry>fecha de publicación</stentry>
+                    <stentry>versión del software</stentry>
+                    <stentry>cambios realizados</stentry>
+                </sthead>
+                <strow>
+                    <stentry>v1.1.2_localization</stentry>
+                    <stentry>
+                        <p>03.12.2020</p>
+                        <p>(not published, for internal use only)</p>
+                    </stentry>
+                    <stentry>
+                        <p>Oxygen XML Author v20.1</p>
+                        <p>eXist-db v3.5 oder v4.4</p>
+                        <p>ediarum.BASE.edit v1.1.1</p>
+                        <p>ediarum.DB v3.2.5</p>
+                        <p>ediarum.REGISTER.edit v1.0.1</p>
+                    </stentry>
+                    <stentry>Correcciones debidas al workshop de ediarum 09.-11.03. 2020.</stentry>
+                </strow>
+                <strow>
+                    <stentry>v1.2</stentry>
+                    <stentry>12.02.2020</stentry>
+                    <stentry>
+                        <p>Oxygen XML Author v20.1</p>
+                        <p>eXist-db v3.5 oder v4.4</p>
+                        <p>ediarum.BASE.edit v1.1.1</p>
+                        <p>ediarum.DB v3.2.5</p>
+                        <p>ediarum.REGISTER.edit v1.0.1</p>
+                    </stentry>
+                    <stentry>Publicado por primera vez en: https://www.ediarum.org</stentry>
+                </strow>
+            </simpletable>
+        </conbody>
+    </concept>
+</concept>

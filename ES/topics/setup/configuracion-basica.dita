@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ueberblick_setup" xml:lang="es-ES">
+    <title>Instalación y configuración básica</title>
+    <shortdesc>La configuración básica de ediarum hace disponible un entorno de trabajo para
+        ediciones filológicas. Después de una instalación y configuración existosa, los editores y
+        editoras pueden crear datos XML conforme a TEI con registros, notas etc. en un entorno
+        visual que es similar al de Word. </shortdesc>
+    <conbody>
+        <p><keyword>Ediarum</keyword> es un entorno de trabajo para ediciones filológicas digitales
+            que están basadas en el DTA-Basisformat (“formato básico del DTA”), un subconjunto de
+            XML-TEI.</p>
+        <p>Puede realizar la instalación y configuración básica de ediarum si tiene conocimientos
+            básicos de informática en las humanidades digitales. Una vez que ha completado la
+            configuración, puede pasarla como add-on a los editores y editoras del grupo de trabajo
+            de su edición. </p>
+    </conbody>
+</concept>

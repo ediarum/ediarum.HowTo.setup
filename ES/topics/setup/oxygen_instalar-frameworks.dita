@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="t_speicherort_ediarumbase_festlegen" xml:lang="es-ES">
-    <title>Instalar el framework de ediarum </title>
+    <title>Instalar frameworks de ediarum </title>
     <shortdesc>Se integran dos frameworks específicos de ediarum en Oxygen para que las
         funcionalidades de <keyword>ediarum</keyword> estén disponibles en su entorno editorial de
         Oxygen. </shortdesc>
@@ -14,14 +14,14 @@
                     gestiona los frameworks. De esta manera se evitan problemas con los derechos de
                     acceso por parte del sistema operativo (especialmente Windows).</li>
                 <li>Crea un framework nuevo para su edición. Crea este framework como una extensión
-                    de <keyword>ediarum.BASE.edit</keyword> para que tenga acceso a todos los
+                    de <keyword>ediarum.BASE.edit</keyword> para que tenga acceso a todas las
                     funcionalidades de <keyword>ediarum</keyword>. Después de terminar la
                     configuración básica, puede guardar las configuraciones específicas de su
-                    entorno de edición dentro de este framework.</li>
+                    entorno editorial dentro de este framework.</li>
             </ul>
             <p>Conocimientos necesarios:</p>
             <ul>
-                <li>Conocimientos básicos de github</li>
+                <li>Conocimientos básicos de GitHub</li>
             </ul>
         </context>
         <steps>
@@ -82,9 +82,9 @@
                 </info>
             </step> 
             <step>
-                <cmd>Cambie la ubicación de almacenamiento de frameworks en <keyword>Oxygen
-                        <!-- XML Author --></keyword>, de modo que la ubicación nueva apunte a la
-                    carpeta que contiene todas las carpetas de framework.</cmd>
+                <cmd>Cambie la ubicación de almacenamiento de frameworks en <keyword>Oxygen XML
+                        Author</keyword>, de modo que la ubicación nueva apunte a la carpeta que
+                    contiene todas las carpetas de framework.</cmd>
                 <substeps>
                     <substep>
                         <cmd>Seleccione el menú <menucascade>
@@ -108,7 +108,7 @@
                 </substeps>
                 <info>
                     <fig>
-                        <image href="../../images/oxygen_DokTypeZuordnung_Orte.png"/>
+                        <image href="../../images/oxygen_DocTypeAs_Locations.PNG"/>
                     </fig>
                 </info>
             </step>
@@ -126,7 +126,7 @@
                         </menucascade> se muestran ambos frameworks de
                         <keyword>ediarum</keyword>.</p>
                     <fig>
-                        <image href="../../images/oxygen_DokTypZuordnung_Frameworks.png"/>
+                        <image href="../../images/oxygen_DocTypeAs_Frameworks.PNG"/>
                     </fig>
                 </stepresult>
             </step>
@@ -135,7 +135,7 @@
                 <substeps>
                     <substep>
                         <cmd>Seleccione el framework <uicontrol>ediarum.BASE.edit</uicontrol> en la
-                            página <uicontrol>Document Type Association</uicontrol> (No haga doble
+                            página <uicontrol>Document Type Association</uicontrol> (¡No haga doble
                             clic!) y haga clic en <uicontrol>Extend</uicontrol>.</cmd>
                     </substep>
                     <substep>
@@ -152,13 +152,13 @@
                     <substep>
                         <cmd>Indique la ruta hasta el archivo .framework que se encuentra dentro de
                             la carpeta de su edición. Por ejemplo:
-                                <userinput>ediarum.miEdición.edit/ediarum.miEdición.edit.framework</userinput>.
+                                <userinput>ediarum.miEdición.edit/ediarum.miedicion.edit.framework</userinput>.
                             Utilice el icono de carpeta para seleccionar el archivo.</cmd>
                     </substep>
                 </substeps>
                 <info>
                     <fig>
-                        <image href="../../images/oxygen_Framework_erweitern.png"/>
+                        <image href="../../images/oxygen_Framework_extender.PNG"/>
                     </fig>
                 </info>
             </step>
@@ -169,6 +169,6 @@
         </steps>
     </taskbody>
     <related-links>
-        <link href="../customization/ueberblick-konfiguration.dita"/>
+        <link href="../customization/resumen-configuracion.dita"/>
     </related-links>
 </task>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_ueberblick_konfig" xml:lang="es-ES">
+    <title>Configuración específica de ediciones</title>
+    <shortdesc>Si su edicion requiere una definición de esquema XML más completo que el que cubre
+        ediarum, puede extender el documento esquema y el entorno de trabajo. Además, puede crear
+        registros adicionales.</shortdesc>
+    <conbody>
+        <p>A partir de la configuración básica de ediarum tiene la posibilidad de realizar los
+            siguientes ajustes para su propio proyecto editorial:<ul id="ul_fyh_cx4_2gb">
+                <li>Configurando el framework creado para su edición, puede añadir o modificar
+                    botones y funciones.</li>
+                <li>Puede crear sus propios registros. </li>
+                <li>Puede incluir fondos bibliográficos que gestiona en el programa Zotero como un
+                    registro.</li>
+            </ul></p>
+    </conbody>
+</concept>

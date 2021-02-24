@@ -6,26 +6,30 @@
         <mainbooktitle>Guía de instalación y configuración de ediarum</mainbooktitle>
     </booktitle>
 	
-	<chapter href="ES/topics/setup/basis-setup.dita" navtitle="Basis-Setup"
+	<chapter href="ES/topics/setup/configuracion-basica.dita" navtitle="Instalación y configuración básica"
 		collection-type="sequence">
-		<topicref href="ES/topics/ueber-diese-anleitung.dita"/>
-		<topicref href="ES/topics/setup/ueberblick-basis-setup.dita"/>
-		<topicref href="ES/topics/setup/tips-oxygen-exist-installation.dita"/>
-		<topicref href="ES/topics/setup/db_einrichtung.dita" collection-type="sequence">
-			<topicref href="ES/topics/setup/db_app-installieren.dita"/>
-			<topicref href="ES/topics/setup/db_projekt-anlegen.dita"/>
+		<topicref href="ES/topics/sobre-esta-guia.dita"/>
+		<topicref href="ES/topics/setup/resumen_de_la_configuracion_basica.dita"/>
+		<topicref href="ES/topics/setup/tips-oxygen-exist-instalacion.dita"/>
+		<topicref href="ES/topics/setup/db_configuracion.dita" collection-type="sequence">
+			<topicref href="ES/topics/setup/db_instalar-aplicacion.dita"/>
+			<topicref href="ES/topics/setup/db_crear-proyecto.dita"/>
 			<topicref href="ES/topics/setup/db_activar-registros.dita"/>
-			<topicref href="ES/topics/setup/db_user-anlegen.dita"/>
+			<topicref href="ES/topics/setup/db_crear-usuario.dita"/>
 		</topicref>
-		<topicref href="ES/topics/setup/oxygen_einrichtung.dita" collection-type="sequence">
-			<topicref href="ES/topics/setup/oxygen_mit-db-verbinden.dita"/>
+		<topicref href="ES/topics/setup/oxygen_configuracion.dita" collection-type="sequence">
+			<topicref href="ES/topics/setup/oxygen_conectar-con-db.dita"/>
 			<topicref href="ES/topics/setup/oxygen_instalar-frameworks.dita"/>
-			<topicref href="ES/topics/setup/oxygen_projekt-anlegen.dita"/>
+			<topicref href="ES/topics/setup/oxygen_crear-proyecto.dita"/>
 		</topicref>
 	</chapter>
-		
-	<chapter href="ES/topics/customization/konfiguration.dita" navtitle="Editionsspezifische Konfiguration" collection-type="sequence">
-		<topicref href="ES/topics/customization/ueberblick-konfiguration.dita"/>
-		<topicref href="ES/topics/customization/register-anlegen.dita"/>
+	<chapter href="ES/topics/customization/configuracion.dita" navtitle="Configuración específica de ediciones" collection-type="sequence">
+		<topicref href="ES/topics/customization/resumen-configuracion.dita"/>
+		<topicref href="ES/topics/customization/crear-registros.dita"/>
+		<topicref href="ES/topics/customization/zotero_configuracion.dita" collection-type="sequence">
+			<topicref href="ES/topics/customization/zotero_conexion.dita"/>
+			<topicref href="ES/topics/customization/zotero_registro.dita"/>
+			<topicref href="ES/topics/customization/zotero_crear-registros.dita"/>
+		</topicref>
 	</chapter>
 </bookmap>

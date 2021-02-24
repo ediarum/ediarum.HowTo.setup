@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_psj_nwx_tfb" xml:lang="es-ES">
+    <title>Crear registros adicionales</title>
+    <shortdesc>Si necesita un registro que no está incluido por defecto en
+            <keyword>ediarum</keyword>, puede crearlo en <keyword>eXist-db</keyword> en la
+        aplicación <keyword>ediarum.DB</keyword> y luego vincularlo a Oxygen. </shortdesc>
+    <taskbody>
+        <context>Primero, hay que crear el registro en la aplicación <keyword>ediarum.DB</keyword>
+            de <keyword>eXist-db</keyword>.</context>
+        <steps>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
+            </step>
+            <step>
+                <cmd>Haga clic en el campo de su proyecto.</cmd>
+            </step>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Register</uicontrol>
+                    </menucascade> (“Configuración de proyectos → Registros”).</cmd>
+            </step>
+            <step>
+                <cmd>Asegúrese de que el registro que quiere crear no está ya incluido en la lista
+                    de registros mostrada.</cmd>
+            </step>
+            <step>
+                <cmd>En el campo <uicontrol>Neue Registeranbindung (Projekt)</uicontrol> (“Nueva
+                    conexión de registro (proyecto)”), haga clic en
+                        <uicontrol>Hinzufügen</uicontrol> (“Añadir”).</cmd>
+            </step>
+            <step>
+                <cmd>Especifique todos los parámetros en la ventana abierta.</cmd>
+                <info>
+                    <fig>
+                        <title>Ventana para introducir los parámetros del registro. (Para la
+                            traducción de los campos en alemán, véase la tabla de abajo. )</title>
+                        <image placement="break"
+                            href="../../../common/images/ediarumDB_neueRegisteranbindung.png"
+                            id="image_sq3_wf2_wfb"/>
+                    </fig>
+                    <table>
+                        <title>Valores de ejemplo, basados en un registro de unidades de medida </title>
+                        <tgroup cols="3">
+                            <colspec colnum="1" colname="c1" colwidth="114pt"/>
+                            <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
+                            <colspec colnum="3" colname="c3" colwidth="432.75pt"/>
+                            <thead>
+                                <row>
+                                    <entry/>
+                                    <entry>Valor de ejemplo</entry>
+                                    <entry>Explicación</entry>
+                                </row>
+                            </thead>
+                            <tbody>
+                                <row>
+                                    <entry>Estructura de una entrada de registro</entry>
+                                    <entry>
+                                        <codeblock outputclass="language-xml"><![CDATA[<item xml:id="real_espanol">
+<label>Real español</label>
+</item>]]></codeblock>
+                                    </entry>
+                                    <entry/>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>API-ID</uicontrol></entry>
+                                    <entry>units</entry>
+                                    <entry>El ID se puede elegir libremente, pero no debe contener
+                                        espacios ni caracteres especiales. Se especifica con las
+                                        variables de editor (“Editor Variables”).</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Bezeichnung</uicontrol>
+                                        (“Denominación”)</entry>
+                                    <entry>Unidades de medida</entry>
+                                    <entry>Nombre del registro, se puede seleccionar
+                                        libremente</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Registerordner/ -datei</uicontrol>
+                                        (“Carpeta/archivo de registro”)</entry>
+                                    <entry>Registros/Medidas.xml</entry>
+                                    <entry>Registros/NOMBRE.xml</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Namespace</uicontrol></entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                    <entry>tei:http://www.tei-c.org/ns/1.0</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Node</uicontrol></entry>
+                                    <entry>tei:item</entry>
+                                    <entry>se basa en la estructura del registro</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>XML-ID</uicontrol></entry>
+                                    <entry>@xml:id</entry>
+                                    <entry>@xml:id</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Span</uicontrol></entry>
+                                    <entry>//tei:label</entry>
+                                    <entry>se basa en la estructura del registro</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>Speichern</uicontrol> (“Guardar”). Si en algún momento
+                    quiere cancelar el proceso, puede hacer clic en <uicontrol>Schließen</uicontrol>
+                    (“Cerrar”).</cmd>
+                <stepresult>En la lista de registros ahora puede ver el nuevo registro. A través del
+                    bóton <uicontrol>API-Links</uicontrol> (“Enlaces de API”) se puede acceder a las
+                    URL para llamar al registro.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <link href="../setup/db_activar-registros.dita"/>
+    </related-links>
+    <task id="noch_generieren" xml:lang="es-ES">
+        <title>Crear variables de editor en Oxygen</title>
+        <shortdesc>Para utilizar las funciones específicas de los registros, deben definirse las
+            correspondientes variables de editor (“Editor Variables”).</shortdesc>
+    <taskbody>
+        <context>Basándose en los enlaces de API, ahora tiene que definir las variables de editor en
+                su proyecto de Oxygen para poder crear botones específicos para el registro, por
+                ejemplo para las acciones de inserción. Consejo: Utilice como guía las variables y
+                acciones de editor ya incluidas en ediarum para los registros estándares.
+                <!-- TO DO next docu-release: Die nötigen Schritte in Oxygen beschreiben: Schaltfläche anlegen, d.h. Aktion, darin Editorvariable, und anderes (größere Sache). Wer weiß das: Stefan, Martin, evtl. Nadine. --></context>
+        <steps>
+            <step>
+                    <cmd>Asegúrese de que el archivo de proyecto correcto (.xpr) está abierto en
+                        Oxygen. (Es posible que tenga que seleccionar el archivo correcto a través
+                        de  <menucascade>
+                            <uicontrol>Project</uicontrol>
+                            <uicontrol>Open Project...</uicontrol>
+                        </menucascade>.)</cmd>
+                </step>
+            <step>
+                    <cmd>Ahora seleccione <menucascade>
+                            <uicontrol>Options</uicontrol>
+                            <uicontrol>Preferences</uicontrol>
+                            <uicontrol>Custom Editor Variables [P]</uicontrol>
+                        </menucascade> (“Variables de editor definidas por el usuario”).</cmd>
+                </step>
+            <step>
+                    <cmd>Cree una nueva variable de editor con <uicontrol>New</uicontrol>.</cmd>
+                    <info>
+                        <fig>
+                            <title>Ventana para la nueva entrada de una variable de editor definida
+                                por el usuario</title>
+                            <image placement="break"
+                                href="../../../common/images/oxygen_editor-variables.PNG"/>
+                        </fig>
+                        <table>
+                            <title>Valores de la variable de editor definida por el usuario para la
+                                incorporación de un registro</title>
+                            <tgroup cols="3">
+                                <colspec colnum="1" colname="c1" colwidth="114pt"/>
+                                <colspec colnum="2" colname="c2" colwidth="220.75pt"/>
+                                <colspec colnum="3" colname="c3" colwidth="432.75pt"/>
+                                <thead>
+                                    <row>
+                                        <entry/>
+                                        <entry>Valor de ejemplo</entry>
+                                        <entry>Explicación</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry><uicontrol>Name</uicontrol></entry>
+                                        <entry>ediarum_index_<varname>ID DE LA API DADO EN
+                                                EDIARUM</varname></entry>
+                                        <entry>El nombre de la variable. Se utilizará más tarde en
+                                            funciones u otras variables de editor, y por lo tanto
+                                            debe ser comprensible y no contener espacios o
+                                            caracteres especiales.</entry>
+                                    </row>
+                                    <row>
+                                        <entry><uicontrol>Value</uicontrol></entry>
+                                        <entry>/oxygen/ediarum.xql?index=<varname>ID DE LA API DADO
+                                                EN EDIARUM</varname></entry>
+                                        <entry>El valor de la variable describe la URL (parcial) y,
+                                            en su caso, otras variables de editor a las que se debe
+                                            acceder. El acceso al registro se realiza a través de
+                                            ediarum.xql. Como ID de API se debe indicar el ID de API
+                                            que se ha definido previamente al crear una nueva
+                                            conexión de registro.</entry>
+                                    </row>
+                                    <row>
+                                        <entry><uicontrol>Description</uicontrol></entry>
+                                        <entry/>
+                                        <entry>Aquí puede introducir una descripción
+                                            opcional.</entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table>
+                    </info>
+                </step>
+            <step>
+                    <cmd>Para que las funciones de registro estén disponibles en ediarum, se debe
+                        asignar al atributo <xmlatt>telota:doctype</xmlatt> el valor
+                            <codeph>register</codeph> o un valor que termine en
+                            <codeph>register</codeph> en el documento que se va a editar.</cmd>
+                </step>
+            <step>
+                    <cmd>El registro ahora está configurado para el framework y se pueden definir
+                        las acciones para el trabajo editorial con el registro.</cmd>
+                </step>
+        </steps>
+    </taskbody>
+    </task>
+</task>

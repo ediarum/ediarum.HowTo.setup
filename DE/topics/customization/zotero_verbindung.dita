@@ -29,7 +29,7 @@
                 <info>
                     <fig>
                         <title>Fenster für den Eintrag von Register-Parametern</title>
-                        <image placement="break" href="../../../common/images/ediarumDB_zotero_verbindung.png"/>
+                        <image placement="break" href="../../images/ediarumDB_zotero_verbindung.png"/>
                     </fig>
                     <ul>
                         <li><uicontrol>Bezeichnung</uicontrol>: Der Name, unter dem die Verbindung angezeigt werden soll. Die Bezeichnung kann frei gewählt werden. Bsp. <userinput>MeineEdition-Zoterodatenbank</userinput></li>

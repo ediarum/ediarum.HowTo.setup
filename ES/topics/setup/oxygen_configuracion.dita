@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_oxygen_einrichtung" xml:lang="es-ES">
+    <title>Configurar el entorno de trabajo en Oxygen XML Author</title>
+    <shortdesc>Conecta <keyword>Oxygen XML Author</keyword> con eXist-db (la base de datos) y hace
+        disponible todas las funcionalidades contenidas en ediarum.</shortdesc>
+    <conbody>
+        <p>Utilice <keyword>Oxygen XML Author</keyword>, al menos la versión 20.1. Para la
+            configuración y el uso de ediarum también es posible utilizar el <keyword>Oxygen XML
+                Editor</keyword>.</p>
+    </conbody>
+</concept>

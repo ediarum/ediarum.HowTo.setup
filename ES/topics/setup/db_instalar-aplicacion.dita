@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_ediarumdb_installieren" xml:lang="es-ES">
+    <title>Instalar la aplicación ediarum.DB</title>
+    <shortdesc>Desde el dashboard de <keyword>eXist-db</keyword> instala la aplicación
+            <keyword>ediarum.DB</keyword> usando el archivo XAR. Después, su base de datos contiene
+        algunas funciones básicas y ajustes de acceso y puede usar la aplicación
+            <keyword>ediarum.DB</keyword>.</shortdesc>
+    <taskbody>
+        
+        <steps>
+            <step>
+                <cmd>Haga clic en el botón <uicontrol>Latest Release</uicontrol> en la página web
+                        <xref href="https://github.com/ediarum/ediarum.DB/releases" format="html"
+                        scope="external"/> y guarde el archivo
+                        <filepath>ediarum.db-〈version〉.xar</filepath> localmente</cmd>
+            </step>
+           
+            
+            <step>
+                <cmd>Inicie sesión en el dashboard de su eXist-db con derechos de administrador.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Abra la aplicación <uicontrol>Package Manager</uicontrol>.</cmd>
+                <info>
+                    <fig>
+                        <image placement="inline"
+                            href="../../../common/images/exist_packageManager.png"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en el botón <uicontrol>add a package</uicontrol> (“añadir un
+                    paquete”) y arrastra el archivo previamente guardado
+                        <filepath>ediarum.db-〈version〉.xar</filepath> a la ventana <uicontrol>Upload
+                        Packages</uicontrol>. Alternativamente, haga clic en
+                        <uicontrol>Upload</uicontrol> y seleccione el archivo XAR del explorador de
+                    archivos. Cierre la ventana <uicontrol>Package Manager</uicontrol></cmd>
+                <info>
+                    <fig>
+                        <image placement="inline"
+                            href="../../../common/images/exist_packageManager_uploadPackages.png"/>
+                    </fig>
+                </info>
+            </step>
+            
+        </steps>
+       <result>
+           <ul><li>En el dashboard ahora verá la aplicación <keyword>ediarum.DB</keyword>.<fig>
+                        <image placement="inline"
+                            href="../../../common/images/exist_dashboard_ediarum.png"
+                            id="image_cyr_1rb_1gb"/>
+                    </fig></li>
+               
+               <li>Lo siguiente se ha instalado en su <keyword>eXist-db</keyword>: <ul>
+                        <li>Grupos de usuarios: <keyword>website</keyword>,
+                                <keyword>oxygen</keyword></li>
+                        <li>Usuarios: <keyword>exist-bot</keyword>, <keyword>oxygen-bot</keyword>,
+                                <keyword>website-user</keyword>, con las correspondientes
+                            contraseñas del mismo nombre </li>
+                        <li>Derechos de acceso a los directorios y procesos necesarios</li>
+                    </ul></li>
+           </ul>
+       </result>
+       
+    </taskbody>
+    <related-links>
+        <linkpool>
+            <link href="https://github.com/ediarum/ediarum.DB/blob/master/INSTALLATION.md"
+                format="html" scope="external"/>
+        </linkpool>
+    </related-links>
+</task>
