@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="oxygen_mit_exist_verbinden" xml:lang="es-ES">
+    <title>Conectar Oxygen a la base de datos</title>
+    <shortdesc>Configura la conexión para el acceso de lectura y escritura desde la interfaz de
+        entrada a los archivos XML. La conexión WebDAV evita conflictos de escritura entre
+        diferentes usuarios y usuarias.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Abra el <keyword>Oxygen XML Author</keyword>.</cmd>
+            </step>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Preferences</uicontrol>
+                    </menucascade></cmd>
+            </step>
+            <step>
+                <cmd> En la ventana de <uicontrol>Preferences</uicontrol> que se ha abierto,
+                    seleccione la entrada <uicontrol>Data Sources</uicontrol> en la columna de la
+                    izquierda.</cmd>
+            </step>
+            <step>
+                <cmd>Haga clic en el botón “+” en la mitad inferior
+                        (<uicontrol>Connections</uicontrol>) para crear una nueva conexión.</cmd>
+            </step>
+            <step>
+                <cmd>Rellene los campos en la ventana <uicontrol>Connection</uicontrol> que se ha
+                    abierto.</cmd>
+                <info>
+                    <image href="../../images/oxygen_DB-conexion.PNG" placement="break"
+                        id="image_ynk_yd4_4fb"/>
+                    <ul id="ul_znk_yd4_4fb">
+                        <li><uicontrol>Name</uicontrol>: Nombre de esta conexión, por ejemplo,
+                                <userinput>miEdición</userinput>. Sirve para distinguir esta
+                            conexión de otras conexiones a la base de datos que ha definido en
+                            Oxygen. No tiene que ser idéntico con el nombre del proyecto en la
+                            eXist-db.</li>
+                        <li><uicontrol>Data Source</uicontrol>: <userinput>WebDAV
+                            (S)FTP</userinput></li>
+                        <li><uicontrol>WebDAV</uicontrol>: Ruta a los datos de su proyecto en su
+                            instancia eXist, siguiendo el patrón::
+                                    <userinput>http://<varname>HOST:PORT</varname>/webdav/db/projects/<varname>PROYECTO</varname>/data</userinput>.
+                            Por ejemplo:<ul>
+                                <li>https://miInstituto.de/exist/webdav/db/projects/miEdicion/data</li>
+                                <li>http://localhost:8080/exist/webdav/db/projects/miEdicion/data</li>
+                            </ul>
+                        </li>
+                        <li><uicontrol>User</uicontrol>, <uicontrol>Password</uicontrol>: Detalles
+                            de la cuenta de usuario que ha creado en la aplicación
+                                <keyword>ediarum.DB</keyword> en <keyword>eXist-db</keyword> (<menucascade>
+                                <uicontrol>Verwaltung</uicontrol>
+                                <uicontrol>Projekte</uicontrol>
+                                <uicontrol>Projektkonfiguration</uicontrol>
+                                <uicontrol>Benutzer</uicontrol>
+                            </menucascade>, “Gestión → Proyectos → Configuración de proyectos →
+                            Usuarios”). </li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Compruebe la conexión a la base de datos:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Seleccione el menú <menucascade>
+                                <uicontrol>Window</uicontrol>
+                                <uicontrol>Show View</uicontrol>
+                                <uicontrol>Data Source Explorer</uicontrol>
+                            </menucascade>.</cmd>
+                        <stepresult>La conexión establecida se muestra en el explorador de fuentes
+                            de datos (aquí: miEdición).</stepresult>
+                    </substep>
+                    <substep>
+                        <cmd>Haga clic en la flecha al lado de la conexión para abrir el arból de
+                            carpetas.</cmd>
+                        <info><image href="../../images/oxygen_DataSourceExplorer.PNG"
+                                id="image_lng_vyv_xfb"/></info>
+                        <stepresult>La estructura es idéntica al arból de carpetas que se muestra en
+                            eXist-db en la página principal de su proyecto (en la aplicación
+                                <keyword>ediarum.DB</keyword>: <menucascade>
+                                <uicontrol>Verwaltung</uicontrol>
+                                <uicontrol>Projekte</uicontrol>
+                            </menucascade>, “Gestión → Proyectos”). Tiene acceso a las carpetas
+                                <uicontrol>Briefe</uicontrol> (“Cartas”) y
+                                <uicontrol>Register</uicontrol> (“Registros”) y puede cambiar el
+                            nombre de las mismas.</stepresult>
+                    </substep>
+                </substeps>
+            </step>
+                        
+        </steps>
+        <tasktroubleshooting>
+            
+            <p>Si las carpetas no se pueden expandir y aparece un mensaje de error:</p>
+                
+                    <ol>
+                        <li>Compruebe la exactitud de sus datos en la ventana
+                        <uicontrol>Connection</uicontrol>, en particular: <ul>
+                        <li><uicontrol>WebDAV</uicontrol>: ¿Ha introducido la ruta hasta el nivel
+                                <userinput>.../data</userinput>?</li>
+                        <li><uicontrol>User</uicontrol>, <uicontrol>Password</uicontrol>: ¿Son los
+                            detalles idénticos a los de la aplicación <keyword>ediarum.DB</keyword>
+                            in eXist-db?</li>
+                        <li>Disponibilidad: También puede comprobar la exactitud y  disponibilidad
+                            abriendo la ruta correspondiente en su navegador (introduciendo el
+                            usuario y la contraseña). Su navegador debería entonces mostrarle una
+                            salida XML con los detalles de la carpeta.</li>
+                    </ul>
+                </li>
+                        <li>Haga clic con el botón derecho del ratón en su edición en el
+                        <uicontrol>Data Source Explorer</uicontrol> y haga clic en
+                        <uicontrol>Refresh</uicontrol> en el menú de contexto.</li>
+                        </ol>
+               
+        </tasktroubleshooting>
+       
+    </taskbody>
+    <related-links>
+        <linklist>
+            <link href="https://www.oxygenxml.com/doc/versions/20.1/ug-editor/index.html"
+                format="html" scope="external">
+                <linktext>Documentación sobre, entre otras cosas, las conexiones a las bases de
+                    datos (en inglés)</linktext>
+            </link>
+        </linklist>
+    </related-links>
+</task>

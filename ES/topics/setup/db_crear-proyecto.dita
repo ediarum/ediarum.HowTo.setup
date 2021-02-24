@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="exist_projekt_anlegen" xml:lang="es-ES">
+    <title>Crear un proyecto en la base de datos</title>
+    <shortdesc>En la base de datos debe existir un proyecto para su edición con una estructura de
+        almacenamiento estandarizada y algunos ajustes estandarizados. Para crear  los estándares
+        correctamente de forma automatizada, use la aplicación
+        <keyword>ediarum.DB</keyword>.</shortdesc>
+    <taskbody>
+        <prereq>Ha inciado sesión en el dashboard de su <keyword>eXist-db</keyword> con derechos de
+            administrador.</prereq>
+        <steps>
+            <step>
+                <cmd>Abra la aplicación <keyword>ediarum.DB</keyword>.</cmd>
+                <info>
+                    <fig>
+                        <image placement="inline"
+                            href="../../../common/images/exist_dashboard_ediarum.png"
+                            id="image_cyr_1rb_1gb"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>En la aplicación, seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
+            </step>
+            <step>
+                <cmd>En el campo <uicontrol>Neues Projekt</uicontrol> (“Nuevo Proyecto”), introduzca
+                    un nombre de proyecto para su edición y haga clic en
+                        <uicontrol>Anlegen!</uicontrol> (“¡Crear!”).</cmd>
+                <info>Debe indicar el nombre del proyecto más tarde para la conexión a la base de
+                    datos. <b>¡No utilice espacios o caracteres especiales!</b><image
+                        placement="break" href="../../images/ediarumDB_nuevoProyecto.PNG"
+                        id="image_hfh_kht_bgb"/></info>
+                <stepresult>
+                    <p>En la base de datos se crea una nueva carpeta con el nombre elegido.</p>
+                    <p>La lista de proyectos que se muestra ahora contiene su proyecto. Si haga clic
+                        en su proyecto, verá la estructura de carpetas donde se almacenan los
+                        archivos XML de su edición. Después de completar la configuración básica,
+                        puede cambiar el nombre de las carpetas en <keyword>Oxygen XML
+                            Author</keyword>.<image placement="break"
+                            href="../../images/ediarumDB_Carpetas.PNG"
+                            id="image_jqh_3d2_wfb"/></p>
+                </stepresult>
+            </step>
+           
+        </steps>
+    </taskbody>
+</task>

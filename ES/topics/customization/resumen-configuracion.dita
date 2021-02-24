@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="oxygen_framework_kaskade" xml:lang="es-ES">
+    <title>Sobre los frameworks de Oxygen y las características específicas de ediarum</title>
+    <shortdesc>El proceso básico de configuración a través de los llamados “Frameworks” se encuentra
+        en la documentación de Oxygen. Ediarum proporciona algunos módulos estándares para esta
+        configuración.<?oxy_comment_start author="notroff" timestamp="20200329T162713+0200" comment="Optional: Sie können den Ordner &quot;Briefe&quot; umbenennen und Unterordner anlegen, sodass die Ablagestruktur zu Ihren zu edierenden Texten passt.
+Nehmen Sie für das Basis Setup vorerst keine Änderungen am oder im Ordner &quot;Register&quot; vor. Solche Änderungen erfordern Änderungen an den Editorvariablen. Das Vorgehen, wie Sie Register anpassen und eigene Register anlegen können, wird in der Konfigurations-Dokumentation beschrieben.
+"?></shortdesc><?oxy_comment_end?>
+    <conbody>
+        <section>
+            <title>Componentes de framework</title>
+            <p>En el framework, la interfaz de usuario de Oxygen para su proyecto de Oxygen está
+                definida con su modelo de datos (estructura de documentos XML), si es necesario para
+                diferentes tipos de documentos (por ejemplo cartas, manuscritos, cuadernos). Esta
+                interfaz de usuario incluye los siguientes elementos: <ul>
+                    <li>Plantillas para nuevos documentos, para que los editores y editoras no
+                        tengan que construir la estructura XML “desde cero” (plantilla XML).</li>
+                    <li>El contenido XML de la pestaña “Author” tiene un diseño fácil de leer, es
+                        decir, una interfaz de escritura del tipo “What-you-see-is-what-you-get”,
+                        para que los editores y editoras no tengan que escribir directamente en XML
+                        y puedan revisar el texto de forma clara y cercana a la publicación. </li>
+                    <li>Botones y acciones en la barra de herramientas, para que los editores y
+                        editoras puedan insertar elementos XML y valores de atributos con un clic y
+                        en campos de entrada sin tener que conocer los elementos XML
+                        necesarios.</li>
+                    <li>Si es necesario, escenarios de transformación (“Transformation Scenario”)
+                        que proporcionan diferentes diseños de publicación, por ejemplo para
+                        correcciones.</li>
+                </ul>En su propio framework extendido puede configurar elementos personalizados para
+                la interfaz de usuario de Oxygen.</p>
+        </section>
+        <section><title>Componentes de configuración</title>El framework se compone de una colección
+            de archivos. Algunos aspectos de la configuración se realizan directamente en los
+            archivos, para otros se utiliza el cuadro de diálogo <uicontrol>Document
+                type</uicontrol>.<table frame="all" rowsep="1" colsep="1" id="table_uzk_myb_pfb">
+                <title>Componentes de configuración</title>
+                <tgroup cols="4">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.31*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colnum="4" colname="c4" colwidth="1.32*"/>
+                    <thead>
+                        <row>
+                            <entry>Componente</entry>
+                            <entry/>
+                            <entry>Almacenamiento</entry>
+                            <entry>Modificación</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>¿Qué puede configurar?</entry>
+                            <entry/>
+                            <entry>¿Dónde almacena Oxygen XML Author sus configuraciones?</entry>
+                            <entry>¿De qué manera se pueden cambiar las configuraciones?</entry>
+                        </row>
+                        <row>
+                            <entry>Definición de esquema</entry>
+                            <entry>Documento esquema de XML (Requisitos de estructura)</entry>
+                            <entry>Archivo RNG</entry>
+                            <entry>Editar el archivo RNG</entry>
+                        </row>
+                        <row>
+                            <entry>Plantilla</entry>
+                            <entry>Plantilla para nuevos documentos XML</entry>
+                            <entry>Archivo XML</entry>
+                            <entry>Editar el archivo XML</entry>
+                        </row>
+                        <row>
+                            <entry>Funcionalidades de la GUI</entry>
+                            <entry>Elementos y funcionalidades de la GUI que Oxygen XML Author
+                                proporciona en el modo “Author”</entry>
+                            <entry>Archivo FRAMEWORK</entry>
+                            <entry>En la pestaña <uicontrol>Author</uicontrol> de la ventana
+                                    <uicontrol>Document type</uicontrol>: <menucascade>
+                                    <uicontrol>Options</uicontrol>
+                                    <uicontrol>Preferences</uicontrol>
+                                    <uicontrol>Document Type Association</uicontrol>
+                                </menucascade>, seleccione el framework correspondiente</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></section>
+        <section>
+            <title>Las características específicas de ediarum para la configuración a través del
+                framework</title>
+            <p>Estructura de derivación: <keyword>ediarum.BASE.edit</keyword> trabaja con el modelo
+                de datos del DTA-Basisformat (“formato básico del DTA”, un subconjunto de XML-TEI) y lo
+                extiende en algunos puntos. Para su propio proyecto editorial extiende el modelo de
+                datos de <keyword>ediarum.BASE.edit</keyword>. Por lo tanto, el modelo de datos de
+                su proyecto editorial al final contiene diferentes partes genéricas que se derivan
+                unas de otras: DTA-Basisformat > ediarum.BASE.edit > partes de la definición de
+                esquema específicas del proyecto. Según esta estructura de derivación en el modelo
+                de datos, los frameworks también se derivan uno del otro. </p>
+            <p>Nombres de archivos y estructuras de carpetas: <keyword>ediarum</keyword> sigue sus
+                propias convenciones para nombrar y almacenar los archivos de configuración, entre
+                otras cosas para permitir la entrega fácil de un framework. Es recomendable utilizar
+                la estructura y el contenido de la carpeta <keyword>ediarum.BASE.edit</keyword> como
+                guía.</p>
+            <p>Las “operaciones” de <keyword>Oxygen</keyword>: Las funcionalidades de la GUI
+                esencialmente se componen de las llamadas “Operations”, es decir, módulos de
+                comandos a partir de los cuales puede montar su propias funciones y adaptarlas a su
+                edición mediante parámetros. Hay operaciones que son proporcionadas por Oxygen XML
+                Author y aquellas que han sido programadas y proporcionadas especialmente para
+                ediarum. El archivo <keyword>ediarum.jar</keyword> contiene las operaciones
+                específicas de <keyword>ediarum</keyword> que puede utilizar.</p>
+            <p>“Editor Variables” de <keyword>Oxygen</keyword>: Las operaciones proporcionadas por
+                Oxygen XML Author y por ediarum y algunos otros componentes de configuración
+                pretenden ser simples y reutilizables de muchas maneras. Por lo tanto, siempre que
+                se requiere información específica al contexto, se utilizan marcadores de posición
+                (variables) en lugar de valores concretos, por ejemplo para el nombre del proyecto y
+                la ruta del archivo, de la carpeta y de la URL. Los valores de las llamadas “Editor
+                Variables” se definen una vez en un lugar central. Para la configuración específica
+                de su edición, debe indicar los valores de las variables de editor específicas del
+                proyecto y, si es necesario, crear sus propias variables de editor, por ejemplo para
+                tipos de registro adicionales. Se recomienda continuar de forma coherente con las
+                convenciones de denominación de las variables de editor existentes.</p>
+        </section>
+    </conbody>
+    <related-links scope="external" format="html">
+        <link
+            href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial">
+            <linktext>Manual de Oxygen para la personalización de un framework (en
+                inglés)</linktext>
+        </link>
+    </related-links>
+</concept>

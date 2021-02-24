@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_projekt_anlegen" xml:lang="es-ES">
+    <title>Crear un proyecto en el Oxygen XML Author</title>
+    <shortdesc><?oxy_comment_start author="Linda Kirsten" timestamp="20210112T211029+0100" comment="Was heisst &quot;Register-Lookup&quot;??"?>Para
+        la búsqueda en los registros<?oxy_comment_end?> se necesita una conexión a la base de datos
+        separada. Se guarda en un proyecto de <keyword>Oxygen</keyword> utilizando las llamadas
+        “Editor Variables” (variables de editor).</shortdesc>
+    <taskbody>
+        <context>Para la configuración básica de <keyword>ediarum</keyword>, al menos las variables
+            de editor necesarias para la búsqueda en los registros deben ser guardadas en el
+            proyecto. Una variable de editor es una descripción genérica en la herramienta
+                <keyword>Oxygen XML “Editor”</keyword> (o <keyword>Oxygen XML Author</keyword>).
+                <keyword>Oxygen XML Author</keyword> almacena estos ajustes en un archivo con la
+            extensión XPR. Después de la configuración básica, el “proyecto” sirve como contenedor
+            para otras configuraciones específicas de su edición.</context>
+        <steps>
+            <step>
+                <cmd>Seleccione <menucascade>
+                        <uicontrol>Project</uicontrol>
+                        <uicontrol>New Project</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>En la ventana <uicontrol>New Project</uicontrol> que se ha abierto ahora,
+                    seleccione la carpeta del framework de su edición.</cmd>
+            </step>
+            <step>
+                <cmd>Introduzca un nombre para el archivo de proyecto (por ejemplo:
+                        <userinput>miEdicion.xpr</userinput>) y haga clic en
+                        <uicontrol>Guardar</uicontrol>.</cmd>
+                <info>
+                    <fig>
+                        <image href="../../images/oxygen_ProyectoUbicacion.PNG" width="600"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Especifique que las variables de editor se guardan en el proyecto:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Seleccione el menú <menucascade>
+                                <uicontrol>Options</uicontrol>
+                                <uicontrol>Preferences</uicontrol>
+                            </menucascade>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Seleccione la entrada <uicontrol>Custom Editor Variables</uicontrol> en
+                            la ventana <uicontrol>Preferences</uicontrol> que se ha abierto
+                            ahora.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Active la opción <uicontrol>Project Options</uicontrol> y haga clic en
+                                <uicontrol>Apply</uicontrol>.</cmd>
+                    </substep>
+                </substeps>
+                <stepresult>La entrada <uicontrol>Custom Editor Variables</uicontrol> ahora está
+                    marcada con una <uicontrol>[P]</uicontrol> y se muestra en negrita.</stepresult>
+            </step>
+            <step>
+                <cmd>En la ventana <uicontrol>Editor Variable</uicontrol> que se ha abierto ahora,
+                    haga clic en <uicontrol>New</uicontrol> e introduzca las variables de editor
+                    ${ediarum_project_name} y ${ediarum_project_domain} junto con sus valores.</cmd>
+                <info>
+                    <!-- SD: es fehlen eigentlich noch weitere Editorvariablen, hier am besten Rücksprache mit mir, das geht schneller, denke ich -->
+                    <table>
+                        <tgroup cols="3">
+                            <tbody>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_project_name}</entry>
+                                    <entry>El valor tiene que coincidir con el nombre de proyecto
+                                        especificado en eXist-db.</entry>
+                                    <entry><uicontrol>Value:</uicontrol> (ejemplo) miEdicion</entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_project_domain}</entry>
+                                    <entry>URL básico de la base de datos. El valor tiene que
+                                        incluir el dominio y, si es el caso, el puerto del servidor
+                                        y las credenciales del servidor.</entry>
+                                    <entry><uicontrol>Value:</uicontrol> (ejemplo)
+                                        http://oxygen-bot:******@example.de:8028</entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>Apply</uicontrol> y <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Compruebe si las siguientes variables de editor para la conexión a la base de
+                    datos están configuradas adecuadamente para su
+                    infraestructura.<?oxy_comment_start author="notroff" timestamp="20191227T163204+0100" comment="TODO: Content Review: Stefan, macht das so Sinn? Wie/wo findet man raus, ob man selbst &quot;exist&quot; oder &quot;ediarum&quot; oder etwas anderes im Pfad braucht? Z.B. ist das direkt aus dem ableitbar, was man vorher im &quot;Verbindungs&quot;-Fenster eingegeben hat?"?></cmd><?oxy_comment_end?>
+                <info>
+                    <table>
+                        <tgroup cols="3">
+                            <tbody>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_projects_directory}</entry>
+                                    <entry>Ruta a las carpetas del proyecto en la eXist-db a través
+                                        de una conexión REST.</entry>
+                                    <entry>
+                                        <p><uicontrol>Value:</uicontrol> (estandár)
+                                            /exist/rest/db/projects/</p>
+                                        <p>En lugar de <userinput>exist</userinput>, si es
+                                            necesario, otra indicación, por ejemplo
+                                                <userinput>ediarum</userinput></p>
+                                    </entry>
+                                </row>
+                                <row>
+                                    <entry><uicontrol>Name:</uicontrol>
+                                        ${ediarum_projects_directory_webdav}</entry>
+                                    <entry>Ruta a las carpetas del proyecto en la eXist-db a través
+                                        de una conexión WebDAV.</entry>
+                                    <entry>
+                                        <p><uicontrol>Value:</uicontrol> (estandár)
+                                            /exist/webdav/db/projects/</p>
+                                        <p>En lugar de <userinput>exist</userinput>, si es
+                                            necesario, otra indicación, por ejemplo
+                                                <userinput>ediarum</userinput></p>
+                                    </entry>
+                                </row>
+                            </tbody>
+                        </tgroup>
+                    </table>
+                </info>
+            </step>
+            <step>
+                <cmd>Si ha realizado cambios, haga clic en <uicontrol>Apply</uicontrol> y
+                        <uicontrol>OK</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result>Si abre la plantilla de documento del framework <keyword>ediarum.BASE.edit</keyword> (<menucascade>
+                <uicontrol>File</uicontrol>
+                <uicontrol>Open...</uicontrol>
+                <uicontrol>.../frameworks/ediarum.BASE.edit/templates</uicontrol>
+            </menucascade>), los botones específicos de ediarum se muestran en el “Author mode”.
+            Ahora puede editar documentos y cartas y trabajar con los registros activados. </result>
+    </taskbody>
+    <related-links>
+        <link href="https://www.ediarum.org/docs/ediarum.BASE.manual/" format="html"
+            scope="external">
+            <linktext><?oxy_comment_start author="Linda Kirsten" timestamp="20210205T211134+0100" comment="Link noch ändern, sobald auch das spanischsprachige Manual online ist"?>Manual
+                de las funciones de ediarum<?oxy_comment_end?></linktext>
+        </link>
+        <link
+            href="https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/editor-variables.html"
+            format="html" scope="external">
+            <linktext>¿Qué es una “Editor Variable”? (Documentación de Oxygen en inglés)</linktext>
+        </link>
+        
+    </related-links>
+</task>

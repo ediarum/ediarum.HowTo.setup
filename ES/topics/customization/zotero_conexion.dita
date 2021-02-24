@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_zotero_verbindung" xml:lang="es-ES">
+    <title>Establecer una conexión con Zotero</title>
+    <shortdesc>Para utilizar los fondos bibliográficos de <keyword>Zotero</keyword> en
+            <keyword>ediarum</keyword>, primero se debe establecer una conexión con un grupo de
+        Zotero.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>En la aplicación ediarum.DB, seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
+            </step>
+            <step>
+                <cmd>Haga clic en el campo de su proyecto.</cmd>
+            </step>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Zotero</uicontrol>
+                    </menucascade> (“Configuración de proyectos → Zotero”).</cmd>
+            </step>
+            <step>
+                <cmd>En el campo <uicontrol>Neue Verbindung</uicontrol> (“Nueva conexión”), haga
+                    clic en el botón <uicontrol>Hinzufügen!</uicontrol> (“Añadir”).</cmd>
+            </step>
+            <step>
+                <cmd>Especifique todos los parámetros en la ventana abierta.</cmd>
+                <info>
+                    <fig>
+                        <title>Ventana “Conexión con el grupo de Zotero” para introducir los
+                            parámetros del registro. (Para la traducción de los campos en alemán,
+                            véase la lista de abajo.)</title>
+                        <image placement="break"
+                            href="../../images/zotero_ConexionGrupo.PNG"/>
+                    </fig>
+                    <ul>
+                        <li><uicontrol>Bezeichnung</uicontrol> (“Denominación”): El nombre bajo el
+                            que se mostrará la conexión. El nombre se puede elegir libremente. Por
+                            ejemplo <userinput>MiEdición-Zotero</userinput></li>
+                        <li><uicontrol>Gruppen-ID</uicontrol> (“ID del grupo”): El ID numérico del
+                            grupo asignado por Zotero. <ul>
+                                <li>En el caso de grupos privados, el ID se puede ver directamente
+                                    en la URL. Por ejemplo https://www.zotero.org/groups/00001</li>
+                                <li>Para grupos públicos: <ul>
+                                        <li>Abra la página web de la biblioteca del grupo.</li>
+                                        <li>Busque el enlace <uicontrol>Subscribe to this
+                                                feed</uicontrol>.</li>
+                                        <li>El número que aparece en el enlace después de
+                                                <uicontrol>groups/</uicontrol> es el ID buscado.
+                                            (Otros elementos como <uicontrol>items</uicontrol>
+                                            pueden seguir al ID, pero aún así sólo consiste en el
+                                            área entre <uicontrol>groups/</uicontrol> y
+                                                <uicontrol>/items</uicontrol>.) Así, ejemplos de
+                                            enlaces para el ID 23456 son: <ul>
+                                                <li>https://www.zotero.org/groups/23456</li>
+                                                <li>https://www.zotero.org/groups/23456/items</li>
+                                            </ul></li>
+                                    </ul></li>
+                            </ul></li>
+                        <li><uicontrol>API Schlüssel</uicontrol> (“Clave de API”): La clave de API
+                            asignada por Zotero para que el grupo pueda ser sincronizado a través de
+                            la API de Zotero. La clave se compone de dígitos, letras mayúsculas y
+                            minúsculas, y está definida por el usuario. Por ejemplo:
+                                https://www.zotero.org/settings/keys/edit/<varname>CLAVE-API</varname>.
+                            En caso de que la clave aún tenga que ser creada: <ul>
+                                <li>Abra la página web de configuraciones
+                                        <uicontrol>settings</uicontrol> de un usuario que tenga
+                                    acceso al grupo de Zotero que quiere configurar.</li>
+                                <li>Abra la página <uicontrol>feeds/API</uicontrol> y cree una nueva
+                                    clave. Asegúrese de que el grupo de Zotero que quiere crear
+                                    tiene acceso de lectura, pero que todos los demás grupos (si hay
+                                    más de uno) no tienen derechos de acceso.</li>
+                            </ul></li>
+                        <li><uicontrol>Bibliographie-Stil</uicontrol> (“Estilo bibliográfico”): El
+                            estilo de bibliografía utilizado (por ejemplo APA). También puede
+                            dejarse vacío.</li>
+                    </ul>
+                </info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>Speichern</uicontrol> (“Guardar”). Si en algún momento
+                    quiere cancelar el proceso, puede hacer clic en <uicontrol>Schließen</uicontrol>
+                    (“Cerrar”).</cmd>
+                <stepresult>Para cada grupo de Zotero configurado, ahora hay varias acciones para
+                    elegir en la aplicación ediarum.DB: <ul>
+                        <li><uicontrol>Update</uicontrol> (“Actualización”): Sincroniza las entradas
+                            modificadas o añadidas desde la última sincronización o actualización.
+                            Antes de poder realizar una actualización, la conexión debe haberse
+                            sincronizado una vez.</li>
+                        <li><uicontrol>Synchronisieren</uicontrol> (“Sincronizar”): Elimina todas
+                            las entradas existentes de la base de datos y vuelve a descargar todas
+                            las entradas existentes en el grupo Zotero. (Nota: este proceso puede
+                            durar unos dos minutos por cada 1000 entradas.)</li>
+                        <li><uicontrol>Bearbeiten</uicontrol> (“Editar”): Las configuraciones
+                            anteriormente mencionadas pueden ser modificadas.</li>
+                        <li><uicontrol>Löschen</uicontrol> (“Eliminar”): Se elimina la
+                            conexión.</li>
+                    </ul>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

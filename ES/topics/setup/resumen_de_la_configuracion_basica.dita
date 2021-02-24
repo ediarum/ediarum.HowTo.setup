@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ediarum" xml:lang="es-ES">
+    <title>Resumen de la configuración básica</title>
+    <shortdesc><keyword>ediarum</keyword> está disponible en GitHub, en forma de componentes de
+        configuración para <keyword>Oxygen XML Author</keyword> (los llamados frameworks) y para la
+        base de datos XML <keyword>eXist-db</keyword> (las llamadas aplicaciones).</shortdesc>
+    <conbody>
+        <section><p><keyword>ediarum</keyword> se basa en dos programas:</p><ul>
+                <li><keyword>Oxygen XML Author</keyword>: Editor XML para crear los textos de la
+                    edición como archvios XML.</li>
+                <li><keyword>eXist-db</keyword>: Base de datos XML en la que se almacenan los
+                    archivos XML editados.</li>
+            </ul><p>En ambos programas es posible configurar y extender las funcionalidades. Además,
+                es posible pasar estas configuraciones agrupadas a otras instancias del programa,
+                por ejemplo a todos los miembros de su grupo de trabajo.</p><ul>
+                <li>En <keyword>Oxygen XML Author</keyword> puede crear sus propios elementos de
+                    interfaz gráfica para funciones de edición de XML. El contenedor en el que se
+                    almacenan estas funcionalidades complementarias se llama “framework” o “Document
+                    Type Association” en <keyword>Oxygen XML Author</keyword>. En este manual se
+                    utiliza el término “framework”. </li>
+                <li>En <keyword>eXist-db</keyword> puede crear aplicaciones web con funcionalidades
+                    de base de datos. Estas aplicaciones web se denominan “Apps” en
+                        <keyword>eXist-db</keyword>.</li>
+            </ul> Después de haber completado exitosamente la configuración básica de ediarum,
+            encontrará varios de estos frameworks Oxygen y aplicaciones eXist, así como dos
+            “proyectos” en su entorno local:<p>En Oxygen:</p><ul>
+                <li>Frameworks: <ul>
+                        <li>ediarum.BASE.edit</li>
+                        <li>ediarum.REGISTER.edit</li>
+                        <li>ediarum.miEdición.edit </li>
+                    </ul></li>
+                <li>Proyecto: Contiene la configuración de una interfaz REST con la base de
+                    datos.</li>
+            </ul><p>En eXist-db:</p><ul>
+                <li>App: ediarum.DB</li>
+                <li>Proyecto: Contiene las estructuras de almacenamiento de datos y las
+                    configuraciones de base de datos específicas de ediarum.</li>
+            </ul></section>
+        <section>
+            <p>Los componentes se instalan y configuran en el siguiente orden: </p>
+            <ol>
+                <li>Instalar <keyword>eXist-db</keyword> y <keyword>Oxygen XML Author</keyword></li>
+                <li><keyword>eXist-db</keyword>: Configurar la aplicación
+                        <keyword>ediarum.DB</keyword> y crear un proyecto</li>
+                <li>Configurar la conexión WEBDAV entre <keyword>eXist-db</keyword> y
+                        <keyword>Oxygen XML Author</keyword></li>
+                <li><keyword>Oxygen XML Author</keyword>: Configurar los frameworks
+                        <keyword>ediarum.BASE.edit</keyword> y
+                        <keyword>ediarum.REGISTER.edit</keyword>. Crear su propio framework
+                        <keyword>ediarum.miEdición.edit</keyword>, que extiende
+                        <keyword>ediarum.BASE.edit</keyword>.</li>
+                <li><keyword>Oxygen XML Author</keyword>: Crear un proyecto.</li>
+            </ol>
+        </section>
+    </conbody>
+    <related-links>
+        <link href="https://github.com/ediarum" format="html" scope="external"/>
+        <link href="https://www.oxygenxml.com" format="html" scope="external"/>
+        <link href="http://exist-db.org" format="html" scope="external"/>
+    </related-links>
+</concept>

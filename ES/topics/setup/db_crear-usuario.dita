@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_plw_hqc_yfb" xml:lang="es-ES">
+    <title>Crear una cuenta de usuario</title>
+    <shortdesc>Las cuentas de usuario en la aplicación <keyword>ediarum.DB</keyword> son necesarias
+        para que los editores y editoras puedan conectar sus instancias de Oxygen a la
+        eXist-db.</shortdesc>
+    <taskbody>
+
+        <prereq>En su eXist-db, ha abierto la aplicación <keyword>ediarum.DB</keyword> con derechos
+            de administrador.</prereq>
+        <context> Necesita al menos una cuenta de usuario para poder configurar la conexión a la
+            base de datos en el proceso de configuración más tarde. Si lo desea, puede crear más
+            cuentas de usuario a la vez - una cuenta por cada editor.</context>
+        <steps>
+            <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Verwaltung</uicontrol>
+                        <uicontrol>Projekte</uicontrol>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
+            </step>
+
+                <step>
+                <cmd>Haga clic en su proyecto para abrir la página pincipal de su proyecto.</cmd>
+            </step>
+                <step>
+                <cmd>Seleccione el menú <menucascade>
+                        <uicontrol>Projektkonfiguration</uicontrol>
+                        <uicontrol>Benutzer</uicontrol>
+                    </menucascade> (“Configuración de proyectos → Usuarios”).</cmd>
+            </step>
+            <step>
+                <cmd>En el campo <uicontrol>Neues Projektmitglied</uicontrol> (“Nuevo miembro del
+                    proyecto”), introduzca un nombre de usuario y una contraseña.</cmd>
+                <info>El nombre de usuario es el nombre que deberá indicar más tarde para la
+                    conexión a la base de datos. <b>¡No utilice espacios o caracteres
+                        especiales!</b><image placement="break"
+                        href="../../images/ediarumDB_nuevoUsuario.PNG" scale="60"/></info>
+            </step>
+            <step>
+                <cmd>Haga clic en <uicontrol>Anlegen!</uicontrol> (“¡Crear!”). Ahora aparecen el
+                    mensaje “El usuario "Editor/a XYZ" fue creado!” y el nuevo usuario en las lista
+                    de abajo.</cmd>
+            </step>
+
+        </steps>
+
+    </taskbody>
+</task>

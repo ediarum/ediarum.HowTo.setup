@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_grk_ypc_yfb" xml:lang="es-ES">
-    <title>Activar los registros de ediarum / “Ediarum-Register”</title>
+    <title>Activar los registros de ediarum </title>
     <shortdesc>Se activan el registro de personas y el registro de lugares. Ambos registros ya están
         incluidos en <keyword>ediarum</keyword>, porque son los tipos de registro que normalmente se
         necesitan en una edición. Es posible activar más registros estándar de
             <keyword>ediarum</keyword>: Términos técnicos, organizaciones, obras, cartas y
         notas.</shortdesc>
     <taskbody>
-        <prereq> Abra la aplicación <keyword>ediarum.DB</keyword> en el dashboard de su eXist-db con
+        <prereq> Abra la aplicación <keyword>ediarum.DB</keyword> en el dashboard de eXist-db con
             derechos de admnistrador. </prereq>
         <steps>
             
@@ -16,16 +16,16 @@
                 <cmd>Seleccione el menú <menucascade>
                         <uicontrol>Verwaltung</uicontrol>
                         <uicontrol>Projekte</uicontrol>
-                    </menucascade> (“Administración → Proyectos”).</cmd>
+                    </menucascade> (“Gestión → Proyectos”).</cmd>
             </step>
             <step>
                 <cmd>Haga clic en su proyecto para abrir la página principal del proyecto.</cmd>
             </step>
                 <step>
-                <cmd>Seleccione el menú<menucascade>
+                <cmd>Seleccione el menú <menucascade>
                         <uicontrol>Projektkonfiguration</uicontrol>
                         <uicontrol>Register</uicontrol>
-                    </menucascade> (“Configuración del proyecto → Registro”).</cmd>
+                    </menucascade> (“Configuración de proyectos → Registros”).</cmd>
             </step>
             <step>
                 <cmd>Siga los siguientes pasos para cada registro que quiere utlitzar en su trabajo
@@ -46,6 +46,9 @@
                                 <uicontrol>Schließen</uicontrol> para cerrar la ventana.</cmd>
                         <info>
                             <fig>
+                                <title>Cuadro de diálogo para activar un registro: “Esta acción crea
+                                    un nuevo registro de Ediarum y genera los archivos
+                                    necesarios.”</title>
                                 <image placement="break"
                                     href="../../../common/images/ediarumDB_Register.png"
                                     id="image_rxd_gb2_wfb"/>
@@ -57,11 +60,13 @@
         
         </steps>
         <result>La página principal de su proyecto ahora muestra los registros recién activados que
-            se han añadido a la estructura predeterminada de la carpeta. <image placement="break"
-                href="../../../common/images/ediarumDB_Ordnerstruktur_Register.png" id="image_ufr_yvc_yfb"
-            /></result>
+            se han añadido a la estructura predeterminada de la carpeta. Los nombres predeterminados
+            de las carpetas y de los archivos pueden cambiarse en cuanto la base de datos eXist-db
+            se haya conectado a Oxygen.<image
+                href="../../../ES/images/ediarumDB_Carpetas_Registros.PNG"
+                placement="break" id="image_yrp_vcf_44b"/></result>
     </taskbody>
     <related-links>
-        <link href="../customization/register-anlegen.dita"/>
+        <link href="../customization/crear-registros.dita"/>
     </related-links>
 </task>
