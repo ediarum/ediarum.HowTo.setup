@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Unbenannt" xml:lang="de-DE">
+    <title>Register</title>
+    <shortdesc>Sie können zentrale Register anlegen und pflegen. Textstellen in Ihrem Dokument
+        verknüpfen Sie über eine ID mit dem Register.</shortdesc>
+    <conbody>
+        <p>ediarum.DB liefert zentrale Register, z.B. für Personen oder Orte, mit und bietet die Funktion, weitere Register hinzuzufügen.
+            Das Oxygen-Framework ediarum.Register sorgt dafür, dass Sie dann die Registereintragungen in Ihrem Projekt in Oxygen pflegen und
+            neue Einträge hinzufügen können. Für die Verknüpfung von Textpassagen mit den Registereinträgen erfolgt über eine Schaltfäche (?), durch
+        die die Eintragung über REST verknüpft wird.</p>
+    </conbody>
+</concept>

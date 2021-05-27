@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="telota_server">
+    <title>TELOTA Standards</title>
+    <shortdesc>Liste: wofür telotadev, wofür andere, Adressen, Zugriffe, etc. Verzeichnisstrukturen
+        und andere Konventionen.</shortdesc>
+    <!-- TODO: Passende Form für die gesammelten Infos finden. Verlinken, in beide Richtungen. Oder doch nochmal eine andere Lösung finden, wo/wie man diese Infos pflegt. -->
+    <conbody> 
+<ul>
+    <li>
+        <ul>
+            <li>Kapitel: "Oxygen mit der Datenbank verbinden"</li>
+            <li>Feld "WebDAV/FTP URL: https://xmledit.bbaw.de/ediarum/webdav/db/projects/meineEdition/data</li>
+            <!-- Hier wäre eigentlich der komplette Screenshot hilfreich -->
+        </ul>
+    </li>
+    <li>TELOTA-spezifische Editorvariablen: ...</li>
+    <!-- Muss noch ergänzt werden...-->
+</ul>
+    </conbody>
+    <related-links>
+        <link href="../../oxygen/tasks/t_mit_exist_verbinden.dita#oxygen_mit_exist_verbinden"/>
+    </related-links>
+</concept>

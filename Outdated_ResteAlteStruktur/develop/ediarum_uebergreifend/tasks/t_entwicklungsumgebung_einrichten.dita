@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ediarum_entwicklungsumgebung_einrichten">
+    <title>ediarum_entwicklungsumgebung_einrichten</title>
+    <shortdesc>Einige grundlegende Einstellungen sind immer nötig, egal an welchem Framework man
+        entwickeln möchte.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <!-- Hier nur wirklich generisches, das dann für verschiedene Projekte funktioniert? -->
+            <step>
+                <cmd></cmd>
+            </step>
+            <step>
+                <cmd>Für Auswertung von Registern: möglichst schnell für ein neues Projekt eine Webseite erstellen, da die kompletten Registerverknüpfungen nicht in Oxygen anzeigbar sind</cmd>
+            </step>
+        </steps>
+    </taskbody><related-links><!-- Hier Links zu Schritten, die man für jedes einzelne Projekt wieder neu machen muss, z.B.:-->
+    <!-- Projekt in eXist anlegen -->
+    <!-- oxygen mit der richtigen DB-Instanz verbinden -->
+    <!-- ediarum.basis-Framework "aktivieren" -->
+    <!-- git-Branch anlegen -->
+    <!-- ...? --></related-links>
+</task>

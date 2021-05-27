@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_lrt_qhv_cz">
+ <title>oXygen</title>
+ <conbody>
+  <p>oXygen ist eine zentrale Softwarekomponente, um Editionsvorhaben zu ermöglichen Manuskrupte
+   effizient zu transkribieren. Die Transkription wird in einer <xref
+    href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/" format="html" scope="external"
+    >TEI-konformen</xref> XML-Datei vorgenommen. XML ("E<b>x</b>tensible <b>M</b>arkup
+   <b>L</b>anguage") ist eine Auszeichnungssprache, deren Struktur hierarchisch strukturiert ist.
+   Diese Struktur folgt einem XML-Schema, die die "Grammatik" des XML-Textes vorgibt (<xref
+    href="https://www.w3schools.com/xml/" format="html" scope="external">Tutorial
+   w3schools</xref>).</p>
+  <p>Als Software für die Arbeit an XML-Dateien wird der "<xref
+    href="https://www.oxygenxml.com/xml_editor.html" format="html" scope="external">Oxygen XML
+    Editor</xref>" eingesetzt. Die Wissenschaftler, die an einer Edition arbeiten, nutzen eine
+   speziell auf den XML-Endanwender zugeschnittene Variante der Software, nämlich den "<xref
+    href="https://www.oxygenxml.com/xml_author.html" format="html" scope="external">Oxygen XML
+    Author</xref>". Beide Programme sollten auf dem Rechner installiert werden. Das Ziel der
+   Entwicklungsarbeit ist, dass die Wissenschaftler den "Oxygen Author" effizient nutzen können. Die
+   Entwicklung orientiert sich also von der Oberfläche des "Oxygen Author" her. Darum ist seine
+   Installation wesentlich, wenn man auch selber mehr im "Oxygen Editor" arbeitet. Beide Programme
+   basieren auf Java und laufen auf den Betriebsystemen Windows, Mac OS X und Linux. </p>
+ </conbody>
+</concept>

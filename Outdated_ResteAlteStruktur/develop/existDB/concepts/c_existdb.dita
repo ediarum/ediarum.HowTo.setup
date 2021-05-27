@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tzp_m2q_dz">
+ <title>exist-db</title>
+ <shortdesc>Was ist und wozu benutzen wir eXist?</shortdesc>
+ <conbody>
+  <p>eXist ist eine Datenbank für XML-Dateien (im Gegensatz z.B. zu relationalen oder
+   Grap-Datenbanken). Es ist aber noch mehr als eine Datenbank. Es bietet Funktionalitäten und
+   Templates, um mit Hilfe von xquery aus den XML-Daten eine Webapplikation zu bauen.</p>
+ </conbody>
+</concept>

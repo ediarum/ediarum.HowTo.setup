@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ediarumbasis_operationen">
+    <title>ediarum Vorgänge (Operationen) (ediarum.jar)</title>
+    <shortdesc></shortdesc>
+    <!-- Quelle: https://redmine.bbaw.de/projects/ediarum/wiki/Ediarum-jar -->
+    <!-- TODO: Evtl. sections oder table anstatt ul. Leerzeichen löschen. Schön machen. Inhaltlich mit zweitem Dokument über die ediarum-Vorgänge abgleichen. -->
+    <refbody><section>
+        <title></title>
+        <p>Über die Datei ediarum.jar:</p>
+        <ul>
+            <li>Muss im Dokumenttyp-Fenster im Klassen-Pfad-Tab aufgelistet sein.</li>
+            <li>Enthält alle ediarum-spezifischen Operationen</li>
+        </ul>
+        <p>Liste der Vorgänge</p>
+       <ul>
+            <li>
+                <p>org.bbaw.telota.ediarum.EnumerateElementsOperation.java</p>
+                <p>
+                Nummeriert ein bestimmte Elemente durch und fügt ihm entsprechend ein n-Attribut zu.</p>
+                 </li>
+           <li>
+                <p>org.bbaw.telota.ediarum.ExecuteCommandOperation.java</p><p>Führt ein externes Programm aus.</p>
+                 
+                 <p>Fügt ein Element an einer bestimmten Stelle nach anderen definierten Elementen ein. So, dass die Reihenfolge der Elemente erhalten bleibt.</p>
+                 </li>
+           <li><p>org.bbaw.telota.ediarum.InsertIndexOperation.java</p><p>
+                Liest eine Liste aus einer URL aus und fügt entsprechend der Auswahl zwei getrennte Elemente vor und hinter der Selektion ein.
+                </p><p>ist eher für Druck ausgelegt
+                </p><p>Aber: PersName für Personenregister</p>
+                 </li>
+           <li><p>org.bbaw.telota.ediarum.InsertLinkOperation.java</p><p>
+                Fügt ein referenzierendes Element auf ein zu referenzierendes Element ein. Dieses kann in der selben oder einer anderen Datei liegen. Es wird nur auf geöffnete Dateien zugegriffen (die die jeweilige Autorin im Author offen hat).
+               </p><ol><li>Verweisziel kennzeichnen (wird mit &lt;anchor&gt; Element ausgezeichnet).
+                    </li>
+                    <li>Verweis auf das Verweisziel setzen.
+                    (Beide Dateien, mit Verweis und Verweisziel, müssen offen sein)</li></ol>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.InsertListItemAtOperation.java</p><p>
+                     Liest eine Liste aus einer URL aus und fügt entsprechend der Auswahl ein Element an einer bestimmten Position ein.</p>
+               <p>Argument: URL</p>      
+               <ul>
+                   <li>Wir haben standardmässig immer eine xql-Datei, die die Personenregister-xml erzeugt. Warum: Wegen Unterteilung in Vorname, Nachname, etc</li>
+                   <li>Wir geben für dieses Argument keinen hard-coded Pfad ein, sondern per Editorvariablen</li>
+                     </ul>
+               <p>Argument: node</p>
+               <ul>
+                   <li>um das zu wissen, muss man einmal in die generierte Register-XML rein schauen</li>
+                   <li>hier: //li</li>
+               </ul>
+               <p>Argument: namespaces</p>
+               <ul>
+                   <li>hier: keiner</li>
+                   <li>Falls in der generierten XML-REgister-Datei ein Namensraum angegeben ist</li>
+               </ul>
+               <p>Argument: item rendering</p>
+               <ul>
+                   <li>falls die Items aus mehreren Unter-Elementen bestehen, damit sie zusammengebastelt werden können</li>
+                   <li>$XPath{/span} ($XPath verweist auf Node-Argument)</li>
+               </ul>
+               <p>Argument: item variable</p>
+               <ul>
+                   <li>Wo steht die ID?</li>
+                   <li>$XPath{@xml:id}</li>
+               </ul>
+               <p>Argument: multiple selection</p>
+               <ul>
+                   <li>z.B. ich will für den Text "die Kinder" alle Kinder aus dem Personenregister auswählen</li>
+               </ul>
+               <p>Argument: item separator</p>
+               <ul>
+                   <li>für den Fall, dass ich mehrere auswähle</li>
+                   <li>Leerzeichen</li>
+                   <li>Ist bei TEI-Doks das favorisierte</li>
+                      
+               </ul>
+               <p>Argument: element</p>
+               <ul>
+                   <li>Das, was an der ausgewählten Position eingefügt wird</li>
+                   <li>persName xmlns="http://www.tei-c.org/ns/1.0" key="$ITEMS"/</li>
+                   <li>Achtung, Namespace nicht vergessen!</li>
+               </ul>
+               
+           </li>
+           <li><p>org.bbaw.telota.ediarum.InsertListItemAttributeOperation.java
+                   </p><p>Liest eine Liste aus einer URL aus und fügt entsprechend der Auswahl ein Attribut an einer bestimmten Position ein.</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.InsertListItemOperation.java</p><p>
+                    Liest eine Liste aus einer URL aus und fügt entsprechend der Auswahl ein Element an der Stelle des Cursors ein.</p>
+                      </li>
+           <li><p>org.bbaw.telota.ediarum.InsertRegisterAtOperation.java</p><p>
+                     Deprecated: Es sollte stattdessen InsertListItemAtOperation genutzt werden.
+                     Fügt einen ausgewählten Eintrag als Element an einer bestimmten Position ein.</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.InsertRegisterAttributeOperation.java</p><p>
+                    Deprecated: Es sollte stattdessen InsertListItemAttributeOperation genutzt werden.
+                     Fügt einen ausgewählten Eintrag als Attribut an einer bestimmten Position ein.</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.InsertRegisterOperation.java</p><p>
+                    Deprecated: Es sollte stattdessen InsertListItemOperation genutzt werden.
+                     Fügt einen ausgewählten Eintrag als Element an der Stelle des Cursors ein.</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.MultipleActionsOperation.java</p><p>
+                     Führt mehrere definiert Aktionen aus. Es kann stattdessen auch ro.sync.ecss.extensions.commons.operations.ExecuteMultipleActionsOperation genutzt werden.</p>
+                    </li>
+           <li><p>org.bbaw.telota.ediarum.OpenURLOperation.java</p><p>
+                     Öffnet einen Pfad/URL mit dem Standardbrowser.</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.SurroundWithElementsOperation.java</p><p>
+                    Fügt zwei getrennte Elemente vor und hinter der Selektion ein. In beiden Elementen kann die selbe zufällig erzeugte ID genutzt werden.
+                     </p><p>z.B. Verweisziel kennzeichnen</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.dates.SearchDatesOperation.java</p><p>
+                     Es werden im ausgewählten Text alle Datumsangaben gesucht, die Ergebnisse werden mit Hilfe einer GUI ausgegeben und ausgewählte Angaben werden im Text getaggt. Die Erkennung lässt sich über eine Konfigurationsdatei steuern. (s. a. #7419)
+                     </p></li>
+           <li><p>org.bbaw.telota.ediarum.extensions.EdiarumAuthorExtensionStateListener.java</p><p>
+                    Führt bei Einbindung ins Framework beim Eintippen auf geöffneten Dokumente spezielle Aufgaben durch:
+                  </p><p> Ersetzt " durch „ und “
+                    </p><p>Ersetzt | durch Foliowechsel (wenn $EDIARUM_PIPE_TO_PAGEBREAK="true" gesetzt ist)</p>
+                     </li>
+           <li><p>org.bbaw.telota.ediarum.extensions.EdiarumLinkTextResolver.java</p><p>
+                    Führt bei Einbindung ins Framework zur Auflösung der CSS-Funktion oxy_linktext() über die Variablen $EDIARUM_LINKTEXT_URL und $EDIARUM_LINKTEXT_VARS (=refElement, refAttr, refIDprefix, indexElem, indexAttr, indexIDprefix)
+        </p></li></ul>
+    </section> </refbody>
+</reference>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns:xdb="http://exist-db.org/ant" name="ediarum_documentation">
+    <property file="project.properties"/>
+    <property file="build.properties"/>
+
+    <property name="output.dir" value="out"/>
+
+    <target name="publish-manual" description="Publish manual">
+        <input message="Please enter project-name:" addproperty="project.name"></input>
+        <input message="Please enter username:" addproperty="ssh.username"></input>
+        <input message="Please enter password:" addproperty="ssh.pass">
+            <handler type="secure"/>
+        </input>
+        <property name="ssh.path" value="/opt/data/projekte/oxygen_frameworks/${project.name}/manual/"/>
+        <echo message="publish-manual: Upload manual to ${ssh.path}" />
+        <scp todir="${ssh.username}@telotadev.bbaw.de:${ssh.path}" password="${ssh.pass}" trust="yes">
+            <fileset dir="${output.dir}/webhelp-responsive"/>
+        </scp>
+    </target>
+
+</project>

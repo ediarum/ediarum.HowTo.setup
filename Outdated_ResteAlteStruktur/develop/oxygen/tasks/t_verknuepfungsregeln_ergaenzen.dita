@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_verkn_pfungsregeln_ergaenzen">
+    <title>t_verknüpfungsregeln_ergaenzen</title>
+    <shortdesc>Sie müssen festlegen, wie Oxygen für eine XML-Datei feststellen kann, welches
+        Framework etc. es für diese XML-Datei verwenden soll.</shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Verknüpfungsregel für Projekt ergänzen (oder ggf. doctype-Wert im Projekt anpassen)</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

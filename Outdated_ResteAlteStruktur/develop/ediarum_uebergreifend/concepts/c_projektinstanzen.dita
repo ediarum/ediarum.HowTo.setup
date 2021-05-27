@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="projektinstanzen">
+    <title>projektinstanzen</title>
+    <shortdesc>Es gibt drei (bzw. vier) Instanzen plus das GIT, in welchem die Entwicklung
+        stattfindet und gespeichert wird. Zwischen den Instanzen muss synchronisiert
+        werden.</shortdesc>
+    <conbody>
+        <p>Instanzen:</p>
+        <ul><li>LOCAL: Lokale Entwicklungsinstanz. Auf dem eigenen PC, nicht auf einem Server.</li><li>DEV: Die Entwicklungsinstanz zum Entwickeln und Testen von Features auf dem Server.</li><li>EDIT: Die Produktivinstanz, auf der das fertig aktuelle publizierte System läuft und auf der die
+                Vorhaben arbeiten, inkl. internen Webseite. Auf einem Server.</li><li>PUBLIC: Die öffentliche Instanz, die die externe Webseite ausliefert. Auf einem Server.</li></ul>
+        <!--(AN:) Wann sieht der Synchroniastionsworkflow so aus? Soll ich den ganz am Anfang so aufsetzen, wenn ich meine Entwicklungsumgebung aufsetze? Wenn ich anfange zu entwickeln, habe ich doch erstmal LOCAL und DEV und synchronisiere via git bzw. indem ich oxygen oder atom entsprechend einrichte, oder?
+       -->
+        <p>Der Synchronisationsworkflow von ediarum sieht etwa folgendermaßen aus:</p>
+ 
+        <ul><li>GIT: Definiert ANT-Skript, die das Ausspielen der relevanten Projektdateien inkl. Webseite exkl. der Daten (/data, /archive, /internal_data, /external_data) nach LOCAL, DEV, EDIT und PUBLIC erlaubt.
+        </li><li>LOCAL: Synch definiert, der sich die aktuellen Daten (/data) von EDIT holt. Manuell zu starten. </li><li>DEV: Synch definiert, der sich die aktuellen Daten (/data) von EDIT holt. Manuell zu starten.</li><li>EDIT: Definiert Synch, die die aktuellen Daten nach PUBLIC schreibt. Tägliche synchronisation.</li><li>PUBLIC: Keine Synch definiert</li></ul>
+    </conbody>
+</concept>

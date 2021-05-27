@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_framework_anlegen" xml:lang="de-DE">
+    <title>Projektspezifisches Framework anlegen (Oxygen)</title>
+    <shortdesc>Sie müssen ein projektspezifisches Framework als eine Erweiterung des
+        ediarum.basis-Frameworks anlegen, auch wenn Sie vorerst keine Veränderungen an ediarum.BASE
+        vornehmen möchten. Sie müssen im Arbeitsordner einen Projektordner anlegen und Oxygen
+        mitteilen, dass alle Dateien Ihres projektspezifischen Frameworks dort liegen.</shortdesc>
+    <!-- TODO: Ordentliche Codierung (UI-Elemente, Pfade, etc.) -->
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>
+                    In den Optionen von oXygen XML Author: Dokumenttypen-Zuordnung > ediarum.basis > Erweitern (erstellt eine Art Duplikat basierend auf Basisframework)</cmd>
+            </step>
+            <step><cmd>
+                > Speicherort "Extern": in Verzeichnis "Programme/Oxygen/frameworks/ediarum_[projektname]", unter dem Dateinamen "ediarum_[projektname].framework" speichern</cmd></step>
+        </steps>
+    </taskbody>
+</task>
