@@ -1,4 +1,4 @@
-## Dokumentation fuer die Einrichtung der notwendigen Komponenten fuer Ediarum
+## Dokumentation fuer die Einrichtung der notwendigen Komponenten fuer Ediarum (Setup-Doku)
 
 Diese Doku ist in DITA-XML geschrieben.
 
