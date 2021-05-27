@@ -50,7 +50,8 @@
                         <li><uicontrol>API-Links</uicontrol>
                             <ul>
                                 <li><uicontrol>GET</uicontrol>: Ausgabe des Registers im TEI-Format.</li>
-                                <li><uicontrol>UPDATE</uicontrol> Das Register wird über die Zotero-Verbindung auf den aktuellen Stand der Zotero-Einträge gebracht.</li>
+                                <li><uicontrol>UPDATE</uicontrol> Das Register wird über die Zotero-Verbindung auf den aktuellen Stand der Zotero-Einträge gebracht.
+                                    <note>Wenn in Zotero Einträge gelöscht werden, kann es vorkommen, dass diese nicht automatisch aus dem verbundenen Register entfernt werden. Das Register muss dann manuell aktualisiert werden.</note></li>
                                 <li><uicontrol>UPDATE and GET</uicontrol> Das Register wird zunächst aktualisiert und dann in der aktualisierten Form im TEI-Format ausgegeben.</li>
                             </ul>
                         </li>
