@@ -2,26 +2,26 @@
 <!DOCTYPE html>
 <div class="container">
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
-        <h3 style="text-align: left; color: #969696;">Über diese Publikation</h3>
-        <p style="text-align: left; color: #969696;">Setup-Anleitung für ediarum</p>
-        <p style="text-align: left; color: #969696;">Version 1.2.1_localization Stand:03.12.2020</p>
-        <p style="text-align: left; color: #969696;">Gültig für folgende Software-Versionen: Oxygen XML Author v20.1, eXist-db v3.5 oder v4.4, ediarum.BASE.edit v1.1.1, ediarum.DB v3.2.5, ediarum.REGISTER.edit v1.0.1</p>
-        <p style="text-align: left; color: #969696;">Quelldateien (TELOTA-intern): ediarum.GUIDE.git/develop im Branch develop</p>
-<p></p>
-        </div>
+        <h3 style="text-align: left;">Über diese Publikation</h3>
+        <p style="text-align: left;">Setup-Anleitung für ediarum</p>
+        <p style="text-align: left; color: silver;">Version 1.2.1_localization Stand:03.12.2020</p>
+        <p style="text-align: left; color: silver;">Gültig für folgende Software-Versionen: Oxygen XML Author v20.1, eXist-db v3.5 oder v4.4, ediarum.BASE.edit v1.1.1, ediarum.DB v3.2.5, ediarum.REGISTER.edit v1.0.1</p>
+        <p style="text-align: left; color: silver;">Quelldateien (TELOTA-intern): ediarum.GUIDE.git/develop im Branch develop</p>
+        <p></p>
+    </div>
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
         <h3>&#x00A0;</h3>
         <p>
         </p>
-        </div>
+    </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
-        <h3 style="text-align: left; color: #969696;">Lizenz</h3>
+        <h3>Lizenz</h3>
         <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110"/></a>
-        <p style="text-align: left; color: #969696;"><br/>Alle Inhalte und Texte dieser Website können – soweit nicht anders vermerkt – unter den Bedingungen der <a href="https://creativecommons.org/licenses/by-sa/4.0/" style="color: #969696">Creative Commons-Lizenz CC BY-SA 4.0</a> nachgenutzt werden.</p>
+        <p><br/>Alle Inhalte und Texte dieser Website können – soweit nicht anders vermerkt – unter den Bedingungen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Lizenz CC BY-SA 4.0</a> nachgenutzt werden.</p>
     </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <h3 style="text-align: left; color: #969696;">Herausgeber</h3>
-        <p style="text-align: left; color: #969696;">TELOTA-Arbeitsgruppe der Berlin-Brandenburgischen Akademie der Wissenschaften</p>
-        <p style="text-align: left; color: #969696;">Feedback an: Jan.Wierzoch@bbaw.de</p>
+        <h3>Herausgeber</h3>
+        <p>TELOTA-Arbeitsgruppe der Berlin-Brandenburgischen Akademie der Wissenschaften</p>
+        <p>Feedback an: Jan.Wierzoch@bbaw.de</p>
     </div>
 </div>

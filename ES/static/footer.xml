@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <div class="container">
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
-        <h3 style="text-align: left; color: #969696;">Sobre esta publicación</h3>
-        <p style="text-align: left; color: #969696;">Guía de instalación y configuración de ediarum</p>
-        <p style="text-align: left; color: #969696;">Versión 1.2.1_localization, última fecha de actualización: 14.12.2020</p>
-        <p style="text-align: left; color: #969696;">Válida para los siguientes versiones de software: Oxygen XML Author v20.1, eXist-db v3.5 o v4.4, ediarum.BASE.edit v1.1.1, ediarum.DB v3.2.5, ediarum.REGISTER.edit v1.0.1</p>
-        <p style="text-align: left; color: #969696;">Código fuente (para uso interno de TELOTA): ediarum.GUIDE.git/develop en la rama «develop»</p>
+        <h3 style="text-align: left;">Sobre esta publicación</h3>
+        <p style="text-align: left;">Guía de instalación y configuración de ediarum</p>
+        <p style="text-align: left; color: silver;">Versión 1.2.1_localization, última fecha de actualización: 14.12.2020</p>
+        <p style="text-align: left; color: silver;">Válida para los siguientes versiones de software: Oxygen XML Author v20.1, eXist-db v3.5 o v4.4, ediarum.BASE.edit v1.1.1, ediarum.DB v3.2.5, ediarum.REGISTER.edit v1.0.1</p>
+        <p style="text-align: left; color: silver;">Código fuente (para uso interno de TELOTA): ediarum.GUIDE.git/develop en la rama «develop»</p>
 <p></p>
         </div>
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
@@ -15,17 +15,17 @@
         </p>
         </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
-        <h3 style="text-align: left; color: #969696;">Licencia</h3>
+        <h3>Licencia</h3>
         <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110"/></a>
-        <p style="text-align: left; color: #969696;"><br/>A menos que se indique lo contrario, todos los contenidos y textos de esta página web se pueden distribuir, modificar y usar con fines comerciales
-            bajo los términos de la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" style="color: #969696">Creative Commons CC BY-SA 4.0</a>.</p>
+        <p><br/>A menos que se indique lo contrario, todos los contenidos y textos de esta página web se pueden distribuir, modificar y usar con fines comerciales
+            bajo los términos de la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Creative Commons CC BY-SA 4.0</a>.</p>
     </div>
     <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <h3 style="text-align: left; color: #969696;">Publicado por</h3>
-        <p style="text-align: left; color: #969696;">Grupo de trabajo de TELOTA de la Academia de las Ciencias y Humanidades de Berlín-Brandeburgo</p>
+        <h3>Publicado por</h3>
+        <p>Grupo de trabajo de TELOTA de la Academia de las Ciencias y Humanidades de Berlín-Brandeburgo</p>
         <!--Die folgenden zwei Zeilen weisen auf die Übersetzung hin:-->
-        <h3 style="text-align: left; color: #969696;">Traducido del alemán por</h3>
-        <p style="text-align: left; color: #969696;">Linda Kirsten</p>
-        <p style="text-align: left; color: #969696;">Por favor, envíe sus comentarios y retroalimentación a: jan.wierzoch@bbaw.de</p>
+        <h3>Traducido del alemán por</h3>
+        <p>Linda Kirsten</p>
+        <p>Por favor, envíe sus comentarios y retroalimentación a: jan.wierzoch@bbaw.de</p>
     </div>
 </div>
