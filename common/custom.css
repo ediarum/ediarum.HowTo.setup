@@ -28,6 +28,9 @@ a:visited,
 }
 
 .wh_publication_title > a {
+    color: #E5312E;
+    font-weight: bold;
+    font-size: 1.5em;
     text-transform: none;
     line-height: normal;
     padding: 0;
