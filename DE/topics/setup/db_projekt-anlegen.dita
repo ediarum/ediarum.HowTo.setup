@@ -39,6 +39,19 @@
                         haben, können Sie die Ordner im <keyword>Oxygen XML Author</keyword>
                         umbenennen.<image placement="break" href="../../images/ediarumDB_Ordnerstruktur.png"
                             id="image_jqh_3d2_wfb"/></p>
+                    <p>Die <keyword>ediarum.DB</keyword>-App zeigt Ihnen nur den <codeph>data</codeph>-Ordner der Projektstruktur. Wenn Sie das Projekt in der <keyword>eXist-db</keyword> internen xQuery IDE <keyword>eXide</keyword> oder dem <keyword>Oxygen XML Author</keyword> öffnen, sehen Sie die weiteren von <keyword>ediarum.DB</keyword> angelegten Ordner:
+                    <ul>
+                        <li><filepath>data</filepath>: Enthält Briefe, Registerdateien, Dokumente, Einleitungen etc. (je in Unterordner gegliedert), also alles, was die Editorinnen und Editoren bearbeiten. Dieser Ordner wird den Editorinnen und Editoren zugänglich gemacht.</li>
+                        <li><filepath>druck</filepath>: Kann später für Daten der Druckausgabe genutzt werden.</li>
+                        <li><filepath>exist</filepath>: Enthält Routinen-Skripte, die mit der Datenbank zu tun haben, wie bspw. Rechteänderungen.</li>
+                        <li><filepath>external_data</filepath>: Hier können eingebundene, externe Daten gespeichert werden, z.B. GND- oder Zotero-Datensätze.</li>
+                        <li><filepath>oxygen</filepath>: Enthält Skripte, die für die Nutzung von
+                                    <keyword>ediarum</keyword> und <keyword>eXist-db</keyword> aus
+                                    <keyword>Oxygen XML Author</keyword> heraus wichtig sind sowie
+                            benutzerdefinierte Skripte, die in <keyword>Oxygen XML Author</keyword> eingebunden werden.</li>
+                        <li><filepath>web</filepath>: Enthält alle Skripte zur Webentwicklung.</li>
+                    </ul>
+                    </p>
                 </stepresult>
                 
             </step>
