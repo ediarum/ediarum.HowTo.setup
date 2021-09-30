@@ -40,6 +40,39 @@
             <step>
                 <cmd>Klicken Sie auf <uicontrol>Anlegen</uicontrol>.</cmd>
             </step>
+            
+            <step>
+                <cmd>Die folgenden Schritte sind nur <b>optional</b> zur Kontrolle der User-Rechte
+                    durchzuführen.</cmd>
+                <info>Es kann vorkommen, dass die Rechte von neu angelegten Usern falsch
+                    konfiguriert sind. Zur Kontrolle sollten Sie daher die Rechteeinstellungen im
+                    Usermanager der <keyword>eXist-db</keyword> überprüfen. Das Wert für
+                        <uicontrol>umask</uicontrol> muss als <codeph>0007</codeph> bzw.
+                        <codeph>7</codeph> angegeben sein.</info>
+                <substeps>
+                    <substep>
+                        <cmd>Wählen Sie im <uicontrol>Dashboard</uicontrol> von
+                                <keyword>eXist-db</keyword> den <uicontrol>Usermanager</uicontrol>.
+                                <image placement="break"
+                                href="../../../common/images/exist_dashboard_usermanager.png"/>
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Öffnen Sie den entsprechenden User, indem Sie auf den Namen klicken.
+                                <image placement="break"
+                                href="../../../common/images/exist_usermanager.png"/>
+                        </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Der Wert von <uicontrol>umask</uicontrol> muss <codeph>0007</codeph>
+                            oder <codeph>7</codeph> betragen. , damit von diesem User angelegte Ordner und Dateien automatisch die Rechte <codeph>rwxrwx---</codeph> erhalten und andere User aus dem Projekt auch auf diese Ordner/Dateien zugreifen können. Ändern Sie den Wert ggf. entsprechend
+                            und bestätigen Sie mit <uicontrol>Save</uicontrol> am Ende der Seite.
+                                <image placement="break"
+                                href="../../../common/images/exist_usermanager_user.png"/>
+                        </cmd>
+                    </substep>
+                </substeps>
+            </step>
 
         </steps>
 
