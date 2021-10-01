@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_aktion_eigene" xml:lang="de-DE">
+    <title>Eigene Aktionen anlegen</title>
+    <shortdesc>Wenn Ihnen die von <keyword>Oxygen</keyword> oder <keyword>ediarum</keyword> mitgelieferten Aktionen nicht ausreichen, können Sie auch selber neue Aktionen definieren und in Ihr Framework einbinden.</shortdesc>
+    <conbody>
+        <ul>
+            <li>Zuerst müssen Sie eine eigene Aktion im Framework über <keyword>Oxygen</keyword> definieren.</li>
+            <li>Anschließend kann diese Aktion in die Benutzeroberfläche des Frameworks eingebunden werden.</li>
+        </ul>
+    </conbody>
+</concept>

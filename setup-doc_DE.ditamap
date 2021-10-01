@@ -32,5 +32,8 @@
 			<topicref href="DE/topics/customization/zotero_register.dita"/>
 			<topicref href="DE/topics/customization/zotero_register-anlegen.dita"/>
 		</topicref>
+		<topicref href="DE/topics/customization/aktion_eigene.dita" collection-type="unordered"/>
+			
+		
 	</chapter>
 </bookmap>
