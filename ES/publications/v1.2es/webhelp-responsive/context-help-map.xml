@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="c_ueberblick_setup"
+               path="ES/topics/setup/configuracion-basica.html"/>
+   <appContext helpID="c_ueberblick_setup" path="ES/topics/sobre-esta-guia.html"/>
+   <appContext helpID="ediarum"
+               path="ES/topics/setup/resumen_de_la_configuracion_basica.html"/>
+   <appContext helpID="t_exist_installieren"
+               path="ES/topics/setup/tips-oxygen-exist-instalacion.html"/>
+   <appContext helpID="c_exist_einrichtung"
+               path="ES/topics/setup/db_configuracion.html"/>
+   <appContext helpID="t_ediarumdb_installieren"
+               path="ES/topics/setup/db_instalar-aplicacion.html"/>
+   <appContext helpID="exist_projekt_anlegen"
+               path="ES/topics/setup/db_crear-proyecto.html"/>
+   <appContext helpID="task_grk_ypc_yfb"
+               path="ES/topics/setup/db_activar-registros.html"/>
+   <appContext helpID="task_plw_hqc_yfb" path="ES/topics/setup/db_crear-usuario.html"/>
+   <appContext helpID="c_oxygen_einrichtung"
+               path="ES/topics/setup/oxygen_configuracion.html"/>
+   <appContext helpID="oxygen_mit_exist_verbinden"
+               path="ES/topics/setup/oxygen_conectar-con-db.html"/>
+   <appContext helpID="t_speicherort_ediarumbase_festlegen"
+               path="ES/topics/setup/oxygen_instalar-frameworks.html"/>
+   <appContext helpID="t_projekt_anlegen"
+               path="ES/topics/setup/oxygen_crear-proyecto.html"/>
+   <appContext helpID="c_ueberblick_konfig"
+               path="ES/topics/customization/configuracion.html"/>
+   <appContext helpID="oxygen_framework_kaskade"
+               path="ES/topics/customization/resumen-configuracion.html"/>
+   <appContext helpID="task_psj_nwx_tfb"
+               path="ES/topics/customization/crear-registros.html"/>
+   <appContext helpID="c_zotero_einrichtung"
+               path="ES/topics/customization/zotero_configuracion.html"/>
+   <appContext helpID="t_zotero_verbindung"
+               path="ES/topics/customization/zotero_conexion.html"/>
+   <appContext helpID="t_zotero_register"
+               path="ES/topics/customization/zotero_registro.html"/>
+   <appContext helpID="t_zotero_register-anlegen"
+               path="ES/topics/customization/zotero_crear-registros.html"/>
+</map>

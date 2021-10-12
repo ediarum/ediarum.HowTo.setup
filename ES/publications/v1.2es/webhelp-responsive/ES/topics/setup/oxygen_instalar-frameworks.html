@@ -1,0 +1,299 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="es-es" lang="es-es" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="task" /><meta name="description" content="Se integran dos frameworks específicos de ediarum en Oxygen para que las funcionalidades de ediarum estén disponibles en su entorno editorial de Oxygen." /><meta name="DC.relation" scheme="URI" content="../../../ES/topics/setup/oxygen_configuracion.html" /><meta name="DC.relation" scheme="URI" content="../../../ES/topics/setup/oxygen_conectar-con-db.html" /><meta name="DC.relation" scheme="URI" content="../../../ES/topics/setup/oxygen_crear-proyecto.html" /><meta name="DC.relation" scheme="URI" content="../customization/resumen-configuracion.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="t_speicherort_ediarumbase_festlegen" /><meta name="DC.language" content="es-ES" />        
+      <title>Instalar frameworks de ediarum</title><!--  Generated with Oxygen version 22.0, build number 2020040313.  --><meta name="wh-path2root" content="../../../" /><meta name="wh-toc-id" content="t_speicherort_ediarumbase_festlegen-d61e173" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/topic-page.css?buildId=2020040313" />
+    
+    
+    <script type="text/javascript" src="../../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script>
+    
+    <script data-main="../../../oxygen-webhelp/app/topic-page.js" src="../../../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/blue.css?buildId=2020040313" /><link rel="stylesheet" type="text/css" href="../../../custom.css" /></head>
+
+    <body id="t_speicherort_ediarumbase_festlegen" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">jump.to.content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../../../index.html" class=" wh_logo d-none d-sm-block "><img src="../../../bbaw_logo.png" alt="  Guía de instalación y configuración de ediarum  " /></a>
+                    <div class=" wh_publication_title "><a href="../../../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Guía de instalación y configuración de ediarum</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="toggle.menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_setup-d61e14-mi" data-tocid="c_ueberblick_setup-d61e14" data-state="not-ready" class=" topicref " data-id="c_ueberblick_setup"><span class="title"><a href="../../../ES/topics/setup/configuracion-basica.html">Instalación y configuración básica</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_konfig-d61e205-mi" data-tocid="c_ueberblick_konfig-d61e205" data-state="not-ready" class=" topicref " data-id="c_ueberblick_konfig"><span class="title"><a href="../../../ES/topics/customization/configuracion.html">Configuración específica de ediciones</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../../search.html"><div><input type="search" placeholder="webhelp.search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="search.query" required="required" /><button type="submit" class="wh_search_button" aria-label="webhelp.search"><span>webhelp.search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../../index.html"><span>label.home</span></a></span></li><li><span class="topicref" data-id="c_ueberblick_setup"><span class="title"><a href="../../../ES/topics/setup/configuracion-basica.html">Instalación y configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica de ediarum hace disponible un entorno de trabajo para         ediciones filológicas. Después de una instalación y configuración existosa, los editores y         editoras pueden crear datos XML conforme a TEI con registros, notas etc. en un entorno         visual que es similar al de Word. </p></span></span></span></li><li><span class="topicref" data-id="c_oxygen_einrichtung"><span class="title"><a href="../../../ES/topics/setup/oxygen_configuracion.html">Configurar el entorno de trabajo en Oxygen XML Author</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Conecta <span class="keyword">Oxygen XML Author</span> con eXist-db (la base de datos) y hace         disponible todas las funcionalidades contenidas en ediarum.</p></span></span></span></li><li class="active"><span class="topicref" data-id="t_speicherort_ediarumbase_festlegen"><span class="title"><a href="../../../ES/topics/setup/oxygen_instalar-frameworks.html">Instalar frameworks de ediarum </a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Se integran dos frameworks específicos de ediarum en Oxygen para que las         funcionalidades de <span class="keyword">ediarum</span> estén disponibles en su entorno editorial de         Oxygen. </p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="toggleHighlights" title="toggleHighlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="collapseSections" title="collapseSections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  
+<span class="navprev"><a class="- topic/link link" href="../../../ES/topics/setup/oxygen_conectar-con-db.html" title="Conectar Oxygen a la base de datos" aria-label="Tema anterior: Conectar Oxygen a la base de datos" rel="prev"></a></span>  
+<span class="navnext"><a class="- topic/link link" href="../../../ES/topics/setup/oxygen_crear-proyecto.html" title="Crear un proyecto en el Oxygen XML Author" aria-label="Tema siguiente: Crear un proyecto en el Oxygen XML Author" rel="next"></a></span>  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="printThisPage" aria-label="printThisPage"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="c_ueberblick_setup-d61e14" class="topicref" data-id="c_ueberblick_setup" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action c_ueberblick_setup-d61e14-link" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/configuracion-basica.html" id="c_ueberblick_setup-d61e14-link">Instalación y configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica de ediarum hace disponible un entorno de trabajo para         ediciones filológicas. Después de una instalación y configuración existosa, los editores y         editoras pueden crear datos XML conforme a TEI con registros, notas etc. en un entorno         visual que es similar al de Word. </p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="c_ueberblick_setup-d61e25" class="topicref" data-id="c_ueberblick_setup" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/sobre-esta-guia.html" id="c_ueberblick_setup-d61e25-link">Sobre esta guía</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica primero hace disponible <span class="keyword">ediarum</span> en la         versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que         necesite conocimientos de programación.</p></span></span></span></li><li role="treeitem"><span data-tocid="ediarum-d61e39" class="topicref" data-id="ediarum" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/resumen_de_la_configuracion_basica.html" id="ediarum-d61e39-link">Resumen de la configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"><span class="keyword">ediarum</span> está disponible en GitHub, en forma de componentes de         configuración para <span class="keyword">Oxygen XML Author</span> (los llamados frameworks) y para la         base de datos XML <span class="keyword">eXist-db</span> (las llamadas aplicaciones).</p></span></span></span></li><li role="treeitem"><span data-tocid="t_exist_installieren-d61e58" class="topicref" data-id="t_exist_installieren" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/tips-oxygen-exist-instalacion.html" id="t_exist_installieren-d61e58-link">Tips para la instalación de eXist-db y Oxygen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Las guías de instalación para eXist-db y Oxygen se encuentran en sus sitios web         correspondientes. Los consejos adicionales que se han recopilado aquí se basan en la         experiencia de los desarrolladores y desarrolladoras de ediarum y pueden ser útiles para los         problemas típicos de instalación.</p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="c_exist_einrichtung-d61e69" class="topicref" data-id="c_exist_einrichtung" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_exist_einrichtung-d61e69-link" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/db_configuracion.html" id="c_exist_einrichtung-d61e69-link">Instalar y configurar la base de datos</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Instala la aplicación eXist <span class="keyword">ediarum.DB</span>. Usando esta aplicación,         crea su propio proyecto en su base de datos que contiene todos las configuraciones         necesarias para la interacción entre la base de datos y Oxygen XML Author. </p></span></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="c_oxygen_einrichtung-d61e148" class="topicref" data-id="c_oxygen_einrichtung" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action c_oxygen_einrichtung-d61e148-link" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/oxygen_configuracion.html" id="c_oxygen_einrichtung-d61e148-link">Configurar el entorno de trabajo en Oxygen XML Author</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Conecta <span class="keyword">Oxygen XML Author</span> con eXist-db (la base de datos) y hace         disponible todas las funcionalidades contenidas en ediarum.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="oxygen_mit_exist_verbinden-d61e162" class="topicref" data-id="oxygen_mit_exist_verbinden" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/oxygen_conectar-con-db.html" id="oxygen_mit_exist_verbinden-d61e162-link">Conectar Oxygen a la base de datos</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Configura la conexión para el acceso de lectura y escritura desde la interfaz de         entrada a los archivos XML. La conexión WebDAV evita conflictos de escritura entre         diferentes usuarios y usuarias.</p></span></span></span></li><li role="treeitem" class="active"><span data-tocid="t_speicherort_ediarumbase_festlegen-d61e173" class="topicref" data-id="t_speicherort_ediarumbase_festlegen" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/oxygen_instalar-frameworks.html" id="t_speicherort_ediarumbase_festlegen-d61e173-link">Instalar frameworks de ediarum </a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Se integran dos frameworks específicos de ediarum en Oxygen para que las         funcionalidades de <span class="keyword">ediarum</span> estén disponibles en su entorno editorial de         Oxygen. </p></span></span></span></li><li role="treeitem"><span data-tocid="t_projekt_anlegen-d61e187" class="topicref" data-id="t_projekt_anlegen" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/setup/oxygen_crear-proyecto.html" id="t_projekt_anlegen-d61e187-link">Crear un proyecto en el Oxygen XML Author</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Para         la búsqueda en los registros se necesita una conexión a la base de datos         separada. Se guarda en un proyecto de <span class="keyword">Oxygen</span> utilizando las llamadas         “Editor Variables” (variables de editor).</p></span></span></span></li></ul></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="c_ueberblick_konfig-d61e205" class="topicref" data-id="c_ueberblick_konfig" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_ueberblick_konfig-d61e205-link" class="wh-expand-btn"></span><span class="title"><a href="../../../ES/topics/customization/configuracion.html" id="c_ueberblick_konfig-d61e205-link">Configuración específica de ediciones</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Si su edicion requiere una definición de esquema XML más completo que el que cubre         ediarum, puede extender el documento esquema y el entorno de trabajo. Además, puede crear         registros adicionales.</p></span></span></span></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Instalar frameworks de ediarum </h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc">Se integran dos frameworks específicos de ediarum en Oxygen para que las
+        funcionalidades de <span class="- topic/keyword keyword">ediarum</span> estén disponibles en su entorno editorial de
+        Oxygen. </p>
+        <section class="- topic/section task/context section context">
+            <p class="- topic/p p">Resumen del procedimiento:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">Descarga los dos frameworks de <span class="- topic/keyword keyword">ediarum</span> a su ordenador local. </li>
+                <li class="- topic/li li">Cambia la carpeta predeterminada en la que <span class="- topic/keyword keyword">Oxygen XML Author</span>
+                    gestiona los frameworks. De esta manera se evitan problemas con los derechos de
+                    acceso por parte del sistema operativo (especialmente Windows).</li>
+                <li class="- topic/li li">Crea un framework nuevo para su edición. Crea este framework como una extensión
+                    de <span class="- topic/keyword keyword">ediarum.BASE.edit</span> para que tenga acceso a todas las
+                    funcionalidades de <span class="- topic/keyword keyword">ediarum</span>. Después de terminar la
+                    configuración básica, puede guardar las configuraciones específicas de su
+                    entorno editorial dentro de este framework.</li>
+            </ul>
+            <p class="- topic/p p">Conocimientos necesarios:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">Conocimientos básicos de GitHub</li>
+            </ul>
+        </section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Cree una carpeta para todos los frameworks de Oxygen en su sistema de archivos
+                    local . </span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Descarga a la nueva carpeta de frameworks los siguientes repositorios de GitHub
+                    (en GitHub: pulse el botón <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Latest release</span>, guarda el
+                    archivo ZIP en una ubicación local y extraigalo):</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">
+                            <a class="- topic/xref xref" href="https://github.com/ediarum/ediarum.BASE.edit/releases" target="_blank">https://github.com/ediarum/ediarum.BASE.edit/releases</a></span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd"><a class="- topic/xref xref" href="https://github.com/ediarum/ediarum.REGISTER.edit/releases" target="_blank">https://github.com/ediarum/ediarum.REGISTER.edit/releases</a></span>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Cree en la carpeta de frameworks un directorio adicional, donde puede agregar
+                    luego el framework específico de su edición.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">Recomendación: Mantenga <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum</kbd> como la primera parte
+                    del nombre de la carpeta para indicar que el framework específico de su edición
+                    es una extensión de ediarum. Por ejemplo:
+                        <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum.miEdición.edit</kbd></div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Asegúrese de que la carpeta de frameworks tenga la siguiente estructura:</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li">frameworks <ul class="- topic/ul ul">
+                                <li class="- topic/li li">ediarum.BASE.edit <ul class="- topic/ul ul">
+                                        <li class="- topic/li li">css</li>
+                                        <li class="- topic/li li">fonts</li>
+                                        <li class="- topic/li li">icons</li>
+                                        <li class="- topic/li li">resources</li>
+                                        <li class="- topic/li li">schemata</li>
+                                        <li class="- topic/li li">templates</li>
+                                    </ul>
+                                </li>
+                                <li class="- topic/li li">ediarum.REGISTER.edit <ul class="- topic/ul ul">
+                                        <li class="- topic/li li">css</li>
+                                        <li class="- topic/li li">resources</li>
+                                        <li class="- topic/li li">schema</li>
+                                    </ul>
+                                </li>
+                                <li class="- topic/li li">ediarum.miEdición.edit</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Cambie la ubicación de almacenamiento de frameworks en <span class="- topic/keyword keyword">Oxygen XML
+                        Author</span>, de modo que la ubicación nueva apunte a la carpeta que
+                    contiene todas las carpetas de framework.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Seleccione el menú <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Options</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span></span> en Oxygen.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd"> En la ventana de <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span> abierta,
+                            seleccione la página <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Document Type Association</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Locations</span></span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Active la opción <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Custom</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Haga clic en el icono de carpeta para seleccionar la ruta.</span>
+                    </li>
+                </ol>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <figure class="- topic/fig fig fignone">
+                        <img class="- topic/image image" src="../../images/oxygen_DocTypeAs_Locations.PNG" />
+                    </figure>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Haga clic en <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span> para cerrar la ventana
+                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span>.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Reinicie <span class="- topic/keyword keyword">Oxygen XML Author</span>.</span>
+                <div class="- topic/itemgroup task/stepresult itemgroup stepresult">
+                    <p class="- topic/p p">En la página <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Options</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Document Type Association</span></span> se muestran ambos frameworks de
+                        <span class="- topic/keyword keyword">ediarum</span>.</p>
+                    <figure class="- topic/fig fig fignone">
+                        <img class="- topic/image image" src="../../images/oxygen_DocTypeAs_Frameworks.PNG" />
+                    </figure>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Cree un framework extendido para su edición.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Seleccione el framework <span class="+ topic/ph ui-d/uicontrol ph uicontrol">ediarum.BASE.edit</span> en la
+                            página <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Document Type Association</span> (¡No haga doble
+                            clic!) y haga clic en <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Extend</span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Introduzca el nombre del framework de su edición en el campo
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Name:</span>.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">Recomendación: Utilice el mismo nombre que ha usado para la carpeta
+                            del framework de su edición en el sistema de archivos. Por ejemplo:
+                                <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum.miEdición.edit</kbd></div>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Active la opción <span class="+ topic/ph ui-d/uicontrol ph uicontrol">External</span> para
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Storage:</span> .</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Indique la ruta hasta el archivo .framework que se encuentra dentro de
+                            la carpeta de su edición. Por ejemplo:
+                                <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum.miEdición.edit/ediarum.miedicion.edit.framework</kbd>.
+                            Utilice el icono de carpeta para seleccionar el archivo.</span>
+                    </li>
+                </ol>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <figure class="- topic/fig fig fignone">
+                        <img class="- topic/image image" src="../../images/oxygen_Framework_extender.PNG" />
+                    </figure>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Haga clic en <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span> para cerrar la ventana de
+                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Preferences</span>.</span>
+            </li></ol></section>
+    </div>
+    
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo" xml:lang="es-ES" lang="es-ES"><strong>Información relacionada</strong><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="../customization/resumen-configuracion.html" title="El proceso básico de configuración a través de los llamados “Frameworks” se encuentra en la documentación de Oxygen. Ediarum proporciona algunos módulos estándares para esta configuración.">Sobre los frameworks de Oxygen y las características específicas de ediarum</a></li></ul></div></nav></div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.0">
+  <div class=" footer-container mx-auto ">
+    <div class="container">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3 style="text-align: left;">Sobre esta publicación</h3>
+        <p style="text-align: left;">Guía de instalación y configuración de ediarum</p>
+        <p style="text-align: left; color: silver;">Versión 1.2es, última fecha de actualización: 12.10.2021</p>
+        <p style="text-align: left; color: silver;">Válida para los siguientes versiones de software: Oxygen XML Author v20.1, eXist-db v5.2, ediarum.BASE.edit v1.1.1, ediarum.DB v4.0.1, ediarum.REGISTER.edit v1.0.3</p>
+        <p style="text-align: left; color: silver;">Código fuente (para uso interno de TELOTA): ediarum.GUIDE.git/develop en la rama «develop»</p>
+		<p></p>
+        </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3> </h3>
+        <p>
+        </p>
+        </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Licencia</h3>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110" /></a>
+        <p><br />A menos que se indique lo contrario, todos los contenidos y textos de esta página web se pueden distribuir, modificar y usar con fines comerciales
+            bajo los términos de la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Creative Commons CC BY-SA 4.0</a>.</p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <h3>Publicado por</h3>
+        <p>Grupo de trabajo de TELOTA de la Academia de las Ciencias y Humanidades de Berlín-Brandeburgo</p>
+        <!--Die folgenden zwei Zeilen weisen auf die Übersetzung hin:-->
+        <h3>Traducido del alemán por</h3>
+        <p>Linda Kirsten</p>
+        <p>Por favor, envíe sus comentarios y retroalimentación a: jan.wierzoch@bbaw.de</p>
+    </div>
+</div>
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

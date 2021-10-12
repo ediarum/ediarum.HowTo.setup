@@ -1,0 +1,198 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="de-de" lang="de-de" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="task" /><meta name="description" content="Für einzelne Zotero-Verbindungen lassen sich Register einrichten, um diese dann in ediarum nutzen zu können." /><meta name="DC.relation" scheme="URI" content="../../../DE/topics/customization/zotero_einrichtung.html" /><meta name="DC.relation" scheme="URI" content="../../../DE/topics/customization/zotero_verbindung.html" /><meta name="DC.relation" scheme="URI" content="../../../DE/topics/customization/zotero_register-anlegen.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="t_zotero_register" /><meta name="DC.language" content="de-DE" />        
+      <title>Ein Register der Zotero-Einträge erstellen</title><!--  Generated with Oxygen version 22.0, build number 2020040313.  --><meta name="wh-path2root" content="../../../" /><meta name="wh-toc-id" content="t_zotero_register-d61e288" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/topic-page.css?buildId=2020040313" />
+    
+    
+    <script type="text/javascript" src="../../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script>
+    
+    <script data-main="../../../oxygen-webhelp/app/topic-page.js" src="../../../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/blue.css?buildId=2020040313" /><link rel="stylesheet" type="text/css" href="../../../custom.css" /></head>
+
+    <body id="t_zotero_register" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Springe zum Hauptinhalt</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../../../index.html" class=" wh_logo d-none d-sm-block "><img src="../../../bbaw_logo.png" alt="  ediarum Setup-Anleitung  " /></a>
+                    <div class=" wh_publication_title "><a href="../../../index.html"><span class="booktitle">  <span class="ph mainbooktitle">ediarum Setup-Anleitung</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Menü umschalten" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_setup-d61e14-mi" data-tocid="c_ueberblick_setup-d61e14" data-state="not-ready" class=" topicref " data-id="c_ueberblick_setup"><span class="title"><a href="../../../DE/topics/setup/basis-setup.html">Basis-Setup</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_konfig-d61e208-mi" data-tocid="c_ueberblick_konfig-d61e208" data-state="not-ready" class=" topicref " data-id="c_ueberblick_konfig"><span class="title"><a href="../../../DE/topics/customization/konfiguration.html">Editionsspezifische Konfiguration</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../../search.html"><div><input type="search" placeholder="Suche " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Suchabfrage" required="required" /><button type="submit" class="wh_search_button" aria-label="Suche"><span>Suche</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../../index.html"><span>Startseite</span></a></span></li><li><span class="topicref" data-id="c_ueberblick_konfig"><span class="title"><a href="../../../DE/topics/customization/konfiguration.html">Editionsspezifische Konfiguration</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn für Ihre Edition ein umfassenderes XML-Schema benötigt wird als das mit ediarum         abgedeckte, können Sie das Schema und die Arbeitsumgebung erweitern. Sie können außerdem         zusätzliche Register erstellen.</p></span></span></span></li><li><span class="topicref" data-id="c_zotero_einrichtung"><span class="title"><a href="../../../DE/topics/customization/zotero_einrichtung.html">Literaturbestände aus Zotero als Register einbinden</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn Sie ihre Literaturbestände über <span class="keyword">Zotero</span> verwalten, können Sie diese auch als Register in <span class="keyword">ediarum</span> einbinden und so auf die entsprechende Literatur verweisen.</p></span></span></span></li><li class="active"><span class="topicref" data-id="t_zotero_register"><span class="title"><a href="../../../DE/topics/customization/zotero_register.html">Ein Register der Zotero-Einträge erstellen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Für einzelne <span class="keyword">Zotero-Verbindungen</span> lassen sich Register einrichten, um diese dann in <span class="keyword">ediarum</span> nutzen zu können.</p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Hervorhebungen der Suche umschalten" title="Hervorhebungen der Suche umschalten"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Sections einklappen" title="Sections einklappen"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  
+<span class="navprev"><a class="- topic/link link" href="../../../DE/topics/customization/zotero_verbindung.html" title="Eine Verbindung zu Zotero einrichten" aria-label="Vorheriges Thema: Eine Verbindung zu Zotero einrichten" rel="prev"></a></span>  
+<span class="navnext"><a class="- topic/link link" href="../../../DE/topics/customization/zotero_register-anlegen.html" title="Das Zotero-Register in Oxygen einbinden" aria-label="Nächstes Thema: Das Zotero-Register in Oxygen einbinden" rel="next"></a></span>  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Diese Seite drucken" aria-label="Diese Seite drucken"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="c_ueberblick_setup-d61e14" class="topicref" data-id="c_ueberblick_setup" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_ueberblick_setup-d61e14-link" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/setup/basis-setup.html" id="c_ueberblick_setup-d61e14-link">Basis-Setup</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Das Basis-Setup macht mit <span class="keyword">ediarum</span> eine Arbeitsumgebung für         wissenschaftliche Editionen verfügbar. Nach erfolgreichem Setup können Editor:innen in         dieser visuellen, Word-ähnlichen Umgebung TEI-konforme XML-Daten mit Registern, Kommentaren         u.ä. erstellen.</p></span></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="c_ueberblick_konfig-d61e208" class="topicref" data-id="c_ueberblick_konfig" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action c_ueberblick_konfig-d61e208-link" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/konfiguration.html" id="c_ueberblick_konfig-d61e208-link">Editionsspezifische Konfiguration</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn für Ihre Edition ein umfassenderes XML-Schema benötigt wird als das mit ediarum         abgedeckte, können Sie das Schema und die Arbeitsumgebung erweitern. Sie können außerdem         zusätzliche Register erstellen.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="oxygen_framework_kaskade-d61e219" class="topicref" data-id="oxygen_framework_kaskade" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/ueberblick-konfiguration.html" id="oxygen_framework_kaskade-d61e219-link">Über Oxygen-Frameworks und ediarum-Spezifika</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Das grundsätzliche Vorgehen für die Konfiguration via sogenannter "Frameworks" finden         Sie in der Oxygen-Dokumentation. Ediarum stellt für diese Konfiguration einige         Standardbausteine         bereit.</p></span></span></span></li><li role="treeitem"><span data-tocid="task_psj_nwx_tfb-d61e231" class="topicref" data-id="task_psj_nwx_tfb" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/register-anlegen.html" id="task_psj_nwx_tfb-d61e231-link">Ein eigenes Register anlegen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn Sie ein Register benötigen, das nicht bereits als Standardregister         in <span class="keyword">ediarum</span> enthalten         ist, legen Sie dieses in <span class="keyword">eXist-db</span> in der         <span class="keyword">ediarum.DB</span>-App an und verknüpfen es anschließend mit Oxygen.</p></span></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="c_zotero_einrichtung-d61e251" class="topicref" data-id="c_zotero_einrichtung" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action c_zotero_einrichtung-d61e251-link" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/zotero_einrichtung.html" id="c_zotero_einrichtung-d61e251-link">Literaturbestände aus Zotero als Register einbinden</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn Sie ihre Literaturbestände über <span class="keyword">Zotero</span> verwalten, können Sie diese auch als Register in <span class="keyword">ediarum</span> einbinden und so auf die entsprechende Literatur verweisen.</p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="t_zotero_verbindung-d61e268" class="topicref" data-id="t_zotero_verbindung" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/zotero_verbindung.html" id="t_zotero_verbindung-d61e268-link">Eine Verbindung zu Zotero einrichten</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Um die Literaturbestände aus <span class="keyword">Zotero</span> in <span class="keyword">ediarum</span> zu nutzen, müssen Sie zuerst eine Verbindung mit einer <span class="keyword">Zotero-Gruppe</span> herstellen.</p></span></span></span></li><li role="treeitem" class="active"><span data-tocid="t_zotero_register-d61e288" class="topicref" data-id="t_zotero_register" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/zotero_register.html" id="t_zotero_register-d61e288-link">Ein Register der Zotero-Einträge erstellen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Für einzelne <span class="keyword">Zotero-Verbindungen</span> lassen sich Register einrichten, um diese dann in <span class="keyword">ediarum</span> nutzen zu können.</p></span></span></span></li><li role="treeitem"><span data-tocid="t_zotero_register-anlegen-d61e305" class="topicref" data-id="t_zotero_register-anlegen" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/zotero_register-anlegen.html" id="t_zotero_register-anlegen-d61e305-link">Das Zotero-Register in Oxygen einbinden</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Um das Register in <span class="keyword">ediarum</span>-Frameworks zu verwenden, müssen Sie es abschließend noch in <span class="keyword">Oxygen</span> einbinden.</p></span></span></span></li></ul></li><li role="treeitem"><span data-tocid="c_aktion_eigene-d61e322" class="topicref" data-id="c_aktion_eigene" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../../DE/topics/customization/aktion_eigene.html" id="c_aktion_eigene-d61e322-link">Eigene Aktionen anlegen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Wenn Ihnen die von <span class="keyword">Oxygen</span> oder <span class="keyword">ediarum</span> mitgelieferten Aktionen nicht ausreichen, können Sie auch selber neue Aktionen definieren und in Ihr Framework einbinden.</p></span></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Ein Register der Zotero-Einträge erstellen</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc">Für einzelne <span class="- topic/keyword keyword">Zotero-Verbindungen</span> lassen sich Register einrichten, um diese dann in <span class="- topic/keyword keyword">ediarum</span> nutzen zu können.</p>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Wählen Sie das Menü <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Verwaltung</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Projekte</span></span> aus.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Klicken Sie das Feld Ihres eigenen Projekts an.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Wählen Sie das Menü <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Projektkonfiguration</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Register </span></span>aus.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Stellen Sie sicher, dass das gewünschte Register nicht bereits in der
+                    angezeigten Registerliste enthalten ist.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Klicken Sie im Feld <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Neue Registeranbindung (Zotero)</span> auf
+                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Hinzufügen</span>.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Füllen Sie in dem geöffneten Fenster alle Parameter aus.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <figure class="- topic/fig fig fignone"><figcaption class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Abbildung <span class="fig--title-label-number">1. </span></span><span class="fig--title">Fenster für den Eintrag von Zotero-Register-Parametern</span></figcaption>
+                        
+                        <br /><img class="- topic/image image" src="../../../common/images/ediarumDB_zotero_register.png" /><br />
+                    </figure>
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">API-ID</span>: Geben Sie hier eine eindeutige Folge aus Buchstaben und Zeichen (ohne Sonderzeichen) ein, mit Hilfe derer das Register über eine URI angesprochen werden kann. Dies ist später wichtig für die benutzerspezifischen Variablen. (Sie können die ID frei definieren. Sie steht in keinem Zusammenhang mit der API-ID der Zotero-Verbindung.) Zum Beispiel: <ul class="- topic/ul ul"><li class="- topic/li li">mEdi</li></ul></li>
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Bezeichnung</span>: Sie können die Bezeichnung des Registers frei wählen. Zum Beispiel: <ul class="- topic/ul ul"><li class="- topic/li li">MeineEdition</li></ul></li>
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Zotero-Verbindung</span>: Wählen Sie hier eine der eingerichteten Zotero-Verbindungen aus. Bestehen bisher keine Verbindungen, so müssen Sie vorher eine einrichten. (Siehe vorheriger Schritt: <em class="+ topic/ph hi-d/i ph i"><a class="- topic/xref xref" href="zotero_verbindung.html" title="Um die Literaturbestände aus Zotero in ediarum zu nutzen, müssen Sie zuerst eine Verbindung mit einer Zotero-Gruppe herstellen.">Eine Verbindung zu Zotero einrichten</a></em>.)</li>
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Zotero-Ordner</span>: Ein Register kann auf einen einzelnen Ordner einer Zotero-Gruppe beschränkt werden. Ist dies der Fall, dann muss der entsprechende Ordner hier ausgewählt werden. Bleibt das Feld leer, so umfasst das Register alle Einträge der Zotero-Gruppe.</li>
+                    </ul>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Klicken Sie auf <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Speichern</span>.</span>
+                <div class="- topic/itemgroup task/stepresult itemgroup stepresult">Für jede eingerichtete Zotero-Gruppe stehen nun mehrere Aktionen zur Verfügung:
+                    <ul class="- topic/ul ul">
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">API-Links</span>
+                            <ul class="- topic/ul ul">
+                                <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">GET</span>: Ausgabe des Registers im TEI-Format.</li>
+                                <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">UPDATE</span> Das Register wird über die Zotero-Verbindung auf den aktuellen Stand der Zotero-Einträge gebracht.
+                                    <div class="- topic/note note note note_note"><span class="note__title">Anmerkung:</span> Wenn in Zotero Einträge gelöscht werden, kann es vorkommen, dass diese nicht automatisch aus dem verbundenen Register entfernt werden. Das Register muss dann manuell aktualisiert werden.</div></li>
+                                <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">UPDATE and GET</span> Das Register wird zunächst aktualisiert und dann in der aktualisierten Form im TEI-Format ausgegeben.</li>
+                            </ul>
+                        </li>
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Bearbeiten</span>: Die oben genannten Einstellungen können geändert werden.</li>
+                        <li class="- topic/li li"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Entfernen</span>: Das Register wird gelöscht.</li>
+                    </ul>
+                </div>
+            </li></ol></section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.0">
+  <div class=" footer-container mx-auto ">
+    <div class="container">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3 style="text-align: left;">Über diese Publikation</h3>
+        <p style="text-align: left;">Setup-Anleitung für ediarum</p>
+        <p style="text-align: left; color: silver;">Version 1.3 Stand: 12.10.2021</p>
+        <p style="text-align: left; color: silver;">Gültig für folgende Software-Versionen: Oxygen XML Author v20.1, eXist-db v5.2, ediarum.BASE.edit v1.1.1, ediarum.DB v4.0.1, ediarum.REGISTER.edit v1.0.3</p>
+        <p style="text-align: left; color: silver;">Quelldateien (TELOTA-intern): ediarum.GUIDE.git/develop im Branch develop</p>
+        <p></p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3> </h3>
+        <p>
+        </p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Lizenz</h3>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110" /></a>
+        <p><br />Alle Inhalte und Texte dieser Website können – soweit nicht anders vermerkt – unter den Bedingungen der <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Lizenz CC BY-SA 4.0</a> nachgenutzt werden.</p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <h3>Herausgeber</h3>
+        <p>TELOTA-Arbeitsgruppe der Berlin-Brandenburgischen Akademie der Wissenschaften</p>
+        <p>Feedback an: Jan.Wierzoch@bbaw.de</p>
+    </div>
+</div>
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

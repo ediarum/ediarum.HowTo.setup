@@ -1,0 +1,256 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="de-de" lang="de-de" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="task" /><meta name="description" content="Für das Register-Lookup ist eine eigene Datenbankverbindung nötig, die mithilfe von sogenannten &#34;Editorvariablen&#34; in einem Oxygen-Projekt hinterlegt wird." /><meta name="DC.relation" scheme="URI" content="https://www.ediarum.org/docs/ediarum.BASE.manual/" /><meta name="DC.relation" scheme="URI" content="https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/editor-variables.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="t_projekt_anlegen" /><meta name="DC.language" content="de-DE" />        
+      <title>Projekt im Oxygen XML Author anlegen</title><!--  Generated with Oxygen version 22.0, build number 2020040313.  --><meta name="wh-path2root" content="../../../" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/app/topic-page.css?buildId=2020040313" />
+    
+    
+    <script type="text/javascript" src="../../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script>
+    
+    <script data-main="../../../oxygen-webhelp/app/topic-page.js" src="../../../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../oxygen-webhelp/template/blue.css?buildId=2020040313" /><link rel="stylesheet" type="text/css" href="../../../custom.css" /></head>
+
+    <body id="t_projekt_anlegen" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Springe zum Hauptinhalt</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../../../index.html" class=" wh_logo d-none d-sm-block "><img src="../../../bbaw_logo.png" alt="  Guía de instalación y configuración de ediarum  " /></a>
+                    <div class=" wh_publication_title "><a href="../../../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Guía de instalación y configuración de ediarum</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Menü umschalten" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_setup-d61e14-mi" data-tocid="c_ueberblick_setup-d61e14" data-state="not-ready" class=" topicref " data-id="c_ueberblick_setup"><span class="title"><a href="../../../ES/topics/setup/configuracion-basica.html">Instalación y configuración básica</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_konfig-d61e205-mi" data-tocid="c_ueberblick_konfig-d61e205" data-state="not-ready" class=" topicref " data-id="c_ueberblick_konfig"><span class="title"><a href="../../../ES/topics/customization/configuracion.html">Configuración específica de ediciones</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../../search.html"><div><input type="search" placeholder="Suche " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Suchabfrage" required="required" /><button type="submit" class="wh_search_button" aria-label="Suche"><span>Suche</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Hervorhebungen der Suche umschalten" title="Hervorhebungen der Suche umschalten"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Sections einklappen" title="Sections einklappen"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader"></span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Diese Seite drucken" aria-label="Diese Seite drucken"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Projekt im Oxygen XML Author anlegen</h1>
+    
+    <div class="- topic/body task/taskbody body taskbody"><p class="- topic/shortdesc shortdesc">Für das Register-Lookup ist eine eigene Datenbankverbindung nötig, die mithilfe von
+        sogenannten "Editorvariablen" in einem <span class="- topic/keyword keyword">Oxygen</span>-Projekt hinterlegt
+        wird.</p>
+        <section class="- topic/section task/context section context">Für das Basis-Setup von <span class="- topic/keyword keyword">ediarum</span> müssen mindestens die für das
+            Register-Lookup benötigten Editorvariablen im Projekt gespeichert werden. Eine
+            "Editor"-Variable ist eine generische Angabe in dem Tool <span class="- topic/keyword keyword">Oxygen XML
+                "Editor"</span> (oder <span class="- topic/keyword keyword">Oxygen XML Author</span>). <span class="- topic/keyword keyword">Oxygen XML
+                Author</span> speichert diese Einstellungen in einer Datei mit der Endung XPR. Im
+            Anschluss an das Basis-Setup dient das "Projekt" später als Container für weitere
+            editionsspezifische Konfigurationen.</section>
+        <section><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Wählen Sie <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Projekt</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Neues Projekt</span></span> aus.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Wählen Sie im nun geöffneten <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Neues Projekt</span>-Fenster den
+                    Ordner Ihres editionsspezifischen Frameworks aus.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Geben Sie einen Namen für die Projektdatei ein (zum Beispiel:
+                        <kbd class="+ topic/ph sw-d/userinput ph userinput">meineEditon.xpr</kbd>) und klicken Sie auf
+                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Speichern</span>.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <figure class="- topic/fig fig fignone">
+                        <img class="- topic/image image" src="../../images/oxygen_ProjektSpeicherort.png" width="600" />
+                    </figure>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Legen Sie fest, dass die Editorvariablen im Projekt gespeichert werden:</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Wählen Sie das Menü <span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Optionen</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Einstellungen</span></span>.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Wählen Sie im nun geöffneten
+                            <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Einstellungen</span>-Fenster den Eintrag
+                                <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Benutzerspezifische Editorvariablen</span>
+                            aus.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Aktivieren Sie die Option <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Projekt-Optionen</span> und klicken Sie auf <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Anwenden</span>.</span>
+                    </li>
+                 </ol>
+                <div class="- topic/itemgroup task/stepresult itemgroup stepresult">Der Eintrag <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Benutzerspezifische Editorvariablen</span>
+                    ist jetzt mit einem <span class="+ topic/ph ui-d/uicontrol ph uicontrol">[P]</span> gekennzeichnet und fett
+                    dargestellt.</div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Klicken Sie auf <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Neu</span> und tragen Sie im nun geöffneten
+                        <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Editorvariablen</span>-Fenster die Editorvariablen
+                    ${ediarum_project_name} und ${ediarum_project_domain} samt Werten ein.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    
+                    <table class="- topic/table table"><caption class="- topic/title title tablecap"></caption><colgroup><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+                                <tr class="- topic/row">
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Name:</span>
+                                        ${ediarum_project_name}</td>
+                                    <td class="- topic/entry entry">Der Wert muss mit dem in eXist-db festgelegten
+                                        Projektnamen übereinstimmen.</td>
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Wert:</span> (Beispiel)
+                                        meineEdition</td>
+                                </tr>
+                                <tr class="- topic/row">
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Name:</span>
+                                        ${ediarum_project_domain}</td>
+                                    <td class="- topic/entry entry">Basis-URL zur Datenbank. Der Wert muss Domain, ggf.
+                                        Server-Port und Server-Anmeldedaten enthalten.</td>
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Wert:</span> (Beispiel)
+                                        http://oxygen-bot:******@example.de:8028</td>
+                                </tr>
+                             </tbody></table>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Klicken Sie auf <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Anwenden</span> und <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span>.</span>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Prüfen
+                    Sie, ob folgende Editorvariablen für die Datenbankverbindung passend zu Ihrer
+                    Infrastruktur gesetzt sind.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <table class="- topic/table table"><caption class="- topic/title title tablecap"></caption><colgroup><col /><col /><col /></colgroup><tbody class="- topic/tbody tbody">
+                                <tr class="- topic/row">
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Name:</span>
+                                        ${ediarum_projects_directory}</td>
+                                    <td class="- topic/entry entry">Pfad zu den Projektordnern in der eXist-DB via
+                                        REST-Verbindung.</td>
+                                    <td class="- topic/entry entry">
+                                        <p class="- topic/p p"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Wert:</span> (Standard)
+                                            /exist/rest/db/projects/</p>
+                                        <p class="- topic/p p">Anstelle von <kbd class="+ topic/ph sw-d/userinput ph userinput">exist</kbd> ggf. eine
+                                            andere Angabe, z.B. <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum</kbd></p>
+                                    </td>
+                                </tr>
+                                <tr class="- topic/row">
+                                    <td class="- topic/entry entry"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Name:</span>
+                                        ${ediarum_projects_directory_webdav}</td>
+                                    <td class="- topic/entry entry">Pfad zu den Projekt-Ordnern in der eXist-DB via
+                                        WebDAV-Verbindung.</td>
+                                    <td class="- topic/entry entry">
+                                        <p class="- topic/p p"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Wert:</span> (Standard)
+                                            /exist/webdav/db/projects/</p>
+                                        <p class="- topic/p p">Anstelle von <kbd class="+ topic/ph sw-d/userinput ph userinput">exist</kbd> ggf. eine
+                                            andere Angabe, z.B. <kbd class="+ topic/ph sw-d/userinput ph userinput">ediarum</kbd></p>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                </div>
+            </li><li class="- topic/li task/step li step stepexpand">
+                <span class="- topic/ph task/cmd ph cmd">Falls Sie Änderungen vorgenommen haben, klicken Sie auf <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Anwenden</span> und <span class="+ topic/ph ui-d/uicontrol ph uicontrol">OK</span>.</span>
+            </li></ol></section>
+        <section class="- topic/section task/result section result">Wenn Sie das Dokument-Template aus dem <span class="- topic/keyword keyword">ediarum.BASE.edit</span>-Framework öffnen (<span class="+ topic/ph ui-d/menucascade ph menucascade"><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Datei</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">Öffnen...</span><abbr> &gt; </abbr><span class="+ topic/ph ui-d/uicontrol ph uicontrol">.../frameworks/ediarum.BASE.edit/templates</span></span>, werden im Autor-Modus die ediarum-spezifischen Schaltflächen angezeigt. Sie können nun Dokumente und Briefe edieren und mit den aktivierten Registern arbeiten. </section>
+    </div>
+    
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo" xml:lang="de-DE" lang="de-DE"><strong>Zugehörige Informationen</strong><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="https://www.ediarum.org/docs/ediarum.BASE.manual/" target="_blank" title="Erklärung der ediarum-Schaltflächen">Erklärung der ediarum-Schaltflächen</a></li><li class="linklist"><a class="navheader_parent_path" href="https://www.oxygenxml.com/doc/versions/21.1/ug-editor/topics/editor-variables.html" target="_blank" title="Was ist eine Editorvariable?">Was ist eine Editorvariable?</a></li></ul></div></nav></div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.0">
+  <div class=" footer-container mx-auto ">
+    <div class="container">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3 style="text-align: left;">Sobre esta publicación</h3>
+        <p style="text-align: left;">Guía de instalación y configuración de ediarum</p>
+        <p style="text-align: left; color: silver;">Versión 1.2es, última fecha de actualización: 12.10.2021</p>
+        <p style="text-align: left; color: silver;">Válida para los siguientes versiones de software: Oxygen XML Author v20.1, eXist-db v5.2, ediarum.BASE.edit v1.1.1, ediarum.DB v4.0.1, ediarum.REGISTER.edit v1.0.3</p>
+        <p style="text-align: left; color: silver;">Código fuente (para uso interno de TELOTA): ediarum.GUIDE.git/develop en la rama «develop»</p>
+		<p></p>
+        </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3> </h3>
+        <p>
+        </p>
+        </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Licencia</h3>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110" /></a>
+        <p><br />A menos que se indique lo contrario, todos los contenidos y textos de esta página web se pueden distribuir, modificar y usar con fines comerciales
+            bajo los términos de la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Creative Commons CC BY-SA 4.0</a>.</p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <h3>Publicado por</h3>
+        <p>Grupo de trabajo de TELOTA de la Academia de las Ciencias y Humanidades de Berlín-Brandeburgo</p>
+        <!--Die folgenden zwei Zeilen weisen auf die Übersetzung hin:-->
+        <h3>Traducido del alemán por</h3>
+        <p>Linda Kirsten</p>
+        <p>Por favor, envíe sus comentarios y retroalimentación a: jan.wierzoch@bbaw.de</p>
+    </div>
+</div>
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

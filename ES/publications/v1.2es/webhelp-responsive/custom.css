@@ -1,0 +1,88 @@
+/* Legacy */
+.topictitle2 {
+    font-weight: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*  05/2020 */
+.container-fluid {
+    max-width: 1200px;    
+}
+
+a,
+a:hover,
+a:visited,
+.wh_breadcrumb ol .active a,
+.wh_publication_toc .active > .topicref a,
+.wh_top_menu ul a {
+    color: #E5312E;
+}
+
+.wh_header {
+    background-image: none;
+    padding: 1em;
+    border-bottom: 1px solid silver;
+}
+
+.wh_publication_title > a {
+    color: #E5312E !important;
+    font-weight: bold !important;
+    font-size: 1.5em !important;
+    text-transform: none;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.wh_search_button {
+    background-color: #E5312E;
+}
+
+.wh_hide_highlight,
+.wh_main_page_toc a,
+.wh_navigation_links a,
+.wh_navigation_links a:hover, 
+.wh_navigation_links a:active,
+.wh_main_page_toc_accordion_header::before {
+    color: #E5312E !important;
+}
+
+.wh_publication_toc {
+    background-color: #e0e0e0;
+}
+
+.wh_top_menu ul li:hover a {
+    background-color: #e0e0e0;
+    color: #E5312E;
+}
+
+.wh_top_menu ul li:hover ul a {
+    color: #E5312E;    
+}
+
+.wh_top_menu ul ul li a:hover {
+    background-color: silver;
+    color: #E5312E;
+}
+
+.wh_footer {
+    background-image: none;
+}
+
+footer {
+    background-color: #969696; 
+    color: white;
+}
+
+footer a,
+footer a:visited{ 
+    color: white;
+}
+
+footer .col-lg-3 {
+    float:left;
+    text-align: left;
+}

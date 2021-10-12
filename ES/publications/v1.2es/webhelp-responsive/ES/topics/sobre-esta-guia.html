@@ -1,0 +1,326 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="es-es" lang="es-es" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2021" /><meta name="DC.rights.owner" content="(C) Copyright 2021" /><meta name="DC.type" content="concept" /><meta name="description" content="La configuración básica primero hace disponible ediarum en la versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que necesite conocimientos de programación." /><meta name="DC.relation" scheme="URI" content="../../ES/topics/setup/configuracion-basica.html" /><meta name="DC.relation" scheme="URI" content="../../ES/topics/setup/configuracion-basica.html" /><meta name="DC.relation" scheme="URI" content="../../ES/topics/setup/resumen_de_la_configuracion_basica.html" /><meta name="DC.relation" scheme="URI" content="https://ride.i-d-e.de/issues/issue-11/ediarum/" /><meta name="DC.relation" scheme="URI" content="https://www.ediarum.org/docs/ediarum.BASE.manual/" /><meta name="DC.relation" scheme="URI" content="http://www.deutschestextarchiv.de/doku/basisformat/" /><meta name="DC.relation" scheme="URI" content="http://exist-db.org" /><meta name="DC.relation" scheme="URI" content="https://www.oxygenxml.com" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="c_ueberblick_setup" /><meta name="DC.language" content="es-ES" />        
+      <title>Sobre esta guía</title><!--  Generated with Oxygen version 22.0, build number 2020040313.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="c_ueberblick_setup-d61e25" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2020040313" />
+    
+    
+    <script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script>
+    
+    <script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/blue.css?buildId=2020040313" /><link rel="stylesheet" type="text/css" href="../../custom.css" /></head>
+
+    <body id="c_ueberblick_setup" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">jump.to.content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="22.0">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../../index.html" class=" wh_logo d-none d-sm-block "><img src="../../bbaw_logo.png" alt="  Guía de instalación y configuración de ediarum  " /></a>
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Guía de instalación y configuración de ediarum</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="toggle.menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_setup-d61e14-mi" data-tocid="c_ueberblick_setup-d61e14" data-state="not-ready" class=" topicref " data-id="c_ueberblick_setup"><span class="title"><a href="../../ES/topics/setup/configuracion-basica.html">Instalación y configuración básica</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="c_ueberblick_konfig-d61e205-mi" data-tocid="c_ueberblick_konfig-d61e205" data-state="not-ready" class=" topicref " data-id="c_ueberblick_konfig"><span class="title"><a href="../../ES/topics/customization/configuracion.html">Configuración específica de ediciones</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="webhelp.search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="search.query" required="required" /><button type="submit" class="wh_search_button" aria-label="webhelp.search"><span>webhelp.search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../index.html"><span>label.home</span></a></span></li><li><span class="topicref" data-id="c_ueberblick_setup"><span class="title"><a href="../../ES/topics/setup/configuracion-basica.html">Instalación y configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica de ediarum hace disponible un entorno de trabajo para         ediciones filológicas. Después de una instalación y configuración existosa, los editores y         editoras pueden crear datos XML conforme a TEI con registros, notas etc. en un entorno         visual que es similar al de Word. </p></span></span></span></li><li class="active"><span class="topicref" data-id="c_ueberblick_setup"><span class="title"><a href="../../ES/topics/sobre-esta-guia.html">Sobre esta guía</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica primero hace disponible <span class="keyword">ediarum</span> en la         versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que         necesite conocimientos de programación.</p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="toggleHighlights" title="toggleHighlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="collapseSections" title="collapseSections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  
+<span class="navprev"><a class="- topic/link link" href="../../ES/topics/setup/configuracion-basica.html" title="Instalación y configuración básica" aria-label="Tema anterior: Instalación y configuración básica" rel="prev"></a></span>  
+<span class="navnext"><a class="- topic/link link" href="../../ES/topics/setup/resumen_de_la_configuracion_basica.html" title="Resumen de la configuración básica" aria-label="Tema siguiente: Resumen de la configuración básica" rel="next"></a></span>  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="printThisPage" aria-label="printThisPage"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="c_ueberblick_setup-d61e14" class="topicref" data-id="c_ueberblick_setup" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action c_ueberblick_setup-d61e14-link" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/setup/configuracion-basica.html" id="c_ueberblick_setup-d61e14-link">Instalación y configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica de ediarum hace disponible un entorno de trabajo para         ediciones filológicas. Después de una instalación y configuración existosa, los editores y         editoras pueden crear datos XML conforme a TEI con registros, notas etc. en un entorno         visual que es similar al de Word. </p></span></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="c_ueberblick_setup-d61e25" class="topicref" data-id="c_ueberblick_setup" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/sobre-esta-guia.html" id="c_ueberblick_setup-d61e25-link">Sobre esta guía</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">La configuración básica primero hace disponible <span class="keyword">ediarum</span> en la         versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que         necesite conocimientos de programación.</p></span></span></span></li><li role="treeitem"><span data-tocid="ediarum-d61e39" class="topicref" data-id="ediarum" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/setup/resumen_de_la_configuracion_basica.html" id="ediarum-d61e39-link">Resumen de la configuración básica</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"><span class="keyword">ediarum</span> está disponible en GitHub, en forma de componentes de         configuración para <span class="keyword">Oxygen XML Author</span> (los llamados frameworks) y para la         base de datos XML <span class="keyword">eXist-db</span> (las llamadas aplicaciones).</p></span></span></span></li><li role="treeitem"><span data-tocid="t_exist_installieren-d61e58" class="topicref" data-id="t_exist_installieren" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/setup/tips-oxygen-exist-instalacion.html" id="t_exist_installieren-d61e58-link">Tips para la instalación de eXist-db y Oxygen</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Las guías de instalación para eXist-db y Oxygen se encuentran en sus sitios web         correspondientes. Los consejos adicionales que se han recopilado aquí se basan en la         experiencia de los desarrolladores y desarrolladoras de ediarum y pueden ser útiles para los         problemas típicos de instalación.</p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="c_exist_einrichtung-d61e69" class="topicref" data-id="c_exist_einrichtung" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_exist_einrichtung-d61e69-link" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/setup/db_configuracion.html" id="c_exist_einrichtung-d61e69-link">Instalar y configurar la base de datos</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Instala la aplicación eXist <span class="keyword">ediarum.DB</span>. Usando esta aplicación,         crea su propio proyecto en su base de datos que contiene todos las configuraciones         necesarias para la interacción entre la base de datos y Oxygen XML Author. </p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="c_oxygen_einrichtung-d61e148" class="topicref" data-id="c_oxygen_einrichtung" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_oxygen_einrichtung-d61e148-link" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/setup/oxygen_configuracion.html" id="c_oxygen_einrichtung-d61e148-link">Configurar el entorno de trabajo en Oxygen XML Author</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Conecta <span class="keyword">Oxygen XML Author</span> con eXist-db (la base de datos) y hace         disponible todas las funcionalidades contenidas en ediarum.</p></span></span></span></li></ul></li><li role="treeitem" aria-expanded="false"><span data-tocid="c_ueberblick_konfig-d61e205" class="topicref" data-id="c_ueberblick_konfig" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action c_ueberblick_konfig-d61e205-link" class="wh-expand-btn"></span><span class="title"><a href="../../ES/topics/customization/configuracion.html" id="c_ueberblick_konfig-d61e205-link">Configuración específica de ediciones</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Si su edicion requiere una definición de esquema XML más completo que el que cubre         ediarum, puede extender el documento esquema y el entorno de trabajo. Además, puede crear         registros adicionales.</p></span></span></span></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Sobre esta guía</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">La configuración básica primero hace disponible <span class="- topic/keyword keyword">ediarum</span> en la
+        versión estándar, sin ninguna configuración específica de su proyecto editorial y sin que
+        necesite conocimientos de programación.</p>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Sobre ediarum</h2>
+            
+            <div class="- topic/sectiondiv sectiondiv">
+                <p class="- topic/p p">Uso:</p>
+                <p class="- topic/p p"><span class="- topic/keyword keyword">Ediarum</span> es un entorno de trabajo para ediciones filológicas
+                    digitales. En este entorno de trabajo, los editores y editoras pueden crear y
+                    editar transcripciones basadas en XML-TEI de fuentes de texto sin tener
+                    conocimientos profundos de XML. De esta manera, los editores y editoras pueden
+                    marcar fenómenos textuales, insertar comentarios, crear enlaces a los registros,
+                    mantener las entradas de los registros y proporcionarles de datos de autoridad.
+                    La configuración básica proporciona a través de ediarum.BASE.edit un modelo de
+                    datos orientado a fuentes históricas de la (Temprana) Edad Moderna que está
+                    basado en el DTA-Basisformat (“formato básico del DTA”).</p>
+            </div>
+            <div class="- topic/sectiondiv sectiondiv">
+                <p class="- topic/p p">Componentes técnicos:</p>
+                <p class="- topic/p p">A nivel técnico, ediarum proporciona los siguientes componentes:</p>
+                <ul class="- topic/ul ul">
+                    <li class="- topic/li li">ediarum.BASE.edit: framework para Oxygen XML Author para transcribir textos<ul class="- topic/ul ul">
+                            <li class="- topic/li li">Contiene ediarum.jar, ...</li>
+                        </ul></li>
+                    <li class="- topic/li li">ediarum.REGISTER.edit: framework para Oxygen XML Author para registros</li>
+                    <li class="- topic/li li">ediarum.DB: una aplicación de eXist-db para la gestión de datos adecuada para
+                        ediarum.BASE.edit y ediarum.REGISTER.edit</li>
+                </ul>
+            </div>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Variantes de configuración</h2>
+            
+            <p class="- topic/p p">Este manual describe la configuración básica de <span class="- topic/keyword keyword">ediarum</span>. No
+                describe la configuración y extensión específica de una edición, pero ofrece
+                información básica sobre ambas.</p>
+            <p class="- topic/p p">Configuración básica: Pone en funcionamiento <span class="- topic/keyword keyword">ediarum</span> de modo que
+                las funcionalidades de entrada para el esquema XML suministrada estén disponibles.
+                La configuración básica también incluye la configuración de un registro de personas
+                y un registro de lugares, así como de las correspondientes funcionalidades de
+                entrada.</p>
+            <p class="- topic/p p">Configuración y extensión específica de su edición: Cuando <span class="- topic/keyword keyword">ediarum</span>
+                está funcionando, puede añadir sus propias funcionalidades al framework, por ejemplo
+                para elementos TEI específicos de su edición. Puede activar las funcionalidades de
+                entrada suministradas para más registros (por ejemplo, el registro de obras) o
+                añadir sus propios registros.</p>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">¿A quién va dirigido este manual?</h2>
+            
+            <p class="- topic/p p">Puede realizar la instalación y configuración básica de ediarum si tiene
+                conocimientos básicos de informática en las humanidades digitales. Una vez que ha
+                completado la configuración, puede pasarla como add-on a los editores y editoras del
+                grupo de trabajo de su edición. </p>
+            <p class="- topic/p p">Conocimientos necesarios para realizar la configuración:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">Conocimientos básicos de XML, esquemas XML</li>
+                <li class="- topic/li li">Conocimientos básicos del dashboard eXist-db, es decir, la interfaz gráfica para
+                    el trabajo con su base de datos </li>
+                <li class="- topic/li li">Conocimientos básicos de GitHub</li>
+            </ul>
+            <p class="- topic/p p">Conocimientos necesarios para realizar trabajos editoriales con ediarum:</p>
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li">Conocimientos básicos de XML y TEI</li>
+                <li class="- topic/li li">Conocimientos básicos de <span class="- topic/keyword keyword">Oxygen XML Author</span></li>
+            </ul>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Requisitos</h2>
+            
+            <ul class="- topic/ul ul">
+                <li class="- topic/li li"><span class="- topic/keyword keyword">Oxygen XML Author</span> está instalado, al menos la versión 20.1
+                    (alternativamente: Oxygen XML Editor). </li>
+                <li class="- topic/li li">La versión 5.2 de eXist-db está instalado.</li>
+            </ul>
+        </section>
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Idiomas</h2>
+            
+            <p class="- topic/p p">Los componentes necesarios para instalar y usar ediarum están disponibles en los
+                siguientes idiomas:</p>
+            <ul class="- topic/ul ul">
+            <li class="- topic/li li"><span class="- topic/keyword keyword">Oxygen XML Author</span> está disponible en inglés. </li>
+            <li class="- topic/li li"> El tablero de instrumentos de eXist-db tiene una interfaz de usuario en inglés, la
+                    aplicación ediarum.DB sólo está disponible en alemán. Para poder usarla sin
+                    conocimientos de alemán, esta guía describe cada paso de la instalación, hace
+                    referencia a los elementos de la GUI y explica su significado y contenido.  </li>
+                <li class="- topic/li li">La interfaz de ediarum.BASE.edit está disponible en alemán. <a class="- topic/xref xref" href="https://habanaberlin.hypotheses.org/" target="_blank">Proyecto Humboldt Digital</a> (ProHD) está desarrollando una
+                    localización en español. También es posible crear su propio extensión del
+                    framework de ediarum.BASE.edit que incluya su traducción de la interfaz gráfica
+                    de usuario.</li>
+                <li class="- topic/li li">El ediarum.BASE.manual está disponible en alemán y español. La versión en
+                    español hace referencia a los términos localizados de la GUI de
+                    ediarum.PROHD.edit.  </li>
+            </ul>
+        </section>
+        
+        <section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Retroalimentación</h2>
+            
+            <p class="- topic/p p">Siempre estamos felices de recibir retroalimentación sobre esta guía. Por favor,
+                dirija sus comentarios a: jan.wierzoch@bbaw.de. </p>
+            <p class="- topic/p p">Estamos planeando hacer disponibles los archivos XML de esta guía en GitHub en el
+                futuro próximo para que pueda contribuir con añadiduras directamente. </p>
+        </section>
+    </div>
+    
+    <article class="- topic/topic concept/concept topic concept nested1" aria-labelledby="ariaid-title2" id="what_is_new">
+        <h2 class="- topic/title title topictitle2" id="ariaid-title2">¿Qué hay de nuevo en esta versión del manual?</h2>
+        <div class="- topic/body concept/conbody body conbody">
+            <section class="- topic/section section"><h3 class="- topic/title title sectiontitle">v1.2es del 12.10.2021</h3>
+                
+                <ul class="- topic/ul ul">
+                    <li class="- topic/li li">Correción en <a class="- topic/xref xref" href="../../DE/topics/setup/oxygen_projekt-anlegen.html" title="Für das Register-Lookup ist eine eigene Datenbankverbindung nötig, die mithilfe von sogenannten &#34;Editorvariablen&#34; in einem Oxygen-Projekt hinterlegt wird.">Projekt im Oxygen XML Author anlegen</a> de dos variables de editor: Debe haber una barra (“/”) al final de la
+                        ruta. Si estas variables del editor no se introducen correctamente, no podrá
+                        utilizar las funcionalidades de registro, por ejemplo. <ul class="- topic/ul ul">
+                            <li class="- topic/li li">Por ejemplo, para ${ediarum_projects_directory}:
+                                /exist/rest/db/projects/</li>
+                            <li class="- topic/li li">Por ejemplo, para ${ediarum_projects_directory_webdav}:
+                                /exist/webdav/db/projects/</li>
+                        </ul></li>
+                    <li class="- topic/li li">Correción en <a class="- topic/xref xref" href="../../DE/topics/setup/db_projekt-anlegen.html" title="In der Datenbank muss für Ihre Edition ein Projekt mit einer standardisierten Ablagestruktur und einigen standardisierten Settings vorhanden sein. Um die Standards automatisiert korrekt anzulegen, benutzen Sie die ediarum.DB-App.">Projekt in der Datenbank anlegen</a>
+                        sobre el cambio de nombre de las carpetas de la base de datos para los datos
+                        XML: No debe cambiar el nombre de las carpetas creadas automáticamente
+                        durante la instalación de la aplicación <span class="- topic/keyword keyword">ediarum.DB</span> en
+                            <span class="- topic/keyword keyword">eXist-db</span>, ino sólo después de haber completado la
+                        configuración básica, a través del <span class="- topic/keyword keyword">Oxygen XML
+                        Author</span>.</li>
+                    <li class="- topic/li li">Nuevo capítulo: <a class="- topic/xref xref" href="../../DE/topics/setup/tips-oxygen-exist-installation.html" title="Die Installationsanleitungen für eXist-db und Oxygen finden Sie auf deren Webseiten. Die hier versammelten zusätzlichen Tipps basieren auf der Erfahrung der ediarum-Entwickler:innen und können bei typischen Installationsproblemen hilfreich sein.">Installationstipps eXist-db und Oxygen</a></li>
+                </ul>
+            </section>
+        </div>
+    </article>
+    <article class="- topic/topic concept/concept topic concept nested1" aria-labelledby="ariaid-title3" id="version_history">
+        <h2 class="- topic/title title topictitle2" id="ariaid-title3">Historial de cambios</h2>
+        <div class="- topic/body concept/conbody body conbody">
+            <div class="simpletable-container"><table class="- topic/simpletable simpletable frame-all" id="version_history__simpletable_ljd_yvp_2lb"><colgroup><col style="width:25%" /><col style="width:25%" /><col style="width:25%" /><col style="width:25%" /></colgroup><thead><tr class="- topic/sthead sthead">
+                    <th class="- topic/stentry stentry" scope="col">versión del documento</th>
+                    <th class="- topic/stentry stentry" scope="col">fecha de publicación</th>
+                    <th class="- topic/stentry stentry" scope="col">versión del software</th>
+                    <th class="- topic/stentry stentry" scope="col">cambios realizados</th>
+                </tr></thead><tbody><tr class="- topic/strow strow">
+                    <td class="- topic/stentry stentry">v1.2es</td>
+                    <td class="- topic/stentry stentry">
+                        <p class="- topic/p p">03.12.2020</p>
+                        <p class="- topic/p p">(not published, for internal use only)</p>
+                    </td>
+                    <td class="- topic/stentry stentry">
+                        <p class="- topic/p p">Oxygen XML Author v20.1</p>
+                        <p class="- topic/p p">eXist-db v5.2</p>
+                        <p class="- topic/p p">ediarum.BASE.edit v1.1.1</p>
+                        <p class="- topic/p p">ediarum.DB v4.0.1</p>
+                        <p class="- topic/p p">ediarum.REGISTER.edit v1.0.3</p>
+                    </td>
+                    <td class="- topic/stentry stentry">Correcciones debidas al workshop de ediarum 09.-11.03. 2020.</td>
+                </tr><tr class="- topic/strow strow">
+                    <td class="- topic/stentry stentry">v1.2</td>
+                    <td class="- topic/stentry stentry">12.02.2020</td>
+                    <td class="- topic/stentry stentry">
+                        <p class="- topic/p p">Oxygen XML Author v20.1</p>
+                        <p class="- topic/p p">eXist-db v3.5 oder v4.4</p>
+                        <p class="- topic/p p">ediarum.BASE.edit v1.1.1</p>
+                        <p class="- topic/p p">ediarum.DB v3.2.5</p>
+                        <p class="- topic/p p">ediarum.REGISTER.edit v1.0.1</p>
+                    </td>
+                    <td class="- topic/stentry stentry">Publicado por primera vez en: https://www.ediarum.org</td>
+                </tr></tbody></table></div>
+        </div>
+    </article>
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="- topic/related-links related-links"><div class="- topic/linklist linklist relinfo" xml:lang="es-ES" lang="es-ES"><strong>Información relacionada</strong><ul class="linklist related_link"><li class="linklist"><a class="navheader_parent_path" href="https://ride.i-d-e.de/issues/issue-11/ediarum/" target="_blank" title="ediarum: Descripción del uso y la tecnología. Reseña en inglés">ediarum: Descripción del uso y la tecnología. Reseña en inglés</a></li><li class="linklist"><a class="navheader_parent_path" href="https://www.ediarum.org/docs/ediarum.BASE.manual/" target="_blank" title="ediarum:&#xA;                    Manual para editores">ediarum:
+                    Manual para editores</a></li><li class="linklist"><a class="navheader_parent_path" href="http://www.deutschestextarchiv.de/doku/basisformat/" target="_blank" title="DTA-Basisformat: Documentación en alemán">DTA-Basisformat: Documentación en alemán</a></li><li class="linklist"><a class="navheader_parent_path" href="http://exist-db.org" target="_blank" title="http://exist-db.org">http://exist-db.org</a></li><li class="linklist"><a class="navheader_parent_path" href="https://www.oxygenxml.com" target="_blank" title="https://www.oxygenxml.com">https://www.oxygenxml.com</a></li></ul></div></nav></div>
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">on_this_page</div><ul><li class="topic-item"><a href="#what_is_new" data-tocid="what_is_new">¿Qué hay de nuevo en esta versión del manual?</a></li><li class="topic-item"><a href="#version_history" data-tocid="version_history">Historial de cambios</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="22.0">
+  <div class=" footer-container mx-auto ">
+    <div class="container">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3 style="text-align: left;">Sobre esta publicación</h3>
+        <p style="text-align: left;">Guía de instalación y configuración de ediarum</p>
+        <p style="text-align: left; color: silver;">Versión 1.2es, última fecha de actualización: 12.10.2021</p>
+        <p style="text-align: left; color: silver;">Válida para los siguientes versiones de software: Oxygen XML Author v20.1, eXist-db v5.2, ediarum.BASE.edit v1.1.1, ediarum.DB v4.0.1, ediarum.REGISTER.edit v1.0.3</p>
+        <p style="text-align: left; color: silver;">Código fuente (para uso interno de TELOTA): ediarum.GUIDE.git/develop en la rama «develop»</p>
+		<p></p>
+        </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3> </h3>
+        <p>
+        </p>
+        </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3 ">
+        <h3>Licencia</h3>
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://edition-humboldt.de/resources/images/cc-by-sa.png" width="110" /></a>
+        <p><br />A menos que se indique lo contrario, todos los contenidos y textos de esta página web se pueden distribuir, modificar y usar con fines comerciales
+            bajo los términos de la licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">Creative Commons CC BY-SA 4.0</a>.</p>
+    </div>
+    <div class=" col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <h3>Publicado por</h3>
+        <p>Grupo de trabajo de TELOTA de la Academia de las Ciencias y Humanidades de Berlín-Brandeburgo</p>
+        <!--Die folgenden zwei Zeilen weisen auf die Übersetzung hin:-->
+        <h3>Traducido del alemán por</h3>
+        <p>Linda Kirsten</p>
+        <p>Por favor, envíe sus comentarios y retroalimentación a: jan.wierzoch@bbaw.de</p>
+    </div>
+</div>
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>
