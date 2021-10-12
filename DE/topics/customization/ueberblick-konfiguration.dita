@@ -119,12 +119,12 @@ Nehmen Sie für das Basis Setup vorerst keine Änderungen am oder im Ordner &quo
                 führen.</p>
         </section>
     </conbody>
-    <related-links scope="external" format="html">
+    <related-links>
         <link
-            href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial">
+            href="https://www.oxygenxml.com/doc/versions/19.1/ug-author/topics/dg-complex-customization-tutorial.html#dg-complex-customization-tutorial" scope="external" format="html">
             <linktext>Oxygen-Anleitung zur Anpassung eines Frameworks</linktext>
         </link>
-        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/">
+        <link href="http://digiversity.net/2013/tutorial-wie-baue-ich-ein-oxygen-xml-framework/" scope="external" format="html">
             <linktext>Tutorial: Wie baue ich ein eigenes Framework für Oxygen XML?</linktext>
         </link>
     </related-links>
