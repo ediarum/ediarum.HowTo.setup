@@ -13,7 +13,7 @@
           <title>eXist-db</title>
          
             <ul>
-                <li>Für ediarum benötigen Sie die eXist-db-Version 3.5 oder 4.4.</li>
+                <li>Für ediarum benötigen Sie die eXist-db-Version 5.2.</li>
                 <li>Java muss installiert und aktuell sein.</li>
                 <li>Beachten Sie die Installationsvoraussetzungen auf der Webseite von eXist, insbesondere hinsichtlich der Java-Version.</li>
             </ul>
@@ -23,8 +23,8 @@
                 <li>Speicher auf 1024 MB
                     reduzieren.<?oxy_comment_start author="notroff" timestamp="20200309T170257+0100" comment="Evtl. Screenshot zu der 1024-Reduzierung?"?></li><?oxy_comment_end?>
                 <li><b>Nicht</b> als <q>Service at Startup</q> installieren. "Service at Startup"
-                    kann zu Problemen beim Starten von eXist-db führen, zumindest in eXist-db
-                    Version 3.5. </li>
+                    kann zu Problemen beim Starten von eXist-db führen. (Problem bekannt in eXist-db
+                    Version 3.5.)</li>
             </ul>
 
             <p>Deinstallation von alten Versionen:</p>
@@ -50,8 +50,8 @@
         <linkpool>
             <link href="https://exist-db.org/exist/apps/doc/" format="html" scope="external"><linktext>eXist-db: Installationsvoraussetzungen und -anleitungen</linktext></link>
             <link href="https://exist-db.org/exist/apps/doc/advanced-installation" format="html" scope="external"><linktext>eXist-db Installation auf einem Server</linktext></link>
-            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html" scope="external"><linktext>eXist-db 3.5.0 - Download</linktext></link>
-            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-4.4.0" format="html" scope="external"><linktext>eXist-db 4.4.0 - Download</linktext></link>
+            <!--<link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html" scope="external"><linktext>eXist-db 3.5.0 - Download</linktext></link>-->
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-5.2.0" format="html" scope="external"><linktext>eXist-db 5.2.0 - Download</linktext></link>
         </linkpool>
         <linkpool>
             <link href="https://www.oxygenxml.com/documentation.html" format="html" scope="external">

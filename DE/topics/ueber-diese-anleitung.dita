@@ -73,13 +73,13 @@
             <ul>
                 <li><keyword>Oxygen XML Author</keyword> ist installiert, mindestens in der Version
                     20.1 (alternativ: Oxygen XML Editor). </li>
-                <li>eXist-db ist installiert, in der Version 3.5 oder 4.4.</li>
+                <li>eXist-db ist installiert, in der Version 5.2.</li>
                 </ul>
         </section>
         <section>
             <title>Feedback</title>
             <p>Wir sind jederzeit froh über Feedback zu dieser Anleitung an
-                andrea.notroff@bbaw.de.</p>
+                jan.wierzoch@bbaw.de.</p>
             <p>Wir planen, in naher Zukunft die XML-Dateien zu dieser Anleitung auf github zur
                 Verfügung zu stellen, sodass Sie direkt Ergänzungen beitragen können.</p>
         </section>
@@ -103,25 +103,13 @@
         <title>Was ist neu in dieser Dokument-Version?</title>
         <conbody>
             <section>
-                <title>v1.2.1_localization vom 03.12.2020</title>
+                <title>v1.3 vom 12.10.2021</title>
                 <ul>
-                    <li>Korrektur in <xref href="setup/oxygen_projekt-anlegen.dita"></xref> zu
-                        zwei Editorvariablen: Am Ende des Pfades muss ein Schrägstrich stehen ("/").
-                        Wenn diese Editorvariablen nicht korrekt eingetragen sind, können Sie zum
-                        Beispiel die Registerfunktionalitäten nicht benutzen. <ul>
-                            <li>Für ${ediarum_projects_directory} zum Beispiel:
-                                /exist/rest/db/projects/</li>
-                            <li>Für ${ediarum_projects_directory_webdav} zum Beispiel:
-                                /exist/webdav/db/projects/</li>
-                        </ul>
-                    </li>
-                    <li>Korrektur in <xref href="setup/db_projekt-anlegen.dita"></xref> zur Umbenennung von Datenbank-Ordnern für
-                        XML-Daten: Sie sollten die bei der Installation der <keyword>ediarum.DB
-                            App</keyword> automatisch angelegten Ordner nicht in der
-                        <keyword>eXist-db</keyword> umbenennen, sondern erst nachdem Sie das
-                        Basis-Setup abgeschlossen haben, per <keyword>Oxygen XML
-                            Author</keyword>.</li>
-                    <li>Neues Kapitel: <xref href= "setup/tips-oxygen-exist-installation.dita"></xref></li>
+                    <li>Umstellung auf eXist-DB Version 5 und ediarum.DB Version 4</li>
+                    <li>Kapitel "<xref href="customization/zotero_einrichtung.dita"></xref>" erweitert</li>
+                    <li>Neues Concept "<xref href="customization/aktion_eigene.dita"></xref>". (Wird später erweitert.)</li>
+                    <li>Erläuterung der durch ediarum eingerichteten Ordnerstruktur in <xref href="setup/db_projekt-anlegen.dita"></xref></li>
+                    <li>kleinere Bugfixes und Anpassungen</li>
                 </ul>
             </section>
         </conbody>
@@ -136,6 +124,18 @@
                     <stentry>Software-Versionen</stentry>
                     <stentry>Änderungen</stentry>
                 </sthead>
+                <strow>
+                    <stentry>v1.3</stentry>
+                    <stentry><p>12.10.2020</p></stentry>
+                    <stentry>
+                        <p>Oxygen XML Author v20.1</p>
+                        <p>eXist-db v5.2</p>
+                        <p>ediarum.BASE.edit v1.1.1</p>
+                        <p>ediarum.DB v4.0.1</p>
+                        <p>ediarum.REGISTER.edit v1.0.3</p>
+                    </stentry>
+                    <stentry>Anpassungen nach Lokalisierung und eXist-db Update.</stentry>
+                </strow>
                 <strow>
                     <stentry>v1.1.2_localization</stentry>
                     <stentry><p>03.12.2020</p>

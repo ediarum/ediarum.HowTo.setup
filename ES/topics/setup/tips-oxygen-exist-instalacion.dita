@@ -13,7 +13,7 @@
           <title>eXist-db</title>
          
             <ul>
-                <li>Para usar ediarum se necesita la versión 3.5 o 4.4 de eXist-db. </li>
+                <li>Para usar ediarum se necesita la versión 5.2 de eXist-db. </li>
                 <li>Java debe estar instalado y actualizado. </li>
                 <li>Se deben tener en cuenta los requisitos de instalación en el sitio web de eXist,
                     especialmente en cuanto a la versión de Java.</li>
@@ -57,13 +57,13 @@
                 scope="external">
                 <linktext>eXist-db Instalación en el servidor (en inglés)</linktext>
             </link>
-            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html"
+<!--            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-3.5.0" format="html"
                 scope="external">
                 <linktext>eXist-db 3.5.0 - Descarga</linktext>
-            </link>
-            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-4.4.0" format="html"
+            </link>-->
+            <link href="https://github.com/eXist-db/exist/releases/tag/eXist-5.2.0" format="html"
                 scope="external">
-                <linktext>eXist-db 4.4.0 - Descarga</linktext>
+                <linktext>eXist-db 5.2.0 - Descarga</linktext>
             </link>
         </linkpool>
         <linkpool>

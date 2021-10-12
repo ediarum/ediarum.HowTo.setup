@@ -73,7 +73,7 @@
             <ul>
                 <li><keyword>Oxygen XML Author</keyword> está instalado, al menos la versión 20.1
                     (alternativamente: Oxygen XML Editor). </li>
-                <li>La versión 3.5 o 4.4 de eXist-db está instalado.</li>
+                <li>La versión 5.2 de eXist-db está instalado.</li>
             </ul>
         </section>
         <section>
@@ -129,7 +129,7 @@
         <title>¿Qué hay de nuevo en esta versión del manual?</title>
         <conbody>
             <section>
-                <title>v1.2.1_localization del 03.12.2020</title>
+                <title>v1.2es del 12.10.2021</title>
                 <ul>
                     <li>Correción en <xref href="../../DE/topics/setup/oxygen_projekt-anlegen.dita"
                         /> de dos variables de editor: Debe haber una barra (“/”) al final de la
@@ -164,17 +164,17 @@
                     <stentry>cambios realizados</stentry>
                 </sthead>
                 <strow>
-                    <stentry>v1.1.2_localization</stentry>
+                    <stentry>v1.2es</stentry>
                     <stentry>
                         <p>03.12.2020</p>
                         <p>(not published, for internal use only)</p>
                     </stentry>
                     <stentry>
                         <p>Oxygen XML Author v20.1</p>
-                        <p>eXist-db v3.5 oder v4.4</p>
+                        <p>eXist-db v5.2</p>
                         <p>ediarum.BASE.edit v1.1.1</p>
-                        <p>ediarum.DB v3.2.5</p>
-                        <p>ediarum.REGISTER.edit v1.0.1</p>
+                        <p>ediarum.DB v4.0.1</p>
+                        <p>ediarum.REGISTER.edit v1.0.3</p>
                     </stentry>
                     <stentry>Correcciones debidas al workshop de ediarum 09.-11.03. 2020.</stentry>
                 </strow>
