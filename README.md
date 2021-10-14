@@ -4,7 +4,7 @@ Diese Doku ist in DITA-XML geschrieben.
 
 ### Einstiegspunkt
 
-Wir definieren die Inhaltsstruktur (und das Glossar?) in der DITA bookmap [`setup-doc_DE.ditamap`](setup.ditamap).
+Wir definieren die Inhaltsstruktur (und das Glossar?) in der DITA bookmap [`setup-doc_DE.ditamap`](setup-doc_DE.ditamap).
 
 ### Build-Targets
 
